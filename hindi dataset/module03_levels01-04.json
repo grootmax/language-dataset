@@ -1,0 +1,705 @@
+{
+  "module": 3,
+  "module_name_en": "Matras, Conjuncts & Schwa",
+  "module_name_hi": "मात्रा",
+  "phase": 1,
+  "batch": { "levels_from": 1, "levels_to": 4 },
+  "levels": [
+    {
+      "level": 1,
+      "title_en": "Matras on the line",
+      "title_hi": "ा ि ी",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M03-L01-I1",
+          "type": "letter",
+          "target": "ा",
+          "read_as": "aa",
+          "pronunciation_notes": "A single vertical stroke written after the consonant. It replaces the inherent अ, so क becomes का.",
+          "gloss_en": "the long aa matra",
+          "gender": null,
+          "difficulty": 1,
+          "tags": ["matra", "long_vowel", "right_attaching"],
+          "letter_form": "ा",
+          "matra": "ा",
+          "sound_family": "right-attaching matra",
+          "contrasts_with": ["ी", "ो"],
+          "example_word": { "hindi": "काम", "read_as": "kaam", "english": "work" },
+          "cards": {
+            "learn": {
+              "title_en": "ा — the simplest matra",
+              "explanation_en": "Every consonant already carries an अ. A matra replaces that built-in vowel with a different one. ा is the easiest of them: a vertical stroke written after the consonant, turning क into का. Because it sits on the right and is written in the order you say it, this matra causes no confusion at all — the ones that follow are not all so cooperative.",
+              "examples": [
+                { "hindi": "काम", "read_as": "kaam", "english": "work", "note": "क plus the stroke, and the inherent अ is gone." },
+                { "hindi": "राजा", "read_as": "raajaa", "english": "king", "note": "The same matra twice, on र and on ज." },
+                { "hindi": "नाम", "read_as": "naam", "english": "name", "note": "The stroke belongs to न, not to म." }
+              ],
+              "common_error": {
+                "wrong": "कम",
+                "right": "काम",
+                "why_en": "Without the stroke the consonant keeps its inherent अ, and कम means 'less'."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Add the ा matra to this letter.",
+              "question": "क",
+              "question_read_as": "ka",
+              "options": ["का", "कि", "कु", "को"],
+              "options_read_as": ["kaa", "ki", "ku", "ko"],
+              "answer_index": 0,
+              "explanation_en": "The ा matra is a single vertical stroke written after the consonant."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches काम?",
+              "options": ["kam", "kaam", "kaama", "kamaa"],
+              "options_read_as": ["kam", "kaam", "kaama", "kamaa"],
+              "answer_index": 1,
+              "explanation_en": "The stroke lengthens the first vowel, and the final म has no vowel after it: kaam."
+            }
+          },
+          "audio": {
+            "tts_strings": ["का", "काम", "राजा", "नाम"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L01-I2",
+          "type": "letter",
+          "target": "ि",
+          "read_as": "i",
+          "pronunciation_notes": "Written to the LEFT of its consonant but pronounced after it. कि reads 'ki', never 'ik'.",
+          "gloss_en": "the short i matra",
+          "gender": null,
+          "difficulty": 2,
+          "tags": ["matra", "short_vowel", "left_attaching", "order_trap"],
+          "letter_form": "ि",
+          "matra": "ि",
+          "sound_family": "left-attaching matra",
+          "contrasts_with": ["ी", "े"],
+          "example_word": { "hindi": "किताब", "read_as": "kitaab", "english": "book" },
+          "cards": {
+            "learn": {
+              "title_en": "ि — written before, spoken after",
+              "explanation_en": "This is the only matra that breaks left-to-right order. It is drawn before its consonant but pronounced after it, so कि reads 'ki'. Beginners sounding words out mark by mark produce 'ik' and then cannot find the word in any dictionary. The rule is simple once you trust it: read the consonant first and the matra second, whatever your eye tells you.",
+              "examples": [
+                { "hindi": "किताब", "read_as": "kitaab", "english": "book", "note": "The matra is drawn first, but क is spoken first." },
+                { "hindi": "दिन", "read_as": "din", "english": "day", "note": "One syllable — the hook belongs to द." },
+                { "hindi": "मिल", "read_as": "mil", "english": "to meet, to be found", "note": "The same rule again, this time on म." }
+              ],
+              "common_error": {
+                "wrong": "कीताब",
+                "right": "किताब",
+                "why_en": "The first vowel is short. The long ी attaches on the other side and gives a different syllable."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Add the ि matra to this letter.",
+              "question": "द",
+              "question_read_as": "da",
+              "options": ["दी", "दा", "दि", "दु"],
+              "options_read_as": ["dii", "daa", "di", "du"],
+              "answer_index": 2,
+              "explanation_en": "The ि matra is drawn to the left of the consonant, even though it is pronounced after it."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches किताब?",
+              "options": ["ikataab", "kiitaab", "kitab", "kitaab"],
+              "options_read_as": ["ikataab", "kiitaab", "kitab", "kitaab"],
+              "answer_index": 3,
+              "explanation_en": "The matra is written before क but spoken after it, so the word opens 'ki'. The second syllable is long: kitaab."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कि", "किताब", "दिन", "मिल"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L01-I3",
+          "type": "letter",
+          "target": "ी",
+          "read_as": "ii",
+          "pronunciation_notes": "The long partner of ि, written after the consonant. The two sit on opposite sides, which is the quickest way to tell them apart.",
+          "gloss_en": "the long ii matra",
+          "gender": null,
+          "difficulty": 2,
+          "tags": ["matra", "long_vowel", "right_attaching", "vowel_length"],
+          "letter_form": "ी",
+          "matra": "ी",
+          "sound_family": "right-attaching matra",
+          "contrasts_with": ["ि", "ा"],
+          "example_word": { "hindi": "नीला", "read_as": "niilaa", "english": "blue" },
+          "cards": {
+            "learn": {
+              "title_en": "ी — the mirror of ि",
+              "explanation_en": "ी is the long i, and it attaches on the right — the opposite side from its short partner. That mirroring is worth using as a rule of thumb: hook before the consonant means short, hook after means long. Since Hindi treats vowel length as meaningful, दिन and दीन are two different words rather than two pronunciations of one.",
+              "examples": [
+                { "hindi": "नीला", "read_as": "niilaa", "english": "blue", "note": "The hook follows न and the vowel is held long." },
+                { "hindi": "पानी", "read_as": "paanii", "english": "water", "note": "ी closing a word — long, not short." },
+                { "hindi": "दीवार", "read_as": "diivaar", "english": "wall", "note": "Long in the first syllable and long again in the second." }
+              ],
+              "common_error": {
+                "wrong": "पानि",
+                "right": "पानी",
+                "why_en": "Words ending in this vowel take the long ी; the short ि is very rare in final position."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Add the ी matra to this letter.",
+              "question": "न",
+              "question_read_as": "na",
+              "options": ["नि", "नी", "ना", "नु"],
+              "options_read_as": ["ni", "nii", "naa", "nu"],
+              "answer_index": 1,
+              "explanation_en": "The long ी is written after the consonant; the short ि would be written before it."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches पानी?",
+              "options": ["paanii", "paani", "panii", "paanee"],
+              "options_read_as": ["paanii", "paani", "panii", "paanee"],
+              "answer_index": 0,
+              "explanation_en": "Both vowels are long, and the final one is the long ी rather than the short ि: paanii."
+            }
+          },
+          "audio": {
+            "tts_strings": ["नी", "नीला", "पानी", "दीवार"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level began the matras with ा, ि and ी. A matra replaces the consonant's built-in अ, and ि is the one written on the opposite side from where it is spoken.",
+        "key_forms": ["काम", "किताब", "नीला"],
+        "next_up_en": "Next: the three matras that hang below the line — ु, ू and ृ."
+      }
+    },
+    {
+      "level": 2,
+      "title_en": "Matras below the line",
+      "title_hi": "ु ू ृ",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M03-L02-I1",
+          "type": "letter",
+          "target": "ु",
+          "read_as": "u",
+          "pronunciation_notes": "A single hook under the consonant. Under र it changes shape, so र plus this matra is written रु.",
+          "gloss_en": "the short u matra",
+          "gender": null,
+          "difficulty": 2,
+          "tags": ["matra", "short_vowel", "below_attaching"],
+          "letter_form": "ु",
+          "matra": "ु",
+          "sound_family": "below-attaching matra",
+          "contrasts_with": ["ू", "ृ"],
+          "example_word": { "hindi": "बुरा", "read_as": "buraa", "english": "bad" },
+          "cards": {
+            "learn": {
+              "title_en": "ु — the hook below",
+              "explanation_en": "ु hangs beneath its consonant and gives a short u, as in English 'put'. Its position is straightforward; the difficulty is telling it from the long ू in handwriting, where the two hooks can look almost identical. A few consonants change shape when it attaches, most noticeably र.",
+              "examples": [
+                { "hindi": "बुरा", "read_as": "buraa", "english": "bad", "note": "The hook sits under ब and the vowel stays short." },
+                { "hindi": "सुबह", "read_as": "subah", "english": "morning", "note": "Short u in the first syllable." },
+                { "hindi": "रुकना", "read_as": "ruknaa", "english": "to stop", "note": "Under र the matra is written differently from everywhere else." }
+              ],
+              "common_error": {
+                "wrong": "बूरा",
+                "right": "बुरा",
+                "why_en": "One hook is short and the deeper one is long; this word takes the short hook."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Add the ु matra to this letter.",
+              "question": "ब",
+              "question_read_as": "ba",
+              "options": ["बू", "बा", "बी", "बु"],
+              "options_read_as": ["buu", "baa", "bii", "bu"],
+              "answer_index": 3,
+              "explanation_en": "The short ु is a single hook under the consonant; the long ू is the deeper double hook."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches सुबह?",
+              "options": ["subaha", "suubah", "subah", "sabah"],
+              "options_read_as": ["subaha", "suubah", "subah", "sabah"],
+              "answer_index": 2,
+              "explanation_en": "The first vowel is short, and the final ह colours the vowel before it instead of adding a syllable: subah."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बु", "बुरा", "सुबह", "रुकना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L02-I2",
+          "type": "letter",
+          "target": "ू",
+          "read_as": "uu",
+          "pronunciation_notes": "The deeper double hook under the consonant — the long partner of ु. Under र it takes a special form, as in रू.",
+          "gloss_en": "the long uu matra",
+          "gender": null,
+          "difficulty": 2,
+          "tags": ["matra", "long_vowel", "below_attaching", "vowel_length"],
+          "letter_form": "ू",
+          "matra": "ू",
+          "sound_family": "below-attaching matra",
+          "contrasts_with": ["ु", "ृ"],
+          "example_word": { "hindi": "दूध", "read_as": "duudh", "english": "milk" },
+          "cards": {
+            "learn": {
+              "title_en": "ू — the deeper hook",
+              "explanation_en": "ू is the long u and hangs below the consonant like its short partner, but with an extra turn. In print the difference is obvious; in handwriting it often is not, so knowing the word carries much of the load. The length is not decorative: चुना means 'chose' and चूना means 'lime'.",
+              "examples": [
+                { "hindi": "दूध", "read_as": "duudh", "english": "milk", "note": "The long hook under द." },
+                { "hindi": "फूल", "read_as": "phuul", "english": "flower", "note": "Hold the vowel; a single hook would give a different syllable." },
+                { "hindi": "ज़रूर", "read_as": "zaruur", "english": "certainly", "note": "Under र the matra takes its special written form." }
+              ],
+              "common_error": {
+                "wrong": "दुध",
+                "right": "दूध",
+                "why_en": "The vowel is long, and shortening it is the commonest slip English speakers make in this word."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Add the ू matra to this letter.",
+              "question": "फ",
+              "question_read_as": "pha",
+              "options": ["फू", "फु", "फा", "फी"],
+              "options_read_as": ["phuu", "phu", "phaa", "phii"],
+              "answer_index": 0,
+              "explanation_en": "The long ू is the deeper double hook; a single hook would give the short ु."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches दूध?",
+              "options": ["dudh", "duudha", "dudha", "duudh"],
+              "options_read_as": ["dudh", "duudha", "dudha", "duudh"],
+              "answer_index": 3,
+              "explanation_en": "The vowel is long and no vowel follows the final ध: duudh."
+            }
+          },
+          "audio": {
+            "tts_strings": ["दू", "दूध", "फूल", "ज़रूर"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L02-I3",
+          "type": "letter",
+          "target": "ृ",
+          "read_as": "ri",
+          "pronunciation_notes": "The matra of the vowel ऋ, pronounced 'ri' in modern Hindi. It hooks under the consonant and is easily confused with ु and ू.",
+          "gloss_en": "the ri matra",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["matra", "sanskrit_vowel", "below_attaching", "loan_vocabulary"],
+          "letter_form": "ृ",
+          "matra": "ृ",
+          "sound_family": "below-attaching matra",
+          "contrasts_with": ["ु", "ू"],
+          "example_word": { "hindi": "कृपया", "read_as": "kripayaa", "english": "please" },
+          "cards": {
+            "learn": {
+              "title_en": "ृ — a third hook below the line",
+              "explanation_en": "ृ is the matra of the vowel ऋ, and modern Hindi simply reads it as 'ri'. It joins ु and ू beneath the consonant, which makes three similar-looking marks competing for one position — the main reason it causes trouble. It appears almost entirely in Sanskrit-derived vocabulary, so meeting it tells you something about a word's register.",
+              "examples": [
+                { "hindi": "कृपया", "read_as": "kripayaa", "english": "please", "note": "Under क, read as 'kri'." },
+                { "hindi": "अमृत", "read_as": "amrit", "english": "nectar", "note": "Under म in the middle of the word, and the final vowel drops." },
+                { "hindi": "कृषि", "read_as": "krishi", "english": "agriculture", "note": "Two things to notice: the hook under क, and ष rather than श." }
+              ],
+              "common_error": {
+                "wrong": "किरपया",
+                "right": "कृपया",
+                "why_en": "The sound really is 'kri', but it is written with this single matra rather than with ि plus र."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Add the ृ matra to this letter.",
+              "question": "क",
+              "question_read_as": "ka",
+              "options": ["कु", "कू", "कृ", "कि"],
+              "options_read_as": ["ku", "kuu", "kri", "ki"],
+              "answer_index": 2,
+              "explanation_en": "All three hooks hang below the consonant, and ृ is the one read as 'ri'."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches कृपया?",
+              "options": ["kupayaa", "kripayaa", "kirpayaa", "kuripayaa"],
+              "options_read_as": ["kupayaa", "kripayaa", "kirpayaa", "kuripayaa"],
+              "answer_index": 1,
+              "explanation_en": "The matra under क is read 'ri', giving kripayaa. The hook of ु would give kupayaa instead."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कृ", "कृपया", "अमृत", "कृषि"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered the three matras that hang below the line: ु, ू and ृ. They share one position and look alike, so telling them apart often depends on knowing the word rather than reading the mark.",
+        "key_forms": ["बुरा", "दूध", "कृपया"],
+        "next_up_en": "Next: the matras written above the line, where counting strokes is what separates one vowel from another."
+      }
+    },
+    {
+      "level": 3,
+      "title_en": "Matras above the line",
+      "title_hi": "े ै ो",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M03-L03-I1",
+          "type": "letter",
+          "target": "े",
+          "read_as": "e",
+          "pronunciation_notes": "A single stroke above the consonant. The vowel is flat, with none of the y-glide English adds to 'day'.",
+          "gloss_en": "the e matra",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["matra", "long_vowel", "above_attaching", "monophthong"],
+          "letter_form": "े",
+          "matra": "े",
+          "sound_family": "above-attaching matra",
+          "contrasts_with": ["ै", "ो"],
+          "example_word": { "hindi": "मेरा", "read_as": "meraa", "english": "my" },
+          "cards": {
+            "learn": {
+              "title_en": "े — one stroke above",
+              "explanation_en": "े sits on top of the consonant and gives a flat ए. It is the first of the marks written above the line, and here the counting is what matters: one stroke is े, two strokes is ै. Learners writing quickly add or drop a stroke without noticing, and both directions produce real words rather than obvious nonsense.",
+              "examples": [
+                { "hindi": "मेरा", "read_as": "meraa", "english": "my", "note": "One stroke above म." },
+                { "hindi": "देश", "read_as": "desh", "english": "country", "note": "Flat vowel, with no glide at the end." },
+                { "hindi": "एक", "read_as": "ek", "english": "one", "note": "The full vowel letter, since nothing precedes it." }
+              ],
+              "common_error": {
+                "wrong": "मैरा",
+                "right": "मेरा",
+                "why_en": "Two strokes give ऐ, a more open vowel, and the word is no longer 'my'."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Add the े matra to this letter.",
+              "question": "म",
+              "question_read_as": "ma",
+              "options": ["मे", "मै", "मो", "मौ"],
+              "options_read_as": ["me", "mai", "mo", "mau"],
+              "answer_index": 0,
+              "explanation_en": "One stroke above the consonant is े; a second stroke would make it ै."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches देश?",
+              "options": ["desha", "daish", "deish", "desh"],
+              "options_read_as": ["desha", "daish", "deish", "desh"],
+              "answer_index": 3,
+              "explanation_en": "The vowel is a flat ए with no glide, and the final श has no vowel after it: desh."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मे", "मेरा", "देश", "एक"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L03-I2",
+          "type": "letter",
+          "target": "ै",
+          "read_as": "ai",
+          "pronunciation_notes": "Two strokes above the consonant. Despite the 'ai' transliteration the vowel is a single open sound, close to the a of 'cat'.",
+          "gloss_en": "the ai matra",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["matra", "open_vowel", "above_attaching", "transliteration_trap"],
+          "letter_form": "ै",
+          "matra": "ै",
+          "sound_family": "above-attaching matra",
+          "contrasts_with": ["े", "ौ"],
+          "example_word": { "hindi": "पैसा", "read_as": "paisaa", "english": "money" },
+          "cards": {
+            "learn": {
+              "title_en": "ै — two strokes, one vowel",
+              "explanation_en": "ै is े with a second stroke added, and it opens the vowel considerably. The transliteration is the trap: 'ai' suggests the English word 'eye', but standard Hindi says a single open sound nearer the a of 'cat'. है, the most frequent word in the language, is said 'heh' rather than 'high'.",
+              "examples": [
+                { "hindi": "पैसा", "read_as": "paisaa", "english": "money", "note": "Two strokes above प." },
+                { "hindi": "है", "read_as": "hai", "english": "is", "note": "You will meet this in nearly every sentence you read." },
+                { "hindi": "कैसे", "read_as": "kaise", "english": "how", "note": "Two strokes on क, one on स — both marks inside one short word." }
+              ],
+              "common_error": {
+                "wrong": "पेसा",
+                "right": "पैसा",
+                "why_en": "A single stroke gives the narrower ए; this word needs the wider vowel."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Add the ै matra to this letter.",
+              "question": "प",
+              "question_read_as": "pa",
+              "options": ["पे", "पो", "पै", "पौ"],
+              "options_read_as": ["pe", "po", "pai", "pau"],
+              "answer_index": 2,
+              "explanation_en": "Two strokes above the consonant make ै; a single stroke would give े."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches कैसे?",
+              "options": ["keise", "kaise", "kaisay", "kese"],
+              "options_read_as": ["keise", "kaise", "kaisay", "kese"],
+              "answer_index": 1,
+              "explanation_en": "The first vowel is the open ै and the second is the flat े, and neither carries a glide: kaise."
+            }
+          },
+          "audio": {
+            "tts_strings": ["पै", "पैसा", "है", "कैसे"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L03-I3",
+          "type": "letter",
+          "target": "ो",
+          "read_as": "o",
+          "pronunciation_notes": "The ा stroke with a single mark above it. The vowel is a pure o with no w-glide at the end.",
+          "gloss_en": "the o matra",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["matra", "long_vowel", "right_and_above", "monophthong"],
+          "letter_form": "ो",
+          "matra": "ो",
+          "sound_family": "right-and-above matra",
+          "contrasts_with": ["ौ", "े"],
+          "example_word": { "hindi": "सोना", "read_as": "sonaa", "english": "gold; to sleep" },
+          "cards": {
+            "learn": {
+              "title_en": "ो — a stroke and a mark together",
+              "explanation_en": "ो combines two pieces you already know: the vertical stroke of ा, plus a mark above the line. Together they give a long, flat o. English speakers finish this vowel with a small w, which is one of the clearest signals of an English accent in Hindi. The counting rule carries over from े and ै — one mark above is ो, two is ौ.",
+              "examples": [
+                { "hindi": "सोना", "read_as": "sonaa", "english": "gold; to sleep", "note": "Stroke and mark together on स." },
+                { "hindi": "दो", "read_as": "do", "english": "two", "note": "One short word and one steady vowel." },
+                { "hindi": "लोग", "read_as": "log", "english": "people", "note": "Flat o, and the final vowel of ग drops." }
+              ],
+              "common_error": {
+                "wrong": "दौ",
+                "right": "दो",
+                "why_en": "Two marks above give the more open ौ, and दौ is not a word."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Add the ो matra to this letter.",
+              "question": "स",
+              "question_read_as": "sa",
+              "options": ["सौ", "सा", "से", "सो"],
+              "options_read_as": ["sau", "saa", "se", "so"],
+              "answer_index": 3,
+              "explanation_en": "ो is the vertical stroke with one mark above it; a second mark would make it ौ."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches लोग?",
+              "options": ["loga", "lowg", "log", "laug"],
+              "options_read_as": ["loga", "lowg", "log", "laug"],
+              "answer_index": 2,
+              "explanation_en": "The vowel is flat with no w after it, and the final ग carries no vowel: log."
+            }
+          },
+          "audio": {
+            "tts_strings": ["सो", "सोना", "दो", "लोग"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered the marks written above the line — े, ै and ो. Counting strokes is what separates them, and one stroke either way gives a different vowel and usually a different word.",
+        "key_forms": ["मेरा", "पैसा", "सोना"],
+        "next_up_en": "Next: ौ completes the ten matras, followed by the two nasal marks that are constantly mistaken for each other."
+      }
+    },
+    {
+      "level": 4,
+      "title_en": "The last matra, and the nasal marks",
+      "title_hi": "ौ ं ँ",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M03-L04-I1",
+          "type": "letter",
+          "target": "ौ",
+          "read_as": "au",
+          "pronunciation_notes": "The ा stroke with two marks above. The vowel is a single open sound, nearer the aw of 'law' than the ow of 'cow'.",
+          "gloss_en": "the au matra",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["matra", "open_vowel", "right_and_above", "transliteration_trap"],
+          "letter_form": "ौ",
+          "matra": "ौ",
+          "sound_family": "right-and-above matra",
+          "contrasts_with": ["ो", "ै"],
+          "example_word": { "hindi": "कौन", "read_as": "kaun", "english": "who" },
+          "cards": {
+            "learn": {
+              "title_en": "ौ — the last of the ten matras",
+              "explanation_en": "ौ completes the set: the vertical stroke with two marks above rather than one. It stands to ो exactly as ै stands to े — the same place in the mouth, opened further. With this the ten matras are finished, and every one of them does the same job, replacing the consonant's inherent अ with something else.",
+              "examples": [
+                { "hindi": "कौन", "read_as": "kaun", "english": "who", "note": "Two marks above क." },
+                { "hindi": "और", "read_as": "aur", "english": "and", "note": "The full vowel letter, since nothing precedes it." },
+                { "hindi": "नौ", "read_as": "nau", "english": "nine", "note": "Two letters and one open vowel." }
+              ],
+              "common_error": {
+                "wrong": "कोन",
+                "right": "कौन",
+                "why_en": "One mark above gives the narrower ो; this word needs two."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Add the ौ matra to this letter.",
+              "question": "क",
+              "question_read_as": "ka",
+              "options": ["कौ", "को", "कै", "के"],
+              "options_read_as": ["kau", "ko", "kai", "ke"],
+              "answer_index": 0,
+              "explanation_en": "Two marks above the vertical stroke make ौ; a single mark would give ो."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches कौन?",
+              "options": ["kown", "kon", "kauna", "kaun"],
+              "options_read_as": ["kown", "kon", "kauna", "kaun"],
+              "answer_index": 3,
+              "explanation_en": "The vowel is a single open sound rather than a glide, and the final न carries no vowel: kaun."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कौ", "कौन", "और", "नौ"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L04-I2",
+          "type": "letter",
+          "target": "ं",
+          "read_as": "ṁ",
+          "pronunciation_notes": "A dot above the line. It is read as a full nasal consonant matching whatever follows: ng before the क-family, ṇ before retroflexes, n before dentals, m before labials.",
+          "gloss_en": "anusvara — the nasal dot",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["nasal_mark", "anusvara", "assimilation"],
+          "letter_form": "ं",
+          "matra": null,
+          "sound_family": "nasal mark",
+          "contrasts_with": ["ँ"],
+          "example_word": { "hindi": "हिंदी", "read_as": "hindii", "english": "Hindi, the language" },
+          "cards": {
+            "learn": {
+              "title_en": "ं — one dot, five sounds",
+              "explanation_en": "The anusvara is a single dot, but it does not stand for a single sound. It takes its identity from the consonant that follows it: ng before क ख ग घ, the palatal ny before च छ ज झ, the retroflex ṇ before ट ठ ड ढ, plain n before त थ द ध, and m before प फ ब भ. That is how one mark replaces all five nasals from Module 2, and why रंग, अंडा and लंबा sound so unlike one another despite carrying the same dot.",
+              "examples": [
+                { "hindi": "हिंदी", "read_as": "hindii", "english": "Hindi, the language", "note": "द follows, so the dot is a plain dental n." },
+                { "hindi": "रंग", "read_as": "raṅg", "english": "colour", "note": "ग follows, so the dot is read as ng." },
+                { "hindi": "लंबा", "read_as": "lambaa", "english": "tall, long", "note": "ब follows, so the dot is read as m." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Add the anusvara to this letter.",
+              "question": "ल",
+              "question_read_as": "la",
+              "options": ["ला", "लु", "लँ", "लं"],
+              "options_read_as": ["laa", "lu", "lã", "laṁ"],
+              "answer_index": 3,
+              "explanation_en": "The anusvara is the plain dot written above the line. The crescent-shaped ँ is a different mark with a different job."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches रंग?",
+              "options": ["raṅg", "ranga", "rag", "raṅga"],
+              "options_read_as": ["raṅg", "ranga", "rag", "raṅga"],
+              "answer_index": 0,
+              "explanation_en": "ग follows the dot, so it is read as the velar nasal, and the final vowel drops: raṅg."
+            }
+          },
+          "audio": {
+            "tts_strings": ["हिंदी", "रंग", "लंबा", "अंडा"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L04-I3",
+          "type": "letter",
+          "target": "ँ",
+          "read_as": "m̐",
+          "pronunciation_notes": "A crescent with a dot inside it. It nasalises the vowel and adds no consonant at all, so हँस is 'hãs' with no n pronounced.",
+          "gloss_en": "chandrabindu — the vowel-nasalising mark",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["nasal_mark", "chandrabindu", "vowel_nasalisation"],
+          "letter_form": "ँ",
+          "matra": null,
+          "sound_family": "nasal mark",
+          "contrasts_with": ["ं"],
+          "example_word": { "hindi": "हँसना", "read_as": "hãsnaa", "english": "to laugh" },
+          "cards": {
+            "learn": {
+              "title_en": "ँ — the vowel hums, nothing closes",
+              "explanation_en": "The chandrabindu does something quite different from the anusvara. It does not stand in for a consonant at all; it simply sends the vowel through the nose. हंस is a swan, with a real n inside it, while हँस is the command 'laugh', with none. Much printed Hindi drops the crescent and writes only the dot, so you will meet both spellings in the wild — but in careful writing the two marks are not interchangeable.",
+              "examples": [
+                { "hindi": "हँसना", "read_as": "hãsnaa", "english": "to laugh", "note": "The vowel is nasalised and no n is sounded." },
+                { "hindi": "माँ", "read_as": "mãa", "english": "mother", "note": "One of the commonest words in the language, and it takes the crescent." },
+                { "hindi": "यहाँ", "read_as": "yahãa", "english": "here", "note": "The final vowel hums rather than closing on a consonant." }
+              ],
+              "common_error": {
+                "wrong": "हंसना",
+                "right": "हँसना",
+                "why_en": "With the plain dot the spelling points at the noun for a swan; the verb takes the crescent."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Add the chandrabindu to this syllable.",
+              "question": "मा",
+              "question_read_as": "maa",
+              "options": ["मां", "माँ", "माः", "मा"],
+              "options_read_as": ["maaṁ", "mãa", "maaḥ", "maa"],
+              "answer_index": 1,
+              "explanation_en": "The crescent with a dot inside it is the chandrabindu. The plain dot alone is the anusvara, which would add a consonant sound."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches हँसना?",
+              "options": ["hansnaa", "hansanaa", "hãsnaa", "hasnaa"],
+              "options_read_as": ["hansnaa", "hansanaa", "hãsnaa", "hasnaa"],
+              "answer_index": 2,
+              "explanation_en": "The crescent nasalises the vowel without adding an n, and the schwa inside the word drops: hãsnaa."
+            }
+          },
+          "audio": {
+            "tts_strings": ["हँसना", "माँ", "यहाँ", "हंस"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level finished the ten matras with ौ and introduced the two nasal marks. The dot ं stands in for a full nasal consonant, chosen by whatever follows it; the crescent ँ only nasalises the vowel and adds nothing.",
+        "key_forms": ["कौन", "रंग", "हँसना"],
+        "next_up_en": "Next: the visarga ः and the halant ्, then a combined reading review before the stacked conjunct letters begin."
+      }
+    }
+  ]
+}

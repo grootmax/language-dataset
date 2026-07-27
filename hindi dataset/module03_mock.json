@@ -1,0 +1,332 @@
+{
+  "module": 3,
+  "module_name_en": "Matras, Conjuncts & Schwa",
+  "kind": "mock_exam",
+  "mock_exam": {
+    "total_questions": 20,
+    "weighting_note": "70% current module (14Q on M3, deliberately weighted toward levels 11-12 since those fall past the last checkpoint at level 10 and would otherwise go untested) / 30% previous phase-1 modules (3Q reviewing M1, 3Q reviewing M2).",
+    "structural_note": "Module 3 has 12 levels, not a multiple of 5, so its 2 checkpoints (after L5, L10) leave levels 11-12 uncovered by any checkpoint — the same gap flagged for Module 14. Compensated here the same way: extra mock weight on those levels.",
+    "questions": [
+      {
+        "id": "M03-MOCK-Q1",
+        "source_item_ids": [
+          "M03-L03-I3"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling means 'two'?",
+        "options": [
+          "दो",
+          "दू",
+          "दा",
+          "दौ"
+        ],
+        "answer_index": 0,
+        "explanation_en": "दौ is not a word — two marks above give the more open ौ, but this word needs the single-stroke ो."
+      },
+      {
+        "id": "M03-MOCK-Q2",
+        "source_item_ids": [
+          "M03-L05-I1"
+        ],
+        "type": "recognition",
+        "prompt_en": "दुःख ('sorrow, pain') uses which mark?",
+        "options": [
+          "्",
+          "ः",
+          "ं",
+          "ँ"
+        ],
+        "answer_index": 1,
+        "explanation_en": "This is visarga ः, a light aspirated breath at the end of the syllable — distinct from both nasal marks."
+      },
+      {
+        "id": "M03-MOCK-Q3",
+        "source_item_ids": [
+          "M03-L05-I2"
+        ],
+        "type": "recognition",
+        "prompt_en": "जगत् (a formal-register word for 'the world') ends with which mark, showing the final consonant has no vowel attached?",
+        "options": [
+          "ं",
+          "ँ",
+          "्",
+          "ः"
+        ],
+        "answer_index": 2,
+        "explanation_en": "The halant ् strips the inherent vowel from the final त, leaving a bare closing consonant sound."
+      },
+      {
+        "id": "M03-MOCK-Q4",
+        "source_item_ids": [
+          "M03-L08-I1"
+        ],
+        "type": "recognition",
+        "prompt_en": "रास्ता ('road, way') uses which conjunct?",
+        "options": [
+          "द्ध",
+          "न्न",
+          "ष्ट",
+          "स्त"
+        ],
+        "answer_index": 3,
+        "explanation_en": "स्त stacks स directly onto त with no vowel between."
+      },
+      {
+        "id": "M03-MOCK-Q5",
+        "source_item_ids": [
+          "M03-L09-I1"
+        ],
+        "type": "recognition",
+        "prompt_en": "सम्पर्क ('contact') uses which conjunct?",
+        "options": [
+          "म्प",
+          "क्क",
+          "च्च",
+          "ज्ज"
+        ],
+        "answer_index": 0,
+        "explanation_en": "म्प stacks म onto प, both pronounced without a vowel between them."
+      },
+      {
+        "id": "M03-MOCK-Q6",
+        "source_item_ids": [
+          "M03-L09-I3"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling means 'child'?",
+        "options": [
+          "बछा",
+          "बच्चा",
+          "बचा",
+          "बच्छा"
+        ],
+        "answer_index": 1,
+        "explanation_en": "The stack च्च is two plain ch sounds held together, not a single aspirated छ."
+      },
+      {
+        "id": "M03-MOCK-Q7",
+        "source_item_ids": [
+          "M03-L10-I1"
+        ],
+        "type": "recognition",
+        "prompt_en": "सज्जन ('a gentleman, a good person') uses which conjunct?",
+        "options": [
+          "प्प",
+          "म्प",
+          "ज्ज",
+          "त्त"
+        ],
+        "answer_index": 2,
+        "explanation_en": "ज्ज stacks two ज sounds together."
+      },
+      {
+        "id": "M03-MOCK-Q8",
+        "source_item_ids": [
+          "M03-L10-I3"
+        ],
+        "type": "recognition",
+        "prompt_en": "चप्पल ('sandal, slipper') uses which conjunct?",
+        "options": [
+          "ज्ज",
+          "त्त",
+          "क्क",
+          "प्प"
+        ],
+        "answer_index": 3,
+        "explanation_en": "प्प stacks two प sounds together, held slightly longer than a single प."
+      },
+      {
+        "id": "M03-MOCK-Q9",
+        "source_item_ids": [
+          "M03-L11-I1"
+        ],
+        "type": "recognition",
+        "prompt_en": "दिल्ली ('Delhi') uses which conjunct?",
+        "options": [
+          "ल्ल",
+          "श्व",
+          "ष्ट",
+          "त्त"
+        ],
+        "answer_index": 0,
+        "explanation_en": "ल्ल stacks two ल sounds together."
+      },
+      {
+        "id": "M03-MOCK-Q10",
+        "source_item_ids": [
+          "M03-L11-I2"
+        ],
+        "type": "recognition",
+        "prompt_en": "विश्वास ('trust, belief') uses which conjunct?",
+        "options": [
+          "स्त",
+          "श्व",
+          "ल्ल",
+          "ष्ट"
+        ],
+        "answer_index": 1,
+        "explanation_en": "श्व stacks श directly onto व."
+      },
+      {
+        "id": "M03-MOCK-Q11",
+        "source_item_ids": [
+          "M03-L11-I3"
+        ],
+        "type": "recognition",
+        "prompt_en": "कष्ट ('trouble, hardship') uses which conjunct?",
+        "options": [
+          "श्व",
+          "त्त",
+          "ष्ट",
+          "ल्ल"
+        ],
+        "answer_index": 2,
+        "explanation_en": "ष्ट stacks ष onto ट."
+      },
+      {
+        "id": "M03-MOCK-Q12",
+        "source_item_ids": [
+          "M03-L12-I1"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling is correct for 'lotus' (the flower)?",
+        "options": [
+          "कमली",
+          "कमलू",
+          "कमला",
+          "कमल"
+        ],
+        "answer_index": 3,
+        "explanation_en": "The final अ is unwritten and silent — near-categorical word-final schwa deletion. Writing ा makes it real: कमला is a woman's name, not the flower."
+      },
+      {
+        "id": "M03-MOCK-Q13",
+        "source_item_ids": [
+          "M03-L12-I2"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling is correct for 'pure, clean'?",
+        "options": [
+          "शुद्ध",
+          "शुध्दा",
+          "शुधा",
+          "शुद्धा"
+        ],
+        "answer_index": 0,
+        "explanation_en": "Not every conjunct keeps a final vowel. शुद्ध ends in a stop and behaves like any ordinary word ending — no extra ा belongs on it."
+      },
+      {
+        "id": "M03-MOCK-Q14",
+        "source_item_ids": [
+          "M03-L12-I3"
+        ],
+        "type": "concept",
+        "prompt_en": "Word-final schwa deletion (कमल = kamal, not kamala) is a firm, near-exceptionless rule. What about MEDIAL schwa deletion, as in समझ (samajh)?",
+        "options": [
+          "Also a firm, exceptionless rule",
+          "Variable — depends on word structure and convention",
+          "It never happens medially",
+          "Only in poetry and songs"
+        ],
+        "answer_index": 1,
+        "explanation_en": "समझ keeps its medial schwa (samajh, not samjh), while other words drop theirs — नमस्ते drops the vowel after म. Medial deletion has to be learned word by word through audio and reading, not applied as a blanket rule."
+      },
+      {
+        "id": "M03-MOCK-Q15",
+        "source_item_ids": [
+          "M01-L02-I1"
+        ],
+        "type": "review",
+        "prompt_en": "ईख ('sugarcane') opens with a long or short vowel?",
+        "options": [
+          "long (ऊ)",
+          "short (उ)",
+          "long (ई)",
+          "short (इ)"
+        ],
+        "answer_index": 2,
+        "explanation_en": "ईख carries the long ई, held roughly twice as long as इ."
+      },
+      {
+        "id": "M03-MOCK-Q16",
+        "source_item_ids": [
+          "M01-L04-I3"
+        ],
+        "type": "review",
+        "prompt_en": "Which of these is NOT aspirated (no puff of breath)?",
+        "options": [
+          "खोना",
+          "छोटा",
+          "थाली",
+          "कोना"
+        ],
+        "answer_index": 3,
+        "explanation_en": "कोना opens with plain क. The other three all open with an aspirated consonant."
+      },
+      {
+        "id": "M03-MOCK-Q17",
+        "source_item_ids": [
+          "M01-L05-I1"
+        ],
+        "type": "review",
+        "prompt_en": "Which spelling means 'lentils'?",
+        "options": [
+          "दाल",
+          "ढाल",
+          "टाल",
+          "डाल"
+        ],
+        "answer_index": 0,
+        "explanation_en": "The tongue touches the teeth for the dental द. Curling it back gives the retroflex ड and a different word, 'branch'."
+      },
+      {
+        "id": "M03-MOCK-Q18",
+        "source_item_ids": [
+          "M02-L01-I3"
+        ],
+        "type": "review",
+        "prompt_en": "गाना ('song; to sing') begins with which letter?",
+        "options": [
+          "ख",
+          "ग",
+          "घ",
+          "क"
+        ],
+        "answer_index": 1,
+        "explanation_en": "गाना opens with the plain, unaspirated ग."
+      },
+      {
+        "id": "M03-MOCK-Q19",
+        "source_item_ids": [
+          "M02-L12-I1"
+        ],
+        "type": "review",
+        "prompt_en": "For व, do the lips close completely or stay apart?",
+        "options": [
+          "touch the teeth",
+          "touch each other briefly",
+          "stay apart",
+          "close completely"
+        ],
+        "answer_index": 2,
+        "explanation_en": "The lower lip only approaches the upper teeth for व. Closing the lips fully instead gives ब, a different letter."
+      },
+      {
+        "id": "M03-MOCK-Q20",
+        "source_item_ids": [
+          "M02-L15-I1"
+        ],
+        "type": "review",
+        "prompt_en": "फ़ोन ('telephone') needs a dot on which letter to mark the f sound?",
+        "options": [
+          "फ",
+          "व",
+          "ब",
+          "फ़"
+        ],
+        "answer_index": 3,
+        "explanation_en": "Without the dot, फ is a p released with breath (ph). The dot marks the borrowed f sound specifically."
+      }
+    ]
+  }
+}

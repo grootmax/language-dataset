@@ -1,0 +1,1545 @@
+{
+  "module": 7,
+  "module_name_en": "The Tense-Aspect Engine",
+  "module_name_hi": "काल",
+  "phase": 3,
+  "batch": {
+    "levels_from": 11,
+    "levels_to": 15
+  },
+  "model_verb": {
+    "hindi": "जाना",
+    "read_as": "jaanaa",
+    "english": "to go",
+    "transitivity": "intransitive"
+  },
+  "levels": [
+    {
+      "level": 11,
+      "title_en": "Continuous past: the shape",
+      "title_hi": "जा रहा था · जा रही थी · जा रहे थे",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L11-I1",
+          "type": "grammar",
+          "target": "मैं जा रहा था",
+          "read_as": "maiṁ jaa rahaa thaa",
+          "pronunciation_notes": "Four words and four beats, with the last two both carrying an h: ra-haa thaa.",
+          "gloss_en": "continuous past, first person masculine",
+          "gender": null,
+          "difficulty": 6,
+          "grid_cell": "continuous_past",
+          "tags": [
+            "tense",
+            "continuous_past",
+            "first_person",
+            "masculine",
+            "time_axis"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "One word again, and it is the same word",
+              "explanation_en": "Swap हूँ for था and the continuous present becomes the continuous past. Nothing else moves — the stem was never going to, and the marker रहा tracks gender and number, neither of which changed. This is the second time the time axis has cost exactly one word, and it will be the last time you are surprised by it. मैं जा रहा था means I was going, which is a moment in the past rather than a habit in the past. The distinction you drilled at level ten holds across the whole grid, not just in the present column.",
+              "examples": [
+                {
+                  "hindi": "मैं जा रहा था",
+                  "read_as": "maiṁ jaa rahaa thaa",
+                  "english": "I was going",
+                  "note": "A moment in the past, caught mid-action."
+                },
+                {
+                  "hindi": "मैं स्कूल जा रहा था",
+                  "read_as": "maiṁ skuul jaa rahaa thaa",
+                  "english": "I was going to school",
+                  "note": "The level eight sentence with one word changed."
+                },
+                {
+                  "hindi": "मैं हिंदी पढ़ रहा था",
+                  "read_as": "maiṁ hindii paṛh rahaa thaa",
+                  "english": "I was studying Hindi",
+                  "note": "The stem पढ़ is unchanged, as stems always are."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं जा रहा हूँ था",
+                "right": "मैं जा रहा था",
+                "why_en": "There is only ever one auxiliary. The past replaces the present one rather than being added behind it."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · मैं · masculine · continuous past",
+              "question_read_as": "jaanaa · maiṁ · masculine · continuous past",
+              "options": [
+                "मैं जा रहा हूँ",
+                "मैं जा रही थी",
+                "मैं जा रहा था",
+                "मैं जाता रहा था"
+              ],
+              "options_read_as": [
+                "maiṁ jaa rahaa huuṁ",
+                "maiṁ jaa rahii thii",
+                "maiṁ jaa rahaa thaa",
+                "maiṁ jaataa rahaa thaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Bare stem, masculine marker रहा, and the past auxiliary था."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous present cell?",
+              "options": [
+                "मैं जा रहा हूँ",
+                "मैं जा रहा था",
+                "मैं जाता था",
+                "मैं गया था"
+              ],
+              "options_read_as": [
+                "maiṁ jaa rahaa huuṁ",
+                "maiṁ jaa rahaa thaa",
+                "maiṁ jaataa thaa",
+                "maiṁ gayaa thaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "मैं जा रहा हूँ. The second is the same cell one column to the left."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं जा रहा था",
+              "मैं स्कूल जा रहा था",
+              "मैं हिंदी पढ़ रहा था"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L11-I2",
+          "type": "grammar",
+          "target": "वह जा रही थी",
+          "read_as": "vah jaa rahii thii",
+          "pronunciation_notes": "Two long ii endings back to back, and both are held: ra-hii thii.",
+          "gloss_en": "continuous past, feminine singular",
+          "gender": null,
+          "difficulty": 6,
+          "grid_cell": "continuous_past",
+          "tags": [
+            "tense",
+            "continuous_past",
+            "third_person",
+            "feminine",
+            "singular",
+            "double_agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Two words carrying the same information",
+              "explanation_en": "In the continuous past, both the marker and the auxiliary agree with gender and number — रही and थी are telling you the same thing twice. That redundancy is worth noticing rather than resenting, because it means the ending rhymes: रही थी, रहा था, रहे थे, रही थीं. If the two halves do not match each other, something is wrong, and you can hear it without working anything out. No other cell in the grid gives you that check for free.",
+              "examples": [
+                {
+                  "hindi": "वह जा रही थी",
+                  "read_as": "vah jaa rahii thii",
+                  "english": "she was going",
+                  "note": "Feminine on both the marker and the auxiliary."
+                },
+                {
+                  "hindi": "लड़की स्कूल जा रही थी",
+                  "read_as": "laṛkii skuul jaa rahii thii",
+                  "english": "the girl was going to school",
+                  "note": "A feminine noun subject, and both words follow it."
+                },
+                {
+                  "hindi": "वह क्या कर रही थी?",
+                  "read_as": "vah kyaa kar rahii thii?",
+                  "english": "what was she doing?",
+                  "note": "The past of the question from level nine."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह जा रही था",
+                "right": "वह जा रही थी",
+                "why_en": "The marker and the auxiliary always match in this cell. Mixing them is audible even before you analyse it."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · वह (feminine) · continuous past",
+              "question_read_as": "jaanaa · vah (feminine) · continuous past",
+              "options": [
+                "वह जा रही थी",
+                "वह जा रही था",
+                "वह जा रहा थी",
+                "वह जा रही थीं"
+              ],
+              "options_read_as": [
+                "vah jaa rahii thii",
+                "vah jaa rahii thaa",
+                "vah jaa rahaa thii",
+                "vah jaa rahii thiiṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Feminine singular on both words: रही and थी."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual past cell?",
+              "options": [
+                "वह जा रही थी",
+                "वह गई थी",
+                "वह जाती थी",
+                "वह जा रही है"
+              ],
+              "options_read_as": [
+                "vah jaa rahii thii",
+                "vah gaii thii",
+                "vah jaatii thii",
+                "vah jaa rahii hai"
+              ],
+              "answer_index": 2,
+              "explanation_en": "वह जाती थी. The second is past too, but perfective — she had gone."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह जा रही थी",
+              "लड़की स्कूल जा रही थी",
+              "वह क्या कर रही थी?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L11-I3",
+          "type": "grammar",
+          "target": "वे जा रहे थे",
+          "read_as": "ve jaa rahe the",
+          "pronunciation_notes": "Three short e endings in a row, and the phrase runs fast because of it: ve jaa ra-he the.",
+          "gloss_en": "continuous past, masculine plural",
+          "gender": null,
+          "difficulty": 6,
+          "grid_cell": "continuous_past",
+          "tags": [
+            "tense",
+            "continuous_past",
+            "third_person",
+            "masculine",
+            "plural"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The cell is finished, and it took one level",
+              "explanation_en": "वे जा रहे थे completes the continuous past, and it should have felt like almost no work. That is because the grid is doing what it was built to do: you learnt the continuous marker at level eight and the past auxiliary at level six, and this cell is those two facts standing next to each other. Four cells of the nine are now yours, and you have learnt exactly two participle systems and two auxiliary sets to get them. The remaining cells are made of the same parts.",
+              "examples": [
+                {
+                  "hindi": "वे जा रहे थे",
+                  "read_as": "ve jaa rahe the",
+                  "english": "they were going",
+                  "note": "Masculine plural on both the marker and the auxiliary."
+                },
+                {
+                  "hindi": "लड़के स्कूल जा रहे थे",
+                  "read_as": "laṛke skuul jaa rahe the",
+                  "english": "the boys were going to school",
+                  "note": "A plural noun subject in the direct form, since nothing follows it."
+                },
+                {
+                  "hindi": "वे यहाँ रह रहे थे",
+                  "read_as": "ve yahaaṁ rah rahe the",
+                  "english": "they were staying here",
+                  "note": "रहना again, with its stem sitting against the marker."
+                }
+              ],
+              "common_error": {
+                "wrong": "वे जा रहा थे",
+                "right": "वे जा रहे थे",
+                "why_en": "Both agreeing words go plural. In this cell you can hear the mismatch, because रहा and थे do not rhyme."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · वे · masculine plural · continuous past",
+              "question_read_as": "jaanaa · ve · masculine plural · continuous past",
+              "options": [
+                "वे जा रहा थे",
+                "वे जा रहे थे",
+                "वे जा रहे था",
+                "वे जा रही थीं"
+              ],
+              "options_read_as": [
+                "ve jaa rahaa the",
+                "ve jaa rahe the",
+                "ve jaa rahe thaa",
+                "ve jaa rahii thiiṁ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Masculine plural gives रहे and थे, and the two rhyme."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous present cell?",
+              "options": [
+                "वे जाते हैं",
+                "वे गए हैं",
+                "वे जा रहे थे",
+                "वे जा रहे हैं"
+              ],
+              "options_read_as": [
+                "ve jaate haiṁ",
+                "ve gae haiṁ",
+                "ve jaa rahe the",
+                "ve jaa rahe haiṁ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "वे जा रहे हैं — the same cell one column to the right of this item."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वे जा रहे थे",
+              "लड़के स्कूल जा रहे थे",
+              "वे यहाँ रह रहे थे"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The continuous past is the continuous present with the auxiliary swapped. Both the marker and the auxiliary agree with gender and number here, so they rhyme — रहा था, रही थी, रहे थे — which gives you a free check on your own sentences.",
+        "key_forms": [
+          "मैं जा रहा था",
+          "वह जा रही थी",
+          "वे जा रहे थे"
+        ],
+        "next_up_en": "Next: the continuous past with the other persons, including the question that opens most accounts of what went wrong."
+      }
+    },
+    {
+      "level": 12,
+      "title_en": "Continuous past: in use",
+      "title_hi": "क्या कर रहे थे? · पढ़ रही थीं",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L12-I1",
+          "type": "grammar",
+          "target": "तुम क्या कर रहे थे",
+          "read_as": "tum kyaa kar rahe the",
+          "pronunciation_notes": "The phrase falls away at the end, with रहे थे both short and unstressed.",
+          "gloss_en": "continuous past, second person",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "continuous_past",
+          "tags": [
+            "tense",
+            "continuous_past",
+            "second_person",
+            "question",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "What were you doing",
+              "explanation_en": "This is the past of the question you learnt at level nine, and it does a specific job: it asks what someone was in the middle of. That is why it turns up whenever anyone is explaining themselves — you were interrupted, you missed a call, you were somewhere unexpected. Note that तुम keeps its plural agreement in the past exactly as it did in the present, so both रहे and थे are plural even for one listener.",
+              "examples": [
+                {
+                  "hindi": "तुम क्या कर रहे थे?",
+                  "read_as": "tum kyaa kar rahe the?",
+                  "english": "what were you doing?",
+                  "note": "The casual register. आप for anyone you do not know."
+                },
+                {
+                  "hindi": "आप क्या कर रहे थे?",
+                  "read_as": "aap kyaa kar rahe the?",
+                  "english": "what were you doing?",
+                  "note": "The polite version, with identical agreement."
+                },
+                {
+                  "hindi": "तुम कहाँ जा रहे थे?",
+                  "read_as": "tum kahaaṁ jaa rahe the?",
+                  "english": "where were you going?",
+                  "note": "A different question word, and the verb is untouched."
+                }
+              ],
+              "common_error": {
+                "wrong": "तुम क्या कर रहा था",
+                "right": "तुम क्या कर रहे थे",
+                "why_en": "तुम is grammatically plural whatever the past tense is doing, so both agreeing words stay plural."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "करना · तुम · continuous past",
+              "question_read_as": "karnaa · tum · continuous past",
+              "options": [
+                "तुम कर रहा था",
+                "तुम करते रहे थे",
+                "तुम कर रहे हो",
+                "तुम कर रहे थे"
+              ],
+              "options_read_as": [
+                "tum kar rahaa thaa",
+                "tum karte rahe the",
+                "tum kar rahe ho",
+                "tum kar rahe the"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Plural marker रहे with the plural past auxiliary थे."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual past cell?",
+              "options": [
+                "तुम क्या कर रहे थे?",
+                "तुम क्या करते थे?",
+                "तुम क्या कर रहे हो?",
+                "तुम क्या करते हो?"
+              ],
+              "options_read_as": [
+                "tum kyaa kar rahe the?",
+                "tum kyaa karte the?",
+                "tum kyaa kar rahe ho?",
+                "tum kyaa karte ho?"
+              ],
+              "answer_index": 1,
+              "explanation_en": "तुम क्या करते थे — what did you use to do, as in for a living."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तुम क्या कर रहे थे?",
+              "आप क्या कर रहे थे?",
+              "तुम कहाँ जा रहे थे?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L12-I2",
+          "type": "grammar",
+          "target": "हम खा रहे थे",
+          "read_as": "ham khaa rahe the",
+          "pronunciation_notes": "खा is one long aspirated syllable with nothing after it: khaa.",
+          "gloss_en": "continuous past, first person plural",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "continuous_past",
+          "tags": [
+            "tense",
+            "continuous_past",
+            "first_person_plural",
+            "transitive",
+            "no_ne"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A transitive verb, still behaving normally",
+              "explanation_en": "खाना takes an object, and in the continuous past that changes nothing at all: हम is the plain subject, the marker agrees with it, and the auxiliary follows. This is the same point level nine made about the continuous present, and it is worth making twice, because the perfective is only two levels away and that is where transitive verbs stop behaving like this. Until then, treat every verb the same. The construction that separates them belongs to one aspect only.",
+              "examples": [
+                {
+                  "hindi": "हम खा रहे थे",
+                  "read_as": "ham khaa rahe the",
+                  "english": "we were eating",
+                  "note": "Plural marker and plural auxiliary, agreeing with हम."
+                },
+                {
+                  "hindi": "हम खाना खा रहे थे",
+                  "read_as": "ham khaanaa khaa rahe the",
+                  "english": "we were eating food",
+                  "note": "खाना is the noun for food, and it sits in front of the verb as the object."
+                },
+                {
+                  "hindi": "हम हिंदी बोल रहे थे",
+                  "read_as": "ham hindii bol rahe the",
+                  "english": "we were speaking Hindi",
+                  "note": "Another object, and the agreement still runs off हम."
+                }
+              ],
+              "common_error": {
+                "wrong": "हम खा रही थे",
+                "right": "हम खा रहे थे",
+                "why_en": "The marker agrees with हम, not with anything the sentence is about. Mixing रही with थे breaks the rhyme."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "खाना · हम · masculine · continuous past",
+              "question_read_as": "khaanaa · ham · masculine · continuous past",
+              "options": [
+                "हम खा रहे थे",
+                "हम खा रहा था",
+                "हम खाते रहे थे",
+                "हम खा रही थीं"
+              ],
+              "options_read_as": [
+                "ham khaa rahe the",
+                "ham khaa rahaa thaa",
+                "ham khaate rahe the",
+                "ham khaa rahii thiiṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Bare stem खा, plural marker रहे, plural auxiliary थे."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous present cell?",
+              "options": [
+                "हम खाते थे",
+                "हम खा रहे थे",
+                "हम खाते हैं",
+                "हम खा रहे हैं"
+              ],
+              "options_read_as": [
+                "ham khaate the",
+                "ham khaa rahe the",
+                "ham khaate haiṁ",
+                "ham khaa rahe haiṁ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "हम खा रहे हैं — we are eating, right now."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "हम खा रहे थे",
+              "हम खाना खा रहे थे",
+              "हम हिंदी बोल रहे थे"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L12-I3",
+          "type": "grammar",
+          "target": "लड़कियाँ पढ़ रही थीं",
+          "read_as": "laṛkiyaaṁ paṛh rahii thiiṁ",
+          "pronunciation_notes": "Three nasal endings in one sentence — याँ, and then थीं — and each is a hum rather than a full n.",
+          "gloss_en": "feminine plural, where only the auxiliary shows the number",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "continuous_past",
+          "tags": [
+            "tense",
+            "continuous_past",
+            "feminine",
+            "plural",
+            "invariant_marker",
+            "noun_subject"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "रही does not go plural either",
+              "explanation_en": "The feminine marker is रही for one woman and for twenty, exactly as जाती was and बड़ी was before it. So in लड़कियाँ पढ़ रही थीं the plural is carried entirely by थीं. This is now the fourth construction in a row where a feminine marked ending refuses to distinguish number, and it is safe to treat as a law: nothing feminine in Hindi that ends in -ी ever has a separate plural. The number, when you need it, will be somewhere else in the sentence.",
+              "examples": [
+                {
+                  "hindi": "लड़कियाँ पढ़ रही थीं",
+                  "read_as": "laṛkiyaaṁ paṛh rahii thiiṁ",
+                  "english": "the girls were studying",
+                  "note": "Plural subject, singular-looking marker, plural auxiliary."
+                },
+                {
+                  "hindi": "लड़की पढ़ रही थी",
+                  "read_as": "laṛkii paṛh rahii thii",
+                  "english": "the girl was studying",
+                  "note": "The singular, and रही is identical."
+                },
+                {
+                  "hindi": "वे यहाँ रह रही थीं",
+                  "read_as": "ve yahaaṁ rah rahii thiiṁ",
+                  "english": "they were staying here",
+                  "note": "The same pair of forms with a pronoun subject."
+                }
+              ],
+              "common_error": {
+                "wrong": "लड़कियाँ पढ़ रहीं थीं",
+                "right": "लड़कियाँ पढ़ रही थीं",
+                "why_en": "The nasalised रहीं is not used here. The auxiliary थीं is already carrying the plural, and it carries it alone."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "पढ़ना · लड़कियाँ · continuous past",
+              "question_read_as": "paṛhnaa · laṛkiyaaṁ · continuous past",
+              "options": [
+                "लड़कियाँ पढ़ रहीं थीं",
+                "लड़कियाँ पढ़ रही थी",
+                "लड़कियाँ पढ़ रही थीं",
+                "लड़कियाँ पढ़ रहे थे"
+              ],
+              "options_read_as": [
+                "laṛkiyaaṁ paṛh rahiiṁ thiiṁ",
+                "laṛkiyaaṁ paṛh rahii thii",
+                "laṛkiyaaṁ paṛh rahii thiiṁ",
+                "laṛkiyaaṁ paṛh rahe the"
+              ],
+              "answer_index": 2,
+              "explanation_en": "रही for any feminine subject, and थीं for the plural."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual past cell?",
+              "options": [
+                "लड़कियाँ पढ़ती थीं",
+                "लड़कियाँ पढ़ रही थीं",
+                "लड़कियाँ पढ़ रही हैं",
+                "लड़कियाँ पढ़ती हैं"
+              ],
+              "options_read_as": [
+                "laṛkiyaaṁ paṛhtii thiiṁ",
+                "laṛkiyaaṁ paṛh rahii thiiṁ",
+                "laṛkiyaaṁ paṛh rahii haiṁ",
+                "laṛkiyaaṁ paṛhtii haiṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "लड़कियाँ पढ़ती थीं — they used to study, rather than were studying."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "लड़कियाँ पढ़ रही थीं",
+              "लड़की पढ़ रही थी",
+              "वे यहाँ रह रही थीं"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Four cells done and the pattern is now mechanical. तुम and आप stay plural in every tense, transitive verbs still behave like any other, and the feminine marker रही refuses to mark number just as every feminine -ी ending in this course has.",
+        "key_forms": [
+          "तुम क्या कर रहे थे",
+          "हम खा रहे थे",
+          "लड़कियाँ पढ़ रही थीं"
+        ],
+        "next_up_en": "Next: the two past cells side by side, and how to say something was not happening."
+      }
+    },
+    {
+      "level": 13,
+      "title_en": "The two past cells, compared",
+      "title_hi": "पढ़ता था · पढ़ रहा था",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L13-I1",
+          "type": "grammar",
+          "target": "वह पढ़ रहा था",
+          "read_as": "vah paṛh rahaa thaa",
+          "pronunciation_notes": "Three breathy sounds in sequence — ढ़, ह, थ — and none should be dropped.",
+          "gloss_en": "the past minimal pair",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "continuous_past",
+          "tags": [
+            "tense",
+            "continuous_past",
+            "habitual_contrast",
+            "minimal_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "वह पढ़ता था and वह पढ़ रहा था",
+              "explanation_en": "The same split as level ten, moved one column left. वह पढ़ता था says he used to study — a habit that held over some stretch of the past. वह पढ़ रहा था says he was studying at a particular moment, and says nothing about whether he did it often. English marks this too, with used to study against was studying, so the concept is familiar. What is worth practising is producing the right one under pressure, because both are past and both feel available.",
+              "examples": [
+                {
+                  "hindi": "वह पढ़ रहा था",
+                  "read_as": "vah paṛh rahaa thaa",
+                  "english": "he was studying",
+                  "note": "One moment, caught in progress."
+                },
+                {
+                  "hindi": "वह पढ़ता था",
+                  "read_as": "vah paṛhtaa thaa",
+                  "english": "he used to study",
+                  "note": "A stretch of time, described as a routine."
+                },
+                {
+                  "hindi": "वह रोज़ पढ़ता था",
+                  "read_as": "vah roz paṛhtaa thaa",
+                  "english": "he used to study every day",
+                  "note": "रोज़ still only fits the habitual, exactly as in the present."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह रोज़ पढ़ रहा था",
+                "right": "वह रोज़ पढ़ता था",
+                "why_en": "रोज़ describes a repeated habit, and the continuous can only describe one stretch of time in progress."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "पढ़ना · वह · masculine · continuous past",
+              "question_read_as": "paṛhnaa · vah · masculine · continuous past",
+              "options": [
+                "वह पढ़ता था",
+                "वह पढ़ रहा है",
+                "वह पढ़ रही थी",
+                "वह पढ़ रहा था"
+              ],
+              "options_read_as": [
+                "vah paṛhtaa thaa",
+                "vah paṛh rahaa hai",
+                "vah paṛh rahii thii",
+                "vah paṛh rahaa thaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Bare stem, masculine marker रहा, past auxiliary था."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual past cell?",
+              "options": [
+                "वह पढ़ रहा था",
+                "वह पढ़ता था",
+                "वह पढ़ रहा है",
+                "वह पढ़ता है"
+              ],
+              "options_read_as": [
+                "vah paṛh rahaa thaa",
+                "vah paṛhtaa thaa",
+                "vah paṛh rahaa hai",
+                "vah paṛhtaa hai"
+              ],
+              "answer_index": 1,
+              "explanation_en": "वह पढ़ता था. These four options are the four corners of two aspects across two times."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह पढ़ रहा था",
+              "वह पढ़ता था",
+              "वह रोज़ पढ़ता था"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L13-I2",
+          "type": "grammar",
+          "target": "मैं नहीं जा रहा था",
+          "read_as": "maiṁ nahiiṁ jaa rahaa thaa",
+          "pronunciation_notes": "Five words, and the two nasal hums bracket the phrase: maiṁ nahiiṁ at the front, nothing at the end.",
+          "gloss_en": "negating the continuous",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "continuous_past",
+          "tags": [
+            "tense",
+            "continuous_past",
+            "negation",
+            "first_person",
+            "module5_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "नहीं sits in front of the whole verb",
+              "explanation_en": "The rule from level seven applies unchanged: नहीं goes before the verb and nothing else moves. What is worth noting is that the verb here is three words long, and नहीं still goes in front of all three rather than inside them. Hindi treats जा रहा था as a single unit for this purpose, which is a useful way to think about it generally — the three words are one verb, and things that attach to verbs attach to the front of the whole group.",
+              "examples": [
+                {
+                  "hindi": "मैं नहीं जा रहा था",
+                  "read_as": "maiṁ nahiiṁ jaa rahaa thaa",
+                  "english": "I was not going",
+                  "note": "नहीं in front of all three words of the verb."
+                },
+                {
+                  "hindi": "वह नहीं पढ़ रही थी",
+                  "read_as": "vah nahiiṁ paṛh rahii thii",
+                  "english": "she was not studying",
+                  "note": "The same placement, with feminine agreement behind it."
+                },
+                {
+                  "hindi": "हम नहीं खा रहे थे",
+                  "read_as": "ham nahiiṁ khaa rahe the",
+                  "english": "we were not eating",
+                  "note": "And again with a plural subject."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं जा नहीं रहा था",
+                "right": "मैं नहीं जा रहा था",
+                "why_en": "Splitting the stem from its marker breaks the verb apart. नहीं goes in front of the group, never inside it."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Make this negative.",
+              "question": "मैं जा रहा था · negative",
+              "question_read_as": "maiṁ jaa rahaa thaa · negative",
+              "options": [
+                "मैं जा नहीं रहा था",
+                "मैं नहीं जा रहा था",
+                "मैं जा रहा था नहीं",
+                "मैं जा रहा नहीं था"
+              ],
+              "options_read_as": [
+                "maiṁ jaa nahiiṁ rahaa thaa",
+                "maiṁ nahiiṁ jaa rahaa thaa",
+                "maiṁ jaa rahaa thaa nahiiṁ",
+                "maiṁ jaa rahaa nahiiṁ thaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The three words of the verb stay together and नहीं goes in front of them."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous present cell?",
+              "options": [
+                "मैं नहीं जाता था",
+                "मैं नहीं जा रहा था",
+                "मैं नहीं जा रहा हूँ",
+                "मैं नहीं जाता"
+              ],
+              "options_read_as": [
+                "maiṁ nahiiṁ jaataa thaa",
+                "maiṁ nahiiṁ jaa rahaa thaa",
+                "maiṁ nahiiṁ jaa rahaa huuṁ",
+                "maiṁ nahiiṁ jaataa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "मैं नहीं जा रहा हूँ. The last is habitual present with the auxiliary dropped after नहीं."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं नहीं जा रहा था",
+              "वह नहीं पढ़ रही थी",
+              "हम नहीं खा रहे थे"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L13-I3",
+          "type": "grammar",
+          "target": "वह सो रहा था",
+          "read_as": "vah so rahaa thaa",
+          "pronunciation_notes": "सो is one syllable with a long open o and no consonant after it: so.",
+          "gloss_en": "a verb whose continuous and perfective both matter",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "continuous_past",
+          "tags": [
+            "tense",
+            "continuous_past",
+            "new_verb",
+            "intransitive",
+            "perfective_preview"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सोना, and a look at what comes next",
+              "explanation_en": "सोना means to sleep, and its bare stem is सो. It is intransitive — you cannot sleep something — which matters because the next level opens the perfective, and every verb there will be intransitive for a reason. वह सो रहा था is he was sleeping, an action in progress. The perfective of the same verb, coming shortly, is वह सोया है, which means he has gone to sleep and is still asleep. Two aspects, one verb, and the difference is between the act and its result.",
+              "examples": [
+                {
+                  "hindi": "वह सो रहा था",
+                  "read_as": "vah so rahaa thaa",
+                  "english": "he was sleeping",
+                  "note": "The action, caught in progress."
+                },
+                {
+                  "hindi": "बच्चे सो रहे थे",
+                  "read_as": "bachche so rahe the",
+                  "english": "the children were sleeping",
+                  "note": "A plural noun subject with plural agreement on both words."
+                },
+                {
+                  "hindi": "वह अभी सो रही है",
+                  "read_as": "vah abhii so rahii hai",
+                  "english": "she is sleeping right now",
+                  "note": "अभी pins the sentence to this moment, so the continuous is the only option."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह अभी सोती है",
+                "right": "वह अभी सो रही है",
+                "why_en": "अभी means right now, and a word meaning right now cannot sit with the habitual."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "सोना · वह · masculine · continuous past",
+              "question_read_as": "sonaa · vah · masculine · continuous past",
+              "options": [
+                "वह सोता था",
+                "वह सो रही थी",
+                "वह सो रहा था",
+                "वह सोता रहा था"
+              ],
+              "options_read_as": [
+                "vah sotaa thaa",
+                "vah so rahii thii",
+                "vah so rahaa thaa",
+                "vah sotaa rahaa thaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Bare stem सो, masculine marker रहा, past auxiliary था."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous present cell?",
+              "options": [
+                "वह सो रहा है",
+                "वह सो रहा था",
+                "वह सोता है",
+                "वह सोता था"
+              ],
+              "options_read_as": [
+                "vah so rahaa hai",
+                "vah so rahaa thaa",
+                "vah sotaa hai",
+                "vah sotaa thaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "वह सो रहा है — he is sleeping now."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह सो रहा था",
+              "बच्चे सो रहे थे",
+              "वह अभी सो रही है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Four of the nine cells are finished. The habitual and continuous split the same way in the past as in the present, नहीं sits in front of the whole verb group however many words long it is, and the adverb test still decides the aspect when you are unsure.",
+        "key_forms": [
+          "वह पढ़ रहा था",
+          "मैं नहीं जा रहा था",
+          "वह सो रहा था"
+        ],
+        "next_up_en": "Next: the perfective, which describes an action as finished — and where the verbs are chosen very deliberately."
+      }
+    },
+    {
+      "level": 14,
+      "title_en": "Perfective present: the form",
+      "title_hi": "आया है · बैठा है · गया है",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L14-I1",
+          "type": "grammar",
+          "target": "वह आया है",
+          "read_as": "vah aayaa hai",
+          "pronunciation_notes": "Two long aa vowels with a y glide between them: aa-yaa.",
+          "gloss_en": "the perfective participle, and how it is built",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "perfective_present",
+          "tags": [
+            "tense",
+            "perfective_present",
+            "third_person",
+            "masculine",
+            "intransitive",
+            "participle_rule"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A third base, and a short rule",
+              "explanation_en": "The perfective has its own participle, and it is the simplest of the three to build. Take the stem and add -आ; if the stem already ends in a vowel, a य appears to separate them. So बैठ becomes बैठा and आ becomes आया. वह आया है means he has come, and the है adds something specific: the action is finished and its result still holds. He came, and he is here. There is one more thing worth knowing now. The perfective can stand with no auxiliary at all — वह आया simply means he came — and that bare form is the ordinary way to narrate a past event, more common in speech than either वह आया है or वह आया था.",
+              "examples": [
+                {
+                  "hindi": "वह आया है",
+                  "read_as": "vah aayaa hai",
+                  "english": "he has come",
+                  "note": "Finished, and the result stands — he is here now."
+                },
+                {
+                  "hindi": "वह आया",
+                  "read_as": "vah aayaa",
+                  "english": "he came",
+                  "note": "No auxiliary at all. This is the everyday past and you will hear it constantly."
+                },
+                {
+                  "hindi": "वह घर आया है",
+                  "read_as": "vah ghar aayaa hai",
+                  "english": "he has come home",
+                  "note": "आना with a destination takes no postposition, exactly like जाना."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह आता है",
+                "right": "वह आया है",
+                "why_en": "आता है is the habitual — he comes, as a routine. The perfective is about one completed arrival."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "आना · वह · masculine · perfective present",
+              "question_read_as": "aanaa · vah · masculine · perfective present",
+              "options": [
+                "वह आया है",
+                "वह आ रहा है",
+                "वह आता है",
+                "वह आयी हैं"
+              ],
+              "options_read_as": [
+                "vah aayaa hai",
+                "vah aa rahaa hai",
+                "vah aataa hai",
+                "vah aayii haiṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Perfective participle आया with the present auxiliary है."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous present cell?",
+              "options": [
+                "वह आया था",
+                "वह आया है",
+                "वह आता है",
+                "वह आ रहा है"
+              ],
+              "options_read_as": [
+                "vah aayaa thaa",
+                "vah aayaa hai",
+                "vah aataa hai",
+                "vah aa rahaa hai"
+              ],
+              "answer_index": 3,
+              "explanation_en": "वह आ रहा है — he is on his way. The second says he has already arrived."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह आया है",
+              "वह आया",
+              "वह घर आया है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L14-I2",
+          "type": "grammar",
+          "target": "वह बैठा है",
+          "read_as": "vah baiṭhaa hai",
+          "pronunciation_notes": "The ठ is retroflex and aspirated, so the tongue curls back and the breath follows: bai-ṭhaa.",
+          "gloss_en": "a consonant-final stem, and the perfective as a state",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "perfective_present",
+          "tags": [
+            "tense",
+            "perfective_present",
+            "third_person",
+            "masculine",
+            "intransitive",
+            "resulting_state"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The perfective often describes a state, not an event",
+              "explanation_en": "बैठना means to sit down, and its stem बैठ ends in a consonant, so the participle is simply बैठा with no य needed. But the interesting part is the meaning. वह बैठा है is most naturally translated he is sitting — not he has sat. English uses a continuous there and Hindi uses a perfective, because the sitting-down is finished and what remains is the position. A whole family of verbs works this way: the perfective gives you the resulting state rather than the moment of change.",
+              "examples": [
+                {
+                  "hindi": "वह बैठा है",
+                  "read_as": "vah baiṭhaa hai",
+                  "english": "he is sitting",
+                  "note": "The act of sitting down is complete; what you see is the result."
+                },
+                {
+                  "hindi": "वह यहाँ बैठा है",
+                  "read_as": "vah yahaaṁ baiṭhaa hai",
+                  "english": "he is sitting here",
+                  "note": "A place word slots in and the verb is untouched."
+                },
+                {
+                  "hindi": "वह सोया है",
+                  "read_as": "vah soyaa hai",
+                  "english": "he is asleep",
+                  "note": "सोना behaves the same way — the falling asleep is done, the sleeping remains."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह बैठ रहा है",
+                "right": "वह बैठा है",
+                "why_en": "बैठ रहा है means he is in the act of lowering himself into a chair. For someone already seated, Hindi uses the perfective."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "बैठना · वह · masculine · perfective present",
+              "question_read_as": "baiṭhnaa · vah · masculine · perfective present",
+              "options": [
+                "वह बैठता है",
+                "वह बैठा है",
+                "वह बैठ रहा है",
+                "वह बैठाया है"
+              ],
+              "options_read_as": [
+                "vah baiṭhtaa hai",
+                "vah baiṭhaa hai",
+                "vah baiṭh rahaa hai",
+                "vah baiṭhaayaa hai"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The stem ends in a consonant, so the participle is बैठ plus -आ with no य."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": [
+                "वह बैठा है",
+                "वह बैठ रहा है",
+                "वह बैठता है",
+                "वह बैठा था"
+              ],
+              "options_read_as": [
+                "vah baiṭhaa hai",
+                "vah baiṭh rahaa hai",
+                "vah baiṭhtaa hai",
+                "vah baiṭhaa thaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "वह बैठता है — he sits, as a habit. The first says he is currently seated."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह बैठा है",
+              "वह यहाँ बैठा है",
+              "वह सोया है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L14-I3",
+          "type": "grammar",
+          "target": "वह गया है",
+          "read_as": "vah gayaa hai",
+          "pronunciation_notes": "Two light syllables with a y between them, and neither is stressed: ga-yaa.",
+          "gloss_en": "the one irregular perfective you already know",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "perfective_present",
+          "tags": [
+            "tense",
+            "perfective_present",
+            "third_person",
+            "masculine",
+            "intransitive",
+            "irregular"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जाना does not follow the rule",
+              "explanation_en": "By the rule from the last two items, जा should give जाया. It does not. The perfective of जाना is गया, which shares no letters with the stem at all — the verb simply borrows a different root for this one participle. This is the model verb of the module, so you met गया on the very first card, and it is worth knowing that its strangeness is real rather than something you misread. There are only a handful of verbs like this in Hindi and they are collected at the end of this module, so treat गया as the one exception you carry until then.",
+              "examples": [
+                {
+                  "hindi": "वह गया है",
+                  "read_as": "vah gayaa hai",
+                  "english": "he has gone",
+                  "note": "Finished, and the result holds — he is not here."
+                },
+                {
+                  "hindi": "वह गया",
+                  "read_as": "vah gayaa",
+                  "english": "he went",
+                  "note": "The bare perfective again, which is the ordinary way to say it."
+                },
+                {
+                  "hindi": "वह स्कूल गया है",
+                  "read_as": "vah skuul gayaa hai",
+                  "english": "he has gone to school",
+                  "note": "The destination takes no postposition, as always with जाना."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह जाया है",
+                "right": "वह गया है",
+                "why_en": "जाया is what the rule predicts and it is not a word. जाना takes गया, and it is the only common verb that does anything this drastic."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · वह · masculine · perfective present",
+              "question_read_as": "jaanaa · vah · masculine · perfective present",
+              "options": [
+                "वह जाया है",
+                "वह जाता है",
+                "वह जा रहा है",
+                "वह गया है"
+              ],
+              "options_read_as": [
+                "vah jaayaa hai",
+                "vah jaataa hai",
+                "vah jaa rahaa hai",
+                "vah gayaa hai"
+              ],
+              "answer_index": 3,
+              "explanation_en": "जाना is irregular in the perfective: the participle is गया, not जाया."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the perfective present cell?",
+              "options": [
+                "वह जाता है",
+                "वह गया है",
+                "वह जा रहा है",
+                "वह गया था"
+              ],
+              "options_read_as": [
+                "vah jaataa hai",
+                "vah gayaa hai",
+                "vah jaa rahaa hai",
+                "vah gayaa thaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "वह गया है. The last one is perfective too, but past — he had gone."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह गया है",
+              "वह गया",
+              "वह स्कूल गया है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The perfective participle is the stem plus -आ, with a य inserted after a vowel: बैठा, सोया, आया. जाना is irregular and gives गया. The auxiliary is optional here, and the bare perfective — वह आया, वह गया — is the ordinary way to narrate a past event.",
+        "key_forms": [
+          "वह आया है",
+          "वह बैठा है",
+          "वह गया है"
+        ],
+        "next_up_en": "Next: the perfective across genders and numbers, and an honest word about why every verb in this block goes rather than does."
+      }
+    },
+    {
+      "level": 15,
+      "title_en": "Perfective present: agreement, and one missing piece",
+      "title_hi": "आई है · आए हैं",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M07-L15-I1",
+          "type": "grammar",
+          "target": "वह आई है",
+          "read_as": "vah aaii hai",
+          "pronunciation_notes": "Two vowels running together into one long glide, with no consonant between: aa-ii.",
+          "gloss_en": "perfective present, feminine singular",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "perfective_present",
+          "tags": [
+            "tense",
+            "perfective_present",
+            "third_person",
+            "feminine",
+            "singular",
+            "intransitive"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The same three endings, a third time",
+              "explanation_en": "The perfective participle takes -आ, -ई and -ए, which are the same marked endings in a slightly different dress: आया, आई, आए. Compare them with जाता, जाती, जाते and with रहा, रही, रहे and the family resemblance is obvious. Three aspects, three participles, and all three agree with the subject the same way. Whatever else is complicated about Hindi verbs, the agreement is not — you have been doing the identical thing since बड़ा and बड़ी in Module 6.",
+              "examples": [
+                {
+                  "hindi": "वह आई है",
+                  "read_as": "vah aaii hai",
+                  "english": "she has come",
+                  "note": "Feminine participle with the third person auxiliary."
+                },
+                {
+                  "hindi": "लड़की घर आई है",
+                  "read_as": "laṛkii ghar aaii hai",
+                  "english": "the girl has come home",
+                  "note": "A feminine noun subject, and the participle reads it."
+                },
+                {
+                  "hindi": "वह गई है",
+                  "read_as": "vah gaii hai",
+                  "english": "she has gone",
+                  "note": "The irregular verb takes the same endings: गया, गई, गए."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह आया है",
+                "right": "वह आई है",
+                "why_en": "Not ungrammatical, but it means he. वह tells your listener nothing about gender, so the participle is doing all of that work."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "आना · वह (feminine) · perfective present",
+              "question_read_as": "aanaa · vah (feminine) · perfective present",
+              "options": [
+                "वह आई है",
+                "वह आती है",
+                "वह आया है",
+                "वह आई हैं"
+              ],
+              "options_read_as": [
+                "vah aaii hai",
+                "vah aatii hai",
+                "vah aayaa hai",
+                "vah aaii haiṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Feminine perfective participle आई, and वह takes है."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": [
+                "वह आई है",
+                "वह आ रही है",
+                "वह आई थी",
+                "वह आती है"
+              ],
+              "options_read_as": [
+                "vah aaii hai",
+                "vah aa rahii hai",
+                "vah aaii thii",
+                "vah aatii hai"
+              ],
+              "answer_index": 3,
+              "explanation_en": "वह आती है — she comes, as a routine."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह आई है",
+              "लड़की घर आई है",
+              "वह गई है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L15-I2",
+          "type": "grammar",
+          "target": "वे आए हैं",
+          "read_as": "ve aae haiṁ",
+          "pronunciation_notes": "Two vowels again, the second shorter: aa-e, and then the nasal auxiliary.",
+          "gloss_en": "perfective plural, and why these verbs were chosen",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "perfective_present",
+          "tags": [
+            "tense",
+            "perfective_present",
+            "third_person",
+            "plural",
+            "intransitive",
+            "module9_preview",
+            "honest_gap"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Why every verb in this block is one you cannot do to something",
+              "explanation_en": "आना, जाना, बैठना, सोना — all four are intransitive, meaning they take no object. That is not an accident of the examples, and you deserve to know why. In the perfective, and only in the perfective, Hindi treats transitive verbs completely differently: the subject takes a marker and the verb stops agreeing with it. So मैंने खाया, not मैं खाया. That construction is large enough to have its own module, and it arrives as Module 9. Until then, build perfectives only with verbs like these, and if you catch yourself wanting to say I ate or she read, wait — the sentence you would produce now would be wrong.",
+              "examples": [
+                {
+                  "hindi": "वे आए हैं",
+                  "read_as": "ve aae haiṁ",
+                  "english": "they have come",
+                  "note": "Plural participle with the plural auxiliary."
+                },
+                {
+                  "hindi": "लड़के घर आए हैं",
+                  "read_as": "laṛke ghar aae haiṁ",
+                  "english": "the boys have come home",
+                  "note": "A plural noun subject in its direct form."
+                },
+                {
+                  "hindi": "वे गए हैं",
+                  "read_as": "ve gae haiṁ",
+                  "english": "they have gone",
+                  "note": "The irregular verb, plural."
+                }
+              ],
+              "common_error": {
+                "wrong": "वे आया हैं",
+                "right": "वे आए हैं",
+                "why_en": "The participle goes plural along with the auxiliary. Fixing only one of the two is the recurring half-correction in this module."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "आना · वे · masculine plural · perfective present",
+              "question_read_as": "aanaa · ve · masculine plural · perfective present",
+              "options": [
+                "वे आया हैं",
+                "वे आते हैं",
+                "वे आए हैं",
+                "वे आए है"
+              ],
+              "options_read_as": [
+                "ve aayaa haiṁ",
+                "ve aate haiṁ",
+                "ve aae haiṁ",
+                "ve aae hai"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Plural participle आए with the plural auxiliary हैं."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the perfective present cell?",
+              "options": [
+                "वे आए हैं",
+                "वे आ रहे हैं",
+                "वे आए थे",
+                "वे आते हैं"
+              ],
+              "options_read_as": [
+                "ve aae haiṁ",
+                "ve aa rahe haiṁ",
+                "ve aae the",
+                "ve aate haiṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "वे आए हैं. The third is the same aspect one column left — they had come."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वे आए हैं",
+              "लड़के घर आए हैं",
+              "वे गए हैं"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L15-I3",
+          "type": "dialogue",
+          "target": "आया हूँ",
+          "read_as": "aayaa huuṁ",
+          "pronunciation_notes": "The participle and the auxiliary run together in speech, close to aayaa-huuṁ.",
+          "gloss_en": "arrival and approach, one line apart",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "perfective_present",
+          "tags": [
+            "tense",
+            "perfective_present",
+            "continuous_present",
+            "dialogue",
+            "micro_dialogue",
+            "aspect_contrast"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "One has arrived, the other is on the way",
+              "explanation_en": "This exchange turns on the difference between a finished arrival and one still in progress. आया हूँ says the coming is done and the speaker is here. आ रही है says the sister is somewhere between there and here. Same verb, two aspects, and the choice tells your listener whether to expect someone or start without them. Notice also that the answer in the second line is a complete sentence without any word for at — घर आया हूँ, with no postposition, because आना and जाना take their destination bare.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "तुम कहाँ हो?",
+                  "read_as": "tum kahaaṁ ho?",
+                  "english": "Where are you?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "मैं घर आया हूँ।",
+                  "read_as": "maiṁ ghar aayaa huuṁ.",
+                  "english": "I have come home."
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "क्या बहन भी आई है?",
+                  "read_as": "kyaa bahan bhii aaii hai?",
+                  "english": "Has your sister come too?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "नहीं, वह अभी आ रही है।",
+                  "read_as": "nahiiṁ, vah abhii aa rahii hai.",
+                  "english": "No, she is coming right now."
+                }
+              ],
+              "common_error": {
+                "wrong": "नहीं, वह अभी आई है।",
+                "right": "नहीं, वह अभी आ रही है।",
+                "why_en": "The perfective would say she has already arrived, which contradicts the नहीं at the front of the sentence."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Fill the gap.",
+              "question": "मैं घर ___ हूँ।",
+              "question_read_as": "maiṁ ghar ___ huuṁ.",
+              "options": [
+                "आती",
+                "आया",
+                "आ रही",
+                "आते"
+              ],
+              "options_read_as": [
+                "aatii",
+                "aayaa",
+                "aa rahii",
+                "aate"
+              ],
+              "answer_index": 1,
+              "explanation_en": "A single male speaker who has finished arriving, so the masculine perfective participle आया."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the third line. Which word is missing?",
+              "masked_line_index": 2,
+              "masked_word": "आई",
+              "options": [
+                "आया",
+                "आती",
+                "आई",
+                "आ रही"
+              ],
+              "options_read_as": [
+                "aayaa",
+                "aatii",
+                "aaii",
+                "aa rahii"
+              ],
+              "answer_index": 2,
+              "explanation_en": "बहन is feminine and singular, so the perfective participle is आई."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तुम कहाँ हो?",
+              "मैं घर आया हूँ।",
+              "क्या बहन भी आई है?",
+              "नहीं, वह अभी आ रही है।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The perfective participle takes -आ, -ई and -ए, the same marked endings as every other agreeing word in this course. Every verb in this block is intransitive on purpose: in the perfective, and nowhere else, transitive verbs take a construction that has its own module later on.",
+        "key_forms": [
+          "वह आई है",
+          "वे आए हैं",
+          "आया हूँ"
+        ],
+        "next_up_en": "Next: more perfective present, and then the perfective past — still with verbs you cannot do to anything."
+      }
+    }
+  ]
+}

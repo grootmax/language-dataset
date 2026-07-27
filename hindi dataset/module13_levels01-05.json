@@ -1,0 +1,1381 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "batch": {
+    "levels_from": 1,
+    "levels_to": 5
+  },
+  "block_kind": "vocabulary",
+  "levels": [
+    {
+      "level": 1,
+      "title_en": "Hope, effort, need",
+      "title_hi": "उम्मीद · कोशिश · ज़रूरत",
+      "items": [
+        {
+          "id": "M13-L01-I1",
+          "type": "word",
+          "target": "उम्मीद",
+          "read_as": "ummiid",
+          "gloss_en": "hope, expectation",
+          "gender": "f",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "abstract_noun",
+            "feminine",
+            "gender_flag",
+            "urdu_origin",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "उम्मीद — hope, and also expectation",
+              "explanation_en": "उम्मीद covers both hope and expectation, which English keeps apart. मुझे उम्मीद है कि वह आएगा is \"I hope he'll come\" and also \"I expect he'll come\", and Hindi does not force you to choose. It is feminine and it ends in a consonant, so nothing about its shape tells you that — this is one to flag. The related आशा is the Sanskrit-side word and belongs to more formal writing; उम्मीद is what people say.",
+              "examples": [
+                {
+                  "hindi": "मुझे उम्मीद है कि वह आएगा।",
+                  "read_as": "mujhe ummiid hai ki vah aaegaa.",
+                  "english": "I hope he'll come.",
+                  "note": "The dative experiencer from Module 10 — hope arrives at you."
+                },
+                {
+                  "hindi": "उम्मीद मत छोड़ो।",
+                  "read_as": "ummiid mat chhoṛo.",
+                  "english": "Don't give up hope.",
+                  "note": "मत for an instruction, from Module 12."
+                },
+                {
+                  "hindi": "उसकी उम्मीदें बहुत ऊँची हैं।",
+                  "read_as": "uskii ummiideṁ bahut uuṁchii haiṁ.",
+                  "english": "His expectations are very high.",
+                  "note": "The plural is उम्मीदें, and the adjective goes feminine plural with it."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेरा उम्मीद",
+                "right": "मेरी उम्मीद",
+                "why_en": "उम्मीद is feminine despite the consonant ending, so the possessive is मेरी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does उम्मीद mean?",
+              "options": [
+                "difficulty",
+                "permission",
+                "hope or expectation",
+                "memory"
+              ],
+              "answer_index": 2,
+              "explanation_en": "One word covering both hope and expectation."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word would a formal written report use instead of उम्मीद?",
+              "options": [
+                "आशा",
+                "भरोसा",
+                "इच्छा",
+                "ख़याल"
+              ],
+              "options_read_as": [
+                "aashaa",
+                "bharosaa",
+                "ichchhaa",
+                "ḳhayaal"
+              ],
+              "answer_index": 0,
+              "explanation_en": "आशा is the Sanskrit-side equivalent and belongs to formal writing. भरोसा is trust, not hope, and इच्छा is a wish."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उम्मीद",
+              "मुझे उम्मीद है कि वह आएगा।",
+              "उम्मीद मत छोड़ो।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L01-I2",
+          "type": "word",
+          "target": "कोशिश",
+          "read_as": "koshish",
+          "gloss_en": "attempt, effort",
+          "gender": "f",
+          "gender_flag": true,
+          "difficulty": 5,
+          "tags": [
+            "abstract_noun",
+            "feminine",
+            "gender_flag",
+            "karnaa_compound",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कोशिश करना — to try",
+              "explanation_en": "कोशिश is an attempt, and it lives almost entirely inside कोशिश करना, to try. Hindi has no single verb for \"try\" — you make an attempt. That means the noun carries the gender and the करना half carries everything else: मैंने कोशिश की, with की feminine because कोशिश is. कोशिश is feminine and consonant-final, so flag it — nothing in the word predicts the gender. This is the same shape as मदद की and बात की, and it is one of the commonest patterns in the language.",
+              "examples": [
+                {
+                  "hindi": "मैंने बहुत कोशिश की।",
+                  "read_as": "maiṁne bahut koshish kii.",
+                  "english": "I tried very hard.",
+                  "note": "ने because करना is transitive, and की because कोशिश is feminine."
+                },
+                {
+                  "hindi": "कोशिश करते रहो।",
+                  "read_as": "koshish karte raho.",
+                  "english": "Keep trying.",
+                  "note": "The रहना construction for continuing, from Module 12."
+                },
+                {
+                  "hindi": "एक बार और कोशिश कर लो।",
+                  "read_as": "ek baar aur koshish kar lo.",
+                  "english": "Give it one more go.",
+                  "note": "The लेना vector — do it for your own sake."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने कोशिश किया",
+                "right": "मैंने कोशिश की",
+                "why_en": "कोशिश is feminine, so करना agrees with it."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does कोशिश करना mean?",
+              "options": [
+                "to refuse",
+                "to finish",
+                "to succeed",
+                "to try"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Literally to make an attempt. Hindi has no single verb for \"try\"."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which of these is closest to कोशिश in an official notice?",
+              "options": [
+                "मेहनत",
+                "प्रयास",
+                "इरादा",
+                "काम"
+              ],
+              "options_read_as": [
+                "mehnat",
+                "prayaas",
+                "iraadaa",
+                "kaam"
+              ],
+              "answer_index": 1,
+              "explanation_en": "प्रयास is the formal register equivalent. इरादा is an intention rather than an attempt, and मेहनत is hard work rather than a try."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "कोशिश",
+              "मैंने बहुत कोशिश की।",
+              "कोशिश करते रहो।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L01-I3",
+          "type": "word",
+          "target": "ज़रूरत",
+          "read_as": "zaruurat",
+          "gloss_en": "need, necessity",
+          "gender": "f",
+          "gender_flag": true,
+          "difficulty": 5,
+          "tags": [
+            "abstract_noun",
+            "feminine",
+            "gender_flag",
+            "urdu_origin",
+            "module10_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ज़रूरत — the noun behind चाहिए",
+              "explanation_en": "ज़रूरत is a need, and मुझे ज़रूरत है is \"I need\". You already know चाहिए from Module 10, and the two overlap — मुझे पानी चाहिए and मुझे पानी की ज़रूरत है mean much the same, with the ज़रूरत version slightly more emphatic and more written. ज़रूरत is feminine and ends in a consonant, so nothing about its shape tells you that — flag it alongside उम्मीद and कोशिश. Note the की in that construction: the thing needed goes in the genitive before ज़रूरत, which is not what चाहिए does at all.",
+              "examples": [
+                {
+                  "hindi": "मुझे मदद की ज़रूरत है।",
+                  "read_as": "mujhe madad kii zaruurat hai.",
+                  "english": "I need help.",
+                  "note": "The thing needed takes की before ज़रूरत."
+                },
+                {
+                  "hindi": "इसकी क्या ज़रूरत थी!",
+                  "read_as": "iskii kyaa zaruurat thii!",
+                  "english": "You shouldn't have!",
+                  "note": "The gift protest from Module 12 — you have already met this whole sentence."
+                },
+                {
+                  "hindi": "ज़रूरत पड़े तो बताइए।",
+                  "read_as": "zaruurat paṛe to bataaie.",
+                  "english": "Let me know if you need anything.",
+                  "note": "ज़रूरत पड़ना, for a need to arise. तो carrying the conditional."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे मदद ज़रूरत है",
+                "right": "मुझे मदद की ज़रूरत है",
+                "why_en": "ज़रूरत takes की on the thing needed. चाहिए does not, which is where the confusion comes from."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does ज़रूरत mean?",
+              "options": [
+                "need",
+                "hurry",
+                "chance",
+                "desire"
+              ],
+              "answer_index": 0,
+              "explanation_en": "A need or necessity — the noun that sits behind चाहिए."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "A government form would use which word for ज़रूरत?",
+              "options": [
+                "कमी",
+                "चाह",
+                "आवश्यकता",
+                "माँग"
+              ],
+              "options_read_as": [
+                "kamii",
+                "chaah",
+                "aavashyaktaa",
+                "maaṁg"
+              ],
+              "answer_index": 2,
+              "explanation_en": "आवश्यकता is the Sanskrit-side equivalent used in official writing. माँग is a demand and कमी is a shortage."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ज़रूरत",
+              "मुझे मदद की ज़रूरत है।",
+              "ज़रूरत पड़े तो बताइए।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Three feminine abstract nouns that all end in consonants and none of which look feminine — उम्मीद, कोशिश, ज़रूरत. All three sit inside constructions rather than standing alone: उम्मीद है कि, कोशिश करना, की ज़रूरत है.",
+        "key_forms": [
+          "मुझे उम्मीद है",
+          "कोशिश की",
+          "की ज़रूरत है"
+        ],
+        "next_up_en": "Next: difficulty, truth and freedom."
+      }
+    },
+    {
+      "level": 2,
+      "title_en": "Difficulty, truth, freedom",
+      "title_hi": "मुश्किल · सच्चाई · आज़ादी",
+      "items": [
+        {
+          "id": "M13-L02-I1",
+          "type": "word",
+          "target": "मुश्किल",
+          "read_as": "mushkil",
+          "gloss_en": "difficulty; difficult",
+          "gender": "f",
+          "gender_flag": true,
+          "difficulty": 5,
+          "tags": [
+            "abstract_noun",
+            "feminine",
+            "gender_flag",
+            "adjective_too",
+            "urdu_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मुश्किल is both a noun and an adjective",
+              "explanation_en": "मुश्किल means difficult and also a difficulty, and Hindi uses the same word for both without changing it. ये काम मुश्किल है — this work is difficult. एक मुश्किल है — there's a difficulty. As a noun it is feminine, and as an adjective it does not inflect at all, because adjectives ending in a consonant never do. As a noun it is feminine and consonant-final, so flag it. The Sanskrit-side pair is कठिन, which you will meet in level 25.",
+              "examples": [
+                {
+                  "hindi": "ये सवाल बहुत मुश्किल है।",
+                  "read_as": "ye savaal bahut mushkil hai.",
+                  "english": "This question is very difficult.",
+                  "note": "Adjective, and it does not agree with anything."
+                },
+                {
+                  "hindi": "एक मुश्किल आ गई है।",
+                  "read_as": "ek mushkil aa gaii hai.",
+                  "english": "A difficulty has come up.",
+                  "note": "Noun, feminine, so गई."
+                },
+                {
+                  "hindi": "मुश्किल से पहुँचे।",
+                  "read_as": "mushkil se pahuṁche.",
+                  "english": "We only just got there.",
+                  "note": "मुश्किल से means \"with difficulty\", i.e. barely."
+                }
+              ],
+              "common_error": {
+                "wrong": "ये काम मुश्किला है",
+                "right": "ये काम मुश्किल है",
+                "why_en": "Adjectives ending in a consonant never take -आ, -ए or -ी. मुश्किल stays as it is."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does मुश्किल से mean?",
+              "options": [
+                "easily",
+                "barely, with difficulty",
+                "quickly",
+                "unfortunately"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Literally \"from difficulty\" — it means only just."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means difficult in a formal written register?",
+              "options": [
+                "भारी",
+                "तेज़",
+                "सख़्त",
+                "कठिन"
+              ],
+              "options_read_as": [
+                "bhaarii",
+                "tez",
+                "saḳht",
+                "kaṭhin"
+              ],
+              "answer_index": 3,
+              "explanation_en": "कठिन is the Sanskrit-side pair. सख़्त is strict or hard to the touch, and भारी is heavy."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुश्किल",
+              "ये सवाल बहुत मुश्किल है।",
+              "मुश्किल से पहुँचे।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L02-I2",
+          "type": "word",
+          "target": "सच्चाई",
+          "read_as": "sacchaaii",
+          "gloss_en": "truth, honesty",
+          "gender": "f",
+          "gender_flag": false,
+          "difficulty": 6,
+          "tags": [
+            "abstract_noun",
+            "feminine",
+            "derived_noun",
+            "suffix_aaii"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "-आई turns an adjective into a noun",
+              "explanation_en": "सच is true; सच्चाई is truth. The suffix -आई builds abstract nouns from adjectives, and every noun it makes is feminine — which is why this one is not flagged. You have already met others without noticing: लंबाई length, गहराई depth, कमाई earnings, सफ़ाई cleaning. Once you have the suffix you can recognise a whole family of words you have never been taught.",
+              "examples": [
+                {
+                  "hindi": "सच्चाई हमेशा सामने आती है।",
+                  "read_as": "sacchaaii hameshaa saamne aatii hai.",
+                  "english": "The truth always comes out.",
+                  "note": "Feminine, so आती है."
+                },
+                {
+                  "hindi": "उसने पूरी सच्चाई बताई।",
+                  "read_as": "usne puurii sacchaaii bataaii.",
+                  "english": "He told the whole truth.",
+                  "note": "ने, and बताई agreeing with feminine सच्चाई."
+                },
+                {
+                  "hindi": "इस कमरे की लंबाई कितनी है?",
+                  "read_as": "is kamre kii lambaaii kitnii hai?",
+                  "english": "What's the length of this room?",
+                  "note": "Another -आई noun, also feminine."
+                }
+              ],
+              "common_error": {
+                "wrong": "सच्चाई सामने आता है",
+                "right": "सच्चाई सामने आती है",
+                "why_en": "Every -आई noun is feminine, without exception."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "The suffix -आई does what?",
+              "options": [
+                "makes an adverb",
+                "makes a verb from a noun",
+                "makes a feminine abstract noun from an adjective",
+                "makes a plural"
+              ],
+              "answer_index": 2,
+              "explanation_en": "सच becomes सच्चाई, लंबा becomes लंबाई, गहरा becomes गहराई. All feminine."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word is closest to सच्चाई in a legal or official document?",
+              "options": [
+                "सत्य",
+                "ईमान",
+                "बात",
+                "यक़ीन"
+              ],
+              "options_read_as": [
+                "satya",
+                "iimaan",
+                "baat",
+                "yaqiin"
+              ],
+              "answer_index": 0,
+              "explanation_en": "सत्य is the Sanskrit-side word for truth. ईमान is faith or integrity, and यक़ीन is certainty."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सच्चाई",
+              "सच्चाई हमेशा सामने आती है।",
+              "उसने पूरी सच्चाई बताई।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L02-I3",
+          "type": "word",
+          "target": "आज़ादी",
+          "read_as": "aazaadii",
+          "gloss_en": "freedom, independence",
+          "gender": "f",
+          "gender_flag": false,
+          "difficulty": 6,
+          "tags": [
+            "abstract_noun",
+            "feminine",
+            "derived_noun",
+            "suffix_ii",
+            "urdu_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "-ई builds abstract nouns too, and they are feminine as well",
+              "explanation_en": "आज़ाद is free; आज़ादी is freedom. The suffix -ई does the same job as -आई and produces feminine nouns just as reliably: ख़ुशी happiness, ग़रीबी poverty, दोस्ती friendship, बीमारी illness. Between -आई and -ई you can now recognise most Hindi abstract nouns on sight, and you can predict their gender without being told, which is unusual enough in this language to be worth noticing.",
+              "examples": [
+                {
+                  "hindi": "आज़ादी आसानी से नहीं मिलती।",
+                  "read_as": "aazaadii aasaanii se nahiiṁ miltii.",
+                  "english": "Freedom doesn't come easily.",
+                  "note": "Two -ई nouns in one sentence: आज़ादी and आसानी."
+                },
+                {
+                  "hindi": "उसे पूरी आज़ादी दी गई।",
+                  "read_as": "use puurii aazaadii dii gaii.",
+                  "english": "She was given complete freedom.",
+                  "note": "Feminine throughout — पूरी, दी, गई."
+                },
+                {
+                  "hindi": "हमारी दोस्ती पुरानी है।",
+                  "read_as": "hamaarii dostii puraanii hai.",
+                  "english": "Our friendship is an old one.",
+                  "note": "दोस्ती, another -ई noun, also feminine."
+                }
+              ],
+              "common_error": {
+                "wrong": "आज़ादी नहीं मिलता",
+                "right": "आज़ादी नहीं मिलती",
+                "why_en": "All -ई abstract nouns are feminine."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which of these is NOT a feminine abstract noun in -ई?",
+              "options": [
+                "बीमारी",
+                "ख़ुशी",
+                "ग़रीबी",
+                "पानी"
+              ],
+              "answer_index": 3,
+              "explanation_en": "पानी ends in -ी but is masculine and is not derived from an adjective. The suffix rule only covers derived abstract nouns."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word would a formal history text use for आज़ादी?",
+              "options": [
+                "छूट",
+                "स्वतंत्रता",
+                "अधिकार",
+                "जीत"
+              ],
+              "options_read_as": [
+                "chhuuṭ",
+                "svataṁtrataa",
+                "adhikaar",
+                "jiit"
+              ],
+              "answer_index": 1,
+              "explanation_en": "स्वतंत्रता is the Sanskrit-side word. छूट is an exemption, अधिकार a right, and जीत a victory."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "आज़ादी",
+              "आज़ादी आसानी से नहीं मिलती।",
+              "हमारी दोस्ती पुरानी है।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Two suffixes that build abstract nouns and always produce feminines: -आई (सच्चाई, लंबाई, गहराई) and -ई (आज़ादी, ख़ुशी, दोस्ती). Between them they cover most abstract nouns in Hindi, and they let you predict a gender for once. मुश्किल is both a noun and an adjective and never changes shape.",
+        "key_forms": [
+          "मुश्किल से",
+          "सच्चाई",
+          "आज़ादी"
+        ],
+        "next_up_en": "Next: trust, experience and decisions."
+      }
+    },
+    {
+      "level": 3,
+      "title_en": "Trust, experience, decision",
+      "title_hi": "भरोसा · अनुभव · फ़ैसला",
+      "items": [
+        {
+          "id": "M13-L03-I1",
+          "type": "word",
+          "target": "भरोसा",
+          "read_as": "bharosaa",
+          "gloss_en": "trust, reliance",
+          "gender": "m",
+          "gender_flag": false,
+          "difficulty": 6,
+          "tags": [
+            "abstract_noun",
+            "masculine",
+            "par_construction",
+            "collocation"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "भरोसा takes पर",
+              "explanation_en": "भरोसा is trust, and the person you trust takes पर: मुझे उस पर भरोसा है, I trust him. Not को and not में — trust rests on somebody. It is masculine and ends in -आ, so the gender is predictable for once. The related यक़ीन means certainty rather than trust and takes the same पर, while विश्वास is the Sanskrit-side word and belongs to written and religious register.",
+              "examples": [
+                {
+                  "hindi": "मुझे उस पर भरोसा है।",
+                  "read_as": "mujhe us par bharosaa hai.",
+                  "english": "I trust him.",
+                  "note": "Dative on the truster, पर on the trusted."
+                },
+                {
+                  "hindi": "भरोसा टूट गया।",
+                  "read_as": "bharosaa ṭuuṭ gayaa.",
+                  "english": "The trust broke.",
+                  "note": "Masculine, so गया. And the trust broke — nobody broke it."
+                },
+                {
+                  "hindi": "इस पर भरोसा मत करो।",
+                  "read_as": "is par bharosaa mat karo.",
+                  "english": "Don't rely on this.",
+                  "note": "भरोसा करना with मत, and इस oblique before पर."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे उसको भरोसा है",
+                "right": "मुझे उस पर भरोसा है",
+                "why_en": "The person trusted takes पर, not को."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which postposition goes with भरोसा?",
+              "options": [
+                "पर",
+                "से",
+                "में",
+                "को"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Trust rests on somebody: उस पर भरोसा."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means trust in a religious or formal written context?",
+              "options": [
+                "यक़ीन",
+                "आदत",
+                "विश्वास",
+                "उम्मीद"
+              ],
+              "options_read_as": [
+                "yaqiin",
+                "aadat",
+                "vishvaas",
+                "ummiid"
+              ],
+              "answer_index": 2,
+              "explanation_en": "विश्वास is the Sanskrit-side word. यक़ीन is certainty rather than trust, and उम्मीद is hope."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "भरोसा",
+              "मुझे उस पर भरोसा है।",
+              "भरोसा टूट गया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L03-I2",
+          "type": "word",
+          "target": "अनुभव",
+          "read_as": "anubhav",
+          "gloss_en": "experience",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "abstract_noun",
+            "masculine",
+            "gender_flag",
+            "sanskrit_origin",
+            "formal_leaning"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "अनुभव — experience, in both senses",
+              "explanation_en": "अनुभव covers experience as accumulated skill (उसे दस साल का अनुभव है) and experience as something that happened to you (यह एक नया अनुभव था). It is masculine and ends in a consonant, so it is flagged. This is a Sanskrit-derived word and it leans formal — a CV, a job advert or a news report will use it, and in casual speech people often say तजुर्बा instead, which is the Urdu-side equivalent and means exactly the same thing.",
+              "examples": [
+                {
+                  "hindi": "उसे दस साल का अनुभव है।",
+                  "read_as": "use das saal kaa anubhav hai.",
+                  "english": "She has ten years' experience.",
+                  "note": "Dative on the person, and का agreeing with masculine अनुभव."
+                },
+                {
+                  "hindi": "यह एक नया अनुभव था।",
+                  "read_as": "yah ek nayaa anubhav thaa.",
+                  "english": "It was a new experience.",
+                  "note": "नया and था both masculine."
+                },
+                {
+                  "hindi": "अनुभव के आधार पर कहा जा सकता है।",
+                  "read_as": "anubhav ke aadhaar par kahaa jaa saktaa hai.",
+                  "english": "It can be said on the basis of experience.",
+                  "note": "Formal register — this sentence would be odd in conversation."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसे दस साल की अनुभव है",
+                "right": "उसे दस साल का अनुभव है",
+                "why_en": "अनुभव is masculine, so का."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does अनुभव mean?",
+              "options": [
+                "opinion",
+                "experience",
+                "attempt",
+                "training"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Both accumulated experience and a single experience."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "A friend telling you a story would more likely use which word?",
+              "options": [
+                "ज्ञान",
+                "परीक्षा",
+                "अभ्यास",
+                "तजुर्बा"
+              ],
+              "options_read_as": [
+                "gyaan",
+                "pariikshaa",
+                "abhyaas",
+                "tajurbaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "तजुर्बा is the Urdu-side equivalent and is what conversation prefers. अभ्यास is practice, ज्ञान is knowledge, and परीक्षा is a test."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अनुभव",
+              "उसे दस साल का अनुभव है।",
+              "यह एक नया अनुभव था।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L03-I3",
+          "type": "word",
+          "target": "फ़ैसला",
+          "read_as": "faislaa",
+          "gloss_en": "decision; verdict",
+          "gender": "m",
+          "gender_flag": false,
+          "difficulty": 6,
+          "tags": [
+            "abstract_noun",
+            "masculine",
+            "karnaa_compound",
+            "urdu_origin",
+            "news_use"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "फ़ैसला — a decision, and a court's verdict",
+              "explanation_en": "फ़ैसला is a decision you make and also a verdict a court delivers, and news reports use it constantly in the second sense. It goes with करना — मैंने फ़ैसला किया, with किया masculine because फ़ैसला is. It also goes with लेना: फ़ैसला लेना is equally correct and slightly more deliberate. The Sanskrit-side word निर्णय means the same and is what a written judgement will say.",
+              "examples": [
+                {
+                  "hindi": "मैंने फ़ैसला कर लिया है।",
+                  "read_as": "maiṁne faislaa kar liyaa hai.",
+                  "english": "I've made up my mind.",
+                  "note": "करना with the लेना vector — decided, and settled."
+                },
+                {
+                  "hindi": "अदालत का फ़ैसला कल आएगा।",
+                  "read_as": "adaalat kaa faislaa kal aaegaa.",
+                  "english": "The court's verdict comes tomorrow.",
+                  "note": "का because फ़ैसला is masculine, and a verdict \"comes\"."
+                },
+                {
+                  "hindi": "ये फ़ैसला आसान नहीं था।",
+                  "read_as": "ye faislaa aasaan nahiiṁ thaa.",
+                  "english": "This decision wasn't easy.",
+                  "note": "आसान is a consonant-final adjective and does not inflect."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने फ़ैसला की",
+                "right": "मैंने फ़ैसला किया",
+                "why_en": "फ़ैसला is masculine, so करना agrees with it as किया."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "अदालत का फ़ैसला means what?",
+              "options": [
+                "the court's question",
+                "the court's opinion",
+                "the court's verdict",
+                "the court's advice"
+              ],
+              "answer_index": 2,
+              "explanation_en": "फ़ैसला covers both an everyday decision and a legal verdict."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "A written judgement would use which word?",
+              "options": [
+                "निर्णय",
+                "सलाह",
+                "इरादा",
+                "राय"
+              ],
+              "options_read_as": [
+                "nirṇay",
+                "salaah",
+                "iraadaa",
+                "raay"
+              ],
+              "answer_index": 0,
+              "explanation_en": "निर्णय is the Sanskrit-side word for a decision or judgement. राय is an opinion and सलाह is advice."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "फ़ैसला",
+              "मैंने फ़ैसला कर लिया है।",
+              "अदालत का फ़ैसला कल आएगा।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "भरोसा takes पर — trust rests on somebody. अनुभव and फ़ैसला both have partners on the other side of the register: तजुर्बा for conversation, निर्णय for a written judgement. Neither pair is better than the other; they belong to different situations.",
+        "key_forms": [
+          "उस पर भरोसा",
+          "दस साल का अनुभव",
+          "फ़ैसला कर लिया"
+        ],
+        "next_up_en": "Next: thought, purpose and circumstances."
+      }
+    },
+    {
+      "level": 4,
+      "title_en": "Thought, purpose, circumstances",
+      "title_hi": "ख़याल · मक़सद · हालात",
+      "items": [
+        {
+          "id": "M13-L04-I1",
+          "type": "word",
+          "target": "ख़याल",
+          "read_as": "ḳhayaal",
+          "gloss_en": "thought; care, attention",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "abstract_noun",
+            "masculine",
+            "gender_flag",
+            "polysemy",
+            "urdu_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ख़याल — a thought, and looking after someone",
+              "explanation_en": "ख़याल is a thought or an idea, and in ख़याल रखना it means care: बच्चों का ख़याल रखना is to look after the children. Those two senses are far apart in English and one word in Hindi, so context does all the work. It is also the polite way to disagree — मेरे ख़याल से, in my view — which is the same move as मेरे हिसाब से from Module 12. Masculine, consonant-final, flagged.",
+              "examples": [
+                {
+                  "hindi": "मेरे ख़याल से ये ठीक नहीं है।",
+                  "read_as": "mere ḳhayaal se ye ṭhiik nahiiṁ hai.",
+                  "english": "In my view this isn't right.",
+                  "note": "Disagreeing as an opinion rather than a correction."
+                },
+                {
+                  "hindi": "अपना ख़याल रखना।",
+                  "read_as": "apnaa ḳhayaal rakhnaa.",
+                  "english": "Take care of yourself.",
+                  "note": "The standard goodbye to someone you are fond of."
+                },
+                {
+                  "hindi": "अचानक एक ख़याल आया।",
+                  "read_as": "achaanak ek ḳhayaal aayaa.",
+                  "english": "A thought suddenly came to me.",
+                  "note": "The thought comes; the person is not the subject."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेरी ख़याल से",
+                "right": "मेरे ख़याल से",
+                "why_en": "ख़याल is masculine, and it is oblique before से, so मेरा goes to मेरे."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "अपना ख़याल रखना means what?",
+              "options": [
+                "Remember this",
+                "Make up your own mind",
+                "Keep your opinion to yourself",
+                "Take care of yourself"
+              ],
+              "answer_index": 3,
+              "explanation_en": "ख़याल रखना is to look after, and it is one of the warmest ways to say goodbye."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word could replace ख़याल in मेरे ख़याल से?",
+              "options": [
+                "इरादा",
+                "विचार",
+                "काम",
+                "सपना"
+              ],
+              "options_read_as": [
+                "iraadaa",
+                "vichaar",
+                "kaam",
+                "sapnaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "मेरे विचार से is the Sanskrit-side equivalent and sounds more formal. सपना is a dream and इरादा an intention."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ख़याल",
+              "मेरे ख़याल से ये ठीक नहीं है।",
+              "अपना ख़याल रखना।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L04-I2",
+          "type": "word",
+          "target": "मक़सद",
+          "read_as": "maqsad",
+          "gloss_en": "purpose, aim",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "abstract_noun",
+            "masculine",
+            "gender_flag",
+            "urdu_origin",
+            "argument_use"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मक़सद — the point of something",
+              "explanation_en": "मक़सद is a purpose or an aim, and it is the word you reach for when asking what something is for: इसका मक़सद क्या है? It is masculine and consonant-final, so it is flagged. The Sanskrit-side pair is उद्देश्य, which is what a policy document or a school syllabus will say, and लक्ष्य is a target rather than a purpose — closer to a goal you are aiming at than a reason you are acting.",
+              "examples": [
+                {
+                  "hindi": "इसका मक़सद क्या है?",
+                  "read_as": "iskaa maqsad kyaa hai?",
+                  "english": "What's the purpose of this?",
+                  "note": "इसका, masculine, agreeing with मक़सद."
+                },
+                {
+                  "hindi": "मेरा मक़सद किसी को दुख देना नहीं था।",
+                  "read_as": "meraa maqsad kisii ko dukh denaa nahiiṁ thaa.",
+                  "english": "It wasn't my intention to hurt anyone.",
+                  "note": "A standard apology — and an infinitive as the complement."
+                },
+                {
+                  "hindi": "वो अपने मक़सद में कामयाब हुआ।",
+                  "read_as": "vo apne maqsad meṁ kaamyaab huaa.",
+                  "english": "He succeeded in his aim.",
+                  "note": "मक़सद goes oblique to मक़सद before में — no visible change, but अपना moves to अपने."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेरी मक़सद",
+                "right": "मेरा मक़सद",
+                "why_en": "मक़सद is masculine despite the consonant ending."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does मक़सद mean?",
+              "options": [
+                "purpose",
+                "method",
+                "problem",
+                "result"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The purpose or point of something."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "A policy document would use which word for मक़सद?",
+              "options": [
+                "तरीक़ा",
+                "सवाल",
+                "उद्देश्य",
+                "नतीजा"
+              ],
+              "options_read_as": [
+                "tariiqaa",
+                "savaal",
+                "uddeshya",
+                "natiijaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "उद्देश्य is the Sanskrit-side word. नतीजा is a result and तरीक़ा a method."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मक़सद",
+              "इसका मक़सद क्या है?",
+              "मेरा मक़सद किसी को दुख देना नहीं था।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L04-I3",
+          "type": "word",
+          "target": "हालात",
+          "read_as": "haalaat",
+          "gloss_en": "circumstances, the situation",
+          "gender": "m_pl",
+          "gender_flag": true,
+          "difficulty": 8,
+          "tags": [
+            "abstract_noun",
+            "masculine_plural",
+            "gender_flag",
+            "arabic_plural",
+            "news_use"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "हालात is already plural",
+              "explanation_en": "हालात means circumstances, and it is a plural — the singular is हाल, condition. It is an Arabic plural borrowed whole into Hindi, so you cannot make it plural again and you must give it a plural verb: हालात ठीक नहीं हैं, not है. Hindi has a handful of these borrowed plurals and they catch learners every time. It is masculine as well as plural, and consonant-final, so it is flagged twice over. News reports use हालात constantly for the general state of things.",
+              "examples": [
+                {
+                  "hindi": "हालात ठीक नहीं हैं।",
+                  "read_as": "haalaat ṭhiik nahiiṁ haiṁ.",
+                  "english": "Things aren't good.",
+                  "note": "Plural verb, because हालात is already plural."
+                },
+                {
+                  "hindi": "हालात के हिसाब से फ़ैसला करेंगे।",
+                  "read_as": "haalaat ke hisaab se faislaa kareṁge.",
+                  "english": "We'll decide according to the circumstances.",
+                  "note": "के हिसाब से from Module 12, with हालात oblique in front of it."
+                },
+                {
+                  "hindi": "आपका हाल कैसा है?",
+                  "read_as": "aapkaa haal kaisaa hai?",
+                  "english": "How are you doing?",
+                  "note": "The singular हाल, in the everyday greeting."
+                }
+              ],
+              "common_error": {
+                "wrong": "हालात ठीक नहीं है",
+                "right": "हालात ठीक नहीं हैं",
+                "why_en": "हालात is a plural noun and takes a plural verb, even though it looks singular to an English eye."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What is unusual about हालात?",
+              "options": [
+                "It is feminine",
+                "It is already plural",
+                "It never takes a postposition",
+                "It is a verb"
+              ],
+              "answer_index": 1,
+              "explanation_en": "It is a borrowed Arabic plural of हाल, so it takes a plural verb."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word is closest to हालात in a formal report?",
+              "options": [
+                "मौसम",
+                "मामला",
+                "घटना",
+                "परिस्थिति"
+              ],
+              "options_read_as": [
+                "mausam",
+                "maamlaa",
+                "ghaṭnaa",
+                "paristhiti"
+              ],
+              "answer_index": 3,
+              "explanation_en": "परिस्थिति is the Sanskrit-side word for circumstances. मामला is a matter or affair, and घटना an incident."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "हालात",
+              "हालात ठीक नहीं हैं।",
+              "आपका हाल कैसा है?"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "ख़याल covers a thought and looking after somebody, and मेरे ख़याल से is how you disagree politely. मक़सद is what something is for. And हालात is a borrowed Arabic plural — it takes a plural verb however singular it looks.",
+        "key_forms": [
+          "मेरे ख़याल से",
+          "इसका मक़सद क्या है?",
+          "हालात ठीक नहीं हैं"
+        ],
+        "next_up_en": "Next: the first three words for what people are like."
+      }
+    },
+    {
+      "level": 5,
+      "title_en": "What people are like",
+      "title_hi": "ईमानदार · मेहनती · ज़िद्दी",
+      "items": [
+        {
+          "id": "M13-L05-I1",
+          "type": "word",
+          "target": "ईमानदार",
+          "read_as": "iimaandaar",
+          "gloss_en": "honest",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 6,
+          "tags": [
+            "personality",
+            "adjective",
+            "invariable",
+            "suffix_daar",
+            "urdu_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "-दार makes an adjective of possession",
+              "explanation_en": "ईमान is integrity; ईमानदार is somebody who has it. The suffix -दार means \"holding, possessing\", and it builds a family of adjectives you will now recognise: समझदार sensible, ज़िम्मेदार responsible, दुकानदार shopkeeper, चौकीदार watchman. None of them inflects, because they all end in a consonant. That is a useful piece of stability — a whole class of personality adjectives with no agreement to get wrong.",
+              "examples": [
+                {
+                  "hindi": "वो बहुत ईमानदार आदमी है।",
+                  "read_as": "vo bahut iimaandaar aadmii hai.",
+                  "english": "He's a very honest man.",
+                  "note": "No agreement at all, because the adjective ends in a consonant."
+                },
+                {
+                  "hindi": "वो बहुत ईमानदार औरत है।",
+                  "read_as": "vo bahut iimaandaar aurat hai.",
+                  "english": "She's a very honest woman.",
+                  "note": "Identical form for a feminine noun. Nothing changes."
+                },
+                {
+                  "hindi": "ईमानदारी सबसे अच्छी नीति है।",
+                  "read_as": "iimaandaarii sabse acchii niiti hai.",
+                  "english": "Honesty is the best policy.",
+                  "note": "Add -ई and you get the abstract noun, feminine as always."
+                }
+              ],
+              "common_error": {
+                "wrong": "ईमानदारी आदमी",
+                "right": "ईमानदार आदमी",
+                "why_en": "ईमानदार is the adjective; ईमानदारी is the noun, honesty. The -ई suffix from level 2 does the same job here."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does the suffix -दार mean?",
+              "options": [
+                "against",
+                "without",
+                "possessing, holding",
+                "very"
+              ],
+              "answer_index": 2,
+              "explanation_en": "ईमानदार, समझदार, ज़िम्मेदार, दुकानदार — all built the same way."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word describes someone who can be relied on to do their job properly?",
+              "options": [
+                "ज़िम्मेदार",
+                "मेहनती",
+                "समझदार",
+                "ईमानदार"
+              ],
+              "options_read_as": [
+                "zimmedaar",
+                "mehnatii",
+                "samajhdaar",
+                "iimaandaar"
+              ],
+              "answer_index": 0,
+              "explanation_en": "ज़िम्मेदार is responsible. ईमानदार is specifically about honesty, मेहनती about effort, and समझदार about judgement."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ईमानदार",
+              "वो बहुत ईमानदार आदमी है।",
+              "ईमानदारी सबसे अच्छी नीति है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L05-I2",
+          "type": "word",
+          "target": "मेहनती",
+          "read_as": "mehnatii",
+          "gloss_en": "hardworking",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 6,
+          "tags": [
+            "personality",
+            "adjective",
+            "invariable_ii",
+            "suffix_ii",
+            "urdu_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Adjectives in -ी do not agree either",
+              "explanation_en": "मेहनत is hard work; मेहनती is hardworking. This one ends in -ी and still does not inflect, which surprises learners who have learned that -ा adjectives change to -ी for feminine. The rule is about the ending you start from: only adjectives ending in -आ inflect. Everything else — मेहनती, ज़िद्दी, ग़रीबी nouns aside, ईमानदार, ख़ुश, तेज़ — stays exactly as it is, for every gender and number.",
+              "examples": [
+                {
+                  "hindi": "वो बहुत मेहनती लड़का है।",
+                  "read_as": "vo bahut mehnatii laṛkaa hai.",
+                  "english": "He's a very hardworking boy.",
+                  "note": "Masculine, and मेहनती does not change."
+                },
+                {
+                  "hindi": "वो बहुत मेहनती लड़की है।",
+                  "read_as": "vo bahut mehnatii laṛkii hai.",
+                  "english": "She's a very hardworking girl.",
+                  "note": "Feminine, and मेहनती still does not change."
+                },
+                {
+                  "hindi": "मेहनत रंग लाती है।",
+                  "read_as": "mehnat raṁg laatii hai.",
+                  "english": "Hard work pays off.",
+                  "note": "A set phrase — literally, hard work brings colour. मेहनत is feminine."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेहनता लड़का",
+                "right": "मेहनती लड़का",
+                "why_en": "मेहनती is invariable. Trying to make a masculine form out of it produces a word that does not exist."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which adjectives inflect for gender in Hindi?",
+              "options": [
+                "Only those ending in -ी",
+                "None of them",
+                "All of them",
+                "Only those ending in -आ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बड़ा becomes बड़ी. But मेहनती, ईमानदार and तेज़ never change."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word praises the results rather than the effort?",
+              "options": [
+                "थका",
+                "कामयाब",
+                "मेहनती",
+                "सुस्त"
+              ],
+              "options_read_as": [
+                "thakaa",
+                "kaamyaab",
+                "mehnatii",
+                "sust"
+              ],
+              "answer_index": 1,
+              "explanation_en": "कामयाब is successful — it judges the outcome. मेहनती judges only the work put in, which is the distinction being tested."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मेहनती",
+              "वो बहुत मेहनती लड़की है।",
+              "मेहनत रंग लाती है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L05-I3",
+          "type": "word",
+          "target": "ज़िद्दी",
+          "read_as": "ziddii",
+          "gloss_en": "stubborn",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 6,
+          "tags": [
+            "personality",
+            "adjective",
+            "invariable_ii",
+            "register",
+            "urdu_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ज़िद्दी — stubborn, and not always an insult",
+              "explanation_en": "ज़िद is insistence; ज़िद्दी is somebody who insists. Said of a child it is affectionate exasperation, said of an adult in an argument it is a complaint, and said of somebody who refused to give up it is close to praise. Tone carries all of that, and the word itself is neutral. Like मेहनती it ends in -ी and never inflects. Note ज़िद करना, to insist — the noun plus करना pattern again.",
+              "examples": [
+                {
+                  "hindi": "ये बच्चा बहुत ज़िद्दी है।",
+                  "read_as": "ye bacchaa bahut ziddii hai.",
+                  "english": "This child is very stubborn.",
+                  "note": "Affectionate in most mouths."
+                },
+                {
+                  "hindi": "ज़िद मत करो।",
+                  "read_as": "zid mat karo.",
+                  "english": "Don't be difficult.",
+                  "note": "ज़िद करना, to insist, with मत for the instruction."
+                },
+                {
+                  "hindi": "वो अपनी ज़िद पर अड़ी रही।",
+                  "read_as": "vo apnii zid par aṛii rahii.",
+                  "english": "She stuck to her guns.",
+                  "note": "ज़िद is feminine, so अपनी and अड़ी."
+                }
+              ],
+              "common_error": {
+                "wrong": "वो ज़िद्दा लड़का है",
+                "right": "वो ज़िद्दी लड़का है",
+                "why_en": "ज़िद्दी never changes, for any gender."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "ज़िद करना means what?",
+              "options": [
+                "to insist",
+                "to hurry",
+                "to forget",
+                "to apologise"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The noun ज़िद plus करना — to be insistent about something."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word describes somebody who gives in easily?",
+              "options": [
+                "अड़ियल",
+                "ज़िद्दी",
+                "लचीला",
+                "सख़्त"
+              ],
+              "options_read_as": [
+                "aṛiyal",
+                "ziddii",
+                "lachiilaa",
+                "saḳht"
+              ],
+              "answer_index": 2,
+              "explanation_en": "लचीला is flexible — the opposite of ज़िद्दी. अड़ियल is a close synonym of ज़िद्दी, and सख़्त is strict."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ज़िद्दी",
+              "ये बच्चा बहुत ज़िद्दी है।",
+              "ज़िद मत करो।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Personality adjectives are mostly invariable: -दार words like ईमानदार and ज़िम्मेदार, and -ी words like मेहनती and ज़िद्दी. Only adjectives ending in -आ inflect. And ज़िद्दी shows how much of a Hindi word's meaning is carried by tone rather than by the word.",
+        "key_forms": [
+          "ईमानदार",
+          "मेहनती",
+          "ज़िद करना"
+        ],
+        "next_up_en": "Next: the first reading block — signs and notices, and reading rather than listening."
+      }
+    }
+  ]
+}

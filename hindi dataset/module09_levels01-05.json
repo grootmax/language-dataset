@@ -1,0 +1,1529 @@
+{
+  "module": 9,
+  "module_name_en": "The ने Construction",
+  "module_name_hi": "ने",
+  "phase": 4,
+  "type": "grammar",
+  "batch": {
+    "levels_from": 1,
+    "levels_to": 5
+  },
+  "learner_knows_through_module": 8,
+  "levels": [
+    {
+      "level": 1,
+      "title_en": "The problem stated",
+      "title_hi": "वह खाता है · उसने खाया",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M09-L01-I1",
+          "type": "grammar",
+          "target": "उसने खाया",
+          "read_as": "usne khaayaa",
+          "pronunciation_notes": "उसने is two syllables with no vowel between स and न: us-ne.",
+          "gloss_en": "the sentence that breaks everything you know",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "ne",
+            "the_problem",
+            "perfective",
+            "transitive",
+            "third_person"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "वह खाता है, but उसने खाया",
+              "explanation_en": "Here is the whole difficulty of this module in one pair. वह खाता है is he eats — a plain subject, a verb agreeing with it, exactly as Module 7 taught. Put the same sentence in the perfective and it becomes उसने खाया: the subject has taken a marker ने, and the verb has stopped agreeing with it. Nothing else in Hindi does this. Every tense you learnt in Module 7 leaves the subject alone, and then the perfective arrives and rearranges the sentence.",
+              "examples": [
+                {
+                  "hindi": "वह खाता है",
+                  "read_as": "vah khaataa hai",
+                  "english": "he eats",
+                  "note": "A plain subject, and the verb agrees with it — the ordinary pattern."
+                },
+                {
+                  "hindi": "उसने खाया",
+                  "read_as": "usne khaayaa",
+                  "english": "he ate",
+                  "note": "The subject now carries ने, and the verb no longer agrees with him."
+                },
+                {
+                  "hindi": "उसने पिया",
+                  "read_as": "usne piyaa",
+                  "english": "he drank",
+                  "note": "The same shape with another verb — पीना behaves identically."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह खाया",
+                "right": "उसने खाया",
+                "why_en": "A transitive verb in the perfective needs ने on the subject. Leaving it out is the single most common Hindi error English speakers make."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Put this into the perfective.",
+              "question": "वह खाता है → ?",
+              "question_read_as": "vah khaataa hai → ?",
+              "options": [
+                "वह खाया",
+                "उसने खाया",
+                "वह खाया है",
+                "उसको खाया"
+              ],
+              "options_read_as": [
+                "vah khaayaa",
+                "usne khaayaa",
+                "vah khaayaa hai",
+                "usko khaayaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The subject takes ने, and वह becomes उस before it — so उसने."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "वह खाया",
+                "उसे खाया",
+                "उसने खाया",
+                "वह ने खाया"
+              ],
+              "options_read_as": [
+                "vah khaayaa",
+                "use khaayaa",
+                "usne khaayaa",
+                "vah ne khaayaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "उसने खाया. ने is a postposition, so वह becomes the oblique stem उस and the two are written as one word."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उसने खाया",
+              "वह खाता है",
+              "उसने खाया",
+              "उसने पिया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L01-I2",
+          "type": "grammar",
+          "target": "मैंने देखा",
+          "read_as": "maiṁne dekhaa",
+          "pronunciation_notes": "मैंने keeps the nasal from मैं before the ने: maiṁ-ne.",
+          "gloss_en": "the first person form",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "ne",
+            "the_problem",
+            "perfective",
+            "transitive",
+            "first_person"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मैं becomes मैंने",
+              "explanation_en": "ने is a postposition, so every pronoun in front of it behaves exactly as Module 6 taught: it goes oblique and fuses. मैं gives मैंने, तुम gives तुमने, वह gives उसने. There is nothing new to learn about the stems — उस is the same उस that gave you उसे and उसका. What is new is that a postposition is now attaching to the subject of the sentence, which is a place you have never seen one before.",
+              "examples": [
+                {
+                  "hindi": "मैंने देखा",
+                  "read_as": "maiṁne dekhaa",
+                  "english": "I saw",
+                  "note": "मैं plus ने, written as one word."
+                },
+                {
+                  "hindi": "मैं देखता हूँ",
+                  "read_as": "maiṁ dekhtaa huuṁ",
+                  "english": "I see",
+                  "note": "The habitual — no ने, and the verb agrees with मैं."
+                },
+                {
+                  "hindi": "तुमने देखा",
+                  "read_as": "tumne dekhaa",
+                  "english": "you saw",
+                  "note": "तुम plus ने, with the same fusion."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं ने देखा",
+                "right": "मैंने देखा",
+                "why_en": "The pronoun and ने are written as one word, exactly as मुझे and उसका are."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Put this into the perfective.",
+              "question": "मैं देखता हूँ → ?",
+              "question_read_as": "maiṁ dekhtaa huuṁ → ?",
+              "options": [
+                "मुझे देखा",
+                "मैं देखा",
+                "मेरा देखा",
+                "मैंने देखा"
+              ],
+              "options_read_as": [
+                "mujhe dekhaa",
+                "maiṁ dekhaa",
+                "meraa dekhaa",
+                "maiṁne dekhaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "मैं plus ने gives मैंने, written as one word."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मैंने देखा",
+                "मैं देखा",
+                "मुझे देखा",
+                "मैं ने देखा"
+              ],
+              "options_read_as": [
+                "maiṁne dekhaa",
+                "maiṁ dekhaa",
+                "mujhe dekhaa",
+                "maiṁ ne dekhaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "मैंने देखा — one word, and मुझे would be the को form, which does a different job."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने देखा",
+              "मैंने देखा",
+              "मैं देखता हूँ",
+              "तुमने देखा"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L01-I3",
+          "type": "grammar",
+          "target": "वह खा रहा है",
+          "read_as": "vah khaa rahaa hai",
+          "pronunciation_notes": "Three separate words, with the marker रहा carrying the agreement: khaa ra-haa hai.",
+          "gloss_en": "the boundary — every other tense is ने-free",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "ne",
+            "scope",
+            "no_ne",
+            "continuous",
+            "boundary"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ने belongs to the perfective and nowhere else",
+              "explanation_en": "This is the single most useful fact in the module and it limits the damage enormously. ने appears only in the perfective. The habitual, the continuous, the future, the presumptive and every imperative are completely untouched — वह खाता है, वह खा रहा है, वह खाएगा, वह खाता होगा, खाओ. Not one of them takes ने. So of the nine cells in Module 7's grid plus the future and the imperatives, exactly one row is affected. If the sentence is not perfective, stop worrying.",
+              "examples": [
+                {
+                  "hindi": "वह खा रहा है",
+                  "read_as": "vah khaa rahaa hai",
+                  "english": "he is eating",
+                  "note": "Continuous — no ने, and the verb agrees with वह."
+                },
+                {
+                  "hindi": "वह खाएगा",
+                  "read_as": "vah khaaegaa",
+                  "english": "he will eat",
+                  "note": "Future — no ने either."
+                },
+                {
+                  "hindi": "उसने खाया",
+                  "read_as": "usne khaayaa",
+                  "english": "he ate",
+                  "note": "Perfective — the only place ने appears."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने खा रहा है",
+                "right": "वह खा रहा है",
+                "why_en": "Over-applying ने is as common as forgetting it. The continuous never takes it, whatever the verb."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Which of these needs ने?",
+              "question": "खाना · वह · continuous present",
+              "question_read_as": "khaanaa · vah · continuous present",
+              "options": [
+                "वह खा रहा है",
+                "उसने खा रहा है",
+                "उसने खा रहा",
+                "वह ने खा रहा है"
+              ],
+              "options_read_as": [
+                "vah khaa rahaa hai",
+                "usne khaa rahaa hai",
+                "usne khaa rahaa",
+                "vah ne khaa rahaa hai"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The continuous takes no ने. Only the perfective does."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which of these takes ने?",
+              "options": [
+                "वह खाता है",
+                "वह खा रहा है",
+                "वह खाएगा",
+                "उसने खाया"
+              ],
+              "options_read_as": [
+                "vah khaataa hai",
+                "vah khaa rahaa hai",
+                "vah khaaegaa",
+                "usne khaayaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Only the perfective. The habitual, continuous and future are all ने-free."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह खा रहा है",
+              "वह खा रहा है",
+              "वह खाएगा",
+              "उसने खाया"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "In the perfective, a transitive verb puts ने on its subject. ने is a postposition, so the pronoun in front of it goes oblique and fuses — मैंने, तुमने, उसने. And it appears in the perfective only: every other tense in the language leaves the subject alone.",
+        "key_forms": [
+          "उसने खाया",
+          "मैंने देखा",
+          "वह खा रहा है"
+        ],
+        "next_up_en": "Next: exactly which sentences ने applies to, and one that looks like it should and does not."
+      }
+    },
+    {
+      "level": 2,
+      "title_en": "Where ने applies",
+      "title_hi": "कहाँ ने · कहाँ नहीं",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M09-L02-I1",
+          "type": "grammar",
+          "target": "उसने पढ़ा",
+          "read_as": "usne paṛhaa",
+          "pronunciation_notes": "पढ़ा ends on a breathy flapped ṛh: pa-ṛhaa.",
+          "gloss_en": "the bare perfective with ने",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "ne",
+            "perfective_simple",
+            "transitive",
+            "scope"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The bare perfective takes ने too",
+              "explanation_en": "Module 7 showed that the perfective can stand with no auxiliary — वह आया, he came — and that this bare form is the ordinary past. The same is true with ने: उसने पढ़ा, he read. No auxiliary, and it is the form you will use most when telling someone what happened. Adding है or था gives you उसने पढ़ा है and उसने पढ़ा था, and ने stays put in all three because the aspect has not changed.",
+              "examples": [
+                {
+                  "hindi": "उसने पढ़ा",
+                  "read_as": "usne paṛhaa",
+                  "english": "he read",
+                  "note": "The bare perfective, and the commonest form."
+                },
+                {
+                  "hindi": "उसने पढ़ा है",
+                  "read_as": "usne paṛhaa hai",
+                  "english": "he has read",
+                  "note": "With है, and ने is still there."
+                },
+                {
+                  "hindi": "उसने पढ़ा था",
+                  "read_as": "usne paṛhaa thaa",
+                  "english": "he had read",
+                  "note": "With था, and ने is still there."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह पढ़ा",
+                "right": "उसने पढ़ा",
+                "why_en": "पढ़ना is transitive, so the perfective needs ने however short the sentence is."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Put this into the perfective.",
+              "question": "वह पढ़ता है → ?",
+              "question_read_as": "vah paṛhtaa hai → ?",
+              "options": [
+                "उसको पढ़ा",
+                "वह पढ़ा",
+                "उसने पढ़ा",
+                "उससे पढ़ा"
+              ],
+              "options_read_as": [
+                "usko paṛhaa",
+                "vah paṛhaa",
+                "usne paṛhaa",
+                "usse paṛhaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "पढ़ना is transitive, so the perfective takes ने on the subject."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which of these takes ने?",
+              "options": [
+                "वह पढ़ता था",
+                "उसने पढ़ा था",
+                "वह पढ़ रहा था",
+                "वह पढ़ेगा"
+              ],
+              "options_read_as": [
+                "vah paṛhtaa thaa",
+                "usne paṛhaa thaa",
+                "vah paṛh rahaa thaa",
+                "vah paṛhegaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Only the perfective, whether or not an auxiliary follows it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उसने पढ़ा",
+              "उसने पढ़ा",
+              "उसने पढ़ा है",
+              "उसने पढ़ा था"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L02-I2",
+          "type": "grammar",
+          "target": "उसने किया",
+          "read_as": "usne kiyaa",
+          "pronunciation_notes": "किया is two light syllables with a य bridging them: ki-yaa.",
+          "gloss_en": "the irregular perfectives, finally usable",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "ne",
+            "irregular_perfective",
+            "transitive",
+            "module7_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "किया, दिया, लिया, पिया — now you can use them",
+              "explanation_en": "Module 7 taught four irregular perfective participles as recognition only: किया from करना, दिया from देना, लिया from लेना and पिया from पीना. All four are transitive, which is exactly why they were unusable — they needed ने, and ने had not arrived. Now it has. उसने किया, he did it; मैंने लिया, I took it. Nothing about the forms has changed; the missing piece was the construction they sit in.",
+              "examples": [
+                {
+                  "hindi": "उसने किया",
+                  "read_as": "usne kiyaa",
+                  "english": "he did it",
+                  "note": "The participle from Module 7, now in the construction it needed."
+                },
+                {
+                  "hindi": "मैंने लिया",
+                  "read_as": "maiṁne liyaa",
+                  "english": "I took it",
+                  "note": "लेना is transitive, so ने is required."
+                },
+                {
+                  "hindi": "उसने दिया",
+                  "read_as": "usne diyaa",
+                  "english": "he gave it",
+                  "note": "And देना behaves the same way."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं किया",
+                "right": "मैंने किया",
+                "why_en": "This is the exact sentence Module 7 flagged as wrong. करना is transitive, so its perfective needs ने."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Put this into the perfective.",
+              "question": "मैं करता हूँ → ?",
+              "question_read_as": "maiṁ kartaa huuṁ → ?",
+              "options": [
+                "मैं किया",
+                "मुझे किया",
+                "मैंने करा",
+                "मैंने किया"
+              ],
+              "options_read_as": [
+                "maiṁ kiyaa",
+                "mujhe kiyaa",
+                "maiṁne karaa",
+                "maiṁne kiyaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "मैंने किया — the irregular participle किया with ने on the subject."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "उसने किया",
+                "वह किया",
+                "उसे किया",
+                "उसने करा"
+              ],
+              "options_read_as": [
+                "usne kiyaa",
+                "vah kiyaa",
+                "use kiyaa",
+                "usne karaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "उसने किया. करा is not the perfective of करना — किया is."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उसने किया",
+              "उसने किया",
+              "मैंने लिया",
+              "उसने दिया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L02-I3",
+          "type": "grammar",
+          "target": "वह गया",
+          "read_as": "vah gayaa",
+          "pronunciation_notes": "Two light syllables with a य between: ga-yaa.",
+          "gloss_en": "intransitive verbs never take ने",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "ne",
+            "no_ne",
+            "intransitive",
+            "boundary",
+            "module7_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ने is not a past marker",
+              "explanation_en": "वह गया is he went, in the perfective, with no ने anywhere — because जाना is intransitive. This matters more than it looks. Learners who meet ने first tend to treat it as a past tense marker and start attaching it to everything, and that produces उसने गया, which is wrong in a way that is immediately audible. ने marks the subject of a transitive verb. If the verb takes no object, there is no ने, whatever the tense. Levels nine and ten come back to this properly.",
+              "examples": [
+                {
+                  "hindi": "वह गया",
+                  "read_as": "vah gayaa",
+                  "english": "he went",
+                  "note": "Perfective, but जाना is intransitive so no ने."
+                },
+                {
+                  "hindi": "वह आई",
+                  "read_as": "vah aaii",
+                  "english": "she came",
+                  "note": "आना is intransitive too, and the verb agrees with the subject."
+                },
+                {
+                  "hindi": "उसने खाया",
+                  "read_as": "usne khaayaa",
+                  "english": "he ate",
+                  "note": "खाना is transitive, so this one does take ने."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने गया",
+                "right": "वह गया",
+                "why_en": "जाना is intransitive. ने marks the subject of a transitive verb and has nothing to do with tense."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Put this into the perfective.",
+              "question": "वह जाता है → ?",
+              "question_read_as": "vah jaataa hai → ?",
+              "options": [
+                "उसने गया",
+                "वह गया",
+                "उसने जाया",
+                "वह ने गया"
+              ],
+              "options_read_as": [
+                "usne gayaa",
+                "vah gayaa",
+                "usne jaayaa",
+                "vah ne gayaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "जाना is intransitive, so no ने and the verb agrees with the subject."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which of these takes ने?",
+              "options": [
+                "वह गया",
+                "वह आई",
+                "उसने खाया",
+                "वह बैठा"
+              ],
+              "options_read_as": [
+                "vah gayaa",
+                "vah aaii",
+                "usne khaayaa",
+                "vah baiṭhaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Only खाना, because it is transitive. The other three verbs take no object."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह गया",
+              "वह गया",
+              "वह आई",
+              "उसने खाया"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "ने needs two things at once: a perfective aspect and a transitive verb. Miss either and it does not appear. That is why वह गया has none and उसने खाया does, in the same tense. The four irregular participles from Module 7 are now fully usable.",
+        "key_forms": [
+          "उसने पढ़ा",
+          "उसने किया",
+          "वह गया"
+        ],
+        "next_up_en": "Next: the second half of the construction, and the part that surprises people more than ने itself."
+      }
+    },
+    {
+      "level": 3,
+      "title_en": "The verb agrees with the object",
+      "title_hi": "क्रिया कर्म से मिलती है",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M09-L03-I1",
+          "type": "grammar",
+          "target": "उसने रोटी खाई",
+          "read_as": "usne roṭii khaaii",
+          "pronunciation_notes": "खाई ends on two vowels running together: khaa-ii.",
+          "gloss_en": "the verb follows the object, not the subject",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "ne",
+            "object_agreement",
+            "feminine_object",
+            "transitive",
+            "core_rule"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "खाई, because रोटी is feminine",
+              "explanation_en": "This is the part that surprises people more than ने does. Once ने is on the subject, the subject stops controlling the verb entirely — and the object takes over. उसने रोटी खाई has a feminine verb because रोटी is feminine, and it would be खाई whether the person eating were a man, a woman or a crowd. Every other construction in Hindi agrees with the subject. This one, and only this one, agrees with the object.",
+              "examples": [
+                {
+                  "hindi": "उसने रोटी खाई",
+                  "read_as": "usne roṭii khaaii",
+                  "english": "he ate roti",
+                  "note": "खाई is feminine because रोटी is, not because of who ate it."
+                },
+                {
+                  "hindi": "उसने किताब पढ़ी",
+                  "read_as": "usne kitaab paṛhii",
+                  "english": "he read the book",
+                  "note": "किताब is feminine, so पढ़ी."
+                },
+                {
+                  "hindi": "उसने चाय पी",
+                  "read_as": "usne chaay pii",
+                  "english": "he drank tea",
+                  "note": "चाय is feminine, and पीना gives पी in the feminine."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने रोटी खाया",
+                "right": "उसने रोटी खाई",
+                "why_en": "The verb agrees with रोटी, which is feminine. What the subject is makes no difference at all here."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "वह + रोटी + खाना · perfective",
+              "question_read_as": "vah + roṭii + khaanaa · perfective",
+              "options": [
+                "वह रोटी खाई",
+                "उसने रोटी खाया",
+                "उसने रोटी खाई",
+                "उसने रोटी खाए"
+              ],
+              "options_read_as": [
+                "vah roṭii khaaii",
+                "usne roṭii khaayaa",
+                "usne roṭii khaaii",
+                "usne roṭii khaae"
+              ],
+              "answer_index": 2,
+              "explanation_en": "ने on the subject, and the verb agrees with the feminine रोटी."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "उसने किताब पढ़ा",
+                "उसने किताब पढ़ी",
+                "वह किताब पढ़ी",
+                "उसने किताब पढ़े"
+              ],
+              "options_read_as": [
+                "usne kitaab paṛhaa",
+                "usne kitaab paṛhii",
+                "vah kitaab paṛhii",
+                "usne kitaab paṛhe"
+              ],
+              "answer_index": 1,
+              "explanation_en": "ने on the subject and पढ़ी agreeing with the feminine किताब."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उसने रोटी खाई",
+              "उसने रोटी खाई",
+              "उसने किताब पढ़ी",
+              "उसने चाय पी"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L03-I2",
+          "type": "grammar",
+          "target": "उसने खाना खाया",
+          "read_as": "usne khaanaa khaayaa",
+          "pronunciation_notes": "The noun and the verb rhyme, which is why the phrase sounds doubled: khaa-naa khaa-yaa.",
+          "gloss_en": "a masculine object",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "ne",
+            "object_agreement",
+            "masculine_object",
+            "transitive"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "खाया, because खाना is masculine",
+              "explanation_en": "Change the object and the verb follows. खाना, food, is masculine, so उसने खाना खाया. The sentence looks doubled because the noun for food and the verb for eating come from the same root, and that is worth getting used to — खाना खाना is the ordinary way to say eat a meal. Compare it directly with उसने रोटी खाई from the last item: same subject, same verb, different object, different ending.",
+              "examples": [
+                {
+                  "hindi": "उसने खाना खाया",
+                  "read_as": "usne khaanaa khaayaa",
+                  "english": "he ate a meal",
+                  "note": "खाना is masculine, so खाया."
+                },
+                {
+                  "hindi": "उसने पानी पिया",
+                  "read_as": "usne paanii piyaa",
+                  "english": "he drank water",
+                  "note": "पानी is masculine, so पिया rather than पी."
+                },
+                {
+                  "hindi": "उसने काम किया",
+                  "read_as": "usne kaam kiyaa",
+                  "english": "he did the work",
+                  "note": "काम is masculine, so किया."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने खाना खाई",
+                "right": "उसने खाना खाया",
+                "why_en": "खाना is masculine. Once you start looking at the object it is easy to overcorrect and make everything feminine."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "वह + पानी + पीना · perfective",
+              "question_read_as": "vah + paanii + piinaa · perfective",
+              "options": [
+                "उसने पानी पिया",
+                "वह पानी पिया",
+                "उसने पानी पिए",
+                "उसने पानी पी"
+              ],
+              "options_read_as": [
+                "usne paanii piyaa",
+                "vah paanii piyaa",
+                "usne paanii pie",
+                "usne paanii pii"
+              ],
+              "answer_index": 0,
+              "explanation_en": "पानी is masculine, so the verb is पिया."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "उसने काम किए",
+                "उसने काम की",
+                "वह काम किया",
+                "उसने काम किया"
+              ],
+              "options_read_as": [
+                "usne kaam kie",
+                "usne kaam kii",
+                "vah kaam kiyaa",
+                "usne kaam kiyaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "काम is masculine and singular, so किया."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उसने खाना खाया",
+              "उसने खाना खाया",
+              "उसने पानी पिया",
+              "उसने काम किया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L03-I3",
+          "type": "grammar",
+          "target": "उसने रोटियाँ खाईं",
+          "read_as": "usne roṭiyaaṁ khaaiiṁ",
+          "pronunciation_notes": "Both words end on a nasal hum, which is what marks the feminine plural: roṭiyaaṁ khaa-iiṁ.",
+          "gloss_en": "a feminine plural object",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ne",
+            "object_agreement",
+            "feminine_plural",
+            "nasalisation",
+            "module7_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The number follows the object too",
+              "explanation_en": "Agreement with the object means gender and number both. रोटियाँ is feminine plural, so the verb is खाईं with the nasal — the same nasalised feminine plural you met in Module 7 with वे गईं. So the object controls two things at once, and neither of them has anything to do with the subject. Four possible endings, exactly as with any perfective: खाया, खाई, खाए, खाईं.",
+              "examples": [
+                {
+                  "hindi": "उसने रोटियाँ खाईं",
+                  "read_as": "usne roṭiyaaṁ khaaiiṁ",
+                  "english": "he ate rotis",
+                  "note": "Feminine plural object, so the verb nasalises."
+                },
+                {
+                  "hindi": "उसने किताबें पढ़ीं",
+                  "read_as": "usne kitaabeṁ paṛhiiṁ",
+                  "english": "he read the books",
+                  "note": "किताबें is feminine plural, so पढ़ीं."
+                },
+                {
+                  "hindi": "उसने सवाल पूछे",
+                  "read_as": "usne savaal puuchhe",
+                  "english": "he asked questions",
+                  "note": "सवाल is masculine plural, so the verb takes -ए."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने रोटियाँ खाई",
+                "right": "उसने रोटियाँ खाईं",
+                "why_en": "The object is plural, so the verb nasalises. Dropping the hum makes it singular."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "वह + किताबें + पढ़ना · perfective",
+              "question_read_as": "vah + kitaabeṁ + paṛhnaa · perfective",
+              "options": [
+                "उसने किताबें पढ़ा",
+                "उसने किताबें पढ़ीं",
+                "उसने किताबें पढ़ी",
+                "उसने किताबें पढ़े"
+              ],
+              "options_read_as": [
+                "usne kitaabeṁ paṛhaa",
+                "usne kitaabeṁ paṛhiiṁ",
+                "usne kitaabeṁ paṛhii",
+                "usne kitaabeṁ paṛhe"
+              ],
+              "answer_index": 1,
+              "explanation_en": "किताबें is feminine plural, so the verb is पढ़ीं with the nasal."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "उसने सवाल पूछा",
+                "उसने सवाल पूछी",
+                "उसने सवाल पूछे",
+                "वह सवाल पूछे"
+              ],
+              "options_read_as": [
+                "usne savaal puuchhaa",
+                "usne savaal puuchhii",
+                "usne savaal puuchhe",
+                "vah savaal puuchhe"
+              ],
+              "answer_index": 2,
+              "explanation_en": "सवाल here is masculine plural, so the verb takes -ए."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उसने रोटियाँ खाईं",
+              "उसने रोटियाँ खाईं",
+              "उसने किताबें पढ़ीं",
+              "उसने सवाल पूछे"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "With ने on the subject, the verb agrees with the object in both gender and number: खाया, खाई, खाए, खाईं. This is the only construction in Hindi where the subject does not control the verb, and it is the half of the module that surprises people more than ने itself.",
+        "key_forms": [
+          "उसने रोटी खाई",
+          "उसने खाना खाया",
+          "उसने रोटियाँ खाईं"
+        ],
+        "next_up_en": "Next: proof that the subject really is irrelevant, and what happens when the subject is a noun."
+      }
+    },
+    {
+      "level": 4,
+      "title_en": "The subject is irrelevant",
+      "title_hi": "कर्ता का कोई असर नहीं",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M09-L04-I1",
+          "type": "grammar",
+          "target": "लड़की ने खाना खाया",
+          "read_as": "laṛkii ne khaanaa khaayaa",
+          "pronunciation_notes": "With a noun subject, ने is written separately: laṛ-kii ne.",
+          "gloss_en": "a feminine subject with a masculine verb",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ne",
+            "object_agreement",
+            "noun_subject",
+            "proof",
+            "core_rule"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A girl, and the verb is masculine",
+              "explanation_en": "This is the sentence that proves the rule. लड़की is unmistakably feminine, and the verb is खाया, masculine — because खाना is masculine and the subject has no say at all. If you find yourself wanting to write खाई here, that instinct is the whole reason this module exists. Note also that with a noun subject, ने is written as a separate word: लड़की ने, not लड़कीने. Only pronouns fuse with it.",
+              "examples": [
+                {
+                  "hindi": "लड़की ने खाना खाया",
+                  "read_as": "laṛkii ne khaanaa khaayaa",
+                  "english": "the girl ate a meal",
+                  "note": "Feminine subject, masculine verb — the object decides."
+                },
+                {
+                  "hindi": "लड़की ने पानी पिया",
+                  "read_as": "laṛkii ne paanii piyaa",
+                  "english": "the girl drank water",
+                  "note": "पानी is masculine, so पिया, whoever drank it."
+                },
+                {
+                  "hindi": "माँ ने काम किया",
+                  "read_as": "maaṁ ne kaam kiyaa",
+                  "english": "mother did the work",
+                  "note": "काम is masculine, so किया."
+                }
+              ],
+              "common_error": {
+                "wrong": "लड़की ने खाना खाई",
+                "right": "लड़की ने खाना खाया",
+                "why_en": "The verb agrees with खाना, which is masculine. That the subject is a girl changes nothing."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "लड़की + पानी + पीना · perfective",
+              "question_read_as": "laṛkii + paanii + piinaa · perfective",
+              "options": [
+                "लड़की ने पानी पी",
+                "लड़कीने पानी पिया",
+                "लड़की पानी पिया",
+                "लड़की ने पानी पिया"
+              ],
+              "options_read_as": [
+                "laṛkii ne paanii pii",
+                "laṛkiine paanii piyaa",
+                "laṛkii paanii piyaa",
+                "laṛkii ne paanii piyaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "पानी is masculine, so पिया — and ने is written separately after a noun."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "माँ ने काम किया",
+                "माँ ने काम की",
+                "माँ काम किया",
+                "माँने काम किया"
+              ],
+              "options_read_as": [
+                "maaṁ ne kaam kiyaa",
+                "maaṁ ne kaam kii",
+                "maaṁ kaam kiyaa",
+                "maaṁne kaam kiyaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "काम is masculine, so किया. The subject being माँ makes no difference."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "लड़की ने खाना खाया",
+              "लड़की ने खाना खाया",
+              "लड़की ने पानी पिया",
+              "माँ ने काम किया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L04-I2",
+          "type": "grammar",
+          "target": "लड़के ने रोटी खाई",
+          "read_as": "laṛke ne roṭii khaaii",
+          "pronunciation_notes": "लड़के is the oblique form, since ने is a postposition: laṛ-ke ne.",
+          "gloss_en": "the mirror image, and the subject goes oblique",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ne",
+            "object_agreement",
+            "noun_subject",
+            "oblique_subject",
+            "module6_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "लड़के ने, not लड़का ने",
+              "explanation_en": "Two things here. First, the mirror of the last item: a masculine subject with a feminine verb, because रोटी is feminine. Second, and easy to miss — the subject itself has gone oblique. लड़का becomes लड़के because ने is a postposition, and Module 6 taught that any noun in front of a postposition goes oblique. So a Class 1 subject changes shape before ने, and a plural subject becomes लड़कों ने. This catches people who are concentrating so hard on the verb that they forget the subject.",
+              "examples": [
+                {
+                  "hindi": "लड़के ने रोटी खाई",
+                  "read_as": "laṛke ne roṭii khaaii",
+                  "english": "the boy ate roti",
+                  "note": "Masculine subject, feminine verb — and लड़का has gone oblique."
+                },
+                {
+                  "hindi": "लड़कों ने रोटी खाई",
+                  "read_as": "laṛkoṁ ne roṭii khaaii",
+                  "english": "the boys ate roti",
+                  "note": "A plural subject takes the oblique plural लड़कों."
+                },
+                {
+                  "hindi": "लड़की ने रोटी खाई",
+                  "read_as": "laṛkii ne roṭii khaaii",
+                  "english": "the girl ate roti",
+                  "note": "Class 4, so the subject shows no change — but the verb is identical."
+                }
+              ],
+              "common_error": {
+                "wrong": "लड़का ने रोटी खाई",
+                "right": "लड़के ने रोटी खाई",
+                "why_en": "ने is a postposition, so a Class 1 noun in front of it goes oblique — exactly as it would before में or से."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "लड़का + रोटी + खाना · perfective",
+              "question_read_as": "laṛkaa + roṭii + khaanaa · perfective",
+              "options": [
+                "लड़का ने रोटी खाई",
+                "लड़के ने रोटी खाया",
+                "लड़के ने रोटी खाई",
+                "लड़के रोटी खाई"
+              ],
+              "options_read_as": [
+                "laṛkaa ne roṭii khaaii",
+                "laṛke ne roṭii khaayaa",
+                "laṛke ne roṭii khaaii",
+                "laṛke roṭii khaaii"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The subject goes oblique before ने, and the verb agrees with the feminine रोटी."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "लड़का ने किताब पढ़ी",
+                "लड़के ने किताब पढ़ी",
+                "लड़के ने किताब पढ़ा",
+                "लड़के किताब पढ़ी"
+              ],
+              "options_read_as": [
+                "laṛkaa ne kitaab paṛhii",
+                "laṛke ne kitaab paṛhii",
+                "laṛke ne kitaab paṛhaa",
+                "laṛke kitaab paṛhii"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Oblique subject before ने, and पढ़ी agreeing with the feminine किताब."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "लड़के ने रोटी खाई",
+              "लड़के ने रोटी खाई",
+              "लड़कों ने रोटी खाई",
+              "लड़की ने रोटी खाई"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L04-I3",
+          "type": "grammar",
+          "target": "लड़कों ने किताबें पढ़ीं",
+          "read_as": "laṛkoṁ ne kitaabeṁ paṛhiiṁ",
+          "pronunciation_notes": "Three nasal endings in one sentence — koṁ, beṁ and hiiṁ — and each is a hum.",
+          "gloss_en": "everything plural, and none of it matching",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ne",
+            "object_agreement",
+            "plural_subject",
+            "feminine_plural",
+            "consolidation"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A plural masculine subject and a plural feminine verb",
+              "explanation_en": "This sentence has a masculine plural subject and a feminine plural verb, and both are correct. लड़कों is oblique plural because ने follows it; पढ़ीं is feminine plural because किताबें is. The two halves of the sentence are obeying different rules and neither is looking at the other. If you can build this one without hesitating, the core of the module is secure — everything after this level is about the cases where the pattern breaks.",
+              "examples": [
+                {
+                  "hindi": "लड़कों ने किताबें पढ़ीं",
+                  "read_as": "laṛkoṁ ne kitaabeṁ paṛhiiṁ",
+                  "english": "the boys read the books",
+                  "note": "Oblique plural subject, feminine plural verb — two independent decisions."
+                },
+                {
+                  "hindi": "लड़कियों ने खाना खाया",
+                  "read_as": "laṛkiyoṁ ne khaanaa khaayaa",
+                  "english": "the girls ate a meal",
+                  "note": "Feminine plural subject, masculine singular verb."
+                },
+                {
+                  "hindi": "बच्चों ने पानी पिया",
+                  "read_as": "bachchoṁ ne paanii piyaa",
+                  "english": "the children drank water",
+                  "note": "बच्चा goes oblique plural to बच्चों before ने."
+                }
+              ],
+              "common_error": {
+                "wrong": "लड़कों ने किताबें पढ़े",
+                "right": "लड़कों ने किताबें पढ़ीं",
+                "why_en": "The verb follows किताबें, which is feminine plural. Matching it to the masculine subject is the instinct this module has to break."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "लड़कियाँ + खाना + खाना · perfective",
+              "question_read_as": "laṛkiyaaṁ + khaanaa + khaanaa · perfective",
+              "options": [
+                "लड़कियों ने खाना खाया",
+                "लड़कियाँ ने खाना खाया",
+                "लड़कियों ने खाना खाईं",
+                "लड़कियों ने खाना खाई"
+              ],
+              "options_read_as": [
+                "laṛkiyoṁ ne khaanaa khaayaa",
+                "laṛkiyaaṁ ne khaanaa khaayaa",
+                "laṛkiyoṁ ne khaanaa khaaiiṁ",
+                "laṛkiyoṁ ne khaanaa khaaii"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Oblique plural subject लड़कियों, and खाया agreeing with the masculine खाना."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "बच्चों ने पानी पी",
+                "बच्चों पानी पिया",
+                "बच्चे ने पानी पिया",
+                "बच्चों ने पानी पिया"
+              ],
+              "options_read_as": [
+                "bachchoṁ ne paanii pii",
+                "bachchoṁ paanii piyaa",
+                "bachche ne paanii piyaa",
+                "bachchoṁ ne paanii piyaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Oblique plural बच्चों before ने, and पिया agreeing with the masculine पानी."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "लड़कों ने किताबें पढ़ीं",
+              "लड़कों ने किताबें पढ़ीं",
+              "लड़कियों ने खाना खाया",
+              "बच्चों ने पानी पिया"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The subject's gender and number have no effect on the verb at all — लड़की ने खाना खाया and लड़के ने रोटी खाई prove it in both directions. And because ने is a postposition, the subject itself goes oblique in front of it: लड़के ने, लड़कों ने.",
+        "key_forms": [
+          "लड़की ने खाना खाया",
+          "लड़के ने रोटी खाई",
+          "लड़कों ने किताबें पढ़ीं"
+        ],
+        "next_up_en": "Next: drinking and eating in conversation, where the object changes with every line."
+      }
+    },
+    {
+      "level": 5,
+      "title_en": "The construction in use",
+      "title_hi": "बातचीत में ने",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M09-L05-I1",
+          "type": "grammar",
+          "target": "लड़की ने चाय पी",
+          "read_as": "laṛkii ne chaay pii",
+          "pronunciation_notes": "पी is a single long syllable, and it is the whole verb: pii.",
+          "gloss_en": "पीना, whose feminine perfective is one syllable",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ne",
+            "object_agreement",
+            "irregular_perfective",
+            "feminine_object",
+            "peena"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पी is the whole verb",
+              "explanation_en": "पीना is one of the four irregular perfectives, and its feminine form is simply पी — a single syllable that looks too short to be a verb. उसने चाय पी is he drank tea, and there is nothing missing. The full set is पिया, पी, पिए, पीं. Learners often add something to पी because it feels incomplete, and there is nothing to add. The same shortness turns up in की, the feminine of किया, which you met at the end of Module 7.",
+              "examples": [
+                {
+                  "hindi": "लड़की ने चाय पी",
+                  "read_as": "laṛkii ne chaay pii",
+                  "english": "the girl drank tea",
+                  "note": "चाय is feminine, so the verb is just पी."
+                },
+                {
+                  "hindi": "उसने दवा पी",
+                  "read_as": "usne davaa pii",
+                  "english": "he took the medicine",
+                  "note": "दवा is feminine, and Hindi drinks medicine rather than taking it."
+                },
+                {
+                  "hindi": "उसने दूध पिया",
+                  "read_as": "usne duudh piyaa",
+                  "english": "he drank milk",
+                  "note": "दूध is masculine, so the fuller form पिया."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने चाय पीया",
+                "right": "उसने चाय पी",
+                "why_en": "The feminine of पिया is पी, with nothing after it. Adding a syllable to make it look like a verb is the usual instinct."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "वह + दवा + पीना · perfective",
+              "question_read_as": "vah + davaa + piinaa · perfective",
+              "options": [
+                "उसने दवा पिया",
+                "उसने दवा पीई",
+                "उसने दवा पीया",
+                "उसने दवा पी"
+              ],
+              "options_read_as": [
+                "usne davaa piyaa",
+                "usne davaa piii",
+                "usne davaa piiyaa",
+                "usne davaa pii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "दवा is feminine, so the verb is पी — one syllable and complete."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "उसने दूध पिया",
+                "उसने दूध पी",
+                "वह दूध पिया",
+                "उसने दूध पिए"
+              ],
+              "options_read_as": [
+                "usne duudh piyaa",
+                "usne duudh pii",
+                "vah duudh piyaa",
+                "usne duudh pie"
+              ],
+              "answer_index": 0,
+              "explanation_en": "दूध is masculine, so पिया rather than पी."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "लड़की ने चाय पी",
+              "लड़की ने चाय पी",
+              "उसने दवा पी",
+              "उसने दूध पिया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L05-I2",
+          "type": "grammar",
+          "target": "मैंने खाना बनाया",
+          "read_as": "maiṁne khaanaa banaayaa",
+          "pronunciation_notes": "बनाया is three syllables with the length in the middle: ba-naa-yaa.",
+          "gloss_en": "the Module 8 collocations, now in the past",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ne",
+            "object_agreement",
+            "module8_link",
+            "collocation",
+            "first_person"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Everything you learnt in Module 8 now has a past",
+              "explanation_en": "Module 8 taught a great many collocations you could only use in the present — काम करना, खाना बनाना, दवा लेना, टिकट लेना, सवाल पूछना. All of them were stuck there because the verb was transitive. With ने they open up: मैंने खाना बनाया, मैंने दवा ली, उसने सवाल पूछा. Notice that the agreement follows the noun in the collocation, so दवा ली is feminine and खाना बनाया is masculine, and the pairs you memorised now carry their gender into the verb.",
+              "examples": [
+                {
+                  "hindi": "मैंने खाना बनाया",
+                  "read_as": "maiṁne khaanaa banaayaa",
+                  "english": "I cooked",
+                  "note": "खाना is masculine, so बनाया."
+                },
+                {
+                  "hindi": "मैंने दवा ली",
+                  "read_as": "maiṁne davaa lii",
+                  "english": "I took the medicine",
+                  "note": "दवा is feminine, so ली — the feminine of लिया."
+                },
+                {
+                  "hindi": "उसने सवाल पूछा",
+                  "read_as": "usne savaal puuchhaa",
+                  "english": "he asked a question",
+                  "note": "सवाल is masculine and singular here, so पूछा."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने दवा लिया",
+                "right": "मैंने दवा ली",
+                "why_en": "दवा is feminine — one of the -ा nouns Module 8 flagged — so the verb is ली."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "मैं + दवा + लेना · perfective",
+              "question_read_as": "maiṁ + davaa + lenaa · perfective",
+              "options": [
+                "मैंने दवा लिया",
+                "मैंने दवा ली",
+                "मैं दवा ली",
+                "मैंने दवा लिए"
+              ],
+              "options_read_as": [
+                "maiṁne davaa liyaa",
+                "maiṁne davaa lii",
+                "maiṁ davaa lii",
+                "maiṁne davaa lie"
+              ],
+              "answer_index": 1,
+              "explanation_en": "दवा is feminine, so the verb is ली."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मैंने खाना बनाई",
+                "मैं खाना बनाया",
+                "मैंने खाना बनाया",
+                "मुझे खाना बनाया"
+              ],
+              "options_read_as": [
+                "maiṁne khaanaa banaaii",
+                "maiṁ khaanaa banaayaa",
+                "maiṁne khaanaa banaayaa",
+                "mujhe khaanaa banaayaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "ने on the subject, and बनाया agreeing with the masculine खाना."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने खाना बनाया",
+              "मैंने खाना बनाया",
+              "मैंने दवा ली",
+              "उसने सवाल पूछा"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L05-I3",
+          "type": "dialogue",
+          "target": "मैंने रोटी खाई",
+          "read_as": "maiṁne roṭii khaaii",
+          "pronunciation_notes": "The verb ends on two vowels running together: khaa-ii.",
+          "gloss_en": "four sentences, four different agreements",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ne",
+            "dialogue",
+            "micro_dialogue",
+            "object_agreement",
+            "consolidation"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The object changes on every line, and so does the verb",
+              "explanation_en": "Four ने sentences in a row, and the verb ending is different in three of them because the object is different each time. रोटी gives खाई, चाय gives पी, पानी gives पिया. The first line is worth a note: तुमने क्या खाया uses क्या as the object, and since क्या has no gender the verb falls back to the default masculine singular. That default is going to matter a great deal at level thirteen.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "तुमने क्या खाया?",
+                  "read_as": "tumne kyaa khaayaa?",
+                  "english": "What did you eat?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "मैंने रोटी खाई।",
+                  "read_as": "maiṁne roṭii khaaii.",
+                  "english": "I ate roti."
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "क्या तुमने चाय पी?",
+                  "read_as": "kyaa tumne chaay pii?",
+                  "english": "Did you drink tea?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "नहीं, मैंने पानी पिया।",
+                  "read_as": "nahiiṁ, maiṁne paanii piyaa.",
+                  "english": "No, I drank water."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने रोटी खाया।",
+                "right": "मैंने रोटी खाई।",
+                "why_en": "रोटी is feminine, so the verb is खाई — regardless of who is speaking."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the reply.",
+              "question": "मैं + चाय + पीना · perfective",
+              "question_read_as": "maiṁ + chaay + piinaa · perfective",
+              "options": [
+                "मैं चाय पी",
+                "मैंने चाय पिया",
+                "मैंने चाय पी",
+                "मैंने चाय पीई"
+              ],
+              "options_read_as": [
+                "maiṁ chaay pii",
+                "maiṁne chaay piyaa",
+                "maiṁne chaay pii",
+                "maiṁne chaay piii"
+              ],
+              "answer_index": 2,
+              "explanation_en": "चाय is feminine, so the verb is पी."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the second line. Which word is missing?",
+              "masked_line_index": 1,
+              "masked_word": "खाई",
+              "options": [
+                "खाया",
+                "खाई",
+                "खाए",
+                "खाईं"
+              ],
+              "options_read_as": [
+                "khaayaa",
+                "khaaii",
+                "khaae",
+                "khaaiiṁ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "रोटी is feminine and singular, so the verb is खाई."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तुमने क्या खाया?",
+              "मैंने रोटी खाई।",
+              "क्या तुमने चाय पी?",
+              "नहीं, मैंने पानी पिया।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Every transitive collocation from Module 8 now has a past tense, and each one carries its noun's gender into the verb — खाना बनाया but दवा ली. When the object has no gender of its own, as with क्या, the verb falls back to masculine singular.",
+        "key_forms": [
+          "लड़की ने चाय पी",
+          "मैंने खाना बनाया",
+          "मैंने रोटी खाई"
+        ],
+        "next_up_en": "Next: the full set of ने pronouns, including the one that catches everybody."
+      }
+    }
+  ]
+}

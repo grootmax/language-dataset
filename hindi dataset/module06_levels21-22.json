@@ -1,0 +1,619 @@
+{
+  "module": 6,
+  "module_name_en": "The Oblique Case",
+  "module_name_hi": "तिरछा रूप",
+  "phase": 3,
+  "batch": {
+    "levels_from": 21,
+    "levels_to": 22
+  },
+  "levels": [
+    {
+      "level": 21,
+      "title_en": "Possession: का, के, की",
+      "title_hi": "का के की — राम का बेटा",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L21-I1",
+          "type": "grammar",
+          "target": "राम का बेटा",
+          "read_as": "raam kaa beṭaa",
+          "pronunciation_notes": "Three long aa vowels in a row, and none of them is shortened: raam kaa be-ṭaa.",
+          "gloss_en": "का for a masculine singular thing owned",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "oblique",
+            "possession",
+            "kaa_ke_kii",
+            "agreement",
+            "masculine",
+            "singular"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The possessive that ignores the owner",
+              "explanation_en": "का is a postposition like में or से, but with one property none of the others has: it changes its own shape. And what decides that shape is not the owner — it is the thing owned. राम का बेटा takes का because बेटा is masculine and singular. Swap राम for बहन and it is still का, because nothing about the owner was ever part of the question. English does the opposite, choosing his or her from the owner, so this is a genuine reversal rather than a detail, and it is worth slowing down for.",
+              "examples": [
+                {
+                  "hindi": "राम का बेटा",
+                  "read_as": "raam kaa beṭaa",
+                  "english": "Ram's son",
+                  "note": "बेटा is masculine and singular, so the marker is का."
+                },
+                {
+                  "hindi": "राम का घर",
+                  "read_as": "raam kaa ghar",
+                  "english": "Ram's house",
+                  "note": "घर is masculine and singular too, so का again."
+                },
+                {
+                  "hindi": "बहन का बेटा",
+                  "read_as": "bahan kaa beṭaa",
+                  "english": "the sister's son",
+                  "note": "The owner is feminine now and the marker has not moved at all."
+                }
+              ],
+              "common_error": {
+                "wrong": "राम की बेटा",
+                "right": "राम का बेटा",
+                "why_en": "की marks a feminine thing owned. बेटा is masculine, and the owner's gender never enters into it."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Join the owner to the thing owned.",
+              "question": "राम + बेटा",
+              "question_read_as": "raam + beṭaa",
+              "options": [
+                "राम की बेटा",
+                "राम के बेटा",
+                "राम का बेटा",
+                "रामे का बेटा"
+              ],
+              "options_read_as": [
+                "raam kii beṭaa",
+                "raam ke beṭaa",
+                "raam kaa beṭaa",
+                "raame kaa beṭaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "बेटा is masculine singular, so का. राम takes no ending of its own here."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": [
+                "राम का घर",
+                "राम की बेटा",
+                "बहन का बेटा",
+                "राम का बेटा"
+              ],
+              "options_read_as": [
+                "raam kaa ghar",
+                "raam kii beṭaa",
+                "bahan kaa beṭaa",
+                "raam kaa beṭaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "बेटा is masculine, so the marker must be का. की would need a feminine thing owned."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "राम का बेटा",
+              "राम का घर",
+              "बहन का बेटा"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L21-I2",
+          "type": "grammar",
+          "target": "राम की बेटी",
+          "read_as": "raam kii beṭii",
+          "pronunciation_notes": "Two long ii endings after the long aa of राम: raam kii be-ṭii.",
+          "gloss_en": "की for anything feminine that is owned",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "oblique",
+            "possession",
+            "kaa_ke_kii",
+            "agreement",
+            "feminine",
+            "invariant"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "One owner, a different marker",
+              "explanation_en": "Same owner, same shape of phrase, and the marker has changed — because बेटी is feminine. That is the whole rule proved in a single swap. Hold राम constant and vary what he owns, and का, की and के shift underneath you. Vary the owner instead and nothing happens at all. If you keep one thing from this level, keep the memory of which of those two experiments changes the answer. And as with every feminine form in this module, की covers both numbers: one daughter or five, it does not move again.",
+              "examples": [
+                {
+                  "hindi": "राम की बेटी",
+                  "read_as": "raam kii beṭii",
+                  "english": "Ram's daughter",
+                  "note": "बेटी is feminine, so की."
+                },
+                {
+                  "hindi": "राम की किताब",
+                  "read_as": "raam kii kitaab",
+                  "english": "Ram's book",
+                  "note": "किताब is feminine too, and takes की for exactly the same reason."
+                },
+                {
+                  "hindi": "राम की बेटियाँ",
+                  "read_as": "raam kii beṭiyaaṁ",
+                  "english": "Ram's daughters",
+                  "note": "Plural now, and की is unchanged — the feminine form covers both numbers."
+                }
+              ],
+              "common_error": {
+                "wrong": "राम का बेटी",
+                "right": "राम की बेटी",
+                "why_en": "The marker agrees with बेटी, which is feminine. That राम is masculine is not information the marker uses."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Join the owner to the thing owned.",
+              "question": "राम + बेटी",
+              "question_read_as": "raam + beṭii",
+              "options": [
+                "राम की बेटी",
+                "राम का बेटी",
+                "राम के बेटी",
+                "रामी की बेटी"
+              ],
+              "options_read_as": [
+                "raam kii beṭii",
+                "raam kaa beṭii",
+                "raam ke beṭii",
+                "raamii kii beṭii"
+              ],
+              "answer_index": 0,
+              "explanation_en": "बेटी is feminine, so की, whoever the owner happens to be."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": [
+                "राम की किताब",
+                "राम की बेटियाँ",
+                "राम का घर",
+                "राम का बेटी"
+              ],
+              "options_read_as": [
+                "raam kii kitaab",
+                "raam kii beṭiyaaṁ",
+                "raam kaa ghar",
+                "raam kaa beṭii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बेटी is feminine and needs की. का would require a masculine thing owned."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "राम की बेटी",
+              "राम की किताब",
+              "राम की बेटियाँ"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L21-I3",
+          "type": "grammar",
+          "target": "राम के बेटे",
+          "read_as": "raam ke beṭe",
+          "pronunciation_notes": "Two clear e endings, and the phrase sounds balanced because of it: raam ke be-ṭe.",
+          "gloss_en": "के for a masculine thing owned that is plural or oblique",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "oblique",
+            "possession",
+            "kaa_ke_kii",
+            "agreement",
+            "masculine",
+            "plural",
+            "rule_summary"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The third form, and where you have seen it before",
+              "explanation_en": "के appears when the thing owned is masculine and either plural or oblique. राम के बेटे is Ram's sons. Now look at what these three markers actually are. का, के, की is -ा, -े, -ी — the marked adjective endings you spent levels fifteen to seventeen on, sitting on the word का. They are not a new paradigm to memorise. का agrees with the thing owned in exactly the way बड़ा agrees with the noun it describes, and if you can do बड़ा घर, बड़े घर में and बड़ी किताब, you can already do this.",
+              "examples": [
+                {
+                  "hindi": "राम के बेटे",
+                  "read_as": "raam ke beṭe",
+                  "english": "Ram's sons",
+                  "note": "Masculine and plural, so के."
+                },
+                {
+                  "hindi": "राम के घर में",
+                  "read_as": "raam ke ghar meṁ",
+                  "english": "in Ram's house",
+                  "note": "Singular here, but oblique because में follows, so के again."
+                },
+                {
+                  "hindi": "राम की बेटियाँ और राम के बेटे",
+                  "read_as": "raam kii beṭiyaaṁ aur raam ke beṭe",
+                  "english": "Ram's daughters and Ram's sons",
+                  "note": "One owner, two markers, decided entirely by what is owned."
+                }
+              ],
+              "common_error": {
+                "wrong": "राम का बेटे",
+                "right": "राम के बेटे",
+                "why_en": "बेटे is plural, and a masculine plural takes के — the same -े you use on any marked adjective in front of a plural noun."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "More than one son. Join the owner to the thing owned.",
+              "question": "राम + बेटे",
+              "question_read_as": "raam + beṭe",
+              "options": [
+                "राम का बेटे",
+                "राम की बेटे",
+                "राम के बेटा",
+                "राम के बेटे"
+              ],
+              "options_read_as": [
+                "raam kaa beṭe",
+                "raam kii beṭe",
+                "raam ke beṭaa",
+                "raam ke beṭe"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Masculine and plural on both words, so both end in -े."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": [
+                "राम का बेटे",
+                "राम के घर में",
+                "राम की बेटियाँ",
+                "राम के बेटे"
+              ],
+              "options_read_as": [
+                "raam kaa beṭe",
+                "raam ke ghar meṁ",
+                "raam kii beṭiyaaṁ",
+                "raam ke beṭe"
+              ],
+              "answer_index": 0,
+              "explanation_en": "बेटे is plural, so the marker must be के."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "राम के बेटे",
+              "राम के घर में",
+              "राम की बेटियाँ और राम के बेटे"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "का, के and की agree with the thing owned, never with the owner: का for masculine singular, के for masculine plural or oblique, की for anything feminine. They are the ordinary -ा, -े, -ी adjective endings sitting on the word का, so this is a rule you already knew in another shape.",
+        "key_forms": [
+          "राम का बेटा",
+          "राम की बेटी",
+          "राम के बेटे"
+        ],
+        "next_up_en": "Next: what happens when the owner has to go oblique as well — the hardest phrase in the module, and the last one."
+      }
+    },
+    {
+      "level": 22,
+      "title_en": "Possession: both ends at once",
+      "title_hi": "लड़के के घर में",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L22-I1",
+          "type": "grammar",
+          "target": "लड़के का घर",
+          "read_as": "laṛke kaa ghar",
+          "pronunciation_notes": "The flapped ड़ then two open vowels: laṛ-ke kaa ghar.",
+          "gloss_en": "का is a postposition, so the owner goes oblique",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "oblique",
+            "possession",
+            "kaa_ke_kii",
+            "class_1",
+            "owner_oblique",
+            "double_rule"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "का is a postposition, so the owner obeys the rules",
+              "explanation_en": "Everything in this module has said that a noun standing in front of a postposition goes oblique. का is a postposition. So the owner goes oblique too, and लड़का becomes लड़के: लड़के का घर. Two separate things are now happening in one short phrase, and they are decided independently of each other. The owner's form comes from its noun class, exactly as it would before में or से. The choice between का, के and की comes from the thing owned. Neither one tells you anything about the other, and the commonest failure here is letting one answer leak into the other.",
+              "examples": [
+                {
+                  "hindi": "लड़के का घर",
+                  "read_as": "laṛke kaa ghar",
+                  "english": "the boy's house",
+                  "note": "लड़का goes oblique before का; घर is masculine singular, so का."
+                },
+                {
+                  "hindi": "लड़कों का घर",
+                  "read_as": "laṛkoṁ kaa ghar",
+                  "english": "the boys' house",
+                  "note": "The owner is plural now, and the marker is unchanged because घर has not changed."
+                },
+                {
+                  "hindi": "लड़की का घर",
+                  "read_as": "laṛkii kaa ghar",
+                  "english": "the girl's house",
+                  "note": "A Class 4 owner, so nothing happens on the left — and का is still decided by घर."
+                }
+              ],
+              "common_error": {
+                "wrong": "लड़का का घर",
+                "right": "लड़के का घर",
+                "why_en": "का is a postposition like any other, so a Class 1 owner has to go oblique in front of it."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Join the owner to the thing owned.",
+              "question": "लड़का + घर",
+              "question_read_as": "laṛkaa + ghar",
+              "options": [
+                "लड़का का घर",
+                "लड़के का घर",
+                "लड़के के घर",
+                "लड़की का घर"
+              ],
+              "options_read_as": [
+                "laṛkaa kaa ghar",
+                "laṛke kaa ghar",
+                "laṛke ke ghar",
+                "laṛkii kaa ghar"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The owner goes oblique to लड़के, and घर is a direct masculine singular, so the marker stays का."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": [
+                "लड़के का घर",
+                "लड़कों का घर",
+                "लड़का का घर",
+                "लड़की का घर"
+              ],
+              "options_read_as": [
+                "laṛke kaa ghar",
+                "laṛkoṁ kaa ghar",
+                "laṛkaa kaa ghar",
+                "laṛkii kaa ghar"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The owner has been left in its direct form in front of a postposition. It must be लड़के."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "लड़के का घर",
+              "लड़कों का घर",
+              "लड़की का घर"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L22-I2",
+          "type": "grammar",
+          "target": "लड़के के घर में",
+          "read_as": "laṛke ke ghar meṁ",
+          "pronunciation_notes": "Two -े endings in a row and then the nasal close: laṛ-ke ke ghar meṁ.",
+          "gloss_en": "two obliques in one phrase, for two different reasons",
+          "gender": null,
+          "difficulty": 9,
+          "tags": [
+            "oblique",
+            "possession",
+            "kaa_ke_kii",
+            "double_oblique",
+            "class_1",
+            "class_2",
+            "hardest"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Two obliques, for two different reasons",
+              "explanation_en": "This is the hardest phrase in the module, and it is worth going through slowly. लड़के is oblique because का follows it. The marker is के rather than का because घर is now oblique — में follows the whole possessed phrase and pulls it in. So there are two oblique triggers here pointing in opposite directions: one looks at what stands to the right of the owner, the other at what stands to the right of the thing owned. Set लड़के का घर beside लड़के के घर में and only the middle word has moved, because only the right-hand condition changed.",
+              "examples": [
+                {
+                  "hindi": "लड़के के घर में",
+                  "read_as": "laṛke ke ghar meṁ",
+                  "english": "in the boy's house",
+                  "note": "में makes घर oblique, so का becomes के."
+                },
+                {
+                  "hindi": "लड़के के घर से",
+                  "read_as": "laṛke ke ghar se",
+                  "english": "from the boy's house",
+                  "note": "Any postposition does it, not only में."
+                },
+                {
+                  "hindi": "लड़की के घर में",
+                  "read_as": "laṛkii ke ghar meṁ",
+                  "english": "in the girl's house",
+                  "note": "The owner is Class 4 and does nothing, and the marker still moves to के because घर is oblique."
+                }
+              ],
+              "common_error": {
+                "wrong": "लड़के का घर में",
+                "right": "लड़के के घर में",
+                "why_en": "में makes the possessed noun oblique, and the marker agrees with that noun in whatever state it is in."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Join the owner to the thing owned, then add the postposition.",
+              "question": "लड़का + घर + में",
+              "question_read_as": "laṛkaa + ghar + meṁ",
+              "options": [
+                "लड़का के घर में",
+                "लड़के का घर में",
+                "लड़के के घरे में",
+                "लड़के के घर में"
+              ],
+              "options_read_as": [
+                "laṛkaa ke ghar meṁ",
+                "laṛke kaa ghar meṁ",
+                "laṛke ke ghare meṁ",
+                "laṛke ke ghar meṁ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Owner oblique, marker के because घर is oblique, and घर itself is Class 2 so it shows nothing."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": [
+                "लड़के का घर में",
+                "लड़के के घर से",
+                "लड़की के घर में",
+                "लड़के का घर"
+              ],
+              "options_read_as": [
+                "laṛke kaa ghar meṁ",
+                "laṛke ke ghar se",
+                "laṛkii ke ghar meṁ",
+                "laṛke kaa ghar"
+              ],
+              "answer_index": 0,
+              "explanation_en": "में makes घर oblique, so the marker must be के. Note that लड़के का घर with nothing after it is perfectly correct."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "लड़के के घर में",
+              "लड़के के घर से",
+              "लड़की के घर में"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L22-I3",
+          "type": "grammar",
+          "target": "उसका घर",
+          "read_as": "uskaa ghar",
+          "pronunciation_notes": "One word for the possessive, then the noun: us-kaa ghar.",
+          "gloss_en": "the possessive pronouns are का on an oblique stem",
+          "gender": null,
+          "difficulty": 9,
+          "tags": [
+            "oblique",
+            "possession",
+            "kaa_ke_kii",
+            "class_6",
+            "pronoun",
+            "possessive",
+            "module_close"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मेरा, तुम्हारा, उसका — का all along",
+              "explanation_en": "The possessive pronouns are not a separate list to memorise. मेरा is मुझ plus का, तुम्हारा is तुम्ह plus का, उसका is उस plus का — the oblique stems from the last two levels with the possessive postposition attached. Which means they agree with the thing owned exactly like राम का does: मेरा बेटा, मेरी बेटी, मेरे बेटे. It also explains something you have been using for four levels without a reason. मेरे पास and उसके साथ end in -े because पास and साथ are masculine and oblique. That was agreement all along, not a special form to learn.",
+              "examples": [
+                {
+                  "hindi": "उसका घर",
+                  "read_as": "uskaa ghar",
+                  "english": "his house, her house",
+                  "note": "उस plus का, agreeing with घर."
+                },
+                {
+                  "hindi": "उसकी किताब",
+                  "read_as": "uskii kitaab",
+                  "english": "his book, her book",
+                  "note": "किताब is feminine, so the marker is की — and the owner's gender is still irrelevant."
+                },
+                {
+                  "hindi": "उसके घर में",
+                  "read_as": "uske ghar meṁ",
+                  "english": "in his house",
+                  "note": "घर is oblique because में follows, so the marker is के — which is why मेरे पास looks the way it does."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसका किताब",
+                "right": "उसकी किताब",
+                "why_en": "किताब is feminine, so the possessive agrees with it. Whether the owner is a man or a woman never shows up in Hindi at all."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Join the pronoun to the thing owned.",
+              "question": "वह + किताब",
+              "question_read_as": "vah + kitaab",
+              "options": [
+                "उसकी किताब",
+                "उसका किताब",
+                "उसके किताब",
+                "वह की किताब"
+              ],
+              "options_read_as": [
+                "uskii kitaab",
+                "uskaa kitaab",
+                "uske kitaab",
+                "vah kii kitaab"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The stem is उस, the marker agrees with the feminine किताब, and the two are written as one word."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": [
+                "उसका घर",
+                "उसकी किताब",
+                "उसका किताब",
+                "उसके घर में"
+              ],
+              "options_read_as": [
+                "uskaa ghar",
+                "uskii kitaab",
+                "uskaa kitaab",
+                "uske ghar meṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "किताब is feminine, so the possessive must be उसकी."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उसका घर",
+              "उसकी किताब",
+              "उसके घर में"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "का is a postposition, so the owner goes oblique in front of it — and the marker itself agrees with the thing owned. Both happen at once in लड़के के घर में, for two unrelated reasons. The possessive pronouns are the same rule again: मेरा, तुम्हारा and उसका are oblique stems carrying का, which is why they have looked like adjectives since level eighteen.",
+        "key_forms": [
+          "लड़के का घर",
+          "लड़के के घर में",
+          "उसका घर"
+        ],
+        "next_up_en": "Module 6 is complete. Two sentences hold it together: in the singular only Class 1 moves, and in the plural everything ends in -ों. Next comes the tense system, where every sentence you build will sit on top of this."
+      }
+    }
+  ]
+}

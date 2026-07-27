@@ -1,0 +1,257 @@
+{
+  "module": 12,
+  "format_divergence": {
+    "part_f_default": "4 recognition, 4 production/transform, 2 error-spotting",
+    "used_here": "3 comprehension, 2 recognition, 5 audio_gap_fill",
+    "reason_en": "Same reasoning as checkpoints 1 and 2. Three checkpoints now diverge the same way; if the engine enforces the Part F mix this needs settling before checkpoint 4."
+  },
+  "checkpoints": [
+    {
+      "after_level": 15,
+      "covers_levels": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "questions": [
+        {
+          "id": "M12-CP3-Q1",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L11-I2",
+          "question_en": "Listen again. What has the announcement told them?",
+          "options": [
+            "The platform has changed",
+            "The waiting room is closed",
+            "The train is cancelled",
+            "The train is two hours late and has not started out"
+          ],
+          "answer_index": 3,
+          "explanation_en": "दो घंटे, and अभी तक चली भी नहीं — it has not even left its origin.",
+          "source_item_ids": [
+            "M12-L11-I2"
+          ]
+        },
+        {
+          "id": "M12-CP3-Q2",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L13-I2",
+          "question_en": "Across the dhaba dialogues, which of these is true?",
+          "options": [
+            "The kadhi needs ten minutes and the pickle is free",
+            "Everything is ready and nothing is free",
+            "Only the thali is available",
+            "The kadhi is ready and the pickle costs extra"
+          ],
+          "answer_index": 0,
+          "explanation_en": "दस मिनट में बन जाएगी for the kadhi, and अचार तो फ़्री है for the pickle.",
+          "source_item_ids": [
+            "M12-L13-I1",
+            "M12-L13-I2",
+            "M12-L13-I3"
+          ]
+        },
+        {
+          "id": "M12-CP3-Q3",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L14-I3",
+          "question_en": "Listen again. Three people are talking. Who decides what the third friend eats?",
+          "options": [
+            "He chooses himself",
+            "The first friend orders for him",
+            "The second friend orders for him",
+            "The waiter suggests something"
+          ],
+          "answer_index": 1,
+          "explanation_en": "मेरे लिए कुछ भी। तुम ऑर्डर कर दो — he hands it to the friend who is already talking to the waiter.",
+          "source_item_ids": [
+            "M12-L14-I3"
+          ]
+        },
+        {
+          "id": "M12-CP3-Q4",
+          "source": "current",
+          "format": "recognition",
+          "replay_item_id": "M12-L15-I1",
+          "question_en": "भिजवा दीजिए, बनवा दीजिए, बिना प्याज़ का, वेज है ना — what are these speakers all doing?",
+          "options": [
+            "Asking for the bill",
+            "Complaining about the food",
+            "Asking for something to be changed or checked, politely",
+            "Refusing to order"
+          ],
+          "answer_index": 2,
+          "explanation_en": "Causatives ask for an outcome without instructing the person in front of you, and the ना and क्या tags check without interrogating.",
+          "source_item_ids": [
+            "M12-L14-I1",
+            "M12-L15-I1",
+            "M12-L15-I2",
+            "M12-L15-I3"
+          ]
+        },
+        {
+          "id": "M12-CP3-Q5",
+          "source": "current",
+          "format": "recognition",
+          "replay_item_id": "M12-L14-I2",
+          "question_en": "The waiter says लोगों को बहुत पसंद आते हैं. How does पसंद आना differ from पसंद है?",
+          "options": [
+            "पसंद आना is more formal",
+            "पसंद आना is only used about food",
+            "There is no difference",
+            "पसंद आना is a reaction to something; पसंद है is a standing preference"
+          ],
+          "answer_index": 3,
+          "explanation_en": "पसंद है is what you always order; पसंद आया is what you thought of tonight's.",
+          "source_item_ids": [
+            "M12-L14-I2"
+          ]
+        },
+        {
+          "id": "M12-CP3-Q6",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L11-I1",
+          "line_n": 2,
+          "mask_reason": "postposition",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "प्लेटफ़ॉर्म तीन ___ ।",
+          "question_read_as": "pleṭfôrm tiin ___ .",
+          "options": [
+            "पर",
+            "में",
+            "से",
+            "तक"
+          ],
+          "options_read_as": [
+            "par",
+            "meṁ",
+            "se",
+            "tak"
+          ],
+          "answer_index": 0,
+          "explanation_en": "पर for a platform, a floor, or any point you arrive at.",
+          "source_item_ids": [
+            "M12-L11-I1"
+          ]
+        },
+        {
+          "id": "M12-CP3-Q7",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L11-I3",
+          "line_n": 1,
+          "mask_reason": "oblique",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "दो ___ का रिज़र्वेशन है।",
+          "question_read_as": "do ___ kaa rizarveshan hai.",
+          "options": [
+            "लोग",
+            "लोगों",
+            "लोगो",
+            "लोगें"
+          ],
+          "options_read_as": [
+            "log",
+            "logoṁ",
+            "logo",
+            "logeṁ"
+          ],
+          "answer_index": 1,
+          "explanation_en": "का is a postposition like any other, so the plural goes oblique.",
+          "source_item_ids": [
+            "M12-L11-I3"
+          ]
+        },
+        {
+          "id": "M12-CP3-Q8",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L12-I1",
+          "line_n": 2,
+          "mask_reason": "postposition",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "ब्लू लाइन ___ जाइए।",
+          "question_read_as": "bluu laain ___ jaaie.",
+          "options": [
+            "में",
+            "तक",
+            "से",
+            "पर"
+          ],
+          "options_read_as": [
+            "meṁ",
+            "tak",
+            "se",
+            "par"
+          ],
+          "answer_index": 2,
+          "explanation_en": "से for the route you travel by.",
+          "source_item_ids": [
+            "M12-L12-I1"
+          ]
+        },
+        {
+          "id": "M12-CP3-Q9",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L12-I2",
+          "line_n": 2,
+          "mask_reason": "verb_ending",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "येलो लाइन ___ है।",
+          "question_read_as": "yelo laain ___ hai.",
+          "options": [
+            "पकड़ने",
+            "पकड़ा",
+            "पकड़ना",
+            "पकड़नी"
+          ],
+          "options_read_as": [
+            "pakaṛne",
+            "pakaṛaa",
+            "pakaṛnaa",
+            "pakaṛnii"
+          ],
+          "answer_index": 3,
+          "explanation_en": "लाइन is feminine, so the infinitive in an obligation takes -नी.",
+          "source_item_ids": [
+            "M12-L12-I2"
+          ]
+        },
+        {
+          "id": "M12-CP3-Q10",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L12-I3",
+          "line_n": 3,
+          "mask_reason": "ne",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "___ जेब में रखा था, पक्का।",
+          "question_read_as": "___ jeb meṁ rakhaa thaa, pakkaa.",
+          "options": [
+            "मैंने",
+            "मुझे",
+            "मेरा",
+            "मैं"
+          ],
+          "options_read_as": [
+            "maiṁne",
+            "mujhe",
+            "meraa",
+            "maiṁ"
+          ],
+          "answer_index": 0,
+          "explanation_en": "रखना is transitive and the tense is perfective, so ने.",
+          "source_item_ids": [
+            "M12-L12-I3"
+          ]
+        }
+      ]
+    }
+  ]
+}

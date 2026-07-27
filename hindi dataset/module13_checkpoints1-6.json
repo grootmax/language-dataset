@@ -1,0 +1,946 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "kind": "checkpoints",
+  "part": "1 of 2",
+  "covers": "levels 1-30 (checkpoints 1-6). Checkpoints 7-11 and the mock cover levels 31-55.",
+  "format_note_en": "Part F's mix fits here in a third way again. This module teaches words and reading, so its checkpoints use meaning_match and near_synonym_choice from the vocabulary items and comprehension and inference from the reading items — plus one type the module earned: gender_recall. Forty-two of the 105 vocabulary items carry gender_flag because their gender cannot be guessed from their shape, and a checkpoint that never tested those would ignore the single most error-prone thing in the module.",
+  "question_types": [
+    "meaning_match",
+    "near_synonym_choice",
+    "gender_recall",
+    "comprehension",
+    "inference"
+  ],
+  "checkpoints": [
+    {
+      "checkpoint": 1,
+      "covers_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "title_en": "Abstract nouns and personality",
+      "questions": [
+        {
+          "n": 1,
+          "type": "meaning_match",
+          "prompt_en": "Which postposition goes with भरोसा?",
+          "options": [
+            "पर",
+            "को",
+            "से",
+            "का"
+          ],
+          "answer_index": 0,
+          "explanation_en": "भरोसा rests on somebody — उस पर भरोसा है.",
+          "level_source": 3
+        },
+        {
+          "n": 2,
+          "type": "gender_recall",
+          "prompt_en": "Which of these is masculine?",
+          "options": [
+            "उम्मीद",
+            "कोशिश",
+            "फ़ैसला",
+            "सच्चाई"
+          ],
+          "answer_index": 2,
+          "explanation_en": "फ़ैसला ends in -आ and is masculine. The other three are feminine, and the first two are consonant-final, which tells you nothing.",
+          "level_source": 3
+        },
+        {
+          "n": 3,
+          "type": "near_synonym_choice",
+          "question_en": "Which word means an attempt, in the formal register?",
+          "options": [
+            "मेहनत",
+            "इरादा",
+            "कोशिश",
+            "प्रयास"
+          ],
+          "answer_index": 3,
+          "explanation_en": "प्रयास — and note it is masculine where कोशिश is feminine.",
+          "level_source": 1
+        },
+        {
+          "n": 4,
+          "type": "meaning_match",
+          "prompt_en": "What does the suffix -आई build?",
+          "options": [
+            "masculine nouns from verbs",
+            "feminine abstract nouns",
+            "adjectives from nouns",
+            "plurals"
+          ],
+          "answer_index": 1,
+          "explanation_en": "सच्चाई, लड़ाई, पढ़ाई, कमाई — all feminine, without exception.",
+          "level_source": 2
+        },
+        {
+          "n": 5,
+          "type": "near_synonym_choice",
+          "question_en": "Which word means freedom in the political sense as well as personal liberty?",
+          "options": [
+            "खुलापन",
+            "आज़ादी",
+            "छुट्टी",
+            "फ़ुर्सत"
+          ],
+          "answer_index": 1,
+          "explanation_en": "आज़ादी covers both. छुट्टी is time off and फ़ुर्सत is unhurriedness.",
+          "level_source": 2
+        },
+        {
+          "n": 6,
+          "type": "gender_recall",
+          "prompt_en": "हालात is which of these?",
+          "options": [
+            "masculine singular",
+            "feminine plural",
+            "feminine singular",
+            "masculine plural"
+          ],
+          "answer_index": 3,
+          "explanation_en": "हालात is the plural of हाल and takes plural agreement — हालात ठीक नहीं हैं.",
+          "level_source": 4
+        },
+        {
+          "n": 7,
+          "type": "meaning_match",
+          "prompt_en": "Which adjective never changes for gender?",
+          "options": [
+            "ज़िद्दी",
+            "शर्मीला",
+            "अच्छा",
+            "बड़ा"
+          ],
+          "answer_index": 0,
+          "explanation_en": "-ी adjectives like ज़िद्दी and मेहनती are invariable. -ईला adjectives like शर्मीला inflect.",
+          "level_source": 5
+        },
+        {
+          "n": 8,
+          "type": "near_synonym_choice",
+          "question_en": "Which word means an opinion or notion, as in मेरे ___ से?",
+          "options": [
+            "अनुभव",
+            "मक़सद",
+            "ख़याल",
+            "हालात"
+          ],
+          "answer_index": 2,
+          "explanation_en": "मेरे ख़याल से — one of the three fixed phrases for \"in my view\", each with its own postposition.",
+          "level_source": 4
+        },
+        {
+          "n": 9,
+          "type": "meaning_match",
+          "prompt_en": "मेरी राय ___ — which postposition?",
+          "options": [
+            "पर",
+            "से",
+            "में",
+            "का"
+          ],
+          "answer_index": 2,
+          "explanation_en": "मेरी राय में, but मेरे ख़याल से and मेरे हिसाब से. There is no pattern; they are fixed phrases.",
+          "level_source": 4
+        },
+        {
+          "n": 10,
+          "type": "gender_recall",
+          "prompt_en": "Which pair has two different genders?",
+          "options": [
+            "प्रयास and कोशिश",
+            "सच्चाई and आज़ादी",
+            "उम्मीद and कोशिश",
+            "ज़रूरत and मुश्किल"
+          ],
+          "answer_index": 0,
+          "explanation_en": "प्रयास is masculine and कोशिश is feminine, though they mean the same thing. Changing register can change the agreement.",
+          "level_source": 1
+        }
+      ]
+    },
+    {
+      "checkpoint": 2,
+      "covers_levels": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "title_en": "Signs, and more personality",
+      "questions": [
+        {
+          "n": 1,
+          "type": "meaning_match",
+          "prompt_en": "A sign reads प्रवेश निषेध. What does it mean?",
+          "options": [
+            "Exit this way",
+            "No entry",
+            "Entry fee payable",
+            "Entrance ahead"
+          ],
+          "answer_index": 1,
+          "explanation_en": "प्रवेश is entry and निषेध is prohibition — the most official of the three ways a sign forbids something.",
+          "level_source": 6
+        },
+        {
+          "n": 2,
+          "type": "near_synonym_choice",
+          "question_en": "Which is the everyday word a person would use for प्रवेश?",
+          "options": [
+            "पहुँच",
+            "दाख़िला",
+            "आगमन",
+            "अंदर आना"
+          ],
+          "answer_index": 3,
+          "explanation_en": "Signs and speech split here: प्रवेश on the board, अंदर आना out loud.",
+          "level_source": 6
+        },
+        {
+          "n": 3,
+          "type": "meaning_match",
+          "prompt_en": "निःशुल्क means what?",
+          "options": [
+            "Free of charge",
+            "Restricted",
+            "Closed",
+            "Payment due"
+          ],
+          "answer_index": 0,
+          "explanation_en": "निः- is the Sanskrit negating prefix and शुल्क is a fee.",
+          "level_source": 7
+        },
+        {
+          "n": 4,
+          "type": "inference",
+          "context_en": "A sign reads: धूम्रपान पूर्णतः निषेध। उल्लंघन पर जुर्माना।",
+          "question_en": "What does the second line add?",
+          "options": [
+            "That staff are exempt",
+            "That smoking is allowed outside",
+            "That there is a penalty for breaking the rule",
+            "That the rule is new"
+          ],
+          "answer_index": 2,
+          "explanation_en": "उल्लंघन is a violation and जुर्माना a fine. The first line states the rule and the second gives it teeth.",
+          "level_source": 8
+        },
+        {
+          "n": 5,
+          "type": "meaning_match",
+          "prompt_en": "What does the suffix -आलय mean?",
+          "options": [
+            "a quality",
+            "a plural",
+            "a person who does something",
+            "a place"
+          ],
+          "answer_index": 3,
+          "explanation_en": "शौचालय, विद्यालय, पुस्तकालय, चिकित्सालय, न्यायालय — half the public buildings from one suffix.",
+          "level_source": 8
+        },
+        {
+          "n": 6,
+          "type": "near_synonym_choice",
+          "question_en": "Which word describes somebody who is clever in a way that may not be a compliment?",
+          "options": [
+            "होशियार",
+            "चालाक",
+            "दयालु",
+            "समझदार"
+          ],
+          "answer_index": 1,
+          "explanation_en": "चालाक swings between clever and sly depending on tone. होशियार is the safe positive.",
+          "level_source": 10
+        },
+        {
+          "n": 7,
+          "type": "meaning_match",
+          "prompt_en": "लापरवाह is built how?",
+          "options": [
+            "It is not built from parts",
+            "ला- plus परवाह, a Persian negating prefix",
+            "लाप plus रवाह",
+            "ला- meaning 'very'"
+          ],
+          "answer_index": 1,
+          "explanation_en": "ला- is Persian and परवाह is care, so it means careless. अ- and निः- are the Sanskrit-side equivalents.",
+          "level_source": 9
+        },
+        {
+          "n": 8,
+          "type": "near_synonym_choice",
+          "question_en": "Which word means arrogant?",
+          "options": [
+            "शर्मीला",
+            "लापरवाह",
+            "ज़िद्दी",
+            "घमंडी"
+          ],
+          "answer_index": 3,
+          "explanation_en": "घमंडी from घमंड, pride. ज़िद्दी is stubborn, which is a different failing.",
+          "level_source": 10
+        },
+        {
+          "n": 9,
+          "type": "comprehension",
+          "context_en": "A sign reads: पूछताछ केंद्र मुख्य द्वार के पास है।",
+          "question_en": "What is being pointed to?",
+          "options": [
+            "The enquiry desk",
+            "The toilets",
+            "The car park",
+            "The exit"
+          ],
+          "answer_index": 0,
+          "explanation_en": "पूछताछ is an echo compound from पूछना — asking and asking.",
+          "level_source": 8
+        },
+        {
+          "n": 10,
+          "type": "gender_recall",
+          "prompt_en": "Which of these is feminine?",
+          "options": [
+            "प्रवेश",
+            "निकास",
+            "पूछताछ",
+            "शुल्क"
+          ],
+          "answer_index": 2,
+          "explanation_en": "पूछताछ is feminine. The other three are masculine and none of them shows it in its shape.",
+          "level_source": 8
+        }
+      ]
+    },
+    {
+      "checkpoint": 3,
+      "covers_levels": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "title_en": "Opinion, argument, and warnings",
+      "questions": [
+        {
+          "n": 1,
+          "type": "near_synonym_choice",
+          "question_en": "Which word means reasoning, and does not take करना?",
+          "options": [
+            "राय",
+            "बहस",
+            "तर्क",
+            "दलील"
+          ],
+          "answer_index": 2,
+          "explanation_en": "तर्क is reasoning as such. बहस takes करना and दलील takes देना.",
+          "level_source": 11
+        },
+        {
+          "n": 2,
+          "type": "meaning_match",
+          "prompt_en": "Which verb goes with दलील?",
+          "options": [
+            "देना",
+            "लेना",
+            "रखना",
+            "करना"
+          ],
+          "answer_index": 0,
+          "explanation_en": "दलील देना — a point is advanced, not done.",
+          "level_source": 12
+        },
+        {
+          "n": 3,
+          "type": "gender_recall",
+          "prompt_en": "Which is masculine?",
+          "options": [
+            "दलील",
+            "नज़रिया",
+            "बहस",
+            "राय"
+          ],
+          "answer_index": 1,
+          "explanation_en": "नज़रिया ends in -आ and is masculine. The other three are feminine.",
+          "level_source": 13
+        },
+        {
+          "n": 4,
+          "type": "near_synonym_choice",
+          "question_en": "Which word means the visible event rather than the underlying stance?",
+          "options": [
+            "पक्ष",
+            "असहमत",
+            "विरोध",
+            "प्रदर्शन"
+          ],
+          "answer_index": 3,
+          "explanation_en": "विरोध is the opposition itself; प्रदर्शन is the march or the demonstration.",
+          "level_source": 13
+        },
+        {
+          "n": 5,
+          "type": "meaning_match",
+          "prompt_en": "असहमत is built how?",
+          "options": [
+            "अ- plus सहमत",
+            "अस- plus हमत",
+            "असह- plus मत",
+            "It is not built from parts"
+          ],
+          "answer_index": 0,
+          "explanation_en": "अ- is the Sanskrit negating prefix, and it is the most productive of the module's seven.",
+          "level_source": 12
+        },
+        {
+          "n": 6,
+          "type": "comprehension",
+          "context_en": "A sign reads: चेतावनी। यहाँ पानी बहुत गहरा है। बच्चों को अकेला न छोड़ें।",
+          "question_en": "What are you told about children?",
+          "options": [
+            "They must stay on the path",
+            "They may not swim",
+            "They must not be left alone",
+            "They must be supervised by a lifeguard"
+          ],
+          "answer_index": 2,
+          "explanation_en": "न छोड़ें — and न rather than मत, because this is written.",
+          "level_source": 14
+        },
+        {
+          "n": 7,
+          "type": "meaning_match",
+          "prompt_en": "Which negative belongs on a written notice?",
+          "options": [
+            "कोई",
+            "नहीं",
+            "मत",
+            "न"
+          ],
+          "answer_index": 3,
+          "explanation_en": "नहीं negates statements, मत negates spoken instructions, and न negates written ones.",
+          "level_source": 14
+        },
+        {
+          "n": 8,
+          "type": "inference",
+          "context_en": "A notice reads: लिफ़्ट मरम्मत के कारण बंद है। कृपया सीढ़ियों का प्रयोग करें। असुविधा के लिए खेद।",
+          "question_en": "What does the notice offer somebody carrying heavy luggage?",
+          "options": [
+            "Assistance on request",
+            "The stairs, and an apology",
+            "A refund",
+            "An alternative lift"
+          ],
+          "answer_index": 1,
+          "explanation_en": "The apology exists precisely because the line before it offers nothing else.",
+          "level_source": 14
+        },
+        {
+          "n": 9,
+          "type": "meaning_match",
+          "prompt_en": "असुविधा is built from which word you already know?",
+          "options": [
+            "सेवा",
+            "सुविधा",
+            "विधा",
+            "सूचना"
+          ],
+          "answer_index": 1,
+          "explanation_en": "अ- plus सुविधा, the facility from the level 8 sign. Inconvenience is un-facility.",
+          "level_source": 14
+        },
+        {
+          "n": 10,
+          "type": "near_synonym_choice",
+          "question_en": "Which word for waiting would a sign print?",
+          "options": [
+            "ठहराव",
+            "देरी",
+            "इंतज़ार",
+            "प्रतीक्षा"
+          ],
+          "answer_index": 3,
+          "explanation_en": "प्रतीक्षा कक्ष on the board, इंतज़ार in speech — and the two have different genders.",
+          "level_source": 15
+        }
+      ]
+    },
+    {
+      "checkpoint": 4,
+      "covers_levels": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "title_en": "Timings, and the formal register",
+      "questions": [
+        {
+          "n": 1,
+          "type": "meaning_match",
+          "prompt_en": "निष्कर्ष goes with which verb?",
+          "options": [
+            "निकालना",
+            "देना",
+            "लेना",
+            "करना"
+          ],
+          "answer_index": 0,
+          "explanation_en": "निष्कर्ष is literally a drawing-out — निः plus कर्ष — which is why English also draws a conclusion.",
+          "level_source": 17
+        },
+        {
+          "n": 2,
+          "type": "near_synonym_choice",
+          "question_en": "Which word means the point at issue, as opposed to a question or a matter?",
+          "options": [
+            "सवाल",
+            "मामला",
+            "मुद्दा",
+            "बात"
+          ],
+          "answer_index": 2,
+          "explanation_en": "मुद्दा is what is contentious. मामला is the affair and सवाल is a question — and मुद्दा is raised, not asked.",
+          "level_source": 17
+        },
+        {
+          "n": 3,
+          "type": "meaning_match",
+          "prompt_en": "Which formal word has no everyday single-word equivalent?",
+          "options": [
+            "प्रस्तुत",
+            "आवश्यक",
+            "उपलब्ध",
+            "संबंधित"
+          ],
+          "answer_index": 2,
+          "explanation_en": "Speech rewrites the sentence — ये मिल जाएगा — rather than swapping उपलब्ध for another adjective.",
+          "level_source": 18
+        },
+        {
+          "n": 4,
+          "type": "comprehension",
+          "context_en": "An email opens: विषय: छुट्टी के लिए आवेदन. महोदय, निवेदन है कि मुझे चार दिन की छुट्टी चाहिए।",
+          "question_en": "What is being asked for?",
+          "options": [
+            "Four days' leave",
+            "A pay rise",
+            "A meeting",
+            "A transfer"
+          ],
+          "answer_index": 0,
+          "explanation_en": "निवेदन है कि opens a request made upwards, to somebody in a position to grant it.",
+          "level_source": 19
+        },
+        {
+          "n": 5,
+          "type": "gender_recall",
+          "prompt_en": "दिनांक and तारीख़ mean the same thing. What is unusual about them?",
+          "options": [
+            "Both are feminine",
+            "They have opposite genders",
+            "Neither takes a gender",
+            "Both are masculine"
+          ],
+          "answer_index": 1,
+          "explanation_en": "दिनांक is masculine and तारीख़ feminine — आज का दिनांक but आज की तारीख़.",
+          "level_source": 20
+        },
+        {
+          "n": 6,
+          "type": "meaning_match",
+          "prompt_en": "Which three words head an official Hindi letter?",
+          "options": [
+            "निवेदन, अनुरोध, प्रार्थना",
+            "प्रस्तुत, सूचित, संलग्न",
+            "महोदय, सादर, धन्यवाद",
+            "संदर्भ, विषय, दिनांक"
+          ],
+          "answer_index": 3,
+          "explanation_en": "Learn the three together and you can orient yourself in any official document in seconds.",
+          "level_source": 20
+        },
+        {
+          "type": "meaning_match",
+          "prompt_en": "संबंधित विभाग से संपर्क करें means what?",
+          "options": [
+            "Contact the department concerned",
+            "The department will contact you",
+            "No department handles this",
+            "Contact us directly"
+          ],
+          "answer_index": 0,
+          "explanation_en": "And notably it does not say which department. Part of the phrase's function is to avoid naming anybody.",
+          "level_source": 18,
+          "n": 7
+        },
+        {
+          "n": 8,
+          "type": "meaning_match",
+          "prompt_en": "पूर्व does NOT mean which of these?",
+          "options": [
+            "east",
+            "former",
+            "after",
+            "before"
+          ],
+          "answer_index": 2,
+          "explanation_en": "Three meanings in one word, separated only by context — पूर्व प्रधानमंत्री is a former prime minister, not an eastern one.",
+          "level_source": 16
+        },
+        {
+          "n": 9,
+          "type": "inference",
+          "context_en": "A sign reads: टिकट खिड़की। ट्रेन के प्रस्थान से आधा घंटा पूर्व बंद। अग्रिम बुकिंग ऑनलाइन उपलब्ध है।",
+          "question_en": "Your train leaves at 6:15 and you arrive at 5:50. What follows?",
+          "options": [
+            "You can buy a ticket on board",
+            "The window closes at 6:15",
+            "You have twenty-five minutes to buy a ticket",
+            "The window shut at 5:45, so you would have needed to book online"
+          ],
+          "answer_index": 3,
+          "explanation_en": "The closing rule gives 5:45, and the only remaining route is the line after it.",
+          "level_source": 16
+        },
+        {
+          "type": "meaning_match",
+          "prompt_en": "विषय does NOT mean which of these?",
+          "options": [
+            "a topic of discussion",
+            "a citizen of a country",
+            "the subject of a letter",
+            "a subject studied at school"
+          ],
+          "answer_index": 1,
+          "explanation_en": "English \"subject\" also means a citizen. Hindi's विषय never does.",
+          "level_source": 20,
+          "n": 10
+        }
+      ]
+    },
+    {
+      "checkpoint": 5,
+      "covers_levels": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "title_en": "Messages, and the first pairs",
+      "questions": [
+        {
+          "n": 1,
+          "type": "gender_recall",
+          "prompt_en": "Which is masculine?",
+          "options": [
+            "रसीद",
+            "हस्ताक्षर",
+            "बधाई",
+            "वापसी"
+          ],
+          "answer_index": 1,
+          "explanation_en": "हस्ताक्षर is masculine — हस्त, hand, plus अक्षर, a letter. The other three are feminine.",
+          "level_source": 21
+        },
+        {
+          "n": 2,
+          "type": "near_synonym_choice",
+          "question_en": "Which is the everyday word for हस्ताक्षर?",
+          "options": [
+            "हस्तलेख",
+            "मुहर",
+            "प्रमाण",
+            "दस्तख़त"
+          ],
+          "answer_index": 3,
+          "explanation_en": "दस्तख़त is what the bank clerk will say. हस्तलेख is handwriting.",
+          "level_source": 21
+        },
+        {
+          "n": 3,
+          "type": "comprehension",
+          "context_en": "A message reads: अरे यार सॉरी, मीटिंग में था। फ़ोन साइलेंट पर था। सब ठीक है ना?",
+          "question_en": "What tells you these two are close?",
+          "options": [
+            "यार, the dropped subjects, and the ना tag",
+            "The English words alone",
+            "The mention of a meeting",
+            "The apology"
+          ],
+          "answer_index": 0,
+          "explanation_en": "English words alone prove nothing — plenty of formal writing has them. यार and the ना are the signal.",
+          "level_source": 22
+        },
+        {
+          "n": 4,
+          "type": "meaning_match",
+          "prompt_en": "In a request, what is एक छोटी सी गुज़ारिश थी doing with the past tense?",
+          "options": [
+            "Nothing",
+            "Describing something that already happened",
+            "Softening a present request",
+            "Marking a habit"
+          ],
+          "answer_index": 2,
+          "explanation_en": "Putting the asking one step back makes it easier to refuse — the same instinct as \"I was wondering whether\".",
+          "level_source": 24
+        },
+        {
+          "n": 5,
+          "type": "near_synonym_choice",
+          "question_en": "Which request word is warm and personal rather than formal or neutral?",
+          "options": [
+            "निवेदन",
+            "अनुरोध",
+            "गुज़ारिश",
+            "आदेश"
+          ],
+          "answer_index": 2,
+          "explanation_en": "निवेदन goes upwards, अनुरोध is level, गुज़ारिश is warm. आदेश goes the other way entirely.",
+          "level_source": 24
+        },
+        {
+          "n": 6,
+          "type": "inference",
+          "context_en": "A message reads: कल आपके यहाँ नहीं आ सका, इसके लिए क्षमा चाहता हूँ। ... आपने इतनी तैयारी की थी, बहुत बुरा लगा। ... माफ़ कीजिएगा।",
+          "question_en": "What does आपने इतनी तैयारी की थी add?",
+          "options": [
+            "An acknowledgement of the trouble she went to, not only his absence",
+            "A request that she prepare again",
+            "A suggestion the event did not matter",
+            "An explanation of why he could not come"
+          ],
+          "answer_index": 0,
+          "explanation_en": "The apology is doubled — sorry I was absent, and sorry you went to trouble.",
+          "level_source": 24
+        },
+        {
+          "type": "meaning_match",
+          "prompt_en": "A message reads छुट्टी की स्वीकृति मिल गई है ... छुट्टी मंज़ूर है। What do the two lines show?",
+          "options": [
+            "A contradiction",
+            "स्वीकृति and मंज़ूरी are the same thing on two sides of the vocabulary",
+            "Two separate approvals",
+            "One is a mistake"
+          ],
+          "answer_index": 1,
+          "explanation_en": "Sanskrit-side and Urdu-side, one line apart, and both feminine. The writer is not being inconsistent.",
+          "level_source": 23,
+          "n": 7
+        },
+        {
+          "n": 8,
+          "type": "near_synonym_choice",
+          "question_en": "Which word can be a noun as well as an adjective?",
+          "options": [
+            "सरल",
+            "आसान",
+            "कठिन",
+            "मुश्किल"
+          ],
+          "answer_index": 3,
+          "explanation_en": "एक मुश्किल आ गई works; एक कठिन आ गई does not. The Sanskrit-side noun is कठिनाई.",
+          "level_source": 25
+        },
+        {
+          "n": 9,
+          "type": "meaning_match",
+          "prompt_en": "प्रारंभ is a noun. What is शुरू?",
+          "options": [
+            "Not a noun — it behaves like an invariable adjective",
+            "A verb",
+            "A postposition",
+            "Also a noun"
+          ],
+          "answer_index": 0,
+          "explanation_en": "काम शुरू हुआ, but कार्यक्रम का प्रारंभ. The noun on that side is शुरुआत, and it is feminine.",
+          "level_source": 25
+        },
+        {
+          "n": 10,
+          "type": "near_synonym_choice",
+          "question_en": "Which pair is genuinely interchangeable, differing only in setting?",
+          "options": [
+            "निवेदन and आदेश",
+            "प्रारंभ and शुरू",
+            "समाप्त and ख़त्म",
+            "कठिन and मुश्किल"
+          ],
+          "answer_index": 2,
+          "explanation_en": "समाप्त and ख़त्म are both invariable and both take होना and करना. The first and third are asymmetric.",
+          "level_source": 25
+        }
+      ]
+    },
+    {
+      "checkpoint": 6,
+      "covers_levels": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "title_en": "The register pairs, and formal email",
+      "questions": [
+        {
+          "n": 1,
+          "type": "meaning_match",
+          "prompt_en": "उत्तर प्रदेश means what?",
+          "options": [
+            "the upper state",
+            "the first state",
+            "the answering state",
+            "the northern state"
+          ],
+          "answer_index": 3,
+          "explanation_en": "उत्तर is north here. Nothing but context separates it from उत्तर meaning an answer.",
+          "level_source": 26
+        },
+        {
+          "n": 2,
+          "type": "near_synonym_choice",
+          "question_en": "Which word for time would a song reach for?",
+          "options": [
+            "समय",
+            "वक़्त",
+            "अवधि",
+            "काल"
+          ],
+          "answer_index": 1,
+          "explanation_en": "वक़्त carries more feeling. अवधि is a measured period and would be absurd in a song.",
+          "level_source": 26
+        },
+        {
+          "n": 3,
+          "type": "gender_recall",
+          "prompt_en": "स्थान and जगह mean the same thing. Which is feminine?",
+          "options": [
+            "स्थान",
+            "जगह",
+            "both",
+            "neither"
+          ],
+          "answer_index": 1,
+          "explanation_en": "जगह is feminine and स्थान masculine — the third mismatched pair in the module.",
+          "level_source": 27
+        },
+        {
+          "n": 4,
+          "type": "gender_recall",
+          "prompt_en": "आवश्यकता and ज़रूरत — what is true of their genders?",
+          "options": [
+            "Both are masculine",
+            "आवश्यकता has no gender",
+            "They differ",
+            "Both are feminine"
+          ],
+          "answer_index": 3,
+          "explanation_en": "They match. Roughly half the module's pairs mismatch and half do not, so each has to be known.",
+          "level_source": 27
+        },
+        {
+          "n": 5,
+          "type": "meaning_match",
+          "prompt_en": "Why is there no word कामक्रम?",
+          "options": [
+            "Free words swap between registers; compounds do not",
+            "काम is not a real word",
+            "It exists but is rare",
+            "कार्यक्रम is a loanword"
+          ],
+          "answer_index": 0,
+          "explanation_en": "The single most reliable difference between the two sides — the Sanskrit side takes the compounds.",
+          "level_source": 27
+        },
+        {
+          "n": 6,
+          "type": "meaning_match",
+          "prompt_en": "Which prefix negates मुमकिन?",
+          "options": [
+            "ला-",
+            "अ-",
+            "ना-",
+            "निः-"
+          ],
+          "answer_index": 2,
+          "explanation_en": "नामुमकिन. संभव takes अ- instead, giving असंभव — each word keeps the prefix from its own side.",
+          "level_source": 28
+        },
+        {
+          "n": 7,
+          "type": "near_synonym_choice",
+          "question_en": "Which word appears in the compound for life insurance?",
+          "options": [
+            "साँस",
+            "ज़िंदगी",
+            "जीवन",
+            "उम्र"
+          ],
+          "answer_index": 2,
+          "explanation_en": "जीवन बीमा. ज़िंदगी owns the feeling and जीवन owns the compounds.",
+          "level_source": 28
+        },
+        {
+          "n": 8,
+          "type": "gender_recall",
+          "prompt_en": "ख़बर and समाचार mean roughly the same. Which is masculine?",
+          "options": [
+            "समाचार",
+            "both",
+            "neither",
+            "ख़बर"
+          ],
+          "answer_index": 0,
+          "explanation_en": "समाचार is masculine, ख़बर feminine — and समाचार is news as a body where ख़बर is one item of it.",
+          "level_source": 29
+        },
+        {
+          "n": 9,
+          "type": "meaning_match",
+          "prompt_en": "Which government department name is possible?",
+          "options": [
+            "तालीम मंत्रालय",
+            "शिक्षा मंत्रालय",
+            "both",
+            "neither"
+          ],
+          "answer_index": 1,
+          "explanation_en": "तालीम is entirely current as a free word and will never name a ministry.",
+          "level_source": 29
+        },
+        {
+          "n": 10,
+          "type": "comprehension",
+          "context_en": "An email reads: विषय: मासिक रिपोर्ट। महोदय, इस महीने की रिपोर्ट अनुलग्नक में भेज रहा हूँ। कुछ आँकड़े अभी अधूरे हैं।",
+          "question_en": "Why send a report he says is incomplete?",
+          "options": [
+            "The deadline has passed",
+            "The figures do not matter",
+            "He has made a mistake",
+            "So that it can be reviewed while the last figures are finished"
+          ],
+          "answer_index": 3,
+          "explanation_en": "He flags what is missing and asks for it to be looked over anyway. The reason sits in the gap between the two lines.",
+          "level_source": 30
+        }
+      ]
+    }
+  ]
+}

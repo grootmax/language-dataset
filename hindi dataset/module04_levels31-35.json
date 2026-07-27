@@ -1,0 +1,808 @@
+{
+  "module": 4,
+  "module_name_en": "Core Words I",
+  "module_name_hi": "शब्द भंडार १",
+  "phase": 2,
+  "batch": { "levels_from": 31, "levels_to": 35 },
+  "levels": [
+    {
+      "level": 31,
+      "title_en": "Reading, hearing, understanding",
+      "title_hi": "पढ़ना सुनना समझना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L31-I1",
+          "type": "word",
+          "target": "पढ़ना",
+          "read_as": "paṛhnaa",
+          "pronunciation_notes": "The flap ढ़ is released with breath, and the vowel before -ना drops: paṛhnaa in two syllables.",
+          "gloss_en": "to read, to study",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "पढ़ना",
+          "plural_read_as": "paṛhnaa",
+          "difficulty": 4,
+          "tags": ["verbs", "verb", "infinitive", "nukta", "medial_schwa", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "पढ़ना — to read",
+              "explanation_en": "पढ़ना means to read, and also to study, so a student पढ़ता है whether or not a book is open. Its stem is पढ़. You met the word in Module 2 as the example for the breathy flap ढ़, which is the tongue flicking forward with a puff of air after it — not a stop.",
+              "examples": [
+                { "hindi": "किताब पढ़ना", "read_as": "kitaab paṛhnaa", "english": "to read a book", "note": "The thing read comes before the verb." },
+                { "hindi": "पत्र पढ़ना", "read_as": "patra paṛhnaa", "english": "to read a letter", "note": "पत्र keeps its final vowel after a conjunct in र." },
+                { "hindi": "पढ़ना और लिखना", "read_as": "paṛhnaa aur likhnaa", "english": "reading and writing", "note": "The two halves of literacy, as a fixed pair." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पढ़ना",
+              "question_read_as": "paṛhnaa",
+              "options": ["to write", "to say", "to learn", "to read"],
+              "options_read_as": ["to write", "to say", "to learn", "to read"],
+              "answer_index": 3,
+              "explanation_en": "पढ़ना is to read, and by extension to study. लिखना is to write."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "पढ़ना — which part is the stem, once -ना is removed?",
+              "options": ["पढ़न", "पढ़ना", "पढ़", "पढ़नी"],
+              "options_read_as": ["paṛhan", "paṛhnaa", "paṛh", "paṛhnii"],
+              "answer_index": 2,
+              "explanation_en": "Removing -ना leaves पढ़, which keeps the dot and is the stem."
+            }
+          },
+          "audio": {
+            "tts_strings": ["पढ़ना", "किताब पढ़ना", "पढ़ना और लिखना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L31-I2",
+          "type": "word",
+          "target": "सुनना",
+          "read_as": "sunnaa",
+          "pronunciation_notes": "The two न letters run together and the n is held longer than a single one: sunnaa.",
+          "gloss_en": "to hear, to listen",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "सुनना",
+          "plural_read_as": "sunnaa",
+          "difficulty": 3,
+          "tags": ["verbs", "verb", "infinitive", "geminate", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "सुनना — to hear, to listen",
+              "explanation_en": "सुनना covers both hearing and listening, so it does the work of two English verbs. Its stem is सुन. The written word has two न letters in a row and the vowel between them drops, so the n is genuinely held longer, in the same way as the doubled consonants from Module 3.",
+              "examples": [
+                { "hindi": "गाना सुनना", "read_as": "gaanaa sunnaa", "english": "to listen to a song", "note": "गाना is both a song and the verb to sing." },
+                { "hindi": "आवाज़ सुनना", "read_as": "aavaaz sunnaa", "english": "to hear a voice", "note": "आवाज़ carries the dotted ज़ and is feminine." },
+                { "hindi": "हिंदी सुनना", "read_as": "hindii sunnaa", "english": "to listen to Hindi", "note": "The same verb for deliberate listening." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सुनना",
+              "question_read_as": "sunnaa",
+              "options": ["to speak", "to hear", "to see", "to call"],
+              "options_read_as": ["to speak", "to hear", "to see", "to call"],
+              "answer_index": 1,
+              "explanation_en": "सुनना is to hear or to listen. बोलना is to speak."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "सुनना — which part is the stem, once -ना is removed?",
+              "options": ["सुन", "सुनन", "सुनना", "सुननी"],
+              "options_read_as": ["sun", "sunan", "sunnaa", "sunnii"],
+              "answer_index": 0,
+              "explanation_en": "Removing -ना leaves सुन with a single न, which is the stem."
+            }
+          },
+          "audio": {
+            "tts_strings": ["सुनना", "गाना सुनना", "आवाज़ सुनना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L31-I3",
+          "type": "word",
+          "target": "समझना",
+          "read_as": "samajhnaa",
+          "pronunciation_notes": "The vowel before -ना drops but the middle one stays, giving samajhnaa — the medial schwa case from Module 3.",
+          "gloss_en": "to understand",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "समझना",
+          "plural_read_as": "samajhnaa",
+          "difficulty": 4,
+          "tags": ["verbs", "verb", "infinitive", "medial_schwa", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "समझना — to understand",
+              "explanation_en": "समझना means to understand, and its stem is समझ. This is the exact word Module 3 used to show that medial schwa deletion is variable: समझ keeps its middle vowel while समझना drops the one before the ending. The झ is voiced and breathy at once, so keep the murmur going rather than saying j and then h.",
+              "examples": [
+                { "hindi": "हिंदी समझना", "read_as": "hindii samajhnaa", "english": "to understand Hindi", "note": "The language comes before the verb." },
+                { "hindi": "बात समझना", "read_as": "baat samajhnaa", "english": "to understand what is said", "note": "बात is feminine despite its consonant ending." },
+                { "hindi": "समझना और बोलना", "read_as": "samajhnaa aur bolnaa", "english": "understanding and speaking", "note": "The two halves of using a language." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "समझना",
+              "question_read_as": "samajhnaa",
+              "options": ["to learn", "to think", "to understand", "to explain"],
+              "options_read_as": ["to learn", "to think", "to understand", "to explain"],
+              "answer_index": 2,
+              "explanation_en": "समझना is to understand. समझाना, with a longer vowel, is to explain."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "समझना — which part is the stem, once -ना is removed?",
+              "options": ["समझन", "समझना", "समझनी", "समझ"],
+              "options_read_as": ["samajhan", "samajhnaa", "samajhnii", "samajh"],
+              "answer_index": 3,
+              "explanation_en": "Removing -ना leaves समझ, said with its middle vowel intact: samajh."
+            }
+          },
+          "audio": {
+            "tts_strings": ["समझना", "हिंदी समझना", "बात समझना"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added पढ़ना, सुनना and समझना — the verbs for taking language in. Each hides a stem: पढ़, सुन and समझ.",
+        "key_forms": ["पढ़ना", "सुनना", "समझना"],
+        "next_up_en": "Next: लेना, देना and बनाना, three verbs with very short stems."
+      }
+    },
+    {
+      "level": 32,
+      "title_en": "Taking, giving, making",
+      "title_hi": "लेना देना बनाना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L32-I1",
+          "type": "word",
+          "target": "लेना",
+          "read_as": "lenaa",
+          "pronunciation_notes": "A clear l and a flat ए with no glide: lenaa, two syllables.",
+          "gloss_en": "to take",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "लेना",
+          "plural_read_as": "lenaa",
+          "difficulty": 3,
+          "tags": ["verbs", "verb", "infinitive", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "लेना — to take",
+              "explanation_en": "लेना means to take, and its stem is ले. It pairs with देना, to give, and the two turn up together constantly. Much later they take on a second job as helpers attached to other verbs, changing the shade of meaning rather than adding one of their own — but that belongs to a far later module.",
+              "examples": [
+                { "hindi": "चाबी लेना", "read_as": "chaabii lenaa", "english": "to take a key", "note": "The thing taken comes before the verb." },
+                { "hindi": "किताब लेना", "read_as": "kitaab lenaa", "english": "to take a book", "note": "The same pattern with another object." },
+                { "hindi": "लेना और देना", "read_as": "lenaa aur denaa", "english": "taking and giving", "note": "A fixed pair, used as a phrase." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "लेना",
+              "question_read_as": "lenaa",
+              "options": ["to take", "to give", "to bring", "to hold"],
+              "options_read_as": ["to take", "to give", "to bring", "to hold"],
+              "answer_index": 0,
+              "explanation_en": "लेना is to take. देना is to give."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "लेना — which part is the stem, once -ना is removed?",
+              "options": ["लेन", "ले", "लेना", "लेनी"],
+              "options_read_as": ["len", "le", "lenaa", "lenii"],
+              "answer_index": 1,
+              "explanation_en": "Removing -ना leaves ले, a single syllable, which is the stem."
+            }
+          },
+          "audio": {
+            "tts_strings": ["लेना", "चाबी लेना", "लेना और देना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L32-I2",
+          "type": "word",
+          "target": "देना",
+          "read_as": "denaa",
+          "pronunciation_notes": "Dental द with the tongue on the teeth, and a flat ए: denaa.",
+          "gloss_en": "to give",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "देना",
+          "plural_read_as": "denaa",
+          "difficulty": 3,
+          "tags": ["verbs", "verb", "infinitive", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "देना — to give",
+              "explanation_en": "देना means to give, and its stem is दे. Keep the द dental, with the tongue against the teeth — pulled back it drifts towards ड and the word stops being recognisable. Like लेना it later doubles as a helper verb, and the two are usually taught as a pair for that reason.",
+              "examples": [
+                { "hindi": "पानी देना", "read_as": "paanii denaa", "english": "to give water", "note": "The thing given comes before the verb." },
+                { "hindi": "चाय देना", "read_as": "chaay denaa", "english": "to give tea", "note": "You will hear this offered constantly." },
+                { "hindi": "किताब देना", "read_as": "kitaab denaa", "english": "to give a book", "note": "The same pattern again." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "देना",
+              "question_read_as": "denaa",
+              "options": ["to take", "to sell", "to show", "to give"],
+              "options_read_as": ["to take", "to sell", "to show", "to give"],
+              "answer_index": 3,
+              "explanation_en": "देना is to give. लेना is to take."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "देना — which part is the stem, once -ना is removed?",
+              "options": ["देन", "देना", "दे", "देनी"],
+              "options_read_as": ["den", "denaa", "de", "denii"],
+              "answer_index": 2,
+              "explanation_en": "Removing -ना leaves दे, which is the stem."
+            }
+          },
+          "audio": {
+            "tts_strings": ["देना", "पानी देना", "चाय देना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L32-I3",
+          "type": "word",
+          "target": "बनाना",
+          "read_as": "banaanaa",
+          "pronunciation_notes": "Three syllables, banaanaa, with the middle vowel long and the first one short.",
+          "gloss_en": "to make, to build",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "बनाना",
+          "plural_read_as": "banaanaa",
+          "difficulty": 3,
+          "tags": ["verbs", "verb", "infinitive", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "बनाना — to make, to build",
+              "explanation_en": "बनाना means to make or to build, and its stem is बना. It is the everyday verb for cooking — खाना बनाना is how you say to cook, literally 'to make food'. Note the vowel lengths: the first is short and the second long, so it is ba-naa-naa and not baa-na-naa.",
+              "examples": [
+                { "hindi": "खाना बनाना", "read_as": "khaanaa banaanaa", "english": "to cook food", "note": "The ordinary way to say cooking." },
+                { "hindi": "चाय बनाना", "read_as": "chaay banaanaa", "english": "to make tea", "note": "The same verb for preparing a drink." },
+                { "hindi": "घर बनाना", "read_as": "ghar banaanaa", "english": "to build a house", "note": "And for building something too." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बनाना",
+              "question_read_as": "banaanaa",
+              "options": ["to break", "to make", "to buy", "to find"],
+              "options_read_as": ["to break", "to make", "to buy", "to find"],
+              "answer_index": 1,
+              "explanation_en": "बनाना is to make or build. With खाना it is the ordinary word for cooking."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "बनाना — which part is the stem, once -ना is removed?",
+              "options": ["बना", "बनान", "बनाना", "बनानी"],
+              "options_read_as": ["banaa", "banaan", "banaanaa", "banaanii"],
+              "answer_index": 0,
+              "explanation_en": "Removing -ना leaves बना, which is the stem."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बनाना", "खाना बनाना", "चाय बनाना"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered लेना, देना and बनाना. लेना and देना have the shortest stems you will meet — ले and दे — and both take on a second life as helper verbs much later.",
+        "key_forms": ["लेना", "देना", "बनाना"],
+        "next_up_en": "Next: रहना, कहना and चलना."
+      }
+    },
+    {
+      "level": 33,
+      "title_en": "Living, saying, moving",
+      "title_hi": "रहना कहना चलना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L33-I1",
+          "type": "word",
+          "target": "रहना",
+          "read_as": "rahnaa",
+          "pronunciation_notes": "The vowel before -ना drops, so the word is rahnaa in two syllables, and र is a single tap.",
+          "gloss_en": "to live, to stay",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "रहना",
+          "plural_read_as": "rahnaa",
+          "difficulty": 3,
+          "tags": ["verbs", "verb", "infinitive", "medial_schwa", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "रहना — to live, to stay",
+              "explanation_en": "रहना covers living somewhere, staying somewhere and remaining in a state, so it stretches across several English verbs. Its stem is रह. Remember that र is a single tap of the tongue rather than the English curl, and that the vowel before the ending drops.",
+              "examples": [
+                { "hindi": "यहाँ रहना", "read_as": "yahãa rahnaa", "english": "to live here", "note": "यहाँ carries the crescent from Module 3." },
+                { "hindi": "साफ़ रहना", "read_as": "saaf rahnaa", "english": "to stay clean", "note": "The same verb for remaining in a state." },
+                { "hindi": "खुश रहना", "read_as": "khush rahnaa", "english": "to stay happy", "note": "A very common thing to wish someone." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "रहना",
+              "question_read_as": "rahnaa",
+              "options": ["to live", "to go", "to wait", "to stop"],
+              "options_read_as": ["to live", "to go", "to wait", "to stop"],
+              "answer_index": 0,
+              "explanation_en": "रहना is to live or to stay. It also covers remaining in a state."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "रहना — which part is the stem, once -ना is removed?",
+              "options": ["रहन", "रह", "रहना", "रहनी"],
+              "options_read_as": ["rahan", "rah", "rahnaa", "rahnii"],
+              "answer_index": 1,
+              "explanation_en": "Removing -ना leaves रह, which is the stem."
+            }
+          },
+          "audio": {
+            "tts_strings": ["रहना", "यहाँ रहना", "खुश रहना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L33-I2",
+          "type": "word",
+          "target": "कहना",
+          "read_as": "kahnaa",
+          "pronunciation_notes": "Unaspirated क with no puff of air, and the vowel before -ना drops: kahnaa.",
+          "gloss_en": "to say, to tell",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "कहना",
+          "plural_read_as": "kahnaa",
+          "difficulty": 3,
+          "tags": ["verbs", "verb", "infinitive", "medial_schwa", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "कहना — to say, to tell",
+              "explanation_en": "कहना means to say or to tell, and its stem is कह. It overlaps with बोलना but is not identical: बोलना leans towards the act of speaking, while कहना leans towards the words said. Keep the opening क free of breath — with a puff it becomes ख, a different letter.",
+              "examples": [
+                { "hindi": "नाम कहना", "read_as": "naam kahnaa", "english": "to say a name", "note": "The thing said comes before the verb." },
+                { "hindi": "धीरे कहना", "read_as": "dhiire kahnaa", "english": "to say slowly", "note": "धीरे never changes form." },
+                { "hindi": "कहना और सुनना", "read_as": "kahnaa aur sunnaa", "english": "saying and hearing", "note": "The two sides of a conversation." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "कहना",
+              "question_read_as": "kahnaa",
+              "options": ["to hear", "to ask", "to say", "to answer"],
+              "options_read_as": ["to hear", "to ask", "to say", "to answer"],
+              "answer_index": 2,
+              "explanation_en": "कहना is to say or tell. बोलना leans more towards the act of speaking."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "कहना — which part is the stem, once -ना is removed?",
+              "options": ["कहन", "कहना", "कहनी", "कह"],
+              "options_read_as": ["kahan", "kahnaa", "kahnii", "kah"],
+              "answer_index": 3,
+              "explanation_en": "Removing -ना leaves कह, which is the stem."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कहना", "नाम कहना", "कहना और सुनना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L33-I3",
+          "type": "word",
+          "target": "चलना",
+          "read_as": "chalnaa",
+          "pronunciation_notes": "Light unaspirated च with no puff, and the vowel before -ना drops: chalnaa.",
+          "gloss_en": "to walk, to move, to go along",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "चलना",
+          "plural_read_as": "chalnaa",
+          "difficulty": 3,
+          "tags": ["verbs", "verb", "infinitive", "medial_schwa", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "चलना — to walk, to move",
+              "explanation_en": "चलना means to walk, but it stretches much further: machines चलते हैं when they run, and चल on its own is the everyday 'come on, let's go'. Its stem is चल. You met the word in Module 2 as one half of the चल and छल pair, so keep the opening sound free of breath.",
+              "examples": [
+                { "hindi": "धीरे चलना", "read_as": "dhiire chalnaa", "english": "to walk slowly", "note": "धीरे is an adverb and never changes." },
+                { "hindi": "तेज़ चलना", "read_as": "tez chalnaa", "english": "to walk fast", "note": "तेज़ carries the dotted ज़." },
+                { "hindi": "घर चलना", "read_as": "ghar chalnaa", "english": "to head home", "note": "Used when setting off together." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "चलना",
+              "question_read_as": "chalnaa",
+              "options": ["to stop", "to stand", "to run", "to walk"],
+              "options_read_as": ["to stop", "to stand", "to run", "to walk"],
+              "answer_index": 3,
+              "explanation_en": "चलना is to walk or move. It also covers machines running."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "चलना — which part is the stem, once -ना is removed?",
+              "options": ["चल", "चलन", "चलना", "चलनी"],
+              "options_read_as": ["chal", "chalan", "chalnaa", "chalnii"],
+              "answer_index": 0,
+              "explanation_en": "Removing -ना leaves चल, which is also the everyday word for 'come on'."
+            }
+          },
+          "audio": {
+            "tts_strings": ["चलना", "धीरे चलना", "तेज़ चलना"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added रहना, कहना and चलना. All three drop the vowel before the ending, so their stems are रह, कह and चल.",
+        "key_forms": ["रहना", "कहना", "चलना"],
+        "next_up_en": "Next: सोना, उठना and बैठना finish the twenty verbs."
+      }
+    },
+    {
+      "level": 34,
+      "title_en": "Sleeping, rising, sitting",
+      "title_hi": "सोना उठना बैठना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L34-I1",
+          "type": "word",
+          "target": "सोना",
+          "read_as": "sonaa",
+          "pronunciation_notes": "A flat ओ with no w-glide at the end: sonaa, two syllables.",
+          "gloss_en": "to sleep",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "सोना",
+          "plural_read_as": "sonaa",
+          "difficulty": 4,
+          "tags": ["verbs", "verb", "infinitive", "double_meaning"],
+          "cards": {
+            "learn": {
+              "title_en": "सोना — to sleep",
+              "explanation_en": "सोना means to sleep, and its stem is सो. It is also the noun for gold, exactly as खाना is both food and to eat — two unrelated words that happen to share a spelling, with only the sentence to tell them apart. You met it in Module 1 as an example of the flat ओ, so keep the vowel steady with no w at the end.",
+              "examples": [
+                { "hindi": "यहाँ सोना", "read_as": "yahãa sonaa", "english": "to sleep here", "note": "यहाँ carries the crescent." },
+                { "hindi": "कम सोना", "read_as": "kam sonaa", "english": "to sleep little", "note": "कम never changes form." },
+                { "hindi": "सोना और उठना", "read_as": "sonaa aur uṭhnaa", "english": "sleeping and waking", "note": "The pair that covers a day's ends." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सोना",
+              "question_read_as": "sonaa",
+              "options": ["to wake", "to sleep", "to rest", "to lie down"],
+              "options_read_as": ["to wake", "to sleep", "to rest", "to lie down"],
+              "answer_index": 1,
+              "explanation_en": "सोना is to sleep. The same spelling is also the noun for gold."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "सोना — which part is the stem, once -ना is removed?",
+              "options": ["सोन", "सोना", "सो", "सोनी"],
+              "options_read_as": ["son", "sonaa", "so", "sonii"],
+              "answer_index": 2,
+              "explanation_en": "Removing -ना leaves सो, which is the stem."
+            }
+          },
+          "audio": {
+            "tts_strings": ["सोना", "यहाँ सोना", "सोना और उठना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L34-I2",
+          "type": "word",
+          "target": "उठना",
+          "read_as": "uṭhnaa",
+          "pronunciation_notes": "The retroflex ठ is released with breath, and the vowel before -ना drops: uṭhnaa.",
+          "gloss_en": "to get up, to rise",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "उठना",
+          "plural_read_as": "uṭhnaa",
+          "difficulty": 4,
+          "tags": ["verbs", "verb", "infinitive", "retroflex", "medial_schwa"],
+          "cards": {
+            "learn": {
+              "title_en": "उठना — to get up",
+              "explanation_en": "उठना means to get up, whether from a chair or from bed, and its stem is उठ. The ठ is an aspirated retroflex, so the tongue curls back and a puff of air follows — do not reach for the th of English 'think', which does not exist in Hindi. You met the word in Module 2 while learning the short उ.",
+              "examples": [
+                { "hindi": "सुबह उठना", "read_as": "subah uṭhnaa", "english": "to get up in the morning", "note": "सुबह ends with a light ह that colours the vowel." },
+                { "hindi": "धीरे उठना", "read_as": "dhiire uṭhnaa", "english": "to get up slowly", "note": "धीरे never changes form." },
+                { "hindi": "उठना और बैठना", "read_as": "uṭhnaa aur baiṭhnaa", "english": "getting up and sitting down", "note": "Two retroflex verbs as a pair." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "उठना",
+              "question_read_as": "uṭhnaa",
+              "options": ["to sit", "to fall", "to get up", "to climb"],
+              "options_read_as": ["to sit", "to fall", "to get up", "to climb"],
+              "answer_index": 2,
+              "explanation_en": "उठना is to get up or rise. बैठना is to sit down."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "उठना — which part is the stem, once -ना is removed?",
+              "options": ["उठन", "उठना", "उठनी", "उठ"],
+              "options_read_as": ["uṭhan", "uṭhnaa", "uṭhnii", "uṭh"],
+              "answer_index": 3,
+              "explanation_en": "Removing -ना leaves उठ, which is the stem."
+            }
+          },
+          "audio": {
+            "tts_strings": ["उठना", "सुबह उठना", "उठना और बैठना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L34-I3",
+          "type": "word",
+          "target": "बैठना",
+          "read_as": "baiṭhnaa",
+          "pronunciation_notes": "The open ऐ, then an aspirated retroflex ठ, and the vowel before -ना drops: baiṭhnaa.",
+          "gloss_en": "to sit, to sit down",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "बैठना",
+          "plural_read_as": "baiṭhnaa",
+          "difficulty": 4,
+          "tags": ["verbs", "verb", "infinitive", "retroflex", "medial_schwa"],
+          "cards": {
+            "learn": {
+              "title_en": "बैठना — to sit",
+              "explanation_en": "बैठना means to sit or to sit down, and its stem is बैठ. It packs together two things English speakers find awkward: the open ऐ, which is a single vowel close to the a of 'cat' rather than the 'eye' its transliteration suggests, and the aspirated retroflex ठ. Take them one at a time.",
+              "examples": [
+                { "hindi": "यहाँ बैठना", "read_as": "yahãa baiṭhnaa", "english": "to sit here", "note": "A very common invitation." },
+                { "hindi": "बैठना और उठना", "read_as": "baiṭhnaa aur uṭhnaa", "english": "sitting and standing", "note": "The pair from the last card, reversed." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बैठना",
+              "question_read_as": "baiṭhnaa",
+              "options": ["to sit", "to stand", "to wait", "to rest"],
+              "options_read_as": ["to sit", "to stand", "to wait", "to rest"],
+              "answer_index": 0,
+              "explanation_en": "बैठना is to sit down. उठना is to get up."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "बैठना — which part is the stem, once -ना is removed?",
+              "options": ["बैठन", "बैठ", "बैठना", "बैठनी"],
+              "options_read_as": ["baiṭhan", "baiṭh", "baiṭhnaa", "baiṭhnii"],
+              "answer_index": 1,
+              "explanation_en": "Removing -ना leaves बैठ, which is the stem."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बैठना", "यहाँ बैठना", "बैठना और उठना"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed the twenty verbs with सोना, उठना and बैठना. Every one of the twenty is named by an infinitive in -ना, and stripping that ending always gives the stem.",
+        "key_forms": ["सोना", "उठना", "बैठना"],
+        "next_up_en": "Next: the common adjectives, starting with the three you have already seen in dozens of examples."
+      }
+    },
+    {
+      "level": 35,
+      "title_en": "The commonest adjectives",
+      "title_hi": "बड़ा छोटा अच्छा",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L35-I1",
+          "type": "word",
+          "target": "बड़ा",
+          "read_as": "baṛaa",
+          "pronunciation_notes": "The flap ड़ — the tongue curls back and flicks forward once — then a long final vowel: baṛaa.",
+          "gloss_en": "big, large; elder",
+          "gender": null,
+          "gender_flag": false,
+          "category": "adjectives",
+          "plural": "बड़े",
+          "plural_read_as": "baṛe",
+          "difficulty": 3,
+          "tags": ["adjectives", "adjective", "inflecting", "aa_ending", "nukta", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "बड़ा — big",
+              "explanation_en": "बड़ा means big or large, and it also means elder when applied to people, so बड़ा भाई is an elder brother rather than a large one. It ends in -ा, so it inflects: बड़ा, बड़ी, बड़े. You have seen all three forms in examples throughout this module without being told what they were.",
+              "examples": [
+                { "hindi": "बड़ा घर", "read_as": "baṛaa ghar", "english": "a big house", "note": "घर is masculine singular, so -ा." },
+                { "hindi": "बड़ी बहन", "read_as": "baṛii bahan", "english": "elder sister", "note": "बहन is feminine, so -ी — and the meaning shifts to age." },
+                { "hindi": "बड़े कान", "read_as": "baṛe kaan", "english": "big ears", "note": "Masculine plural, so -े." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बड़ा",
+              "question_read_as": "baṛaa",
+              "options": ["heavy", "big", "tall", "wide"],
+              "options_read_as": ["heavy", "big", "tall", "wide"],
+              "answer_index": 1,
+              "explanation_en": "बड़ा is big or large. Applied to a person it means elder."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ घर — which form of बड़ा fits?",
+              "options": ["बड़ी", "बड़े", "बड़ा", "बड़"],
+              "options_read_as": ["baṛii", "baṛe", "baṛaa", "baṛ"],
+              "answer_index": 2,
+              "explanation_en": "घर is masculine and singular, so बड़ा keeps its -ा form."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बड़ा", "बड़ी बहन", "बड़े कान"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L35-I2",
+          "type": "word",
+          "target": "छोटा",
+          "read_as": "chhoṭaa",
+          "pronunciation_notes": "Aspirated छ with a clear puff of air, then a retroflex ट: chhoṭaa.",
+          "gloss_en": "small, little; younger",
+          "gender": null,
+          "gender_flag": false,
+          "category": "adjectives",
+          "plural": "छोटे",
+          "plural_read_as": "chhoṭe",
+          "difficulty": 3,
+          "tags": ["adjectives", "adjective", "inflecting", "aa_ending", "aspiration", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "छोटा — small",
+              "explanation_en": "छोटा is the opposite of बड़ा in both senses: small in size, and younger when used of people. It ends in -ा and inflects the same way. Keep the opening sound aspirated — a clear puff of air — since without it the word drifts towards चोटा, which is not a word but sounds wrong immediately.",
+              "examples": [
+                { "hindi": "छोटा भाई", "read_as": "chhoṭaa bhaaii", "english": "younger brother", "note": "भाई is masculine, so -ा, and the meaning is about age." },
+                { "hindi": "छोटी बहन", "read_as": "chhoṭii bahan", "english": "younger sister", "note": "बहन is feminine, so -ी." },
+                { "hindi": "छोटे बच्चे", "read_as": "chhoṭe bachche", "english": "small children", "note": "Masculine plural, so -े." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "छोटा",
+              "question_read_as": "chhoṭaa",
+              "options": ["wide", "thin", "heavy", "small"],
+              "options_read_as": ["wide", "thin", "heavy", "small"],
+              "answer_index": 3,
+              "explanation_en": "छोटा is small. Applied to a person it means younger."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ बहन — which form of छोटा fits?",
+              "options": ["छोटी", "छोटा", "छोटे", "छोट"],
+              "options_read_as": ["chhoṭii", "chhoṭaa", "chhoṭe", "chhoṭ"],
+              "answer_index": 0,
+              "explanation_en": "बहन is feminine, so छोटा becomes छोटी."
+            }
+          },
+          "audio": {
+            "tts_strings": ["छोटा", "छोटी बहन", "छोटे बच्चे"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L35-I3",
+          "type": "word",
+          "target": "अच्छा",
+          "read_as": "achchhaa",
+          "pronunciation_notes": "The च्छ stack runs a plain च into an aspirated छ, so the second half carries the puff of air: achchhaa.",
+          "gloss_en": "good; all right",
+          "gender": null,
+          "gender_flag": false,
+          "category": "adjectives",
+          "plural": "अच्छे",
+          "plural_read_as": "achchhe",
+          "difficulty": 4,
+          "tags": ["adjectives", "adjective", "inflecting", "aa_ending", "conjunct", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "अच्छा — good",
+              "explanation_en": "अच्छा means good, and on its own it is also the all-purpose acknowledgement of Hindi conversation — 'right', 'I see', 'okay'. You will hear it constantly as a single word. It ends in -ा and inflects normally. The stack in the middle from Module 3 pairs a plain च with an aspirated छ, so only the second half gets the breath.",
+              "examples": [
+                { "hindi": "अच्छा खाना", "read_as": "achchhaa khaanaa", "english": "good food", "note": "खाना is masculine, so -ा." },
+                { "hindi": "अच्छी किताब", "read_as": "achchhii kitaab", "english": "a good book", "note": "किताब is feminine, so -ी." },
+                { "hindi": "अच्छे बच्चे", "read_as": "achchhe bachche", "english": "good children", "note": "Masculine plural, so -े." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "अच्छा",
+              "question_read_as": "achchhaa",
+              "options": ["new", "clean", "good", "easy"],
+              "options_read_as": ["new", "clean", "good", "easy"],
+              "answer_index": 2,
+              "explanation_en": "अच्छा is good. On its own it also works as 'right' or 'I see'."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ चाय — which form of अच्छा fits?",
+              "options": ["अच्छा", "अच्छे", "अच्छ", "अच्छी"],
+              "options_read_as": ["achchhaa", "achchhe", "achchh", "achchhii"],
+              "answer_index": 3,
+              "explanation_en": "चाय is feminine, so अच्छा becomes अच्छी."
+            }
+          },
+          "audio": {
+            "tts_strings": ["अच्छा", "अच्छी किताब", "अच्छे बच्चे"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level began the adjectives with बड़ा, छोटा and अच्छा — three words that have appeared in examples since the first level of this module. All three end in -ा, so all three inflect three ways.",
+        "key_forms": ["बड़ा", "छोटा", "अच्छा"],
+        "next_up_en": "Next: more adjectives, including several that never change form at all."
+      }
+    }
+  ]
+}

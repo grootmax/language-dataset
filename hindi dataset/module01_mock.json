@@ -1,0 +1,454 @@
+{
+  "module": 1,
+  "module_name_en": "Sounds & Vowels",
+  "kind": "mock_exam",
+  "mock_exam": {
+    "total_questions": 20,
+    "weighting_note": "Module 1 opens the curriculum, so there are no prior modules to draw the usual 20% same-phase / 10% older-concepts slices from. Ruling: this mock is 100% current-module, covering all 15 items across all 5 levels.",
+    "questions": [
+      {
+        "id": "M01-MOCK-Q1",
+        "source_item_ids": [
+          "M01-L01-I1"
+        ],
+        "type": "recognition",
+        "prompt_en": "Listen: अनार. Which vowel does it open with?",
+        "options": [
+          "अ",
+          "आ",
+          "इ",
+          "ई"
+        ],
+        "options_read_as": [
+          "a",
+          "aa",
+          "i",
+          "ii"
+        ],
+        "answer_index": 0,
+        "explanation_en": "अनार opens with the short अ, never stretched into the long आ."
+      },
+      {
+        "id": "M01-MOCK-Q2",
+        "source_item_ids": [
+          "M01-L01-I2"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling means 'work'?",
+        "options": [
+          "कम",
+          "काम",
+          "कोम",
+          "कीम"
+        ],
+        "options_read_as": [
+          "kam",
+          "kaam",
+          "kom",
+          "kiim"
+        ],
+        "answer_index": 1,
+        "explanation_en": "काम carries the matra ा for the long आ. कम, without it, means 'less'."
+      },
+      {
+        "id": "M01-MOCK-Q3",
+        "source_item_ids": [
+          "M01-L01-I3"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling is correct for 'book'?",
+        "options": [
+          "कीतीब",
+          "कीताब",
+          "किताब",
+          "कितीब"
+        ],
+        "options_read_as": [
+          "kiitiib",
+          "kiitaab",
+          "kitaab",
+          "kitiib"
+        ],
+        "answer_index": 2,
+        "explanation_en": "The first vowel is the short इ. Using the long ी matra gives a spelling that does not exist."
+      },
+      {
+        "id": "M01-MOCK-Q4",
+        "source_item_ids": [
+          "M01-L02-I1"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling is correct for 'blue'?",
+        "options": [
+          "निली",
+          "नीली रंग",
+          "निला",
+          "नीला"
+        ],
+        "options_read_as": [
+          "nilii",
+          "niilii raṅg",
+          "nilaa",
+          "niilaa"
+        ],
+        "answer_index": 3,
+        "explanation_en": "नीला needs the long ी. The short ि gives a syllable a Hindi speaker will not read as this word."
+      },
+      {
+        "id": "M01-MOCK-Q5",
+        "source_item_ids": [
+          "M01-L02-I2"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling is correct for 'bad'?",
+        "options": [
+          "बुरा",
+          "बरा",
+          "बूर",
+          "बूरा"
+        ],
+        "options_read_as": [
+          "buraa",
+          "baraa",
+          "buur",
+          "buuraa"
+        ],
+        "answer_index": 0,
+        "explanation_en": "बुरा takes the short hook ु. The long ू stretches the syllable into a form that sounds like a different word."
+      },
+      {
+        "id": "M01-MOCK-Q6",
+        "source_item_ids": [
+          "M01-L02-I3"
+        ],
+        "type": "odd_sound_out",
+        "prompt_en": "Three of these words contain the long ऊ sound. Which one does not?",
+        "options": [
+          "उल्लू",
+          "सुबह",
+          "ऊन",
+          "फूल"
+        ],
+        "options_read_as": [
+          "ulluu",
+          "subah",
+          "uun",
+          "phuul"
+        ],
+        "answer_index": 1,
+        "explanation_en": "सुबह uses the short उ. The other three carry the long ऊ."
+      },
+      {
+        "id": "M01-MOCK-Q7",
+        "source_item_ids": [
+          "M01-L03-I1"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling is correct for 'one'?",
+        "options": [
+          "ओक",
+          "ऐक",
+          "एक",
+          "औक"
+        ],
+        "options_read_as": [
+          "ok",
+          "aik",
+          "ek",
+          "auk"
+        ],
+        "answer_index": 2,
+        "explanation_en": "एक uses the narrower long ए. The wider ऐ gives a spelling that does not exist."
+      },
+      {
+        "id": "M01-MOCK-Q8",
+        "source_item_ids": [
+          "M01-L03-I2"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling is correct for 'money'?",
+        "options": [
+          "पोसा",
+          "पासा",
+          "पेसा",
+          "पैसा"
+        ],
+        "options_read_as": [
+          "posaa",
+          "paasaa",
+          "pesaa",
+          "paisaa"
+        ],
+        "answer_index": 3,
+        "explanation_en": "पैसा needs the wider ऐ. The single stroke of े gives the narrower ए and a different-sounding word."
+      },
+      {
+        "id": "M01-MOCK-Q9",
+        "source_item_ids": [
+          "M01-L03-I3"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling is correct for 'two'?",
+        "options": [
+          "दो",
+          "दू",
+          "दा",
+          "दौ"
+        ],
+        "options_read_as": [
+          "do",
+          "duu",
+          "daa",
+          "dau"
+        ],
+        "answer_index": 0,
+        "explanation_en": "औ is a separate, more open vowel from ओ. दौ is not a word."
+      },
+      {
+        "id": "M01-MOCK-Q10",
+        "source_item_ids": [
+          "M01-L04-I1"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling is correct for 'and'?",
+        "options": [
+          "ओर",
+          "और",
+          "अर",
+          "आर"
+        ],
+        "options_read_as": [
+          "or",
+          "aur",
+          "ar",
+          "aar"
+        ],
+        "answer_index": 1,
+        "explanation_en": "और takes the open औ. The single-stroke ो gives ओर, a different word meaning 'direction'."
+      },
+      {
+        "id": "M01-MOCK-Q11",
+        "source_item_ids": [
+          "M01-L04-I2"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling is correct for 'season'?",
+        "options": [
+          "रृतु",
+          "रितु",
+          "ऋतु",
+          "रीतु"
+        ],
+        "options_read_as": [
+          "rṛtu",
+          "ritu",
+          "ṛtu",
+          "riitu"
+        ],
+        "answer_index": 2,
+        "explanation_en": "The sound really is 'ri', but the spelling uses the vowel ऋ itself, not र with a matra attached."
+      },
+      {
+        "id": "M01-MOCK-Q12",
+        "source_item_ids": [
+          "M01-L04-I3"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling means 'corner'?",
+        "options": [
+          "कोनी",
+          "खोनी",
+          "खोना",
+          "कोना"
+        ],
+        "options_read_as": [
+          "konii",
+          "khonii",
+          "khonaa",
+          "konaa"
+        ],
+        "answer_index": 3,
+        "explanation_en": "कोना, without the puff of breath, means 'corner'. Adding it turns क into ख and produces the verb 'to lose'."
+      },
+      {
+        "id": "M01-MOCK-Q13",
+        "source_item_ids": [
+          "M01-L04-I3"
+        ],
+        "type": "odd_sound_out",
+        "prompt_en": "Three of these words begin with an unaspirated stop — no puff of air. Which one does not?",
+        "options": [
+          "खोना",
+          "काम",
+          "कोना",
+          "कमल"
+        ],
+        "options_read_as": [
+          "khonaa",
+          "kaam",
+          "konaa",
+          "kamal"
+        ],
+        "answer_index": 0,
+        "explanation_en": "खोना opens with the aspirated ख, a clear puff of breath. The other three open with the plain, unaspirated क."
+      },
+      {
+        "id": "M01-MOCK-Q14",
+        "source_item_ids": [
+          "M01-L05-I1"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling is correct for 'lentils'?",
+        "options": [
+          "डाल",
+          "दाल",
+          "ढाल",
+          "टाल"
+        ],
+        "options_read_as": [
+          "ḍaal",
+          "daal",
+          "ḍhaal",
+          "ṭaal"
+        ],
+        "answer_index": 1,
+        "explanation_en": "The tongue touches the back of the upper teeth for the dental द. Curling it back gives the retroflex ड and a different word, 'branch'."
+      },
+      {
+        "id": "M01-MOCK-Q15",
+        "source_item_ids": [
+          "M01-L05-I1"
+        ],
+        "type": "odd_sound_out",
+        "prompt_en": "Three of these words begin with a retroflex sound. Which one does not?",
+        "options": [
+          "टमाटर",
+          "टोपी",
+          "दाल",
+          "डाल"
+        ],
+        "options_read_as": [
+          "ṭamaaṭar",
+          "ṭopii",
+          "daal",
+          "ḍaal"
+        ],
+        "answer_index": 2,
+        "explanation_en": "दाल begins with the dental द. The other three start with the tongue curled back to the roof of the mouth."
+      },
+      {
+        "id": "M01-MOCK-Q16",
+        "source_item_ids": [
+          "M01-L05-I2"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling means 'swan'?",
+        "options": [
+          "हांस",
+          "हँसा",
+          "हँस",
+          "हंस"
+        ],
+        "options_read_as": [
+          "haans",
+          "hãsaa",
+          "hãs",
+          "hans"
+        ],
+        "answer_index": 3,
+        "explanation_en": "हंस uses the plain dot ं, which closes the syllable with a real nasal consonant. The moon-dot ँ instead gives the command 'laugh'."
+      },
+      {
+        "id": "M01-MOCK-Q17",
+        "source_item_ids": [
+          "M01-L05-I2"
+        ],
+        "type": "odd_sound_out",
+        "prompt_en": "In three of these words the nasal mark is pronounced as a full consonant. In which one is only the vowel nasalised?",
+        "options": [
+          "हँसना",
+          "हिंदी",
+          "अंडा",
+          "हंस"
+        ],
+        "options_read_as": [
+          "hãsnaa",
+          "hindii",
+          "aṇḍaa",
+          "hans"
+        ],
+        "answer_index": 0,
+        "explanation_en": "हँसना carries the moon-dot, so no consonant is heard. The other three use the plain dot, which closes the syllable with n or ṇ."
+      },
+      {
+        "id": "M01-MOCK-Q18",
+        "source_item_ids": [
+          "M01-L05-I3"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling means 'back' (as in 'go back')?",
+        "options": [
+          "बापस",
+          "वापस",
+          "वापिस",
+          "बाबस"
+        ],
+        "options_read_as": [
+          "baapas",
+          "vaapas",
+          "vaapis",
+          "baabas"
+        ],
+        "answer_index": 1,
+        "explanation_en": "वापस keeps the lips apart for व. Closing them fully turns it into ब, giving a non-word."
+      },
+      {
+        "id": "M01-MOCK-Q19",
+        "source_item_ids": [
+          "M01-L05-I3"
+        ],
+        "type": "odd_sound_out",
+        "prompt_en": "Three of these words begin with व. Which one does not?",
+        "options": [
+          "वार",
+          "वह",
+          "बार",
+          "वापस"
+        ],
+        "options_read_as": [
+          "vaar",
+          "vah",
+          "baar",
+          "vaapas"
+        ],
+        "answer_index": 2,
+        "explanation_en": "बार closes the lips completely for ब. The other three use the lighter व, lips apart."
+      },
+      {
+        "id": "M01-MOCK-Q20",
+        "source_item_ids": [
+          "M01-L01-I1",
+          "M01-L01-I2",
+          "M01-L02-I2",
+          "M01-L02-I3"
+        ],
+        "type": "odd_sound_out",
+        "prompt_en": "Which of these four vowels is the only SHORT vowel in the list?",
+        "options": [
+          "ऊ",
+          "ई",
+          "आ",
+          "उ"
+        ],
+        "options_read_as": [
+          "uu",
+          "ii",
+          "aa",
+          "u"
+        ],
+        "answer_index": 3,
+        "explanation_en": "उ is short. आ, ऊ and ई are all long vowels, roughly twice the duration of their short partners."
+      }
+    ]
+  }
+}

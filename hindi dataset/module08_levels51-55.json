@@ -1,0 +1,1718 @@
+{
+  "module": 8,
+  "module_name_en": "Core Words II",
+  "module_name_hi": "शब्द भंडार २",
+  "phase": 4,
+  "type": "word",
+  "batch": {
+    "levels_from": 51,
+    "levels_to": 55
+  },
+  "learner_knows_through_module": 7,
+  "levels": [
+    {
+      "level": 51,
+      "title_en": "Degree: more, a little, then",
+      "title_hi": "ज़्यादा · थोड़ा · फिर",
+      "category": "adverbs",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L51-I1",
+          "type": "word",
+          "target": "ज़्यादा",
+          "read_as": "zyaadaa",
+          "pronunciation_notes": "The ज़्य is a single cluster with the y folded in: zyaa-daa.",
+          "gloss_en": "more, too much, excessive",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adverb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "ज़्यादा नहीं",
+            "read_as": "zyaadaa nahiiṁ",
+            "english": "not much"
+          },
+          "category": "adverbs",
+          "difficulty": 6,
+          "tags": [
+            "adverbs",
+            "adverb",
+            "invariant",
+            "degree",
+            "nukta",
+            "ending_trap",
+            "arabic_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ज़्यादा ends in -ा and never changes",
+              "explanation_en": "ज़्यादा means more or too much, and although it ends in -ा it is invariable — ज़्यादा पानी and ज़्यादा चाय, with no ज़्यादी anywhere. That puts it with हमेशा among words whose ending promises agreement and does not deliver. It covers both comparison and excess: ज़्यादा दो means give more, ज़्यादा मत बोलो means do not talk too much. Its opposite is कम, less, which is also invariable.",
+              "examples": [
+                {
+                  "hindi": "ज़्यादा नहीं",
+                  "read_as": "zyaadaa nahiiṁ",
+                  "english": "not much",
+                  "note": "A common short answer about quantity."
+                },
+                {
+                  "hindi": "ज़्यादा मत बोलो",
+                  "read_as": "zyaadaa mat bolo",
+                  "english": "do not talk too much",
+                  "note": "मत for the negative imperative, from Module 7."
+                },
+                {
+                  "hindi": "यह ज़्यादा महँगा है",
+                  "read_as": "yah zyaadaa mahaṁgaa hai",
+                  "english": "this is too expensive",
+                  "note": "ज़्यादा is unchanged while महँगा agrees, since only the second is marked."
+                }
+              ],
+              "common_error": {
+                "wrong": "ज़्यादी चाय",
+                "right": "ज़्यादा चाय",
+                "why_en": "ज़्यादा never changes, despite the -ा ending. चाय being feminine makes no difference to it."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "ज़्यादा",
+              "question_read_as": "zyaadaa",
+              "options": [
+                "less",
+                "enough",
+                "more",
+                "some"
+              ],
+              "options_read_as": [
+                "less",
+                "enough",
+                "more",
+                "some"
+              ],
+              "answer_index": 2,
+              "explanation_en": "ज़्यादा is more or too much, and it never changes its form."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which form goes with चाय?",
+              "options": [
+                "ज़्यादी",
+                "ज़्यादा",
+                "ज़्यादे",
+                "ज़्यादों"
+              ],
+              "options_read_as": [
+                "zyaadii",
+                "zyaadaa",
+                "zyaade",
+                "zyaadoṁ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "ज़्यादा, unchanged. The -ा ending here is not an agreement ending at all."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ज़्यादा",
+              "ज़्यादा नहीं",
+              "ज़्यादा मत बोलो",
+              "यह ज़्यादा महँगा है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L51-I2",
+          "type": "word",
+          "target": "थोड़ा",
+          "read_as": "thoṛaa",
+          "pronunciation_notes": "Aspirated th at the front and a flapped ड़ before the ending: tho-ṛaa.",
+          "gloss_en": "a little, a bit, some",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "marked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "थोड़ा सा",
+            "read_as": "thoṛaa saa",
+            "english": "just a little"
+          },
+          "category": "adverbs",
+          "difficulty": 6,
+          "tags": [
+            "adverbs",
+            "adjective",
+            "marked_adjective",
+            "agreement",
+            "contrast_with_zyaada",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "थोड़ा agrees where ज़्यादा does not",
+              "explanation_en": "थोड़ा means a little, and unlike ज़्यादा it is a marked adjective, so it agrees: थोड़ा पानी, थोड़ी चाय, थोड़े लोग. Two words meaning nearly opposite things, both ending in -ा, and only one of them changes. That is the clearest possible demonstration that the ending alone tells you nothing. Used adverbially it stays थोड़ा — थोड़ा तेज़ है, it is a bit spicy — and थोड़ा सा is a softened just a little.",
+              "examples": [
+                {
+                  "hindi": "थोड़ा पानी",
+                  "read_as": "thoṛaa paanii",
+                  "english": "a little water",
+                  "note": "पानी is masculine, so थोड़ा."
+                },
+                {
+                  "hindi": "थोड़ी चाय",
+                  "read_as": "thoṛii chaay",
+                  "english": "a little tea",
+                  "note": "चाय is feminine, so थोड़ी — where ज़्यादा would not have changed."
+                },
+                {
+                  "hindi": "थोड़ा तेज़ है",
+                  "read_as": "thoṛaa tez hai",
+                  "english": "it is a bit spicy",
+                  "note": "Used adverbially here, so it stays थोड़ा."
+                }
+              ],
+              "common_error": {
+                "wrong": "थोड़ा चाय",
+                "right": "थोड़ी चाय",
+                "why_en": "चाय is feminine and थोड़ा is marked, so it agrees. This is exactly where ज़्यादा would not have."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "थोड़ा",
+              "question_read_as": "thoṛaa",
+              "options": [
+                "a little",
+                "a lot",
+                "none",
+                "enough"
+              ],
+              "options_read_as": [
+                "a little",
+                "a lot",
+                "none",
+                "enough"
+              ],
+              "answer_index": 0,
+              "explanation_en": "थोड़ा is a little, and unlike ज़्यादा it agrees with the noun."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which form goes with चाय?",
+              "options": [
+                "थोड़े",
+                "थोड़ों",
+                "थोड़ा",
+                "थोड़ी"
+              ],
+              "options_read_as": [
+                "thoṛe",
+                "thoṛoṁ",
+                "thoṛaa",
+                "thoṛii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "थोड़ी, because चाय is feminine and थोड़ा is a marked adjective."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "थोड़ा",
+              "थोड़ा पानी",
+              "थोड़ी चाय",
+              "थोड़ा तेज़ है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L51-I3",
+          "type": "word",
+          "target": "फिर",
+          "read_as": "phir",
+          "pronunciation_notes": "Aspirated ph with a puff of air, not an f: phir, one syllable.",
+          "gloss_en": "then, again, afterwards",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adverb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "फिर से",
+            "read_as": "phir se",
+            "english": "again, once more"
+          },
+          "category": "adverbs",
+          "difficulty": 6,
+          "tags": [
+            "adverbs",
+            "adverb",
+            "invariant",
+            "sequence",
+            "very_high_frequency",
+            "set_phrases"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "फिर sequences, and फिर से repeats",
+              "explanation_en": "फिर means then in the sense of next, and it is how you string events together: पहले यह, फिर वह. With से it becomes फिर से, again or once more, which is what you say when you want something repeated. Two set phrases are worth having whole: फिर मिलेंगे, we will meet again, is the standard way to say goodbye, and फिर भी means even so or nevertheless. Note the aspirated ph — this is not the dotted फ़.",
+              "examples": [
+                {
+                  "hindi": "फिर से बोलो",
+                  "read_as": "phir se bolo",
+                  "english": "say it again",
+                  "note": "फिर से for repetition, using the same से as manner adverbs."
+                },
+                {
+                  "hindi": "फिर मिलेंगे",
+                  "read_as": "phir mileṁge",
+                  "english": "see you again",
+                  "note": "The standard goodbye, in the plural future."
+                },
+                {
+                  "hindi": "पहले खाओ, फिर जाओ",
+                  "read_as": "pahle khaao, phir jaao",
+                  "english": "eat first, then go",
+                  "note": "पहले and फिर sequencing two instructions."
+                }
+              ],
+              "common_error": {
+                "wrong": "फिर बोलो",
+                "right": "फिर से बोलो",
+                "why_en": "फिर alone means then or next. For again you need फिर से, or the listener will wait for what comes after."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does फिर से mean?",
+              "question": "फिर से",
+              "question_read_as": "phir se",
+              "options": [
+                "then",
+                "again",
+                "later",
+                "finally"
+              ],
+              "options_read_as": [
+                "then",
+                "again",
+                "later",
+                "finally"
+              ],
+              "answer_index": 1,
+              "explanation_en": "फिर से is again. फिर on its own means then or next."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which phrase is the standard way to say goodbye?",
+              "options": [
+                "फिर से",
+                "फिर भी",
+                "फिर मिलेंगे",
+                "फिर क्या"
+              ],
+              "options_read_as": [
+                "phir se",
+                "phir bhii",
+                "phir mileṁge",
+                "phir kyaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "फिर मिलेंगे — we will meet again, in the plural future."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "फिर",
+              "फिर से बोलो",
+              "फिर मिलेंगे",
+              "पहले खाओ, फिर जाओ"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "ज़्यादा and थोड़ा both end in -ा, mean roughly opposite things, and only थोड़ा agrees. That pair is the clearest evidence in the module that an ending on its own predicts nothing — which is what the gender flag has been insisting all along.",
+        "key_forms": [
+          "ज़्यादा नहीं",
+          "थोड़ी चाय",
+          "फिर से"
+        ],
+        "next_up_en": "Next: the verbs that close the module, starting with the two that do most of the work in Hindi."
+      }
+    },
+    {
+      "level": 52,
+      "title_en": "Verbs: meeting, seeming, bringing",
+      "title_hi": "मिलना · लगना · लाना",
+      "category": "more_verbs",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L52-I1",
+          "type": "word",
+          "target": "मिलना",
+          "read_as": "milnaa",
+          "pronunciation_notes": "Short i and no vowel before the न: mil-naa.",
+          "gloss_en": "to meet; to be received, to be available",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "से मिलना",
+            "read_as": "se milnaa",
+            "english": "to meet someone"
+          },
+          "category": "more_verbs",
+          "difficulty": 7,
+          "tags": [
+            "more_verbs",
+            "verb",
+            "intransitive",
+            "two_constructions",
+            "no_ne",
+            "very_high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "One verb, two constructions, two meanings",
+              "explanation_en": "मिलना does two jobs and the postposition tells you which. With से it means to meet: मैं उससे मिला, I met him. With को it means to be received or obtained: मुझे किताब मिली, I got the book. The second is how Hindi says get anything at all — a job, a discount, a salary, a chance — and you have already seen it with तनख़्वाह and छूट. Crucially मिलना is intransitive, so no ने is ever involved and every tense is open to you.",
+              "examples": [
+                {
+                  "hindi": "मैं उससे मिला",
+                  "read_as": "maiṁ usse milaa",
+                  "english": "I met him",
+                  "note": "से for meeting a person, and the perfective works since मिलना is intransitive."
+                },
+                {
+                  "hindi": "मुझे किताब मिली",
+                  "read_as": "mujhe kitaab milii",
+                  "english": "I got the book",
+                  "note": "को for receiving, and मिली agrees with the feminine किताब."
+                },
+                {
+                  "hindi": "यहाँ चाय मिलती है",
+                  "read_as": "yahaaṁ chaay miltii hai",
+                  "english": "tea is available here",
+                  "note": "The habitual, for what a place sells or offers."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने उससे मिला",
+                "right": "मैं उससे मिला",
+                "why_en": "मिलना is intransitive, so the subject stays plain. ने belongs only to transitive verbs in the perfective."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does मुझे किताब मिली mean?",
+              "question": "मुझे किताब मिली",
+              "question_read_as": "mujhe kitaab milii",
+              "options": [
+                "I met the book",
+                "I found the book myself",
+                "I gave the book",
+                "I got the book"
+              ],
+              "options_read_as": [
+                "I met the book",
+                "I found the book myself",
+                "I gave the book",
+                "I got the book"
+              ],
+              "answer_index": 3,
+              "explanation_en": "With को, मिलना means to be received. With से it would mean to meet."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition makes मिलना mean to meet someone?",
+              "options": [
+                "से",
+                "को",
+                "में",
+                "पर"
+              ],
+              "options_read_as": [
+                "se",
+                "ko",
+                "meṁ",
+                "par"
+              ],
+              "answer_index": 0,
+              "explanation_en": "से मिलना is to meet. को मिलना is to receive something."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मिलना",
+              "मैं उससे मिला",
+              "मुझे किताब मिली",
+              "यहाँ चाय मिलती है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L52-I2",
+          "type": "word",
+          "target": "लगना",
+          "read_as": "lagnaa",
+          "pronunciation_notes": "No vowel between the ग and the न: lag-naa.",
+          "gloss_en": "to attach; to seem; to feel; to take time",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "अच्छा लगना",
+            "read_as": "achchhaa lagnaa",
+            "english": "to like, to feel good"
+          },
+          "category": "more_verbs",
+          "difficulty": 8,
+          "tags": [
+            "more_verbs",
+            "verb",
+            "intransitive",
+            "polysemous",
+            "no_ne",
+            "ko_construction",
+            "very_high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The most overworked verb in the language",
+              "explanation_en": "लगना has appeared in this module more than any other verb — डर लगना, भूख लगना, ठंड लगना, चोट लगना, लाइन में लगना — and its core sense is attaching or taking hold. Two more uses are worth having. मुझे अच्छा लगता है means I like it, literally it feels good to me, and it is more common than पसंद. And समय लगता है means it takes time, which is how Hindi expresses duration. All of them are intransitive, so ने never appears.",
+              "examples": [
+                {
+                  "hindi": "मुझे अच्छा लगता है",
+                  "read_as": "mujhe achchhaa lagtaa hai",
+                  "english": "I like it",
+                  "note": "Literally it feels good to me, with the person marked by को."
+                },
+                {
+                  "hindi": "समय लगता है",
+                  "read_as": "samay lagtaa hai",
+                  "english": "it takes time",
+                  "note": "लगना for duration — the time attaches to the task."
+                },
+                {
+                  "hindi": "मुझे लगता है",
+                  "read_as": "mujhe lagtaa hai",
+                  "english": "I think, it seems to me",
+                  "note": "The seeming sense, used to soften an opinion."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं अच्छा लगता हूँ",
+                "right": "मुझे अच्छा लगता है",
+                "why_en": "That says you seem nice to someone else. For liking something, the person feeling it takes को."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does मुझे अच्छा लगता है mean?",
+              "question": "मुझे अच्छा लगता है",
+              "question_read_as": "mujhe achchhaa lagtaa hai",
+              "options": [
+                "I like it",
+                "I am good",
+                "I look good",
+                "I feel well"
+              ],
+              "options_read_as": [
+                "I like it",
+                "I am good",
+                "I look good",
+                "I feel well"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Literally it feels good to me — the ordinary way to say you like something."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with समय for how long something takes?",
+              "options": [
+                "होना",
+                "करना",
+                "आना",
+                "लगना"
+              ],
+              "options_read_as": [
+                "honaa",
+                "karnaa",
+                "aanaa",
+                "lagnaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "समय लगता है — the time attaches to the task."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "लगना",
+              "मुझे अच्छा लगता है",
+              "समय लगता है",
+              "मुझे लगता है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L52-I3",
+          "type": "word",
+          "target": "लाना",
+          "read_as": "laanaa",
+          "pronunciation_notes": "Two long syllables with nothing between them: laa-naa.",
+          "gloss_en": "to bring",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "पानी लाना",
+            "read_as": "paanii laanaa",
+            "english": "to bring water"
+          },
+          "category": "more_verbs",
+          "difficulty": 8,
+          "tags": [
+            "more_verbs",
+            "verb",
+            "transitive",
+            "ne_exception",
+            "module9_preview",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A transitive verb that takes no ने",
+              "explanation_en": "लाना means to bring, and it is transitive — you bring something. But it is one of a small handful of transitive verbs that refuse the ने construction anyway: मैं पानी लाया, not मैंने. That is genuinely irregular, and it has a practical consequence right now — the perfective of लाना is available to you when almost no other transitive verb's is. भूलना, to forget, behaves the same way. Module 9 will explain the construction and name the exceptions; these two you can use today.",
+              "examples": [
+                {
+                  "hindi": "पानी लाओ",
+                  "read_as": "paanii laao",
+                  "english": "bring water",
+                  "note": "The तुम imperative."
+                },
+                {
+                  "hindi": "मैं किताब लाया",
+                  "read_as": "maiṁ kitaab laayaa",
+                  "english": "I brought the book",
+                  "note": "No ने, even though लाना is transitive — this is the exception."
+                },
+                {
+                  "hindi": "वह चाय लाई",
+                  "read_as": "vah chaay laaii",
+                  "english": "she brought tea",
+                  "note": "The verb agrees with the subject, which it would not do if ने were involved."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने किताब लाई",
+                "right": "मैं किताब लाया",
+                "why_en": "लाना never takes ने, so the subject stays plain and the verb agrees with it rather than with the object."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "लाना",
+              "question_read_as": "laanaa",
+              "options": [
+                "to take",
+                "to send",
+                "to bring",
+                "to carry"
+              ],
+              "options_read_as": [
+                "to take",
+                "to send",
+                "to bring",
+                "to carry"
+              ],
+              "answer_index": 2,
+              "explanation_en": "लाना is to bring, and it is a transitive verb that takes no ने."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which other verb also refuses ने?",
+              "options": [
+                "करना",
+                "भूलना",
+                "देखना",
+                "पढ़ना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "bhuulnaa",
+                "dekhnaa",
+                "paṛhnaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "भूलना, to forget. Both लाना and भूलना are transitive and take no ने."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "लाना",
+              "पानी लाओ",
+              "मैं किताब लाया",
+              "वह चाय लाई"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "मिलना and लगना are the two hardest-working verbs in Hindi and both are intransitive, so every tense is open to you. लाना is transitive and still takes no ने, which makes its perfective usable a whole module early.",
+        "key_forms": [
+          "से मिलना",
+          "अच्छा लगना",
+          "पानी लाना"
+        ],
+        "next_up_en": "Next: telling, showing and forgetting, and the postpositions each one demands."
+      }
+    },
+    {
+      "level": 53,
+      "title_en": "Verbs: telling, showing, forgetting",
+      "title_hi": "बताना · दिखाना · भूलना",
+      "category": "more_verbs",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L53-I1",
+          "type": "word",
+          "target": "बताना",
+          "read_as": "bataanaa",
+          "pronunciation_notes": "Three syllables with the length on the second: ba-taa-naa.",
+          "gloss_en": "to tell, to inform",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "मुझे बताओ",
+            "read_as": "mujhe bataao",
+            "english": "tell me"
+          },
+          "category": "more_verbs",
+          "difficulty": 7,
+          "tags": [
+            "more_verbs",
+            "verb",
+            "transitive",
+            "ko_construction",
+            "causative_pattern",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बताना takes को, where पूछना takes से",
+              "explanation_en": "बताना is to tell, and the person told takes को: मुझे बताओ, tell me. Set it beside पूछना, which takes से — you ask a person से and tell them को. That split has now appeared four times in this module and it is worth trusting: things moving towards a person take को, things drawn out of them take से. बताना is the transitive partner of the long-aa pattern, and it is transitive, so its perfective waits for Module 9.",
+              "examples": [
+                {
+                  "hindi": "मुझे बताओ",
+                  "read_as": "mujhe bataao",
+                  "english": "tell me",
+                  "note": "The person told takes को, so मुझे."
+                },
+                {
+                  "hindi": "वह मुझे सब बताता है",
+                  "read_as": "vah mujhe sab bataataa hai",
+                  "english": "he tells me everything",
+                  "note": "सब means everything, and the habitual is safe with a transitive verb."
+                },
+                {
+                  "hindi": "मुझे रास्ता बताइए",
+                  "read_as": "mujhe raastaa bataaie",
+                  "english": "please tell me the way",
+                  "note": "The polite imperative, and a sentence worth having ready."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझसे बताओ",
+                "right": "मुझे बताओ",
+                "why_en": "बताना takes को for the person told. से belongs with पूछना, and the two are easy to swap."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बताना",
+              "question_read_as": "bataanaa",
+              "options": [
+                "to ask",
+                "to show",
+                "to explain",
+                "to tell"
+              ],
+              "options_read_as": [
+                "to ask",
+                "to show",
+                "to explain",
+                "to tell"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बताना is to tell, and the person told takes को."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition marks the person you tell?",
+              "options": [
+                "को",
+                "में",
+                "पर",
+                "से"
+              ],
+              "options_read_as": [
+                "ko",
+                "meṁ",
+                "par",
+                "se"
+              ],
+              "answer_index": 0,
+              "explanation_en": "मुझे बताओ — को for telling, से for asking."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बताना",
+              "मुझे बताओ",
+              "वह मुझे सब बताता है",
+              "मुझे रास्ता बताइए"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L53-I2",
+          "type": "word",
+          "target": "दिखाना",
+          "read_as": "dikhaanaa",
+          "pronunciation_notes": "Aspirated kh in the middle and the length on that syllable: di-khaa-naa.",
+          "gloss_en": "to show",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "मुझे दिखाओ",
+            "read_as": "mujhe dikhaao",
+            "english": "show me"
+          },
+          "category": "more_verbs",
+          "difficulty": 7,
+          "tags": [
+            "more_verbs",
+            "verb",
+            "transitive",
+            "ko_construction",
+            "causative_pattern",
+            "shopping_use"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "दिखाना is देखना with the long aa",
+              "explanation_en": "देखना is to see and दिखाना is to show — to cause someone to see. That is the long-aa causative pattern again, for the sixth time in this module, and by now it should be predictable rather than surprising. Like बताना, the person shown takes को. दिखाइए is what you say in a shop: यह दिखाइए, show me this one, which is more useful than almost any other sentence when buying something.",
+              "examples": [
+                {
+                  "hindi": "मुझे दिखाओ",
+                  "read_as": "mujhe dikhaao",
+                  "english": "show me",
+                  "note": "को for the person shown, exactly as with बताना."
+                },
+                {
+                  "hindi": "यह दिखाइए",
+                  "read_as": "yah dikhaaie",
+                  "english": "please show me this",
+                  "note": "The polite imperative — the shop sentence worth over-learning."
+                },
+                {
+                  "hindi": "वह मुझे घर दिखा रहा है",
+                  "read_as": "vah mujhe ghar dikhaa rahaa hai",
+                  "english": "he is showing me the house",
+                  "note": "The continuous, which is safe with any verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे देखो",
+                "right": "मुझे दिखाओ",
+                "why_en": "देखना is to see, so मुझे देखो means look at me. To be shown something you need the causative दिखाना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दिखाना",
+              "question_read_as": "dikhaanaa",
+              "options": [
+                "to see",
+                "to show",
+                "to watch",
+                "to appear"
+              ],
+              "options_read_as": [
+                "to see",
+                "to show",
+                "to watch",
+                "to appear"
+              ],
+              "answer_index": 1,
+              "explanation_en": "दिखाना is to show — देखना with the long aa inserted."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb is दिखाना built from?",
+              "options": [
+                "दिखना",
+                "दिखावा",
+                "देखना",
+                "दिखाई"
+              ],
+              "options_read_as": [
+                "dikhnaa",
+                "dikhaavaa",
+                "dekhnaa",
+                "dikhaaii"
+              ],
+              "answer_index": 2,
+              "explanation_en": "देखना, to see. Inserting a long aa makes it causative — to make someone see."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दिखाना",
+              "मुझे दिखाओ",
+              "यह दिखाइए",
+              "वह मुझे घर दिखा रहा है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L53-I3",
+          "type": "word",
+          "target": "भूलना",
+          "read_as": "bhuulnaa",
+          "pronunciation_notes": "Breathy bh and a long uu, with no vowel before the न: bhuul-naa.",
+          "gloss_en": "to forget",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "भूल जाना",
+            "read_as": "bhuul jaanaa",
+            "english": "to forget completely"
+          },
+          "category": "more_verbs",
+          "difficulty": 8,
+          "tags": [
+            "more_verbs",
+            "verb",
+            "transitive",
+            "ne_exception",
+            "module9_preview",
+            "pairs_with_yaad"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The second verb that refuses ने",
+              "explanation_en": "भूलना is to forget, and like लाना it is transitive and still takes no ने: मैं भूल गया, I forgot. So its perfective is available to you now, which matters because forgetting is something you mostly report in the past. It is the opposite of याद रखना from level twenty-six, and the pair is worth holding together: याद रखो and मत भूलो say the same thing from two directions.",
+              "examples": [
+                {
+                  "hindi": "मैं भूल गया",
+                  "read_as": "maiṁ bhuul gayaa",
+                  "english": "I forgot",
+                  "note": "No ने, and the verb agrees with the subject."
+                },
+                {
+                  "hindi": "मत भूलो",
+                  "read_as": "mat bhuulo",
+                  "english": "do not forget",
+                  "note": "मत for the negative imperative."
+                },
+                {
+                  "hindi": "वह भूल गई",
+                  "read_as": "vah bhuul gaii",
+                  "english": "she forgot",
+                  "note": "Feminine agreement on the subject, which ने would have blocked."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने भूल गया",
+                "right": "मैं भूल गया",
+                "why_en": "भूलना takes no ने, so the subject stays plain — one of only a handful of transitive verbs that behave this way."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "भूलना",
+              "question_read_as": "bhuulnaa",
+              "options": [
+                "to remember",
+                "to lose",
+                "to forget",
+                "to miss"
+              ],
+              "options_read_as": [
+                "to remember",
+                "to lose",
+                "to forget",
+                "to miss"
+              ],
+              "answer_index": 2,
+              "explanation_en": "भूलना is to forget, and it is the second transitive verb that takes no ने."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which phrase means the opposite of मत भूलो?",
+              "options": [
+                "याद आओ",
+                "याद रखो",
+                "याद करो",
+                "याद है"
+              ],
+              "options_read_as": [
+                "yaad aao",
+                "yaad rakho",
+                "yaad karo",
+                "yaad hai"
+              ],
+              "answer_index": 1,
+              "explanation_en": "याद रखो — keep it in mind, which is मत भूलो from the other direction."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "भूलना",
+              "मैं भूल गया",
+              "मत भूलो",
+              "वह भूल गई"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "बताना and दिखाना both take को for the person, where पूछना takes से — things moving towards a person take को, things drawn out of them take से. दिखाना is देखना with the long aa, which is the sixth causative pair in this module.",
+        "key_forms": [
+          "मुझे बताओ",
+          "यह दिखाइए",
+          "मत भूलो"
+        ],
+        "next_up_en": "Next: thinking, wanting and stopping — three verbs you will need to say what you intend."
+      }
+    },
+    {
+      "level": 54,
+      "title_en": "Verbs: thinking, wanting, stopping",
+      "title_hi": "सोचना · चाहना · रुकना",
+      "category": "more_verbs",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L54-I1",
+          "type": "word",
+          "target": "सोचना",
+          "read_as": "sochnaa",
+          "pronunciation_notes": "Long open o and no vowel before the न: soch-naa.",
+          "gloss_en": "to think, to consider",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "के बारे में सोचना",
+            "read_as": "ke baare meṁ sochnaa",
+            "english": "to think about something"
+          },
+          "category": "more_verbs",
+          "difficulty": 7,
+          "tags": [
+            "more_verbs",
+            "verb",
+            "transitive",
+            "compound_postposition",
+            "contrast_with_lagna"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सोचना is deliberate thinking",
+              "explanation_en": "सोचना is to think in the sense of considering or working something out, and what you think about takes के बारे में: इसके बारे में सोचो, think about it. That is different from मुझे लगता है, which means I think in the sense of an opinion or impression. English uses think for both; Hindi separates deliberate thought from a passing view, and using सोचना for an opinion sounds oddly heavy.",
+              "examples": [
+                {
+                  "hindi": "मैं सोच रहा हूँ",
+                  "read_as": "maiṁ soch rahaa huuṁ",
+                  "english": "I am thinking",
+                  "note": "The continuous, for thought in progress."
+                },
+                {
+                  "hindi": "इसके बारे में सोचो",
+                  "read_as": "iske baare meṁ socho",
+                  "english": "think about it",
+                  "note": "के बारे में for the subject of thought."
+                },
+                {
+                  "hindi": "मुझे लगता है",
+                  "read_as": "mujhe lagtaa hai",
+                  "english": "I think, in my view",
+                  "note": "लगना for an opinion, rather than सोचना."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं सोचता हूँ कि यह अच्छा है",
+                "right": "मुझे लगता है कि यह अच्छा है",
+                "why_en": "For an opinion Hindi prefers लगना. सोचना suggests you have been deliberating about it."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सोचना",
+              "question_read_as": "sochnaa",
+              "options": [
+                "to think",
+                "to believe",
+                "to know",
+                "to decide"
+              ],
+              "options_read_as": [
+                "to think",
+                "to believe",
+                "to know",
+                "to decide"
+              ],
+              "answer_index": 0,
+              "explanation_en": "सोचना is deliberate thinking. For an opinion, Hindi uses लगना instead."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which phrase marks what you are thinking about?",
+              "options": [
+                "के लिए",
+                "के पास",
+                "के साथ",
+                "के बारे में"
+              ],
+              "options_read_as": [
+                "ke lie",
+                "ke paas",
+                "ke saath",
+                "ke baare meṁ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "के बारे में — about. इसके बारे में सोचो, think about it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सोचना",
+              "मैं सोच रहा हूँ",
+              "इसके बारे में सोचो",
+              "मुझे लगता है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L54-I2",
+          "type": "word",
+          "target": "चाहना",
+          "read_as": "chaahnaa",
+          "pronunciation_notes": "The ह is a breath between the vowel and the न: chaah-naa.",
+          "gloss_en": "to want, to wish",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "जाना चाहना",
+            "read_as": "jaanaa chaahnaa",
+            "english": "to want to go"
+          },
+          "category": "more_verbs",
+          "difficulty": 8,
+          "tags": [
+            "more_verbs",
+            "verb",
+            "transitive",
+            "takes_infinitive",
+            "very_high_frequency",
+            "contrast_with_chaahie"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "चाहना takes a bare infinitive in front of it",
+              "explanation_en": "चाहना is to want, and when you want to do something the verb goes in front of it as a plain infinitive: मैं जाना चाहता हूँ, I want to go. Nothing comes between them and no को is needed. Compare चाहिए, which you met with मुझे मदद चाहिए — that is a different construction meaning need, and it takes को for the person. So चाहना is wanting and चाहिए is needing, and they are built completely differently.",
+              "examples": [
+                {
+                  "hindi": "मैं जाना चाहता हूँ",
+                  "read_as": "maiṁ jaanaa chaahtaa huuṁ",
+                  "english": "I want to go",
+                  "note": "The infinitive जाना sits directly in front of चाहना."
+                },
+                {
+                  "hindi": "तुम क्या करना चाहते हो?",
+                  "read_as": "tum kyaa karnaa chaahte ho?",
+                  "english": "what do you want to do?",
+                  "note": "तुम takes plural agreement on both verbs."
+                },
+                {
+                  "hindi": "मुझे पानी चाहिए",
+                  "read_as": "mujhe paanii chaahie",
+                  "english": "I need water",
+                  "note": "चाहिए for needing, with the person marked by को."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं जाना चाहिए",
+                "right": "मैं जाना चाहता हूँ",
+                "why_en": "चाहिए is a fixed form meaning need and takes को. For wanting, चाहना conjugates normally."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "चाहना",
+              "question_read_as": "chaahnaa",
+              "options": [
+                "to need",
+                "to hope",
+                "to like",
+                "to want"
+              ],
+              "options_read_as": [
+                "to need",
+                "to hope",
+                "to like",
+                "to want"
+              ],
+              "answer_index": 3,
+              "explanation_en": "चाहना is to want. चाहिए is a different construction meaning need."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "What form does the verb take in front of चाहना?",
+              "options": [
+                "the infinitive",
+                "the bare stem",
+                "the participle",
+                "the oblique infinitive"
+              ],
+              "options_read_as": [
+                "the infinitive",
+                "the bare stem",
+                "the participle",
+                "the oblique infinitive"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The plain infinitive — जाना चाहता हूँ, करना चाहते हो."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "चाहना",
+              "मैं जाना चाहता हूँ",
+              "तुम क्या करना चाहते हो?",
+              "मुझे पानी चाहिए"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L54-I3",
+          "type": "word",
+          "target": "रुकना",
+          "read_as": "ruknaa",
+          "pronunciation_notes": "Short u and no vowel before the न: ruk-naa.",
+          "gloss_en": "to stop, to wait, to stay",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "यहाँ रुकना",
+            "read_as": "yahaaṁ ruknaa",
+            "english": "to stop here"
+          },
+          "category": "more_verbs",
+          "difficulty": 7,
+          "tags": [
+            "more_verbs",
+            "verb",
+            "intransitive",
+            "no_ne",
+            "causative_pattern",
+            "broad_meaning"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "रुकना covers stopping, waiting and staying",
+              "explanation_en": "रुकना is intransitive and means to come to a stop, which stretches to waiting and to staying somewhere overnight. रुको on its own is the ordinary way to say wait. Its transitive partner is रोकना, to stop something — and note the vowel change rather than a long aa, which is a second causative pattern worth knowing: रुकना to रोकना, उठना to उठाना, बनना to बनाना. Since रुकना is intransitive, every tense is open.",
+              "examples": [
+                {
+                  "hindi": "रुको",
+                  "read_as": "ruko",
+                  "english": "wait",
+                  "note": "The तुम imperative, and the most common use of the verb."
+                },
+                {
+                  "hindi": "गाड़ी रुकी",
+                  "read_as": "gaaṛii rukii",
+                  "english": "the vehicle stopped",
+                  "note": "रुकी agrees with the feminine गाड़ी, and the perfective works."
+                },
+                {
+                  "hindi": "गाड़ी रोको",
+                  "read_as": "gaaṛii roko",
+                  "english": "stop the vehicle",
+                  "note": "रोकना is the transitive partner — you are stopping it."
+                }
+              ],
+              "common_error": {
+                "wrong": "गाड़ी रुको",
+                "right": "गाड़ी रोको",
+                "why_en": "रुकना means to stop by itself. To stop something else you need the transitive रोकना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "रुकना",
+              "question_read_as": "ruknaa",
+              "options": [
+                "to start",
+                "to stop",
+                "to move",
+                "to leave"
+              ],
+              "options_read_as": [
+                "to start",
+                "to stop",
+                "to move",
+                "to leave"
+              ],
+              "answer_index": 1,
+              "explanation_en": "रुकना is to stop or wait, and it is intransitive."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which form do you use to stop a vehicle?",
+              "options": [
+                "रुकना",
+                "रुकाना",
+                "रोकना",
+                "रोक"
+              ],
+              "options_read_as": [
+                "ruknaa",
+                "rukaanaa",
+                "roknaa",
+                "rok"
+              ],
+              "answer_index": 2,
+              "explanation_en": "रोकना — the transitive partner, formed by a vowel change rather than a long aa."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "रुकना",
+              "रुको",
+              "गाड़ी रुकी",
+              "गाड़ी रोको"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "सोचना is deliberate thinking while लगना carries an opinion, and Hindi keeps them apart where English uses think for both. चाहना takes a bare infinitive in front of it, and रुकना introduces a second causative pattern — a vowel change rather than a long aa.",
+        "key_forms": [
+          "के बारे में सोचना",
+          "जाना चाहना",
+          "गाड़ी रोको"
+        ],
+        "next_up_en": "Next: the last two verbs, and a conversation that closes the module."
+      }
+    },
+    {
+      "level": 55,
+      "title_en": "Verbs: opening and asking",
+      "title_hi": "खोलना · पूछना",
+      "category": "more_verbs",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M08-L55-I1",
+          "type": "word",
+          "target": "खोलना",
+          "read_as": "kholnaa",
+          "pronunciation_notes": "Aspirated kh with a puff of air and a long open o: khol-naa.",
+          "gloss_en": "to open, to undo, to untie",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "दरवाज़ा खोलना",
+            "read_as": "darvaazaa kholnaa",
+            "english": "to open the door"
+          },
+          "category": "more_verbs",
+          "difficulty": 7,
+          "tags": [
+            "more_verbs",
+            "verb",
+            "transitive",
+            "vowel_causative",
+            "broad_meaning",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "खोलना opens more than doors",
+              "explanation_en": "खोलना is to open, and it covers doors, windows, bottles, knots, shoelaces and bank accounts — anything that goes from closed to open. Its intransitive partner is खुलना, to open by itself: दरवाज़ा खुला, the door opened. That is the vowel-change causative again, the same pattern as रुकना and रोकना. खोलना is transitive, so its perfective waits for Module 9, but the imperative and the present are yours.",
+              "examples": [
+                {
+                  "hindi": "दरवाज़ा खोलो",
+                  "read_as": "darvaazaa kholo",
+                  "english": "open the door",
+                  "note": "The तुम imperative — खोलना is transitive."
+                },
+                {
+                  "hindi": "दुकान कब खुलती है?",
+                  "read_as": "dukaan kab khultii hai?",
+                  "english": "when does the shop open?",
+                  "note": "खुलना is intransitive, and खुलती agrees with the feminine दुकान."
+                },
+                {
+                  "hindi": "बैंक बंद है",
+                  "read_as": "baiṁk band hai",
+                  "english": "the bank is closed",
+                  "note": "बंद is the adjective for closed, and it never changes."
+                }
+              ],
+              "common_error": {
+                "wrong": "दुकान कब खोलती है?",
+                "right": "दुकान कब खुलती है?",
+                "why_en": "The shop opens by itself, so the intransitive खुलना. खोलना would need someone doing the opening."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "खोलना",
+              "question_read_as": "kholnaa",
+              "options": [
+                "to open",
+                "to close",
+                "to lock",
+                "to push"
+              ],
+              "options_read_as": [
+                "to open",
+                "to close",
+                "to lock",
+                "to push"
+              ],
+              "answer_index": 0,
+              "explanation_en": "खोलना is to open something. खुलना is for something opening by itself."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which form do you use when a shop opens by itself?",
+              "options": [
+                "खोलना",
+                "खोल",
+                "खुलाना",
+                "खुलना"
+              ],
+              "options_read_as": [
+                "kholnaa",
+                "khol",
+                "khulaanaa",
+                "khulnaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "खुलना — the intransitive partner, formed by a vowel change."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "खोलना",
+              "दरवाज़ा खोलो",
+              "दुकान कब खुलती है?",
+              "बैंक बंद है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L55-I2",
+          "type": "word",
+          "target": "पूछना",
+          "read_as": "puuchhnaa",
+          "pronunciation_notes": "Long uu and an aspirated chh with no vowel before the न: puuchh-naa.",
+          "gloss_en": "to ask",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "से पूछना",
+            "read_as": "se puuchhnaa",
+            "english": "to ask someone"
+          },
+          "category": "more_verbs",
+          "difficulty": 7,
+          "tags": [
+            "more_verbs",
+            "verb",
+            "transitive",
+            "se_construction",
+            "contrast_with_bataana",
+            "very_high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पूछना closes the से and को pair",
+              "explanation_en": "पूछना is to ask, and the person asked takes से — मुझसे पूछो, ask me. It has turned up in this module with सवाल, रास्ता, टीचर, दुकानदार and पड़ोसी, always with से, and it is the counterpart of बताना, which always takes को. That single split covers a great deal of Hindi: information drawn out of a person uses से, information given to a person uses को. Between them, पूछना and बताना are most of what a conversation is made of.",
+              "examples": [
+                {
+                  "hindi": "मुझसे पूछो",
+                  "read_as": "mujhse puuchho",
+                  "english": "ask me",
+                  "note": "से for the person asked, where बताना would take को."
+                },
+                {
+                  "hindi": "उससे रास्ता पूछो",
+                  "read_as": "usse raastaa puuchho",
+                  "english": "ask him the way",
+                  "note": "The person takes से and the thing asked about is the object."
+                },
+                {
+                  "hindi": "मत पूछो",
+                  "read_as": "mat puuchho",
+                  "english": "do not ask",
+                  "note": "मत for the negative imperative, from Module 7."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे पूछो",
+                "right": "मुझसे पूछो",
+                "why_en": "पूछना takes से. मुझे would be the को form, which belongs with बताना and देना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पूछना",
+              "question_read_as": "puuchhnaa",
+              "options": [
+                "to answer",
+                "to tell",
+                "to ask",
+                "to say"
+              ],
+              "options_read_as": [
+                "to answer",
+                "to tell",
+                "to ask",
+                "to say"
+              ],
+              "answer_index": 2,
+              "explanation_en": "पूछना is to ask, and the person asked always takes से."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which pair of postpositions is correct?",
+              "options": [
+                "पूछना को, बताना से",
+                "पूछना से, बताना को",
+                "both को",
+                "both से"
+              ],
+              "options_read_as": [
+                "puuchhnaa ko, bataanaa se",
+                "puuchhnaa se, bataanaa ko",
+                "both ko",
+                "both se"
+              ],
+              "answer_index": 1,
+              "explanation_en": "पूछना से, बताना को — drawn out of a person uses से, given to them uses को."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पूछना",
+              "मुझसे पूछो",
+              "उससे रास्ता पूछो",
+              "मत पूछो"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L55-I3",
+          "type": "dialogue",
+          "target": "मेहमान आए हैं",
+          "read_as": "mehmaan aae haiṁ",
+          "pronunciation_notes": "The three words run together, with the plural ending clear on आए: aa-e haiṁ.",
+          "gloss_en": "someone at the door",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "phrase",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "मेहमान आना",
+            "read_as": "mehmaan aanaa",
+            "english": "for guests to arrive"
+          },
+          "category": "more_verbs",
+          "difficulty": 7,
+          "tags": [
+            "more_verbs",
+            "dialogue",
+            "micro_dialogue",
+            "perfective_present",
+            "imperative",
+            "module_close"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Four lines, and everything in them is from this module",
+              "explanation_en": "This closes Module 8, so it is worth noticing what the exchange is built from. खोलो and खोलता हूँ are from this level, मेहमान from the relationships block, क्या हुआ from Module 7, and आए हैं is the perfective present of an intransitive verb, which needs no ने. Nothing here is beyond what you now have. That is the point of a vocabulary module placed in the middle of the course rather than at the start: the grammar was already in place, so the words could go straight to work.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "दरवाज़ा खोलो।",
+                  "read_as": "darvaazaa kholo.",
+                  "english": "Open the door."
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "क्यों? क्या हुआ?",
+                  "read_as": "kyoṁ? kyaa huaa?",
+                  "english": "Why? What happened?"
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "मेहमान आए हैं।",
+                  "read_as": "mehmaan aae haiṁ.",
+                  "english": "Guests have come."
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "ठीक है, मैं अभी खोलता हूँ।",
+                  "read_as": "ṭhiik hai, maiṁ abhii kholtaa huuṁ.",
+                  "english": "All right, I will open it now."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेहमान आया है।",
+                "right": "मेहमान आए हैं।",
+                "why_en": "Guests take plural agreement, both for number and as a mark of respect."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this sentence mean?",
+              "question": "मेहमान आए हैं",
+              "question_read_as": "mehmaan aae haiṁ",
+              "options": [
+                "guests are coming",
+                "guests came yesterday",
+                "guests will come",
+                "guests have come"
+              ],
+              "options_read_as": [
+                "guests are coming",
+                "guests came yesterday",
+                "guests will come",
+                "guests have come"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The perfective present — they have arrived and are here now."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the third line. Which word is missing?",
+              "masked_line_index": 2,
+              "masked_word": "आए",
+              "options": [
+                "आए",
+                "आई",
+                "आया",
+                "आते"
+              ],
+              "options_read_as": [
+                "aae",
+                "aaii",
+                "aayaa",
+                "aate"
+              ],
+              "answer_index": 0,
+              "explanation_en": "मेहमान takes plural agreement, so the perfective participle is आए."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दरवाज़ा खोलो।",
+              "क्यों? क्या हुआ?",
+              "मेहमान आए हैं।",
+              "ठीक है, मैं अभी खोलता हूँ।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Module 8 is complete at 165 words. Two things are worth carrying forward above the vocabulary itself. First, the collocation is part of the word — काम करना, बारिश होना, डर लगना, परीक्षा देना — and no rule predicts it. Second, causative pairs are everywhere: insert a long aa or change the vowel, and an intransitive verb becomes the version where someone is doing it.",
+        "key_forms": [
+          "दरवाज़ा खोलना",
+          "से पूछना",
+          "मेहमान आए हैं"
+        ],
+        "next_up_en": "Next is Module 9 and the ने construction — the one piece of grammar this entire module has been working around, and the reason so many perfectives have been off limits."
+      }
+    }
+  ]
+}

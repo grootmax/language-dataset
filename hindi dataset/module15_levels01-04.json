@@ -1,0 +1,1152 @@
+{
+  "module": 15,
+  "module_name_en": "Register and Polish",
+  "module_name_hi": "भाषा की परतें",
+  "phase": 5,
+  "type": "grammar",
+  "batch": {
+    "levels_from": 1,
+    "levels_to": 4
+  },
+  "batch_note": "Level 1 establishes the two axes and then immediately shows a sentence that is formal on one and Urdu-influenced on the other, because a learner who meets the axes one at a time will fuse them into a single ladder within a level or two.",
+  "levels": [
+    {
+      "level": 1,
+      "title_en": "Two axes, not one ladder",
+      "title_hi": "दो अलग बातें",
+      "items": [
+        {
+          "id": "M15-L01-I1",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "axis_1",
+            "five_situations"
+          ],
+          "target": "कृपया दरवाज़ा बंद कर दीजिए।",
+          "read_as": "kripayaa darvaazaa baṁd kar diijie.",
+          "english": "Please close the door.",
+          "difficulty": 7,
+          "tags": [
+            "register",
+            "situation_axis",
+            "concept_item"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The first axis: who you are talking to, and where",
+              "explanation_en": "One request, five settings. दरवाज़ा बंद कर दे to a close friend. दरवाज़ा बंद कर दो to somebody you know. कृपया दरवाज़ा बंद कर दीजिए to a stranger or an elder. कृपया द्वार बंद करें on a printed notice. And a news report would not ask at all. Nothing here is more or less Hindi than anything else — the five are a scale of situation, and every one of them is the right answer somewhere. Choosing wrongly is not a grammatical mistake; it is a social one, which is why it is worth a module of its own.",
+              "examples": [
+                {
+                  "hindi": "दरवाज़ा बंद कर दे।",
+                  "read_as": "darvaazaa baṁd kar de.",
+                  "english": "Shut the door.",
+                  "note": "Casual — तू, and a bare imperative."
+                },
+                {
+                  "hindi": "कृपया दरवाज़ा बंद कर दीजिए।",
+                  "read_as": "kripayaa darvaazaa baṁd kar diijie.",
+                  "english": "Please close the door.",
+                  "note": "Polite — आप, कीजिए, and कृपया in front."
+                },
+                {
+                  "hindi": "कृपया द्वार बंद रखें।",
+                  "read_as": "kripayaa dvaar baṁd rakheṁ.",
+                  "english": "Please keep the door closed.",
+                  "note": "Institutional — printed on a sign, and addressed to nobody in particular."
+                }
+              ],
+              "common_error": {
+                "wrong": "using कृपया ... दीजिए with a close friend",
+                "right": "दरवाज़ा बंद कर दो",
+                "why_en": "Over-formality is not a safe default. To somebody close it puts distance between you, and that distance is heard."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "Your younger cousin, in your own home.",
+              "options": [
+                "दरवाज़ा बंद कर दो।",
+                "कृपया दरवाज़ा बंद कर दीजिए।",
+                "कृपया द्वार बंद रखें।",
+                "द्वार बंद करना अनिवार्य है।"
+              ],
+              "options_read_as": [
+                "darvaazaa baṁd kar do.",
+                "kripayaa darvaazaa baṁd kar diijie.",
+                "kripayaa dvaar baṁd rakheṁ.",
+                "dvaar baṁd karnaa anivaarya hai."
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second is what you would say to a stranger, the third is a printed sign, and the fourth is a regulation. All three are correct Hindi in their own settings and all three would be odd at home."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "कृपया द्वार बंद रखें।",
+              "sentence_read_as": "kripayaa dvaar baṁd rakheṁ.",
+              "question_en": "Where would you meet this sentence?",
+              "options": [
+                "A news broadcast",
+                "A friend speaking to you",
+                "A parent speaking to a child",
+                "A printed sign in a building"
+              ],
+              "answer_index": 3,
+              "explanation_en": "द्वार rather than दरवाज़ा, रखें rather than कर दीजिए, and nobody named — that is a sign."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दरवाज़ा बंद कर दो।",
+              "कृपया दरवाज़ा बंद कर दीजिए।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L01-I2",
+          "type": "grammar",
+          "axis": "tendency",
+          "register_tags": [
+            "axis_2",
+            "four_tendencies"
+          ],
+          "target": "आपका बहुत-बहुत शुक्रिया।",
+          "read_as": "aapkaa bahut-bahut shukriyaa.",
+          "english": "Thank you very much.",
+          "difficulty": 7,
+          "tags": [
+            "register",
+            "tendency_axis",
+            "concept_item",
+            "framing_rule"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The second axis: which layer of the vocabulary you draw on",
+              "explanation_en": "Hindi has drawn its words from several directions and kept them all. शुक्रिया came in through Persian and Arabic; धन्यवाद is Sanskrit-derived; थैंक्स is English; and a great deal of the language belongs to none of the three and is simply what everybody says. All four are Hindi. शुक्रिया and धन्यवाद are both entirely correct, and the choice between them is a choice of setting rather than of quality. This axis has nothing to do with the first one — you can be thoroughly casual in Sanskrit-derived vocabulary and thoroughly formal in Urdu-derived vocabulary.",
+              "examples": [
+                {
+                  "hindi": "आपका बहुत-बहुत शुक्रिया।",
+                  "read_as": "aapkaa bahut-bahut shukriyaa.",
+                  "english": "Thank you very much.",
+                  "note": "Urdu-influenced, and warm."
+                },
+                {
+                  "hindi": "आपका हार्दिक धन्यवाद।",
+                  "read_as": "aapkaa haardik dhanyavaad.",
+                  "english": "Our sincere thanks.",
+                  "note": "Sanskrit-influenced, and ceremonial."
+                },
+                {
+                  "hindi": "थैंक्स यार।",
+                  "read_as": "thaiṁks yaar.",
+                  "english": "Thanks, mate.",
+                  "note": "Hinglish, and close."
+                }
+              ],
+              "common_error": {
+                "wrong": "treating one of these as the genuine article and the others as substitutes",
+                "right": "treating all four as Hindi, chosen by setting",
+                "why_en": "There is no version of the language underneath these that is more itself. The layers are what Hindi is made of."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "Closing a speech at a formal ceremony.",
+              "options": [
+                "थैंक्स यार।",
+                "चलो ठीक है, शुक्रिया।",
+                "आपका हार्दिक धन्यवाद।",
+                "आपका बहुत-बहुत शुक्रिया।"
+              ],
+              "options_read_as": [
+                "thaiṁks yaar.",
+                "chalo ṭhiik hai, shukriyaa.",
+                "aapkaa haardik dhanyavaad.",
+                "aapkaa bahut-bahut shukriyaa."
+              ],
+              "answer_index": 2,
+              "explanation_en": "हार्दिक धन्यवाद is what a ceremony expects. The second is perfectly good Hindi and would sound warm rather than ceremonial; the third and fourth belong among friends."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "थैंक्स यार।",
+              "sentence_read_as": "thaiṁks yaar.",
+              "question_en": "Who is this said to?",
+              "options": [
+                "A senior colleague",
+                "A close friend",
+                "An audience at an event",
+                "A shopkeeper you do not know"
+              ],
+              "answer_index": 1,
+              "explanation_en": "यार settles it. The English word alone would not — plenty of people say थैंक्स to a shopkeeper."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "आपका बहुत-बहुत शुक्रिया।",
+              "आपका हार्दिक धन्यवाद।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L01-I3",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "axis_1",
+            "axis_2",
+            "independence"
+          ],
+          "target": "शिकायत दर्ज कराने के लिए यहाँ संपर्क करें।",
+          "read_as": "shikaayat darj karaane ke lie yahaaṁ saṁpark kareṁ.",
+          "english": "To register a complaint, contact us here.",
+          "difficulty": 8,
+          "tags": [
+            "register",
+            "both_axes",
+            "independence",
+            "callback_m13"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The axes really are independent, and here is the proof",
+              "explanation_en": "शिकायत दर्ज कराने के लिए यहाँ संपर्क करें is about as institutional as a sentence gets — it is printed on counters all over India. And शिकायत and दर्ज are both Urdu-side, sitting inside it without the slightest awkwardness. If the two axes were one ladder, a formal sentence would have to be Sanskrit-side throughout, and it plainly does not. Module 13 found the same thing from the other end: शिकायत has no formal partner at all, because it already covers the whole situation axis by itself.",
+              "examples": [
+                {
+                  "hindi": "शिकायत दर्ज कराने के लिए यहाँ संपर्क करें।",
+                  "read_as": "shikaayat darj karaane ke lie yahaaṁ saṁpark kareṁ.",
+                  "english": "To register a complaint, contact us here.",
+                  "note": "Institutional situation, Urdu-side vocabulary."
+                },
+                {
+                  "hindi": "अरे, इसका मतलब क्या है?",
+                  "read_as": "are, iskaa matlab kyaa hai?",
+                  "english": "Wait, what does that mean?",
+                  "note": "Casual situation, and मतलब is Urdu-side too."
+                },
+                {
+                  "hindi": "यार वो पूरी तरह असंभव है।",
+                  "read_as": "yaar vo puurii tarah asaṁbhav hai.",
+                  "english": "Mate, that's completely impossible.",
+                  "note": "Casual situation, Sanskrit-side vocabulary. The combination is ordinary."
+                }
+              ],
+              "common_error": {
+                "wrong": "assuming a formal sentence must be Sanskrit-derived throughout",
+                "right": "checking the two axes separately",
+                "why_en": "A learner who fuses the axes will write जुर्माना out of a notice and मेहरबानी out of a thank-you, and both belong exactly where they are."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "A sign above a counter in a government office.",
+              "options": [
+                "शिकायत है तो बता दीजिए।",
+                "शिकायत दर्ज कराने के लिए यहाँ संपर्क करें।",
+                "कोई प्रॉब्लम हो तो यहाँ बता दो।",
+                "अगर कुछ गड़बड़ है तो यहीं बोल देना।"
+              ],
+              "options_read_as": [
+                "shikaayat hai to bataa diijie.",
+                "shikaayat darj karaane ke lie yahaaṁ saṁpark kareṁ.",
+                "koii prôblam ho to yahaaṁ bataa do.",
+                "agar kuchh gaṛbaṛ hai to yahiiṁ bol denaa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "Only the first is written for a sign. The fourth is polite and would work spoken across a counter, but a printed notice does not address one person."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "यार वो पूरी तरह असंभव है।",
+              "sentence_read_as": "yaar vo puurii tarah asaṁbhav hai.",
+              "question_en": "What does this sentence show?",
+              "options": [
+                "That a casual sentence can use Sanskrit-side vocabulary",
+                "That यार is a formal word",
+                "That the sentence mixes two languages",
+                "That Sanskrit-side words belong only to formal settings"
+              ],
+              "answer_index": 0,
+              "explanation_en": "यार is as casual as Hindi gets and असंभव is Sanskrit-derived. Neither is out of place, because the axes are independent."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "शिकायत दर्ज कराने के लिए यहाँ संपर्क करें।",
+              "यार वो पूरी तरह असंभव है।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "There are two axes and they move independently. The first is the situation — casual, polite, formal writing, institutional, news. The second is which layer of the vocabulary you draw on — everyday, Sanskrit-influenced, Urdu-influenced, Hinglish. A counter in a government office can be institutional and Urdu-side at once, and a sentence to a friend can be casual and Sanskrit-side.",
+        "key_forms": [
+          "कर दे / कर दो / कर दीजिए",
+          "शुक्रिया / धन्यवाद / थैंक्स",
+          "शिकायत दर्ज कराने"
+        ],
+        "next_up_en": "Next: what casual speech leaves out."
+      }
+    },
+    {
+      "level": 2,
+      "title_en": "Casual",
+      "title_hi": "आम बोलचाल",
+      "items": [
+        {
+          "id": "M15-L02-I1",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "casual",
+            "ellipsis"
+          ],
+          "target": "कहाँ जा रहे?",
+          "read_as": "kahaaṁ jaa rahe?",
+          "english": "Where are you off to?",
+          "difficulty": 7,
+          "tags": [
+            "register",
+            "casual",
+            "ellipsis",
+            "callback_m12"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Casual speech is defined by what it leaves out",
+              "explanation_en": "कहाँ जा रहे? has no subject and no auxiliary — the full form would be तुम कहाँ जा रहे हो? Casual Hindi drops whatever the listener can supply, and it drops a great deal: subjects, auxiliaries, and sometimes the verb entirely. Module 12's dialogues were built on this, and by level 37 of that module whole exchanges were running with almost nothing left in them. The dropping is not sloppiness. It is what marks the situation, and putting everything back would sound like a form being read aloud.",
+              "examples": [
+                {
+                  "hindi": "कहाँ जा रहे?",
+                  "read_as": "kahaaṁ jaa rahe?",
+                  "english": "Where are you off to?",
+                  "note": "Subject and auxiliary both gone."
+                },
+                {
+                  "hindi": "तुम कहाँ जा रहे हो?",
+                  "read_as": "tum kahaaṁ jaa rahe ho?",
+                  "english": "Where are you going?",
+                  "note": "Everything present. Neutral rather than formal."
+                },
+                {
+                  "hindi": "चाय?",
+                  "read_as": "chaay?",
+                  "english": "Tea?",
+                  "note": "One word, and a complete offer."
+                }
+              ],
+              "common_error": {
+                "wrong": "writing out every word in a casual message",
+                "right": "letting the obvious go",
+                "why_en": "A learner who never drops anything sounds careful in a way that reads as distance. The full form is not more polite; it is simply less close."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "A text message to a friend you see every day.",
+              "options": [
+                "आप कहाँ जा रहे हैं?",
+                "क्या आप कहीं जा रहे हैं?",
+                "कृपया बताइए कि आप कहाँ जा रहे हैं।",
+                "कहाँ जा रहे?"
+              ],
+              "options_read_as": [
+                "aap kahaaṁ jaa rahe haiṁ?",
+                "kyaa aap kahiiṁ jaa rahe haiṁ?",
+                "kripayaa bataaie ki aap kahaaṁ jaa rahe haiṁ.",
+                "kahaaṁ jaa rahe?"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The others are all correct and all put distance in. The last one would read as a summons."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "चाय?",
+              "sentence_read_as": "chaay?",
+              "question_en": "What kind of exchange is this?",
+              "options": [
+                "A shop sign",
+                "A waiter taking an order",
+                "Somebody close offering you a cup",
+                "A written invitation"
+              ],
+              "answer_index": 2,
+              "explanation_en": "A waiter would say चाय लेंगे? A single word with a rising tone assumes you already know each other."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "कहाँ जा रहे?",
+              "चाय?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L02-I2",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "casual",
+            "particles"
+          ],
+          "target": "अरे यार, ऐसा थोड़ी होता है ना।",
+          "read_as": "are yaar, aisaa thoṛii hotaa hai naa.",
+          "english": "Come on, that's not how it works.",
+          "difficulty": 8,
+          "tags": [
+            "register",
+            "casual",
+            "particles",
+            "callback_m12"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The particles are what make it sound like a person",
+              "explanation_en": "अरे यार, ऐसा थोड़ी होता है ना. Strip out अरे, यार, थोड़ी and ना and you are left with ऐसा होता है — which is true, and dead. The particles carry the whole attitude: अरे opens with mild protest, यार marks the listener as close, थोड़ी negates with disbelief, and ना asks for agreement. None of them translates into a word of English, and a learner who never uses them will be understood perfectly and never sound like a friend.",
+              "examples": [
+                {
+                  "hindi": "अरे यार, ऐसा थोड़ी होता है ना।",
+                  "read_as": "are yaar, aisaa thoṛii hotaa hai naa.",
+                  "english": "Come on, that's not how it works.",
+                  "note": "Four particles doing four different jobs."
+                },
+                {
+                  "hindi": "ऐसा नहीं होता।",
+                  "read_as": "aisaa nahiiṁ hotaa.",
+                  "english": "That is not how it works.",
+                  "note": "The same content, and no relationship at all."
+                },
+                {
+                  "hindi": "अच्छा? सच में?",
+                  "read_as": "acchaa? sach meṁ?",
+                  "english": "Really? Seriously?",
+                  "note": "Two particles and a fixed phrase, and a complete turn in a conversation."
+                }
+              ],
+              "common_error": {
+                "wrong": "using यार with somebody senior to you",
+                "right": "keeping यार for people you are close to",
+                "why_en": "यार claims a closeness. Used upward it sounds presumptuous, which is a heavier mistake than any grammatical one."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "Disagreeing with a friend who has said something silly.",
+              "options": [
+                "यह कथन तथ्यात्मक रूप से ग़लत है।",
+                "क्षमा कीजिए, मैं सहमत नहीं हूँ।",
+                "अरे यार, ऐसा थोड़ी होता है ना।",
+                "मुझे नहीं लगता कि ऐसा होता है।"
+              ],
+              "options_read_as": [
+                "yah kathan tathyaatmak ruup se ġalat hai.",
+                "kṣamaa kiijie, maiṁ sahmat nahiiṁ huuṁ.",
+                "are yaar, aisaa thoṛii hotaa hai naa.",
+                "mujhe nahiiṁ lagtaa ki aisaa hotaa hai."
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second is neutral and fine. The third belongs in a written argument and the fourth in a meeting — both would be strange between friends."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "यह कथन तथ्यात्मक रूप से ग़लत है।",
+              "sentence_read_as": "yah kathan tathyaatmak ruup se ġalat hai.",
+              "question_en": "Where does this belong?",
+              "options": [
+                "A conversation between friends",
+                "A written argument or a report",
+                "A shop",
+                "A text message"
+              ],
+              "answer_index": 1,
+              "explanation_en": "कथन and तथ्यात्मक are both Sanskrit-side and both written. Nobody says this out loud."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अरे यार, ऐसा थोड़ी होता है ना।",
+              "अच्छा? सच में?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L02-I3",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "casual",
+            "tuu_tum",
+            "imperatives"
+          ],
+          "target": "सुन, ज़रा इधर आ।",
+          "read_as": "sun, zaraa idhar aa.",
+          "english": "Listen, come here a moment.",
+          "difficulty": 8,
+          "tags": [
+            "register",
+            "casual",
+            "tuu",
+            "bare_stem_imperative",
+            "callback_m12"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तू and the bare-stem command",
+              "explanation_en": "सुन, ज़रा इधर आ. These are तू imperatives — the bare verb stem with nothing added — and they are the most intimate form the language has. Between people who have that footing they carry no rudeness at all. Between people who do not, they are shocking. Module 12 held तू back until level 37 for exactly this reason: it needed thirty-six levels of आप and तुम first, so that the intimacy would register as intimacy rather than as one more form to memorise.",
+              "examples": [
+                {
+                  "hindi": "सुन, ज़रा इधर आ।",
+                  "read_as": "sun, zaraa idhar aa.",
+                  "english": "Listen, come here a moment.",
+                  "note": "तू imperatives — bare stems."
+                },
+                {
+                  "hindi": "सुनो, ज़रा इधर आओ।",
+                  "read_as": "suno, zaraa idhar aao.",
+                  "english": "Listen, come here a moment.",
+                  "note": "तुम — the ordinary friendly form."
+                },
+                {
+                  "hindi": "सुनिए, ज़रा इधर आइए।",
+                  "read_as": "sunie, zaraa idhar aaie.",
+                  "english": "Excuse me, would you come here.",
+                  "note": "आप — and this is what you use with a stranger."
+                }
+              ],
+              "common_error": {
+                "wrong": "using तू with somebody you have just met",
+                "right": "using आप, and moving to तुम if they do",
+                "why_en": "तू is not a beginner's shortcut for तुम. Choosing it wrongly is the most serious register error available in Hindi."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "Calling over a shopkeeper you have never met.",
+              "options": [
+                "सुनिए, ज़रा इधर आइए।",
+                "सुन, ज़रा इधर आ।",
+                "सुनो, ज़रा इधर आओ।",
+                "कृपया यहाँ उपस्थित हों।"
+              ],
+              "options_read_as": [
+                "sunie, zaraa idhar aaie.",
+                "sun, zaraa idhar aa.",
+                "suno, zaraa idhar aao.",
+                "kripayaa yahaaṁ upasthit hoṁ."
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second would be an insult and the third is over-familiar with a stranger. The fourth is institutional language addressed to one person, which is stranger still."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "सुन, ज़रा इधर आ।",
+              "sentence_read_as": "sun, zaraa idhar aa.",
+              "question_en": "Who could say this without giving offence?",
+              "options": [
+                "A junior colleague to a senior one",
+                "A guest to a host",
+                "A customer to a shopkeeper",
+                "One old friend to another"
+              ],
+              "answer_index": 3,
+              "explanation_en": "तू needs an established closeness. Everyone else on that list would need तुम or आप."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सुन, ज़रा इधर आ।",
+              "सुनिए, ज़रा इधर आइए।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Casual speech is marked by what it drops — subjects, auxiliaries, sometimes the verb — and by the particles it adds, which carry attitude that no English word translates. तू is the most intimate form in the language and the easiest to get catastrophically wrong.",
+        "key_forms": [
+          "कहाँ जा रहे?",
+          "अरे यार ... ना",
+          "सुन, आ"
+        ],
+        "next_up_en": "Next: politeness that is not formality."
+      }
+    },
+    {
+      "level": 3,
+      "title_en": "Polite",
+      "title_hi": "शिष्ट बातचीत",
+      "items": [
+        {
+          "id": "M15-L03-I1",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "polite",
+            "aap",
+            "imperatives"
+          ],
+          "target": "ज़रा ये देख लीजिएगा।",
+          "read_as": "zaraa ye dekh liijiegaa.",
+          "english": "Do have a look at this.",
+          "difficulty": 7,
+          "tags": [
+            "register",
+            "polite",
+            "future_imperative",
+            "callback_m12"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "दीजिएगा is gentler than कीजिए, because it is not for now",
+              "explanation_en": "There is a ladder inside the आप imperative itself. कीजिए is a polite instruction for the present moment. कीजिएगा pushes it into the future and softens it in the process — do it when you get a chance. That small displacement in time is what makes it feel unhurried, and it is why Module 12's hotel confirmation and pharmacy instructions both used it. It is not more formal than कीजिए; it is less pressing, which is a different thing.",
+              "examples": [
+                {
+                  "hindi": "ज़रा ये देख लीजिएगा।",
+                  "read_as": "zaraa ye dekh liijiegaa.",
+                  "english": "Do have a look at this.",
+                  "note": "Unhurried — whenever you can."
+                },
+                {
+                  "hindi": "ज़रा ये देख लीजिए।",
+                  "read_as": "zaraa ye dekh liijie.",
+                  "english": "Please look at this.",
+                  "note": "Polite, and for now."
+                },
+                {
+                  "hindi": "कोई दिक्कत हो तो मैसेज कर दीजिएगा।",
+                  "read_as": "koii dikkat ho to maisej kar diijiegaa.",
+                  "english": "If there's any trouble, do message.",
+                  "note": "The Module 12 hotel message, and the softness is the point."
+                }
+              ],
+              "common_error": {
+                "wrong": "treating कीजिएगा as simply more polite than कीजिए",
+                "right": "hearing it as less immediate",
+                "why_en": "कीजिएगा for something you need done now sounds oddly unbothered. The two are for different urgencies rather than different politeness levels."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "Asking a colleague to look at something whenever they have a moment.",
+              "options": [
+                "ये देखो।",
+                "यह देखना अनिवार्य है।",
+                "ज़रा ये देख ले।",
+                "ज़रा ये देख लीजिएगा।"
+              ],
+              "options_read_as": [
+                "ye dekho.",
+                "yah dekhnaa anivaarya hai.",
+                "zaraa ye dekh le.",
+                "zaraa ye dekh liijiegaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second is fine between close colleagues but has no softening. The third is a regulation. The fourth uses तू, which would be startling at work."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "कोई दिक्कत हो तो मैसेज कर दीजिएगा।",
+              "sentence_read_as": "koii dikkat ho to maisej kar diijiegaa.",
+              "question_en": "Who is speaking?",
+              "options": [
+                "A parent",
+                "A friend",
+                "A business sending a confirmation",
+                "A government notice"
+              ],
+              "answer_index": 2,
+              "explanation_en": "सर-level politeness with English words like मैसेज and दिक्कत, and a future imperative. That mixture is what a business message sounds like."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ज़रा ये देख लीजिएगा।",
+              "ज़रा ये देख लीजिए।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L03-I2",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "polite",
+            "softeners"
+          ],
+          "target": "एक छोटी सी गुज़ारिश थी।",
+          "read_as": "ek chhoṭii sii guzaarish thii.",
+          "english": "I had a small request.",
+          "difficulty": 8,
+          "tags": [
+            "register",
+            "polite",
+            "softeners",
+            "politeness_past",
+            "callback_m13"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Three softeners at once, and none of them carries information",
+              "explanation_en": "एक छोटी सी गुज़ारिश थी. Count what is doing work here. छोटी makes the request small. सी makes it smaller. And थी puts it one step into the past, which distances the asking and makes it easier to refuse — the same instinct as English \"I was wondering whether\". Not one of the three tells you anything about what is being asked. Politeness in Hindi is largely a matter of adding words that carry no content, and a learner who strips them out for economy will sound blunt without meaning to.",
+              "examples": [
+                {
+                  "hindi": "एक छोटी सी गुज़ारिश थी।",
+                  "read_as": "ek chhoṭii sii guzaarish thii.",
+                  "english": "I had a small request.",
+                  "note": "The Module 13 neighbour asking for a parcel to be taken in."
+                },
+                {
+                  "hindi": "ज़रा एक मिनट मिलेगा?",
+                  "read_as": "zaraa ek minaṭ milegaa?",
+                  "english": "Might I have a moment?",
+                  "note": "ज़रा, and an impersonal मिलेगा rather than a direct ask."
+                },
+                {
+                  "hindi": "मुझे आपसे कुछ पूछना है।",
+                  "read_as": "mujhe aapse kuchh puuchhnaa hai.",
+                  "english": "I need to ask you something.",
+                  "note": "No softeners at all, and correspondingly direct."
+                }
+              ],
+              "common_error": {
+                "wrong": "removing the softeners to be efficient",
+                "right": "keeping them, because they are the politeness",
+                "why_en": "In Hindi the courtesy is not in a separate polite word; it is spread across small additions that each take a fraction off the weight of the request."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "Asking a neighbour for a favour you are slightly reluctant to ask.",
+              "options": [
+                "एक निवेदन प्रस्तुत है।",
+                "एक छोटी सी गुज़ारिश थी।",
+                "मुझे आपसे एक काम है।",
+                "आपको यह करना होगा।"
+              ],
+              "options_read_as": [
+                "ek nivedan prastut hai.",
+                "ek chhoṭii sii guzaarish thii.",
+                "mujhe aapse ek kaam hai.",
+                "aapko yah karnaa hogaa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second is direct rather than rude. The third is an instruction. The fourth is a written formula and would be very odd spoken over a wall."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "आपको यह करना होगा।",
+              "sentence_read_as": "aapko yah karnaa hogaa.",
+              "question_en": "What is this?",
+              "options": [
+                "A statement of obligation",
+                "An offer",
+                "An apology",
+                "A request"
+              ],
+              "answer_index": 0,
+              "explanation_en": "करना होगा says it has to be done. आप makes it courteous, but it is still telling rather than asking."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "एक छोटी सी गुज़ारिश थी।",
+              "ज़रा एक मिनट मिलेगा?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L03-I3",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "polite",
+            "indirect_request"
+          ],
+          "target": "क्या आप एक मिनट के लिए आ सकते हैं?",
+          "read_as": "kyaa aap ek minaṭ ke lie aa sakte haiṁ?",
+          "english": "Could you come for a minute?",
+          "difficulty": 7,
+          "tags": [
+            "register",
+            "polite",
+            "indirect_request",
+            "saknaa"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Asking whether somebody can, rather than asking them to",
+              "explanation_en": "क्या आप एक मिनट के लिए आ सकते हैं? is not really a question about ability, and everybody knows it. Asking whether somebody is able to do a thing, rather than asking them to do it, hands them an exit that nobody expects them to take — and that is what makes it polite. English does exactly the same with \"could you\". The Hindi version needs सकना and the क्या that opens a yes-or-no question, and it is the standard way to ask a favour of somebody you do not know well.",
+              "examples": [
+                {
+                  "hindi": "क्या आप एक मिनट के लिए आ सकते हैं?",
+                  "read_as": "kyaa aap ek minaṭ ke lie aa sakte haiṁ?",
+                  "english": "Could you come for a minute?",
+                  "note": "An ability question doing the work of a request."
+                },
+                {
+                  "hindi": "एक मिनट के लिए आइए।",
+                  "read_as": "ek minaṭ ke lie aaie.",
+                  "english": "Come here for a minute.",
+                  "note": "Polite, and a direct instruction."
+                },
+                {
+                  "hindi": "क्या ये हो पाएगा?",
+                  "read_as": "kyaa ye ho paaegaa?",
+                  "english": "Would that be possible?",
+                  "note": "पाना rather than सकना, and even less direct."
+                }
+              ],
+              "common_error": {
+                "wrong": "क्या आप एक मिनट के लिए आएँगे?",
+                "right": "क्या आप एक मिनट के लिए आ सकते हैं?",
+                "why_en": "The future asks whether they intend to come, which sounds like a demand for a commitment. सकना asks whether it is possible, which is an offer of an exit."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "Asking a senior colleague you do not know well for a moment of their time.",
+              "options": [
+                "क्या आप एक मिनट के लिए आ सकते हैं?",
+                "एक मिनट के लिए आइए।",
+                "एक मिनट आ जाओ।",
+                "आप एक मिनट के लिए आएँगे?"
+              ],
+              "options_read_as": [
+                "kyaa aap ek minaṭ ke lie aa sakte haiṁ?",
+                "ek minaṭ ke lie aaie.",
+                "ek minaṭ aa jaao.",
+                "aap ek minaṭ ke lie aaeṁge?"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second is polite but instructs. The third uses तुम with somebody senior. The fourth asks for a commitment rather than offering a way out."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "क्या ये हो पाएगा?",
+              "sentence_read_as": "kyaa ye ho paaegaa?",
+              "question_en": "What is this speaker doing?",
+              "options": [
+                "Giving an instruction",
+                "Confirming an arrangement",
+                "Refusing something",
+                "Asking very tentatively whether something is possible"
+              ],
+              "answer_index": 3,
+              "explanation_en": "पाना is about managing to, and the impersonal हो removes any person from the question. It is about as indirect as Hindi gets."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "क्या आप एक मिनट के लिए आ सकते हैं?",
+              "क्या ये हो पाएगा?"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Politeness and formality are not the same thing. कीजिएगा is less pressing than कीजिए rather than more formal. The softeners — ज़रा, थोड़ा, सा, and a past tense on a present request — carry no information at all and are where the courtesy lives. And asking whether somebody can do a thing is how you ask them to.",
+        "key_forms": [
+          "देख लीजिएगा",
+          "छोटी सी ... थी",
+          "क्या आप ... सकते हैं?"
+        ],
+        "next_up_en": "Next: what changes when nobody is being spoken to."
+      }
+    },
+    {
+      "level": 4,
+      "title_en": "Formal writing",
+      "title_hi": "औपचारिक लेखन",
+      "items": [
+        {
+          "id": "M15-L04-I1",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "formal_writing",
+            "letter_skeleton"
+          ],
+          "target": "विषय: छुट्टी हेतु आवेदन",
+          "read_as": "viṣay: chhuṭṭii hetu aavedan",
+          "english": "Subject: application for leave",
+          "difficulty": 8,
+          "tags": [
+            "register",
+            "formal_writing",
+            "letter_skeleton",
+            "callback_m13"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The skeleton, and हेतु for के लिए",
+              "explanation_en": "Module 13 gave you the three header lines — संदर्भ, विषय, दिनांक — and the closing सादर. Here is one more piece: हेतु, which means for the purpose of and replaces के लिए in the most formal writing. छुट्टी हेतु आवेदन is an application for leave; छुट्टी के लिए आवेदन says the same thing and is commoner. हेतु follows its noun rather than preceding it, like सहित in the Module 13 invitation, which is a habit of the Sanskrit-side postpositions generally.",
+              "examples": [
+                {
+                  "hindi": "विषय: छुट्टी हेतु आवेदन",
+                  "read_as": "viṣay: chhuṭṭii hetu aavedan",
+                  "english": "Subject: application for leave",
+                  "note": "A subject line, and no verb anywhere."
+                },
+                {
+                  "hindi": "विषय: छुट्टी के लिए आवेदन",
+                  "read_as": "viṣay: chhuṭṭii ke lie aavedan",
+                  "english": "Subject: application for leave",
+                  "note": "The same line, one notch less formal, and far commoner."
+                },
+                {
+                  "hindi": "सादर,\nमोहित सिंह",
+                  "read_as": "saadar,\nmohit siṁh",
+                  "english": "Yours sincerely,\nMohit Singh",
+                  "note": "The close, from Module 13 level 21."
+                }
+              ],
+              "common_error": {
+                "wrong": "छुट्टी हेतु के लिए आवेदन",
+                "right": "छुट्टी हेतु आवेदन",
+                "why_en": "हेतु replaces के लिए. Using both stacks two postpositions doing one job."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "The subject line of a written application to your employer.",
+              "options": [
+                "छुट्टी की बात",
+                "छुट्टी वाला मैसेज",
+                "विषय: छुट्टी हेतु आवेदन",
+                "विषय: छुट्टी चाहिए"
+              ],
+              "options_read_as": [
+                "chhuṭṭii kii baat",
+                "chhuṭṭii vaalaa maisej",
+                "viṣay: chhuṭṭii hetu aavedan",
+                "viṣay: chhuṭṭii chaahie"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second uses a spoken construction in a written slot. The third and fourth are how you would refer to it in conversation, not how you would label it."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "छुट्टी हेतु आवेदन",
+              "sentence_read_as": "chhuṭṭii hetu aavedan",
+              "question_en": "Where would you see this?",
+              "options": [
+                "In a message to a colleague",
+                "On a subject line or a file label",
+                "In a conversation",
+                "On a shop sign"
+              ],
+              "answer_index": 1,
+              "explanation_en": "हेतु and आवेदन are both written-only, and there is no verb — this is a label rather than a sentence."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "छुट्टी हेतु आवेदन",
+              "छुट्टी के लिए आवेदन"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L04-I2",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "formal_writing",
+            "connectives"
+          ],
+          "target": "अतः आपसे निवेदन है कि अनुमति प्रदान करें।",
+          "read_as": "ataḥ aapse nivedan hai ki anumati pradaan kareṁ.",
+          "english": "I therefore request that permission be granted.",
+          "difficulty": 9,
+          "tags": [
+            "register",
+            "formal_writing",
+            "connectives",
+            "callback_m13"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "अतः, तथा, एवं — the connectives that only exist in writing",
+              "explanation_en": "Formal Hindi has its own set of joining words, and none of them is ever said out loud. अतः is therefore, where speech says इसलिए. तथा and एवं both mean and, where speech says और — you met एवं on the returns sign in Module 13. किंतु and परंतु mean but, where speech says पर or लेकिन. Swapping these four in is the single quickest way to move a piece of writing up the situation axis, and the single quickest way to sound absurd if you do it while talking.",
+              "examples": [
+                {
+                  "hindi": "अतः आपसे निवेदन है कि अनुमति प्रदान करें।",
+                  "read_as": "ataḥ aapse nivedan hai ki anumati pradaan kareṁ.",
+                  "english": "I therefore request that permission be granted.",
+                  "note": "अतः, निवेदन, प्रदान — every choice on the formal side."
+                },
+                {
+                  "hindi": "इसलिए आपसे विनती है कि इजाज़त दे दीजिए।",
+                  "read_as": "islie aapse vintii hai ki ijaazat de diijie.",
+                  "english": "So I'm asking you to give permission.",
+                  "note": "The same request, spoken."
+                },
+                {
+                  "hindi": "आवेदन पत्र तथा पहचान पत्र संलग्न हैं।",
+                  "read_as": "aavedan patra tathaa pahchaan patra saṁlagn haiṁ.",
+                  "english": "The application form and identity document are enclosed.",
+                  "note": "तथा rather than और."
+                }
+              ],
+              "common_error": {
+                "wrong": "saying अतः or एवं in conversation",
+                "right": "keeping them for the page",
+                "why_en": "These words have no spoken life at all. In speech they land somewhere between comic and pompous."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "The closing line of a written application to an institution.",
+              "options": [
+                "अनुमति चाहिए, बता दीजिएगा।",
+                "अतः आपसे निवेदन है कि अनुमति प्रदान करें।",
+                "तो प्लीज़ परमिशन दे दीजिए।",
+                "इसलिए इजाज़त दे दो ना।"
+              ],
+              "options_read_as": [
+                "anumati chaahie, bataa diijiegaa.",
+                "ataḥ aapse nivedan hai ki anumati pradaan kareṁ.",
+                "to pliiz parmishan de diijie.",
+                "islie ijaazat de do naa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second is Hinglish and would be normal in a work message, not in an application. The third is casual. The fourth is polite speech rather than writing."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "आवेदन पत्र तथा पहचान पत्र संलग्न हैं।",
+              "sentence_read_as": "aavedan patra tathaa pahchaan patra saṁlagn haiṁ.",
+              "question_en": "Where does this belong?",
+              "options": [
+                "A covering letter or a form",
+                "A text message",
+                "A news headline",
+                "A spoken instruction"
+              ],
+              "answer_index": 0,
+              "explanation_en": "तथा and संलग्न are both written-only, and enclosing documents is what a covering letter does."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अतः आपसे निवेदन है कि अनुमति प्रदान करें।",
+              "इसलिए आपसे विनती है कि इजाज़त दे दीजिए।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L04-I3",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "formal_writing",
+            "nominalisation",
+            "passive"
+          ],
+          "target": "इस विषय पर विचार किया जा रहा है।",
+          "read_as": "is viṣay par vichaar kiyaa jaa rahaa hai.",
+          "english": "This matter is under consideration.",
+          "difficulty": 9,
+          "tags": [
+            "register",
+            "formal_writing",
+            "passive",
+            "agentless",
+            "callback_m14"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The passive is how formal writing avoids naming anybody",
+              "explanation_en": "इस विषय पर विचार किया जा रहा है — the matter is being considered, and by nobody in particular. Module 14 gave you the passive; this is what it is for. Formal writing uses it constantly, and the reason is rarely grammatical. Somebody is doing the considering, and the sentence declines to say who. Note also विचार करना rather than सोचना: formal Hindi prefers a noun plus a light verb where speech uses a single verb, which is the same move as निवेदन करना for माँगना.",
+              "examples": [
+                {
+                  "hindi": "इस विषय पर विचार किया जा रहा है।",
+                  "read_as": "is viṣay par vichaar kiyaa jaa rahaa hai.",
+                  "english": "This matter is under consideration.",
+                  "note": "Passive, and no agent anywhere."
+                },
+                {
+                  "hindi": "हम इस बारे में सोच रहे हैं।",
+                  "read_as": "ham is baare meṁ soch rahe haiṁ.",
+                  "english": "We are thinking about it.",
+                  "note": "The same content, spoken, and with a subject."
+                },
+                {
+                  "hindi": "सूचित किया जाता है कि कार्यालय बंद रहेगा।",
+                  "read_as": "suuchit kiyaa jaataa hai ki kaaryaalay baṁd rahegaa.",
+                  "english": "It is hereby notified that the office will be closed.",
+                  "note": "The clearest case of it — a notice with nobody in it at all."
+                }
+              ],
+              "common_error": {
+                "wrong": "using the passive in speech to sound careful",
+                "right": "using a subject",
+                "why_en": "A passive in conversation sounds evasive rather than polite. The construction's whole function is to remove a person, and in a conversation there is a person standing right there."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "A written reply from a department that does not wish to name who is deciding.",
+              "options": [
+                "हम इस बारे में सोच रहे हैं।",
+                "देखते हैं क्या होता है।",
+                "मैंने अभी तक कुछ तय नहीं किया।",
+                "इस विषय पर विचार किया जा रहा है।"
+              ],
+              "options_read_as": [
+                "ham is baare meṁ soch rahe haiṁ.",
+                "dekhte haiṁ kyaa hotaa hai.",
+                "maiṁne abhii tak kuchh tay nahiiṁ kiyaa.",
+                "is viṣay par vichaar kiyaa jaa rahaa hai."
+              ],
+              "answer_index": 3,
+              "explanation_en": "Every other option puts a person in. The second names a we, the third is spoken, and the fourth names an I — which is precisely what the department is avoiding."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "सूचित किया जाता है कि कार्यालय बंद रहेगा।",
+              "sentence_read_as": "suuchit kiyaa jaataa hai ki kaaryaalay baṁd rahegaa.",
+              "question_en": "What kind of text is this?",
+              "options": [
+                "A polite request",
+                "A message from a colleague",
+                "An official notice",
+                "A news report"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The passive with no agent, कार्यालय rather than ऑफ़िस, and nobody addressed. That is a notice."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "इस विषय पर विचार किया जा रहा है।",
+              "हम इस बारे में सोच रहे हैं।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Formal writing has its own connectives — अतः, तथा, एवं, किंतु — which are never spoken. हेतु replaces के लिए and follows its noun. And the passive is how the register avoids naming anybody, which is a choice about responsibility rather than about grammar.",
+        "key_forms": [
+          "हेतु",
+          "अतः ... निवेदन है कि",
+          "विचार किया जा रहा है"
+        ],
+        "next_up_en": "Next: institutional language, where nobody is speaking to anybody."
+      }
+    }
+  ]
+}

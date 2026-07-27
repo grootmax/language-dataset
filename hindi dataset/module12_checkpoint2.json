@@ -1,0 +1,257 @@
+{
+  "module": 12,
+  "format_divergence": {
+    "part_f_default": "4 recognition, 4 production/transform, 2 error-spotting",
+    "used_here": "3 comprehension, 2 recognition, 5 audio_gap_fill",
+    "reason_en": "Same reasoning as checkpoint 1. This module is receptive; a transform question would ask the learner to produce Hindi and an error-spot would present wrong Hindi to someone trained only to understand correct speech. Still flagged rather than settled — if the engine enforces the Part F mix, both checkpoints need reworking together."
+  },
+  "checkpoints": [
+    {
+      "after_level": 10,
+      "covers_levels": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "questions": [
+        {
+          "id": "M12-CP2-Q1",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L06-I1",
+          "question_en": "Listen again. Why does she need to borrow sugar?",
+          "options": [
+            "Her usual shop had run out",
+            "She forgot to buy it",
+            "The shop was shut and guests arrived",
+            "She is cooking for a festival"
+          ],
+          "answer_index": 2,
+          "explanation_en": "मेहमान आ गए हैं and दुकान बंद थी — guests turned up and the shop was closed.",
+          "source_item_ids": [
+            "M12-L06-I1"
+          ]
+        },
+        {
+          "id": "M12-CP2-Q2",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L09-I3",
+          "question_en": "Listen again. What has gone wrong?",
+          "options": [
+            "He is in the wrong part of town",
+            "He was given the wrong address",
+            "The bank is closed",
+            "He has already walked past the bank"
+          ],
+          "answer_index": 3,
+          "explanation_en": "वो तो पीछे रह गया — the bank is behind him now.",
+          "source_item_ids": [
+            "M12-L09-I3"
+          ]
+        },
+        {
+          "id": "M12-CP2-Q3",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L07-I1",
+          "question_en": "Across the auto dialogues, what does the driver end up charging for the station?",
+          "options": [
+            "One hundred and seventy-five",
+            "Two hundred",
+            "He uses the meter",
+            "One hundred and fifty"
+          ],
+          "answer_index": 0,
+          "explanation_en": "पौने दो सौ — a quarter less than two hundred. And in the third auto dialogue the meter is broken, as it always is.",
+          "source_item_ids": [
+            "M12-L07-I1",
+            "M12-L07-I3"
+          ]
+        },
+        {
+          "id": "M12-CP2-Q4",
+          "source": "current",
+          "format": "recognition",
+          "replay_item_id": "M12-L10-I1",
+          "question_en": "बस, ट्रेन, कैब, टंकी and लाइन all behave the same way in these dialogues. What do they have in common?",
+          "options": [
+            "They are all English loanwords",
+            "They are all feminine, so the verbs around them are feminine",
+            "They are all masculine",
+            "They never take a postposition"
+          ],
+          "answer_index": 1,
+          "explanation_en": "All feminine — which is why you hear जाएगी, चली, बुक की, हो गई and पकड़नी. Loanwords get a gender assigned and nothing predicts it.",
+          "source_item_ids": [
+            "M12-L06-I2",
+            "M12-L08-I1",
+            "M12-L10-I1"
+          ]
+        },
+        {
+          "id": "M12-CP2-Q5",
+          "source": "current",
+          "format": "recognition",
+          "replay_item_id": "M12-L08-I2",
+          "question_en": "के पास, के सामने and के लिए appear across these levels. Which pairing is right?",
+          "options": [
+            "All three mean the same thing",
+            "के पास = for, के सामने = with, के लिए = near",
+            "के पास = near or in someone's keeping, के सामने = opposite, के लिए = for",
+            "के पास = opposite, के सामने = for, के लिए = near"
+          ],
+          "answer_index": 2,
+          "explanation_en": "गार्ड के पास is in the guard's keeping, मेन गेट के सामने is opposite the gate, and लाजपत नगर के लिए is a ticket for that destination.",
+          "source_item_ids": [
+            "M12-L06-I3",
+            "M12-L08-I2",
+            "M12-L10-I2"
+          ]
+        },
+        {
+          "id": "M12-CP2-Q6",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L07-I2",
+          "line_n": 1,
+          "mask_reason": "oblique",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "अगले ___ पर रोक देना।",
+          "question_read_as": "agle ___ par rok denaa.",
+          "options": [
+            "चौराहों",
+            "चौराही",
+            "चौराहा",
+            "चौराहे"
+          ],
+          "options_read_as": [
+            "chauraahoṁ",
+            "chauraahii",
+            "chauraahaa",
+            "chauraahe"
+          ],
+          "answer_index": 3,
+          "explanation_en": "पर is a postposition, so चौराहा goes oblique to चौराहे.",
+          "source_item_ids": [
+            "M12-L07-I2"
+          ]
+        },
+        {
+          "id": "M12-CP2-Q7",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L08-I3",
+          "line_n": 3,
+          "mask_reason": "verb_ending",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "मुझे एक दवा ___ है।",
+          "question_read_as": "mujhe ek davaa ___ hai.",
+          "options": [
+            "लेनी",
+            "लेने",
+            "लिया",
+            "लेना"
+          ],
+          "options_read_as": [
+            "lenii",
+            "lene",
+            "liyaa",
+            "lenaa"
+          ],
+          "answer_index": 0,
+          "explanation_en": "दवा is feminine, so the infinitive in an obligation takes -नी.",
+          "source_item_ids": [
+            "M12-L08-I3"
+          ]
+        },
+        {
+          "id": "M12-CP2-Q8",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L09-I1",
+          "line_n": 1,
+          "mask_reason": "postposition",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "यहाँ ___ डाकघर कितनी दूर है?",
+          "question_read_as": "yahaaṁ ___ ḍaakghar kitnii duur hai?",
+          "options": [
+            "पर",
+            "से",
+            "तक",
+            "में"
+          ],
+          "options_read_as": [
+            "par",
+            "se",
+            "tak",
+            "meṁ"
+          ],
+          "answer_index": 1,
+          "explanation_en": "से marks the starting point; तक would ask about the far end.",
+          "source_item_ids": [
+            "M12-L09-I1"
+          ]
+        },
+        {
+          "id": "M12-CP2-Q9",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L09-I2",
+          "line_n": 2,
+          "mask_reason": "verb_ending",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "पैदल दस मिनट ___ हैं।",
+          "question_read_as": "paidal das minaṭ ___ haiṁ.",
+          "options": [
+            "लगता",
+            "लगती",
+            "लगते",
+            "लगीं"
+          ],
+          "options_read_as": [
+            "lagtaa",
+            "lagtii",
+            "lagte",
+            "lagiiṁ"
+          ],
+          "answer_index": 2,
+          "explanation_en": "मिनट is masculine plural, so the verb is plural.",
+          "source_item_ids": [
+            "M12-L09-I2"
+          ]
+        },
+        {
+          "id": "M12-CP2-Q10",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L10-I3",
+          "line_n": 2,
+          "mask_reason": "ne",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "___ पूरा दिन आराम किया है।",
+          "question_read_as": "___ puuraa din aaraam kiyaa hai.",
+          "options": [
+            "मुझे",
+            "मेरा",
+            "मैं",
+            "मैंने"
+          ],
+          "options_read_as": [
+            "mujhe",
+            "meraa",
+            "maiṁ",
+            "maiṁne"
+          ],
+          "answer_index": 3,
+          "explanation_en": "करना is transitive and the tense is perfective, so ने.",
+          "source_item_ids": [
+            "M12-L10-I3"
+          ]
+        }
+      ]
+    }
+  ]
+}

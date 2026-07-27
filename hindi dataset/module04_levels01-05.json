@@ -1,0 +1,1535 @@
+{
+  "module": 4,
+  "module_name_en": "Core Words I",
+  "module_name_hi": "शब्द भंडार १",
+  "phase": 2,
+  "batch": {
+    "levels_from": 1,
+    "levels_to": 5
+  },
+  "levels": [
+    {
+      "level": 1,
+      "title_en": "The family, and the gender problem",
+      "title_hi": "परिवार",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L01-I1",
+          "type": "word",
+          "target": "परिवार",
+          "read_as": "parivaar",
+          "pronunciation_notes": "The final inherent vowel drops, so the word is parivaar rather than parivaara.",
+          "gloss_en": "family",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "family",
+          "plural": "परिवार",
+          "plural_read_as": "parivaar",
+          "difficulty": 1,
+          "tags": [
+            "family",
+            "noun",
+            "masculine",
+            "consonant_ending",
+            "gender_flag"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "परिवार — family",
+              "explanation_en": "परिवार is the general word for a family, the group rather than the building they live in. It is masculine, and its plural looks exactly like its singular, which is true of every masculine noun that does not end in -ा. Watch out here: this word ends in a consonant, and consonant endings tell you nothing at all about gender. किताब also ends in a consonant and is feminine. With words like this the gender has to be learned alongside the meaning.",
+              "examples": [
+                {
+                  "hindi": "बड़ा परिवार",
+                  "read_as": "baṛaa parivaar",
+                  "english": "a big family",
+                  "note": "बड़ा takes its masculine form because परिवार is masculine."
+                },
+                {
+                  "hindi": "छोटा परिवार",
+                  "read_as": "chhoṭaa parivaar",
+                  "english": "a small family",
+                  "note": "छोटा ends in -ा for the same reason."
+                },
+                {
+                  "hindi": "पूरा परिवार",
+                  "read_as": "puuraa parivaar",
+                  "english": "the whole family",
+                  "note": "A very common phrase, used for the family gathered together."
+                }
+              ],
+              "common_error": {
+                "wrong": "बड़ी परिवार",
+                "right": "बड़ा परिवार",
+                "why_en": "परिवार is masculine despite its consonant ending, so the adjective takes -ा rather than -ी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "परिवार",
+              "question_read_as": "parivaar",
+              "options": [
+                "a house",
+                "a family",
+                "a relative",
+                "a village"
+              ],
+              "options_read_as": [
+                "a house",
+                "a family",
+                "a relative",
+                "a village"
+              ],
+              "answer_index": 1,
+              "explanation_en": "परिवार is the family as a group of people. घर is the house they live in."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ परिवार — का, के or की?",
+              "options": [
+                "के",
+                "की",
+                "का",
+                "कि"
+              ],
+              "options_read_as": [
+                "ke",
+                "kii",
+                "kaa",
+                "ki"
+              ],
+              "answer_index": 2,
+              "explanation_en": "परिवार is masculine and singular, so the form is का. Its consonant ending gives no clue, so this one is memorised."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "परिवार",
+              "बड़ा परिवार",
+              "पूरा परिवार"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L01-I2",
+          "type": "word",
+          "target": "माँ",
+          "read_as": "mãa",
+          "pronunciation_notes": "The crescent nasalises the vowel — the aa hums through the nose and no n is pronounced.",
+          "gloss_en": "mother",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "family",
+          "plural": "माएँ",
+          "plural_read_as": "maaeṁ",
+          "difficulty": 1,
+          "tags": [
+            "family",
+            "noun",
+            "feminine",
+            "chandrabindu",
+            "gender_flag"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "माँ — mother",
+              "explanation_en": "माँ is the everyday word for mother, warm and used directly in address. It is feminine, and here is the first real trap in this module: the word ends in the आ sound, which normally signals a masculine noun. This one does not follow that pattern, so its gender has to be learned rather than worked out. The more formal माता appears in writing and in the fixed pair माता-पिता, meaning parents.",
+              "examples": [
+                {
+                  "hindi": "अच्छी माँ",
+                  "read_as": "achchhii mãa",
+                  "english": "a good mother",
+                  "note": "अच्छी ends in -ी because माँ is feminine."
+                },
+                {
+                  "hindi": "माता-पिता",
+                  "read_as": "maataa-pitaa",
+                  "english": "parents",
+                  "note": "A fixed pair joining the formal words for mother and father."
+                },
+                {
+                  "hindi": "दो माएँ",
+                  "read_as": "do maaeṁ",
+                  "english": "two mothers",
+                  "note": "Feminine nouns not ending in -ी take -एँ in the plural."
+                }
+              ],
+              "common_error": {
+                "wrong": "अच्छा माँ",
+                "right": "अच्छी माँ",
+                "why_en": "माँ ends in the आ sound but is feminine, so the adjective takes -ी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "माँ",
+              "question_read_as": "mãa",
+              "options": [
+                "a sister",
+                "a daughter",
+                "an aunt",
+                "a mother"
+              ],
+              "options_read_as": [
+                "a sister",
+                "a daughter",
+                "an aunt",
+                "a mother"
+              ],
+              "answer_index": 3,
+              "explanation_en": "माँ is mother. बहन is sister and बेटी is daughter."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ माँ — का, के or की?",
+              "options": [
+                "की",
+                "का",
+                "के",
+                "कि"
+              ],
+              "options_read_as": [
+                "kii",
+                "kaa",
+                "ke",
+                "ki"
+              ],
+              "answer_index": 0,
+              "explanation_en": "माँ is feminine, so की — even though its आ ending would normally point towards a masculine noun."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "माँ",
+              "अच्छी माँ",
+              "माता-पिता",
+              "माएँ"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L01-I3",
+          "type": "word",
+          "target": "पिता",
+          "read_as": "pitaa",
+          "pronunciation_notes": "Dental त with the tongue on the teeth, and a long final vowel: pitaa.",
+          "gloss_en": "father",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "family",
+          "plural": "पिता",
+          "plural_read_as": "pitaa",
+          "difficulty": 2,
+          "tags": [
+            "family",
+            "noun",
+            "masculine",
+            "aa_ending",
+            "formal_register"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पिता — father",
+              "explanation_en": "पिता is the word for father used in writing and in respectful speech, while पापा is what most people actually say at home. It is masculine and ends in -ा, which is the ordinary masculine pattern, so for once the ending predicts the gender correctly. It does have one oddity worth noting now: unlike most -ा masculines it never changes to -े, so its plural looks identical to its singular.",
+              "examples": [
+                {
+                  "hindi": "माता-पिता",
+                  "read_as": "maataa-pitaa",
+                  "english": "parents",
+                  "note": "The same fixed pair, now from the other side."
+                },
+                {
+                  "hindi": "पिता जी",
+                  "read_as": "pitaa jii",
+                  "english": "father (respectful)",
+                  "note": "जी is added to kinship terms to show respect."
+                },
+                {
+                  "hindi": "अच्छा पिता",
+                  "read_as": "achchhaa pitaa",
+                  "english": "a good father",
+                  "note": "The adjective ends in -ा, matching the masculine noun."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पिता",
+              "question_read_as": "pitaa",
+              "options": [
+                "a father",
+                "a brother",
+                "a grandfather",
+                "an uncle"
+              ],
+              "options_read_as": [
+                "a father",
+                "a brother",
+                "a grandfather",
+                "an uncle"
+              ],
+              "answer_index": 0,
+              "explanation_en": "पिता is father. दादा is a grandfather and चाचा an uncle."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ पिता — का, के or की?",
+              "options": [
+                "कि",
+                "का",
+                "के",
+                "की"
+              ],
+              "options_read_as": [
+                "ki",
+                "kaa",
+                "ke",
+                "kii"
+              ],
+              "answer_index": 1,
+              "explanation_en": "पिता is masculine and singular, so का. The -ा ending points the right way here, unlike in माँ."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पिता",
+              "पिता जी",
+              "माता-पिता"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level began the family words with परिवार, माँ and पिता, and introduced the rule that runs through the whole module: every Hindi noun carries a gender, and only some endings tell you what it is.",
+        "key_forms": [
+          "परिवार",
+          "माँ",
+          "पिता"
+        ],
+        "next_up_en": "Next: भाई and बहन, including one word whose ending actively points the wrong way."
+      }
+    },
+    {
+      "level": 2,
+      "title_en": "Brothers, sisters and sons",
+      "title_hi": "भाई बहन बेटा",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L02-I1",
+          "type": "word",
+          "target": "भाई",
+          "read_as": "bhaaii",
+          "pronunciation_notes": "Breathy भ, then a long aa and a long ii — bhaaii, said as two clear beats.",
+          "gloss_en": "brother",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "family",
+          "plural": "भाई",
+          "plural_read_as": "bhaaii",
+          "difficulty": 2,
+          "tags": [
+            "family",
+            "noun",
+            "masculine",
+            "ii_ending",
+            "gender_flag"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "भाई — brother",
+              "explanation_en": "भाई means brother, and it doubles as a way of addressing any man of roughly your own age, rather as English uses 'mate'. It is masculine, and this is the ending that misleads English speakers most often: -ी normally marks feminine nouns, so भाई looks feminine and is not. आदमी, meaning man, and पानी, meaning water, are masculine for exactly the same reason. All three have to be learned as exceptions.",
+              "examples": [
+                {
+                  "hindi": "बड़ा भाई",
+                  "read_as": "baṛaa bhaaii",
+                  "english": "elder brother",
+                  "note": "Hindi marks older and younger siblings separately."
+                },
+                {
+                  "hindi": "छोटा भाई",
+                  "read_as": "chhoṭaa bhaaii",
+                  "english": "younger brother",
+                  "note": "The adjective takes -ा because भाई is masculine."
+                },
+                {
+                  "hindi": "दो भाई",
+                  "read_as": "do bhaaii",
+                  "english": "two brothers",
+                  "note": "The plural is identical to the singular."
+                }
+              ],
+              "common_error": {
+                "wrong": "बड़ी भाई",
+                "right": "बड़ा भाई",
+                "why_en": "भाई ends in -ी but is masculine, so the adjective takes -ा."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "भाई",
+              "question_read_as": "bhaaii",
+              "options": [
+                "a sister",
+                "a son",
+                "a brother",
+                "a cousin"
+              ],
+              "options_read_as": [
+                "a sister",
+                "a son",
+                "a brother",
+                "a cousin"
+              ],
+              "answer_index": 2,
+              "explanation_en": "भाई is brother. बहन is sister and बेटा is son."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ भाई — का, के or की?",
+              "options": [
+                "की",
+                "के",
+                "कि",
+                "का"
+              ],
+              "options_read_as": [
+                "kii",
+                "ke",
+                "ki",
+                "kaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "भाई is masculine, so का — even though the -ी ending looks feminine. This is the single commonest gender mistake English speakers make."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "भाई",
+              "बड़ा भाई",
+              "छोटा भाई"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L02-I2",
+          "type": "word",
+          "target": "बहन",
+          "read_as": "bahan",
+          "pronunciation_notes": "Two syllables, bahan. In the plural the middle vowel disappears: बहनें is bahneṁ, not bahaneṁ.",
+          "gloss_en": "sister",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "family",
+          "plural": "बहनें",
+          "plural_read_as": "bahneṁ",
+          "difficulty": 2,
+          "tags": [
+            "family",
+            "noun",
+            "feminine",
+            "consonant_ending",
+            "gender_flag",
+            "medial_schwa"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बहन — sister",
+              "explanation_en": "बहन is sister, and like भाई it doubles as a respectful way to address a woman you do not know. It is feminine and ends in a consonant, which as usual tells you nothing about its gender. Notice what happens in the plural: बहनें is said 'bahneṁ' with the middle vowel gone, which is exactly the medial schwa behaviour from the last module showing up in ordinary vocabulary.",
+              "examples": [
+                {
+                  "hindi": "बड़ी बहन",
+                  "read_as": "baṛii bahan",
+                  "english": "elder sister",
+                  "note": "बड़ी takes -ी because बहन is feminine."
+                },
+                {
+                  "hindi": "छोटी बहन",
+                  "read_as": "chhoṭii bahan",
+                  "english": "younger sister",
+                  "note": "The counterpart to छोटा भाई from the last card."
+                },
+                {
+                  "hindi": "तीन बहनें",
+                  "read_as": "tiin bahneṁ",
+                  "english": "three sisters",
+                  "note": "Feminine nouns ending in a consonant take -एँ in the plural."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बहन",
+              "question_read_as": "bahan",
+              "options": [
+                "a mother",
+                "a daughter",
+                "a wife",
+                "a sister"
+              ],
+              "options_read_as": [
+                "a mother",
+                "a daughter",
+                "a wife",
+                "a sister"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बहन is sister. बेटी is daughter and पत्नी is wife."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ बहन — का, के or की?",
+              "options": [
+                "का",
+                "के",
+                "की",
+                "कि"
+              ],
+              "options_read_as": [
+                "kaa",
+                "ke",
+                "kii",
+                "ki"
+              ],
+              "answer_index": 2,
+              "explanation_en": "बहन is feminine, so की. Its consonant ending predicts nothing, so this one is learned with the word."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बहन",
+              "बड़ी बहन",
+              "बहनें"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L02-I3",
+          "type": "word",
+          "target": "बेटा",
+          "read_as": "beṭaa",
+          "pronunciation_notes": "Retroflex ट with the tongue curled back to the roof of the mouth. Two syllables, beṭaa.",
+          "gloss_en": "son",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "family",
+          "plural": "बेटे",
+          "plural_read_as": "beṭe",
+          "difficulty": 2,
+          "tags": [
+            "family",
+            "noun",
+            "masculine",
+            "aa_ending",
+            "regular_plural"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बेटा — son",
+              "explanation_en": "बेटा means son, and it is also used affectionately to address any young person, including a girl. It is masculine and ends in -ा, so its gender is predictable for once. It is also the first noun in this module whose plural actually changes shape: masculine nouns ending in -ा take -े in the plural, which gives बेटे.",
+              "examples": [
+                {
+                  "hindi": "छोटा बेटा",
+                  "read_as": "chhoṭaa beṭaa",
+                  "english": "younger son",
+                  "note": "Both words end in -ा."
+                },
+                {
+                  "hindi": "दो बेटे",
+                  "read_as": "do beṭe",
+                  "english": "two sons",
+                  "note": "The -ा becomes -े in the plural."
+                },
+                {
+                  "hindi": "बेटा और बेटी",
+                  "read_as": "beṭaa aur beṭii",
+                  "english": "a son and a daughter",
+                  "note": "The two words differ only in their final vowel."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बेटा",
+              "question_read_as": "beṭaa",
+              "options": [
+                "a brother",
+                "a son",
+                "a child",
+                "a father"
+              ],
+              "options_read_as": [
+                "a brother",
+                "a son",
+                "a child",
+                "a father"
+              ],
+              "answer_index": 1,
+              "explanation_en": "बेटा is son. बच्चा is a child of either sex, and भाई is brother."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ बेटा — का, के or की?",
+              "options": [
+                "का",
+                "की",
+                "के",
+                "कि"
+              ],
+              "options_read_as": [
+                "kaa",
+                "kii",
+                "ke",
+                "ki"
+              ],
+              "answer_index": 0,
+              "explanation_en": "बेटा is masculine, so का. Here the -ा ending predicts the gender correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बेटा",
+              "छोटा बेटा",
+              "बेटे"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added भाई, बहन and बेटा. भाई is the important one: its -ी ending looks feminine and the word is masculine, which is the mistake English speakers make most often.",
+        "key_forms": [
+          "भाई",
+          "बहन",
+          "बेटा"
+        ],
+        "next_up_en": "Next: बेटी, पति and पत्नी, where two endings predict correctly and one does not."
+      }
+    },
+    {
+      "level": 3,
+      "title_en": "Daughters and spouses",
+      "title_hi": "बेटी पति पत्नी",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L03-I1",
+          "type": "word",
+          "target": "बेटी",
+          "read_as": "beṭii",
+          "pronunciation_notes": "The plural inserts a y sound and nasalises the ending: beṭiyãa.",
+          "gloss_en": "daughter",
+          "gender": "f",
+          "gender_flag": false,
+          "category": "family",
+          "plural": "बेटियाँ",
+          "plural_read_as": "beṭiyãa",
+          "difficulty": 2,
+          "tags": [
+            "family",
+            "noun",
+            "feminine",
+            "ii_ending",
+            "regular_plural"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बेटी — daughter",
+              "explanation_en": "बेटी is daughter, the exact counterpart of बेटा. It ends in -ी and is feminine, so the ending predicts correctly — which is worth noticing precisely because भाई broke that pattern two cards ago. Feminine nouns ending in -ी form their plural with -ियाँ, and the long ी shortens as it does so.",
+              "examples": [
+                {
+                  "hindi": "छोटी बेटी",
+                  "read_as": "chhoṭii beṭii",
+                  "english": "younger daughter",
+                  "note": "Both words end in -ी."
+                },
+                {
+                  "hindi": "दो बेटियाँ",
+                  "read_as": "do beṭiyãa",
+                  "english": "two daughters",
+                  "note": "The -ी becomes -ियाँ in the plural."
+                },
+                {
+                  "hindi": "बड़ी बेटी",
+                  "read_as": "baṛii beṭii",
+                  "english": "elder daughter",
+                  "note": "The feminine adjective ending matches the noun."
+                }
+              ],
+              "common_error": {
+                "wrong": "बेटीयाँ",
+                "right": "बेटियाँ",
+                "why_en": "The long ी shortens to ि before the plural ending, so बेटीयाँ is not a possible spelling."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बेटी",
+              "question_read_as": "beṭii",
+              "options": [
+                "a sister",
+                "a wife",
+                "a daughter",
+                "a granddaughter"
+              ],
+              "options_read_as": [
+                "a sister",
+                "a wife",
+                "a daughter",
+                "a granddaughter"
+              ],
+              "answer_index": 2,
+              "explanation_en": "बेटी is daughter. बहन is sister and पत्नी is wife."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ बेटी — का, के or की?",
+              "options": [
+                "का",
+                "के",
+                "कि",
+                "की"
+              ],
+              "options_read_as": [
+                "kaa",
+                "ke",
+                "ki",
+                "kii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बेटी is feminine, so की. The -ी ending predicts correctly here, unlike in भाई."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बेटी",
+              "छोटी बेटी",
+              "बेटियाँ"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L03-I2",
+          "type": "word",
+          "target": "पति",
+          "read_as": "pati",
+          "pronunciation_notes": "A short i at the end, not a long one, and a dental त with the tongue on the teeth: pati.",
+          "gloss_en": "husband",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "family",
+          "plural": "पति",
+          "plural_read_as": "pati",
+          "difficulty": 3,
+          "tags": [
+            "family",
+            "noun",
+            "masculine",
+            "i_ending",
+            "gender_flag"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पति — husband",
+              "explanation_en": "पति is husband. It ends in a short -ि, an ending rare enough that it predicts nothing at all, and it happens to be masculine. Its plural does not change. Keep it clearly apart from पत्नी, meaning wife: the two look similar but they are separate words, not a masculine and feminine pair of the kind बेटा and बेटी form.",
+              "examples": [
+                {
+                  "hindi": "अच्छा पति",
+                  "read_as": "achchhaa pati",
+                  "english": "a good husband",
+                  "note": "The adjective ends in -ा, matching the masculine noun."
+                },
+                {
+                  "hindi": "पति और पत्नी",
+                  "read_as": "pati aur patnii",
+                  "english": "husband and wife",
+                  "note": "A very common fixed pair."
+                },
+                {
+                  "hindi": "दो पति",
+                  "read_as": "do pati",
+                  "english": "two husbands",
+                  "note": "The plural is identical to the singular."
+                }
+              ],
+              "common_error": {
+                "wrong": "अच्छी पति",
+                "right": "अच्छा पति",
+                "why_en": "पति is masculine, so the adjective takes -ा despite the word's unusual i ending."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पति",
+              "question_read_as": "pati",
+              "options": [
+                "a husband",
+                "a wife",
+                "a son",
+                "a father"
+              ],
+              "options_read_as": [
+                "a husband",
+                "a wife",
+                "a son",
+                "a father"
+              ],
+              "answer_index": 0,
+              "explanation_en": "पति is husband. पत्नी is wife — the two words look alike but are not masculine and feminine forms of one word."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ पति — का, के or की?",
+              "options": [
+                "के",
+                "का",
+                "की",
+                "कि"
+              ],
+              "options_read_as": [
+                "ke",
+                "kaa",
+                "kii",
+                "ki"
+              ],
+              "answer_index": 1,
+              "explanation_en": "पति is masculine, so का. Its short -ि ending gives no clue whatsoever."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पति",
+              "अच्छा पति",
+              "पति और पत्नी"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L03-I3",
+          "type": "word",
+          "target": "पत्नी",
+          "read_as": "patnii",
+          "pronunciation_notes": "The त्न stack runs त straight into न with no vowel between them, giving patnii in two syllables rather than three.",
+          "gloss_en": "wife",
+          "gender": "f",
+          "gender_flag": false,
+          "category": "family",
+          "plural": "पत्नियाँ",
+          "plural_read_as": "patniyãa",
+          "difficulty": 3,
+          "tags": [
+            "family",
+            "noun",
+            "feminine",
+            "ii_ending",
+            "conjunct"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पत्नी — wife",
+              "explanation_en": "पत्नी is wife, and it carries a conjunct from the last module: त् runs straight into न, so the word is said 'patnii' rather than 'patanii'. It ends in -ी and is feminine, so the ending predicts correctly. In casual speech many people say बीवी instead, particularly in northern India, though पत्नी is what you will read.",
+              "examples": [
+                {
+                  "hindi": "पति और पत्नी",
+                  "read_as": "pati aur patnii",
+                  "english": "husband and wife",
+                  "note": "The same fixed pair, from the other side."
+                },
+                {
+                  "hindi": "अच्छी पत्नी",
+                  "read_as": "achchhii patnii",
+                  "english": "a good wife",
+                  "note": "The adjective takes -ी to match."
+                },
+                {
+                  "hindi": "दो पत्नियाँ",
+                  "read_as": "do patniyãa",
+                  "english": "two wives",
+                  "note": "The -ी becomes -ियाँ, exactly as in बेटियाँ."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पत्नी",
+              "question_read_as": "patnii",
+              "options": [
+                "a sister",
+                "a mother",
+                "a daughter",
+                "a wife"
+              ],
+              "options_read_as": [
+                "a sister",
+                "a mother",
+                "a daughter",
+                "a wife"
+              ],
+              "answer_index": 3,
+              "explanation_en": "पत्नी is wife. बहन is sister and बेटी is daughter."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ पत्नी — का, के or की?",
+              "options": [
+                "की",
+                "के",
+                "का",
+                "कि"
+              ],
+              "options_read_as": [
+                "kii",
+                "ke",
+                "kaa",
+                "ki"
+              ],
+              "answer_index": 0,
+              "explanation_en": "पत्नी is feminine, so की. The -ी ending points the right way here."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पत्नी",
+              "अच्छी पत्नी",
+              "पत्नियाँ"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered बेटी, पति and पत्नी. Two of the three have endings that predict their gender correctly, while पति ends in a short -ि that predicts nothing at all.",
+        "key_forms": [
+          "बेटी",
+          "पति",
+          "पत्नी"
+        ],
+        "next_up_en": "Next: the grandparents, where Hindi keeps apart two relationships English runs together."
+      }
+    },
+    {
+      "level": 4,
+      "title_en": "Grandparents and children",
+      "title_hi": "दादा दादी बच्चा",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L04-I1",
+          "type": "word",
+          "target": "दादा",
+          "read_as": "daadaa",
+          "pronunciation_notes": "Both द are dental — the tongue presses against the back of the upper teeth rather than curling back.",
+          "gloss_en": "paternal grandfather",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "family",
+          "plural": "दादा",
+          "plural_read_as": "daadaa",
+          "difficulty": 3,
+          "tags": [
+            "family",
+            "noun",
+            "masculine",
+            "aa_ending",
+            "kinship_term"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "दादा — the father's father",
+              "explanation_en": "Hindi splits what English calls a grandfather into two separate words: दादा is your father's father, while नाना is your mother's father. English speakers reach for the wrong one constantly, because English gives them no reason to keep the two apart, and a Hindi speaker notices the slip at once. The word is masculine and ends in -ा. Kinship terms like this usually stay unchanged in the plural out of respect, rather than taking the -े you saw in बेटे.",
+              "examples": [
+                {
+                  "hindi": "दादा जी",
+                  "read_as": "daadaa jii",
+                  "english": "grandfather (respectful)",
+                  "note": "जी is added to almost every kinship term in address."
+                },
+                {
+                  "hindi": "दादा और दादी",
+                  "read_as": "daadaa aur daadii",
+                  "english": "grandfather and grandmother",
+                  "note": "Both of these are on the father's side."
+                },
+                {
+                  "hindi": "बूढ़ा दादा",
+                  "read_as": "buuṛhaa daadaa",
+                  "english": "an old grandfather",
+                  "note": "बूढ़ा contains the breathy flap from Module 2."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दादा",
+              "question_read_as": "daadaa",
+              "options": [
+                "a father",
+                "an uncle",
+                "a father's father",
+                "a mother's father"
+              ],
+              "options_read_as": [
+                "a father",
+                "an uncle",
+                "a father's father",
+                "a mother's father"
+              ],
+              "answer_index": 2,
+              "explanation_en": "दादा is specifically the father's father. The mother's father is नाना, and Hindi keeps the two sides apart."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ दादा — का, के or की?",
+              "options": [
+                "कि",
+                "की",
+                "का",
+                "के"
+              ],
+              "options_read_as": [
+                "ki",
+                "kii",
+                "kaa",
+                "ke"
+              ],
+              "answer_index": 2,
+              "explanation_en": "दादा is masculine, so का. The -ा ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दादा",
+              "दादा जी",
+              "दादा और दादी"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L04-I2",
+          "type": "word",
+          "target": "दादी",
+          "read_as": "daadii",
+          "pronunciation_notes": "A long ii at the end — daadii differs from daadaa in that final vowel alone.",
+          "gloss_en": "paternal grandmother",
+          "gender": "f",
+          "gender_flag": false,
+          "category": "family",
+          "plural": "दादियाँ",
+          "plural_read_as": "daadiyãa",
+          "difficulty": 3,
+          "tags": [
+            "family",
+            "noun",
+            "feminine",
+            "ii_ending",
+            "kinship_term"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "दादी — the father's mother",
+              "explanation_en": "दादी is your father's mother, and नानी is your mother's mother. The same split as दादा and नाना, and the same warning applies: the two are not interchangeable. A useful memory hook is that the द words belong to the father's side and the न words to the mother's. दादी is feminine and ends in -ी, so the ending predicts correctly.",
+              "examples": [
+                {
+                  "hindi": "दादी जी",
+                  "read_as": "daadii jii",
+                  "english": "grandmother (respectful)",
+                  "note": "The respectful particle again."
+                },
+                {
+                  "hindi": "बूढ़ी दादी",
+                  "read_as": "buuṛhii daadii",
+                  "english": "an old grandmother",
+                  "note": "बूढ़ी takes the feminine -ी ending."
+                },
+                {
+                  "hindi": "दादी और नानी",
+                  "read_as": "daadii aur naanii",
+                  "english": "the two grandmothers",
+                  "note": "One from each side of the family."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दादी",
+              "question_read_as": "daadii",
+              "options": [
+                "a father's mother",
+                "a mother's mother",
+                "an aunt",
+                "an elder sister"
+              ],
+              "options_read_as": [
+                "a father's mother",
+                "a mother's mother",
+                "an aunt",
+                "an elder sister"
+              ],
+              "answer_index": 0,
+              "explanation_en": "दादी is the father's mother. The mother's mother is नानी."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ दादी — का, के or की?",
+              "options": [
+                "का",
+                "की",
+                "के",
+                "कि"
+              ],
+              "options_read_as": [
+                "kaa",
+                "kii",
+                "ke",
+                "ki"
+              ],
+              "answer_index": 1,
+              "explanation_en": "दादी is feminine, so की. The -ी ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दादी",
+              "दादी जी",
+              "दादी और नानी"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L04-I3",
+          "type": "word",
+          "target": "बच्चा",
+          "read_as": "bachchaa",
+          "pronunciation_notes": "The च्च stack holds the ch, with no breath on either half: bachchaa.",
+          "gloss_en": "child",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "family",
+          "plural": "बच्चे",
+          "plural_read_as": "bachche",
+          "difficulty": 3,
+          "tags": [
+            "family",
+            "noun",
+            "masculine",
+            "aa_ending",
+            "conjunct",
+            "regular_plural"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बच्चा — child",
+              "explanation_en": "बच्चा means a child, and it is grammatically masculine whatever the child's sex. That reflects a general fact about Hindi: the masculine is the default when sex is unspecified or mixed. There is a feminine form बच्ची used specifically of a girl. The plural बच्चे is one of the most common words you will hear, since it covers children in general.",
+              "examples": [
+                {
+                  "hindi": "छोटा बच्चा",
+                  "read_as": "chhoṭaa bachchaa",
+                  "english": "a small child",
+                  "note": "The held च्च stack from the last module."
+                },
+                {
+                  "hindi": "तीन बच्चे",
+                  "read_as": "tiin bachche",
+                  "english": "three children",
+                  "note": "The -ा becomes -े, exactly as in बेटे."
+                },
+                {
+                  "hindi": "अच्छे बच्चे",
+                  "read_as": "achchhe bachche",
+                  "english": "good children",
+                  "note": "The adjective takes -े to match the plural noun."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बच्चा",
+              "question_read_as": "bachchaa",
+              "options": [
+                "a son",
+                "a child",
+                "a brother",
+                "a grandson"
+              ],
+              "options_read_as": [
+                "a son",
+                "a child",
+                "a brother",
+                "a grandson"
+              ],
+              "answer_index": 1,
+              "explanation_en": "बच्चा is a child of either sex. बेटा is specifically a son."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ बच्चा — का, के or की?",
+              "options": [
+                "के",
+                "की",
+                "कि",
+                "का"
+              ],
+              "options_read_as": [
+                "ke",
+                "kii",
+                "ki",
+                "kaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बच्चा is masculine, so का — and it stays masculine even when the child being spoken about is a girl."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बच्चा",
+              "छोटा बच्चा",
+              "बच्चे"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed the family words with दादा, दादी and बच्चा. Hindi keeps the father's and mother's sides of the family apart, and बच्चा is masculine by default regardless of the child's sex.",
+        "key_forms": [
+          "दादा",
+          "दादी",
+          "बच्चा"
+        ],
+        "next_up_en": "Next: the body, beginning with three words that all end in consonants and do not all share a gender."
+      }
+    },
+    {
+      "level": 5,
+      "title_en": "The body begins",
+      "title_hi": "सिर आँख हाथ",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L05-I1",
+          "type": "word",
+          "target": "सिर",
+          "read_as": "sir",
+          "pronunciation_notes": "One syllable — the final inherent vowel drops, so the word is sir rather than sira.",
+          "gloss_en": "head",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "body",
+          "plural": "सिर",
+          "plural_read_as": "sir",
+          "difficulty": 3,
+          "tags": [
+            "body",
+            "noun",
+            "masculine",
+            "consonant_ending",
+            "gender_flag"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सिर — head",
+              "explanation_en": "सिर is the head. It ends in a consonant, so its gender is not predictable and simply has to be learned: it is masculine. Notice the pronunciation too — the written word has two consonants but is said as a single syllable, because the final inherent vowel drops. Its plural does not change.",
+              "examples": [
+                {
+                  "hindi": "बड़ा सिर",
+                  "read_as": "baṛaa sir",
+                  "english": "a big head",
+                  "note": "The masculine adjective ending."
+                },
+                {
+                  "hindi": "सिर दर्द",
+                  "read_as": "sir dard",
+                  "english": "a headache",
+                  "note": "Two nouns side by side, both dropping their final vowels."
+                },
+                {
+                  "hindi": "दो सिर",
+                  "read_as": "do sir",
+                  "english": "two heads",
+                  "note": "The plural is unchanged."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सिर",
+              "question_read_as": "sir",
+              "options": [
+                "a hand",
+                "an eye",
+                "a head",
+                "a face"
+              ],
+              "options_read_as": [
+                "a hand",
+                "an eye",
+                "a head",
+                "a face"
+              ],
+              "answer_index": 2,
+              "explanation_en": "सिर is the head. हाथ is a hand and आँख an eye."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ सिर — का, के or की?",
+              "options": [
+                "का",
+                "के",
+                "की",
+                "कि"
+              ],
+              "options_read_as": [
+                "kaa",
+                "ke",
+                "kii",
+                "ki"
+              ],
+              "answer_index": 0,
+              "explanation_en": "सिर is masculine, so का. Its consonant ending gives no clue."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सिर",
+              "बड़ा सिर",
+              "सिर दर्द"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L05-I2",
+          "type": "word",
+          "target": "आँख",
+          "read_as": "ãakh",
+          "pronunciation_notes": "The crescent nasalises the opening vowel — it hums through the nose and no n is heard. One syllable, ãakh.",
+          "gloss_en": "eye",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "body",
+          "plural": "आँखें",
+          "plural_read_as": "ãakheṁ",
+          "difficulty": 4,
+          "tags": [
+            "body",
+            "noun",
+            "feminine",
+            "consonant_ending",
+            "chandrabindu",
+            "gender_flag"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "आँख — eye",
+              "explanation_en": "आँख is an eye. It carries the crescent from the last module, so the opening vowel is nasalised and no n sound appears anywhere in it. The word ends in a consonant and is feminine, which the ending does not tell you. You will meet the plural आँखें far more often than the singular, since eyes usually come in pairs.",
+              "examples": [
+                {
+                  "hindi": "बड़ी आँखें",
+                  "read_as": "baṛii ãakheṁ",
+                  "english": "big eyes",
+                  "note": "The feminine adjective, and the -एँ plural."
+                },
+                {
+                  "hindi": "दो आँखें",
+                  "read_as": "do ãakheṁ",
+                  "english": "two eyes",
+                  "note": "Feminine nouns ending in a consonant take -एँ."
+                },
+                {
+                  "hindi": "काली आँख",
+                  "read_as": "kaalii ãakh",
+                  "english": "a black eye",
+                  "note": "काली ends in -ी because the noun is feminine."
+                }
+              ],
+              "common_error": {
+                "wrong": "बड़े आँखें",
+                "right": "बड़ी आँखें",
+                "why_en": "आँख is feminine, so the adjective takes -ी in both the singular and the plural."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "आँख",
+              "question_read_as": "ãakh",
+              "options": [
+                "a hand",
+                "a head",
+                "an ear",
+                "an eye"
+              ],
+              "options_read_as": [
+                "a hand",
+                "a head",
+                "an ear",
+                "an eye"
+              ],
+              "answer_index": 3,
+              "explanation_en": "आँख is an eye. कान is an ear and सिर the head."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ आँख — का, के or की?",
+              "options": [
+                "के",
+                "का",
+                "की",
+                "कि"
+              ],
+              "options_read_as": [
+                "ke",
+                "kaa",
+                "kii",
+                "ki"
+              ],
+              "answer_index": 2,
+              "explanation_en": "आँख is feminine, so की. The consonant ending predicts nothing, so this one is learned with the word."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "आँख",
+              "आँखें",
+              "बड़ी आँखें"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L05-I3",
+          "type": "word",
+          "target": "हाथ",
+          "read_as": "haath",
+          "pronunciation_notes": "The final थ is aspirated — the tongue is on the teeth and breath is released. One syllable, haath.",
+          "gloss_en": "hand",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "body",
+          "plural": "हाथ",
+          "plural_read_as": "haath",
+          "difficulty": 4,
+          "tags": [
+            "body",
+            "noun",
+            "masculine",
+            "consonant_ending",
+            "gender_flag"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "हाथ — hand",
+              "explanation_en": "हाथ is a hand, and in ordinary speech it often covers the arm as well. It ends in a consonant, so its gender has to be learned: masculine. Set it beside आँख from the last card — both end in consonants, and they take opposite genders. That pairing is the clearest possible demonstration of why consonant endings are marked as unpredictable all through this module.",
+              "examples": [
+                {
+                  "hindi": "दायाँ हाथ",
+                  "read_as": "daayãa haath",
+                  "english": "the right hand",
+                  "note": "दायाँ carries a crescent of its own."
+                },
+                {
+                  "hindi": "दो हाथ",
+                  "read_as": "do haath",
+                  "english": "two hands",
+                  "note": "The plural is unchanged."
+                },
+                {
+                  "hindi": "साफ़ हाथ",
+                  "read_as": "saaf haath",
+                  "english": "clean hands",
+                  "note": "साफ़ has the dotted letter from Module 2 and never changes form."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "हाथ",
+              "question_read_as": "haath",
+              "options": [
+                "a head",
+                "a hand",
+                "a foot",
+                "a finger"
+              ],
+              "options_read_as": [
+                "a head",
+                "a hand",
+                "a foot",
+                "a finger"
+              ],
+              "answer_index": 1,
+              "explanation_en": "हाथ is a hand. पैर is a foot and उँगली a finger."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ हाथ — का, के or की?",
+              "options": [
+                "की",
+                "कि",
+                "के",
+                "का"
+              ],
+              "options_read_as": [
+                "kii",
+                "ki",
+                "ke",
+                "kaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "हाथ is masculine, so का — while आँख, which also ends in a consonant, takes की."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "हाथ",
+              "दायाँ हाथ",
+              "साफ़ हाथ"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level began the body words with सिर, आँख and हाथ. All three end in consonants, and they do not share a gender — आँख is feminine while the other two are masculine, which is why every consonant-ending noun in this module is flagged.",
+        "key_forms": [
+          "सिर",
+          "आँख",
+          "हाथ"
+        ],
+        "next_up_en": "Next: more of the body, including two nouns whose endings finally give something away."
+      }
+    }
+  ]
+}

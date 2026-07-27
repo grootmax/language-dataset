@@ -1,0 +1,1719 @@
+{
+  "module": 8,
+  "module_name_en": "Core Words II",
+  "module_name_hi": "शब्द भंडार २",
+  "phase": 4,
+  "type": "word",
+  "batch": {
+    "levels_from": 41,
+    "levels_to": 45
+  },
+  "learner_knows_through_module": 7,
+  "levels": [
+    {
+      "level": 41,
+      "title_en": "City: police, address, crowds",
+      "title_hi": "पुलिस · पता · भीड़",
+      "category": "city_services",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L41-I1",
+          "type": "word",
+          "target": "पुलिस",
+          "read_as": "pulis",
+          "pronunciation_notes": "Both vowels are short and the stress is even: pu-lis.",
+          "gloss_en": "police",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "पुलिस बुलाना",
+            "read_as": "pulis bulaanaa",
+            "english": "to call the police"
+          },
+          "category": "city_services",
+          "difficulty": 7,
+          "tags": [
+            "city_services",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "loanword",
+            "uncountable"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पुलिस is feminine and singular",
+              "explanation_en": "पुलिस is borrowed from English and Hindi made it feminine — another arbitrary assignment, joining बस and मीटिंग against masculine बैंक. It is also treated as singular even though it refers to a force of many people: पुलिस आई, the police came, with a singular feminine verb. English does the opposite and treats police as plural, so both the gender and the number have to be unlearnt. Its verb is बुलाना, to call or summon.",
+              "examples": [
+                {
+                  "hindi": "पुलिस बुलाओ",
+                  "read_as": "pulis bulaao",
+                  "english": "call the police",
+                  "note": "The तुम imperative — बुलाना is transitive."
+                },
+                {
+                  "hindi": "पुलिस आई",
+                  "read_as": "pulis aaii",
+                  "english": "the police came",
+                  "note": "Singular and feminine, where English would use a plural."
+                },
+                {
+                  "hindi": "पुलिस स्टेशन कहाँ है?",
+                  "read_as": "pulis sṭeshan kahaaṁ hai?",
+                  "english": "where is the police station?",
+                  "note": "A compound borrowed whole, and worth having ready."
+                }
+              ],
+              "common_error": {
+                "wrong": "पुलिस आए",
+                "right": "पुलिस आई",
+                "why_en": "पुलिस is singular and feminine in Hindi, however many officers there are."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पुलिस",
+              "question_read_as": "pulis",
+              "options": [
+                "army",
+                "court",
+                "guard",
+                "police"
+              ],
+              "options_read_as": [
+                "army",
+                "court",
+                "guard",
+                "police"
+              ],
+              "answer_index": 3,
+              "explanation_en": "पुलिस is the police, feminine and singular in Hindi."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with पुलिस?",
+              "options": [
+                "करना",
+                "जाना",
+                "बुलाना",
+                "मिलना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "jaanaa",
+                "bulaanaa",
+                "milnaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "पुलिस बुलाना — to call or summon the police."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पुलिस",
+              "पुलिस बुलाओ",
+              "पुलिस आई",
+              "पुलिस स्टेशन कहाँ है?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L41-I2",
+          "type": "word",
+          "target": "पता",
+          "read_as": "pataa",
+          "pronunciation_notes": "The first syllable is very short and unstressed: pa-taa.",
+          "gloss_en": "address; also knowledge of something",
+          "gender": "m",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "पते",
+          "plural_read_as": "pate",
+          "collocation": {
+            "hindi": "पता होना",
+            "read_as": "pataa honaa",
+            "english": "to know"
+          },
+          "category": "city_services",
+          "difficulty": 7,
+          "tags": [
+            "city_services",
+            "noun",
+            "masculine",
+            "class_1",
+            "two_meanings",
+            "very_high_frequency",
+            "ko_construction"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मुझे पता है — one of the sentences you will use most",
+              "explanation_en": "पता is an address, masculine and Class 1. But it has a second life that matters far more: मुझे पता है means I know. Literally the knowledge is to me, with the person marked by को, exactly like मुझे भूख लगी है. And मुझे नहीं पता, I do not know, is the shortest useful sentence in the language. There is a separate verb जानना that also means to know, but for facts and information पता होना is what people actually say.",
+              "examples": [
+                {
+                  "hindi": "मुझे पता है",
+                  "read_as": "mujhe pataa hai",
+                  "english": "I know",
+                  "note": "The को construction — the knowledge belongs to me."
+                },
+                {
+                  "hindi": "मुझे नहीं पता",
+                  "read_as": "mujhe nahiiṁ pataa",
+                  "english": "I do not know",
+                  "note": "The auxiliary is dropped after नहीं, as usual."
+                },
+                {
+                  "hindi": "तुम्हारा पता क्या है?",
+                  "read_as": "tumhaaraa pataa kyaa hai?",
+                  "english": "what is your address?",
+                  "note": "The literal sense, with तुम्हारा agreeing with the masculine पता."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं पता हूँ",
+                "right": "मुझे पता है",
+                "why_en": "That sentence says you are an address. The knowledge is marked as belonging to you with को."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does मुझे पता है mean?",
+              "question": "मुझे पता है",
+              "question_read_as": "mujhe pataa hai",
+              "options": [
+                "I have an address",
+                "I know",
+                "I understand",
+                "I remember"
+              ],
+              "options_read_as": [
+                "I have an address",
+                "I know",
+                "I understand",
+                "I remember"
+              ],
+              "answer_index": 1,
+              "explanation_en": "पता होना means to know. The same word is also the noun for an address."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with पता to mean knowing something?",
+              "options": [
+                "होना",
+                "करना",
+                "लगना",
+                "आना"
+              ],
+              "options_read_as": [
+                "honaa",
+                "karnaa",
+                "lagnaa",
+                "aanaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "पता होना — to know. पता लगाना means to find something out."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पता",
+              "मुझे पता है",
+              "मुझे नहीं पता",
+              "तुम्हारा पता क्या है?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L41-I3",
+          "type": "word",
+          "target": "भीड़",
+          "read_as": "bhiiṛ",
+          "pronunciation_notes": "Breathy bh at the front and a flapped ड़ at the end: bhiiṛ.",
+          "gloss_en": "crowd",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "भीड़ होना",
+            "read_as": "bhiiṛ honaa",
+            "english": "for there to be a crowd"
+          },
+          "category": "city_services",
+          "difficulty": 7,
+          "tags": [
+            "city_services",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "uncountable",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "भीड़ is singular, like पुलिस",
+              "explanation_en": "भीड़ is a crowd, feminine and flagged, and it is uncountable so it takes a singular verb: भीड़ है, not भीड़ हैं. This is the second word in this level where a group is grammatically singular, which is a general habit — Hindi treats collectives as one thing. भीड़ में means in the crowd, and बहुत भीड़ है is what you will say about almost any Indian market, station or road at almost any hour.",
+              "examples": [
+                {
+                  "hindi": "बहुत भीड़ है",
+                  "read_as": "bahut bhiiṛ hai",
+                  "english": "it is very crowded",
+                  "note": "Singular verb, since भीड़ is a collective."
+                },
+                {
+                  "hindi": "भीड़ में मत जाओ",
+                  "read_as": "bhiiṛ meṁ mat jaao",
+                  "english": "do not go into the crowd",
+                  "note": "भीड़ is oblique before में, and मत negates the imperative."
+                },
+                {
+                  "hindi": "स्टेशन पर भीड़ थी",
+                  "read_as": "sṭeshan par bhiiṛ thii",
+                  "english": "there was a crowd at the station",
+                  "note": "थी is feminine singular, agreeing with भीड़."
+                }
+              ],
+              "common_error": {
+                "wrong": "बहुत भीड़ हैं",
+                "right": "बहुत भीड़ है",
+                "why_en": "भीड़ is one crowd however many people are in it, so the verb stays singular."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "भीड़",
+              "question_read_as": "bhiiṛ",
+              "options": [
+                "queue",
+                "noise",
+                "crowd",
+                "traffic"
+              ],
+              "options_read_as": [
+                "queue",
+                "noise",
+                "crowd",
+                "traffic"
+              ],
+              "answer_index": 2,
+              "explanation_en": "भीड़ is a crowd, feminine, and grammatically singular."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with भीड़?",
+              "options": [
+                "आना",
+                "होना",
+                "लगना",
+                "करना"
+              ],
+              "options_read_as": [
+                "aanaa",
+                "honaa",
+                "lagnaa",
+                "karnaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "भीड़ होना — a crowd exists. भीड़ लगना also occurs and means one gathers."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "भीड़",
+              "बहुत भीड़ है",
+              "भीड़ में मत जाओ",
+              "स्टेशन पर भीड़ थी"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "पुलिस and भीड़ are both collectives treated as grammatically singular, where English would use a plural for the first. पता is the most useful word in the level — मुझे पता है is how you say I know, and मुझे नहीं पता is the shortest useful sentence in Hindi.",
+        "key_forms": [
+          "पुलिस बुलाना",
+          "मुझे पता है",
+          "भीड़ होना"
+        ],
+        "next_up_en": "Next: electricity, queues and the temple — three fixtures of everyday Indian life."
+      }
+    },
+    {
+      "level": 42,
+      "title_en": "City: electricity, queues, the temple",
+      "title_hi": "बिजली · लाइन · मंदिर",
+      "category": "city_services",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L42-I1",
+          "type": "word",
+          "target": "बिजली",
+          "read_as": "bijlii",
+          "pronunciation_notes": "The middle vowel drops in speech, giving bij-lii rather than bi-ja-lii.",
+          "gloss_en": "electricity; also lightning",
+          "gender": "f",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "बिजली जाना",
+            "read_as": "bijlii jaanaa",
+            "english": "for the power to go out"
+          },
+          "category": "city_services",
+          "difficulty": 7,
+          "tags": [
+            "city_services",
+            "noun",
+            "feminine",
+            "class_4",
+            "two_meanings",
+            "cultural",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बिजली जाना — the power goes",
+              "explanation_en": "बिजली is electricity, feminine and predictable from its -ी. Its collocation is one you will need on your first day: बिजली चली गई, the power has gone. Hindi says the electricity went, using जाना, and बिजली आ गई for it coming back. Both verbs are intransitive, so the perfective is fully available. The same word also means lightning, which is where the electrical sense came from.",
+              "examples": [
+                {
+                  "hindi": "बिजली चली गई",
+                  "read_as": "bijlii chalii gaii",
+                  "english": "the power has gone",
+                  "note": "Both verbs are feminine, agreeing with बिजली."
+                },
+                {
+                  "hindi": "बिजली आ गई",
+                  "read_as": "bijlii aa gaii",
+                  "english": "the power is back",
+                  "note": "आना for its return, and गई again agrees with बिजली."
+                },
+                {
+                  "hindi": "बिजली नहीं है",
+                  "read_as": "bijlii nahiiṁ hai",
+                  "english": "there is no electricity",
+                  "note": "The plain statement, with नहीं in front of the verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "बिजली चला गया",
+                "right": "बिजली चली गई",
+                "why_en": "बिजली is feminine, so both verbs take feminine forms. The -ी ending makes this one predictable."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बिजली",
+              "question_read_as": "bijlii",
+              "options": [
+                "electricity",
+                "gas",
+                "water",
+                "light"
+              ],
+              "options_read_as": [
+                "electricity",
+                "gas",
+                "water",
+                "light"
+              ],
+              "answer_index": 0,
+              "explanation_en": "बिजली is electricity, and the same word also means lightning."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with बिजली when the power cuts out?",
+              "options": [
+                "करना",
+                "होना",
+                "लगना",
+                "जाना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "honaa",
+                "lagnaa",
+                "jaanaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बिजली जाना — the electricity goes. बिजली आना is for it coming back."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बिजली",
+              "बिजली चली गई",
+              "बिजली आ गई",
+              "बिजली नहीं है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L42-I2",
+          "type": "word",
+          "target": "लाइन",
+          "read_as": "laain",
+          "pronunciation_notes": "Two vowels running together with no consonant between: laa-in.",
+          "gloss_en": "queue, line",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "लाइनें",
+          "plural_read_as": "laaineṁ",
+          "collocation": {
+            "hindi": "लाइन में लगना",
+            "read_as": "laain meṁ lagnaa",
+            "english": "to join a queue"
+          },
+          "category": "city_services",
+          "difficulty": 7,
+          "tags": [
+            "city_services",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "loanword",
+            "lagnaa"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "लाइन में लगना — you attach yourself to the queue",
+              "explanation_en": "लाइन is borrowed from English and is feminine, like बस and मीटिंग. Its collocation is लाइन में लगना, to join a queue, using the same लगना that gave डर लगना and भूख लगना — here it means to attach or take a place. लगना is intransitive, so the perfective works: मैं लाइन में लगा, I joined the queue. The Hindi word क़तार also exists and is more formal.",
+              "examples": [
+                {
+                  "hindi": "लाइन में लगो",
+                  "read_as": "laain meṁ lago",
+                  "english": "get in the queue",
+                  "note": "The तुम imperative — लगना is intransitive."
+                },
+                {
+                  "hindi": "लाइन लंबी है",
+                  "read_as": "laain lambii hai",
+                  "english": "the queue is long",
+                  "note": "लंबी is feminine, which confirms लाइन is."
+                },
+                {
+                  "hindi": "बैंक में लंबी लाइन थी",
+                  "read_as": "baiṁk meṁ lambii laain thii",
+                  "english": "there was a long queue at the bank",
+                  "note": "थी is feminine singular, agreeing with लाइन."
+                }
+              ],
+              "common_error": {
+                "wrong": "लाइन लंबा है",
+                "right": "लाइन लंबी है",
+                "why_en": "लाइन is feminine in Hindi. English gives no gender at all, so this has to be memorised."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "लाइन",
+              "question_read_as": "laain",
+              "options": [
+                "crowd",
+                "queue",
+                "row",
+                "path"
+              ],
+              "options_read_as": [
+                "crowd",
+                "queue",
+                "row",
+                "path"
+              ],
+              "answer_index": 1,
+              "explanation_en": "लाइन is a queue, feminine, and it takes लगना for joining one."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with लाइन when you join one?",
+              "options": [
+                "लगना",
+                "होना",
+                "करना",
+                "जाना"
+              ],
+              "options_read_as": [
+                "lagnaa",
+                "honaa",
+                "karnaa",
+                "jaanaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "लाइन में लगना — the same लगना as भूख लगना, here meaning to take a place."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "लाइन",
+              "लाइन में लगो",
+              "लाइन लंबी है",
+              "बैंक में लंबी लाइन थी"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L42-I3",
+          "type": "word",
+          "target": "मंदिर",
+          "read_as": "mandir",
+          "pronunciation_notes": "The dot over म is an n before the द: man-dir.",
+          "gloss_en": "temple",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "मंदिर",
+          "plural_read_as": "mandir",
+          "collocation": {
+            "hindi": "मंदिर जाना",
+            "read_as": "mandir jaanaa",
+            "english": "to go to the temple"
+          },
+          "category": "city_services",
+          "difficulty": 6,
+          "tags": [
+            "city_services",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "class_2",
+            "sanskrit_origin",
+            "cultural"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मंदिर, and the other places of worship",
+              "explanation_en": "मंदिर is a Hindu temple, masculine and Class 2. Hindi keeps a separate word for each faith's place of worship rather than a general term: मस्जिद for a mosque, which is feminine, गिरजाघर or चर्च for a church, and गुरुद्वारा for a gurdwara. मंदिर जाना takes no postposition like any destination. The word also appears figuratively, as in the idea of the body or the home as a मंदिर.",
+              "examples": [
+                {
+                  "hindi": "मंदिर जाओ",
+                  "read_as": "mandir jaao",
+                  "english": "go to the temple",
+                  "note": "The destination takes no postposition."
+                },
+                {
+                  "hindi": "मंदिर में भीड़ है",
+                  "read_as": "mandir meṁ bhiiṛ hai",
+                  "english": "the temple is crowded",
+                  "note": "मंदिर is oblique before में, and भीड़ takes a singular verb."
+                },
+                {
+                  "hindi": "यह मंदिर पुराना है",
+                  "read_as": "yah mandir puraanaa hai",
+                  "english": "this temple is old",
+                  "note": "पुराना is masculine, agreeing with मंदिर."
+                }
+              ],
+              "common_error": {
+                "wrong": "यह मंदिर पुरानी है",
+                "right": "यह मंदिर पुराना है",
+                "why_en": "मंदिर is masculine. The consonant ending predicts nothing, hence the flag."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "मंदिर",
+              "question_read_as": "mandir",
+              "options": [
+                "mosque",
+                "church",
+                "shrine",
+                "temple"
+              ],
+              "options_read_as": [
+                "mosque",
+                "church",
+                "shrine",
+                "temple"
+              ],
+              "answer_index": 3,
+              "explanation_en": "मंदिर is a Hindu temple. मस्जिद is a mosque, and it is feminine."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with मंदिर?",
+              "options": [
+                "करना",
+                "लगना",
+                "जाना",
+                "बनना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "lagnaa",
+                "jaanaa",
+                "bannaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "मंदिर जाना — and the destination takes no postposition."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मंदिर",
+              "मंदिर जाओ",
+              "मंदिर में भीड़ है",
+              "यह मंदिर पुराना है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "बिजली जाना is the phrase you will use on your first day, and both it and बिजली आना are intransitive so every tense is open. लगना has now appeared with fear, hunger, injury and a queue — its common thread is attaching or taking hold.",
+        "key_forms": [
+          "बिजली जाना",
+          "लाइन में लगना",
+          "मंदिर जाना"
+        ],
+        "next_up_en": "Next: government, the post office and cleanliness, closing the city block."
+      }
+    },
+    {
+      "level": 43,
+      "title_en": "City: government, post, cleanliness",
+      "title_hi": "सरकार · डाकघर · सफ़ाई",
+      "category": "city_services",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L43-I1",
+          "type": "word",
+          "target": "सरकार",
+          "read_as": "sarkaar",
+          "pronunciation_notes": "The र is a light tap and the second syllable is long: sar-kaar.",
+          "gloss_en": "government",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "सरकारें",
+          "plural_read_as": "sarkaareṁ",
+          "collocation": {
+            "hindi": "सरकारी दफ़्तर",
+            "read_as": "sarkaarii daftar",
+            "english": "a government office"
+          },
+          "category": "city_services",
+          "difficulty": 7,
+          "tags": [
+            "city_services",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "persian_origin",
+            "derived_adjective"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सरकार is feminine, and सरकारी is its adjective",
+              "explanation_en": "सरकार is the government, feminine and flagged. The adjective सरकारी, meaning governmental or state-run, is formed with the same -ी suffix that made दोस्ती and ख़ुशी — but here it produces an adjective rather than a noun, and it is unmarked so it never changes: सरकारी दफ़्तर, सरकारी नौकरी. That distinction is worth holding: the -ी suffix on an adjective gives an abstract noun, and on a noun it often gives a relational adjective.",
+              "examples": [
+                {
+                  "hindi": "सरकार बदल गई",
+                  "read_as": "sarkaar badal gaii",
+                  "english": "the government changed",
+                  "note": "बदलना is intransitive, and गई is feminine, agreeing with सरकार."
+                },
+                {
+                  "hindi": "सरकारी दफ़्तर बंद है",
+                  "read_as": "sarkaarii daftar band hai",
+                  "english": "the government office is closed",
+                  "note": "सरकारी is unmarked and never changes."
+                },
+                {
+                  "hindi": "सरकारी नौकरी अच्छी है",
+                  "read_as": "sarkaarii naukrii achchhii hai",
+                  "english": "a government job is a good one",
+                  "note": "अच्छी agrees with नौकरी; सरकारी does not change either way."
+                }
+              ],
+              "common_error": {
+                "wrong": "सरकारा दफ़्तर",
+                "right": "सरकारी दफ़्तर",
+                "why_en": "सरकारी has one form only. Working backwards from the -ी to invent a masculine is the same trap दुखी sets."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सरकार",
+              "question_read_as": "sarkaar",
+              "options": [
+                "government",
+                "council",
+                "authority",
+                "ministry"
+              ],
+              "options_read_as": [
+                "government",
+                "council",
+                "authority",
+                "ministry"
+              ],
+              "answer_index": 0,
+              "explanation_en": "सरकार is the government, feminine, and सरकारी is its adjective."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which form describes a government office?",
+              "options": [
+                "सरकार",
+                "सरकारा",
+                "सरकारे",
+                "सरकारी"
+              ],
+              "options_read_as": [
+                "sarkaar",
+                "sarkaaraa",
+                "sarkaare",
+                "sarkaarii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "सरकारी दफ़्तर — the adjective is सरकारी and it never changes."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सरकार",
+              "सरकार बदल गई",
+              "सरकारी दफ़्तर बंद है",
+              "सरकारी नौकरी अच्छी है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L43-I2",
+          "type": "word",
+          "target": "डाकघर",
+          "read_as": "ḍaakghar",
+          "pronunciation_notes": "Two words joined, with a breathy gh in the middle: ḍaak-ghar.",
+          "gloss_en": "post office",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "डाकघर",
+          "plural_read_as": "ḍaakghar",
+          "collocation": {
+            "hindi": "डाकघर जाना",
+            "read_as": "ḍaakghar jaanaa",
+            "english": "to go to the post office"
+          },
+          "category": "city_services",
+          "difficulty": 7,
+          "tags": [
+            "city_services",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "compound",
+            "class_2"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "डाक plus घर — a compound you can read",
+              "explanation_en": "डाकघर is a post office, made of डाक, post or mail, and घर, house — so literally a mail-house. Hindi builds a lot of vocabulary this way and the gender comes from the second element, which is why डाकघर is masculine like घर. Once you notice that, compounds stop being intimidating: पुस्तकालय is a book-place, a library, and रसोईघर is a kitchen-house. The English पोस्ट ऑफ़िस is also widely used.",
+              "examples": [
+                {
+                  "hindi": "डाकघर जाओ",
+                  "read_as": "ḍaakghar jaao",
+                  "english": "go to the post office",
+                  "note": "The destination takes no postposition."
+                },
+                {
+                  "hindi": "डाकघर बंद है",
+                  "read_as": "ḍaakghar band hai",
+                  "english": "the post office is closed",
+                  "note": "बंद is unmarked and never changes."
+                },
+                {
+                  "hindi": "डाक आई",
+                  "read_as": "ḍaak aaii",
+                  "english": "the post came",
+                  "note": "डाक on its own is feminine, which the compound does not inherit."
+                }
+              ],
+              "common_error": {
+                "wrong": "डाकघर आई",
+                "right": "डाकघर बंद है",
+                "why_en": "डाक alone is feminine but डाकघर takes its gender from घर, which is masculine. Compounds follow the last element."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "डाकघर",
+              "question_read_as": "ḍaakghar",
+              "options": [
+                "town hall",
+                "police station",
+                "post office",
+                "library"
+              ],
+              "options_read_as": [
+                "town hall",
+                "police station",
+                "post office",
+                "library"
+              ],
+              "answer_index": 2,
+              "explanation_en": "डाकघर is a post office — डाक meaning mail plus घर meaning house."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which element gives a Hindi compound its gender?",
+              "options": [
+                "the first",
+                "the last",
+                "neither",
+                "both"
+              ],
+              "options_read_as": [
+                "the first",
+                "the last",
+                "neither",
+                "both"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The last element. डाक is feminine but डाकघर is masculine, taking its gender from घर."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "डाकघर",
+              "डाकघर जाओ",
+              "डाकघर बंद है",
+              "डाक आई"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L43-I3",
+          "type": "word",
+          "target": "सफ़ाई",
+          "read_as": "safaaii",
+          "pronunciation_notes": "The dotted फ़ is an f and the word ends on two vowels: sa-faa-ii.",
+          "gloss_en": "cleaning, cleanliness",
+          "gender": "f",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "सफ़ाई करना",
+            "read_as": "safaaii karnaa",
+            "english": "to clean"
+          },
+          "category": "city_services",
+          "difficulty": 6,
+          "tags": [
+            "city_services",
+            "noun",
+            "feminine",
+            "ii_ending",
+            "derived_noun",
+            "nukta"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Another -आई noun, and reliably feminine",
+              "explanation_en": "सफ़ाई is cleaning or cleanliness, formed from साफ़, clean, with the -आई suffix. That is the third time this suffix has appeared — पढ़ाई from पढ़ना, कमाई from कमाना — and everything it makes is feminine, so this gender needs no flag. सफ़ाई करना is to clean, and सफ़ाई कर्मचारी is a cleaner. The word also has a figurative sense of explaining yourself: सफ़ाई देना is to offer an excuse.",
+              "examples": [
+                {
+                  "hindi": "सफ़ाई करो",
+                  "read_as": "safaaii karo",
+                  "english": "clean up",
+                  "note": "The तुम imperative — करना is transitive."
+                },
+                {
+                  "hindi": "यहाँ सफ़ाई नहीं है",
+                  "read_as": "yahaaṁ safaaii nahiiṁ hai",
+                  "english": "it is not clean here",
+                  "note": "The noun with होना, and नहीं in front of the verb."
+                },
+                {
+                  "hindi": "घर साफ़ है",
+                  "read_as": "ghar saaf hai",
+                  "english": "the house is clean",
+                  "note": "साफ़ is the adjective, unmarked and never changing."
+                }
+              ],
+              "common_error": {
+                "wrong": "घर सफ़ाई है",
+                "right": "घर साफ़ है",
+                "why_en": "सफ़ाई is the noun cleanliness. To describe something as clean you need the adjective साफ़."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सफ़ाई",
+              "question_read_as": "safaaii",
+              "options": [
+                "order",
+                "repair",
+                "service",
+                "cleanliness"
+              ],
+              "options_read_as": [
+                "order",
+                "repair",
+                "service",
+                "cleanliness"
+              ],
+              "answer_index": 3,
+              "explanation_en": "सफ़ाई is cleaning or cleanliness, formed from साफ़ with the -आई suffix."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with सफ़ाई?",
+              "options": [
+                "होना",
+                "लगना",
+                "करना",
+                "जाना"
+              ],
+              "options_read_as": [
+                "honaa",
+                "lagnaa",
+                "karnaa",
+                "jaanaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "सफ़ाई करना — cleaning is done, like पढ़ाई and मेहनत."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सफ़ाई",
+              "सफ़ाई करो",
+              "यहाँ सफ़ाई नहीं है",
+              "घर साफ़ है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The city block is complete at twelve words. Compounds take their gender from the last element, which is why डाक is feminine and डाकघर masculine. The -ी suffix makes an abstract noun from an adjective but a relational adjective from a noun — दोस्ती against सरकारी.",
+        "key_forms": [
+          "सरकारी दफ़्तर",
+          "डाकघर जाना",
+          "सफ़ाई करना"
+        ],
+        "next_up_en": "Next: time and the calendar, starting with dates and how often things happen."
+      }
+    },
+    {
+      "level": 44,
+      "title_en": "Time: dates, occasions, hurry",
+      "title_hi": "तारीख़ · बार · जल्दी",
+      "category": "time_calendar",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L44-I1",
+          "type": "word",
+          "target": "तारीख़",
+          "read_as": "taariikh",
+          "pronunciation_notes": "The dotted ख़ at the end is made far back in the throat: taa-riikh.",
+          "gloss_en": "date",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "तारीख़ें",
+          "plural_read_as": "taariikheṁ",
+          "collocation": {
+            "hindi": "तारीख़ याद रखना",
+            "read_as": "taariikh yaad rakhnaa",
+            "english": "to remember a date"
+          },
+          "category": "time_calendar",
+          "difficulty": 7,
+          "tags": [
+            "time_calendar",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "nukta",
+            "arabic_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तारीख़ is a calendar date, not an appointment",
+              "explanation_en": "तारीख़ is the date on the calendar — the number, not a meeting you have arranged. आज क्या तारीख़ है asks what today's date is. It is feminine and flagged, with a dotted ख़ pronounced far back in the throat. The word also carries a second sense of history in more formal registers, which is where the Urdu-influenced तारीख़ी, historical, comes from.",
+              "examples": [
+                {
+                  "hindi": "आज क्या तारीख़ है?",
+                  "read_as": "aaj kyaa taariikh hai?",
+                  "english": "what is today's date?",
+                  "note": "The standard way to ask, with क्या as the question word."
+                },
+                {
+                  "hindi": "तारीख़ याद रखो",
+                  "read_as": "taariikh yaad rakho",
+                  "english": "remember the date",
+                  "note": "याद रखना from level twenty-six, for keeping something in mind."
+                },
+                {
+                  "hindi": "शादी की तारीख़ तय हुई",
+                  "read_as": "shaadii kii taariikh tay huii",
+                  "english": "the wedding date was fixed",
+                  "note": "की agrees with तारीख़, and तय होना means to be settled."
+                }
+              ],
+              "common_error": {
+                "wrong": "आज क्या तारीख़ हैं?",
+                "right": "आज क्या तारीख़ है?",
+                "why_en": "One date is singular, so है rather than हैं."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "तारीख़",
+              "question_read_as": "taariikh",
+              "options": [
+                "time",
+                "date",
+                "day",
+                "appointment"
+              ],
+              "options_read_as": [
+                "time",
+                "date",
+                "day",
+                "appointment"
+              ],
+              "answer_index": 1,
+              "explanation_en": "तारीख़ is the calendar date, feminine, and it also means history in formal use."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which phrase goes with तारीख़ for keeping it in mind?",
+              "options": [
+                "याद रखना",
+                "याद आना",
+                "याद करना",
+                "पता होना"
+              ],
+              "options_read_as": [
+                "yaad rakhnaa",
+                "yaad aanaa",
+                "yaad karnaa",
+                "pataa honaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "तारीख़ याद रखना — रखना for holding on to something deliberately."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तारीख़",
+              "आज क्या तारीख़ है?",
+              "तारीख़ याद रखो",
+              "शादी की तारीख़ तय हुई"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L44-I2",
+          "type": "word",
+          "target": "बार",
+          "read_as": "baar",
+          "pronunciation_notes": "One long syllable with a rolled r: baar.",
+          "gloss_en": "a time, an occasion",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "बार",
+          "plural_read_as": "baar",
+          "collocation": {
+            "hindi": "एक बार",
+            "read_as": "ek baar",
+            "english": "once, one time"
+          },
+          "category": "time_calendar",
+          "difficulty": 7,
+          "tags": [
+            "time_calendar",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "counter",
+            "very_high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बार counts occasions",
+              "explanation_en": "बार is a time in the sense of an occasion, and it is how Hindi counts repetitions: एक बार once, दो बार twice, कई बार several times. It is feminine and flagged, and unusually it does not change in the plural — दो बार, not दो बारें. The doubled form बार-बार means again and again, and इस बार means this time. None of this overlaps with समय, which is time as a quantity rather than a count.",
+              "examples": [
+                {
+                  "hindi": "एक बार",
+                  "read_as": "ek baar",
+                  "english": "once",
+                  "note": "Also used to mean just once, as a softener in requests."
+                },
+                {
+                  "hindi": "मैं दो बार गया",
+                  "read_as": "maiṁ do baar gayaa",
+                  "english": "I went twice",
+                  "note": "बार does not change in the plural."
+                },
+                {
+                  "hindi": "बार-बार मत पूछो",
+                  "read_as": "baar-baar mat puuchho",
+                  "english": "do not keep asking",
+                  "note": "The doubled form means repeatedly, and मत negates the imperative."
+                }
+              ],
+              "common_error": {
+                "wrong": "दो बारें",
+                "right": "दो बार",
+                "why_en": "बार is one of the few feminine nouns that does not take -ें in the plural when counting."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does एक बार mean?",
+              "question": "एक बार",
+              "question_read_as": "ek baar",
+              "options": [
+                "once",
+                "one hour",
+                "sometimes",
+                "first"
+              ],
+              "options_read_as": [
+                "once",
+                "one hour",
+                "sometimes",
+                "first"
+              ],
+              "answer_index": 0,
+              "explanation_en": "बार counts occasions, so एक बार is once."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which form means again and again?",
+              "options": [
+                "एक बार",
+                "बार-बार",
+                "इस बार",
+                "कई बार"
+              ],
+              "options_read_as": [
+                "ek baar",
+                "baar-baar",
+                "is baar",
+                "kaii baar"
+              ],
+              "answer_index": 1,
+              "explanation_en": "बार-बार — doubling a word is a common way of intensifying it in Hindi."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बार",
+              "एक बार",
+              "मैं दो बार गया",
+              "बार-बार मत पूछो"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L44-I3",
+          "type": "word",
+          "target": "जल्दी",
+          "read_as": "jaldii",
+          "pronunciation_notes": "The ल्द cluster runs together with no vowel between: jal-dii.",
+          "gloss_en": "quickly, soon, early; also hurry",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adverb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "जल्दी करना",
+            "read_as": "jaldii karnaa",
+            "english": "to hurry"
+          },
+          "category": "time_calendar",
+          "difficulty": 6,
+          "tags": [
+            "time_calendar",
+            "adverb",
+            "invariant",
+            "also_a_noun",
+            "very_high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जल्दी covers quickly, soon and early",
+              "explanation_en": "जल्दी is an adverb meaning quickly, soon or early, and English needs three words where Hindi uses one: जल्दी आओ can be come quickly, come soon or come early depending on context. It never changes. It is also a feminine noun meaning hurry, which is where जल्दी करो, hurry up, comes from — literally do hurry. Its opposite is देर, which you met in the travel block and which behaves the same way.",
+              "examples": [
+                {
+                  "hindi": "जल्दी करो",
+                  "read_as": "jaldii karo",
+                  "english": "hurry up",
+                  "note": "The noun sense — literally do hurry."
+                },
+                {
+                  "hindi": "वह जल्दी आता है",
+                  "read_as": "vah jaldii aataa hai",
+                  "english": "he comes early",
+                  "note": "The adverb, describing how he comes."
+                },
+                {
+                  "hindi": "जल्दी सीखता है",
+                  "read_as": "jaldii siikhtaa hai",
+                  "english": "he learns quickly",
+                  "note": "The same word, now meaning quickly rather than early."
+                }
+              ],
+              "common_error": {
+                "wrong": "जल्दी हो जाओ",
+                "right": "जल्दी करो",
+                "why_en": "Hurrying is something you do, so करना. होना would say you are becoming hurry itself."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "जल्दी",
+              "question_read_as": "jaldii",
+              "options": [
+                "late",
+                "slowly",
+                "quickly",
+                "always"
+              ],
+              "options_read_as": [
+                "late",
+                "slowly",
+                "quickly",
+                "always"
+              ],
+              "answer_index": 2,
+              "explanation_en": "जल्दी is quickly, soon or early, and also the noun for hurry."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with जल्दी to mean hurry up?",
+              "options": [
+                "होना",
+                "आना",
+                "लगना",
+                "करना"
+              ],
+              "options_read_as": [
+                "honaa",
+                "aanaa",
+                "lagnaa",
+                "karnaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "जल्दी करो — hurrying is something you do."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जल्दी",
+              "जल्दी करो",
+              "वह जल्दी आता है",
+              "जल्दी सीखता है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "बार counts occasions and does not change in the plural, which makes it unusual among feminine nouns. जल्दी covers quickly, soon and early in one word, and doubling — बार-बार — is a general way of intensifying in Hindi.",
+        "key_forms": [
+          "आज क्या तारीख़ है",
+          "दो बार",
+          "जल्दी करो"
+        ],
+        "next_up_en": "Next: starting, always, and a conversation about being on time."
+      }
+    },
+    {
+      "level": 45,
+      "title_en": "Time: starting and always",
+      "title_hi": "शुरू · हमेशा",
+      "category": "time_calendar",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M08-L45-I1",
+          "type": "word",
+          "target": "शुरू",
+          "read_as": "shuruu",
+          "pronunciation_notes": "Both syllables begin with a light consonant and the second is long: shu-ruu.",
+          "gloss_en": "beginning, start",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "unmarked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "शुरू होना",
+            "read_as": "shuruu honaa",
+            "english": "to begin"
+          },
+          "category": "time_calendar",
+          "difficulty": 6,
+          "tags": [
+            "time_calendar",
+            "adjective",
+            "unmarked_adjective",
+            "invariant",
+            "two_verbs",
+            "arabic_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "शुरू होना and शुरू करना",
+              "explanation_en": "शुरू means started or beginning, and it never changes. The two verbs split the same way they have all module: शुरू होना is for something beginning by itself — फ़िल्म शुरू हुई, the film started — while शुरू करना names the person doing the starting. Its opposite is ख़त्म, finished, which behaves identically: ख़त्म होना and ख़त्म करना. Both are unmarked, so neither will ever ask you for an ending.",
+              "examples": [
+                {
+                  "hindi": "क्लास शुरू हुई",
+                  "read_as": "klaas shuruu huii",
+                  "english": "the class started",
+                  "note": "हुई is feminine, agreeing with क्लास."
+                },
+                {
+                  "hindi": "काम शुरू करो",
+                  "read_as": "kaam shuruu karo",
+                  "english": "start work",
+                  "note": "करना names you as the one starting it."
+                },
+                {
+                  "hindi": "फ़िल्म ख़त्म हो गई",
+                  "read_as": "film khatam ho gaii",
+                  "english": "the film has finished",
+                  "note": "The opposite, and फ़िल्म is feminine so गई agrees."
+                }
+              ],
+              "common_error": {
+                "wrong": "क्लास शुरू किया",
+                "right": "क्लास शुरू हुई",
+                "why_en": "If the class simply began, होना is correct. करना would mean someone deliberately started it, and its perfective needs ने."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "शुरू",
+              "question_read_as": "shuruu",
+              "options": [
+                "finished",
+                "started",
+                "ready",
+                "next"
+              ],
+              "options_read_as": [
+                "finished",
+                "started",
+                "ready",
+                "next"
+              ],
+              "answer_index": 1,
+              "explanation_en": "शुरू means started or beginning. Its opposite is ख़त्म."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with शुरू when something begins by itself?",
+              "options": [
+                "होना",
+                "करना",
+                "लगना",
+                "आना"
+              ],
+              "options_read_as": [
+                "honaa",
+                "karnaa",
+                "lagnaa",
+                "aanaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "शुरू होना — it begins. करना names the person who starts it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "शुरू",
+              "क्लास शुरू हुई",
+              "काम शुरू करो",
+              "फ़िल्म ख़त्म हो गई"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L45-I2",
+          "type": "word",
+          "target": "हमेशा",
+          "read_as": "hameshaa",
+          "pronunciation_notes": "Three syllables with the length on the last: ha-me-shaa.",
+          "gloss_en": "always",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adverb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "हमेशा के लिए",
+            "read_as": "hameshaa ke lie",
+            "english": "forever"
+          },
+          "category": "time_calendar",
+          "difficulty": 6,
+          "tags": [
+            "time_calendar",
+            "adverb",
+            "invariant",
+            "frequency",
+            "habitual_trigger",
+            "persian_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "हमेशा forces the habitual",
+              "explanation_en": "हमेशा means always, and like रोज़ it can only sit with the habitual — a thing that is always true cannot be described with the continuous. वह हमेशा देर से आता है, he is always late. That gives you a second reliable adverb test alongside रोज़ from Module 7. हमेशा never changes, and हमेशा के लिए means forever, which is the phrase to use for anything permanent.",
+              "examples": [
+                {
+                  "hindi": "वह हमेशा देर से आता है",
+                  "read_as": "vah hameshaa der se aataa hai",
+                  "english": "he is always late",
+                  "note": "हमेशा forces the habitual, exactly as रोज़ does."
+                },
+                {
+                  "hindi": "मैं हमेशा जल्दी उठता हूँ",
+                  "read_as": "maiṁ hameshaa jaldii uṭhtaa huuṁ",
+                  "english": "I always get up early",
+                  "note": "जल्दी here means early, and उठना is intransitive."
+                },
+                {
+                  "hindi": "हमेशा के लिए",
+                  "read_as": "hameshaa ke lie",
+                  "english": "forever",
+                  "note": "The set phrase, using के लिए."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह हमेशा देर से आ रहा है",
+                "right": "वह हमेशा देर से आता है",
+                "why_en": "हमेशा describes a standing fact, which the continuous cannot express. The habitual is the only option."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "हमेशा",
+              "question_read_as": "hameshaa",
+              "options": [
+                "sometimes",
+                "often",
+                "never",
+                "always"
+              ],
+              "options_read_as": [
+                "sometimes",
+                "often",
+                "never",
+                "always"
+              ],
+              "answer_index": 3,
+              "explanation_en": "हमेशा is always, and like रोज़ it can only go with the habitual."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which tense must follow हमेशा?",
+              "options": [
+                "continuous",
+                "perfective",
+                "habitual",
+                "future"
+              ],
+              "options_read_as": [
+                "continuous",
+                "perfective",
+                "habitual",
+                "future"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The habitual. A standing fact cannot be described with the continuous."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "हमेशा",
+              "वह हमेशा देर से आता है",
+              "मैं हमेशा जल्दी उठता हूँ",
+              "हमेशा के लिए"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L45-I3",
+          "type": "dialogue",
+          "target": "शुरू होगी",
+          "read_as": "shuruu hogii",
+          "pronunciation_notes": "The two words run together with the stress on होगी: shu-ruu ho-gii.",
+          "gloss_en": "asking when something starts",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "phrase",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "शुरू होना",
+            "read_as": "shuruu honaa",
+            "english": "to begin"
+          },
+          "category": "time_calendar",
+          "difficulty": 7,
+          "tags": [
+            "time_calendar",
+            "dialogue",
+            "micro_dialogue",
+            "agreement",
+            "habitual_trigger",
+            "future"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Two adverbs, two tenses, one exchange",
+              "explanation_en": "The first two lines use the future, because the meeting has not started yet, and होगी is feminine because मीटिंग is. The second half switches to the habitual, because हमेशा forces it — you cannot describe an always with a continuous. So the exchange puts both of Module 7's adverb tests to work in four lines: हमेशा for the habitual, and a future for something not yet begun. Note जल्दी doing two jobs, meaning soon in the second line and early in the fourth.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "मीटिंग कब शुरू होगी?",
+                  "read_as": "miiṭiṁg kab shuruu hogii?",
+                  "english": "When will the meeting start?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "जल्दी शुरू होगी।",
+                  "read_as": "jaldii shuruu hogii.",
+                  "english": "It will start soon."
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "क्या तुम हमेशा देर से आते हो?",
+                  "read_as": "kyaa tum hameshaa der se aate ho?",
+                  "english": "Do you always come late?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "नहीं, मैं हमेशा जल्दी आता हूँ।",
+                  "read_as": "nahiiṁ, maiṁ hameshaa jaldii aataa huuṁ.",
+                  "english": "No, I always come early."
+                }
+              ],
+              "common_error": {
+                "wrong": "मीटिंग कब शुरू होगा?",
+                "right": "मीटिंग कब शुरू होगी?",
+                "why_en": "मीटिंग is feminine in Hindi, so the verb is होगी. The English original gives no gender at all."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this phrase mean?",
+              "question": "जल्दी शुरू होगी",
+              "question_read_as": "jaldii shuruu hogii",
+              "options": [
+                "it will start soon",
+                "it started early",
+                "it always starts",
+                "it has started"
+              ],
+              "options_read_as": [
+                "it will start soon",
+                "it started early",
+                "it always starts",
+                "it has started"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The future of शुरू होना, with जल्दी meaning soon rather than early here."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the first line. Which word is missing?",
+              "masked_line_index": 0,
+              "masked_word": "होगी",
+              "options": [
+                "होगा",
+                "होगी",
+                "होंगे",
+                "है"
+              ],
+              "options_read_as": [
+                "hogaa",
+                "hogii",
+                "hoṁge",
+                "hai"
+              ],
+              "answer_index": 1,
+              "explanation_en": "मीटिंग is feminine, so the future is होगी."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मीटिंग कब शुरू होगी?",
+              "जल्दी शुरू होगी।",
+              "क्या तुम हमेशा देर से आते हो?",
+              "नहीं, मैं हमेशा जल्दी आता हूँ।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "हमेशा joins रोज़ as an adverb that can only take the habitual, which gives you a second reliable test for choosing a tense. शुरू and ख़त्म both split होना for what happens by itself against करना for what someone does.",
+        "key_forms": [
+          "शुरू होना",
+          "हमेशा के लिए",
+          "शुरू होगी"
+        ],
+        "next_up_en": "Next: the rest of the time block, then adverbs of manner and frequency."
+      }
+    }
+  ]
+}

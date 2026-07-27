@@ -1,0 +1,816 @@
+{
+  "module": 5,
+  "module_name_en": "First Sentences",
+  "module_name_hi": "पहला वाक्य",
+  "phase": 2,
+  "batch": { "levels_from": 1, "levels_to": 5 },
+  "levels": [
+    {
+      "level": 1,
+      "title_en": "है, हैं, हूँ",
+      "title_hi": "होना — वर्तमान",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L01-I1",
+          "type": "grammar",
+          "target": "है",
+          "read_as": "hai",
+          "pronunciation_notes": "The ऐ is a single open vowel, so है sounds like English 'hey' said flat — not like 'high'.",
+          "gloss_en": "is — third person singular",
+          "gender": null,
+          "difficulty": 1,
+          "tags": ["honaa", "present", "copula", "third_person", "singular", "word_order"],
+          "cards": {
+            "learn": {
+              "title_en": "है — is",
+              "explanation_en": "Sentences that link two things — this is a book, the tea is hot — end in a form of होना. है is the form for a single third person: he, she, it, or any one noun. The thing to notice first is not the verb but its position: it comes at the very end of the sentence, after everything else. English speakers reach for the verb far too early and produce word orders that no one uses.",
+              "examples": [
+                { "hindi": "यह किताब है।", "read_as": "yah kitaab hai.", "english": "This is a book.", "note": "The verb comes last, after both nouns." },
+                { "hindi": "चाय गरम है।", "read_as": "chaay garam hai.", "english": "The tea is hot.", "note": "The adjective comes before the verb, not after it." },
+                { "hindi": "घर बड़ा है।", "read_as": "ghar baṛaa hai.", "english": "The house is big.", "note": "बड़ा takes -ा because घर is masculine." }
+              ],
+              "common_error": {
+                "wrong": "है यह किताब।",
+                "right": "यह किताब है।",
+                "why_en": "The verb goes at the end of a Hindi sentence, never at the front."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "चाय गरम ___।",
+              "question_read_as": "chaay garam ___.",
+              "options": ["है", "हैं", "हूँ", "हो"],
+              "options_read_as": ["hai", "haiṁ", "huuṁ", "ho"],
+              "answer_index": 0,
+              "explanation_en": "चाय is a single third person, so the verb is है."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["यह किताब हैं।", "यह किताब हूँ।", "यह किताब है।", "यह किताब हो।"],
+              "options_read_as": ["yah kitaab haiṁ.", "yah kitaab huuṁ.", "yah kitaab hai.", "yah kitaab ho."],
+              "answer_index": 2,
+              "explanation_en": "One book is a single third person, so only है fits. हूँ belongs to मैं and हो to तुम."
+            }
+          },
+          "audio": {
+            "tts_strings": ["यह किताब है।", "चाय गरम है।", "घर बड़ा है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L01-I2",
+          "type": "grammar",
+          "target": "हैं",
+          "read_as": "haiṁ",
+          "pronunciation_notes": "The dot nasalises the vowel, so हैं differs from है by a hum rather than by any extra consonant.",
+          "gloss_en": "are — third person plural, and respectful singular",
+          "gender": null,
+          "difficulty": 2,
+          "tags": ["honaa", "present", "copula", "third_person", "plural", "respect"],
+          "cards": {
+            "learn": {
+              "title_en": "हैं — are",
+              "explanation_en": "हैं is the plural of है, used when the subject is more than one. It also does a second job: a single person spoken of respectfully takes हैं rather than है, which is why आप — the polite 'you' — always takes हैं even when you are addressing one person. In writing the only difference is the dot; in speech it is a nasalised vowel and easy to miss.",
+              "examples": [
+                { "hindi": "ये किताबें हैं।", "read_as": "ye kitaabeṁ haiṁ.", "english": "These are books.", "note": "A plural subject takes a plural verb." },
+                { "hindi": "बच्चे छोटे हैं।", "read_as": "bachche chhoṭe haiṁ.", "english": "The children are small.", "note": "छोटा takes -े for a masculine plural." },
+                { "hindi": "आप अच्छे हैं।", "read_as": "aap achchhe haiṁ.", "english": "You are good.", "note": "आप takes हैं even when only one person is meant." }
+              ],
+              "common_error": {
+                "wrong": "ये किताबें है।",
+                "right": "ये किताबें हैं।",
+                "why_en": "The subject is plural, so the verb needs the dot."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "ये किताबें ___।",
+              "question_read_as": "ye kitaabeṁ ___.",
+              "options": ["हूँ", "हो", "हैं", "है"],
+              "options_read_as": ["huuṁ", "ho", "haiṁ", "hai"],
+              "answer_index": 2,
+              "explanation_en": "किताबें is plural, so the verb is हैं."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["बच्चे छोटे हैं।", "बच्चे छोटे है।", "बच्चे छोटे हूँ।", "बच्चे छोटे हो।"],
+              "options_read_as": ["bachche chhoṭe haiṁ.", "bachche chhoṭe hai.", "bachche chhoṭe huuṁ.", "bachche chhoṭe ho."],
+              "answer_index": 0,
+              "explanation_en": "बच्चे is plural, so the verb must be हैं rather than है."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ये किताबें हैं।", "बच्चे छोटे हैं।", "आप अच्छे हैं।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L01-I3",
+          "type": "grammar",
+          "target": "हूँ",
+          "read_as": "huuṁ",
+          "pronunciation_notes": "The crescent nasalises the long vowel, so the word ends in a hum with no n sounded: huuṁ.",
+          "gloss_en": "am — first person singular",
+          "gender": null,
+          "difficulty": 2,
+          "tags": ["honaa", "present", "copula", "first_person", "singular", "pronoun_dropping"],
+          "cards": {
+            "learn": {
+              "title_en": "हूँ — am",
+              "explanation_en": "हूँ goes with मैं, meaning I, and with nothing else at all. Hindi verbs change shape according to who the subject is, and this is the first of those changes. Because the form belongs to मैं alone, the pronoun is very often dropped — यहाँ हूँ already means 'I am here' without anything further. Leaving it out is normal rather than casual.",
+              "examples": [
+                { "hindi": "मैं यहाँ हूँ।", "read_as": "maiṁ yahãa huuṁ.", "english": "I am here.", "note": "यहाँ never changes form." },
+                { "hindi": "मैं खुश हूँ।", "read_as": "maiṁ khush huuṁ.", "english": "I am happy.", "note": "खुश does not change, whoever is speaking." },
+                { "hindi": "मैं बड़ा हूँ।", "read_as": "maiṁ baṛaa huuṁ.", "english": "I am big.", "note": "A male speaker says बड़ा; a female speaker says बड़ी." }
+              ],
+              "common_error": {
+                "wrong": "मैं है।",
+                "right": "मैं हूँ।",
+                "why_en": "मैं takes हूँ. है belongs to the third person only."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "मैं यहाँ ___।",
+              "question_read_as": "maiṁ yahãa ___.",
+              "options": ["है", "हैं", "हो", "हूँ"],
+              "options_read_as": ["hai", "haiṁ", "ho", "huuṁ"],
+              "answer_index": 3,
+              "explanation_en": "मैं takes हूँ, and no other subject does."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["मैं खुश है।", "मैं खुश हूँ।", "मैं खुश हैं।", "मैं खुश हो।"],
+              "options_read_as": ["maiṁ khush hai.", "maiṁ khush huuṁ.", "maiṁ khush haiṁ.", "maiṁ khush ho."],
+              "answer_index": 1,
+              "explanation_en": "मैं pairs only with हूँ. The other three belong to other subjects."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मैं यहाँ हूँ।", "मैं खुश हूँ।", "मैं बड़ा हूँ।"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level built the first Hindi sentences. They end in a form of होना, and which form you use depends on the subject: one third person takes है, a plural or respected one takes हैं, and मैं takes हूँ.",
+        "key_forms": ["यह किताब है।", "ये किताबें हैं।", "मैं यहाँ हूँ।"],
+        "next_up_en": "Next: हो completes the present forms, and the four are set out as a set."
+      }
+    },
+    {
+      "level": 2,
+      "title_en": "Completing the present",
+      "title_hi": "हो और पूरा रूप",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L02-I1",
+          "type": "grammar",
+          "target": "हो",
+          "read_as": "ho",
+          "pronunciation_notes": "A flat ओ with no glide at the end: ho, one syllable.",
+          "gloss_en": "are — with तुम",
+          "gender": null,
+          "difficulty": 2,
+          "tags": ["honaa", "present", "copula", "second_person", "familiar"],
+          "cards": {
+            "learn": {
+              "title_en": "हो — are, with तुम",
+              "explanation_en": "हो is the form that goes with तुम, the everyday 'you' used with friends, family and people of about your own age. It is short and easy to lose in fast speech, so listen for it. Note that it looks identical to हो inside होना — position is the only thing that tells you which one you are reading.",
+              "examples": [
+                { "hindi": "तुम कहाँ हो?", "read_as": "tum kahãa ho?", "english": "Where are you?", "note": "The question word comes before the verb." },
+                { "hindi": "तुम अच्छे हो।", "read_as": "tum achchhe ho.", "english": "You are good.", "note": "तुम takes plural agreement even for one person." },
+                { "hindi": "तुम खुश हो।", "read_as": "tum khush ho.", "english": "You are happy.", "note": "खुश does not change form." }
+              ],
+              "common_error": {
+                "wrong": "तुम हैं।",
+                "right": "तुम हो।",
+                "why_en": "तुम takes हो. हैं belongs with आप and with plural third persons."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "तुम कहाँ ___?",
+              "question_read_as": "tum kahãa ___?",
+              "options": ["है", "हो", "हैं", "हूँ"],
+              "options_read_as": ["hai", "ho", "haiṁ", "huuṁ"],
+              "answer_index": 1,
+              "explanation_en": "तुम takes हो, and nothing else does."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["तुम अच्छे हैं।", "तुम अच्छे है।", "तुम अच्छे हूँ।", "तुम अच्छे हो।"],
+              "options_read_as": ["tum achchhe haiṁ.", "tum achchhe hai.", "tum achchhe huuṁ.", "tum achchhe ho."],
+              "answer_index": 3,
+              "explanation_en": "तुम pairs only with हो. हैं would be right for आप, but not here."
+            }
+          },
+          "audio": {
+            "tts_strings": ["तुम कहाँ हो?", "तुम अच्छे हो।", "तुम खुश हो।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L02-I2",
+          "type": "grammar",
+          "target": "हूँ / हो / है / हैं",
+          "read_as": "huuṁ / ho / hai / haiṁ",
+          "pronunciation_notes": "Two of the four carry a nasal — हूँ with a crescent and हैं with a dot — and in both the nasal is a hum rather than a consonant.",
+          "gloss_en": "the four present forms of होना",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["honaa", "present", "paradigm", "agreement", "person"],
+          "cards": {
+            "learn": {
+              "title_en": "The four present forms",
+              "explanation_en": "होना has exactly four forms in the present, and which one you use is decided entirely by the subject: मैं takes हूँ, तुम takes हो, one third person takes है, and everything plural — along with आप — takes हैं. There is no fifth form and no exceptions. Notice what is absent from that list: gender. The present tense of होना does not care whether the subject is masculine or feminine, which is about to change when you meet the past.",
+              "examples": [
+                { "hindi": "मैं हूँ, तुम हो", "read_as": "maiṁ huuṁ, tum ho", "english": "I am, you are", "note": "Two forms, each belonging to one subject only." },
+                { "hindi": "वह है, वे हैं", "read_as": "vah hai, ve haiṁ", "english": "he is, they are", "note": "Singular and plural in the third person." },
+                { "hindi": "आप कैसे हैं?", "read_as": "aap kaise haiṁ?", "english": "How are you?", "note": "आप always takes हैं, however many people are meant." }
+              ],
+              "common_error": {
+                "wrong": "मैं हैं।",
+                "right": "मैं हूँ।",
+                "why_en": "Each subject has exactly one form, and मैं never takes हैं."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "आप कैसे ___?",
+              "question_read_as": "aap kaise ___?",
+              "options": ["हैं", "है", "हूँ", "हो"],
+              "options_read_as": ["haiṁ", "hai", "huuṁ", "ho"],
+              "answer_index": 0,
+              "explanation_en": "आप takes हैं, whether you are addressing one person or several."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which pairing of subject and verb is correct?",
+              "options": ["मैं हो", "तुम हूँ", "वह है", "आप हो"],
+              "options_read_as": ["maiṁ ho", "tum huuṁ", "vah hai", "aap ho"],
+              "answer_index": 2,
+              "explanation_en": "वह takes है. मैं needs हूँ, तुम needs हो, and आप needs हैं."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मैं हूँ", "तुम हो", "वह है", "वे हैं"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L02-I3",
+          "type": "grammar",
+          "target": "है / हैं",
+          "read_as": "hai / haiṁ",
+          "pronunciation_notes": "The dot is the whole difference, and in speech it nasalises the vowel rather than adding a sound of its own.",
+          "gloss_en": "singular against plural agreement",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["honaa", "present", "agreement", "number", "singular", "plural"],
+          "cards": {
+            "learn": {
+              "title_en": "One, or more than one",
+              "explanation_en": "The choice between है and हैं is decided by the subject and by nothing else in the sentence. One chair takes है; several chairs take हैं. English does the same thing, so the rule itself is familiar — but Hindi puts the verb at the very end, which means you make the decision several words after the subject has gone past. That gap is where the mistakes happen.",
+              "examples": [
+                { "hindi": "यह कुर्सी है।", "read_as": "yah kursii hai.", "english": "This is a chair.", "note": "One thing, so है." },
+                { "hindi": "ये कुर्सियाँ हैं।", "read_as": "ye kursiyãa haiṁ.", "english": "These are chairs.", "note": "More than one, so हैं." },
+                { "hindi": "मेज़ साफ़ है।", "read_as": "mez saaf hai.", "english": "The table is clean.", "note": "साफ़ hides the number, but मेज़ is singular and settles it." }
+              ],
+              "common_error": {
+                "wrong": "ये कुर्सियाँ है।",
+                "right": "ये कुर्सियाँ हैं।",
+                "why_en": "The subject is plural, so the verb must be plural too."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "यह कुर्सी ___।",
+              "question_read_as": "yah kursii ___.",
+              "options": ["हैं", "हूँ", "है", "हो"],
+              "options_read_as": ["haiṁ", "huuṁ", "hai", "ho"],
+              "answer_index": 2,
+              "explanation_en": "One chair is singular, so the verb is है."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["ये कुर्सियाँ हैं।", "ये कुर्सियाँ है।", "यह कुर्सियाँ हैं।", "ये कुर्सी हैं।"],
+              "options_read_as": ["ye kursiyãa haiṁ.", "ye kursiyãa hai.", "yah kursiyãa haiṁ.", "ye kursii haiṁ."],
+              "answer_index": 0,
+              "explanation_en": "Everything has to agree: ये for a plural, कुर्सियाँ for the plural noun, and हैं for the verb."
+            }
+          },
+          "audio": {
+            "tts_strings": ["यह कुर्सी है।", "ये कुर्सियाँ हैं।", "मेज़ साफ़ है।"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed the present forms of होना. Four forms, decided by the subject alone: हूँ with मैं, हो with तुम, है with one third person, हैं with anything plural or respected. Gender plays no part.",
+        "key_forms": ["तुम कहाँ हो?", "आप कैसे हैं?", "ये कुर्सियाँ हैं।"],
+        "next_up_en": "Next: the past tense, where gender starts to matter."
+      }
+    },
+    {
+      "level": 3,
+      "title_en": "था, थी, थे",
+      "title_hi": "होना — भूतकाल",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L03-I1",
+          "type": "grammar",
+          "target": "था",
+          "read_as": "thaa",
+          "pronunciation_notes": "An aspirated dental थ — tongue against the teeth with breath released, and not the th of English 'think'.",
+          "gloss_en": "was — masculine singular",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["honaa", "past", "copula", "masculine", "singular", "gender_agreement"],
+          "cards": {
+            "learn": {
+              "title_en": "था — was",
+              "explanation_en": "था is the past of है for a single masculine subject. Here Hindi does something the present tense never did: the past forms of होना change for gender as well as number. था goes with a masculine singular subject and थी with a feminine one. This is the first time gender has reached into a verb, and from this point onwards it keeps doing so — which is why the last module spent 150 words on it.",
+              "examples": [
+                { "hindi": "घर बड़ा था।", "read_as": "ghar baṛaa thaa.", "english": "The house was big.", "note": "घर is masculine, so both the adjective and the verb take -ा." },
+                { "hindi": "खाना गरम था।", "read_as": "khaanaa garam thaa.", "english": "The food was hot.", "note": "गरम never changes, but था does." },
+                { "hindi": "मैं यहाँ था।", "read_as": "maiṁ yahãa thaa.", "english": "I was here.", "note": "A male speaker says था; a female speaker says थी." }
+              ],
+              "common_error": {
+                "wrong": "चाय गरम था।",
+                "right": "चाय गरम थी।",
+                "why_en": "चाय is feminine, so the past form has to be थी."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "घर बड़ा ___।",
+              "question_read_as": "ghar baṛaa ___.",
+              "options": ["थी", "था", "थे", "थीं"],
+              "options_read_as": ["thii", "thaa", "the", "thiiṁ"],
+              "answer_index": 1,
+              "explanation_en": "घर is masculine and singular, so the verb is था."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["खाना गरम थी।", "खाना गरम थे।", "खाना गरम थीं।", "खाना गरम था।"],
+              "options_read_as": ["khaanaa garam thii.", "khaanaa garam the.", "khaanaa garam thiiṁ.", "khaanaa garam thaa."],
+              "answer_index": 3,
+              "explanation_en": "खाना is masculine and singular, so only था fits."
+            }
+          },
+          "audio": {
+            "tts_strings": ["घर बड़ा था।", "खाना गरम था।", "मैं यहाँ था।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L03-I2",
+          "type": "grammar",
+          "target": "थी",
+          "read_as": "thii",
+          "pronunciation_notes": "The same aspirated dental as था, followed by a long ii: thii.",
+          "gloss_en": "was — feminine singular",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["honaa", "past", "copula", "feminine", "singular", "gender_agreement"],
+          "cards": {
+            "learn": {
+              "title_en": "थी — was, feminine",
+              "explanation_en": "थी is the feminine counterpart of था, and this is where the gender of every noun you learned starts to have consequences. चाय is feminine, so चाय गरम थी; दूध is masculine, so दूध गरम था. The adjective and the verb both follow the noun, which means one wrong gender costs you two mistakes in a single short sentence rather than one.",
+              "examples": [
+                { "hindi": "चाय गरम थी।", "read_as": "chaay garam thii.", "english": "The tea was hot.", "note": "चाय is feminine, so थी." },
+                { "hindi": "किताब अच्छी थी।", "read_as": "kitaab achchhii thii.", "english": "The book was good.", "note": "Both अच्छी and थी agree with किताब." },
+                { "hindi": "रात ठंडी थी।", "read_as": "raat ṭhaṇḍii thii.", "english": "The night was cold.", "note": "रात is feminine despite its consonant ending." }
+              ],
+              "common_error": {
+                "wrong": "किताब अच्छा था।",
+                "right": "किताब अच्छी थी।",
+                "why_en": "किताब is feminine, so both the adjective and the verb take feminine forms."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "चाय गरम ___।",
+              "question_read_as": "chaay garam ___.",
+              "options": ["था", "थे", "थीं", "थी"],
+              "options_read_as": ["thaa", "the", "thiiṁ", "thii"],
+              "answer_index": 3,
+              "explanation_en": "चाय is feminine and singular, so the verb is थी."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["किताब अच्छी था।", "किताब अच्छी थी।", "किताब अच्छी थे।", "किताब अच्छी थीं।"],
+              "options_read_as": ["kitaab achchhii thaa.", "kitaab achchhii thii.", "kitaab achchhii the.", "kitaab achchhii thiiṁ."],
+              "answer_index": 1,
+              "explanation_en": "किताब is feminine and singular. The adjective is already right in all four, so the verb decides it."
+            }
+          },
+          "audio": {
+            "tts_strings": ["चाय गरम थी।", "किताब अच्छी थी।", "रात ठंडी थी।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L03-I3",
+          "type": "grammar",
+          "target": "थे",
+          "read_as": "the",
+          "pronunciation_notes": "A flat ए with no glide, so थे is one clean syllable: the.",
+          "gloss_en": "were — masculine plural, and respectful",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["honaa", "past", "copula", "masculine", "plural", "respect", "mixed_group"],
+          "cards": {
+            "learn": {
+              "title_en": "थे — were, masculine plural",
+              "explanation_en": "थे is the masculine plural past, and like हैं it doubles as the respectful form for one person, so आप always takes थे. It is also the form for a mixed group: if even one member is masculine, the whole group counts as masculine. That rule runs right through the language, and it means थे turns up far more often than its feminine counterpart does.",
+              "examples": [
+                { "hindi": "बच्चे छोटे थे।", "read_as": "bachche chhoṭe the.", "english": "The children were small.", "note": "Masculine plural, so both words take -े." },
+                { "hindi": "जूते नए थे।", "read_as": "juute nae the.", "english": "The shoes were new.", "note": "नया becomes नए in the masculine plural." },
+                { "hindi": "आप कहाँ थे?", "read_as": "aap kahãa the?", "english": "Where were you?", "note": "आप takes थे even when one person is meant." }
+              ],
+              "common_error": {
+                "wrong": "बच्चे छोटा था।",
+                "right": "बच्चे छोटे थे।",
+                "why_en": "The subject is plural, so both the adjective and the verb take plural forms."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "बच्चे छोटे ___।",
+              "question_read_as": "bachche chhoṭe ___.",
+              "options": ["था", "थी", "थे", "थीं"],
+              "options_read_as": ["thaa", "thii", "the", "thiiṁ"],
+              "answer_index": 2,
+              "explanation_en": "बच्चे is masculine and plural, so the verb is थे."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["जूते नए थे।", "जूते नए था।", "जूते नए थी।", "जूते नए थीं।"],
+              "options_read_as": ["juute nae the.", "juute nae thaa.", "juute nae thii.", "juute nae thiiṁ."],
+              "answer_index": 0,
+              "explanation_en": "जूते is masculine and plural, so only थे fits."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बच्चे छोटे थे।", "जूते नए थे।", "आप कहाँ थे?"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level introduced the past of होना and the fact that separates it from the present: gender. था goes with a masculine singular, थी with a feminine one, and थे with a masculine plural or with आप.",
+        "key_forms": ["घर बड़ा था।", "चाय गरम थी।", "बच्चे छोटे थे।"],
+        "next_up_en": "Next: थीं completes the set, and the two tenses are set side by side."
+      }
+    },
+    {
+      "level": 4,
+      "title_en": "थीं, and the two tenses compared",
+      "title_hi": "थीं और दोनों काल",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L04-I1",
+          "type": "grammar",
+          "target": "थीं",
+          "read_as": "thiiṁ",
+          "pronunciation_notes": "The dot nasalises the long vowel, so थीं differs from थी by a hum and nothing more.",
+          "gloss_en": "were — feminine plural",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["honaa", "past", "copula", "feminine", "plural", "gender_agreement"],
+          "cards": {
+            "learn": {
+              "title_en": "थीं — were, feminine plural",
+              "explanation_en": "थीं is the feminine plural past, and it is the rarest of the four, because a group has to be entirely feminine to take it — one masculine member and the whole thing reverts to थे. In speech the only difference from थी is a nasal hum, so it is easy to miss when listening and easy to leave out when speaking. Notice too that the adjective does not change between the feminine singular and plural, so the verb is often the only thing carrying the number.",
+              "examples": [
+                { "hindi": "किताबें अच्छी थीं।", "read_as": "kitaabeṁ achchhii thiiṁ.", "english": "The books were good.", "note": "अच्छी stays the same, but थीं marks the plural." },
+                { "hindi": "रातें ठंडी थीं।", "read_as": "raateṁ ṭhaṇḍii thiiṁ.", "english": "The nights were cold.", "note": "Noun, adjective and verb are all feminine plural." },
+                { "hindi": "कुर्सियाँ खाली थीं।", "read_as": "kursiyãa khaalii thiiṁ.", "english": "The chairs were empty.", "note": "खाली never changes, so the verb carries everything." }
+              ],
+              "common_error": {
+                "wrong": "किताबें अच्छी थी।",
+                "right": "किताबें अच्छी थीं।",
+                "why_en": "The subject is plural, so the verb needs the dot even though the adjective does not change."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "किताबें अच्छी ___।",
+              "question_read_as": "kitaabeṁ achchhii ___.",
+              "options": ["थीं", "था", "थी", "थे"],
+              "options_read_as": ["thiiṁ", "thaa", "thii", "the"],
+              "answer_index": 0,
+              "explanation_en": "किताबें is feminine and plural, so the verb is थीं."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["रातें ठंडी थी।", "रातें ठंडी थे।", "रातें ठंडी थीं।", "रातें ठंडी था।"],
+              "options_read_as": ["raateṁ ṭhaṇḍii thii.", "raateṁ ṭhaṇḍii the.", "raateṁ ṭhaṇḍii thiiṁ.", "raateṁ ṭhaṇḍii thaa."],
+              "answer_index": 2,
+              "explanation_en": "रातें is feminine and plural, so the verb needs both the feminine vowel and the dot."
+            }
+          },
+          "audio": {
+            "tts_strings": ["किताबें अच्छी थीं।", "रातें ठंडी थीं।", "कुर्सियाँ खाली थीं।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L04-I2",
+          "type": "grammar",
+          "target": "था / थी / थे / थीं",
+          "read_as": "thaa / thii / the / thiiṁ",
+          "pronunciation_notes": "All four open with the same aspirated dental थ; only the vowel and the nasal mark differ.",
+          "gloss_en": "the four past forms of होना",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["honaa", "past", "paradigm", "gender_agreement", "number"],
+          "cards": {
+            "learn": {
+              "title_en": "Four past forms, and why there are four",
+              "explanation_en": "The present of होना has four forms decided by person: हूँ, हो, है, हैं. The past has four decided by gender and number instead: था, थी, थे, थीं. That is the real difference between the two tenses and it is worth stating plainly — in the past, who is speaking stops mattering and what gender they are starts mattering. मैं था and मैं थी are both correct, and which one you say depends on you.",
+              "examples": [
+                { "hindi": "मैं था, मैं थी", "read_as": "maiṁ thaa, maiṁ thii", "english": "I was (male), I was (female)", "note": "The same pronoun, two forms, decided by the speaker." },
+                { "hindi": "वह था, वह थी", "read_as": "vah thaa, vah thii", "english": "he was, she was", "note": "Again the pronoun does not change; the verb does all the work." },
+                { "hindi": "वे थे, वे थीं", "read_as": "ve the, ve thiiṁ", "english": "they were (m), they were (f)", "note": "Plural, and still split by gender." }
+              ],
+              "common_error": {
+                "wrong": "मैं थे।",
+                "right": "मैं था।",
+                "why_en": "मैं is singular, so the verb is था or थी depending on the speaker, and never थे."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "कुर्सियाँ खाली ___।",
+              "question_read_as": "kursiyãa khaalii ___.",
+              "options": ["था", "थे", "थी", "थीं"],
+              "options_read_as": ["thaa", "the", "thii", "thiiṁ"],
+              "answer_index": 3,
+              "explanation_en": "कुर्सियाँ is feminine and plural, so the verb is थीं."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which pairing of subject and verb is correct?",
+              "options": ["मैं थे", "चाय थी", "किताब था", "बच्चे थीं"],
+              "options_read_as": ["maiṁ the", "chaay thii", "kitaab thaa", "bachche thiiṁ"],
+              "answer_index": 1,
+              "explanation_en": "चाय is feminine and singular, so थी. किताब would also need थी, and बच्चे needs थे."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मैं था", "मैं थी", "वे थे", "वे थीं"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L04-I3",
+          "type": "grammar",
+          "target": "है / था",
+          "read_as": "hai / thaa",
+          "pronunciation_notes": "Both are single syllables at the end of the sentence, and in speech they carry very little stress.",
+          "gloss_en": "turning a present sentence into a past one",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["honaa", "present", "past", "contrast", "gender_agreement"],
+          "cards": {
+            "learn": {
+              "title_en": "Swapping है for था",
+              "explanation_en": "Turning a present sentence into a past one is mostly a matter of replacing the final word: चाय गरम है becomes चाय गरम थी. But look at what had to change. है ignored the gender of चाय entirely, while थी does not. So the swap is not one for one, and the habit to build is checking the subject's gender before you reach for a past form — a step the present tense never asked of you.",
+              "examples": [
+                { "hindi": "दूध ठंडा है।", "read_as": "duudh ṭhaṇḍaa hai.", "english": "The milk is cold.", "note": "Present, and the verb is blind to gender." },
+                { "hindi": "दूध ठंडा था।", "read_as": "duudh ṭhaṇḍaa thaa.", "english": "The milk was cold.", "note": "Past, and now the verb agrees as well." },
+                { "hindi": "चाय ठंडी थी।", "read_as": "chaay ṭhaṇḍii thii.", "english": "The tea was cold.", "note": "A feminine subject changes both the adjective and the verb." }
+              ],
+              "common_error": {
+                "wrong": "चाय ठंडी था।",
+                "right": "चाय ठंडी थी।",
+                "why_en": "The adjective was made feminine but the verb was left masculine; both have to agree with चाय."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence in the past tense.",
+              "question": "दूध ठंडा ___।",
+              "question_read_as": "duudh ṭhaṇḍaa ___.",
+              "options": ["है", "था", "थी", "हैं"],
+              "options_read_as": ["hai", "thaa", "thii", "haiṁ"],
+              "answer_index": 1,
+              "explanation_en": "दूध is masculine and singular, so the past form is था."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is the past of चाय ठंडी है?",
+              "options": ["चाय ठंडी था।", "चाय ठंडा थी।", "चाय ठंडी है।", "चाय ठंडी थी।"],
+              "options_read_as": ["chaay ṭhaṇḍii thaa.", "chaay ṭhaṇḍaa thii.", "chaay ṭhaṇḍii hai.", "chaay ṭhaṇḍii thii."],
+              "answer_index": 3,
+              "explanation_en": "चाय is feminine, so the adjective is ठंडी and the verb is थी. Only one option has both."
+            }
+          },
+          "audio": {
+            "tts_strings": ["दूध ठंडा है।", "दूध ठंडा था।", "चाय ठंडी थी।"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed the past forms and set the two tenses side by side. The present is decided by person and ignores gender; the past is decided by gender and number and ignores person.",
+        "key_forms": ["किताबें अच्छी थीं।", "मैं था / मैं थी", "चाय ठंडी थी।"],
+        "next_up_en": "Next: the pronouns themselves, and the first short conversation."
+      }
+    },
+    {
+      "level": 5,
+      "title_en": "मैं, तुम, आप",
+      "title_hi": "सर्वनाम",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M05-L05-I1",
+          "type": "grammar",
+          "target": "मैं",
+          "read_as": "maiṁ",
+          "pronunciation_notes": "The dot nasalises the open ऐ, so the word ends in a hum: maiṁ, one syllable.",
+          "gloss_en": "I",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["pronoun", "first_person", "singular", "pronoun_dropping"],
+          "cards": {
+            "learn": {
+              "title_en": "मैं — I",
+              "explanation_en": "मैं is I. It takes हूँ in the present, and था or थी in the past depending on the speaker's own gender — the pronoun itself never changes shape. It is very often left out altogether, because हूँ can belong to nothing else: यहाँ हूँ already means 'I am here'. Dropping it is ordinary rather than casual, and you will hear it done constantly.",
+              "examples": [
+                { "hindi": "मैं यहाँ हूँ।", "read_as": "maiṁ yahãa huuṁ.", "english": "I am here.", "note": "The full form, with the pronoun stated." },
+                { "hindi": "मैं खुश हूँ।", "read_as": "maiṁ khush huuṁ.", "english": "I am happy.", "note": "खुश does not change for gender, so this works for anyone." },
+                { "hindi": "मैं अच्छी हूँ।", "read_as": "maiṁ achchhii huuṁ.", "english": "I am well.", "note": "अच्छा takes -ी when the speaker is female." }
+              ],
+              "common_error": {
+                "wrong": "मैं है।",
+                "right": "मैं हूँ।",
+                "why_en": "मैं takes हूँ, never है."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "___ यहाँ हूँ।",
+              "question_read_as": "___ yahãa huuṁ.",
+              "options": ["मैं", "तुम", "वह", "आप"],
+              "options_read_as": ["maiṁ", "tum", "vah", "aap"],
+              "answer_index": 0,
+              "explanation_en": "हूँ belongs to मैं alone, so the subject is settled by the verb."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["मैं है।", "मैं हैं।", "मैं हूँ।", "मैं हो।"],
+              "options_read_as": ["maiṁ hai.", "maiṁ haiṁ.", "maiṁ huuṁ.", "maiṁ ho."],
+              "answer_index": 2,
+              "explanation_en": "मैं pairs only with हूँ."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मैं यहाँ हूँ।", "मैं खुश हूँ।", "मैं अच्छी हूँ।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L05-I2",
+          "type": "grammar",
+          "target": "तुम",
+          "read_as": "tum",
+          "pronunciation_notes": "A dental त with the tongue on the teeth, and the final vowel drops: tum, one syllable.",
+          "gloss_en": "you — familiar",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["pronoun", "second_person", "familiar", "register"],
+          "cards": {
+            "learn": {
+              "title_en": "तुम — you, among equals",
+              "explanation_en": "तुम is the everyday 'you' for friends, family, children and people of about your own age. It takes हो in the present and थे or थीं in the past, and grammatically it behaves as a plural even when you are speaking to one person — which is why the adjective in तुम अच्छे हो carries a plural ending. Hindi has three words for 'you', and choosing between them is a social decision rather than a grammatical one.",
+              "examples": [
+                { "hindi": "तुम कहाँ हो?", "read_as": "tum kahãa ho?", "english": "Where are you?", "note": "तुम takes हो." },
+                { "hindi": "तुम कैसे हो?", "read_as": "tum kaise ho?", "english": "How are you?", "note": "The everyday greeting between friends." },
+                { "hindi": "तुम अच्छे हो।", "read_as": "tum achchhe ho.", "english": "You are good.", "note": "Plural agreement, even for a single person." }
+              ],
+              "common_error": {
+                "wrong": "तुम है।",
+                "right": "तुम हो।",
+                "why_en": "तुम takes हो. है belongs to the third person."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "___ कहाँ हो?",
+              "question_read_as": "___ kahãa ho?",
+              "options": ["मैं", "वह", "तुम", "आप"],
+              "options_read_as": ["maiṁ", "vah", "tum", "aap"],
+              "answer_index": 2,
+              "explanation_en": "हो belongs to तुम alone, so the verb settles the subject."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["तुम कैसे हो?", "तुम कैसे है?", "तुम कैसे हैं?", "तुम कैसे हूँ?"],
+              "options_read_as": ["tum kaise ho?", "tum kaise hai?", "tum kaise haiṁ?", "tum kaise huuṁ?"],
+              "answer_index": 0,
+              "explanation_en": "तुम takes हो. हैं would be right after आप, but not after तुम."
+            }
+          },
+          "audio": {
+            "tts_strings": ["तुम कहाँ हो?", "तुम कैसे हो?", "तुम अच्छे हो।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L05-I3",
+          "type": "dialogue",
+          "target": "आप",
+          "read_as": "aap",
+          "pronunciation_notes": "Both vowels are long and the final प releases no breath: aap.",
+          "gloss_en": "you — polite",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["pronoun", "second_person", "polite", "register", "dialogue"],
+          "setting_en": "Two people meeting at a tea stall",
+          "speakers": 2,
+          "speed": "slow",
+          "cards": {
+            "learn": {
+              "title_en": "आप — you, with respect",
+              "explanation_en": "आप is the polite 'you', used with elders, strangers, teachers and anyone you want to show respect to. It always takes हैं in the present and थे or थीं in the past, exactly as a plural would, however many people you are addressing. When in doubt as a learner, use आप: being too polite costs you nothing, while being too familiar can land badly.",
+              "lines": [
+                { "speaker": "A", "hindi": "नमस्ते! आप कैसे हैं?", "read_as": "namaste! aap kaise haiṁ?", "english": "Hello! How are you?" },
+                { "speaker": "B", "hindi": "मैं अच्छा हूँ। और आप?", "read_as": "maiṁ achchhaa huuṁ. aur aap?", "english": "I'm well. And you?" },
+                { "speaker": "A", "hindi": "मैं भी अच्छा हूँ। चाय गरम है।", "read_as": "maiṁ bhii achchhaa huuṁ. chaay garam hai.", "english": "I'm well too. The tea is hot." },
+                { "speaker": "B", "hindi": "हाँ, बहुत अच्छी है।", "read_as": "hãa, bahut achchhii hai.", "english": "Yes, it's very good." }
+              ],
+              "common_error": {
+                "wrong": "आप कैसे हो?",
+                "right": "आप कैसे हैं?",
+                "why_en": "आप always takes हैं. हो belongs with तुम, and using it with आप sounds too familiar."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "मैं अच्छा ___।",
+              "question_read_as": "maiṁ achchhaa ___.",
+              "options": ["है", "हैं", "हो", "हूँ"],
+              "options_read_as": ["hai", "haiṁ", "ho", "huuṁ"],
+              "answer_index": 3,
+              "explanation_en": "मैं takes हूँ, whatever else is in the sentence."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the first line. Which word is missing?",
+              "masked_line_index": 0,
+              "masked_word": "हैं",
+              "mask_reason": "the form of होना required by आप",
+              "options": ["है", "हैं", "हूँ", "हो"],
+              "options_read_as": ["hai", "haiṁ", "huuṁ", "ho"],
+              "answer_index": 1,
+              "explanation_en": "आप always takes हैं, even when only one person is being addressed."
+            }
+          },
+          "audio": {
+            "tts_strings": ["नमस्ते! आप कैसे हैं?", "मैं अच्छा हूँ। और आप?", "मैं भी अच्छा हूँ। चाय गरम है।", "हाँ, बहुत अच्छी है।"],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level introduced मैं, तुम and आप, and put them into a first conversation. Each takes its own form of होना — हूँ, हो and हैं — and choosing between तुम and आप is a matter of social distance rather than grammar.",
+        "key_forms": ["मैं यहाँ हूँ।", "तुम कैसे हो?", "आप कैसे हैं?"],
+        "next_up_en": "Next: तू, हम and यह, and the warning that comes with तू."
+      }
+    }
+  ]
+}

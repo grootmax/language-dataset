@@ -1,0 +1,1602 @@
+{
+  "module": 14,
+  "module_name_en": "Connected Speech",
+  "module_name_hi": "जुड़े वाक्य",
+  "phase": 5,
+  "type": "grammar",
+  "batch": {
+    "levels_from": 6,
+    "levels_to": 10
+  },
+  "batch_note": "Five items in this batch carry correlative_optional: true. They are the compound conjunctions — जब भी, जैसे ही, जब से, जहाँ भी, जहाँ तक — where the second half is optional or does not exist, and forcing one in would produce sentences nobody says. The distinction between a correlative pair and a compound conjunction built out of one is the organising idea of levels 6 and 8.",
+  "levels": [
+    {
+      "level": 6,
+      "title_en": "Whenever, and time in three tenses",
+      "title_hi": "जब भी · बीता हुआ · आने वाला",
+      "items": [
+        {
+          "id": "M14-L06-I1",
+          "type": "grammar",
+          "structure": "jab_bhii",
+          "correlative_optional": true,
+          "target": "जब भी वो आते हैं, मिठाई लाते हैं।",
+          "read_as": "jab bhii vo aate haiṁ, miṭhaaii laate haiṁ.",
+          "english": "Whenever they come, they bring sweets.",
+          "difficulty": 7,
+          "tags": [
+            "time_clause",
+            "jab_bhii",
+            "compound_conjunction",
+            "correlative_optional",
+            "exception_rule"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Add भी and the second half becomes optional",
+              "explanation_en": "This is the exception to everything level 1 told you, and it is a systematic one. There are correlative pairs — जो...वह, जब...तब, जहाँ...वहाँ, जितना...उतना, जैसा...वैसा — where both halves are required. And there are compound conjunctions built out of them — जब भी, जब तक, जब से, जैसे ही, जहाँ भी — where the second half is optional or absent. जब भी वो आते हैं, मिठाई लाते हैं needs no तब at all. Adding भी makes the clause general, and a general clause does not need a specific answer.",
+              "examples": [
+                {
+                  "hindi": "जब भी वो आते हैं, मिठाई लाते हैं।",
+                  "read_as": "jab bhii vo aate haiṁ, miṭhaaii laate haiṁ.",
+                  "english": "Whenever they come, they bring sweets.",
+                  "note": "No तब, and adding one would sound heavy."
+                },
+                {
+                  "hindi": "जब भी समय मिले, आ जाना।",
+                  "read_as": "jab bhii samay mile, aa jaanaa.",
+                  "english": "Come whenever you have time.",
+                  "note": "Subjunctive मिले, because the time is not fixed."
+                },
+                {
+                  "hindi": "जब वो आते हैं, तब मिठाई लाते हैं।",
+                  "read_as": "jab vo aate haiṁ, tab miṭhaaii laate haiṁ.",
+                  "english": "When they come, they bring sweets.",
+                  "note": "Without भी the correlative comes back — and the meaning narrows to particular occasions."
+                }
+              ],
+              "common_error": {
+                "wrong": "जब भी वो आते हैं, तब भी मिठाई लाते हैं।",
+                "right": "जब भी वो आते हैं, मिठाई लाते हैं।",
+                "why_en": "तब भी exists but means \"even then\", which contradicts the sentence. Do not build a matching correlative just because the first half has भी."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these to mean: whenever they come, they bring sweets.",
+              "sentences": [
+                "वो अक्सर आते हैं।",
+                "हर बार मिठाई लाते हैं।"
+              ],
+              "sentences_read_as": [
+                "vo aksar aate haiṁ.",
+                "har baar miṭhaaii laate haiṁ."
+              ],
+              "options": [
+                "भी जब वो आते हैं, मिठाई लाते हैं।",
+                "जब भी वो आते हैं, मिठाई लाते हैं।",
+                "जब भी वो आते हैं, तब भी मिठाई लाते हैं।",
+                "जब वो भी आते हैं, मिठाई लाते हैं।"
+              ],
+              "options_read_as": [
+                "bhii jab vo aate haiṁ, miṭhaaii laate haiṁ.",
+                "jab bhii vo aate haiṁ, miṭhaaii laate haiṁ.",
+                "jab bhii vo aate haiṁ, tab bhii miṭhaaii laate haiṁ.",
+                "jab vo bhii aate haiṁ, miṭhaaii laate haiṁ."
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second builds a तब भी that means \"even then\". The third moves भी onto वो, so it means \"when they too come\". The fourth puts भी before जब, where it cannot go — भी always follows what it emphasises."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "मिठाई लाते हैं",
+                "वो आते हैं",
+                "जब भी"
+              ],
+              "answer": [
+                "जब भी",
+                "वो आते हैं",
+                "मिठाई लाते हैं"
+              ],
+              "answer_read_as": "jab bhii vo aate haiṁ, miṭhaaii laate haiṁ.",
+              "explanation_en": "जब भी opens, and the second half needs no marker."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जब भी वो आते हैं, मिठाई लाते हैं।",
+              "जब भी समय मिले, आ जाना।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L06-I2",
+          "type": "grammar",
+          "structure": "jab_tab",
+          "target": "जब मैं छोटा था, तब यहाँ खेत थे।",
+          "read_as": "jab maiṁ chhoṭaa thaa, tab yahaaṁ khet the.",
+          "english": "When I was small, there were fields here.",
+          "difficulty": 6,
+          "tags": [
+            "time_clause",
+            "jab_tab",
+            "past",
+            "habitual_past",
+            "callback_m13"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जब ... तब with the past — and the tense memory is written in",
+              "explanation_en": "जब मैं छोटा था, तब यहाँ खेत थे. Both halves are in the past and the correlative is fully required. This is also the shape Module 13's narratives were built on: the habitual past, describing what used to be rather than what happened once. Put जब ... तब in front of it and you have the standard opening of any reminiscence in Hindi — जब मैं छोटा था is as fixed a phrase as \"when I was young\" is in English.",
+              "examples": [
+                {
+                  "hindi": "जब मैं छोटा था, तब यहाँ खेत थे।",
+                  "read_as": "jab maiṁ chhoṭaa thaa, tab yahaaṁ khet the.",
+                  "english": "When I was small, there were fields here.",
+                  "note": "Both halves past, correlative required."
+                },
+                {
+                  "hindi": "जब हम गाँव में रहते थे, तब सब आसान लगता था।",
+                  "read_as": "jab ham gaaṁv meṁ rahte the, tab sab aasaan lagtaa thaa.",
+                  "english": "When we lived in the village, everything seemed easy.",
+                  "note": "The habitual past in both halves, as in the level 47 narrative of Module 13."
+                },
+                {
+                  "hindi": "जब वो पहुँचा, तब देर हो चुकी थी।",
+                  "read_as": "jab vo pahuṁchaa, tab der ho chukii thii.",
+                  "english": "By the time he arrived it was already late.",
+                  "note": "A single completed event, not a habit — so the perfective."
+                }
+              ],
+              "common_error": {
+                "wrong": "जब मैं छोटा था, यहाँ खेत थे।",
+                "right": "जब मैं छोटा था, तब यहाँ खेत थे।",
+                "why_en": "The correlative-missing error again. It is easiest to make in the past, because English reminiscence never needs a second marker."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence.",
+              "sentences": [
+                "मैं छोटा था।",
+                "तब यहाँ खेत थे।"
+              ],
+              "sentences_read_as": [
+                "maiṁ chhoṭaa thaa.",
+                "tab yahaaṁ khet the."
+              ],
+              "options": [
+                "जब मैं छोटा था, यहाँ खेत थे।",
+                "मैं जब छोटा था तब यहाँ खेत थे।",
+                "जब मैं छोटा था, तो यहाँ खेत थे थे।",
+                "जब मैं छोटा था, तब यहाँ खेत थे।"
+              ],
+              "options_read_as": [
+                "jab maiṁ chhoṭaa thaa, yahaaṁ khet the.",
+                "maiṁ jab chhoṭaa thaa tab yahaaṁ khet the.",
+                "jab maiṁ chhoṭaa thaa, to yahaaṁ khet the the.",
+                "jab maiṁ chhoṭaa thaa, tab yahaaṁ khet the."
+              ],
+              "is_the_english_error": [
+                true,
+                false,
+                false,
+                false
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second is the correlative-missing error. The third puts जब after the subject. The fourth doubles the auxiliary."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "तब यहाँ",
+                "जब मैं",
+                "खेत थे",
+                "छोटा था"
+              ],
+              "answer": [
+                "जब मैं",
+                "छोटा था",
+                "तब यहाँ",
+                "खेत थे"
+              ],
+              "answer_read_as": "jab maiṁ chhoṭaa thaa, tab yahaaṁ khet the.",
+              "explanation_en": "Each half is complete before the next marker."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जब मैं छोटा था, तब यहाँ खेत थे।",
+              "जब वो पहुँचा, तब देर हो चुकी थी।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L06-I3",
+          "type": "grammar",
+          "structure": "jab_tab",
+          "target": "जब वो आएँगे, तब बात करेंगे।",
+          "read_as": "jab vo aaeṁge, tab baat kareṁge.",
+          "english": "We'll talk when they come.",
+          "difficulty": 8,
+          "tags": [
+            "time_clause",
+            "jab_tab",
+            "future_allowed",
+            "english_interference",
+            "high_value"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Hindi allows the future here; English forbids it",
+              "explanation_en": "English cannot say \"when he will come\" — a when-clause about the future has to use the present. Hindi has no such rule, and जब वो आएँगे, तब बात करेंगे puts the future in both halves, which is the ordinary way to say it. An English speaker will instinctively write जब वो आते हैं, तब बात करेंगे, and that reads as a habit rather than a plan. Where English forces a tense change, Hindi simply says what it means, and this is one of the rare places where Hindi is the simpler of the two.",
+              "examples": [
+                {
+                  "hindi": "जब वो आएँगे, तब बात करेंगे।",
+                  "read_as": "jab vo aaeṁge, tab baat kareṁge.",
+                  "english": "We'll talk when they come.",
+                  "note": "Future in both halves, and completely normal."
+                },
+                {
+                  "hindi": "जब वो आएँ, तब बता देना।",
+                  "read_as": "jab vo aaeṁ, tab bataa denaa.",
+                  "english": "Let me know when they come.",
+                  "note": "The subjunctive आएँ also works, and is a shade less certain."
+                },
+                {
+                  "hindi": "जब बारिश होगी, तब देखेंगे।",
+                  "read_as": "jab baarish hogii, tab dekheṁge.",
+                  "english": "We'll see when it rains.",
+                  "note": "Future again — and English would have to say \"when it rains\"."
+                }
+              ],
+              "common_error": {
+                "wrong": "जब वो आते हैं, तब बात करेंगे।",
+                "right": "जब वो आएँगे, तब बात करेंगे।",
+                "why_en": "The present here says they habitually come, which turns a plan into a routine. This mistake comes straight from the English rule about when-clauses."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence about the future.",
+              "sentences": [
+                "वो कल आएँगे।",
+                "तब हम बात करेंगे।"
+              ],
+              "sentences_read_as": [
+                "vo kal aaeṁge.",
+                "tab ham baat kareṁge."
+              ],
+              "options": [
+                "जब वो आएँगे, तब बात करेंगे।",
+                "जब वो आएँगे, बात करेंगे।",
+                "जब वो आते हैं, तब बात करेंगे।",
+                "जब वो आएँगे, तब बात करते हैं।"
+              ],
+              "options_read_as": [
+                "jab vo aaeṁge, tab baat kareṁge.",
+                "jab vo aaeṁge, baat kareṁge.",
+                "jab vo aate haiṁ, tab baat kareṁge.",
+                "jab vo aaeṁge, tab baat karte haiṁ."
+              ],
+              "is_the_english_error": [
+                false,
+                true,
+                false,
+                false
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second drops तब. The third uses the present in the जब half, which is the English rule imported into Hindi. The fourth puts the present in the second half, which turns the plan into a habit."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "तब बात करेंगे",
+                "जब वो",
+                "आएँगे"
+              ],
+              "answer": [
+                "जब वो",
+                "आएँगे",
+                "तब बात करेंगे"
+              ],
+              "answer_read_as": "jab vo aaeṁge, tab baat kareṁge.",
+              "explanation_en": "Future in the जब half, and तब opens the answer."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जब वो आएँगे, तब बात करेंगे।",
+              "जब बारिश होगी, तब देखेंगे।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Adding भी makes a time clause general and lets the correlative go: जब भी वो आते हैं needs no तब. The plain pair keeps both halves in every tense. And Hindi allows the future in a जब clause where English requires the present — जब वो आएँगे, not जब वो आते हैं.",
+        "key_forms": [
+          "जब भी",
+          "जब मैं छोटा था",
+          "जब वो आएँगे"
+        ],
+        "next_up_en": "Next: as soon as, ever since, and until — the compound conjunctions in full."
+      }
+    },
+    {
+      "level": 7,
+      "title_en": "As soon as, ever since, until",
+      "title_hi": "जैसे ही · जब से · जब तक",
+      "items": [
+        {
+          "id": "M14-L07-I1",
+          "type": "grammar",
+          "structure": "jaise_hii",
+          "correlative_optional": true,
+          "target": "जैसे ही घंटी बजी, सब खड़े हो गए।",
+          "read_as": "jaise hii ghanṭii bajii, sab khaṛe ho gae.",
+          "english": "As soon as the bell rang, everyone stood up.",
+          "difficulty": 7,
+          "tags": [
+            "time_clause",
+            "jaise_hii",
+            "compound_conjunction",
+            "correlative_optional",
+            "hii_particle"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जैसे ही — the ही is what makes it immediate",
+              "explanation_en": "जैसे on its own means \"as\" or \"like\". Add ही and it becomes \"the moment that\": जैसे ही घंटी बजी, सब खड़े हो गए. It is a compound conjunction, not half of a pair, so there is no correlative to supply — and inserting वैसे ही would change the meaning to \"in the same way\". The ही is doing exactly what it has done since Module 12: narrowing something to precisely that and nothing wider. Here it narrows a stretch of time to a single point.",
+              "examples": [
+                {
+                  "hindi": "जैसे ही घंटी बजी, सब खड़े हो गए।",
+                  "read_as": "jaise hii ghanṭii bajii, sab khaṛe ho gae.",
+                  "english": "As soon as the bell rang, everyone stood up.",
+                  "note": "No correlative. The second half simply follows."
+                },
+                {
+                  "hindi": "जैसे ही मैं पहुँचा, बारिश शुरू हो गई।",
+                  "read_as": "jaise hii maiṁ pahuṁchaa, baarish shuruu ho gaii.",
+                  "english": "The moment I arrived, it began to rain.",
+                  "note": "Both halves perfective — the two events touch."
+                },
+                {
+                  "hindi": "जैसे ही पता चले, बता देना।",
+                  "read_as": "jaise hii pataa chale, bataa denaa.",
+                  "english": "Let me know as soon as you find out.",
+                  "note": "Subjunctive चले, because the moment has not come yet."
+                }
+              ],
+              "common_error": {
+                "wrong": "जैसे ही घंटी बजी, वैसे ही सब खड़े हो गए।",
+                "right": "जैसे ही घंटी बजी, सब खड़े हो गए।",
+                "why_en": "वैसे ही means \"in the same manner\", so this says everyone stood up in the manner of a bell ringing. जैसे ही is a conjunction and takes no answer."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these to mean: the moment the bell rang, everyone stood.",
+              "sentences": [
+                "घंटी बजी।",
+                "सब खड़े हो गए।"
+              ],
+              "sentences_read_as": [
+                "ghanṭii bajii.",
+                "sab khaṛe ho gae."
+              ],
+              "options": [
+                "जैसे घंटी बजी ही, सब खड़े हो गए।",
+                "ही जैसे घंटी बजी, सब खड़े हो गए।",
+                "जैसे ही घंटी बजी, सब खड़े हो गए।",
+                "जैसे ही घंटी बजी, वैसे ही सब खड़े हो गए।"
+              ],
+              "options_read_as": [
+                "jaise ghanṭii bajii hii, sab khaṛe ho gae.",
+                "hii jaise ghanṭii bajii, sab khaṛe ho gae.",
+                "jaise hii ghanṭii bajii, sab khaṛe ho gae.",
+                "jaise hii ghanṭii bajii, vaise hii sab khaṛe ho gae."
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second supplies a correlative that changes the meaning to manner. The third separates ही from जैसे, so it now narrows बजी. The fourth puts ही first, which is impossible — ही always follows."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "सब खड़े हो गए",
+                "घंटी बजी",
+                "जैसे ही"
+              ],
+              "answer": [
+                "जैसे ही",
+                "घंटी बजी",
+                "सब खड़े हो गए"
+              ],
+              "answer_read_as": "jaise hii ghanṭii bajii, sab khaṛe ho gae.",
+              "explanation_en": "जैसे ही stays together and opens the sentence."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जैसे ही घंटी बजी, सब खड़े हो गए।",
+              "जैसे ही पता चले, बता देना।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L07-I2",
+          "type": "grammar",
+          "structure": "jab_se",
+          "correlative_optional": true,
+          "target": "जब से वो गया है, घर सूना लगता है।",
+          "read_as": "jab se vo gayaa hai, ghar suunaa lagtaa hai.",
+          "english": "The house has felt empty ever since he left.",
+          "difficulty": 8,
+          "tags": [
+            "time_clause",
+            "jab_se",
+            "compound_conjunction",
+            "correlative_optional",
+            "perfect_tense"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जब से — and the tense that goes with it",
+              "explanation_en": "जब से means ever since, and it takes the perfect in its own half: जब से वो गया है, not जब से वो गया. The है matters — it says the leaving is still in force. तब से can be supplied in the second half and often is in careful speech, but it is not required. Note also that the second half stays in the present: घर सूना लगता है, the house feels empty, because that is the state now.",
+              "examples": [
+                {
+                  "hindi": "जब से वो गया है, घर सूना लगता है।",
+                  "read_as": "jab se vo gayaa hai, ghar suunaa lagtaa hai.",
+                  "english": "The house has felt empty ever since he left.",
+                  "note": "Perfect in the first half, present in the second."
+                },
+                {
+                  "hindi": "जब से बारिश शुरू हुई है, तब से बिजली नहीं आई।",
+                  "read_as": "jab se baarish shuruu huii hai, tab se bijlii nahiiṁ aaii.",
+                  "english": "There has been no power since the rain started.",
+                  "note": "तब से supplied — correct, and slightly more careful."
+                },
+                {
+                  "hindi": "जब से मिले हैं, रोज़ बात होती है।",
+                  "read_as": "jab se mile haiṁ, roz baat hotii hai.",
+                  "english": "We've spoken every day since we met.",
+                  "note": "Subject dropped in both halves."
+                }
+              ],
+              "common_error": {
+                "wrong": "जब से वो गया, घर सूना लगता है।",
+                "right": "जब से वो गया है, घर सूना लगता है।",
+                "why_en": "Without है the leaving is a finished event with no bearing on now. जब से needs the perfect, because the whole point is that the effect continues."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these to mean: ever since he left, the house feels empty.",
+              "sentences": [
+                "वो चला गया है।",
+                "घर सूना लगता है।"
+              ],
+              "sentences_read_as": [
+                "vo chalaa gayaa hai.",
+                "ghar suunaa lagtaa hai."
+              ],
+              "options": [
+                "जब से वो गया, घर सूना लगता है।",
+                "जब वो गया है, घर सूना लगता है।",
+                "जब से वो गया है, घर सूना लगा।",
+                "जब से वो गया है, घर सूना लगता है।"
+              ],
+              "options_read_as": [
+                "jab se vo gayaa, ghar suunaa lagtaa hai.",
+                "jab vo gayaa hai, ghar suunaa lagtaa hai.",
+                "jab se vo gayaa hai, ghar suunaa lagaa.",
+                "jab se vo gayaa hai, ghar suunaa lagtaa hai."
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second drops the perfect है. The third drops से, which removes the \"ever since\" entirely. The fourth puts the second half in the past, so the emptiness is over."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "घर सूना लगता है",
+                "जब से वो",
+                "गया है"
+              ],
+              "answer": [
+                "जब से वो",
+                "गया है",
+                "घर सूना लगता है"
+              ],
+              "answer_read_as": "jab se vo gayaa hai, ghar suunaa lagtaa hai.",
+              "explanation_en": "जब से opens with its perfect, and the present follows."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जब से वो गया है, घर सूना लगता है।",
+              "जब से मिले हैं, रोज़ बात होती है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L07-I3",
+          "type": "grammar",
+          "structure": "jab_tak",
+          "target": "जब तक मैं न लौटूँ, तुम यहीं रहना।",
+          "read_as": "jab tak maiṁ na lauṭuuṁ, tum yahiiṁ rahnaa.",
+          "english": "Stay here until I get back.",
+          "difficulty": 9,
+          "tags": [
+            "time_clause",
+            "jab_tak",
+            "subjunctive",
+            "na_negative",
+            "callback_l5"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जब तक with the subjunctive takes न, not नहीं",
+              "explanation_en": "Level 5 established that जब तक needs a negative English has no room for. Here is the other half of it: when the जब तक clause uses the subjunctive, the negative is न rather than नहीं. जब तक मैं न लौटूँ, तुम यहीं रहना — stay here until I return. Use नहीं with the indicative — जब तक मैं नहीं लौटता — and न with the subjunctive. Both mean until; the subjunctive version leaves the return less certain, which is why it suits an instruction.",
+              "examples": [
+                {
+                  "hindi": "जब तक मैं न लौटूँ, तुम यहीं रहना।",
+                  "read_as": "jab tak maiṁ na lauṭuuṁ, tum yahiiṁ rahnaa.",
+                  "english": "Stay here until I get back.",
+                  "note": "Subjunctive लौटूँ, so न."
+                },
+                {
+                  "hindi": "जब तक मैं नहीं लौटता, तुम यहीं रहो।",
+                  "read_as": "jab tak maiṁ nahiiṁ lauṭtaa, tum yahiiṁ raho.",
+                  "english": "Stay here until I get back.",
+                  "note": "Indicative लौटता, so नहीं. The same meaning."
+                },
+                {
+                  "hindi": "जब तक बुलाया न जाए, अंदर मत आना।",
+                  "read_as": "jab tak bulaayaa na jaae, aṁdar mat aanaa.",
+                  "english": "Don't come in until you are called.",
+                  "note": "A passive subjunctive — which level 24 will explain properly."
+                }
+              ],
+              "common_error": {
+                "wrong": "जब तक मैं लौटूँ, तुम यहीं रहना।",
+                "right": "जब तक मैं न लौटूँ, तुम यहीं रहना।",
+                "why_en": "Without the negative this says \"stay here for as long as I keep returning\", which is not a sentence anybody means."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these to mean: stay here until I return.",
+              "sentences": [
+                "मैं अभी लौटा नहीं हूँ।",
+                "तुम यहीं रहना।"
+              ],
+              "sentences_read_as": [
+                "maiṁ abhii lauṭaa nahiiṁ huuṁ.",
+                "tum yahiiṁ rahnaa."
+              ],
+              "options": [
+                "जब मैं न लौटूँ, तब तुम यहीं रहना।",
+                "जब तक मैं न लौटूँ, तुम यहीं रहना।",
+                "जब तक मैं न लौटूँ, तब तक तुम यहीं रहना।",
+                "जब तक मैं लौटूँ, तुम यहीं रहना।"
+              ],
+              "options_read_as": [
+                "jab maiṁ na lauṭuuṁ, tab tum yahiiṁ rahnaa.",
+                "jab tak maiṁ na lauṭuuṁ, tum yahiiṁ rahnaa.",
+                "jab tak maiṁ na lauṭuuṁ, tab tak tum yahiiṁ rahnaa.",
+                "jab tak maiṁ lauṭuuṁ, tum yahiiṁ rahnaa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second is also correct — तब तक may be supplied — but the shorter form is what an instruction actually sounds like. The third drops the required negative and reverses the sense. The fourth uses plain जब ... तब, which means when rather than until.",
+              "is_the_english_error": [
+                false,
+                false,
+                false,
+                true
+              ]
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "तुम यहीं रहना",
+                "न लौटूँ",
+                "जब तक मैं"
+              ],
+              "answer": [
+                "जब तक मैं",
+                "न लौटूँ",
+                "तुम यहीं रहना"
+              ],
+              "answer_read_as": "jab tak maiṁ na lauṭuuṁ, tum yahiiṁ rahnaa.",
+              "explanation_en": "The negative sits immediately before the subjunctive verb."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जब तक मैं न लौटूँ, तुम यहीं रहना।",
+              "जब तक मैं नहीं लौटता, तुम यहीं रहो।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "जैसे ही is a conjunction and takes no correlative — supplying वैसे ही changes it to manner. जब से needs the perfect in its own half, because the effect is still running. And जब तक takes न with the subjunctive and नहीं with the indicative, but always takes one of them.",
+        "key_forms": [
+          "जैसे ही",
+          "जब से ... है",
+          "जब तक ... न"
+        ],
+        "next_up_en": "Next: the same machinery applied to place."
+      }
+    },
+    {
+      "level": 8,
+      "title_en": "Where, there",
+      "title_hi": "जहाँ ... वहाँ",
+      "items": [
+        {
+          "id": "M14-L08-I1",
+          "type": "grammar",
+          "structure": "jahaaṁ_vahaaṁ",
+          "target": "जहाँ हम रुके थे, वहाँ अब होटल है।",
+          "read_as": "jahaaṁ ham ruke the, vahaaṁ ab hoṭal hai.",
+          "english": "There is a hotel now where we stayed.",
+          "difficulty": 7,
+          "tags": [
+            "place_clause",
+            "jahaaṁ_vahaaṁ",
+            "correlative_pair",
+            "third_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The third pair, and by now it should look familiar",
+              "explanation_en": "जहाँ ... वहाँ is the place version, and it behaves exactly like जो ... वह and जब ... तब. जहाँ हम रुके थे, वहाँ अब होटल है. English again needs nothing in the second half — \"there is a hotel now where we stayed\" — so the same omission is waiting. There is also a वहीं with ही, narrowing it to that very spot, which works just as वही and तभी do.",
+              "examples": [
+                {
+                  "hindi": "जहाँ हम रुके थे, वहाँ अब होटल है।",
+                  "read_as": "jahaaṁ ham ruke the, vahaaṁ ab hoṭal hai.",
+                  "english": "There is a hotel now where we stayed.",
+                  "note": "Both halves, and the correlative required."
+                },
+                {
+                  "hindi": "जहाँ रखा था, वहीं रख दो।",
+                  "read_as": "jahaaṁ rakhaa thaa, vahiiṁ rakh do.",
+                  "english": "Put it back exactly where it was.",
+                  "note": "वहीं — that very place."
+                },
+                {
+                  "hindi": "जहाँ धुआँ है, वहाँ आग है।",
+                  "read_as": "jahaaṁ dhuaaṁ hai, vahaaṁ aag hai.",
+                  "english": "Where there is smoke, there is fire.",
+                  "note": "The proverb, and it keeps both halves."
+                }
+              ],
+              "common_error": {
+                "wrong": "जहाँ हम रुके थे, अब होटल है।",
+                "right": "जहाँ हम रुके थे, वहाँ अब होटल है।",
+                "why_en": "The same missing correlative, in a third place. If you have made it twice already, expect to make it here."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence.",
+              "sentences": [
+                "हम एक जगह रुके थे।",
+                "वहाँ अब होटल है।"
+              ],
+              "sentences_read_as": [
+                "ham ek jagah ruke the.",
+                "vahaaṁ ab hoṭal hai."
+              ],
+              "options": [
+                "हम जहाँ रुके थे अब वहाँ होटल है।",
+                "जहाँ पर हम रुके थे, अब होटल है वहाँ।",
+                "जहाँ हम रुके थे, वहाँ अब होटल है।",
+                "जहाँ हम रुके थे, अब होटल है।"
+              ],
+              "options_read_as": [
+                "ham jahaaṁ ruke the ab vahaaṁ hoṭal hai.",
+                "jahaaṁ par ham ruke the, ab hoṭal hai vahaaṁ.",
+                "jahaaṁ ham ruke the, vahaaṁ ab hoṭal hai.",
+                "jahaaṁ ham ruke the, ab hoṭal hai."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                false,
+                true
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second drops वहाँ. The third puts जहाँ after the subject. The fourth strands वहाँ at the end and adds an unnecessary पर."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "वहाँ अब",
+                "जहाँ हम",
+                "होटल है",
+                "रुके थे"
+              ],
+              "answer": [
+                "जहाँ हम",
+                "रुके थे",
+                "वहाँ अब",
+                "होटल है"
+              ],
+              "answer_read_as": "jahaaṁ ham ruke the, vahaaṁ ab hoṭal hai.",
+              "explanation_en": "Complete the जहाँ half, then answer with वहाँ."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जहाँ हम रुके थे, वहाँ अब होटल है।",
+              "जहाँ धुआँ है, वहाँ आग है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L08-I2",
+          "type": "grammar",
+          "structure": "jahaaṁ_bhii",
+          "correlative_optional": true,
+          "target": "जहाँ भी जाओ, सावधानी बरतो।",
+          "read_as": "jahaaṁ bhii jaao, saavdhaanii barto.",
+          "english": "Wherever you go, be careful.",
+          "difficulty": 7,
+          "tags": [
+            "place_clause",
+            "jahaaṁ_bhii",
+            "compound_conjunction",
+            "correlative_optional",
+            "callback_m13"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "भी generalises place exactly as it generalised time",
+              "explanation_en": "जहाँ भी is wherever, and like जब भी it makes the clause general and lets the correlative go: जहाँ भी जाओ, सावधानी बरतो. The rule holds across the whole family — जो भी whatever, जब भी whenever, जहाँ भी wherever, जितना भी however much, जैसा भी however. Add भी to the opening word and you no longer need a specific answer, because there is no specific thing to answer about. सावधानी बरतो, incidentally, is the narrow verb from Module 13 that only takes qualities of conduct.",
+              "examples": [
+                {
+                  "hindi": "जहाँ भी जाओ, सावधानी बरतो।",
+                  "read_as": "jahaaṁ bhii jaao, saavdhaanii barto.",
+                  "english": "Wherever you go, be careful.",
+                  "note": "No वहाँ, and none wanted."
+                },
+                {
+                  "hindi": "जो भी हो, हम तैयार हैं।",
+                  "read_as": "jo bhii ho, ham taiyaar haiṁ.",
+                  "english": "Whatever happens, we are ready.",
+                  "note": "जो भी — the same rule on the first pair you learned."
+                },
+                {
+                  "hindi": "जितना भी मिले, ले लो।",
+                  "read_as": "jitnaa bhii mile, le lo.",
+                  "english": "Take however much you get.",
+                  "note": "जितना भी, and again no correlative."
+                }
+              ],
+              "common_error": {
+                "wrong": "जहाँ भी जाओ, वहाँ भी सावधानी बरतो।",
+                "right": "जहाँ भी जाओ, सावधानी बरतो।",
+                "why_en": "वहाँ भी means \"there too\", which adds a second place that was never mentioned."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these to mean: wherever you go, be careful.",
+              "sentences": [
+                "तुम कहीं भी जा सकते हो।",
+                "सावधानी बरतो।"
+              ],
+              "sentences_read_as": [
+                "tum kahiiṁ bhii jaa sakte ho.",
+                "saavdhaanii barto."
+              ],
+              "options": [
+                "जहाँ भी जाओ, सावधानी बरतो।",
+                "जहाँ भी जाओ, वहाँ भी सावधानी बरतो।",
+                "जहाँ जाओ भी, सावधानी बरतो।",
+                "भी जहाँ जाओ, सावधानी बरतो।"
+              ],
+              "options_read_as": [
+                "jahaaṁ bhii jaao, saavdhaanii barto.",
+                "jahaaṁ bhii jaao, vahaaṁ bhii saavdhaanii barto.",
+                "jahaaṁ jaao bhii, saavdhaanii barto.",
+                "bhii jahaaṁ jaao, saavdhaanii barto."
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second adds a place that does not exist. The third moves भी onto जाओ. The fourth puts भी first, which it cannot be."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "सावधानी बरतो",
+                "जहाँ भी",
+                "जाओ"
+              ],
+              "answer": [
+                "जहाँ भी",
+                "जाओ",
+                "सावधानी बरतो"
+              ],
+              "answer_read_as": "jahaaṁ bhii jaao, saavdhaanii barto.",
+              "explanation_en": "जहाँ भी stays together at the front."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जहाँ भी जाओ, सावधानी बरतो।",
+              "जो भी हो, हम तैयार हैं।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L08-I3",
+          "type": "grammar",
+          "structure": "jahaaṁ_tak",
+          "correlative_optional": true,
+          "target": "जहाँ तक मुझे पता है, वो नहीं आएँगे।",
+          "read_as": "jahaaṁ tak mujhe pataa hai, vo nahiiṁ aaeṁge.",
+          "english": "As far as I know, they are not coming.",
+          "difficulty": 8,
+          "tags": [
+            "place_clause",
+            "jahaaṁ_tak",
+            "fixed_phrase",
+            "hedging",
+            "correlative_optional"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जहाँ तक — a place word doing no place work at all",
+              "explanation_en": "जहाँ तक literally means \"up to where\", and it does mean that physically — जहाँ तक सड़क जाती है, as far as the road goes. But its commonest use is a hedge: जहाँ तक मुझे पता है, as far as I know. जहाँ तक हो सके, as far as possible. जहाँ तक मेरा सवाल है, as far as I am concerned. In that use there is no place involved and no correlative, and the phrase simply frames whatever follows as limited by the speaker's knowledge.",
+              "examples": [
+                {
+                  "hindi": "जहाँ तक मुझे पता है, वो नहीं आएँगे।",
+                  "read_as": "jahaaṁ tak mujhe pataa hai, vo nahiiṁ aaeṁge.",
+                  "english": "As far as I know, they are not coming.",
+                  "note": "A hedge, and the commonest use of the phrase."
+                },
+                {
+                  "hindi": "जहाँ तक हो सके, जल्दी आइए।",
+                  "read_as": "jahaaṁ tak ho sake, jaldii aaie.",
+                  "english": "Come as early as you possibly can.",
+                  "note": "As far as is possible — subjunctive सके."
+                },
+                {
+                  "hindi": "जहाँ तक सड़क जाती है, वहाँ तक गाड़ी जा सकती है।",
+                  "read_as": "jahaaṁ tak saṛak jaatii hai, vahaaṁ tak gaaṛii jaa saktii hai.",
+                  "english": "The car can go as far as the road goes.",
+                  "note": "The literal sense — and here वहाँ तक does appear."
+                }
+              ],
+              "common_error": {
+                "wrong": "जहाँ तक मैं जानता हूँ, वहाँ तक वो नहीं आएँगे।",
+                "right": "जहाँ तक मुझे पता है, वो नहीं आएँगे।",
+                "why_en": "Supplying वहाँ तक drags a distance into a sentence that has none. The hedging use takes no correlative."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these to hedge the second statement.",
+              "sentences": [
+                "मुझे इतना ही पता है।",
+                "वो नहीं आएँगे।"
+              ],
+              "sentences_read_as": [
+                "mujhe itnaa hii pataa hai.",
+                "vo nahiiṁ aaeṁge."
+              ],
+              "options": [
+                "जहाँ मुझे पता है, वहाँ वो नहीं आएँगे।",
+                "जहाँ तक मुझे पता है, वो नहीं आएँगे।",
+                "जहाँ तक मुझे पता है, वहाँ तक वो नहीं आएँगे।",
+                "जब तक मुझे पता है, वो नहीं आएँगे।"
+              ],
+              "options_read_as": [
+                "jahaaṁ mujhe pataa hai, vahaaṁ vo nahiiṁ aaeṁge.",
+                "jahaaṁ tak mujhe pataa hai, vo nahiiṁ aaeṁge.",
+                "jahaaṁ tak mujhe pataa hai, vahaaṁ tak vo nahiiṁ aaeṁge.",
+                "jab tak mujhe pataa hai, vo nahiiṁ aaeṁge."
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second supplies a correlative and invents a distance. The third uses जब तक, making it about time. The fourth uses the plain place pair, which says they will not come to the place where you happen to have knowledge."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "वो नहीं आएँगे",
+                "मुझे पता है",
+                "जहाँ तक"
+              ],
+              "answer": [
+                "जहाँ तक",
+                "मुझे पता है",
+                "वो नहीं आएँगे"
+              ],
+              "answer_read_as": "jahaaṁ tak mujhe pataa hai, vo nahiiṁ aaeṁge.",
+              "explanation_en": "The hedge comes first and frames what follows."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जहाँ तक मुझे पता है, वो नहीं आएँगे।",
+              "जहाँ तक हो सके, जल्दी आइए।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "जहाँ ... वहाँ is the place pair and requires both halves. जहाँ भी generalises and drops the correlative, exactly as जब भी does — the भी rule holds across the whole family. And जहाँ तक is usually not about place at all: it is how Hindi hedges a claim.",
+        "key_forms": [
+          "जहाँ ... वहाँ",
+          "जहाँ भी",
+          "जहाँ तक मुझे पता है"
+        ],
+        "next_up_en": "Next: as much as, and the more the more."
+      }
+    },
+    {
+      "level": 9,
+      "title_en": "As much as",
+      "title_hi": "जितना ... उतना",
+      "items": [
+        {
+          "id": "M14-L09-I1",
+          "type": "grammar",
+          "structure": "jitnaa_utnaa",
+          "target": "जितना पैसा है, उतना ही ख़र्च करो।",
+          "read_as": "jitnaa paisaa hai, utnaa hii ḳharch karo.",
+          "english": "Spend only as much money as you have.",
+          "difficulty": 8,
+          "tags": [
+            "quantity_clause",
+            "jitnaa_utnaa",
+            "correlative_pair",
+            "inflecting_pair",
+            "hii_particle"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The first pair that inflects",
+              "explanation_en": "जो, जब and जहाँ never change shape. जितना does — जितना, जितने, जितनी — because it is an adjective of quantity and agrees with its noun, and उतना agrees to match. जितना पैसा है, उतना ही ख़र्च करो: पैसा is masculine, so both are जितना and उतना. The ही in the second half is doing its usual narrowing — spend that much and no more. Without it the sentence merely compares; with it, it limits.",
+              "examples": [
+                {
+                  "hindi": "जितना पैसा है, उतना ही ख़र्च करो।",
+                  "read_as": "jitnaa paisaa hai, utnaa hii ḳharch karo.",
+                  "english": "Spend only as much as you have.",
+                  "note": "ही turns a comparison into a limit."
+                },
+                {
+                  "hindi": "जितने लोग आए, उतनी कुर्सियाँ नहीं थीं।",
+                  "read_as": "jitne log aae, utnii kursiyaaṁ nahiiṁ thiiṁ.",
+                  "english": "There were not as many chairs as people who came.",
+                  "note": "जितने for masculine plural लोग, उतनी for feminine plural कुर्सियाँ — the two halves agree separately."
+                },
+                {
+                  "hindi": "जितना कहा था, उतना हो गया।",
+                  "read_as": "jitnaa kahaa thaa, utnaa ho gayaa.",
+                  "english": "As much as was said has been done.",
+                  "note": "No noun at all, so both default to masculine singular."
+                }
+              ],
+              "common_error": {
+                "wrong": "जितने लोग आए, उतने कुर्सियाँ नहीं थीं।",
+                "right": "जितने लोग आए, उतनी कुर्सियाँ नहीं थीं।",
+                "why_en": "उतना agrees with its own noun, not with जितना. Each half agrees with what is in it."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these to mean: spend only as much as you have.",
+              "sentences": [
+                "तुम्हारे पास कुछ पैसा है।",
+                "उतना ही ख़र्च करो।"
+              ],
+              "sentences_read_as": [
+                "tumhaare paas kuchh paisaa hai.",
+                "utnaa hii ḳharch karo."
+              ],
+              "options": [
+                "जितना पैसा है, ख़र्च करो।",
+                "जितनी पैसा है, उतना ही ख़र्च करो।",
+                "जितना पैसा है, उतना ख़र्च ही करो।",
+                "जितना पैसा है, उतना ही ख़र्च करो।"
+              ],
+              "options_read_as": [
+                "jitnaa paisaa hai, ḳharch karo.",
+                "jitnii paisaa hai, utnaa hii ḳharch karo.",
+                "jitnaa paisaa hai, utnaa ḳharch hii karo.",
+                "jitnaa paisaa hai, utnaa hii ḳharch karo."
+              ],
+              "is_the_english_error": [
+                true,
+                false,
+                false,
+                false
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second drops the correlative. The third makes जितना feminine when पैसा is masculine. The fourth moves ही onto ख़र्च, so it now emphasises spending rather than the amount."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "उतना ही",
+                "जितना पैसा है",
+                "ख़र्च करो"
+              ],
+              "answer": [
+                "जितना पैसा है",
+                "उतना ही",
+                "ख़र्च करो"
+              ],
+              "answer_read_as": "jitnaa paisaa hai, utnaa hii ḳharch karo.",
+              "explanation_en": "उतना ही opens the second half, before the verb."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जितना पैसा है, उतना ही ख़र्च करो।",
+              "जितने लोग आए, उतनी कुर्सियाँ नहीं थीं।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L09-I2",
+          "type": "grammar",
+          "structure": "jitnaa_utnaa",
+          "target": "जितना सोचोगे, उतना ही मुश्किल लगेगा।",
+          "read_as": "jitnaa sochoge, utnaa hii mushkil lagegaa.",
+          "english": "The more you think about it, the harder it will seem.",
+          "difficulty": 8,
+          "tags": [
+            "quantity_clause",
+            "jitnaa_utnaa",
+            "the_more_the_more",
+            "future_both_halves"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जितना ... उतना is also \"the more, the more\"",
+              "explanation_en": "English has a special construction for this — \"the more you think, the harder it seems\" — with two \"the\"s that are not really articles. Hindi does not need anything special: it uses जितना ... उतना, the same pair as for quantity, and lets the verbs carry the rest. जितना सोचोगे, उतना ही मुश्किल लगेगा. Note that both halves are in the future, which is normal here and would be impossible in English.",
+              "examples": [
+                {
+                  "hindi": "जितना सोचोगे, उतना ही मुश्किल लगेगा।",
+                  "read_as": "jitnaa sochoge, utnaa hii mushkil lagegaa.",
+                  "english": "The more you think about it, the harder it will seem.",
+                  "note": "Future in both halves."
+                },
+                {
+                  "hindi": "जितनी जल्दी करोगे, उतनी जल्दी ख़त्म होगा।",
+                  "read_as": "jitnii jaldii karoge, utnii jaldii ḳhatm hogaa.",
+                  "english": "The faster you work, the sooner it will finish.",
+                  "note": "जल्दी is feminine, so both halves take -ी."
+                },
+                {
+                  "hindi": "जितना दूर जाओगे, उतना ही अकेले होगे।",
+                  "read_as": "jitnaa duur jaaoge, utnaa hii akele hoge.",
+                  "english": "The further you go, the more alone you will be.",
+                  "note": "उतना ही, narrowing the correspondence to exactly that."
+                }
+              ],
+              "common_error": {
+                "wrong": "जितना ज़्यादा सोचोगे, उतना ज़्यादा मुश्किल लगेगा।",
+                "right": "जितना सोचोगे, उतना ही मुश्किल लगेगा।",
+                "why_en": "Not wrong, but ज़्यादा is doing work जितना already does. Learners add it because English needs \"more\", and Hindi does not."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these to mean: the more you think, the harder it will seem.",
+              "sentences": [
+                "तुम इसके बारे में सोचोगे।",
+                "यह मुश्किल लगेगा।"
+              ],
+              "sentences_read_as": [
+                "tum iske baare meṁ sochoge.",
+                "yah mushkil lagegaa."
+              ],
+              "options": [
+                "जितना सोचोगे, उतना ही मुश्किल लगेगा।",
+                "जितना सोचोगे, मुश्किल लगेगा।",
+                "जितना सोचते हो, उतना ही मुश्किल लगेगा।",
+                "जितना ज़्यादा सोचोगे, उतना ज़्यादा ही मुश्किल लगेगा।"
+              ],
+              "options_read_as": [
+                "jitnaa sochoge, utnaa hii mushkil lagegaa.",
+                "jitnaa sochoge, mushkil lagegaa.",
+                "jitnaa sochte ho, utnaa hii mushkil lagegaa.",
+                "jitnaa zyaadaa sochoge, utnaa zyaadaa hii mushkil lagegaa."
+              ],
+              "is_the_english_error": [
+                false,
+                true,
+                false,
+                false
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second drops the correlative. The third puts the present in the first half, which turns a prediction into a habit. The fourth adds ज़्यादा twice, which जितना and उतना already carry."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "मुश्किल लगेगा",
+                "उतना ही",
+                "जितना सोचोगे"
+              ],
+              "answer": [
+                "जितना सोचोगे",
+                "उतना ही",
+                "मुश्किल लगेगा"
+              ],
+              "answer_read_as": "jitnaa sochoge, utnaa hii mushkil lagegaa.",
+              "explanation_en": "The two halves mirror each other in shape as well as in meaning."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जितना सोचोगे, उतना ही मुश्किल लगेगा।",
+              "जितनी जल्दी करोगे, उतनी जल्दी ख़त्म होगा।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L09-I3",
+          "type": "grammar",
+          "structure": "jitnaa_utnaa",
+          "target": "जितनी मेहनत की, उतनी ही तारीफ़ मिली।",
+          "read_as": "jitnii mehnat kii, utnii hii taariif milii.",
+          "english": "The praise matched the effort.",
+          "difficulty": 8,
+          "tags": [
+            "quantity_clause",
+            "jitnaa_utnaa",
+            "feminine_agreement",
+            "callback_m13"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Each half agrees with its own noun",
+              "explanation_en": "जितनी मेहनत की, उतनी ही तारीफ़ मिली — both halves feminine, because मेहनत and तारीफ़ both are. That is a coincidence, and it hides the real rule, which the second example makes visible: the two halves agree separately, each with its own noun. जितने लोग आए, उतनी कुर्सियाँ नहीं थीं has a masculine first half and a feminine second, and nothing about that is irregular. Learners match उतना to जितना because they look like a pair; they are a pair semantically and not grammatically.",
+              "examples": [
+                {
+                  "hindi": "जितनी मेहनत की, उतनी ही तारीफ़ मिली।",
+                  "read_as": "jitnii mehnat kii, utnii hii taariif milii.",
+                  "english": "The praise matched the effort.",
+                  "note": "Both feminine, but for two separate reasons."
+                },
+                {
+                  "hindi": "जितना काम था, उतनी मदद नहीं मिली।",
+                  "read_as": "jitnaa kaam thaa, utnii madad nahiiṁ milii.",
+                  "english": "There was not as much help as there was work.",
+                  "note": "काम masculine, मदद feminine — the halves disagree, correctly."
+                },
+                {
+                  "hindi": "जितनी उम्मीद थी, उतना नहीं हुआ।",
+                  "read_as": "jitnii ummiid thii, utnaa nahiiṁ huaa.",
+                  "english": "It did not turn out as well as hoped.",
+                  "note": "उम्मीद feminine, and the second half has no noun, so it defaults masculine."
+                }
+              ],
+              "common_error": {
+                "wrong": "जितना काम था, उतना मदद नहीं मिली।",
+                "right": "जितना काम था, उतनी मदद नहीं मिली।",
+                "why_en": "उतना has to agree with मदद, which is feminine, not with जितना across the comma."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence.",
+              "sentences": [
+                "उसने बहुत मेहनत की।",
+                "उतनी ही तारीफ़ मिली।"
+              ],
+              "sentences_read_as": [
+                "usne bahut mehnat kii.",
+                "utnii hii taariif milii."
+              ],
+              "options": [
+                "जितना मेहनत की, उतनी ही तारीफ़ मिली।",
+                "जितनी मेहनत की, उतना ही तारीफ़ मिली।",
+                "जितनी मेहनत की, उतनी ही तारीफ़ मिली।",
+                "जितनी मेहनत की, तारीफ़ मिली।"
+              ],
+              "options_read_as": [
+                "jitnaa mehnat kii, utnii hii taariif milii.",
+                "jitnii mehnat kii, utnaa hii taariif milii.",
+                "jitnii mehnat kii, utnii hii taariif milii.",
+                "jitnii mehnat kii, taariif milii."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                false,
+                true
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second drops the correlative. The third makes जितना masculine when मेहनत is feminine. The fourth makes उतना masculine when तारीफ़ is feminine."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "उतनी ही",
+                "तारीफ़ मिली",
+                "जितनी मेहनत की"
+              ],
+              "answer": [
+                "जितनी मेहनत की",
+                "उतनी ही",
+                "तारीफ़ मिली"
+              ],
+              "answer_read_as": "jitnii mehnat kii, utnii hii taariif milii.",
+              "explanation_en": "Each quantity word sits in front of its own noun."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जितनी मेहनत की, उतनी ही तारीफ़ मिली।",
+              "जितना काम था, उतनी मदद नहीं मिली।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "जितना ... उतना is the first correlative pair that inflects, and each half agrees with its own noun rather than with the other half. It covers both \"as much as\" and \"the more, the more\", and it needs no equivalent of English's extra \"more\".",
+        "key_forms": [
+          "जितना ... उतना ही",
+          "जितने ... उतनी",
+          "जितना सोचोगे"
+        ],
+        "next_up_en": "Next: the last pair, and a drill that mixes all five."
+      }
+    },
+    {
+      "level": 10,
+      "title_en": "As, so — and all five together",
+      "title_hi": "जैसा ... वैसा",
+      "items": [
+        {
+          "id": "M14-L10-I1",
+          "type": "grammar",
+          "structure": "jaisaa_vaisaa",
+          "target": "जैसा तुमने कहा, वैसा ही हुआ।",
+          "read_as": "jaisaa tumne kahaa, vaisaa hii huaa.",
+          "english": "It happened exactly as you said.",
+          "difficulty": 8,
+          "tags": [
+            "manner_clause",
+            "jaisaa_vaisaa",
+            "correlative_pair",
+            "inflecting_pair",
+            "fifth_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The fifth and last pair",
+              "explanation_en": "जैसा ... वैसा is the manner pair — as, so. Like जितना it inflects, because it is an adjective: जैसा, जैसे, जैसी. जैसा तुमने कहा, वैसा ही हुआ. That completes the set of five: जो...वह for things, जब...तब for time, जहाँ...वहाँ for place, जितना...उतना for quantity, जैसा...वैसा for manner. Three never change shape and two agree, and every one of them needs both halves unless भी or तक is involved.",
+              "examples": [
+                {
+                  "hindi": "जैसा तुमने कहा, वैसा ही हुआ।",
+                  "read_as": "jaisaa tumne kahaa, vaisaa hii huaa.",
+                  "english": "It happened exactly as you said.",
+                  "note": "वैसा ही — precisely that way."
+                },
+                {
+                  "hindi": "जैसी करनी, वैसी भरनी।",
+                  "read_as": "jaisii karnii, vaisii bharnii.",
+                  "english": "As you sow, so shall you reap.",
+                  "note": "The proverb, feminine throughout, and with no verbs at all."
+                },
+                {
+                  "hindi": "जैसा देश, वैसा भेस।",
+                  "read_as": "jaisaa desh, vaisaa bhes.",
+                  "english": "When in Rome, do as the Romans do.",
+                  "note": "Another proverb — four words, both halves, no verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "जैसा तुमने कहा, हुआ।",
+                "right": "जैसा तुमने कहा, वैसा ही हुआ।",
+                "why_en": "The last of the five, and the same omission as the first. English says \"it happened as you said\" and needs nothing more."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence.",
+              "sentences": [
+                "तुमने कुछ कहा था।",
+                "वैसा ही हुआ।"
+              ],
+              "sentences_read_as": [
+                "tumne kuchh kahaa thaa.",
+                "vaisaa hii huaa."
+              ],
+              "options": [
+                "जैसा तुमने कहा, हुआ।",
+                "जैसे तुमने कहा, वैसा ही हुआ।",
+                "तुमने जैसा कहा हुआ वैसा ही।",
+                "जैसा तुमने कहा, वैसा ही हुआ।"
+              ],
+              "options_read_as": [
+                "jaisaa tumne kahaa, huaa.",
+                "jaise tumne kahaa, vaisaa hii huaa.",
+                "tumne jaisaa kahaa huaa vaisaa hii.",
+                "jaisaa tumne kahaa, vaisaa hii huaa."
+              ],
+              "is_the_english_error": [
+                true,
+                false,
+                false,
+                false
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second drops the correlative. The third mixes the adjectival जैसा with the adverbial जैसे, which the next item separates. The fourth scrambles the halves."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "वैसा ही हुआ",
+                "जैसा तुमने",
+                "कहा"
+              ],
+              "answer": [
+                "जैसा तुमने",
+                "कहा",
+                "वैसा ही हुआ"
+              ],
+              "answer_read_as": "jaisaa tumne kahaa, vaisaa hii huaa.",
+              "explanation_en": "The fifth pair behaves exactly like the first four."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जैसा तुमने कहा, वैसा ही हुआ।",
+              "जैसी करनी, वैसी भरनी।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L10-I2",
+          "type": "grammar",
+          "structure": "jaise_vaise",
+          "target": "जैसे वो बोलते हैं, वैसे कोई नहीं बोलता।",
+          "read_as": "jaise vo bolte haiṁ, vaise koii nahiiṁ boltaa.",
+          "english": "Nobody speaks the way he does.",
+          "difficulty": 9,
+          "tags": [
+            "manner_clause",
+            "jaise_vaise",
+            "adjective_vs_adverb",
+            "subtle_distinction"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जैसा describes a noun; जैसे describes a verb",
+              "explanation_en": "जैसा is an adjective and agrees with a noun: जैसा आदमी, जैसी बात, जैसे लोग. जैसे is an adverb and modifies a verb, and it never changes: जैसे वो बोलते हैं, वैसे कोई नहीं बोलता — nobody speaks the way he does. The test is simple. If you could put a noun after it, use जैसा and make it agree. If you are describing how something is done, use जैसे and leave it alone.",
+              "examples": [
+                {
+                  "hindi": "जैसे वो बोलते हैं, वैसे कोई नहीं बोलता।",
+                  "read_as": "jaise vo bolte haiṁ, vaise koii nahiiṁ boltaa.",
+                  "english": "Nobody speaks the way he does.",
+                  "note": "Adverbial — it is about how the speaking is done."
+                },
+                {
+                  "hindi": "जैसा आदमी, वैसा काम।",
+                  "read_as": "jaisaa aadmii, vaisaa kaam.",
+                  "english": "As the man, so the work.",
+                  "note": "Adjectival — both are attached to nouns."
+                },
+                {
+                  "hindi": "जैसे मैंने बताया, वैसे ही कीजिए।",
+                  "read_as": "jaise maiṁne bataayaa, vaise hii kiijie.",
+                  "english": "Do it just as I explained.",
+                  "note": "Adverbial, and वैसे ही narrows it to precisely that way."
+                }
+              ],
+              "common_error": {
+                "wrong": "जैसा वो बोलते हैं, वैसा कोई नहीं बोलता।",
+                "right": "जैसे वो बोलते हैं, वैसे कोई नहीं बोलता।",
+                "why_en": "There is no noun here — the sentence is about how the speaking happens, so the adverbial form is needed."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these to mean: nobody speaks the way he does.",
+              "sentences": [
+                "वो एक ख़ास तरीक़े से बोलते हैं।",
+                "कोई वैसे नहीं बोलता।"
+              ],
+              "sentences_read_as": [
+                "vo ek ḳhaas tariiqe se bolte haiṁ.",
+                "koii vaise nahiiṁ boltaa."
+              ],
+              "options": [
+                "जैसे वो बोलते हैं, वैसा कोई नहीं बोलता।",
+                "जैसे वो बोलते हैं, वैसे कोई नहीं बोलता।",
+                "जैसे वो बोलते हैं, कोई नहीं बोलता।",
+                "जैसा वो बोलते हैं, वैसा कोई नहीं बोलता।"
+              ],
+              "options_read_as": [
+                "jaise vo bolte haiṁ, vaisaa koii nahiiṁ boltaa.",
+                "jaise vo bolte haiṁ, vaise koii nahiiṁ boltaa.",
+                "jaise vo bolte haiṁ, koii nahiiṁ boltaa.",
+                "jaisaa vo bolte haiṁ, vaisaa koii nahiiṁ boltaa."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                true,
+                false
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second drops the correlative. The third uses the adjectival form where there is no noun. The fourth mixes the two, adverbial in one half and adjectival in the other."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "वैसे कोई",
+                "जैसे वो",
+                "नहीं बोलता",
+                "बोलते हैं"
+              ],
+              "answer": [
+                "जैसे वो",
+                "बोलते हैं",
+                "वैसे कोई",
+                "नहीं बोलता"
+              ],
+              "answer_read_as": "jaise vo bolte haiṁ, vaise koii nahiiṁ boltaa.",
+              "explanation_en": "Both halves use the adverbial form, unchanged."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जैसे वो बोलते हैं, वैसे कोई नहीं बोलता।",
+              "जैसा आदमी, वैसा काम।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L10-I3",
+          "type": "grammar",
+          "structure": "correlatives_mixed",
+          "target": "जहाँ जैसा माहौल हो, वहाँ वैसा ही बोलना चाहिए।",
+          "read_as": "jahaaṁ jaisaa maahaul ho, vahaaṁ vaisaa hii bolnaa chaahie.",
+          "english": "You should speak according to the setting you are in.",
+          "difficulty": 10,
+          "tags": [
+            "correlatives_mixed",
+            "two_pairs_nested",
+            "capstone",
+            "module15_preview"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Two pairs in one sentence, and they do not tangle",
+              "explanation_en": "जहाँ जैसा माहौल हो, वहाँ वैसा ही बोलना चाहिए. There are two complete pairs here — जहाँ...वहाँ and जैसा...वैसा — and they nest cleanly because each opener sits with its own answerer in the matching position. Read the first half as a unit and the second half as its mirror. Hindi does this readily and English cannot do it at all, which is why the translation needs a whole different sentence. This is also, as it happens, exactly what Module 15 is about.",
+              "examples": [
+                {
+                  "hindi": "जहाँ जैसा माहौल हो, वहाँ वैसा ही बोलना चाहिए।",
+                  "read_as": "jahaaṁ jaisaa maahaul ho, vahaaṁ vaisaa hii bolnaa chaahie.",
+                  "english": "You should speak according to the setting you are in.",
+                  "note": "Two pairs, mirrored."
+                },
+                {
+                  "hindi": "जब जैसा मौक़ा हो, तब वैसा ही कपड़ा पहनो।",
+                  "read_as": "jab jaisaa mauqaa ho, tab vaisaa hii kapṛaa pahno.",
+                  "english": "Dress for the occasion.",
+                  "note": "जब...तब nested with जैसा...वैसा."
+                },
+                {
+                  "hindi": "जो जहाँ है, वहीं रहे।",
+                  "read_as": "jo jahaaṁ hai, vahiiṁ rahe.",
+                  "english": "Let everyone stay where they are.",
+                  "note": "जो and जहाँ both open, and वहीं answers the second — the first is left to the sense."
+                }
+              ],
+              "common_error": {
+                "wrong": "जहाँ जैसा माहौल हो, वैसा ही बोलना चाहिए।",
+                "right": "जहाँ जैसा माहौल हो, वहाँ वैसा ही बोलना चाहिए।",
+                "why_en": "Two openers need two answerers. Dropping वहाँ leaves जहाँ unanswered, and the sentence tilts."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence with both pairs.",
+              "sentences": [
+                "माहौल अलग-अलग होता है।",
+                "उसी के हिसाब से बोलना चाहिए।"
+              ],
+              "sentences_read_as": [
+                "maahaul alag-alag hotaa hai.",
+                "usii ke hisaab se bolnaa chaahie."
+              ],
+              "options": [
+                "जहाँ जैसा माहौल हो, वहाँ ही बोलना चाहिए।",
+                "जैसा जहाँ माहौल हो, वैसा वहाँ बोलना चाहिए।",
+                "जहाँ जैसा माहौल हो, वहाँ वैसा ही बोलना चाहिए।",
+                "जहाँ जैसा माहौल हो, वैसा ही बोलना चाहिए।"
+              ],
+              "options_read_as": [
+                "jahaaṁ jaisaa maahaul ho, vahaaṁ hii bolnaa chaahie.",
+                "jaisaa jahaaṁ maahaul ho, vaisaa vahaaṁ bolnaa chaahie.",
+                "jahaaṁ jaisaa maahaul ho, vahaaṁ vaisaa hii bolnaa chaahie.",
+                "jahaaṁ jaisaa maahaul ho, vaisaa hii bolnaa chaahie."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                false,
+                true
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second answers only जैसा and leaves जहाँ hanging. The third answers only जहाँ and loses the manner. The fourth swaps the order of the openers, so the two pairs no longer mirror."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "वहाँ वैसा ही",
+                "माहौल हो",
+                "बोलना चाहिए",
+                "जहाँ जैसा"
+              ],
+              "answer": [
+                "जहाँ जैसा",
+                "माहौल हो",
+                "वहाँ वैसा ही",
+                "बोलना चाहिए"
+              ],
+              "answer_read_as": "jahaaṁ jaisaa maahaul ho, vahaaṁ vaisaa hii bolnaa chaahie.",
+              "explanation_en": "The openers stay together and the answerers stay together, in the same order."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जहाँ जैसा माहौल हो, वहाँ वैसा ही बोलना चाहिए।",
+              "जब जैसा मौक़ा हो, तब वैसा ही कपड़ा पहनो।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "That is all five pairs: जो...वह, जब...तब, जहाँ...वहाँ, जितना...उतना, जैसा...वैसा. Three never inflect and two agree with their nouns. जैसा describes a noun and जैसे describes a verb. And two pairs can nest in one sentence, each opener answered in the matching position.",
+        "key_forms": [
+          "जैसा ... वैसा",
+          "जैसे ... वैसे",
+          "जहाँ जैसा ... वहाँ वैसा"
+        ],
+        "next_up_en": "Next: अगर ... तो, and the conditionals."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1543 @@
+{
+  "module": 7,
+  "module_name_en": "The Tense-Aspect Engine",
+  "module_name_hi": "काल",
+  "phase": 3,
+  "batch": {
+    "levels_from": 26,
+    "levels_to": 30
+  },
+  "model_verb": {
+    "hindi": "जाना",
+    "read_as": "jaanaa",
+    "english": "to go",
+    "transitivity": "intransitive"
+  },
+  "levels": [
+    {
+      "level": 26,
+      "title_en": "Imperatives: the तुम form",
+      "title_hi": "जाओ · बोलो · आओ",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L26-I1",
+          "type": "grammar",
+          "target": "जाओ",
+          "read_as": "jaao",
+          "pronunciation_notes": "Two vowels running together with no consonant between them: jaa-o.",
+          "gloss_en": "the everyday imperative",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "imperative",
+          "tags": [
+            "imperative",
+            "second_person",
+            "register",
+            "tum",
+            "three_registers"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Three registers, three different words",
+              "explanation_en": "Hindi has no single word for go. It has three, and which one you use says everything about your relationship with the person you are speaking to: जा for तू, जाओ for तुम, and जाइए for आप. There is no neutral option and no way to avoid choosing, which is why the register system from Module 5 turns out to matter more here than anywhere else in the course. जाओ is the तुम form, built by adding -ओ to the stem, and it is the one you will use with friends, with people your own age, and with anyone who has already used it on you.",
+              "examples": [
+                {
+                  "hindi": "जाओ",
+                  "read_as": "jaao",
+                  "english": "go",
+                  "note": "The तुम form — stem plus -ओ."
+                },
+                {
+                  "hindi": "घर जाओ",
+                  "read_as": "ghar jaao",
+                  "english": "go home",
+                  "note": "The destination takes no postposition, as always with जाना."
+                },
+                {
+                  "hindi": "स्कूल जाओ",
+                  "read_as": "skuul jaao",
+                  "english": "go to school",
+                  "note": "Same shape, and no word for to is needed."
+                }
+              ],
+              "common_error": {
+                "wrong": "तुम जाओ हो",
+                "right": "जाओ",
+                "why_en": "An imperative takes no auxiliary and usually no pronoun either. The form alone is the whole sentence."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Give the imperative for this register.",
+              "question": "जाना · तुम · imperative",
+              "question_read_as": "jaanaa · tum · imperative",
+              "options": [
+                "जा",
+                "जाइए",
+                "जाओगे",
+                "जाओ"
+              ],
+              "options_read_as": [
+                "jaa",
+                "jaaie",
+                "jaaoge",
+                "jaao"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The तुम imperative is the stem plus -ओ. जाओगे is the future, not a command."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the simple future cell?",
+              "options": [
+                "जाओ",
+                "तुम जाओगे",
+                "जाइए",
+                "तुम जाते हो"
+              ],
+              "options_read_as": [
+                "jaao",
+                "tum jaaoge",
+                "jaaie",
+                "tum jaate ho"
+              ],
+              "answer_index": 1,
+              "explanation_en": "तुम जाओगे — you will go. जाओ is a command about now."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जाओ",
+              "घर जाओ",
+              "स्कूल जाओ"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L26-I2",
+          "type": "grammar",
+          "target": "बोलो",
+          "read_as": "bolo",
+          "pronunciation_notes": "The stem vowel stays long and the ending is short: bo-lo.",
+          "gloss_en": "the तुम imperative on a consonant stem",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "imperative",
+          "tags": [
+            "imperative",
+            "second_person",
+            "tum",
+            "consonant_stem"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Strip -ना, add -ओ, and stop",
+              "explanation_en": "बोलना gives बोलो, सुनना gives सुनो, बैठना gives बैठो. There is nothing to agree with here — no gender, no number, no auxiliary — because a command is aimed at whoever is in front of you and Hindi does not mark anything further. That makes the imperative the only part of the verb system in this module with no agreement at all, which after twenty-five levels of participles and auxiliaries is a genuine rest.",
+              "examples": [
+                {
+                  "hindi": "बोलो",
+                  "read_as": "bolo",
+                  "english": "speak, say it",
+                  "note": "Also used to mean go ahead, I am listening."
+                },
+                {
+                  "hindi": "सुनो",
+                  "read_as": "suno",
+                  "english": "listen",
+                  "note": "Very often used simply to get someone's attention."
+                },
+                {
+                  "hindi": "बैठो",
+                  "read_as": "baiṭho",
+                  "english": "sit down",
+                  "note": "The casual version of an offer you will hear constantly."
+                }
+              ],
+              "common_error": {
+                "wrong": "बोलते",
+                "right": "बोलो",
+                "why_en": "बोलते is the habitual participle and needs an auxiliary behind it. The imperative is built from the bare stem instead."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Give the imperative for this register.",
+              "question": "सुनना · तुम · imperative",
+              "question_read_as": "sunnaa · tum · imperative",
+              "options": [
+                "सुनो",
+                "सुनते",
+                "सुनिए",
+                "सुन"
+              ],
+              "options_read_as": [
+                "suno",
+                "sunte",
+                "sunie",
+                "sun"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Stem सुन plus -ओ. सुन alone is the तू form and सुनिए is the आप form."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": [
+                "बोलो",
+                "बोलिए",
+                "तुम बोलते हो",
+                "तुम बोलोगे"
+              ],
+              "options_read_as": [
+                "bolo",
+                "bolie",
+                "tum bolte ho",
+                "tum bologe"
+              ],
+              "answer_index": 2,
+              "explanation_en": "तुम बोलते हो — you speak, as a habit."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बोलो",
+              "सुनो",
+              "बैठो"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L26-I3",
+          "type": "grammar",
+          "target": "यहाँ आओ",
+          "read_as": "yahaaṁ aao",
+          "pronunciation_notes": "यहाँ ends on a nasal hum and runs straight into the vowel of आओ.",
+          "gloss_en": "the imperative with a place word",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "imperative",
+          "tags": [
+            "imperative",
+            "second_person",
+            "tum",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Come here",
+              "explanation_en": "यहाँ आओ is come here, and it shows the ordinary shape of an imperative sentence: everything else first, verb last. That is the same word order you have used since Module 5 and nothing about a command changes it. Worth knowing about tone, too. A bare imperative in Hindi is not as blunt as its English translation looks — यहाँ आओ between friends carries no more force than come here does, and adding ज़रा or a rising tone softens it further, exactly as it would in English.",
+              "examples": [
+                {
+                  "hindi": "यहाँ आओ",
+                  "read_as": "yahaaṁ aao",
+                  "english": "come here",
+                  "note": "Place word first, verb last."
+                },
+                {
+                  "hindi": "यहाँ बैठो",
+                  "read_as": "yahaaṁ baiṭho",
+                  "english": "sit here",
+                  "note": "The same shape with a different verb."
+                },
+                {
+                  "hindi": "घर आओ",
+                  "read_as": "ghar aao",
+                  "english": "come home",
+                  "note": "आना takes its destination bare, exactly as जाना does."
+                }
+              ],
+              "common_error": {
+                "wrong": "आओ यहाँ",
+                "right": "यहाँ आओ",
+                "why_en": "The verb goes last. Reversing it is understandable but sounds like an afterthought rather than a request."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Give the imperative for this register.",
+              "question": "आना · तुम · imperative",
+              "question_read_as": "aanaa · tum · imperative",
+              "options": [
+                "आइए",
+                "आते",
+                "आओ",
+                "आ"
+              ],
+              "options_read_as": [
+                "aaie",
+                "aate",
+                "aao",
+                "aa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Stem आ plus -ओ gives आओ."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous present cell?",
+              "options": [
+                "तुम यहाँ आ रहे हो",
+                "तुम यहाँ आते हो",
+                "यहाँ आओ",
+                "तुम यहाँ आओगे"
+              ],
+              "options_read_as": [
+                "tum yahaaṁ aa rahe ho",
+                "tum yahaaṁ aate ho",
+                "yahaaṁ aao",
+                "tum yahaaṁ aaoge"
+              ],
+              "answer_index": 0,
+              "explanation_en": "तुम यहाँ आ रहे हो — you are coming here right now."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "यहाँ आओ",
+              "यहाँ बैठो",
+              "घर आओ"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The imperative has three forms chosen entirely by register, and the तुम one is the stem plus -ओ. It is the only part of the verb system with no agreement at all — no gender, no number, no auxiliary — and the verb still goes last in the sentence.",
+        "key_forms": [
+          "जाओ",
+          "बोलो",
+          "यहाँ आओ"
+        ],
+        "next_up_en": "Next: the आप form, which is the one to default to and the one with the irregulars."
+      }
+    },
+    {
+      "level": 27,
+      "title_en": "Imperatives: the आप form",
+      "title_hi": "आइए · कीजिए · बैठिए",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L27-I1",
+          "type": "grammar",
+          "target": "आइए",
+          "read_as": "aaie",
+          "pronunciation_notes": "Three vowels in a row with no consonant at all: aa-i-e, and the last is short.",
+          "gloss_en": "the polite imperative, and the safe default",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "imperative",
+          "tags": [
+            "imperative",
+            "second_person",
+            "register",
+            "aap",
+            "formal",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The most useful polite word in Hindi",
+              "explanation_en": "आइए is please come, or please come in, and it is the word that greets you at every doorway in India. The आप imperative is the stem plus -इए, and it is the form to default to with anyone you do not already know — the same rule Module 5 gave you for the pronoun itself. It is worth over-learning this ending, because an imperative in the wrong register is far more noticeable than a wrong tense. Getting the grammar slightly off sounds foreign; getting the register wrong sounds rude.",
+              "examples": [
+                {
+                  "hindi": "आइए",
+                  "read_as": "aaie",
+                  "english": "please come in",
+                  "note": "Stem आ plus -इए."
+                },
+                {
+                  "hindi": "यहाँ आइए",
+                  "read_as": "yahaaṁ aaie",
+                  "english": "please come here",
+                  "note": "The polite version of the sentence from the last level."
+                },
+                {
+                  "hindi": "सुनिए",
+                  "read_as": "sunie",
+                  "english": "excuse me, listen",
+                  "note": "This is how you get a stranger's attention politely."
+                }
+              ],
+              "common_error": {
+                "wrong": "आप आओ",
+                "right": "आइए",
+                "why_en": "आओ is the तुम form. Opening with आप and finishing with a casual imperative is the mismatch most likely to land badly."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Give the imperative for this register.",
+              "question": "आना · आप · imperative",
+              "question_read_as": "aanaa · aap · imperative",
+              "options": [
+                "आओ",
+                "आइए",
+                "आ",
+                "आएंगे"
+              ],
+              "options_read_as": [
+                "aao",
+                "aaie",
+                "aa",
+                "aaeṁge"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The आप imperative is the stem plus -इए. आएंगे is the future rather than a request."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the simple future cell?",
+              "options": [
+                "आइए",
+                "आप आते हैं",
+                "आओ",
+                "आप आएंगे"
+              ],
+              "options_read_as": [
+                "aaie",
+                "aap aate haiṁ",
+                "aao",
+                "aap aaeṁge"
+              ],
+              "answer_index": 3,
+              "explanation_en": "आप आएंगे — you will come. आइए is a request about now."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "आइए",
+              "यहाँ आइए",
+              "सुनिए"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L27-I2",
+          "type": "grammar",
+          "target": "कीजिए",
+          "read_as": "kiijie",
+          "pronunciation_notes": "The stem vowel lengthens to a long ii, which is the whole irregularity: kii-ji-e.",
+          "gloss_en": "the irregular polite imperatives",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "imperative",
+          "tags": [
+            "imperative",
+            "second_person",
+            "aap",
+            "irregular",
+            "closed_list"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Four verbs break the rule, and only four",
+              "explanation_en": "By the rule, करना should give करिए. It gives कीजिए instead. The same thing happens to three more: लेना becomes लीजिए, देना becomes दीजिए, and पीना becomes पीजिए. That is the complete list — every other verb in the language is regular here, so this is four words to memorise rather than a pattern to worry about. All four are high-frequency, which is exactly why they are irregular: the words people say most often are the ones that wear down.",
+              "examples": [
+                {
+                  "hindi": "कीजिए",
+                  "read_as": "kiijie",
+                  "english": "please do it",
+                  "note": "करना, and the ending swallows the stem's vowel."
+                },
+                {
+                  "hindi": "लीजिए",
+                  "read_as": "liijie",
+                  "english": "please take it, here you are",
+                  "note": "What someone says as they hand you something."
+                },
+                {
+                  "hindi": "दीजिए",
+                  "read_as": "diijie",
+                  "english": "please give",
+                  "note": "The polite way to ask for anything at a counter."
+                }
+              ],
+              "common_error": {
+                "wrong": "करिए",
+                "right": "कीजिए",
+                "why_en": "करिए is what the rule predicts and it is not what people say. This is one of exactly four verbs where that happens."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Give the imperative for this register.",
+              "question": "करना · आप · imperative",
+              "question_read_as": "karnaa · aap · imperative",
+              "options": [
+                "करिए",
+                "करो",
+                "करेंगे",
+                "कीजिए"
+              ],
+              "options_read_as": [
+                "karie",
+                "karo",
+                "kareṁge",
+                "kiijie"
+              ],
+              "answer_index": 3,
+              "explanation_en": "करना is one of the four irregulars, so कीजिए rather than the predicted करिए."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": [
+                "कीजिए",
+                "आप करते हैं",
+                "आप करेंगे",
+                "करो"
+              ],
+              "options_read_as": [
+                "kiijie",
+                "aap karte haiṁ",
+                "aap kareṁge",
+                "karo"
+              ],
+              "answer_index": 1,
+              "explanation_en": "आप करते हैं — you do it, as a habit."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "कीजिए",
+              "लीजिए",
+              "दीजिए"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L27-I3",
+          "type": "grammar",
+          "target": "बैठिए",
+          "read_as": "baiṭhie",
+          "pronunciation_notes": "Retroflex and aspirated in the middle, then two short vowels: bai-ṭhi-e.",
+          "gloss_en": "the polite imperative on a consonant stem",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "imperative",
+          "tags": [
+            "imperative",
+            "second_person",
+            "aap",
+            "consonant_stem",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Please sit",
+              "explanation_en": "बैठिए is what you will be told within seconds of entering anyone's home or office, and it is worth recognising instantly. The stem बैठ ends in a consonant so the ending simply attaches: बैठ plus इए. Compare it with बैठा है from level fourteen, which describes someone already seated, and you have the two things you can do with this verb — invite the action, or describe its result. The middle case, बैठ रहा है, is the one you will almost never need.",
+              "examples": [
+                {
+                  "hindi": "बैठिए",
+                  "read_as": "baiṭhie",
+                  "english": "please sit down",
+                  "note": "Stem बैठ plus -इए, with nothing merged."
+                },
+                {
+                  "hindi": "यहाँ बैठिए",
+                  "read_as": "yahaaṁ baiṭhie",
+                  "english": "please sit here",
+                  "note": "Place word first, verb last, as always."
+                },
+                {
+                  "hindi": "बोलिए",
+                  "read_as": "bolie",
+                  "english": "please go ahead",
+                  "note": "Said to invite someone to speak — the polite version of बोलो."
+                }
+              ],
+              "common_error": {
+                "wrong": "आप बैठो",
+                "right": "बैठिए",
+                "why_en": "बैठो is the तुम form. Offering someone a seat in the wrong register undercuts the courtesy of offering at all."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Give the imperative for this register.",
+              "question": "बैठना · आप · imperative",
+              "question_read_as": "baiṭhnaa · aap · imperative",
+              "options": [
+                "बैठिए",
+                "बैठो",
+                "बैठ",
+                "बैठेंगे"
+              ],
+              "options_read_as": [
+                "baiṭhie",
+                "baiṭho",
+                "baiṭh",
+                "baiṭheṁge"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Consonant stem, so the ending attaches with no change: बैठिए."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the perfective present cell?",
+              "options": [
+                "बैठिए",
+                "वह बैठता है",
+                "वह बैठा है",
+                "वह बैठ रहा है"
+              ],
+              "options_read_as": [
+                "baiṭhie",
+                "vah baiṭhtaa hai",
+                "vah baiṭhaa hai",
+                "vah baiṭh rahaa hai"
+              ],
+              "answer_index": 2,
+              "explanation_en": "वह बैठा है — he is seated, the result of a completed action."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बैठिए",
+              "यहाँ बैठिए",
+              "बोलिए"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The आप imperative is the stem plus -इए and it is the form to default to with anyone you do not know. Four verbs break the rule — कीजिए, लीजिए, दीजिए, पीजिए — and that list is closed. A wrong register here is more noticeable to a listener than a wrong tense.",
+        "key_forms": [
+          "आइए",
+          "कीजिए",
+          "बैठिए"
+        ],
+        "next_up_en": "Next: the तू form, which comes with a warning, and how to tell someone not to."
+      }
+    },
+    {
+      "level": 28,
+      "title_en": "Imperatives: तू, and the negative",
+      "title_hi": "जा · मत जाओ · मत जाइए",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L28-I1",
+          "type": "grammar",
+          "target": "जा",
+          "read_as": "jaa",
+          "pronunciation_notes": "One long syllable and nothing else — the bare stem, with no ending at all.",
+          "gloss_en": "the तू imperative, taught as a warning",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "imperative",
+          "tags": [
+            "imperative",
+            "second_person",
+            "register",
+            "tu",
+            "warning",
+            "module5_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The bare stem, and when not to use it",
+              "explanation_en": "The तू imperative is the stem with nothing added: जा, कर, बोल, सुन. It is the shortest form in the language and the one to be most careful with. Module 5 taught तू as a warning rather than an option, and that applies double here — a bare imperative to someone who expects तुम or आप reads as contempt, not informality. You will hear it constantly, between close friends, from parents to small children, and in film dialogue, so you need to recognise it. Producing it is a different matter, and the honest advice is not to, until a Hindi speaker uses it on you first.",
+              "examples": [
+                {
+                  "hindi": "जा",
+                  "read_as": "jaa",
+                  "english": "go",
+                  "note": "The bare stem. Recognise it; think twice before saying it."
+                },
+                {
+                  "hindi": "सुन",
+                  "read_as": "sun",
+                  "english": "listen",
+                  "note": "Between close friends this is affectionate rather than harsh."
+                },
+                {
+                  "hindi": "यहाँ आ",
+                  "read_as": "yahaaṁ aa",
+                  "english": "come here",
+                  "note": "The same sentence you learnt with आओ, two registers down."
+                }
+              ],
+              "common_error": {
+                "wrong": "जा",
+                "right": "जाइए",
+                "why_en": "Not a grammatical error — a social one. With anyone you have just met, the bare stem is the wrong choice however correct it looks."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Give the imperative for this register.",
+              "question": "बोलना · तू · imperative",
+              "question_read_as": "bolnaa · tuu · imperative",
+              "options": [
+                "बोलिए",
+                "बोल",
+                "बोलो",
+                "बोलेगा"
+              ],
+              "options_read_as": [
+                "bolie",
+                "bol",
+                "bolo",
+                "bolegaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The तू imperative is the bare stem, with no ending added."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the simple future cell?",
+              "options": [
+                "जा",
+                "जाओ",
+                "जाइए",
+                "वह जाएगा"
+              ],
+              "options_read_as": [
+                "jaa",
+                "jaao",
+                "jaaie",
+                "vah jaaegaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "वह जाएगा — he will go. The other three are commands in three different registers."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जा",
+              "सुन",
+              "यहाँ आ"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L28-I2",
+          "type": "grammar",
+          "target": "मत जाओ",
+          "read_as": "mat jaao",
+          "pronunciation_notes": "मत is short and flat, and the stress falls on the verb behind it: mat jaa-o.",
+          "gloss_en": "negative imperatives use मत, not नहीं",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "imperative",
+          "tags": [
+            "imperative",
+            "negation",
+            "mat",
+            "second_person",
+            "tum",
+            "module5_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Commands get their own negative",
+              "explanation_en": "Everywhere else in this module, नहीं has been the negative. Commands are the exception: they take मत instead. मत जाओ is do not go, and नहीं जाओ is simply not something people say. Module 5 gave you नहीं, न and मत as three separate words, and this is what मत was for — it exists only to negate an instruction. The placement is the same as always, directly in front of the verb, so the only thing to change is which word you reach for.",
+              "examples": [
+                {
+                  "hindi": "मत जाओ",
+                  "read_as": "mat jaao",
+                  "english": "do not go",
+                  "note": "मत in front, and the imperative unchanged behind it."
+                },
+                {
+                  "hindi": "यहाँ मत बैठो",
+                  "read_as": "yahaaṁ mat baiṭho",
+                  "english": "do not sit here",
+                  "note": "मत sits directly in front of the verb, not at the start of the sentence."
+                },
+                {
+                  "hindi": "मत बोलो",
+                  "read_as": "mat bolo",
+                  "english": "do not speak",
+                  "note": "The same shape with another verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "नहीं जाओ",
+                "right": "मत जाओ",
+                "why_en": "नहीं negates statements. An instruction takes मत, and using the wrong one is immediately audible."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Make this imperative negative.",
+              "question": "जाओ · negative",
+              "question_read_as": "jaao · negative",
+              "options": [
+                "जाओ मत",
+                "नहीं जाओ",
+                "मत जाओ",
+                "जाओ नहीं"
+              ],
+              "options_read_as": [
+                "jaao mat",
+                "nahiiṁ jaao",
+                "mat jaao",
+                "jaao nahiiṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "मत goes directly in front of the verb, exactly where नहीं goes in a statement."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the simple future cell?",
+              "options": [
+                "तुम नहीं जाओगे",
+                "मत जाओ",
+                "मत जाइए",
+                "तुम नहीं जाते"
+              ],
+              "options_read_as": [
+                "tum nahiiṁ jaaoge",
+                "mat jaao",
+                "mat jaaie",
+                "tum nahiiṁ jaate"
+              ],
+              "answer_index": 0,
+              "explanation_en": "तुम नहीं जाओगे — you will not go, which is a statement and so takes नहीं."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मत जाओ",
+              "यहाँ मत बैठो",
+              "मत बोलो"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L28-I3",
+          "type": "grammar",
+          "target": "मत जाइए",
+          "read_as": "mat jaaie",
+          "pronunciation_notes": "The short मत followed by three vowels: mat jaa-i-e.",
+          "gloss_en": "the negative imperative, politely",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "imperative",
+          "tags": [
+            "imperative",
+            "negation",
+            "mat",
+            "aap",
+            "register",
+            "rule_summary"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मत works with every register",
+              "explanation_en": "मत जा, मत जाओ, मत जाइए — one negative word across all three registers, with the imperative behind it doing the register work as usual. So there is nothing extra to learn for the polite negative, which is worth knowing because telling someone politely not to do something is a fairly common thing to need. The whole imperative system now fits in one line: three forms by register, one negative word in front, verb last, and no agreement anywhere.",
+              "examples": [
+                {
+                  "hindi": "मत जाइए",
+                  "read_as": "mat jaaie",
+                  "english": "please do not go",
+                  "note": "मत plus the आप imperative."
+                },
+                {
+                  "hindi": "यहाँ मत बैठिए",
+                  "read_as": "yahaaṁ mat baiṭhie",
+                  "english": "please do not sit here",
+                  "note": "The polite version of the sentence from the last item."
+                },
+                {
+                  "hindi": "मत जा",
+                  "read_as": "mat jaa",
+                  "english": "do not go",
+                  "note": "The तू version — same negative, lowest register."
+                }
+              ],
+              "common_error": {
+                "wrong": "मत जाएंगे",
+                "right": "मत जाइए",
+                "why_en": "जाएंगे is the future, which is a prediction rather than an instruction. मत only ever attaches to an imperative."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Make this negative imperative polite.",
+              "question": "मत जाओ · आप",
+              "question_read_as": "mat jaao · aap",
+              "options": [
+                "मत जाइए",
+                "नहीं जाइए",
+                "मत जा",
+                "मत जाएंगे"
+              ],
+              "options_read_as": [
+                "mat jaaie",
+                "nahiiṁ jaaie",
+                "mat jaa",
+                "mat jaaeṁge"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The negative word is unchanged; only the imperative moves up a register."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": [
+                "मत जाइए",
+                "मत जाओ",
+                "आप नहीं जाते",
+                "आप नहीं जाएंगे"
+              ],
+              "options_read_as": [
+                "mat jaaie",
+                "mat jaao",
+                "aap nahiiṁ jaate",
+                "aap nahiiṁ jaaeṁge"
+              ],
+              "answer_index": 2,
+              "explanation_en": "आप नहीं जाते — you do not go, with the auxiliary dropped after नहीं as usual."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मत जाइए",
+              "यहाँ मत बैठिए",
+              "मत जा"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The imperative system is three forms chosen by register — bare stem, stem plus -ओ, stem plus -इए — with मत in front for the negative and no agreement anywhere. मत is for instructions and नहीं is for statements, and that is the only place in the course where the two part company.",
+        "key_forms": [
+          "जा",
+          "मत जाओ",
+          "मत जाइए"
+        ],
+        "next_up_en": "Next: होना's own perfective, which is irregular and turns up in the question you will ask most often."
+      }
+    },
+    {
+      "level": 29,
+      "title_en": "हुआ — the perfective of होना",
+      "title_hi": "क्या हुआ? · कैसे हुआ?",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L29-I1",
+          "type": "grammar",
+          "target": "क्या हुआ",
+          "read_as": "kyaa huaa",
+          "pronunciation_notes": "हुआ is two short vowels with no consonant between: hu-aa.",
+          "gloss_en": "the irregular perfective of होना",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "perfective_simple",
+          "tags": [
+            "tense",
+            "perfective_simple",
+            "irregular",
+            "hona",
+            "intransitive",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "What happened",
+              "explanation_en": "होना means to be, but its perfective हुआ means happened or became — the completed version of being something is having become it. क्या हुआ is what happened, and it is one of the handful of sentences you will use every single day. The form is irregular: the rule would predict होया, and the actual participle is हुआ, with the stem vowel changed. होना is the second of the two irregular intransitive perfectives, alongside गया from level fourteen, and between them that is the whole list.",
+              "examples": [
+                {
+                  "hindi": "क्या हुआ?",
+                  "read_as": "kyaa huaa?",
+                  "english": "what happened?",
+                  "note": "The bare perfective, and by far the commonest use of this word."
+                },
+                {
+                  "hindi": "कुछ नहीं हुआ",
+                  "read_as": "kuchh nahiiṁ huaa",
+                  "english": "nothing happened",
+                  "note": "The standard reply, with नहीं in its usual place in front of the verb."
+                },
+                {
+                  "hindi": "क्या हुआ है?",
+                  "read_as": "kyaa huaa hai?",
+                  "english": "what has happened?",
+                  "note": "With है the result is still standing — something is currently wrong."
+                }
+              ],
+              "common_error": {
+                "wrong": "क्या होया?",
+                "right": "क्या हुआ?",
+                "why_en": "होया is what the rule predicts and it is not a word. होना and जाना are the two verbs where the perfective is built from a changed stem."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Give the perfective participle.",
+              "question": "होना · masculine singular · perfective",
+              "question_read_as": "honaa · masculine singular · perfective",
+              "options": [
+                "होया",
+                "होता",
+                "हो रहा",
+                "हुआ"
+              ],
+              "options_read_as": [
+                "hoyaa",
+                "hotaa",
+                "ho rahaa",
+                "huaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "हुआ, with the stem vowel changed. होता is the habitual participle."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the perfective present cell?",
+              "options": [
+                "क्या हुआ?",
+                "क्या हुआ है?",
+                "क्या होता है?",
+                "क्या हो रहा है?"
+              ],
+              "options_read_as": [
+                "kyaa huaa?",
+                "kyaa huaa hai?",
+                "kyaa hotaa hai?",
+                "kyaa ho rahaa hai?"
+              ],
+              "answer_index": 1,
+              "explanation_en": "क्या हुआ है — the perfective participle with a present auxiliary."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "क्या हुआ?",
+              "कुछ नहीं हुआ",
+              "क्या हुआ है?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L29-I2",
+          "type": "grammar",
+          "target": "यह कैसे हुआ",
+          "read_as": "yah kaise huaa",
+          "pronunciation_notes": "कैसे opens with a diphthong close to the vowel in English 'kite': kai-se.",
+          "gloss_en": "हुआ with a question word",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "perfective_simple",
+          "tags": [
+            "tense",
+            "perfective_simple",
+            "irregular",
+            "hona",
+            "question",
+            "agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "हुआ agrees like any other perfective",
+              "explanation_en": "There is nothing special about हुआ beyond its shape. It takes the same four endings as every other perfective participle — हुआ, हुई, हुए, हुईं — and agrees with whatever the subject is. यह कैसे हुआ asks how this happened, with हुआ agreeing with the masculine यह. Change the subject and the participle follows: बात कैसे हुई, because बात is feminine. The irregularity is entirely in the stem and not at all in the agreement.",
+              "examples": [
+                {
+                  "hindi": "यह कैसे हुआ?",
+                  "read_as": "yah kaise huaa?",
+                  "english": "how did this happen?",
+                  "note": "यह is masculine here, so हुआ."
+                },
+                {
+                  "hindi": "बात कैसे हुई?",
+                  "read_as": "baat kaise huii?",
+                  "english": "how did the conversation go?",
+                  "note": "बात is feminine, so the participle turns to हुई."
+                },
+                {
+                  "hindi": "यह कब हुआ?",
+                  "read_as": "yah kab huaa?",
+                  "english": "when did this happen?",
+                  "note": "A different question word in the same slot."
+                }
+              ],
+              "common_error": {
+                "wrong": "बात कैसे हुआ?",
+                "right": "बात कैसे हुई?",
+                "why_en": "बात is one of the feminine nouns Module 4 asked you to memorise, and the perfective agrees with it like any other participle."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "होना · बात · perfective",
+              "question_read_as": "honaa · baat · perfective",
+              "options": [
+                "हुए",
+                "हुआ",
+                "हुई",
+                "होती"
+              ],
+              "options_read_as": [
+                "hue",
+                "huaa",
+                "huii",
+                "hotii"
+              ],
+              "answer_index": 2,
+              "explanation_en": "बात is feminine and singular, so the participle is हुई."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": [
+                "यह कैसे होता है?",
+                "यह कैसे हुआ?",
+                "यह कैसे हुआ है?",
+                "यह कैसे हो रहा है?"
+              ],
+              "options_read_as": [
+                "yah kaise hotaa hai?",
+                "yah kaise huaa?",
+                "yah kaise huaa hai?",
+                "yah kaise ho rahaa hai?"
+              ],
+              "answer_index": 0,
+              "explanation_en": "यह कैसे होता है — how does this happen, as a general fact."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "यह कैसे हुआ?",
+              "बात कैसे हुई?",
+              "यह कब हुआ?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L29-I3",
+          "type": "grammar",
+          "target": "क्या हुआ था",
+          "read_as": "kyaa huaa thaa",
+          "pronunciation_notes": "Three light syllables and then the heavy थ: kyaa hu-aa thaa.",
+          "gloss_en": "होना has a full perfective row of its own",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "perfective_past",
+          "tags": [
+            "tense",
+            "perfective_past",
+            "hona",
+            "irregular",
+            "rule_summary"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "होना behind होना",
+              "explanation_en": "क्या हुआ था is what had happened, and it looks odd at first because होना is appearing twice — once as the participle हुआ and once as the auxiliary था. That is perfectly normal. होना is a verb like any other and has its own full row: हुआ, हुआ है, हुआ था, हुआ होगा. The auxiliary in each case is a second, separate होना doing its ordinary job. Once you see that, nothing in the module is left unexplained — every cell of the grid, for every verb including this one, is built the same way.",
+              "examples": [
+                {
+                  "hindi": "क्या हुआ था?",
+                  "read_as": "kyaa huaa thaa?",
+                  "english": "what had happened?",
+                  "note": "The participle and the auxiliary are both from होना."
+                },
+                {
+                  "hindi": "यह कल हुआ",
+                  "read_as": "yah kal huaa",
+                  "english": "this happened yesterday",
+                  "note": "The bare form, which is what you want with a named past time."
+                },
+                {
+                  "hindi": "यह कैसे हुआ होगा?",
+                  "read_as": "yah kaise huaa hogaa?",
+                  "english": "how might this have happened?",
+                  "note": "The presumptive, completing होना's own row."
+                }
+              ],
+              "common_error": {
+                "wrong": "क्या था हुआ?",
+                "right": "क्या हुआ था?",
+                "why_en": "The participle comes first and the auxiliary sits behind it, exactly as with every other verb in the module."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "होना · यह · masculine · perfective past",
+              "question_read_as": "honaa · yah · masculine · perfective past",
+              "options": [
+                "यह होता था",
+                "यह हुआ था",
+                "यह हुआ है",
+                "यह हो रहा था"
+              ],
+              "options_read_as": [
+                "yah hotaa thaa",
+                "yah huaa thaa",
+                "yah huaa hai",
+                "yah ho rahaa thaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Perfective participle हुआ with the past auxiliary था."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the perfective presumptive cell?",
+              "options": [
+                "यह हुआ था",
+                "यह हुआ है",
+                "यह होता होगा",
+                "यह हुआ होगा"
+              ],
+              "options_read_as": [
+                "yah huaa thaa",
+                "yah huaa hai",
+                "yah hotaa hogaa",
+                "yah huaa hogaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "यह हुआ होगा — this has probably happened."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "क्या हुआ था?",
+              "यह कल हुआ",
+              "यह कैसे हुआ होगा?"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "होना's perfective is हुआ, irregular in its stem and entirely regular in its agreement. It means happened or became, it carries a full row of its own — हुआ, हुआ है, हुआ था, हुआ होगा — and with गया it makes up the complete list of irregular intransitive perfectives.",
+        "key_forms": [
+          "क्या हुआ",
+          "यह कैसे हुआ",
+          "क्या हुआ था"
+        ],
+        "next_up_en": "Next: the regular rule restated, and the four irregular participles you will need to recognise before you can use them."
+      }
+    },
+    {
+      "level": 30,
+      "title_en": "Regular and irregular perfectives",
+      "title_hi": "चला · किया · लिया · दिया",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M07-L30-I1",
+          "type": "grammar",
+          "target": "वह चला",
+          "read_as": "vah chalaa",
+          "pronunciation_notes": "Both syllables are light and the stress is even: cha-laa.",
+          "gloss_en": "the regular rule, restated",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "perfective_simple",
+          "tags": [
+            "tense",
+            "perfective_simple",
+            "regular",
+            "intransitive",
+            "rule_summary"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Almost every verb is regular here",
+              "explanation_en": "चलना gives चला, उठना gives उठा, बैठना gives बैठा, सोना gives सोया. The rule from level fourteen has held throughout: stem plus -आ, with a य inserted if the stem ends in a vowel. It is worth stating plainly how few exceptions there are. In the whole language, six verbs form their perfective irregularly — जाना, होना, करना, देना, लेना and पीना — and you have already met the two that are intransitive. Everything else in Hindi follows the rule without exception.",
+              "examples": [
+                {
+                  "hindi": "वह चला",
+                  "read_as": "vah chalaa",
+                  "english": "he set off",
+                  "note": "Consonant stem, so -आ attaches directly."
+                },
+                {
+                  "hindi": "वह उठा",
+                  "read_as": "vah uṭhaa",
+                  "english": "he got up",
+                  "note": "The same shape with another consonant stem."
+                },
+                {
+                  "hindi": "वह सोया",
+                  "read_as": "vah soyaa",
+                  "english": "he slept",
+                  "note": "Vowel stem, so a य appears between."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह चलाया",
+                "right": "वह चला",
+                "why_en": "चलाया is a different verb — चलाना, meaning to drive or operate something. Adding a syllable changes the word rather than the tense."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Give the perfective participle.",
+              "question": "उठना · masculine singular · perfective",
+              "question_read_as": "uṭhnaa · masculine singular · perfective",
+              "options": [
+                "उठा",
+                "उठता",
+                "उठाया",
+                "उठ रहा"
+              ],
+              "options_read_as": [
+                "uṭhaa",
+                "uṭhtaa",
+                "uṭhaayaa",
+                "uṭh rahaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Consonant stem उठ plus -आ. उठाया belongs to a different verb meaning to lift."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual past cell?",
+              "options": [
+                "वह चला",
+                "वह चलता था",
+                "वह चल रहा था",
+                "वह चला था"
+              ],
+              "options_read_as": [
+                "vah chalaa",
+                "vah chaltaa thaa",
+                "vah chal rahaa thaa",
+                "vah chalaa thaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "वह चलता था — he used to walk."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह चला",
+              "वह उठा",
+              "वह सोया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L30-I2",
+          "type": "grammar",
+          "target": "किया",
+          "read_as": "kiyaa",
+          "pronunciation_notes": "The stem vowel shortens and a य bridges: ki-yaa, two light syllables.",
+          "gloss_en": "four irregular participles to recognise, not yet to use",
+          "gender": null,
+          "difficulty": 9,
+          "grid_cell": "perfective_simple",
+          "tags": [
+            "tense",
+            "perfective_simple",
+            "irregular",
+            "transitive",
+            "recognition_only",
+            "module9_preview"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "You can learn these, but you cannot use them yet",
+              "explanation_en": "The remaining four irregular perfectives are किया from करना, दिया from देना, लिया from लेना, and पिया from पीना. Learn the forms now, because you will meet them in everything you read. But do not build sentences with them yet, and here is the honest reason: all four are transitive, and a transitive verb in the perfective takes the ने construction, which changes the subject and stops the verb agreeing with it. मैं किया is wrong; the sentence you want is मैंने किया, and that ने has a whole module to itself. So this is a vocabulary item rather than a grammar one — recognise these four, and wait.",
+              "examples": [
+                {
+                  "hindi": "किया",
+                  "read_as": "kiyaa",
+                  "english": "done",
+                  "note": "From करना. The predicted form करा exists but means something else."
+                },
+                {
+                  "hindi": "लिया",
+                  "read_as": "liyaa",
+                  "english": "taken",
+                  "note": "From लेना, with the same shortening and य."
+                },
+                {
+                  "hindi": "दिया",
+                  "read_as": "diyaa",
+                  "english": "given",
+                  "note": "From देना, and the pattern is identical."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं किया",
+                "right": "मैंने किया",
+                "why_en": "A transitive verb in the perfective needs ने on the subject. That construction arrives in Module 9, which is why these four are recognition only for now."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Give the perfective participle.",
+              "question": "लेना · masculine singular · perfective",
+              "question_read_as": "lenaa · masculine singular · perfective",
+              "options": [
+                "लेया",
+                "ले रहा",
+                "लेता",
+                "लिया"
+              ],
+              "options_read_as": [
+                "leyaa",
+                "le rahaa",
+                "letaa",
+                "liyaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "लिया, with the stem vowel shortened. लेया is what the rule predicts and is not a word."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": [
+                "किया",
+                "वह कर रहा है",
+                "वह करता है",
+                "वह करेगा"
+              ],
+              "options_read_as": [
+                "kiyaa",
+                "vah kar rahaa hai",
+                "vah kartaa hai",
+                "vah karegaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "वह करता है — he does it. The participle किया cannot yet stand in a sentence of its own."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "किया",
+              "लिया",
+              "दिया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L30-I3",
+          "type": "dialogue",
+          "target": "हुआ",
+          "read_as": "huaa",
+          "pronunciation_notes": "Two vowels sliding into each other with no consonant: hu-aa.",
+          "gloss_en": "an imperative, a question and a guess in four lines",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "perfective_simple",
+          "tags": [
+            "tense",
+            "perfective_simple",
+            "imperative",
+            "presumptive",
+            "dialogue",
+            "micro_dialogue"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Four lines, four different things the module taught",
+              "explanation_en": "This short exchange uses an imperative, an irregular perfective, a negated perfective and a presumptive, which between them cover most of the last fifteen levels. Watch the last line in particular: होगी is a guess, not a statement, and the speaker is telling you they do not actually know where the sister is. English would need a whole extra word for that — probably, must be — and Hindi puts it in the verb, so the choice is unavoidable and the information is always there.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "यहाँ आओ।",
+                  "read_as": "yahaaṁ aao.",
+                  "english": "Come here."
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "क्या हुआ?",
+                  "read_as": "kyaa huaa?",
+                  "english": "What happened?"
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "बहन घर नहीं आई।",
+                  "read_as": "bahan ghar nahiiṁ aaii.",
+                  "english": "Your sister has not come home."
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "वह स्कूल में होगी।",
+                  "read_as": "vah skuul meṁ hogii.",
+                  "english": "She is probably at school."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह स्कूल में है।",
+                "right": "वह स्कूल में होगी।",
+                "why_en": "है would claim to know. The speaker is guessing, and Hindi marks that difference in the verb rather than with an extra word."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Fill the gap.",
+              "question": "बहन घर नहीं ___।",
+              "question_read_as": "bahan ghar nahiiṁ ___.",
+              "options": [
+                "आया",
+                "आई",
+                "आए",
+                "आते"
+              ],
+              "options_read_as": [
+                "aayaa",
+                "aaii",
+                "aae",
+                "aate"
+              ],
+              "answer_index": 1,
+              "explanation_en": "बहन is feminine and singular, so the perfective participle is आई."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the second line. Which word is missing?",
+              "masked_line_index": 1,
+              "masked_word": "हुआ",
+              "options": [
+                "हुआ",
+                "हुई",
+                "हुए",
+                "होता"
+              ],
+              "options_read_as": [
+                "huaa",
+                "huii",
+                "hue",
+                "hotaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The speaker says हुआ — the irregular perfective of होना, in its bare form."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "यहाँ आओ।",
+              "क्या हुआ?",
+              "बहन घर नहीं आई।",
+              "वह स्कूल में होगी।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Six verbs in the whole language form their perfective irregularly: जाना, होना, करना, देना, लेना and पीना. The two intransitive ones are fully usable now; the four transitive ones are recognition only until Module 9 supplies the ने construction they need.",
+        "key_forms": [
+          "वह चला",
+          "किया",
+          "हुआ"
+        ],
+        "next_up_en": "Next: the last two levels of the module, drilling the irregular forms and pulling the whole grid together."
+      }
+    }
+  ]
+}

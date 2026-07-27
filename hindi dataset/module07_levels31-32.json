@@ -1,0 +1,628 @@
+{
+  "module": 7,
+  "module_name_en": "The Tense-Aspect Engine",
+  "module_name_hi": "काल",
+  "phase": 3,
+  "batch": {
+    "levels_from": 31,
+    "levels_to": 32
+  },
+  "model_verb": {
+    "hindi": "जाना",
+    "read_as": "jaanaa",
+    "english": "to go",
+    "transitivity": "intransitive"
+  },
+  "levels": [
+    {
+      "level": 31,
+      "title_en": "Two forms that collide with something else",
+      "title_hi": "रहा · किए · की",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L31-I1",
+          "type": "grammar",
+          "target": "वह यहाँ रहा",
+          "read_as": "vah yahaaṁ rahaa",
+          "pronunciation_notes": "Identical in sound to the continuous marker, and only position tells them apart: ra-haa.",
+          "gloss_en": "रहना's perfective, which looks like the continuous marker",
+          "gender": null,
+          "difficulty": 9,
+          "grid_cell": "perfective_simple",
+          "tags": [
+            "tense",
+            "perfective_simple",
+            "regular",
+            "intransitive",
+            "collision",
+            "rahnaa"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "रहा is two different words",
+              "explanation_en": "रहना is regular, so its perfective is रहा — which is spelled and pronounced exactly like the continuous marker you have been using since level eight. वह यहाँ रहा means he stayed here, and there is no continuous anywhere in it. The way to keep them apart is position: the marker always sits between a bare stem and an auxiliary, as in वह रह रहा था, while the participle stands where a verb stands. If रहा has a stem in front of it, it is the marker. If it does not, it is the verb.",
+              "examples": [
+                {
+                  "hindi": "वह यहाँ रहा",
+                  "read_as": "vah yahaaṁ rahaa",
+                  "english": "he stayed here",
+                  "note": "The perfective participle of रहना, standing alone as the verb."
+                },
+                {
+                  "hindi": "वह यहाँ रह रहा था",
+                  "read_as": "vah yahaaṁ rah rahaa thaa",
+                  "english": "he was staying here",
+                  "note": "Two रह sounds — the first is the stem, the second is the marker."
+                },
+                {
+                  "hindi": "वह यहाँ रही",
+                  "read_as": "vah yahaaṁ rahii",
+                  "english": "she stayed here",
+                  "note": "The participle agrees like any other, and so does the marker."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह यहाँ रहा था रह",
+                "right": "वह यहाँ रह रहा था",
+                "why_en": "The bare stem comes first and the marker second. Reversing them separates the verb from its own ending."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "रहना · वह · masculine · simple past",
+              "question_read_as": "rahnaa · vah · masculine · simple past",
+              "options": [
+                "वह रहता",
+                "वह रह रहा",
+                "वह रहा",
+                "वह रहेगा"
+              ],
+              "options_read_as": [
+                "vah rahtaa",
+                "vah rah rahaa",
+                "vah rahaa",
+                "vah rahegaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The bare perfective of रहना is रहा, with no stem in front of it."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous past cell?",
+              "options": [
+                "वह यहाँ रहा",
+                "वह यहाँ रह रहा था",
+                "वह यहाँ रहता था",
+                "वह यहाँ रहेगा"
+              ],
+              "options_read_as": [
+                "vah yahaaṁ rahaa",
+                "vah yahaaṁ rah rahaa thaa",
+                "vah yahaaṁ rahtaa thaa",
+                "vah yahaaṁ rahegaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "वह यहाँ रह रहा था — stem, marker, auxiliary, in that order."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह यहाँ रहा",
+              "वह यहाँ रह रहा था",
+              "वह यहाँ रही"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L31-I2",
+          "type": "grammar",
+          "target": "किए",
+          "read_as": "kie",
+          "pronunciation_notes": "Two short vowels with nothing between them: ki-e.",
+          "gloss_en": "the irregular participles take ordinary agreement",
+          "gender": null,
+          "difficulty": 9,
+          "grid_cell": "perfective_simple",
+          "tags": [
+            "tense",
+            "perfective_simple",
+            "irregular",
+            "transitive",
+            "recognition_only",
+            "module9_preview",
+            "agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Irregular stems, regular endings",
+              "explanation_en": "The four transitive irregulars are odd only in their stems. Their endings are the same four you have used all module: किया, की, किए, कीं. Same for लिया, ली, लिए, लीं and दिया, दी, दिए, दीं. So there is nothing new to learn about the agreement — but there is something to know about what it agrees with. In Module 9 these participles will agree with the object of the sentence rather than the subject, which is the opposite of everything this module has taught. That is why they are recognition only for now: you can read them, and the rule for choosing between them changes before you can write them.",
+              "examples": [
+                {
+                  "hindi": "किया",
+                  "read_as": "kiyaa",
+                  "english": "done",
+                  "note": "Masculine singular — the citation form."
+                },
+                {
+                  "hindi": "किए",
+                  "read_as": "kie",
+                  "english": "done",
+                  "note": "Masculine plural, built exactly like गए and आए."
+                },
+                {
+                  "hindi": "दिए",
+                  "read_as": "die",
+                  "english": "given",
+                  "note": "The same ending on another of the four."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह किए",
+                "right": "उसने किए",
+                "why_en": "A transitive perfective needs ने on the subject, and the participle then agrees with the object rather than with वह. Both halves of that arrive in Module 9."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Give the perfective participle.",
+              "question": "करना · masculine plural · perfective",
+              "question_read_as": "karnaa · masculine plural · perfective",
+              "options": [
+                "किए",
+                "करे",
+                "किया",
+                "करते"
+              ],
+              "options_read_as": [
+                "kie",
+                "kare",
+                "kiyaa",
+                "karte"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The stem is irregular but the plural ending is the ordinary -ए."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": [
+                "किए",
+                "वह करेगा",
+                "वह कर रहा है",
+                "वह करता है"
+              ],
+              "options_read_as": [
+                "kie",
+                "vah karegaa",
+                "vah kar rahaa hai",
+                "vah kartaa hai"
+              ],
+              "answer_index": 3,
+              "explanation_en": "वह करता है. The participle किए cannot yet stand in a sentence of its own."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "किया",
+              "किए",
+              "दिए"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L31-I3",
+          "type": "grammar",
+          "target": "की",
+          "read_as": "kii",
+          "pronunciation_notes": "One long syllable, identical in sound to the possessive marker: kii.",
+          "gloss_en": "the participle that is spelled like a postposition",
+          "gender": null,
+          "difficulty": 9,
+          "grid_cell": "perfective_simple",
+          "tags": [
+            "tense",
+            "perfective_simple",
+            "irregular",
+            "transitive",
+            "recognition_only",
+            "collision",
+            "module6_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "की is a verb and also a postposition",
+              "explanation_en": "The feminine perfective of करना is की, spelled exactly like the possessive marker from Module 6. Two completely unrelated words, one spelling. In practice they are easy to separate, because the possessive sits between two nouns — राम की किताब — while the participle stands where a verb stands, at the end of a clause. Worth knowing now rather than being surprised by it in reading, since करना is the most common verb in the language and its feminine perfective turns up constantly.",
+              "examples": [
+                {
+                  "hindi": "की",
+                  "read_as": "kii",
+                  "english": "done",
+                  "note": "The feminine perfective participle of करना, in citation."
+                },
+                {
+                  "hindi": "राम की किताब",
+                  "read_as": "raam kii kitaab",
+                  "english": "Ram's book",
+                  "note": "The possessive from Module 6, between two nouns."
+                },
+                {
+                  "hindi": "उसकी बात",
+                  "read_as": "uskii baat",
+                  "english": "what he said",
+                  "note": "The possessive fused onto a pronoun, where no confusion can arise."
+                }
+              ],
+              "common_error": {
+                "wrong": "राम की",
+                "right": "राम की किताब",
+                "why_en": "The possessive needs the thing possessed behind it. Standing alone at the end of a phrase, की would be read as the verb instead."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Give the perfective participle.",
+              "question": "करना · feminine singular · perfective",
+              "question_read_as": "karnaa · feminine singular · perfective",
+              "options": [
+                "करी",
+                "करती",
+                "किए",
+                "की"
+              ],
+              "options_read_as": [
+                "karii",
+                "kartii",
+                "kie",
+                "kii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "की, with the same irregular stem as किया and the ordinary feminine ending."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous present cell?",
+              "options": [
+                "वह कर रही है",
+                "की",
+                "वह करती है",
+                "वह करेगी"
+              ],
+              "options_read_as": [
+                "vah kar rahii hai",
+                "kii",
+                "vah kartii hai",
+                "vah karegii"
+              ],
+              "answer_index": 0,
+              "explanation_en": "वह कर रही है — she is doing it right now."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "की",
+              "राम की किताब",
+              "उसकी बात"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "रहा is both the perfective of रहना and the continuous marker, told apart by whether a bare stem stands in front of it. की is both the feminine perfective of करना and the possessive from Module 6, told apart by whether a noun follows it. The irregular participles are odd only in their stems — the endings are the ones you already know.",
+        "key_forms": [
+          "वह यहाँ रहा",
+          "किए",
+          "की"
+        ],
+        "next_up_en": "Next: the last level, where the grid is pulled back together and the only remaining question is which cell you want."
+      }
+    },
+    {
+      "level": 32,
+      "title_en": "Choosing the cell",
+      "title_hi": "रोज़ · अभी · कल",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L32-I1",
+          "type": "grammar",
+          "target": "वह रोज़ जाता है",
+          "read_as": "vah roz jaataa hai",
+          "pronunciation_notes": "रोज़ has a dotted ज़ pronounced as a z, and a long open o: roz.",
+          "gloss_en": "the adverb decides the aspect",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "habitual_present",
+          "tags": [
+            "tense",
+            "habitual_present",
+            "adverb_test",
+            "rule_summary",
+            "module_close"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "रोज़ can only take the habitual",
+              "explanation_en": "Thirty-one levels of forms are worth very little if you cannot pick the right one under pressure, so this last level is about choosing rather than building. The most reliable guide is the adverb. रोज़, हमेशा, कभी — anything meaning repeatedly — can only sit with the habitual, because a repeated action is precisely what that aspect describes. वह रोज़ जाता है is correct and वह रोज़ जा रहा है is not, however natural the continuous may feel. When you are unsure which cell you want, look at the time word first and let it decide.",
+              "examples": [
+                {
+                  "hindi": "वह रोज़ जाता है",
+                  "read_as": "vah roz jaataa hai",
+                  "english": "he goes every day",
+                  "note": "रोज़ forces the habitual and rules out everything else."
+                },
+                {
+                  "hindi": "वह रोज़ जाता था",
+                  "read_as": "vah roz jaataa thaa",
+                  "english": "he used to go every day",
+                  "note": "The same aspect, moved one column into the past."
+                },
+                {
+                  "hindi": "वह रोज़ जाता होगा",
+                  "read_as": "vah roz jaataa hogaa",
+                  "english": "he probably goes every day",
+                  "note": "And the third column — a guess about the same habit."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह रोज़ जा रहा है",
+                "right": "वह रोज़ जाता है",
+                "why_en": "The continuous describes one stretch of time in progress, which cannot be something that happens every day."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Choose the form that fits the sentence.",
+              "question": "वह रोज़ ___",
+              "question_read_as": "vah roz ___",
+              "options": [
+                "जा रहा है",
+                "जाता है",
+                "गया",
+                "जाएगा"
+              ],
+              "options_read_as": [
+                "jaa rahaa hai",
+                "jaataa hai",
+                "gayaa",
+                "jaaegaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "रोज़ describes a repeated action, so only the habitual can follow it."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual presumptive cell?",
+              "options": [
+                "वह रोज़ जाता है",
+                "वह रोज़ जाता था",
+                "वह रोज़ जाता होगा",
+                "वह रोज़ जाएगा"
+              ],
+              "options_read_as": [
+                "vah roz jaataa hai",
+                "vah roz jaataa thaa",
+                "vah roz jaataa hogaa",
+                "vah roz jaaegaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "वह रोज़ जाता होगा — a habit offered as a guess."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह रोज़ जाता है",
+              "वह रोज़ जाता था",
+              "वह रोज़ जाता होगा"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L32-I2",
+          "type": "grammar",
+          "target": "वह अभी जा रहा है",
+          "read_as": "vah abhii jaa rahaa hai",
+          "pronunciation_notes": "अभी has a breathy bh and a long ii at the end: a-bhii.",
+          "gloss_en": "a word meaning now forces the continuous",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "continuous_present",
+          "tags": [
+            "tense",
+            "continuous_present",
+            "adverb_test",
+            "rule_summary",
+            "module_close"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "अभी can only take the continuous",
+              "explanation_en": "The test works in the other direction too. अभी means right now, and it can only sit with an action in progress, so वह अभी जा रहा है is the only possibility. This is the pair that has been running through the whole module — habitual against continuous, वह जाता है against वह जा रहा है — and it is the distinction English speakers get wrong most often, because English lets goes and is going blur into each other in a way Hindi does not. Two adverbs, two cells, and between them they resolve most of the uncertainty you will meet.",
+              "examples": [
+                {
+                  "hindi": "वह अभी जा रहा है",
+                  "read_as": "vah abhii jaa rahaa hai",
+                  "english": "he is going right now",
+                  "note": "अभी pins the sentence to this moment."
+                },
+                {
+                  "hindi": "वह अभी जा रहा था",
+                  "read_as": "vah abhii jaa rahaa thaa",
+                  "english": "he was going just now",
+                  "note": "The same aspect one column back — a moment in the past."
+                },
+                {
+                  "hindi": "वह अभी सो रहा है",
+                  "read_as": "vah abhii so rahaa hai",
+                  "english": "he is sleeping right now",
+                  "note": "Another verb, and the adverb still decides the aspect."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह अभी जाता है",
+                "right": "वह अभी जा रहा है",
+                "why_en": "The habitual is a fact about his routine and says nothing about this moment, which is exactly what अभी is asking about."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Choose the form that fits the sentence.",
+              "question": "वह अभी ___",
+              "question_read_as": "vah abhii ___",
+              "options": [
+                "जाता है",
+                "जाएगा",
+                "जाता था",
+                "जा रहा है"
+              ],
+              "options_read_as": [
+                "jaataa hai",
+                "jaaegaa",
+                "jaataa thaa",
+                "jaa rahaa hai"
+              ],
+              "answer_index": 3,
+              "explanation_en": "अभी means at this moment, and only the continuous describes something in progress."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous past cell?",
+              "options": [
+                "वह अभी जा रहा था",
+                "वह अभी जा रहा है",
+                "वह अभी जाता है",
+                "वह अभी गया"
+              ],
+              "options_read_as": [
+                "vah abhii jaa rahaa thaa",
+                "vah abhii jaa rahaa hai",
+                "vah abhii jaataa hai",
+                "vah abhii gayaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "वह अभी जा रहा था — he was going a moment ago."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह अभी जा रहा है",
+              "वह अभी जा रहा था",
+              "वह अभी सो रहा है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L32-I3",
+          "type": "grammar",
+          "target": "वह कल गया",
+          "read_as": "vah kal gayaa",
+          "pronunciation_notes": "कल is one short flat syllable and carries no stress: kal.",
+          "gloss_en": "a named past time forces the bare perfective",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "perfective_simple",
+          "tags": [
+            "tense",
+            "perfective_simple",
+            "adverb_test",
+            "rule_summary",
+            "module_close",
+            "bare_perfective"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कल takes the bare perfective, and the module is done",
+              "explanation_en": "Name a past time and the bare perfective is what follows: वह कल गया. Not गया है, which would tie the result to now and clash with कल, and not गया था, which would need a later past moment to measure against. This is the third adverb test and it completes a small toolkit — रोज़ for the habitual, अभी for the continuous, कल for the bare perfective. That covers most ordinary sentences. What the module leaves you with is smaller than it looks: two participles, one marker, three sets of auxiliaries, one set of future endings, and three imperatives. Everything else was agreement you already knew from Module 6.",
+              "examples": [
+                {
+                  "hindi": "वह कल गया",
+                  "read_as": "vah kal gayaa",
+                  "english": "he went yesterday",
+                  "note": "A named past time, so the bare form with no auxiliary."
+                },
+                {
+                  "hindi": "वह कल जाएगा",
+                  "read_as": "vah kal jaaegaa",
+                  "english": "he will go tomorrow",
+                  "note": "कल means both yesterday and tomorrow — the verb is what tells you which."
+                },
+                {
+                  "hindi": "वह कल आई",
+                  "read_as": "vah kal aaii",
+                  "english": "she came yesterday",
+                  "note": "The same shape with feminine agreement."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह कल गया है",
+                "right": "वह कल गया",
+                "why_en": "है ties the result to the present moment, which contradicts कल pointing back at yesterday."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Choose the form that fits the sentence.",
+              "question": "वह कल ___ (यह बीत चुका है)",
+              "question_read_as": "vah kal ___ (past)",
+              "options": [
+                "गया",
+                "जा रहा है",
+                "गया है",
+                "जाता है"
+              ],
+              "options_read_as": [
+                "gayaa",
+                "jaa rahaa hai",
+                "gayaa hai",
+                "jaataa hai"
+              ],
+              "answer_index": 0,
+              "explanation_en": "A named past time takes the bare perfective, with no auxiliary behind it."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the perfective past cell?",
+              "options": [
+                "वह कल गया",
+                "वह कल गया है",
+                "वह कल गया था",
+                "वह कल जाएगा"
+              ],
+              "options_read_as": [
+                "vah kal gayaa",
+                "vah kal gayaa hai",
+                "vah kal gayaa thaa",
+                "vah kal jaaegaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "वह कल गया था — he had gone, measured back from some later past moment."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह कल गया",
+              "वह कल जाएगा",
+              "वह कल आई"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Three adverbs settle most of the choosing: रोज़ takes the habitual, अभी takes the continuous, and a named past time like कल takes the bare perfective. The module itself reduces to two participles, one continuous marker, three sets of auxiliaries, one set of future endings and three imperatives — everything else was agreement carried over from Module 6.",
+        "key_forms": [
+          "वह रोज़ जाता है",
+          "वह अभी जा रहा है",
+          "वह कल गया"
+        ],
+        "next_up_en": "Module 7 is complete, and with it Phase 3. Every tense in the language is now available to you with one exception: transitive verbs in the perfective, which need ने. That is Module 9, and it is the single highest-value thing left to learn."
+      }
+    }
+  ]
+}

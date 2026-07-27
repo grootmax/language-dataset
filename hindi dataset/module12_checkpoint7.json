@@ -1,0 +1,258 @@
+{
+  "module": 12,
+  "format_divergence": {
+    "part_f_default": "4 recognition, 4 production/transform, 2 error-spotting",
+    "used_here": "3 comprehension, 2 recognition, 5 audio_gap_fill",
+    "reason_en": "Seventh of eight, unchanged reasoning: a receptive module has nothing for a transform or error-spot question to test. Only checkpoint 8 remains, so this is effectively the settled shape unless it is overruled."
+  },
+  "checkpoints": [
+    {
+      "after_level": 35,
+      "covers_levels": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "questions": [
+        {
+          "id": "M12-CP7-Q1",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L31-I2",
+          "question_en": "Listen again. What does the guest end up accepting?",
+          "options": [
+            "Water",
+            "Nothing",
+            "A cold drink",
+            "Tea"
+          ],
+          "answer_index": 0,
+          "explanation_en": "पानी चलेगा, बस — after refusing tea twice and being offered a smaller alternative.",
+          "source_item_ids": [
+            "M12-L31-I1",
+            "M12-L31-I2"
+          ]
+        },
+        {
+          "id": "M12-CP7-Q2",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L33-I2",
+          "question_en": "Listen again. What happened the last time he brought sweets?",
+          "options": [
+            "They were kept for the children",
+            "They were shared out",
+            "They were sent back with him",
+            "He forgot them"
+          ],
+          "answer_index": 2,
+          "explanation_en": "हमने आपको ज़बरदस्ती वापस दे दी थी — a fond accusation, not a complaint.",
+          "source_item_ids": [
+            "M12-L33-I2"
+          ]
+        },
+        {
+          "id": "M12-CP7-Q3",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L35-I2",
+          "question_en": "Across the school dialogues, what is the picture of Rohan?",
+          "options": [
+            "Struggling with the work and often absent",
+            "Fine at the work but not concentrating, and slow with homework",
+            "Top of the class",
+            "Being collected late every day"
+          ],
+          "answer_index": 1,
+          "explanation_en": "पढ़ने में ठीक है, पर ध्यान नहीं देता — and at home, थोड़ा बाक़ी है two days running.",
+          "source_item_ids": [
+            "M12-L35-I1",
+            "M12-L35-I2",
+            "M12-L35-I3"
+          ]
+        },
+        {
+          "id": "M12-CP7-Q4",
+          "source": "current",
+          "format": "recognition",
+          "replay_item_id": "M12-L33-I3",
+          "question_en": "A guest says इसकी क्या ज़रूरत थी while taking a gift, and बस बहुत हो गया while being fed. What are these doing?",
+          "options": [
+            "Being impolite",
+            "Asking for something else instead",
+            "Genuinely refusing",
+            "Following a script where the protest is part of accepting"
+          ],
+          "answer_index": 3,
+          "explanation_en": "Not making the protest would be the rude move. The same shape governs food, tea and gifts.",
+          "source_item_ids": [
+            "M12-L31-I3",
+            "M12-L33-I3",
+            "M12-L32-I3"
+          ]
+        },
+        {
+          "id": "M12-CP7-Q5",
+          "source": "current",
+          "format": "recognition",
+          "replay_item_id": "M12-L34-I2",
+          "question_en": "In मैंने धोबी से धुलवा लिए, why से on धोबी and ने on मैं?",
+          "options": [
+            "ने marks the arranger, से marks the one who did the work",
+            "They are interchangeable",
+            "से is required after any name",
+            "से is for people you pay"
+          ],
+          "answer_index": 0,
+          "explanation_en": "The causative rule from Module 11 — the same shape as मैंने अमित से करवा लिया in the office.",
+          "source_item_ids": [
+            "M12-L34-I1",
+            "M12-L34-I2"
+          ]
+        },
+        {
+          "id": "M12-CP7-Q6",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L32-I1",
+          "line_n": 3,
+          "mask_reason": "oblique",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "दोनों ___ के साथ रहते हैं आप?",
+          "question_read_as": "donoṁ ___ ke saath rahte haiṁ aap?",
+          "options": [
+            "भाइयो",
+            "भाई",
+            "भाइयों",
+            "भाइयाँ"
+          ],
+          "options_read_as": [
+            "bhaaiyo",
+            "bhaaii",
+            "bhaaiyoṁ",
+            "bhaaiyaaṁ"
+          ],
+          "answer_index": 2,
+          "explanation_en": "के साथ is a postposition, so the plural goes oblique.",
+          "source_item_ids": [
+            "M12-L32-I1"
+          ]
+        },
+        {
+          "id": "M12-CP7-Q7",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L32-I2",
+          "line_n": 2,
+          "mask_reason": "postposition",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "लखनऊ ___ । वहीं का घर है।",
+          "question_read_as": "lakhnaū ___ . vahiiṁ kaa ghar hai.",
+          "options": [
+            "को",
+            "में",
+            "पर",
+            "से"
+          ],
+          "options_read_as": [
+            "ko",
+            "meṁ",
+            "par",
+            "se"
+          ],
+          "answer_index": 1,
+          "explanation_en": "Cities take में.",
+          "source_item_ids": [
+            "M12-L32-I2"
+          ]
+        },
+        {
+          "id": "M12-CP7-Q8",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L33-I2",
+          "line_n": 4,
+          "mask_reason": "ne",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "और ___ आपको ज़बरदस्ती वापस दे दी थी!",
+          "question_read_as": "aur ___ aapko zabardastii vaapas de dii thii!",
+          "options": [
+            "हमें",
+            "हमारा",
+            "हम",
+            "हमने"
+          ],
+          "options_read_as": [
+            "hameṁ",
+            "hamaaraa",
+            "ham",
+            "hamne"
+          ],
+          "answer_index": 3,
+          "explanation_en": "देना takes ने — unlike लाना in the line before, which never does.",
+          "source_item_ids": [
+            "M12-L33-I2"
+          ]
+        },
+        {
+          "id": "M12-CP7-Q9",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L33-I1",
+          "line_n": 1,
+          "mask_reason": "postposition",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "दिवाली ___ घर आइए, सब लोग आ रहे हैं।",
+          "question_read_as": "divaalii ___ ghar aaie, sab log aa rahe haiṁ.",
+          "options": [
+            "पर",
+            "में",
+            "को",
+            "से"
+          ],
+          "options_read_as": [
+            "par",
+            "meṁ",
+            "ko",
+            "se"
+          ],
+          "answer_index": 0,
+          "explanation_en": "Festivals take पर; ordinary days take को.",
+          "source_item_ids": [
+            "M12-L33-I1"
+          ]
+        },
+        {
+          "id": "M12-CP7-Q10",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L34-I3",
+          "line_n": 1,
+          "mask_reason": "oblique",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "ऊपर वाले ___ में पानी टपक रहा है।",
+          "question_read_as": "uupar vaale ___ meṁ paanii ṭapak rahaa hai.",
+          "options": [
+            "कमरी",
+            "कमरा",
+            "कमरे",
+            "कमरों"
+          ],
+          "options_read_as": [
+            "kamrii",
+            "kamraa",
+            "kamre",
+            "kamroṁ"
+          ],
+          "answer_index": 2,
+          "explanation_en": "में is a postposition, so कमरा goes oblique — and वाला follows it to वाले.",
+          "source_item_ids": [
+            "M12-L34-I3"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "module": 14,
+  "module_name_en": "Connected Speech",
+  "module_name_hi": "जुड़े वाक्य",
+  "phase": 5,
+  "type": "grammar",
+  "total_items": 72,
+  "total_levels": 24,
+  "learner_knows_through_module": 13,
+  "formats": { "practice": "join_the_sentences", "game": "reorder" },
+  "central_rule": {
+    "en": "The correlative half is required in Hindi where English drops it. जो लड़का कल आया, वह मेरा भाई है — the वह cannot be left out, and leaving it out is the single commonest error an English speaker makes in this module.",
+    "distractor_rule_en": "Every item in levels 1 to 10 must include, among its practice distractors, the English-shaped version with the correlative missing. That is the actual error, so it has to be on the page."
+  },
+  "debt_from_module_13": "Module 13's 60 reading texts were written around all seven structures taught here, because none of them had been introduced. The news items at levels 38 to 47 of that module are the most strained, since real reporting uses the passive constantly. Once this module is in place those texts could be revised to read more naturally, and that is worth a decision rather than a silent omission.",
+  "block_plan": [
+    { "levels": "1-4", "items": 12, "structure": "jo ... vah", "note": "the relative-correlative, and the oblique जिस- forms" },
+    { "levels": "5-7", "items": 9, "structure": "jab ... tab", "note": "time clauses, including जब तक and जैसे ही" },
+    { "levels": "8-10", "items": 9, "structure": "other correlative pairs", "note": "जहाँ...वहाँ, जितना...उतना, जैसा...वैसा" },
+    { "levels": "11-13", "items": 9, "structure": "agar ... to", "note": "real conditionals" },
+    { "levels": "14-15", "items": 6, "structure": "counterfactual", "note": "अगर मैं जाता तो — the imperfect doing unreal work" },
+    { "levels": "16-17", "items": 6, "structure": "subjunctive", "note": "मैं जाऊँ?, शायद वह आए, चाहता हूँ कि" },
+    { "levels": "18-19", "items": 6, "structure": "reported speech with ki", "note": "and the tense shift Hindi does not make" },
+    { "levels": "20-22", "items": 9, "structure": "participles", "note": "करते हुए, किया हुआ, and the -कर conjunctive" },
+    { "levels": "23", "items": 3, "structure": "oblique infinitive + ke baad / se pahle", "note": "already met receptively throughout Modules 12 and 13" },
+    { "levels": "24", "items": 3, "structure": "passive with jaanaa", "note": "the form Module 13's news texts had to avoid" }
+  ],
+  "spine": [
+    {"id":"M14-L01-I1","level":1,"structure":"jo_vah","focus":"the concept — Hindi needs both halves","target":"जो लड़का कल आया, वह मेरा भाई है।"},
+    {"id":"M14-L01-I2","level":1,"structure":"jo_vah","focus":"jo as subject, inanimate","target":"जो किताब मेज़ पर है, वह मेरी है।"},
+    {"id":"M14-L01-I3","level":1,"structure":"jo_vah","focus":"the correlative is not optional","target":"जो आदमी वहाँ खड़ा है, वह डॉक्टर है।"},
+
+    {"id":"M14-L02-I1","level":2,"structure":"jo_vah","focus":"vahii for emphasis","target":"जो कल कहा था, वही आज भी कहता हूँ।"},
+    {"id":"M14-L02-I2","level":2,"structure":"jo_vah","focus":"the jo-clause can follow the main clause","target":"वह किताब कहाँ है जो मैंने कल दी थी?"},
+    {"id":"M14-L02-I3","level":2,"structure":"jo_vah","focus":"the noun may repeat in both halves","target":"जो लड़की गा रही थी, वह लड़की मेरी बहन है।"},
+
+    {"id":"M14-L03-I1","level":3,"structure":"jis_forms","focus":"jise — the ko form","target":"जिसे तुम ढूँढ रहे हो, वह चला गया।"},
+    {"id":"M14-L03-I2","level":3,"structure":"jis_forms","focus":"jisse — the se form","target":"जिससे मैंने बात की, वह मैनेजर था।"},
+    {"id":"M14-L03-I3","level":3,"structure":"jis_forms","focus":"jiskaa — the possessive form","target":"जिसका बेटा डॉक्टर है, वह मेरी पड़ोसन हैं।"},
+
+    {"id":"M14-L04-I1","level":4,"structure":"jis_forms","focus":"jismeṁ — the meṁ form","target":"जिस कमरे में हम बैठे थे, वह अब बंद है।"},
+    {"id":"M14-L04-I2","level":4,"structure":"jin_forms","focus":"plural jin- forms","target":"जिन लोगों ने मदद की, उन्हें धन्यवाद।"},
+    {"id":"M14-L04-I3","level":4,"structure":"jis_forms","focus":"mixed drill — choose the right jis- form","target":"जिस दुकान से सामान लिया, वह बंद हो गई।"},
+
+    {"id":"M14-L05-I1","level":5,"structure":"jab_tab","focus":"jab ... tab, basic","target":"जब बारिश रुकी, तब हम निकले।"},
+    {"id":"M14-L05-I2","level":5,"structure":"jab_tab","focus":"to standing in for tab","target":"जब वो आया तो सब चुप हो गए।"},
+    {"id":"M14-L05-I3","level":5,"structure":"jab_tak","focus":"jab tak ... tab tak — until","target":"जब तक वो नहीं आता, तब तक हम इंतज़ार करेंगे।"},
+
+    {"id":"M14-L06-I1","level":6,"structure":"jab_bhii","focus":"jab bhii — whenever","target":"जब भी वो आते हैं, मिठाई लाते हैं।"},
+    {"id":"M14-L06-I2","level":6,"structure":"jab_tab","focus":"time clause in the past","target":"जब मैं छोटा था, तब यहाँ खेत थे।"},
+    {"id":"M14-L06-I3","level":6,"structure":"jab_tab","focus":"time clause in the future — no future in the jab half","target":"जब वो आएँगे, तब बात करेंगे।"},
+
+    {"id":"M14-L07-I1","level":7,"structure":"jaise_hii","focus":"jaise hii — as soon as","target":"जैसे ही घंटी बजी, सब खड़े हो गए।"},
+    {"id":"M14-L07-I2","level":7,"structure":"jab_se","focus":"jab se — ever since","target":"जब से वो गया है, घर सूना लगता है।"},
+    {"id":"M14-L07-I3","level":7,"structure":"jab_tab","focus":"mixed drill across the time clauses","target":"जब तक मैं लौटूँ, तुम यहीं रहना।"},
+
+    {"id":"M14-L08-I1","level":8,"structure":"jahaaṁ_vahaaṁ","focus":"jahaaṁ ... vahaaṁ, basic","target":"जहाँ हम रुके थे, वहाँ अब होटल है।"},
+    {"id":"M14-L08-I2","level":8,"structure":"jahaaṁ_bhii","focus":"jahaaṁ bhii — wherever","target":"जहाँ भी जाओ, सावधानी बरतो।"},
+    {"id":"M14-L08-I3","level":8,"structure":"jahaaṁ_tak","focus":"jahaaṁ tak — as far as","target":"जहाँ तक मुझे पता है, वो नहीं आएँगे।"},
+
+    {"id":"M14-L09-I1","level":9,"structure":"jitnaa_utnaa","focus":"jitnaa ... utnaa, quantity","target":"जितना पैसा है, उतना ही ख़र्च करो।"},
+    {"id":"M14-L09-I2","level":9,"structure":"jitnaa_utnaa","focus":"the more ... the more","target":"जितना सोचोगे, उतना ही मुश्किल लगेगा।"},
+    {"id":"M14-L09-I3","level":9,"structure":"jitnaa_utnaa","focus":"agreement — jitnii ... utnii","target":"जितनी मेहनत की, उतनी ही तारीफ़ मिली।"},
+
+    {"id":"M14-L10-I1","level":10,"structure":"jaisaa_vaisaa","focus":"jaisaa ... vaisaa, manner","target":"जैसा तुमने कहा, वैसा ही हुआ।"},
+    {"id":"M14-L10-I2","level":10,"structure":"jaise_vaise","focus":"jaise ... vaise, adverbial","target":"जैसे वो बोलते हैं, वैसे कोई नहीं बोलता।"},
+    {"id":"M14-L10-I3","level":10,"structure":"correlatives_mixed","focus":"mixed drill across all five pairs","target":"जहाँ जैसा माहौल हो, वहाँ वैसा ही बोलना चाहिए।"},
+
+    {"id":"M14-L11-I1","level":11,"structure":"agar_to","focus":"agar ... to, present and future","target":"अगर बारिश हुई तो हम नहीं जाएँगे।"},
+    {"id":"M14-L11-I2","level":11,"structure":"agar_to","focus":"agar dropped, to alone carries it","target":"तबीयत ठीक नहीं है तो आराम करो।"},
+    {"id":"M14-L11-I3","level":11,"structure":"yadi_to","focus":"yadi — the formal conditional","target":"यदि आवश्यक हो तो सूचित करें।"},
+
+    {"id":"M14-L12-I1","level":12,"structure":"agar_to","focus":"conditional with an imperative","target":"अगर देर हो जाए तो फ़ोन कर देना।"},
+    {"id":"M14-L12-I2","level":12,"structure":"agar_to","focus":"negative conditional","target":"अगर तुम नहीं आए तो मैं अकेला चला जाऊँगा।"},
+    {"id":"M14-L12-I3","level":12,"structure":"varnaa","focus":"varnaa — otherwise","target":"जल्दी निकलो, वरना ट्रेन छूट जाएगी।"},
+
+    {"id":"M14-L13-I1","level":13,"structure":"agar_to","focus":"conditional with a presumptive consequence","target":"अगर उन्होंने कहा है तो सही ही होगा।"},
+    {"id":"M14-L13-I2","level":13,"structure":"chaahe_phir_bhii","focus":"chaahe ... phir bhii — even if","target":"चाहे कुछ भी हो जाए, फिर भी मैं जाऊँगा।"},
+    {"id":"M14-L13-I3","level":13,"structure":"conditionals_mixed","focus":"mixed drill across the real conditionals","target":"अगर समय मिला तो मिलते हैं, वरना अगली बार।"},
+
+    {"id":"M14-L14-I1","level":14,"structure":"counterfactual","focus":"the imperfect doing unreal work","target":"अगर मैं जाता तो उनसे मिलता।"},
+    {"id":"M14-L14-I2","level":14,"structure":"counterfactual","focus":"negative counterfactual","target":"अगर तुम न बताते तो मुझे पता ही नहीं चलता।"},
+    {"id":"M14-L14-I3","level":14,"structure":"counterfactual","focus":"hotaa to — if it were the case","target":"अगर पैसा होता तो घर ख़रीद लेते।"},
+
+    {"id":"M14-L15-I1","level":15,"structure":"kaash","focus":"kaash — if only","target":"काश मैं वहाँ होता।"},
+    {"id":"M14-L15-I2","level":15,"structure":"counterfactual","focus":"past counterfactual against present unreal","target":"अगर उस दिन बता देते तो आज ये हाल न होता।"},
+    {"id":"M14-L15-I3","level":15,"structure":"counterfactual","focus":"mixed drill — real against unreal","target":"अगर आ सकते हो तो आ जाओ, और न आ सको तो कोई बात नहीं।"},
+
+    {"id":"M14-L16-I1","level":16,"structure":"subjunctive","focus":"first person — shall I?","target":"मैं चाय बना दूँ?"},
+    {"id":"M14-L16-I2","level":16,"structure":"subjunctive","focus":"shaayad plus subjunctive","target":"शायद वो कल आए।"},
+    {"id":"M14-L16-I3","level":16,"structure":"taaki","focus":"taaki — so that","target":"जल्दी निकलो ताकि ट्रेन मिल जाए।"},
+
+    {"id":"M14-L17-I1","level":17,"structure":"subjunctive","focus":"after chaahnaa — I want him to come","target":"मैं चाहता हूँ कि आप आएँ।"},
+    {"id":"M14-L17-I2","level":17,"structure":"subjunctive","focus":"subjunctive inside a conditional","target":"अगर वो पूछे तो सच बता देना।"},
+    {"id":"M14-L17-I3","level":17,"structure":"subjunctive","focus":"mixed drill — subjunctive against future","target":"हो सकता है कि वो न आए।"},
+
+    {"id":"M14-L18-I1","level":18,"structure":"reported_ki","focus":"no tense shift, no pronoun shift","target":"उन्होंने कहा कि मैं कल आऊँगा।"},
+    {"id":"M14-L18-I2","level":18,"structure":"reported_ki","focus":"reported questions","target":"उसने पूछा कि तुम कहाँ जा रहे हो।"},
+    {"id":"M14-L18-I3","level":18,"structure":"reported_ki","focus":"reported commands take the subjunctive","target":"डॉक्टर ने कहा कि आराम करें।"},
+
+    {"id":"M14-L19-I1","level":19,"structure":"reported_ki","focus":"kahnaa, puuchhnaa, bataanaa with ki","target":"उसने बताया कि दुकान बंद है।"},
+    {"id":"M14-L19-I2","level":19,"structure":"reported_ki","focus":"who mai refers to in a reported clause","target":"राहुल ने कहा कि मैं थक गया हूँ।"},
+    {"id":"M14-L19-I3","level":19,"structure":"reported_ki","focus":"mixed drill — direct against reported","target":"माँ ने कहा कि खाना खाकर जाना।"},
+
+    {"id":"M14-L20-I1","level":20,"structure":"karte_hue","focus":"karte hue — while doing","target":"वो हँसते हुए अंदर आए।"},
+    {"id":"M14-L20-I2","level":20,"structure":"karte_karte","focus":"karte-karte — over time, or until","target":"पढ़ते-पढ़ते वो सो गया।"},
+    {"id":"M14-L20-I3","level":20,"structure":"karte_hue","focus":"agreement of karte hue","target":"वो रोती हुई कमरे से निकल गई।"},
+
+    {"id":"M14-L21-I1","level":21,"structure":"kiyaa_huaa","focus":"kiyaa huaa — the perfective participle as adjective","target":"मेज़ पर रखी हुई किताब मेरी है।"},
+    {"id":"M14-L21-I2","level":21,"structure":"state_participle","focus":"baiṭhaa huaa, khaṛaa huaa — states","target":"दरवाज़े पर खड़ा हुआ आदमी कौन है?"},
+    {"id":"M14-L21-I3","level":21,"structure":"kiyaa_huaa","focus":"agreement of the perfective participle","target":"बनी हुई चीज़ें ज़्यादा महँगी होती हैं।"},
+
+    {"id":"M14-L22-I1","level":22,"structure":"kar_participle","focus":"the -kar conjunctive — do this, then that","target":"खाना खाकर हम निकल गए।"},
+    {"id":"M14-L22-I2","level":22,"structure":"kar_participle","focus":"-kar against -ke, and karke","target":"वो दौड़कर आया।"},
+    {"id":"M14-L22-I3","level":22,"structure":"participles_mixed","focus":"mixed drill across all three participles","target":"बैठे हुए लोगों को देखकर वो रुक गया।"},
+
+    {"id":"M14-L23-I1","level":23,"structure":"oblique_inf_ke_baad","focus":"karne ke baad","target":"खाना खाने के बाद हम निकले।"},
+    {"id":"M14-L23-I2","level":23,"structure":"oblique_inf_se_pahle","focus":"karne se pahle","target":"जाने से पहले मुझे बता देना।"},
+    {"id":"M14-L23-I3","level":23,"structure":"oblique_inf_mixed","focus":"the oblique infinitive against the -kar participle","target":"सोचने के बाद ही फ़ैसला करना।"},
+
+    {"id":"M14-L24-I1","level":24,"structure":"passive","focus":"the passive with jaanaa","target":"यह काम कल किया जाएगा।"},
+    {"id":"M14-L24-I2","level":24,"structure":"passive","focus":"the agent with ke dvaaraa or se","target":"रिपोर्ट अधिकारी के द्वारा भेजी गई।"},
+    {"id":"M14-L24-I3","level":24,"structure":"capability_passive","focus":"mujhse nahiiṁ khaayaa jaataa — the capability passive","target":"मुझसे इतना नहीं खाया जाता।"}
+  ],
+  "review_flags": [
+    "The reorder game needs a token list that can be scrambled without becoming ambiguous. Any sentence with two valid word orders is unusable as a reorder item, and Hindi permits more reordering than English does — every game in this module has to be checked for a second legal ordering, not merely for a correct one.",
+    "Levels 14 and 15 use the imperfect (जाता, होता) for counterfactuals. That form was taught in Module 7 as the habitual past, and a learner will read अगर मैं जाता as 'if I used to go' unless the collision is named directly.",
+    "The passive at level 24 arrives after Modules 12 and 13 have both written around it for 285 items. Those texts should be revisited once this is in place."
+  ]
+}

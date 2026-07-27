@@ -1,0 +1,985 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "batch": {
+    "levels_from": 54,
+    "levels_to": 55
+  },
+  "block_kind": "reading",
+  "block_note": "The last six texts, and the longest. Level 55 turns from narrative to the opinion paragraph, which is a different shape again: a claim, a concession, a counter, and a refusal to settle it. The module's final word is विदाई, built with the -ई suffix taught in level 2 — the first pattern in the module returning in its last item.",
+  "levels": [
+    {
+      "level": 54,
+      "title_en": "Waiting, alone, taken in",
+      "title_hi": "बेचैनी · तन्हाई · अपनापन",
+      "items": [
+        {
+          "id": "M13-L54-I1",
+          "type": "reading",
+          "text_kind": "narrative",
+          "target_word": "बेचैनी",
+          "target_read_as": "bechainii",
+          "target_gloss_en": "restlessness, unease",
+          "target_gender": "f",
+          "word_count": 110,
+          "difficulty": 9,
+          "tags": [
+            "narrative",
+            "prefix_be",
+            "negation_family",
+            "callback_l47",
+            "show_not_tell"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "फ़ोन मेज़ पर पड़ा था।",
+                "read_as": "fon mez par paṛaa thaa.",
+                "english": "The phone lay on the table."
+              },
+              {
+                "n": 2,
+                "hindi": "मैंने उसे तीन बार उठाया और तीन बार रख दिया।",
+                "read_as": "maiṁne use tiin baar uṭhaayaa aur tiin baar rakh diyaa.",
+                "english": "I picked it up three times and put it down three times."
+              },
+              {
+                "n": 3,
+                "hindi": "कुछ भी नहीं आया था।",
+                "read_as": "kuchh bhii nahiiṁ aayaa thaa.",
+                "english": "Nothing had come."
+              },
+              {
+                "n": 4,
+                "hindi": "रिपोर्ट कल आनी थी। कल बीत गया।",
+                "read_as": "riporṭ kal aanii thii. kal biit gayaa.",
+                "english": "The report was due yesterday. Yesterday went past."
+              },
+              {
+                "n": 5,
+                "hindi": "सुबह से मैंने चाय चार बार बनाई और एक बार भी पूरी नहीं पी।",
+                "read_as": "subah se maiṁne chaay chaar baar banaaii aur ek baar bhii puurii nahiiṁ pii.",
+                "english": "Since morning I had made tea four times and not once finished it."
+              },
+              {
+                "n": 6,
+                "hindi": "काम में मन नहीं लगा।",
+                "read_as": "kaam meṁ man nahiiṁ lagaa.",
+                "english": "I could not settle to work."
+              },
+              {
+                "n": 7,
+                "hindi": "अजीब बात है — बुरी ख़बर से भी ज़्यादा तकलीफ़ इंतज़ार में होती है।",
+                "read_as": "ajiib baat hai — burii ḳhabar se bhii zyaadaa takliif iṁtazaar meṁ hotii hai.",
+                "english": "It is a strange thing — waiting hurts more than bad news does."
+              },
+              {
+                "n": 8,
+                "hindi": "बुरी ख़बर के बाद आदमी कुछ करता है।",
+                "read_as": "burii ḳhabar ke baad aadmii kuchh kartaa hai.",
+                "english": "After bad news a person does something."
+              },
+              {
+                "n": 9,
+                "hindi": "इंतज़ार में कुछ नहीं कर सकते।",
+                "read_as": "iṁtazaar meṁ kuchh nahiiṁ kar sakte.",
+                "english": "In waiting there is nothing you can do."
+              },
+              {
+                "n": 10,
+                "hindi": "बस बैठे रहते हैं और घड़ी देखते हैं।",
+                "read_as": "bas baiṭhe rahte haiṁ aur ghaṛii dekhte haiṁ.",
+                "english": "You just sit and watch the clock."
+              },
+              {
+                "n": 11,
+                "hindi": "शाम को फ़ोन बजा। नंबर कोई और था।",
+                "read_as": "shaam ko fon bajaa. nambar koii aur thaa.",
+                "english": "In the evening the phone rang. It was a different number."
+              },
+              {
+                "n": 12,
+                "hindi": "मैंने काट दिया और फिर वहीं बैठ गया।",
+                "read_as": "maiṁne kaaṭ diyaa aur phir vahiiṁ baiṭh gayaa.",
+                "english": "I cut the call and sat back down where I was."
+              },
+              {
+                "n": 13,
+                "hindi": "बेचैनी की सबसे बुरी बात यही है — उसका कोई काम ही नहीं होता।",
+                "read_as": "bechainii kii sabse burii baat yahii hai — uskaa koii kaam hii nahiiṁ hotaa.",
+                "english": "The worst thing about restlessness is that it has no work to do."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "बे- is the seventh way of saying not",
+              "explanation_en": "बेचैनी is बे- plus चैन, the ease you met in level 47 alongside सुकून and शांति. बे- came in through Persian and is enormously productive: बेचैन restless, बेकार useless, बेवकूफ़ foolish, बेशक without doubt, बेहतर better. That makes seven negating devices in this module — निः- and its forms, ला-, अ- and अन-, बिना, ना-, ग़ैर-, and now बे-. Four of the seven came from Persian and Arabic and three from Sanskrit, and each attaches to words from its own side.",
+              "register_note_en": "बेचैनी (everyday and literary alike) · व्याकुलता (Sanskrit-side, formal and rare) · घबराहट (closer to panic, and built with the -आहट suffix).",
+              "vocabulary_notes": [
+                "मन नहीं लगा — for the mind not to settle. The mind is the subject.",
+                "बीत गया — of time, to pass. बीतना is intransitive, so no ने.",
+                "काट देना — to cut a call, the same phrase as in the level 48 doorway narrative."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What was he waiting for?",
+              "options": [
+                "A train",
+                "A visitor",
+                "A report",
+                "A delivery"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 4: रिपोर्ट कल आनी थी."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                5,
+                13
+              ],
+              "question_en": "Why does the piece mention making tea four times and finishing none of it?",
+              "options": [
+                "It is a physical sign of the state the piece only names at the end",
+                "He was too busy to drink it",
+                "He was saving it for later",
+                "He does not like tea"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The word बेचैनी does not appear until the last line. Everything before it is evidence — the phone picked up and put down, the tea, the clock."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "बेचैनी"
+            ]
+          }
+        },
+        {
+          "id": "M13-L54-I2",
+          "type": "reading",
+          "text_kind": "narrative",
+          "target_word": "तन्हाई",
+          "target_read_as": "tanhaaii",
+          "target_gloss_en": "loneliness",
+          "target_gender": "f",
+          "word_count": 118,
+          "difficulty": 9,
+          "tags": [
+            "narrative",
+            "suffix_pan",
+            "self_defining_text",
+            "urdu_origin"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "पहला हफ़्ता सबसे लंबा था।",
+                "read_as": "pahlaa haftaa sabse laṁbaa thaa.",
+                "english": "The first week was the longest."
+              },
+              {
+                "n": 2,
+                "hindi": "कमरा किराए का था और सामान अभी डिब्बों में।",
+                "read_as": "kamraa kiraae kaa thaa aur saamaan abhii ḍibboṁ meṁ.",
+                "english": "The room was rented and my things were still in boxes."
+              },
+              {
+                "n": 3,
+                "hindi": "शाम को बाहर निकलता तो सब लोग किसी न किसी के साथ दिखते।",
+                "read_as": "shaam ko baahar nikaltaa to sab log kisii na kisii ke saath dikhte.",
+                "english": "When I went out in the evening, everyone seemed to be with somebody."
+              },
+              {
+                "n": 4,
+                "hindi": "मैं अकेला चलता और वापस आ जाता।",
+                "read_as": "maiṁ akelaa chaltaa aur vaapas aa jaataa.",
+                "english": "I would walk alone and come back."
+              },
+              {
+                "n": 5,
+                "hindi": "भाषा वही थी, पर लहजा अलग था।",
+                "read_as": "bhaaṣaa vahii thii, par lahjaa alag thaa.",
+                "english": "The language was the same, but the accent was different."
+              },
+              {
+                "n": 6,
+                "hindi": "दुकानदार मेरी बात समझ लेते, फिर भी कुछ अलग रहता।",
+                "read_as": "dukaandaar merii baat samajh lete, phir bhii kuchh alag rahtaa.",
+                "english": "Shopkeepers understood me, and still something stayed different."
+              },
+              {
+                "n": 7,
+                "hindi": "रात में ऊपर वाले फ़्लैट से बर्तनों की आवाज़ आती रहती थी।",
+                "read_as": "raat meṁ uupar vaale flaiṭ se bartanoṁ kii aavaaz aatii rahtii thii.",
+                "english": "At night the sound of dishes kept coming from the flat above."
+              },
+              {
+                "n": 8,
+                "hindi": "अकेलापन और तन्हाई एक चीज़ नहीं है।",
+                "read_as": "akelaapan aur tanhaaii ek chiiz nahiiṁ hai.",
+                "english": "Being alone and loneliness are not the same thing."
+              },
+              {
+                "n": 9,
+                "hindi": "अकेलापन जगह की बात है — कमरे में कोई नहीं होता।",
+                "read_as": "akelaapan jagah kii baat hai — kamre meṁ koii nahiiṁ hotaa.",
+                "english": "Being alone is about a place — there is nobody in the room."
+              },
+              {
+                "n": 10,
+                "hindi": "तन्हाई भीड़ में भी हो सकती है।",
+                "read_as": "tanhaaii bhiiṛ meṁ bhii ho saktii hai.",
+                "english": "Loneliness can happen in a crowd."
+              },
+              {
+                "n": 11,
+                "hindi": "उस हफ़्ते मैं भरी सड़क पर तन्हा था।",
+                "read_as": "us hafte maiṁ bharii saṛak par tanhaa thaa.",
+                "english": "That week I was lonely on a full street."
+              },
+              {
+                "n": 12,
+                "hindi": "फिर एक दिन नीचे वाली दुकान के भैया ने पूछा — नए आए हो?",
+                "read_as": "phir ek din niiche vaalii dukaan ke bhaiyaa ne puuchhaa — nae aae ho?",
+                "english": "Then one day the man in the shop below asked — new here?"
+              },
+              {
+                "n": 13,
+                "hindi": "बस इतना ही।",
+                "read_as": "bas itnaa hii.",
+                "english": "That was all."
+              },
+              {
+                "n": 14,
+                "hindi": "पर उस रात नींद जल्दी आ गई।",
+                "read_as": "par us raat niiṁd jaldii aa gaii.",
+                "english": "But that night sleep came early."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "-पन builds a masculine abstract noun",
+              "explanation_en": "अकेलापन in line 8 is अकेला plus -पन, and that suffix builds masculine abstract nouns: बचपन childhood, लड़कपन boyhood, पागलपन madness, and अपनापन in the next item. It is only the second masculine noun-maker this module has shown, after -आव in चुनाव and बदलाव — against five feminine ones. And notice what this text does in lines 8 to 10: it defines its own key word, distinguishing अकेलापन, a fact about a place, from तन्हाई, a fact about a feeling.",
+              "register_note_en": "तन्हाई (Urdu-side, and the word of songs and poetry) · अकेलापन (everyday and neutral) · एकांत (Sanskrit-side, and usually solitude that is chosen rather than suffered).",
+              "vocabulary_notes": [
+                "किसी न किसी के साथ — with somebody or other. The doubled किसी makes it vague on purpose.",
+                "लहजा — accent or tone of speech, masculine.",
+                "नींद आना — for sleep to come. The sleep does the arriving, as in the level 47 narrative."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What did the shopkeeper say to him?",
+              "options": [
+                "He asked where he was from",
+                "He said nothing",
+                "He offered him a discount",
+                "He asked whether he was new here"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 12: नए आए हो?"
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                13,
+                14
+              ],
+              "question_en": "What changed for him that day?",
+              "options": [
+                "He made a friend",
+                "Nothing material — being noticed by one person was enough",
+                "He decided to leave the city",
+                "He learned the local accent"
+              ],
+              "answer_index": 1,
+              "explanation_en": "बस इतना ही insists that the event was tiny. The next line, about sleep, is the only evidence that it mattered."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "तन्हाई"
+            ]
+          }
+        },
+        {
+          "id": "M13-L54-I3",
+          "type": "reading",
+          "text_kind": "narrative",
+          "target_word": "अपनापन",
+          "target_read_as": "apnaapan",
+          "target_gloss_en": "the feeling of being treated as one's own",
+          "target_gender": "m",
+          "word_count": 125,
+          "difficulty": 9,
+          "tags": [
+            "narrative",
+            "suffix_pan",
+            "untranslatable",
+            "hospitality",
+            "callback_l50"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "गाड़ी रास्ते में ख़राब हो गई।",
+                "read_as": "gaaṛii raaste meṁ ḳharaab ho gaii.",
+                "english": "The car broke down on the way."
+              },
+              {
+                "n": 2,
+                "hindi": "शाम हो रही थी और आसपास दूर तक कोई कस्बा नहीं था।",
+                "read_as": "shaam ho rahii thii aur aaspaas duur tak koii kasbaa nahiiṁ thaa.",
+                "english": "It was getting dark and there was no town for a long way around."
+              },
+              {
+                "n": 3,
+                "hindi": "थोड़ी दूर पर एक घर दिखा।",
+                "read_as": "thoṛii duur par ek ghar dikhaa.",
+                "english": "A house came into view a little way off."
+              },
+              {
+                "n": 4,
+                "hindi": "मैंने दरवाज़ा खटखटाया।",
+                "read_as": "maiṁne darvaazaa khaṭkhaṭaayaa.",
+                "english": "I knocked at the door."
+              },
+              {
+                "n": 5,
+                "hindi": "एक बुज़ुर्ग निकले। मैंने बात बताई।",
+                "read_as": "ek buzurg nikle. maiṁne baat bataaii.",
+                "english": "An old man came out. I explained."
+              },
+              {
+                "n": 6,
+                "hindi": "उन्होंने कुछ नहीं पूछा — न नाम, न काम, न कहाँ से आया हूँ।",
+                "read_as": "unhoṁne kuchh nahiiṁ puuchhaa — na naam, na kaam, na kahaaṁ se aayaa huuṁ.",
+                "english": "He asked nothing — not my name, not my work, not where I had come from."
+              },
+              {
+                "n": 7,
+                "hindi": "बस अंदर बुला लिया।",
+                "read_as": "bas aṁdar bulaa liyaa.",
+                "english": "He simply called me inside."
+              },
+              {
+                "n": 8,
+                "hindi": "चाय आई, फिर खाना आया।",
+                "read_as": "chaay aaii, phir khaanaa aayaa.",
+                "english": "Tea came, then food came."
+              },
+              {
+                "n": 9,
+                "hindi": "उनकी पत्नी ने पूछा कि रोटी और चाहिए क्या।",
+                "read_as": "unkii patnii ne puuchhaa ki roṭii aur chaahie kyaa.",
+                "english": "His wife asked whether I wanted more roti."
+              },
+              {
+                "n": 10,
+                "hindi": "मैंने पैसे देने की कोशिश की। उन्होंने हाथ पकड़ लिया और मना कर दिया।",
+                "read_as": "maiṁne paise dene kii koshish kii. unhoṁne haath pakaṛ liyaa aur manaa kar diyaa.",
+                "english": "I tried to give them money. He took my hand and refused."
+              },
+              {
+                "n": 11,
+                "hindi": "रात उन्हीं के यहाँ कटी।",
+                "read_as": "raat unhiiṁ ke yahaaṁ kaṭii.",
+                "english": "The night passed there."
+              },
+              {
+                "n": 12,
+                "hindi": "सुबह मैकेनिक आया और गाड़ी ठीक हो गई।",
+                "read_as": "subah maikenik aayaa aur gaaṛii ṭhiik ho gaii.",
+                "english": "In the morning a mechanic came and the car was mended."
+              },
+              {
+                "n": 13,
+                "hindi": "उन्होंने रास्ता भी समझा दिया।",
+                "read_as": "unhoṁne raastaa bhii samjhaa diyaa.",
+                "english": "He explained the road to me as well."
+              },
+              {
+                "n": 14,
+                "hindi": "जाने से पहले मैंने शुक्रिया कहा। उन्होंने सिर्फ़ इतना कहा — फिर आना।",
+                "read_as": "jaane se pahle maiṁne shukriyaa kahaa. unhoṁne sirf itnaa kahaa — phir aanaa.",
+                "english": "Before leaving I thanked him. All he said was — come again."
+              },
+              {
+                "n": 15,
+                "hindi": "अपनापन कोई बड़ी चीज़ नहीं होती।",
+                "read_as": "apnaapan koii baṛii chiiz nahiiṁ hotii.",
+                "english": "अपनापन is not a large thing."
+              },
+              {
+                "n": 16,
+                "hindi": "वो बस यही है — किसी अजनबी के लिए दरवाज़ा खोल देना।",
+                "read_as": "vo bas yahii hai — kisii ajnabii ke lie darvaazaa khol denaa.",
+                "english": "It is only this — opening the door for a stranger."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "अपनापन has no English word",
+              "explanation_en": "अपना is one's own; अपनापन, with the -पन suffix from the last item, is the quality of being treated as one's own. English has warmth, and belonging, and neither is it. The nearest thing English can do is a phrase, and the piece knows this, which is why it ends by defining the word with an action rather than a synonym. Note also हाथ पकड़ लिया in line 10: पकड़ना from level 50 and not थामना, because this is a firm stopping gesture rather than a tender one.",
+              "register_note_en": "अपनापन (warm, everyday) · आत्मीयता (Sanskrit-side, the same idea in formal writing) · मेहमाननवाज़ी (Persian-derived, and specifically the practice of hospitality rather than the feeling behind it).",
+              "vocabulary_notes": [
+                "बुज़ुर्ग — an elderly person, from level 16, and here taking the respectful plural निकले.",
+                "उन्हीं के यहाँ — उन plus ही plus यहाँ: at their very house.",
+                "फिर आना — the infinitive as a soft imperative, and the whole weight of the ending is in it."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What did the old man ask him?",
+              "options": [
+                "Nothing at all",
+                "Whether he could pay",
+                "His name",
+                "Where he was going"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 6: न नाम, न काम, न कहाँ से आया हूँ."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                6,
+                10
+              ],
+              "question_en": "What do the questions he did not ask and the money he would not take have in common?",
+              "options": [
+                "He wanted the visitor to leave quickly",
+                "He was suspicious of the visitor",
+                "Both refuse to make it a transaction — nothing is asked and nothing is owed",
+                "He was hard of hearing"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Asking who somebody is, and being paid, are both ways of settling an account. The piece removes them one after the other."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "अपनापन"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "बे- is the seventh negating device in this module, and four of the seven came in from Persian and Arabic. -पन builds masculine abstract nouns — अकेलापन, बचपन, अपनापन — and is only the second masculine noun-maker against five feminine ones. And two of these three pieces define their own key word rather than translating it.",
+        "key_forms": [
+          "बेचैनी",
+          "अकेलापन और तन्हाई",
+          "अपनापन"
+        ],
+        "next_up_en": "Next: the last two texts of the module, and a different shape — the opinion paragraph."
+      }
+    },
+    {
+      "level": 55,
+      "title_en": "Two arguments and a farewell",
+      "title_hi": "कशमकश · फ़ुर्सत · विदाई",
+      "items": [
+        {
+          "id": "M13-L55-I1",
+          "type": "reading",
+          "text_kind": "narrative",
+          "target_word": "कशमकश",
+          "target_read_as": "kashmakash",
+          "target_gloss_en": "dilemma, inner tug-of-war",
+          "target_gender": "f",
+          "word_count": 130,
+          "difficulty": 9,
+          "tags": [
+            "opinion_paragraph",
+            "concede_then_counter",
+            "urdu_origin",
+            "three_way_split"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "हर बड़े फ़ैसले से पहले एक दौर आता है।",
+                "read_as": "har baṛe faisle se pahle ek daur aataa hai.",
+                "english": "Before every big decision there is a period."
+              },
+              {
+                "n": 2,
+                "hindi": "दोनों रास्ते ठीक लगते हैं और दोनों में कुछ खोना पड़ता है।",
+                "read_as": "donoṁ raaste ṭhiik lagte haiṁ aur donoṁ meṁ kuchh khonaa paṛtaa hai.",
+                "english": "Both roads look right, and either way something has to be given up."
+              },
+              {
+                "n": 3,
+                "hindi": "इसी हालत को कशमकश कहते हैं।",
+                "read_as": "isii haalat ko kashmakash kahte haiṁ.",
+                "english": "This state is what कशमकश means."
+              },
+              {
+                "n": 4,
+                "hindi": "लोग कहते हैं कि दिल की सुनो।",
+                "read_as": "log kahte haiṁ ki dil kii suno.",
+                "english": "People say listen to your heart."
+              },
+              {
+                "n": 5,
+                "hindi": "पर दिल भी दो बातें कहता है।",
+                "read_as": "par dil bhii do baateṁ kahtaa hai.",
+                "english": "But the heart says two things as well."
+              },
+              {
+                "n": 6,
+                "hindi": "और अक्सर दोनों बातें सच होती हैं।",
+                "read_as": "aur aksar donoṁ baateṁ sach hotii haiṁ.",
+                "english": "And often both of them are true."
+              },
+              {
+                "n": 7,
+                "hindi": "कुछ लोग कहते हैं कि काग़ज़ पर दोनों तरफ़ के फ़ायदे लिख लो।",
+                "read_as": "kuchh log kahte haiṁ ki kaaġaz par donoṁ taraf ke faayde likh lo.",
+                "english": "Some people say write the advantages of both sides on paper."
+              },
+              {
+                "n": 8,
+                "hindi": "मैंने कई बार लिखे। कभी काम नहीं आया।",
+                "read_as": "maiṁne kaii baar likhe. kabhii kaam nahiiṁ aayaa.",
+                "english": "I have written them many times. It has never helped."
+              },
+              {
+                "n": 9,
+                "hindi": "आप फ़ायदे गिन सकते हैं, डर नहीं।",
+                "read_as": "aap faayde gin sakte haiṁ, ḍar nahiiṁ.",
+                "english": "You can count advantages. You cannot count fear."
+              },
+              {
+                "n": 10,
+                "hindi": "सूची लंबी हो जाती है और फ़ैसला वहीं का वहीं रहता है।",
+                "read_as": "suuchii laṁbii ho jaatii hai aur faislaa vahiiṁ kaa vahiiṁ rahtaa hai.",
+                "english": "The list gets longer and the decision stays exactly where it was."
+              },
+              {
+                "n": 11,
+                "hindi": "शायद असली बात यह है कि कशमकश का कोई हल नहीं होता।",
+                "read_as": "shaayad aslii baat yah hai ki kashmakash kaa koii hal nahiiṁ hotaa.",
+                "english": "Perhaps the real point is that a dilemma has no solution."
+              },
+              {
+                "n": 12,
+                "hindi": "वो सिर्फ़ ख़त्म होती है — किसी एक दिन, अचानक।",
+                "read_as": "vo sirf ḳhatm hotii hai — kisii ek din, achaanak.",
+                "english": "It only ends — one day, suddenly."
+              },
+              {
+                "n": 13,
+                "hindi": "और उस दिन भी यक़ीन नहीं होता कि चुनाव सही था।",
+                "read_as": "aur us din bhii yaqiin nahiiṁ hotaa ki chunaav sahii thaa.",
+                "english": "And even that day you are not sure the choice was right."
+              },
+              {
+                "n": 14,
+                "hindi": "बस इतना होता है कि इंतज़ार करना मुमकिन नहीं रहता।",
+                "read_as": "bas itnaa hotaa hai ki iṁtazaar karnaa mumkin nahiiṁ rahtaa.",
+                "english": "It is only that going on waiting stops being possible."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "The shape of an opinion paragraph",
+              "explanation_en": "This is not a story, and it moves differently. Watch the pattern: a claim in lines 1 to 3, then लोग कहते हैं कि — other people's view — followed immediately by पर. Then a second view, कुछ लोग कहते हैं कि, and again a counter. Then शायद असली बात यह है कि, which is how a Hindi opinion piece announces its own position. Concede, counter, concede, counter, then state. That structure is worth recognising because almost every column in a Hindi newspaper uses it.",
+              "register_note_en": "कशमकश (Urdu-side, an inner tug-of-war) · दुविधा (Sanskrit-side — दु, two, plus विधा, way) · असमंजस (also Sanskrit-side, and closer to bewilderment than to being torn).",
+              "vocabulary_notes": [
+                "दौर — a period or phase, masculine.",
+                "वहीं का वहीं — exactly where it was, unmoved. The doubling is what carries the meaning.",
+                "मुमकिन नहीं रहता — stops being possible. From मुमकिन in level 28."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What does the writer say about making a list?",
+              "options": [
+                "It works if you are patient",
+                "He has tried it and it has never helped",
+                "He has never tried it",
+                "It works for small decisions"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 8: मैंने कई बार लिखे। कभी काम नहीं आया."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                11,
+                14
+              ],
+              "question_en": "According to the piece, how does a dilemma actually end?",
+              "options": [
+                "A list eventually makes it clear",
+                "Somebody else decides",
+                "The right answer becomes obvious",
+                "It is never solved — waiting simply stops being possible"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 11 removes the idea of a solution and line 14 supplies what happens instead. Neither line says it alone."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "कशमकश"
+            ]
+          }
+        },
+        {
+          "id": "M13-L55-I2",
+          "type": "reading",
+          "text_kind": "narrative",
+          "target_word": "फ़ुर्सत",
+          "target_read_as": "fursat",
+          "target_gloss_en": "leisure, unhurriedness",
+          "target_gender": "f",
+          "word_count": 135,
+          "difficulty": 9,
+          "tags": [
+            "opinion_paragraph",
+            "definition_by_negation",
+            "generational_contrast",
+            "urdu_origin"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "आजकल सब एक ही सवाल पूछते हैं — और कैसा चल रहा है?",
+                "read_as": "aajkal sab ek hii savaal puuchhte haiṁ — aur kaisaa chal rahaa hai?",
+                "english": "These days everyone asks the same question — so how are things going?"
+              },
+              {
+                "n": 2,
+                "hindi": "जवाब भी सबका एक ही होता है — बस, बहुत व्यस्त हूँ।",
+                "read_as": "javaab bhii sabkaa ek hii hotaa hai — bas, bahut vyast huuṁ.",
+                "english": "And everyone's answer is the same — oh, very busy."
+              },
+              {
+                "n": 3,
+                "hindi": "व्यस्त होना अब एक तारीफ़ बन गया है।",
+                "read_as": "vyast honaa ab ek taariif ban gayaa hai.",
+                "english": "Being busy has become a compliment."
+              },
+              {
+                "n": 4,
+                "hindi": "किसी से पूछिए कि छुट्टी में क्या किया — जवाब मिलेगा, कुछ ख़ास नहीं।",
+                "read_as": "kisii se puuchhie ki chhuṭṭii meṁ kyaa kiyaa — javaab milegaa, kuchh ḳhaas nahiiṁ.",
+                "english": "Ask somebody what they did on their holiday — the answer will be, nothing much."
+              },
+              {
+                "n": 5,
+                "hindi": "खाली वक़्त वाले आदमी से लोग पूछते हैं कि आजकल क्या कर रहे हो।",
+                "read_as": "khaalii vaqt vaale aadmii se log puuchhte haiṁ ki aajkal kyaa kar rahe ho.",
+                "english": "People ask the man with free time what he is doing these days."
+              },
+              {
+                "n": 6,
+                "hindi": "सवाल में ही शक होता है।",
+                "read_as": "savaal meṁ hii shak hotaa hai.",
+                "english": "The suspicion is in the question itself."
+              },
+              {
+                "n": 7,
+                "hindi": "पर फ़ुर्सत आलस नहीं है।",
+                "read_as": "par fursat aalas nahiiṁ hai.",
+                "english": "But leisure is not laziness."
+              },
+              {
+                "n": 8,
+                "hindi": "आलस में काम नहीं होता। फ़ुर्सत में काम होता है, बस जल्दी नहीं होती।",
+                "read_as": "aalas meṁ kaam nahiiṁ hotaa. fursat meṁ kaam hotaa hai, bas jaldii nahiiṁ hotii.",
+                "english": "In laziness nothing gets done. In leisure things get done, only without hurry."
+              },
+              {
+                "n": 9,
+                "hindi": "फ़र्क़ रफ़्तार का है, नीयत का नहीं।",
+                "read_as": "farq raftaar kaa hai, niiyat kaa nahiiṁ.",
+                "english": "The difference is one of speed, not of intent."
+              },
+              {
+                "n": 10,
+                "hindi": "पुराने लोग शाम को छत पर बैठते थे और कुछ नहीं करते थे।",
+                "read_as": "puraane log shaam ko chhat par baiṭhte the aur kuchh nahiiṁ karte the.",
+                "english": "People of an older generation would sit on the roof in the evening and do nothing."
+              },
+              {
+                "n": 11,
+                "hindi": "हम उसे बर्बादी कहते हैं।",
+                "read_as": "ham use barbaadii kahte haiṁ.",
+                "english": "We call that a waste."
+              },
+              {
+                "n": 12,
+                "hindi": "शायद वो उसे ज़िंदगी कहते थे।",
+                "read_as": "shaayad vo use ziṁdagii kahte the.",
+                "english": "Perhaps they called it living."
+              },
+              {
+                "n": 13,
+                "hindi": "मुझे नहीं पता कि कौन सही है।",
+                "read_as": "mujhe nahiiṁ pataa ki kaun sahii hai.",
+                "english": "I do not know which of us is right."
+              },
+              {
+                "n": 14,
+                "hindi": "पर इतना पता है कि जल्दी में कोई चीज़ पूरी तरह याद नहीं रहती।",
+                "read_as": "par itnaa pataa hai ki jaldii meṁ koii chiiz puurii tarah yaad nahiiṁ rahtii.",
+                "english": "But I do know that nothing done in a hurry is remembered properly."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "फ़ुर्सत, and defining a word by saying what it is not",
+              "explanation_en": "फ़ुर्सत is the state of not being pressed for time, and English has no single word for it — leisure is close but suggests idleness in a way फ़ुर्सत does not. So the piece defines it by exclusion: फ़ुर्सत आलस नहीं है, and then the difference is रफ़्तार rather than नीयत. That move is very common in Hindi opinion writing, and it is worth noticing as a technique rather than only reading for content.",
+              "register_note_en": "फ़ुर्सत (Urdu-side, and warm) · अवकाश (Sanskrit-side, and the same word as a formal holiday, from the level 8 sign) · खाली वक़्त (plain, and slightly negative — empty time).",
+              "vocabulary_notes": [
+                "रफ़्तार — speed, feminine, Urdu-side. नीयत — intention, also feminine.",
+                "बर्बादी — waste or ruin, feminine, with the -ई suffix from level 2.",
+                "शक — doubt or suspicion, masculine, and here located in the question rather than in a person."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What does the writer say the difference between leisure and laziness is?",
+              "options": [
+                "There is no difference",
+                "One is respectable and one is not",
+                "Speed, not intent",
+                "One is chosen and one is not"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 9: फ़र्क़ रफ़्तार का है, नीयत का नहीं."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                12,
+                13
+              ],
+              "question_en": "What is शायद doing in line 12?",
+              "options": [
+                "Offering their view without claiming it, which the next line then confirms",
+                "Criticising the older generation",
+                "Saying the two words mean the same thing",
+                "Asserting that the older generation was right"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The piece could have ended by taking a side. शायद hands the reader the other view, and मुझे नहीं पता refuses to settle it."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "फ़ुर्सत"
+            ]
+          }
+        },
+        {
+          "id": "M13-L55-I3",
+          "type": "reading",
+          "text_kind": "narrative",
+          "target_word": "विदाई",
+          "target_read_as": "vidaaii",
+          "target_gloss_en": "farewell, leave-taking",
+          "target_gender": "f",
+          "word_count": 140,
+          "difficulty": 9,
+          "tags": [
+            "narrative",
+            "suffix_ii",
+            "final_item",
+            "understatement",
+            "module_close"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "दफ़्तर में उनका आख़िरी दिन था।",
+                "read_as": "daftar meṁ unkaa aaḳhirii din thaa.",
+                "english": "It was his last day in the office."
+              },
+              {
+                "n": 2,
+                "hindi": "सुबह से सब कुछ सामान्य चल रहा था।",
+                "read_as": "subah se sab kuchh saamaanya chal rahaa thaa.",
+                "english": "Everything had been ordinary since the morning."
+              },
+              {
+                "n": 3,
+                "hindi": "वो हमेशा की तरह साढ़े नौ बजे आए और अपनी जगह बैठ गए।",
+                "read_as": "vo hameshaa kii tarah saaṛhe nau baje aae aur apnii jagah baiṭh gae.",
+                "english": "He came at half past nine as always and sat down in his place."
+              },
+              {
+                "n": 4,
+                "hindi": "दोपहर में एक छोटा सा कार्यक्रम रखा।",
+                "read_as": "dopahar meṁ ek chhoṭaa saa kaaryakram rakhaa.",
+                "english": "A small gathering was held at midday."
+              },
+              {
+                "n": 5,
+                "hindi": "किसी ने कुछ लंबा नहीं कहा।",
+                "read_as": "kisii ne kuchh laṁbaa nahiiṁ kahaa.",
+                "english": "Nobody made a long speech."
+              },
+              {
+                "n": 6,
+                "hindi": "एक लड़के ने फूल दिए और सबने ताली बजाई।",
+                "read_as": "ek laṛke ne phuul die aur sabne taalii bajaaii.",
+                "english": "A young man gave him flowers and everyone clapped."
+              },
+              {
+                "n": 7,
+                "hindi": "चाय और समोसे आए, फिर सब अपनी-अपनी जगह लौट गए।",
+                "read_as": "chaay aur samose aae, phir sab apnii-apnii jagah lauṭ gae.",
+                "english": "Tea and samosas came, and then everyone went back to their places."
+              },
+              {
+                "n": 8,
+                "hindi": "उन्होंने सिर्फ़ इतना कहा — बहुत अच्छा लगा, आप सब का शुक्रिया।",
+                "read_as": "unhoṁne sirf itnaa kahaa — bahut acchhaa lagaa, aap sab kaa shukriyaa.",
+                "english": "All he said was — it has been good, thank you all."
+              },
+              {
+                "n": 9,
+                "hindi": "शाम को जाने से पहले उन्होंने अपनी मेज़ ख़ाली की।",
+                "read_as": "shaam ko jaane se pahle unhoṁne apnii mez ḳhaalii kii.",
+                "english": "Before leaving in the evening he cleared his desk."
+              },
+              {
+                "n": 10,
+                "hindi": "दराज़ में एक पुराना कप था। उसे भी रख लिया।",
+                "read_as": "daraaz meṁ ek puraanaa kap thaa. use bhii rakh liyaa.",
+                "english": "There was an old cup in the drawer. He took that too."
+              },
+              {
+                "n": 11,
+                "hindi": "बाईस साल की सारी चीज़ें एक थैले में आ गईं।",
+                "read_as": "baaiis saal kii saarii chiizeṁ ek thaile meṁ aa gaiiṁ.",
+                "english": "Twenty-two years of things fitted into one bag."
+              },
+              {
+                "n": 12,
+                "hindi": "निकलने से पहले वो एक बार पीछे मुड़े।",
+                "read_as": "nikalne se pahle vo ek baar piichhe muṛe.",
+                "english": "Before going out he turned back once."
+              },
+              {
+                "n": 13,
+                "hindi": "किसी ने नहीं देखा।",
+                "read_as": "kisii ne nahiiṁ dekhaa.",
+                "english": "Nobody saw."
+              },
+              {
+                "n": 14,
+                "hindi": "विदाई का सबसे अजीब हिस्सा यही होता है।",
+                "read_as": "vidaaii kaa sabse ajiib hissaa yahii hotaa hai.",
+                "english": "This is the strangest part of a farewell."
+              },
+              {
+                "n": 15,
+                "hindi": "बड़ी बातें सब कह देते हैं।",
+                "read_as": "baṛii baateṁ sab kah dete haiṁ.",
+                "english": "Everyone says the big things."
+              },
+              {
+                "n": 16,
+                "hindi": "पर आख़िरी नज़र किसी के लिए नहीं होती — वो सिर्फ़ अपने लिए होती है।",
+                "read_as": "par aaḳhirii nazar kisii ke lie nahiiṁ hotii — vo sirf apne lie hotii hai.",
+                "english": "But the last look is not for anybody — it is only for yourself."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "विदाई — the first suffix of the module, in its last word",
+              "explanation_en": "विदाई is विदा, leave-taking, plus the -ई suffix taught in level 2 — feminine, as every noun that suffix builds has been. That is the module's first pattern returning in its hundred and sixty-fifth and final word. विदाई also names the occasion itself: a विदाई समारोह at an office, and the विदाई at a wedding when the bride leaves her family's house. Both are formal, both have a fixed shape, and this piece is about the moment that falls outside it.",
+              "register_note_en": "विदाई (the occasion of parting) · विदा (the act — विदा लेना, to take one's leave) · अलविदा (the word you actually say). Three related words, three different jobs.",
+              "vocabulary_notes": [
+                "अपनी-अपनी जगह — each to their own place. The doubling distributes it across everybody.",
+                "मुड़ना — to turn. मुड़े, respectful plural.",
+                "आख़िरी नज़र — the last look. नज़र is feminine, as level 13 established."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What did he take from the drawer?",
+              "options": [
+                "A notebook",
+                "Nothing",
+                "A photograph",
+                "An old cup"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 10: एक पुराना कप."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                13,
+                16
+              ],
+              "question_en": "Nobody saw him turn back. What does the piece make of that?",
+              "options": [
+                "His colleagues were careless",
+                "The look was never for anybody else, so being unseen takes nothing from it",
+                "He wanted to be noticed and was not",
+                "He had forgotten something"
+              ],
+              "answer_index": 1,
+              "explanation_en": "किसी ने नहीं देखा reads as a loss until the last line, which turns it into the point. The whole piece waits for that."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "विदाई"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "An opinion paragraph concedes, counters, concedes again and then states its own position with शायद असली बात यह है कि. A word with no English equivalent gets defined by what it is not. And विदाई closes the module on the -ई suffix that opened it in level 2.",
+        "key_forms": [
+          "कशमकश",
+          "फ़ुर्सत में",
+          "विदाई"
+        ],
+        "next_up_en": "That is all 165 items. Module 14 takes up connected speech — relative clauses, conditionals and the participles this module has been writing around."
+      }
+    }
+  ],
+  "module_complete": {
+    "items": 165,
+    "levels": 55,
+    "vocabulary_items": 105,
+    "reading_items": 60,
+    "new_words_taught": 165,
+    "note_en": "Module 13 is complete. The 105 vocabulary items and the 60 reading target words are 165 distinct words, which is what holds the app at 480 words in total.",
+    "open_flags": [
+      "Reading texts avoid the passive with जाना, relative-correlative clauses and participial constructions, because Module 14 teaches all three. This is most strained in the news block at levels 38 to 47, where a real report would use the passive constantly. Worth deciding whether reading items may contain a not-yet-taught form for recognition only.",
+      "Five reading targets were repointed during generation because the planned word had already appeared in an earlier text or gloss. Four of those five were forward references written from a vocabulary card to a later reading item. A vocabulary card should not name an upcoming reading target."
+    ]
+  }
+}

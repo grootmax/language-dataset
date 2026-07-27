@@ -1,0 +1,1909 @@
+{
+  "module": 8,
+  "module_name_en": "Core Words II",
+  "checkpoints": [
+    {
+      "checkpoint": 1,
+      "after_level": 5,
+      "covers_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "questions": [
+        {
+          "id": "M08-CP1-Q1",
+          "source_item_ids": [
+            "M08-L02-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ डर ('fear', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 0,
+          "explanation_en": "डर ('fear') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP1-Q2",
+          "source_item_ids": [
+            "M08-L03-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ प्यार ('love, affection', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 1,
+          "explanation_en": "प्यार ('love, affection') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP1-Q3",
+          "source_item_ids": [
+            "M08-L03-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ आराम ('rest, comfort, ease', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 2,
+          "explanation_en": "आराम ('rest, comfort, ease') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP1-Q4",
+          "source_item_ids": [
+            "M08-L04-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ चिंता ('worry, concern', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 3,
+          "explanation_en": "चिंता ('worry, concern') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP1-Q5",
+          "source_item_ids": [
+            "M08-L02-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with ग़ुस्सा ('anger') — ग़ुस्सा ___?",
+          "options": [
+            "निकलना",
+            "आना",
+            "होना",
+            "करना"
+          ],
+          "answer_index": 1,
+          "explanation_en": "ग़ुस्सा आना means 'to get angry'."
+        },
+        {
+          "id": "M08-CP1-Q6",
+          "source_item_ids": [
+            "M08-L02-I1"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with ख़ुशी ('happiness, joy') — ख़ुशी ___?",
+          "options": [
+            "आना",
+            "लगना",
+            "होना",
+            "निकलना"
+          ],
+          "answer_index": 2,
+          "explanation_en": "ख़ुशी होना means 'to feel happiness'."
+        },
+        {
+          "id": "M08-CP1-Q7",
+          "source_item_ids": [
+            "M08-L04-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with थका ('tired') — थका ___?",
+          "options": [
+            "लगना",
+            "करना",
+            "होना",
+            "जाना"
+          ],
+          "answer_index": 3,
+          "explanation_en": "थक जाना means 'to get tired'."
+        },
+        {
+          "id": "M08-CP1-Q8",
+          "source_item_ids": [
+            "M08-L04-I1"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with उदास ('downcast, low, melancholy') — उदास ___?",
+          "options": [
+            "होना",
+            "आना",
+            "निकलना",
+            "लगना"
+          ],
+          "answer_index": 0,
+          "explanation_en": "उदास होना means 'to be downcast'."
+        },
+        {
+          "id": "M08-CP1-Q9",
+          "source_item_ids": [
+            "M08-L05-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does बारिश (baarish) mean?",
+          "options": [
+            "downcast, low, melancholy",
+            "worried, troubled, bothered",
+            "rain",
+            "happiness, joy"
+          ],
+          "answer_index": 2,
+          "explanation_en": "बारिश means 'rain'."
+        },
+        {
+          "id": "M08-CP1-Q10",
+          "source_item_ids": [
+            "M08-L05-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does धूप (dhuup) mean?",
+          "options": [
+            "anger",
+            "downcast, low, melancholy",
+            "happy, pleased",
+            "sunshine, sunlight"
+          ],
+          "answer_index": 3,
+          "explanation_en": "धूप means 'sunshine, sunlight'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 2,
+      "after_level": 10,
+      "covers_levels": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "questions": [
+        {
+          "id": "M08-CP2-Q1",
+          "source_item_ids": [
+            "M08-L06-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ हवा ('wind, air, breeze', my ...).",
+          "options": [
+            "मेरी",
+            "मेरे",
+            "मेरों",
+            "मेरा"
+          ],
+          "answer_index": 0,
+          "explanation_en": "हवा ('wind, air, breeze') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP2-Q2",
+          "source_item_ids": [
+            "M08-L06-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ ठंड ('cold, the cold weather', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 1,
+          "explanation_en": "ठंड ('cold, the cold weather') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP2-Q3",
+          "source_item_ids": [
+            "M08-L07-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ बादल ('cloud', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 2,
+          "explanation_en": "बादल ('cloud') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP2-Q4",
+          "source_item_ids": [
+            "M08-L07-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ मौसम ('weather; also season', my ...).",
+          "options": [
+            "मेरी",
+            "मेरे",
+            "मेरों",
+            "मेरा"
+          ],
+          "answer_index": 3,
+          "explanation_en": "मौसम ('weather; also season') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP2-Q5",
+          "source_item_ids": [
+            "M08-L08-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with नदी ('river') — नदी ___?",
+          "options": [
+            "जाना",
+            "बहना",
+            "पूछना",
+            "लगाना"
+          ],
+          "answer_index": 1,
+          "explanation_en": "नदी बहना means 'for a river to flow'."
+        },
+        {
+          "id": "M08-CP2-Q6",
+          "source_item_ids": [
+            "M08-L09-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with गाड़ी ('vehicle — a car, a train, anything that carries you') — गाड़ी ___?",
+          "options": [
+            "बदलना",
+            "छाना",
+            "चलाना",
+            "लगना"
+          ],
+          "answer_index": 2,
+          "explanation_en": "गाड़ी चलाना means 'to drive'."
+        },
+        {
+          "id": "M08-CP2-Q7",
+          "source_item_ids": [
+            "M08-L10-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with बस से ('arranging a journey') — बस से ___?",
+          "options": [
+            "बहना",
+            "लगाना",
+            "करना",
+            "जाना"
+          ],
+          "answer_index": 3,
+          "explanation_en": "बस से जाना means 'to go by bus'."
+        },
+        {
+          "id": "M08-CP2-Q8",
+          "source_item_ids": [
+            "M08-L06-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with गर्मी ('heat; also the hot season') — गर्मी ___?",
+          "options": [
+            "लगना",
+            "चलना",
+            "लगाना",
+            "बदलना"
+          ],
+          "answer_index": 0,
+          "explanation_en": "गर्मी लगना means 'to feel hot'."
+        },
+        {
+          "id": "M08-CP2-Q9",
+          "source_item_ids": [
+            "M08-L07-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does आसमान (aasmaan) mean?",
+          "options": [
+            "cold, the cold weather",
+            "wind, air, breeze",
+            "sky",
+            "flower"
+          ],
+          "answer_index": 2,
+          "explanation_en": "आसमान means 'sky'."
+        },
+        {
+          "id": "M08-CP2-Q10",
+          "source_item_ids": [
+            "M08-L08-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does पेड़ (peṛ) mean?",
+          "options": [
+            "weather; also season",
+            "cold, the cold weather",
+            "heat; also the hot season",
+            "tree"
+          ],
+          "answer_index": 3,
+          "explanation_en": "पेड़ means 'tree'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 3,
+      "after_level": 15,
+      "covers_levels": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "questions": [
+        {
+          "id": "M08-CP3-Q1",
+          "source_item_ids": [
+            "M08-L11-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ स्टेशन ('station', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 0,
+          "explanation_en": "स्टेशन ('station') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP3-Q2",
+          "source_item_ids": [
+            "M08-L11-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ सड़क ('road, street', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 1,
+          "explanation_en": "सड़क ('road, street') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP3-Q3",
+          "source_item_ids": [
+            "M08-L11-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ जहाज़ ('ship; also aeroplane', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 2,
+          "explanation_en": "जहाज़ ('ship; also aeroplane') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP3-Q4",
+          "source_item_ids": [
+            "M08-L12-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ यात्रा ('journey, travel — the formal word', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 3,
+          "explanation_en": "यात्रा ('journey, travel — the formal word') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP3-Q5",
+          "source_item_ids": [
+            "M08-L13-I1"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with पहुँचना ('to arrive, to reach') — पहुँचना ___?",
+          "options": [
+            "जाना",
+            "पहुँचना",
+            "होना",
+            "करना"
+          ],
+          "answer_index": 1,
+          "explanation_en": "स्टेशन पहुँचना means 'to reach the station'."
+        },
+        {
+          "id": "M08-CP3-Q6",
+          "source_item_ids": [
+            "M08-L13-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with सीधा ('straight; also straightforward, simple') — सीधा ___?",
+          "options": [
+            "पहुँचना",
+            "करना",
+            "जाना",
+            "उड़ना"
+          ],
+          "answer_index": 2,
+          "explanation_en": "सीधा जाना means 'to go straight on'."
+        },
+        {
+          "id": "M08-CP3-Q7",
+          "source_item_ids": [
+            "M08-L12-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with दूर ('far, distant') — दूर ___?",
+          "options": [
+            "उड़ना",
+            "रखना",
+            "करना",
+            "होना"
+          ],
+          "answer_index": 3,
+          "explanation_en": "दूर होना means 'to be far away'."
+        },
+        {
+          "id": "M08-CP3-Q8",
+          "source_item_ids": [
+            "M08-L15-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with तबीयत ख़राब ('saying you are unwell') — तबीयत ख़राब ___?",
+          "options": [
+            "होना",
+            "पहुँचना",
+            "उड़ना",
+            "करना"
+          ],
+          "answer_index": 0,
+          "explanation_en": "तबीयत ख़राब होना means 'to be unwell'."
+        },
+        {
+          "id": "M08-CP3-Q9",
+          "source_item_ids": [
+            "M08-L12-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does सामान (saamaan) mean?",
+          "options": [
+            "lateness, delay; a while",
+            "station",
+            "luggage, belongings, stuff",
+            "ship; also aeroplane"
+          ],
+          "answer_index": 2,
+          "explanation_en": "सामान means 'luggage, belongings, stuff'."
+        },
+        {
+          "id": "M08-CP3-Q10",
+          "source_item_ids": [
+            "M08-L13-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does देर (der) mean?",
+          "options": [
+            "straight; also straightforward, simple",
+            "luggage, belongings, stuff",
+            "far, distant",
+            "lateness, delay; a while"
+          ],
+          "answer_index": 3,
+          "explanation_en": "देर means 'lateness, delay; a while'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 4,
+      "after_level": 20,
+      "covers_levels": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "questions": [
+        {
+          "id": "M08-CP4-Q1",
+          "source_item_ids": [
+            "M08-L16-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ भूख ('hunger', my ...).",
+          "options": [
+            "मेरी",
+            "मेरे",
+            "मेरों",
+            "मेरा"
+          ],
+          "answer_index": 0,
+          "explanation_en": "भूख ('hunger') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP4-Q2",
+          "source_item_ids": [
+            "M08-L16-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ प्यास ('thirst', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 1,
+          "explanation_en": "प्यास ('thirst') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP4-Q3",
+          "source_item_ids": [
+            "M08-L16-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ नींद ('sleep, sleepiness', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 2,
+          "explanation_en": "नींद ('sleep, sleepiness') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP4-Q4",
+          "source_item_ids": [
+            "M08-L17-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ डॉक्टर ('doctor', my ...).",
+          "options": [
+            "मेरी",
+            "मेरे",
+            "मेरों",
+            "मेरा"
+          ],
+          "answer_index": 3,
+          "explanation_en": "डॉक्टर ('doctor') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP4-Q5",
+          "source_item_ids": [
+            "M08-L20-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with काम करते हो ('asking what someone does') — काम करते हो ___?",
+          "options": [
+            "लगना",
+            "करना",
+            "होना",
+            "मिलना"
+          ],
+          "answer_index": 1,
+          "explanation_en": "काम करना means 'to work'."
+        },
+        {
+          "id": "M08-CP4-Q6",
+          "source_item_ids": [
+            "M08-L19-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with छुट्टी ('a holiday, a day off, leave') — छुट्टी ___?",
+          "options": [
+            "आना",
+            "मिलना",
+            "लेना",
+            "होना"
+          ],
+          "answer_index": 2,
+          "explanation_en": "छुट्टी लेना means 'to take leave'."
+        },
+        {
+          "id": "M08-CP4-Q7",
+          "source_item_ids": [
+            "M08-L18-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with नौकरी ('a job, employment') — नौकरी ___?",
+          "options": [
+            "लगना",
+            "आना",
+            "मिलना",
+            "करना"
+          ],
+          "answer_index": 3,
+          "explanation_en": "नौकरी करना means 'to hold a job'."
+        },
+        {
+          "id": "M08-CP4-Q8",
+          "source_item_ids": [
+            "M08-L17-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with कमज़ोर ('weak, frail') — कमज़ोर ___?",
+          "options": [
+            "होना",
+            "करना",
+            "लगना",
+            "जाना"
+          ],
+          "answer_index": 0,
+          "explanation_en": "कमज़ोर होना means 'to be weak'."
+        },
+        {
+          "id": "M08-CP4-Q9",
+          "source_item_ids": [
+            "M08-L17-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does चोट (choṭ) mean?",
+          "options": [
+            "thirst",
+            "doctor",
+            "injury, a wound, a knock",
+            "weak, frail"
+          ],
+          "answer_index": 2,
+          "explanation_en": "चोट means 'injury, a wound, a knock'."
+        },
+        {
+          "id": "M08-CP4-Q10",
+          "source_item_ids": [
+            "M08-L18-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does काम (kaam) mean?",
+          "options": [
+            "asking what someone does",
+            "phone, a phone call",
+            "a job, employment",
+            "work, a task, a job to be done"
+          ],
+          "answer_index": 3,
+          "explanation_en": "काम means 'work, a task, a job to be done'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 5,
+      "after_level": 25,
+      "covers_levels": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "questions": [
+        {
+          "id": "M08-CP5-Q1",
+          "source_item_ids": [
+            "M08-L21-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ ईमेल ('email', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 0,
+          "explanation_en": "ईमेल ('email') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP5-Q2",
+          "source_item_ids": [
+            "M08-L22-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ समस्या ('problem', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 1,
+          "explanation_en": "समस्या ('problem') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP5-Q3",
+          "source_item_ids": [
+            "M08-L23-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ परीक्षा ('exam, test', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 2,
+          "explanation_en": "परीक्षा ('exam, test') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP5-Q4",
+          "source_item_ids": [
+            "M08-L23-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ सवाल ('question', my ...).",
+          "options": [
+            "मेरी",
+            "मेरे",
+            "मेरों",
+            "मेरा"
+          ],
+          "answer_index": 3,
+          "explanation_en": "सवाल ('question') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP5-Q5",
+          "source_item_ids": [
+            "M08-L22-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with तैयार ('ready, prepared') — तैयार ___?",
+          "options": [
+            "लेना",
+            "होना",
+            "देना",
+            "पूछना"
+          ],
+          "answer_index": 1,
+          "explanation_en": "तैयार होना means 'to get ready'."
+        },
+        {
+          "id": "M08-CP5-Q6",
+          "source_item_ids": [
+            "M08-L21-I1"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with कंपनी ('company, firm') — कंपनी ___?",
+          "options": [
+            "होना",
+            "पूछना",
+            "करना",
+            "भेजना"
+          ],
+          "answer_index": 2,
+          "explanation_en": "कंपनी में काम करना means 'to work at a company'."
+        },
+        {
+          "id": "M08-CP5-Q7",
+          "source_item_ids": [
+            "M08-L22-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with ज़रूरी ('necessary, important') — ज़रूरी ___?",
+          "options": [
+            "लेना",
+            "भेजना",
+            "पूछना",
+            "होना"
+          ],
+          "answer_index": 3,
+          "explanation_en": "ज़रूरी होना means 'to be necessary'."
+        },
+        {
+          "id": "M08-CP5-Q8",
+          "source_item_ids": [
+            "M08-L23-I1"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with पढ़ाई ('studying, studies, education') — पढ़ाई ___?",
+          "options": [
+            "करना",
+            "समझना",
+            "भेजना",
+            "देना"
+          ],
+          "answer_index": 0,
+          "explanation_en": "पढ़ाई करना means 'to study'."
+        },
+        {
+          "id": "M08-CP5-Q9",
+          "source_item_ids": [
+            "M08-L24-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does जवाब (javaab) mean?",
+          "options": [
+            "exam, test",
+            "question",
+            "answer, reply",
+            "class, a lesson"
+          ],
+          "answer_index": 2,
+          "explanation_en": "जवाब means 'answer, reply'."
+        },
+        {
+          "id": "M08-CP5-Q10",
+          "source_item_ids": [
+            "M08-L24-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does टीचर (ṭiichar) mean?",
+          "options": [
+            "studying, studies, education",
+            "to understand",
+            "question",
+            "teacher"
+          ],
+          "answer_index": 3,
+          "explanation_en": "टीचर means 'teacher'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 6,
+      "after_level": 30,
+      "covers_levels": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "questions": [
+        {
+          "id": "M08-CP6-Q1",
+          "source_item_ids": [
+            "M08-L26-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ याद ('memory; the state of remembering', my ...).",
+          "options": [
+            "मेरी",
+            "मेरे",
+            "मेरों",
+            "मेरा"
+          ],
+          "answer_index": 0,
+          "explanation_en": "याद ('memory; the state of remembering') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP6-Q2",
+          "source_item_ids": [
+            "M08-L27-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ दुकान ('shop', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 1,
+          "explanation_en": "दुकान ('shop') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP6-Q3",
+          "source_item_ids": [
+            "M08-L27-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ क़ीमत ('price, value', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 2,
+          "explanation_en": "क़ीमत ('price, value') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP6-Q4",
+          "source_item_ids": [
+            "M08-L28-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ छूट ('discount, a concession', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 3,
+          "explanation_en": "छूट ('discount, a concession') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP6-Q5",
+          "source_item_ids": [
+            "M08-L30-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with छूट मिलेगी ('asking for a discount') — छूट मिलेगी ___?",
+          "options": [
+            "देना",
+            "मिलना",
+            "बेचना",
+            "जाना"
+          ],
+          "answer_index": 1,
+          "explanation_en": "छूट मिलना means 'to get a discount'."
+        },
+        {
+          "id": "M08-CP6-Q6",
+          "source_item_ids": [
+            "M08-L28-I1"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with महँगा ('expensive') — महँगा ___?",
+          "options": [
+            "पूछना",
+            "देना",
+            "होना",
+            "सीखना"
+          ],
+          "answer_index": 2,
+          "explanation_en": "महँगा होना means 'to be expensive'."
+        },
+        {
+          "id": "M08-CP6-Q7",
+          "source_item_ids": [
+            "M08-L30-I1"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with रुपया ('rupee') — रुपया ___?",
+          "options": [
+            "मिलना",
+            "बेचना",
+            "होना",
+            "देना"
+          ],
+          "answer_index": 3,
+          "explanation_en": "रुपये देना means 'to pay in rupees'."
+        },
+        {
+          "id": "M08-CP6-Q8",
+          "source_item_ids": [
+            "M08-L27-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with पैसा ('money; a coin') — पैसा ___?",
+          "options": [
+            "देना",
+            "आना",
+            "मिलना",
+            "ख़रीदना"
+          ],
+          "answer_index": 0,
+          "explanation_en": "पैसे देना means 'to pay'."
+        },
+        {
+          "id": "M08-CP6-Q9",
+          "source_item_ids": [
+            "M08-L29-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does दुकानदार (dukaandaar) mean?",
+          "options": [
+            "money; a coin",
+            "price, value",
+            "shopkeeper",
+            "cheap, inexpensive"
+          ],
+          "answer_index": 2,
+          "explanation_en": "दुकानदार means 'shopkeeper'."
+        },
+        {
+          "id": "M08-CP6-Q10",
+          "source_item_ids": [
+            "M08-L30-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does बिल (bil) mean?",
+          "options": [
+            "shop",
+            "expensive",
+            "shopkeeper",
+            "bill, invoice"
+          ],
+          "answer_index": 3,
+          "explanation_en": "बिल means 'bill, invoice'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 7,
+      "after_level": 35,
+      "covers_levels": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "questions": [
+        {
+          "id": "M08-CP7-Q1",
+          "source_item_ids": [
+            "M08-L31-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ ग्राहक ('customer, client', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 0,
+          "explanation_en": "ग्राहक ('customer, client') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP7-Q2",
+          "source_item_ids": [
+            "M08-L31-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ उधार ('credit, a loan, borrowing', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 1,
+          "explanation_en": "उधार ('credit, a loan, borrowing') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP7-Q3",
+          "source_item_ids": [
+            "M08-L33-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ तेल ('oil', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 2,
+          "explanation_en": "तेल ('oil') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP7-Q4",
+          "source_item_ids": [
+            "M08-L33-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ बर्तन ('a dish, a pot, a utensil', my ...).",
+          "options": [
+            "मेरी",
+            "मेरे",
+            "मेरों",
+            "मेरा"
+          ],
+          "answer_index": 3,
+          "explanation_en": "बर्तन ('a dish, a pot, a utensil') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP7-Q5",
+          "source_item_ids": [
+            "M08-L32-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with रसोई ('kitchen') — रसोई ___?",
+          "options": [
+            "बनाना",
+            "में",
+            "उबालना",
+            "मिलना"
+          ],
+          "answer_index": 1,
+          "explanation_en": "रसोई में means 'in the kitchen'."
+        },
+        {
+          "id": "M08-CP7-Q6",
+          "source_item_ids": [
+            "M08-L34-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with ताज़ा ('fresh') — ताज़ा ___?",
+          "options": [
+            "बनाना",
+            "आना",
+            "होना",
+            "मिलना"
+          ],
+          "answer_index": 2,
+          "explanation_en": "ताज़ा होना means 'to be fresh'."
+        },
+        {
+          "id": "M08-CP7-Q7",
+          "source_item_ids": [
+            "M08-L31-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with मुफ़्त ('free, at no cost') — मुफ़्त ___?",
+          "options": [
+            "में",
+            "लेना",
+            "धोना",
+            "मिलना"
+          ],
+          "answer_index": 3,
+          "explanation_en": "मुफ़्त में मिलना means 'to get for free'."
+        },
+        {
+          "id": "M08-CP7-Q8",
+          "source_item_ids": [
+            "M08-L35-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with खाना बना रहा हूँ ('at the stove') — खाना बना रहा हूँ ___?",
+          "options": [
+            "बनाना",
+            "आना",
+            "उबालना",
+            "धोना"
+          ],
+          "answer_index": 0,
+          "explanation_en": "खाना बनाना means 'to cook'."
+        },
+        {
+          "id": "M08-CP7-Q9",
+          "source_item_ids": [
+            "M08-L35-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does स्वाद (svaad) mean?",
+          "options": [
+            "at the stove",
+            "kitchen",
+            "taste, flavour",
+            "spice, a spice mixture"
+          ],
+          "answer_index": 2,
+          "explanation_en": "स्वाद means 'taste, flavour'."
+        },
+        {
+          "id": "M08-CP7-Q10",
+          "source_item_ids": [
+            "M08-L33-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does मसाला (masaalaa) mean?",
+          "options": [
+            "kitchen",
+            "at the stove",
+            "a dish, a pot, a utensil",
+            "spice, a spice mixture"
+          ],
+          "answer_index": 3,
+          "explanation_en": "मसाला means 'spice, a spice mixture'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 8,
+      "after_level": 40,
+      "covers_levels": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "questions": [
+        {
+          "id": "M08-CP8-Q1",
+          "source_item_ids": [
+            "M08-L36-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ दोस्त ('friend', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 0,
+          "explanation_en": "दोस्त ('friend') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP8-Q2",
+          "source_item_ids": [
+            "M08-L36-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ पड़ोसी ('neighbour', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 1,
+          "explanation_en": "पड़ोसी ('neighbour') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP8-Q3",
+          "source_item_ids": [
+            "M08-L37-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ मेहमान ('guest', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 2,
+          "explanation_en": "मेहमान ('guest') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP8-Q4",
+          "source_item_ids": [
+            "M08-L38-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ मदद ('help', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 3,
+          "explanation_en": "मदद ('help') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP8-Q5",
+          "source_item_ids": [
+            "M08-L37-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with शादी ('wedding, marriage') — शादी ___?",
+          "options": [
+            "बनना",
+            "होना",
+            "मनाना",
+            "आना"
+          ],
+          "answer_index": 1,
+          "explanation_en": "शादी होना means 'to get married'."
+        },
+        {
+          "id": "M08-CP8-Q6",
+          "source_item_ids": [
+            "M08-L40-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with बैंक के पास ('asking where something is') — बैंक के पास ___?",
+          "options": [
+            "आना",
+            "मिलना",
+            "होना",
+            "में"
+          ],
+          "answer_index": 2,
+          "explanation_en": "के पास होना means 'to be near'."
+        },
+        {
+          "id": "M08-CP8-Q7",
+          "source_item_ids": [
+            "M08-L36-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with दोस्ती ('friendship') — दोस्ती ___?",
+          "options": [
+            "बनना",
+            "मनाना",
+            "होना",
+            "करना"
+          ],
+          "answer_index": 3,
+          "explanation_en": "दोस्ती करना means 'to make friends'."
+        },
+        {
+          "id": "M08-CP8-Q8",
+          "source_item_ids": [
+            "M08-L38-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with भरोसा ('trust, confidence, reliance') — भरोसा ___?",
+          "options": [
+            "करना",
+            "मिलना",
+            "में",
+            "होना"
+          ],
+          "answer_index": 0,
+          "explanation_en": "भरोसा करना means 'to trust'."
+        },
+        {
+          "id": "M08-CP8-Q9",
+          "source_item_ids": [
+            "M08-L39-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does समाज (samaaj) mean?",
+          "options": [
+            "respect, honour, dignity",
+            "friend",
+            "society, community",
+            "quarrel, argument, fight"
+          ],
+          "answer_index": 2,
+          "explanation_en": "समाज means 'society, community'."
+        },
+        {
+          "id": "M08-CP8-Q10",
+          "source_item_ids": [
+            "M08-L39-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does त्योहार (tyohaar) mean?",
+          "options": [
+            "society, community",
+            "respect, honour, dignity",
+            "trust, confidence, reliance",
+            "festival"
+          ],
+          "answer_index": 3,
+          "explanation_en": "त्योहार means 'festival'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 9,
+      "after_level": 45,
+      "covers_levels": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "questions": [
+        {
+          "id": "M08-CP9-Q1",
+          "source_item_ids": [
+            "M08-L41-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ पुलिस ('police', my ...).",
+          "options": [
+            "मेरी",
+            "मेरे",
+            "मेरों",
+            "मेरा"
+          ],
+          "answer_index": 0,
+          "explanation_en": "पुलिस ('police') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP9-Q2",
+          "source_item_ids": [
+            "M08-L41-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ भीड़ ('crowd', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 1,
+          "explanation_en": "भीड़ ('crowd') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP9-Q3",
+          "source_item_ids": [
+            "M08-L42-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ लाइन ('queue, line', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 2,
+          "explanation_en": "लाइन ('queue, line') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP9-Q4",
+          "source_item_ids": [
+            "M08-L42-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ मंदिर ('temple', my ...).",
+          "options": [
+            "मेरी",
+            "मेरे",
+            "मेरों",
+            "मेरा"
+          ],
+          "answer_index": 3,
+          "explanation_en": "मंदिर ('temple') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP9-Q5",
+          "source_item_ids": [
+            "M08-L45-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with हमेशा ('always') — हमेशा ___?",
+          "options": [
+            "जाना",
+            "लिए",
+            "लगना",
+            "बार"
+          ],
+          "answer_index": 1,
+          "explanation_en": "हमेशा के लिए means 'forever'."
+        },
+        {
+          "id": "M08-CP9-Q6",
+          "source_item_ids": [
+            "M08-L41-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with पता ('address; also knowledge of something') — पता ___?",
+          "options": [
+            "जाना",
+            "दफ़्तर",
+            "होना",
+            "बार"
+          ],
+          "answer_index": 2,
+          "explanation_en": "पता होना means 'to know'."
+        },
+        {
+          "id": "M08-CP9-Q7",
+          "source_item_ids": [
+            "M08-L43-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with सफ़ाई ('cleaning, cleanliness') — सफ़ाई ___?",
+          "options": [
+            "रखना",
+            "लिए",
+            "बार",
+            "करना"
+          ],
+          "answer_index": 3,
+          "explanation_en": "सफ़ाई करना means 'to clean'."
+        },
+        {
+          "id": "M08-CP9-Q8",
+          "source_item_ids": [
+            "M08-L45-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with शुरू होगी ('asking when something starts') — शुरू होगी ___?",
+          "options": [
+            "होना",
+            "रखना",
+            "लगना",
+            "जाना"
+          ],
+          "answer_index": 0,
+          "explanation_en": "शुरू होना means 'to begin'."
+        },
+        {
+          "id": "M08-CP9-Q9",
+          "source_item_ids": [
+            "M08-L43-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does सरकार (sarkaar) mean?",
+          "options": [
+            "cleaning, cleanliness",
+            "crowd",
+            "government",
+            "address; also knowledge of something"
+          ],
+          "answer_index": 2,
+          "explanation_en": "सरकार means 'government'."
+        },
+        {
+          "id": "M08-CP9-Q10",
+          "source_item_ids": [
+            "M08-L43-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does डाकघर (ḍaakghar) mean?",
+          "options": [
+            "temple",
+            "government",
+            "address; also knowledge of something",
+            "post office"
+          ],
+          "answer_index": 3,
+          "explanation_en": "डाकघर means 'post office'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 10,
+      "after_level": 50,
+      "covers_levels": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "questions": [
+        {
+          "id": "M08-CP10-Q1",
+          "source_item_ids": [
+            "M08-L46-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ बाद ('after, afterwards', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 0,
+          "explanation_en": "बाद ('after, afterwards') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP10-Q2",
+          "source_item_ids": [
+            "M08-L46-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ मिनट ('minute', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 1,
+          "explanation_en": "मिनट ('minute') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP10-Q3",
+          "source_item_ids": [
+            "M08-L47-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ उम्र ('age', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 2,
+          "explanation_en": "उम्र ('age') is feminine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP10-Q4",
+          "source_item_ids": [
+            "M08-L48-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ ध्यान ('attention; also meditation', my ...).",
+          "options": [
+            "मेरी",
+            "मेरे",
+            "मेरों",
+            "मेरा"
+          ],
+          "answer_index": 3,
+          "explanation_en": "ध्यान ('attention; also meditation') is masculine — an exception, since its shape doesn't follow the usual pattern."
+        },
+        {
+          "id": "M08-CP10-Q5",
+          "source_item_ids": [
+            "M08-L48-I1"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with धीरे ('slowly, gently, quietly') — धीरे ___?",
+          "options": [
+            "नहीं",
+            "बोलना",
+            "एक",
+            "कभी-कभी"
+          ],
+          "answer_index": 1,
+          "explanation_en": "धीरे बोलना means 'to speak quietly or slowly'."
+        },
+        {
+          "id": "M08-CP10-Q6",
+          "source_item_ids": [
+            "M08-L49-I1"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with अक्सर ('often, usually') — अक्सर ___?",
+          "options": [
+            "बोलना",
+            "बाद",
+            "जाना",
+            "होना"
+          ],
+          "answer_index": 2,
+          "explanation_en": "अक्सर जाना means 'to go often'."
+        },
+        {
+          "id": "M08-CP10-Q7",
+          "source_item_ids": [
+            "M08-L47-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with पिछला ('last, previous') — पिछला ___?",
+          "options": [
+            "नहीं",
+            "होना",
+            "हफ़्ते",
+            "साल"
+          ],
+          "answer_index": 3,
+          "explanation_en": "पिछले साल means 'last year'."
+        },
+        {
+          "id": "M08-CP10-Q8",
+          "source_item_ids": [
+            "M08-L49-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with कभी ('ever, at any time; sometimes when doubled') — कभी ___?",
+          "options": [
+            "नहीं",
+            "मिनट",
+            "बाद",
+            "देना"
+          ],
+          "answer_index": 0,
+          "explanation_en": "कभी नहीं means 'never'."
+        },
+        {
+          "id": "M08-CP10-Q9",
+          "source_item_ids": [
+            "M08-L48-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does ज़ोर (zor) mean?",
+          "options": [
+            "slowly, gently, quietly",
+            "how often you come here",
+            "force, strength, loudness",
+            "attention; also meditation"
+          ],
+          "answer_index": 2,
+          "explanation_en": "ज़ोर means 'force, strength, loudness'."
+        },
+        {
+          "id": "M08-CP10-Q10",
+          "source_item_ids": [
+            "M08-L50-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does कभी-कभी आता हूँ (kabhii-kabhii aataa huuṁ) mean?",
+          "options": [
+            "force, strength, loudness",
+            "only, just",
+            "perhaps, maybe",
+            "how often you come here"
+          ],
+          "answer_index": 3,
+          "explanation_en": "कभी-कभी आता हूँ means 'how often you come here'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 11,
+      "after_level": 55,
+      "covers_levels": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "questions": [
+        {
+          "id": "M08-CP11-Q1",
+          "source_item_ids": [
+            "M08-L51-I1"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with ज़्यादा ('more, too much, excessive') — ज़्यादा ___?",
+          "options": [
+            "नहीं",
+            "जाना",
+            "खोलना",
+            "सा"
+          ],
+          "answer_index": 0,
+          "explanation_en": "ज़्यादा नहीं means 'not much'."
+        },
+        {
+          "id": "M08-CP11-Q2",
+          "source_item_ids": [
+            "M08-L53-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with दिखाना ('to show') — दिखाना ___?",
+          "options": [
+            "खोलना",
+            "दिखाओ",
+            "पूछना",
+            "रुकना"
+          ],
+          "answer_index": 1,
+          "explanation_en": "मुझे दिखाओ means 'show me'."
+        },
+        {
+          "id": "M08-CP11-Q3",
+          "source_item_ids": [
+            "M08-L52-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with लगना ('to attach; to seem; to feel; to take time') — लगना ___?",
+          "options": [
+            "नहीं",
+            "से",
+            "लगना",
+            "मिलना"
+          ],
+          "answer_index": 2,
+          "explanation_en": "अच्छा लगना means 'to like, to feel good'."
+        },
+        {
+          "id": "M08-CP11-Q4",
+          "source_item_ids": [
+            "M08-L51-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with थोड़ा ('a little, a bit, some') — थोड़ा ___?",
+          "options": [
+            "दिखाओ",
+            "आना",
+            "लाना",
+            "सा"
+          ],
+          "answer_index": 3,
+          "explanation_en": "थोड़ा सा means 'just a little'."
+        },
+        {
+          "id": "M08-CP11-Q5",
+          "source_item_ids": [
+            "M08-L55-I2"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with पूछना ('to ask') — पूछना ___?",
+          "options": [
+            "सा",
+            "पूछना",
+            "जाना",
+            "मिलना"
+          ],
+          "answer_index": 1,
+          "explanation_en": "से पूछना means 'to ask someone'."
+        },
+        {
+          "id": "M08-CP11-Q6",
+          "source_item_ids": [
+            "M08-L55-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with मेहमान आए हैं ('someone at the door') — मेहमान आए हैं ___?",
+          "options": [
+            "बताओ",
+            "सा",
+            "आना",
+            "लगना"
+          ],
+          "answer_index": 2,
+          "explanation_en": "मेहमान आना means 'for guests to arrive'."
+        },
+        {
+          "id": "M08-CP11-Q7",
+          "source_item_ids": [
+            "M08-L52-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with लाना ('to bring') — लाना ___?",
+          "options": [
+            "दिखाओ",
+            "लगना",
+            "सोचना",
+            "लाना"
+          ],
+          "answer_index": 3,
+          "explanation_en": "पानी लाना means 'to bring water'."
+        },
+        {
+          "id": "M08-CP11-Q8",
+          "source_item_ids": [
+            "M08-L53-I3"
+          ],
+          "type": "collocation_match",
+          "prompt_en": "Which word collocates with भूलना ('to forget') — भूलना ___?",
+          "options": [
+            "जाना",
+            "सोचना",
+            "बताओ",
+            "आना"
+          ],
+          "answer_index": 0,
+          "explanation_en": "भूल जाना means 'to forget completely'."
+        },
+        {
+          "id": "M08-CP11-Q9",
+          "source_item_ids": [
+            "M08-L51-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does फिर (phir) mean?",
+          "options": [
+            "to bring",
+            "to open, to undo, to untie",
+            "then, again, afterwards",
+            "more, too much, excessive"
+          ],
+          "answer_index": 2,
+          "explanation_en": "फिर means 'then, again, afterwards'."
+        },
+        {
+          "id": "M08-CP11-Q10",
+          "source_item_ids": [
+            "M08-L54-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does चाहना (chaahnaa) mean?",
+          "options": [
+            "to forget",
+            "to stop, to wait, to stay",
+            "someone at the door",
+            "to want, to wish"
+          ],
+          "answer_index": 3,
+          "explanation_en": "चाहना means 'to want, to wish'."
+        }
+      ]
+    }
+  ]
+}

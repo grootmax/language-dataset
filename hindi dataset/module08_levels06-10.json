@@ -1,0 +1,1713 @@
+{
+  "module": 8,
+  "module_name_en": "Core Words II",
+  "module_name_hi": "शब्द भंडार २",
+  "phase": 4,
+  "type": "word",
+  "batch": {
+    "levels_from": 6,
+    "levels_to": 10
+  },
+  "learner_knows_through_module": 7,
+  "levels": [
+    {
+      "level": 6,
+      "title_en": "Weather: wind, cold, heat",
+      "title_hi": "हवा · ठंड · गर्मी",
+      "category": "weather_nature",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L06-I1",
+          "type": "word",
+          "target": "हवा",
+          "read_as": "havaa",
+          "pronunciation_notes": "The ह is a light breath and the stress falls on the long second syllable: ha-vaa.",
+          "gloss_en": "wind, air, breeze",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "हवाएँ",
+          "plural_read_as": "havaaeṁ",
+          "collocation": {
+            "hindi": "हवा चलना",
+            "read_as": "havaa chalnaa",
+            "english": "for the wind to blow"
+          },
+          "category": "weather_nature",
+          "difficulty": 6,
+          "tags": [
+            "weather_nature",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "feminine_aa",
+            "ending_trap"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The second feminine noun ending in -ा",
+              "explanation_en": "हवा means wind or air, and like चिंता two levels back it ends in -ा and is feminine. That is now two in fifteen words, which is enough to treat as a real category rather than a freak case: a small set of nouns ends in -ा without being masculine, and there is no way to tell from looking. The consequence is visible immediately — ठंडी हवा, not ठंडा, and the plural is हवाएँ rather than हवे. Its verb is चलना, to move: हवा चल रही है, the wind is blowing.",
+              "examples": [
+                {
+                  "hindi": "हवा चल रही है",
+                  "read_as": "havaa chal rahii hai",
+                  "english": "the wind is blowing",
+                  "note": "रही agrees with the feminine हवा."
+                },
+                {
+                  "hindi": "ठंडी हवा",
+                  "read_as": "ṭhanḍii havaa",
+                  "english": "a cold wind",
+                  "note": "The adjective is feminine, which is the proof that हवा is."
+                },
+                {
+                  "hindi": "आज हवा नहीं है",
+                  "read_as": "aaj havaa nahiiṁ hai",
+                  "english": "there is no wind today",
+                  "note": "नहीं in its usual place in front of the verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "ठंडा हवा",
+                "right": "ठंडी हवा",
+                "why_en": "The -ा ending misleads. हवा is feminine, so a marked adjective in front of it takes -ी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "हवा",
+              "question_read_as": "havaa",
+              "options": [
+                "wind",
+                "cloud",
+                "rain",
+                "heat"
+              ],
+              "options_read_as": [
+                "wind",
+                "cloud",
+                "rain",
+                "heat"
+              ],
+              "answer_index": 0,
+              "explanation_en": "हवा is wind or air, and it is feminine despite the -ा ending."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with हवा?",
+              "options": [
+                "होना",
+                "आना",
+                "लगना",
+                "चलना"
+              ],
+              "options_read_as": [
+                "honaa",
+                "aanaa",
+                "lagnaa",
+                "chalnaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "हवा चलना — the wind moves. चलना is the verb Hindi uses for anything that runs or travels."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "हवा",
+              "हवा चल रही है",
+              "ठंडी हवा",
+              "आज हवा नहीं है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L06-I2",
+          "type": "word",
+          "target": "ठंड",
+          "read_as": "ṭhanḍ",
+          "pronunciation_notes": "Both consonants are retroflex, with the tongue curled back for the ठ and the ड: ṭhanḍ.",
+          "gloss_en": "cold, the cold weather",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "ठंड लगना",
+            "read_as": "ṭhanḍ lagnaa",
+            "english": "to feel cold"
+          },
+          "category": "weather_nature",
+          "difficulty": 6,
+          "tags": [
+            "weather_nature",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "uncountable",
+            "collocation_trap"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ठंड for the weather, ठंडा for the thing",
+              "explanation_en": "ठंड is the cold — the condition outside — and it is a feminine noun. ठंडा is the adjective meaning cold, and it agrees like any marked adjective: ठंडा पानी, ठंडी हवा. Keep them apart and a whole set of sentences opens up. The verb is लगना, the same one that goes with डर, and the person feeling it takes को: मुझे ठंड लग रही है, I am feeling cold. Not मैं ठंड हूँ, which would say you are the cold weather.",
+              "examples": [
+                {
+                  "hindi": "मुझे ठंड लग रही है",
+                  "read_as": "mujhe ṭhanḍ lag rahii hai",
+                  "english": "I am feeling cold",
+                  "note": "रही agrees with ठंड, which is feminine."
+                },
+                {
+                  "hindi": "आज बहुत ठंड है",
+                  "read_as": "aaj bahut ṭhanḍ hai",
+                  "english": "it is very cold today",
+                  "note": "The weather stated plainly, with होना."
+                },
+                {
+                  "hindi": "ठंडा पानी",
+                  "read_as": "ṭhanḍaa paanii",
+                  "english": "cold water",
+                  "note": "The adjective ठंडा, agreeing with the masculine पानी."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं ठंड हूँ",
+                "right": "मुझे ठंड लग रही है",
+                "why_en": "That sentence says you are the cold weather. The feeling attaches to you, so मुझे and लगना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "ठंड",
+              "question_read_as": "ṭhanḍ",
+              "options": [
+                "heat",
+                "wind",
+                "cold",
+                "cloud"
+              ],
+              "options_read_as": [
+                "heat",
+                "wind",
+                "cold",
+                "cloud"
+              ],
+              "answer_index": 2,
+              "explanation_en": "ठंड is the cold. ठंडा is the adjective meaning a cold thing."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with ठंड?",
+              "options": [
+                "करना",
+                "लगना",
+                "चलना",
+                "आना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "lagnaa",
+                "chalnaa",
+                "aanaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "ठंड लगना — cold attaches to you, exactly as डर does."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ठंड",
+              "मुझे ठंड लग रही है",
+              "आज बहुत ठंड है",
+              "ठंडा पानी"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L06-I3",
+          "type": "word",
+          "target": "गर्मी",
+          "read_as": "garmii",
+          "pronunciation_notes": "The र is rolled lightly against the म that follows: gar-mii.",
+          "gloss_en": "heat; also the hot season",
+          "gender": "f",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "गर्मियाँ",
+          "plural_read_as": "garmiyaaṁ",
+          "collocation": {
+            "hindi": "गर्मी लगना",
+            "read_as": "garmii lagnaa",
+            "english": "to feel hot"
+          },
+          "category": "weather_nature",
+          "difficulty": 6,
+          "tags": [
+            "weather_nature",
+            "noun",
+            "feminine",
+            "seasons",
+            "plural_meaning"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "गर्मी is heat, गर्मियाँ is summer",
+              "explanation_en": "गर्मी is heat, feminine and predictable from its -ी ending. The interesting part is the plural: गर्मियाँ means the summer, the season, rather than several heats. Hindi does that with a few weather words — the plural names the time of year. So गर्मियों में means in the summer, with the oblique plural before में exactly as Module 6 would predict. Its verb is लगना, like ठंड, and गरम is the adjective for a hot thing.",
+              "examples": [
+                {
+                  "hindi": "मुझे गर्मी लग रही है",
+                  "read_as": "mujhe garmii lag rahii hai",
+                  "english": "I am feeling hot",
+                  "note": "The same shape as ठंड लग रही है."
+                },
+                {
+                  "hindi": "गर्मियों में बहुत गर्मी होती है",
+                  "read_as": "garmiyoṁ meṁ bahut garmii hotii hai",
+                  "english": "it is very hot in the summer",
+                  "note": "गर्मियों is the oblique plural before में."
+                },
+                {
+                  "hindi": "गरम चाय",
+                  "read_as": "garam chaay",
+                  "english": "hot tea",
+                  "note": "गरम is unmarked, so it never changes."
+                }
+              ],
+              "common_error": {
+                "wrong": "गर्मी में",
+                "right": "गर्मियों में",
+                "why_en": "For the season Hindi uses the plural, and before में that plural goes oblique: गर्मियों."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "गर्मी",
+              "question_read_as": "garmii",
+              "options": [
+                "cold",
+                "heat",
+                "sky",
+                "wind"
+              ],
+              "options_read_as": [
+                "cold",
+                "heat",
+                "sky",
+                "wind"
+              ],
+              "answer_index": 1,
+              "explanation_en": "गर्मी is heat, and its plural गर्मियाँ names the summer."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with गर्मी?",
+              "options": [
+                "चलना",
+                "होना",
+                "लगना",
+                "करना"
+              ],
+              "options_read_as": [
+                "chalnaa",
+                "honaa",
+                "lagnaa",
+                "karnaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "गर्मी लगना — heat attaches to you. गर्मी होना describes the weather rather than your feeling."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "गर्मी",
+              "मुझे गर्मी लग रही है",
+              "गर्मियों में बहुत गर्मी होती है",
+              "गरम चाय"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "हवा is the second feminine noun in this module to end in -ा, which makes it a category rather than an oddity. ठंड and गर्मी both take लगना for the feeling and होना for the weather, and each has a separate adjective — ठंडा and गरम — for describing a thing.",
+        "key_forms": [
+          "हवा चलना",
+          "ठंड लगना",
+          "गर्मियों में"
+        ],
+        "next_up_en": "Next: clouds, the sky, and the word that covers both weather and season."
+      }
+    },
+    {
+      "level": 7,
+      "title_en": "Weather: cloud, season, sky",
+      "title_hi": "बादल · मौसम · आसमान",
+      "category": "weather_nature",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L07-I1",
+          "type": "word",
+          "target": "बादल",
+          "read_as": "baadal",
+          "pronunciation_notes": "Long aa in the first syllable and a very light second: baa-dal.",
+          "gloss_en": "cloud",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "बादल",
+          "plural_read_as": "baadal",
+          "collocation": {
+            "hindi": "बादल छाना",
+            "read_as": "baadal chhaanaa",
+            "english": "for clouds to gather"
+          },
+          "category": "weather_nature",
+          "difficulty": 6,
+          "tags": [
+            "weather_nature",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "class_2",
+            "collocation_trap"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Clouds spread rather than arrive",
+              "explanation_en": "बादल is a cloud, masculine, and Class 2 — so it does not change in the singular and takes बादलों before a postposition in the plural. Its collocation is छाना, a verb meaning to spread over or cover: बादल छाए हैं, the sky has clouded over. That is a genuinely idiomatic pairing and worth learning whole, because none of the obvious guesses works. Clouds do not come and they do not happen; they spread.",
+              "examples": [
+                {
+                  "hindi": "बादल छाए हैं",
+                  "read_as": "baadal chhaae haiṁ",
+                  "english": "it has clouded over",
+                  "note": "The perfective with a plural subject — छाना is intransitive."
+                },
+                {
+                  "hindi": "आसमान में बादल हैं",
+                  "read_as": "aasmaan meṁ baadal haiṁ",
+                  "english": "there are clouds in the sky",
+                  "note": "आसमान is oblique before में, though nothing visible changes."
+                },
+                {
+                  "hindi": "काले बादल",
+                  "read_as": "kaale baadal",
+                  "english": "black clouds",
+                  "note": "The adjective is plural masculine, agreeing with बादल."
+                }
+              ],
+              "common_error": {
+                "wrong": "बादल आए हैं",
+                "right": "बादल छाए हैं",
+                "why_en": "आना would suggest the clouds travelled here as visitors. Hindi uses छाना for the sky filling up."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बादल",
+              "question_read_as": "baadal",
+              "options": [
+                "sky",
+                "sunshine",
+                "wind",
+                "cloud"
+              ],
+              "options_read_as": [
+                "sky",
+                "sunshine",
+                "wind",
+                "cloud"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बादल is a cloud, masculine, and unchanged in the plural."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with बादल?",
+              "options": [
+                "छाना",
+                "होना",
+                "लगना",
+                "आना"
+              ],
+              "options_read_as": [
+                "chhaanaa",
+                "honaa",
+                "lagnaa",
+                "aanaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "बादल छाना — the clouds spread across the sky."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बादल",
+              "बादल छाए हैं",
+              "आसमान में बादल हैं",
+              "काले बादल"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L07-I2",
+          "type": "word",
+          "target": "मौसम",
+          "read_as": "mausam",
+          "pronunciation_notes": "The first syllable holds a diphthong close to the vowel in English 'how': mau-sam.",
+          "gloss_en": "weather; also season",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "मौसम",
+          "plural_read_as": "mausam",
+          "collocation": {
+            "hindi": "मौसम बदलना",
+            "read_as": "mausam badalnaa",
+            "english": "for the weather to change"
+          },
+          "category": "weather_nature",
+          "difficulty": 6,
+          "tags": [
+            "weather_nature",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "high_frequency",
+            "two_meanings"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "One word for weather and season both",
+              "explanation_en": "मौसम covers what English splits between weather and season, and context does the separating: आज मौसम अच्छा है is about today, while बारिश का मौसम is the rainy season. It is masculine and flagged, since the consonant ending predicts nothing. The verb is बदलना, to change, which is intransitive here — मौसम बदल रहा है, the weather is changing — so no ने is involved anywhere.",
+              "examples": [
+                {
+                  "hindi": "आज मौसम अच्छा है",
+                  "read_as": "aaj mausam achchhaa hai",
+                  "english": "the weather is good today",
+                  "note": "अच्छा agrees with the masculine मौसम."
+                },
+                {
+                  "hindi": "मौसम बदल रहा है",
+                  "read_as": "mausam badal rahaa hai",
+                  "english": "the weather is changing",
+                  "note": "The continuous present, with मौसम as the subject."
+                },
+                {
+                  "hindi": "बारिश का मौसम",
+                  "read_as": "baarish kaa mausam",
+                  "english": "the rainy season",
+                  "note": "का agrees with मौसम, the thing possessed, exactly as Module 6 taught."
+                }
+              ],
+              "common_error": {
+                "wrong": "बारिश की मौसम",
+                "right": "बारिश का मौसम",
+                "why_en": "का agrees with the thing possessed, and मौसम is masculine. That बारिश is feminine changes nothing."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "मौसम",
+              "question_read_as": "mausam",
+              "options": [
+                "sky",
+                "morning",
+                "weather",
+                "month"
+              ],
+              "options_read_as": [
+                "sky",
+                "morning",
+                "weather",
+                "month"
+              ],
+              "answer_index": 2,
+              "explanation_en": "मौसम is weather, and also season depending on context."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with मौसम?",
+              "options": [
+                "लगना",
+                "बदलना",
+                "चलना",
+                "छाना"
+              ],
+              "options_read_as": [
+                "lagnaa",
+                "badalnaa",
+                "chalnaa",
+                "chhaanaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "मौसम बदलना — the weather changes."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मौसम",
+              "आज मौसम अच्छा है",
+              "मौसम बदल रहा है",
+              "बारिश का मौसम"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L07-I3",
+          "type": "word",
+          "target": "आसमान",
+          "read_as": "aasmaan",
+          "pronunciation_notes": "Two long aa vowels bracketing a light middle: aas-maan.",
+          "gloss_en": "sky",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "आसमान",
+          "plural_read_as": "aasmaan",
+          "collocation": {
+            "hindi": "आसमान साफ़ होना",
+            "read_as": "aasmaan saaf honaa",
+            "english": "for the sky to be clear"
+          },
+          "category": "weather_nature",
+          "difficulty": 6,
+          "tags": [
+            "weather_nature",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "persian_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "आसमान — where all the weather happens",
+              "explanation_en": "आसमान is the sky, masculine, a Persian borrowing, and flagged because nothing about it predicts gender. It is the word every other item in this block sits inside: बादल आसमान में छाते हैं, धूप आसमान से आती है. The phrase worth having whole is आसमान साफ़ है, the sky is clear, where साफ़ is an unmarked adjective and so does not change. Note that साफ़ carries a dot under the फ़ and is pronounced with an f.",
+              "examples": [
+                {
+                  "hindi": "आसमान साफ़ है",
+                  "read_as": "aasmaan saaf hai",
+                  "english": "the sky is clear",
+                  "note": "साफ़ is unmarked and never changes."
+                },
+                {
+                  "hindi": "आसमान में बादल छाए हैं",
+                  "read_as": "aasmaan meṁ baadal chhaae haiṁ",
+                  "english": "clouds have covered the sky",
+                  "note": "आसमान is oblique before में — Class 2, so it shows nothing."
+                },
+                {
+                  "hindi": "आसमान नीला है",
+                  "read_as": "aasmaan niilaa hai",
+                  "english": "the sky is blue",
+                  "note": "नीला is marked and agrees with the masculine आसमान."
+                }
+              ],
+              "common_error": {
+                "wrong": "आसमान नीली है",
+                "right": "आसमान नीला है",
+                "why_en": "आसमान is masculine, so a marked adjective takes -ा. The consonant ending gives you no help, which is why it is flagged."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "आसमान",
+              "question_read_as": "aasmaan",
+              "options": [
+                "sky",
+                "wind",
+                "cloud",
+                "season"
+              ],
+              "options_read_as": [
+                "sky",
+                "wind",
+                "cloud",
+                "season"
+              ],
+              "answer_index": 0,
+              "explanation_en": "आसमान is the sky, and it is masculine."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which adjective goes with आसमान to say the sky is clear?",
+              "options": [
+                "ठंडा",
+                "काला",
+                "गरम",
+                "साफ़"
+              ],
+              "options_read_as": [
+                "ṭhanḍaa",
+                "kaalaa",
+                "garam",
+                "saaf"
+              ],
+              "answer_index": 3,
+              "explanation_en": "आसमान साफ़ है — a clear sky. साफ़ is unmarked, so it never changes."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "आसमान",
+              "आसमान साफ़ है",
+              "आसमान में बादल छाए हैं",
+              "आसमान नीला है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "बादल छाना, मौसम बदलना, आसमान साफ़ होना — three more pairings that no rule predicts. All three nouns are masculine, all three are flagged, and all three are Class 2, so nothing about them changes in the singular.",
+        "key_forms": [
+          "बादल छाना",
+          "मौसम बदलना",
+          "आसमान साफ़ है"
+        ],
+        "next_up_en": "Next: the nature words — tree, river and flower — and the verbs that go with living things."
+      }
+    },
+    {
+      "level": 8,
+      "title_en": "Nature: tree, river, flower",
+      "title_hi": "पेड़ · नदी · फूल",
+      "category": "weather_nature",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L08-I1",
+          "type": "word",
+          "target": "पेड़",
+          "read_as": "peṛ",
+          "pronunciation_notes": "The ड़ is a flap, made by striking the curled tongue once against the roof of the mouth: peṛ.",
+          "gloss_en": "tree",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "पेड़",
+          "plural_read_as": "peṛ",
+          "collocation": {
+            "hindi": "पेड़ लगाना",
+            "read_as": "peṛ lagaanaa",
+            "english": "to plant a tree"
+          },
+          "category": "weather_nature",
+          "difficulty": 6,
+          "tags": [
+            "weather_nature",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "class_2",
+            "transitive_collocation"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पेड़ लगाना — you attach a tree to the ground",
+              "explanation_en": "पेड़ is a tree, masculine and flagged. Its verb is लगाना, which is the transitive partner of लगना — the same लगना that goes with डर and ठंड. Where लगना means something attaches by itself, लगाना means someone attaches it, and for a tree that comes out as planting. Because लगाना is transitive, its perfective needs the ने construction, so for now use it in the habitual, the continuous, the future or the imperative.",
+              "examples": [
+                {
+                  "hindi": "वह पेड़ लगाता है",
+                  "read_as": "vah peṛ lagaataa hai",
+                  "english": "he plants trees",
+                  "note": "The habitual present, which is safe with a transitive verb."
+                },
+                {
+                  "hindi": "पेड़ों के नीचे",
+                  "read_as": "peṛoṁ ke niiche",
+                  "english": "under the trees",
+                  "note": "The oblique plural before a compound postposition."
+                },
+                {
+                  "hindi": "बड़े पेड़",
+                  "read_as": "baṛe peṛ",
+                  "english": "big trees",
+                  "note": "The adjective is plural masculine; पेड़ itself does not change."
+                }
+              ],
+              "common_error": {
+                "wrong": "पेड़ लगना",
+                "right": "पेड़ लगाना",
+                "why_en": "लगना would mean the tree attaches itself. Someone has to plant it, so the transitive लगाना is needed."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पेड़",
+              "question_read_as": "peṛ",
+              "options": [
+                "flower",
+                "river",
+                "mountain",
+                "tree"
+              ],
+              "options_read_as": [
+                "flower",
+                "river",
+                "mountain",
+                "tree"
+              ],
+              "answer_index": 3,
+              "explanation_en": "पेड़ is a tree, masculine, and unchanged in the plural."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with पेड़ when someone plants one?",
+              "options": [
+                "लगाना",
+                "लगना",
+                "चलना",
+                "होना"
+              ],
+              "options_read_as": [
+                "lagaanaa",
+                "lagnaa",
+                "chalnaa",
+                "honaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "पेड़ लगाना. लगाना is the transitive form — someone does it — while लगना happens by itself."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पेड़",
+              "वह पेड़ लगाता है",
+              "पेड़ों के नीचे",
+              "बड़े पेड़"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L08-I2",
+          "type": "word",
+          "target": "नदी",
+          "read_as": "nadii",
+          "pronunciation_notes": "Two light syllables with the length on the second: na-dii.",
+          "gloss_en": "river",
+          "gender": "f",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "नदियाँ",
+          "plural_read_as": "nadiyaaṁ",
+          "collocation": {
+            "hindi": "नदी बहना",
+            "read_as": "nadii bahnaa",
+            "english": "for a river to flow"
+          },
+          "category": "weather_nature",
+          "difficulty": 6,
+          "tags": [
+            "weather_nature",
+            "noun",
+            "feminine",
+            "class_4",
+            "module6_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "नदी — a straightforward Class 4 noun",
+              "explanation_en": "नदी is a river, feminine and predictable from its -ी ending, and it declines exactly like लड़की from Module 6: नदी में in the singular, नदियों में in the plural. After several flagged words in a row this one is a relief — everything about it follows a rule you already have. Its verb is बहना, to flow, which is intransitive, so all of Module 7's tenses are available: नदी बह रही है, नदी बही.",
+              "examples": [
+                {
+                  "hindi": "नदी बह रही है",
+                  "read_as": "nadii bah rahii hai",
+                  "english": "the river is flowing",
+                  "note": "रही agrees with the feminine नदी."
+                },
+                {
+                  "hindi": "नदी में पानी है",
+                  "read_as": "nadii meṁ paanii hai",
+                  "english": "there is water in the river",
+                  "note": "नदी is Class 4, so the singular oblique shows nothing."
+                },
+                {
+                  "hindi": "नदियों के पास",
+                  "read_as": "nadiyoṁ ke paas",
+                  "english": "near the rivers",
+                  "note": "The oblique plural takes -ियों, exactly as लड़कियों does."
+                }
+              ],
+              "common_error": {
+                "wrong": "नदीों में",
+                "right": "नदियों में",
+                "why_en": "The long ी shortens and a य appears before the ending. This is the Class 4 plural from Module 6, unchanged."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "नदी",
+              "question_read_as": "nadii",
+              "options": [
+                "mountain",
+                "river",
+                "field",
+                "sea"
+              ],
+              "options_read_as": [
+                "mountain",
+                "river",
+                "field",
+                "sea"
+              ],
+              "answer_index": 1,
+              "explanation_en": "नदी is a river, feminine, and it declines like लड़की."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with नदी?",
+              "options": [
+                "चलना",
+                "लगना",
+                "बहना",
+                "छाना"
+              ],
+              "options_read_as": [
+                "chalnaa",
+                "lagnaa",
+                "bahnaa",
+                "chhaanaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "नदी बहना — a river flows. चलना is for things that travel, not for water."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "नदी",
+              "नदी बह रही है",
+              "नदी में पानी है",
+              "नदियों के पास"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L08-I3",
+          "type": "word",
+          "target": "फूल",
+          "read_as": "phuul",
+          "pronunciation_notes": "Aspirated ph with a real puff of air, not the f of English: phuul.",
+          "gloss_en": "flower",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "फूल",
+          "plural_read_as": "phuul",
+          "collocation": {
+            "hindi": "फूल खिलना",
+            "read_as": "phuul khilnaa",
+            "english": "for a flower to bloom"
+          },
+          "category": "weather_nature",
+          "difficulty": 6,
+          "tags": [
+            "weather_nature",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "class_2",
+            "aspiration"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "फूल, and the ph that is not an f",
+              "explanation_en": "फूल is a flower, masculine and flagged. The pronunciation is worth pausing on: फ is an aspirated p, so फूल begins with a puff of air rather than with the f of English flower. The dotted फ़ is the one that sounds like f, and the two are different letters. Its verb is खिलना, to bloom, which is intransitive and also used of people — उसका चेहरा खिल गया means her face lit up.",
+              "examples": [
+                {
+                  "hindi": "फूल खिल रहे हैं",
+                  "read_as": "phuul khil rahe haiṁ",
+                  "english": "the flowers are blooming",
+                  "note": "रहे is plural, agreeing with फूल used as a plural."
+                },
+                {
+                  "hindi": "लाल फूल",
+                  "read_as": "laal phuul",
+                  "english": "a red flower",
+                  "note": "लाल is unmarked, so it works for singular and plural alike."
+                },
+                {
+                  "hindi": "पेड़ पर फूल हैं",
+                  "read_as": "peṛ par phuul haiṁ",
+                  "english": "there are flowers on the tree",
+                  "note": "पेड़ is oblique before पर, though Class 2 shows nothing."
+                }
+              ],
+              "common_error": {
+                "wrong": "फूल होना",
+                "right": "फूल खिलना",
+                "why_en": "होना would simply say a flower exists. खिलना is the verb for the act of opening, and it is what pairs with फूल."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "फूल",
+              "question_read_as": "phuul",
+              "options": [
+                "flower",
+                "tree",
+                "fruit",
+                "leaf"
+              ],
+              "options_read_as": [
+                "flower",
+                "tree",
+                "fruit",
+                "leaf"
+              ],
+              "answer_index": 0,
+              "explanation_en": "फूल is a flower, masculine, and unchanged in the plural."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with फूल?",
+              "options": [
+                "छाना",
+                "लगाना",
+                "बहना",
+                "खिलना"
+              ],
+              "options_read_as": [
+                "chhaanaa",
+                "lagaanaa",
+                "bahnaa",
+                "khilnaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "फूल खिलना — a flower blooms."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "फूल",
+              "फूल खिल रहे हैं",
+              "लाल फूल",
+              "पेड़ पर फूल हैं"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The weather and nature block is complete at twelve words. Nine of the twelve are gender-flagged, because weather and landscape nouns almost all end in consonants — which makes this the block where the memorised gender matters most and the ending helps least.",
+        "key_forms": [
+          "पेड़ लगाना",
+          "नदी बहना",
+          "फूल खिलना"
+        ],
+        "next_up_en": "Next: travel and transport, starting with the words you need to get anywhere at all."
+      }
+    },
+    {
+      "level": 9,
+      "title_en": "Travel: journey, vehicle, ticket",
+      "title_hi": "सफ़र · गाड़ी · टिकट",
+      "category": "travel_transport",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L09-I1",
+          "type": "word",
+          "target": "सफ़र",
+          "read_as": "safar",
+          "pronunciation_notes": "The dotted फ़ is an f, so this is safar and not saphar: sa-far.",
+          "gloss_en": "journey, trip",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "सफ़र",
+          "plural_read_as": "safar",
+          "collocation": {
+            "hindi": "सफ़र करना",
+            "read_as": "safar karnaa",
+            "english": "to travel"
+          },
+          "category": "travel_transport",
+          "difficulty": 6,
+          "tags": [
+            "travel_transport",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "nukta",
+            "transitive_collocation"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सफ़र — the journey, not the destination",
+              "explanation_en": "सफ़र is a journey or a trip, masculine and flagged. It is a Persian borrowing with a dotted फ़, so it is pronounced with an f — compare फूल from the last level, which has a plain फ and a puff of air. The verb is करना, so सफ़र करना is to travel. Since करना is transitive, its perfective needs ने, which means for now you can say मैं सफ़र करता हूँ and मैं सफ़र करूँगा but not yet I travelled.",
+              "examples": [
+                {
+                  "hindi": "मैं सफ़र करता हूँ",
+                  "read_as": "maiṁ safar kartaa huuṁ",
+                  "english": "I travel",
+                  "note": "The habitual present, safe with a transitive verb."
+                },
+                {
+                  "hindi": "सफ़र अच्छा था",
+                  "read_as": "safar achchhaa thaa",
+                  "english": "the journey was good",
+                  "note": "अच्छा and था both agree with the masculine सफ़र."
+                },
+                {
+                  "hindi": "लंबा सफ़र",
+                  "read_as": "lambaa safar",
+                  "english": "a long journey",
+                  "note": "लंबा is marked and agrees with सफ़र."
+                }
+              ],
+              "common_error": {
+                "wrong": "सफ़र अच्छी थी",
+                "right": "सफ़र अच्छा था",
+                "why_en": "सफ़र is masculine. Nothing in the word says so, which is why it carries a flag."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सफ़र",
+              "question_read_as": "safar",
+              "options": [
+                "ticket",
+                "road",
+                "journey",
+                "station"
+              ],
+              "options_read_as": [
+                "ticket",
+                "road",
+                "journey",
+                "station"
+              ],
+              "answer_index": 2,
+              "explanation_en": "सफ़र is a journey, masculine, and pronounced with an f."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with सफ़र?",
+              "options": [
+                "होना",
+                "करना",
+                "चलना",
+                "लगना"
+              ],
+              "options_read_as": [
+                "honaa",
+                "karnaa",
+                "chalnaa",
+                "lagnaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "सफ़र करना — to travel. A journey is something you do."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सफ़र",
+              "मैं सफ़र करता हूँ",
+              "सफ़र अच्छा था",
+              "लंबा सफ़र"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L09-I2",
+          "type": "word",
+          "target": "गाड़ी",
+          "read_as": "gaaṛii",
+          "pronunciation_notes": "The ड़ is a flap between two long vowels: gaa-ṛii.",
+          "gloss_en": "vehicle — a car, a train, anything that carries you",
+          "gender": "f",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "गाड़ियाँ",
+          "plural_read_as": "gaaṛiyaaṁ",
+          "collocation": {
+            "hindi": "गाड़ी चलाना",
+            "read_as": "gaaṛii chalaanaa",
+            "english": "to drive"
+          },
+          "category": "travel_transport",
+          "difficulty": 6,
+          "tags": [
+            "travel_transport",
+            "noun",
+            "feminine",
+            "class_4",
+            "broad_meaning",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "गाड़ी covers far more than car",
+              "explanation_en": "गाड़ी is any wheeled vehicle that carries people — a car, a train, a cart, a van. Context does the narrowing, and रेलगाड़ी exists if you need to be specific about a train. It is feminine and predictable from the -ी, and it declines like नदी. The verb is चलाना, the transitive partner of चलना: where चलना means to move or run by itself, चलाना means someone makes it move, so it covers driving and operating anything.",
+              "examples": [
+                {
+                  "hindi": "वह गाड़ी चलाती है",
+                  "read_as": "vah gaaṛii chalaatii hai",
+                  "english": "she drives",
+                  "note": "चलाती agrees with the subject वह, not with गाड़ी."
+                },
+                {
+                  "hindi": "गाड़ी चल रही है",
+                  "read_as": "gaaṛii chal rahii hai",
+                  "english": "the vehicle is moving",
+                  "note": "The intransitive चलना, with गाड़ी as the subject."
+                },
+                {
+                  "hindi": "गाड़ी से जाओ",
+                  "read_as": "gaaṛii se jaao",
+                  "english": "go by car",
+                  "note": "से marks the means of travel."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह गाड़ी चलती है",
+                "right": "वह गाड़ी चलाती है",
+                "why_en": "चलती would mean she herself is moving. Driving is something done to the vehicle, so the transitive चलाना is needed."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "गाड़ी",
+              "question_read_as": "gaaṛii",
+              "options": [
+                "ticket",
+                "road",
+                "journey",
+                "vehicle"
+              ],
+              "options_read_as": [
+                "ticket",
+                "road",
+                "journey",
+                "vehicle"
+              ],
+              "answer_index": 3,
+              "explanation_en": "गाड़ी is any vehicle that carries you — car, train or cart."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with गाड़ी when a person drives it?",
+              "options": [
+                "चलाना",
+                "करना",
+                "चलना",
+                "लगना"
+              ],
+              "options_read_as": [
+                "chalaanaa",
+                "karnaa",
+                "chalnaa",
+                "lagnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "गाड़ी चलाना. चलना is what the vehicle does by itself; चलाना is what the driver does to it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "गाड़ी",
+              "वह गाड़ी चलाती है",
+              "गाड़ी चल रही है",
+              "गाड़ी से जाओ"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L09-I3",
+          "type": "word",
+          "target": "टिकट",
+          "read_as": "ṭikaṭ",
+          "pronunciation_notes": "Both t sounds are retroflex, which is how English words get absorbed into Hindi: ṭi-kaṭ.",
+          "gloss_en": "ticket",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "टिकट",
+          "plural_read_as": "ṭikaṭ",
+          "collocation": {
+            "hindi": "टिकट लेना",
+            "read_as": "ṭikaṭ lenaa",
+            "english": "to buy a ticket"
+          },
+          "category": "travel_transport",
+          "difficulty": 6,
+          "tags": [
+            "travel_transport",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "loanword",
+            "class_2"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "An English word, absorbed and re-sounded",
+              "explanation_en": "टिकट is a ticket, borrowed from English and written with retroflex ट rather than the dental त — which is what happens to almost every English t that enters Hindi. It is masculine, flagged, and Class 2, so nothing changes in the singular. The verb is लेना, to take, which is how Hindi says buy for small purchases. लेना is transitive and its perfective is लिया, one of the four forms Module 7 taught as recognition only, so for now use the future or the habitual.",
+              "examples": [
+                {
+                  "hindi": "मैं टिकट लूँगा",
+                  "read_as": "maiṁ ṭikaṭ luuṁgaa",
+                  "english": "I will buy a ticket",
+                  "note": "The future, which is safe with any verb."
+                },
+                {
+                  "hindi": "टिकट कहाँ मिलता है?",
+                  "read_as": "ṭikaṭ kahaaṁ miltaa hai?",
+                  "english": "where do you get tickets?",
+                  "note": "मिलना means to be available, and it is intransitive."
+                },
+                {
+                  "hindi": "दो टिकट",
+                  "read_as": "do ṭikaṭ",
+                  "english": "two tickets",
+                  "note": "Class 2, so the plural looks identical to the singular."
+                }
+              ],
+              "common_error": {
+                "wrong": "टिकट करना",
+                "right": "टिकट लेना",
+                "why_en": "करना is the default guess and it is wrong here. Hindi takes a ticket rather than doing one."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "टिकट",
+              "question_read_as": "ṭikaṭ",
+              "options": [
+                "road",
+                "ticket",
+                "bus",
+                "journey"
+              ],
+              "options_read_as": [
+                "road",
+                "ticket",
+                "bus",
+                "journey"
+              ],
+              "answer_index": 1,
+              "explanation_en": "टिकट is a ticket, masculine, and written with retroflex consonants."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with टिकट?",
+              "options": [
+                "करना",
+                "देना",
+                "लेना",
+                "चलाना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "denaa",
+                "lenaa",
+                "chalaanaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "टिकट लेना — you take a ticket. करना would be the natural English guess and it is not what Hindi says."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "टिकट",
+              "मैं टिकट लूँगा",
+              "टिकट कहाँ मिलता है?",
+              "दो टिकट"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Three travel words and three different verbs — सफ़र करना, गाड़ी चलाना, टिकट लेना. Note the pattern behind चलना and चलाना: the second form of a verb, with a long aa inserted, means someone makes it happen rather than it happening by itself.",
+        "key_forms": [
+          "सफ़र करना",
+          "गाड़ी चलाना",
+          "टिकट लेना"
+        ],
+        "next_up_en": "Next: the road, the bus, and a conversation about how you are getting there."
+      }
+    },
+    {
+      "level": 10,
+      "title_en": "Travel: road and bus",
+      "title_hi": "रास्ता · बस",
+      "category": "travel_transport",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M08-L10-I1",
+          "type": "word",
+          "target": "रास्ता",
+          "read_as": "raastaa",
+          "pronunciation_notes": "The स and त run together with no vowel between: raas-taa.",
+          "gloss_en": "road, way, route",
+          "gender": "m",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "रास्ते",
+          "plural_read_as": "raaste",
+          "collocation": {
+            "hindi": "रास्ता पूछना",
+            "read_as": "raastaa puuchhnaa",
+            "english": "to ask the way"
+          },
+          "category": "travel_transport",
+          "difficulty": 6,
+          "tags": [
+            "travel_transport",
+            "noun",
+            "masculine",
+            "class_1",
+            "module6_link",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "रास्ता — Class 1, so it moves",
+              "explanation_en": "रास्ता is a road or a way, masculine and predictable from its -ा ending, which also makes it Class 1 from Module 6 — so it becomes रास्ते before a postposition and रास्तों in the oblique plural. After a run of Class 2 nouns that never change, this one does, and it is worth the practice. The verb is पूछना, to ask: रास्ता पूछो, ask the way. It also means way in the abstract sense, as in a way of doing something.",
+              "examples": [
+                {
+                  "hindi": "रास्ता पूछो",
+                  "read_as": "raastaa puuchho",
+                  "english": "ask the way",
+                  "note": "The तुम imperative, and रास्ता is the object rather than oblique."
+                },
+                {
+                  "hindi": "रास्ते में",
+                  "read_as": "raaste meṁ",
+                  "english": "on the way",
+                  "note": "Class 1, so the -ा becomes -े before में."
+                },
+                {
+                  "hindi": "यह रास्ता लंबा है",
+                  "read_as": "yah raastaa lambaa hai",
+                  "english": "this road is long",
+                  "note": "लंबा agrees with the masculine रास्ता."
+                }
+              ],
+              "common_error": {
+                "wrong": "रास्ता में",
+                "right": "रास्ते में",
+                "why_en": "रास्ता ends in -ा, so it is Class 1 and must go oblique before a postposition."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "रास्ता",
+              "question_read_as": "raastaa",
+              "options": [
+                "station",
+                "bus",
+                "road",
+                "ticket"
+              ],
+              "options_read_as": [
+                "station",
+                "bus",
+                "road",
+                "ticket"
+              ],
+              "answer_index": 2,
+              "explanation_en": "रास्ता is a road or way, masculine, and it declines like लड़का."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with रास्ता when you are lost?",
+              "options": [
+                "करना",
+                "चलाना",
+                "लेना",
+                "पूछना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "chalaanaa",
+                "lenaa",
+                "puuchhnaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "रास्ता पूछना — to ask the way."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "रास्ता",
+              "रास्ता पूछो",
+              "रास्ते में",
+              "यह रास्ता लंबा है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L10-I2",
+          "type": "word",
+          "target": "बस",
+          "read_as": "bas",
+          "pronunciation_notes": "One short syllable, identical in sound to the other बस meaning enough: bas.",
+          "gloss_en": "bus",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "बसें",
+          "plural_read_as": "baseṁ",
+          "collocation": {
+            "hindi": "बस पकड़ना",
+            "read_as": "bas pakaṛnaa",
+            "english": "to catch a bus"
+          },
+          "category": "travel_transport",
+          "difficulty": 6,
+          "tags": [
+            "travel_transport",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "loanword",
+            "homonym"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बस is feminine, and it is also a different word",
+              "explanation_en": "बस the vehicle is feminine — worth memorising, because the English original gives you nothing and neither does the ending. That gender shows up the moment an adjective appears: बस सस्ती है, not सस्ता. There is also a second बस in Hindi, entirely unrelated, meaning enough or just: बस, इतना ही, that is all. Same spelling, same sound, and context separates them without difficulty. The verb is पकड़ना, to catch or grab.",
+              "examples": [
+                {
+                  "hindi": "बस पकड़ो",
+                  "read_as": "bas pakaṛo",
+                  "english": "catch the bus",
+                  "note": "The तुम imperative from Module 7."
+                },
+                {
+                  "hindi": "बस सस्ती है",
+                  "read_as": "bas sastii hai",
+                  "english": "the bus is cheap",
+                  "note": "सस्ती is feminine, which proves बस is."
+                },
+                {
+                  "hindi": "मैं बस से जाऊँगा",
+                  "read_as": "maiṁ bas se jaauuṁgaa",
+                  "english": "I will go by bus",
+                  "note": "से marks the means, and बस is oblique before it."
+                }
+              ],
+              "common_error": {
+                "wrong": "बस सस्ता है",
+                "right": "बस सस्ती है",
+                "why_en": "बस is feminine, so a marked adjective takes -ी. English speakers default to masculine here because the word looks foreign."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बस",
+              "question_read_as": "bas",
+              "options": [
+                "bus",
+                "ticket",
+                "road",
+                "vehicle"
+              ],
+              "options_read_as": [
+                "bus",
+                "ticket",
+                "road",
+                "vehicle"
+              ],
+              "answer_index": 0,
+              "explanation_en": "बस is a bus, and it is feminine. A second बस means enough."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with बस?",
+              "options": [
+                "चलाना",
+                "पकड़ना",
+                "लेना",
+                "करना"
+              ],
+              "options_read_as": [
+                "chalaanaa",
+                "pakaṛnaa",
+                "lenaa",
+                "karnaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "बस पकड़ना — to catch a bus, exactly as English does."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बस",
+              "बस पकड़ो",
+              "बस सस्ती है",
+              "मैं बस से जाऊँगा"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L10-I3",
+          "type": "dialogue",
+          "target": "बस से",
+          "read_as": "bas se",
+          "pronunciation_notes": "Two short syllables running together: bas-se.",
+          "gloss_en": "arranging a journey",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "phrase",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "बस से जाना",
+            "read_as": "bas se jaanaa",
+            "english": "to go by bus"
+          },
+          "category": "travel_transport",
+          "difficulty": 6,
+          "tags": [
+            "travel_transport",
+            "dialogue",
+            "micro_dialogue",
+            "means_of_travel",
+            "agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "से for how you are getting there",
+              "explanation_en": "To say by bus, by car, by train, Hindi uses से — the same postposition that means from. बस से, गाड़ी से, ट्रेन से. There is no separate word for by, and the noun goes oblique in front of it as usual, though with बस and गाड़ी nothing visible changes. Watch the last line of this exchange: सस्ती is feminine because बस is, and that is the only thing in the conversation that could go wrong.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "तुम कैसे जाओगे?",
+                  "read_as": "tum kaise jaaoge?",
+                  "english": "How will you go?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "मैं बस से जाऊँगा।",
+                  "read_as": "maiṁ bas se jaauuṁgaa.",
+                  "english": "I will go by bus."
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "क्या टिकट महँगा है?",
+                  "read_as": "kyaa ṭikaṭ mahaṁgaa hai?",
+                  "english": "Is the ticket expensive?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "नहीं, बस सस्ती है।",
+                  "read_as": "nahiiṁ, bas sastii hai.",
+                  "english": "No, the bus is cheap."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं बस में जाऊँगा।",
+                "right": "मैं बस से जाऊँगा।",
+                "why_en": "में would mean inside the bus as a location. For the means of travel Hindi uses से."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this phrase mean?",
+              "question": "बस से",
+              "question_read_as": "bas se",
+              "options": [
+                "from the bus stop",
+                "for the bus",
+                "in the bus",
+                "by bus"
+              ],
+              "options_read_as": [
+                "from the bus stop",
+                "for the bus",
+                "in the bus",
+                "by bus"
+              ],
+              "answer_index": 3,
+              "explanation_en": "से marks the means of travel. The same word also means from, and context separates them."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the last line. Which word is missing?",
+              "masked_line_index": 3,
+              "masked_word": "सस्ती",
+              "options": [
+                "सस्ती",
+                "सस्ता",
+                "सस्ते",
+                "महँगा"
+              ],
+              "options_read_as": [
+                "sastii",
+                "sastaa",
+                "saste",
+                "mahaṁgaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "बस is feminine, so the adjective is सस्ती."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तुम कैसे जाओगे?",
+              "मैं बस से जाऊँगा।",
+              "क्या टिकट महँगा है?",
+              "नहीं, बस सस्ती है।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "रास्ता is Class 1 and goes oblique before a postposition, which most travel nouns so far have not. बस is feminine even though it is borrowed from English, and से is how Hindi says by when it comes to getting somewhere.",
+        "key_forms": [
+          "रास्ते में",
+          "बस पकड़ना",
+          "बस से"
+        ],
+        "next_up_en": "Next: the station, the plane and the words for arriving, which complete the travel block."
+      }
+    }
+  ]
+}

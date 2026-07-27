@@ -1,0 +1,925 @@
+{
+  "kind": "final_exam",
+  "covers_modules": "1-15",
+  "questions_total": 60,
+  "sourcing_note_en": "Modules 9 to 15 are on disk and every question drawing on them is grounded in an item target read from the files. Modules 1 to 8 are not, apart from fragments. Rather than invent an item list for modules I cannot read, the early-phase questions test fundamentals that the later modules demonstrably depend on — gender agreement, the oblique case, postposition selection, tense forms and the ने construction — because a learner who reaches Module 12 must already have them, whatever order they were taught in. Every such question is marked prerequisite_inferred so that it can be re-pointed at a real source item when the earlier files are merged. UPDATE: Modules 1-8 have since been verified on disk (a separate session). Section A has been re-pointed accordingly — 10 of its 12 questions now cite real source items, 1 was replaced (its original word wasn't in Modules 1-7 after all), and 1 remains prerequisite_inferred pending Module 9.",
+  "weighting": {
+    "phases_1_to_3_fundamentals": 12,
+    "module_8": 3,
+    "phase_4": 15,
+    "phase_5": 30
+  },
+  "sections": [
+    {
+      "section": "A",
+      "title_en": "Fundamentals",
+      "questions_range": "1-12",
+      "note_en": "Ten of twelve questions re-pointed to real Modules 1-7 items now that those files are verified on disk. Question 4 (भरोसा) was replaced outright — that word is Module 13 vocabulary, not available this session. Question 8 (the ने construction) remains prerequisite_inferred — ने is taught in Module 9, which is not on disk this session; re-point once Module 9's files are uploaded.",
+      "questions": [
+        {
+          "n": 1,
+          "prerequisite_inferred": false,
+          "prompt_en": "यह मेरी ___ है — which noun fits?",
+          "options": [
+            "किताब",
+            "कमरा",
+            "घर",
+            "पानी"
+          ],
+          "answer_index": 0,
+          "explanation_en": "मेरी is feminine, and किताब is the only feminine noun offered — one of Module 4's gender-flagged exception words, since nothing about its shape predicts its gender.",
+          "source": "gender agreement (Module 4, किताब)",
+          "source_item_ids": [
+            "M04-L15-I3"
+          ]
+        },
+        {
+          "n": 2,
+          "prerequisite_inferred": false,
+          "prompt_en": "What happens to कमरा before a postposition?",
+          "options": [
+            "It becomes कमरी",
+            "Nothing",
+            "It becomes कमरे",
+            "It becomes कमरों"
+          ],
+          "answer_index": 2,
+          "explanation_en": "में is a postposition, so कमरा must take its oblique form कमरे — Module 6 level 2's exact teaching point.",
+          "source": "oblique case (Module 6, कमरे में)",
+          "source_item_ids": [
+            "M06-L02-I3"
+          ]
+        },
+        {
+          "n": 3,
+          "prerequisite_inferred": false,
+          "prompt_en": "लोग becomes लोगों before which of these?",
+          "options": [
+            "है",
+            "ने",
+            "और",
+            "बहुत"
+          ],
+          "answer_index": 1,
+          "explanation_en": "लोग is already plural in meaning, and any plural noun before any postposition — को, ने, or otherwise — must carry -ों. Module 6 level 6 teaches this with को; ने (taught later, in Module 9) obeys the identical rule.",
+          "source": "oblique case (Module 6, लोगों को)",
+          "source_item_ids": [
+            "M06-L06-I3"
+          ]
+        },
+        {
+          "n": 4,
+          "prerequisite_inferred": false,
+          "prompt_en": "राम ___ किताब है — which postposition does Hindi use to express 'having' something?",
+          "options": [
+            "से",
+            "का",
+            "के पास",
+            "को"
+          ],
+          "answer_index": 2,
+          "explanation_en": "के पास is how Hindi expresses possession — राम के पास किताब है, 'Ram has a book'. (This question originally tested भरोसा + पर, a Module 13 word not available in this session; replaced with an equivalent postposition-selection question fully grounded in Module 5.)",
+          "source": "postposition selection (Module 5, के पास)",
+          "source_item_ids": [
+            "M05-L20-I2"
+          ],
+          "replacement_note_en": "Original question tested भरोसा, sourced from Module 13 vocabulary not on disk this session. Replaced rather than left unverified."
+        },
+        {
+          "n": 5,
+          "prerequisite_inferred": false,
+          "prompt_en": "मैं रोज़ वहाँ जाता था means what?",
+          "options": [
+            "I am going there",
+            "I went there once",
+            "I used to go there every day",
+            "I will go there"
+          ],
+          "answer_index": 2,
+          "explanation_en": "The habitual past — करता था shape. Module 14 level 14's counterfactual depends on the learner already knowing this participle, since it reuses the same form without था.",
+          "source": "habitual past (Module 7, मैं जाता था)",
+          "source_item_ids": [
+            "M07-L06-I1"
+          ]
+        },
+        {
+          "n": 6,
+          "prerequisite_inferred": false,
+          "prompt_en": "Which is the आप imperative of करना?",
+          "options": [
+            "कीजिए",
+            "करूँ",
+            "करो",
+            "कर"
+          ],
+          "answer_index": 0,
+          "explanation_en": "कर is तू, करो is तुम, कीजिए is आप, and करूँ is the first-person subjunctive. कीजिए is one of exactly four verbs where the regular rule (which predicts करिए) doesn't hold — Module 7 level 27 flags it by name.",
+          "source": "imperatives (Module 7, कीजिए)",
+          "source_item_ids": [
+            "M07-L27-I2"
+          ]
+        },
+        {
+          "n": 7,
+          "prerequisite_inferred": false,
+          "prompt_en": "वह and इस — what is the relationship?",
+          "options": [
+            "इस is the oblique of यह, and उस of वह",
+            "इस is plural",
+            "वह is formal",
+            "They are unrelated"
+          ],
+          "answer_index": 0,
+          "explanation_en": "Module 6 level 20 teaches the same mechanism with वह: it has no oblique form of its own, so the pronoun is replaced by a different stem (उस) before a postposition fuses on. इस/उस behave identically, and जो/जिस (Module 14) follows the same pattern again.",
+          "source": "oblique pronouns (Module 6, उसे)",
+          "source_item_ids": [
+            "M06-L20-I1"
+          ]
+        },
+        {
+          "n": 8,
+          "prerequisite_inferred": true,
+          "prompt_en": "मैंने रोटी खाई. Why खाई and not खाया?",
+          "options": [
+            "It is a mistake",
+            "मैं is feminine",
+            "रोटी is feminine and takes no को, so the verb agrees with it",
+            "खाना is irregular"
+          ],
+          "answer_index": 2,
+          "explanation_en": "The ने construction, which Module 9 teaches and Modules 12 to 15 use constantly.",
+          "source": "ne construction",
+          "still_blocked_reason_en": "The ने construction is taught in Module 9, which is not on disk this session (only Modules 1-8 were available for re-pointing). Re-point once Module 9's level files are uploaded."
+        },
+        {
+          "n": 9,
+          "prerequisite_inferred": false,
+          "prompt_en": "Which is the correct plural of लड़की?",
+          "options": [
+            "लड़कीयाँ",
+            "लड़के",
+            "लड़कों",
+            "लड़कियाँ"
+          ],
+          "answer_index": 3,
+          "explanation_en": "लड़कियाँ is the direct plural; लड़कियों (Module 6 level 10) is its oblique form, formed by the identical shorten-the-ी-and-bridge-with-य step this question tests. लड़कों is the oblique plural of लड़का, and लड़के its direct plural — a different noun and class entirely.",
+          "source": "noun plurals (Module 6, लड़कियों — same mechanism as the direct plural लड़कियाँ)",
+          "source_item_ids": [
+            "M06-L10-I1"
+          ]
+        },
+        {
+          "n": 10,
+          "prerequisite_inferred": false,
+          "prompt_en": "आज मौसम अच्छा है. Which word would change if मौसम were feminine?",
+          "options": [
+            "आज",
+            "अच्छा",
+            "है",
+            "none"
+          ],
+          "answer_index": 1,
+          "explanation_en": "Adjectives ending in -आ agree with the noun's gender wherever they sit in the sentence; those ending in a consonant do not change at all. Module 5 level 17 teaches this exact point with घर अच्छा है / घर अच्छी है.",
+          "source": "adjective agreement (Module 5, घर अच्छा है)",
+          "source_item_ids": [
+            "M05-L17-I1"
+          ]
+        },
+        {
+          "n": 11,
+          "prerequisite_inferred": false,
+          "prompt_en": "वह कल आएगा. Which tense is this?",
+          "options": [
+            "Habitual past",
+            "Present",
+            "Simple past",
+            "Future"
+          ],
+          "answer_index": 3,
+          "explanation_en": "Module 14 level 6 turns on this — Hindi allows the future in a जब clause where English does not. वह जाएगा is the exact third-person-singular future form Module 7 level 22 teaches.",
+          "source": "future tense (Module 7, वह जाएगा)",
+          "source_item_ids": [
+            "M07-L22-I2"
+          ]
+        },
+        {
+          "n": 12,
+          "prerequisite_inferred": false,
+          "prompt_en": "Which of these is NOT a postposition?",
+          "options": [
+            "से",
+            "और",
+            "में",
+            "पर"
+          ],
+          "answer_index": 1,
+          "explanation_en": "और is a conjunction (Module 5 level 24) and does not force the oblique. से, में and पर are all postpositions (Module 5 levels 18-19) and do.",
+          "source": "postpositions vs. conjunctions (Module 5, पर / और)",
+          "source_item_ids": [
+            "M05-L18-I2",
+            "M05-L24-I1"
+          ]
+        }
+      ]
+    },
+    {
+      "section": "B",
+      "title_en": "Module 8 — Core Words II",
+      "questions_range": "13-15",
+      "note_en": "Only three questions, and only on independently attested content. See the flag.",
+      "questions": [
+        {
+          "n": 13,
+          "module": 8,
+          "prompt_en": "Which verb takes को on the person told?",
+          "options": [
+            "बताना",
+            "मिलना",
+            "कहना",
+            "पूछना"
+          ],
+          "answer_index": 0,
+          "explanation_en": "उसने मुझे बताया, but उसने मुझसे कहा and उसने मुझसे पूछा. Module 13 level 19 returns to it.",
+          "source": "M8 L52-53"
+        },
+        {
+          "n": 14,
+          "module": 8,
+          "prompt_en": "मुझे मिल गया means what?",
+          "options": [
+            "I looked for it",
+            "I met somebody",
+            "I got it",
+            "I gave it"
+          ],
+          "answer_index": 2,
+          "explanation_en": "मिलना covers meeting a person and something becoming available to you.",
+          "source": "M8 L52-53"
+        },
+        {
+          "n": 15,
+          "module": 8,
+          "prompt_en": "Why is picking the right verb for a noun tested as a skill in its own right?",
+          "options": [
+            "Because verbs are rare",
+            "Because knowing a word and choosing the wrong verb with it is what makes a learner sound translated",
+            "Because it is easy to test",
+            "Because all verbs are irregular"
+          ],
+          "answer_index": 1,
+          "explanation_en": "पासवर्ड डालना, मुद्दा उठाना, निष्कर्ष निकालना — the principle runs through the whole course.",
+          "source": "M8 brief"
+        }
+      ]
+    },
+    {
+      "section": "C",
+      "title_en": "Phase 4 — Modules 9 to 11",
+      "questions_range": "16-30",
+      "questions": [
+        {
+          "n": 16,
+          "module": 9,
+          "prompt_en": "Which verb refuses ने in the perfective?",
+          "options": [
+            "देना",
+            "लिखना",
+            "कहना",
+            "बोलना"
+          ],
+          "answer_index": 3,
+          "explanation_en": "बोलना, लाना and भूलना are the three exceptions.",
+          "source": "M9 L11"
+        },
+        {
+          "n": 17,
+          "module": 9,
+          "prompt_en": "मैंने उसको देखा. Why is the verb neutral?",
+          "options": [
+            "ने blocks it",
+            "देखना is irregular",
+            "को on the object blocks agreement",
+            "उस is masculine"
+          ],
+          "answer_index": 2,
+          "explanation_en": "ने blocks the subject and को blocks the object, leaving nothing to agree with.",
+          "source": "M9 L13"
+        },
+        {
+          "n": 18,
+          "module": 9,
+          "prompt_en": "उन्होंने किताबें पढ़ी थीं. What controls the verb?",
+          "options": [
+            "किताबें",
+            "the tense",
+            "nothing",
+            "उन्होंने"
+          ],
+          "answer_index": 0,
+          "explanation_en": "A feminine plural object with no को.",
+          "source": "M9 L16"
+        },
+        {
+          "n": 19,
+          "module": 9,
+          "prompt_en": "को on a human object is what?",
+          "options": [
+            "Obligatory",
+            "Only used in the past",
+            "Only used with pronouns",
+            "Optional"
+          ],
+          "answer_index": 0,
+          "explanation_en": "उसने डॉक्टर को बुलाया — and the neutral verb is the proof it is doing grammatical work.",
+          "source": "M9 L14"
+        },
+        {
+          "n": 20,
+          "module": 10,
+          "prompt_en": "Which verb goes with भूख?",
+          "options": [
+            "करना",
+            "होना",
+            "लगना",
+            "आना"
+          ],
+          "answer_index": 2,
+          "explanation_en": "भूख, प्यास and ठंड take लगना; दर्द and बुखार take होना; नींद and ग़ुस्सा take आना.",
+          "source": "M10 L5-7"
+        },
+        {
+          "n": 21,
+          "module": 10,
+          "prompt_en": "मुझे किताबें पसंद ___ — which form?",
+          "options": [
+            "हूँ",
+            "थी",
+            "है",
+            "हैं"
+          ],
+          "answer_index": 3,
+          "explanation_en": "पसंद agrees with the thing liked, never with the person.",
+          "source": "M10 L8"
+        },
+        {
+          "n": 22,
+          "module": 10,
+          "prompt_en": "मुझे तैरना आता है means what?",
+          "options": [
+            "I want to swim",
+            "I know how to swim",
+            "I am learning to swim",
+            "Swimming is coming"
+          ],
+          "answer_index": 1,
+          "explanation_en": "आना for skills. जानना is for facts and people.",
+          "source": "M10 L10"
+        },
+        {
+          "n": 23,
+          "module": 10,
+          "prompt_en": "मुझे पानी चाहिए and मुझे जाना चाहिए differ how?",
+          "options": [
+            "One is formal",
+            "One is past",
+            "Not at all",
+            "With a noun it is need; with an infinitive it is should"
+          ],
+          "answer_index": 3,
+          "explanation_en": "Module 11 then places चाहिए as the weakest rung of the obligation ladder.",
+          "source": "M10 L12"
+        },
+        {
+          "n": 24,
+          "module": 10,
+          "prompt_en": "When a noun is the experiencer, what marks it?",
+          "options": [
+            "ने",
+            "को",
+            "से",
+            "nothing"
+          ],
+          "answer_index": 1,
+          "explanation_en": "बच्चे को भूख लगी है. मुझे and उसे are the fused forms of the same को.",
+          "source": "M10 L4"
+        },
+        {
+          "n": 25,
+          "module": 11,
+          "prompt_en": "In a compound verb, the main verb appears how?",
+          "options": [
+            "As a bare stem",
+            "As an infinitive",
+            "As a participle",
+            "Fully conjugated"
+          ],
+          "answer_index": 0,
+          "explanation_en": "The vector carries the tense, the agreement and the ने behaviour.",
+          "source": "M11 L1"
+        },
+        {
+          "n": 26,
+          "module": 11,
+          "prompt_en": "Which vector marks a sudden, involuntary action?",
+          "options": [
+            "देना",
+            "जाना",
+            "पड़ना",
+            "लेना"
+          ],
+          "answer_index": 2,
+          "explanation_en": "रो पड़ना, हँस पड़ना, उठ पड़ना.",
+          "source": "M11 L8"
+        },
+        {
+          "n": 27,
+          "module": 11,
+          "prompt_en": "Why does उसने खाना खा लिया take ने but वो खाना खा गया not?",
+          "options": [
+            "Different tenses",
+            "The जाना vector makes the whole compound intransitive",
+            "खा जाना is ungrammatical",
+            "The subject differs"
+          ],
+          "answer_index": 1,
+          "explanation_en": "The vector overrides the transitivity of the main verb.",
+          "source": "M11 L7"
+        },
+        {
+          "n": 28,
+          "module": 11,
+          "prompt_en": "नहीं कर पाया rather than नहीं कर सका says what?",
+          "options": [
+            "That it is formal",
+            "That it is future",
+            "Nothing different",
+            "That you did not manage it, rather than that you were unable"
+          ],
+          "answer_index": 3,
+          "explanation_en": "सकना is ability; पाना is managing, often against difficulty.",
+          "source": "M11 L12"
+        },
+        {
+          "n": 29,
+          "module": 11,
+          "prompt_en": "Which is the strongest rung of the obligation ladder?",
+          "options": [
+            "मुझे जाना चाहिए",
+            "मुझे जाना है",
+            "मुझे जाना पड़ा",
+            "all equal"
+          ],
+          "answer_index": 2,
+          "explanation_en": "पड़ा says you had no choice.",
+          "source": "M11 L13"
+        },
+        {
+          "n": 30,
+          "module": 11,
+          "prompt_en": "खाना becomes खिलाना. What is the pattern?",
+          "options": [
+            "The vowel shortens and a ल appears",
+            "A ने is added",
+            "The stem doubles",
+            "Nothing changes"
+          ],
+          "answer_index": 0,
+          "explanation_en": "पीना, पिलाना, पिलवाना does the same. Level 18 then names the agent with से.",
+          "source": "M11 L16"
+        }
+      ]
+    },
+    {
+      "section": "D",
+      "title_en": "Phase 5 — Modules 12 to 15",
+      "questions_range": "31-60",
+      "questions": [
+        {
+          "n": 31,
+          "module": 12,
+          "prompt_en": "What does the presumptive होगा do?",
+          "options": [
+            "Marks an inference",
+            "Asks a question",
+            "Marks the past",
+            "Predicts the future"
+          ],
+          "answer_index": 0,
+          "explanation_en": "अगर उन्होंने कहा है तो सही ही होगा — it must be right, rather than it will be.",
+          "source": "M12"
+        },
+        {
+          "n": 32,
+          "module": 12,
+          "prompt_en": "In a hospitality exchange, a first refusal of food usually means what?",
+          "options": [
+            "That the guest has eaten",
+            "A refusal",
+            "Part of the script — the host is expected to offer again",
+            "Annoyance"
+          ],
+          "answer_index": 2,
+          "explanation_en": "Module 12 built several dialogues on this, and बस is how a real refusal is finally made.",
+          "source": "M12"
+        },
+        {
+          "n": 33,
+          "module": 12,
+          "prompt_en": "What survives when Hindi speech is compressed at speed?",
+          "options": [
+            "Adjectives",
+            "Auxiliaries",
+            "Subjects",
+            "Postpositions"
+          ],
+          "answer_index": 3,
+          "explanation_en": "Subjects and auxiliaries go first. The postpositions are the listening handhold.",
+          "source": "M12"
+        },
+        {
+          "n": 34,
+          "module": 13,
+          "prompt_en": "Which suffix does NOT build a feminine noun?",
+          "options": [
+            "-ता",
+            "-आव",
+            "-ति",
+            "-आई"
+          ],
+          "answer_index": 1,
+          "explanation_en": "-आव builds masculines from verbs: चुनाव, बदलाव, दबाव.",
+          "source": "M13 L34"
+        },
+        {
+          "n": 35,
+          "module": 13,
+          "prompt_en": "Sanskrit nouns ending in -आ are which gender?",
+          "options": [
+            "it varies",
+            "no gender",
+            "masculine",
+            "feminine"
+          ],
+          "answer_index": 3,
+          "explanation_en": "व्यवस्था, समस्या, चर्चा, घोषणा, प्रतीक्षा — the most reliable gender trap in the language.",
+          "source": "M13 L35"
+        },
+        {
+          "n": 36,
+          "module": 13,
+          "prompt_en": "मंत्री ends in -ी. What gender is it?",
+          "options": [
+            "feminine",
+            "masculine",
+            "varies",
+            "none"
+          ],
+          "answer_index": 1,
+          "explanation_en": "The mirror image of the -आ feminines, one level later.",
+          "source": "M13 L36"
+        },
+        {
+          "n": 37,
+          "module": 13,
+          "prompt_en": "Which is NOT one of the module's ways of negating?",
+          "options": [
+            "स-",
+            "ला-",
+            "ग़ैर-",
+            "बे-"
+          ],
+          "answer_index": 0,
+          "explanation_en": "स- means with — सादर, सहर्ष. The seven negators are निः-, ला-, अ-, बिना, ना-, ग़ैर-, बे-.",
+          "source": "M13 L21, L54"
+        },
+        {
+          "n": 38,
+          "module": 13,
+          "prompt_en": "What is the most reliable difference between the two vocabulary layers?",
+          "options": [
+            "One is written only",
+            "One is more formal",
+            "The Sanskrit side takes the institutions and the compounds",
+            "One is older"
+          ],
+          "answer_index": 2,
+          "explanation_en": "देशभक्ति not मुल्कभक्ति, शिक्षा मंत्रालय not तालीम मंत्रालय.",
+          "source": "M13 L29"
+        },
+        {
+          "n": 39,
+          "module": 13,
+          "prompt_en": "Which pair matches in gender?",
+          "options": [
+            "स्थान and जगह",
+            "आवश्यकता and ज़रूरत",
+            "ख़बर and समाचार",
+            "दिनांक and तारीख़"
+          ],
+          "answer_index": 1,
+          "explanation_en": "Roughly half the module's pairs mismatch, so each has to be known.",
+          "source": "M13 L27"
+        },
+        {
+          "n": 40,
+          "module": 13,
+          "prompt_en": "How is a loanword's gender decided?",
+          "options": [
+            "By its ending, always",
+            "All are masculine",
+            "By its English gender",
+            "There is a masculine default and a learnable set of feminine exceptions"
+          ],
+          "answer_index": 3,
+          "explanation_en": "And every -ing word is feminine: मीटिंग, बुकिंग, पार्किंग.",
+          "source": "M13 L42"
+        },
+        {
+          "n": 41,
+          "module": 13,
+          "prompt_en": "Which verb takes only feelings as its object?",
+          "options": [
+            "बताना",
+            "दिखाना",
+            "जताना",
+            "कहना"
+          ],
+          "answer_index": 2,
+          "explanation_en": "नाराज़गी जताना, संदेह जताना. Facts take बताना, visible things दिखाना.",
+          "source": "M13 L45"
+        },
+        {
+          "n": 42,
+          "module": 13,
+          "prompt_en": "झिझक, समझ, माँग, दौड़ — how are these formed?",
+          "options": [
+            "from the bare verb stem, with nothing added",
+            "from Sanskrit roots",
+            "they are loanwords",
+            "with -आई"
+          ],
+          "answer_index": 0,
+          "explanation_en": "The fifth feminine-making pattern, and the only one that adds nothing.",
+          "source": "M13 L48"
+        },
+        {
+          "n": 43,
+          "module": 13,
+          "prompt_en": "Which verb sustains something that could be dropped, rather than finishing it?",
+          "options": [
+            "निभाना",
+            "निपटाना",
+            "टालना",
+            "पूरा करना"
+          ],
+          "answer_index": 0,
+          "explanation_en": "You cannot निभाना a task, because a task ends.",
+          "source": "M13 L49"
+        },
+        {
+          "n": 44,
+          "module": 13,
+          "prompt_en": "Why does उम्दा not inflect when बड़ा does?",
+          "options": [
+            "It is only used with masculines",
+            "It is a noun",
+            "It is Perso-Arabic, and borrowed -आ adjectives stay fixed",
+            "It is formal"
+          ],
+          "answer_index": 2,
+          "explanation_en": "ताज़ा, ज़िंदा, बढ़िया behave the same way.",
+          "source": "M13 L52"
+        },
+        {
+          "n": 45,
+          "module": 14,
+          "prompt_en": "जो लड़का कल आया, ___ मेरा भाई है.",
+          "options": [
+            "जो",
+            "वही जो",
+            "nothing",
+            "वह"
+          ],
+          "answer_index": 3,
+          "explanation_en": "The correlative is required. English has none to drop, which is why learners omit it.",
+          "source": "M14 L1"
+        },
+        {
+          "n": 46,
+          "module": 14,
+          "prompt_en": "जो goes oblique to what before a postposition?",
+          "options": [
+            "it does not",
+            "जिस",
+            "जौ",
+            "जिन only"
+          ],
+          "answer_index": 1,
+          "explanation_en": "Exactly as यह goes to इस and वह to उस. जिस plus को fuses to जिसे.",
+          "source": "M14 L3"
+        },
+        {
+          "n": 47,
+          "module": 14,
+          "prompt_en": "जब तक वो नहीं आता means what?",
+          "options": [
+            "Because he has not come",
+            "If he does not come",
+            "While he is not coming",
+            "Until he comes"
+          ],
+          "answer_index": 3,
+          "explanation_en": "जब तक needs a negative English has no room for.",
+          "source": "M14 L5"
+        },
+        {
+          "n": 48,
+          "module": 14,
+          "prompt_en": "Which does Hindi allow that English forbids?",
+          "options": [
+            "Dropping the subject",
+            "The future in a जब clause",
+            "The past in a जब clause",
+            "Two verbs in one clause"
+          ],
+          "answer_index": 1,
+          "explanation_en": "जब वो आएँगे, तब बात करेंगे. English cannot say \"when he will come\".",
+          "source": "M14 L6"
+        },
+        {
+          "n": 49,
+          "module": 14,
+          "prompt_en": "अगर मैं जाता तो मिलता — what does adding था to both halves do?",
+          "options": [
+            "Turns it into a habitual past that really happened",
+            "Makes it future",
+            "Makes it formal",
+            "Nothing"
+          ],
+          "answer_index": 0,
+          "explanation_en": "The counterfactual is the bare imperfect with no auxiliary anywhere.",
+          "source": "M14 L14"
+        },
+        {
+          "n": 50,
+          "module": 14,
+          "prompt_en": "In अगर ... तो, which half is optional?",
+          "options": [
+            "both",
+            "neither",
+            "अगर",
+            "तो"
+          ],
+          "answer_index": 2,
+          "explanation_en": "तबीयत ठीक नहीं है तो आराम करो. The opposite of what English leads you to expect.",
+          "source": "M14 L11"
+        },
+        {
+          "n": 51,
+          "module": 14,
+          "prompt_en": "उन्होंने कहा कि मैं कल आऊँगा means what?",
+          "options": [
+            "He said that I will come",
+            "He said he would come",
+            "He asked whether I would come",
+            "He said he had come"
+          ],
+          "answer_index": 1,
+          "explanation_en": "Hindi quotes and English rebuilds. मैं refers to him.",
+          "source": "M14 L18"
+        },
+        {
+          "n": 52,
+          "module": 14,
+          "prompt_en": "Hindi cannot say \"I want you to come\" in one clause. What does it use?",
+          "options": [
+            "A participle",
+            "The future",
+            "An infinitive",
+            "कि plus the subjunctive"
+          ],
+          "answer_index": 3,
+          "explanation_en": "Same subject takes an infinitive; different subjects force a new clause.",
+          "source": "M14 L17"
+        },
+        {
+          "n": 53,
+          "module": 14,
+          "prompt_en": "बैठ रहा है means what?",
+          "options": [
+            "He will sit",
+            "He is seated",
+            "He is in the act of sitting down",
+            "He sits regularly"
+          ],
+          "answer_index": 2,
+          "explanation_en": "Positions are states in Hindi. बैठा है is seated.",
+          "source": "M14 L21"
+        },
+        {
+          "n": 54,
+          "module": 14,
+          "prompt_en": "What does -कर require that के बाद does not?",
+          "options": [
+            "The same subject for both actions",
+            "A past tense",
+            "An object",
+            "A postposition"
+          ],
+          "answer_index": 0,
+          "explanation_en": "उनके जाने के बाद मैं पहुँचा cannot be said with -कर.",
+          "source": "M14 L23"
+        },
+        {
+          "n": 55,
+          "module": 14,
+          "prompt_en": "मुझसे इतना नहीं खाया जाता means what?",
+          "options": [
+            "I find myself unable to eat this much",
+            "I do not want to",
+            "Somebody else is eating",
+            "I am not allowed to"
+          ],
+          "answer_index": 0,
+          "explanation_en": "The capability passive is about something in you refusing, not about ability.",
+          "source": "M14 L24"
+        },
+        {
+          "n": 56,
+          "module": 15,
+          "prompt_en": "How many axes does register have in this course?",
+          "options": [
+            "It is not a scale",
+            "One, from casual to formal",
+            "Two, independent — situation and vocabulary layer",
+            "Three"
+          ],
+          "answer_index": 2,
+          "explanation_en": "A counter in a government office can be institutional and Urdu-side at once.",
+          "source": "M15 L1"
+        },
+        {
+          "n": 57,
+          "module": 15,
+          "prompt_en": "कीजिएगा differs from कीजिए how?",
+          "options": [
+            "It is plural",
+            "It is past",
+            "It is more formal",
+            "It is less pressing"
+          ],
+          "answer_index": 3,
+          "explanation_en": "Displacing the request into the future makes it unhurried rather than stiffer.",
+          "source": "M15 L3"
+        },
+        {
+          "n": 58,
+          "module": 15,
+          "prompt_en": "What defines institutional language?",
+          "options": [
+            "Long words",
+            "It removes the people — no writer, no addressee",
+            "The passive alone",
+            "Sanskrit vocabulary"
+          ],
+          "answer_index": 1,
+          "explanation_en": "A letter has a महोदय and a signature. A notice has neither.",
+          "source": "M15 L5"
+        },
+        {
+          "n": 59,
+          "module": 15,
+          "prompt_en": "देखते हैं and कोशिश करूँगा are frequently what?",
+          "options": [
+            "Questions",
+            "Apologies",
+            "Firm commitments",
+            "Polite refusals"
+          ],
+          "answer_index": 3,
+          "explanation_en": "A real yes usually brings a follow-up question about a time or a detail.",
+          "source": "M15 L12"
+        },
+        {
+          "n": 60,
+          "module": 15,
+          "prompt_en": "जहाँ जैसा माहौल हो, वहाँ वैसी ही भाषा चाहिए. Why is this the course's closing sentence?",
+          "options": [
+            "It is the longest",
+            "It nests two correlative pairs and two vocabulary layers, and says there is no form that fits everywhere",
+            "It is a proverb",
+            "It uses the passive"
+          ],
+          "answer_index": 1,
+          "explanation_en": "Module 14's grammar and Module 15's two axes in one clause, demonstrating what it states.",
+          "source": "M15 L12"
+        }
+      ]
+    }
+  ],
+  "open_flags": [
+    "One of the original twelve prerequisite_inferred questions (the ने construction) remains unresolved — it depends on Module 9, still not on disk. The other eleven are now either re-pointed to real Modules 1-7 items or replaced with an equivalent question that is.",
+    "Module 8 carries three questions rather than the four an even fifteen-module split would give it, for the same reason as in the Phase 4 checkpoint.",
+    "Section D carries thirty of sixty questions. That is deliberate — Phase 5 is where the course's own findings live, and it is also the only phase whose content is fully verifiable. If the earlier modules are merged, the weighting should be revisited rather than left as an artefact of what happened to be readable."
+  ]
+}

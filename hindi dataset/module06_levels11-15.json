@@ -1,0 +1,812 @@
+{
+  "module": 6,
+  "module_name_en": "The Oblique Case",
+  "module_name_hi": "तिरछा रूप",
+  "phase": 3,
+  "batch": { "levels_from": 11, "levels_to": 15 },
+  "levels": [
+    {
+      "level": 11,
+      "title_en": "Class 5: feminine nouns not ending in -ी",
+      "title_hi": "वर्ग ५ — किताब, रात, चाय",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L11-I1",
+          "type": "grammar",
+          "target": "किताब में",
+          "read_as": "kitaab meṁ",
+          "pronunciation_notes": "Long aa in the second syllable and a soft final b: ki-taab meṁ.",
+          "gloss_en": "Class 5 singular — no change at all",
+          "gender": null,
+          "difficulty": 6,
+          "tags": ["oblique", "class_5", "feminine", "singular", "no_change", "gender_flagged"],
+          "cards": {
+            "learn": {
+              "title_en": "The last class, and the quietest one",
+              "explanation_en": "Class 5 is every feminine noun that does not end in -ी: किताब, रात, बात, चीज़, आवाज़, चाय. These are the words Module 4 made you memorise with their gender attached, because nothing about their shape reveals it. In the singular they behave like almost everything else in this module — they do not change at all. The gender you memorised is not paying off yet. It pays off in the plural, and again when adjectives arrive.",
+              "examples": [
+                { "hindi": "किताब में", "read_as": "kitaab meṁ", "english": "in the book", "note": "Identical to the direct form." },
+                { "hindi": "किताब पर", "read_as": "kitaab par", "english": "on the book", "note": "A different postposition, and still nothing happens." },
+                { "hindi": "यह किताब बेटी के लिए है।", "read_as": "yah kitaab beṭii ke lie hai.", "english": "This book is for the daughter.", "note": "किताब is the subject and stays direct; बेटी is the word standing before के लिए." }
+              ],
+              "common_error": {
+                "wrong": "किताबे में",
+                "right": "किताब में",
+                "why_en": "-े is what a Class 1 masculine ending in -ा turns into. किताब is feminine and ends in a consonant, so it takes no ending in the singular."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "One book. Put the noun into its oblique form.",
+              "question": "किताब + पर",
+              "question_read_as": "kitaab + par",
+              "options": ["किताबे पर", "किताब पर", "किताबों पर", "किताबी पर"],
+              "options_read_as": ["kitaabe par", "kitaab par", "kitaaboṁ par", "kitaabii par"],
+              "answer_index": 1,
+              "explanation_en": "One book, and Class 5 singulars do not change, so किताब stays as it is."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["किताब में", "रात को", "चाय में", "किताबे में"],
+              "options_read_as": ["kitaab meṁ", "raat ko", "chaay meṁ", "kitaabe meṁ"],
+              "answer_index": 3,
+              "explanation_en": "किताबे में invents a masculine ending on a feminine noun. The form is किताब में."
+            }
+          },
+          "audio": {
+            "tts_strings": ["किताब में", "किताब पर", "यह किताब बेटी के लिए है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L11-I2",
+          "type": "grammar",
+          "target": "रात को",
+          "read_as": "raat ko",
+          "pronunciation_notes": "One long syllable with a retroflex t: raat, then a short ko.",
+          "gloss_en": "Class 5 in a time expression",
+          "gender": null,
+          "difficulty": 6,
+          "tags": ["oblique", "class_5", "feminine", "singular", "time", "ko_temporal", "gender_flagged"],
+          "cards": {
+            "learn": {
+              "title_en": "रात को — ordinary grammar, useful phrase",
+              "explanation_en": "रात को means at night, and it is worth learning as a phrase because Hindi uses को to place an event in time. But look at what is underneath: a Class 5 feminine noun standing in front of a postposition and doing nothing. There is no special time rule here. The idiom is in the choice of को, not in the shape of रात.",
+              "examples": [
+                { "hindi": "रात को", "read_as": "raat ko", "english": "at night", "note": "The standard way to say when." },
+                { "hindi": "रात में", "read_as": "raat meṁ", "english": "during the night", "note": "Also correct, with a slightly more drawn-out sense." },
+                { "hindi": "मैं रात को घर में हूँ।", "read_as": "maiṁ raat ko ghar meṁ huuṁ.", "english": "I am at home at night.", "note": "Two oblique nouns in one sentence, and neither of them changes shape." }
+              ],
+              "common_error": {
+                "wrong": "राते को",
+                "right": "रात को",
+                "why_en": "रात is feminine and ends in a consonant. There is no -े form for it to take."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "One night. Put the noun into its oblique form.",
+              "question": "रात + में",
+              "question_read_as": "raat + meṁ",
+              "options": ["राते में", "रातों में", "राती में", "रात में"],
+              "options_read_as": ["raate meṁ", "raatoṁ meṁ", "raatii meṁ", "raat meṁ"],
+              "answer_index": 3,
+              "explanation_en": "Singular Class 5, so रात is unchanged. रातों is the plural."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["रात को", "राते को", "किताब में", "चाय में"],
+              "options_read_as": ["raat ko", "raate ko", "kitaab meṁ", "chaay meṁ"],
+              "answer_index": 1,
+              "explanation_en": "राते is not a Hindi word. रात does not change in the singular oblique."
+            }
+          },
+          "audio": {
+            "tts_strings": ["रात को", "रात में", "मैं रात को घर में हूँ।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L11-I3",
+          "type": "grammar",
+          "target": "चाय में",
+          "read_as": "chaay meṁ",
+          "pronunciation_notes": "One syllable ending in a glide: chaay, close to the English word chai but with the vowel held.",
+          "gloss_en": "Class 5, and a gender you had to memorise",
+          "gender": null,
+          "difficulty": 6,
+          "tags": ["oblique", "class_5", "feminine", "singular", "food", "gender_flagged"],
+          "cards": {
+            "learn": {
+              "title_en": "Where the memorised gender is still invisible",
+              "explanation_en": "चाय is feminine, and there is nothing in the word that tells you so — which is exactly why Module 4 flagged it. Here is the honest position: in the singular oblique, the gender does no work at all. चाय behaves like शहर, which is masculine. The gender starts earning its keep one level from now, and it becomes unavoidable when adjectives and की arrive later in this module. Keep holding it; you have not needed it yet.",
+              "examples": [
+                { "hindi": "चाय में", "read_as": "chaay meṁ", "english": "in the tea", "note": "Unchanged, like every Class 5 singular." },
+                { "hindi": "चाय के साथ", "read_as": "chaay ke saath", "english": "with tea", "note": "के साथ is a postposition, and still nothing happens." },
+                { "hindi": "चाय में दूध है।", "read_as": "chaay meṁ duudh hai.", "english": "There is milk in the tea.", "note": "दूध is the subject and direct; चाय is the one standing before में." }
+              ],
+              "common_error": {
+                "wrong": "चाये में",
+                "right": "चाय में",
+                "why_en": "The -े ending belongs to Class 1 masculines. चाय has no ending to convert."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its oblique form.",
+              "question": "चाय + के साथ",
+              "question_read_as": "chaay + ke saath",
+              "options": ["चाय के साथ", "चाये के साथ", "चायों के साथ", "चायी के साथ"],
+              "options_read_as": ["chaay ke saath", "chaaye ke saath", "chaayoṁ ke saath", "chaayii ke saath"],
+              "answer_index": 0,
+              "explanation_en": "Singular Class 5, so चाय is unchanged before के साथ."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["चाय में", "रात को", "चाये में", "किताब पर"],
+              "options_read_as": ["chaay meṁ", "raat ko", "chaaye meṁ", "kitaab par"],
+              "answer_index": 2,
+              "explanation_en": "चाये में adds an ending that Class 5 nouns never take. The form is चाय में."
+            }
+          },
+          "audio": {
+            "tts_strings": ["चाय में", "चाय के साथ", "चाय में दूध है।"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Class 5 is the feminine nouns ending in a consonant, and in the singular they do nothing. Four of the five noun classes you have met now behave identically here — the singular oblique is really only a Class 1 question.",
+        "key_forms": ["किताब में", "रात को", "चाय में"],
+        "next_up_en": "Next: the Class 5 plural, which takes plain -ों and not the -ियों you learnt for लड़की."
+      }
+    },
+    {
+      "level": 12,
+      "title_en": "Class 5 plural: plain -ों",
+      "title_hi": "वर्ग ५ बहुवचन — किताबों",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L12-I1",
+          "type": "grammar",
+          "target": "किताबों में",
+          "read_as": "kitaaboṁ meṁ",
+          "pronunciation_notes": "The -ों is a hum on the last syllable: ki-taa-boṁ meṁ, four beats in all.",
+          "gloss_en": "Class 5 plural — the ending attaches directly",
+          "gender": null,
+          "difficulty": 6,
+          "tags": ["oblique", "class_5", "feminine", "plural", "oṁ_ending", "class_4_contrast"],
+          "cards": {
+            "learn": {
+              "title_en": "The feminine plural that is NOT -ियों",
+              "explanation_en": "This is the contrast the module has been building towards. लड़की is feminine and its plural oblique is लड़कियों. किताब is also feminine and its plural oblique is किताबों. Same gender, different endings — because लड़की ends in a long -ी and किताब ends in a consonant. So the thing deciding the ending is not the gender at all; it is the last letter. किताबियों does not exist, and a learner who reaches for it has quietly decided that feminine means -ियों.",
+              "examples": [
+                { "hindi": "किताबों में", "read_as": "kitaaboṁ meṁ", "english": "in the books", "note": "Consonant ending, so -ों goes straight on." },
+                { "hindi": "किताबों पर", "read_as": "kitaaboṁ par", "english": "on the books", "note": "The postposition changes; the noun does not." },
+                { "hindi": "दो किताबों में", "read_as": "do kitaaboṁ meṁ", "english": "in two books", "note": "A number makes the plural explicit but does not do the work for you." }
+              ],
+              "common_error": {
+                "wrong": "किताबियों में",
+                "right": "किताबों में",
+                "why_en": "The य and the shortened vowel belong to nouns ending in a long -ी. किताब ends in a consonant, so -ों attaches directly."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "More than one book. Put the noun into its oblique form.",
+              "question": "किताब + में",
+              "question_read_as": "kitaab + meṁ",
+              "options": ["किताबें में", "किताबियों में", "किताबों में", "किताबीं में"],
+              "options_read_as": ["kitaabeṁ meṁ", "kitaabiyoṁ meṁ", "kitaaboṁ meṁ", "kitaabiiṁ meṁ"],
+              "answer_index": 2,
+              "explanation_en": "किताबों में. किताबें is the direct plural and cannot stand before a postposition."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["किताबियों में", "किताबों पर", "रातों को", "चीज़ों में"],
+              "options_read_as": ["kitaabiyoṁ meṁ", "kitaaboṁ par", "raatoṁ ko", "chiizoṁ meṁ"],
+              "answer_index": 0,
+              "explanation_en": "किताबियों borrows the Class 4 ending. किताब takes plain -ों."
+            }
+          },
+          "audio": {
+            "tts_strings": ["किताबों में", "किताबों पर", "दो किताबों में"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L12-I2",
+          "type": "grammar",
+          "target": "रातों को",
+          "read_as": "raatoṁ ko",
+          "pronunciation_notes": "Long aa, then the nasal hum: raa-toṁ ko.",
+          "gloss_en": "Class 5 plural on a time noun",
+          "gender": null,
+          "difficulty": 6,
+          "tags": ["oblique", "class_5", "feminine", "plural", "time", "oṁ_ending"],
+          "cards": {
+            "learn": {
+              "title_en": "No य, no shortening, nothing in the way",
+              "explanation_en": "रात becomes रातों, बात becomes बातों, चीज़ becomes चीज़ों. There is no vowel to shorten and no gap for a य to fill, because the word ends in a consonant and -ों can simply follow it. Compare this with आदमियों and लड़कियों, where the य exists only to separate two vowels that would otherwise collide. Once you hear the ending that way, you stop having to remember which nouns take य — you can hear whether one is needed.",
+              "examples": [
+                { "hindi": "रातों को", "read_as": "raatoṁ ko", "english": "on nights", "note": "The plural of the time phrase रात को." },
+                { "hindi": "बातों में", "read_as": "baatoṁ meṁ", "english": "in the talk, in conversation", "note": "Same class, same plain ending." },
+                { "hindi": "दो रातों तक", "read_as": "do raatoṁ tak", "english": "for two nights", "note": "तक is a postposition, so the plural must be oblique." }
+              ],
+              "common_error": {
+                "wrong": "रातियों को",
+                "right": "रातों को",
+                "why_en": "There is no vowel here for a य to bridge. The ending goes straight onto the consonant."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "More than one. Put the noun into its oblique form.",
+              "question": "बात + में",
+              "question_read_as": "baat + meṁ",
+              "options": ["बातियों में", "बातें में", "बाती में", "बातों में"],
+              "options_read_as": ["baatiyoṁ meṁ", "baateṁ meṁ", "baatii meṁ", "baatoṁ meṁ"],
+              "answer_index": 3,
+              "explanation_en": "बातों में. बातें is the direct plural, which cannot stand before में."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["रातों को", "रातियों को", "किताबों में", "बातों से"],
+              "options_read_as": ["raatoṁ ko", "raatiyoṁ ko", "kitaaboṁ meṁ", "baatoṁ se"],
+              "answer_index": 1,
+              "explanation_en": "रातियों adds a य where there is no vowel collision to fix. The form is रातों."
+            }
+          },
+          "audio": {
+            "tts_strings": ["रातों को", "बातों में", "दो रातों तक"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L12-I3",
+          "type": "grammar",
+          "target": "चीज़ों में",
+          "read_as": "chiizoṁ meṁ",
+          "pronunciation_notes": "The dotted ज़ is a z, not a j: chii-zoṁ meṁ.",
+          "gloss_en": "the two feminine plurals side by side",
+          "gender": null,
+          "difficulty": 6,
+          "tags": ["oblique", "class_5", "feminine", "plural", "nukta", "class_4_contrast", "gender_flagged"],
+          "cards": {
+            "learn": {
+              "title_en": "Two feminine plurals, one glance",
+              "explanation_en": "Put लड़कियों and चीज़ों next to each other and the whole feminine picture resolves. Both nouns are feminine. Both are plural. Both stand before a postposition. And they take different endings, because one ends in -ी and the other in a consonant. If you have been silently using gender to predict the ending, this is the pair that will break the habit — which is worth breaking now rather than at Module 9.",
+              "examples": [
+                { "hindi": "चीज़ों में", "read_as": "chiizoṁ meṁ", "english": "among the things", "note": "Consonant ending, so plain -ों." },
+                { "hindi": "चीज़ों के साथ", "read_as": "chiizoṁ ke saath", "english": "with the things", "note": "The same form before a longer postposition." },
+                { "hindi": "चीज़ों से", "read_as": "chiizoṁ se", "english": "from the things", "note": "And again — the noun's form ignores which postposition follows." }
+              ],
+              "common_error": {
+                "wrong": "चीज़ियों में",
+                "right": "चीज़ों में",
+                "why_en": "Feminine does not mean -ियों. चीज़ ends in a consonant, so it takes -ों like किताब and रात."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "More than one thing. Put the noun into its oblique form.",
+              "question": "चीज़ + से",
+              "question_read_as": "chiiz + se",
+              "options": ["चीज़ियों से", "चीज़ों से", "चीज़ें से", "चीज़ीं से"],
+              "options_read_as": ["chiiziyoṁ se", "chiizoṁ se", "chiizeṁ se", "chiiziiṁ se"],
+              "answer_index": 1,
+              "explanation_en": "चीज़ों से — plain -ों on a consonant-final feminine noun."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["चीज़ों में", "लड़कियों को", "किताबों पर", "चीज़ियों में"],
+              "options_read_as": ["chiizoṁ meṁ", "laṛkiyoṁ ko", "kitaaboṁ par", "chiiziyoṁ meṁ"],
+              "answer_index": 3,
+              "explanation_en": "चीज़ियों copies the ending that belongs to लड़की. चीज़ takes -ों."
+            }
+          },
+          "audio": {
+            "tts_strings": ["चीज़ों में", "चीज़ों के साथ", "चीज़ों से"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Class 5 plurals take plain -ों, with no य and no shortened vowel, because there is no vowel collision to fix. लड़कियों and चीज़ों are both feminine plurals with different endings — the last letter decides, not the gender.",
+        "key_forms": ["किताबों में", "रातों को", "चीज़ों में"],
+        "next_up_en": "Next: the mixed drill. Every item from here puts two classes in one phrase, so you have to choose rather than apply."
+      }
+    },
+    {
+      "level": 13,
+      "title_en": "Mixed drill: choosing the class",
+      "title_hi": "मिश्रित अभ्यास — बेटे और बेटी",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L13-I1",
+          "type": "grammar",
+          "target": "बेटे और बेटी को",
+          "read_as": "beṭe aur beṭii ko",
+          "pronunciation_notes": "और is one syllable, closer to aur than to a-ur: be-ṭe aur be-ṭii ko.",
+          "gloss_en": "two singular nouns, one postposition, two different outcomes",
+          "gender": null,
+          "difficulty": 7,
+          "tags": ["oblique", "mixed_class", "class_1", "class_4", "singular", "decision_drill"],
+          "cards": {
+            "learn": {
+              "title_en": "One phrase, two decisions",
+              "explanation_en": "Until now each level handed you a class and asked you to apply it. That is not the real skill. Here both nouns are singular, both are governed by the same को, and one moves while the other does not — because बेटा ends in -ा and बेटी does not. Nothing about the postposition tells you what to do. The last letter of each noun is the only information you are working from, and you have to read it twice in one short phrase.",
+              "examples": [
+                { "hindi": "बेटे और बेटी को", "read_as": "beṭe aur beṭii ko", "english": "to the son and daughter", "note": "Class 1 moves to -े; Class 4 stays put." },
+                { "hindi": "भाई और बहन को", "read_as": "bhaaii aur bahan ko", "english": "to the brother and sister", "note": "Class 3 and Class 5 — here neither one moves." },
+                { "hindi": "लड़के और लड़की से", "read_as": "laṛke aur laṛkii se", "english": "from the boy and girl", "note": "The same split as the first example, with a different postposition." }
+              ],
+              "common_error": {
+                "wrong": "बेटा और बेटी को",
+                "right": "बेटे और बेटी को",
+                "why_en": "को governs both nouns, so बेटा must go oblique even though it is not the word sitting directly in front of the postposition."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put both nouns into the right form.",
+              "question": "बेटा + बेटी + को",
+              "question_read_as": "beṭaa + beṭii + ko",
+              "options": ["बेटा और बेटी को", "बेटे और बेटे को", "बेटे और बेटी को", "बेटा और बेटे को"],
+              "options_read_as": ["beṭaa aur beṭii ko", "beṭe aur beṭe ko", "beṭe aur beṭii ko", "beṭaa aur beṭe ko"],
+              "answer_index": 2,
+              "explanation_en": "बेटा goes to बेटे; बेटी stays as it is. Both are covered by the same को."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["बेटा और बेटी को", "लड़के और लड़की से", "भाई और बहन को", "बेटे और बेटी से"],
+              "options_read_as": ["beṭaa aur beṭii ko", "laṛke aur laṛkii se", "bhaaii aur bahan ko", "beṭe aur beṭii se"],
+              "answer_index": 0,
+              "explanation_en": "बेटा is Class 1 and must become बेटे, because को governs it too."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बेटे और बेटी को", "भाई और बहन को", "लड़के और लड़की से"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L13-I2",
+          "type": "grammar",
+          "target": "लड़कों और लड़कियों को",
+          "read_as": "laṛkoṁ aur laṛkiyoṁ ko",
+          "pronunciation_notes": "Two hums in the phrase, one on each noun: laṛ-koṁ aur laṛ-ki-yoṁ ko.",
+          "gloss_en": "the plural version of the same decision",
+          "gender": null,
+          "difficulty": 7,
+          "tags": ["oblique", "mixed_class", "class_1", "class_4", "plural", "decision_drill"],
+          "cards": {
+            "learn": {
+              "title_en": "In the plural, both move — differently",
+              "explanation_en": "The singular version of this phrase had one noun moving and one standing still. In the plural neither stands still, but they do not move the same way: लड़का takes plain -ों, and लड़की shortens its vowel and takes -ियों. This is the point of the drill. The two nouns are the same length, the same topic, and governed by the same postposition, and the only thing separating their endings is a single letter you have to notice.",
+              "examples": [
+                { "hindi": "लड़कों और लड़कियों को", "read_as": "laṛkoṁ aur laṛkiyoṁ ko", "english": "to the boys and girls", "note": "Plain -ों on one, -ियों on the other." },
+                { "hindi": "बच्चों और लड़कियों के साथ", "read_as": "bachchoṁ aur laṛkiyoṁ ke saath", "english": "with the children and the girls", "note": "बच्चा is Class 1, so it takes plain -ों like लड़का." },
+                { "hindi": "घरों और किताबों में", "read_as": "gharoṁ aur kitaaboṁ meṁ", "english": "in the houses and the books", "note": "Class 2 and Class 5 — different genders, and both take plain -ों." }
+              ],
+              "common_error": {
+                "wrong": "लड़कों और लड़कीों को",
+                "right": "लड़कों और लड़कियों को",
+                "why_en": "Getting the first noun right does not carry over. लड़की still needs its vowel shortened and a य added."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "More than one of each. Put both nouns into the right form.",
+              "question": "लड़का + लड़की + को",
+              "question_read_as": "laṛkaa + laṛkii + ko",
+              "options": ["लड़कों और लड़कियों को", "लड़कों और लड़कीों को", "लड़काओं और लड़कियों को", "लड़कों और लड़कियाँ को"],
+              "options_read_as": ["laṛkoṁ aur laṛkiyoṁ ko", "laṛkoṁ aur laṛkiioṁ ko", "laṛkaaoṁ aur laṛkiyoṁ ko", "laṛkoṁ aur laṛkiyaaṁ ko"],
+              "answer_index": 0,
+              "explanation_en": "लड़कों takes plain -ों; लड़कियों shortens and adds य. लड़काओं keeps a -ा that should have been replaced."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["लड़कों और लड़कियों को", "बच्चों और बेटियों के साथ", "लड़कों और लड़कीों से", "घरों और किताबों में"],
+              "options_read_as": ["laṛkoṁ aur laṛkiyoṁ ko", "bachchoṁ aur beṭiyoṁ ke saath", "laṛkoṁ aur laṛkiioṁ se", "gharoṁ aur kitaaboṁ meṁ"],
+              "answer_index": 2,
+              "explanation_en": "लड़कीों stacks -ों on a long ी. It should be लड़कियों."
+            }
+          },
+          "audio": {
+            "tts_strings": ["लड़कों और लड़कियों को", "बच्चों और लड़कियों के साथ", "घरों और किताबों में"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L13-I3",
+          "type": "grammar",
+          "target": "भाइयों और बहनों के साथ",
+          "read_as": "bhaaiyoṁ aur bahanoṁ ke saath",
+          "pronunciation_notes": "बहनों has a light ह between the vowels: ba-ha-noṁ, and in fast speech it flattens to bah-noṁ.",
+          "gloss_en": "-ियों and -ों in the same breath",
+          "gender": null,
+          "difficulty": 7,
+          "tags": ["oblique", "mixed_class", "class_3", "class_5", "plural", "family", "decision_drill"],
+          "cards": {
+            "learn": {
+              "title_en": "The closest pair in the language, and they still differ",
+              "explanation_en": "भाई and बहन are as close as two nouns get — same family, same register, used together constantly. And their plural obliques are भाइयों and बहनों, because one ends in a long vowel and the other in a consonant. This is the cleanest proof available that the module is about shapes rather than meanings. If meaning decided anything, these two would match. They do not, and no amount of thinking about brothers and sisters will tell you which ending to use.",
+              "examples": [
+                { "hindi": "भाइयों और बहनों के साथ", "read_as": "bhaaiyoṁ aur bahanoṁ ke saath", "english": "with the brothers and sisters", "note": "Long vowel takes य; consonant takes the ending directly." },
+                { "hindi": "भाइयों और बहनों को", "read_as": "bhaaiyoṁ aur bahanoṁ ko", "english": "to the brothers and sisters", "note": "The forms do not depend on the postposition." },
+                { "hindi": "बहनों को", "read_as": "bahanoṁ ko", "english": "to the sisters", "note": "Class 5 plural on its own, with nothing to compare it to." }
+              ],
+              "common_error": {
+                "wrong": "भाईयों और बहनियों के साथ",
+                "right": "भाइयों और बहनों के साथ",
+                "why_en": "Two errors at once: भाई must shorten its vowel, and बहन has no vowel for a य to bridge."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "More than one of each. Put both nouns into the right form.",
+              "question": "भाई + बहन + के साथ",
+              "question_read_as": "bhaaii + bahan + ke saath",
+              "options": ["भाईयों और बहनों के साथ", "भाइयों और बहनों के साथ", "भाइयों और बहनियों के साथ", "भाइों और बहनों के साथ"],
+              "options_read_as": ["bhaaiiyoṁ aur bahanoṁ ke saath", "bhaaiyoṁ aur bahanoṁ ke saath", "bhaaiyoṁ aur bahaniyoṁ ke saath", "bhaaioṁ aur bahanoṁ ke saath"],
+              "answer_index": 1,
+              "explanation_en": "भाइयों shortens and takes य; बहनों takes -ों straight onto the consonant."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["भाइयों और बहनों को", "लड़कों और लड़कियों से", "बेटे और बेटी को", "भाइयों और बहनियों के साथ"],
+              "options_read_as": ["bhaaiyoṁ aur bahanoṁ ko", "laṛkoṁ aur laṛkiyoṁ se", "beṭe aur beṭii ko", "bhaaiyoṁ aur bahaniyoṁ ke saath"],
+              "answer_index": 3,
+              "explanation_en": "बहनियों invents a य. बहन ends in a consonant, so the form is बहनों."
+            }
+          },
+          "audio": {
+            "tts_strings": ["भाइयों और बहनों के साथ", "भाइयों और बहनों को", "बहनों को"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Every phrase here held two nouns from different classes under one postposition. The lesson is that the class is decided per noun, by its last letter, and getting one right tells you nothing about the other.",
+        "key_forms": ["बेटे और बेटी को", "लड़कों और लड़कियों को", "भाइयों और बहनों के साथ"],
+        "next_up_en": "Next: the second half of the drill, and the two sentences that compress the whole module."
+      }
+    },
+    {
+      "level": 14,
+      "title_en": "Mixed drill: the whole system in two rules",
+      "title_hi": "मिश्रित अभ्यास — पूरा नियम",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L14-I1",
+          "type": "grammar",
+          "target": "कुत्तों और बिल्लियों को",
+          "read_as": "kuttoṁ aur billiyoṁ ko",
+          "pronunciation_notes": "Both nouns hold a doubled consonant: kut-toṁ and bil-li-yoṁ.",
+          "gloss_en": "Class 1 and Class 4 in the plural",
+          "gender": null,
+          "difficulty": 7,
+          "tags": ["oblique", "mixed_class", "class_1", "class_4", "plural", "animals", "decision_drill"],
+          "cards": {
+            "learn": {
+              "title_en": "Dogs and cats, and two different endings",
+              "explanation_en": "कुत्ता ends in -ा, so its plural oblique is कुत्तों. बिल्ली ends in -ी, so hers is बिल्लियों. These two words appear together constantly, which makes the pair worth over-drilling: if the phrase comes out automatically, you have internalised the difference between the plain ending and the bridged one rather than working it out each time.",
+              "examples": [
+                { "hindi": "कुत्तों और बिल्लियों को", "read_as": "kuttoṁ aur billiyoṁ ko", "english": "to the dogs and cats", "note": "Plain -ों, then the bridged -ियों." },
+                { "hindi": "कुत्तों से", "read_as": "kuttoṁ se", "english": "from the dogs", "note": "Class 1 plural on its own." },
+                { "hindi": "बिल्लियों के साथ", "read_as": "billiyoṁ ke saath", "english": "with the cats", "note": "Class 4 plural on its own." }
+              ],
+              "common_error": {
+                "wrong": "कुत्ताओं और बिल्लीों को",
+                "right": "कुत्तों और बिल्लियों को",
+                "why_en": "कुत्ता replaces its -ा rather than adding to it, and बिल्ली shortens its -ी rather than keeping it."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "More than one of each. Put both nouns into the right form.",
+              "question": "कुत्ता + बिल्ली + को",
+              "question_read_as": "kuttaa + billii + ko",
+              "options": ["कुत्ताओं और बिल्लियों को", "कुत्तों और बिल्लीों को", "कुत्तों और बिल्लियाँ को", "कुत्तों और बिल्लियों को"],
+              "options_read_as": ["kuttaaoṁ aur billiyoṁ ko", "kuttoṁ aur billiioṁ ko", "kuttoṁ aur billiyaaṁ ko", "kuttoṁ aur billiyoṁ ko"],
+              "answer_index": 3,
+              "explanation_en": "कुत्तों replaces the -ा; बिल्लियों shortens the -ी and bridges with य."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["कुत्ताओं और बिल्लियों को", "कुत्तों से", "बिल्लियों के साथ", "लड़कों और लड़कियों को"],
+              "options_read_as": ["kuttaaoṁ aur billiyoṁ ko", "kuttoṁ se", "billiyoṁ ke saath", "laṛkoṁ aur laṛkiyoṁ ko"],
+              "answer_index": 0,
+              "explanation_en": "कुत्ताओं adds an ending to the direct form instead of replacing the -ा. The plural oblique is कुत्तों."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कुत्तों और बिल्लियों को", "कुत्तों से", "बिल्लियों के साथ"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L14-I2",
+          "type": "grammar",
+          "target": "पानी और चाय में",
+          "read_as": "paanii aur chaay meṁ",
+          "pronunciation_notes": "Two long vowels running into the short में: paa-nii aur chaay meṁ.",
+          "gloss_en": "the singular rule, stated in full",
+          "gender": null,
+          "difficulty": 7,
+          "tags": ["oblique", "mixed_class", "class_3", "class_5", "singular", "rule_summary"],
+          "cards": {
+            "learn": {
+              "title_en": "In the singular, only Class 1 moves",
+              "explanation_en": "पानी is masculine Class 3 and चाय is feminine Class 5, and before में both do precisely nothing. That is not a coincidence or a pair of exceptions — it is the general case. Of the five noun classes you have met, exactly one changes in the singular: Class 1, the masculines ending in -ा. Everything else stands still. Say that to yourself as a single sentence, because it turns the singular oblique from five rules into one question: does this noun end in -ा?",
+              "examples": [
+                { "hindi": "पानी और चाय में", "read_as": "paanii aur chaay meṁ", "english": "in the water and the tea", "note": "Different classes, different genders, and neither one moves." },
+                { "hindi": "दही और चाय में", "read_as": "dahii aur chaay meṁ", "english": "in the yoghurt and the tea", "note": "Two more that stand still." },
+                { "hindi": "पानी और दूध में", "read_as": "paanii aur duudh meṁ", "english": "in the water and the milk", "note": "Class 3 and Class 2, both unchanged." }
+              ],
+              "common_error": {
+                "wrong": "पाने और चाये में",
+                "right": "पानी और चाय में",
+                "why_en": "The -े ending exists only for nouns ending in -ा. Neither of these words qualifies, so neither changes."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put both nouns into the right form.",
+              "question": "पानी + चाय + में",
+              "question_read_as": "paanii + chaay + meṁ",
+              "options": ["पानी और चाय में", "पाने और चाय में", "पानी और चाये में", "पानियों और चायों में"],
+              "options_read_as": ["paanii aur chaay meṁ", "paane aur chaay meṁ", "paanii aur chaaye meṁ", "paaniyoṁ aur chaayoṁ meṁ"],
+              "answer_index": 0,
+              "explanation_en": "Neither noun ends in -ा, so neither changes. Both are mass nouns, so the plural forms do not arise either."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["पानी और चाय में", "पाने और चाय में", "दही और किताब में", "रात और दिन में"],
+              "options_read_as": ["paanii aur chaay meṁ", "paane aur chaay meṁ", "dahii aur kitaab meṁ", "raat aur din meṁ"],
+              "answer_index": 1,
+              "explanation_en": "पाने applies a Class 1 ending to a Class 3 noun. पानी does not change."
+            }
+          },
+          "audio": {
+            "tts_strings": ["पानी और चाय में", "दही और चाय में", "पानी और दूध में"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L14-I3",
+          "type": "grammar",
+          "target": "लोगों और बच्चों के साथ",
+          "read_as": "logoṁ aur bachchoṁ ke saath",
+          "pronunciation_notes": "बच्चों holds the doubled च: bach-choṁ, and the phrase closes on a long aa in साथ.",
+          "gloss_en": "the plural rule, stated in full",
+          "gender": null,
+          "difficulty": 7,
+          "tags": ["oblique", "mixed_class", "class_1", "class_2", "plural", "rule_summary"],
+          "cards": {
+            "learn": {
+              "title_en": "In the plural, everyone ends in -ों",
+              "explanation_en": "Every plural oblique in this module ends the same way. The only question is what happens immediately before it. Nouns ending in a long -ी or -ई shorten that vowel and take a य to separate it from the ending: आदमियों, लड़कियों, भाइयों, बिल्लियों. Everything else attaches -ों directly: लोगों, बच्चों, घरों, किताबों, बहनों. Two branches, and the second is the default. Together with the singular rule from the last item, that is the entire module in two sentences.",
+              "examples": [
+                { "hindi": "लोगों और बच्चों के साथ", "read_as": "logoṁ aur bachchoṁ ke saath", "english": "with the people and the children", "note": "Class 2 and Class 1, both taking the ending directly." },
+                { "hindi": "लोगों और बच्चों को", "read_as": "logoṁ aur bachchoṁ ko", "english": "to the people and the children", "note": "The forms are indifferent to the postposition." },
+                { "hindi": "घरों और बाज़ारों में", "read_as": "gharoṁ aur baazaaroṁ meṁ", "english": "in the houses and the markets", "note": "Two more Class 2 nouns, and the same plain ending." }
+              ],
+              "common_error": {
+                "wrong": "लोगों और बच्चाओं के साथ",
+                "right": "लोगों और बच्चों के साथ",
+                "why_en": "बच्चा replaces its final -ा with the ending. Keeping the -ा and adding on top of it is the single most common plural error in this module."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "More than one of each. Put both nouns into the right form.",
+              "question": "लोग + बच्चा + के साथ",
+              "question_read_as": "log + bachchaa + ke saath",
+              "options": ["लोगों और बच्चाओं के साथ", "लोग और बच्चों के साथ", "लोगों और बच्चों के साथ", "लोगों और बच्चे के साथ"],
+              "options_read_as": ["logoṁ aur bachchaaoṁ ke saath", "log aur bachchoṁ ke saath", "logoṁ aur bachchoṁ ke saath", "logoṁ aur bachche ke saath"],
+              "answer_index": 2,
+              "explanation_en": "लोग is already plural and takes -ों; बच्चा replaces its -ा with the same ending."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["लोगों और बच्चों को", "भाइयों और बहनों से", "लोगों और बच्चाओं के साथ", "किताबों और चीज़ों में"],
+              "options_read_as": ["logoṁ aur bachchoṁ ko", "bhaaiyoṁ aur bahanoṁ se", "logoṁ aur bachchaaoṁ ke saath", "kitaaboṁ aur chiizoṁ meṁ"],
+              "answer_index": 2,
+              "explanation_en": "बच्चाओं keeps the -ा and adds an ending to it. The plural oblique is बच्चों."
+            }
+          },
+          "audio": {
+            "tts_strings": ["लोगों और बच्चों के साथ", "लोगों और बच्चों को", "घरों और बाज़ारों में"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Two sentences cover every noun in the module. In the singular, only Class 1 moves — the question is simply whether the noun ends in -ा. In the plural, everything ends in -ों, and only nouns with a long final -ी or -ई shorten and take a य before it.",
+        "key_forms": ["कुत्तों और बिल्लियों को", "पानी और चाय में", "लोगों और बच्चों के साथ"],
+        "next_up_en": "Next: adjectives, where a word can be forced to move even when the noun beside it stands perfectly still."
+      }
+    },
+    {
+      "level": 15,
+      "title_en": "Adjectives in the oblique",
+      "title_hi": "तिरछा विशेषण — बड़े घर में",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M06-L15-I1",
+          "type": "grammar",
+          "target": "बड़े घर में",
+          "read_as": "baṛe ghar meṁ",
+          "pronunciation_notes": "बड़े has the flapped ड़ and ends on a clear e: ba-ṛe ghar meṁ.",
+          "gloss_en": "the adjective moves even when the noun does not",
+          "gender": null,
+          "difficulty": 7,
+          "tags": ["oblique", "adjective", "marked_adjective", "class_2", "singular", "agreement"],
+          "cards": {
+            "learn": {
+              "title_en": "The word that moves when nothing else does",
+              "explanation_en": "घर is Class 2 and does nothing before में — you learnt that ten levels ago. But बड़ा is a marked adjective, one that ends in -ा, and marked adjectives go to -े in front of any oblique noun whether or not the noun itself shows a change. So बड़ा घर becomes बड़े घर में, and the entire grammatical signal is carried by the adjective. This is where Module 5's easy postpositions stop being easy: every one of those sentences would have needed this the moment you put a description in front of the noun.",
+              "examples": [
+                { "hindi": "बड़े घर में", "read_as": "baṛe ghar meṁ", "english": "in the big house", "note": "घर is unchanged; बड़ा has moved to बड़े." },
+                { "hindi": "बड़े घर से", "read_as": "baṛe ghar se", "english": "from the big house", "note": "Any postposition triggers it, not just में." },
+                { "hindi": "बड़े घरों में", "read_as": "baṛe gharoṁ meṁ", "english": "in the big houses", "note": "The noun goes plural and the adjective does not change again — बड़े covers both." }
+              ],
+              "common_error": {
+                "wrong": "बड़ा घर में",
+                "right": "बड़े घर में",
+                "why_en": "The noun does not change, so the adjective is the only thing that can mark the oblique — and it must."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put the phrase into its oblique form.",
+              "question": "बड़ा घर + में",
+              "question_read_as": "baṛaa ghar + meṁ",
+              "options": ["बड़ा घर में", "बड़ी घर में", "बड़े घरे में", "बड़े घर में"],
+              "options_read_as": ["baṛaa ghar meṁ", "baṛii ghar meṁ", "baṛe ghare meṁ", "baṛe ghar meṁ"],
+              "answer_index": 3,
+              "explanation_en": "बड़ा becomes बड़े; घर is Class 2 and stays as it is."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["बड़ा घर में", "बड़े घर से", "बड़े घरों में", "छोटे शहर में"],
+              "options_read_as": ["baṛaa ghar meṁ", "baṛe ghar se", "baṛe gharoṁ meṁ", "chhoṭe shahar meṁ"],
+              "answer_index": 0,
+              "explanation_en": "The adjective has been left in its direct form. Before में it must be बड़े."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बड़े घर में", "बड़े घर से", "बड़े घरों में"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L15-I2",
+          "type": "grammar",
+          "target": "छोटे शहर में",
+          "read_as": "chhoṭe shahar meṁ",
+          "pronunciation_notes": "Aspirated chh and retroflex ṭ: chho-ṭe. In शहर the middle vowel almost disappears in speech.",
+          "gloss_en": "one adjective form for singular and plural alike",
+          "gender": null,
+          "difficulty": 7,
+          "tags": ["oblique", "adjective", "marked_adjective", "class_2", "singular", "plural", "agreement"],
+          "cards": {
+            "learn": {
+              "title_en": "-े covers both numbers",
+              "explanation_en": "छोटा becomes छोटे before an oblique masculine noun, and it stays छोटे whether that noun is singular or plural: छोटे शहर में and छोटे शहरों में. The adjective's oblique form and its plural form are the same word, which is one of the few genuinely free things in Hindi grammar — you learn one ending and it covers two jobs. Feminine adjectives work differently, and they arrive in the next level.",
+              "examples": [
+                { "hindi": "छोटे शहर में", "read_as": "chhoṭe shahar meṁ", "english": "in the small city", "note": "Singular noun, adjective in -े." },
+                { "hindi": "छोटे शहरों में", "read_as": "chhoṭe shahroṁ meṁ", "english": "in the small cities", "note": "Plural noun, and the adjective is unchanged." },
+                { "hindi": "छोटे गाँव से", "read_as": "chhoṭe gaanv se", "english": "from the small village", "note": "Another Class 2 noun that shows nothing, so the adjective carries it." }
+              ],
+              "common_error": {
+                "wrong": "छोटा शहर में",
+                "right": "छोटे शहर में",
+                "why_en": "शहर cannot show the oblique, so the adjective has to. Leaving it as छोटा makes the phrase unmarked."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put the phrase into its oblique form.",
+              "question": "छोटा शहर + में",
+              "question_read_as": "chhoṭaa shahar + meṁ",
+              "options": ["छोटा शहर में", "छोटे शहर में", "छोटी शहर में", "छोटे शहरे में"],
+              "options_read_as": ["chhoṭaa shahar meṁ", "chhoṭe shahar meṁ", "chhoṭii shahar meṁ", "chhoṭe shahare meṁ"],
+              "answer_index": 1,
+              "explanation_en": "छोटा goes to छोटे; शहर is Class 2 and does not change."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["छोटे शहर से", "बड़े घर में", "छोटे गाँवों में", "छोटा शहर में"],
+              "options_read_as": ["chhoṭe shahar se", "baṛe ghar meṁ", "chhoṭe gaanvoṁ meṁ", "chhoṭaa shahar meṁ"],
+              "answer_index": 3,
+              "explanation_en": "छोटा has not been put into the oblique. Before में the form is छोटे शहर में."
+            }
+          },
+          "audio": {
+            "tts_strings": ["छोटे शहर में", "छोटे शहरों में", "छोटे गाँव से"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L15-I3",
+          "type": "dialogue",
+          "target": "अच्छे स्कूल में",
+          "read_as": "achchhe skuul meṁ",
+          "pronunciation_notes": "The doubled च and the aspirated छ run together: ach-chhe, ending on a clear e.",
+          "gloss_en": "the same adjective, direct and oblique, one line apart",
+          "gender": null,
+          "difficulty": 7,
+          "tags": ["oblique", "adjective", "marked_adjective", "dialogue", "direct_vs_oblique", "micro_dialogue"],
+          "cards": {
+            "learn": {
+              "title_en": "अच्छा becomes अच्छे the moment में appears",
+              "explanation_en": "The whole exchange turns on one vowel. In the second line the school is the subject, nothing follows it, and the adjective stays direct: अच्छा स्कूल. In the third and fourth lines में is behind it, so the adjective goes oblique: अच्छे स्कूल में. The noun स्कूल is identical in all three lines and tells you nothing. Hearing the same phrase twice with only the adjective changing is the fastest way to feel what the oblique actually marks — it is a relationship between words, not a property of the noun.",
+              "lines": [
+                { "speaker": "A", "hindi": "यह स्कूल कैसा है?", "read_as": "yah skuul kaisaa hai?", "english": "What is this school like?" },
+                { "speaker": "B", "hindi": "यह बहुत अच्छा स्कूल है।", "read_as": "yah bahut achchhaa skuul hai.", "english": "This is a very good school." },
+                { "speaker": "A", "hindi": "क्या तुम अच्छे स्कूल में हो?", "read_as": "kyaa tum achchhe skuul meṁ ho?", "english": "Are you in a good school?" },
+                { "speaker": "B", "hindi": "हाँ, मैं अच्छे स्कूल में हूँ।", "read_as": "haaṁ, maiṁ achchhe skuul meṁ huuṁ.", "english": "Yes, I am in a good school." }
+              ],
+              "common_error": {
+                "wrong": "मैं अच्छा स्कूल में हूँ।",
+                "right": "मैं अच्छे स्कूल में हूँ।",
+                "why_en": "में makes the noun phrase oblique, and since स्कूल cannot show it, the adjective must."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Fill the gap.",
+              "question": "मैं ___ स्कूल में हूँ।",
+              "question_read_as": "maiṁ ___ skuul meṁ huuṁ.",
+              "options": ["अच्छे", "अच्छा", "अच्छी", "अच्छों"],
+              "options_read_as": ["achchhe", "achchhaa", "achchhii", "achchhoṁ"],
+              "answer_index": 0,
+              "explanation_en": "में follows, so the phrase is oblique and the marked adjective takes -े."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the last line. Which word is missing?",
+              "masked_line_index": 3,
+              "masked_word": "अच्छे",
+              "options": ["अच्छा", "अच्छे", "अच्छी", "अच्छों"],
+              "options_read_as": ["achchhaa", "achchhe", "achchhii", "achchhoṁ"],
+              "answer_index": 1,
+              "explanation_en": "The speaker says अच्छे, because में is standing behind the noun."
+            }
+          },
+          "audio": {
+            "tts_strings": ["यह स्कूल कैसा है?", "यह बहुत अच्छा स्कूल है।", "क्या तुम अच्छे स्कूल में हो?", "हाँ, मैं अच्छे स्कूल में हूँ।"],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A marked adjective — one ending in -ा — goes to -े in front of any oblique masculine noun, singular or plural, and it does so even when the noun itself shows no change at all. In बड़े घर में the adjective is carrying the grammar single-handed.",
+        "key_forms": ["बड़े घर में", "छोटे शहर में", "अच्छे स्कूल में"],
+        "next_up_en": "Next: feminine adjectives, which behave quite differently, and unmarked adjectives that never change at all."
+      }
+    }
+  ]
+}

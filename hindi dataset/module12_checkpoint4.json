@@ -1,0 +1,258 @@
+{
+  "module": 12,
+  "format_divergence": {
+    "part_f_default": "4 recognition, 4 production/transform, 2 error-spotting",
+    "used_here": "3 comprehension, 2 recognition, 5 audio_gap_fill",
+    "reason_en": "Fourth checkpoint in a row diverging the same way, for the same reason: the module is receptive, so transform and error-spot questions have nothing to test. Four of the eight are now written this way. If the Part F mix is mandatory, this is the point to say so — reworking four is still cheap, reworking eight is not."
+  },
+  "checkpoints": [
+    {
+      "after_level": 20,
+      "covers_levels": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "questions": [
+        {
+          "id": "M12-CP4-Q1",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L16-I1",
+          "question_en": "Listen again. How does the customer raise the problem?",
+          "options": [
+            "He accuses the waiter of a mistake",
+            "He states what they did not order and leaves the rest unsaid",
+            "He asks to see the manager",
+            "He refuses to pay"
+          ],
+          "answer_index": 1,
+          "explanation_en": "ये तो हमने ऑर्डर नहीं किया states a fact. Nobody is blamed out loud, and the waiter fixes it anyway.",
+          "source_item_ids": [
+            "M12-L16-I1"
+          ]
+        },
+        {
+          "id": "M12-CP4-Q2",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L18-I1",
+          "question_en": "Listen again. How does the guest eventually stop the host offering more?",
+          "options": [
+            "The host stops on her own",
+            "By accepting one more roti",
+            "By saying he is full and will have more next time",
+            "By leaving the table"
+          ],
+          "answer_index": 2,
+          "explanation_en": "पेट भर गया, then बस आंटी, अगली बार. Notice the host never actually accepts the refusal — she just stops.",
+          "source_item_ids": [
+            "M12-L18-I1",
+            "M12-L18-I3"
+          ]
+        },
+        {
+          "id": "M12-CP4-Q3",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L19-I2",
+          "question_en": "Across the clinic dialogues, which is true of the patient?",
+          "options": [
+            "Vomiting and weakness for a week",
+            "Only a headache, and no other medication",
+            "Fever that is worse in the morning",
+            "Fever for two days, no appetite, and already on a BP tablet"
+          ],
+          "answer_index": 3,
+          "explanation_en": "दो दिन से बुख़ार, भूख नहीं लग रही, and बीपी की गोली लेता हूँ. The fever is worse at night, not the morning.",
+          "source_item_ids": [
+            "M12-L19-I2",
+            "M12-L19-I3",
+            "M12-L20-I2",
+            "M12-L20-I3"
+          ]
+        },
+        {
+          "id": "M12-CP4-Q4",
+          "source": "current",
+          "format": "recognition",
+          "replay_item_id": "M12-L18-I2",
+          "question_en": "You hear छह रोटियाँ लिखी हैं in one dialogue and रोटियाँ बेटी ने बनाईं in another. Why does one have the nasal and the other not?",
+          "options": [
+            "The nasal goes on the last word of the verb phrase — the auxiliary takes it when there is one",
+            "बनाना always keeps the nasal and लिखना never does",
+            "It is a regional difference",
+            "One is a question and one is a statement"
+          ],
+          "answer_index": 0,
+          "explanation_en": "लिखी हैं has an auxiliary, so हैं carries the nasal. बनाईं has nothing after it, so the participle keeps it.",
+          "source_item_ids": [
+            "M12-L16-I2",
+            "M12-L18-I2"
+          ]
+        },
+        {
+          "id": "M12-CP4-Q5",
+          "source": "current",
+          "format": "recognition",
+          "replay_item_id": "M12-L17-I2",
+          "question_en": "बोतल का पानी and मरीज़ का नाम both use का. What is it doing in the first one?",
+          "options": [
+            "Possession — the bottle owns the water",
+            "Source or material — water that comes from a bottle",
+            "Comparison",
+            "It marks the object of a verb"
+          ],
+          "answer_index": 1,
+          "explanation_en": "का covers material and source as well as possession — मिट्टी का घड़ा, सोने की चेन, बोतल का पानी.",
+          "source_item_ids": [
+            "M12-L17-I2",
+            "M12-L19-I1"
+          ]
+        },
+        {
+          "id": "M12-CP4-Q6",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L16-I3",
+          "line_n": 3,
+          "mask_reason": "postposition",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "मैं कार्ड ___ दे देता हूँ, तुम लोग बाद में भेज देना।",
+          "question_read_as": "maiṁ kaarḍ ___ de detaa huuṁ, tum log baad meṁ bhej denaa.",
+          "options": [
+            "को",
+            "पर",
+            "से",
+            "में"
+          ],
+          "options_read_as": [
+            "ko",
+            "par",
+            "se",
+            "meṁ"
+          ],
+          "answer_index": 2,
+          "explanation_en": "से for the instrument — the thing the action happens through.",
+          "source_item_ids": [
+            "M12-L16-I3"
+          ]
+        },
+        {
+          "id": "M12-CP4-Q7",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L17-I1",
+          "line_n": 4,
+          "mask_reason": "verb_ending",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "दही भी डाल ___ ?",
+          "question_read_as": "dahii bhii ḍaal ___ ?",
+          "options": [
+            "दो",
+            "दें",
+            "दिया",
+            "दूँ"
+          ],
+          "options_read_as": [
+            "do",
+            "deṁ",
+            "diyaa",
+            "duuṁ"
+          ],
+          "answer_index": 3,
+          "explanation_en": "First-person subjunctive — shall I? दो would be an instruction to the customer.",
+          "source_item_ids": [
+            "M12-L17-I1"
+          ]
+        },
+        {
+          "id": "M12-CP4-Q8",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L17-I3",
+          "line_n": 2,
+          "mask_reason": "oblique",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "हाँ यार, बाक़ी ___ से बेहतर।",
+          "question_read_as": "haaṁ yaar, baaqii ___ se behtar.",
+          "options": [
+            "दुकानों",
+            "दुकानो",
+            "दुकान",
+            "दुकानें"
+          ],
+          "options_read_as": [
+            "dukaanoṁ",
+            "dukaano",
+            "dukaan",
+            "dukaaneṁ"
+          ],
+          "answer_index": 0,
+          "explanation_en": "से is a postposition, so the plural goes oblique.",
+          "source_item_ids": [
+            "M12-L17-I3"
+          ]
+        },
+        {
+          "id": "M12-CP4-Q9",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L18-I2",
+          "line_n": 3,
+          "mask_reason": "ne",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "ये सब्ज़ी ___ बनाई?",
+          "question_read_as": "ye sabzii ___ banaaii?",
+          "options": [
+            "आप",
+            "आपने",
+            "आपको",
+            "आपका"
+          ],
+          "options_read_as": [
+            "aap",
+            "aapne",
+            "aapko",
+            "aapkaa"
+          ],
+          "answer_index": 1,
+          "explanation_en": "बनाना is transitive and the tense is perfective, so ने.",
+          "source_item_ids": [
+            "M12-L18-I2"
+          ]
+        },
+        {
+          "id": "M12-CP4-Q10",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L20-I1",
+          "line_n": 2,
+          "mask_reason": "postposition",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "पेट ___, यहाँ नीचे।",
+          "question_read_as": "peṭ ___, yahaaṁ niiche.",
+          "options": [
+            "से",
+            "को",
+            "में",
+            "पर"
+          ],
+          "options_read_as": [
+            "se",
+            "ko",
+            "meṁ",
+            "par"
+          ],
+          "answer_index": 2,
+          "explanation_en": "The body part takes में — the pain is located inside it.",
+          "source_item_ids": [
+            "M12-L20-I1"
+          ]
+        }
+      ]
+    }
+  ]
+}

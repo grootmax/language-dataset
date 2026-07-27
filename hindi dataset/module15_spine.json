@@ -1,0 +1,76 @@
+{
+  "module": 15,
+  "module_name_en": "Register and Polish",
+  "module_name_hi": "भाषा की परतें",
+  "phase": 5,
+  "type": "grammar",
+  "total_items": 36,
+  "total_levels": 12,
+  "learner_knows_through_module": 14,
+  "formats": { "practice": "pick_register_for_audience", "game": "which_situation" },
+  "two_axes": {
+    "situation": ["casual", "polite", "formal_writing", "institutional", "news_public"],
+    "tendency": ["everyday_hindustani", "sanskrit_influenced", "urdu_influenced", "hinglish"],
+    "rule_en": "These are two independent axes, not one spectrum. A casual sentence can be Sanskrit-influenced and a formal one can be Urdu-influenced. Any item that treats them as a single line from low to high is wrong."
+  },
+  "framing_rule": {
+    "en": "No form is described as pure, impure, corrupted, broken, proper, real, better or worse than any other. धन्यवाद and शुक्रिया are both fully correct Hindi, chosen by situation. The axes are never ranked against each other.",
+    "enforced_by": "A banned-phrase scan runs over every string in the module before it ships, so the rule cannot lapse quietly at item thirty.",
+    "banned_phrases": ["pure Hindi", "impure", "corrupt", "corrupted", "proper Hindi", "real Hindi", "true Hindi", "better than", "worse than", "inferior", "superior", "broken Hindi", "bad Hindi", "degraded", "contaminated", "purest", "more correct", "less correct"]
+  },
+  "debt_note_en": "This module names what the previous fourteen have been doing without saying so. Module 13's pairs block found that the Sanskrit side takes the institutions and the compounds while the other side keeps the conversation; Module 12 found that a single message can hold क्षमा and माफ़ी three lines apart. Both findings are axis-2 observations made before axis 2 had a name.",
+  "spine": [
+    {"id":"M15-L01-I1","level":1,"axis":"situation","register_tags":["axis_1","five_situations"],"focus":"the situation axis — one request across five settings","target":"कृपया दरवाज़ा बंद कर दीजिए।"},
+    {"id":"M15-L01-I2","level":1,"axis":"tendency","register_tags":["axis_2","four_tendencies"],"focus":"the tendency axis — one meaning across four vocabularies","target":"आपका बहुत-बहुत शुक्रिया।"},
+    {"id":"M15-L01-I3","level":1,"axis":"situation","register_tags":["axis_1","axis_2","independence"],"focus":"the axes are independent — an Urdu-side word in a formal notice","target":"शिकायत दर्ज कराने के लिए यहाँ संपर्क करें।"},
+
+    {"id":"M15-L02-I1","level":2,"axis":"situation","register_tags":["casual","ellipsis"],"focus":"what casual speech drops","target":"कहाँ जा रहे?"},
+    {"id":"M15-L02-I2","level":2,"axis":"situation","register_tags":["casual","particles"],"focus":"यार, अरे, ना — the particles that mark closeness","target":"अरे यार, ऐसा थोड़ी होता है ना।"},
+    {"id":"M15-L02-I3","level":2,"axis":"situation","register_tags":["casual","tuu_tum","imperatives"],"focus":"तू and तुम, and bare-stem commands","target":"सुन, ज़रा इधर आ।"},
+
+    {"id":"M15-L03-I1","level":3,"axis":"situation","register_tags":["polite","aap","imperatives"],"focus":"आप with कीजिए and दीजिएगा","target":"ज़रा ये देख लीजिएगा।"},
+    {"id":"M15-L03-I2","level":3,"axis":"situation","register_tags":["polite","softeners"],"focus":"ज़रा, थोड़ा, सा — softening without formality","target":"एक छोटी सी गुज़ारिश थी।"},
+    {"id":"M15-L03-I3","level":3,"axis":"situation","register_tags":["polite","indirect_request"],"focus":"the indirect request","target":"क्या आप एक मिनट के लिए आ सकते हैं?"},
+
+    {"id":"M15-L04-I1","level":4,"axis":"situation","register_tags":["formal_writing","letter_skeleton"],"focus":"the letter skeleton from Module 13","target":"विषय: छुट्टी हेतु आवेदन"},
+    {"id":"M15-L04-I2","level":4,"axis":"situation","register_tags":["formal_writing","connectives"],"focus":"अतः, तथा, एवं — the written connectives","target":"अतः आपसे निवेदन है कि अनुमति प्रदान करें।"},
+    {"id":"M15-L04-I3","level":4,"axis":"situation","register_tags":["formal_writing","nominalisation","passive"],"focus":"nominalisation and the passive","target":"इस विषय पर विचार किया जा रहा है।"},
+
+    {"id":"M15-L05-I1","level":5,"axis":"situation","register_tags":["institutional","notices"],"focus":"the language of a notice","target":"अनधिकृत प्रवेश वर्जित है।"},
+    {"id":"M15-L05-I2","level":5,"axis":"situation","register_tags":["institutional","forms"],"focus":"the language of a form","target":"कृपया संलग्न प्रपत्र भरकर जमा करें।"},
+    {"id":"M15-L05-I3","level":5,"axis":"situation","register_tags":["institutional","impersonal","agentless"],"focus":"the agentless impersonal","target":"सूचित किया जाता है कि कार्यालय बंद रहेगा।"},
+
+    {"id":"M15-L06-I1","level":6,"axis":"situation","register_tags":["news_public","attribution"],"focus":"attribution — every claim has a source","target":"अधिकारियों के अनुसार जाँच जारी है।"},
+    {"id":"M15-L06-I2","level":6,"axis":"situation","register_tags":["news_public","headline","verbless"],"focus":"headline compression","target":"शहर में पानी की किल्लत, प्रदर्शन जारी"},
+    {"id":"M15-L06-I3","level":6,"axis":"situation","register_tags":["news_public","hedging","balance"],"focus":"hedging and giving both sides","target":"हालाँकि कुछ निवासियों ने इसका स्वागत किया है।"},
+
+    {"id":"M15-L07-I1","level":7,"axis":"tendency","register_tags":["everyday_hindustani","core_layer"],"focus":"the layer that is marked neither way","target":"खाना खा लिया?"},
+    {"id":"M15-L07-I2","level":7,"axis":"tendency","register_tags":["everyday_hindustani","compound_verbs"],"focus":"compound verbs as the everyday engine","target":"बात हो गई, काम भी निपट गया।"},
+    {"id":"M15-L07-I3","level":7,"axis":"tendency","register_tags":["everyday_hindustani","neutrality"],"focus":"what makes a sentence unmarked","target":"पानी थोड़ा गरम कर देना।"},
+
+    {"id":"M15-L08-I1","level":8,"axis":"tendency","register_tags":["sanskrit_influenced","suffix_families"],"focus":"the suffix families from Module 13","target":"विद्यालय में वार्षिक परीक्षा की तैयारी चल रही है।"},
+    {"id":"M15-L08-I2","level":8,"axis":"tendency","register_tags":["sanskrit_influenced","prefixes","compounds"],"focus":"prefixes and compounding","target":"यह पूर्णतः अनावश्यक है।"},
+    {"id":"M15-L08-I3","level":8,"axis":"tendency","register_tags":["sanskrit_influenced","where_expected"],"focus":"where this side is expected","target":"राष्ट्रीय शिक्षा नीति का उद्देश्य स्पष्ट है।"},
+
+    {"id":"M15-L09-I1","level":9,"axis":"tendency","register_tags":["urdu_influenced","sounds"],"focus":"the ज़ फ़ क़ ख़ ग़ sounds and the words that carry them","target":"ज़िंदगी में ख़ुशी की कोई कमी नहीं।"},
+    {"id":"M15-L09-I2","level":9,"axis":"tendency","register_tags":["urdu_influenced","affixes"],"focus":"the Persian affixes from Module 13","target":"वो बहुत ईमानदार और ज़िम्मेदार इंसान हैं।"},
+    {"id":"M15-L09-I3","level":9,"axis":"tendency","register_tags":["urdu_influenced","where_expected"],"focus":"warmth, courtesy and poetry","target":"आपकी मेहरबानी का शुक्रिया अदा करता हूँ।"},
+
+    {"id":"M15-L10-I1","level":10,"axis":"tendency","register_tags":["hinglish","grammar_wins"],"focus":"Hindi grammar running on English vocabulary","target":"मीटिंग कैंसिल हो गई, मैसेज कर दिया है।"},
+    {"id":"M15-L10-I2","level":10,"axis":"tendency","register_tags":["hinglish","when_normal"],"focus":"where code-switching is ordinary","target":"फ़ाइल अपलोड करके लिंक शेयर कर दो।"},
+    {"id":"M15-L10-I3","level":10,"axis":"tendency","register_tags":["hinglish","when_it_jars","variation"],"focus":"where it jars — and how much this varies","target":"शादी में सब बहुत ख़ुश थे।"},
+
+    {"id":"M15-L11-I1","level":11,"axis":"situation","register_tags":["set_phrases","reassurance"],"focus":"कोई बात नहीं and चलो ठीक है","target":"कोई बात नहीं, फिर कभी सही।"},
+    {"id":"M15-L11-I2","level":11,"axis":"situation","register_tags":["set_phrases","acchaa"],"focus":"अच्छा and क्या हुआ, and how much they carry","target":"अच्छा? फिर क्या हुआ?"},
+    {"id":"M15-L11-I3","level":11,"axis":"situation","register_tags":["set_phrases","bas"],"focus":"बस, ठीक है, हाँ जी","target":"बस, इतना ही काफ़ी है।"},
+
+    {"id":"M15-L12-I1","level":12,"axis":"situation","register_tags":["politeness","disagreement"],"focus":"disagreeing without contradicting","target":"आपकी बात सही है, पर एक और पहलू भी है।"},
+    {"id":"M15-L12-I2","level":12,"axis":"situation","register_tags":["politeness","soft_refusal"],"focus":"the refusal that never says no","target":"देखते हैं, कोशिश करूँगा।"},
+    {"id":"M15-L12-I3","level":12,"axis":"situation","register_tags":["politeness","both_axes","capstone"],"focus":"the last item — both axes at once","target":"जहाँ जैसा माहौल हो, वहाँ वैसी ही भाषा चाहिए।"}
+  ],
+  "review_flags": [
+    "Level 10 makes a claim about where Hinglish jars, and that claim varies enormously by region, age, city and family. The item is written to say so rather than to state a rule, because a rule here would be wrong for a large share of learners.",
+    "Every practice item asks the learner to pick a rendering for an audience. The correct answer must not be the most formal option every time, or the module will teach that formality is always safer — which is the opposite of what it is for.",
+    "The five situations and four tendencies are fixed vocabularies. Any register_tag outside those lists, or any item whose axis does not match its tags, should fail validation."
+  ]
+}

@@ -1,0 +1,812 @@
+{
+  "module": 4,
+  "module_name_en": "Core Words I",
+  "module_name_hi": "शब्द भंडार १",
+  "phase": 2,
+  "batch": { "levels_from": 46, "levels_to": 50 },
+  "levels": [
+    {
+      "level": 46,
+      "title_en": "Weeks, hours, time",
+      "title_hi": "हफ़्ता घंटा समय",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L46-I1",
+          "type": "word",
+          "target": "हफ़्ता",
+          "read_as": "haftaa",
+          "pronunciation_notes": "The dotted फ़ is an f, and it runs straight into त with no vowel between: haftaa, two syllables.",
+          "gloss_en": "week",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "time",
+          "plural": "हफ़्ते",
+          "plural_read_as": "hafte",
+          "difficulty": 4,
+          "tags": ["time", "noun", "masculine", "aa_ending", "nukta", "conjunct", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "हफ़्ता — week",
+              "explanation_en": "हफ़्ता is a week. It is masculine and ends in -ा, so the gender is predictable and the plural becomes हफ़्ते. The word came from Persian and carries the dotted फ़ pronounced as an f, joined to त in a stack. The Sanskrit-derived सप्ताह means the same thing and appears in formal writing.",
+              "examples": [
+                { "hindi": "पूरा हफ़्ता", "read_as": "puuraa haftaa", "english": "a whole week", "note": "पूरा takes -ा because हफ़्ता is masculine." },
+                { "hindi": "दो हफ़्ते", "read_as": "do hafte", "english": "two weeks", "note": "The -ा becomes -े in the plural." },
+                { "hindi": "हफ़्ता और महीना", "read_as": "haftaa aur mahiinaa", "english": "a week and a month", "note": "Both masculine, and both ending in -ा." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "हफ़्ता",
+              "question_read_as": "haftaa",
+              "options": ["a day", "a month", "a week", "a year"],
+              "options_read_as": ["a day", "a month", "a week", "a year"],
+              "answer_index": 2,
+              "explanation_en": "हफ़्ता is a week. The formal word सप्ताह means the same."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ हफ़्ता — का, के or की?",
+              "options": ["की", "का", "के", "कि"],
+              "options_read_as": ["kii", "kaa", "ke", "ki"],
+              "answer_index": 1,
+              "explanation_en": "हफ़्ता is masculine, so का. The -ा ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["हफ़्ता", "पूरा हफ़्ता", "दो हफ़्ते"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L46-I2",
+          "type": "word",
+          "target": "घंटा",
+          "read_as": "ghaṇṭaa",
+          "pronunciation_notes": "Breathy घ, and the dot before ट is read as the retroflex nasal: ghaṇṭaa.",
+          "gloss_en": "hour; bell",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "time",
+          "plural": "घंटे",
+          "plural_read_as": "ghaṇṭe",
+          "difficulty": 3,
+          "tags": ["time", "noun", "masculine", "aa_ending", "anusvara", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "घंटा — hour",
+              "explanation_en": "घंटा is an hour, and also a bell — the two senses are related, since bells marked the hours. It is masculine and ends in -ा, so both the gender and the plural are predictable. The anusvara sits before ट, a retroflex, so it is read with the tongue curled back.",
+              "examples": [
+                { "hindi": "एक घंटा", "read_as": "ek ghaṇṭaa", "english": "one hour", "note": "The singular, used for a single hour." },
+                { "hindi": "दो घंटे", "read_as": "do ghaṇṭe", "english": "two hours", "note": "The -ा becomes -े in the plural." },
+                { "hindi": "पूरा घंटा", "read_as": "puuraa ghaṇṭaa", "english": "a whole hour", "note": "पूरा takes -ा to agree." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "घंटा",
+              "question_read_as": "ghaṇṭaa",
+              "options": ["an hour", "a minute", "a moment", "a day"],
+              "options_read_as": ["an hour", "a minute", "a moment", "a day"],
+              "answer_index": 0,
+              "explanation_en": "घंटा is an hour. The same word also means a bell."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ घंटा — का, के or की?",
+              "options": ["की", "कि", "के", "का"],
+              "options_read_as": ["kii", "ki", "ke", "kaa"],
+              "answer_index": 3,
+              "explanation_en": "घंटा is masculine, so का."
+            }
+          },
+          "audio": {
+            "tts_strings": ["घंटा", "एक घंटा", "दो घंटे"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L46-I3",
+          "type": "word",
+          "target": "समय",
+          "read_as": "samay",
+          "pronunciation_notes": "The final vowel drops, giving samay in two syllables rather than three.",
+          "gloss_en": "time",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "time",
+          "plural": "समय",
+          "plural_read_as": "samay",
+          "difficulty": 3,
+          "tags": ["time", "noun", "masculine", "consonant_ending", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "समय — time",
+              "explanation_en": "समय is time in the general sense — the thing you have too little of, rather than a reading on a clock. It is masculine and ends in a consonant, so the gender is unpredictable, and the plural does not change. You met the word in Module 2 as an example of य closing a word.",
+              "examples": [
+                { "hindi": "अच्छा समय", "read_as": "achchhaa samay", "english": "a good time", "note": "अच्छा takes -ा because समय is masculine." },
+                { "hindi": "कम समय", "read_as": "kam samay", "english": "little time", "note": "कम never changes form." },
+                { "hindi": "पूरा समय", "read_as": "puuraa samay", "english": "the whole time", "note": "The masculine adjective ending again." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "समय",
+              "question_read_as": "samay",
+              "options": ["a clock", "a date", "a season", "time"],
+              "options_read_as": ["a clock", "a date", "a season", "time"],
+              "answer_index": 3,
+              "explanation_en": "समय is time in general. घड़ी is the clock or watch that measures it."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ समय — का, के or की?",
+              "options": ["का", "की", "के", "कि"],
+              "options_read_as": ["kaa", "kii", "ke", "ki"],
+              "answer_index": 0,
+              "explanation_en": "समय is masculine, so का. Its consonant ending gives no clue."
+            }
+          },
+          "audio": {
+            "tts_strings": ["समय", "अच्छा समय", "कम समय"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added हफ़्ता, घंटा and समय. The first two end in -ा and announce their gender; समय ends in a consonant and does not.",
+        "key_forms": ["हफ़्ता", "घंटा", "समय"],
+        "next_up_en": "Next: the last time word, and the question words that close the module."
+      }
+    },
+    {
+      "level": 47,
+      "title_en": "Dates, and asking questions",
+      "title_hi": "तारीख़ क्या कौन",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L47-I1",
+          "type": "word",
+          "target": "तारीख़",
+          "read_as": "taariiḳh",
+          "pronunciation_notes": "The dotted ख़ is a scraping sound at the back of the mouth, though many speakers say a plain ख: taariiḳh.",
+          "gloss_en": "date",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "time",
+          "plural": "तारीख़ें",
+          "plural_read_as": "taariiḳheṁ",
+          "difficulty": 4,
+          "tags": ["time", "noun", "feminine", "consonant_ending", "nukta", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "तारीख़ — date",
+              "explanation_en": "तारीख़ is a calendar date. It is feminine and ends in a consonant, so the gender is unpredictable. The word came from Arabic through Persian and carries the dotted ख़, which you met in Module 2 — most speakers pronounce it as a plain ख, and that is perfectly normal.",
+              "examples": [
+                { "hindi": "नई तारीख़", "read_as": "naii taariiḳh", "english": "a new date", "note": "नया takes its irregular feminine नई here." },
+                { "hindi": "दो तारीख़ें", "read_as": "do taariiḳheṁ", "english": "two dates", "note": "Feminine consonant endings take -एँ." },
+                { "hindi": "पुरानी तारीख़", "read_as": "puraanii taariiḳh", "english": "an old date", "note": "पुराना takes -ी to agree." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "तारीख़",
+              "question_read_as": "taariiḳh",
+              "options": ["a year", "a date", "a month", "a week"],
+              "options_read_as": ["a year", "a date", "a month", "a week"],
+              "answer_index": 1,
+              "explanation_en": "तारीख़ is a calendar date."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ तारीख़ — का, के or की?",
+              "options": ["का", "के", "की", "कि"],
+              "options_read_as": ["kaa", "ke", "kii", "ki"],
+              "answer_index": 2,
+              "explanation_en": "तारीख़ is feminine, so की. Its consonant ending predicts nothing."
+            }
+          },
+          "audio": {
+            "tts_strings": ["तारीख़", "नई तारीख़", "तारीख़ें"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L47-I2",
+          "type": "word",
+          "target": "क्या",
+          "read_as": "kyaa",
+          "pronunciation_notes": "The क्य stack runs क straight into य with no vowel between: kyaa, one syllable.",
+          "gloss_en": "what",
+          "gender": null,
+          "gender_flag": false,
+          "category": "function",
+          "plural": "क्या",
+          "plural_read_as": "kyaa",
+          "difficulty": 4,
+          "tags": ["function", "question_word", "invariable", "conjunct", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "क्या — what",
+              "explanation_en": "क्या asks about things rather than people — for a person you need कौन. It is not a noun, so it carries no gender of its own. It has a second job you will meet in Module 5: placed at the front of a statement it turns the whole thing into a yes-or-no question, rather like a spoken question mark.",
+              "examples": [
+                { "hindi": "क्या चीज़", "read_as": "kyaa chiiz", "english": "what thing", "note": "Asking about an object." },
+                { "hindi": "क्या नाम", "read_as": "kyaa naam", "english": "what name", "note": "The start of the commonest question there is." },
+                { "hindi": "क्या बात", "read_as": "kyaa baat", "english": "what a thing to say", "note": "Said on its own, this is an exclamation of admiration." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "क्या",
+              "question_read_as": "kyaa",
+              "options": ["what", "who", "where", "why"],
+              "options_read_as": ["what", "who", "where", "why"],
+              "answer_index": 0,
+              "explanation_en": "क्या is what. कौन is who."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "The answer is किताब. Which question word fits?",
+              "options": ["कौन", "कब", "कहाँ", "क्या"],
+              "options_read_as": ["kaun", "kab", "kahãa", "kyaa"],
+              "answer_index": 3,
+              "explanation_en": "किताब is a thing, not a person, so the question takes क्या rather than कौन."
+            }
+          },
+          "audio": {
+            "tts_strings": ["क्या", "क्या चीज़", "क्या नाम"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L47-I3",
+          "type": "word",
+          "target": "कौन",
+          "read_as": "kaun",
+          "pronunciation_notes": "The open औ is a single vowel nearer the aw of 'law' than the ow of 'cow': kaun.",
+          "gloss_en": "who",
+          "gender": null,
+          "gender_flag": false,
+          "category": "function",
+          "plural": "कौन",
+          "plural_read_as": "kaun",
+          "difficulty": 3,
+          "tags": ["function", "question_word", "invariable", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "कौन — who",
+              "explanation_en": "कौन asks about people, where क्या asks about things. Keeping the two apart is the first thing to get right about Hindi questions, since English speakers reaching for 'what' will sometimes need कौन instead. You met the word in Module 1 as an example of the open औ.",
+              "examples": [
+                { "hindi": "कौन बच्चा", "read_as": "kaun bachchaa", "english": "which child", "note": "Asking about a person." },
+                { "hindi": "कौन भाई", "read_as": "kaun bhaaii", "english": "which brother", "note": "The same pattern with another person." },
+                { "hindi": "कौन और कब", "read_as": "kaun aur kab", "english": "who and when", "note": "Two question words joined." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "कौन",
+              "question_read_as": "kaun",
+              "options": ["what", "where", "who", "when"],
+              "options_read_as": ["what", "where", "who", "when"],
+              "answer_index": 2,
+              "explanation_en": "कौन is who. क्या is what."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "The answer is राम. Which question word fits?",
+              "options": ["क्या", "कौन", "कब", "कैसे"],
+              "options_read_as": ["kyaa", "kaun", "kab", "kaise"],
+              "answer_index": 1,
+              "explanation_en": "राम is a person, so the question takes कौन rather than क्या."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कौन", "कौन बच्चा", "कौन और कब"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed the ten time words with तारीख़ and opened the question words. क्या asks about things and कौन about people — the distinction English blurs and Hindi keeps.",
+        "key_forms": ["तारीख़", "क्या", "कौन"],
+        "next_up_en": "Next: कहाँ, कब and कैसे — place, time and manner."
+      }
+    },
+    {
+      "level": 48,
+      "title_en": "Where, when, how",
+      "title_hi": "कहाँ कब कैसे",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L48-I1",
+          "type": "word",
+          "target": "कहाँ",
+          "read_as": "kahãa",
+          "pronunciation_notes": "The crescent nasalises the final vowel and adds no n sound: kahãa, two syllables.",
+          "gloss_en": "where",
+          "gender": null,
+          "gender_flag": false,
+          "category": "function",
+          "plural": "कहाँ",
+          "plural_read_as": "kahãa",
+          "difficulty": 4,
+          "tags": ["function", "question_word", "invariable", "chandrabindu", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "कहाँ — where",
+              "explanation_en": "कहाँ asks about place. It pairs with यहाँ, meaning here, and वहाँ, meaning there — all three end in the same nasalised vowel, which makes them easy to learn as a set. The crescent nasalises the vowel without adding any n sound of its own.",
+              "examples": [
+                { "hindi": "कहाँ जाना", "read_as": "kahãa jaanaa", "english": "where to go", "note": "The question word comes before the verb." },
+                { "hindi": "कहाँ रहना", "read_as": "kahãa rahnaa", "english": "where to live", "note": "The same pattern with another verb." },
+                { "hindi": "कहाँ और कब", "read_as": "kahãa aur kab", "english": "where and when", "note": "Two question words joined." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "कहाँ",
+              "question_read_as": "kahãa",
+              "options": ["when", "where", "how", "why"],
+              "options_read_as": ["when", "where", "how", "why"],
+              "answer_index": 1,
+              "explanation_en": "कहाँ is where. यहाँ is here and वहाँ is there."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "The answer is घर. Which question word fits?",
+              "options": ["कब", "कौन", "कहाँ", "क्यों"],
+              "options_read_as": ["kab", "kaun", "kahãa", "kyoṁ"],
+              "answer_index": 2,
+              "explanation_en": "घर is a place, so the question takes कहाँ."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कहाँ", "कहाँ जाना", "कहाँ और कब"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L48-I2",
+          "type": "word",
+          "target": "कब",
+          "read_as": "kab",
+          "pronunciation_notes": "Unaspirated क with no puff of air, and the final vowel drops: kab, one syllable.",
+          "gloss_en": "when",
+          "gender": null,
+          "gender_flag": false,
+          "category": "function",
+          "plural": "कब",
+          "plural_read_as": "kab",
+          "difficulty": 3,
+          "tags": ["function", "question_word", "invariable", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "कब — when",
+              "explanation_en": "कब asks about time. It is the shortest of the question words and the easiest to say, but keep the opening क free of breath — with a puff it drifts towards ख. Expect the answer to be one of the time words from the last few levels: सुबह, शाम, कल or a date.",
+              "examples": [
+                { "hindi": "कब आना", "read_as": "kab aanaa", "english": "when to come", "note": "The question word comes before the verb." },
+                { "hindi": "कब जाना", "read_as": "kab jaanaa", "english": "when to go", "note": "The same pattern with the opposite verb." },
+                { "hindi": "कब और कहाँ", "read_as": "kab aur kahãa", "english": "when and where", "note": "The pair reversed from the last card." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "कब",
+              "question_read_as": "kab",
+              "options": ["where", "how", "why", "when"],
+              "options_read_as": ["where", "how", "why", "when"],
+              "answer_index": 3,
+              "explanation_en": "कब is when. कहाँ is where."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "The answer is सुबह. Which question word fits?",
+              "options": ["कब", "कहाँ", "क्या", "कौन"],
+              "options_read_as": ["kab", "kahãa", "kyaa", "kaun"],
+              "answer_index": 0,
+              "explanation_en": "सुबह is a time, so the question takes कब."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कब", "कब आना", "कब और कहाँ"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L48-I3",
+          "type": "word",
+          "target": "कैसे",
+          "read_as": "kaise",
+          "pronunciation_notes": "The open ऐ then a flat ए, with no glide on either: kaise, two syllables.",
+          "gloss_en": "how",
+          "gender": null,
+          "gender_flag": false,
+          "category": "function",
+          "plural": "कैसे",
+          "plural_read_as": "kaise",
+          "difficulty": 3,
+          "tags": ["function", "question_word", "invariable", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "कैसे — how",
+              "explanation_en": "कैसे asks about manner — how something is done. There is a related word कैसा, which asks what something is like and does change form, but कैसे itself is fixed when it means how. You met the word in Module 1 as an example of two flat vowels in one word, neither of them gliding.",
+              "examples": [
+                { "hindi": "कैसे जाना", "read_as": "kaise jaanaa", "english": "how to go", "note": "The question word comes before the verb." },
+                { "hindi": "कैसे बनाना", "read_as": "kaise banaanaa", "english": "how to make", "note": "A very useful question in a kitchen." },
+                { "hindi": "कैसे और क्यों", "read_as": "kaise aur kyoṁ", "english": "how and why", "note": "Two question words joined." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "कैसे",
+              "question_read_as": "kaise",
+              "options": ["why", "when", "how", "what"],
+              "options_read_as": ["why", "when", "how", "what"],
+              "answer_index": 2,
+              "explanation_en": "कैसे is how, in the sense of by what means."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "The answer is धीरे. Which question word fits?",
+              "options": ["क्यों", "कैसे", "कब", "कहाँ"],
+              "options_read_as": ["kyoṁ", "kaise", "kab", "kahãa"],
+              "answer_index": 1,
+              "explanation_en": "धीरे describes the manner of doing something, so the question takes कैसे."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कैसे", "कैसे जाना", "कैसे और क्यों"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered कहाँ, कब and कैसे — place, time and manner. Each expects a different kind of answer, and matching the question to the answer is what the game drills.",
+        "key_forms": ["कहाँ", "कब", "कैसे"],
+        "next_up_en": "Next: क्यों, और and नहीं."
+      }
+    },
+    {
+      "level": 49,
+      "title_en": "Why, and, not",
+      "title_hi": "क्यों और नहीं",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L49-I1",
+          "type": "word",
+          "target": "क्यों",
+          "read_as": "kyoṁ",
+          "pronunciation_notes": "The क्य stack runs क into य, and the dot nasalises the vowel: kyoṁ, one syllable.",
+          "gloss_en": "why",
+          "gender": null,
+          "gender_flag": false,
+          "category": "function",
+          "plural": "क्यों",
+          "plural_read_as": "kyoṁ",
+          "difficulty": 5,
+          "tags": ["function", "question_word", "invariable", "conjunct", "anusvara", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "क्यों — why",
+              "explanation_en": "क्यों asks for a reason. It packs a stack and a nasalised vowel into a single syllable, which makes it the hardest of the question words to say cleanly — run the क straight into the य with no vowel between them, then let the vowel hum through the nose. क्यों नहीं, meaning 'why not', is worth learning as a phrase.",
+              "examples": [
+                { "hindi": "क्यों जाना", "read_as": "kyoṁ jaanaa", "english": "why go", "note": "The question word comes before the verb." },
+                { "hindi": "क्यों नहीं", "read_as": "kyoṁ nahiiṁ", "english": "why not", "note": "A ready-made phrase, used exactly as in English." },
+                { "hindi": "क्यों और कैसे", "read_as": "kyoṁ aur kaise", "english": "why and how", "note": "The pair reversed from the last level." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "क्यों",
+              "question_read_as": "kyoṁ",
+              "options": ["why", "how", "when", "where"],
+              "options_read_as": ["why", "how", "when", "where"],
+              "answer_index": 0,
+              "explanation_en": "क्यों is why. कैसे is how."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "Which question word asks for a reason rather than a time or a place?",
+              "options": ["कब", "कहाँ", "कैसे", "क्यों"],
+              "options_read_as": ["kab", "kahãa", "kaise", "kyoṁ"],
+              "answer_index": 3,
+              "explanation_en": "क्यों asks why. कब asks when, कहाँ asks where and कैसे asks how."
+            }
+          },
+          "audio": {
+            "tts_strings": ["क्यों", "क्यों नहीं", "क्यों और कैसे"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L49-I2",
+          "type": "word",
+          "target": "और",
+          "read_as": "aur",
+          "pronunciation_notes": "The open औ is a single vowel, and the final vowel drops: aur, one syllable.",
+          "gloss_en": "and; more",
+          "gender": null,
+          "gender_flag": false,
+          "category": "function",
+          "plural": "और",
+          "plural_read_as": "aur",
+          "difficulty": 3,
+          "tags": ["function", "conjunction", "invariable", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "और — and",
+              "explanation_en": "और joins two things, exactly as English 'and' does, and it has appeared in example phrases throughout this module. It also means 'more' — और चाय is more tea. You met it in Module 1 as one of the first words containing the open औ.",
+              "examples": [
+                { "hindi": "दिन और रात", "read_as": "din aur raat", "english": "day and night", "note": "Joining two nouns of opposite gender." },
+                { "hindi": "चाय और पानी", "read_as": "chaay aur paanii", "english": "tea and water", "note": "The same pattern with two drinks." },
+                { "hindi": "भाई और बहन", "read_as": "bhaaii aur bahan", "english": "brother and sister", "note": "And with two people." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "और",
+              "question_read_as": "aur",
+              "options": ["but", "or", "so", "and"],
+              "options_read_as": ["but", "or", "so", "and"],
+              "answer_index": 3,
+              "explanation_en": "और is and. It also means 'more' when placed before a noun."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "Which word joins two nouns together?",
+              "options": ["नहीं", "हाँ", "और", "बहुत"],
+              "options_read_as": ["nahiiṁ", "hãa", "aur", "bahut"],
+              "answer_index": 2,
+              "explanation_en": "और joins two things. नहीं negates, हाँ agrees and बहुत quantifies."
+            }
+          },
+          "audio": {
+            "tts_strings": ["और", "दिन और रात", "भाई और बहन"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L49-I3",
+          "type": "word",
+          "target": "नहीं",
+          "read_as": "nahiiṁ",
+          "pronunciation_notes": "The dot nasalises the long final vowel, so no separate n is heard at the end: nahiiṁ.",
+          "gloss_en": "no; not",
+          "gender": null,
+          "gender_flag": false,
+          "category": "function",
+          "plural": "नहीं",
+          "plural_read_as": "nahiiṁ",
+          "difficulty": 4,
+          "tags": ["function", "negation", "invariable", "anusvara", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "नहीं — no, not",
+              "explanation_en": "नहीं does two jobs: it answers a question with 'no', and it negates a statement. It is the commonest negative in the language, and Module 5 will add न and मत, which negate in different situations. The dot nasalises the final vowel rather than adding a consonant, so the word ends with a hum and not with an n.",
+              "examples": [
+                { "hindi": "नहीं जाना", "read_as": "nahiiṁ jaanaa", "english": "not to go", "note": "Negating a verb." },
+                { "hindi": "हाँ और नहीं", "read_as": "hãa aur nahiiṁ", "english": "yes and no", "note": "The pair, joined by और." },
+                { "hindi": "क्यों नहीं", "read_as": "kyoṁ nahiiṁ", "english": "why not", "note": "The ready-made phrase from the first card of this level." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "नहीं",
+              "question_read_as": "nahiiṁ",
+              "options": ["yes", "not", "never", "maybe"],
+              "options_read_as": ["yes", "not", "never", "maybe"],
+              "answer_index": 1,
+              "explanation_en": "नहीं is 'no' as an answer and 'not' inside a sentence."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "Which word makes a statement negative?",
+              "options": ["नहीं", "हाँ", "और", "बहुत"],
+              "options_read_as": ["nahiiṁ", "hãa", "aur", "bahut"],
+              "answer_index": 0,
+              "explanation_en": "नहीं negates. हाँ agrees, और joins and बहुत quantifies."
+            }
+          },
+          "audio": {
+            "tts_strings": ["नहीं", "नहीं जाना", "क्यों नहीं"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added क्यों, और and नहीं. क्यों completes the six question words, while और and नहीं are the two function words you will use in almost every conversation.",
+        "key_forms": ["क्यों", "और", "नहीं"],
+        "next_up_en": "Next: हाँ, बहुत and बात close the module."
+      }
+    },
+    {
+      "level": 50,
+      "title_en": "Closing the module",
+      "title_hi": "हाँ बहुत बात",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L50-I1",
+          "type": "word",
+          "target": "हाँ",
+          "read_as": "hãa",
+          "pronunciation_notes": "The crescent nasalises the vowel and adds no n: hãa, one syllable.",
+          "gloss_en": "yes",
+          "gender": null,
+          "gender_flag": false,
+          "category": "function",
+          "plural": "हाँ",
+          "plural_read_as": "hãa",
+          "difficulty": 3,
+          "tags": ["function", "affirmation", "invariable", "chandrabindu", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "हाँ — yes",
+              "explanation_en": "हाँ is yes, the counterpart of नहीं. Doubling it, हाँ हाँ, is very common and signals enthusiastic agreement rather than impatience. In more formal situations जी or जी हाँ is used instead, since जी on its own carries respect. The crescent nasalises the vowel with no n sounded.",
+              "examples": [
+                { "hindi": "हाँ और नहीं", "read_as": "hãa aur nahiiṁ", "english": "yes and no", "note": "The pair again, from the other side." },
+                { "hindi": "हाँ हाँ", "read_as": "hãa hãa", "english": "yes, yes", "note": "Doubled for enthusiastic agreement." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "हाँ",
+              "question_read_as": "hãa",
+              "options": ["yes", "no", "maybe", "again"],
+              "options_read_as": ["yes", "no", "maybe", "again"],
+              "answer_index": 0,
+              "explanation_en": "हाँ is yes. नहीं is no."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "Which word agrees with what has just been said?",
+              "options": ["और", "बहुत", "नहीं", "हाँ"],
+              "options_read_as": ["aur", "bahut", "nahiiṁ", "hãa"],
+              "answer_index": 3,
+              "explanation_en": "हाँ agrees. नहीं is its opposite, और joins and बहुत quantifies."
+            }
+          },
+          "audio": {
+            "tts_strings": ["हाँ", "हाँ हाँ", "हाँ और नहीं"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L50-I2",
+          "type": "word",
+          "target": "बहुत",
+          "read_as": "bahut",
+          "pronunciation_notes": "The final vowel drops, giving bahut in two syllables rather than three.",
+          "gloss_en": "very; a lot, much",
+          "gender": null,
+          "gender_flag": false,
+          "category": "function",
+          "plural": "बहुत",
+          "plural_read_as": "bahut",
+          "difficulty": 3,
+          "tags": ["function", "quantifier", "invariable", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "बहुत — very, a lot",
+              "explanation_en": "बहुत does the work of both 'very' and 'a lot'. Before an adjective it intensifies — बहुत अच्छा is very good — and before a noun it means a large quantity. It never changes form, whatever it modifies. Its opposite for quantity is कम, meaning little or less, which you have seen in examples.",
+              "examples": [
+                { "hindi": "बहुत अच्छा", "read_as": "bahut achchhaa", "english": "very good", "note": "Intensifying an adjective." },
+                { "hindi": "बहुत बड़ा", "read_as": "bahut baṛaa", "english": "very big", "note": "The same pattern with another adjective." },
+                { "hindi": "बहुत पानी", "read_as": "bahut paanii", "english": "a lot of water", "note": "Before a noun it means quantity instead." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बहुत",
+              "question_read_as": "bahut",
+              "options": ["little", "few", "very", "some"],
+              "options_read_as": ["little", "few", "very", "some"],
+              "answer_index": 2,
+              "explanation_en": "बहुत is very before an adjective, and a lot before a noun. कम is its opposite."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "Which word means a large amount?",
+              "options": ["कम", "बहुत", "और", "नहीं"],
+              "options_read_as": ["kam", "bahut", "aur", "nahiiṁ"],
+              "answer_index": 1,
+              "explanation_en": "बहुत means a lot. कम is its opposite, meaning little or less."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बहुत", "बहुत अच्छा", "बहुत पानी"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L50-I3",
+          "type": "word",
+          "target": "बात",
+          "read_as": "baat",
+          "pronunciation_notes": "A dental त with the tongue on the teeth, and the final vowel drops: baat, one syllable.",
+          "gloss_en": "a thing said; a matter",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "function",
+          "plural": "बातें",
+          "plural_read_as": "baateṁ",
+          "difficulty": 5,
+          "tags": ["function", "noun", "feminine", "consonant_ending", "gender_flag", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "बात — a thing said",
+              "explanation_en": "बात is one of the hardest Hindi words to translate: it covers a remark, a topic, a matter, a point being made. बात करना is to talk, and क्या बात है can mean anything from 'what's the matter?' to 'how wonderful'. It is feminine and ends in a consonant, so the gender is unpredictable — and since the word appears constantly, this is one flag worth memorising outright.",
+              "examples": [
+                { "hindi": "अच्छी बात", "read_as": "achchhii baat", "english": "a good point", "note": "अच्छा takes -ी because बात is feminine." },
+                { "hindi": "बात समझना", "read_as": "baat samajhnaa", "english": "to understand what is said", "note": "The thing said comes before the verb." },
+                { "hindi": "दो बातें", "read_as": "do baateṁ", "english": "two things said", "note": "Feminine consonant endings take -एँ." }
+              ],
+              "common_error": {
+                "wrong": "अच्छा बात",
+                "right": "अच्छी बात",
+                "why_en": "बात is feminine despite its consonant ending, so the adjective takes -ी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बात",
+              "question_read_as": "baat",
+              "options": ["a word", "a voice", "a story", "a matter"],
+              "options_read_as": ["a word", "a voice", "a story", "a matter"],
+              "answer_index": 3,
+              "explanation_en": "बात is a thing said or a matter under discussion. शब्द is a single word."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ बात — का, के or की?",
+              "options": ["का", "कि", "की", "के"],
+              "options_read_as": ["kaa", "ki", "kii", "ke"],
+              "answer_index": 2,
+              "explanation_en": "बात is feminine, so की. Nothing in its shape says so, which is why it is flagged."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बात", "अच्छी बात", "बातें"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level closed Module 4 with हाँ, बहुत and बात. Across 150 words the lesson has been consistent: every noun carries a gender, most endings do not reveal it, and the ones that seem to — like the -ी of पानी or the -ा of चिड़िया — sometimes point the wrong way.",
+        "key_forms": ["हाँ", "बहुत", "बात"],
+        "next_up_en": "Module 5 turns these words into sentences, starting with होना and the pronouns."
+      }
+    }
+  ]
+}

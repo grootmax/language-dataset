@@ -1,0 +1,828 @@
+{
+  "module": 7,
+  "module_name_en": "The Tense-Aspect Engine",
+  "module_name_hi": "काल",
+  "phase": 3,
+  "batch": { "levels_from": 6, "levels_to": 10 },
+  "model_verb": { "hindi": "जाना", "read_as": "jaanaa", "english": "to go", "transitivity": "intransitive" },
+  "levels": [
+    {
+      "level": 6,
+      "title_en": "Habitual past: person disappears",
+      "title_hi": "जाता था · जाती थी · जाते थे",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L06-I1",
+          "type": "grammar",
+          "target": "मैं जाता था",
+          "read_as": "maiṁ jaataa thaa",
+          "pronunciation_notes": "Three heavy syllables in a row, all with the same long aa: maiṁ jaa-taa thaa.",
+          "gloss_en": "मैं and वह take the same past auxiliary",
+          "gender": null,
+          "difficulty": 6,
+          "grid_cell": "habitual_past",
+          "tags": ["tense", "habitual_past", "first_person", "masculine", "person_collapse"],
+          "cards": {
+            "learn": {
+              "title_en": "In the past, the auxiliary stops caring who you are",
+              "explanation_en": "मैं जाता था and वह जाता था are identical apart from the pronoun. That is not a coincidence — it is the central fact about the past auxiliary. था, थी, थे and थीं split by gender and number, and person plays no part in choosing between them. Compare the present, where हूँ, है, हो and हैं split by person and ignore gender completely. The two auxiliary sets are organised on opposite principles, which is why the past feels easier: there are only four forms and three of your pronouns can share one.",
+              "examples": [
+                { "hindi": "मैं जाता था", "read_as": "maiṁ jaataa thaa", "english": "I used to go", "note": "Said by a man. The auxiliary is the same one वह uses." },
+                { "hindi": "वह जाता था", "read_as": "vah jaataa thaa", "english": "he used to go", "note": "Different person, identical verb." },
+                { "hindi": "मैं स्कूल जाता था", "read_as": "maiṁ skuul jaataa thaa", "english": "I used to go to school", "note": "A whole sentence, and only the pronoun distinguishes it from the third person." }
+              ],
+              "common_error": {
+                "wrong": "मैं जाता थे",
+                "right": "मैं जाता था",
+                "why_en": "थे is the masculine plural. One speaker is singular, so था — the auxiliary is counting, not identifying who is talking."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · मैं · masculine · habitual past",
+              "question_read_as": "jaanaa · maiṁ · masculine · habitual past",
+              "options": ["मैं जाता थे", "मैं जाता था", "मैं जाता हूँ", "मैं जाती थी"],
+              "options_read_as": ["maiṁ jaataa the", "maiṁ jaataa thaa", "maiṁ jaataa huuṁ", "maiṁ jaatii thii"],
+              "answer_index": 1,
+              "explanation_en": "Masculine singular on both words, so जाता and था."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": ["मैं जाता था", "मैं गया था", "मैं जाता हूँ", "मैं जाता होगा"],
+              "options_read_as": ["maiṁ jaataa thaa", "maiṁ gayaa thaa", "maiṁ jaataa huuṁ", "maiṁ jaataa hogaa"],
+              "answer_index": 2,
+              "explanation_en": "मैं जाता हूँ. The first is the same cell one column left, and the fourth is presumptive."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मैं जाता था", "वह जाता था", "मैं स्कूल जाता था"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L06-I2",
+          "type": "grammar",
+          "target": "मैं जाती थी",
+          "read_as": "maiṁ jaatii thii",
+          "pronunciation_notes": "Two long ii endings, and थी keeps the aspirated th: maiṁ jaa-tii thii.",
+          "gloss_en": "gender is what moves the past auxiliary",
+          "gender": null,
+          "difficulty": 6,
+          "grid_cell": "habitual_past",
+          "tags": ["tense", "habitual_past", "first_person", "feminine", "gender_agreement"],
+          "cards": {
+            "learn": {
+              "title_en": "Now the auxiliary does move",
+              "explanation_en": "A woman says मैं जाती थी, and both words have changed. This is the mirror image of what happened in the present, where switching gender moved the participle and left हूँ alone. Here the auxiliary is one of the things gender controls, so it moves too. Put the four sentences side by side and the system is visible at a glance: मैं जाता हूँ, मैं जाती हूँ, मैं जाता था, मैं जाती थी. The present auxiliary held still across genders; the past one does not.",
+              "examples": [
+                { "hindi": "मैं जाती थी", "read_as": "maiṁ jaatii thii", "english": "I used to go", "note": "Said by a woman — both words are feminine." },
+                { "hindi": "वह जाती थी", "read_as": "vah jaatii thii", "english": "she used to go", "note": "Person makes no difference in the past, so the verb is identical." },
+                { "hindi": "मैं हिंदी पढ़ती थी", "read_as": "maiṁ hindii paṛhtii thii", "english": "I used to study Hindi", "note": "Another verb, and the same pair of feminine endings." }
+              ],
+              "common_error": {
+                "wrong": "मैं जाती था",
+                "right": "मैं जाती थी",
+                "why_en": "The auxiliary carries gender in the past. Making the participle feminine and leaving था masculine is the usual half-correction."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · मैं · feminine · habitual past",
+              "question_read_as": "jaanaa · maiṁ · feminine · habitual past",
+              "options": ["मैं जाती था", "मैं जाता थी", "मैं जाती थीं", "मैं जाती थी"],
+              "options_read_as": ["maiṁ jaatii thaa", "maiṁ jaataa thii", "maiṁ jaatii thiiṁ", "maiṁ jaatii thii"],
+              "answer_index": 3,
+              "explanation_en": "Feminine singular on both words: जाती and थी."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": ["मैं जाती हूँ", "मैं जाती थी", "मैं जाती होगी", "मैं गई थी"],
+              "options_read_as": ["maiṁ jaatii huuṁ", "maiṁ jaatii thii", "maiṁ jaatii hogii", "maiṁ gaii thii"],
+              "answer_index": 0,
+              "explanation_en": "मैं जाती हूँ. The last one is past and perfective — I had gone."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मैं जाती थी", "वह जाती थी", "मैं हिंदी पढ़ती थी"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L06-I3",
+          "type": "grammar",
+          "target": "वे जाते थे",
+          "read_as": "ve jaate the",
+          "pronunciation_notes": "Three clear e sounds, and थे is short and unstressed: ve jaa-te the.",
+          "gloss_en": "masculine plural in the past",
+          "gender": null,
+          "difficulty": 6,
+          "grid_cell": "habitual_past",
+          "tags": ["tense", "habitual_past", "third_person", "masculine", "plural"],
+          "cards": {
+            "learn": {
+              "title_en": "Both words plural, both words -े",
+              "explanation_en": "वे जाते थे puts the masculine plural on both halves, and the two endings match because they are the same marked ending doing the same job. You have seen this shape three times now in three modules — बड़े लड़के, वे जाते हैं, and now वे जाते थे. The past auxiliary थे is the one form of होना that looks like a participle, which is convenient here and worth flagging: it is not agreeing with जाते, it is agreeing with वे, and the two just happen to land on the same ending.",
+              "examples": [
+                { "hindi": "वे जाते थे", "read_as": "ve jaate the", "english": "they used to go", "note": "Masculine plural on both words." },
+                { "hindi": "लड़के स्कूल जाते थे", "read_as": "laṛke skuul jaate the", "english": "the boys used to go to school", "note": "A plural noun subject, and the verb reads it." },
+                { "hindi": "वे यहाँ रहते थे", "read_as": "ve yahaaṁ rahte the", "english": "they used to live here", "note": "रहना again, in the cell it turns up in most often." }
+              ],
+              "common_error": {
+                "wrong": "वे जाता था",
+                "right": "वे जाते थे",
+                "why_en": "Both words have to go plural. Leaving either one singular is the commonest slip in this cell."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · वे · masculine plural · habitual past",
+              "question_read_as": "jaanaa · ve · masculine plural · habitual past",
+              "options": ["वे जाते थे", "वे जाता था", "वे जाते था", "वे जाती थीं"],
+              "options_read_as": ["ve jaate the", "ve jaataa thaa", "ve jaate thaa", "ve jaatii thiiṁ"],
+              "answer_index": 0,
+              "explanation_en": "Masculine plural gives जाते and थे."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": ["वे जाते थे", "वे गए थे", "वे जाते होंगे", "वे जाते हैं"],
+              "options_read_as": ["ve jaate the", "ve gae the", "ve jaate hoṁge", "ve jaate haiṁ"],
+              "answer_index": 3,
+              "explanation_en": "वे जाते हैं. The second is perfective past — they had gone."
+            }
+          },
+          "audio": {
+            "tts_strings": ["वे जाते थे", "लड़के स्कूल जाते थे", "वे यहाँ रहते थे"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The past auxiliary splits by gender and number and ignores person entirely, which is the exact reverse of the present set. That is why मैं जाता था and वह जाता था are the same verb, while मैं जाता हूँ and वह जाता है are not.",
+        "key_forms": ["मैं जाता था", "मैं जाती थी", "वे जाते थे"],
+        "next_up_en": "Next: the habitual past with तुम, आप and हम, and how to say that something did not use to happen."
+      }
+    },
+    {
+      "level": 7,
+      "title_en": "Habitual past: politeness and negation",
+      "title_hi": "आप रहते थे · मैं नहीं जाता था",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L07-I1",
+          "type": "grammar",
+          "target": "आप रहते थे",
+          "read_as": "aap rahte the",
+          "pronunciation_notes": "रहते flattens in speech to rah-te, with the middle vowel dropped.",
+          "gloss_en": "आप takes the plural past auxiliary",
+          "gender": null,
+          "difficulty": 6,
+          "grid_cell": "habitual_past",
+          "tags": ["tense", "habitual_past", "second_person", "register", "formal"],
+          "cards": {
+            "learn": {
+              "title_en": "आप is plural in the past too",
+              "explanation_en": "आप takes थे, exactly as वे does, and the participle stays plural — because आप is grammatically plural in every construction Hindi has. That is now four separate places you have seen the same fact: आपके rather than आपका in Module 6, आप पढ़ते हैं in level four, and now आप रहते थे. If you are speaking to one woman politely, both words go feminine plural: आप रहती थीं. The politeness does not change the gender, only the number.",
+              "examples": [
+                { "hindi": "आप रहते थे", "read_as": "aap rahte the", "english": "you used to live", "note": "Plural on both words, for one listener or several." },
+                { "hindi": "आप कहाँ रहते थे?", "read_as": "aap kahaaṁ rahte the?", "english": "where did you use to live?", "note": "The polite past version of the question from level four." },
+                { "hindi": "आप रहती थीं", "read_as": "aap rahtii thiiṁ", "english": "you used to live", "note": "Said to a woman — feminine participle, feminine plural auxiliary." }
+              ],
+              "common_error": {
+                "wrong": "आप रहता था",
+                "right": "आप रहते थे",
+                "why_en": "आप never takes singular agreement, however few people you are addressing."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "रहना · आप · masculine · habitual past",
+              "question_read_as": "rahnaa · aap · masculine · habitual past",
+              "options": ["आप रहता था", "आप रहते थे", "आप रहते हो", "आप रहते था"],
+              "options_read_as": ["aap rahtaa thaa", "aap rahte the", "aap rahte ho", "aap rahte thaa"],
+              "answer_index": 1,
+              "explanation_en": "आप is plural, so रहते and थे. The third option is present rather than past."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": ["आप रहते थे", "आप रहते हैं", "आप रहते होंगे", "आप रहती थीं"],
+              "options_read_as": ["aap rahte the", "aap rahte haiṁ", "aap rahte hoṁge", "aap rahtii thiiṁ"],
+              "answer_index": 1,
+              "explanation_en": "आप रहते हैं — the same cell, one column to the right."
+            }
+          },
+          "audio": {
+            "tts_strings": ["आप रहते थे", "आप कहाँ रहते थे?", "आप रहती थीं"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L07-I2",
+          "type": "grammar",
+          "target": "हम खाते थे",
+          "read_as": "ham khaate the",
+          "pronunciation_notes": "The kh needs a genuine puff of air behind it: ham khaa-te the.",
+          "gloss_en": "first person plural in the past",
+          "gender": null,
+          "difficulty": 6,
+          "grid_cell": "habitual_past",
+          "tags": ["tense", "habitual_past", "first_person_plural", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "हम, and the past table completed",
+              "explanation_en": "हम takes थे, and with that you have the whole past auxiliary table: था for masculine singular, थी for feminine singular, थे for masculine plural, थीं for feminine plural. Four forms, and they are the ones Module 5 already taught you as the past of होना — nothing has been added to them. Which means the entire habitual past cost you exactly one thing to learn: that the participle stays put and the auxiliary changes. Everything else you brought with you.",
+              "examples": [
+                { "hindi": "हम खाते थे", "read_as": "ham khaate the", "english": "we used to eat", "note": "Plural on both words." },
+                { "hindi": "हम यहाँ खाते थे", "read_as": "ham yahaaṁ khaate the", "english": "we used to eat here", "note": "A place word slots in without touching the verb." },
+                { "hindi": "हम हिंदी बोलते थे", "read_as": "ham hindii bolte the", "english": "we used to speak Hindi", "note": "बोलना, and the same pair of plural endings." }
+              ],
+              "common_error": {
+                "wrong": "हम खाते थीं",
+                "right": "हम खाते थे",
+                "why_en": "थीं is feminine plural, and it would need the participle खाती in front of it. The two halves must agree with each other."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "खाना · हम · masculine · habitual past",
+              "question_read_as": "khaanaa · ham · masculine · habitual past",
+              "options": ["हम खाता था", "हम खाते थे", "हम खाते थीं", "हम खाती थीं"],
+              "options_read_as": ["ham khaataa thaa", "ham khaate the", "ham khaate thiiṁ", "ham khaatii thiiṁ"],
+              "answer_index": 1,
+              "explanation_en": "Masculine plural on both words gives खाते थे."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": ["हम खाते हैं", "हम खाते थे", "हम खाते होंगे", "हम खाती थीं"],
+              "options_read_as": ["ham khaate haiṁ", "ham khaate the", "ham khaate hoṁge", "ham khaatii thiiṁ"],
+              "answer_index": 0,
+              "explanation_en": "हम खाते हैं — habitual, present."
+            }
+          },
+          "audio": {
+            "tts_strings": ["हम खाते थे", "हम यहाँ खाते थे", "हम हिंदी बोलते थे"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L07-I3",
+          "type": "grammar",
+          "target": "मैं नहीं जाता था",
+          "read_as": "maiṁ nahiiṁ jaataa thaa",
+          "pronunciation_notes": "नहीं is two syllables ending on a hum, and in fast speech it shortens towards nahiṁ.",
+          "gloss_en": "negation sits in front of the verb",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "habitual_past",
+          "tags": ["tense", "habitual_past", "negation", "first_person", "module5_link"],
+          "cards": {
+            "learn": {
+              "title_en": "नहीं goes before the verb, and nothing else moves",
+              "explanation_en": "To say a habit did not hold, put नहीं directly in front of the verb: मैं नहीं जाता था. The participle and the auxiliary are untouched, which makes this the cheapest piece of grammar in the module. One thing worth knowing early, though: in the habitual present, speakers very often drop the auxiliary after नहीं — मैं नहीं जाता is more natural than मैं नहीं जाता हूँ. In the past that does not happen, and था stays. So the negative present is shorter than you expect and the negative past is not.",
+              "examples": [
+                { "hindi": "मैं नहीं जाता था", "read_as": "maiṁ nahiiṁ jaataa thaa", "english": "I did not use to go", "note": "नहीं in front, and the verb unchanged behind it." },
+                { "hindi": "वह नहीं जाती थी", "read_as": "vah nahiiṁ jaatii thii", "english": "she did not use to go", "note": "The negation is indifferent to gender." },
+                { "hindi": "मैं नहीं जाता", "read_as": "maiṁ nahiiṁ jaataa", "english": "I do not go", "note": "Present tense, and the auxiliary has been dropped — which is what speakers usually do." }
+              ],
+              "common_error": {
+                "wrong": "मैं जाता नहीं था",
+                "right": "मैं नहीं जाता था",
+                "why_en": "नहीं comes before the whole verb, not inside it. Splitting the participle from its auxiliary sounds distinctly wrong."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Make this negative.",
+              "question": "मैं जाता था · negative",
+              "question_read_as": "maiṁ jaataa thaa · negative",
+              "options": ["मैं जाता नहीं था", "मैं जाता था नहीं", "मैं नहीं जाता हूँ", "मैं नहीं जाता था"],
+              "options_read_as": ["maiṁ jaataa nahiiṁ thaa", "maiṁ jaataa thaa nahiiṁ", "maiṁ nahiiṁ jaataa huuṁ", "maiṁ nahiiṁ jaataa thaa"],
+              "answer_index": 3,
+              "explanation_en": "नहीं goes in front of the verb and the rest of the sentence is unchanged."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual past cell?",
+              "options": ["मैं नहीं जाता", "मैं नहीं जा रहा हूँ", "मैं नहीं जाता था", "मैं नहीं गया"],
+              "options_read_as": ["maiṁ nahiiṁ jaataa", "maiṁ nahiiṁ jaa rahaa huuṁ", "maiṁ nahiiṁ jaataa thaa", "maiṁ nahiiṁ gayaa"],
+              "answer_index": 2,
+              "explanation_en": "मैं नहीं जाता था. The first is habitual present with the auxiliary dropped, and the last is perfective."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मैं नहीं जाता था", "वह नहीं जाती थी", "मैं नहीं जाता"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The habitual past is complete. था, थी, थे and थीं are Module 5's past of होना, untouched, and नहीं placed in front of the verb negates any of them. In the habitual present the auxiliary is usually dropped after नहीं; in the past it is not.",
+        "key_forms": ["आप रहते थे", "हम खाते थे", "मैं नहीं जाता था"],
+        "next_up_en": "Next: the continuous, which is the cell English speakers reach for constantly and have been getting wrong since level two."
+      }
+    },
+    {
+      "level": 8,
+      "title_en": "Continuous present: the shape",
+      "title_hi": "जा रहा हूँ · जा रही है · जा रहे हैं",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L08-I1",
+          "type": "grammar",
+          "target": "मैं जा रहा हूँ",
+          "read_as": "maiṁ jaa rahaa huuṁ",
+          "pronunciation_notes": "Three separate words, and रहा keeps its h audible as a breath: jaa ra-haa huuṁ.",
+          "gloss_en": "continuous present, first person masculine",
+          "gender": null,
+          "difficulty": 6,
+          "grid_cell": "continuous_present",
+          "tags": ["tense", "continuous_present", "first_person", "masculine", "bare_stem", "meaning_payoff"],
+          "cards": {
+            "learn": {
+              "title_en": "This is the one that means 'I am going'",
+              "explanation_en": "Level two warned you that मैं जाता हूँ is not I am going. This is the form that is. It has three pieces written as three words: the bare stem जा, the marker रहा, and the auxiliary हूँ. The stem is the verb with -ना stripped off and nothing added — not the participle, just the bare stem, which is a different base from the one the habitual uses. रहा is the piece that carries gender and number, and the auxiliary carries person, exactly as before. So the two agreements you already know are still running; they have just moved onto a different word.",
+              "examples": [
+                { "hindi": "मैं जा रहा हूँ", "read_as": "maiṁ jaa rahaa huuṁ", "english": "I am going", "note": "Right now, at this moment — not a habit." },
+                { "hindi": "मैं स्कूल जा रहा हूँ", "read_as": "maiṁ skuul jaa rahaa huuṁ", "english": "I am going to school", "note": "The same sentence as level two, in the cell that actually means what English says." },
+                { "hindi": "मैं हिंदी पढ़ रहा हूँ", "read_as": "maiṁ hindii paṛh rahaa huuṁ", "english": "I am studying Hindi", "note": "पढ़ना gives the bare stem पढ़ — drop -ना and add nothing." }
+              ],
+              "common_error": {
+                "wrong": "मैं जाता रहा हूँ",
+                "right": "मैं जा रहा हूँ",
+                "why_en": "The continuous is built on the bare stem, never on the habitual participle. The two bases do not stack."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · मैं · masculine · continuous present",
+              "question_read_as": "jaanaa · maiṁ · masculine · continuous present",
+              "options": ["मैं जाता रहा हूँ", "मैं जा रही हूँ", "मैं जा रहा हूँ", "मैं जा रहा है"],
+              "options_read_as": ["maiṁ jaataa rahaa huuṁ", "maiṁ jaa rahii huuṁ", "maiṁ jaa rahaa huuṁ", "maiṁ jaa rahaa hai"],
+              "answer_index": 2,
+              "explanation_en": "Bare stem जा, masculine singular marker रहा, and मैं takes हूँ."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous present cell?",
+              "options": ["मैं जाता हूँ", "मैं जा रहा हूँ", "मैं गया हूँ", "मैं जाता था"],
+              "options_read_as": ["maiṁ jaataa huuṁ", "maiṁ jaa rahaa huuṁ", "maiṁ gayaa huuṁ", "maiṁ jaataa thaa"],
+              "answer_index": 1,
+              "explanation_en": "मैं जा रहा हूँ. The first is habitual present, which is the pair worth keeping apart."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मैं जा रहा हूँ", "मैं स्कूल जा रहा हूँ", "मैं हिंदी पढ़ रहा हूँ"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L08-I2",
+          "type": "grammar",
+          "target": "वह जा रही है",
+          "read_as": "vah jaa rahii hai",
+          "pronunciation_notes": "रही holds a long ii at the end, which is the only thing separating it from रहा: ra-hii.",
+          "gloss_en": "continuous present, feminine singular",
+          "gender": null,
+          "difficulty": 6,
+          "grid_cell": "continuous_present",
+          "tags": ["tense", "continuous_present", "third_person", "feminine", "singular"],
+          "cards": {
+            "learn": {
+              "title_en": "रहा becomes रही, and nothing else does",
+              "explanation_en": "The marker takes the marked endings you have been using since Module 6: रहा for masculine singular, रही for anything feminine, रहे for masculine plural. It is the third word in a row that behaves this way — बड़ा, जाता, and now रहा — because all three are marked forms agreeing with the subject. Notice which word is doing the agreeing and which is not. जा never changes, in any cell, for any subject. The stem is inert; the marker carries everything.",
+              "examples": [
+                { "hindi": "वह जा रही है", "read_as": "vah jaa rahii hai", "english": "she is going", "note": "Feminine marker रही with the third person auxiliary." },
+                { "hindi": "लड़की स्कूल जा रही है", "read_as": "laṛkii skuul jaa rahii hai", "english": "the girl is going to school", "note": "A feminine noun subject, and the marker reads it." },
+                { "hindi": "वह कहाँ जा रही है?", "read_as": "vah kahaaṁ jaa rahii hai?", "english": "where is she going?", "note": "Probably the most useful continuous question in the language." }
+              ],
+              "common_error": {
+                "wrong": "वह जा रहा है",
+                "right": "वह जा रही है",
+                "why_en": "Not ungrammatical, but it means he rather than she. वह is genderless, so the marker is the only thing telling your listener who you mean."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · वह (feminine) · continuous present",
+              "question_read_as": "jaanaa · vah (feminine) · continuous present",
+              "options": ["वह जा रही है", "वह जा रहा है", "वह जा रही हैं", "वह जाती रही है"],
+              "options_read_as": ["vah jaa rahii hai", "vah jaa rahaa hai", "vah jaa rahii haiṁ", "vah jaatii rahii hai"],
+              "answer_index": 0,
+              "explanation_en": "Feminine marker रही, and वह takes है."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": ["वह जा रही है", "वह गई है", "वह जाती थी", "वह जाती है"],
+              "options_read_as": ["vah jaa rahii hai", "vah gaii hai", "vah jaatii thii", "vah jaatii hai"],
+              "answer_index": 3,
+              "explanation_en": "वह जाती है. The first is the same column, one row up in aspect."
+            }
+          },
+          "audio": {
+            "tts_strings": ["वह जा रही है", "लड़की स्कूल जा रही है", "वह कहाँ जा रही है?"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L08-I3",
+          "type": "grammar",
+          "target": "वे जा रहे हैं",
+          "read_as": "ve jaa rahe haiṁ",
+          "pronunciation_notes": "रहे is short and unstressed, sitting between two longer words: ve jaa ra-he haiṁ.",
+          "gloss_en": "continuous present, masculine plural",
+          "gender": null,
+          "difficulty": 6,
+          "grid_cell": "continuous_present",
+          "tags": ["tense", "continuous_present", "third_person", "masculine", "plural"],
+          "cards": {
+            "learn": {
+              "title_en": "Three words, and only the middle one moves",
+              "explanation_en": "वे जा रहे हैं completes the set. Look at what has happened across these three items: जा has not changed once, रहा has taken all three marked endings, and the auxiliary has followed the person as it always does. That is the whole continuous. It looks harder than the habitual because it is three words instead of two, but there is genuinely less to decide — the habitual made you build a participle from the verb, and here the verb contributes a bare stem and then sits out.",
+              "examples": [
+                { "hindi": "वे जा रहे हैं", "read_as": "ve jaa rahe haiṁ", "english": "they are going", "note": "Masculine plural marker with the plural auxiliary." },
+                { "hindi": "लड़के स्कूल जा रहे हैं", "read_as": "laṛke skuul jaa rahe haiṁ", "english": "the boys are going to school", "note": "A plural noun subject, and both agreeing words follow it." },
+                { "hindi": "वे क्या कर रहे हैं?", "read_as": "ve kyaa kar rahe haiṁ?", "english": "what are they doing?", "note": "करना gives the bare stem कर, and this question will come up constantly." }
+              ],
+              "common_error": {
+                "wrong": "वे जा रहा हैं",
+                "right": "वे जा रहे हैं",
+                "why_en": "The marker has to go plural too. Fixing only the auxiliary is the same half-correction that showed up in the habitual."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · वे · masculine plural · continuous present",
+              "question_read_as": "jaanaa · ve · masculine plural · continuous present",
+              "options": ["वे जा रहा हैं", "वे जा रहे है", "वे जा रही हैं", "वे जा रहे हैं"],
+              "options_read_as": ["ve jaa rahaa haiṁ", "ve jaa rahe hai", "ve jaa rahii haiṁ", "ve jaa rahe haiṁ"],
+              "answer_index": 3,
+              "explanation_en": "Masculine plural marker रहे with the plural auxiliary हैं."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous present cell?",
+              "options": ["वे जाते हैं", "वे गए हैं", "वे जा रहे हैं", "वे जाते थे"],
+              "options_read_as": ["ve jaate haiṁ", "ve gae haiṁ", "ve jaa rahe haiṁ", "ve jaate the"],
+              "answer_index": 2,
+              "explanation_en": "वे जा रहे हैं — bare stem plus marker plus auxiliary."
+            }
+          },
+          "audio": {
+            "tts_strings": ["वे जा रहे हैं", "लड़के स्कूल जा रहे हैं", "वे क्या कर रहे हैं?"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The continuous is bare stem plus रहा plus होना. The stem never changes for anyone; रहा takes the marked endings रहा, रही, रहे; the auxiliary follows the person. This is the cell that means what English -ing means, and it is the one to reach for when something is happening now.",
+        "key_forms": ["मैं जा रहा हूँ", "वह जा रही है", "वे जा रहे हैं"],
+        "next_up_en": "Next: the continuous with other verbs and other persons, including the question you will be asked more than any other."
+      }
+    },
+    {
+      "level": 9,
+      "title_en": "Continuous present: in use",
+      "title_hi": "क्या कर रहे हो? · पढ़ रही है",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L09-I1",
+          "type": "grammar",
+          "target": "तुम क्या कर रहे हो",
+          "read_as": "tum kyaa kar rahe ho",
+          "pronunciation_notes": "क्या is one syllable, not two: kyaa, with the k and y run together.",
+          "gloss_en": "the most-used continuous question in Hindi",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "continuous_present",
+          "tags": ["tense", "continuous_present", "second_person", "question", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "The question you will hear most",
+              "explanation_en": "तुम क्या कर रहे हो is what are you doing, and it is worth over-learning because it opens more Hindi conversations than any other sentence. Three things to notice. The bare stem of करना is कर, which is the verb with -ना removed and nothing else done to it. तुम takes रहे and हो, plural on both counts as always. And क्या sits in second position, before the verb — the question word slots in and the verb is completely unaffected by its presence.",
+              "examples": [
+                { "hindi": "तुम क्या कर रहे हो?", "read_as": "tum kyaa kar rahe ho?", "english": "what are you doing?", "note": "The casual register. Use आप with anyone you do not know." },
+                { "hindi": "आप क्या कर रहे हैं?", "read_as": "aap kyaa kar rahe haiṁ?", "english": "what are you doing?", "note": "The polite version, and the one to default to." },
+                { "hindi": "तुम कहाँ जा रहे हो?", "read_as": "tum kahaaṁ jaa rahe ho?", "english": "where are you going?", "note": "A different question word in the same slot, and the verb is unchanged." }
+              ],
+              "common_error": {
+                "wrong": "तुम क्या करता रहे हो",
+                "right": "तुम क्या कर रहे हो",
+                "why_en": "करता is the habitual participle. The continuous needs the bare stem कर, with nothing added to it at all."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "करना · तुम · continuous present",
+              "question_read_as": "karnaa · tum · continuous present",
+              "options": ["तुम कर रहा हो", "तुम कर रहे हो", "तुम कर रहे हैं", "तुम करता रहे हो"],
+              "options_read_as": ["tum kar rahaa ho", "tum kar rahe ho", "tum kar rahe haiṁ", "tum kartaa rahe ho"],
+              "answer_index": 1,
+              "explanation_en": "तुम is plural, so रहे, and its auxiliary is हो."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": ["तुम क्या करते हो?", "तुम क्या कर रहे हो?", "तुम क्या करते थे?", "तुम क्या कर रहे थे?"],
+              "options_read_as": ["tum kyaa karte ho?", "tum kyaa kar rahe ho?", "tum kyaa karte the?", "tum kyaa kar rahe the?"],
+              "answer_index": 0,
+              "explanation_en": "तुम क्या करते हो — what do you do, as in for a living, rather than at this moment."
+            }
+          },
+          "audio": {
+            "tts_strings": ["तुम क्या कर रहे हो?", "आप क्या कर रहे हैं?", "तुम कहाँ जा रहे हो?"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L09-I2",
+          "type": "grammar",
+          "target": "हम हिंदी बोल रहे हैं",
+          "read_as": "ham hindii bol rahe haiṁ",
+          "pronunciation_notes": "बोल has a long open o and no vowel after the l: bol.",
+          "gloss_en": "continuous present, first person plural",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "continuous_present",
+          "tags": ["tense", "continuous_present", "first_person_plural", "new_verb"],
+          "cards": {
+            "learn": {
+              "title_en": "Any verb, the same three pieces",
+              "explanation_en": "बोलना gives the stem बोल, and everything else is what you already have. That is the point of this item: there is no list of verbs that work differently in the continuous. Strip -ना, and whatever is left is the stem, for every verb in the language. Compare this with the habitual, where you still had to add -ता or -ती or -ते and choose correctly. The continuous asks the verb for less and asks रहा for more, which is why it tends to click faster than the habitual does.",
+              "examples": [
+                { "hindi": "हम हिंदी बोल रहे हैं", "read_as": "ham hindii bol rahe haiṁ", "english": "we are speaking Hindi", "note": "Bare stem बोल, plural marker, plural auxiliary." },
+                { "hindi": "हम खा रहे हैं", "read_as": "ham khaa rahe haiṁ", "english": "we are eating", "note": "खाना gives the stem खा — a long vowel, and nothing added." },
+                { "hindi": "हम यहाँ रह रहे हैं", "read_as": "ham yahaaṁ rah rahe haiṁ", "english": "we are staying here", "note": "रहना gives रह, which sits right next to the marker रहे and sounds odd at first." }
+              ],
+              "common_error": {
+                "wrong": "हम हिंदी बोलते रहे हैं",
+                "right": "हम हिंदी बोल रहे हैं",
+                "why_en": "बोलते is the habitual participle. Only the bare stem can carry the continuous marker."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "बोलना · हम · masculine · continuous present",
+              "question_read_as": "bolnaa · ham · masculine · continuous present",
+              "options": ["हम बोल रहे हैं", "हम बोलते रहे हैं", "हम बोल रहा हैं", "हम बोल रहे हो"],
+              "options_read_as": ["ham bol rahe haiṁ", "ham bolte rahe haiṁ", "ham bol rahaa haiṁ", "ham bol rahe ho"],
+              "answer_index": 0,
+              "explanation_en": "Stem बोल, plural marker रहे, and हम takes हैं."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": ["हम बोल रहे हैं", "हम बोल रहे थे", "हम बोलते थे", "हम बोलते हैं"],
+              "options_read_as": ["ham bol rahe haiṁ", "ham bol rahe the", "ham bolte the", "ham bolte haiṁ"],
+              "answer_index": 3,
+              "explanation_en": "हम बोलते हैं — we speak Hindi, as a standing fact about us."
+            }
+          },
+          "audio": {
+            "tts_strings": ["हम हिंदी बोल रहे हैं", "हम खा रहे हैं", "हम यहाँ रह रहे हैं"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L09-I3",
+          "type": "grammar",
+          "target": "लड़की किताब पढ़ रही है",
+          "read_as": "laṛkii kitaab paṛh rahii hai",
+          "pronunciation_notes": "पढ़ ends on a flapped ṛh with breath behind it, and no vowel follows: paṛh.",
+          "gloss_en": "a transitive verb in the continuous, with no ने",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "continuous_present",
+          "tags": ["tense", "continuous_present", "transitive", "no_ne", "module9_preview", "noun_subject"],
+          "cards": {
+            "learn": {
+              "title_en": "An object changes nothing here",
+              "explanation_en": "पढ़ना takes an object — you read something — and that makes it a transitive verb. In the continuous this changes absolutely nothing: the subject is plain लड़की, the object किताब sits in front of the verb, and the agreement still runs off the subject. It is worth saying now because Module 9 is going to introduce a construction where transitive verbs behave very differently, and learners often start applying it too early. The rule to hold: that construction belongs to the perfective only. Habitual and continuous never touch it, whatever the verb.",
+              "examples": [
+                { "hindi": "लड़की किताब पढ़ रही है", "read_as": "laṛkii kitaab paṛh rahii hai", "english": "the girl is reading a book", "note": "The marker agrees with लड़की, the subject, not with किताब." },
+                { "hindi": "लड़का किताब पढ़ रहा है", "read_as": "laṛkaa kitaab paṛh rahaa hai", "english": "the boy is reading a book", "note": "Same object, and the marker has changed with the subject." },
+                { "hindi": "वे किताब पढ़ रहे हैं", "read_as": "ve kitaab paṛh rahe haiṁ", "english": "they are reading a book", "note": "A plural subject and a singular object — the verb follows the subject." }
+              ],
+              "common_error": {
+                "wrong": "लड़की किताब पढ़ रहा है",
+                "right": "लड़की किताब पढ़ रही है",
+                "why_en": "The marker agrees with the subject लड़की, which is feminine. किताब being feminine too is a coincidence here and not the reason."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "पढ़ना · लड़की · continuous present",
+              "question_read_as": "paṛhnaa · laṛkii · continuous present",
+              "options": ["लड़की पढ़ रहा है", "लड़की पढ़ती रही है", "लड़की पढ़ रही है", "लड़की पढ़ रही हैं"],
+              "options_read_as": ["laṛkii paṛh rahaa hai", "laṛkii paṛhtii rahii hai", "laṛkii paṛh rahii hai", "laṛkii paṛh rahii haiṁ"],
+              "answer_index": 2,
+              "explanation_en": "लड़की is feminine and singular, so रही and है."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": ["लड़की किताब पढ़ रही थी", "लड़की किताब पढ़ती है", "लड़की किताब पढ़ रही है", "लड़की किताब पढ़ती थी"],
+              "options_read_as": ["laṛkii kitaab paṛh rahii thii", "laṛkii kitaab paṛhtii hai", "laṛkii kitaab paṛh rahii hai", "laṛkii kitaab paṛhtii thii"],
+              "answer_index": 1,
+              "explanation_en": "लड़की किताब पढ़ती है — she reads books, rather than she is reading one now."
+            }
+          },
+          "audio": {
+            "tts_strings": ["लड़की किताब पढ़ रही है", "लड़का किताब पढ़ रहा है", "वे किताब पढ़ रहे हैं"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Every verb makes its continuous the same way: strip -ना and use what is left. Transitive verbs behave no differently — an object sits in front of the verb and the agreement still runs off the subject, which will stop being true in Module 9 but only for the perfective.",
+        "key_forms": ["तुम क्या कर रहे हो", "हम हिंदी बोल रहे हैं", "लड़की किताब पढ़ रही है"],
+        "next_up_en": "Next: habitual against continuous, put side by side — and one verb whose stem collides with the marker."
+      }
+    },
+    {
+      "level": 10,
+      "title_en": "Habitual against continuous",
+      "title_hi": "पढ़ता है · पढ़ रहा है",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M07-L10-I1",
+          "type": "grammar",
+          "target": "वह पढ़ रहा है",
+          "read_as": "vah paṛh rahaa hai",
+          "pronunciation_notes": "Two breathy sounds in a row, the ढ़ and the ह of रहा, and neither should be swallowed.",
+          "gloss_en": "the minimal pair that carries the whole distinction",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "continuous_present",
+          "tags": ["tense", "continuous_present", "habitual_contrast", "minimal_pair", "meaning_payoff"],
+          "cards": {
+            "learn": {
+              "title_en": "वह पढ़ता है and वह पढ़ रहा है",
+              "explanation_en": "Same verb, same person, same time, and two completely different claims. वह पढ़ता है says he studies — he is a student, it is what he does. वह पढ़ रहा है says he is reading right now, and tells you nothing about whether he ever does it otherwise. English uses studies and is studying for exactly this split, so the distinction is not new to you; what is new is that Hindi will not let you blur it. There is no form that covers both, and choosing the habitual for a present moment is the error that marks a learner most audibly.",
+              "examples": [
+                { "hindi": "वह पढ़ रहा है", "read_as": "vah paṛh rahaa hai", "english": "he is reading", "note": "Right now. Say nothing about his habits." },
+                { "hindi": "वह पढ़ता है", "read_as": "vah paṛhtaa hai", "english": "he studies", "note": "A fact about him. He may be asleep as you say it." },
+                { "hindi": "वह रोज़ पढ़ता है", "read_as": "vah roz paṛhtaa hai", "english": "he studies every day", "note": "रोज़ can only go with the habitual, which is a useful test." }
+              ],
+              "common_error": {
+                "wrong": "वह अभी पढ़ता है",
+                "right": "वह अभी पढ़ रहा है",
+                "why_en": "A word meaning right now cannot sit with the habitual. If the sentence points at this moment, the aspect has to be continuous."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "पढ़ना · वह · masculine · continuous present",
+              "question_read_as": "paṛhnaa · vah · masculine · continuous present",
+              "options": ["वह पढ़ता है", "वह पढ़ रहा है", "वह पढ़ता रहा है", "वह पढ़ रही है"],
+              "options_read_as": ["vah paṛhtaa hai", "vah paṛh rahaa hai", "vah paṛhtaa rahaa hai", "vah paṛh rahii hai"],
+              "answer_index": 1,
+              "explanation_en": "Bare stem पढ़, masculine marker रहा, and वह takes है."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": ["वह पढ़ता है", "वह पढ़ रहा है", "वह पढ़ता था", "वह पढ़ रहा था"],
+              "options_read_as": ["vah paṛhtaa hai", "vah paṛh rahaa hai", "vah paṛhtaa thaa", "vah paṛh rahaa thaa"],
+              "answer_index": 0,
+              "explanation_en": "वह पढ़ता है. The four options are the four corners of the two aspects across two times."
+            }
+          },
+          "audio": {
+            "tts_strings": ["वह पढ़ रहा है", "वह पढ़ता है", "वह रोज़ पढ़ता है"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L10-I2",
+          "type": "grammar",
+          "target": "मैं रह रहा हूँ",
+          "read_as": "maiṁ rah rahaa huuṁ",
+          "pronunciation_notes": "Two similar syllables back to back, and both need their h: rah ra-haa.",
+          "gloss_en": "when the stem and the marker collide",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "continuous_present",
+          "tags": ["tense", "continuous_present", "stem_collision", "rahnaa", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "रह रहा — the one that sounds like a mistake",
+              "explanation_en": "रहना means to live or stay, and its bare stem is रह. Put it in the continuous and you get मैं रह रहा हूँ, with the stem sitting directly against the marker. Learners assume they have doubled a word by accident and delete one. They have not. The two are unrelated: रह is the verb, and रहा is the continuous marker, which happens to come from the same root historically but is doing an entirely different job here. The sentence is correct and common, and you will need it whenever you talk about where you are staying rather than where you live.",
+              "examples": [
+                { "hindi": "मैं रह रहा हूँ", "read_as": "maiṁ rah rahaa huuṁ", "english": "I am staying", "note": "Temporarily — the continuous makes it a current arrangement." },
+                { "hindi": "मैं शहर में रह रहा हूँ", "read_as": "maiṁ shahar meṁ rah rahaa huuṁ", "english": "I am staying in the city", "note": "शहर is oblique before में, and the verb is unaffected." },
+                { "hindi": "मैं शहर में रहता हूँ", "read_as": "maiṁ shahar meṁ rahtaa huuṁ", "english": "I live in the city", "note": "The habitual, which means the city is where you are from rather than where you happen to be." }
+              ],
+              "common_error": {
+                "wrong": "मैं रहा हूँ",
+                "right": "मैं रह रहा हूँ",
+                "why_en": "Deleting what looks like a repeated word removes the verb and leaves only the marker. Both are needed."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "रहना · मैं · masculine · continuous present",
+              "question_read_as": "rahnaa · maiṁ · masculine · continuous present",
+              "options": ["मैं रहा हूँ", "मैं रहता रहा हूँ", "मैं रह रही हूँ", "मैं रह रहा हूँ"],
+              "options_read_as": ["maiṁ rahaa huuṁ", "maiṁ rahtaa rahaa huuṁ", "maiṁ rah rahii huuṁ", "maiṁ rah rahaa huuṁ"],
+              "answer_index": 3,
+              "explanation_en": "Stem रह, marker रहा, auxiliary हूँ — three separate words that only look repetitive."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": ["मैं रह रहा हूँ", "मैं रह रहा था", "मैं रहता हूँ", "मैं रहता था"],
+              "options_read_as": ["maiṁ rah rahaa huuṁ", "maiṁ rah rahaa thaa", "maiṁ rahtaa huuṁ", "maiṁ rahtaa thaa"],
+              "answer_index": 2,
+              "explanation_en": "मैं रहता हूँ — where I live, rather than where I am currently staying."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मैं रह रहा हूँ", "मैं शहर में रह रहा हूँ", "मैं शहर में रहता हूँ"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L10-I3",
+          "type": "dialogue",
+          "target": "पढ़ रहा हूँ",
+          "read_as": "paṛh rahaa huuṁ",
+          "pronunciation_notes": "The breathy ढ़ runs straight into रहा with no vowel between: paṛh ra-haa.",
+          "gloss_en": "the two aspects, one after the other",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "continuous_present",
+          "tags": ["tense", "continuous_present", "habitual_present", "dialogue", "micro_dialogue", "aspect_contrast"],
+          "cards": {
+            "learn": {
+              "title_en": "Asked about now, then asked about always",
+              "explanation_en": "Four lines and the aspect switches once, in the middle. The first question asks what is happening at this moment, so both speakers use the continuous. The third question adds रोज़ and asks about a habit, and both switch to the habitual — the verb is the same throughout, only the aspect moves. This is what the distinction sounds like when it is doing real work rather than sitting in a table. Notice too that the last line drops हिंदी: once it has been said, Hindi leaves it out rather than repeating it.",
+              "lines": [
+                { "speaker": "A", "hindi": "तुम क्या कर रहे हो?", "read_as": "tum kyaa kar rahe ho?", "english": "What are you doing?" },
+                { "speaker": "B", "hindi": "मैं हिंदी पढ़ रहा हूँ।", "read_as": "maiṁ hindii paṛh rahaa huuṁ.", "english": "I am studying Hindi." },
+                { "speaker": "A", "hindi": "क्या तुम रोज़ हिंदी पढ़ते हो?", "read_as": "kyaa tum roz hindii paṛhte ho?", "english": "Do you study Hindi every day?" },
+                { "speaker": "B", "hindi": "हाँ, मैं रोज़ पढ़ता हूँ।", "read_as": "haaṁ, maiṁ roz paṛhtaa huuṁ.", "english": "Yes, I study every day." }
+              ],
+              "common_error": {
+                "wrong": "हाँ, मैं रोज़ पढ़ रहा हूँ।",
+                "right": "हाँ, मैं रोज़ पढ़ता हूँ।",
+                "why_en": "रोज़ makes the sentence about a habit, and a habit cannot be expressed with the continuous."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Fill the gap.",
+              "question": "क्या तुम रोज़ हिंदी ___ हो?",
+              "question_read_as": "kyaa tum roz hindii ___ ho?",
+              "options": ["पढ़ते", "पढ़ रहे", "पढ़ता", "पढ़ती"],
+              "options_read_as": ["paṛhte", "paṛh rahe", "paṛhtaa", "paṛhtii"],
+              "answer_index": 0,
+              "explanation_en": "रोज़ forces the habitual, and तुम takes the plural participle पढ़ते."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the second line. Which word is missing?",
+              "masked_line_index": 1,
+              "masked_word": "रहा",
+              "options": ["रही", "रहे", "रहता", "रहा"],
+              "options_read_as": ["rahii", "rahe", "rahtaa", "rahaa"],
+              "answer_index": 3,
+              "explanation_en": "A single male speaker, so the marker is रहा — and हूँ at the end confirms the number."
+            }
+          },
+          "audio": {
+            "tts_strings": ["तुम क्या कर रहे हो?", "मैं हिंदी पढ़ रहा हूँ।", "क्या तुम रोज़ हिंदी पढ़ते हो?", "हाँ, मैं रोज़ पढ़ता हूँ।"],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The habitual and the continuous are not interchangeable and Hindi offers no form that covers both. रोज़ can only go with the habitual and a word meaning now can only go with the continuous, which makes the adverb a reliable test when you are unsure which cell you need.",
+        "key_forms": ["वह पढ़ रहा है", "मैं रह रहा हूँ", "पढ़ रहा हूँ"],
+        "next_up_en": "Next: the continuous past, which is one word away from everything you just learnt."
+      }
+    }
+  ]
+}

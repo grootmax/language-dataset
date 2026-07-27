@@ -1,0 +1,816 @@
+{
+  "module": 5,
+  "module_name_en": "First Sentences",
+  "module_name_hi": "पहला वाक्य",
+  "phase": 2,
+  "batch": { "levels_from": 6, "levels_to": 10 },
+  "levels": [
+    {
+      "level": 6,
+      "title_en": "तू, हम, यह",
+      "title_hi": "और सर्वनाम",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L06-I1",
+          "type": "grammar",
+          "target": "तू",
+          "read_as": "tuu",
+          "pronunciation_notes": "A long uu after an unaspirated त with the tongue on the teeth: tuu, one syllable.",
+          "gloss_en": "you — intimate, and often insulting",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["pronoun", "second_person", "intimate", "register", "warning"],
+          "cards": {
+            "learn": {
+              "title_en": "तू — recognise it, do not use it",
+              "explanation_en": "तू is the third word for 'you', and it is the one to be careful with. Grammatically it is simple: it takes है, the same form as the third person. Socially it is not. Between very close friends, from a parent to a small child, or in prayer, it is warm. Said to a stranger, a shopkeeper or anyone older, it is an insult. A learner has no reliable way to tell those situations apart, so learn to recognise तू and leave it alone.",
+              "examples": [
+                { "hindi": "तू कहाँ है?", "read_as": "tuu kahãa hai?", "english": "Where are you?", "note": "तू takes है, unlike तुम which takes हो." },
+                { "hindi": "तू अच्छा है।", "read_as": "tuu achchhaa hai.", "english": "You are good.", "note": "Singular agreement throughout, unlike तुम." },
+                { "hindi": "तू यहाँ है।", "read_as": "tuu yahãa hai.", "english": "You are here.", "note": "Identical in form to वह यहाँ है, which is part of why it feels distancing." }
+              ],
+              "common_error": {
+                "wrong": "तू हो।",
+                "right": "तू है।",
+                "why_en": "तू takes है rather than हो — though the more useful correction is to say तुम or आप instead."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "तू कहाँ ___?",
+              "question_read_as": "tuu kahãa ___?",
+              "options": ["हो", "है", "हैं", "हूँ"],
+              "options_read_as": ["ho", "hai", "haiṁ", "huuṁ"],
+              "answer_index": 1,
+              "explanation_en": "तू takes है, the same form as a third person singular."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["तू अच्छा हो।", "तू अच्छा हैं।", "तू अच्छा हूँ।", "तू अच्छा है।"],
+              "options_read_as": ["tuu achchhaa ho.", "tuu achchhaa haiṁ.", "tuu achchhaa huuṁ.", "tuu achchhaa hai."],
+              "answer_index": 3,
+              "explanation_en": "तू behaves as a singular and takes है. हो would be right after तुम."
+            }
+          },
+          "audio": {
+            "tts_strings": ["तू कहाँ है?", "तू अच्छा है।", "तू यहाँ है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L06-I2",
+          "type": "grammar",
+          "target": "हम",
+          "read_as": "ham",
+          "pronunciation_notes": "The final vowel drops, giving ham in one syllable.",
+          "gloss_en": "we",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["pronoun", "first_person", "plural", "regional_variation"],
+          "cards": {
+            "learn": {
+              "title_en": "हम — we",
+              "explanation_en": "हम is we, and it takes हैं in the present and थे or थीं in the past. There is a regional habit worth knowing about: across much of eastern Uttar Pradesh and Bihar, a single speaker uses हम where standard Hindi would use मैं. You will hear it and it is not an error, but keep to मैं yourself and you will always be understood.",
+              "examples": [
+                { "hindi": "हम यहाँ हैं।", "read_as": "ham yahãa haiṁ.", "english": "We are here.", "note": "हम takes हैं, like any plural." },
+                { "hindi": "हम अच्छे हैं।", "read_as": "ham achchhe haiṁ.", "english": "We are well.", "note": "Masculine or mixed groups take -े." },
+                { "hindi": "हम खुश थे।", "read_as": "ham khush the.", "english": "We were happy.", "note": "The past takes थे, or थीं for an all-female group." }
+              ],
+              "common_error": {
+                "wrong": "हम हूँ।",
+                "right": "हम हैं।",
+                "why_en": "हम is plural, so it takes हैं. हूँ belongs to मैं alone."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "हम यहाँ ___।",
+              "question_read_as": "ham yahãa ___.",
+              "options": ["है", "हूँ", "हो", "हैं"],
+              "options_read_as": ["hai", "huuṁ", "ho", "haiṁ"],
+              "answer_index": 3,
+              "explanation_en": "हम is plural, so the verb is हैं."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["हम खुश हूँ।", "हम खुश हैं।", "हम खुश है।", "हम खुश हो।"],
+              "options_read_as": ["ham khush huuṁ.", "ham khush haiṁ.", "ham khush hai.", "ham khush ho."],
+              "answer_index": 1,
+              "explanation_en": "हम is plural and first person, so only हैं fits."
+            }
+          },
+          "audio": {
+            "tts_strings": ["हम यहाँ हैं।", "हम अच्छे हैं।", "हम खुश थे।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L06-I3",
+          "type": "grammar",
+          "target": "यह",
+          "read_as": "yah",
+          "pronunciation_notes": "Written यह but said 'ye' in almost all ordinary speech, with the ह barely sounded.",
+          "gloss_en": "this; he, she, it — near",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["pronoun", "demonstrative", "third_person", "near", "singular"],
+          "cards": {
+            "learn": {
+              "title_en": "यह — this, and he or she nearby",
+              "explanation_en": "यह does two jobs at once. It means 'this', and it is also the third person pronoun for someone or something close at hand. Hindi does not separate 'this' from 'he' and 'she' the way English does, and it does not mark gender on the pronoun at all — यह अच्छा है and यह अच्छी है differ only in the adjective. It takes है, and it is written यह but said 'ye'.",
+              "examples": [
+                { "hindi": "यह किताब है।", "read_as": "yah kitaab hai.", "english": "This is a book.", "note": "यह as a demonstrative, standing before a noun." },
+                { "hindi": "यह अच्छा है।", "read_as": "yah achchhaa hai.", "english": "This is good.", "note": "यह standing alone as the subject." },
+                { "hindi": "यह गरम है।", "read_as": "yah garam hai.", "english": "This is hot.", "note": "The same word covers 'this' and 'it'." }
+              ],
+              "common_error": {
+                "wrong": "यह किताबें हैं।",
+                "right": "ये किताबें हैं।",
+                "why_en": "यह is singular, so a plural noun needs ये instead."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "यह किताब ___।",
+              "question_read_as": "yah kitaab ___.",
+              "options": ["है", "हैं", "हूँ", "हो"],
+              "options_read_as": ["hai", "haiṁ", "huuṁ", "ho"],
+              "answer_index": 0,
+              "explanation_en": "यह and किताब are both singular, so the verb is है."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["यह किताबें हैं।", "यह किताबें है।", "यह किताब है।", "यह किताब हैं।"],
+              "options_read_as": ["yah kitaabeṁ haiṁ.", "yah kitaabeṁ hai.", "yah kitaab hai.", "yah kitaab haiṁ."],
+              "answer_index": 2,
+              "explanation_en": "यह is singular, so it needs a singular noun and a singular verb."
+            }
+          },
+          "audio": {
+            "tts_strings": ["यह किताब है।", "यह अच्छा है।", "यह गरम है।"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added तू, हम and यह. तू is the one to recognise and avoid, हम behaves as a plural, and यह covers both 'this' and a nearby 'he' or 'she'.",
+        "key_forms": ["तू कहाँ है?", "हम यहाँ हैं।", "यह किताब है।"],
+        "next_up_en": "Next: वह, ये and वे complete the nine pronouns."
+      }
+    },
+    {
+      "level": 7,
+      "title_en": "वह, ये, वे",
+      "title_hi": "दूर और बहुवचन",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L07-I1",
+          "type": "grammar",
+          "target": "वह",
+          "read_as": "vah",
+          "pronunciation_notes": "Written वह but said 'vo' in almost all ordinary speech, which catches learners who have only seen it written.",
+          "gloss_en": "that; he, she, it — far",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["pronoun", "demonstrative", "third_person", "far", "singular"],
+          "cards": {
+            "learn": {
+              "title_en": "वह — that, and he or she over there",
+              "explanation_en": "वह is the far counterpart of यह: 'that', and also 'he' or 'she' when the person is not right beside you. Like यह it takes है and marks no gender of its own. And like यह it is written one way and said another — वह comes out as 'vo' in ordinary speech, so a learner who has only read it will not recognise it when it is spoken.",
+              "examples": [
+                { "hindi": "वह किताब है।", "read_as": "vah kitaab hai.", "english": "That is a book.", "note": "वह as a demonstrative before a noun." },
+                { "hindi": "वह अच्छा है।", "read_as": "vah achchhaa hai.", "english": "He is good.", "note": "The same word doing duty as a pronoun." },
+                { "hindi": "वह घर बड़ा है।", "read_as": "vah ghar baṛaa hai.", "english": "That house is big.", "note": "वह modifying a noun inside a longer sentence." }
+              ],
+              "common_error": {
+                "wrong": "वह हैं।",
+                "right": "वह है।",
+                "why_en": "वह is singular and takes है. वे is the plural form."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "वह घर बड़ा ___।",
+              "question_read_as": "vah ghar baṛaa ___.",
+              "options": ["हैं", "हूँ", "है", "हो"],
+              "options_read_as": ["haiṁ", "huuṁ", "hai", "ho"],
+              "answer_index": 2,
+              "explanation_en": "घर is singular, so the verb is है."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["वह अच्छा है।", "वह अच्छा हैं।", "वह अच्छे है।", "वह अच्छा हो।"],
+              "options_read_as": ["vah achchhaa hai.", "vah achchhaa haiṁ.", "vah achchhe hai.", "vah achchhaa ho."],
+              "answer_index": 0,
+              "explanation_en": "वह is singular, so both the adjective and the verb stay singular."
+            }
+          },
+          "audio": {
+            "tts_strings": ["वह किताब है।", "वह अच्छा है।", "वह घर बड़ा है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L07-I2",
+          "type": "grammar",
+          "target": "ये",
+          "read_as": "ye",
+          "pronunciation_notes": "A flat ए with no glide: ye, one syllable — and identical to how यह is usually pronounced.",
+          "gloss_en": "these; they — near; and a respectful singular",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["pronoun", "demonstrative", "third_person", "near", "plural", "respect"],
+          "cards": {
+            "learn": {
+              "title_en": "ये — these, and a respectful 'this person'",
+              "explanation_en": "ये is the plural of यह: 'these', or 'they' for people nearby. It takes हैं. It has a third use worth knowing now: a single person spoken of respectfully takes ये rather than यह, exactly as आप takes हैं. So ये अच्छे हैं can mean 'these are good' or, of one person, 'he is good' said politely — only the situation tells you which.",
+              "examples": [
+                { "hindi": "ये किताबें हैं।", "read_as": "ye kitaabeṁ haiṁ.", "english": "These are books.", "note": "Plural demonstrative with a plural noun." },
+                { "hindi": "ये अच्छे हैं।", "read_as": "ye achchhe haiṁ.", "english": "These are good.", "note": "Standing alone as a plural subject." },
+                { "hindi": "ये बच्चे छोटे हैं।", "read_as": "ye bachche chhoṭe haiṁ.", "english": "These children are small.", "note": "Every word in the sentence is plural." }
+              ],
+              "common_error": {
+                "wrong": "ये किताब है।",
+                "right": "यह किताब है।",
+                "why_en": "ये is plural, so it cannot stand before a singular noun."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "ये किताबें ___।",
+              "question_read_as": "ye kitaabeṁ ___.",
+              "options": ["है", "हैं", "हूँ", "हो"],
+              "options_read_as": ["hai", "haiṁ", "huuṁ", "ho"],
+              "answer_index": 1,
+              "explanation_en": "ये and किताबें are both plural, so the verb is हैं."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["ये किताब है।", "ये बच्चा छोटा है।", "ये अच्छा है।", "ये बच्चे छोटे हैं।"],
+              "options_read_as": ["ye kitaab hai.", "ye bachchaa chhoṭaa hai.", "ye achchhaa hai.", "ye bachche chhoṭe haiṁ."],
+              "answer_index": 3,
+              "explanation_en": "ये is plural, so the noun, the adjective and the verb all have to be plural too."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ये किताबें हैं।", "ये अच्छे हैं।", "ये बच्चे छोटे हैं।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L07-I3",
+          "type": "grammar",
+          "target": "वे",
+          "read_as": "ve",
+          "pronunciation_notes": "Written वे but very often said 'vo', the same as वह, so the spoken singular and plural collapse together.",
+          "gloss_en": "those; they — far; and a respectful singular",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["pronoun", "demonstrative", "third_person", "far", "plural", "respect"],
+          "cards": {
+            "learn": {
+              "title_en": "वे — those, and they",
+              "explanation_en": "वे is the plural of वह: 'those', or 'they' for people further off, and it takes हैं. Like ये it also serves as a respectful singular. There is a practical complication: in ordinary speech वे is usually pronounced exactly like वह, so the difference between singular and plural disappears from the sound entirely and the verb becomes the only thing telling you which was meant.",
+              "examples": [
+                { "hindi": "वे किताबें हैं।", "read_as": "ve kitaabeṁ haiṁ.", "english": "Those are books.", "note": "Plural demonstrative, plural verb." },
+                { "hindi": "वे अच्छे हैं।", "read_as": "ve achchhe haiṁ.", "english": "They are good.", "note": "Standing alone as a subject." },
+                { "hindi": "वे बच्चे छोटे थे।", "read_as": "ve bachche chhoṭe the.", "english": "Those children were small.", "note": "The past plural takes थे." }
+              ],
+              "common_error": {
+                "wrong": "वे है।",
+                "right": "वे हैं।",
+                "why_en": "वे is plural, so the verb has to be हैं."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "वे बच्चे छोटे ___।",
+              "question_read_as": "ve bachche chhoṭe ___.",
+              "options": ["था", "थी", "थीं", "थे"],
+              "options_read_as": ["thaa", "thii", "thiiṁ", "the"],
+              "answer_index": 3,
+              "explanation_en": "बच्चे is masculine and plural, so the past form is थे."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["वे है।", "वे हैं।", "वे हूँ।", "वे हो।"],
+              "options_read_as": ["ve hai.", "ve haiṁ.", "ve huuṁ.", "ve ho."],
+              "answer_index": 1,
+              "explanation_en": "वे is plural, so only हैं fits."
+            }
+          },
+          "audio": {
+            "tts_strings": ["वे किताबें हैं।", "वे अच्छे हैं।", "वे बच्चे छोटे थे।"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed the nine pronouns with वह, ये and वे. Hindi splits them by distance rather than by gender, and in speech वह and वे collapse into the same sound, leaving the verb to carry the number.",
+        "key_forms": ["वह किताब है।", "ये किताबें हैं।", "वे अच्छे हैं।"],
+        "next_up_en": "Next: the three words for 'you' as a social scale, and what each one costs you."
+      }
+    },
+    {
+      "level": 8,
+      "title_en": "Three ways to say 'you'",
+      "title_hi": "तू तुम आप",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L08-I1",
+          "type": "grammar",
+          "target": "तू है",
+          "read_as": "tuu hai",
+          "pronunciation_notes": "Both words are single syllables and neither carries stress: tuu hai.",
+          "gloss_en": "the तू level — intimate or contemptuous",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["register", "second_person", "intimate", "warning", "social_distance"],
+          "cards": {
+            "learn": {
+              "title_en": "The तू level",
+              "explanation_en": "The three words for 'you' form a scale of social distance, and तू sits at the bottom of it. Parents use it to small children, lifelong friends use it to each other, and it is the form used in prayer. Everyone else hears it as contempt. There is no situation in which a learner needs तू and several in which using it would end a conversation badly, so treat it as read-only: know it when you hear it, never say it.",
+              "examples": [
+                { "hindi": "तू कहाँ है?", "read_as": "tuu kahãa hai?", "english": "Where are you?", "note": "Affectionate from a parent, an insult from a stranger." },
+                { "hindi": "तू अच्छा है।", "read_as": "tuu achchhaa hai.", "english": "You are good.", "note": "Singular agreement all the way through." },
+                { "hindi": "तू यहाँ था।", "read_as": "tuu yahãa thaa.", "english": "You were here.", "note": "The past takes था or थी, exactly like a singular." }
+              ],
+              "common_error": {
+                "wrong": "तू हो।",
+                "right": "तू है।",
+                "why_en": "तू takes है — though the correction a learner actually needs is to switch to तुम or आप."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "तू यहाँ ___।",
+              "question_read_as": "tuu yahãa ___.",
+              "options": ["थे", "थीं", "था", "हो"],
+              "options_read_as": ["the", "thiiṁ", "thaa", "ho"],
+              "answer_index": 2,
+              "explanation_en": "तू behaves as a singular, so the past form is था or थी."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which pairing is grammatically correct?",
+              "options": ["तू है", "तू हो", "तू हैं", "तू हूँ"],
+              "options_read_as": ["tuu hai", "tuu ho", "tuu haiṁ", "tuu huuṁ"],
+              "answer_index": 0,
+              "explanation_en": "तू takes है. Being able to recognise this pairing matters more than being able to use it."
+            }
+          },
+          "audio": {
+            "tts_strings": ["तू कहाँ है?", "तू अच्छा है।", "तू यहाँ था।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L08-I2",
+          "type": "grammar",
+          "target": "तुम हो",
+          "read_as": "tum ho",
+          "pronunciation_notes": "Both words drop their final vowels and run together easily in speech: tum ho.",
+          "gloss_en": "the तुम level — friends and equals",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["register", "second_person", "familiar", "social_distance", "agreement"],
+          "cards": {
+            "learn": {
+              "title_en": "The तुम level",
+              "explanation_en": "तुम is the middle of the scale and the one you will use most with people you actually know: friends, siblings, cousins, colleagues of your own age, children who are past being tiny. It takes हो, and its adjectives take plural endings even when you are speaking to one person. Moving from आप to तुम with someone is a small social event, and it is normally the older or more senior person who offers it.",
+              "examples": [
+                { "hindi": "तुम कैसे हो?", "read_as": "tum kaise ho?", "english": "How are you?", "note": "The ordinary greeting between friends." },
+                { "hindi": "तुम अच्छे हो।", "read_as": "tum achchhe ho.", "english": "You are good.", "note": "A plural adjective for a single person." },
+                { "hindi": "तुम यहाँ थे।", "read_as": "tum yahãa the.", "english": "You were here.", "note": "The past takes थे, or थीं for a woman." }
+              ],
+              "common_error": {
+                "wrong": "तुम अच्छा हो।",
+                "right": "तुम अच्छे हो।",
+                "why_en": "तुम takes plural agreement, so the adjective is अच्छे even when one person is meant."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "तुम अच्छे ___।",
+              "question_read_as": "tum achchhe ___.",
+              "options": ["हो", "है", "हैं", "हूँ"],
+              "options_read_as": ["ho", "hai", "haiṁ", "huuṁ"],
+              "answer_index": 0,
+              "explanation_en": "तुम takes हो, and nothing else does."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["तुम अच्छा हो।", "तुम अच्छे हैं।", "तुम अच्छे हो।", "तुम अच्छे है।"],
+              "options_read_as": ["tum achchhaa ho.", "tum achchhe haiṁ.", "tum achchhe ho.", "tum achchhe hai."],
+              "answer_index": 2,
+              "explanation_en": "तुम needs a plural adjective and the verb हो. Only one option has both."
+            }
+          },
+          "audio": {
+            "tts_strings": ["तुम कैसे हो?", "तुम अच्छे हो।", "तुम यहाँ थे।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L08-I3",
+          "type": "grammar",
+          "target": "आप हैं",
+          "read_as": "aap haiṁ",
+          "pronunciation_notes": "Two long vowels then a nasalised one: aap haiṁ, with no n sounded at the end.",
+          "gloss_en": "the आप level — respect and distance",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["register", "second_person", "polite", "social_distance", "default"],
+          "cards": {
+            "learn": {
+              "title_en": "The आप level",
+              "explanation_en": "आप is the top of the scale: elders, strangers, teachers, officials, anyone senior, and anyone you have not met before. It takes हैं and थे. For a learner it is the right default almost everywhere, because the cost of being too polite is nothing — at worst someone tells you to relax and use तुम, which is a pleasant thing to be told and a signal you have been accepted.",
+              "examples": [
+                { "hindi": "आप कैसे हैं?", "read_as": "aap kaise haiṁ?", "english": "How are you?", "note": "The safe greeting for anyone at all." },
+                { "hindi": "आप अच्छे हैं।", "read_as": "aap achchhe haiṁ.", "english": "You are good.", "note": "Plural agreement, however many people are meant." },
+                { "hindi": "आप कहाँ थे?", "read_as": "aap kahãa the?", "english": "Where were you?", "note": "The past takes थे, or थीं for a woman." }
+              ],
+              "common_error": {
+                "wrong": "आप कैसे हो?",
+                "right": "आप कैसे हैं?",
+                "why_en": "आप takes हैं. Mixing आप with हो sounds like you began respectfully and gave up halfway through."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "आप कहाँ ___?",
+              "question_read_as": "aap kahãa ___?",
+              "options": ["हो", "हैं", "है", "हूँ"],
+              "options_read_as": ["ho", "haiṁ", "hai", "huuṁ"],
+              "answer_index": 1,
+              "explanation_en": "आप takes हैं, whether one person or several are meant."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["आप कैसे हो?", "आप कैसे है?", "आप कैसे हूँ?", "आप कैसे हैं?"],
+              "options_read_as": ["aap kaise ho?", "aap kaise hai?", "aap kaise huuṁ?", "aap kaise haiṁ?"],
+              "answer_index": 3,
+              "explanation_en": "आप always takes हैं. हो belongs with तुम and sounds too familiar here."
+            }
+          },
+          "audio": {
+            "tts_strings": ["आप कैसे हैं?", "आप अच्छे हैं।", "आप कहाँ थे?"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level set out the three levels of 'you' as a social scale. तू is for reading only, तुम is for people you know, and आप is the learner's default — and each takes its own form of होना.",
+        "key_forms": ["तू है", "तुम हो", "आप हैं"],
+        "next_up_en": "Next: making the choice, the same scale in the past, and the particle जी."
+      }
+    },
+    {
+      "level": 9,
+      "title_en": "Choosing, and the particle जी",
+      "title_hi": "चुनाव और जी",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L09-I1",
+          "type": "grammar",
+          "target": "तू / तुम / आप",
+          "read_as": "tuu / tum / aap",
+          "pronunciation_notes": "All three are short and unstressed, so in fast speech the pronoun is easy to miss and the verb often gives it away first.",
+          "gloss_en": "choosing between the three",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["register", "second_person", "social_distance", "decision", "learner_strategy"],
+          "cards": {
+            "learn": {
+              "title_en": "Making the choice",
+              "explanation_en": "English has one word for 'you' and Hindi has three, so every time you address someone you make a decision English never asked of you. The rule for a learner is short enough to memorise: use आप unless you have been invited to use तुम, and never use तू. Erring upwards is invisible and costs nothing. Erring downwards is not invisible at all.",
+              "examples": [
+                { "hindi": "आप कहाँ हैं?", "read_as": "aap kahãa haiṁ?", "english": "Where are you?", "note": "To anyone at all: safe." },
+                { "hindi": "तुम कहाँ हो?", "read_as": "tum kahãa ho?", "english": "Where are you?", "note": "To a friend: warm and correct." },
+                { "hindi": "तू कहाँ है?", "read_as": "tuu kahãa hai?", "english": "Where are you?", "note": "To a stranger: an insult." }
+              ],
+              "common_error": {
+                "wrong": "तू कैसे है?",
+                "right": "आप कैसे हैं?",
+                "why_en": "The same question exists at three levels of politeness, and only the top one is safe for a learner to use."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "___ कैसे हैं?",
+              "question_read_as": "___ kaise haiṁ?",
+              "options": ["तू", "तुम", "मैं", "आप"],
+              "options_read_as": ["tuu", "tum", "maiṁ", "aap"],
+              "answer_index": 3,
+              "explanation_en": "हैं points to आप here. तू would need है and तुम would need हो."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which greeting is safe for a learner to use with a stranger?",
+              "options": ["तू कहाँ है?", "आप कैसे हैं?", "तुम कैसे हो?", "तू कैसे हो?"],
+              "options_read_as": ["tuu kahãa hai?", "aap kaise haiṁ?", "tum kaise ho?", "tuu kaise ho?"],
+              "answer_index": 1,
+              "explanation_en": "Only आप is safe with someone you do not know. तुम is correct Hindi but too familiar here, and the तू options are worse."
+            }
+          },
+          "audio": {
+            "tts_strings": ["आप कहाँ हैं?", "तुम कहाँ हो?", "तू कहाँ है?"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L09-I2",
+          "type": "grammar",
+          "target": "तू था / तुम थे / आप थे",
+          "read_as": "tuu thaa / tum the / aap the",
+          "pronunciation_notes": "थे and था differ only in the final vowel, and neither is stressed, so the distinction is easy to lose in fast speech.",
+          "gloss_en": "the same scale in the past",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["register", "past", "agreement", "second_person", "social_distance"],
+          "cards": {
+            "learn": {
+              "title_en": "The same scale in the past",
+              "explanation_en": "The three levels keep their agreement in the past as well. तू behaves as a singular and takes था or थी. तुम and आप both behave as plurals and take थे or थीं. That means तुम and आप look identical once you reach the verb — the difference between them survives only in the pronoun itself, so dropping the pronoun costs you the politeness along with it.",
+              "examples": [
+                { "hindi": "तू यहाँ थी।", "read_as": "tuu yahãa thii.", "english": "You were here.", "note": "Singular, and feminine." },
+                { "hindi": "तुम यहाँ थे।", "read_as": "tum yahãa the.", "english": "You were here.", "note": "Plural agreement for one person." },
+                { "hindi": "आप यहाँ थे।", "read_as": "aap yahãa the.", "english": "You were here.", "note": "The identical verb, with more respect in the pronoun." }
+              ],
+              "common_error": {
+                "wrong": "आप यहाँ था।",
+                "right": "आप यहाँ थे।",
+                "why_en": "आप takes plural agreement, so its past form is थे or थीं and never था."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "आप यहाँ ___।",
+              "question_read_as": "aap yahãa ___.",
+              "options": ["थे", "था", "थी", "हैं"],
+              "options_read_as": ["the", "thaa", "thii", "haiṁ"],
+              "answer_index": 0,
+              "explanation_en": "आप takes plural agreement, so the past form is थे."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["आप यहाँ था।", "तुम यहाँ था।", "तू यहाँ था।", "हम यहाँ था।"],
+              "options_read_as": ["aap yahãa thaa.", "tum yahãa thaa.", "tuu yahãa thaa.", "ham yahãa thaa."],
+              "answer_index": 2,
+              "explanation_en": "तू is the only one of the four that behaves as a singular, so it is the only one that can take था."
+            }
+          },
+          "audio": {
+            "tts_strings": ["तू यहाँ थी।", "तुम यहाँ थे।", "आप यहाँ थे।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L09-I3",
+          "type": "grammar",
+          "target": "जी",
+          "read_as": "jii",
+          "pronunciation_notes": "A single long syllable, unstressed and often run onto the word before it: jii.",
+          "gloss_en": "a particle of respect",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["register", "particle", "respect", "invariable", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "जी — respect in one syllable",
+              "explanation_en": "जी is added after names and kinship terms to show respect: पिता जी, दादी जी. On its own it is a polite 'yes', and जी हाँ is more formal still. It never changes form and it costs nothing to add, which makes it the cheapest way for a learner to sound courteous without having to get anything else right. Remember that a person spoken of respectfully also takes हैं rather than है.",
+              "examples": [
+                { "hindi": "पिता जी", "read_as": "pitaa jii", "english": "father (respectful)", "note": "Added to a kinship term, unchanged." },
+                { "hindi": "दादी जी", "read_as": "daadii jii", "english": "grandmother (respectful)", "note": "The same particle, and it does not agree with anything." },
+                { "hindi": "जी हाँ", "read_as": "jii hãa", "english": "yes (formal)", "note": "More formal than हाँ standing on its own." }
+              ],
+              "common_error": {
+                "wrong": "पिता जी है।",
+                "right": "पिता जी हैं।",
+                "why_en": "Adding जी marks respect, and a person spoken of respectfully takes हैं rather than है."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "पिता जी ___।",
+              "question_read_as": "pitaa jii ___.",
+              "options": ["है", "हूँ", "हैं", "हो"],
+              "options_read_as": ["hai", "huuṁ", "haiṁ", "ho"],
+              "answer_index": 2,
+              "explanation_en": "जी marks respect, and a respected person takes हैं even though only one is meant."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["दादी जी हैं।", "दादी जी है।", "दादी जी हो।", "दादी जी हूँ।"],
+              "options_read_as": ["daadii jii haiṁ.", "daadii jii hai.", "daadii jii ho.", "daadii jii huuṁ."],
+              "answer_index": 0,
+              "explanation_en": "The respectful हैं goes with जी, the same way it goes with आप."
+            }
+          },
+          "audio": {
+            "tts_strings": ["पिता जी", "दादी जी", "जी हाँ"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level turned the register scale into a decision rule — आप by default, तुम when invited, तू never — and added जी, which extends respect to anyone you name.",
+        "key_forms": ["आप कैसे हैं?", "आप यहाँ थे।", "पिता जी हैं।"],
+        "next_up_en": "Next: यह against वह, ये against वे, and a short conversation in a shop."
+      }
+    },
+    {
+      "level": 10,
+      "title_en": "Near and far",
+      "title_hi": "यह और वह",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M05-L10-I1",
+          "type": "grammar",
+          "target": "यह / वह",
+          "read_as": "yah / vah",
+          "pronunciation_notes": "Said 'ye' and 'vo' in ordinary speech, so listen for the vowel rather than expecting the spelling.",
+          "gloss_en": "near against far, in the singular",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["demonstrative", "near", "far", "contrast", "singular"],
+          "cards": {
+            "learn": {
+              "title_en": "यह and वह — near and far",
+              "explanation_en": "यह points at what is close and वह at what is further off, which is the same split English makes between 'this' and 'that'. The difference is that Hindi uses these same two words for 'he' and 'she', choosing by distance rather than by gender — so nothing in the pronoun tells you who is being spoken about. Both take है.",
+              "examples": [
+                { "hindi": "यह किताब है।", "read_as": "yah kitaab hai.", "english": "This is a book.", "note": "Something near at hand." },
+                { "hindi": "वह किताब है।", "read_as": "vah kitaab hai.", "english": "That is a book.", "note": "The same kind of object, further away." },
+                { "hindi": "यह गरम है।", "read_as": "yah garam hai.", "english": "This is hot.", "note": "Standing alone, with no noun after it." }
+              ],
+              "common_error": {
+                "wrong": "वह किताबें हैं।",
+                "right": "वे किताबें हैं।",
+                "why_en": "वह is singular, so a plural noun needs वे instead."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence about something close by.",
+              "question": "___ किताब है।",
+              "question_read_as": "___ kitaab hai.",
+              "options": ["वे", "ये", "वह", "यह"],
+              "options_read_as": ["ve", "ye", "vah", "yah"],
+              "answer_index": 3,
+              "explanation_en": "किताब is singular and the thing is close by, so the word is यह."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["वह किताबें हैं।", "वे किताबें हैं।", "यह किताबें हैं।", "ये किताब है।"],
+              "options_read_as": ["vah kitaabeṁ haiṁ.", "ve kitaabeṁ haiṁ.", "yah kitaabeṁ haiṁ.", "ye kitaab hai."],
+              "answer_index": 1,
+              "explanation_en": "किताबें is plural, so it needs a plural demonstrative — वे for something far off."
+            }
+          },
+          "audio": {
+            "tts_strings": ["यह किताब है।", "वह किताब है।", "यह गरम है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L10-I2",
+          "type": "grammar",
+          "target": "ये / वे",
+          "read_as": "ye / ve",
+          "pronunciation_notes": "ये is said 'ye' and वे usually 'vo', so वे and वह sound alike and only the verb separates them.",
+          "gloss_en": "near against far, in the plural",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["demonstrative", "near", "far", "contrast", "plural", "respect"],
+          "cards": {
+            "learn": {
+              "title_en": "ये and वे — these and those",
+              "explanation_en": "ये and वे are the plurals of यह and वह, and both take हैं. Both also serve as respectful singulars, which is why ये अच्छे हैं can mean 'these are good' or, of one person, 'he is good' said politely. In speech वे is usually pronounced the same as वह, so the written difference disappears and the verb becomes your only clue to the number.",
+              "examples": [
+                { "hindi": "ये किताबें हैं।", "read_as": "ye kitaabeṁ haiṁ.", "english": "These are books.", "note": "Near, and plural." },
+                { "hindi": "वे किताबें हैं।", "read_as": "ve kitaabeṁ haiṁ.", "english": "Those are books.", "note": "Far, and plural." },
+                { "hindi": "ये अच्छे हैं।", "read_as": "ye achchhe haiṁ.", "english": "These are good.", "note": "Or, of one person, 'he is good' said respectfully." }
+              ],
+              "common_error": {
+                "wrong": "ये किताब है।",
+                "right": "यह किताब है।",
+                "why_en": "A singular noun needs the singular यह."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence about things close by.",
+              "question": "___ किताबें हैं।",
+              "question_read_as": "___ kitaabeṁ haiṁ.",
+              "options": ["वे", "ये", "वह", "यह"],
+              "options_read_as": ["ve", "ye", "vah", "yah"],
+              "answer_index": 1,
+              "explanation_en": "किताबें is plural and the things are close by, so the word is ये."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["ये अच्छा है।", "ये अच्छे है।", "ये अच्छी है।", "ये अच्छे हैं।"],
+              "options_read_as": ["ye achchhaa hai.", "ye achchhe hai.", "ye achchhii hai.", "ye achchhe haiṁ."],
+              "answer_index": 3,
+              "explanation_en": "ये is plural, so both the adjective and the verb have to be plural as well."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ये किताबें हैं।", "वे किताबें हैं।", "ये अच्छे हैं।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L10-I3",
+          "type": "dialogue",
+          "target": "यह क्या है?",
+          "read_as": "yah kyaa hai?",
+          "pronunciation_notes": "यह is said 'ye' and क्या runs क straight into य, so the whole question is three quick syllables.",
+          "gloss_en": "asking what something is",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["demonstrative", "question", "dialogue", "near", "far", "shop"],
+          "setting_en": "A customer and a shopkeeper at a small shop",
+          "speakers": 2,
+          "speed": "slow",
+          "cards": {
+            "learn": {
+              "title_en": "Asking what something is",
+              "explanation_en": "यह क्या है? is the most useful question a beginner owns: point, ask, and take the answer as vocabulary. Swap यह for वह and you are asking about something across the room instead. Watch the shopkeeper's last line in this exchange — he switches to वे because he is pointing at more than one thing, and the verb changes with it.",
+              "lines": [
+                { "speaker": "A", "hindi": "यह क्या है?", "read_as": "yah kyaa hai?", "english": "What is this?" },
+                { "speaker": "B", "hindi": "यह साबुन है।", "read_as": "yah saabun hai.", "english": "This is soap." },
+                { "speaker": "A", "hindi": "और वह क्या है?", "read_as": "aur vah kyaa hai?", "english": "And what is that?" },
+                { "speaker": "B", "hindi": "वे किताबें हैं।", "read_as": "ve kitaabeṁ haiṁ.", "english": "Those are books." }
+              ],
+              "common_error": {
+                "wrong": "वह किताबें हैं।",
+                "right": "वे किताबें हैं।",
+                "why_en": "The shopkeeper is pointing at several books, so the demonstrative has to be plural too."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "वे किताबें ___।",
+              "question_read_as": "ve kitaabeṁ ___.",
+              "options": ["हैं", "है", "हूँ", "हो"],
+              "options_read_as": ["haiṁ", "hai", "huuṁ", "ho"],
+              "answer_index": 0,
+              "explanation_en": "वे and किताबें are both plural, so the verb is हैं."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the last line. Which word is missing?",
+              "masked_line_index": 3,
+              "masked_word": "वे",
+              "mask_reason": "the plural far demonstrative agreeing with किताबें",
+              "options": ["यह", "वह", "वे", "ये"],
+              "options_read_as": ["yah", "vah", "ve", "ye"],
+              "answer_index": 2,
+              "explanation_en": "The books are plural and across the shop, so the demonstrative is वे — far, and plural."
+            }
+          },
+          "audio": {
+            "tts_strings": ["यह क्या है?", "यह साबुन है।", "और वह क्या है?", "वे किताबें हैं।"],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level set the four demonstratives against each other: यह and वह for one thing near or far, ये and वे for several. The shop dialogue puts all four to work, and shows the verb changing along with them.",
+        "key_forms": ["यह क्या है?", "वह किताब है।", "वे किताबें हैं।"],
+        "next_up_en": "Next: more on the demonstratives, and then the question words in full."
+      }
+    }
+  ]
+}

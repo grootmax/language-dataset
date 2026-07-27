@@ -1,0 +1,1579 @@
+{
+  "module": 11,
+  "module_name_en": "Compound Verbs, Modals and Causatives",
+  "module_name_hi": "संयुक्त क्रिया, सकना और प्रेरणार्थक",
+  "phase": 4,
+  "batch": {
+    "levels_from": 1,
+    "levels_to": 5
+  },
+  "levels": [
+    {
+      "level": 1,
+      "title_en": "Two verbs, one action",
+      "title_hi": "वेक्टर क्रिया",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L01-I1",
+          "type": "grammar",
+          "target": "क्रिया + वेक्टर",
+          "read_as": "kriyaa + vekṭar",
+          "pronunciation_notes": null,
+          "gloss_en": "main verb plus vector — what a compound verb is",
+          "gender": null,
+          "difficulty": 5,
+          "tags": [
+            "compound_verb",
+            "vector",
+            "concept",
+            "bare_stem"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Two verbs, and still only one thing happening",
+              "explanation_en": "Hindi very often uses two verbs where English uses one. मैंने खाना खा लिया has खा, the bare stem of खाना, followed by लिया from लेना. Only one thing is happening — eating. The second verb is not a second action; it is a shade of meaning, saying how the action landed, who it was for, whether it finished. Grammar books call the second verb a vector. There are four you need — लेना, देना, जाना, पड़ना — and this module takes them one at a time. The shape never varies: the main verb goes to its bare stem, खाना to खा, समझना to समझ, करना to कर, and the vector takes every ending.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने खाना खा लिया।",
+                "without_vector": "मैंने खाना खाया।",
+                "difference_en": "Both are correct Hindi. The vector adds that the eating is finished and settled; the plain form simply reports it."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने खाना खा लिया।",
+                  "read_as": "maiṁne khaanaa khaa liyaa.",
+                  "english": "I've eaten.",
+                  "note": "खा is the bare stem; लिया carries the tense and the agreement."
+                },
+                {
+                  "hindi": "मैंने खाना खाया।",
+                  "read_as": "maiṁne khaanaa khaayaa.",
+                  "english": "I ate.",
+                  "note": "Also correct. No vector, no extra shading."
+                },
+                {
+                  "hindi": "वह आ गया।",
+                  "read_as": "vah aa gayaa.",
+                  "english": "He's arrived.",
+                  "note": "आ plus गया. Two verbs, one arrival."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने खाना खाया लिया।",
+                "right": "मैंने खाना खा लिया।",
+                "why_en": "The main verb must be a bare stem. खाया is already inflected and cannot stand in front of a vector."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "Pick the correctly built compound.",
+              "question": "मैंने खाना ___ ।",
+              "question_read_as": "maiṁne khaanaa ___ .",
+              "options": [
+                "खाया लिया",
+                "खा लिया",
+                "खाना लिया",
+                "खाती लिया"
+              ],
+              "options_read_as": [
+                "khaayaa liyaa",
+                "khaa liyaa",
+                "khaanaa liyaa",
+                "khaatii liyaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Bare stem खा, then the vector लिया. Only the vector inflects."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You simply want to report that you ate, with no extra shading.",
+              "options": [
+                "मैंने खाना खा दिया।",
+                "मैं खाना खाता हूँ।",
+                "मैंने खाना खा लिया।",
+                "मैंने खाना खाया।"
+              ],
+              "options_read_as": [
+                "maiṁne khaanaa khaa diyaa.",
+                "maiṁ khaanaa khaataa huuṁ.",
+                "maiṁne khaanaa khaa liyaa.",
+                "maiṁne khaanaa khaayaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "All four are correct Hindi. The plain perfective खाया is the neutral report. खा लिया adds completion, खा दिया turns the action outward, and the last is habitual."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने खाना खा लिया।",
+              "मैंने खाना खाया।",
+              "वह आ गया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L01-I2",
+          "type": "grammar",
+          "target": "वेक्टर पर सब कुछ",
+          "read_as": "vekṭar par sab kuchh",
+          "pronunciation_notes": null,
+          "gloss_en": "the vector carries tense, gender, number and ने",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "compound_verb",
+            "vector",
+            "agreement",
+            "module9_link",
+            "core_rule"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The second verb does all the work",
+              "explanation_en": "Once you have written the stem it never changes again. Tense, gender, number and even the ने question are all decided by the vector. मैंने किताब पढ़ ली — पढ़ is fixed, and ली is feminine because किताब is feminine. That is Module 9 still running: with ने the verb agrees with the object, and in a compound the vector is the verb. The ने question is the part to watch, and the rule is stricter than it first looks: ने appears only when the main verb and the vector are BOTH transitive. खा लिया has transitive खाना and transitive लेना, so मैंने. खा गया has transitive खाना and intransitive जाना, so वह — no ने at all, which is the surprise waiting in level 7. And रो दिया has intransitive रोना, so no ने either, whatever देना is doing on its own.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने किताब पढ़ ली।",
+                "without_vector": "मैंने किताब पढ़ी।",
+                "difference_en": "Both correct. Note that the feminine ending lands on ली in the first and on पढ़ी in the second — it is always on the last verb in the phrase."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने किताब पढ़ ली।",
+                  "read_as": "maiṁne kitaab paṛh lii.",
+                  "english": "I read the book.",
+                  "note": "किताब is feminine, so the vector is ली."
+                },
+                {
+                  "hindi": "मैंने पैसे दे दिए।",
+                  "read_as": "maiṁne paise de die.",
+                  "english": "I handed over the money.",
+                  "note": "पैसे is masculine plural, so दिए."
+                },
+                {
+                  "hindi": "वह आ गया।",
+                  "read_as": "vah aa gayaa.",
+                  "english": "He arrived.",
+                  "note": "Both आना and जाना are intransitive, so there is no ने anywhere in the sentence."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने किताब पढ़ी ली।",
+                "right": "मैंने किताब पढ़ ली।",
+                "why_en": "Only the vector inflects. The main verb stays a bare stem no matter what the object is."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The object is चिट्ठी. Complete the compound.",
+              "question": "मैंने चिट्ठी लिख ___ ।",
+              "question_read_as": "maiṁne chiṭṭhii likh ___ .",
+              "options": [
+                "दी",
+                "दिए",
+                "दीं",
+                "दिया"
+              ],
+              "options_read_as": [
+                "dii",
+                "die",
+                "diiṁ",
+                "diyaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "चिट्ठी is feminine singular, so the vector is दी."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You wrote the letter out for them, and it is done.",
+              "options": [
+                "मैं चिट्ठी लिखता हूँ।",
+                "मैंने चिट्ठी लिखी।",
+                "मैंने चिट्ठी लिख दी।",
+                "मैंने चिट्ठी लिख ली।"
+              ],
+              "options_read_as": [
+                "maiṁ chiṭṭhii likhtaa huuṁ.",
+                "maiṁne chiṭṭhii likhii.",
+                "maiṁne chiṭṭhii likh dii.",
+                "maiṁne chiṭṭhii likh lii."
+              ],
+              "answer_index": 2,
+              "explanation_en": "All four are correct. दी turns the action outward, which is what \"for them\" needs. ली would keep the letter with you, and the first simply reports the writing."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने किताब पढ़ ली।",
+              "मैंने पैसे दे दिए।",
+              "वह आ गया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L01-I3",
+          "type": "grammar",
+          "target": "वेक्टर के बिना",
+          "read_as": "vekṭar ke binaa",
+          "pronunciation_notes": null,
+          "gloss_en": "without a vector — still correct Hindi",
+          "gender": null,
+          "difficulty": 5,
+          "tags": [
+            "compound_verb",
+            "vector",
+            "concept",
+            "register",
+            "critical"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A sentence with no vector is not a broken sentence",
+              "explanation_en": "This needs saying plainly, because it is the thing most likely to go wrong in your head over the next seventeen levels. मैंने खाना खाया is correct, natural, everyday Hindi. It is not a beginner's version of मैंने खाना खा लिया. The two mean slightly different things, and there are contexts where the plain one is better — neutral narration, a list of events, anything where you do not want to draw attention to how the action landed. What is true is that speech with no vectors at all sounds flat, because native speakers reach for them constantly. So the skill is not \"always add a vector\". It is knowing which shade you want, including none. Habitual statements in particular usually take no vector at all.",
+              "vectorless_equivalent": {
+                "with_vector": "मैं रोज़ खाना खा लेता हूँ।",
+                "without_vector": "मैं रोज़ खाना खाता हूँ।",
+                "difference_en": "Here the plain form is the natural one. Vectors sit badly with habitual statements, because there is no single completed action to shade."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने खाना खाया।",
+                  "read_as": "maiṁne khaanaa khaayaa.",
+                  "english": "I ate.",
+                  "note": "Complete, correct, neutral."
+                },
+                {
+                  "hindi": "मैंने खाना खा लिया।",
+                  "read_as": "maiṁne khaanaa khaa liyaa.",
+                  "english": "I've eaten.",
+                  "note": "Finished, and the point is that it is done."
+                },
+                {
+                  "hindi": "कल मैं दिल्ली गया और वहाँ दो दिन रुका।",
+                  "read_as": "kal maiṁ dillii gayaa aur vahaaṁ do din rukaa.",
+                  "english": "Yesterday I went to Delhi and stayed two days.",
+                  "note": "Plain narration. Adding vectors here would make it fussy."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं रोज़ खाना खा लेता हूँ।",
+                "right": "मैं रोज़ खाना खाता हूँ।",
+                "why_en": "Vectors shade a single completed action. For something you do every day there is nothing to shade, so the plain form is what you want."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "A plain habitual statement. Pick the natural form.",
+              "question": "मैं रोज़ खाना ___ ।",
+              "question_read_as": "maiṁ roz khaanaa ___ .",
+              "options": [
+                "खा देता हूँ",
+                "खा गया",
+                "खा लेता हूँ",
+                "खाता हूँ"
+              ],
+              "options_read_as": [
+                "khaa detaa huuṁ",
+                "khaa gayaa",
+                "khaa letaa huuṁ",
+                "khaataa huuṁ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Habituals normally take no vector. The others are all possible sentences but none of them is what \"every day\" wants."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You are narrating what happened, with no emphasis on how it finished.",
+              "options": [
+                "मैंने खाना खा दिया।",
+                "मैंने खाना खाया।",
+                "मैं खाना खा रहा था।",
+                "मैंने खाना खा लिया।"
+              ],
+              "options_read_as": [
+                "maiṁne khaanaa khaa diyaa.",
+                "maiṁne khaanaa khaayaa.",
+                "maiṁ khaanaa khaa rahaa thaa.",
+                "maiṁne khaanaa khaa liyaa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "Every option here is good Hindi. Plain खाया is the narrator's form; the first two shade the completion, and the last describes it in progress."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने खाना खाया।",
+              "मैंने खाना खा लिया।",
+              "मैं रोज़ खाना खाता हूँ।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A compound verb is a bare stem plus a vector, and the vector carries everything — tense, gender, number, and whether the sentence takes ने. The main verb never inflects. And a sentence with no vector is correct, neutral Hindi, not a mistake.",
+        "key_forms": [
+          "खा लिया",
+          "पढ़ ली",
+          "खाया"
+        ],
+        "next_up_en": "Next: लेना, the vector that turns the action inward."
+      }
+    },
+    {
+      "level": 2,
+      "title_en": "लेना — the action turns inward",
+      "title_hi": "लेना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L02-I1",
+          "type": "grammar",
+          "target": "खा लेना",
+          "read_as": "khaa lenaa",
+          "pronunciation_notes": "खा is one long syllable and it never changes, however the rest of the sentence moves.",
+          "gloss_en": "to finish eating — for oneself",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "compound_verb",
+            "lenaa",
+            "completion",
+            "transitive_vector",
+            "takes_ne"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "लेना keeps the result with the subject",
+              "explanation_en": "लेना as a vector says the action is complete and its result stays with the subject. मैंने खाना खा लिया is \"I've eaten\", with the sense that the eating is done and it was mine to do. Compare मैंने खाना खाया, which simply reports the event. Neither is wrong; they answer different questions. खा लिया is what you say when somebody asks whether you have eaten yet. लेना is transitive, so the compound takes ने and the vector agrees with the object — खाना is masculine, hence लिया.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने खाना खा लिया।",
+                "without_vector": "मैंने खाना खाया।",
+                "difference_en": "Both correct. लिया answers \"have you eaten?\"; the plain form answers \"what did you do?\""
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने खाना खा लिया।",
+                  "read_as": "maiṁne khaanaa khaa liyaa.",
+                  "english": "I've eaten.",
+                  "note": "Completion, and the natural answer to \"have you eaten?\""
+                },
+                {
+                  "hindi": "क्या तुमने खाना खा लिया?",
+                  "read_as": "kyaa tumne khaanaa khaa liyaa?",
+                  "english": "Have you eaten?",
+                  "note": "The question this form exists for."
+                },
+                {
+                  "hindi": "उसने रोटी खा ली।",
+                  "read_as": "usne roṭii khaa lii.",
+                  "english": "He ate the roti.",
+                  "note": "रोटी is feminine, so the vector is ली."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं खाना खा लिया।",
+                "right": "मैंने खाना खा लिया।",
+                "why_en": "लेना is transitive, so the compound takes ने even though nothing about खाना changed."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "You finished eating, for yourself. Pick the vector.",
+              "question": "मैंने खाना खा ___ ।",
+              "question_read_as": "maiṁne khaanaa khaa ___ .",
+              "options": [
+                "पड़ा",
+                "दिया",
+                "लिया",
+                "गया"
+              ],
+              "options_read_as": [
+                "paṛaa",
+                "diyaa",
+                "liyaa",
+                "gayaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "लिया keeps the result with you. दिया would send it outward."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "Someone asks whether you have eaten. You want to say yes, it's done.",
+              "options": [
+                "मैंने खाना खा लिया।",
+                "मैंने खाना खा दिया।",
+                "मैं खाना खाता हूँ।",
+                "मैंने खाना खाया।"
+              ],
+              "options_read_as": [
+                "maiṁne khaanaa khaa liyaa.",
+                "maiṁne khaanaa khaa diyaa.",
+                "maiṁ khaanaa khaataa huuṁ.",
+                "maiṁne khaanaa khaayaa."
+              ],
+              "answer_index": 0,
+              "explanation_en": "All four are correct Hindi. खा लिया is the one that answers the question, because the point is that the eating is finished."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने खाना खा लिया।",
+              "क्या तुमने खाना खा लिया?",
+              "उसने रोटी खा ली।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L02-I2",
+          "type": "grammar",
+          "target": "समझ लेना",
+          "read_as": "samajh lenaa",
+          "pronunciation_notes": "समझ ends on an aspirated jh with no vowel after it: sa-majh.",
+          "gloss_en": "to get it — understanding that has landed",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "compound_verb",
+            "lenaa",
+            "no_object",
+            "neutral_agreement",
+            "module9_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "लेना with nothing to agree with",
+              "explanation_en": "समझ लिया is \"got it\" — understanding that has arrived and stayed. There is no object in the sentence, so the vector has nothing to agree with and falls back to the neutral masculine singular, exactly as it did with को-marked objects in Module 9. मैंने समझ लिया is what you say to show that an explanation has worked, and it is warmer and more final than मैं समझता हूँ. The plain मैंने समझा does exist, but it leans towards \"I took it to mean\" rather than \"I understood\", so this is one place where the vector is usually the better choice.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने समझ लिया।",
+                "without_vector": "मैंने समझा।",
+                "difference_en": "Both grammatical. मैंने समझा tends towards \"I took it to mean\", so the vector form is the ordinary way to say you have understood."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने समझ लिया।",
+                  "read_as": "maiṁne samajh liyaa.",
+                  "english": "Got it.",
+                  "note": "No object, so the neutral लिया."
+                },
+                {
+                  "hindi": "ठीक है, समझ लो।",
+                  "read_as": "ṭhiik hai, samajh lo.",
+                  "english": "Fine, take it as understood.",
+                  "note": "Imperative of the compound; लो is the तुम form of लेना."
+                },
+                {
+                  "hindi": "उसने बात समझ ली।",
+                  "read_as": "usne baat samajh lii.",
+                  "english": "She understood the point.",
+                  "note": "बात is feminine, so ली."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने समझी लिया।",
+                "right": "मैंने समझ लिया।",
+                "why_en": "Only the vector inflects. समझ stays a bare stem whatever else is in the sentence."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "You have fully understood. Pick the vector.",
+              "question": "मैंने समझ ___ ।",
+              "question_read_as": "maiṁne samajh ___ .",
+              "options": [
+                "पड़ा",
+                "लिया",
+                "दिया",
+                "गया"
+              ],
+              "options_read_as": [
+                "paṛaa",
+                "liyaa",
+                "diyaa",
+                "gayaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The understanding stays with you, so लेना. दिया would mean you explained it to somebody else."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You want to tell someone their explanation worked and you have understood.",
+              "options": [
+                "मैंने समझ दिया।",
+                "मैंने समझा।",
+                "मैं समझता हूँ।",
+                "मैंने समझ लिया।"
+              ],
+              "options_read_as": [
+                "maiṁne samajh diyaa.",
+                "maiṁne samajhaa.",
+                "maiṁ samajhtaa huuṁ.",
+                "maiṁne samajh liyaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "Every option is grammatical. समझ लिया is the one that says the understanding has landed; the first is a general statement, the third sends the explaining outward, and the fourth leans towards \"I took it to mean\"."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने समझ लिया।",
+              "ठीक है, समझ लो।",
+              "उसने बात समझ ली।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L02-I3",
+          "type": "grammar",
+          "target": "कर लेना",
+          "read_as": "kar lenaa",
+          "pronunciation_notes": null,
+          "gloss_en": "to get it done — the job is off your list",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "compound_verb",
+            "lenaa",
+            "karnaa_compound",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कर लिया — settled",
+              "explanation_en": "कर लेना is completion with the sense that the job is off your list. मैंने काम कर लिया, I've done the work. It is one of the highest-frequency compounds in the language and worth having ready to say. काम is masculine, so the vector is लिया. And a करना verb built on a noun behaves the same way — मैंने मदद कर ली, with feminine मदद pulling the vector to ली, exactly as it did back in Module 9.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने काम कर लिया।",
+                "without_vector": "मैंने काम किया।",
+                "difference_en": "Both correct. कर लिया says the job is finished and behind you; किया reports that you did it."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने काम कर लिया।",
+                  "read_as": "maiṁne kaam kar liyaa.",
+                  "english": "I've done the work.",
+                  "note": "काम is masculine, so लिया."
+                },
+                {
+                  "hindi": "मैंने मदद कर ली।",
+                  "read_as": "maiṁne madad kar lii.",
+                  "english": "I helped.",
+                  "note": "मदद is feminine, so ली — the noun inside the verb still decides."
+                },
+                {
+                  "hindi": "तुम यह कर लो।",
+                  "read_as": "tum yah kar lo.",
+                  "english": "You go ahead and do this.",
+                  "note": "Imperative, and gentler than plain करो."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं काम कर लिया।",
+                "right": "मैंने काम कर लिया।",
+                "why_en": "लेना is transitive, so ने is required on the subject."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The object is मदद. Complete the compound.",
+              "question": "मैंने मदद कर ___ ।",
+              "question_read_as": "maiṁne madad kar ___ .",
+              "options": [
+                "ली",
+                "लिए",
+                "लीं",
+                "लिया"
+              ],
+              "options_read_as": [
+                "lii",
+                "lie",
+                "liiṁ",
+                "liyaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "मदद is feminine singular, so the vector is ली."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You want to say the job is finished and off your list.",
+              "options": [
+                "मैं काम करता हूँ।",
+                "मैंने काम किया।",
+                "मैंने काम कर लिया।",
+                "मैंने काम कर दिया।"
+              ],
+              "options_read_as": [
+                "maiṁ kaam kartaa huuṁ.",
+                "maiṁne kaam kiyaa.",
+                "maiṁne kaam kar liyaa.",
+                "maiṁne kaam kar diyaa."
+              ],
+              "answer_index": 2,
+              "explanation_en": "All four are good sentences. कर लिया closes it off for you; कर दिया would suggest you did it for somebody else."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने काम कर लिया।",
+              "मैंने मदद कर ली।",
+              "तुम यह कर लो।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "लेना completes the action and keeps its result with the subject. खा लिया, समझ लिया, कर लिया. It is transitive, so the compound takes ने, and the vector agrees with the object — never the main verb.",
+        "key_forms": [
+          "खा लिया",
+          "समझ लिया",
+          "कर लिया"
+        ],
+        "next_up_en": "Next: लेना with a feminine object, and with itself as its own vector."
+      }
+    },
+    {
+      "level": 3,
+      "title_en": "Where the agreement lands",
+      "title_hi": "पढ़ ली · ले लिए · बना लिया",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L03-I1",
+          "type": "grammar",
+          "target": "पढ़ लेना",
+          "read_as": "paṛh lenaa",
+          "pronunciation_notes": "पढ़ uses the flapped ṛh — the tongue flicks down off the roof of the mouth.",
+          "gloss_en": "to read through — and where the gender lands",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "compound_verb",
+            "lenaa",
+            "feminine_object",
+            "agreement",
+            "module9_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The vector takes the gender, not the main verb",
+              "explanation_en": "मैंने किताब पढ़ ली. किताब is feminine, and it is ली that goes feminine — पढ़ does not move at all. This is Module 9 still running: with ने the verb agrees with the object, and in a compound the vector is the verb. If you catch yourself writing पढ़ी ली, that is the Module 9 instinct firing one word too early. The rule to carry is simple: whatever the object's gender and number, it lands on the last verb in the phrase and nowhere else.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने किताब पढ़ ली।",
+                "without_vector": "मैंने किताब पढ़ी।",
+                "difference_en": "Both correct, and both feminine — the ending simply sits on a different word. The vector adds that you finished it."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने किताब पढ़ ली।",
+                  "read_as": "maiṁne kitaab paṛh lii.",
+                  "english": "I read the book.",
+                  "note": "किताब is feminine, so ली."
+                },
+                {
+                  "hindi": "मैंने अख़बार पढ़ लिया।",
+                  "read_as": "maiṁne aḳhbaar paṛh liyaa.",
+                  "english": "I read the newspaper.",
+                  "note": "अख़बार is masculine, so लिया. Only the vector moved."
+                },
+                {
+                  "hindi": "उसने चिट्ठी पढ़ ली।",
+                  "read_as": "usne chiṭṭhii paṛh lii.",
+                  "english": "She read the letter.",
+                  "note": "चिट्ठी is feminine, so ली again."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने किताब पढ़ी ली।",
+                "right": "मैंने किताब पढ़ ली।",
+                "why_en": "Only one word in the compound inflects, and it is the vector."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The object is किताब. Complete the compound.",
+              "question": "मैंने किताब पढ़ ___ ।",
+              "question_read_as": "maiṁne kitaab paṛh ___ .",
+              "options": [
+                "लिए",
+                "लीं",
+                "लिया",
+                "ली"
+              ],
+              "options_read_as": [
+                "lie",
+                "liiṁ",
+                "liyaa",
+                "lii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "किताब is feminine singular, so the vector is ली."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You want to say you've read the book — finished it, to yourself.",
+              "options": [
+                "मैंने किताब पढ़ी।",
+                "मैंने किताब पढ़ ली।",
+                "मैंने किताब पढ़ दी।",
+                "मैं किताब पढ़ता हूँ।"
+              ],
+              "options_read_as": [
+                "maiṁne kitaab paṛhii.",
+                "maiṁne kitaab paṛh lii.",
+                "maiṁne kitaab paṛh dii.",
+                "maiṁ kitaab paṛhtaa huuṁ."
+              ],
+              "answer_index": 1,
+              "explanation_en": "All four are correct. पढ़ ली finishes it and keeps it with you; पढ़ दी would mean you read it aloud to somebody."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने किताब पढ़ ली।",
+              "मैंने अख़बार पढ़ लिया।",
+              "उसने चिट्ठी पढ़ ली।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L03-I2",
+          "type": "grammar",
+          "target": "ले लेना",
+          "read_as": "le lenaa",
+          "pronunciation_notes": "Two short even beats: le le-naa. The stem and the vector sound almost identical, and that is correct.",
+          "gloss_en": "to take and keep — लेना on both sides",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "compound_verb",
+            "lenaa",
+            "self_vector",
+            "masculine_plural",
+            "agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "When the main verb and the vector are the same word",
+              "explanation_en": "ले लेना looks strange and is completely ordinary. लेना can serve as its own vector: ले is the stem, लिया the vector. मैंने पैसे ले लिए — I took the money and kept it. The doubling is not emphasis; it is the same completion-plus-inward meaning लेना always contributes, applied to a verb that already means \"take\". पैसे is masculine plural, so the vector is लिए. देना does exactly the same thing in the next level.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने पैसे ले लिए।",
+                "without_vector": "मैंने पैसे लिए।",
+                "difference_en": "Both correct. The vector adds that the taking is complete and the money stayed with you."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने पैसे ले लिए।",
+                  "read_as": "maiṁne paise le lie.",
+                  "english": "I took the money.",
+                  "note": "पैसे is masculine plural, so लिए."
+                },
+                {
+                  "hindi": "तुम यह ले लो।",
+                  "read_as": "tum yah le lo.",
+                  "english": "Go on, take this.",
+                  "note": "Imperative, and softer than plain लो."
+                },
+                {
+                  "hindi": "उसने चाबी ले ली।",
+                  "read_as": "usne chaabii le lii.",
+                  "english": "He took the key.",
+                  "note": "चाबी is feminine, so ली."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने पैसे ले लिया।",
+                "right": "मैंने पैसे ले लिए।",
+                "why_en": "पैसे is masculine plural, so the vector goes plural too."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The object is पैसे. Complete the compound.",
+              "question": "मैंने पैसे ले ___ ।",
+              "question_read_as": "maiṁne paise le ___ .",
+              "options": [
+                "लिया",
+                "ली",
+                "लिए",
+                "लीं"
+              ],
+              "options_read_as": [
+                "liyaa",
+                "lii",
+                "lie",
+                "liiṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "पैसे is masculine plural, so the vector is लिए."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You took the money, and you kept it.",
+              "options": [
+                "मैंने पैसे ले लिए।",
+                "मैंने पैसे दे दिए।",
+                "मैं पैसे लेता हूँ।",
+                "मैंने पैसे लिए।"
+              ],
+              "options_read_as": [
+                "maiṁne paise le lie.",
+                "maiṁne paise de die.",
+                "maiṁ paise letaa huuṁ.",
+                "maiṁne paise lie."
+              ],
+              "answer_index": 0,
+              "explanation_en": "All four are correct sentences. ले लिए adds that it is done and the money stayed with you; दे दिए would mean you handed it over instead."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने पैसे ले लिए।",
+              "तुम यह ले लो।",
+              "उसने चाबी ले ली।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L03-I3",
+          "type": "grammar",
+          "target": "बना लेना",
+          "read_as": "banaa lenaa",
+          "pronunciation_notes": null,
+          "gloss_en": "to make for oneself",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "compound_verb",
+            "lenaa",
+            "minimal_pair_setup",
+            "benefactive"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बना लिया — cooked, and it was mine",
+              "explanation_en": "बनाना is to make, and लेना puts the result on your own side of the ledger. मैंने खाना बना लिया means I cooked, and the food is for me. Hold on to this sentence, because the next level changes exactly one syllable and moves the food to somebody else. That pair — बना लिया against बना दिया — is the clearest demonstration of the whole लेना and देना distinction, which is why the two halves are taught back to back.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने खाना बना लिया।",
+                "without_vector": "मैंने खाना बनाया।",
+                "difference_en": "Both correct. The plain form says you cooked; the vector says it is done and it was for you."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने खाना बना लिया।",
+                  "read_as": "maiṁne khaanaa banaa liyaa.",
+                  "english": "I made food.",
+                  "note": "For myself. खाना is masculine, so लिया."
+                },
+                {
+                  "hindi": "मैंने चाय बना ली।",
+                  "read_as": "maiṁne chaay banaa lii.",
+                  "english": "I made tea.",
+                  "note": "चाय is feminine, so ली."
+                },
+                {
+                  "hindi": "उसने घर बना लिया।",
+                  "read_as": "usne ghar banaa liyaa.",
+                  "english": "He built himself a house.",
+                  "note": "The inward sense is unmistakable here — the house is his."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने खाना बनाया लिया।",
+                "right": "मैंने खाना बना लिया।",
+                "why_en": "The main verb is a bare stem: बना, not बनाया."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The object is चाय. Complete the compound.",
+              "question": "मैंने चाय बना ___ ।",
+              "question_read_as": "maiṁne chaay banaa ___ .",
+              "options": [
+                "लिया",
+                "ली",
+                "लिए",
+                "लीं"
+              ],
+              "options_read_as": [
+                "liyaa",
+                "lii",
+                "lie",
+                "liiṁ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "चाय is feminine singular, so the vector is ली."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You cooked, and the food is for you.",
+              "options": [
+                "मैंने खाना बना दिया।",
+                "मैं खाना बनाता हूँ।",
+                "मैंने खाना बनाया।",
+                "मैंने खाना बना लिया।"
+              ],
+              "options_read_as": [
+                "maiṁne khaanaa banaa diyaa.",
+                "maiṁ khaanaa banaataa huuṁ.",
+                "maiṁne khaanaa banaayaa.",
+                "maiṁne khaanaa banaa liyaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "All four are correct. बना लिया keeps the food with you; बना दिया sends it to somebody else; the first simply says you cooked."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने खाना बना लिया।",
+              "मैंने चाय बना ली।",
+              "उसने घर बना लिया।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The object's gender and number land on the vector and nowhere else — पढ़ ली, ले लिए, बना ली. लेना can be its own vector, and ले लिया is completely ordinary Hindi.",
+        "key_forms": [
+          "पढ़ ली",
+          "ले लिए",
+          "बना लिया"
+        ],
+        "next_up_en": "Next: देना, and the one syllable that moves the food across the table."
+      }
+    },
+    {
+      "level": 4,
+      "title_en": "देना — the action turns outward",
+      "title_hi": "देना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L04-I1",
+          "type": "grammar",
+          "target": "बता देना",
+          "read_as": "bataa denaa",
+          "pronunciation_notes": null,
+          "gloss_en": "to tell — out with it, and done",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "compound_verb",
+            "denaa",
+            "outward",
+            "transitive_vector",
+            "module8_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "देना is लेना's mirror",
+              "explanation_en": "देना says the action is complete and its result goes away from the subject — to somebody else, or simply out of your hands. मैंने बता दिया is \"I told them\", and that is that. Compare मैंने बताया, which reports the telling without the finality. बताना already takes को on the person told, from Module 8, and the vector does not disturb that: मैंने उसे सब बता दिया. देना is transitive like लेना, so compounds on it take ने and the vector agrees with the object.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने बता दिया।",
+                "without_vector": "मैंने बताया।",
+                "difference_en": "Both correct. दिया adds that the telling is out of your hands now; the plain form just reports it."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने बता दिया।",
+                  "read_as": "maiṁne bataa diyaa.",
+                  "english": "I told them.",
+                  "note": "No object, so the neutral दिया."
+                },
+                {
+                  "hindi": "मैंने उसे सब बता दिया।",
+                  "read_as": "maiṁne use sab bataa diyaa.",
+                  "english": "I told him everything.",
+                  "note": "The person told takes को, fused to उसे."
+                },
+                {
+                  "hindi": "उसने बता दिया कि वह नहीं आएगा।",
+                  "read_as": "usne bataa diyaa ki vah nahiiṁ aaegaa.",
+                  "english": "He said he wouldn't come.",
+                  "note": "Decisive and settled — which is what दिया is doing here."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं बता दिया।",
+                "right": "मैंने बता दिया।",
+                "why_en": "देना is transitive, so the compound requires ने."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "You told him, and the matter is out of your hands. Pick the vector.",
+              "question": "मैंने उसे सब बता ___ ।",
+              "question_read_as": "maiṁne use sab bataa ___ .",
+              "options": [
+                "दिया",
+                "गया",
+                "पड़ा",
+                "लिया"
+              ],
+              "options_read_as": [
+                "diyaa",
+                "gayaa",
+                "paṛaa",
+                "liyaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The telling goes outward, so देना."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You told them, and the matter is now settled.",
+              "options": [
+                "मैं बताता हूँ।",
+                "मैंने बताया।",
+                "मैंने बता दिया।",
+                "मैंने बता लिया।"
+              ],
+              "options_read_as": [
+                "maiṁ bataataa huuṁ.",
+                "maiṁne bataayaa.",
+                "maiṁne bataa diyaa.",
+                "maiṁne bataa liyaa."
+              ],
+              "answer_index": 2,
+              "explanation_en": "All four are grammatical. बता दिया carries the finality; the plain form reports the telling; बता लिया would be odd here because telling naturally goes outward."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने बता दिया।",
+              "मैंने उसे सब बता दिया।",
+              "उसने बता दिया कि वह नहीं आएगा।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L04-I2",
+          "type": "grammar",
+          "target": "बना देना",
+          "read_as": "banaa denaa",
+          "pronunciation_notes": null,
+          "gloss_en": "to make for someone else",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "compound_verb",
+            "denaa",
+            "minimal_pair",
+            "benefactive",
+            "core_contrast"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "One syllable moves the food across the table",
+              "explanation_en": "मैंने खाना बना लिया and मैंने खाना बना दिया differ by one syllable, and the difference is who the food is for. लिया keeps it with you; दिया sends it out. This is the clearest pair in the module and worth over-learning, because it is the entire लेना and देना distinction inside a single sentence. Everything else in these four levels is this fact applied to other verbs.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने खाना बना दिया।",
+                "without_vector": "मैंने खाना बनाया।",
+                "difference_en": "Both correct. The plain form says you cooked and leaves out who it was for; दिया says it went to somebody else."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने खाना बना दिया।",
+                  "read_as": "maiṁne khaanaa banaa diyaa.",
+                  "english": "I made the food.",
+                  "note": "For someone else."
+                },
+                {
+                  "hindi": "मैंने खाना बना लिया।",
+                  "read_as": "maiṁne khaanaa banaa liyaa.",
+                  "english": "I made the food.",
+                  "note": "For myself. Same verb, other direction."
+                },
+                {
+                  "hindi": "उसने मेरे लिए चाय बना दी।",
+                  "read_as": "usne mere lie chaay banaa dii.",
+                  "english": "She made tea for me.",
+                  "note": "चाय is feminine, so दी — and के लिए makes the direction explicit."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने अपने लिए खाना बना दिया।",
+                "right": "मैंने अपने लिए खाना बना लिया।",
+                "why_en": "दिया sends the result outward, which clashes with \"for myself\". The sentence is well formed but its two halves disagree."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "You cooked for somebody else. Pick the vector.",
+              "question": "मैंने तुम्हारे लिए खाना बना ___ ।",
+              "question_read_as": "maiṁne tumhaare lie khaanaa banaa ___ .",
+              "options": [
+                "गया",
+                "पड़ा",
+                "लिया",
+                "दिया"
+              ],
+              "options_read_as": [
+                "gayaa",
+                "paṛaa",
+                "liyaa",
+                "diyaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The food goes outward, so देना."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You cooked, and the food is for someone else.",
+              "options": [
+                "मैंने खाना बना लिया।",
+                "मैंने खाना बना दिया।",
+                "मैं खाना बनाता हूँ।",
+                "मैंने खाना बनाया।"
+              ],
+              "options_read_as": [
+                "maiṁne khaanaa banaa liyaa.",
+                "maiṁne khaanaa banaa diyaa.",
+                "maiṁ khaanaa banaataa huuṁ.",
+                "maiṁne khaanaa banaayaa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "All four are correct. बना दिया sends the food outward. बना लिया would keep it with you, and the plain form leaves the question open."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने खाना बना दिया।",
+              "मैंने खाना बना लिया।",
+              "उसने मेरे लिए चाय बना दी।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L04-I3",
+          "type": "grammar",
+          "target": "दे देना",
+          "read_as": "de denaa",
+          "pronunciation_notes": "Two short beats, de de-naa, exactly parallel to ले लेना.",
+          "gloss_en": "to hand over — देना on both sides",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "compound_verb",
+            "denaa",
+            "self_vector",
+            "masculine_plural",
+            "agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "दे दिया — given, and gone",
+              "explanation_en": "Like ले लेना, देना can be its own vector: दे is the stem, दिया the vector. मैंने पैसे दे दिए — I handed the money over. The doubling is not emphasis; it is completion plus outward direction, which is what देना always contributes, applied to a verb that already means \"give\". पैसे is masculine plural, so the vector is दिए. Put ले लिए and दे दिए side by side and you have the two directions at their clearest.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने पैसे दे दिए।",
+                "without_vector": "मैंने पैसे दिए।",
+                "difference_en": "Both correct. The vector adds that the handing over is complete and the money has gone."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने पैसे दे दिए।",
+                  "read_as": "maiṁne paise de die.",
+                  "english": "I handed over the money.",
+                  "note": "पैसे is masculine plural, so दिए."
+                },
+                {
+                  "hindi": "उसने किताब दे दी।",
+                  "read_as": "usne kitaab de dii.",
+                  "english": "He gave the book away.",
+                  "note": "किताब is feminine, so दी."
+                },
+                {
+                  "hindi": "यह उसे दे दो।",
+                  "read_as": "yah use de do.",
+                  "english": "Give this to him.",
+                  "note": "Imperative; दो is the तुम form of देना."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने पैसे दे दिया।",
+                "right": "मैंने पैसे दे दिए।",
+                "why_en": "पैसे is masculine plural, so the vector is plural."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The object is पैसे. Complete the compound.",
+              "question": "मैंने पैसे दे ___ ।",
+              "question_read_as": "maiṁne paise de ___ .",
+              "options": [
+                "दिया",
+                "दी",
+                "दिए",
+                "दीं"
+              ],
+              "options_read_as": [
+                "diyaa",
+                "dii",
+                "die",
+                "diiṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "पैसे is masculine plural, so the vector is दिए."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You handed the money over, and it is gone.",
+              "options": [
+                "मैंने पैसे दे दिए।",
+                "मैंने पैसे ले लिए।",
+                "मैं पैसे देता हूँ।",
+                "मैंने पैसे दिए।"
+              ],
+              "options_read_as": [
+                "maiṁne paise de die.",
+                "maiṁne paise le lie.",
+                "maiṁ paise detaa huuṁ.",
+                "maiṁne paise die."
+              ],
+              "answer_index": 0,
+              "explanation_en": "All four are correct sentences. दे दिए adds the finality; ले लिए is the opposite direction; the first simply reports the giving."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने पैसे दे दिए।",
+              "उसने किताब दे दी।",
+              "यह उसे दे दो।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "देना completes the action and sends its result outward — to somebody else, or out of your hands. बता दिया, बना दिया, दे दिया. Like लेना it is transitive, so the compound takes ने. And बना लिया against बना दिया is the pair to keep.",
+        "key_forms": [
+          "बता दिया",
+          "बना दिया",
+          "दे दिए"
+        ],
+        "next_up_en": "Next: देना's second sense — decisiveness — and choosing between the two directions."
+      }
+    },
+    {
+      "level": 5,
+      "title_en": "Decisive देना, and choosing a direction",
+      "title_hi": "लिख दी · खोल दिया · ली या दी",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L05-I1",
+          "type": "grammar",
+          "target": "लिख देना",
+          "read_as": "likh denaa",
+          "pronunciation_notes": null,
+          "gloss_en": "to write out for someone",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "compound_verb",
+            "denaa",
+            "feminine_object",
+            "agreement",
+            "benefactive"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "देना with a feminine object",
+              "explanation_en": "उसने चिट्ठी लिख दी. चिट्ठी is feminine, so the vector goes to दी and लिख does not move. The nuance is that the letter was written for somebody, or written and sent — out of the writer's hands either way. Set it beside उसने चिट्ठी लिख ली, which would mean she wrote it and kept it, and the difference is the same one you met with the food. The recipient, when named, takes को exactly as it always has.",
+              "vectorless_equivalent": {
+                "with_vector": "उसने चिट्ठी लिख दी।",
+                "without_vector": "उसने चिट्ठी लिखी।",
+                "difference_en": "Both correct, and both feminine. The vector adds that the letter went to somebody."
+              },
+              "examples": [
+                {
+                  "hindi": "उसने चिट्ठी लिख दी।",
+                  "read_as": "usne chiṭṭhii likh dii.",
+                  "english": "She wrote the letter.",
+                  "note": "चिट्ठी is feminine, so दी. Written for somebody."
+                },
+                {
+                  "hindi": "मैंने पता लिख दिया।",
+                  "read_as": "maiṁne pataa likh diyaa.",
+                  "english": "I wrote the address down.",
+                  "note": "पता is masculine, so दिया."
+                },
+                {
+                  "hindi": "मैंने उसे चिट्ठी लिख दी।",
+                  "read_as": "maiṁne use chiṭṭhii likh dii.",
+                  "english": "I wrote him a letter.",
+                  "note": "The recipient takes को, fused to उसे."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने चिट्ठी लिख दिया।",
+                "right": "उसने चिट्ठी लिख दी।",
+                "why_en": "चिट्ठी is feminine and the vector agrees with it."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The object is चिट्ठी. Complete the compound.",
+              "question": "उसने चिट्ठी लिख ___ ।",
+              "question_read_as": "usne chiṭṭhii likh ___ .",
+              "options": [
+                "दिया",
+                "दी",
+                "दिए",
+                "दीं"
+              ],
+              "options_read_as": [
+                "diyaa",
+                "dii",
+                "die",
+                "diiṁ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "चिट्ठी is feminine singular, so the vector is दी."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You wrote the address down for them.",
+              "options": [
+                "मैंने पता लिख लिया।",
+                "मैं पता लिखता हूँ।",
+                "मैंने पता लिखा।",
+                "मैंने पता लिख दिया।"
+              ],
+              "options_read_as": [
+                "maiṁne pataa likh liyaa.",
+                "maiṁ pataa likhtaa huuṁ.",
+                "maiṁne pataa likhaa.",
+                "maiṁne pataa likh diyaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "All four are correct. लिख दिया sends it to them; लिख लिया would mean you noted it down for yourself, which is a perfectly good sentence about a different situation."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उसने चिट्ठी लिख दी।",
+              "मैंने पता लिख दिया।",
+              "मैंने उसे चिट्ठी लिख दी।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L05-I2",
+          "type": "grammar",
+          "target": "खोल देना",
+          "read_as": "khol denaa",
+          "pronunciation_notes": "ख is aspirated: khol, one syllable.",
+          "gloss_en": "to open up — decisively",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "compound_verb",
+            "denaa",
+            "decisive",
+            "irreversible",
+            "second_sense"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "देना for actions that cannot be taken back",
+              "explanation_en": "देना has a second sense that is not about giving at all: decisiveness. उसने दरवाज़ा खोल दिया — he opened the door, and it is open. Nothing is being handed to anybody; what देना adds is that the action is complete and not going to be undone. This is the sense behind a great many everyday compounds — कर दिया, छोड़ दिया, बंद कर दिया. The two senses are related if you look at them the right way: in both, the result has left the subject's control.",
+              "vectorless_equivalent": {
+                "with_vector": "उसने दरवाज़ा खोल दिया।",
+                "without_vector": "उसने दरवाज़ा खोला।",
+                "difference_en": "Both correct. The plain form reports the opening; दिया says it was done and the door stayed open."
+              },
+              "examples": [
+                {
+                  "hindi": "उसने दरवाज़ा खोल दिया।",
+                  "read_as": "usne darvaazaa khol diyaa.",
+                  "english": "He opened the door.",
+                  "note": "दरवाज़ा is masculine, so दिया. Done, and it stayed open."
+                },
+                {
+                  "hindi": "मैंने खिड़की खोल दी।",
+                  "read_as": "maiṁne khiṛkii khol dii.",
+                  "english": "I opened the window.",
+                  "note": "खिड़की is feminine, so दी."
+                },
+                {
+                  "hindi": "उसने काम कर दिया।",
+                  "read_as": "usne kaam kar diyaa.",
+                  "english": "He did the work.",
+                  "note": "Decisive — and often, for somebody else. Both senses at once."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने दरवाज़ा खोला दिया।",
+                "right": "उसने दरवाज़ा खोल दिया।",
+                "why_en": "Bare stem before the vector: खोल, not खोला."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The object is खिड़की. Complete the compound.",
+              "question": "मैंने खिड़की खोल ___ ।",
+              "question_read_as": "maiṁne khiṛkii khol ___ .",
+              "options": [
+                "दी",
+                "दिए",
+                "दीं",
+                "दिया"
+              ],
+              "options_read_as": [
+                "dii",
+                "die",
+                "diiṁ",
+                "diyaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "खिड़की is feminine singular, so the vector is दी."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "The door was opened, decisively, and it stayed open.",
+              "options": [
+                "वह दरवाज़ा खोलता है।",
+                "उसने दरवाज़ा खोला।",
+                "उसने दरवाज़ा खोल दिया।",
+                "उसने दरवाज़ा खोल लिया।"
+              ],
+              "options_read_as": [
+                "vah darvaazaa kholtaa hai.",
+                "usne darvaazaa kholaa.",
+                "usne darvaazaa khol diyaa.",
+                "usne darvaazaa khol liyaa."
+              ],
+              "answer_index": 2,
+              "explanation_en": "All four are correct Hindi. खोल दिया carries the decisiveness; the plain form simply reports the opening."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उसने दरवाज़ा खोल दिया।",
+              "मैंने खिड़की खोल दी।",
+              "उसने काम कर दिया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L05-I3",
+          "type": "grammar",
+          "target": "ली या दी",
+          "read_as": "lii yaa dii",
+          "pronunciation_notes": null,
+          "gloss_en": "inward or outward — choosing between them",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "compound_verb",
+            "lenaa",
+            "denaa",
+            "contrast",
+            "capstone"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The same book, two directions, and a third option",
+              "explanation_en": "मैंने किताब पढ़ ली and मैंने किताब पढ़ दी are both correct and mean different things. ली keeps the reading with you: you read it, you finished it. दी sends it out: you read it aloud, to somebody. That is the whole distinction and it holds across every verb — लेना is inward, देना is outward. And the third option has been there the entire time: मैंने किताब पढ़ी, which says you read the book and nothing more. Choosing that one is a choice, not a failure to choose.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने किताब पढ़ ली। / मैंने किताब पढ़ दी।",
+                "without_vector": "मैंने किताब पढ़ी।",
+                "difference_en": "Three correct sentences. Inward, outward, and neutral — and the neutral one is the right answer whenever you have nothing to add."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने किताब पढ़ ली।",
+                  "read_as": "maiṁne kitaab paṛh lii.",
+                  "english": "I read the book.",
+                  "note": "To myself, and finished."
+                },
+                {
+                  "hindi": "मैंने किताब पढ़ दी।",
+                  "read_as": "maiṁne kitaab paṛh dii.",
+                  "english": "I read the book out.",
+                  "note": "To somebody else."
+                },
+                {
+                  "hindi": "मैंने किताब पढ़ी।",
+                  "read_as": "maiṁne kitaab paṛhii.",
+                  "english": "I read the book.",
+                  "note": "Neutral, and still the right choice when you mean nothing more."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने उसे किताब पढ़ ली।",
+                "right": "मैंने उसे किताब पढ़ दी।",
+                "why_en": "The reading was for him, so the vector has to turn outward. ली would contradict the उसे."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "You read the book aloud to him. Pick the vector.",
+              "question": "मैंने उसे किताब पढ़ ___ ।",
+              "question_read_as": "maiṁne use kitaab paṛh ___ .",
+              "options": [
+                "गई",
+                "पड़ी",
+                "ली",
+                "दी"
+              ],
+              "options_read_as": [
+                "gaii",
+                "paṛii",
+                "lii",
+                "dii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The reading goes outward to him, so देना — and किताब is feminine, so दी."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You read the book to yourself and finished it.",
+              "options": [
+                "मैंने किताब पढ़ी।",
+                "मैंने किताब पढ़ ली।",
+                "मैंने किताब पढ़ दी।",
+                "मैं किताब पढ़ता हूँ।"
+              ],
+              "options_read_as": [
+                "maiṁne kitaab paṛhii.",
+                "maiṁne kitaab paṛh lii.",
+                "maiṁne kitaab paṛh dii.",
+                "maiṁ kitaab paṛhtaa huuṁ."
+              ],
+              "answer_index": 1,
+              "explanation_en": "All four are correct. पढ़ ली is the inward, finished one. पढ़ दी would send it outward, and the first is the neutral report."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने किताब पढ़ ली।",
+              "मैंने किताब पढ़ दी।",
+              "मैंने किताब पढ़ी।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "देना's second sense is decisiveness rather than giving — खोल दिया, कर दिया. And the choice between ली and दी is a choice of direction: inward or outward. The plain form is always the third option, and picking it is a decision rather than an omission.",
+        "key_forms": [
+          "लिख दी",
+          "खोल दिया",
+          "पढ़ ली या पढ़ दी"
+        ],
+        "next_up_en": "Next: जाना — and the compound that refuses ने even though its main verb is transitive."
+      }
+    }
+  ]
+}

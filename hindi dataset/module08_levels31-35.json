@@ -1,0 +1,1712 @@
+{
+  "module": 8,
+  "module_name_en": "Core Words II",
+  "module_name_hi": "शब्द भंडार २",
+  "phase": 4,
+  "type": "word",
+  "batch": {
+    "levels_from": 31,
+    "levels_to": 35
+  },
+  "learner_knows_through_module": 7,
+  "levels": [
+    {
+      "level": 31,
+      "title_en": "Money: customer, free, credit",
+      "title_hi": "ग्राहक · मुफ़्त · उधार",
+      "category": "shopping_money",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L31-I1",
+          "type": "word",
+          "target": "ग्राहक",
+          "read_as": "graahak",
+          "pronunciation_notes": "The ग्र cluster runs together and the length falls on the first syllable: graa-hak.",
+          "gloss_en": "customer, client",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "ग्राहक",
+          "plural_read_as": "graahak",
+          "collocation": {
+            "hindi": "ग्राहक आना",
+            "read_as": "graahak aanaa",
+            "english": "for customers to come"
+          },
+          "category": "shopping_money",
+          "difficulty": 7,
+          "tags": [
+            "shopping_money",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "class_2",
+            "sanskrit_origin",
+            "respectful_plural"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ग्राहक — the other side of दुकानदार",
+              "explanation_en": "ग्राहक is the customer, masculine by default and Class 2 so it never changes. It completes the pair with दुकानदार, and between them you have both sides of every shop sentence. Like other people you are being polite about, a single customer often takes plural agreement: ग्राहक आ रहे हैं. The word is Sanskrit-derived and slightly formal — in casual speech you would just as often hear लोग, people, or a name.",
+              "examples": [
+                {
+                  "hindi": "ग्राहक आ रहे हैं",
+                  "read_as": "graahak aa rahe haiṁ",
+                  "english": "customers are coming",
+                  "note": "Plural agreement, which also covers one customer politely."
+                },
+                {
+                  "hindi": "दुकान में ग्राहक नहीं हैं",
+                  "read_as": "dukaan meṁ graahak nahiiṁ haiṁ",
+                  "english": "there are no customers in the shop",
+                  "note": "दुकान is oblique before में, and नहीं sits in front of the verb."
+                },
+                {
+                  "hindi": "वह पुराना ग्राहक है",
+                  "read_as": "vah puraanaa graahak hai",
+                  "english": "he is an old customer",
+                  "note": "पुराना is marked and agrees with the masculine ग्राहक."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह पुरानी ग्राहक है",
+                "right": "वह पुराना ग्राहक है",
+                "why_en": "ग्राहक is masculine as a word, whoever it refers to. The consonant ending predicts nothing, hence the flag."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "ग्राहक",
+              "question_read_as": "graahak",
+              "options": [
+                "shopkeeper",
+                "owner",
+                "customer",
+                "worker"
+              ],
+              "options_read_as": [
+                "shopkeeper",
+                "owner",
+                "customer",
+                "worker"
+              ],
+              "answer_index": 2,
+              "explanation_en": "ग्राहक is a customer, masculine, and unchanged in the plural."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with ग्राहक?",
+              "options": [
+                "करना",
+                "आना",
+                "लेना",
+                "मिलना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "aanaa",
+                "lenaa",
+                "milnaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "ग्राहक आना — customers come. आना is intransitive, so every tense is available."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ग्राहक",
+              "ग्राहक आ रहे हैं",
+              "दुकान में ग्राहक नहीं हैं",
+              "वह पुराना ग्राहक है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L31-I2",
+          "type": "word",
+          "target": "मुफ़्त",
+          "read_as": "muft",
+          "pronunciation_notes": "The dotted फ़ is an f and no vowel follows it: muft, one syllable.",
+          "gloss_en": "free, at no cost",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "unmarked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "मुफ़्त में मिलना",
+            "read_as": "muft meṁ milnaa",
+            "english": "to get for free"
+          },
+          "category": "shopping_money",
+          "difficulty": 6,
+          "tags": [
+            "shopping_money",
+            "adjective",
+            "unmarked_adjective",
+            "invariant",
+            "nukta",
+            "set_phrase"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मुफ़्त में — free of charge",
+              "explanation_en": "मुफ़्त means free in the sense of costing nothing, and it is unmarked so it never changes. The phrase you will actually hear is मुफ़्त में, with में turning it into a manner — यह मुफ़्त में मिला, I got this free. Note that Hindi keeps free-of-charge and free-as-in-liberty entirely separate: मुफ़्त is only about money, and आज़ाद is the word for the other sense. English blurs them and Hindi does not.",
+              "examples": [
+                {
+                  "hindi": "यह मुफ़्त है",
+                  "read_as": "yah muft hai",
+                  "english": "this is free",
+                  "note": "The bare adjective, unchanged for any subject."
+                },
+                {
+                  "hindi": "यह मुफ़्त में मिला",
+                  "read_as": "yah muft meṁ milaa",
+                  "english": "I got this free",
+                  "note": "मिलना is intransitive, so the perfective works now."
+                },
+                {
+                  "hindi": "मुफ़्त की चीज़",
+                  "read_as": "muft kii chiiz",
+                  "english": "a free thing",
+                  "note": "की agrees with चीज़, which is feminine."
+                }
+              ],
+              "common_error": {
+                "wrong": "यह मुफ़्ती है",
+                "right": "यह मुफ़्त है",
+                "why_en": "मुफ़्त takes no endings at all. Adding -ी to make it feminine produces a word that does not exist."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "मुफ़्त",
+              "question_read_as": "muft",
+              "options": [
+                "free",
+                "cheap",
+                "extra",
+                "spare"
+              ],
+              "options_read_as": [
+                "free",
+                "cheap",
+                "extra",
+                "spare"
+              ],
+              "answer_index": 0,
+              "explanation_en": "मुफ़्त is free of charge. आज़ाद is free in the sense of liberty."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition turns मुफ़्त into free of charge?",
+              "options": [
+                "से",
+                "को",
+                "पर",
+                "में"
+              ],
+              "options_read_as": [
+                "se",
+                "ko",
+                "par",
+                "meṁ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "मुफ़्त में मिलना — में makes it a manner, like आराम से and प्यार से."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुफ़्त",
+              "यह मुफ़्त है",
+              "यह मुफ़्त में मिला",
+              "मुफ़्त की चीज़"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L31-I3",
+          "type": "word",
+          "target": "उधार",
+          "read_as": "udhaar",
+          "pronunciation_notes": "Breathy ध in the middle and the length on the second syllable: u-dhaar.",
+          "gloss_en": "credit, a loan, borrowing",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "उधार लेना",
+            "read_as": "udhaar lenaa",
+            "english": "to borrow"
+          },
+          "category": "shopping_money",
+          "difficulty": 7,
+          "tags": [
+            "shopping_money",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "uncountable",
+            "two_sided_verb"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "One noun, two verbs, two opposite meanings",
+              "explanation_en": "उधार is credit or borrowing, masculine and uncountable. Hindi has no separate words for borrow and lend — it has one noun and lets the verb decide. उधार लेना is to borrow, उधार देना is to lend, and the noun is identical in both. This is the same two-sided pattern as छूट मिलना against छूट देना, and it is worth noticing as a general habit of the language rather than a quirk of one word.",
+              "examples": [
+                {
+                  "hindi": "मैं उधार लूँगा",
+                  "read_as": "maiṁ udhaar luuṁgaa",
+                  "english": "I will borrow",
+                  "note": "लेना for borrowing, and the future is safe with a transitive verb."
+                },
+                {
+                  "hindi": "वह उधार देता है",
+                  "read_as": "vah udhaar detaa hai",
+                  "english": "he lends",
+                  "note": "देना for lending — the same noun, the other direction."
+                },
+                {
+                  "hindi": "उधार पर मत लो",
+                  "read_as": "udhaar par mat lo",
+                  "english": "do not buy on credit",
+                  "note": "उधार पर means on credit, and मत negates the imperative."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं उधार दूँगा",
+                "right": "मैं उधार लूँगा",
+                "why_en": "देना means you are the one lending. If you want to borrow, the verb is लेना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "उधार",
+              "question_read_as": "udhaar",
+              "options": [
+                "change",
+                "credit",
+                "deposit",
+                "discount"
+              ],
+              "options_read_as": [
+                "change",
+                "credit",
+                "deposit",
+                "discount"
+              ],
+              "answer_index": 1,
+              "explanation_en": "उधार is credit or borrowing, and the verb decides which direction it goes."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with उधार when you are the borrower?",
+              "options": [
+                "देना",
+                "करना",
+                "लेना",
+                "मिलना"
+              ],
+              "options_read_as": [
+                "denaa",
+                "karnaa",
+                "lenaa",
+                "milnaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "उधार लेना is to borrow. उधार देना is to lend, with the same noun."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उधार",
+              "मैं उधार लूँगा",
+              "वह उधार देता है",
+              "उधार पर मत लो"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The shopping block is complete at fifteen words. उधार is the clearest case of a habit this module keeps showing: one noun with two verbs pointing in opposite directions — लेना to borrow, देना to lend — where English needs two separate words.",
+        "key_forms": [
+          "ग्राहक आना",
+          "मुफ़्त में मिलना",
+          "उधार लेना"
+        ],
+        "next_up_en": "Next: cooking, starting with the verb that covers almost all of it."
+      }
+    },
+    {
+      "level": 32,
+      "title_en": "Cooking: making and cooking",
+      "title_hi": "बनाना · पकाना · रसोई",
+      "category": "food_cooking",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L32-I1",
+          "type": "word",
+          "target": "बनाना",
+          "read_as": "banaanaa",
+          "pronunciation_notes": "Three syllables with the length on the middle one: ba-naa-naa.",
+          "gloss_en": "to make; to cook",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "खाना बनाना",
+            "read_as": "khaanaa banaanaa",
+            "english": "to cook"
+          },
+          "category": "food_cooking",
+          "difficulty": 6,
+          "tags": [
+            "food_cooking",
+            "verb",
+            "transitive",
+            "very_high_frequency",
+            "causative_pattern"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "खाना बनाना is how Hindi says cook",
+              "explanation_en": "The ordinary way to say cook in Hindi is खाना बनाना — to make food. There is a verb पकाना that means cook specifically, but बनाना is what people actually say, and it covers making anything at all: चाय बनाना, खाना बनाना, घर बनाना. Note the shape of the word. बनाना is the transitive partner of बनना, to be made, formed by inserting a long aa — the same pattern that gave चलाना from चलना and लगाना from लगना.",
+              "examples": [
+                {
+                  "hindi": "मैं खाना बनाता हूँ",
+                  "read_as": "maiṁ khaanaa banaataa huuṁ",
+                  "english": "I cook",
+                  "note": "The habitual — बनाना is transitive, so the perfective waits for Module 9."
+                },
+                {
+                  "hindi": "चाय बनाओ",
+                  "read_as": "chaay banaao",
+                  "english": "make some tea",
+                  "note": "The तुम imperative, and the same verb covers tea."
+                },
+                {
+                  "hindi": "खाना बन रहा है",
+                  "read_as": "khaanaa ban rahaa hai",
+                  "english": "the food is cooking",
+                  "note": "बनना, the intransitive partner — nobody is named as the cook."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं खाना करता हूँ",
+                "right": "मैं खाना बनाता हूँ",
+                "why_en": "करना is the default guess for almost everything and it is wrong here. Food is made, not done."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बनाना",
+              "question_read_as": "banaanaa",
+              "options": [
+                "to eat",
+                "to buy",
+                "to serve",
+                "to make"
+              ],
+              "options_read_as": [
+                "to eat",
+                "to buy",
+                "to serve",
+                "to make"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बनाना is to make, and खाना बनाना is the ordinary way to say cook."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with खाना when you cook?",
+              "options": [
+                "बनाना",
+                "करना",
+                "देना",
+                "लेना"
+              ],
+              "options_read_as": [
+                "banaanaa",
+                "karnaa",
+                "denaa",
+                "lenaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "खाना बनाना — food is made rather than done."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बनाना",
+              "मैं खाना बनाता हूँ",
+              "चाय बनाओ",
+              "खाना बन रहा है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L32-I2",
+          "type": "word",
+          "target": "पकाना",
+          "read_as": "pakaanaa",
+          "pronunciation_notes": "Unaspirated p at the front, so no puff of air: pa-kaa-naa.",
+          "gloss_en": "to cook, to cook through",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "सब्ज़ी पकाना",
+            "read_as": "sabzii pakaanaa",
+            "english": "to cook vegetables"
+          },
+          "category": "food_cooking",
+          "difficulty": 7,
+          "tags": [
+            "food_cooking",
+            "verb",
+            "transitive",
+            "causative_pattern",
+            "contrast_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पकाना against बनाना",
+              "explanation_en": "पकाना is to cook in the narrow sense of applying heat until something is done. बनाना is to prepare a dish. So you पकाना a vegetable and बनाना a meal, and if you are talking about dinner in general बनाना is what people say. पकाना is the transitive partner of पकना, to be cooked or to ripen — which is why fruit ripening is also पकना. The insert-a-long-aa pattern is now three for three: बनना to बनाना, पकना to पकाना, चलना to चलाना.",
+              "examples": [
+                {
+                  "hindi": "सब्ज़ी पकाओ",
+                  "read_as": "sabzii pakaao",
+                  "english": "cook the vegetables",
+                  "note": "The तुम imperative, with a specific dish as the object."
+                },
+                {
+                  "hindi": "खाना पक रहा है",
+                  "read_as": "khaanaa pak rahaa hai",
+                  "english": "the food is cooking",
+                  "note": "पकना, the intransitive partner, with nobody named as the cook."
+                },
+                {
+                  "hindi": "आम पक गया",
+                  "read_as": "aam pak gayaa",
+                  "english": "the mango has ripened",
+                  "note": "The same verb for fruit ripening, since both are things reaching doneness."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं खाना पकाता हूँ",
+                "right": "मैं खाना बनाता हूँ",
+                "why_en": "Not wrong, but it sounds oddly technical. For cooking a meal in general, people say बनाना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पकाना",
+              "question_read_as": "pakaanaa",
+              "options": [
+                "to serve",
+                "to cook",
+                "to heat",
+                "to taste"
+              ],
+              "options_read_as": [
+                "to serve",
+                "to cook",
+                "to heat",
+                "to taste"
+              ],
+              "answer_index": 1,
+              "explanation_en": "पकाना is to cook something through. बनाना is the general word for preparing a meal."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb is the intransitive partner of पकाना?",
+              "options": [
+                "बनना",
+                "लगना",
+                "चलना",
+                "पकना"
+              ],
+              "options_read_as": [
+                "bannaa",
+                "lagnaa",
+                "chalnaa",
+                "paknaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "पकना — the food cooks by itself. Remove the long aa and you get the intransitive."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पकाना",
+              "सब्ज़ी पकाओ",
+              "खाना पक रहा है",
+              "आम पक गया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L32-I3",
+          "type": "word",
+          "target": "रसोई",
+          "read_as": "rasoii",
+          "pronunciation_notes": "Three vowels in a row at the end with no consonant between: ra-so-ii.",
+          "gloss_en": "kitchen",
+          "gender": "f",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "रसोइयाँ",
+          "plural_read_as": "rasoiyaaṁ",
+          "collocation": {
+            "hindi": "रसोई में",
+            "read_as": "rasoii meṁ",
+            "english": "in the kitchen"
+          },
+          "category": "food_cooking",
+          "difficulty": 6,
+          "tags": [
+            "food_cooking",
+            "noun",
+            "feminine",
+            "ii_ending",
+            "class_4"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "रसोई — feminine, and predictably so",
+              "explanation_en": "रसोई is the kitchen, and it ends in -ई, which as level twenty-three showed is as reliable a feminine marker as -ी. So this one you can predict without being told. It declines like नदी: रसोई में in the singular, रसोइयों में in the plural. The English किचन is also widely used and neither is more correct. रसोई also has an older sense of cooked food itself, which survives in the word रसोइया, a cook.",
+              "examples": [
+                {
+                  "hindi": "वह रसोई में है",
+                  "read_as": "vah rasoii meṁ hai",
+                  "english": "she is in the kitchen",
+                  "note": "रसोई is oblique before में, though nothing visible changes."
+                },
+                {
+                  "hindi": "रसोई साफ़ है",
+                  "read_as": "rasoii saaf hai",
+                  "english": "the kitchen is clean",
+                  "note": "साफ़ is unmarked and never changes."
+                },
+                {
+                  "hindi": "यह रसोई छोटी है",
+                  "read_as": "yah rasoii chhoṭii hai",
+                  "english": "this kitchen is small",
+                  "note": "छोटी is feminine, which confirms रसोई is."
+                }
+              ],
+              "common_error": {
+                "wrong": "यह रसोई छोटा है",
+                "right": "यह रसोई छोटी है",
+                "why_en": "Words ending in -ई are reliably feminine, so a marked adjective takes -ी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "रसोई",
+              "question_read_as": "rasoii",
+              "options": [
+                "dining room",
+                "stove",
+                "kitchen",
+                "pantry"
+              ],
+              "options_read_as": [
+                "dining room",
+                "stove",
+                "kitchen",
+                "pantry"
+              ],
+              "answer_index": 2,
+              "explanation_en": "रसोई is the kitchen, and its -ई ending makes the feminine gender predictable."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition goes with रसोई for being inside it?",
+              "options": [
+                "से",
+                "में",
+                "को",
+                "पर"
+              ],
+              "options_read_as": [
+                "se",
+                "meṁ",
+                "ko",
+                "par"
+              ],
+              "answer_index": 1,
+              "explanation_en": "रसोई में — में for being inside a room."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "रसोई",
+              "वह रसोई में है",
+              "रसोई साफ़ है",
+              "यह रसोई छोटी है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "खाना बनाना is how Hindi says cook, and पकाना is the narrower verb for cooking something through. Both follow the insert-a-long-aa pattern that turns an intransitive verb into its transitive partner — बनना to बनाना, पकना to पकाना.",
+        "key_forms": [
+          "खाना बनाना",
+          "सब्ज़ी पकाना",
+          "रसोई में"
+        ],
+        "next_up_en": "Next: spice, oil and the dishes — the three things a Hindi kitchen runs on."
+      }
+    },
+    {
+      "level": 33,
+      "title_en": "Cooking: spice, oil, dishes",
+      "title_hi": "मसाला · तेल · बर्तन",
+      "category": "food_cooking",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L33-I1",
+          "type": "word",
+          "target": "मसाला",
+          "read_as": "masaalaa",
+          "pronunciation_notes": "Three syllables with the length on the second: ma-saa-laa.",
+          "gloss_en": "spice, a spice mixture",
+          "gender": "m",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "मसाले",
+          "plural_read_as": "masaale",
+          "collocation": {
+            "hindi": "मसाला डालना",
+            "read_as": "masaalaa ḍaalnaa",
+            "english": "to add spice"
+          },
+          "category": "food_cooking",
+          "difficulty": 6,
+          "tags": [
+            "food_cooking",
+            "noun",
+            "masculine",
+            "class_1",
+            "arabic_origin",
+            "loanword_to_english"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मसाला is a mixture, not a single spice",
+              "explanation_en": "मसाला is masculine and Class 1, so its plural is मसाले and its oblique plural मसालों. The word usually means a blend rather than one ingredient — गरम मसाला is a mixture, and मसाला डालो means add the spices. English borrowed it back as masala. Its verb is डालना, to put in or pour, which is what you use for adding anything to a pot. डालना is transitive, so use it in the imperative or the present for now.",
+              "examples": [
+                {
+                  "hindi": "मसाला डालो",
+                  "read_as": "masaalaa ḍaalo",
+                  "english": "add the spices",
+                  "note": "The तुम imperative — डालना is transitive."
+                },
+                {
+                  "hindi": "मसाले तेज़ हैं",
+                  "read_as": "masaale tez haiṁ",
+                  "english": "the spices are strong",
+                  "note": "The plural मसाले with a plural verb."
+                },
+                {
+                  "hindi": "मसालों की ख़ुशबू",
+                  "read_as": "masaaloṁ kii khushbuu",
+                  "english": "the smell of spices",
+                  "note": "मसालों is the oblique plural before की, which agrees with the feminine ख़ुशबू."
+                }
+              ],
+              "common_error": {
+                "wrong": "मसाला में",
+                "right": "मसाले में",
+                "why_en": "मसाला ends in -ा, so it is Class 1 and must go oblique before a postposition."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "मसाला",
+              "question_read_as": "masaalaa",
+              "options": [
+                "spice",
+                "salt",
+                "oil",
+                "flour"
+              ],
+              "options_read_as": [
+                "spice",
+                "salt",
+                "oil",
+                "flour"
+              ],
+              "answer_index": 0,
+              "explanation_en": "मसाला is spice, usually a mixture rather than one ingredient."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with मसाला?",
+              "options": [
+                "करना",
+                "लेना",
+                "डालना",
+                "बनाना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "lenaa",
+                "ḍaalnaa",
+                "banaanaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "मसाला डालना — डालना is what you use for adding anything to a pot."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मसाला",
+              "मसाला डालो",
+              "मसाले तेज़ हैं",
+              "मसालों की ख़ुशबू"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L33-I2",
+          "type": "word",
+          "target": "तेल",
+          "read_as": "tel",
+          "pronunciation_notes": "One syllable with a clear e and a dental त: tel.",
+          "gloss_en": "oil",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "तेल डालना",
+            "read_as": "tel ḍaalnaa",
+            "english": "to add oil"
+          },
+          "category": "food_cooking",
+          "difficulty": 6,
+          "tags": [
+            "food_cooking",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "uncountable",
+            "broad_meaning"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तेल covers cooking oil and hair oil alike",
+              "explanation_en": "तेल is masculine, flagged, and uncountable so it has no plural. It covers any oil at all — cooking oil, engine oil, and the hair oil that is a daily fixture in most Indian households, so तेल लगाना means to oil your hair rather than to grease a pan. Its cooking verb is डालना, the same as मसाला. Note that तेल is dental — the tongue touches the teeth — which separates it from the retroflex sounds in English loanwords.",
+              "examples": [
+                {
+                  "hindi": "तेल डालो",
+                  "read_as": "tel ḍaalo",
+                  "english": "add the oil",
+                  "note": "The same verb as with मसाला."
+                },
+                {
+                  "hindi": "तेल गरम है",
+                  "read_as": "tel garam hai",
+                  "english": "the oil is hot",
+                  "note": "गरम is unmarked and never changes."
+                },
+                {
+                  "hindi": "तेल ख़त्म हो गया",
+                  "read_as": "tel khatam ho gayaa",
+                  "english": "the oil has run out",
+                  "note": "ख़त्म होना means to be finished, and it is intransitive."
+                }
+              ],
+              "common_error": {
+                "wrong": "तेल गरम हैं",
+                "right": "तेल गरम है",
+                "why_en": "तेल is uncountable and has no plural, so the verb stays singular."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "तेल",
+              "question_read_as": "tel",
+              "options": [
+                "ghee",
+                "water",
+                "milk",
+                "oil"
+              ],
+              "options_read_as": [
+                "ghee",
+                "water",
+                "milk",
+                "oil"
+              ],
+              "answer_index": 3,
+              "explanation_en": "तेल is oil of any kind, masculine, and it has no plural."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with तेल in cooking?",
+              "options": [
+                "डालना",
+                "लगाना",
+                "बनाना",
+                "पकाना"
+              ],
+              "options_read_as": [
+                "ḍaalnaa",
+                "lagaanaa",
+                "banaanaa",
+                "pakaanaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "तेल डालना for adding it to a pan. तेल लगाना means applying it to hair or skin."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तेल",
+              "तेल डालो",
+              "तेल गरम है",
+              "तेल ख़त्म हो गया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L33-I3",
+          "type": "word",
+          "target": "बर्तन",
+          "read_as": "bartan",
+          "pronunciation_notes": "The र is a light tap against the त that follows: bar-tan.",
+          "gloss_en": "a dish, a pot, a utensil",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "बर्तन",
+          "plural_read_as": "bartan",
+          "collocation": {
+            "hindi": "बर्तन धोना",
+            "read_as": "bartan dhonaa",
+            "english": "to wash the dishes"
+          },
+          "category": "food_cooking",
+          "difficulty": 6,
+          "tags": [
+            "food_cooking",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "class_2",
+            "collective_use"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बर्तन covers every vessel in the kitchen",
+              "explanation_en": "बर्तन is any kitchen vessel — a pot, a pan, a plate, a bowl. There is no separate everyday word for washing-up, so बर्तन धोना is the whole chore. It is masculine, flagged, and Class 2, so the plural looks identical to the singular and only the verb tells you which you mean: बर्तन गंदा है for one, बर्तन गंदे हैं for the pile. धोना is transitive, so keep it out of the perfective for now.",
+              "examples": [
+                {
+                  "hindi": "बर्तन धोओ",
+                  "read_as": "bartan dhoo",
+                  "english": "wash the dishes",
+                  "note": "The तुम imperative of धोना."
+                },
+                {
+                  "hindi": "बर्तन गंदे हैं",
+                  "read_as": "bartan gande haiṁ",
+                  "english": "the dishes are dirty",
+                  "note": "The plural shows only on गंदे and हैं, since बर्तन is Class 2."
+                },
+                {
+                  "hindi": "रसोई में बर्तन हैं",
+                  "read_as": "rasoii meṁ bartan haiṁ",
+                  "english": "there are dishes in the kitchen",
+                  "note": "रसोई is oblique before में."
+                }
+              ],
+              "common_error": {
+                "wrong": "बर्तनें",
+                "right": "बर्तन",
+                "why_en": "बर्तन is masculine and Class 2, so the plural is identical to the singular. -ें is a feminine plural ending."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बर्तन",
+              "question_read_as": "bartan",
+              "options": [
+                "spoon",
+                "stove",
+                "dish",
+                "table"
+              ],
+              "options_read_as": [
+                "spoon",
+                "stove",
+                "dish",
+                "table"
+              ],
+              "answer_index": 2,
+              "explanation_en": "बर्तन is any kitchen vessel — pot, pan, plate or bowl."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with बर्तन?",
+              "options": [
+                "डालना",
+                "धोना",
+                "पकाना",
+                "बनाना"
+              ],
+              "options_read_as": [
+                "ḍaalnaa",
+                "dhonaa",
+                "pakaanaa",
+                "banaanaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "बर्तन धोना — and that phrase covers the whole washing-up."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बर्तन",
+              "बर्तन धोओ",
+              "बर्तन गंदे हैं",
+              "रसोई में बर्तन हैं"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "डालना is the kitchen's general-purpose verb for adding anything to a pot, and it covers both मसाला and तेल. बर्तन is Class 2, so its plural is invisible and only the adjective and verb tell you how many there are.",
+        "key_forms": [
+          "मसाला डालना",
+          "तेल डालना",
+          "बर्तन धोना"
+        ],
+        "next_up_en": "Next: cutting, boiling, and the word for fresh."
+      }
+    },
+    {
+      "level": 34,
+      "title_en": "Cooking: cutting, boiling, freshness",
+      "title_hi": "काटना · उबालना · ताज़ा",
+      "category": "food_cooking",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L34-I1",
+          "type": "word",
+          "target": "काटना",
+          "read_as": "kaaṭnaa",
+          "pronunciation_notes": "Retroflex ट with the tongue curled back, and no vowel before the न: kaaṭ-naa.",
+          "gloss_en": "to cut, to chop",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "सब्ज़ी काटना",
+            "read_as": "sabzii kaaṭnaa",
+            "english": "to chop vegetables"
+          },
+          "category": "food_cooking",
+          "difficulty": 6,
+          "tags": [
+            "food_cooking",
+            "verb",
+            "transitive",
+            "broad_meaning",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "काटना cuts more than food",
+              "explanation_en": "काटना is to cut, and it stretches a long way: cutting vegetables, cutting hair, a mosquito biting, and — usefully — spending time, as in दिन काटना, to get through a day. In the kitchen it is what you do before anything else, so सब्ज़ी काटो is the first instruction in most recipes. It is transitive, so its perfective काटा needs ने and is not yet available; the imperative and the continuous are.",
+              "examples": [
+                {
+                  "hindi": "सब्ज़ी काटो",
+                  "read_as": "sabzii kaaṭo",
+                  "english": "chop the vegetables",
+                  "note": "The तुम imperative — काटना is transitive."
+                },
+                {
+                  "hindi": "मैं प्याज़ काट रहा हूँ",
+                  "read_as": "maiṁ pyaaz kaaṭ rahaa huuṁ",
+                  "english": "I am chopping onions",
+                  "note": "The continuous, which is safe with any verb."
+                },
+                {
+                  "hindi": "मच्छर काटता है",
+                  "read_as": "machchhar kaaṭtaa hai",
+                  "english": "the mosquito bites",
+                  "note": "The same verb, since a bite is a kind of cut."
+                }
+              ],
+              "common_error": {
+                "wrong": "सब्ज़ी करो",
+                "right": "सब्ज़ी काटो",
+                "why_en": "करना is the reflex guess again. Vegetables are cut, and करना would say nothing at all about what you are doing to them."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "काटना",
+              "question_read_as": "kaaṭnaa",
+              "options": [
+                "to peel",
+                "to cut",
+                "to mix",
+                "to wash"
+              ],
+              "options_read_as": [
+                "to peel",
+                "to cut",
+                "to mix",
+                "to wash"
+              ],
+              "answer_index": 1,
+              "explanation_en": "काटना is to cut, and it also covers biting and getting through time."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with सब्ज़ी before you cook it?",
+              "options": [
+                "धोना",
+                "पकाना",
+                "डालना",
+                "काटना"
+              ],
+              "options_read_as": [
+                "dhonaa",
+                "pakaanaa",
+                "ḍaalnaa",
+                "kaaṭnaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "सब्ज़ी काटना — chopping comes before cooking."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "काटना",
+              "सब्ज़ी काटो",
+              "मैं प्याज़ काट रहा हूँ",
+              "मच्छर काटता है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L34-I2",
+          "type": "word",
+          "target": "उबालना",
+          "read_as": "ubaalnaa",
+          "pronunciation_notes": "Four syllables with the length on the second: u-baal-naa.",
+          "gloss_en": "to boil something",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "पानी उबालना",
+            "read_as": "paanii ubaalnaa",
+            "english": "to boil water"
+          },
+          "category": "food_cooking",
+          "difficulty": 7,
+          "tags": [
+            "food_cooking",
+            "verb",
+            "transitive",
+            "causative_pattern",
+            "contrast_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "उबालना and उबलना — who is doing the boiling",
+              "explanation_en": "उबालना is to boil something, and उबलना is for something to boil by itself. That is the insert-a-long-aa pattern for the fourth time: चलना to चलाना, लगना to लगाना, बनना to बनाना, and now उबलना to उबालना. The rule is worth trusting now — if you meet a new verb and need the version where someone is doing it to something, try lengthening the vowel. मैं पानी उबालता हूँ, I boil water; पानी उबल रहा है, the water is boiling.",
+              "examples": [
+                {
+                  "hindi": "पानी उबालो",
+                  "read_as": "paanii ubaalo",
+                  "english": "boil the water",
+                  "note": "The transitive form — you are doing it to the water."
+                },
+                {
+                  "hindi": "पानी उबल रहा है",
+                  "read_as": "paanii ubal rahaa hai",
+                  "english": "the water is boiling",
+                  "note": "The intransitive उबलना — nobody is named."
+                },
+                {
+                  "hindi": "दूध उबल गया",
+                  "read_as": "duudh ubal gayaa",
+                  "english": "the milk boiled over",
+                  "note": "The perfective is available because उबलना is intransitive."
+                }
+              ],
+              "common_error": {
+                "wrong": "पानी उबाल रहा है",
+                "right": "पानी उबल रहा है",
+                "why_en": "The long aa makes it transitive, which would mean the water is boiling something else. Water boils by itself."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "उबालना",
+              "question_read_as": "ubaalnaa",
+              "options": [
+                "to fry",
+                "to heat",
+                "to steam",
+                "to boil something"
+              ],
+              "options_read_as": [
+                "to fry",
+                "to heat",
+                "to steam",
+                "to boil something"
+              ],
+              "answer_index": 3,
+              "explanation_en": "उबालना is to boil something. उबलना is for something to boil by itself."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which form do you use when the water boils by itself?",
+              "options": [
+                "उबलना",
+                "उबालना",
+                "पकाना",
+                "डालना"
+              ],
+              "options_read_as": [
+                "ubalnaa",
+                "ubaalnaa",
+                "pakaanaa",
+                "ḍaalnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "उबलना, without the long aa. Adding it makes someone else responsible."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उबालना",
+              "पानी उबालो",
+              "पानी उबल रहा है",
+              "दूध उबल गया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L34-I3",
+          "type": "word",
+          "target": "ताज़ा",
+          "read_as": "taazaa",
+          "pronunciation_notes": "The dotted ज़ buzzes between two long aa vowels: taa-zaa.",
+          "gloss_en": "fresh",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "marked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "ताज़ा होना",
+            "read_as": "taazaa honaa",
+            "english": "to be fresh"
+          },
+          "category": "food_cooking",
+          "difficulty": 6,
+          "tags": [
+            "food_cooking",
+            "adjective",
+            "marked_adjective",
+            "agreement",
+            "nukta",
+            "persian_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ताज़ा agrees, and it covers news as well as food",
+              "explanation_en": "ताज़ा is fresh and it is marked, so it agrees: ताज़ा, ताज़ी, ताज़े. Like महँगा and सस्ता it is one of the few adjectives in this module that changes at all. It applies to food, air and news alike — ताज़ी ख़बर is the latest news — exactly as fresh does in English. Its opposite for food is बासी, stale, which despite ending in -ी is unmarked and never changes.",
+              "examples": [
+                {
+                  "hindi": "ताज़ा खाना",
+                  "read_as": "taazaa khaanaa",
+                  "english": "fresh food",
+                  "note": "खाना is masculine, so the adjective takes -ा."
+                },
+                {
+                  "hindi": "ताज़ी सब्ज़ी",
+                  "read_as": "taazii sabzii",
+                  "english": "fresh vegetables",
+                  "note": "सब्ज़ी is feminine, so the adjective takes -ी."
+                },
+                {
+                  "hindi": "यह रोटी बासी है",
+                  "read_as": "yah roṭii baasii hai",
+                  "english": "this bread is stale",
+                  "note": "बासी ends in -ी and is unmarked, like दुखी and ज़रूरी."
+                }
+              ],
+              "common_error": {
+                "wrong": "ताज़ा सब्ज़ी",
+                "right": "ताज़ी सब्ज़ी",
+                "why_en": "सब्ज़ी is feminine, and ताज़ा is a marked adjective, so it has to follow."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "ताज़ा",
+              "question_read_as": "taazaa",
+              "options": [
+                "fresh",
+                "cooked",
+                "stale",
+                "raw"
+              ],
+              "options_read_as": [
+                "fresh",
+                "cooked",
+                "stale",
+                "raw"
+              ],
+              "answer_index": 0,
+              "explanation_en": "ताज़ा is fresh, and it agrees with the noun it describes."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which form goes with सब्ज़ी?",
+              "options": [
+                "ताज़े",
+                "ताज़ा",
+                "ताज़ी",
+                "ताज़ों"
+              ],
+              "options_read_as": [
+                "taaze",
+                "taazaa",
+                "taazii",
+                "taazoṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "सब्ज़ी is feminine, so the marked adjective takes -ी."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ताज़ा",
+              "ताज़ा खाना",
+              "ताज़ी सब्ज़ी",
+              "यह रोटी बासी है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The long-aa pattern has now appeared four times — चलना/चलाना, लगना/लगाना, बनना/बनाना, उबलना/उबालना — and it is reliable enough to use on verbs nobody has taught you. ताज़ा agrees; its opposite बासी looks feminine and does not.",
+        "key_forms": [
+          "सब्ज़ी काटना",
+          "पानी उबालना",
+          "ताज़ी सब्ज़ी"
+        ],
+        "next_up_en": "Next: taste and spiciness, and a conversation over the stove."
+      }
+    },
+    {
+      "level": 35,
+      "title_en": "Cooking: taste and heat",
+      "title_hi": "स्वाद · तेज़",
+      "category": "food_cooking",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M08-L35-I1",
+          "type": "word",
+          "target": "स्वाद",
+          "read_as": "svaad",
+          "pronunciation_notes": "The स्व cluster is a single sound with no vowel between: svaad.",
+          "gloss_en": "taste, flavour",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "स्वाद आना",
+            "read_as": "svaad aanaa",
+            "english": "to taste good"
+          },
+          "category": "food_cooking",
+          "difficulty": 7,
+          "tags": [
+            "food_cooking",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "ko_construction",
+            "sanskrit_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "स्वाद आना — the flavour comes to you",
+              "explanation_en": "स्वाद is taste or flavour, masculine and flagged. Its verb is आना, so खाने में स्वाद आया means the food tasted good — literally flavour came into the food. There is also the adjective स्वादिष्ट, delicious, which is unmarked and slightly formal; in everyday speech people are more likely to say खाना अच्छा है or बहुत स्वाद है. This is the same आना you met with ग़ुस्सा, हँसी and नींद.",
+              "examples": [
+                {
+                  "hindi": "खाने में स्वाद है",
+                  "read_as": "khaane meṁ svaad hai",
+                  "english": "the food is tasty",
+                  "note": "खाना goes oblique to खाने before में, since it is Class 1."
+                },
+                {
+                  "hindi": "स्वाद अच्छा है",
+                  "read_as": "svaad achchhaa hai",
+                  "english": "it tastes good",
+                  "note": "अच्छा is masculine, agreeing with स्वाद."
+                },
+                {
+                  "hindi": "यह खाना स्वादिष्ट है",
+                  "read_as": "yah khaanaa svaadishṭ hai",
+                  "english": "this food is delicious",
+                  "note": "स्वादिष्ट is the adjective, unmarked and a little formal."
+                }
+              ],
+              "common_error": {
+                "wrong": "स्वाद अच्छी है",
+                "right": "स्वाद अच्छा है",
+                "why_en": "स्वाद is masculine. The consonant ending gives no clue, which is why it is flagged."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "स्वाद",
+              "question_read_as": "svaad",
+              "options": [
+                "smell",
+                "colour",
+                "taste",
+                "texture"
+              ],
+              "options_read_as": [
+                "smell",
+                "colour",
+                "taste",
+                "texture"
+              ],
+              "answer_index": 2,
+              "explanation_en": "स्वाद is taste or flavour, and it is masculine."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with स्वाद?",
+              "options": [
+                "डालना",
+                "लगना",
+                "करना",
+                "आना"
+              ],
+              "options_read_as": [
+                "ḍaalnaa",
+                "lagnaa",
+                "karnaa",
+                "aanaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "स्वाद आना — the flavour comes, like ग़ुस्सा and हँसी before it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "स्वाद",
+              "खाने में स्वाद है",
+              "स्वाद अच्छा है",
+              "यह खाना स्वादिष्ट है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L35-I2",
+          "type": "word",
+          "target": "तेज़",
+          "read_as": "tez",
+          "pronunciation_notes": "The dotted ज़ is a z, so the word ends in a buzz: tez.",
+          "gloss_en": "spicy; also fast, sharp, bright, strong",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "unmarked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "तेज़ होना",
+            "read_as": "tez honaa",
+            "english": "to be spicy or strong"
+          },
+          "category": "food_cooking",
+          "difficulty": 6,
+          "tags": [
+            "food_cooking",
+            "adjective",
+            "unmarked_adjective",
+            "invariant",
+            "nukta",
+            "very_broad_meaning"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "One word for spicy, fast, sharp and bright",
+              "explanation_en": "तेज़ is unmarked and covers a remarkable range: spicy food, a fast car, a sharp knife, a bright light, a strong fever, a clever student. The common thread is intensity, and context does all the work. In the kitchen it means spicy, and खाना तेज़ है is what you say when your mouth is burning. Note that it is not the same as गरम, which is hot in temperature — food can be गरम without being तेज़ and the reverse.",
+              "examples": [
+                {
+                  "hindi": "खाना तेज़ है",
+                  "read_as": "khaanaa tez hai",
+                  "english": "the food is spicy",
+                  "note": "In the kitchen तेज़ means spicy rather than hot."
+                },
+                {
+                  "hindi": "गाड़ी तेज़ चल रही है",
+                  "read_as": "gaaṛii tez chal rahii hai",
+                  "english": "the car is going fast",
+                  "note": "The same word doing an entirely different job."
+                },
+                {
+                  "hindi": "उसे तेज़ बुख़ार है",
+                  "read_as": "use tez bukhaar hai",
+                  "english": "he has a high fever",
+                  "note": "Intensity again — the thread running through all its senses."
+                }
+              ],
+              "common_error": {
+                "wrong": "खाना गरम है",
+                "right": "खाना तेज़ है",
+                "why_en": "गरम is hot in temperature. If your mouth is burning from chilli, the word is तेज़."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean when talking about food?",
+              "question": "तेज़",
+              "question_read_as": "tez",
+              "options": [
+                "hot in temperature",
+                "spicy",
+                "salty",
+                "sweet"
+              ],
+              "options_read_as": [
+                "hot in temperature",
+                "spicy",
+                "salty",
+                "sweet"
+              ],
+              "answer_index": 1,
+              "explanation_en": "तेज़ is spicy. गरम is hot in temperature, and the two are different things."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which adjective describes food that burns your mouth?",
+              "options": [
+                "तेज़",
+                "गरम",
+                "ताज़ा",
+                "ठंडा"
+              ],
+              "options_read_as": [
+                "tez",
+                "garam",
+                "taazaa",
+                "ṭhanḍaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "तेज़ for chilli heat. गरम is temperature only."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तेज़",
+              "खाना तेज़ है",
+              "गाड़ी तेज़ चल रही है",
+              "उसे तेज़ बुख़ार है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L35-I3",
+          "type": "dialogue",
+          "target": "खाना बना रहा हूँ",
+          "read_as": "khaanaa banaa rahaa huuṁ",
+          "pronunciation_notes": "The three verb words run together at speed: ba-naa ra-haa huuṁ.",
+          "gloss_en": "at the stove",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "phrase",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "खाना बनाना",
+            "read_as": "khaanaa banaanaa",
+            "english": "to cook"
+          },
+          "category": "food_cooking",
+          "difficulty": 7,
+          "tags": [
+            "food_cooking",
+            "dialogue",
+            "micro_dialogue",
+            "continuous_present",
+            "agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The continuous is right here, and the habitual would not be",
+              "explanation_en": "तुम क्या बना रहे हो asks what you are making at this moment, so the continuous is correct — the habitual would be asking what you cook in general, which is a question about your repertoire rather than your evening. The last line hangs on gender: स्वाद is masculine, so अच्छा rather than अच्छी. Note also that खाना appears twice in this module with two jobs, as the noun for food and as the verb to eat.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "तुम क्या बना रहे हो?",
+                  "read_as": "tum kyaa banaa rahe ho?",
+                  "english": "What are you making?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "मैं खाना बना रहा हूँ।",
+                  "read_as": "maiṁ khaanaa banaa rahaa huuṁ.",
+                  "english": "I am cooking."
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "क्या यह तेज़ है?",
+                  "read_as": "kyaa yah tez hai?",
+                  "english": "Is it spicy?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "हाँ, थोड़ा तेज़ है, लेकिन स्वाद अच्छा है।",
+                  "read_as": "haaṁ, thoṛaa tez hai, lekin svaad achchhaa hai.",
+                  "english": "Yes, a little spicy, but it tastes good."
+                }
+              ],
+              "common_error": {
+                "wrong": "लेकिन स्वाद अच्छी है।",
+                "right": "लेकिन स्वाद अच्छा है।",
+                "why_en": "स्वाद is masculine, so the adjective takes -ा. The consonant ending is no help at all."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this phrase mean?",
+              "question": "मैं खाना बना रहा हूँ",
+              "question_read_as": "maiṁ khaanaa banaa rahaa huuṁ",
+              "options": [
+                "I am eating",
+                "I cook every day",
+                "I will cook",
+                "I am cooking"
+              ],
+              "options_read_as": [
+                "I am eating",
+                "I cook every day",
+                "I will cook",
+                "I am cooking"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The continuous present — cooking is happening right now."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the last line. Which word is missing?",
+              "masked_line_index": 3,
+              "masked_word": "अच्छा",
+              "options": [
+                "अच्छी",
+                "अच्छा",
+                "अच्छे",
+                "बुरा"
+              ],
+              "options_read_as": [
+                "achchhii",
+                "achchhaa",
+                "achchhe",
+                "buraa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "स्वाद is masculine, so the adjective is अच्छा."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तुम क्या बना रहे हो?",
+              "मैं खाना बना रहा हूँ।",
+              "क्या यह तेज़ है?",
+              "हाँ, थोड़ा तेज़ है, लेकिन स्वाद अच्छा है।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The cooking block is complete at twelve words. स्वाद takes आना like every other sensation in this module, and तेज़ means spicy rather than hot — गरम is temperature, and confusing the two is the difference between a warm plate and a burning mouth.",
+        "key_forms": [
+          "स्वाद आना",
+          "खाना तेज़ है",
+          "खाना बना रहा हूँ"
+        ],
+        "next_up_en": "Next: relationships and society, then the city and its services."
+      }
+    }
+  ]
+}

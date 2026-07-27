@@ -1,0 +1,1270 @@
+{
+  "module": 10,
+  "module_name_en": "Dative Experiencers, chaahie and lagnaa",
+  "module_name_hi": "अनुभवकर्ता, चाहिए और लगना",
+  "phase": 4,
+  "batch": {
+    "levels_from": 11,
+    "levels_to": 14
+  },
+  "levels": [
+    {
+      "level": 11,
+      "title_en": "मुझे लगता है — opinion",
+      "title_hi": "मुझे लगता है",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M10-L11-I1",
+          "type": "grammar",
+          "target": "मुझे लगता है",
+          "read_as": "mujhe lagtaa hai",
+          "pronunciation_notes": "लगता is two even beats, lag-taa, with the length only on the second.",
+          "gloss_en": "I think — literally, to me it seems",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "dative",
+            "experiencer",
+            "lagnaa",
+            "opinion",
+            "default_masculine"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The same verb, now with no noun at all",
+              "explanation_en": "So far लगना has been carrying nouns — भूख, डर, ठंड. Here it carries a whole thought instead, and मुझे लगता है means \"it seems to me\", which in ordinary use is simply \"I think\". There is no noun for the verb to agree with, so it falls back to masculine singular: लगता है, always, for every speaker. That default is worth naming, because it is the same neutral form you met in Module 9 when को blocked agreement. When Hindi has nothing to agree with, it uses the masculine singular. What follows is usually कि and the thought itself.",
+              "literal_vs_natural": {
+                "hindi": "मुझे लगता है कि वह आएगा।",
+                "literal_en": "To me it seems that he will come.",
+                "natural_en": "I think he'll come."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे लगता है कि वह आएगा।",
+                  "read_as": "mujhe lagtaa hai ki vah aaegaa.",
+                  "english": "I think he'll come.",
+                  "note": "कि introduces the thought."
+                },
+                {
+                  "hindi": "मुझे लगता है कि यह सही है।",
+                  "read_as": "mujhe lagtaa hai ki yah sahii hai.",
+                  "english": "I think this is right.",
+                  "note": "लगता है never changes, whoever is speaking."
+                },
+                {
+                  "hindi": "तुम्हें क्या लगता है?",
+                  "read_as": "tumheṁ kyaa lagtaa hai?",
+                  "english": "What do you think?",
+                  "note": "The question form — extremely common in conversation."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं लगता हूँ।",
+                "right": "मुझे लगता है।",
+                "why_en": "मैं लगता हूँ means \"I seem\" — a sentence about how you appear to others, not about what you think."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ लगता है कि वह आएगा।",
+              "question_read_as": "___ lagtaa hai ki vah aaegaa.",
+              "options": [
+                "मैंने",
+                "मैं",
+                "मुझे",
+                "मेरा"
+              ],
+              "options_read_as": [
+                "maiṁne",
+                "maiṁ",
+                "mujhe",
+                "meraa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The thought arrives at a person, so the person is marked with को."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence means 'I think'?",
+              "options": [
+                "मुझे लगता है।",
+                "मुझे लगती है।",
+                "मैंने लगता है।",
+                "मैं लगता हूँ।"
+              ],
+              "options_read_as": [
+                "mujhe lagtaa hai.",
+                "mujhe lagtii hai.",
+                "maiṁne lagtaa hai.",
+                "maiṁ lagtaa huuṁ."
+              ],
+              "answer_index": 0,
+              "explanation_en": "मुझे लगता है. The first means \"I seem\", and the third invents a feminine form where there is nothing to agree with."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे लगता है कि वह आएगा।",
+              "मुझे लगता है कि यह सही है।",
+              "तुम्हें क्या लगता है?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L11-I2",
+          "type": "grammar",
+          "target": "मुझे ऐसा लगता है",
+          "read_as": "mujhe aisaa lagtaa hai",
+          "pronunciation_notes": "ऐ is a single vowel close to the one in English 'air': ai-saa.",
+          "gloss_en": "I get the feeling — a softened opinion",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "dative",
+            "experiencer",
+            "lagnaa",
+            "opinion",
+            "register",
+            "hedging"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ऐसा makes the claim gentler",
+              "explanation_en": "ऐसा means \"such, like this\", and dropping it into the sentence softens what follows: मुझे ऐसा लगता है is closer to \"I get the feeling\" than to \"I think\". It is what you use when you are not certain, or when you are disagreeing politely — which in Hindi conversation is most of the time. ऐसा stays masculine singular throughout, because it is pointing at a thought rather than at any noun, and thoughts have no gender.",
+              "literal_vs_natural": {
+                "hindi": "मुझे ऐसा लगता है।",
+                "literal_en": "To me it seems so.",
+                "natural_en": "I get the feeling."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे ऐसा लगता है।",
+                  "read_as": "mujhe aisaa lagtaa hai.",
+                  "english": "I get the feeling.",
+                  "note": "Softer than मुझे लगता है on its own."
+                },
+                {
+                  "hindi": "मुझे ऐसा नहीं लगता।",
+                  "read_as": "mujhe aisaa nahiiṁ lagtaa.",
+                  "english": "I don't think so.",
+                  "note": "The auxiliary drops after नहीं, as it usually does."
+                },
+                {
+                  "hindi": "मुझे ऐसा लगता है कि वह नहीं आएगा।",
+                  "read_as": "mujhe aisaa lagtaa hai ki vah nahiiṁ aaegaa.",
+                  "english": "I have a feeling he won't come.",
+                  "note": "ऐसा and कि together — the thought is stated and hedged at once."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे ऐसी लगती है।",
+                "right": "मुझे ऐसा लगता है।",
+                "why_en": "There is no noun in the sentence to agree with, so both words stay masculine singular."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ ऐसा नहीं लगता।",
+              "question_read_as": "___ aisaa nahiiṁ lagtaa.",
+              "options": [
+                "उसने",
+                "उसका",
+                "वह",
+                "उसे"
+              ],
+              "options_read_as": [
+                "usne",
+                "uskaa",
+                "vah",
+                "use"
+              ],
+              "answer_index": 3,
+              "explanation_en": "वह goes oblique and fuses with को to give उसे."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मुझे ऐसी लगती है।",
+                "मुझे ऐसा लगता है।",
+                "मैं ऐसा लगता हूँ।",
+                "मुझे ऐसा लगती है।"
+              ],
+              "options_read_as": [
+                "mujhe aisii lagtii hai.",
+                "mujhe aisaa lagtaa hai.",
+                "maiṁ aisaa lagtaa huuṁ.",
+                "mujhe aisaa lagtii hai."
+              ],
+              "answer_index": 1,
+              "explanation_en": "Masculine singular throughout, because nothing in the sentence has gender."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे ऐसा लगता है।",
+              "मुझे ऐसा नहीं लगता।",
+              "मुझे ऐसा लगता है कि वह नहीं आएगा।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L11-I3",
+          "type": "grammar",
+          "target": "मुझे लगा",
+          "read_as": "mujhe lagaa",
+          "pronunciation_notes": "Two beats with the length on the second: la-gaa.",
+          "gloss_en": "I thought — and usually, I was wrong",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "dative",
+            "experiencer",
+            "lagnaa",
+            "perfective",
+            "no_ne",
+            "module9_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The past, and what it quietly implies",
+              "explanation_en": "मुझे लगा is the perfective: \"it seemed to me\", \"I thought\". In practice it usually carries the implication that you turned out to be wrong — मुझे लगा कि तुम आओगे is close to \"I thought you'd come\", said to somebody who did not. Notice there is no ने anywhere in it. लगना is intransitive, so Module 9 never applies, and the experiencer marking stays exactly as it was in the present. That combination — perfective, no ने, dative subject — is worth seeing once, because it is where the two modules meet without conflicting.",
+              "literal_vs_natural": {
+                "hindi": "मुझे लगा कि तुम आओगे।",
+                "literal_en": "To me it seemed that you would come.",
+                "natural_en": "I thought you'd come."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे लगा कि तुम आओगे।",
+                  "read_as": "mujhe lagaa ki tum aaoge.",
+                  "english": "I thought you'd come.",
+                  "note": "And the implication is that you did not."
+                },
+                {
+                  "hindi": "मुझे ऐसा लगा।",
+                  "read_as": "mujhe aisaa lagaa.",
+                  "english": "That's how it seemed to me.",
+                  "note": "Perfective of the softened form."
+                },
+                {
+                  "hindi": "उसे लगा कि यह सही है।",
+                  "read_as": "use lagaa ki yah sahii hai.",
+                  "english": "He thought this was right.",
+                  "note": "Different experiencer, identical verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने लगा।",
+                "right": "मुझे लगा।",
+                "why_en": "लगना is intransitive and never takes ने. The person is an experiencer, not an agent."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ लगा कि तुम आओगे।",
+              "question_read_as": "___ lagaa ki tum aaoge.",
+              "options": [
+                "मुझे",
+                "मैंने",
+                "मेरा",
+                "मैं"
+              ],
+              "options_read_as": [
+                "mujhe",
+                "maiṁne",
+                "meraa",
+                "maiṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The dative stays in the perfective. लगना takes no ने."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मैं लगा।",
+                "मैंने लगा।",
+                "मुझे लगा।",
+                "मुझे लगी।"
+              ],
+              "options_read_as": [
+                "maiṁ lagaa.",
+                "maiṁne lagaa.",
+                "mujhe lagaa.",
+                "mujhe lagii."
+              ],
+              "answer_index": 2,
+              "explanation_en": "मुझे लगा. ने cannot appear with लगना, and there is nothing feminine for लगी to agree with."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे लगा कि तुम आओगे।",
+              "मुझे ऐसा लगा।",
+              "उसे लगा कि यह सही है।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "मुझे लगता है is लगना carrying a thought rather than a noun, so it defaults to masculine singular and never changes. ऐसा softens it. मुझे लगा is the past, usually implying you were mistaken — and it takes no ने, because लगना is intransitive.",
+        "key_forms": [
+          "मुझे लगता है",
+          "मुझे ऐसा नहीं लगता",
+          "मुझे लगा"
+        ],
+        "next_up_en": "Next: चाहिए — the one construction here where nothing agrees with anything."
+      }
+    },
+    {
+      "level": 12,
+      "title_en": "चाहिए — need and should",
+      "title_hi": "चाहिए",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M10-L12-I1",
+          "type": "grammar",
+          "target": "मुझे पानी चाहिए",
+          "read_as": "mujhe paanii chaahie",
+          "pronunciation_notes": "Three beats: chaa-hi-e, with the length on the first and a light glide off the end.",
+          "gloss_en": "I need water — literally, to me water is wanted",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "dative",
+            "experiencer",
+            "chaahie",
+            "invariant",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "चाहिए never changes for the person",
+              "explanation_en": "चाहिए means \"is wanted, is needed\", so मुझे पानी चाहिए is literally \"to me water is wanted\". The thing needed is the subject and the person is the destination — the same shape as पसंद. What makes चाहिए easy is that it has no person forms at all: मुझे चाहिए, तुम्हें चाहिए, उन्हें चाहिए, आपको चाहिए. One word, no conjugation, nothing to get wrong. Do not confuse it with चाहना, which is an ordinary verb — मैं पानी चाहता हूँ is grammatical but sounds forceful and stilted where चाहिए would be natural.",
+              "literal_vs_natural": {
+                "hindi": "मुझे पानी चाहिए।",
+                "literal_en": "To me water is wanted.",
+                "natural_en": "I need water."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे पानी चाहिए।",
+                  "read_as": "mujhe paanii chaahie.",
+                  "english": "I need water.",
+                  "note": "पानी is the subject."
+                },
+                {
+                  "hindi": "आपको क्या चाहिए?",
+                  "read_as": "aapko kyaa chaahie?",
+                  "english": "What would you like?",
+                  "note": "The form you will be asked in every shop."
+                },
+                {
+                  "hindi": "उसे मदद चाहिए।",
+                  "read_as": "use madad chaahie.",
+                  "english": "He needs help.",
+                  "note": "मदद is feminine and चाहिए still does not move."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं पानी चाहिए।",
+                "right": "मुझे पानी चाहिए।",
+                "why_en": "The person is the destination, not the subject. पानी is what the sentence is about."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ पानी चाहिए।",
+              "question_read_as": "___ paanii chaahie.",
+              "options": [
+                "मैं",
+                "मुझे",
+                "मैंने",
+                "मेरा"
+              ],
+              "options_read_as": [
+                "maiṁ",
+                "mujhe",
+                "maiṁne",
+                "meraa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "चाहिए takes an experiencer, so मुझे."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मुझे पानी चाहिए हूँ।",
+                "मैंने पानी चाहिए।",
+                "मैं पानी चाहिए।",
+                "मुझे पानी चाहिए।"
+              ],
+              "options_read_as": [
+                "mujhe paanii chaahie huuṁ.",
+                "maiṁne paanii chaahie.",
+                "maiṁ paanii chaahie.",
+                "mujhe paanii chaahie."
+              ],
+              "answer_index": 3,
+              "explanation_en": "मुझे पानी चाहिए. चाहिए is complete on its own and takes no auxiliary behind it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे पानी चाहिए।",
+              "आपको क्या चाहिए?",
+              "उसे मदद चाहिए।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L12-I2",
+          "type": "grammar",
+          "target": "मुझे जाना चाहिए",
+          "read_as": "mujhe jaanaa chaahie",
+          "pronunciation_notes": null,
+          "gloss_en": "I should go — चाहिए with an infinitive",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "dative",
+            "experiencer",
+            "chaahie",
+            "infinitive",
+            "obligation"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "An infinitive in front turns need into should",
+              "explanation_en": "Put an infinitive before चाहिए and it stops meaning \"need a thing\" and starts meaning \"ought to\": मुझे जाना चाहिए, I should go. Literally, \"to me going is wanted\". Infinitives are masculine singular as always, so nothing moves anywhere. This is how Hindi expresses obligation and advice, and it is far commoner than any of the alternatives — if you want to tell someone they should rest, this is the sentence. For \"should have\", add था: मुझे जाना चाहिए था.",
+              "literal_vs_natural": {
+                "hindi": "मुझे जाना चाहिए।",
+                "literal_en": "To me going is wanted.",
+                "natural_en": "I should go."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे जाना चाहिए।",
+                  "read_as": "mujhe jaanaa chaahie.",
+                  "english": "I should go.",
+                  "note": "Infinitive plus चाहिए."
+                },
+                {
+                  "hindi": "तुम्हें आराम करना चाहिए।",
+                  "read_as": "tumheṁ aaraam karnaa chaahie.",
+                  "english": "You should rest.",
+                  "note": "A करना verb as the infinitive — the pattern takes any of them."
+                },
+                {
+                  "hindi": "मुझे जाना चाहिए था।",
+                  "read_as": "mujhe jaanaa chaahie thaa.",
+                  "english": "I should have gone.",
+                  "note": "था turns advice into regret."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं जाना चाहिए।",
+                "right": "मुझे जाना चाहिए।",
+                "why_en": "Obligation lands on a person, and a person something lands on is marked with को."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ आराम करना चाहिए।",
+              "question_read_as": "___ aaraam karnaa chaahie.",
+              "options": [
+                "तुम्हारा",
+                "तुम",
+                "तुम्हें",
+                "तुमने"
+              ],
+              "options_read_as": [
+                "tumhaaraa",
+                "tum",
+                "tumheṁ",
+                "tumne"
+              ],
+              "answer_index": 2,
+              "explanation_en": "चाहिए takes an experiencer, so तुम goes to तुम्हें."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence means 'I should go'?",
+              "options": [
+                "मुझे जाना चाहिए।",
+                "मुझे जाता चाहिए।",
+                "मुझे जाना चाहिए हूँ।",
+                "मैं जाना चाहिए।"
+              ],
+              "options_read_as": [
+                "mujhe jaanaa chaahie.",
+                "mujhe jaataa chaahie.",
+                "mujhe jaanaa chaahie huuṁ.",
+                "maiṁ jaanaa chaahie."
+              ],
+              "answer_index": 0,
+              "explanation_en": "The infinitive जाना, then चाहिए, with the person in the dative."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे जाना चाहिए।",
+              "तुम्हें आराम करना चाहिए।",
+              "मुझे जाना चाहिए था।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L12-I3",
+          "type": "grammar",
+          "target": "मुझे दो किताबें चाहिए",
+          "read_as": "mujhe do kitaabeṁ chaahie",
+          "pronunciation_notes": null,
+          "gloss_en": "I need two books — and चाहिए still holds still",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "dative",
+            "experiencer",
+            "chaahie",
+            "invariant",
+            "plural_thing",
+            "contrast"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Plural things, and चाहिए does not budge",
+              "explanation_en": "Compare पसंद, where a plural thing forced हैं. चाहिए does not do that. मुझे दो किताबें चाहिए is the everyday form and it is invariant. A plural चाहिएँ does exist and turns up in careful writing, but it is formal, optional, and not what people say. So चाहिए is the one construction in this module where nothing agrees with anything at all — no gender, no number, no person. After four levels of endings moving around, that is a genuine rest.",
+              "literal_vs_natural": {
+                "hindi": "मुझे दो किताबें चाहिए।",
+                "literal_en": "To me two books are wanted.",
+                "natural_en": "I need two books."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे दो किताबें चाहिए।",
+                  "read_as": "mujhe do kitaabeṁ chaahie.",
+                  "english": "I need two books.",
+                  "note": "Plural thing, and the verb is unchanged."
+                },
+                {
+                  "hindi": "मुझे कुछ नहीं चाहिए।",
+                  "read_as": "mujhe kuchh nahiiṁ chaahie.",
+                  "english": "I don't need anything.",
+                  "note": "The negative sits in front and चाहिए still holds."
+                },
+                {
+                  "hindi": "हमें और समय चाहिए।",
+                  "read_as": "hameṁ aur samay chaahie.",
+                  "english": "We need more time.",
+                  "note": "Different experiencer, same flat verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे दो किताबें चाहिए हैं।",
+                "right": "मुझे दो किताबें चाहिए।",
+                "why_en": "चाहिए is complete in itself and does not take a form of होना behind it."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ और समय चाहिए।",
+              "question_read_as": "___ aur samay chaahie.",
+              "options": [
+                "हमने",
+                "हमारा",
+                "हम",
+                "हमें"
+              ],
+              "options_read_as": [
+                "hamne",
+                "hamaaraa",
+                "ham",
+                "hameṁ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "हमें for the experiencer. हमने is the ergative form and belongs to Module 9."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मुझे दो किताबें चाहिए हैं।",
+                "मुझे दो किताबें चाहिए।",
+                "मैं दो किताबें चाहिए।",
+                "मुझे दो किताबें चाहिए हूँ।"
+              ],
+              "options_read_as": [
+                "mujhe do kitaabeṁ chaahie haiṁ.",
+                "mujhe do kitaabeṁ chaahie.",
+                "maiṁ do kitaabeṁ chaahie.",
+                "mujhe do kitaabeṁ chaahie huuṁ."
+              ],
+              "answer_index": 1,
+              "explanation_en": "चाहिए stands alone. Adding हैं or हूँ behind it is the commonest slip here."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे दो किताबें चाहिए।",
+              "मुझे कुछ नहीं चाहिए।",
+              "हमें और समय चाहिए।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "चाहिए means \"is wanted\" and never changes — not for person, not for gender, not for number. A thing in front of it means need; an infinitive in front of it means should. Adding है or हैं behind it is the one thing to avoid.",
+        "key_forms": [
+          "मुझे पानी चाहिए",
+          "मुझे जाना चाहिए",
+          "मुझे दो किताबें चाहिए"
+        ],
+        "next_up_en": "Next: लगना without any experiencer at all — three more jobs for the same verb."
+      }
+    },
+    {
+      "level": 13,
+      "title_en": "लगना without an experiencer",
+      "title_hi": "लगना के और अर्थ",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M10-L13-I1",
+          "type": "grammar",
+          "target": "वह बीमार लगता है",
+          "read_as": "vah biimaar lagtaa hai",
+          "pronunciation_notes": "बीमार has the length on the first syllable and again on the second: bii-maar.",
+          "gloss_en": "he seems ill — लगना with no dative at all",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "lagnaa",
+            "seem",
+            "no_dative",
+            "subject_agreement",
+            "rule_reversal"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Take the experiencer away and the rule reverses",
+              "explanation_en": "Drop the dative and लगना simply means \"to seem\". वह बीमार लगता है — he seems ill. And now the person is the subject, so the verb agrees with them: वह बीमार लगती है for a woman. After twelve levels of \"the person never controls the verb\", that reversal is startling, and it is worth being precise about why. The rule was never about people. It was about experiencers. No experiencer, no blocking. Put one back and the old behaviour returns immediately: मुझे वह बीमार लगता है, he seems ill to me.",
+              "literal_vs_natural": {
+                "hindi": "वह बीमार लगता है।",
+                "literal_en": "He seems ill.",
+                "natural_en": "He looks ill."
+              },
+              "examples": [
+                {
+                  "hindi": "वह बीमार लगता है।",
+                  "read_as": "vah biimaar lagtaa hai.",
+                  "english": "He looks ill.",
+                  "note": "No dative. The verb agrees with वह."
+                },
+                {
+                  "hindi": "वह ख़ुश लगती है।",
+                  "read_as": "vah khush lagtii hai.",
+                  "english": "She looks happy.",
+                  "note": "Feminine subject, feminine verb — impossible in any earlier level of this module."
+                },
+                {
+                  "hindi": "मुझे वह बीमार लगता है।",
+                  "read_as": "mujhe vah biimaar lagtaa hai.",
+                  "english": "He looks ill to me.",
+                  "note": "Add the experiencer back and it stops controlling anything again."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसे बीमार लगता है।",
+                "right": "वह बीमार लगता है।",
+                "why_en": "उसे would make him the experiencer, so the sentence would mean something seems ill to him — a different claim entirely."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ बीमार लगता है।",
+              "question_read_as": "___ biimaar lagtaa hai.",
+              "options": [
+                "वह",
+                "उसने",
+                "उसका",
+                "उसे"
+              ],
+              "options_read_as": [
+                "vah",
+                "usne",
+                "uskaa",
+                "use"
+              ],
+              "answer_index": 0,
+              "explanation_en": "There is no experiencer in this meaning, so the person is a plain subject: वह."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence means 'He looks ill'?",
+              "options": [
+                "वह बीमार लगती है।",
+                "उसे बीमार लगता है।",
+                "वह बीमार लगता है।",
+                "उसने बीमार लगता है।"
+              ],
+              "options_read_as": [
+                "vah biimaar lagtii hai.",
+                "use biimaar lagtaa hai.",
+                "vah biimaar lagtaa hai.",
+                "usne biimaar lagtaa hai."
+              ],
+              "answer_index": 2,
+              "explanation_en": "वह बीमार लगता है. The last option is grammatical but says she looks ill."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह बीमार लगता है।",
+              "वह ख़ुश लगती है।",
+              "मुझे वह बीमार लगता है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L13-I2",
+          "type": "grammar",
+          "target": "दीवार पर तस्वीर लगी है",
+          "read_as": "diivaar par tasviir lagii hai",
+          "pronunciation_notes": "Both nouns have the length on the second syllable: dii-vaar, tas-viir.",
+          "gloss_en": "there's a picture on the wall — लगना as attached",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "lagnaa",
+            "attached",
+            "no_dative",
+            "par_postposition",
+            "feminine_thing"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "लगना as attached, mounted, put up",
+              "explanation_en": "Third meaning: to be attached or fixed to something. दीवार पर तस्वीर लगी है — a picture is up on the wall. तस्वीर is feminine, so लगी. There is no experiencer and no dative; there is an ordinary subject and a place marked with पर. This meaning is behind a great deal of everyday Hindi that has nothing to do with feelings — ताला लगा है, the lock is on; लाइन लगी है, there's a queue. If you see लगना with पर and a place, this is the meaning.",
+              "literal_vs_natural": {
+                "hindi": "दीवार पर तस्वीर लगी है।",
+                "literal_en": "On the wall a picture is attached.",
+                "natural_en": "There's a picture on the wall."
+              },
+              "examples": [
+                {
+                  "hindi": "दीवार पर तस्वीर लगी है।",
+                  "read_as": "diivaar par tasviir lagii hai.",
+                  "english": "There's a picture on the wall.",
+                  "note": "तस्वीर is feminine and it is the subject."
+                },
+                {
+                  "hindi": "दरवाज़े पर ताला लगा है।",
+                  "read_as": "darvaaze par taalaa lagaa hai.",
+                  "english": "The door is locked.",
+                  "note": "ताला is masculine, so लगा. दरवाज़ा goes oblique before पर."
+                },
+                {
+                  "hindi": "वहाँ लाइन लगी है।",
+                  "read_as": "vahaaṁ laain lagii hai.",
+                  "english": "There's a queue there.",
+                  "note": "The same verb, and nothing is attached to anything physically."
+                }
+              ],
+              "common_error": {
+                "wrong": "दीवार पर तस्वीर लगा है।",
+                "right": "दीवार पर तस्वीर लगी है।",
+                "why_en": "तस्वीर is feminine and it is the subject of the sentence."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "दीवार पर ___ लगी है।",
+              "question_read_as": "diivaar par ___ lagii hai.",
+              "options": [
+                "तस्वीर को",
+                "तस्वीर",
+                "तस्वीरें",
+                "तस्वीर ने"
+              ],
+              "options_read_as": [
+                "tasviir ko",
+                "tasviir",
+                "tasviireṁ",
+                "tasviir ne"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The picture is the plain subject — no को, no ने, and singular to match लगी है."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "दीवार पर तस्वीर लगे हैं।",
+                "दीवार को तस्वीर लगी है।",
+                "दीवार पर तस्वीर लगा है।",
+                "दीवार पर तस्वीर लगी है।"
+              ],
+              "options_read_as": [
+                "diivaar par tasviir lage haiṁ.",
+                "diivaar ko tasviir lagii hai.",
+                "diivaar par tasviir lagaa hai.",
+                "diivaar par tasviir lagii hai."
+              ],
+              "answer_index": 3,
+              "explanation_en": "तस्वीर is feminine singular, and the place takes पर rather than को."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दीवार पर तस्वीर लगी है।",
+              "दरवाज़े पर ताला लगा है।",
+              "वहाँ लाइन लगी है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L13-I3",
+          "type": "grammar",
+          "target": "दो घंटे लगते हैं",
+          "read_as": "do ghanṭe lagte haiṁ",
+          "pronunciation_notes": "घ is an aspirated g and ट is retroflex: ghan-ṭe.",
+          "gloss_en": "it takes two hours — लगना as cost or take",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "lagnaa",
+            "cost",
+            "time",
+            "masculine_plural",
+            "optional_dative"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "लगना for time and money",
+              "explanation_en": "Fourth meaning: to be spent, to be taken. दो घंटे लगते हैं — two hours are taken, meaning it takes two hours. घंटे is masculine plural, so लगते हैं. The same verb covers money: सौ रुपये लगते हैं, it costs a hundred rupees. And the person for whom it takes that long can come back in the dative: मुझे दो घंटे लगते हैं, it takes me two hours. So this meaning sits on the boundary between the two halves of the module — it works with an experiencer or without one, and the verb follows the quantity either way.",
+              "literal_vs_natural": {
+                "hindi": "मुझे दो घंटे लगते हैं।",
+                "literal_en": "To me two hours are applied.",
+                "natural_en": "It takes me two hours."
+              },
+              "examples": [
+                {
+                  "hindi": "दो घंटे लगते हैं।",
+                  "read_as": "do ghanṭe lagte haiṁ.",
+                  "english": "It takes two hours.",
+                  "note": "घंटे is masculine plural, so लगते हैं."
+                },
+                {
+                  "hindi": "मुझे दो घंटे लगते हैं।",
+                  "read_as": "mujhe do ghanṭe lagte haiṁ.",
+                  "english": "It takes me two hours.",
+                  "note": "The dative is added and the verb does not move."
+                },
+                {
+                  "hindi": "सौ रुपये लगते हैं।",
+                  "read_as": "sau rupae lagte haiṁ.",
+                  "english": "It costs a hundred rupees.",
+                  "note": "Money behaves exactly like time here."
+                }
+              ],
+              "common_error": {
+                "wrong": "दो घंटे लगता है।",
+                "right": "दो घंटे लगते हैं।",
+                "why_en": "घंटे is masculine plural, so both the verb and the auxiliary are plural."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ दो घंटे लगते हैं।",
+              "question_read_as": "___ do ghanṭe lagte haiṁ.",
+              "options": [
+                "मेरा",
+                "मैं",
+                "मुझे",
+                "मैंने"
+              ],
+              "options_read_as": [
+                "meraa",
+                "maiṁ",
+                "mujhe",
+                "maiṁne"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The person it takes that long for is an experiencer, so मुझे."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "दो घंटे लगते हैं।",
+                "दो घंटे लगती हैं।",
+                "दो घंटे लगे हूँ।",
+                "दो घंटे लगता है।"
+              ],
+              "options_read_as": [
+                "do ghanṭe lagte haiṁ.",
+                "do ghanṭe lagtii haiṁ.",
+                "do ghanṭe lage huuṁ.",
+                "do ghanṭe lagtaa hai."
+              ],
+              "answer_index": 0,
+              "explanation_en": "घंटे is masculine plural, so लगते हैं."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दो घंटे लगते हैं।",
+              "मुझे दो घंटे लगते हैं।",
+              "सौ रुपये लगते हैं।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Without an experiencer, लगना means to seem, to be attached, or to cost. In all three the person or thing in front is an ordinary subject and the verb agrees with it — because the blocking rule was never about people, it was about experiencers.",
+        "key_forms": [
+          "वह बीमार लगता है",
+          "दीवार पर तस्वीर लगी है",
+          "दो घंटे लगते हैं"
+        ],
+        "next_up_en": "Next: the last meaning, and all five side by side."
+      }
+    },
+    {
+      "level": 14,
+      "title_en": "Beginning, being struck, and the whole picture",
+      "title_hi": "लगना के पाँच अर्थ",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M10-L14-I1",
+          "type": "grammar",
+          "target": "वह रोने लगा",
+          "read_as": "vah rone lagaa",
+          "pronunciation_notes": "रोने is two beats, ro-ne, with the oblique -ने ending short.",
+          "gloss_en": "he began to cry — लगना as begin",
+          "gender": null,
+          "difficulty": 9,
+          "tags": [
+            "lagnaa",
+            "inceptive",
+            "oblique_infinitive",
+            "no_dative",
+            "module6_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "An oblique infinitive means something started",
+              "explanation_en": "Fifth meaning: to begin. The recipe is an oblique infinitive plus लगना — रोना becomes रोने, then लगा. वह रोने लगा, he started crying. That oblique ending is Module 6 doing one more job: an infinitive standing in front of another element goes to -ने, exactly as a noun would. There is no dative and no experiencer here, so the person is an ordinary subject and the verb agrees with them: वह रोने लगी for a woman. The construction always implies a sudden start rather than a gradual one.",
+              "literal_vs_natural": {
+                "hindi": "वह रोने लगा।",
+                "literal_en": "He was applied to crying.",
+                "natural_en": "He started crying."
+              },
+              "examples": [
+                {
+                  "hindi": "वह रोने लगा।",
+                  "read_as": "vah rone lagaa.",
+                  "english": "He started crying.",
+                  "note": "Oblique infinitive रोने, then लगा agreeing with वह."
+                },
+                {
+                  "hindi": "वह हँसने लगी।",
+                  "read_as": "vah haṁsne lagii.",
+                  "english": "She started laughing.",
+                  "note": "Feminine subject, feminine verb."
+                },
+                {
+                  "hindi": "बारिश होने लगी।",
+                  "read_as": "baarish hone lagii.",
+                  "english": "It started raining.",
+                  "note": "बारिश is feminine, and it is the subject."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह रोना लगा।",
+                "right": "वह रोने लगा।",
+                "why_en": "The infinitive must go oblique to -ने before लगना. रोना is the direct form and cannot stand there."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ रोने लगा।",
+              "question_read_as": "___ rone lagaa.",
+              "options": [
+                "उसने",
+                "उसका",
+                "उसे",
+                "वह"
+              ],
+              "options_read_as": [
+                "usne",
+                "uskaa",
+                "use",
+                "vah"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The beginning meaning has no experiencer, so the person is a plain subject."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "वह रोना लगा।",
+                "वह रोने लगा।",
+                "उसे रोने लगा।",
+                "उसने रोने लगा।"
+              ],
+              "options_read_as": [
+                "vah ronaa lagaa.",
+                "vah rone lagaa.",
+                "use rone lagaa.",
+                "usne rone lagaa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "Oblique रोने, plain subject वह, and no ने anywhere — लगना is intransitive."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह रोने लगा।",
+              "वह हँसने लगी।",
+              "बारिश होने लगी।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L14-I2",
+          "type": "grammar",
+          "target": "मुझे चोट लगी",
+          "read_as": "mujhe choṭ lagii",
+          "pronunciation_notes": "ट is retroflex and closes the syllable: choṭ, one beat.",
+          "gloss_en": "I got hurt — literally, an injury was applied to me",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "dative",
+            "experiencer",
+            "lagnaa",
+            "feminine_thing",
+            "circle_closed"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "And the dative comes back",
+              "explanation_en": "चोट means injury, and चोट लगना is to be struck by one: मुझे चोट लगी, literally an injury was applied to me. चोट is feminine, so लगी. This closes the circle. After three meanings with no experiencer at all, the dative returns — and it returns for exactly the reason it appeared in level one: something has happened to a person who did not choose it. If you want to say where, use में on the body part: मुझे पैर में चोट लगी.",
+              "literal_vs_natural": {
+                "hindi": "मुझे चोट लगी।",
+                "literal_en": "To me an injury was applied.",
+                "natural_en": "I got hurt."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे चोट लगी।",
+                  "read_as": "mujhe choṭ lagii.",
+                  "english": "I got hurt.",
+                  "note": "चोट is feminine, so लगी."
+                },
+                {
+                  "hindi": "बच्चे को चोट लगी।",
+                  "read_as": "bacche ko choṭ lagii.",
+                  "english": "The child got hurt.",
+                  "note": "Noun experiencer, oblique plus को."
+                },
+                {
+                  "hindi": "मुझे पैर में चोट लगी।",
+                  "read_as": "mujhe pair meṁ choṭ lagii.",
+                  "english": "I hurt my leg.",
+                  "note": "The body part takes में, not a possessive."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने चोट लगी।",
+                "right": "मुझे चोट लगी।",
+                "why_en": "लगना is intransitive and takes no ने, and the person is an experiencer rather than an agent."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ चोट लगी।",
+              "question_read_as": "___ choṭ lagii.",
+              "options": [
+                "बच्चे को",
+                "बच्चे",
+                "बच्चों",
+                "बच्चा"
+              ],
+              "options_read_as": [
+                "bacche ko",
+                "bacche",
+                "bacchoṁ",
+                "bacchaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Oblique बच्चे, then को as a separate word."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मैं चोट लगी।",
+                "मैंने चोट लगी।",
+                "मुझे चोट लगी।",
+                "मुझे चोट लगा।"
+              ],
+              "options_read_as": [
+                "maiṁ choṭ lagii.",
+                "maiṁne choṭ lagii.",
+                "mujhe choṭ lagii.",
+                "mujhe choṭ lagaa."
+              ],
+              "answer_index": 2,
+              "explanation_en": "मुझे for the experiencer, लगी for feminine चोट, and no ने anywhere."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे चोट लगी।",
+              "बच्चे को चोट लगी।",
+              "मुझे पैर में चोट लगी।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L14-I3",
+          "type": "grammar",
+          "target": "लगना के पाँच अर्थ",
+          "read_as": "lagnaa ke paaṁch arth",
+          "pronunciation_notes": null,
+          "gloss_en": "the five meanings of लगना, side by side",
+          "gender": null,
+          "difficulty": 9,
+          "tags": [
+            "lagnaa",
+            "capstone",
+            "summary",
+            "construction_based"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "One verb, five jobs, and the sentence tells you which",
+              "explanation_en": "लगना is among the hardest-working verbs in Hindi, and the five uses are worth seeing together — because what distinguishes them is never the verb, it is the shape of the sentence around it. Felt: मुझे भूख लगी है, with a dative in front. Seem: वह बीमार लगता है, with an ordinary subject and no dative. Attached: दीवार पर तस्वीर लगी है, with पर and a place. Cost or take: दो घंटे लगते हैं, with a quantity as the subject. Begin: वह रोने लगा, with an oblique infinitive in front. A dative means a sensation, an oblique infinitive means a beginning, पर and a place means attachment. That is why this module taught लगना through its constructions rather than as five dictionary entries to memorise.",
+              "literal_vs_natural": {
+                "hindi": "मुझे दो घंटे लगते हैं।",
+                "literal_en": "To me two hours are applied.",
+                "natural_en": "It takes me two hours."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे भूख लगी है।",
+                  "read_as": "mujhe bhuukh lagii hai.",
+                  "english": "I'm hungry.",
+                  "note": "Dative in front — the sensation meaning."
+                },
+                {
+                  "hindi": "वह बीमार लगता है।",
+                  "read_as": "vah biimaar lagtaa hai.",
+                  "english": "He looks ill.",
+                  "note": "No dative — the seeming meaning."
+                },
+                {
+                  "hindi": "वह रोने लगा।",
+                  "read_as": "vah rone lagaa.",
+                  "english": "He started crying.",
+                  "note": "Oblique infinitive — the beginning meaning."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे रोने लगा।",
+                "right": "वह रोने लगा।",
+                "why_en": "The beginning meaning has no experiencer at all, so the person is an ordinary subject."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ पैर में चोट लगी।",
+              "question_read_as": "___ pair meṁ choṭ lagii.",
+              "options": [
+                "वह",
+                "उसे",
+                "उसने",
+                "उसका"
+              ],
+              "options_read_as": [
+                "vah",
+                "use",
+                "usne",
+                "uskaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Being hurt is something that happens to a person, so the experiencer form उसे."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "उसने रोने लगा।",
+                "मुझे बीमार लगता है।",
+                "मुझे रोने लगा।",
+                "वह रोने लगा।"
+              ],
+              "options_read_as": [
+                "usne rone lagaa.",
+                "mujhe biimaar lagtaa hai.",
+                "mujhe rone lagaa.",
+                "vah rone lagaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "The beginning meaning takes a plain subject. The last option is grammatical but means something seems ill to me."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे भूख लगी है।",
+              "वह बीमार लगता है।",
+              "वह रोने लगा।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "An oblique infinitive plus लगना means something began — वह रोने लगा. चोट लगना brings the dative back for the last time. And the five meanings are told apart by the sentence around the verb, not by the verb: a dative means felt, no dative means seem, पर means attached, a quantity means cost, an oblique infinitive means begin.",
+        "key_forms": [
+          "वह रोने लगा",
+          "मुझे चोट लगी",
+          "मुझे भूख लगी है"
+        ],
+        "next_up_en": "That completes the module — 42 items. Next is the mock exam."
+      }
+    }
+  ]
+}

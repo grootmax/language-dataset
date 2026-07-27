@@ -1,0 +1,1171 @@
+{
+  "module": 15,
+  "module_name_en": "Register and Polish",
+  "module_name_hi": "भाषा की परतें",
+  "phase": 5,
+  "type": "grammar",
+  "batch": {
+    "levels_from": 9,
+    "levels_to": 12
+  },
+  "batch_note": "Level 10 is written to say that its own claim varies. Where code-switching lands well and where it jars differs by city, family, generation and occasion, and a rule stated flatly here would be wrong for a large share of learners. Level 12 closes the module and the course.",
+  "levels": [
+    {
+      "level": 9,
+      "title_en": "Urdu-influenced",
+      "title_hi": "उर्दू की छाप",
+      "items": [
+        {
+          "id": "M15-L09-I1",
+          "type": "grammar",
+          "axis": "tendency",
+          "register_tags": [
+            "urdu_influenced",
+            "sounds"
+          ],
+          "target": "ज़िंदगी में ख़ुशी की कोई कमी नहीं।",
+          "read_as": "ziṁdagii meṁ ḳhushii kii koii kamii nahiiṁ.",
+          "english": "There is no shortage of happiness in life.",
+          "difficulty": 8,
+          "tags": [
+            "register",
+            "tendency_axis",
+            "nuqta",
+            "sounds",
+            "variation"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Five sounds that tell you where a word came from",
+              "explanation_en": "ज़, फ़, क़, ख़ and ग़ — the letters written with a dot beneath — came into Hindi with Perso-Arabic vocabulary, and they are a reliable signal of a word's origin. ज़िंदगी, ख़ुशी, फ़र्क़, क़िस्मत, ग़लत, दफ़्तर, तकलीफ़. Two honest things to add. Very many speakers pronounce them as the undotted letters — ज for ज़, ख for ख़ — and very many writers leave the dot off. Both are entirely normal, and a learner who hears खुशी rather than ख़ुशी has not heard a mistake.",
+              "examples": [
+                {
+                  "hindi": "ज़िंदगी में ख़ुशी की कोई कमी नहीं।",
+                  "read_as": "ziṁdagii meṁ ḳhushii kii koii kamii nahiiṁ.",
+                  "english": "There is no shortage of happiness in life.",
+                  "note": "Two dotted letters, and the sentence is entirely ordinary."
+                },
+                {
+                  "hindi": "जीवन में सुख की कोई कमी नहीं।",
+                  "read_as": "jiivan meṁ sukh kii koii kamii nahiiṁ.",
+                  "english": "There is no shortage of happiness in life.",
+                  "note": "The same sentence on the other side, and it reads as a maxim rather than a remark."
+                },
+                {
+                  "hindi": "दफ़्तर में बहुत तकलीफ़ हुई।",
+                  "read_as": "daftar meṁ bahut takliif huii.",
+                  "english": "There was a lot of trouble at the office.",
+                  "note": "फ़ twice, in two entirely everyday words."
+                }
+              ],
+              "common_error": {
+                "wrong": "assuming the dot is always written",
+                "right": "expecting to see it and not to see it",
+                "why_en": "Printed books usually keep it, handwriting and signage often do not, and the same writer may vary within a page. Reading has to survive both."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "A line in a song lyric.",
+              "options": [
+                "जीवन में प्रसन्नता का अभाव नहीं है।",
+                "ज़िंदगी में ख़ुशी की कोई कमी नहीं।",
+                "जीवन में सुख की कोई कमी नहीं।",
+                "लाइफ़ में हैप्पीनेस की कोई कमी नहीं।"
+              ],
+              "options_read_as": [
+                "jiivan meṁ prasannataa kaa abhaav nahiiṁ hai.",
+                "ziṁdagii meṁ ḳhushii kii koii kamii nahiiṁ.",
+                "jiivan meṁ sukh kii koii kamii nahiiṁ.",
+                "laaif meṁ haipiinas kii koii kamii nahiiṁ."
+              ],
+              "answer_index": 1,
+              "explanation_en": "Song and poetry draw heavily on this layer. The second would suit a devotional or philosophical text, the fourth an essay, and the third is not how anybody sings."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "जीवन में प्रसन्नता का अभाव नहीं है।",
+              "sentence_read_as": "jiivan meṁ prasannataa kaa abhaav nahiiṁ hai.",
+              "question_en": "Where would you meet this?",
+              "options": [
+                "A text message",
+                "A song",
+                "An essay or a formal address",
+                "A conversation"
+              ],
+              "answer_index": 2,
+              "explanation_en": "प्रसन्नता and अभाव are both assembled Sanskrit-side words. They belong to writing that is arguing rather than feeling."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ज़िंदगी में ख़ुशी की कोई कमी नहीं।",
+              "दफ़्तर में बहुत तकलीफ़ हुई।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L09-I2",
+          "type": "grammar",
+          "axis": "tendency",
+          "register_tags": [
+            "urdu_influenced",
+            "affixes"
+          ],
+          "target": "वो बहुत ईमानदार और ज़िम्मेदार इंसान हैं।",
+          "read_as": "vo bahut iimaandaar aur zimmedaar insaan haiṁ.",
+          "english": "He is a very honest and responsible man.",
+          "difficulty": 8,
+          "tags": [
+            "register",
+            "tendency_axis",
+            "affixes",
+            "assembly",
+            "callback_m13"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "This layer is assembled too, from a different set of pieces",
+              "explanation_en": "Level 8 said the Sanskrit-influenced layer builds words from prefixes and suffixes. So does this one, with its own inventory. The suffix -दार means possessing: ईमानदार, ज़िम्मेदार, समझदार, दुकानदार. -मंद does similar work: अक़लमंद, दौलतमंद. And the prefixes बे-, ना-, ला- and ग़ैर- all negate — बेकार, नामुमकिन, लापरवाह, ग़ैरक़ानूनी. Module 13 taught every one of these. The two layers are built the same way and out of different materials, and each keeps its own affixes.",
+              "examples": [
+                {
+                  "hindi": "वो बहुत ईमानदार और ज़िम्मेदार इंसान हैं।",
+                  "read_as": "vo bahut iimaandaar aur zimmedaar insaan haiṁ.",
+                  "english": "He is a very honest and responsible man.",
+                  "note": "-दार twice, and इंसान rather than व्यक्ति."
+                },
+                {
+                  "hindi": "वो अत्यंत निष्ठावान एवं उत्तरदायी व्यक्ति हैं।",
+                  "read_as": "vo atyaṁt niṣṭhaavaan evaṁ uttardaayii vyakti haiṁ.",
+                  "english": "He is an extremely dedicated and responsible person.",
+                  "note": "The same description in the other layer — a citation for an award."
+                },
+                {
+                  "hindi": "ये बिल्कुल बेकार है।",
+                  "read_as": "ye bilkul bekaar hai.",
+                  "english": "This is completely useless.",
+                  "note": "बे- from level 8, negating on its own side."
+                }
+              ],
+              "common_error": {
+                "wrong": "ज़िम्मेदारता",
+                "right": "ज़िम्मेदारी",
+                "why_en": "-ता is a Sanskrit-side suffix and does not attach here. The abstract noun from a -दार word takes -ी: ज़िम्मेदारी, ईमानदारी, समझदारी."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "Describing a colleague warmly in conversation.",
+              "options": [
+                "वो अत्यंत निष्ठावान एवं उत्तरदायी व्यक्ति हैं।",
+                "वो बहुत रिलायबल पर्सन हैं।",
+                "उनका आचरण सराहनीय है।",
+                "वो बहुत ईमानदार और ज़िम्मेदार इंसान हैं।"
+              ],
+              "options_read_as": [
+                "vo atyaṁt niṣṭhaavaan evaṁ uttardaayii vyakti haiṁ.",
+                "vo bahut rilaayabal parsan haiṁ.",
+                "unkaa aacharaṇ saraahniiya hai.",
+                "vo bahut iimaandaar aur zimmedaar insaan haiṁ."
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second is a written citation. The fourth is an appraisal. The third would be understood everywhere and sounds like a reference letter translated in a hurry."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "वो अत्यंत निष्ठावान एवं उत्तरदायी व्यक्ति हैं।",
+              "sentence_read_as": "vo atyaṁt niṣṭhaavaan evaṁ uttardaayii vyakti haiṁ.",
+              "question_en": "Where would you meet this?",
+              "options": [
+                "A written citation or testimonial",
+                "A text message",
+                "A news headline",
+                "A conversation about a friend"
+              ],
+              "answer_index": 0,
+              "explanation_en": "एवं is written-only, and निष्ठावान and उत्तरदायी are assembled words. Nobody praises a friend like this out loud."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वो बहुत ईमानदार और ज़िम्मेदार इंसान हैं।",
+              "ये बिल्कुल बेकार है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L09-I3",
+          "type": "grammar",
+          "axis": "tendency",
+          "register_tags": [
+            "urdu_influenced",
+            "where_expected"
+          ],
+          "target": "आपकी मेहरबानी का शुक्रिया अदा करता हूँ।",
+          "read_as": "aapkii mehrbaanii kaa shukriyaa adaa kartaa huuṁ.",
+          "english": "I thank you for your kindness.",
+          "difficulty": 9,
+          "tags": [
+            "register",
+            "tendency_axis",
+            "where_expected",
+            "courtesy",
+            "callback_m13"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Where this layer does the work",
+              "explanation_en": "Level 8 found that the Sanskrit-influenced side owns the naming of institutions. This side owns something quite different: courtesy, hospitality, affection, complaint and song. मेहरबानी, शुक्रिया, इज़्ज़त, तकलीफ़, माफ़ी, गुज़ारिश, अपनापन — the vocabulary of how people treat one another. Both layers have words for all of these; usage has simply settled this way. Module 12's hosts and Module 13's narratives were full of it, long before there was a name for the pattern.",
+              "examples": [
+                {
+                  "hindi": "आपकी मेहरबानी का शुक्रिया अदा करता हूँ।",
+                  "read_as": "aapkii mehrbaanii kaa shukriyaa adaa kartaa huuṁ.",
+                  "english": "I thank you for your kindness.",
+                  "note": "Formal and warm at once — the two axes again."
+                },
+                {
+                  "hindi": "आपके सहयोग के लिए हार्दिक धन्यवाद।",
+                  "read_as": "aapke sahyog ke lie haardik dhanyavaad.",
+                  "english": "Sincere thanks for your cooperation.",
+                  "note": "The other layer, and it reads as ceremony rather than warmth."
+                },
+                {
+                  "hindi": "बहुत बहुत शुक्रिया, भाई साहब।",
+                  "read_as": "bahut bahut shukriyaa, bhaaii saahab.",
+                  "english": "Thank you so much.",
+                  "note": "The same layer, entirely casual. The tendency has not changed; the situation has."
+                }
+              ],
+              "common_error": {
+                "wrong": "assuming this layer is always the informal one",
+                "right": "checking the two axes separately",
+                "why_en": "शुक्रिया अदा करना is formal and Urdu-side. शुक्रिया भाई is casual and Urdu-side. The layer says nothing about the situation."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "Thanking a neighbour warmly for a favour.",
+              "options": [
+                "आपकी मेहरबानी का शुक्रिया अदा करता हूँ।",
+                "आपके सहयोग के लिए हार्दिक धन्यवाद।",
+                "थैंक्स सो मच।",
+                "आपका आभार व्यक्त किया जाता है।"
+              ],
+              "options_read_as": [
+                "aapkii mehrbaanii kaa shukriyaa adaa kartaa huuṁ.",
+                "aapke sahyog ke lie haardik dhanyavaad.",
+                "thaiṁks so mach.",
+                "aapkaa aabhaar vyakt kiyaa jaataa hai."
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second is ceremonial and would suit a speech. The third is fine between friends. The fourth is institutional and has removed the person doing the thanking, which is the last thing a thank-you should do."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "आपका आभार व्यक्त किया जाता है।",
+              "sentence_read_as": "aapkaa aabhaar vyakt kiyaa jaataa hai.",
+              "question_en": "Why does this sit oddly as a personal thank-you?",
+              "options": [
+                "It is ungrammatical",
+                "The passive has removed the person doing the thanking",
+                "It is too short",
+                "It uses the wrong pronoun"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The construction from level 5 is doing exactly what it is built to do. In a notice that is useful; in a thank-you it takes the gratitude out."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "आपकी मेहरबानी का शुक्रिया अदा करता हूँ।",
+              "बहुत बहुत शुक्रिया, भाई साहब।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "ज़, फ़, क़, ख़ and ग़ signal a word's origin, and dropping the dot is completely normal in both speech and writing. This layer is assembled from its own affixes — -दार, -मंद, बे-, ना-, ला-, ग़ैर- — and it carries courtesy, hospitality, affection and song. None of that says anything about the situation axis.",
+        "key_forms": [
+          "ज़िंदगी, ख़ुशी",
+          "ईमानदार, ज़िम्मेदार",
+          "मेहरबानी, शुक्रिया"
+        ],
+        "next_up_en": "Next: English inside Hindi, and where it lands well."
+      }
+    },
+    {
+      "level": 10,
+      "title_en": "Hinglish and code-switching",
+      "title_hi": "हिंग्लिश",
+      "items": [
+        {
+          "id": "M15-L10-I1",
+          "type": "grammar",
+          "axis": "tendency",
+          "register_tags": [
+            "hinglish",
+            "grammar_wins"
+          ],
+          "target": "मीटिंग कैंसिल हो गई, मैसेज कर दिया है।",
+          "read_as": "miiṭiṁg kainsil ho gaii, maisej kar diyaa hai.",
+          "english": "The meeting's been cancelled, I've sent a message.",
+          "difficulty": 7,
+          "tags": [
+            "register",
+            "tendency_axis",
+            "hinglish",
+            "grammar_wins",
+            "callback_m12"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "One grammar, borrowed words",
+              "explanation_en": "मीटिंग कैंसिल हो गई, मैसेज कर दिया है. Three English words, and every single ending is Hindi. मीटिंग is feminine, so गई. कैंसिल takes होना because the meeting undergoes it, and मैसेज takes करना because you do it. Both have the जाना and देना vectors from Module 11 attached. This is not two languages taking turns — it is Hindi grammar running on borrowed vocabulary, and Module 12 found the same thing with टिप हो जाएगी and फ़ोल्डरों में.",
+              "examples": [
+                {
+                  "hindi": "मीटिंग कैंसिल हो गई, मैसेज कर दिया है।",
+                  "read_as": "miiṭiṁg kainsil ho gaii, maisej kar diyaa hai.",
+                  "english": "The meeting's been cancelled, I've sent a message.",
+                  "note": "Every ending Hindi, every content word English."
+                },
+                {
+                  "hindi": "फ़ोल्डरों में सब मिल जाएगा।",
+                  "read_as": "folḍaroṁ meṁ sab mil jaaegaa.",
+                  "english": "You'll find everything in the folders.",
+                  "note": "An English noun taking a Hindi oblique plural, from Module 12."
+                },
+                {
+                  "hindi": "बैठक रद्द हो गई है, सूचना भेज दी गई है।",
+                  "read_as": "baiṭhak radd ho gaii hai, suuchnaa bhej dii gaii hai.",
+                  "english": "The meeting has been cancelled and notice has been sent.",
+                  "note": "The same content with no English at all — and it now reads as a circular."
+                }
+              ],
+              "common_error": {
+                "wrong": "treating code-switching as a gap in somebody's Hindi",
+                "right": "treating it as a vocabulary choice",
+                "why_en": "The speaker who says मीटिंग कैंसिल हो गई is applying gender, agreement and two vectors correctly. Nothing about the grammar is missing."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "A message to colleagues about a cancelled meeting.",
+              "options": [
+                "सूचित किया जाता है कि बैठक स्थगित कर दी गई है।",
+                "अरे यार वो मीटिंग वाला चक्कर कैंसिल।",
+                "मीटिंग कैंसिल हो गई, मैसेज कर दिया है।",
+                "बैठक रद्द हो गई है, सूचना भेज दी गई है।"
+              ],
+              "options_read_as": [
+                "suuchit kiyaa jaataa hai ki baiṭhak sthagit kar dii gaii hai.",
+                "are yaar vo miiṭiṁg vaalaa chakkar kainsil.",
+                "miiṭiṁg kainsil ho gaii, maisej kar diyaa hai.",
+                "baiṭhak radd ho gaii hai, suuchnaa bhej dii gaii hai."
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second reads as a circular and the third is a formal notice. The fourth is how you would tell one close colleague, not the team."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "बैठक रद्द हो गई है, सूचना भेज दी गई है।",
+              "sentence_read_as": "baiṭhak radd ho gaii hai, suuchnaa bhej dii gaii hai.",
+              "question_en": "Where does this belong?",
+              "options": [
+                "A conversation",
+                "A headline",
+                "A message between colleagues",
+                "A written circular"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बैठक, रद्द and सूचना together, plus a passive in the second half. That is a circular rather than a message."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मीटिंग कैंसिल हो गई, मैसेज कर दिया है।",
+              "बैठक रद्द हो गई है, सूचना भेज दी गई है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L10-I2",
+          "type": "grammar",
+          "axis": "tendency",
+          "register_tags": [
+            "hinglish",
+            "when_normal"
+          ],
+          "target": "फ़ाइल अपलोड करके लिंक शेयर कर दो।",
+          "read_as": "faail aploḍ karke liṁk sheyar kar do.",
+          "english": "Upload the file and share the link.",
+          "difficulty": 7,
+          "tags": [
+            "register",
+            "tendency_axis",
+            "hinglish",
+            "domain_vocabulary",
+            "callback_m14"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Sometimes there is no other word in use",
+              "explanation_en": "फ़ाइल अपलोड करके लिंक शेयर कर दो. Hindi words exist for most of this — संचिका for a file, कड़ी for a link — and almost nobody uses them outside official documents. In technology, offices, universities and most urban conversation, the English word simply is the word. Reaching for संचिका in a work message would not be more careful; it would be unintelligible to half the room. Note करके from Module 14 chaining the two instructions, and both English verbs taking करना.",
+              "examples": [
+                {
+                  "hindi": "फ़ाइल अपलोड करके लिंक शेयर कर दो।",
+                  "read_as": "faail aploḍ karke liṁk sheyar kar do.",
+                  "english": "Upload the file and share the link.",
+                  "note": "Three English words and a Hindi participle holding them together."
+                },
+                {
+                  "hindi": "स्क्रीन शेयर कर सकते हैं?",
+                  "read_as": "skriin sheyar kar sakte haiṁ?",
+                  "english": "Could you share your screen?",
+                  "note": "स्क्रीन is feminine, as Module 13 established."
+                },
+                {
+                  "hindi": "संचिका अपलोड करके कड़ी साझा करें।",
+                  "read_as": "saṁchikaa aploḍ karke kaṛii saajhaa kareṁ.",
+                  "english": "Upload the file and share the link.",
+                  "note": "The official vocabulary. It exists, and it appears on government portals."
+                }
+              ],
+              "common_error": {
+                "wrong": "using संचिका and कड़ी in an office message to sound careful",
+                "right": "using फ़ाइल and लिंक",
+                "why_en": "The official terms are real and they are used in official writing. In a working conversation they are likely to stop the conversation while everyone works out what was meant."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "A quick instruction to a colleague on a work chat.",
+              "options": [
+                "संचिका अपलोड करके कड़ी साझा करें।",
+                "कृपया संलग्न प्रपत्र भेजें।",
+                "वो चीज़ भेज देना जो कल बनाई थी।",
+                "फ़ाइल अपलोड करके लिंक शेयर कर दो।"
+              ],
+              "options_read_as": [
+                "saṁchikaa aploḍ karke kaṛii saajhaa kareṁ.",
+                "kripayaa saṁlagn prapatra bhejeṁ.",
+                "vo chiiz bhej denaa jo kal banaaii thii.",
+                "faail aploḍ karke liṁk sheyar kar do."
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second is portal vocabulary. The third is form language. The fourth is grammatical and vague, and the colleague will have to ask which thing."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "संचिका अपलोड करके कड़ी साझा करें।",
+              "sentence_read_as": "saṁchikaa aploḍ karke kaṛii saajhaa kareṁ.",
+              "question_en": "Where would you meet this?",
+              "options": [
+                "A government website or official manual",
+                "A conversation",
+                "A message to a friend",
+                "A work chat"
+              ],
+              "answer_index": 0,
+              "explanation_en": "संचिका and कड़ी are the official coinages. They live on portals and in manuals rather than in anybody's messages."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "फ़ाइल अपलोड करके लिंक शेयर कर दो।",
+              "स्क्रीन शेयर कर सकते हैं?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L10-I3",
+          "type": "grammar",
+          "axis": "tendency",
+          "register_tags": [
+            "hinglish",
+            "when_it_jars",
+            "variation"
+          ],
+          "target": "शादी में सब बहुत ख़ुश थे।",
+          "read_as": "shaadii meṁ sab bahut ḳhush the.",
+          "english": "Everyone was very happy at the wedding.",
+          "difficulty": 8,
+          "tags": [
+            "register",
+            "tendency_axis",
+            "hinglish",
+            "variation",
+            "honest_uncertainty"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Where the English thins out, and how much this varies",
+              "explanation_en": "शादी में सब बहुत ख़ुश थे. Nobody says हैप्पी here, and the sentence is a demonstration rather than a rule: describing a wedding, a ceremony, a death, a festival or a village, the English words drop away and the older layers do the work. Now the honest part. How far that holds depends enormously on the city, the family, the generation and the occasion — a Bombay twenty-year-old and a Bhopal grandmother will draw the line in quite different places, and both are speaking their own Hindi. Notice where the English thins out around you, and follow that rather than any rule this card could give you.",
+              "examples": [
+                {
+                  "hindi": "शादी में सब बहुत ख़ुश थे।",
+                  "read_as": "shaadii meṁ sab bahut ḳhush the.",
+                  "english": "Everyone was very happy at the wedding.",
+                  "note": "No English, and none wanted."
+                },
+                {
+                  "hindi": "पार्टी में सब बहुत एन्जॉय कर रहे थे।",
+                  "read_as": "paarṭii meṁ sab bahut enjôy kar rahe the.",
+                  "english": "Everyone was enjoying themselves at the party.",
+                  "note": "A different occasion, and the English is entirely at home."
+                },
+                {
+                  "hindi": "दादी की तबीयत ठीक नहीं है।",
+                  "read_as": "daadii kii tabiiyat ṭhiik nahiiṁ hai.",
+                  "english": "Grandmother isn't well.",
+                  "note": "तबीयत rather than हेल्थ — and this one holds almost everywhere."
+                }
+              ],
+              "common_error": {
+                "wrong": "learning a fixed rule about when English is acceptable",
+                "right": "listening for where the people around you stop using it",
+                "why_en": "Any rule stated here would be wrong for a large share of speakers. The distribution is real and it is local."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "Telling a relative about a wedding you attended.",
+              "options": [
+                "शादी का फ़ंक्शन काफ़ी अच्छा था।",
+                "शादी में सब बहुत ख़ुश थे।",
+                "वेडिंग में सब बहुत हैप्पी थे।",
+                "विवाह समारोह में सभी अत्यंत प्रसन्न थे।"
+              ],
+              "options_read_as": [
+                "shaadii kaa faṁkshan kaafii acchaa thaa.",
+                "shaadii meṁ sab bahut ḳhush the.",
+                "veḍiṁg meṁ sab bahut haipii the.",
+                "vivaah samaaroh meṁ sabhii atyaṁt prasann the."
+              ],
+              "answer_index": 1,
+              "explanation_en": "The third is a written account of the event. The fourth is unremarkable in many families — फ़ंक्शन for an occasion is very widespread. The second is the one most speakers would not produce."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "विवाह समारोह में सभी अत्यंत प्रसन्न थे।",
+              "sentence_read_as": "vivaah samaaroh meṁ sabhii atyaṁt prasann the.",
+              "question_en": "Where would you meet this?",
+              "options": [
+                "A phone call",
+                "A conversation with a relative",
+                "A written account or a printed invitation",
+                "A message"
+              ],
+              "answer_index": 2,
+              "explanation_en": "विवाह, समारोह, अत्यंत and प्रसन्न are all assembled and all written. Spoken, it would sound like reading from a card."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "शादी में सब बहुत ख़ुश थे।",
+              "पार्टी में सब बहुत एन्जॉय कर रहे थे।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Code-switching is Hindi grammar running on borrowed vocabulary, with gender, agreement and vectors all intact. In technology and office life the English word often is the word, and the official coinages live on portals rather than in anybody's messages. And where the English thins out — ceremony, family, illness, festivals — varies so much by place and generation that the only useful instruction is to listen.",
+        "key_forms": [
+          "मीटिंग कैंसिल हो गई",
+          "फ़ाइल शेयर कर दो",
+          "शादी में सब ख़ुश थे"
+        ],
+        "next_up_en": "Next: the handful of phrases that carry most of a conversation."
+      }
+    },
+    {
+      "level": 11,
+      "title_en": "The phrases that do the work",
+      "title_hi": "रोज़ के जुमले",
+      "items": [
+        {
+          "id": "M15-L11-I1",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "set_phrases",
+            "reassurance"
+          ],
+          "target": "कोई बात नहीं, फिर कभी सही।",
+          "read_as": "koii baat nahiiṁ, phir kabhii sahii.",
+          "english": "Never mind, another time then.",
+          "difficulty": 7,
+          "tags": [
+            "register",
+            "set_phrases",
+            "high_frequency",
+            "callback_m12"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कोई बात नहीं absorbs almost anything",
+              "explanation_en": "कोई बात नहीं is the most useful phrase in Hindi social life. It answers an apology, waves away thanks, closes an awkwardness, accepts a cancellation and gives permission, and it does all of that with three words that literally say there is no matter. Learn it early and use it often. फिर कभी सही is its natural companion — सही here means that will do, so the whole thing is another time, then, and it lets somebody off without either of you naming what happened.",
+              "examples": [
+                {
+                  "hindi": "कोई बात नहीं, फिर कभी सही।",
+                  "read_as": "koii baat nahiiṁ, phir kabhii sahii.",
+                  "english": "Never mind, another time then.",
+                  "note": "Accepting a cancellation without asking why."
+                },
+                {
+                  "hindi": "माफ़ कीजिए, देर हो गई। — कोई बात नहीं।",
+                  "read_as": "maaf kiijie, der ho gaii. — koii baat nahiiṁ.",
+                  "english": "Sorry I'm late. — Not at all.",
+                  "note": "Answering an apology."
+                },
+                {
+                  "hindi": "बहुत शुक्रिया। — अरे कोई बात नहीं।",
+                  "read_as": "bahut shukriyaa. — are koii baat nahiiṁ.",
+                  "english": "Thank you so much. — Oh, don't mention it.",
+                  "note": "Waving away thanks. Same phrase, opposite situation."
+                }
+              ],
+              "common_error": {
+                "wrong": "answering थैंक यू with कोई समस्या नहीं",
+                "right": "कोई बात नहीं",
+                "why_en": "कोई समस्या नहीं is a literal translation of no problem and it is not what anybody says. The fixed phrase is fixed."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "A friend has just cancelled a plan and apologised.",
+              "options": [
+                "ठीक है, जैसा आप उचित समझें।",
+                "आपको पहले बताना चाहिए था।",
+                "कोई बात नहीं, फिर कभी सही।",
+                "कोई समस्या नहीं है।"
+              ],
+              "options_read_as": [
+                "ṭhiik hai, jaisaa aap uchit samjheṁ.",
+                "aapko pahle bataanaa chaahie thaa.",
+                "koii baat nahiiṁ, phir kabhii sahii.",
+                "koii samasyaa nahiiṁ hai."
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second is a translation rather than a phrase. The third is formal and slightly cold. The fourth is a reproach, which may be honest but is not what was asked for."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "अरे कोई बात नहीं।",
+              "sentence_read_as": "are koii baat nahiiṁ.",
+              "question_en": "What could this be answering?",
+              "options": [
+                "A question",
+                "Only an apology",
+                "Only thanks",
+                "An apology, thanks, or an awkward moment"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The phrase covers all three, and the अरे in front makes it warm rather than merely polite."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "कोई बात नहीं, फिर कभी सही।",
+              "बहुत शुक्रिया। — अरे कोई बात नहीं।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L11-I2",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "set_phrases",
+            "acchaa"
+          ],
+          "target": "अच्छा? फिर क्या हुआ?",
+          "read_as": "acchaa? phir kyaa huaa?",
+          "english": "Really? And then what happened?",
+          "difficulty": 7,
+          "tags": [
+            "register",
+            "set_phrases",
+            "tone_carries_meaning",
+            "callback_m12"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "अच्छा is a whole conversational turn",
+              "explanation_en": "अच्छा means good, and on its own it means almost none of that. Rising, it is really? Falling, it is I see. Flat, it is right then, and as an opener — अच्छा सुनो — it means now listen. Tone does all of the work, and it is one of the few places in Hindi where that is true. क्या हुआ is similarly wide: it asks what happened in a story and what is wrong to somebody who looks upset, and only the situation separates them.",
+              "examples": [
+                {
+                  "hindi": "अच्छा? फिर क्या हुआ?",
+                  "read_as": "acchaa? phir kyaa huaa?",
+                  "english": "Really? And then what happened?",
+                  "note": "Rising अच्छा, and क्या हुआ asking for the next part of the story."
+                },
+                {
+                  "hindi": "क्या हुआ? तबीयत ठीक है?",
+                  "read_as": "kyaa huaa? tabiiyat ṭhiik hai?",
+                  "english": "What's wrong? Are you all right?",
+                  "note": "The same two words asking about a person rather than a story."
+                },
+                {
+                  "hindi": "अच्छा, तो अब चलते हैं।",
+                  "read_as": "acchaa, to ab chalte haiṁ.",
+                  "english": "Right then, we'll be off.",
+                  "note": "अच्छा closing a conversation rather than reacting to one."
+                }
+              ],
+              "common_error": {
+                "wrong": "using अच्छा only to mean good",
+                "right": "hearing it as a turn marker",
+                "why_en": "A learner who takes it literally will miss most of what it is doing, which is managing the conversation rather than describing anything."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "A friend has stopped mid-story and you want them to carry on.",
+              "options": [
+                "अच्छा? फिर क्या हुआ?",
+                "कृपया आगे बताइए।",
+                "उसके बाद क्या घटित हुआ?",
+                "क्या हुआ? तबीयत ठीक है?"
+              ],
+              "options_read_as": [
+                "acchaa? phir kyaa huaa?",
+                "kripayaa aage bataaie.",
+                "uske baad kyaa ghaṭit huaa?",
+                "kyaa huaa? tabiiyat ṭhiik hai?"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second is polite and stiff. The third uses घटित, which belongs to a report. The fourth asks whether they are unwell, which is not what a paused story means."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "क्या हुआ? तबीयत ठीक है?",
+              "sentence_read_as": "kyaa huaa? tabiiyat ṭhiik hai?",
+              "question_en": "What is the speaker responding to?",
+              "options": [
+                "A story that has paused",
+                "Somebody who looks unwell or upset",
+                "A question",
+                "An apology"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second question settles it. क्या हुआ alone could be either, and तबीयत ठीक है? shows it is concern rather than curiosity."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अच्छा? फिर क्या हुआ?",
+              "अच्छा, तो अब चलते हैं।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L11-I3",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "set_phrases",
+            "bas"
+          ],
+          "target": "बस, इतना ही काफ़ी है।",
+          "read_as": "bas, itnaa hii kaafii hai.",
+          "english": "That's enough, thank you.",
+          "difficulty": 7,
+          "tags": [
+            "register",
+            "set_phrases",
+            "bas",
+            "callback_m12"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बस does three jobs and one of them is refusing",
+              "explanation_en": "बस means enough, and on its own it is a complete refusal — which is exactly what Module 12's guests kept saying while their hosts kept serving. It also means just or only: बस दो मिनट, just two minutes. And in speech it works as a filler while you decide what to say, in the way English uses well or so. The refusing sense is the one to have first, because it is how you decline food without giving offence, and declining food politely is a daily requirement in Hindi.",
+              "examples": [
+                {
+                  "hindi": "बस, इतना ही काफ़ी है।",
+                  "read_as": "bas, itnaa hii kaafii hai.",
+                  "english": "That's enough, thank you.",
+                  "note": "Declining more, and the ही makes it firm without being sharp."
+                },
+                {
+                  "hindi": "बस दो मिनट, आ रहा हूँ।",
+                  "read_as": "bas do minaṭ, aa rahaa huuṁ.",
+                  "english": "Just two minutes, I'm coming.",
+                  "note": "The only sense."
+                },
+                {
+                  "hindi": "बस यही कि जल्दी आ जाना।",
+                  "read_as": "bas yahii ki jaldii aa jaanaa.",
+                  "english": "Only that you should come early.",
+                  "note": "बस narrowing a whole clause."
+                }
+              ],
+              "common_error": {
+                "wrong": "saying नहीं चाहिए to refuse a second helping",
+                "right": "बस, बहुत हो गया",
+                "why_en": "नहीं चाहिए is a flat refusal of the thing. बस refuses the quantity, which leaves the offer and the host intact."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "A host is serving you more food and you have had plenty.",
+              "options": [
+                "पर्याप्त हो चुका है।",
+                "बस, इतना ही काफ़ी है।",
+                "नहीं चाहिए।",
+                "मुझे और नहीं दीजिए।"
+              ],
+              "options_read_as": [
+                "paryaapt ho chukaa hai.",
+                "bas, itnaa hii kaafii hai.",
+                "nahiiṁ chaahie.",
+                "mujhe aur nahiiṁ diijie."
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second refuses flatly. The third is an instruction to the host. The fourth is written vocabulary and would sound like a form being read out at the table."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "बस दो मिनट, आ रहा हूँ।",
+              "sentence_read_as": "bas do minaṭ, aa rahaa huuṁ.",
+              "question_en": "Which sense of बस is this?",
+              "options": [
+                "Stop",
+                "Enough",
+                "Just, only",
+                "A filler"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Here बस is minimising the wait rather than ending anything."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बस, इतना ही काफ़ी है।",
+              "बस दो मिनट, आ रहा हूँ।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A handful of fixed phrases carry an enormous amount of Hindi conversation. कोई बात नहीं answers apologies, thanks and awkwardness alike. अच्छा is a turn marker whose meaning is entirely in the tone. And बस refuses a quantity rather than a thing, which is why it is how you decline food without offending anybody.",
+        "key_forms": [
+          "कोई बात नहीं",
+          "अच्छा?",
+          "बस"
+        ],
+        "next_up_en": "Next: the last level — disagreeing, refusing, and putting both axes together."
+      }
+    },
+    {
+      "level": 12,
+      "title_en": "Politeness, and the whole picture",
+      "title_hi": "शिष्टता",
+      "items": [
+        {
+          "id": "M15-L12-I1",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "politeness",
+            "disagreement"
+          ],
+          "target": "आपकी बात सही है, पर एक और पहलू भी है।",
+          "read_as": "aapkii baat sahii hai, par ek aur pahluu bhii hai.",
+          "english": "You're quite right, but there's another side to it.",
+          "difficulty": 9,
+          "tags": [
+            "register",
+            "politeness",
+            "disagreement",
+            "additive",
+            "callback_m12"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Hindi disagreement adds; it does not contradict",
+              "explanation_en": "आपकी बात सही है, पर एक और पहलू भी है. The move is to concede first and then add, rather than to deny. You have seen it three times already without it being named — मेरे हिसाब से in a Module 12 office argument, मेरी राय में in Module 13, and the हालाँकि of a news report in level 6 of this module. All three do the same thing: they put a second view beside the first instead of on top of it. Saying आप ग़लत हैं is grammatical, and it will end the conversation you were having.",
+              "examples": [
+                {
+                  "hindi": "आपकी बात सही है, पर एक और पहलू भी है।",
+                  "read_as": "aapkii baat sahii hai, par ek aur pahluu bhii hai.",
+                  "english": "You're quite right, but there's another side to it.",
+                  "note": "Concede, then add."
+                },
+                {
+                  "hindi": "हो सकता है, पर मुझे थोड़ा अलग लगता है।",
+                  "read_as": "ho saktaa hai, par mujhe thoṛaa alag lagtaa hai.",
+                  "english": "That may be so, but it seems a little different to me.",
+                  "note": "हो सकता है from Module 14, softening before the disagreement arrives."
+                },
+                {
+                  "hindi": "मेरे ख़याल से शायद ऐसा न हो।",
+                  "read_as": "mere ḳhayaal se shaayad aisaa na ho.",
+                  "english": "In my view that may not be the case.",
+                  "note": "Three softeners stacked — मेरे ख़याल से, शायद, and the subjunctive."
+                }
+              ],
+              "common_error": {
+                "wrong": "आप ग़लत हैं।",
+                "right": "आपकी बात सही है, पर ...",
+                "why_en": "Direct contradiction is available and it is heard as an attack rather than as an argument. The additive form says the same thing and leaves the conversation open."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "Disagreeing with a senior colleague in a meeting.",
+              "options": [
+                "आप ग़लत हैं।",
+                "नहीं, ऐसा नहीं है।",
+                "मैं इससे बिल्कुल असहमत हूँ।",
+                "आपकी बात सही है, पर एक और पहलू भी है।"
+              ],
+              "options_read_as": [
+                "aap ġalat haiṁ.",
+                "nahiiṁ, aisaa nahiiṁ hai.",
+                "maiṁ isse bilkul asahmat huuṁ.",
+                "aapkii baat sahii hai, par ek aur pahluu bhii hai."
+              ],
+              "answer_index": 3,
+              "explanation_en": "The others all contradict. The fourth is formal and would be usable in a written response, where there is no face across the table to protect."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "मेरे ख़याल से शायद ऐसा न हो।",
+              "sentence_read_as": "mere ḳhayaal se shaayad aisaa na ho.",
+              "question_en": "How strongly does this speaker disagree?",
+              "options": [
+                "Quite strongly, expressed very gently",
+                "They are asking a question",
+                "They are agreeing",
+                "Not at all"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Three softeners stacked usually mean the disagreement underneath is firm. The gentleness is about the relationship, not about the strength of the view."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "आपकी बात सही है, पर एक और पहलू भी है।",
+              "मेरे ख़याल से शायद ऐसा न हो।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L12-I2",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "politeness",
+            "soft_refusal"
+          ],
+          "target": "देखते हैं, कोशिश करूँगा।",
+          "read_as": "dekhte haiṁ, koshish karuuṁgaa.",
+          "english": "We'll see, I'll try.",
+          "difficulty": 9,
+          "tags": [
+            "register",
+            "politeness",
+            "soft_refusal",
+            "comprehension_risk",
+            "high_value"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "देखते हैं and कोशिश करूँगा are often refusals",
+              "explanation_en": "This is worth knowing before you need it. देखते हैं, we'll see, and कोशिश करूँगा, I'll try, are frequently how somebody declines without the word no ever being said. A learner who hears them as agreement will wait for something that is not coming, and will sometimes feel misled — which misreads what happened. The speaker is refusing in a way that costs neither of you anything, and everyone present understands it. They can also mean genuine uncertainty, and the way to tell is what happens next: a real yes usually brings a time, a date or a question about details.",
+              "examples": [
+                {
+                  "hindi": "देखते हैं, कोशिश करूँगा।",
+                  "read_as": "dekhte haiṁ, koshish karuuṁgaa.",
+                  "english": "We'll see, I'll try.",
+                  "note": "Very often a no, and never rude."
+                },
+                {
+                  "hindi": "हाँ ज़रूर, कितने बजे?",
+                  "read_as": "haaṁ zaruur, kitne baje?",
+                  "english": "Yes of course — what time?",
+                  "note": "A real yes. The follow-up question is the tell."
+                },
+                {
+                  "hindi": "मुश्किल है, पर देखता हूँ।",
+                  "read_as": "mushkil hai, par dekhtaa huuṁ.",
+                  "english": "It's difficult, but I'll see.",
+                  "note": "The refusal a little closer to the surface."
+                }
+              ],
+              "common_error": {
+                "wrong": "hearing कोशिश करूँगा as a commitment",
+                "right": "hearing it as a polite maybe, and waiting for a detail",
+                "why_en": "This is a comprehension problem rather than a production one, and it is the one that causes learners the most avoidable trouble."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "You have been invited somewhere you do not want to go, by somebody you like.",
+              "options": [
+                "देखते हैं, कोशिश करूँगा।",
+                "नहीं, मैं नहीं आ सकता।",
+                "मुझे नहीं आना।",
+                "मैं व्यस्त हूँ, क्षमा करें।"
+              ],
+              "options_read_as": [
+                "dekhte haiṁ, koshish karuuṁgaa.",
+                "nahiiṁ, maiṁ nahiiṁ aa saktaa.",
+                "mujhe nahiiṁ aanaa.",
+                "maiṁ vyast huuṁ, kṣamaa kareṁ."
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second is a clear no and perfectly usable if you want to be clear. The third is blunt — Module 14 showed that मुझे नहीं आना is a flat refusal. The fourth is formal and would suit an invitation you had received in writing."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "हाँ ज़रूर, कितने बजे?",
+              "sentence_read_as": "haaṁ zaruur, kitne baje?",
+              "question_en": "How do you know this is a real acceptance?",
+              "options": [
+                "Because of ज़रूर",
+                "Because of the follow-up question about a detail",
+                "Because of हाँ",
+                "You cannot tell"
+              ],
+              "answer_index": 1,
+              "explanation_en": "ज़रूर and हाँ both appear in polite refusals too. Asking for a time commits the speaker to something, and that is the reliable signal."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "देखते हैं, कोशिश करूँगा।",
+              "हाँ ज़रूर, कितने बजे?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L12-I3",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "politeness",
+            "both_axes",
+            "capstone"
+          ],
+          "target": "जहाँ जैसा माहौल हो, वहाँ वैसी ही भाषा चाहिए।",
+          "read_as": "jahaaṁ jaisaa maahaul ho, vahaaṁ vaisii hii bhaaṣaa chaahie.",
+          "english": "The language should match the setting it is used in.",
+          "difficulty": 10,
+          "tags": [
+            "register",
+            "capstone",
+            "both_axes",
+            "final_item",
+            "callback_m14"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The last item, and it demonstrates itself",
+              "explanation_en": "जहाँ जैसा माहौल हो, वहाँ वैसी ही भाषा चाहिए. Two correlative pairs nested inside each other, which is Module 14's level 10. माहौल is Urdu-side and भाषा is Sanskrit-side, sitting in one clause without the slightest friction, which is this module's level 1. And what it says is what the module is for: there is no single correct Hindi to aim at, only a language that fits where you are standing. Choosing well is not a matter of knowing which form is best. It is a matter of noticing where you are.",
+              "examples": [
+                {
+                  "hindi": "जहाँ जैसा माहौल हो, वहाँ वैसी ही भाषा चाहिए।",
+                  "read_as": "jahaaṁ jaisaa maahaul ho, vahaaṁ vaisii hii bhaaṣaa chaahie.",
+                  "english": "The language should match the setting it is used in.",
+                  "note": "Two pairs, two layers, one sentence."
+                },
+                {
+                  "hindi": "जैसा देश, वैसा भेस।",
+                  "read_as": "jaisaa desh, vaisaa bhes.",
+                  "english": "When in Rome, do as the Romans do.",
+                  "note": "The proverb saying the same thing in four words."
+                },
+                {
+                  "hindi": "बात वही, कहने का ढंग अलग।",
+                  "read_as": "baat vahii, kahne kaa ḍhaṁg alag.",
+                  "english": "The same thing, said differently.",
+                  "note": "Which is, in the end, the whole of this module."
+                }
+              ],
+              "common_error": {
+                "wrong": "looking for the one form that is always safe",
+                "right": "noticing the setting first",
+                "why_en": "There is no form that is safe everywhere. Over-formality reads as distance, over-casualness as presumption, and the only way through is to look at where you are before you choose."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "Summing up, in one sentence, what this module has been about.",
+              "options": [
+                "जितनी सरल भाषा हो, उतना अच्छा।",
+                "अंग्रेज़ी शब्दों से बचना चाहिए।",
+                "जहाँ जैसा माहौल हो, वहाँ वैसी ही भाषा चाहिए।",
+                "हमेशा शुद्ध और औपचारिक भाषा का प्रयोग करें।"
+              ],
+              "options_read_as": [
+                "jitnii saral bhaaṣaa ho, utnaa acchaa.",
+                "aṁgrezii shabdoṁ se bachnaa chaahie.",
+                "jahaaṁ jaisaa maahaul ho, vahaaṁ vaisii hii bhaaṣaa chaahie.",
+                "hameshaa shuddh aur aupchaarik bhaaṣaa kaa prayog kareṁ."
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second, third and fourth all propose a single setting for all occasions, and each of them would go wrong somewhere. Only the first leaves the choice where it belongs."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "बात वही, कहने का ढंग अलग।",
+              "sentence_read_as": "baat vahii, kahne kaa ḍhaṁg alag.",
+              "question_en": "What is this sentence describing?",
+              "options": [
+                "A translation",
+                "A misunderstanding",
+                "Two different meanings",
+                "One meaning expressed in different registers"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The same content, said differently for a different setting. That is the whole subject of this module in five words."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जहाँ जैसा माहौल हो, वहाँ वैसी ही भाषा चाहिए।",
+              "बात वही, कहने का ढंग अलग।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Hindi disagreement concedes and then adds rather than contradicting. देखते हैं and कोशिश करूँगा are frequently refusals, and the reliable sign of a real yes is a follow-up question about a detail. And the module closes on a sentence that demonstrates itself — two correlative pairs, two vocabulary layers, and the point that there is no form that fits everywhere.",
+        "key_forms": [
+          "आपकी बात सही है, पर",
+          "देखते हैं",
+          "जहाँ जैसा माहौल हो"
+        ],
+        "next_up_en": "That is all 36 items, and the last of the fifteen modules."
+      }
+    }
+  ],
+  "module_complete": {
+    "items": 36,
+    "levels": 12,
+    "axes": {
+      "situation": 23,
+      "tendency": 13
+    },
+    "note_en": "Module 15 is complete, and with it the fifteen-module curriculum.",
+    "open_flags": [
+      "Level 10 states that where code-switching jars varies by city, family and generation, and deliberately gives no rule. If the app ever collects learner location, this is the one level that could usefully be localised.",
+      "The no-ranking rule is enforced by a banned-phrase scan over every string in the module. That scan caught two slips in the first batch — a card that named a misconception using the banned wording, and a note that used a ranking adjective about an agentless construction. It should be run over Modules 12 and 13 as well, since both discuss the same vocabulary layers without having had the rule stated.",
+      "The practice format asks a learner to pick a rendering for an audience, and the correct answer must not be the most formal option every time. It currently is in fewer than half the items, which is the intended balance."
+    ]
+  }
+}

@@ -1,0 +1,1384 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "batch": {
+    "levels_from": 41,
+    "levels_to": 45
+  },
+  "block_kind": "vocabulary",
+  "block_note": "Level 37 said a loanword's gender is simply assigned and has to be learned. Nine technology words in a row is the place to say something more useful than that, so levels 41 to 43 refine it: there is a default and there is a learnable set of exceptions, and some recent borrowings have not settled at all. Three of this batch — ऑनलाइन, सँभालना and जताना — have already appeared in earlier texts, which is the preview a vocabulary item is allowed.",
+  "levels": [
+    {
+      "level": 41,
+      "title_en": "App, network, password",
+      "title_hi": "ऐप · नेटवर्क · पासवर्ड",
+      "items": [
+        {
+          "id": "M13-L41-I1",
+          "type": "word",
+          "target": "ऐप",
+          "read_as": "aip",
+          "gloss_en": "app",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 5,
+          "tags": [
+            "technology",
+            "masculine",
+            "gender_flag",
+            "loanword",
+            "hindi_oblique_on_english"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ऐपों में — an English word taking a Hindi oblique",
+              "explanation_en": "ऐप is masculine, and flag it, because a loanword's gender is never visible in its shape. What is worth watching is how completely it behaves as a Hindi noun: ऐप डाउनलोड करना, ऐप में, and before a postposition the oblique plural ऐपों में. You will also hear ऐप्स में with the English plural kept, and both are current — exactly the same split as फ़ोल्डरों and फ़ोल्डर्स in the Module 12 office handover. The Hindi ending appears once the word has been absorbed rather than quoted.",
+              "examples": [
+                {
+                  "hindi": "ये ऐप बहुत काम का है।",
+                  "read_as": "ye aip bahut kaam kaa hai.",
+                  "english": "This app is very useful.",
+                  "note": "का, masculine, agreeing with ऐप."
+                },
+                {
+                  "hindi": "मैंने नया ऐप डाउनलोड किया।",
+                  "read_as": "maiṁne nayaa aip ḍaaunloḍ kiyaa.",
+                  "english": "I downloaded a new app.",
+                  "note": "करना does the grammatical work, as always with borrowed verbs."
+                },
+                {
+                  "hindi": "इन ऐपों में सब कुछ मिल जाता है।",
+                  "read_as": "in aipoṁ meṁ sab kuchh mil jaataa hai.",
+                  "english": "You find everything in these apps.",
+                  "note": "The Hindi oblique plural, before में."
+                }
+              ],
+              "common_error": {
+                "wrong": "ये ऐप बहुत काम की है",
+                "right": "ये ऐप बहुत काम का है",
+                "why_en": "ऐप is masculine. There is nothing in the word to tell you, which is why it is flagged."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which is the Hindi oblique plural of ऐप?",
+              "options": [
+                "ऐपें",
+                "ऐपाएँ",
+                "ऐप्स",
+                "ऐपों"
+              ],
+              "answer_index": 3,
+              "explanation_en": "ऐपों. ऐप्स is the English plural, also heard, but it is not the oblique."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means software in general?",
+              "options": [
+                "ऐप",
+                "सॉफ़्टवेयर",
+                "प्रोग्राम",
+                "उपकरण"
+              ],
+              "options_read_as": [
+                "aip",
+                "sôfṭveyar",
+                "prograam",
+                "upkaraṇ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "सॉफ़्टवेयर, also masculine. उपकरण is a device or instrument, and is the Sanskrit-side word."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ऐप",
+              "मैंने नया ऐप डाउनलोड किया।",
+              "इन ऐपों में सब कुछ मिल जाता है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L41-I2",
+          "type": "word",
+          "target": "नेटवर्क",
+          "read_as": "neṭvark",
+          "gloss_en": "network, signal",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 5,
+          "tags": [
+            "technology",
+            "masculine",
+            "gender_flag",
+            "loanword",
+            "subject_choice"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "नेटवर्क नहीं आ रहा — the signal does the failing",
+              "explanation_en": "नेटवर्क is masculine, and flag it. In everyday use it means the mobile signal rather than a network in the abstract: नेटवर्क नहीं आ रहा, there's no signal. Notice the shape of that sentence — the network is the subject and it is failing to come, exactly as आवाज़ नहीं आ रही did on the bad phone line in Module 12. Hindi keeps putting the thing in the subject slot where English puts the person, and technology talk is full of it.",
+              "examples": [
+                {
+                  "hindi": "यहाँ नेटवर्क नहीं आ रहा।",
+                  "read_as": "yahaaṁ neṭvark nahiiṁ aa rahaa.",
+                  "english": "There's no signal here.",
+                  "note": "रहा, masculine, and the auxiliary dropped."
+                },
+                {
+                  "hindi": "नेटवर्क कमज़ोर है।",
+                  "read_as": "neṭvark kamzor hai.",
+                  "english": "The signal is weak.",
+                  "note": "कमज़ोर, invariable."
+                },
+                {
+                  "hindi": "बारिश में नेटवर्क चला जाता है।",
+                  "read_as": "baarish meṁ neṭvark chalaa jaataa hai.",
+                  "english": "The signal goes in the rain.",
+                  "note": "चला जाना, the irregular compound from Module 11 where both words agree."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे नेटवर्क नहीं आ रहा",
+                "right": "नेटवर्क नहीं आ रहा",
+                "why_en": "The signal is not coming to you in particular. No dative is needed."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "नेटवर्क नहीं आ रहा means what?",
+              "options": [
+                "The call did not go through",
+                "The network is down nationally",
+                "There's no signal here",
+                "I can't connect to wifi"
+              ],
+              "answer_index": 2,
+              "explanation_en": "In everyday Hindi नेटवर्क is the signal on your phone."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word would a technician use for a connection?",
+              "options": [
+                "कनेक्शन",
+                "सिग्नल",
+                "लाइन",
+                "नेटवर्क"
+              ],
+              "options_read_as": [
+                "kanekshan",
+                "signal",
+                "laain",
+                "neṭvark"
+              ],
+              "answer_index": 0,
+              "explanation_en": "कनेक्शन is a connection, and it is masculine. लाइन, from the queue in level 16, is feminine."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "नेटवर्क",
+              "यहाँ नेटवर्क नहीं आ रहा।",
+              "बारिश में नेटवर्क चला जाता है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L41-I3",
+          "type": "word",
+          "target": "पासवर्ड",
+          "read_as": "paasvarḍ",
+          "gloss_en": "password",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 5,
+          "tags": [
+            "technology",
+            "masculine",
+            "gender_flag",
+            "loanword",
+            "collocation"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पासवर्ड डालना — you put a password in, not write it",
+              "explanation_en": "पासवर्ड is masculine, and flag it. The thing to learn with it is the verb: you डालना a password — literally put it in — not लिखना it. That collocation extends across the whole area: नंबर डालना, ओटीपी डालना, पिन डालना. Getting the noun and picking the wrong verb is the commonest way to sound translated rather than fluent, and it is why the Module 8 brief made collocation its own game.",
+              "examples": [
+                {
+                  "hindi": "पासवर्ड डालिए।",
+                  "read_as": "paasvarḍ ḍaalie.",
+                  "english": "Enter the password.",
+                  "note": "डालना, not लिखना."
+                },
+                {
+                  "hindi": "मैं अपना पासवर्ड भूल गया।",
+                  "read_as": "maiṁ apnaa paasvarḍ bhuul gayaa.",
+                  "english": "I've forgotten my password.",
+                  "note": "भूल जाना takes no ने, for two separate reasons — Module 11."
+                },
+                {
+                  "hindi": "पासवर्ड किसी को मत बताइए।",
+                  "read_as": "paasvarḍ kisii ko mat bataaie.",
+                  "english": "Don't tell anyone your password.",
+                  "note": "मत for an instruction, and बताना for information."
+                }
+              ],
+              "common_error": {
+                "wrong": "पासवर्ड लिखिए",
+                "right": "पासवर्ड डालिए",
+                "why_en": "लिखना would mean writing it down somewhere. Entering it into a field is डालना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which verb goes with पासवर्ड?",
+              "options": [
+                "लिखना",
+                "डालना",
+                "रखना",
+                "करना"
+              ],
+              "answer_index": 1,
+              "explanation_en": "पासवर्ड डालना — and the same verb for नंबर, ओटीपी and पिन."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a one-time code sent to your phone?",
+              "options": [
+                "पिन",
+                "कोड",
+                "पासवर्ड",
+                "ओटीपी"
+              ],
+              "options_read_as": [
+                "pin",
+                "koḍ",
+                "paasvarḍ",
+                "oṭiipii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "ओटीपी, which is used constantly in India and always with डालना."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पासवर्ड",
+              "पासवर्ड डालिए।",
+              "मैं अपना पासवर्ड भूल गया।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "All three of these are masculine, which is the default for a consonant-final English noun in Hindi. ऐप takes a Hindi oblique plural once it is absorbed — ऐपों में. नेटवर्क is the signal, and it does the failing rather than you. And a password is डाला, not लिखा.",
+        "key_forms": [
+          "ऐपों में",
+          "नेटवर्क नहीं आ रहा",
+          "पासवर्ड डालिए"
+        ],
+        "next_up_en": "Next: the loanwords that break the default."
+      }
+    },
+    {
+      "level": 42,
+      "title_en": "Screen, data, download",
+      "title_hi": "स्क्रीन · डेटा · डाउनलोड",
+      "items": [
+        {
+          "id": "M13-L42-I1",
+          "type": "word",
+          "target": "स्क्रीन",
+          "read_as": "skriin",
+          "gloss_en": "screen",
+          "gender": "f",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "technology",
+            "feminine",
+            "gender_flag",
+            "loanword_exception",
+            "learnable_list"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The feminine loanwords are a list, not a mystery",
+              "explanation_en": "Level 37 said a loanword's gender is simply assigned. That is true but not very useful, and here is the more helpful version: the default for an English noun in Hindi is masculine, and the feminines are a learnable set. Flag स्क्रीन. It is one of them — स्क्रीन टूट गई, not टूट गया. So are फ़ाइल, बस, ट्रेन, कार, लाइन, पार्टी, कंपनी, and every word ending in -ing: मीटिंग, बुकिंग, सिटिंग. Learn the exceptions and the default handles the rest.",
+              "examples": [
+                {
+                  "hindi": "स्क्रीन टूट गई है।",
+                  "read_as": "skriin ṭuuṭ gaii hai.",
+                  "english": "The screen is cracked.",
+                  "note": "गई, feminine."
+                },
+                {
+                  "hindi": "बड़ी स्क्रीन पर देखना अच्छा लगता है।",
+                  "read_as": "baṛii skriin par dekhnaa acchaa lagtaa hai.",
+                  "english": "It's nice to watch on a big screen.",
+                  "note": "बड़ी feminine, but लगता masculine because देखना is the subject."
+                },
+                {
+                  "hindi": "फ़ाइल खुल नहीं रही।",
+                  "read_as": "faail khul nahiiṁ rahii.",
+                  "english": "The file won't open.",
+                  "note": "Another feminine loanword — the same sentence appeared in a Module 12 office dialogue."
+                }
+              ],
+              "common_error": {
+                "wrong": "स्क्रीन टूट गया",
+                "right": "स्क्रीन टूट गई",
+                "why_en": "स्क्रीन is one of the feminine loanwords, against the masculine default."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which of these English loanwords is masculine in Hindi?",
+              "options": [
+                "स्कूल",
+                "स्क्रीन",
+                "फ़ाइल",
+                "मीटिंग"
+              ],
+              "answer_index": 0,
+              "explanation_en": "स्कूल is masculine, following the default. The other three are among the feminine exceptions."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which loanword ending would reliably tell you a word is feminine?",
+              "options": [
+                "-ट",
+                "-ल",
+                "-इंग",
+                "-र"
+              ],
+              "options_read_as": [
+                "-ṭ",
+                "-l",
+                "-iṁg",
+                "-r"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Words in -ing are consistently feminine: मीटिंग, बुकिंग, सिटिंग, पार्किंग. The other endings give you nothing."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "स्क्रीन",
+              "स्क्रीन टूट गई है।",
+              "फ़ाइल खुल नहीं रही।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L42-I2",
+          "type": "word",
+          "target": "डेटा",
+          "read_as": "ḍeṭaa",
+          "gloss_en": "data; mobile data",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "technology",
+            "masculine",
+            "gender_flag",
+            "aa_masculine",
+            "contrast_l35"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "An -आ word that is masculine after all",
+              "explanation_en": "Flag डेटा — a loanword's gender is never visible in its shape. It ends in -आ and it is masculine, which is the ordinary Hindi pattern — and it is worth putting beside level 35, where a whole class of Sanskrit -आ nouns turned out to be feminine: घोषणा, समस्या, व्यवस्था, चर्चा. Those are the exception. An English loanword ending in -आ follows the default instead. In everyday use डेटा usually means mobile data: डेटा ख़त्म हो गया, the data has run out.",
+              "examples": [
+                {
+                  "hindi": "डेटा ख़त्म हो गया।",
+                  "read_as": "ḍeṭaa ḳhatm ho gayaa.",
+                  "english": "The data's run out.",
+                  "note": "गया, masculine — and ख़त्म from the corner shop in level 3."
+                },
+                {
+                  "hindi": "सारा डेटा फ़ोन में है।",
+                  "read_as": "saaraa ḍeṭaa fon meṁ hai.",
+                  "english": "All the data is on the phone.",
+                  "note": "सारा, masculine."
+                },
+                {
+                  "hindi": "डेटा पैक कल ख़त्म होगा।",
+                  "read_as": "ḍeṭaa paik kal ḳhatm hogaa.",
+                  "english": "The data pack expires tomorrow.",
+                  "note": "Two English words compounded and treated as one masculine noun."
+                }
+              ],
+              "common_error": {
+                "wrong": "डेटा ख़त्म हो गई",
+                "right": "डेटा ख़त्म हो गया",
+                "why_en": "डेटा is masculine. The -आ feminines of level 35 are Sanskrit words, not loanwords."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Why is डेटा masculine when घोषणा is feminine?",
+              "options": [
+                "डेटा is a recent word",
+                "There is no reason at all",
+                "Both should be feminine",
+                "The -आ feminines are a Sanskrit class; loanwords follow the masculine default"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Two different systems meeting in one ending."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means information in the general sense?",
+              "options": [
+                "डेटा",
+                "जानकारी",
+                "आँकड़े",
+                "सूचना"
+              ],
+              "options_read_as": [
+                "ḍeṭaa",
+                "jaankaarii",
+                "aaṁkaṛe",
+                "suuchnaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "जानकारी is information, feminine and built with the -ई suffix. आँकड़े are figures and सूचना is a notice or a piece of information."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "डेटा",
+              "डेटा ख़त्म हो गया।",
+              "सारा डेटा फ़ोन में है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L42-I3",
+          "type": "word",
+          "target": "डाउनलोड",
+          "read_as": "ḍaaunloḍ",
+          "gloss_en": "download",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 5,
+          "tags": [
+            "technology",
+            "masculine",
+            "gender_flag",
+            "karnaa_honaa_pair",
+            "loanword"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "करना and होना — one borrowed word, two verbs",
+              "explanation_en": "डाउनलोड is masculine, and flag it. Like every borrowed verb it needs a Hindi verb to carry the grammar, and it takes two: डाउनलोड करना when you do it, and डाउनलोड होना when it happens. फ़ाइल डाउनलोड हो रही है, the file is downloading; मैंने फ़ाइल डाउनलोड की, I downloaded the file. That पair covers most borrowed verbs — अपडेट करना और होना, कैंसिल करना और होना, चार्ज करना और होना.",
+              "examples": [
+                {
+                  "hindi": "फ़ाइल डाउनलोड हो रही है।",
+                  "read_as": "faail ḍaaunloḍ ho rahii hai.",
+                  "english": "The file is downloading.",
+                  "note": "रही, feminine, agreeing with फ़ाइल — not with डाउनलोड."
+                },
+                {
+                  "hindi": "मैंने ऐप डाउनलोड किया।",
+                  "read_as": "maiṁne aip ḍaaunloḍ kiyaa.",
+                  "english": "I downloaded the app.",
+                  "note": "किया, masculine, agreeing with ऐप."
+                },
+                {
+                  "hindi": "डाउनलोड पूरा हो गया।",
+                  "read_as": "ḍaaunloḍ puuraa ho gayaa.",
+                  "english": "The download is complete.",
+                  "note": "Here डाउनलोड is the noun itself, and पूरा agrees with it."
+                }
+              ],
+              "common_error": {
+                "wrong": "फ़ाइल डाउनलोड कर रही है",
+                "right": "फ़ाइल डाउनलोड हो रही है",
+                "why_en": "The file is not doing the downloading. When the thing undergoes the action, it takes होना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "फ़ाइल डाउनलोड हो रही है means what?",
+              "options": [
+                "Someone is downloading the file",
+                "The file failed to download",
+                "The file is downloading",
+                "The file is downloading something"
+              ],
+              "answer_index": 2,
+              "explanation_en": "होना for what happens to the thing; करना for what somebody does."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which borrowed verb means to upload?",
+              "options": [
+                "अपलोड करना",
+                "अपडेट करना",
+                "सेव करना",
+                "डाउनलोड करना"
+              ],
+              "options_read_as": [
+                "aploḍ karnaa",
+                "apḍeṭ karnaa",
+                "sev karnaa",
+                "ḍaaunloḍ karnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "अपलोड करना. All four take करना for the doing and होना for the happening."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "डाउनलोड",
+              "फ़ाइल डाउनलोड हो रही है।",
+              "डाउनलोड पूरा हो गया।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The masculine default holds for डेटा and डाउनलोड; स्क्रीन is one of the feminine exceptions, along with फ़ाइल, बस, ट्रेन, कार and every -ing word. And a borrowed verb takes करना when you do it and होना when it happens to the thing.",
+        "key_forms": [
+          "स्क्रीन टूट गई",
+          "डेटा ख़त्म हो गया",
+          "डाउनलोड हो रही है"
+        ],
+        "next_up_en": "Next: three borrowings whose gender has not finished settling."
+      }
+    },
+    {
+      "level": 43,
+      "title_en": "Online, social media, video call",
+      "title_hi": "ऑनलाइन · सोशल मीडिया · वीडियो कॉल",
+      "items": [
+        {
+          "id": "M13-L43-I1",
+          "type": "word",
+          "target": "ऑनलाइन",
+          "read_as": "ônlaain",
+          "gloss_en": "online",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 5,
+          "tags": [
+            "technology",
+            "invariable",
+            "adverb",
+            "no_gender",
+            "previewed"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The easiest kind of loanword — no gender at all",
+              "explanation_en": "ऑनलाइन is an adverb and an adjective and it never inflects, so it has no gender to get wrong. That makes it the easiest kind of borrowing there is: ऑनलाइन ख़रीदना, ऑनलाइन क्लास, फ़ॉर्म ऑनलाइन भरिए. Its opposite ऑफ़लाइन behaves the same way. You have already met ऑनलाइन twice without being taught it — on the ticket-window sign in level 16 and in the membership reminder in level 30 — which is what a graded reader is for.",
+              "examples": [
+                {
+                  "hindi": "फ़ॉर्म ऑनलाइन भर दीजिए।",
+                  "read_as": "fôrm ônlaain bhar diijie.",
+                  "english": "Fill in the form online.",
+                  "note": "ऑनलाइन changes for nothing."
+                },
+                {
+                  "hindi": "आजकल सब कुछ ऑनलाइन मिल जाता है।",
+                  "read_as": "aajkal sab kuchh ônlaain mil jaataa hai.",
+                  "english": "These days you get everything online.",
+                  "note": "आजकल from level 4."
+                },
+                {
+                  "hindi": "क्लास ऑनलाइन है या ऑफ़लाइन?",
+                  "read_as": "klaas ônlaain hai yaa ôflaain?",
+                  "english": "Is the class online or in person?",
+                  "note": "ऑफ़लाइन in India usually means in person rather than disconnected."
+                }
+              ],
+              "common_error": {
+                "wrong": "ऑनलाइनी क्लास",
+                "right": "ऑनलाइन क्लास",
+                "why_en": "There is no adjective form to build. The word is already doing that job."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "In Indian usage, ऑफ़लाइन क्लास means what?",
+              "options": [
+                "a class with no internet",
+                "a class held in person",
+                "a recorded class",
+                "a cancelled class"
+              ],
+              "answer_index": 1,
+              "explanation_en": "ऑफ़लाइन has come to mean in person, which is not quite its English sense."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which Hindi phrase means in person?",
+              "options": [
+                "ऑफ़लाइन",
+                "दूर से",
+                "ऑनलाइन",
+                "आमने-सामने"
+              ],
+              "options_read_as": [
+                "ôflaain",
+                "duur se",
+                "ônlaain",
+                "aamne-saamne"
+              ],
+              "answer_index": 3,
+              "explanation_en": "आमने-सामने, face to face — an echo compound like पूछताछ and धक्का-मुक्की."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ऑनलाइन",
+              "फ़ॉर्म ऑनलाइन भर दीजिए।",
+              "क्लास ऑनलाइन है या ऑफ़लाइन?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L43-I2",
+          "type": "word",
+          "target": "सोशल मीडिया",
+          "read_as": "soshal miiḍiyaa",
+          "gloss_en": "social media",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "technology",
+            "masculine",
+            "gender_flag",
+            "phrase_as_noun",
+            "par_construction"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A two-word English phrase, treated as one Hindi noun",
+              "explanation_en": "सोशल मीडिया is borrowed whole and behaves as a single masculine noun — flag it. The postposition to learn with it is पर: सोशल मीडिया पर, on social media, in the same way as फ़ोन पर and टीवी पर. Hindi does this readily with English phrases: क्रेडिट कार्ड, ट्रैफ़िक जाम, फ़ूड कोर्ट, बजट सत्र. The phrase arrives intact and then takes Hindi endings and postpositions as a unit.",
+              "examples": [
+                {
+                  "hindi": "ये ख़बर सोशल मीडिया पर फैल गई।",
+                  "read_as": "ye ḳhabar soshal miiḍiyaa par phail gaii.",
+                  "english": "The news spread on social media.",
+                  "note": "गई agrees with feminine ख़बर, from level 29, not with सोशल मीडिया."
+                },
+                {
+                  "hindi": "वो सोशल मीडिया से दूर रहते हैं।",
+                  "read_as": "vo soshal miiḍiyaa se duur rahte haiṁ.",
+                  "english": "He stays off social media.",
+                  "note": "से दूर रहना, to keep away from."
+                },
+                {
+                  "hindi": "सोशल मीडिया का असर बहुत है।",
+                  "read_as": "soshal miiḍiyaa kaa asar bahut hai.",
+                  "english": "Social media has a lot of influence.",
+                  "note": "का, masculine. असर — effect or influence, also masculine."
+                }
+              ],
+              "common_error": {
+                "wrong": "सोशल मीडिया में",
+                "right": "सोशल मीडिया पर",
+                "why_en": "पर, like फ़ोन पर and टीवी पर. में would put you inside it."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which postposition goes with सोशल मीडिया?",
+              "options": [
+                "पर",
+                "से",
+                "को",
+                "में"
+              ],
+              "answer_index": 0,
+              "explanation_en": "पर — the same as फ़ोन पर, टीवी पर, इंटरनेट पर."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means influence or effect?",
+              "options": [
+                "माध्यम",
+                "सोशल मीडिया",
+                "असर",
+                "ख़बर"
+              ],
+              "options_read_as": [
+                "maadhyam",
+                "soshal miiḍiyaa",
+                "asar",
+                "ḳhabar"
+              ],
+              "answer_index": 2,
+              "explanation_en": "असर is influence, Urdu-side. प्रभाव is its Sanskrit-side partner, and माध्यम is a medium."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सोशल मीडिया",
+              "ये ख़बर सोशल मीडिया पर फैल गई।",
+              "सोशल मीडिया का असर बहुत है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L43-I3",
+          "type": "word",
+          "target": "वीडियो कॉल",
+          "read_as": "viiḍiyo kôl",
+          "gloss_en": "video call",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "technology",
+            "masculine",
+            "gender_flag",
+            "unsettled_gender",
+            "live_process"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Some borrowings have not finished settling",
+              "explanation_en": "Here is the honest end of the loanword story. Flag वीडियो कॉल. It is usually treated as masculine, and that is what to say — but कॉल on its own is very often feminine: कॉल आई, the call came. Speakers differ, the same speaker differs on different days, and neither version will be misunderstood. Gender assignment in Hindi is a live process rather than a finished one, and recent borrowings are still in the middle of it. मैसेज and ईमेल are in the same unsettled state.",
+              "examples": [
+                {
+                  "hindi": "शाम को वीडियो कॉल करते हैं।",
+                  "read_as": "shaam ko viiḍiyo kôl karte haiṁ.",
+                  "english": "Let's video call in the evening.",
+                  "note": "Present tense making a plan, from Module 12."
+                },
+                {
+                  "hindi": "अभी एक कॉल आई थी।",
+                  "read_as": "abhii ek kôl aaii thii.",
+                  "english": "There was a call just now.",
+                  "note": "आई, feminine — which is what most speakers say for कॉल alone."
+                },
+                {
+                  "hindi": "वीडियो कॉल पर बात हो गई।",
+                  "read_as": "viiḍiyo kôl par baat ho gaii.",
+                  "english": "We spoke on a video call.",
+                  "note": "पर again, and बात होना from Module 12."
+                }
+              ],
+              "common_error": {
+                "wrong": "treating every uncertain loanword as an error",
+                "right": "accepting that कॉल, मैसेज and ईमेल vary",
+                "why_en": "These are genuinely unsettled. Choose one, be consistent, and expect to hear the other."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this level say about words like कॉल and ईमेल?",
+              "options": [
+                "They have no gender",
+                "They are always masculine",
+                "They are always feminine",
+                "Their gender is still unsettled and speakers differ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Assignment is an ongoing process, not a completed one."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word is the Hindi for a telephone conversation?",
+              "options": [
+                "वीडियो कॉल",
+                "बातचीत",
+                "संपर्क",
+                "संदेश"
+              ],
+              "options_read_as": [
+                "viiḍiyo kôl",
+                "baatchiit",
+                "saṁpark",
+                "saṁdesh"
+              ],
+              "answer_index": 1,
+              "explanation_en": "बातचीत, an echo compound from बात, and the Hindi name of Module 12. संपर्क is contact and संदेश is a message."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वीडियो कॉल",
+              "शाम को वीडियो कॉल करते हैं।",
+              "अभी एक कॉल आई थी।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "ऑनलाइन has no gender to get wrong. सोशल मीडिया is a whole English phrase behaving as one masculine noun, and it takes पर. And कॉल, मैसेज and ईमेल are still unsettled — gender assignment in Hindi is a process that is currently happening, not one that finished.",
+        "key_forms": [
+          "ऑनलाइन भर दीजिए",
+          "सोशल मीडिया पर",
+          "कॉल आई"
+        ],
+        "next_up_en": "Next: verbs, and the pattern that turns an intransitive one into a transitive one."
+      }
+    },
+    {
+      "level": 44,
+      "title_en": "Settling, postponing, handling",
+      "title_hi": "निपटना · टालना · संभालना",
+      "items": [
+        {
+          "id": "M13-L44-I1",
+          "type": "word",
+          "target": "निपटना",
+          "read_as": "nipaṭnaa",
+          "gloss_en": "to be settled, to get done",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "advanced_verb",
+            "intransitive",
+            "transitive_pair",
+            "se_construction",
+            "previewed"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "निपटना and निपटाना — the -आ that makes a verb transitive",
+              "explanation_en": "निपटना is intransitive: काम निपट गया, the work got done, with nobody named. Add -आ and you get निपटाना, the transitive: मैंने काम निपटाया, I got the work done. That -आ is the same machinery as the causatives in Module 11, working here to make a plain transitive pair. Hindi has dozens: बनना and बनाना, कटना and काटना, उलझना and उलझाना, सुलझना and सुलझाना. You met निपटाना already, in the power-cut message in level 32.",
+              "examples": [
+                {
+                  "hindi": "सारा काम निपट गया।",
+                  "read_as": "saaraa kaam nipaṭ gayaa.",
+                  "english": "All the work got done.",
+                  "note": "Intransitive, so no ने and no agent."
+                },
+                {
+                  "hindi": "मैंने सारा काम निपटा दिया।",
+                  "read_as": "maiṁne saaraa kaam nipṭaa diyaa.",
+                  "english": "I got all the work done.",
+                  "note": "Transitive, so ने, and किया-type agreement with काम."
+                },
+                {
+                  "hindi": "उससे निपटना आसान नहीं है।",
+                  "read_as": "usse nipaṭnaa aasaan nahiiṁ hai.",
+                  "english": "He isn't easy to deal with.",
+                  "note": "से निपटना, to deal with somebody — a different sense, and a useful one."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने काम निपट गया",
+                "right": "मैंने काम निपटा दिया",
+                "why_en": "निपटना cannot take ने because it is intransitive. If you are the one doing it, you need निपटाना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does adding -आ to a verb like निपटना do?",
+              "options": [
+                "makes it plural",
+                "makes it past tense",
+                "makes it transitive",
+                "makes it polite"
+              ],
+              "answer_index": 2,
+              "explanation_en": "निपटना becomes निपटाना, बनना becomes बनाना, उलझना becomes उलझाना."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which verb means to finish something you were doing?",
+              "options": [
+                "ख़त्म करना",
+                "निपटाना",
+                "टालना",
+                "निपटना"
+              ],
+              "options_read_as": [
+                "ḳhatm karnaa",
+                "nipṭaanaa",
+                "ṭaalnaa",
+                "nipaṭnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "ख़त्म करना is simply to finish. निपटाना carries the sense of clearing something off your list, and निपटना is what happens to the task."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "निपटना",
+              "सारा काम निपट गया।",
+              "उससे निपटना आसान नहीं है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L44-I2",
+          "type": "word",
+          "target": "टालना",
+          "read_as": "ṭaalnaa",
+          "gloss_en": "to postpone, to put off",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "advanced_verb",
+            "transitive",
+            "echo_compound",
+            "register_pair",
+            "callback_l23"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "टालना — and टालमटोल, the art of putting things off",
+              "explanation_en": "टालना is to put something off, and it carries a faint disapproval that स्थगित करना does not: a committee स्थगित करता है an event, but a person टालता है a difficult conversation. You met स्थगित in the postponed-gathering message in level 23. The noun टालमटोल is an echo compound like पूछताछ and धक्का-मुक्की, and it means procrastination or stalling — often with the implication that somebody is doing it deliberately.",
+              "examples": [
+                {
+                  "hindi": "इसे कल पर मत टालो।",
+                  "read_as": "ise kal par mat ṭaalo.",
+                  "english": "Don't put it off till tomorrow.",
+                  "note": "कल पर टालना, to push to tomorrow. मत for an instruction."
+                },
+                {
+                  "hindi": "वो हर बार बात टाल देता है।",
+                  "read_as": "vo har baar baat ṭaal detaa hai.",
+                  "english": "He dodges the subject every time.",
+                  "note": "बात टालना, to deflect a topic — the देना vector making it decisive."
+                },
+                {
+                  "hindi": "टालमटोल मत कीजिए।",
+                  "read_as": "ṭaalamṭol mat kiijie.",
+                  "english": "Please stop stalling.",
+                  "note": "The echo compound as a noun."
+                }
+              ],
+              "common_error": {
+                "wrong": "मीटिंग टाल दी गई है — said of a formal announcement",
+                "right": "मीटिंग स्थगित कर दी गई है",
+                "why_en": "Both are correct Hindi, but टालना hints that somebody chose to avoid it. An official notice uses स्थगित."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "टालमटोल means what?",
+              "options": [
+                "a postponement",
+                "stalling or procrastination",
+                "a cancellation",
+                "a delay caused by others"
+              ],
+              "answer_index": 1,
+              "explanation_en": "And it usually implies the stalling is deliberate."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word would an official notice use for a postponement?",
+              "options": [
+                "टालमटोल",
+                "देरी",
+                "टालना",
+                "स्थगित"
+              ],
+              "options_read_as": [
+                "ṭaalamṭol",
+                "derii",
+                "ṭaalnaa",
+                "sthagit"
+              ],
+              "answer_index": 3,
+              "explanation_en": "स्थगित, from level 23. देरी is a delay that happened rather than one that was decided."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "टालना",
+              "इसे कल पर मत टालो।",
+              "टालमटोल मत कीजिए।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L44-I3",
+          "type": "word",
+          "target": "संभालना",
+          "read_as": "saṁbhaalnaa",
+          "gloss_en": "to handle, to manage, to steady",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "advanced_verb",
+            "transitive",
+            "wide_semantic_range",
+            "spelling_variant",
+            "previewed"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "संभालना covers more ground than any English single word",
+              "explanation_en": "संभालना runs from the physical to the emotional without changing shape. You संभालो a glass that is about to fall, a business, a department after somebody leaves, and a person who is upset. English needs catch, manage, take over and comfort; Hindi uses one verb and lets the object decide. It also appears as सँभालना with a chandrabindu, and both spellings are standard. You met it in the leave application in level 31, where Mr Sharma was going to संभाल the work.",
+              "examples": [
+                {
+                  "hindi": "गिलास संभालो!",
+                  "read_as": "gilaas saṁbhaalo!",
+                  "english": "Careful with that glass!",
+                  "note": "Physical, and urgent."
+                },
+                {
+                  "hindi": "अब बेटा कारोबार संभालता है।",
+                  "read_as": "ab beṭaa kaarobaar saṁbhaaltaa hai.",
+                  "english": "The son runs the business now.",
+                  "note": "कारोबार — business, Urdu-side and masculine."
+                },
+                {
+                  "hindi": "ख़ुद को संभालो।",
+                  "read_as": "ḳhud ko saṁbhaalo.",
+                  "english": "Pull yourself together.",
+                  "note": "ख़ुद को, oneself — and the emotional end of the range."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं तुम्हें संभालूँगा — meant as \"I'll look after you\"",
+                "right": "मैं तुम्हारा ख़याल रखूँगा",
+                "why_en": "संभालना a person means steadying them in a crisis. For ongoing care, ख़याल रखना is the phrase, from level 4."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "ख़ुद को संभालो means what?",
+              "options": [
+                "Pull yourself together",
+                "Do it yourself",
+                "Be careful",
+                "Look after yourself"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Steadying yourself in a difficult moment, not general self-care."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which verb means to take responsibility for running something?",
+              "options": [
+                "पकड़ना",
+                "संभालना",
+                "चलाना",
+                "रखना"
+              ],
+              "options_read_as": [
+                "pakaṛnaa",
+                "saṁbhaalnaa",
+                "chalaanaa",
+                "rakhnaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "चलाना is to run or operate — a business, a car, a household. संभालना is closer to taking charge of it, often from somebody else."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "संभालना",
+              "गिलास संभालो!",
+              "ख़ुद को संभालो।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Adding -आ turns an intransitive verb transitive: निपटना becomes निपटाना, and Hindi has dozens of such pairs. टालना carries a hint of deliberate avoidance where स्थगित करना does not. And संभालना covers catching, managing, taking over and steadying, with the object deciding which.",
+        "key_forms": [
+          "काम निपट गया",
+          "कल पर मत टालो",
+          "ख़ुद को संभालो"
+        ],
+        "next_up_en": "Next: tangling and untangling, and a verb only for feelings."
+      }
+    },
+    {
+      "level": 45,
+      "title_en": "Tangling and untangling",
+      "title_hi": "सुलझाना · उलझना · जताना",
+      "items": [
+        {
+          "id": "M13-L45-I1",
+          "type": "word",
+          "target": "सुलझाना",
+          "read_as": "suljhaanaa",
+          "gloss_en": "to resolve, to untangle",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "advanced_verb",
+            "transitive",
+            "transitive_pair",
+            "metaphor",
+            "news_use"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सुलझाना — untangling a thread and settling a dispute",
+              "explanation_en": "सुलझाना is the transitive of सुलझना, following the -आ pattern from the last level. It means to untangle physically and to resolve figuratively, and Hindi uses the same word for both without any sense of metaphor: उलझे धागे सुलझाना, to untangle knotted thread, and मामला सुलझाना, to settle a matter. News writing prefers it to the heavier हल करना for disputes between people, because it suggests the tangle came about by accident rather than by fault.",
+              "examples": [
+                {
+                  "hindi": "मामला सुलझ गया।",
+                  "read_as": "maamlaa suljh gayaa.",
+                  "english": "The matter has been resolved.",
+                  "note": "सुलझना, the intransitive, with no agent named."
+                },
+                {
+                  "hindi": "उन्होंने मामला सुलझा दिया।",
+                  "read_as": "unhoṁne maamlaa suljhaa diyaa.",
+                  "english": "They sorted the matter out.",
+                  "note": "सुलझाना, the transitive, so ने."
+                },
+                {
+                  "hindi": "ये सवाल सुलझाना मुश्किल है।",
+                  "read_as": "ye savaal suljhaanaa mushkil hai.",
+                  "english": "This problem is hard to work out.",
+                  "note": "An infinitive as the subject."
+                }
+              ],
+              "common_error": {
+                "wrong": "उन्होंने मामला सुलझ गया",
+                "right": "उन्होंने मामला सुलझा दिया",
+                "why_en": "सुलझना is intransitive and cannot take ने. With an agent you need सुलझाना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which is the intransitive form?",
+              "options": [
+                "both",
+                "neither",
+                "सुलझाना",
+                "सुलझना"
+              ],
+              "answer_index": 3,
+              "explanation_en": "सुलझना — the matter resolves itself. सुलझाना needs somebody to do it."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which phrase would a maths textbook use for solving a problem?",
+              "options": [
+                "सुलझाना",
+                "हल करना",
+                "सँभालना",
+                "निपटाना"
+              ],
+              "options_read_as": [
+                "suljhaanaa",
+                "hal karnaa",
+                "saṁbhaalnaa",
+                "nipṭaanaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "हल करना, from हल, a solution. सुलझाना is for tangles and disputes rather than for sums."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सुलझाना",
+              "मामला सुलझ गया।",
+              "उन्होंने मामला सुलझा दिया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L45-I2",
+          "type": "word",
+          "target": "उलझना",
+          "read_as": "uljhnaa",
+          "gloss_en": "to get tangled, to get entangled",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "advanced_verb",
+            "intransitive",
+            "prefix_su_dur",
+            "suffix_an",
+            "opposite_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "उलझना and सुलझना, and the सु- that means good",
+              "explanation_en": "उलझना is to get tangled and सुलझना is to come untangled — a matched pair, and the सु- in the second one is the Sanskrit prefix meaning good or well. You have been meeting it without being told: सुविधा a good arrangement, सुरक्षा safety, सुंदर beautiful, सुशासन good governance. Its opposite is दुर्-, which gave you दुर्भाग्य in level 33 and also gives दुर्घटना an accident and दुर्व्यवहार mistreatment. The noun from उलझना is उलझन, feminine — confusion, or a knot in the mind.",
+              "examples": [
+                {
+                  "hindi": "तार उलझ गए हैं।",
+                  "read_as": "taar uljh gae haiṁ.",
+                  "english": "The wires have got tangled.",
+                  "note": "Plural masculine, so गए."
+                },
+                {
+                  "hindi": "मैं इसमें नहीं उलझना चाहता।",
+                  "read_as": "maiṁ ismeṁ nahiiṁ uljhnaa chaahtaa.",
+                  "english": "I don't want to get caught up in this.",
+                  "note": "में उलझना, to get entangled in something."
+                },
+                {
+                  "hindi": "उसकी उलझन समझ में आती है।",
+                  "read_as": "uskii uljhan samajh meṁ aatii hai.",
+                  "english": "Her confusion is understandable.",
+                  "note": "उलझन, feminine, and समझ में आना from level 9."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने इसमें उलझा",
+                "right": "मैं इसमें उलझ गया",
+                "why_en": "उलझना is intransitive, so no ने. The transitive is उलझाना, to tangle something."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does the prefix सु- mean?",
+              "options": [
+                "half",
+                "without",
+                "good, well",
+                "again"
+              ],
+              "answer_index": 2,
+              "explanation_en": "सुविधा, सुरक्षा, सुंदर, सुलझना — and its opposite दुर्- gives दुर्भाग्य and दुर्घटना."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means an accident?",
+              "options": [
+                "दुर्घटना",
+                "दुर्भाग्य",
+                "सुविधा",
+                "उलझन"
+              ],
+              "options_read_as": [
+                "durghaṭnaa",
+                "durbhaagya",
+                "suvidhaa",
+                "uljhan"
+              ],
+              "answer_index": 0,
+              "explanation_en": "दुर्घटना — दुर् plus घटना, an event. And it is another -आ feminine, from level 35."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उलझना",
+              "तार उलझ गए हैं।",
+              "उसकी उलझन समझ में आती है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L45-I3",
+          "type": "word",
+          "target": "जताना",
+          "read_as": "jataanaa",
+          "gloss_en": "to convey, to make a feeling known",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 8,
+          "tags": [
+            "advanced_verb",
+            "transitive",
+            "three_way_split",
+            "news_use",
+            "previewed"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बताना, दिखाना, जताना — three ways of making something known",
+              "explanation_en": "बताना is for information: पता बताना, tell an address. दिखाना is for things that can be seen: रास्ता दिखाना, show the way. जताना is only for feelings and attitudes — नाराज़गी जताना to express annoyance, संदेह जताना to voice doubt, दुख जताना to express regret, आपत्ति जताना to raise an objection. News writing uses it constantly, because it lets a report say that somebody made a feeling public without quoting them. You met it twice in the news block, at levels 38 and 40.",
+              "examples": [
+                {
+                  "hindi": "उन्होंने नाराज़गी जताई।",
+                  "read_as": "unhoṁne naaraazgii jataaii.",
+                  "english": "They expressed their annoyance.",
+                  "note": "जताई, feminine, agreeing with नाराज़गी."
+                },
+                {
+                  "hindi": "कई लोगों ने संदेह जताया।",
+                  "read_as": "kaii logoṁ ne saṁdeh jataayaa.",
+                  "english": "Many people voiced doubts.",
+                  "note": "जताया, masculine, agreeing with संदेह."
+                },
+                {
+                  "hindi": "उसने कभी अपनी नाराज़गी नहीं जताई।",
+                  "read_as": "usne kabhii apnii naaraazgii nahiiṁ jataaii.",
+                  "english": "He never let his annoyance show.",
+                  "note": "The negative, and कभी नहीं for never."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने मुझे रास्ता जताया",
+                "right": "उसने मुझे रास्ता दिखाया",
+                "why_en": "जताना is only for feelings. A road is shown, not conveyed as a sentiment."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which of these can जताना take as its object?",
+              "options": [
+                "a route",
+                "annoyance",
+                "a document",
+                "a phone number"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Only feelings and attitudes. Facts take बताना and visible things take दिखाना."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which verb goes with रास्ता?",
+              "options": [
+                "जताना",
+                "दिखाना",
+                "बताना",
+                "either दिखाना or बताना"
+              ],
+              "options_read_as": [
+                "jataanaa",
+                "dikhaanaa",
+                "bataanaa",
+                "dikhaanaa yaa bataanaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Both work: रास्ता दिखाना is leading somebody along it, रास्ता बताना is giving directions. Only जताना is impossible."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जताना",
+              "उन्होंने नाराज़गी जताई।",
+              "कई लोगों ने संदेह जताया।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "सु- means good and दुर्- means bad — सुविधा and दुर्घटना, सुलझना and उलझना. उलझन is the noun for a tangle in the mind. And जताना is reserved for feelings, where बताना takes facts and दिखाना takes things you can see.",
+        "key_forms": [
+          "मामला सुलझ गया",
+          "इसमें मत उलझो",
+          "नाराज़गी जताई"
+        ],
+        "next_up_en": "Next: the sixth reading block — the last news items, and the first narratives."
+      }
+    }
+  ]
+}

@@ -1,0 +1,689 @@
+{
+  "module": 3,
+  "module_name_en": "Matras, Conjuncts & Schwa",
+  "module_name_hi": "मात्रा",
+  "phase": 1,
+  "batch": { "levels_from": 5, "levels_to": 8 },
+  "levels": [
+    {
+      "level": 5,
+      "title_en": "The last two marks, and reading them together",
+      "title_hi": "ः ् संयोजन",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M03-L05-I1",
+          "type": "letter",
+          "target": "ः",
+          "read_as": "ḥ",
+          "pronunciation_notes": "Two dots after the letter, read as a light breath echoing the vowel before it. Rare, and confined to Sanskrit-derived vocabulary.",
+          "gloss_en": "visarga — the two-dot breath mark",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["visarga", "diacritic", "sanskrit_vocabulary", "rare_mark"],
+          "letter_form": "ः",
+          "matra": null,
+          "sound_family": "diacritic mark",
+          "contrasts_with": ["ं", "ँ"],
+          "example_word": { "hindi": "दुःख", "read_as": "dukh", "english": "sorrow, pain" },
+          "cards": {
+            "learn": {
+              "title_en": "ः — two dots you will rarely need to write",
+              "explanation_en": "The visarga is written as two dots after a letter and stands for a light breath that echoes the vowel before it. It belongs almost entirely to Sanskrit-derived vocabulary and has been quietly disappearing from everyday Hindi: दुःख is very often written दुख instead, and both are accepted. Learn to recognise it, but do not expect to need it often.",
+              "examples": [
+                { "hindi": "दुःख", "read_as": "dukh", "english": "sorrow, pain", "note": "Frequently written दुख without the mark, and said the same way either way." },
+                { "hindi": "अतः", "read_as": "ataḥ", "english": "therefore", "note": "Formal written Hindi, where the mark closes the word." },
+                { "hindi": "पुनः", "read_as": "punaḥ", "english": "again", "note": "Another formal word in which the mark survives." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Add the visarga to this syllable.",
+              "question": "अत",
+              "question_read_as": "at",
+              "options": ["अतं", "अतः", "अतँ", "अता"],
+              "options_read_as": ["ataṁ", "ataḥ", "atã", "ataa"],
+              "answer_index": 1,
+              "explanation_en": "The visarga is the pair of dots written after the letter, not the single dot above it."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches दुःख?",
+              "options": ["duhkha", "duukh", "dukh", "dukha"],
+              "options_read_as": ["duhkha", "duukh", "dukh", "dukha"],
+              "answer_index": 2,
+              "explanation_en": "The mark is a light breath rather than a full syllable, and the final vowel drops: dukh."
+            }
+          },
+          "audio": {
+            "tts_strings": ["दुःख", "अतः", "पुनः"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L05-I2",
+          "type": "letter",
+          "target": "्",
+          "read_as": "halant",
+          "pronunciation_notes": "The halant has no sound of its own. It cancels the consonant's inherent अ, so क is 'ka' and क् is a bare k.",
+          "gloss_en": "halant — the vowel-cancelling mark",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["halant", "virama", "vowel_deletion", "conjunct_foundation"],
+          "letter_form": "्",
+          "matra": null,
+          "sound_family": "diacritic mark",
+          "contrasts_with": ["ः", "ं"],
+          "example_word": { "hindi": "जगत्", "read_as": "jagat", "english": "the world" },
+          "cards": {
+            "learn": {
+              "title_en": "् — the mark that takes a vowel away",
+              "explanation_en": "Every consonant carries an inherent अ, and the halant cancels it. You will rarely see the mark itself, because when a vowel-less consonant runs into the next consonant the two normally fuse into a single stacked shape instead of showing the halant. So this is less a mark you read than the mechanism behind every conjunct in the levels that follow.",
+              "examples": [
+                { "hindi": "जगत्", "read_as": "jagat", "english": "the world", "note": "Formal register, and one of the few places the mark stays visible." },
+                { "hindi": "सत्य", "read_as": "satya", "english": "truth", "note": "The halant is not written here — त has already fused with य into a stack." },
+                { "hindi": "क्या", "read_as": "kyaa", "english": "what", "note": "The commonest word in Hindi built out of a stack." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Remove the inherent vowel from this letter.",
+              "question": "क",
+              "question_read_as": "ka",
+              "options": ["का", "कि", "क्", "कं"],
+              "options_read_as": ["kaa", "ki", "k", "kaṁ"],
+              "answer_index": 2,
+              "explanation_en": "The halant is the small stroke below the letter, and it leaves a bare consonant with no vowel."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches क्या?",
+              "options": ["kyaa", "kiyaa", "kayaa", "kya"],
+              "options_read_as": ["kyaa", "kiyaa", "kayaa", "kya"],
+              "answer_index": 0,
+              "explanation_en": "The halant removes the vowel from क, so the two consonants run together with nothing between them: kyaa."
+            }
+          },
+          "audio": {
+            "tts_strings": ["क्", "जगत्", "सत्य", "क्या"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L05-I3",
+          "type": "letter",
+          "target": "संयोजन",
+          "read_as": "sanyojan",
+          "pronunciation_notes": "Words routinely carry several marks at once. Read the consonant first, then its matra, then any nasal or other mark attached to it.",
+          "gloss_en": "combined reading of matras and marks",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["review", "matra", "diacritic", "combined_reading"],
+          "letter_form": "ा ि ी ु ू ृ े ै ो ौ ं ँ ः ्",
+          "matra": null,
+          "sound_family": "review",
+          "contrasts_with": ["ं", "ँ", "ः"],
+          "example_word": { "hindi": "हिंदी", "read_as": "hindii", "english": "Hindi, the language" },
+          "cards": {
+            "learn": {
+              "title_en": "Reading several marks at once",
+              "explanation_en": "You now have all ten matras plus four other marks, and real words combine them freely. The order in which you read them is fixed even though the order in which they are drawn is not: take the consonant first, then whatever matra belongs to it, then any nasal or other mark. किताबें has a matra drawn before its first consonant and a dot above its last — read in the written order it is nonsense, read in the spoken order it is straightforward.",
+              "examples": [
+                { "hindi": "हिंदी", "read_as": "hindii", "english": "Hindi, the language", "note": "A left-drawn matra, a dot, then a right-drawn matra — three marks in one short word." },
+                { "hindi": "किताबें", "read_as": "kitaabeṁ", "english": "books", "note": "The final ब carries both a matra and a dot." },
+                { "hindi": "यहाँ", "read_as": "yahãa", "english": "here", "note": "A matra and a crescent sitting on the same syllable." }
+              ],
+              "common_error": {
+                "wrong": "हिँदी",
+                "right": "हिंदी",
+                "why_en": "A real n is pronounced before द, so this word takes the plain dot rather than the crescent."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Add both the ि matra and the anusvara to this letter.",
+              "question": "ह",
+              "question_read_as": "ha",
+              "options": ["हीं", "हिँ", "हिं", "हुं"],
+              "options_read_as": ["hiiṁ", "hĩ", "hiṁ", "huṁ"],
+              "answer_index": 2,
+              "explanation_en": "The short ि goes to the left of the consonant and the plain dot goes above it."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches किताबें?",
+              "options": ["kitaabe", "kitaabeṁ", "kitaben", "kiitaabeṁ"],
+              "options_read_as": ["kitaabe", "kitaabeṁ", "kitaben", "kiitaabeṁ"],
+              "answer_index": 1,
+              "explanation_en": "The final syllable carries both the े matra and the dot, so the word ends in a nasalised vowel: kitaabeṁ."
+            }
+          },
+          "audio": {
+            "tts_strings": ["हिंदी", "किताबें", "यहाँ"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added the visarga and the halant, completing the mark inventory, and practised reading words that carry several marks at once. The halant matters most for what comes next: it is the mechanism behind every conjunct.",
+        "key_forms": ["दुःख", "क्या", "किताबें"],
+        "next_up_en": "Next: how two consonants fuse into a single shape, र's two special forms, and the first of the four conjuncts taught as extra letters."
+      }
+    },
+    {
+      "level": 6,
+      "title_en": "How stacks work",
+      "title_hi": "संयुक्ताक्षर",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M03-L06-I1",
+          "type": "letter",
+          "target": "संयुक्ताक्षर",
+          "read_as": "sanyuktaakshar",
+          "pronunciation_notes": "A stack is always read as two consonants with no vowel between them, whatever shape the writing takes.",
+          "gloss_en": "conjunct letter — the concept",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["conjunct", "stack", "concept", "halant"],
+          "letter_form": "क् + ष = क्ष",
+          "matra": null,
+          "sound_family": "conjunct formation",
+          "contrasts_with": ["्"],
+          "example_word": { "hindi": "सच्चा", "read_as": "sachchaa", "english": "true, genuine" },
+          "cards": {
+            "learn": {
+              "title_en": "How two letters become one shape",
+              "explanation_en": "When a consonant loses its vowel and runs straight into the next consonant, Hindi normally writes the pair as a single joined shape rather than writing the halant. There are three common ways this happens: the first letter drops its vertical stem and the two sit side by side, as in स्त; the pair stacks vertically, as in न्न; or the two fuse into a shape you simply memorise, as in क्ष. Whichever shape appears, the reading is identical — two consonants, no vowel between them.",
+              "examples": [
+                { "hindi": "सच्चा", "read_as": "sachchaa", "english": "true, genuine", "note": "Two च sounds run together with nothing between them." },
+                { "hindi": "सत्य", "read_as": "satya", "english": "truth", "note": "त loses its stem and य follows immediately." },
+                { "hindi": "अच्छा", "read_as": "achchhaa", "english": "good; okay", "note": "Probably the single most-used word in spoken Hindi, and it contains a stack." }
+              ],
+              "common_error": {
+                "wrong": "सचचा",
+                "right": "सच्चा",
+                "why_en": "Writing the two letters separately puts a vowel between them, which is not how the word is said."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Join these two letters into a single conjunct.",
+              "question": "च् + च",
+              "question_read_as": "ch + cha",
+              "options": ["चच", "च्च", "चच्", "च्चा"],
+              "options_read_as": ["chacha", "chcha", "chach", "chchaa"],
+              "answer_index": 1,
+              "explanation_en": "The halant on the first letter removes its vowel, and the two fuse into one shape."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches अच्छा?",
+              "options": ["achhaa", "achachhaa", "achchaa", "achchhaa"],
+              "options_read_as": ["achhaa", "achachhaa", "achchaa", "achchhaa"],
+              "answer_index": 3,
+              "explanation_en": "The stack is च followed by छ, so an unaspirated and then an aspirated sound are both heard: achchhaa."
+            }
+          },
+          "audio": {
+            "tts_strings": ["सच्चा", "सत्य", "अच्छा"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L06-I2",
+          "type": "letter",
+          "target": "र्",
+          "read_as": "r",
+          "pronunciation_notes": "र behaves unlike any other consonant in a stack. Before another consonant it becomes a hook above the line, read BEFORE that consonant; after one it becomes a stroke below, read after it.",
+          "gloss_en": "र in conjuncts — its two special forms",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["conjunct", "reph", "special_form", "concept"],
+          "letter_form": "र् / ्र",
+          "matra": null,
+          "sound_family": "conjunct formation",
+          "contrasts_with": ["्"],
+          "example_word": { "hindi": "कर्म", "read_as": "karm", "english": "action, deed" },
+          "cards": {
+            "learn": {
+              "title_en": "र — the letter that moves",
+              "explanation_en": "र is the one consonant that does not simply fuse in place. When it comes first in a stack it is written as a small hook above the line, sitting over the letter that follows it but read before it: कर्म is 'karm', not 'krma'. When it comes second it becomes a short stroke attached underneath: प्र is 'pra'. Two shapes, two positions, and in the first case the reading order is the reverse of what your eye suggests.",
+              "examples": [
+                { "hindi": "कर्म", "read_as": "karm", "english": "action, deed", "note": "The hook sits over म but is read before it." },
+                { "hindi": "प्रेम", "read_as": "prem", "english": "love", "note": "र beneath प, and read after it." },
+                { "hindi": "सूर्य", "read_as": "suurya", "english": "sun", "note": "The hook sits over य, again read before it." }
+              ],
+              "common_error": {
+                "wrong": "क्रम",
+                "right": "कर्म",
+                "why_en": "Both are real words, and the position of र is the whole difference: कर्म is 'karm', while क्रम is 'kram', meaning order or sequence."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Build the word in this order: क, then र with no vowel, then म.",
+              "question": "क + र् + म",
+              "question_read_as": "ka + r + ma",
+              "options": ["कर्म", "क्रम", "करम", "कम्र"],
+              "options_read_as": ["karm", "kram", "karam", "kamr"],
+              "answer_index": 0,
+              "explanation_en": "र comes before म, so it is written as the hook above म. Written beneath क it would give क्रम, a different word."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches प्रेम?",
+              "options": ["perem", "prem", "pream", "parem"],
+              "options_read_as": ["perem", "prem", "pream", "parem"],
+              "answer_index": 1,
+              "explanation_en": "र sits beneath प and is read after it, so the word opens 'pre' rather than 'per'."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कर्म", "क्रम", "प्रेम", "सूर्य"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L06-I3",
+          "type": "letter",
+          "target": "क्ष",
+          "read_as": "ksh",
+          "pronunciation_notes": "क् plus ष, read 'ksh'. The written shape gives no clue about its parts, so it has to be memorised as a unit.",
+          "gloss_en": "the conjunct ksh",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["conjunct", "conjunct_form", "special_conjunct", "fused_shape"],
+          "letter_form": "क्ष",
+          "matra": null,
+          "sound_family": "special conjunct",
+          "contrasts_with": ["त्र", "ज्ञ", "श्र"],
+          "example_word": { "hindi": "क्षमा", "read_as": "kshamaa", "english": "forgiveness" },
+          "cards": {
+            "learn": {
+              "title_en": "क्ष — the first of four shapes you memorise",
+              "explanation_en": "Four conjuncts are so heavily fused that their shapes no longer resemble their parts, and Hindi children learn them as extra letters tacked onto the end of the alphabet. क्ष is the first: it is क् plus ष, read 'ksh'. There is no way to work the shape out by looking at it, so treat it as a single character that happens to carry a two-consonant sound.",
+              "examples": [
+                { "hindi": "क्षमा", "read_as": "kshamaa", "english": "forgiveness", "note": "Used as a formal apology." },
+                { "hindi": "रक्षा", "read_as": "rakshaa", "english": "protection", "note": "The conjunct sitting in the middle of a word." },
+                { "hindi": "शिक्षा", "read_as": "shikshaa", "english": "education", "note": "Very common in news and official writing." }
+              ],
+              "common_error": {
+                "wrong": "कशमा",
+                "right": "क्षमा",
+                "why_en": "Writing the letters separately inserts a vowel between them, and it also uses श where the word takes ष."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Join these two letters into a single conjunct.",
+              "question": "क् + ष",
+              "question_read_as": "k + sha",
+              "options": ["कष", "क्ष", "क्षा", "षक"],
+              "options_read_as": ["kash", "ksh", "kshaa", "shak"],
+              "answer_index": 1,
+              "explanation_en": "क् and ष fuse into one shape that shows neither part clearly, read 'ksh'."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches क्षमा?",
+              "options": ["kashamaa", "kshaamaa", "kshamaa", "kachamaa"],
+              "options_read_as": ["kashamaa", "kshaamaa", "kshamaa", "kachamaa"],
+              "answer_index": 2,
+              "explanation_en": "The conjunct runs k straight into sh with no vowel between, and the following vowel is short: kshamaa."
+            }
+          },
+          "audio": {
+            "tts_strings": ["क्ष", "क्षमा", "रक्षा", "शिक्षा"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level explained how stacks are built and introduced the one consonant that breaks the pattern. र is written as a hook above the following letter but read before it, which reverses the reading order your eye expects.",
+        "key_forms": ["अच्छा", "कर्म", "क्षमा"],
+        "next_up_en": "Next: त्र, ज्ञ and श्र complete the four conjuncts that are learned as separate letters."
+      }
+    },
+    {
+      "level": 7,
+      "title_en": "The remaining special conjuncts",
+      "title_hi": "त्र ज्ञ श्र",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M03-L07-I1",
+          "type": "letter",
+          "target": "त्र",
+          "read_as": "tr",
+          "pronunciation_notes": "त् plus र, read 'tr'. Words ending in this conjunct usually keep their final vowel, so मित्र is 'mitra' rather than 'mitr'.",
+          "gloss_en": "the conjunct tr",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["conjunct", "conjunct_form", "special_conjunct", "fused_shape"],
+          "letter_form": "त्र",
+          "matra": null,
+          "sound_family": "special conjunct",
+          "contrasts_with": ["क्ष", "ज्ञ", "श्र"],
+          "example_word": { "hindi": "मित्र", "read_as": "mitra", "english": "friend" },
+          "cards": {
+            "learn": {
+              "title_en": "त्र — त plus र, fused",
+              "explanation_en": "त्र is त् plus र. Unlike the hook and stroke forms from the last level, this pair has its own fused shape, which is why it is grouped with the conjuncts taught as extra letters. Notice something about its words: मित्र is 'mitra', not 'mitr'. When a conjunct ends in र the final vowel is normally kept, though not every conjunct behaves this way — the last level of this module sorts out which do.",
+              "examples": [
+                { "hindi": "मित्र", "read_as": "mitra", "english": "friend", "note": "Formal register; दोस्त is the everyday word." },
+                { "hindi": "पत्र", "read_as": "patra", "english": "letter", "note": "The final vowel is pronounced, because a conjunct comes before it." },
+                { "hindi": "यात्रा", "read_as": "yaatraa", "english": "journey, travel", "note": "You will see this on tickets and station signs everywhere." }
+              ],
+              "common_error": {
+                "wrong": "मितर",
+                "right": "मित्र",
+                "why_en": "Writing the letters separately puts a vowel between them; the conjunct runs त straight into र."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Join these two letters into a single conjunct.",
+              "question": "त् + र",
+              "question_read_as": "t + ra",
+              "options": ["तर", "त्रा", "र्त", "त्र"],
+              "options_read_as": ["tar", "traa", "rt", "tr"],
+              "answer_index": 3,
+              "explanation_en": "त् plus र gives त्र. Reversed, र् plus त would put the hook above the line instead."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches मित्र?",
+              "options": ["mitra", "mitr", "mitar", "meetra"],
+              "options_read_as": ["mitra", "mitr", "mitar", "meetra"],
+              "answer_index": 0,
+              "explanation_en": "This conjunct keeps the final vowel that would normally drop, so the word ends in a: mitra."
+            }
+          },
+          "audio": {
+            "tts_strings": ["त्र", "मित्र", "पत्र", "यात्रा"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L07-I2",
+          "type": "letter",
+          "target": "ज्ञ",
+          "read_as": "gy",
+          "pronunciation_notes": "Written as ज् plus ञ, but standard Hindi pronounces it 'gy'. The written parts and the spoken sound simply do not match.",
+          "gloss_en": "the conjunct gy",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["conjunct", "conjunct_form", "special_conjunct", "spelling_sound_mismatch"],
+          "letter_form": "ज्ञ",
+          "matra": null,
+          "sound_family": "special conjunct",
+          "contrasts_with": ["क्ष", "त्र", "श्र"],
+          "example_word": { "hindi": "ज्ञान", "read_as": "gyaan", "english": "knowledge" },
+          "cards": {
+            "learn": {
+              "title_en": "ज्ञ — written one way, said another",
+              "explanation_en": "ज्ञ is the strangest of the four. Its parts are ज् and ञ, so by the ordinary rules it ought to read 'jny', and in Sanskrit recitation it sometimes still does. Standard Hindi says 'gy' instead. Nothing in the shape tells you this, so it has to be learned as a plain fact about the letter rather than derived from anything.",
+              "examples": [
+                { "hindi": "ज्ञान", "read_as": "gyaan", "english": "knowledge", "note": "Formal, but common in writing and in speeches." },
+                { "hindi": "विज्ञान", "read_as": "vigyaan", "english": "science", "note": "You will meet this in any school or news context." },
+                { "hindi": "विज्ञापन", "read_as": "vigyaapan", "english": "advertisement", "note": "Common in newspapers and on hoardings." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Join these two letters into a single conjunct.",
+              "question": "ज् + ञ",
+              "question_read_as": "j + ña",
+              "options": ["ज्ञ", "जञ", "ञ्ज", "ज्न"],
+              "options_read_as": ["gy", "jaña", "ñj", "jn"],
+              "answer_index": 0,
+              "explanation_en": "ज् plus ञ gives ज्ञ, and standard Hindi reads that shape as 'gy' despite its parts."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches विज्ञान?",
+              "options": ["vijñaan", "vigyaan", "vijnaan", "viggyaan"],
+              "options_read_as": ["vijñaan", "vigyaan", "vijnaan", "viggyaan"],
+              "answer_index": 1,
+              "explanation_en": "The conjunct is written from ज and ञ but pronounced 'gy', so the word is vigyaan."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ज्ञ", "ज्ञान", "विज्ञान", "विज्ञापन"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L07-I3",
+          "type": "letter",
+          "target": "श्र",
+          "read_as": "shr",
+          "pronunciation_notes": "श् plus र, read 'shr'. The most transparent of the four — both parts are still visible in the shape.",
+          "gloss_en": "the conjunct shr",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["conjunct", "conjunct_form", "special_conjunct", "honorific"],
+          "letter_form": "श्र",
+          "matra": null,
+          "sound_family": "special conjunct",
+          "contrasts_with": ["क्ष", "त्र", "ज्ञ"],
+          "example_word": { "hindi": "श्री", "read_as": "shrii", "english": "Mr; an honorific placed before a name" },
+          "cards": {
+            "learn": {
+              "title_en": "श्र — the last of the four",
+              "explanation_en": "श्र is श् plus र, and it is the most predictable of the four special conjuncts, since the shape still shows both parts. It earns its place in the group by frequency rather than difficulty: श्री is the standard honorific placed before a man's name in formal writing and speech, so you will meet this conjunct constantly on documents, signs and envelopes.",
+              "examples": [
+                { "hindi": "श्री", "read_as": "shrii", "english": "Mr; an honorific", "note": "Placed before a name in formal writing and address." },
+                { "hindi": "श्रम", "read_as": "shram", "english": "labour, toil", "note": "Formal vocabulary, common in official language." },
+                { "hindi": "आश्रम", "read_as": "aashram", "english": "hermitage, ashram", "note": "Borrowed into English in almost this exact form." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Join these two letters into a single conjunct.",
+              "question": "श् + र",
+              "question_read_as": "sh + ra",
+              "options": ["शर", "र्श", "श्र", "स्र"],
+              "options_read_as": ["shar", "rsh", "shr", "sr"],
+              "answer_index": 2,
+              "explanation_en": "श् plus र gives श्र, with र written as a stroke beneath the first letter."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches आश्रम?",
+              "options": ["aasharam", "aarsham", "aashraam", "aashram"],
+              "options_read_as": ["aasharam", "aarsham", "aashraam", "aashram"],
+              "answer_index": 3,
+              "explanation_en": "र attaches beneath श and is read after it, and the final vowel drops: aashram."
+            }
+          },
+          "audio": {
+            "tts_strings": ["श्र", "श्री", "श्रम", "आश्रम"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed the four conjuncts that Hindi teaches as extra letters. क्ष and ज्ञ have to be memorised outright, ज्ञ because its sound contradicts its parts, while त्र and श्र still show what they are made of.",
+        "key_forms": ["मित्र", "ज्ञान", "श्री"],
+        "next_up_en": "Next: ordinary stacks, starting with the half-form pattern that makes most conjuncts readable at sight."
+      }
+    },
+    {
+      "level": 8,
+      "title_en": "Common stacks",
+      "title_hi": "स्त द्ध न्न",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M03-L08-I1",
+          "type": "letter",
+          "target": "स्त",
+          "read_as": "st",
+          "pronunciation_notes": "स loses its vertical stem and त follows immediately. The two consonants run together with no vowel between them.",
+          "gloss_en": "the stack st",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["conjunct", "conjunct_form", "half_form", "common_stack"],
+          "letter_form": "स्त",
+          "matra": null,
+          "sound_family": "half-form conjunct",
+          "contrasts_with": ["द्ध", "न्न"],
+          "example_word": { "hindi": "रास्ता", "read_as": "raastaa", "english": "road, way" },
+          "cards": {
+            "learn": {
+              "title_en": "स्त — the half-form pattern",
+              "explanation_en": "Most conjuncts are far more transparent than the four you have just learned. The commonest pattern is the half-form: the first letter loses its vertical stem and the second is written straight after it. स्त is exactly that — स without its stem, then त. Once you can spot a missing stem, a large number of conjuncts become readable on sight without any memorising at all.",
+              "examples": [
+                { "hindi": "रास्ता", "read_as": "raastaa", "english": "road, way", "note": "You will use this every time you ask for directions." },
+                { "hindi": "दोस्त", "read_as": "dost", "english": "friend", "note": "The everyday word, where मित्र from the last level is the formal one." },
+                { "hindi": "नमस्ते", "read_as": "namaste", "english": "hello", "note": "The greeting everyone knows, and it contains this stack." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Join these two letters into a single conjunct.",
+              "question": "स् + त",
+              "question_read_as": "s + ta",
+              "options": ["सत", "त्स", "स्ता", "स्त"],
+              "options_read_as": ["sat", "ts", "staa", "st"],
+              "answer_index": 3,
+              "explanation_en": "स drops its vertical stem and त is written immediately after it."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches रास्ता?",
+              "options": ["raasataa", "rastaa", "raastaa", "raasta"],
+              "options_read_as": ["raasataa", "rastaa", "raastaa", "raasta"],
+              "answer_index": 2,
+              "explanation_en": "The first vowel is long and the stack runs स straight into त with nothing between: raastaa."
+            }
+          },
+          "audio": {
+            "tts_strings": ["स्त", "रास्ता", "दोस्त", "नमस्ते"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L08-I2",
+          "type": "letter",
+          "target": "द्ध",
+          "read_as": "ddh",
+          "pronunciation_notes": "द् above ध in a vertical stack. Both consonants are pronounced — the sound is held slightly longer and then released with breath.",
+          "gloss_en": "the stack ddh",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["conjunct", "conjunct_form", "vertical_stack", "common_stack"],
+          "letter_form": "द्ध",
+          "matra": null,
+          "sound_family": "vertical stack",
+          "contrasts_with": ["स्त", "न्न"],
+          "example_word": { "hindi": "शुद्ध", "read_as": "shuddh", "english": "pure, clean" },
+          "cards": {
+            "learn": {
+              "title_en": "द्ध — a stack you have to hold twice",
+              "explanation_en": "द्ध is द् plus ध: a plain voiced dental followed immediately by its breathy partner. Both are genuinely pronounced, so the consonant is held a little longer and then released with breath. English speakers tend to produce only one of the two, which makes शुद्ध come out as 'shudh'. This one stacks vertically rather than using a half-form, so the first letter sits above the second.",
+              "examples": [
+                { "hindi": "शुद्ध", "read_as": "shuddh", "english": "pure, clean", "note": "You will see this on food packaging constantly." },
+                { "hindi": "युद्ध", "read_as": "yuddh", "english": "war", "note": "Common in news writing and headlines." },
+                { "hindi": "बुद्ध", "read_as": "buddh", "english": "the Buddha", "note": "Related to बुद्धि, meaning intelligence." }
+              ],
+              "common_error": {
+                "wrong": "शुध",
+                "right": "शुद्ध",
+                "why_en": "Only one consonant is written here, but two are pronounced — a plain द and then a breathy ध."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Join these two letters into a single conjunct.",
+              "question": "द् + ध",
+              "question_read_as": "d + dha",
+              "options": ["द्ध", "दध", "ध्द", "द्धा"],
+              "options_read_as": ["ddh", "dadh", "dhd", "ddhaa"],
+              "answer_index": 0,
+              "explanation_en": "द् sits above ध in a vertical stack, and both consonants are sounded."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches युद्ध?",
+              "options": ["yuddh", "yudh", "yuddha", "yudhdh"],
+              "options_read_as": ["yuddh", "yudh", "yuddha", "yudhdh"],
+              "answer_index": 0,
+              "explanation_en": "Both consonants of the stack are heard, and unlike मित्र this word drops its final vowel: yuddh."
+            }
+          },
+          "audio": {
+            "tts_strings": ["द्ध", "शुद्ध", "युद्ध", "बुद्ध"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L08-I3",
+          "type": "letter",
+          "target": "न्न",
+          "read_as": "nn",
+          "pronunciation_notes": "न् stacked above न. The n is genuinely held for longer than a single letter, not merely written twice.",
+          "gloss_en": "the stack nn",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["conjunct", "conjunct_form", "geminate", "common_stack"],
+          "letter_form": "न्न",
+          "matra": null,
+          "sound_family": "vertical stack",
+          "contrasts_with": ["स्त", "द्ध"],
+          "example_word": { "hindi": "अन्न", "read_as": "ann", "english": "grain, food" },
+          "cards": {
+            "learn": {
+              "title_en": "न्न — the same letter twice",
+              "explanation_en": "Doubled consonants are common in Hindi, and they are genuinely held longer rather than just written twice. न्न is न् above न, and the n lasts noticeably longer than a single one would. English only does this across a word boundary, as in 'thin nail', so holding the sound inside a single word is a habit that has to be built on purpose.",
+              "examples": [
+                { "hindi": "अन्न", "read_as": "ann", "english": "grain, food", "note": "The final vowel drops, so the word ends on the held n." },
+                { "hindi": "भिन्न", "read_as": "bhinn", "english": "different, separate", "note": "Formal register, common in written Hindi." },
+                { "hindi": "प्रसन्न", "read_as": "prasann", "english": "pleased", "note": "Two stacks in one word — प्र at the front and न्न at the end." }
+              ],
+              "common_error": {
+                "wrong": "अन",
+                "right": "अन्न",
+                "why_en": "A single न gives a short sound; the stack holds it noticeably longer, and the two are different words."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Join these two letters into a single conjunct.",
+              "question": "न् + न",
+              "question_read_as": "n + na",
+              "options": ["नन", "न्ना", "ण्ण", "न्न"],
+              "options_read_as": ["nan", "nnaa", "ṇṇ", "nn"],
+              "answer_index": 3,
+              "explanation_en": "न् stacks above न, and the resulting n is held longer than a single letter would be."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches भिन्न?",
+              "options": ["bhin", "bhinna", "bheenn", "bhinn"],
+              "options_read_as": ["bhin", "bhinna", "bheenn", "bhinn"],
+              "answer_index": 3,
+              "explanation_en": "Both न letters are pronounced, holding the n longer, and the final vowel drops: bhinn."
+            }
+          },
+          "audio": {
+            "tts_strings": ["न्न", "अन्न", "भिन्न", "प्रसन्न"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level began the ordinary stacks with स्त, द्ध and न्न, covering both written patterns: the half-form, where the first letter loses its stem, and the vertical stack, where it sits on top of the second.",
+        "key_forms": ["रास्ता", "शुद्ध", "अन्न"],
+        "next_up_en": "Next: nine more common stacks, and then the level that decides which written vowels are actually pronounced."
+      }
+    }
+  ]
+}

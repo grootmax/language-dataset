@@ -1,0 +1,825 @@
+{
+  "module": 4,
+  "module_name_en": "Core Words I",
+  "module_name_hi": "शब्द भंडार १",
+  "phase": 2,
+  "batch": { "levels_from": 16, "levels_to": 20 },
+  "levels": [
+    {
+      "level": 16,
+      "title_en": "Furniture and things",
+      "title_hi": "कुर्सी बिस्तर चीज़",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L16-I1",
+          "type": "word",
+          "target": "कुर्सी",
+          "read_as": "kursii",
+          "pronunciation_notes": "The hook above स is र with no vowel, and it is read before स, so the word is kursii rather than kusrii.",
+          "gloss_en": "chair",
+          "gender": "f",
+          "gender_flag": false,
+          "category": "home",
+          "plural": "कुर्सियाँ",
+          "plural_read_as": "kursiyãa",
+          "difficulty": 3,
+          "tags": ["home", "noun", "feminine", "ii_ending", "reph", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "कुर्सी — chair",
+              "explanation_en": "कुर्सी is a chair. It ends in -ी and is feminine, so the ending predicts correctly, and the plural follows the -ियाँ pattern. The word also contains the reph from Module 3: र with no vowel is written as a small hook above the letter that follows it, but pronounced before that letter.",
+              "examples": [
+                { "hindi": "खाली कुर्सी", "read_as": "khaalii kursii", "english": "an empty chair", "note": "खाली never changes form, so it hides the gender." },
+                { "hindi": "चार कुर्सियाँ", "read_as": "chaar kursiyãa", "english": "four chairs", "note": "The -ी becomes -ियाँ in the plural." },
+                { "hindi": "टूटी कुर्सी", "read_as": "ṭuuṭii kursii", "english": "a broken chair", "note": "टूटी takes -ी because कुर्सी is feminine." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "कुर्सी",
+              "question_read_as": "kursii",
+              "options": ["a chair", "a table", "a bed", "a bench"],
+              "options_read_as": ["a chair", "a table", "a bed", "a bench"],
+              "answer_index": 0,
+              "explanation_en": "कुर्सी is a chair. मेज़ is the table it stands at."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ कुर्सी — का, के or की?",
+              "options": ["का", "के", "कि", "की"],
+              "options_read_as": ["kaa", "ke", "ki", "kii"],
+              "answer_index": 3,
+              "explanation_en": "कुर्सी is feminine, so की. The -ी ending predicts correctly here."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कुर्सी", "खाली कुर्सी", "कुर्सियाँ"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L16-I2",
+          "type": "word",
+          "target": "बिस्तर",
+          "read_as": "bistar",
+          "pronunciation_notes": "The स्त stack runs स straight into त, and the final vowel drops: bistar in two syllables.",
+          "gloss_en": "bed, bedding",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "home",
+          "plural": "बिस्तर",
+          "plural_read_as": "bistar",
+          "difficulty": 4,
+          "tags": ["home", "noun", "masculine", "consonant_ending", "gender_flag", "conjunct"],
+          "cards": {
+            "learn": {
+              "title_en": "बिस्तर — bed, bedding",
+              "explanation_en": "बिस्तर is a bed, and more precisely the bedding on it — mattress, sheets and covers taken together. It is masculine and ends in a consonant, so the gender is unpredictable, and the plural does not change. The स्त stack from Module 3 sits in the middle, running the two consonants together with no vowel between them.",
+              "examples": [
+                { "hindi": "गरम बिस्तर", "read_as": "garam bistar", "english": "a warm bed", "note": "An adjective that does not change form." },
+                { "hindi": "साफ़ बिस्तर", "read_as": "saaf bistar", "english": "clean bedding", "note": "साफ़ also stays the same whatever the noun." },
+                { "hindi": "दो बिस्तर", "read_as": "do bistar", "english": "two beds", "note": "The plural is identical to the singular." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बिस्तर",
+              "question_read_as": "bistar",
+              "options": ["a chair", "a room", "a bed", "a blanket"],
+              "options_read_as": ["a chair", "a room", "a bed", "a blanket"],
+              "answer_index": 2,
+              "explanation_en": "बिस्तर is a bed, or the bedding on it. कमरा is the room it stands in."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ बिस्तर — का, के or की?",
+              "options": ["की", "का", "के", "कि"],
+              "options_read_as": ["kii", "kaa", "ke", "ki"],
+              "answer_index": 1,
+              "explanation_en": "बिस्तर is masculine, so का. Its consonant ending gives no clue."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बिस्तर", "गरम बिस्तर", "साफ़ बिस्तर"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L16-I3",
+          "type": "word",
+          "target": "चीज़",
+          "read_as": "chiiz",
+          "pronunciation_notes": "One syllable ending in the dotted ज़, a z sound: chiiz. Without the dot it would be read with a j.",
+          "gloss_en": "thing",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "home",
+          "plural": "चीज़ें",
+          "plural_read_as": "chiizeṁ",
+          "difficulty": 5,
+          "tags": ["home", "noun", "feminine", "consonant_ending", "nukta", "gender_flag", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "चीज़ — thing",
+              "explanation_en": "चीज़ means a thing in the broadest sense — an object, an item, or a matter under discussion. It is feminine and ends in a consonant, so the gender is unpredictable, and it is one of the words worth memorising deliberately because it turns up in every kind of sentence you will ever build. The dot under ज makes it a z sound.",
+              "examples": [
+                { "hindi": "अच्छी चीज़", "read_as": "achchhii chiiz", "english": "a good thing", "note": "अच्छी takes -ी because चीज़ is feminine." },
+                { "hindi": "दो चीज़ें", "read_as": "do chiizeṁ", "english": "two things", "note": "The -एँ plural for a feminine consonant ending." },
+                { "hindi": "नई चीज़", "read_as": "naii chiiz", "english": "a new thing", "note": "नई is the feminine form of नया." }
+              ],
+              "common_error": {
+                "wrong": "अच्छा चीज़",
+                "right": "अच्छी चीज़",
+                "why_en": "चीज़ is feminine despite its consonant ending, so the adjective takes -ी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "चीज़",
+              "question_read_as": "chiiz",
+              "options": ["a place", "a thing", "a word", "a person"],
+              "options_read_as": ["a place", "a thing", "a word", "a person"],
+              "answer_index": 1,
+              "explanation_en": "चीज़ is a thing, in the widest sense — an object or a matter."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ चीज़ — का, के or की?",
+              "options": ["की", "का", "के", "कि"],
+              "options_read_as": ["kii", "kaa", "ke", "ki"],
+              "answer_index": 0,
+              "explanation_en": "चीज़ is feminine, so की. Nothing in the word's shape tells you that, so it has to be learned."
+            }
+          },
+          "audio": {
+            "tts_strings": ["चीज़", "अच्छी चीज़", "चीज़ें"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added कुर्सी, बिस्तर and चीज़. चीज़ is the one to fix in memory: it is feminine, it ends in a consonant, and it appears in more sentences than almost any other noun in this module.",
+        "key_forms": ["कुर्सी", "बिस्तर", "चीज़"],
+        "next_up_en": "Next: दीवार, पंखा and चाबी — the fixtures of an ordinary room."
+      }
+    },
+    {
+      "level": 17,
+      "title_en": "Fixtures",
+      "title_hi": "दीवार पंखा चाबी",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L17-I1",
+          "type": "word",
+          "target": "दीवार",
+          "read_as": "diivaar",
+          "pronunciation_notes": "A long ii then a long aa, and the final vowel drops: diivaar in two syllables.",
+          "gloss_en": "wall",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "home",
+          "plural": "दीवारें",
+          "plural_read_as": "diivaareṁ",
+          "difficulty": 3,
+          "tags": ["home", "noun", "feminine", "consonant_ending", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "दीवार — wall",
+              "explanation_en": "दीवार is a wall. It is feminine and ends in a consonant, so the gender has to be learned. You have met this word before: it appeared in Module 1 as an example of the long ी matra. What matters now is that nothing about its shape announces the gender, so it joins मेज़, किताब and चीज़ on the list to memorise.",
+              "examples": [
+                { "hindi": "ऊँची दीवार", "read_as": "ũchii diivaar", "english": "a high wall", "note": "ऊँची takes -ी to agree, and carries a crescent of its own." },
+                { "hindi": "दो दीवारें", "read_as": "do diivaareṁ", "english": "two walls", "note": "Feminine consonant endings take -एँ." },
+                { "hindi": "सफ़ेद दीवार", "read_as": "safed diivaar", "english": "a white wall", "note": "सफ़ेद never changes form." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दीवार",
+              "question_read_as": "diivaar",
+              "options": ["a floor", "a roof", "a door", "a wall"],
+              "options_read_as": ["a floor", "a roof", "a door", "a wall"],
+              "answer_index": 3,
+              "explanation_en": "दीवार is a wall. दरवाज़ा is the door in it."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ दीवार — का, के or की?",
+              "options": ["का", "के", "की", "कि"],
+              "options_read_as": ["kaa", "ke", "kii", "ki"],
+              "answer_index": 2,
+              "explanation_en": "दीवार is feminine, so की. Its consonant ending predicts nothing."
+            }
+          },
+          "audio": {
+            "tts_strings": ["दीवार", "ऊँची दीवार", "दीवारें"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L17-I2",
+          "type": "word",
+          "target": "पंखा",
+          "read_as": "paṅkhaa",
+          "pronunciation_notes": "The dot before ख is read as the velar nasal, so the word carries an ng sound: paṅkhaa.",
+          "gloss_en": "fan",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "home",
+          "plural": "पंखे",
+          "plural_read_as": "paṅkhe",
+          "difficulty": 3,
+          "tags": ["home", "noun", "masculine", "aa_ending", "anusvara", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "पंखा — fan",
+              "explanation_en": "पंखा is a fan, and in practice usually the ceiling fan found in nearly every Indian room. It is masculine and ends in -ा, so the gender is predictable and the plural becomes पंखे. The anusvara rule from Module 3 applies here: ख belongs to the क-family, so the dot is read as ng rather than as a plain n.",
+              "examples": [
+                { "hindi": "तेज़ पंखा", "read_as": "tez paṅkhaa", "english": "a fast fan", "note": "तेज़ carries the dotted ज़ and never changes form." },
+                { "hindi": "दो पंखे", "read_as": "do paṅkhe", "english": "two fans", "note": "The -ा becomes -े in the plural." },
+                { "hindi": "बंद पंखा", "read_as": "band paṅkhaa", "english": "a switched-off fan", "note": "बंद stays the same whatever the noun." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पंखा",
+              "question_read_as": "paṅkhaa",
+              "options": ["a light", "a window", "a fan", "a switch"],
+              "options_read_as": ["a light", "a window", "a fan", "a switch"],
+              "answer_index": 2,
+              "explanation_en": "पंखा is a fan. खिड़की is a window."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ पंखा — का, के or की?",
+              "options": ["की", "कि", "के", "का"],
+              "options_read_as": ["kii", "ki", "ke", "kaa"],
+              "answer_index": 3,
+              "explanation_en": "पंखा is masculine, so का. The -ा ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["पंखा", "तेज़ पंखा", "पंखे"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L17-I3",
+          "type": "word",
+          "target": "चाबी",
+          "read_as": "chaabii",
+          "pronunciation_notes": "Light unaspirated च with no puff of air, then a long ii: chaabii.",
+          "gloss_en": "key",
+          "gender": "f",
+          "gender_flag": false,
+          "category": "home",
+          "plural": "चाबियाँ",
+          "plural_read_as": "chaabiyãa",
+          "difficulty": 3,
+          "tags": ["home", "noun", "feminine", "ii_ending", "regular_plural", "spelling_variant"],
+          "cards": {
+            "learn": {
+              "title_en": "चाबी — key",
+              "explanation_en": "चाबी is a key. It ends in -ी and is feminine, so the ending predicts correctly, and the plural follows the -ियाँ pattern. You will also see it spelt चाभी, with the breathy भ, which is equally correct and equally common — a useful reminder that Hindi spelling carries more variation than the script alone suggests.",
+              "examples": [
+                { "hindi": "छोटी चाबी", "read_as": "chhoṭii chaabii", "english": "a small key", "note": "छोटी takes -ी to agree with the feminine noun." },
+                { "hindi": "दो चाबियाँ", "read_as": "do chaabiyãa", "english": "two keys", "note": "The -ी becomes -ियाँ in the plural." },
+                { "hindi": "घर की चाबी", "read_as": "ghar kii chaabii", "english": "the house key", "note": "की agrees with चाबी, the word that comes after it." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "चाबी",
+              "question_read_as": "chaabii",
+              "options": ["a key", "a lock", "a door", "a handle"],
+              "options_read_as": ["a key", "a lock", "a door", "a handle"],
+              "answer_index": 0,
+              "explanation_en": "चाबी is a key. It is also spelt चाभी, with no change in meaning."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ चाबी — का, के or की?",
+              "options": ["का", "की", "के", "कि"],
+              "options_read_as": ["kaa", "kii", "ke", "ki"],
+              "answer_index": 1,
+              "explanation_en": "चाबी is feminine, so की. The -ी ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["चाबी", "छोटी चाबी", "चाबियाँ"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered दीवार, पंखा and चाबी. Only दीवार has to be memorised; the other two carry endings that say what they are.",
+        "key_forms": ["दीवार", "पंखा", "चाबी"],
+        "next_up_en": "Next: things on a table, including two English borrowings that took opposite genders."
+      }
+    },
+    {
+      "level": 18,
+      "title_en": "On the table",
+      "title_hi": "गिलास प्लेट साबुन",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L18-I1",
+          "type": "word",
+          "target": "गिलास",
+          "read_as": "gilaas",
+          "pronunciation_notes": "The ि matra is drawn before ग but read after it, and the final vowel drops: gilaas.",
+          "gloss_en": "glass, tumbler",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "home",
+          "plural": "गिलास",
+          "plural_read_as": "gilaas",
+          "difficulty": 3,
+          "tags": ["home", "noun", "masculine", "consonant_ending", "gender_flag", "borrowed_word"],
+          "cards": {
+            "learn": {
+              "title_en": "गिलास — glass, tumbler",
+              "explanation_en": "गिलास is a drinking glass, borrowed from English but reshaped on the way in: Hindi does not allow the cluster gl at the start of a word, so a vowel is inserted and it becomes gi-laas. It is masculine and ends in a consonant, so the gender is unpredictable, and the plural does not change.",
+              "examples": [
+                { "hindi": "एक गिलास पानी", "read_as": "ek gilaas paanii", "english": "a glass of water", "note": "One of the most useful requests you can make." },
+                { "hindi": "साफ़ गिलास", "read_as": "saaf gilaas", "english": "a clean glass", "note": "साफ़ never changes form." },
+                { "hindi": "दो गिलास", "read_as": "do gilaas", "english": "two glasses", "note": "The plural is identical to the singular." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "गिलास",
+              "question_read_as": "gilaas",
+              "options": ["a plate", "a spoon", "a bottle", "a glass"],
+              "options_read_as": ["a plate", "a spoon", "a bottle", "a glass"],
+              "answer_index": 3,
+              "explanation_en": "गिलास is a drinking glass. प्लेट is a plate."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ गिलास — का, के or की?",
+              "options": ["के", "की", "का", "कि"],
+              "options_read_as": ["ke", "kii", "kaa", "ki"],
+              "answer_index": 2,
+              "explanation_en": "गिलास is masculine, so का. Its consonant ending gives no clue."
+            }
+          },
+          "audio": {
+            "tts_strings": ["गिलास", "एक गिलास पानी", "साफ़ गिलास"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L18-I2",
+          "type": "word",
+          "target": "प्लेट",
+          "read_as": "pleṭ",
+          "pronunciation_notes": "The प्ल stack runs प straight into ल, and the final ट is retroflex: pleṭ, one syllable.",
+          "gloss_en": "plate",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "home",
+          "plural": "प्लेटें",
+          "plural_read_as": "pleṭeṁ",
+          "difficulty": 4,
+          "tags": ["home", "noun", "feminine", "consonant_ending", "gender_flag", "borrowed_word", "conjunct"],
+          "cards": {
+            "learn": {
+              "title_en": "प्लेट — plate",
+              "explanation_en": "प्लेट is a plate, borrowed from English and, unlike गिलास, keeping its opening cluster intact. It is feminine and ends in a consonant, so the gender is unpredictable. Borrowed nouns follow no single rule for gender in Hindi, which is exactly why गिलास came out masculine and प्लेट feminine despite arriving from the same language by the same route.",
+              "examples": [
+                { "hindi": "बड़ी प्लेट", "read_as": "baṛii pleṭ", "english": "a big plate", "note": "बड़ी takes -ी because प्लेट is feminine." },
+                { "hindi": "दो प्लेटें", "read_as": "do pleṭeṁ", "english": "two plates", "note": "Feminine consonant endings take -एँ." },
+                { "hindi": "खाली प्लेट", "read_as": "khaalii pleṭ", "english": "an empty plate", "note": "खाली never changes form." }
+              ],
+              "common_error": {
+                "wrong": "बड़ा प्लेट",
+                "right": "बड़ी प्लेट",
+                "why_en": "प्लेट is feminine, so the adjective takes -ी — while गिलास, also borrowed from English, is masculine."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "प्लेट",
+              "question_read_as": "pleṭ",
+              "options": ["a glass", "a plate", "a bowl", "a tray"],
+              "options_read_as": ["a glass", "a plate", "a bowl", "a tray"],
+              "answer_index": 1,
+              "explanation_en": "प्लेट is a plate. थाली is the traditional metal one."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ प्लेट — का, के or की?",
+              "options": ["की", "के", "का", "कि"],
+              "options_read_as": ["kii", "ke", "kaa", "ki"],
+              "answer_index": 0,
+              "explanation_en": "प्लेट is feminine, so की — while गिलास, from the same source language, takes का."
+            }
+          },
+          "audio": {
+            "tts_strings": ["प्लेट", "बड़ी प्लेट", "प्लेटें"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L18-I3",
+          "type": "word",
+          "target": "साबुन",
+          "read_as": "saabun",
+          "pronunciation_notes": "The final vowel drops, giving saabun in two syllables rather than three.",
+          "gloss_en": "soap",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "home",
+          "plural": "साबुन",
+          "plural_read_as": "saabun",
+          "difficulty": 3,
+          "tags": ["home", "noun", "masculine", "consonant_ending", "gender_flag", "mass_noun"],
+          "cards": {
+            "learn": {
+              "title_en": "साबुन — soap",
+              "explanation_en": "साबुन is soap. It is masculine and ends in a consonant, so the gender is unpredictable, and being a mass noun it does not change form. The word arrived through Persian and Arabic, and relatives of it turn up across a remarkable number of languages, English 'soap' among them.",
+              "examples": [
+                { "hindi": "नया साबुन", "read_as": "nayaa saabun", "english": "a new bar of soap", "note": "नया takes -ा because साबुन is masculine." },
+                { "hindi": "अच्छा साबुन", "read_as": "achchhaa saabun", "english": "good soap", "note": "The masculine adjective ending again." },
+                { "hindi": "साबुन और पानी", "read_as": "saabun aur paanii", "english": "soap and water", "note": "Two masculine nouns side by side." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "साबुन",
+              "question_read_as": "saabun",
+              "options": ["a towel", "water", "soap", "a brush"],
+              "options_read_as": ["a towel", "water", "soap", "a brush"],
+              "answer_index": 2,
+              "explanation_en": "साबुन is soap. पानी is the water you use with it."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ साबुन — का, के or की?",
+              "options": ["के", "का", "कि", "की"],
+              "options_read_as": ["ke", "kaa", "ki", "kii"],
+              "answer_index": 1,
+              "explanation_en": "साबुन is masculine, so का."
+            }
+          },
+          "audio": {
+            "tts_strings": ["साबुन", "नया साबुन", "साबुन और पानी"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed the fifteen home objects. गिलास and प्लेट both came from English and took opposite genders, which is the clearest evidence that borrowing offers no shortcut either.",
+        "key_forms": ["गिलास", "प्लेट", "साबुन"],
+        "next_up_en": "Next: animals, starting with the three you are most likely to meet on any street."
+      }
+    },
+    {
+      "level": 19,
+      "title_en": "Animals on the street",
+      "title_hi": "कुत्ता बिल्ली गाय",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L19-I1",
+          "type": "word",
+          "target": "कुत्ता",
+          "read_as": "kuttaa",
+          "pronunciation_notes": "The त्त stack holds the t, and both halves are dental, so the tongue stays on the teeth: kuttaa.",
+          "gloss_en": "dog",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "animals",
+          "plural": "कुत्ते",
+          "plural_read_as": "kutte",
+          "difficulty": 3,
+          "tags": ["animals", "noun", "masculine", "aa_ending", "conjunct", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "कुत्ता — dog",
+              "explanation_en": "कुत्ता is a dog. It is masculine and ends in -ा, so both the gender and the plural are predictable, giving कुत्ते. There is a feminine कुतिया for a female dog, but कुत्ता is what you use for dogs in general. The held त्त in the middle is dental on both halves, so the tongue stays forward throughout.",
+              "examples": [
+                { "hindi": "छोटा कुत्ता", "read_as": "chhoṭaa kuttaa", "english": "a small dog", "note": "The masculine adjective ending." },
+                { "hindi": "दो कुत्ते", "read_as": "do kutte", "english": "two dogs", "note": "The -ा becomes -े in the plural." },
+                { "hindi": "काला कुत्ता", "read_as": "kaalaa kuttaa", "english": "a black dog", "note": "काला also takes -ा to agree." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "कुत्ता",
+              "question_read_as": "kuttaa",
+              "options": ["a dog", "a cat", "a horse", "a goat"],
+              "options_read_as": ["a dog", "a cat", "a horse", "a goat"],
+              "answer_index": 0,
+              "explanation_en": "कुत्ता is a dog. बिल्ली is a cat."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ कुत्ता — का, के or की?",
+              "options": ["कि", "की", "के", "का"],
+              "options_read_as": ["ki", "kii", "ke", "kaa"],
+              "answer_index": 3,
+              "explanation_en": "कुत्ता is masculine, so का. The -ा ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कुत्ता", "छोटा कुत्ता", "कुत्ते"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L19-I2",
+          "type": "word",
+          "target": "बिल्ली",
+          "read_as": "billii",
+          "pronunciation_notes": "The ल्ल stack holds the l, kept clear and bright throughout rather than darkened: billii.",
+          "gloss_en": "cat",
+          "gender": "f",
+          "gender_flag": false,
+          "category": "animals",
+          "plural": "बिल्लियाँ",
+          "plural_read_as": "billiyãa",
+          "difficulty": 3,
+          "tags": ["animals", "noun", "feminine", "ii_ending", "conjunct", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "बिल्ली — cat",
+              "explanation_en": "बिल्ली is a cat. It ends in -ी and is feminine, so the ending predicts correctly, and the plural is बिल्लियाँ. Like कुत्ता it is the default word regardless of the animal's sex, so a male cat is still बिल्ली unless you specifically say बिल्ला. The held ल्ल from Module 3 sits in the middle.",
+              "examples": [
+                { "hindi": "काली बिल्ली", "read_as": "kaalii billii", "english": "a black cat", "note": "काली takes -ी to agree with the feminine noun." },
+                { "hindi": "दो बिल्लियाँ", "read_as": "do billiyãa", "english": "two cats", "note": "The -ी becomes -ियाँ in the plural." },
+                { "hindi": "छोटी बिल्ली", "read_as": "chhoṭii billii", "english": "a small cat", "note": "The feminine adjective ending." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बिल्ली",
+              "question_read_as": "billii",
+              "options": ["a mouse", "a cat", "a dog", "a bird"],
+              "options_read_as": ["a mouse", "a cat", "a dog", "a bird"],
+              "answer_index": 1,
+              "explanation_en": "बिल्ली is a cat. कुत्ता is a dog and चूहा a mouse."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ बिल्ली — का, के or की?",
+              "options": ["का", "कि", "की", "के"],
+              "options_read_as": ["kaa", "ki", "kii", "ke"],
+              "answer_index": 2,
+              "explanation_en": "बिल्ली is feminine, so की. The -ी ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बिल्ली", "काली बिल्ली", "बिल्लियाँ"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L19-I3",
+          "type": "word",
+          "target": "गाय",
+          "read_as": "gaay",
+          "pronunciation_notes": "One syllable ending in य, with a long aa before it: gaay.",
+          "gloss_en": "cow",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "animals",
+          "plural": "गायें",
+          "plural_read_as": "gaayeṁ",
+          "difficulty": 4,
+          "tags": ["animals", "noun", "feminine", "consonant_ending", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "गाय — cow",
+              "explanation_en": "गाय is a cow. It is feminine and ends in a consonant, so the gender is unpredictable. Here the animal's sex happens to line up with the grammar, but treat that as a coincidence rather than a rule — बिल्ली is feminine whether the cat is male or female, and कुत्ता is masculine either way. The plural is गायें.",
+              "examples": [
+                { "hindi": "सफ़ेद गाय", "read_as": "safed gaay", "english": "a white cow", "note": "सफ़ेद never changes form." },
+                { "hindi": "दो गायें", "read_as": "do gaayeṁ", "english": "two cows", "note": "Feminine consonant endings take -एँ." },
+                { "hindi": "काली गाय", "read_as": "kaalii gaay", "english": "a black cow", "note": "काली takes -ी because गाय is feminine." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "गाय",
+              "question_read_as": "gaay",
+              "options": ["a goat", "a buffalo", "a horse", "a cow"],
+              "options_read_as": ["a goat", "a buffalo", "a horse", "a cow"],
+              "answer_index": 3,
+              "explanation_en": "गाय is a cow. बकरी is a goat and भैंस a buffalo."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ गाय — का, के or की?",
+              "options": ["की", "का", "कि", "के"],
+              "options_read_as": ["kii", "kaa", "ki", "ke"],
+              "answer_index": 0,
+              "explanation_en": "गाय is feminine, so की. Its consonant ending gives no clue on its own."
+            }
+          },
+          "audio": {
+            "tts_strings": ["गाय", "सफ़ेद गाय", "गायें"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level began the animals with कुत्ता, बिल्ली and गाय. Grammatical gender is fixed by the word rather than the animal, so a male cat is still बिल्ली and a female dog still कुत्ता in general use.",
+        "key_forms": ["कुत्ता", "बिल्ली", "गाय"],
+        "next_up_en": "Next: हाथी, घोड़ा and चिड़िया, where the ending trap runs in both directions at once."
+      }
+    },
+    {
+      "level": 20,
+      "title_en": "The ending trap, both ways",
+      "title_hi": "हाथी घोड़ा चिड़िया",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L20-I1",
+          "type": "word",
+          "target": "हाथी",
+          "read_as": "haathii",
+          "pronunciation_notes": "An aspirated dental थ in the middle — tongue on the teeth with breath released: haathii.",
+          "gloss_en": "elephant",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "animals",
+          "plural": "हाथी",
+          "plural_read_as": "haathii",
+          "difficulty": 5,
+          "tags": ["animals", "noun", "masculine", "ii_ending", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "हाथी — elephant",
+              "explanation_en": "हाथी is an elephant, and it is another of the misleading -ी words: the ending looks feminine and the noun is masculine. It joins पानी, भाई, दही and घी in that group, which by now is large enough to be worth keeping as its own list rather than treating each word as a one-off surprise. The plural does not change. The word comes from हाथ, meaning hand, because of the trunk.",
+              "examples": [
+                { "hindi": "बड़ा हाथी", "read_as": "baṛaa haathii", "english": "a big elephant", "note": "बड़ा takes -ा because हाथी is masculine." },
+                { "hindi": "दो हाथी", "read_as": "do haathii", "english": "two elephants", "note": "The plural is identical to the singular." },
+                { "hindi": "काला हाथी", "read_as": "kaalaa haathii", "english": "a black elephant", "note": "The masculine ending again, despite the -ी on the noun." }
+              ],
+              "common_error": {
+                "wrong": "बड़ी हाथी",
+                "right": "बड़ा हाथी",
+                "why_en": "हाथी ends in -ी but is masculine, so the adjective takes -ा."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "हाथी",
+              "question_read_as": "haathii",
+              "options": ["an elephant", "a camel", "a horse", "a buffalo"],
+              "options_read_as": ["an elephant", "a camel", "a horse", "a buffalo"],
+              "answer_index": 0,
+              "explanation_en": "हाथी is an elephant. The word is built from हाथ, meaning hand."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ हाथी — का, के or की?",
+              "options": ["की", "के", "कि", "का"],
+              "options_read_as": ["kii", "ke", "ki", "kaa"],
+              "answer_index": 3,
+              "explanation_en": "हाथी is masculine, so का — despite the -ी ending, which is why it is flagged."
+            }
+          },
+          "audio": {
+            "tts_strings": ["हाथी", "बड़ा हाथी", "काला हाथी"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L20-I2",
+          "type": "word",
+          "target": "घोड़ा",
+          "read_as": "ghoṛaa",
+          "pronunciation_notes": "The flap ड़ — the tongue curls back and flicks forward once — and a flat ओ with no glide: ghoṛaa.",
+          "gloss_en": "horse",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "animals",
+          "plural": "घोड़े",
+          "plural_read_as": "ghoṛe",
+          "difficulty": 4,
+          "tags": ["animals", "noun", "masculine", "aa_ending", "nukta", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "घोड़ा — horse",
+              "explanation_en": "घोड़ा is a horse. It is masculine and ends in -ा, so both the gender and the plural are predictable, giving घोड़े, and there is a feminine घोड़ी for a mare. The word packs in two things from Module 2: the breathy घ at the front and the flap ड़ in the middle, which is a flick of the tongue rather than a stop.",
+              "examples": [
+                { "hindi": "तेज़ घोड़ा", "read_as": "tez ghoṛaa", "english": "a fast horse", "note": "तेज़ carries the dotted ज़ and never changes form." },
+                { "hindi": "दो घोड़े", "read_as": "do ghoṛe", "english": "two horses", "note": "The -ा becomes -े in the plural." },
+                { "hindi": "सफ़ेद घोड़ा", "read_as": "safed ghoṛaa", "english": "a white horse", "note": "सफ़ेद stays the same whatever the noun." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "घोड़ा",
+              "question_read_as": "ghoṛaa",
+              "options": ["a donkey", "a cow", "a horse", "a camel"],
+              "options_read_as": ["a donkey", "a cow", "a horse", "a camel"],
+              "answer_index": 2,
+              "explanation_en": "घोड़ा is a horse. The feminine घोड़ी is a mare."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ घोड़ा — का, के or की?",
+              "options": ["के", "का", "की", "कि"],
+              "options_read_as": ["ke", "kaa", "kii", "ki"],
+              "answer_index": 1,
+              "explanation_en": "घोड़ा is masculine, so का. The -ा ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["घोड़ा", "तेज़ घोड़ा", "घोड़े"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L20-I3",
+          "type": "word",
+          "target": "चिड़िया",
+          "read_as": "chiṛiyaa",
+          "pronunciation_notes": "The ि matra is drawn before च but read after it, and the flap ड़ follows: chiṛiyaa in three syllables.",
+          "gloss_en": "bird",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "animals",
+          "plural": "चिड़ियाँ",
+          "plural_read_as": "chiṛiyãa",
+          "difficulty": 5,
+          "tags": ["animals", "noun", "feminine", "aa_ending", "nukta", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "चिड़िया — bird",
+              "explanation_en": "चिड़िया is a bird, usually a small one. It is feminine, and this is the exact mirror image of हाथी at the start of this level: the word ends in -ा, which normally marks a masculine noun, and it is feminine. Its plural is चिड़ियाँ, made by nasalising the final vowel rather than changing it to -े. Between the two words you now have the ending trap running in both directions.",
+              "examples": [
+                { "hindi": "छोटी चिड़िया", "read_as": "chhoṭii chiṛiyaa", "english": "a small bird", "note": "छोटी takes -ी because चिड़िया is feminine." },
+                { "hindi": "दो चिड़ियाँ", "read_as": "do chiṛiyãa", "english": "two birds", "note": "The plural nasalises the final vowel instead of changing it." },
+                { "hindi": "काली चिड़िया", "read_as": "kaalii chiṛiyaa", "english": "a black bird", "note": "The feminine adjective ending again." }
+              ],
+              "common_error": {
+                "wrong": "छोटा चिड़िया",
+                "right": "छोटी चिड़िया",
+                "why_en": "चिड़िया ends in -ा but is feminine, so the adjective takes -ी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "चिड़िया",
+              "question_read_as": "chiṛiyaa",
+              "options": ["a fish", "an insect", "a mouse", "a bird"],
+              "options_read_as": ["a fish", "an insect", "a mouse", "a bird"],
+              "answer_index": 3,
+              "explanation_en": "चिड़िया is a bird, usually a small one. मछली is a fish."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ चिड़िया — का, के or की?",
+              "options": ["का", "के", "की", "कि"],
+              "options_read_as": ["kaa", "ke", "kii", "ki"],
+              "answer_index": 2,
+              "explanation_en": "चिड़िया is feminine, so की — despite the -ा ending, which normally points the other way."
+            }
+          },
+          "audio": {
+            "tts_strings": ["चिड़िया", "छोटी चिड़िया", "चिड़ियाँ"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level set हाथी and चिड़िया against each other: a masculine noun ending in -ी and a feminine noun ending in -ा, in the same category and the same level. Together they show that neither ending can be trusted on its own.",
+        "key_forms": ["हाथी", "घोड़ा", "चिड़िया"],
+        "next_up_en": "Next: the last four animals, and then the colours."
+      }
+    }
+  ]
+}

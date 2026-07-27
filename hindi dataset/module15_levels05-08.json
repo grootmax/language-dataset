@@ -1,0 +1,1157 @@
+{
+  "module": 15,
+  "module_name_en": "Register and Polish",
+  "module_name_hi": "भाषा की परतें",
+  "phase": 5,
+  "type": "grammar",
+  "batch": {
+    "levels_from": 5,
+    "levels_to": 8
+  },
+  "batch_note": "Levels 5 and 6 finish the situation axis and level 7 opens the tendency axis. The hand-off at level 5 item 3 is deliberate: सूचित किया जाता है appeared as an example in level 4 and is the taught target here, because it sits exactly on the boundary between formal writing, which has an addressee, and institutional language, which has none.",
+  "levels": [
+    {
+      "level": 5,
+      "title_en": "Institutional",
+      "title_hi": "संस्थागत भाषा",
+      "items": [
+        {
+          "id": "M15-L05-I1",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "institutional",
+            "notices"
+          ],
+          "target": "अनधिकृत प्रवेश वर्जित है।",
+          "read_as": "anadhikrit pravesh varjit hai.",
+          "english": "Unauthorised entry is prohibited.",
+          "difficulty": 8,
+          "tags": [
+            "register",
+            "institutional",
+            "notices",
+            "callback_m13"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A notice states; it does not instruct",
+              "explanation_en": "अनधिकृत प्रवेश वर्जित है has no verb of command in it and nobody is addressed. It describes a state of affairs — entry is prohibited — and leaves you to draw the conclusion. That is the defining habit of institutional language: it removes the person doing the forbidding, and often the person being forbidden as well. Compare अंदर मत आइए, which tells one person not to come in and would be strange on a wall. Note अनधिकृत, built from अधिकृत, which you met on a level 7 sign in Module 13, with the अन- prefix from level 12.",
+              "examples": [
+                {
+                  "hindi": "अनधिकृत प्रवेश वर्जित है।",
+                  "read_as": "anadhikrit pravesh varjit hai.",
+                  "english": "Unauthorised entry is prohibited.",
+                  "note": "A state of affairs, and nobody addressed."
+                },
+                {
+                  "hindi": "अंदर मत आइए।",
+                  "read_as": "aṁdar mat aaie.",
+                  "english": "Please don't come in.",
+                  "note": "The same content spoken to one person."
+                },
+                {
+                  "hindi": "धूम्रपान निषेध",
+                  "read_as": "dhuumrapaan niṣedh",
+                  "english": "No smoking",
+                  "note": "Two words and no verb at all, from the Module 13 sign."
+                }
+              ],
+              "common_error": {
+                "wrong": "putting मत into a notice",
+                "right": "stating the prohibition",
+                "why_en": "मत addresses a person standing in front of you. A wall is not speaking to anybody in particular, and Hindi notices reflect that."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "A sign on a door in an office building.",
+              "options": [
+                "अंदर मत आना यार।",
+                "क्या आप बाहर रुक सकते हैं?",
+                "अनधिकृत प्रवेश वर्जित है।",
+                "अंदर मत आइए।"
+              ],
+              "options_read_as": [
+                "aṁdar mat aanaa yaar.",
+                "kyaa aap baahar ruk sakte haiṁ?",
+                "anadhikrit pravesh varjit hai.",
+                "aṁdar mat aaie."
+              ],
+              "answer_index": 2,
+              "explanation_en": "The other three all address a person. A sign has nobody in front of it, so it states the rule instead."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "अंदर मत आइए।",
+              "sentence_read_as": "aṁdar mat aaie.",
+              "question_en": "Where would you meet this?",
+              "options": [
+                "Printed on a door",
+                "Said politely to somebody at the door",
+                "In a news report",
+                "In a written application"
+              ],
+              "answer_index": 1,
+              "explanation_en": "मत आइए is polite speech to one person. Printed on a door it would read as oddly personal."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अनधिकृत प्रवेश वर्जित है।",
+              "अंदर मत आइए।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L05-I2",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "institutional",
+            "forms"
+          ],
+          "target": "कृपया संलग्न प्रपत्र भरकर जमा करें।",
+          "read_as": "kripayaa saṁlagn prapatra bharkar jamaa kareṁ.",
+          "english": "Please complete and submit the attached form.",
+          "difficulty": 9,
+          "tags": [
+            "register",
+            "institutional",
+            "forms",
+            "generic_addressee",
+            "callback_m14"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "करें is addressed to whoever happens to be reading",
+              "explanation_en": "A form does have an addressee, but not a particular one. That is why it uses करें rather than कीजिए: the subjunctive is addressed to whoever picks the paper up, where कीजिए would be addressed to you, now. भरकर is the conjunctive participle from Module 14, chaining the filling to the submitting, and it is very common in instructions because it makes an ordered sequence in two words. प्रपत्र is the Sanskrit-side word for a form, and फ़ॉर्म is what the clerk at the counter will call it.",
+              "examples": [
+                {
+                  "hindi": "कृपया संलग्न प्रपत्र भरकर जमा करें।",
+                  "read_as": "kripayaa saṁlagn prapatra bharkar jamaa kareṁ.",
+                  "english": "Please complete and submit the attached form.",
+                  "note": "करें — a generic addressee."
+                },
+                {
+                  "hindi": "ये फ़ॉर्म भरकर जमा कर दीजिए।",
+                  "read_as": "ye fôrm bharkar jamaa kar diijie.",
+                  "english": "Fill in this form and hand it in.",
+                  "note": "The same instruction, spoken across a counter."
+                },
+                {
+                  "hindi": "आवेदन पत्र संलग्न है।",
+                  "read_as": "aavedan patra saṁlagn hai.",
+                  "english": "The application form is enclosed.",
+                  "note": "संलग्न again, this time simply stating."
+                }
+              ],
+              "common_error": {
+                "wrong": "printing कीजिए on a form",
+                "right": "करें",
+                "why_en": "कीजिए is aimed at one reader in one moment. A form is read by everybody who ever picks it up, and करें is the form that accommodates that."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "Printed instructions at the top of an application form.",
+              "options": [
+                "कृपया संलग्न प्रपत्र भरकर जमा करें।",
+                "ये फ़ॉर्म भरकर जमा कर दीजिए।",
+                "फ़ॉर्म भर के दे दो।",
+                "फ़ॉर्म भरना ज़रूरी है क्या?"
+              ],
+              "options_read_as": [
+                "kripayaa saṁlagn prapatra bharkar jamaa kareṁ.",
+                "ye fôrm bharkar jamaa kar diijie.",
+                "fôrm bhar ke de do.",
+                "fôrm bharnaa zaruurii hai kyaa?"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second is what a clerk says to you. The third is casual. The fourth is a question rather than an instruction."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "ये फ़ॉर्म भरकर जमा कर दीजिए।",
+              "sentence_read_as": "ye fôrm bharkar jamaa kar diijie.",
+              "question_en": "Who is speaking?",
+              "options": [
+                "A friend",
+                "A news reader",
+                "A printed form",
+                "A clerk at a counter"
+              ],
+              "answer_index": 3,
+              "explanation_en": "फ़ॉर्म rather than प्रपत्र, and दीजिए aimed at one person standing there. That is a counter, not a page."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "कृपया संलग्न प्रपत्र भरकर जमा करें।",
+              "ये फ़ॉर्म भरकर जमा कर दीजिए।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L05-I3",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "institutional",
+            "impersonal",
+            "agentless"
+          ],
+          "target": "सूचित किया जाता है कि कार्यालय बंद रहेगा।",
+          "read_as": "suuchit kiyaa jaataa hai ki kaaryaalay baṁd rahegaa.",
+          "english": "It is hereby notified that the office will remain closed.",
+          "difficulty": 9,
+          "tags": [
+            "register",
+            "institutional",
+            "habitual_passive",
+            "boundary_item",
+            "callback_m14"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The boundary between formal writing and institutional language",
+              "explanation_en": "You met this sentence as an example in the last level, and it belongs here. सूचित किया जाता है कि — it is notified that — is the point at which formal writing becomes institutional. A letter has a महोदय at the top and a signature at the bottom, so a person is writing to a person. A notice like this has neither. The passive is in the habitual — जाता है, not जाएगा or गया — which makes the notifying timeless rather than an event, and that is what removes the last trace of anybody doing it.",
+              "examples": [
+                {
+                  "hindi": "सूचित किया जाता है कि कार्यालय बंद रहेगा।",
+                  "read_as": "suuchit kiyaa jaataa hai ki kaaryaalay baṁd rahegaa.",
+                  "english": "It is hereby notified that the office will remain closed.",
+                  "note": "Habitual passive — nobody, at no particular moment."
+                },
+                {
+                  "hindi": "आपको सूचित किया गया था।",
+                  "read_as": "aapko suuchit kiyaa gayaa thaa.",
+                  "english": "You were informed.",
+                  "note": "A past passive with an addressee — an event, and pointedly so."
+                },
+                {
+                  "hindi": "मैं आपको बता रहा हूँ कि ऑफ़िस बंद रहेगा।",
+                  "read_as": "maiṁ aapko bataa rahaa huuṁ ki ôfis baṁd rahegaa.",
+                  "english": "I'm telling you the office will be closed.",
+                  "note": "Two people, and the same information."
+                }
+              ],
+              "common_error": {
+                "wrong": "opening a personal email with सूचित किया जाता है",
+                "right": "मैं आपको बताना चाहता हूँ कि",
+                "why_en": "The construction exists to erase the writer. In an email from one named person to another, erasing the writer is not available and the attempt sounds evasive."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "A notice pinned to a board in a government office.",
+              "options": [
+                "मैं आपको बता रहा हूँ कि ऑफ़िस बंद रहेगा।",
+                "ऑफ़िस बंद रहेगा, बता देना सबको।",
+                "कल ऑफ़िस बंद है ना?",
+                "सूचित किया जाता है कि कार्यालय बंद रहेगा।"
+              ],
+              "options_read_as": [
+                "maiṁ aapko bataa rahaa huuṁ ki ôfis baṁd rahegaa.",
+                "ôfis baṁd rahegaa, bataa denaa sabko.",
+                "kal ôfis baṁd hai naa?",
+                "suuchit kiyaa jaataa hai ki kaaryaalay baṁd rahegaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "Every other option has at least one identifiable person in it. A board notice has none."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "आपको सूचित किया गया था।",
+              "sentence_read_as": "aapko suuchit kiyaa gayaa thaa.",
+              "question_en": "What is this sentence doing?",
+              "options": [
+                "Apologising",
+                "Giving information",
+                "Pointing out that you were already told",
+                "Asking a question"
+              ],
+              "answer_index": 2,
+              "explanation_en": "A past passive with आपको in it puts the record on the table. It is what an institution says when it means you cannot claim you did not know."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सूचित किया जाता है कि कार्यालय बंद रहेगा।",
+              "आपको सूचित किया गया था।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Institutional language removes people. A notice states a rule rather than instructing anybody, a form addresses whoever picks it up with करें rather than कीजिए, and सूचित किया जाता है uses the habitual passive to make the notifying timeless. That absence of a person is the whole register.",
+        "key_forms": [
+          "प्रवेश वर्जित है",
+          "भरकर जमा करें",
+          "सूचित किया जाता है कि"
+        ],
+        "next_up_en": "Next: news, where somebody is speaking but never the reporter."
+      }
+    },
+    {
+      "level": 6,
+      "title_en": "News and public communication",
+      "title_hi": "समाचार की भाषा",
+      "items": [
+        {
+          "id": "M15-L06-I1",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "news_public",
+            "attribution"
+          ],
+          "target": "अधिकारियों के अनुसार जाँच जारी है।",
+          "read_as": "adhikaariyoṁ ke anusaar jaaṁch jaarii hai.",
+          "english": "According to officials, the investigation is continuing.",
+          "difficulty": 8,
+          "tags": [
+            "register",
+            "news_public",
+            "attribution",
+            "callback_m13"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "News never speaks in its own voice",
+              "explanation_en": "अधिकारियों के अनुसार जाँच जारी है. The report does not say the investigation is continuing; it says that officials say so. Module 13's news items were built on this — every claim in them carried के अनुसार, ने कहा or का कहना है, and the one line in the conference report with no source attached was doing something quite different. Attribution is why news Hindi is so dense with ने: reporting who said what requires a perfective transitive verb in almost every sentence.",
+              "examples": [
+                {
+                  "hindi": "अधिकारियों के अनुसार जाँच जारी है।",
+                  "read_as": "adhikaariyoṁ ke anusaar jaaṁch jaarii hai.",
+                  "english": "According to officials, the investigation is continuing.",
+                  "note": "के अनुसार, and the reporter takes no position."
+                },
+                {
+                  "hindi": "विभाग का कहना है कि काम जल्द पूरा होगा।",
+                  "read_as": "vibhaag kaa kahnaa hai ki kaam jald puuraa hogaa.",
+                  "english": "The department says the work will be finished soon.",
+                  "note": "का कहना है — a common alternative to ने कहा."
+                },
+                {
+                  "hindi": "जाँच जारी है।",
+                  "read_as": "jaaṁch jaarii hai.",
+                  "english": "The investigation is continuing.",
+                  "note": "Unattributed. A report would only write this if it were verified fact."
+                }
+              ],
+              "common_error": {
+                "wrong": "के हिसाब से in a news report",
+                "right": "के अनुसार",
+                "why_en": "The two mean the same, but के हिसाब से belongs to speech — you heard it in a Module 12 office argument. News writing takes the other one."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "A line in a newspaper report.",
+              "options": [
+                "जाँच वग़ैरह चल ही रही है।",
+                "अधिकारियों के अनुसार जाँच जारी है।",
+                "अफ़सरों के हिसाब से जाँच चल रही है।",
+                "सुना है जाँच चल रही है।"
+              ],
+              "options_read_as": [
+                "jaaṁch vaġairah chal hii rahii hai.",
+                "adhikaariyoṁ ke anusaar jaaṁch jaarii hai.",
+                "afsaroṁ ke hisaab se jaaṁch chal rahii hai.",
+                "sunaa hai jaaṁch chal rahii hai."
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second is the same claim in spoken vocabulary. The third attributes it to hearsay and the fourth is dismissive — neither belongs in a report."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "सुना है जाँच चल रही है।",
+              "sentence_read_as": "sunaa hai jaaṁch chal rahii hai.",
+              "question_en": "Where does this belong?",
+              "options": [
+                "A conversation",
+                "An official notice",
+                "A court document",
+                "A published report"
+              ],
+              "answer_index": 0,
+              "explanation_en": "सुना है attributes it to nobody in particular, which is fine between people and useless in print."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अधिकारियों के अनुसार जाँच जारी है।",
+              "विभाग का कहना है कि काम जल्द पूरा होगा।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L06-I2",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "news_public",
+            "headline",
+            "verbless"
+          ],
+          "target": "शहर में पानी की किल्लत, प्रदर्शन जारी",
+          "read_as": "shahar meṁ paanii kii killat, pradarshan jaarii",
+          "english": "Water shortage in the city, protests continue",
+          "difficulty": 9,
+          "tags": [
+            "register",
+            "news_public",
+            "headline",
+            "verbless",
+            "axis_independence"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A headline drops the verb and lets a comma do the joining",
+              "explanation_en": "शहर में पानी की किल्लत, प्रदर्शन जारी. There is no है anywhere, no और, and no full stop. Hindi headlines compress by removing exactly what can be reconstructed: the auxiliary, the conjunction, and the punctuation at the end. What is left is nouns and one adjective. Note also किल्लत, which is Urdu-side, in a headline alongside प्रदर्शन, which is Sanskrit-side — the two axes moving independently again, in the most compressed text the language produces.",
+              "examples": [
+                {
+                  "hindi": "शहर में पानी की किल्लत, प्रदर्शन जारी",
+                  "read_as": "shahar meṁ paanii kii killat, pradarshan jaarii",
+                  "english": "Water shortage in the city, protests continue",
+                  "note": "No verb, no conjunction, no full stop."
+                },
+                {
+                  "hindi": "शहर में पानी की किल्लत है और प्रदर्शन जारी है।",
+                  "read_as": "shahar meṁ paanii kii killat hai aur pradarshan jaarii hai.",
+                  "english": "There is a water shortage in the city and protests are continuing.",
+                  "note": "The same headline unpacked into a sentence."
+                },
+                {
+                  "hindi": "मंत्री का बयान, विपक्ष नाराज़",
+                  "read_as": "maṁtrii kaa bayaan, vipakṣ naaraaz",
+                  "english": "Minister's statement, opposition angry",
+                  "note": "Four words, two clauses, and the reader supplies the rest."
+                }
+              ],
+              "common_error": {
+                "wrong": "writing a headline as a full sentence",
+                "right": "dropping the auxiliary and the conjunction",
+                "why_en": "A complete sentence in a headline slot reads as a caption rather than a headline. The compression is the genre."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "A newspaper headline.",
+              "options": [
+                "शहर में पानी की किल्लत, प्रदर्शन जारी",
+                "शहर में पानी की किल्लत है और प्रदर्शन जारी है।",
+                "शहर में पानी नहीं आ रहा और लोग गुस्से में हैं।",
+                "सूचित किया जाता है कि शहर में पानी की किल्लत है।"
+              ],
+              "options_read_as": [
+                "shahar meṁ paanii kii killat, pradarshan jaarii",
+                "shahar meṁ paanii kii killat hai aur pradarshan jaarii hai.",
+                "shahar meṁ paanii nahiiṁ aa rahaa aur log gusse meṁ haiṁ.",
+                "suuchit kiyaa jaataa hai ki shahar meṁ paanii kii killat hai."
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second is the sentence a headline compresses. The third is how somebody would say it. The fourth is a notice, which is a different register entirely."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "मंत्री का बयान, विपक्ष नाराज़",
+              "sentence_read_as": "maṁtrii kaa bayaan, vipakṣ naaraaz",
+              "question_en": "What is this?",
+              "options": [
+                "A notice",
+                "A text message",
+                "A spoken summary",
+                "A headline"
+              ],
+              "answer_index": 3,
+              "explanation_en": "No verbs, a comma joining two clauses, and no full stop. Nothing else in Hindi is written this way."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "शहर में पानी की किल्लत, प्रदर्शन जारी",
+              "मंत्री का बयान, विपक्ष नाराज़"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L06-I3",
+          "type": "grammar",
+          "axis": "situation",
+          "register_tags": [
+            "news_public",
+            "hedging",
+            "balance"
+          ],
+          "target": "हालाँकि कुछ निवासियों ने इसका स्वागत किया है।",
+          "read_as": "haalaaṁki kuchh nivaasiyoṁ ne iskaa svaagat kiyaa hai.",
+          "english": "Some residents, however, have welcomed it.",
+          "difficulty": 9,
+          "tags": [
+            "register",
+            "news_public",
+            "balance",
+            "haalaaṁki",
+            "callback_m13"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "हालाँकि is how a report gives the other side without taking one",
+              "explanation_en": "A Hindi news report balances by addition rather than by judgement. It states one position, then opens a clause with हालाँकि and states the other, and never says which it finds more convincing. Module 13's road-repair item did exactly this: local residents welcomed the work, and some people complained of dust, set side by side with nothing between them. हालाँकि means although or however and it sits at the head of the clause it introduces, unlike English \"however\" which can go almost anywhere.",
+              "examples": [
+                {
+                  "hindi": "हालाँकि कुछ निवासियों ने इसका स्वागत किया है।",
+                  "read_as": "haalaaṁki kuchh nivaasiyoṁ ne iskaa svaagat kiyaa hai.",
+                  "english": "Some residents, however, have welcomed it.",
+                  "note": "हालाँकि at the head, and no verdict anywhere."
+                },
+                {
+                  "hindi": "काम शुरू हो गया है, हालाँकि तारीख़ तय नहीं है।",
+                  "read_as": "kaam shuruu ho gayaa hai, haalaaṁki taariiḳh tay nahiiṁ hai.",
+                  "english": "Work has begun, though no date has been fixed.",
+                  "note": "The qualifying clause second."
+                },
+                {
+                  "hindi": "पर मुझे ये ठीक नहीं लगता।",
+                  "read_as": "par mujhe ye ṭhiik nahiiṁ lagtaa.",
+                  "english": "But I don't think it's right.",
+                  "note": "A personal view, and exactly what a report will not print."
+                }
+              ],
+              "common_error": {
+                "wrong": "putting हालाँकि in the middle of its clause, as English does with \"however\"",
+                "right": "putting it at the head",
+                "why_en": "हालाँकि opens the clause it qualifies. Hindi has no way to slide it in after the subject."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "A sentence adding the other side of a story in a news report.",
+              "options": [
+                "वैसे कुछ लोग ख़ुश भी हैं।",
+                "कुछ लोग तो बहुत ख़ुश हैं यार।",
+                "हालाँकि कुछ निवासियों ने इसका स्वागत किया है।",
+                "पर मुझे ये ठीक नहीं लगता।"
+              ],
+              "options_read_as": [
+                "vaise kuchh log ḳhush bhii haiṁ.",
+                "kuchh log to bahut ḳhush haiṁ yaar.",
+                "haalaaṁki kuchh nivaasiyoṁ ne iskaa svaagat kiyaa hai.",
+                "par mujhe ye ṭhiik nahiiṁ lagtaa."
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second states the writer's own view. The third and fourth are spoken — वैसे and यार both belong to conversation."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "पर मुझे ये ठीक नहीं लगता।",
+              "sentence_read_as": "par mujhe ye ṭhiik nahiiṁ lagtaa.",
+              "question_en": "Why would a news report not print this?",
+              "options": [
+                "It is ungrammatical",
+                "It states the writer's own opinion",
+                "It is too formal",
+                "It has no verb"
+              ],
+              "answer_index": 1,
+              "explanation_en": "मुझे लगता है puts the reporter in the story, which is the one thing the register does not allow."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "हालाँकि कुछ निवासियों ने इसका स्वागत किया है।",
+              "काम शुरू हो गया है, हालाँकि तारीख़ तय नहीं है।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "News attributes every claim, which is why it is so full of ने and के अनुसार. Headlines drop the auxiliary, the conjunction and the full stop. And हालाँकि supplies the other side of a story without the reporter ever appearing in it.",
+        "key_forms": [
+          "के अनुसार",
+          "किल्लत, प्रदर्शन जारी",
+          "हालाँकि"
+        ],
+        "next_up_en": "Next: the second axis — starting with the layer that is marked in no direction at all."
+      }
+    },
+    {
+      "level": 7,
+      "title_en": "Everyday Hindustani",
+      "title_hi": "रोज़मर्रा की हिंदी",
+      "items": [
+        {
+          "id": "M15-L07-I1",
+          "type": "grammar",
+          "axis": "tendency",
+          "register_tags": [
+            "everyday_hindustani",
+            "core_layer"
+          ],
+          "target": "खाना खा लिया?",
+          "read_as": "khaanaa khaa liyaa?",
+          "english": "Have you eaten?",
+          "difficulty": 6,
+          "tags": [
+            "register",
+            "tendency_axis",
+            "core_layer",
+            "unmarked"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The layer with no alternative, because it is underneath the others",
+              "explanation_en": "खाना खा लिया? Every word here comes from the old inherited stock of the language rather than from Sanskrit borrowing or Persian borrowing — and that stock is most of what anybody says. खाना, पीना, जाना, आना, घर, हाथ, पानी, आग, दिन, रात, बड़ा, छोटा. These words have no formal twin and no informal twin. You do not choose them, because on this axis there is nothing to choose between. Most Hindi sentences make no vocabulary-tendency choice at all, and that is worth knowing before the next three levels make it look as though every word is a decision.",
+              "examples": [
+                {
+                  "hindi": "खाना खा लिया?",
+                  "read_as": "khaanaa khaa liyaa?",
+                  "english": "Have you eaten?",
+                  "note": "Nothing here is marked in either direction."
+                },
+                {
+                  "hindi": "पानी पी लो।",
+                  "read_as": "paanii pii lo.",
+                  "english": "Have some water.",
+                  "note": "Same layer, and no alternative exists."
+                },
+                {
+                  "hindi": "जलपान ग्रहण कीजिए।",
+                  "read_as": "jalpaan grahaṇ kiijie.",
+                  "english": "Please partake of refreshments.",
+                  "note": "Sanskrit-side words for eating and drinking do exist, and they belong to ceremony."
+                }
+              ],
+              "common_error": {
+                "wrong": "assuming every word carries a register decision",
+                "right": "recognising that most do not",
+                "why_en": "A learner who has just met the tendency axis will start hunting for alternatives everywhere. For खाना and पानी there are none in ordinary use."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "Asking a family member whether they have eaten.",
+              "options": [
+                "डिनर हो गया क्या?",
+                "खाना खा लिया?",
+                "भोजन ग्रहण कर लिया?",
+                "जलपान हो गया?"
+              ],
+              "options_read_as": [
+                "ḍinar ho gayaa kyaa?",
+                "khaanaa khaa liyaa?",
+                "bhojan grahaṇ kar liyaa?",
+                "jalpaan ho gayaa?"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second and third are ceremonial and would be startling at home. The fourth is ordinary in many urban households, and level 10 comes back to it."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "जलपान ग्रहण कीजिए।",
+              "sentence_read_as": "jalpaan grahaṇ kiijie.",
+              "question_en": "Where would you meet this?",
+              "options": [
+                "At a formal function or on a printed invitation",
+                "In a restaurant",
+                "In a text message",
+                "At a family meal"
+              ],
+              "answer_index": 0,
+              "explanation_en": "जलपान and ग्रहण करना are both ceremonial. A host at home would say खाना खा लीजिए."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "खाना खा लिया?",
+              "पानी पी लो।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L07-I2",
+          "type": "grammar",
+          "axis": "tendency",
+          "register_tags": [
+            "everyday_hindustani",
+            "compound_verbs"
+          ],
+          "target": "बात हो गई, काम भी निपट गया।",
+          "read_as": "baat ho gaii, kaam bhii nipaṭ gayaa.",
+          "english": "We spoke, and the work got done too.",
+          "difficulty": 8,
+          "tags": [
+            "register",
+            "tendency_axis",
+            "compound_verbs",
+            "vectors_are_marked",
+            "callback_m11"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Compound verbs belong to the everyday layer",
+              "explanation_en": "Here is something Module 11 taught you without mentioning register. Compound verbs — हो गया, निपट गया, कर लिया, दे दिया — are dense in speech and thin on the ground in formal writing. A notice says कार्य पूर्ण हुआ; a person says काम हो गया. The vectors add completion, direction and attitude, and formal Hindi prefers to say those things with separate words or not at all. So the number of vectors in a sentence is itself a register signal, quite apart from which words the sentence uses.",
+              "examples": [
+                {
+                  "hindi": "बात हो गई, काम भी निपट गया।",
+                  "read_as": "baat ho gaii, kaam bhii nipaṭ gayaa.",
+                  "english": "We spoke, and the work got done too.",
+                  "note": "Two vectors in nine words."
+                },
+                {
+                  "hindi": "वार्ता संपन्न हुई तथा कार्य पूर्ण हुआ।",
+                  "read_as": "vaartaa saṁpann huii tathaa kaarya puurṇa huaa.",
+                  "english": "The discussion concluded and the work was completed.",
+                  "note": "The same events, and not a vector anywhere."
+                },
+                {
+                  "hindi": "खा लो, पी लो, फिर चलते हैं।",
+                  "read_as": "khaa lo, pii lo, phir chalte haiṁ.",
+                  "english": "Eat, drink, and then we'll go.",
+                  "note": "Two more, in an entirely ordinary sentence."
+                }
+              ],
+              "common_error": {
+                "wrong": "stripping vectors out to sound careful",
+                "right": "keeping them in speech",
+                "why_en": "Removing the vectors does not make a sentence more polished. It moves it up the situation axis, which in conversation reads as distance."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "Telling a colleague informally that a task is finished.",
+              "options": [
+                "वार्ता संपन्न हुई तथा कार्य पूर्ण हुआ।",
+                "उक्त कार्य पूर्ण कर दिया गया है।",
+                "कार्य की स्थिति संतोषजनक है।",
+                "बात हो गई, काम भी निपट गया।"
+              ],
+              "options_read_as": [
+                "vaartaa saṁpann huii tathaa kaarya puurṇa huaa.",
+                "ukt kaarya puurṇa kar diyaa gayaa hai.",
+                "kaarya kii sthiti saṁtoṣjanak hai.",
+                "baat ho gaii, kaam bhii nipaṭ gayaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second is a written report, the third is a file note, and the fourth would be an assessment. All three are correct Hindi and none of them is how you tell a colleague something is done."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "वार्ता संपन्न हुई तथा कार्य पूर्ण हुआ।",
+              "sentence_read_as": "vaartaa saṁpann huii tathaa kaarya puurṇa huaa.",
+              "question_en": "How can you tell this is written rather than spoken?",
+              "options": [
+                "It is very short",
+                "It has no verbs",
+                "तथा, and no compound verbs at all",
+                "It uses the past tense"
+              ],
+              "answer_index": 2,
+              "explanation_en": "तथा is a written-only connective, and the absence of vectors where speech would have two is the other signal."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बात हो गई, काम भी निपट गया।",
+              "खा लो, पी लो, फिर चलते हैं।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L07-I3",
+          "type": "grammar",
+          "axis": "tendency",
+          "register_tags": [
+            "everyday_hindustani",
+            "neutrality"
+          ],
+          "target": "पानी थोड़ा गरम कर देना।",
+          "read_as": "paanii thoṛaa garam kar denaa.",
+          "english": "Warm the water a little.",
+          "difficulty": 7,
+          "tags": [
+            "register",
+            "tendency_axis",
+            "neutrality",
+            "default"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A sentence can make no tendency choice at all",
+              "explanation_en": "पानी थोड़ा गरम कर देना. Four content words and not one of them belongs to a marked layer. गरम came in through Persian long enough ago that nobody hears it as anything; पानी and थोड़ा and करना are inherited. This is the default state of Hindi, and it is where most conversation lives. The next three levels are about the choices you can make on this axis, and it matters to see first that a great deal of the language does not require you to make one.",
+              "examples": [
+                {
+                  "hindi": "पानी थोड़ा गरम कर देना।",
+                  "read_as": "paanii thoṛaa garam kar denaa.",
+                  "english": "Warm the water a little.",
+                  "note": "No tendency choice anywhere in it."
+                },
+                {
+                  "hindi": "जल थोड़ा उष्ण कर दीजिए।",
+                  "read_as": "jal thoṛaa uṣṇa kar diijie.",
+                  "english": "Kindly warm the water a little.",
+                  "note": "Sanskrit-side words for water and warm exist, and this is where they would sound very strange."
+                },
+                {
+                  "hindi": "थोड़ा गरम पानी मिल जाएगा?",
+                  "read_as": "thoṛaa garam paanii mil jaaegaa?",
+                  "english": "Could I have some warm water?",
+                  "note": "Also unmarked, and simply more polite."
+                }
+              ],
+              "common_error": {
+                "wrong": "reaching for a Sanskrit-side or Urdu-side word to raise the register",
+                "right": "changing the verb form instead",
+                "why_en": "To be more polite here you move along axis one — कर दीजिए rather than कर देना. Swapping पानी for जल moves along axis two, which is a different thing and usually not what you wanted."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "Asking somebody at home to warm some water.",
+              "options": [
+                "कृपया जल का तापमान बढ़ाएँ।",
+                "वॉटर थोड़ा हीट कर दो।",
+                "पानी थोड़ा गरम कर देना।",
+                "जल थोड़ा उष्ण कर दीजिए।"
+              ],
+              "options_read_as": [
+                "kripayaa jal kaa taapmaan baṛhaaeṁ.",
+                "vôṭar thoṛaa hiiṭ kar do.",
+                "paanii thoṛaa garam kar denaa.",
+                "jal thoṛaa uṣṇa kar diijie."
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second and third are ceremonial and institutional respectively. The fourth is possible in some households, and level 10 takes up when that lands well and when it does not."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "कृपया जल का तापमान बढ़ाएँ।",
+              "sentence_read_as": "kripayaa jal kaa taapmaan baṛhaaeṁ.",
+              "question_en": "Where would this belong?",
+              "options": [
+                "A kitchen at home",
+                "A laboratory instruction or a manual",
+                "A conversation between friends",
+                "A restaurant order"
+              ],
+              "answer_index": 1,
+              "explanation_en": "तापमान बढ़ाना is a technical instruction. In a kitchen it would be a joke."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पानी थोड़ा गरम कर देना।",
+              "थोड़ा गरम पानी मिल जाएगा?"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Most of Hindi belongs to an inherited layer that is marked in no direction and offers no alternative — खाना, पानी, घर, हाथ, दिन. Compound verbs belong to this layer too, which makes the number of vectors in a sentence a register signal in itself. And to be more polite you usually move along the situation axis, not this one.",
+        "key_forms": [
+          "खा लिया?",
+          "हो गया, निपट गया",
+          "गरम कर देना"
+        ],
+        "next_up_en": "Next: the Sanskrit-influenced layer, and why its words are long."
+      }
+    },
+    {
+      "level": 8,
+      "title_en": "Sanskrit-influenced",
+      "title_hi": "संस्कृतनिष्ठ शब्दावली",
+      "items": [
+        {
+          "id": "M15-L08-I1",
+          "type": "grammar",
+          "axis": "tendency",
+          "register_tags": [
+            "sanskrit_influenced",
+            "suffix_families"
+          ],
+          "target": "विद्यालय में वार्षिक परीक्षा की तैयारी चल रही है।",
+          "read_as": "vidyaalay meṁ vaarṣik pariikṣaa kii taiyaarii chal rahii hai.",
+          "english": "Preparations for the annual examination are under way at the school.",
+          "difficulty": 8,
+          "tags": [
+            "register",
+            "tendency_axis",
+            "suffix_families",
+            "callback_m13"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Four suffix families in one sentence",
+              "explanation_en": "विद्यालय में वार्षिक परीक्षा की तैयारी चल रही है. Module 13 taught every piece of this without naming the layer. विद्यालय is विद्या plus the -आलय place suffix. वार्षिक is वर्ष plus -इक. परीक्षा is one of the -आ nouns that are feminine despite the ending. तैयारी uses the -ई suffix that always builds feminines. Once the suffixes are familiar this side of the vocabulary becomes readable without knowing each word, which is the practical reason to learn them as families rather than one at a time.",
+              "examples": [
+                {
+                  "hindi": "विद्यालय में वार्षिक परीक्षा की तैयारी चल रही है।",
+                  "read_as": "vidyaalay meṁ vaarṣik pariikṣaa kii taiyaarii chal rahii hai.",
+                  "english": "Preparations for the annual examination are under way at the school.",
+                  "note": "-आलय, -इक, -आ, -ई."
+                },
+                {
+                  "hindi": "स्कूल में सालाना इम्तिहान की तैयारी चल रही है।",
+                  "read_as": "skuul meṁ saalaanaa imtihaan kii taiyaarii chal rahii hai.",
+                  "english": "Preparations for the yearly exam are under way at the school.",
+                  "note": "The same sentence with the other layers — English, Urdu-side, and the same तैयारी."
+                },
+                {
+                  "hindi": "पुस्तकालय सोमवार को बंद रहेगा।",
+                  "read_as": "pustakaalay somvaar ko baṁd rahegaa.",
+                  "english": "The library will be closed on Monday.",
+                  "note": "-आलय again, and बंद from the inherited layer beside it."
+                }
+              ],
+              "common_error": {
+                "wrong": "expecting a whole sentence to sit on one side of the axis",
+                "right": "expecting a mixture",
+                "why_en": "The second example has an English word, an Urdu-side word and an unmarked one in a single clause. That is the ordinary state of the language."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "A line in a school's printed circular to parents.",
+              "options": [
+                "विद्यालय में वार्षिक परीक्षा की तैयारी चल रही है।",
+                "स्कूल में सालाना इम्तिहान की तैयारी चल रही है।",
+                "स्कूल में एग्ज़ाम की तैयारी चल रही है।",
+                "बच्चों के पेपर आने वाले हैं।"
+              ],
+              "options_read_as": [
+                "vidyaalay meṁ vaarṣik pariikṣaa kii taiyaarii chal rahii hai.",
+                "skuul meṁ saalaanaa imtihaan kii taiyaarii chal rahii hai.",
+                "skuul meṁ egzaam kii taiyaarii chal rahii hai.",
+                "bachchoṁ ke pepar aane vaale haiṁ."
+              ],
+              "answer_index": 0,
+              "explanation_en": "All four are correct Hindi and all four would be understood. A printed circular from an institution takes the first; the others would be said out loud."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "पुस्तकालय सोमवार को बंद रहेगा।",
+              "sentence_read_as": "pustakaalay somvaar ko baṁd rahegaa.",
+              "question_en": "Where would you meet this?",
+              "options": [
+                "A text message",
+                "A news headline",
+                "A conversation",
+                "A notice on the library door"
+              ],
+              "answer_index": 3,
+              "explanation_en": "पुस्तकालय rather than लाइब्रेरी, and nobody addressed. Somebody telling you would say लाइब्रेरी सोमवार को बंद रहेगी."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "विद्यालय में वार्षिक परीक्षा की तैयारी चल रही है।",
+              "स्कूल में सालाना इम्तिहान की तैयारी चल रही है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L08-I2",
+          "type": "grammar",
+          "axis": "tendency",
+          "register_tags": [
+            "sanskrit_influenced",
+            "prefixes",
+            "compounds"
+          ],
+          "target": "यह पूर्णतः अनावश्यक है।",
+          "read_as": "yah puurṇataḥ anaavashyak hai.",
+          "english": "This is entirely unnecessary.",
+          "difficulty": 9,
+          "tags": [
+            "register",
+            "tendency_axis",
+            "prefixes",
+            "assembly",
+            "callback_m13"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "This side of the vocabulary is assembled, which is why its words are long",
+              "explanation_en": "पूर्णतः is पूर्ण plus the -तः adverbial suffix. अनावश्यक is अन- plus आवश्यक, which is itself built from आ-वश्य. Words on this side are put together from pieces rather than borrowed whole, and that is why they run long and why they are so predictable once you know the pieces. It is also why they cluster in writing: a language assembles new terms when it needs precise ones, and precision is a written requirement more often than a spoken one.",
+              "examples": [
+                {
+                  "hindi": "यह पूर्णतः अनावश्यक है।",
+                  "read_as": "yah puurṇataḥ anaavashyak hai.",
+                  "english": "This is entirely unnecessary.",
+                  "note": "One prefix, one suffix, two long words."
+                },
+                {
+                  "hindi": "ये बिल्कुल बेकार है।",
+                  "read_as": "ye bilkul bekaar hai.",
+                  "english": "This is completely pointless.",
+                  "note": "The same meaning with an Urdu-side prefix — बे- rather than अन-."
+                },
+                {
+                  "hindi": "इसकी कोई ज़रूरत नहीं है।",
+                  "read_as": "iskii koii zaruurat nahiiṁ hai.",
+                  "english": "There's no need for this.",
+                  "note": "And the same meaning again, with no prefix at all."
+                }
+              ],
+              "common_error": {
+                "wrong": "attaching अ- to an Urdu-side word or बे- to a Sanskrit-side one",
+                "right": "keeping each prefix on its own side",
+                "why_en": "Module 13 showed this with नामुमकिन and असंभव, and Module 14 with ग़ैरक़ानूनी. The prefixes do not cross over."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "A written objection in a formal report.",
+              "options": [
+                "ये बिल्कुल बेकार है।",
+                "इसकी कोई ज़रूरत नहीं है।",
+                "इसका कोई फ़ायदा नहीं यार।",
+                "यह पूर्णतः अनावश्यक है।"
+              ],
+              "options_read_as": [
+                "ye bilkul bekaar hai.",
+                "iskii koii zaruurat nahiiṁ hai.",
+                "iskaa koii faaydaa nahiiṁ yaar.",
+                "yah puurṇataḥ anaavashyak hai."
+              ],
+              "answer_index": 3,
+              "explanation_en": "The third is neutral and would be perfectly usable in speech or in a lighter piece of writing. The second is blunt and the fourth is between friends."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "ये बिल्कुल बेकार है।",
+              "sentence_read_as": "ye bilkul bekaar hai.",
+              "question_en": "What does this tell you about the speaker?",
+              "options": [
+                "That they are quoting a document",
+                "That they are writing formally",
+                "That they are speaking, and being blunt",
+                "That they are being polite"
+              ],
+              "answer_index": 2,
+              "explanation_en": "बिल्कुल and बेकार are both everyday, and the sentence passes no judgement politely. It is spoken and it is direct."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "यह पूर्णतः अनावश्यक है।",
+              "इसकी कोई ज़रूरत नहीं है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M15-L08-I3",
+          "type": "grammar",
+          "axis": "tendency",
+          "register_tags": [
+            "sanskrit_influenced",
+            "where_expected"
+          ],
+          "target": "राष्ट्रीय शिक्षा नीति का उद्देश्य स्पष्ट है।",
+          "read_as": "raaṣṭriiya shikṣaa niiti kaa uddeshya spaṣṭ hai.",
+          "english": "The aim of the national education policy is clear.",
+          "difficulty": 9,
+          "tags": [
+            "register",
+            "tendency_axis",
+            "where_expected",
+            "naming",
+            "callback_m13"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "This side owns the names of things",
+              "explanation_en": "Module 13 found the pattern and this is where it gets stated. The Sanskrit-influenced layer takes the institutions, the policies, the ministries and the compounds — शिक्षा मंत्रालय, राष्ट्रीय शिक्षा नीति, न्यायालय, विद्यालय — while the other layers keep the conversation about them. Nobody says राष्ट्रीय शिक्षा नीति in a kitchen, and nobody writes तालीम की पॉलिसी on a government document. The division is not about which words are available; it is about which side does the naming.",
+              "examples": [
+                {
+                  "hindi": "राष्ट्रीय शिक्षा नीति का उद्देश्य स्पष्ट है।",
+                  "read_as": "raaṣṭriiya shikṣaa niiti kaa uddeshya spaṣṭ hai.",
+                  "english": "The aim of the national education policy is clear.",
+                  "note": "A policy document, and the name of the policy is itself on this side."
+                },
+                {
+                  "hindi": "नई पॉलिसी का मतलब क्या है?",
+                  "read_as": "naii pôlisii kaa matlab kyaa hai?",
+                  "english": "What does the new policy actually mean?",
+                  "note": "The conversation about it, and every word has moved."
+                },
+                {
+                  "hindi": "बच्चों की तालीम पर ख़र्च करना चाहिए।",
+                  "read_as": "bacchoṁ kii taaliim par ḳharch karnaa chaahie.",
+                  "english": "One should spend on children's education.",
+                  "note": "तालीम is entirely current — and it will never name a ministry."
+                }
+              ],
+              "common_error": {
+                "wrong": "तालीम मंत्रालय",
+                "right": "शिक्षा मंत्रालय",
+                "why_en": "The free words are interchangeable and the names are not. This is the Module 13 finding, and it holds for देशभक्ति, कार्यक्रम and जीवन बीमा as well."
+              }
+            },
+            "practice": {
+              "format": "pick_register_for_audience",
+              "audience_en": "The opening line of a government policy document.",
+              "options": [
+                "तालीम की नई पॉलिसी आ गई है।",
+                "राष्ट्रीय शिक्षा नीति का उद्देश्य स्पष्ट है।",
+                "नई पॉलिसी का मक़सद साफ़ है।",
+                "नई पॉलिसी का मतलब क्या है?"
+              ],
+              "options_read_as": [
+                "taaliim kii naii pôlisii aa gaii hai.",
+                "raaṣṭriiya shikṣaa niiti kaa uddeshya spaṣṭ hai.",
+                "naii pôlisii kaa maqsad saaf hai.",
+                "naii pôlisii kaa matlab kyaa hai?"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second says the same thing in the other layers and would be at home in a newspaper column. The third is a question and the fourth is conversation."
+            },
+            "game": {
+              "format": "which_situation",
+              "sentence": "नई पॉलिसी का मतलब क्या है?",
+              "sentence_read_as": "naii pôlisii kaa matlab kyaa hai?",
+              "question_en": "Who is speaking?",
+              "options": [
+                "Somebody discussing the document",
+                "A ministry spokesman at a podium",
+                "A legal notice",
+                "The document itself"
+              ],
+              "answer_index": 0,
+              "explanation_en": "पॉलिसी and मतलब are both outside the naming layer. This is the conversation about the policy, not the policy."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "राष्ट्रीय शिक्षा नीति का उद्देश्य स्पष्ट है।",
+              "नई पॉलिसी का मतलब क्या है?"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The Sanskrit-influenced layer is assembled from prefixes, roots and suffixes, which is why its words are long and why the suffix families make it readable. Its prefixes stay on their own side. And it owns the naming of institutions and policies, while the other layers carry the conversation about them.",
+        "key_forms": [
+          "विद्यालय, वार्षिक, परीक्षा",
+          "पूर्णतः अनावश्यक",
+          "राष्ट्रीय शिक्षा नीति"
+        ],
+        "next_up_en": "Next: the Urdu-influenced layer, and where it does the work no other layer can."
+      }
+    }
+  ]
+}

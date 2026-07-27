@@ -1,0 +1,788 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "kind": "checkpoints",
+  "part": "2 of 2",
+  "covers": "levels 31-55 (checkpoints 7-11). Checkpoints 1-6 cover levels 1-30.",
+  "question_types": [
+    "meaning_match",
+    "near_synonym_choice",
+    "gender_recall",
+    "comprehension",
+    "inference"
+  ],
+  "checkpoints": [
+    {
+      "checkpoint": 7,
+      "covers_levels": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "title_en": "Formal email, the last pairs, and government",
+      "questions": [
+        {
+          "n": 1,
+          "type": "meaning_match",
+          "prompt_en": "अनुपस्थित is built how?",
+          "options": [
+            "अन- plus उपस्थित",
+            "अनु- plus पस्थित",
+            "अ- plus नुपस्थित",
+            "It is not built from parts"
+          ],
+          "answer_index": 0,
+          "explanation_en": "अन- is the form the prefix takes before a vowel, which is the rule from level 12.",
+          "level_source": 31
+        },
+        {
+          "n": 2,
+          "type": "near_synonym_choice",
+          "question_en": "Which is the everyday partner of अनुमति?",
+          "options": [
+            "स्वीकृति",
+            "आदेश",
+            "इजाज़त",
+            "निवेदन"
+          ],
+          "answer_index": 2,
+          "explanation_en": "इजाज़त दीजिए is what you say before leaving somebody's house. Both are feminine, so this pair matches.",
+          "level_source": 31
+        },
+        {
+          "n": 3,
+          "type": "meaning_match",
+          "prompt_en": "What is unusual about शिकायत?",
+          "options": [
+            "It is only used in writing",
+            "It cannot take करना",
+            "It is masculine",
+            "It has no formal or casual partner — it covers the whole range"
+          ],
+          "answer_index": 3,
+          "explanation_en": "The mirror image of उपलब्ध at level 18, which had no casual partner. Some words occupy the whole situation axis alone.",
+          "level_source": 31
+        },
+        {
+          "n": 4,
+          "type": "meaning_match",
+          "prompt_en": "तत्काल is built from which two parts?",
+          "options": [
+            "It is a loanword",
+            "तत् plus काल — at that very time",
+            "तत plus काल",
+            "ता plus त्काल"
+          ],
+          "answer_index": 1,
+          "explanation_en": "The same काल as in आपातकाल on the level 14 emergency sign.",
+          "level_source": 32
+        },
+        {
+          "n": 5,
+          "type": "gender_recall",
+          "prompt_en": "स्वीकृति, प्रगति, शक्ति, नीति — what do they share?",
+          "options": [
+            "Their gender varies",
+            "They are all verbs",
+            "All masculine",
+            "All feminine, because of the -ति suffix"
+          ],
+          "answer_index": 3,
+          "explanation_en": "-ति is the fourth abstract-noun suffix in the module, after -आई, -ई and -ता, and like them it is reliably feminine.",
+          "level_source": 32
+        },
+        {
+          "n": 6,
+          "type": "meaning_match",
+          "prompt_en": "कोई फ़र्क़ नहीं पड़ता means what?",
+          "options": [
+            "There is no difference at all",
+            "It doesn't matter",
+            "Nothing has changed",
+            "I can't tell them apart"
+          ],
+          "answer_index": 1,
+          "explanation_en": "Literally no difference falls. Learn it whole — it is one of the commonest sentences in the language.",
+          "level_source": 33
+        },
+        {
+          "n": 7,
+          "type": "gender_recall",
+          "prompt_en": "क़िस्मत and भाग्य mean the same. Which is masculine?",
+          "options": [
+            "भाग्य",
+            "both",
+            "neither",
+            "क़िस्मत"
+          ],
+          "answer_index": 0,
+          "explanation_en": "The seventh mismatched pair. And भाग्य takes the compounds — भाग्यशाली, दुर्भाग्य — where क़िस्मत builds nothing.",
+          "level_source": 33
+        },
+        {
+          "n": 8,
+          "type": "near_synonym_choice",
+          "question_en": "Which word names an honour that is formally conferred?",
+          "options": [
+            "आत्मसम्मान",
+            "इज़्ज़त",
+            "सम्मान",
+            "आदर"
+          ],
+          "answer_index": 2,
+          "explanation_en": "You can lose your इज़्ज़त; you cannot lose a सम्मान once it has been given.",
+          "level_source": 33
+        },
+        {
+          "n": 9,
+          "type": "meaning_match",
+          "prompt_en": "चुनाव, बदलाव, दबाव, बहाव — what does the -आव suffix produce?",
+          "options": [
+            "feminine nouns",
+            "masculine nouns from verbs",
+            "adjectives",
+            "adverbs"
+          ],
+          "answer_index": 1,
+          "explanation_en": "The first noun-building suffix in the module that does not produce feminines.",
+          "level_source": 34
+        },
+        {
+          "n": 10,
+          "type": "gender_recall",
+          "prompt_en": "अर्थव्यवस्था ends in -आ. What gender is it?",
+          "options": [
+            "it varies",
+            "it has no gender",
+            "masculine, like most -आ nouns",
+            "feminine, because Sanskrit -आ nouns are a feminine class"
+          ],
+          "answer_index": 3,
+          "explanation_en": "व्यवस्था, समस्या, चर्चा, घोषणा, प्रतीक्षा — the single most reliable gender trap in Hindi.",
+          "level_source": 35
+        }
+      ]
+    },
+    {
+      "checkpoint": 8,
+      "covers_levels": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "title_en": "Institutions, and the news block",
+      "questions": [
+        {
+          "n": 1,
+          "type": "gender_recall",
+          "prompt_en": "मंत्री ends in -ी. What gender is it?",
+          "options": [
+            "it has no gender",
+            "feminine, like most -ी nouns",
+            "masculine — it joins आदमी, पानी and the agent nouns",
+            "it varies"
+          ],
+          "answer_index": 2,
+          "explanation_en": "The mirror of the -आ feminines in the level before. Both endings mislead, in opposite directions.",
+          "level_source": 36
+        },
+        {
+          "n": 2,
+          "type": "near_synonym_choice",
+          "question_en": "Which word for a court would appear on the building itself?",
+          "options": [
+            "न्यायालय",
+            "कोर्ट",
+            "मुक़दमा",
+            "अदालत"
+          ],
+          "answer_index": 0,
+          "explanation_en": "न्याय plus आलय — the place suffix from level 8. अदालत is what people say and कोर्ट is what lawyers say.",
+          "level_source": 36
+        },
+        {
+          "n": 3,
+          "type": "meaning_match",
+          "prompt_en": "Which prefix negates क़ानूनी?",
+          "options": [
+            "ग़ैर-",
+            "निः-",
+            "ना-",
+            "अ-"
+          ],
+          "answer_index": 0,
+          "explanation_en": "ग़ैरक़ानूनी. ग़ैर- attaches to Urdu-side words as अ- attaches to Sanskrit-side ones.",
+          "level_source": 36
+        },
+        {
+          "n": 4,
+          "type": "meaning_match",
+          "prompt_en": "How is a loanword's gender decided in Hindi?",
+          "options": [
+            "By its English gender",
+            "By its ending",
+            "There is no rule — it is assigned and must be learned",
+            "All loanwords are masculine"
+          ],
+          "answer_index": 2,
+          "explanation_en": "बजट masculine, टिप feminine, स्क्रीन feminine, स्कूल masculine. Level 42 refines this into a default and a list of exceptions.",
+          "level_source": 37
+        },
+        {
+          "n": 5,
+          "type": "meaning_match",
+          "prompt_en": "What is the difference between संसद and सांसद?",
+          "options": [
+            "संसद is the building; सांसद is the session",
+            "सांसद is the plural",
+            "None — they are spelling variants",
+            "संसद is parliament; सांसद is a member of it"
+          ],
+          "answer_index": 3,
+          "explanation_en": "One long vowel between an institution and a person, and easy to miss in fast speech.",
+          "level_source": 37
+        },
+        {
+          "n": 6,
+          "type": "comprehension",
+          "context_en": "A report reads: कुछ निवासियों का आरोप है कि टंकी की सफ़ाई महीनों से नहीं हुई। समिति के सचिव ने इस आरोप से इनकार किया।",
+          "question_en": "What has the report established?",
+          "options": [
+            "That the tank is clean",
+            "That two sides disagree, and it takes neither",
+            "That the secretary is lying",
+            "That the tank is dirty"
+          ],
+          "answer_index": 1,
+          "explanation_en": "आरोप and इनकार are the standard news pairing. The report attributes both and adjudicates nothing.",
+          "level_source": 38
+        },
+        {
+          "n": 7,
+          "type": "meaning_match",
+          "prompt_en": "प्रतिशत is built from which two parts?",
+          "options": [
+            "प्रति plus शतक",
+            "प्रतिष plus त",
+            "It is a loanword",
+            "प्रति plus शत — per hundred"
+          ],
+          "answer_index": 3,
+          "explanation_en": "The same प्रति as on the level 7 parking sign, now compounded.",
+          "level_source": 39
+        },
+        {
+          "n": 8,
+          "type": "meaning_match",
+          "prompt_en": "गिरावट, सजावट, थकावट — what does -आवट produce?",
+          "options": [
+            "masculine nouns",
+            "feminine nouns from verbs",
+            "adjectives",
+            "adverbs"
+          ],
+          "answer_index": 1,
+          "explanation_en": "Set it beside -आव from level 34, which builds masculines from verbs. Same source, opposite gender.",
+          "level_source": 39
+        },
+        {
+          "n": 9,
+          "type": "inference",
+          "context_en": "A report reads: शहर के ग्राहक इस गिरावट से ख़ुश हैं। पर किसानों का कहना है कि उन्हें नुक़सान हो रहा है।",
+          "question_en": "Why does the report include both?",
+          "options": [
+            "The same price fall benefits buyers and harms sellers",
+            "The farmers are mistaken",
+            "Prices will rise again",
+            "It contradicts itself"
+          ],
+          "answer_index": 0,
+          "explanation_en": "A price has two sides, and the convention is to give both without choosing.",
+          "level_source": 39
+        },
+        {
+          "n": 10,
+          "type": "comprehension",
+          "context_en": "A survey report gives: साठ प्रतिशत रोज़ बस या मेट्रो से चलते हैं। पैंतीस प्रतिशत अपनी गाड़ी का प्रयोग करते हैं।",
+          "question_en": "What can you work out about the rest?",
+          "options": [
+            "Five per cent do not travel",
+            "Everyone is accounted for",
+            "About five per cent are unaccounted for, and the report does not say how they travel",
+            "The figures contradict each other"
+          ],
+          "answer_index": 2,
+          "explanation_en": "Noticing what a set of figures leaves out is a different reading skill from locating one.",
+          "level_source": 40
+        }
+      ]
+    },
+    {
+      "checkpoint": 9,
+      "covers_levels": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "title_en": "Technology, and the advanced verbs",
+      "questions": [
+        {
+          "n": 1,
+          "type": "meaning_match",
+          "prompt_en": "Which is the Hindi oblique plural of ऐप?",
+          "options": [
+            "ऐप्स",
+            "ऐपों",
+            "ऐपें",
+            "ऐपाएँ"
+          ],
+          "answer_index": 1,
+          "explanation_en": "ऐपों में. ऐप्स is the English plural and also heard — the same split as फ़ोल्डरों and फ़ोल्डर्स in Module 12.",
+          "level_source": 41
+        },
+        {
+          "n": 2,
+          "type": "meaning_match",
+          "prompt_en": "Which verb goes with पासवर्ड?",
+          "options": [
+            "रखना",
+            "करना",
+            "लिखना",
+            "डालना"
+          ],
+          "answer_index": 3,
+          "explanation_en": "पासवर्ड डालना, and the same verb for नंबर, ओटीपी and पिन. लिखना would mean writing it down somewhere.",
+          "level_source": 41
+        },
+        {
+          "n": 3,
+          "type": "gender_recall",
+          "prompt_en": "Which of these English loanwords is masculine in Hindi?",
+          "options": [
+            "फ़ाइल",
+            "मीटिंग",
+            "स्कूल",
+            "स्क्रीन"
+          ],
+          "answer_index": 2,
+          "explanation_en": "The default for a consonant-final English noun is masculine, and the feminines are a learnable list. Every -ing word is feminine.",
+          "level_source": 42
+        },
+        {
+          "n": 4,
+          "type": "gender_recall",
+          "prompt_en": "डेटा ends in -आ. Why is it masculine when घोषणा is feminine?",
+          "options": [
+            "The -आ feminines are a Sanskrit class; loanwords follow the masculine default",
+            "डेटा is a recent word",
+            "There is no reason",
+            "Both should be feminine"
+          ],
+          "answer_index": 0,
+          "explanation_en": "Two different systems meeting in one ending.",
+          "level_source": 42
+        },
+        {
+          "n": 5,
+          "type": "meaning_match",
+          "prompt_en": "फ़ाइल डाउनलोड ___ रही है — which verb?",
+          "options": [
+            "हो",
+            "ले",
+            "दे",
+            "कर"
+          ],
+          "answer_index": 0,
+          "explanation_en": "होना when the thing undergoes the action, करना when somebody does it. The pair covers most borrowed verbs.",
+          "level_source": 42
+        },
+        {
+          "n": 6,
+          "type": "meaning_match",
+          "prompt_en": "Which postposition goes with सोशल मीडिया?",
+          "options": [
+            "को",
+            "में",
+            "पर",
+            "से"
+          ],
+          "answer_index": 2,
+          "explanation_en": "पर, like फ़ोन पर and टीवी पर. में would put you inside it.",
+          "level_source": 43
+        },
+        {
+          "n": 7,
+          "type": "meaning_match",
+          "prompt_en": "What does adding -आ to निपटना do?",
+          "options": [
+            "makes it polite",
+            "makes it plural",
+            "makes it past tense",
+            "makes it transitive"
+          ],
+          "answer_index": 3,
+          "explanation_en": "निपटना becomes निपटाना. Hindi has dozens of such pairs — बनना and बनाना, उलझना and उलझाना.",
+          "level_source": 44
+        },
+        {
+          "n": 8,
+          "type": "near_synonym_choice",
+          "question_en": "Which verb means to put something off, with a hint that it is deliberate?",
+          "options": [
+            "स्थगित करना",
+            "टालना",
+            "रोकना",
+            "छोड़ना"
+          ],
+          "answer_index": 1,
+          "explanation_en": "A committee स्थगित करती है an event; a person टालता है a difficult conversation. टालमटोल is the noun.",
+          "level_source": 44
+        },
+        {
+          "n": 9,
+          "type": "meaning_match",
+          "prompt_en": "What does the prefix सु- mean?",
+          "options": [
+            "again",
+            "half",
+            "without",
+            "good, well"
+          ],
+          "answer_index": 3,
+          "explanation_en": "सुविधा, सुरक्षा, सुंदर, सुलझना — and its opposite दुर्- gives दुर्भाग्य and दुर्घटना.",
+          "level_source": 45
+        },
+        {
+          "n": 10,
+          "type": "near_synonym_choice",
+          "question_en": "Which verb takes only feelings as its object?",
+          "options": [
+            "दिखाना",
+            "जताना",
+            "कहना",
+            "बताना"
+          ],
+          "answer_index": 1,
+          "explanation_en": "नाराज़गी जताना, संदेह जताना. Facts take बताना and visible things take दिखाना.",
+          "level_source": 45
+        }
+      ]
+    },
+    {
+      "checkpoint": 10,
+      "covers_levels": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "title_en": "The last news, the first narratives",
+      "questions": [
+        {
+          "n": 1,
+          "type": "meaning_match",
+          "prompt_en": "नियुक्ति, आपूर्ति, स्वीकृति, स्थिति — what do they share?",
+          "options": [
+            "All feminine, and all common in news writing",
+            "They are all verbs",
+            "Their gender varies",
+            "All masculine"
+          ],
+          "answer_index": 0,
+          "explanation_en": "Once you notice how many -ति nouns there are, a great deal of news Hindi becomes predictable.",
+          "level_source": 46
+        },
+        {
+          "n": 2,
+          "type": "meaning_match",
+          "prompt_en": "समझौता is built on which verb?",
+          "options": [
+            "मानना",
+            "समझाना",
+            "समझना",
+            "सोचना"
+          ],
+          "answer_index": 2,
+          "explanation_en": "An agreement is a coming-to-an-understanding — which is also why समझौता करना can mean to compromise.",
+          "level_source": 46
+        },
+        {
+          "n": 3,
+          "type": "meaning_match",
+          "prompt_en": "शिलान्यास and उद्घाटन are not the same. What is the difference?",
+          "options": [
+            "None",
+            "शिलान्यास starts a building; उद्घाटन opens it",
+            "शिलान्यास is for roads only",
+            "उद्घाटन is the older word"
+          ],
+          "answer_index": 1,
+          "explanation_en": "Confusing them misreads the stage a project is at by a year or more.",
+          "level_source": 47
+        },
+        {
+          "n": 4,
+          "type": "meaning_match",
+          "prompt_en": "शिक्षक and शिक्षिका, लेखक and लेखिका — which suffixes are these?",
+          "options": [
+            "-अक and -इक",
+            "plurals",
+            "adjectives",
+            "-क and -इका, masculine and feminine agents"
+          ],
+          "answer_index": 3,
+          "explanation_en": "The same -क that gave प्रेषक at level 30, now with its feminine counterpart.",
+          "level_source": 47
+        },
+        {
+          "n": 5,
+          "type": "comprehension",
+          "context_en": "A narrative reads: गाँव में सुबह जल्दी नींद खुल जाती थी ... उन दिनों मुझे नहीं पता था कि इसे सुकून कहते हैं। अब पता है, पर अब वक़्त नहीं है।",
+          "question_en": "What does the last line say about the writer now?",
+          "options": [
+            "He prefers the city",
+            "He no longer visits the village",
+            "He can name the thing now but no longer has it",
+            "He has forgotten the word"
+          ],
+          "answer_index": 2,
+          "explanation_en": "The whole piece is in the habitual past until the last two lines shift to the present, and that shift is the meaning.",
+          "level_source": 47
+        },
+        {
+          "n": 6,
+          "type": "meaning_match",
+          "prompt_en": "झिझक, समझ, माँग, पकड़, दौड़ — how are these nouns built?",
+          "options": [
+            "from the bare verb stem, with nothing added",
+            "from Sanskrit roots",
+            "they are loanwords",
+            "with a suffix"
+          ],
+          "answer_index": 0,
+          "explanation_en": "The fifth way Hindi builds a feminine noun, after -आई, -ई, -ता and -ति — and this one adds nothing at all.",
+          "level_source": 48
+        },
+        {
+          "n": 7,
+          "type": "meaning_match",
+          "prompt_en": "फेंक देनी चाहिए थी means what?",
+          "options": [
+            "I should have thrown it away, and did not",
+            "Throw it away",
+            "It will be thrown away",
+            "It must be thrown away"
+          ],
+          "answer_index": 0,
+          "explanation_en": "चाहिए plus था is an obligation that was never met. The whole watch narrative turns on the gap between that line and the next.",
+          "level_source": 48
+        },
+        {
+          "n": 8,
+          "type": "near_synonym_choice",
+          "question_en": "Which verb means to sustain something that could be dropped, rather than to finish it?",
+          "options": [
+            "निपटाना",
+            "पूरा करना",
+            "निभाना",
+            "संभालना"
+          ],
+          "answer_index": 2,
+          "explanation_en": "You cannot निभाना a task, because a task ends. वादा, रिश्ता and ज़िम्मेदारी can all be dropped and are not being.",
+          "level_source": 49
+        },
+        {
+          "n": 9,
+          "type": "meaning_match",
+          "prompt_en": "What kind of object does बरतना take?",
+          "options": [
+            "places",
+            "tools and instruments",
+            "people",
+            "abstract qualities of conduct"
+          ],
+          "answer_index": 3,
+          "explanation_en": "सावधानी, संयम, एहतियात, नरमी — never a physical thing. Its narrowness is its whole usefulness.",
+          "level_source": 49
+        },
+        {
+          "n": 10,
+          "type": "near_synonym_choice",
+          "question_en": "Which verb means to hold steadily, usually in support?",
+          "options": [
+            "पकड़ना",
+            "थामना",
+            "संभालना",
+            "उठाना"
+          ],
+          "answer_index": 1,
+          "explanation_en": "पकड़ना seizes, थामना supports, संभालना takes charge. पुलिस ने चोर को थाम लिया would be almost comic.",
+          "level_source": 50
+        }
+      ]
+    },
+    {
+      "checkpoint": 11,
+      "covers_levels": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "title_en": "The near-synonyms, and the last narratives",
+      "questions": [
+        {
+          "n": 1,
+          "type": "near_synonym_choice",
+          "question_en": "Which verb for looking is neutral, with no attitude at all?",
+          "options": [
+            "ताकना",
+            "घूरना",
+            "निहारना",
+            "देखना"
+          ],
+          "answer_index": 3,
+          "explanation_en": "निहारना is fond, ताकना intrusive, घूरना hostile. A scale of attitude built on one plain verb.",
+          "level_source": 51
+        },
+        {
+          "n": 2,
+          "type": "meaning_match",
+          "prompt_en": "बात मानना means what?",
+          "options": [
+            "to understand the point",
+            "to do as somebody says",
+            "to raise an issue",
+            "to know the matter"
+          ],
+          "answer_index": 1,
+          "explanation_en": "जानना is to know, समझना to understand, मानना to accept or obey — three verbs English blurs into one region.",
+          "level_source": 51
+        },
+        {
+          "n": 3,
+          "type": "meaning_match",
+          "prompt_en": "Why does उम्दा not inflect when बड़ा does?",
+          "options": [
+            "It is Perso-Arabic, and borrowed -आ adjectives stay fixed",
+            "It is only used with masculine nouns",
+            "It is formal",
+            "It is a noun"
+          ],
+          "answer_index": 0,
+          "explanation_en": "ताज़ा, ज़िंदा, बढ़िया behave the same way. The -आ ending misleads twice in this module, in opposite directions.",
+          "level_source": 52
+        },
+        {
+          "n": 4,
+          "type": "near_synonym_choice",
+          "question_en": "Which of these is ambiguous between quickly and early?",
+          "options": [
+            "तुरंत",
+            "शीघ्र",
+            "जल्दी",
+            "फ़ौरन"
+          ],
+          "answer_index": 2,
+          "explanation_en": "The everyday word is the vague one and the two formal words are each precise, which is the opposite of what learners expect.",
+          "level_source": 52
+        },
+        {
+          "n": 5,
+          "type": "gender_recall",
+          "prompt_en": "डर, भय and ख़ौफ़ — what is unusual about this three-way set?",
+          "options": [
+            "They have different genders",
+            "All three are masculine, so only the setting differs",
+            "Only one is a real word",
+            "They are all Sanskrit-side"
+          ],
+          "answer_index": 1,
+          "explanation_en": "Many pairs in this module change gender across the register. This set does not.",
+          "level_source": 53
+        },
+        {
+          "n": 6,
+          "type": "meaning_match",
+          "prompt_en": "In modern Hindi, धरना is mainly what?",
+          "options": [
+            "an adjective",
+            "a postposition",
+            "a verb meaning to place",
+            "a noun meaning a sit-in protest"
+          ],
+          "answer_index": 3,
+          "explanation_en": "रखना took over the verb's work entirely. A word can be archaic in one part of speech and current in another.",
+          "level_source": 53
+        },
+        {
+          "n": 7,
+          "type": "meaning_match",
+          "prompt_en": "बेचैनी is built from which two parts?",
+          "options": [
+            "बेचै plus नी",
+            "It is not built from parts",
+            "बे- plus चैन",
+            "बेच plus ऐनी"
+          ],
+          "answer_index": 2,
+          "explanation_en": "बे- is the seventh negating device in the module, and चैन is the word you met beside सुकून and शांति.",
+          "level_source": 54
+        },
+        {
+          "n": 8,
+          "type": "meaning_match",
+          "prompt_en": "अकेलापन, बचपन, अपनापन — what does -पन produce?",
+          "options": [
+            "masculine abstract nouns",
+            "adjectives",
+            "verbs",
+            "feminine nouns"
+          ],
+          "answer_index": 0,
+          "explanation_en": "Only the second masculine noun-maker in the module, after -आव, against five feminine ones.",
+          "level_source": 54
+        },
+        {
+          "n": 9,
+          "type": "comprehension",
+          "context_en": "A narrative reads: उन्होंने कुछ नहीं पूछा — न नाम, न काम, न कहाँ से आया हूँ ... मैंने पैसे देने की कोशिश की। उन्होंने हाथ पकड़ लिया और मना कर दिया।",
+          "question_en": "What do the unasked questions and the refused money have in common?",
+          "options": [
+            "Both refuse to make it a transaction — nothing is asked and nothing is owed",
+            "He was hard of hearing",
+            "He wanted the visitor to leave",
+            "He was suspicious"
+          ],
+          "answer_index": 0,
+          "explanation_en": "Asking who somebody is, and being paid, are both ways of settling an account. The piece removes them one after the other.",
+          "level_source": 54
+        },
+        {
+          "n": 10,
+          "type": "meaning_match",
+          "prompt_en": "विदाई is built with which suffix, and what is notable about it?",
+          "options": [
+            "It has no suffix",
+            "-आई, and it is the module's last new word",
+            "-ई, the suffix taught in level 2 — the module's first pattern returning in its final word",
+            "-ऐ, a rare ending"
+          ],
+          "answer_index": 2,
+          "explanation_en": "विदा plus -ई, feminine like every noun that suffix builds across all fifty-five levels.",
+          "level_source": 55
+        }
+      ]
+    }
+  ]
+}

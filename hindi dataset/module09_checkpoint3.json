@@ -1,0 +1,262 @@
+{
+  "module": 9,
+  "checkpoints": [
+    {
+      "after_level": 15,
+      "covers_levels": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "questions": [
+        {
+          "id": "M09-CP3-Q1",
+          "source": "current",
+          "format": "recognition",
+          "question": "कौन सी क्रिया ने नहीं लेती?",
+          "question_read_as": "kaun sii kriyaa ne nahiiṁ letii?",
+          "options": [
+            "बोलना",
+            "देखना",
+            "करना",
+            "कहना"
+          ],
+          "options_read_as": [
+            "bolnaa",
+            "dekhnaa",
+            "karnaa",
+            "kahnaa"
+          ],
+          "answer_index": 0,
+          "explanation_en": "बोलना is one of the three exceptions. करना, कहना and देखना are all ordinary transitives and take ने.",
+          "source_item_ids": [
+            "M09-L11-I1"
+          ]
+        },
+        {
+          "id": "M09-CP3-Q2",
+          "source": "current",
+          "format": "recognition",
+          "question": "उसने मदद ___ ।",
+          "question_read_as": "usne madad ___ .",
+          "options": [
+            "किया",
+            "की",
+            "किए",
+            "कीं"
+          ],
+          "options_read_as": [
+            "kiyaa",
+            "kii",
+            "kie",
+            "kiiṁ"
+          ],
+          "answer_index": 1,
+          "explanation_en": "मदद is feminine singular, so करना agrees with it and becomes की.",
+          "source_item_ids": [
+            "M09-L12-I3"
+          ]
+        },
+        {
+          "id": "M09-CP3-Q3",
+          "source": "current",
+          "format": "recognition",
+          "question": "कौन सा वाक्य सही है?",
+          "question_read_as": "kaun saa vaakya sahii hai?",
+          "options": [
+            "वह बच्चों को पढ़ाया।",
+            "उसने बच्चों को पढ़ाए।",
+            "उसने बच्चों को पढ़ाया।",
+            "उसने बच्चों को पढ़ाई।"
+          ],
+          "options_read_as": [
+            "vah bacchoṁ ko paṛhaayaa.",
+            "usne bacchoṁ ko paṛhaae.",
+            "usne bacchoṁ ko paṛhaayaa.",
+            "usne bacchoṁ ko paṛhaaii."
+          ],
+          "answer_index": 2,
+          "explanation_en": "को on the object blocks agreement, so the verb stays in the neutral पढ़ाया even though बच्चों is plural.",
+          "source_item_ids": [
+            "M09-L13-I1",
+            "M09-L13-I3"
+          ]
+        },
+        {
+          "id": "M09-CP3-Q4",
+          "source": "current",
+          "format": "recognition",
+          "question": "मैंने काम किया ___ ।",
+          "question_read_as": "maiṁne kaam kiyaa ___ .",
+          "options": [
+            "हैं",
+            "थी",
+            "हूँ",
+            "है"
+          ],
+          "options_read_as": [
+            "haiṁ",
+            "thii",
+            "huuṁ",
+            "hai"
+          ],
+          "answer_index": 3,
+          "explanation_en": "The auxiliary follows the object, not the speaker. काम is masculine singular, so है — never हूँ.",
+          "source_item_ids": [
+            "M09-L15-I1",
+            "M09-L15-I2"
+          ]
+        },
+        {
+          "id": "M09-CP3-Q5",
+          "source": "current",
+          "format": "transform",
+          "question": "वह नाम भूलता है।",
+          "question_read_as": "vah naam bhuultaa hai.",
+          "options": [
+            "वह नाम भूला।",
+            "उसने नाम भूली।",
+            "उसने नाम भूला।",
+            "वह नाम भूले।"
+          ],
+          "options_read_as": [
+            "vah naam bhuulaa.",
+            "usne naam bhuulii.",
+            "usne naam bhuulaa.",
+            "vah naam bhuule."
+          ],
+          "answer_index": 0,
+          "explanation_en": "भूलना takes no ने, so वह stays plain and the verb agrees with the subject.",
+          "source_item_ids": [
+            "M09-L11-I3"
+          ]
+        },
+        {
+          "id": "M09-CP3-Q6",
+          "source": "current",
+          "format": "transform",
+          "question": "मैं चाय लाता हूँ।",
+          "question_read_as": "maiṁ chaay laataa huuṁ.",
+          "options": [
+            "मैंने चाय लाया।",
+            "मैं चाय लाया।",
+            "मैं चाय लाए।",
+            "मैंने चाय लाई।"
+          ],
+          "options_read_as": [
+            "maiṁne chaay laayaa.",
+            "maiṁ chaay laayaa.",
+            "maiṁ chaay laae.",
+            "maiṁne chaay laaii."
+          ],
+          "answer_index": 1,
+          "explanation_en": "लाना is transitive but takes no ने, so मैं stays plain and लाया agrees with the subject rather than with feminine चाय.",
+          "source_item_ids": [
+            "M09-L11-I2",
+            "M09-L12-I2"
+          ]
+        },
+        {
+          "id": "M09-CP3-Q7",
+          "source": "current",
+          "format": "transform",
+          "question": "राम सीता को देखता है।",
+          "question_read_as": "raam siitaa ko dekhtaa hai.",
+          "options": [
+            "रामने सीता को देखा।",
+            "राम सीता को देखा।",
+            "राम ने सीता को देखा।",
+            "राम ने सीता को देखी।"
+          ],
+          "options_read_as": [
+            "raamne siitaa ko dekhaa.",
+            "raam siitaa ko dekhaa.",
+            "raam ne siitaa ko dekhaa.",
+            "raam ne siitaa ko dekhii."
+          ],
+          "answer_index": 2,
+          "explanation_en": "ने is required and stays a separate word after a noun subject; को then holds the verb at देखा.",
+          "source_item_ids": [
+            "M09-L14-I1",
+            "M09-L14-I2"
+          ]
+        },
+        {
+          "id": "M09-CP3-Q8",
+          "source": "current",
+          "format": "transform",
+          "question": "हम फ़िल्म देखते हैं।",
+          "question_read_as": "ham film dekhte haiṁ.",
+          "options": [
+            "हम फ़िल्म देखी है।",
+            "हमने फ़िल्म देखा है।",
+            "हमने फ़िल्म देखी हैं।",
+            "हमने फ़िल्म देखी है।"
+          ],
+          "options_read_as": [
+            "ham film dekhii hai.",
+            "hamne film dekhaa hai.",
+            "hamne film dekhii haiṁ.",
+            "hamne film dekhii hai."
+          ],
+          "answer_index": 3,
+          "explanation_en": "फ़िल्म is feminine singular, so the participle is देखी and the auxiliary है.",
+          "source_item_ids": [
+            "M09-L15-I3"
+          ]
+        },
+        {
+          "id": "M09-CP3-Q9",
+          "source": "current",
+          "format": "error_spot",
+          "question": "कौन सा वाक्य ग़लत है?",
+          "question_read_as": "kaun saa vaakya ġalat hai?",
+          "options": [
+            "उसने बोला।",
+            "लड़की बोली।",
+            "वह बोला।",
+            "उसने कहा।"
+          ],
+          "options_read_as": [
+            "usne bolaa.",
+            "laṛkii bolii.",
+            "vah bolaa.",
+            "usne kahaa."
+          ],
+          "answer_index": 0,
+          "explanation_en": "बोलना refuses ने. कहना, which means almost the same thing, requires it — that is the pair to remember.",
+          "source_item_ids": [
+            "M09-L12-I1"
+          ]
+        },
+        {
+          "id": "M09-CP3-Q10",
+          "source": "current",
+          "format": "error_spot",
+          "question": "कौन सा वाक्य ग़लत है?",
+          "question_read_as": "kaun saa vaakya ġalat hai?",
+          "options": [
+            "मैंने बात समझाई।",
+            "मैंने लड़की को बुलाई।",
+            "मैंने रोटी खाई।",
+            "मैंने माँ को समझाया।"
+          ],
+          "options_read_as": [
+            "maiṁne baat samjhaaii.",
+            "maiṁne laṛkii ko bulaaii.",
+            "maiṁne roṭii khaaii.",
+            "maiṁne maaṁ ko samjhaayaa."
+          ],
+          "answer_index": 1,
+          "explanation_en": "लड़की carries को, so it cannot control the verb — it must be बुलाया. The other feminine verbs are correct because those objects are bare.",
+          "source_item_ids": [
+            "M09-L13-I2",
+            "M09-L14-I3"
+          ]
+        }
+      ]
+    }
+  ]
+}

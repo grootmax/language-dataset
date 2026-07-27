@@ -1,0 +1,1542 @@
+{
+  "module": 7,
+  "module_name_en": "The Tense-Aspect Engine",
+  "module_name_hi": "काल",
+  "phase": 3,
+  "batch": {
+    "levels_from": 21,
+    "levels_to": 25
+  },
+  "model_verb": {
+    "hindi": "जाना",
+    "read_as": "jaanaa",
+    "english": "to go",
+    "transitivity": "intransitive"
+  },
+  "levels": [
+    {
+      "level": 21,
+      "title_en": "The presumptive completed",
+      "title_hi": "जाते होंगे · हूँगा · होगे",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L21-I1",
+          "type": "grammar",
+          "target": "वे जाते होंगे",
+          "read_as": "ve jaate hoṁge",
+          "pronunciation_notes": "Three words all ending in a short e, with a nasal only on the last: ve jaa-te hoṁ-ge.",
+          "gloss_en": "habitual presumptive, plural",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "habitual_presumptive",
+          "tags": [
+            "tense",
+            "habitual_presumptive",
+            "third_person",
+            "plural",
+            "inference"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A habit you are assuming rather than reporting",
+              "explanation_en": "वे जाते होंगे means they probably go, and it is a specific and useful thing to be able to say: you are describing someone's routine without claiming to have observed it. That is a distinction English usually handles by adding a word — probably, I suppose, they must — and Hindi handles inside the verb. Grammatically nothing here is new. The habitual participle is the one you built at level two, and होंगे is the plural presumptive from the last level.",
+              "examples": [
+                {
+                  "hindi": "वे जाते होंगे",
+                  "read_as": "ve jaate hoṁge",
+                  "english": "they probably go",
+                  "note": "An assumed habit rather than an observed one."
+                },
+                {
+                  "hindi": "वे यहाँ रहते होंगे",
+                  "read_as": "ve yahaaṁ rahte hoṁge",
+                  "english": "they probably live here",
+                  "note": "The most natural use of this cell — guessing about where someone lives."
+                },
+                {
+                  "hindi": "वह जाती होगी",
+                  "read_as": "vah jaatii hogii",
+                  "english": "she probably goes",
+                  "note": "The feminine singular, with both words agreeing."
+                }
+              ],
+              "common_error": {
+                "wrong": "वे जाते होगा",
+                "right": "वे जाते होंगे",
+                "why_en": "होगा is singular. The presumptive counts in the third person exactly as the past auxiliary does."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · वे · masculine plural · habitual presumptive",
+              "question_read_as": "jaanaa · ve · masculine plural · habitual presumptive",
+              "options": [
+                "वे जाते होगा",
+                "वे गए होंगे",
+                "वे जाते होंगे",
+                "वे जाते थे"
+              ],
+              "options_read_as": [
+                "ve jaate hogaa",
+                "ve gae hoṁge",
+                "ve jaate hoṁge",
+                "ve jaate the"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Habitual participle जाते with the plural presumptive auxiliary होंगे."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous presumptive cell?",
+              "options": [
+                "वे जा रहे होंगे",
+                "वे जाते होंगे",
+                "वे गए होंगे",
+                "वे जाते थे"
+              ],
+              "options_read_as": [
+                "ve jaa rahe hoṁge",
+                "ve jaate hoṁge",
+                "ve gae hoṁge",
+                "ve jaate the"
+              ],
+              "answer_index": 0,
+              "explanation_en": "वे जा रहे होंगे — they are probably going right now."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वे जाते होंगे",
+              "वे यहाँ रहते होंगे",
+              "वह जाती होगी"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L21-I2",
+          "type": "grammar",
+          "target": "मैं घर पर हूँगा",
+          "read_as": "maiṁ ghar par huuṁgaa",
+          "pronunciation_notes": "हूँगा nasalises the long uu and then falls away: huuṁ-gaa.",
+          "gloss_en": "the first person presumptive, which is not होगा",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "copula_presumptive",
+          "tags": [
+            "tense",
+            "copula_presumptive",
+            "first_person",
+            "person_marking",
+            "standalone_hona"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मैं takes हूँगा, not होगा",
+              "explanation_en": "The presumptive does keep person in the first and second, which sets it apart from the past auxiliary. मैं हूँगा, not मैं होगा — and you can hear where it comes from, because हूँ is the present form for मैं and हूँगा is that same form carried forward. Used on its own like this, with no other verb in the sentence, it covers both readings at once: मैं घर पर हूँगा is I will be at home and also I am probably at home, and context decides which. That double life is not an accident, and the next level explains it.",
+              "examples": [
+                {
+                  "hindi": "मैं घर पर हूँगा",
+                  "read_as": "maiṁ ghar par huuṁgaa",
+                  "english": "I will be at home",
+                  "note": "घर is oblique before पर, and the verb stands alone with no participle."
+                },
+                {
+                  "hindi": "मैं घर पर हूँगी",
+                  "read_as": "maiṁ ghar par huuṁgii",
+                  "english": "I will be at home",
+                  "note": "Said by a woman — the gender still shows even in the first person."
+                },
+                {
+                  "hindi": "वह घर पर होगा",
+                  "read_as": "vah ghar par hogaa",
+                  "english": "he is probably at home",
+                  "note": "The third person, and here the guessing reading is the natural one."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं घर पर होगा",
+                "right": "मैं घर पर हूँगा",
+                "why_en": "होगा belongs to the third person. मैं has its own form, built from the हूँ you have used since Module 5."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate होना for this subject.",
+              "question": "होना · मैं · masculine · presumptive",
+              "question_read_as": "honaa · maiṁ · masculine · presumptive",
+              "options": [
+                "मैं होगा",
+                "मैं हूँगा",
+                "मैं होंगे",
+                "मैं हूँगी"
+              ],
+              "options_read_as": [
+                "maiṁ hogaa",
+                "maiṁ huuṁgaa",
+                "maiṁ hoṁge",
+                "maiṁ huuṁgii"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The first person form is हूँगा, built from हूँ rather than from हो."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the perfective presumptive cell?",
+              "options": [
+                "मैं घर पर हूँगा",
+                "मैं जाता हूँगा",
+                "मैं जा रहा हूँगा",
+                "मैं गया हूँगा"
+              ],
+              "options_read_as": [
+                "maiṁ ghar par huuṁgaa",
+                "maiṁ jaataa huuṁgaa",
+                "maiṁ jaa rahaa huuṁgaa",
+                "maiṁ gayaa huuṁgaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "मैं गया हूँगा — the perfective participle with the first person presumptive auxiliary."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं घर पर हूँगा",
+              "मैं घर पर हूँगी",
+              "वह घर पर होगा"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L21-I3",
+          "type": "grammar",
+          "target": "तुम कहाँ होगे",
+          "read_as": "tum kahaaṁ hoge",
+          "pronunciation_notes": "होगे has no nasal at all, which is the only thing separating it from होंगे: ho-ge.",
+          "gloss_en": "तुम has its own presumptive form",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "copula_presumptive",
+          "tags": [
+            "tense",
+            "copula_presumptive",
+            "second_person",
+            "person_marking",
+            "register",
+            "minimal_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "होगे and होंगे differ by one hum",
+              "explanation_en": "तुम takes होगे and आप takes होंगे, and the two are separated by a single nasal that is easy to miss and easy to drop. This is the first time in the module that तुम and आप have not shared a form — they took the same participle and the same auxiliary in every other cell — so it is worth marking. The full set is मैं हूँगा, तू होगा, वह होगा, तुम होगे, and होंगे for आप, हम and वे. Five forms, and only two of them are new to you.",
+              "examples": [
+                {
+                  "hindi": "तुम कहाँ होगे?",
+                  "read_as": "tum kahaaṁ hoge?",
+                  "english": "where will you be?",
+                  "note": "The casual form, with no nasal."
+                },
+                {
+                  "hindi": "आप कहाँ होंगे?",
+                  "read_as": "aap kahaaṁ hoṁge?",
+                  "english": "where will you be?",
+                  "note": "The polite form, and the nasal is the whole difference."
+                },
+                {
+                  "hindi": "तुम घर पर होगी",
+                  "read_as": "tum ghar par hogii",
+                  "english": "you will be at home",
+                  "note": "Said to a woman — तुम takes the plain feminine होगी."
+                }
+              ],
+              "common_error": {
+                "wrong": "तुम कहाँ होंगे?",
+                "right": "तुम कहाँ होगे?",
+                "why_en": "होंगे belongs to आप, हम and वे. तुम has held plural agreement everywhere else in this module, so this is the one place it breaks step."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate होना for this subject.",
+              "question": "होना · तुम · masculine · presumptive",
+              "question_read_as": "honaa · tum · masculine · presumptive",
+              "options": [
+                "तुम होंगे",
+                "तुम होगा",
+                "तुम हूँगे",
+                "तुम होगे"
+              ],
+              "options_read_as": [
+                "tum hoṁge",
+                "tum hogaa",
+                "tum huuṁge",
+                "tum hoge"
+              ],
+              "answer_index": 3,
+              "explanation_en": "तुम takes होगे — the same shape as होंगे but without the nasal."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual presumptive cell?",
+              "options": [
+                "तुम कहाँ होगे?",
+                "तुम कहाँ जाते होगे?",
+                "तुम कहाँ गए होगे?",
+                "तुम कहाँ जा रहे होगे?"
+              ],
+              "options_read_as": [
+                "tum kahaaṁ hoge?",
+                "tum kahaaṁ jaate hoge?",
+                "tum kahaaṁ gae hoge?",
+                "tum kahaaṁ jaa rahe hoge?"
+              ],
+              "answer_index": 1,
+              "explanation_en": "तुम कहाँ जाते होगे — the habitual participle with the presumptive auxiliary."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तुम कहाँ होगे?",
+              "आप कहाँ होंगे?",
+              "तुम घर पर होगी"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The presumptive is done. It keeps gender and number like the past auxiliary but also keeps person in the first and second — मैं हूँगा and तुम होगे — which is the only place तुम and आप part company in this module. Used alone it means both will be and probably is, and the next level explains why.",
+        "key_forms": [
+          "वे जाते होंगे",
+          "मैं घर पर हूँगा",
+          "तुम कहाँ होगे"
+        ],
+        "next_up_en": "Next: the real future, which turns out to be the same set of endings you have just learnt."
+      }
+    },
+    {
+      "level": 22,
+      "title_en": "The simple future",
+      "title_hi": "जाऊँगा · जाएगा · जाएंगे",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L22-I1",
+          "type": "grammar",
+          "target": "मैं जाऊँगा",
+          "read_as": "maiṁ jaauuṁgaa",
+          "pronunciation_notes": "The ऊँ is long and nasal, and the ending falls away after it: jaa-uuṁ-gaa.",
+          "gloss_en": "the future is one word, and it marks person",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "simple_future",
+          "tags": [
+            "tense",
+            "simple_future",
+            "first_person",
+            "masculine",
+            "person_marking",
+            "single_word"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The only tense with no auxiliary",
+              "explanation_en": "Every form in this module so far has been a participle plus होना. The future is not. It is one word — stem plus a personal ending — and it is the only tense in Hindi built that way. That has a consequence worth naming: because there is no auxiliary to carry the person, the verb itself has to, so the future is also the only tense where the ending changes for who is speaking as well as for gender. मैं जाऊँगा is I will go, and the -ऊँगा belongs to मैं alone.",
+              "examples": [
+                {
+                  "hindi": "मैं जाऊँगा",
+                  "read_as": "maiṁ jaauuṁgaa",
+                  "english": "I will go",
+                  "note": "One word, and the ending is specific to मैं."
+                },
+                {
+                  "hindi": "मैं स्कूल जाऊँगा",
+                  "read_as": "maiṁ skuul jaauuṁgaa",
+                  "english": "I will go to school",
+                  "note": "The destination takes no postposition, as always with जाना."
+                },
+                {
+                  "hindi": "मैं कल जाऊँगा",
+                  "read_as": "maiṁ kal jaauuṁgaa",
+                  "english": "I will go tomorrow",
+                  "note": "कल means both yesterday and tomorrow — the tense tells you which."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं जाऊँगा हूँ",
+                "right": "मैं जाऊँगा",
+                "why_en": "There is no auxiliary in the future. Adding one is the natural reflex after twenty levels of participle plus होना, and it is wrong."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · मैं · masculine · simple future",
+              "question_read_as": "jaanaa · maiṁ · masculine · simple future",
+              "options": [
+                "मैं जाऊँगा",
+                "मैं जाएगा",
+                "मैं जाऊँगा हूँ",
+                "मैं जाता होगा"
+              ],
+              "options_read_as": [
+                "maiṁ jaauuṁgaa",
+                "maiṁ jaaegaa",
+                "maiṁ jaauuṁgaa huuṁ",
+                "maiṁ jaataa hogaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The first person future ending is -ऊँगा, and nothing follows it."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual presumptive cell?",
+              "options": [
+                "मैं जाऊँगा",
+                "मैं जाता हूँ",
+                "मैं जाता हूँगा",
+                "मैं गया हूँगा"
+              ],
+              "options_read_as": [
+                "maiṁ jaauuṁgaa",
+                "maiṁ jaataa huuṁ",
+                "maiṁ jaataa huuṁgaa",
+                "maiṁ gayaa huuṁgaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "मैं जाता हूँगा — I probably go. The first option is the future, which is a different thing."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं जाऊँगा",
+              "मैं स्कूल जाऊँगा",
+              "मैं कल जाऊँगा"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L22-I2",
+          "type": "grammar",
+          "target": "वह जाएगा",
+          "read_as": "vah jaaegaa",
+          "pronunciation_notes": "Two vowels meet in the middle with no glide: jaa-e-gaa, three light beats.",
+          "gloss_en": "simple future, third person singular",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "simple_future",
+          "tags": [
+            "tense",
+            "simple_future",
+            "third_person",
+            "masculine",
+            "singular"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "-एगा for the third person",
+              "explanation_en": "वह जाएगा is he will go. The ending -एगा covers तू and वह alike, which is the one place those two pronouns share a form. Look at the shape of it: an -ए, then -गा. Every future ending in Hindi ends in that same -गा, -गे or -गी, and what varies in front of it is a vowel chosen by person. Once you see the -गा as fixed, there are only four vowel patterns to learn rather than eight whole endings.",
+              "examples": [
+                {
+                  "hindi": "वह जाएगा",
+                  "read_as": "vah jaaegaa",
+                  "english": "he will go",
+                  "note": "The -एगा ending, shared with तू."
+                },
+                {
+                  "hindi": "लड़का स्कूल जाएगा",
+                  "read_as": "laṛkaa skuul jaaegaa",
+                  "english": "the boy will go to school",
+                  "note": "A noun subject in the direct form, since nothing follows it."
+                },
+                {
+                  "hindi": "वह कल आएगा",
+                  "read_as": "vah kal aaegaa",
+                  "english": "he will come tomorrow",
+                  "note": "आना takes the same ending: आ plus एगा."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह जाऊँगा",
+                "right": "वह जाएगा",
+                "why_en": "-ऊँगा belongs to मैं. In the future the ending identifies the person, so the wrong ending names the wrong person."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · वह · masculine · simple future",
+              "question_read_as": "jaanaa · vah · masculine · simple future",
+              "options": [
+                "वह जाऊँगा",
+                "वह जाएंगे",
+                "वह जाएगा",
+                "वह जाएगी"
+              ],
+              "options_read_as": [
+                "vah jaauuṁgaa",
+                "vah jaaeṁge",
+                "vah jaaegaa",
+                "vah jaaegii"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Third person masculine singular takes -एगा."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the perfective presumptive cell?",
+              "options": [
+                "वह जाएगा",
+                "वह जा रहा होगा",
+                "वह जाता होगा",
+                "वह गया होगा"
+              ],
+              "options_read_as": [
+                "vah jaaegaa",
+                "vah jaa rahaa hogaa",
+                "vah jaataa hogaa",
+                "vah gayaa hogaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "वह गया होगा — he has probably gone. The first is the future, which makes no claim about the past at all."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह जाएगा",
+              "लड़का स्कूल जाएगा",
+              "वह कल आएगा"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L22-I3",
+          "type": "grammar",
+          "target": "वे जाएंगे",
+          "read_as": "ve jaaeṁge",
+          "pronunciation_notes": "The nasal sits before the ग and is a hum rather than a full n: jaa-eṁ-ge.",
+          "gloss_en": "simple future, plural",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "simple_future",
+          "tags": [
+            "tense",
+            "simple_future",
+            "third_person",
+            "plural",
+            "register"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "-एंगे for आप, हम and वे",
+              "explanation_en": "The plural ending is -एंगे, and it covers आप, हम and वे together, exactly as हैं and थे did. So तुम and आप are back to differing here, just as they did in the presumptive: तुम जाओगे against आप जाएंगे. Those two forms are worth drilling as a pair, because getting them mixed makes a polite sentence sound casual halfway through, which is more noticeable to a listener than a plain grammatical slip.",
+              "examples": [
+                {
+                  "hindi": "वे जाएंगे",
+                  "read_as": "ve jaaeṁge",
+                  "english": "they will go",
+                  "note": "The plural ending, shared with आप and हम."
+                },
+                {
+                  "hindi": "हम कल जाएंगे",
+                  "read_as": "ham kal jaaeṁge",
+                  "english": "we will go tomorrow",
+                  "note": "हम takes the same ending as वे."
+                },
+                {
+                  "hindi": "आप कब आएंगे?",
+                  "read_as": "aap kab aaeṁge?",
+                  "english": "when will you come?",
+                  "note": "The polite question, and one you will be asked constantly."
+                }
+              ],
+              "common_error": {
+                "wrong": "वे जाएगा",
+                "right": "वे जाएंगे",
+                "why_en": "-एगा is singular. With no auxiliary present, the ending is the only thing marking the plural."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · वे · masculine plural · simple future",
+              "question_read_as": "jaanaa · ve · masculine plural · simple future",
+              "options": [
+                "वे जाएगा",
+                "वे जाएंगे",
+                "वे जाओगे",
+                "वे जाऊँगा"
+              ],
+              "options_read_as": [
+                "ve jaaegaa",
+                "ve jaaeṁge",
+                "ve jaaoge",
+                "ve jaauuṁgaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "-एंगे is the plural ending, used by आप, हम and वे alike."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous presumptive cell?",
+              "options": [
+                "वे जा रहे होंगे",
+                "वे जाते होंगे",
+                "वे गए होंगे",
+                "वे जाएंगे"
+              ],
+              "options_read_as": [
+                "ve jaa rahe hoṁge",
+                "ve jaate hoṁge",
+                "ve gae hoṁge",
+                "ve jaaeṁge"
+              ],
+              "answer_index": 0,
+              "explanation_en": "वे जा रहे होंगे — they are probably going right now."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वे जाएंगे",
+              "हम कल जाएंगे",
+              "आप कब आएंगे?"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The future is one word with no auxiliary, which makes it the only tense where the verb itself carries person. Every ending finishes in -गा, -गे or -गी, and what changes in front of that is a vowel chosen by person: -ऊँ for मैं, -ए for वह, -ओ for तुम, -एं for the plural.",
+        "key_forms": [
+          "मैं जाऊँगा",
+          "वह जाएगा",
+          "वे जाएंगे"
+        ],
+        "next_up_en": "Next: the feminine endings, and the form तुम keeps for itself."
+      }
+    },
+    {
+      "level": 23,
+      "title_en": "The future: gender and तुम",
+      "title_hi": "जाऊँगी · जाएगी · जाओगे",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L23-I1",
+          "type": "grammar",
+          "target": "मैं जाऊँगी",
+          "read_as": "maiṁ jaauuṁgii",
+          "pronunciation_notes": "Identical to the masculine until the last syllable, which lifts to a long ii: jaa-uuṁ-gii.",
+          "gloss_en": "simple future, first person feminine",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "simple_future",
+          "tags": [
+            "tense",
+            "simple_future",
+            "first_person",
+            "feminine",
+            "person_marking"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Swap the last vowel and nothing else",
+              "explanation_en": "मैं जाऊँगी is the same word with -गा changed to -गी. The person marking sits in the middle of the word, in the -ऊँ, and the gender sits at the end, in the -गा or -गी. Two pieces of information in one word, in fixed positions. That is worth noticing because it makes the future easy to correct on the fly: if you have named the wrong person, fix the middle; if you have named the wrong gender, fix the last letter.",
+              "examples": [
+                {
+                  "hindi": "मैं जाऊँगी",
+                  "read_as": "maiṁ jaauuṁgii",
+                  "english": "I will go",
+                  "note": "Said by a woman. The -ऊँ still marks मैं."
+                },
+                {
+                  "hindi": "मैं कल आऊँगी",
+                  "read_as": "maiṁ kal aauuṁgii",
+                  "english": "I will come tomorrow",
+                  "note": "आना with the same two pieces."
+                },
+                {
+                  "hindi": "हम जाएंगी",
+                  "read_as": "ham jaaeṁgii",
+                  "english": "we will go",
+                  "note": "A group of women — the plural middle, the feminine ending."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं जाएगी",
+                "right": "मैं जाऊँगी",
+                "why_en": "Getting the gender right does not fix the person. -एगी belongs to वह, and the middle of the word is what identifies मैं."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · मैं · feminine · simple future",
+              "question_read_as": "jaanaa · maiṁ · feminine · simple future",
+              "options": [
+                "मैं जाऊँगी",
+                "मैं जाऊँगा",
+                "मैं जाओगी",
+                "मैं जाएगी"
+              ],
+              "options_read_as": [
+                "maiṁ jaauuṁgii",
+                "maiṁ jaauuṁgaa",
+                "maiṁ jaaogii",
+                "maiṁ jaaegii"
+              ],
+              "answer_index": 0,
+              "explanation_en": "-ऊँ for मैं in the middle, -गी for feminine at the end."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the perfective present cell?",
+              "options": [
+                "मैं जाऊँगी",
+                "मैं जाती हूँ",
+                "मैं गई हूँ",
+                "मैं जा रही हूँ"
+              ],
+              "options_read_as": [
+                "maiṁ jaauuṁgii",
+                "maiṁ jaatii huuṁ",
+                "maiṁ gaii huuṁ",
+                "maiṁ jaa rahii huuṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "मैं गई हूँ — the perfective participle with a present auxiliary."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं जाऊँगी",
+              "मैं कल आऊँगी",
+              "हम जाएंगी"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L23-I2",
+          "type": "grammar",
+          "target": "वह जाएगी",
+          "read_as": "vah jaaegii",
+          "pronunciation_notes": "Three light syllables ending on a long ii: jaa-e-gii.",
+          "gloss_en": "simple future, third person feminine",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "simple_future",
+          "tags": [
+            "tense",
+            "simple_future",
+            "third_person",
+            "feminine",
+            "singular"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "वह still tells you nothing",
+              "explanation_en": "As in every other tense, वह covers both genders and the verb carries the difference. वह जाएगा and वह जाएगी are one letter apart and mean he will go and she will go. Since the future is a single word, that letter is the only thing in the whole sentence pointing at who you mean, which makes it more load-bearing here than anywhere else in the module — there is no auxiliary standing behind it to reinforce the choice.",
+              "examples": [
+                {
+                  "hindi": "वह जाएगी",
+                  "read_as": "vah jaaegii",
+                  "english": "she will go",
+                  "note": "One letter from the masculine, and a different person entirely."
+                },
+                {
+                  "hindi": "लड़की स्कूल जाएगी",
+                  "read_as": "laṛkii skuul jaaegii",
+                  "english": "the girl will go to school",
+                  "note": "A feminine noun subject, and the ending reads it."
+                },
+                {
+                  "hindi": "बहन कल आएगी",
+                  "read_as": "bahan kal aaegii",
+                  "english": "your sister will come tomorrow",
+                  "note": "बहन is Class 5 feminine, which the verb has to know."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह जाएगा",
+                "right": "वह जाएगी",
+                "why_en": "Not ungrammatical, but it means he. With no auxiliary present, this single letter is doing all the work."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · वह (feminine) · simple future",
+              "question_read_as": "jaanaa · vah (feminine) · simple future",
+              "options": [
+                "वह जाएगा",
+                "वह जाएंगी",
+                "वह जाऊँगी",
+                "वह जाएगी"
+              ],
+              "options_read_as": [
+                "vah jaaegaa",
+                "vah jaaeṁgii",
+                "vah jaauuṁgii",
+                "vah jaaegii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "-ए for the third person, -गी for feminine."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous present cell?",
+              "options": [
+                "वह जाएगी",
+                "वह जा रही है",
+                "वह जाती है",
+                "वह गई है"
+              ],
+              "options_read_as": [
+                "vah jaaegii",
+                "vah jaa rahii hai",
+                "vah jaatii hai",
+                "vah gaii hai"
+              ],
+              "answer_index": 1,
+              "explanation_en": "वह जा रही है — she is going right now."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह जाएगी",
+              "लड़की स्कूल जाएगी",
+              "बहन कल आएगी"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L23-I3",
+          "type": "grammar",
+          "target": "तुम जाओगे",
+          "read_as": "tum jaaoge",
+          "pronunciation_notes": "The middle vowel is a plain o with no nasal at all: jaa-o-ge.",
+          "gloss_en": "the ending तुम keeps for itself",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "simple_future",
+          "tags": [
+            "tense",
+            "simple_future",
+            "second_person",
+            "register",
+            "minimal_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तुम जाओगे against आप जाएंगे",
+              "explanation_en": "तुम has its own future ending, -ओगे, which nothing else uses. That is the second time तुम has broken away from आप — it also did so in the presumptive, with होगे against होंगे — and both breaks are in the same corner of the grammar. Everywhere else in this module the two behaved identically. The pair to drill is तुम जाओगे and आप जाएंगे, because these are the forms you will use to ask someone what they are going to do, and the register has to hold across the whole sentence.",
+              "examples": [
+                {
+                  "hindi": "तुम जाओगे",
+                  "read_as": "tum jaaoge",
+                  "english": "you will go",
+                  "note": "The -ओगे ending, used by तुम alone."
+                },
+                {
+                  "hindi": "तुम कब आओगे?",
+                  "read_as": "tum kab aaoge?",
+                  "english": "when will you come?",
+                  "note": "The casual version of the question from the last level."
+                },
+                {
+                  "hindi": "तुम जाओगी",
+                  "read_as": "tum jaaogii",
+                  "english": "you will go",
+                  "note": "Said to a woman — the ending turns feminine as everywhere else."
+                }
+              ],
+              "common_error": {
+                "wrong": "तुम जाएंगे",
+                "right": "तुम जाओगे",
+                "why_en": "-एंगे belongs to आप, हम and वे. Using it with तुम mixes two registers inside one sentence."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · तुम · masculine · simple future",
+              "question_read_as": "jaanaa · tum · masculine · simple future",
+              "options": [
+                "तुम जाएंगे",
+                "तुम जाओगे",
+                "तुम जाएगा",
+                "तुम जाऊँगे"
+              ],
+              "options_read_as": [
+                "tum jaaeṁge",
+                "tum jaaoge",
+                "tum jaaegaa",
+                "tum jaauuṁge"
+              ],
+              "answer_index": 1,
+              "explanation_en": "तुम takes -ओगे, which no other pronoun uses."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": [
+                "तुम जाओगे",
+                "तुम गए हो",
+                "तुम जा रहे हो",
+                "तुम जाते हो"
+              ],
+              "options_read_as": [
+                "tum jaaoge",
+                "tum gae ho",
+                "tum jaa rahe ho",
+                "tum jaate ho"
+              ],
+              "answer_index": 3,
+              "explanation_en": "तुम जाते हो — you go, as a habit."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तुम जाओगे",
+              "तुम कब आओगे?",
+              "तुम जाओगी"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Person sits in the middle of the future ending and gender sits at the end, so the two can be corrected independently. तुम keeps -ओगे for itself, which with होगे is the second and last place it parts company from आप.",
+        "key_forms": [
+          "मैं जाऊँगी",
+          "वह जाएगी",
+          "तुम जाओगे"
+        ],
+        "next_up_en": "Next: the future with other verbs, and why होगा looked like a future all along."
+      }
+    },
+    {
+      "level": 24,
+      "title_en": "The future, and where होगा came from",
+      "title_hi": "करूँगा · खाएगा · होगा",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L24-I1",
+          "type": "grammar",
+          "target": "मैं करूँगा",
+          "read_as": "maiṁ karuuṁgaa",
+          "pronunciation_notes": "The stem कर shortens against the ending, coming out as ka-ruuṁ-gaa.",
+          "gloss_en": "the future of करना",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "simple_future",
+          "tags": [
+            "tense",
+            "simple_future",
+            "first_person",
+            "new_verb",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Any verb, the same endings",
+              "explanation_en": "करना gives the stem कर, and the first person future ending attaches straight onto it: करूँगा. Notice that the ending swallows the stem's own vowel — कर plus ऊँगा does not give करऊँगा but करूँगा, with the two running together. That happens with every consonant-final stem and it is not an irregularity, just what the spelling does when two vowels meet. मैं करूँगा is I will do, and it is one of the most useful single words in the language.",
+              "examples": [
+                {
+                  "hindi": "मैं करूँगा",
+                  "read_as": "maiṁ karuuṁgaa",
+                  "english": "I will do it",
+                  "note": "The stem and the ending have merged into one vowel."
+                },
+                {
+                  "hindi": "मैं कल करूँगा",
+                  "read_as": "maiṁ kal karuuṁgaa",
+                  "english": "I will do it tomorrow",
+                  "note": "Possibly the most-used sentence in any language."
+                },
+                {
+                  "hindi": "हम करेंगे",
+                  "read_as": "ham kareṁge",
+                  "english": "we will do it",
+                  "note": "The plural of the same verb, with the same merging."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं करऊँगा",
+                "right": "मैं करूँगा",
+                "why_en": "The stem vowel and the ending vowel merge into one long ऊँ. Writing both out separately is a spelling error rather than a grammatical one, but it is a visible one."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "करना · मैं · masculine · simple future",
+              "question_read_as": "karnaa · maiṁ · masculine · simple future",
+              "options": [
+                "मैं करेगा",
+                "मैं करूँगी",
+                "मैं करूँगा",
+                "मैं करोगे"
+              ],
+              "options_read_as": [
+                "maiṁ karegaa",
+                "maiṁ karuuṁgii",
+                "maiṁ karuuṁgaa",
+                "maiṁ karoge"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Stem कर plus the first person masculine ending, merged into करूँगा."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous present cell?",
+              "options": [
+                "मैं कर रहा हूँ",
+                "मैं करता हूँ",
+                "मैं करूँगा",
+                "मैं करता था"
+              ],
+              "options_read_as": [
+                "maiṁ kar rahaa huuṁ",
+                "maiṁ kartaa huuṁ",
+                "maiṁ karuuṁgaa",
+                "maiṁ kartaa thaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "मैं कर रहा हूँ — I am doing it right now."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं करूँगा",
+              "मैं कल करूँगा",
+              "हम करेंगे"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L24-I2",
+          "type": "grammar",
+          "target": "वह खाएगा",
+          "read_as": "vah khaaegaa",
+          "pronunciation_notes": "The aspirated kh carries a real puff and the vowels stay separate: khaa-e-gaa.",
+          "gloss_en": "a transitive verb in the future, with no ने",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "simple_future",
+          "tags": [
+            "tense",
+            "simple_future",
+            "third_person",
+            "transitive",
+            "no_ne",
+            "module9_preview"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The future is safe for every verb",
+              "explanation_en": "खाना is transitive, and in the future that changes nothing: वह खाना खाएगा, with a plain subject and the ending agreeing with it. This is the third time the point has come up and it is the last. The construction that treats transitive verbs differently belongs to the perfective and to nothing else, so the habitual, the continuous and the future are all safe ground. Only when you want to say he ate rather than he eats, is eating or will eat does the question arise, and that is Module 9.",
+              "examples": [
+                {
+                  "hindi": "वह खाएगा",
+                  "read_as": "vah khaaegaa",
+                  "english": "he will eat",
+                  "note": "A plain subject, and the ending agrees with it."
+                },
+                {
+                  "hindi": "वह खाना खाएगा",
+                  "read_as": "vah khaanaa khaaegaa",
+                  "english": "he will eat food",
+                  "note": "खाना is the noun for food, standing in front of the verb as its object."
+                },
+                {
+                  "hindi": "वह किताब पढ़ेगी",
+                  "read_as": "vah kitaab paṛhegii",
+                  "english": "she will read a book",
+                  "note": "पढ़ना is transitive too, and the ending still reads the subject."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह खाता खाएगा",
+                "right": "वह खाना खाएगा",
+                "why_en": "खाता is the habitual participle of the verb. The object here is the noun खाना, which happens to look identical to the infinitive."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "खाना · वह · masculine · simple future",
+              "question_read_as": "khaanaa · vah · masculine · simple future",
+              "options": [
+                "वह खाऊँगा",
+                "वह खाएंगे",
+                "वह खाएगी",
+                "वह खाएगा"
+              ],
+              "options_read_as": [
+                "vah khaauuṁgaa",
+                "vah khaaeṁge",
+                "vah khaaegii",
+                "vah khaaegaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Third person masculine singular takes -एगा, whatever the verb's transitivity."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual past cell?",
+              "options": [
+                "वह खाएगा",
+                "वह खाता था",
+                "वह खाता है",
+                "वह खा रहा था"
+              ],
+              "options_read_as": [
+                "vah khaaegaa",
+                "vah khaataa thaa",
+                "vah khaataa hai",
+                "vah khaa rahaa thaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "वह खाता था — he used to eat."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह खाएगा",
+              "वह खाना खाएगा",
+              "वह किताब पढ़ेगी"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L24-I3",
+          "type": "grammar",
+          "target": "वह होगा",
+          "read_as": "vah hogaa",
+          "pronunciation_notes": "Two syllables, open o then a falling gaa — identical to the presumptive auxiliary because it is one.",
+          "gloss_en": "होगा is the future of होना, which explains everything",
+          "gender": null,
+          "difficulty": 9,
+          "grid_cell": "simple_future",
+          "tags": [
+            "tense",
+            "simple_future",
+            "hona",
+            "presumptive_link",
+            "rule_summary"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The presumptive was a future all along",
+              "explanation_en": "Apply the future endings to होना and you get हूँगा, होगा, होगे, होंगे — which is exactly the presumptive set from levels twenty and twenty-one. They are not similar; they are the same forms. होना's future means will be, and when it sits behind another participle that becomes a guess, because saying he will be gone in Hindi is how you say he must be gone. That is why होगा looked like a future: it is one. Level twenty told you it was not the future, and what that really meant was that it is not the future of the main verb — वह जाएगा and वह गया होगा say completely different things, and now you can see why both contain a -गा.",
+              "examples": [
+                {
+                  "hindi": "वह होगा",
+                  "read_as": "vah hogaa",
+                  "english": "he will be, he is probably",
+                  "note": "One form, two readings, decided by whether anything stands in front of it."
+                },
+                {
+                  "hindi": "वह कल यहाँ होगा",
+                  "read_as": "vah kal yahaaṁ hogaa",
+                  "english": "he will be here tomorrow",
+                  "note": "With कल naming a future time, only the future reading survives."
+                },
+                {
+                  "hindi": "वह गया होगा",
+                  "read_as": "vah gayaa hogaa",
+                  "english": "he has probably gone",
+                  "note": "With a participle in front, it becomes a guess about the past instead."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह जाएगा होगा",
+                "right": "वह जाएगा",
+                "why_en": "The future needs no auxiliary at all, and होगा is itself a future. Stacking them says nothing extra."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate होना for this subject.",
+              "question": "होना · वह · masculine · simple future",
+              "question_read_as": "honaa · vah · masculine · simple future",
+              "options": [
+                "वह होगा",
+                "वह हूँगा",
+                "वह होएगा",
+                "वह होंगे"
+              ],
+              "options_read_as": [
+                "vah hogaa",
+                "vah huuṁgaa",
+                "vah hoegaa",
+                "vah hoṁge"
+              ],
+              "answer_index": 0,
+              "explanation_en": "होना is slightly irregular here — the future is होगा rather than the होएगा the rule would predict."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the perfective presumptive cell?",
+              "options": [
+                "वह होगा",
+                "वह जाएगा",
+                "वह गया होगा",
+                "वह जाता होगा"
+              ],
+              "options_read_as": [
+                "vah hogaa",
+                "vah jaaegaa",
+                "vah gayaa hogaa",
+                "vah jaataa hogaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "वह गया होगा — the perfective participle with होगा behind it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह होगा",
+              "वह कल यहाँ होगा",
+              "वह गया होगा"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Every verb takes the same future endings, and transitive verbs are as safe here as anywhere outside the perfective. The presumptive auxiliary turns out to be the future of होना, which is why होगा looked like a future — the difference is whether the -गा is on the main verb or on a होना standing behind it.",
+        "key_forms": [
+          "मैं करूँगा",
+          "वह खाएगा",
+          "वह होगा"
+        ],
+        "next_up_en": "Next: the future in conversation, and how to say you will not."
+      }
+    },
+    {
+      "level": 25,
+      "title_en": "The future in use",
+      "title_hi": "नहीं जाऊँगा · क्या करेंगे?",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M07-L25-I1",
+          "type": "grammar",
+          "target": "मैं नहीं जाऊँगा",
+          "read_as": "maiṁ nahiiṁ jaauuṁgaa",
+          "pronunciation_notes": "Three nasal hums in a row across the three words, which is unusual and worth hearing.",
+          "gloss_en": "negating the future",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "simple_future",
+          "tags": [
+            "tense",
+            "simple_future",
+            "negation",
+            "first_person",
+            "module5_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "नहीं in front, for the last time",
+              "explanation_en": "The placement has not changed once in this module and it does not change now: नहीं goes before the verb. Since the future is a single word, this is the simplest case of all — two words, in that order. मैं नहीं जाऊँगा is I will not go, and it is a complete refusal with nothing else needed. Hindi also has a separate negative for the future, न, but नहीं is what you will hear in ordinary speech and it is the safe default.",
+              "examples": [
+                {
+                  "hindi": "मैं नहीं जाऊँगा",
+                  "read_as": "maiṁ nahiiṁ jaauuṁgaa",
+                  "english": "I will not go",
+                  "note": "Two words after the pronoun, and nothing else required."
+                },
+                {
+                  "hindi": "वह नहीं आएगी",
+                  "read_as": "vah nahiiṁ aaegii",
+                  "english": "she will not come",
+                  "note": "The same shape with feminine agreement."
+                },
+                {
+                  "hindi": "हम नहीं करेंगे",
+                  "read_as": "ham nahiiṁ kareṁge",
+                  "english": "we will not do it",
+                  "note": "And again in the plural."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं जाऊँगा नहीं",
+                "right": "मैं नहीं जाऊँगा",
+                "why_en": "नहीं comes before the verb, not after it. Putting it at the end sounds like an afterthought rather than a refusal."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Make this negative.",
+              "question": "मैं जाऊँगा · negative",
+              "question_read_as": "maiṁ jaauuṁgaa · negative",
+              "options": [
+                "मैं जाऊँगा नहीं",
+                "मैं नहीं जाऊँगा",
+                "मैं नहीं जाता",
+                "नहीं मैं जाऊँगा"
+              ],
+              "options_read_as": [
+                "maiṁ jaauuṁgaa nahiiṁ",
+                "maiṁ nahiiṁ jaauuṁgaa",
+                "maiṁ nahiiṁ jaataa",
+                "nahiiṁ maiṁ jaauuṁgaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "नहीं goes between the subject and the verb, as it has throughout the module."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual present cell?",
+              "options": [
+                "मैं नहीं जाता",
+                "मैं नहीं जा रहा हूँ",
+                "मैं नहीं गया",
+                "मैं नहीं जाऊँगा"
+              ],
+              "options_read_as": [
+                "maiṁ nahiiṁ jaataa",
+                "maiṁ nahiiṁ jaa rahaa huuṁ",
+                "maiṁ nahiiṁ gayaa",
+                "maiṁ nahiiṁ jaauuṁgaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "मैं नहीं जाता — I do not go, with the auxiliary dropped as usually happens after नहीं."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं नहीं जाऊँगा",
+              "वह नहीं आएगी",
+              "हम नहीं करेंगे"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L25-I2",
+          "type": "grammar",
+          "target": "आप क्या करेंगे",
+          "read_as": "aap kyaa kareṁge",
+          "pronunciation_notes": "करेंगे has the nasal on the middle syllable: ka-reṁ-ge.",
+          "gloss_en": "the polite future question",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "simple_future",
+          "tags": [
+            "tense",
+            "simple_future",
+            "second_person",
+            "question",
+            "register",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "What will you do",
+              "explanation_en": "आप क्या करेंगे is the polite way to ask someone their plans, and तुम क्या करोगे is the casual one. Both are worth having ready, because this is the question that opens most conversations about anything upcoming. Note that आप takes the plural ending here, exactly as it has taken plural agreement everywhere else — the only pronoun that ever surprised you on this point was तुम, twice, and this is not one of those times.",
+              "examples": [
+                {
+                  "hindi": "आप क्या करेंगे?",
+                  "read_as": "aap kyaa kareṁge?",
+                  "english": "what will you do?",
+                  "note": "The polite form, and the safe default."
+                },
+                {
+                  "hindi": "तुम क्या करोगे?",
+                  "read_as": "tum kyaa karoge?",
+                  "english": "what will you do?",
+                  "note": "The casual form, with तुम's own ending."
+                },
+                {
+                  "hindi": "आप कहाँ जाएंगे?",
+                  "read_as": "aap kahaaṁ jaaeṁge?",
+                  "english": "where will you go?",
+                  "note": "A different question word in the same slot."
+                }
+              ],
+              "common_error": {
+                "wrong": "आप क्या करोगे?",
+                "right": "आप क्या करेंगे?",
+                "why_en": "-ओगे belongs to तुम. Opening politely with आप and finishing casually is more noticeable than a plain grammatical slip."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "करना · आप · simple future",
+              "question_read_as": "karnaa · aap · simple future",
+              "options": [
+                "आप करोगे",
+                "आप करेगा",
+                "आप करेंगे",
+                "आप करूँगा"
+              ],
+              "options_read_as": [
+                "aap karoge",
+                "aap karegaa",
+                "aap kareṁge",
+                "aap karuuṁgaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "आप takes the plural ending -एंगे, as it takes plural agreement everywhere."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous present cell?",
+              "options": [
+                "आप क्या करेंगे?",
+                "आप क्या करते थे?",
+                "आप क्या करते हैं?",
+                "आप क्या कर रहे हैं?"
+              ],
+              "options_read_as": [
+                "aap kyaa kareṁge?",
+                "aap kyaa karte the?",
+                "aap kyaa karte haiṁ?",
+                "aap kyaa kar rahe haiṁ?"
+              ],
+              "answer_index": 3,
+              "explanation_en": "आप क्या कर रहे हैं — what are you doing right now."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "आप क्या करेंगे?",
+              "तुम क्या करोगे?",
+              "आप कहाँ जाएंगे?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L25-I3",
+          "type": "dialogue",
+          "target": "रहेगी",
+          "read_as": "rahegii",
+          "pronunciation_notes": "The middle vowel of रहना disappears under the ending: ra-he-gii, three light beats.",
+          "gloss_en": "plans, and the gender that has to be chosen",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "simple_future",
+          "tags": [
+            "tense",
+            "simple_future",
+            "dialogue",
+            "micro_dialogue",
+            "feminine",
+            "agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Four futures, four different endings",
+              "explanation_en": "Every line of this exchange has a future in it and no two endings are alike: करोगे for तुम, जाऊँगा for a male speaker talking about himself, जाएगी for a third person who is female, and रहेगी for the same person. Four sentences and the ending has told you the person and the gender each time, without a single auxiliary. That is the future's whole character — one word doing the work that two words do everywhere else in this module.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "तुम कल क्या करोगे?",
+                  "read_as": "tum kal kyaa karoge?",
+                  "english": "What will you do tomorrow?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "मैं स्कूल जाऊँगा।",
+                  "read_as": "maiṁ skuul jaauuṁgaa.",
+                  "english": "I will go to school."
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "क्या बहन भी जाएगी?",
+                  "read_as": "kyaa bahan bhii jaaegii?",
+                  "english": "Will your sister go too?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "नहीं, वह घर पर रहेगी।",
+                  "read_as": "nahiiṁ, vah ghar par rahegii.",
+                  "english": "No, she will stay at home."
+                }
+              ],
+              "common_error": {
+                "wrong": "नहीं, वह घर पर रहेगा।",
+                "right": "नहीं, वह घर पर रहेगी।",
+                "why_en": "बहन is feminine, and वह will not tell your listener that. The ending is the only place the gender appears."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Fill the gap.",
+              "question": "क्या बहन भी ___?",
+              "question_read_as": "kyaa bahan bhii ___?",
+              "options": [
+                "जाएगी",
+                "जाएगा",
+                "जाओगी",
+                "जाएंगी"
+              ],
+              "options_read_as": [
+                "jaaegii",
+                "jaaegaa",
+                "jaaogii",
+                "jaaeṁgii"
+              ],
+              "answer_index": 0,
+              "explanation_en": "One sister, feminine and third person, so -एगी."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the last line. Which word is missing?",
+              "masked_line_index": 3,
+              "masked_word": "रहेगी",
+              "options": [
+                "रहेगा",
+                "रहेगी",
+                "रहेंगे",
+                "रहोगी"
+              ],
+              "options_read_as": [
+                "rahegaa",
+                "rahegii",
+                "raheṁge",
+                "rahogii"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The speaker says रहेगी — third person, singular, feminine, agreeing with बहन."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तुम कल क्या करोगे?",
+              "मैं स्कूल जाऊँगा।",
+              "क्या बहन भी जाएगी?",
+              "नहीं, वह घर पर रहेगी।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "नहीं goes in front of the future exactly as it has in front of every other tense. आप takes the plural ending and तुम keeps -ओगे, and mixing the two breaks the register mid-sentence. With no auxiliary anywhere, the ending alone carries both person and gender.",
+        "key_forms": [
+          "मैं नहीं जाऊँगा",
+          "आप क्या करेंगे",
+          "रहेगी"
+        ],
+        "next_up_en": "Next: the imperatives — तू कर, तुम करो, आप कीजिए — where the register system decides the whole form."
+      }
+    }
+  ]
+}

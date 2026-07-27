@@ -1,0 +1,1512 @@
+{
+  "module": 9,
+  "module_name_en": "The ne Construction",
+  "module_name_hi": "ने",
+  "phase": 4,
+  "batch": {
+    "levels_from": 11,
+    "levels_to": 15
+  },
+  "levels": [
+    {
+      "level": 11,
+      "title_en": "The three verbs that refuse ने",
+      "title_hi": "अपवाद — बोलना, लाना, भूलना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M09-L11-I1",
+          "type": "grammar",
+          "target": "वह बोला",
+          "read_as": "vah bolaa",
+          "pronunciation_notes": "Two beats with the weight on the second: bo-laa. The final -ा is long and must not be clipped, or it becomes बोल, the bare stem.",
+          "gloss_en": "he spoke — बोलना takes no ने",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "ergative",
+            "ne_exception",
+            "bolnaa",
+            "perfective",
+            "subject_agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बोलना speaks without ने",
+              "explanation_en": "Level 10 gave you a test: can you do this verb to something? It settles the large majority of cases, and this level is the small pile it gets wrong. बोलना means to speak, you can clearly speak words, and Hindi still refuses ने with it. The subject stays plain and the verb agrees with the subject: वह बोला, वह बोली, लड़के बोले. There is no reason available — this is a list of three verbs to memorise, and बोलना is the first. You will hear उसने बोला in casual speech, especially in the north, but it is not standard and it is not what the app teaches.",
+              "examples": [
+                {
+                  "hindi": "वह बोला।",
+                  "read_as": "vah bolaa.",
+                  "english": "He spoke.",
+                  "note": "No ने on वह, and the verb takes masculine singular for the subject."
+                },
+                {
+                  "hindi": "वह बोली।",
+                  "read_as": "vah bolii.",
+                  "english": "She spoke.",
+                  "note": "The verb moved with the subject's gender — the thing ने sentences never do."
+                },
+                {
+                  "hindi": "लड़के बोले।",
+                  "read_as": "laṛke bole.",
+                  "english": "The boys spoke.",
+                  "note": "Plural subject, plural verb. Compare लड़कों ने कहा, where the subject would go oblique."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने बोला।",
+                "right": "वह बोला।",
+                "why_en": "बोलना never takes ने, so the subject cannot go into the उसने form."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Put this sentence into the perfective.",
+              "question": "वह बोलता है।",
+              "question_read_as": "vah boltaa hai.",
+              "options": [
+                "वह बोला।",
+                "वह बोले।",
+                "उसने बोली।",
+                "उसने बोला।"
+              ],
+              "options_read_as": [
+                "vah bolaa.",
+                "vah bole.",
+                "usne bolii.",
+                "usne bolaa."
+              ],
+              "answer_index": 0,
+              "explanation_en": "बोलना takes no ने, so वह stays as it is and बोला agrees with it."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "वह बोला।",
+                "उसने कहा।",
+                "उसने बोला।",
+                "हम बोले।"
+              ],
+              "options_read_as": [
+                "vah bolaa.",
+                "usne kahaa.",
+                "usne bolaa.",
+                "ham bole."
+              ],
+              "answer_index": 2,
+              "explanation_en": "उसने बोला puts ने on a verb that refuses it. कहना takes ने, बोलना does not."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह बोला।",
+              "वह बोली।",
+              "लड़के बोले।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L11-I2",
+          "type": "grammar",
+          "target": "मैं पानी लाया",
+          "read_as": "maiṁ paanii laayaa",
+          "pronunciation_notes": "लाया is two long syllables, laa-yaa, with a light glide between them. Do not let it collapse to laayā-single.",
+          "gloss_en": "I brought water — लाना takes no ने",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ergative",
+            "ne_exception",
+            "laanaa",
+            "transitive",
+            "perfective",
+            "subject_agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "लाना is transitive and still refuses ने",
+              "explanation_en": "लाना is the hardest of the three, because it is transitive by every test — you bring something, and the something is right there in the sentence. It still takes no ने. The usual explanation is that लाना is a fusion of ले and आना, and आना is intransitive, so the आना half won. Whatever the history, the consequence is what matters: the subject stays plain and the verb agrees with the SUBJECT, ignoring the object completely. वह रोटी लाया is the sentence to hold on to — रोटी is feminine and sitting right next to the verb, and the verb pays it no attention at all.",
+              "examples": [
+                {
+                  "hindi": "मैं पानी लाया।",
+                  "read_as": "maiṁ paanii laayaa.",
+                  "english": "I brought water. (male speaker)",
+                  "note": "Plain मैं, not मैंने."
+                },
+                {
+                  "hindi": "वह रोटी लाया।",
+                  "read_as": "vah rotii laayaa.",
+                  "english": "He brought roti.",
+                  "note": "The object is feminine and the verb stays masculine — proof the agreement is with the subject."
+                },
+                {
+                  "hindi": "हम किताबें लाए।",
+                  "read_as": "ham kitaabeṁ laae.",
+                  "english": "We brought books.",
+                  "note": "Plural subject, plural verb, feminine plural object ignored."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने पानी लाया।",
+                "right": "मैं पानी लाया।",
+                "why_en": "लाना is on the exception list, so the ने form of the pronoun cannot be used with it."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Put this sentence into the perfective.",
+              "question": "मैं पानी लाता हूँ।",
+              "question_read_as": "maiṁ paanii laataa huuṁ.",
+              "options": [
+                "मुझे पानी लाया।",
+                "मैं पानी लाए।",
+                "मैं पानी लाया।",
+                "मैंने पानी लाया।"
+              ],
+              "options_read_as": [
+                "mujhe paanii laayaa.",
+                "maiṁ paanii laae.",
+                "maiṁ paanii laayaa.",
+                "maiṁne paanii laayaa."
+              ],
+              "answer_index": 2,
+              "explanation_en": "लाना takes no ने, so मैं stays plain and लाया agrees with it."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "मैं चाय लाया।",
+                "उसने किताब लाई।",
+                "वह रोटी लाया।",
+                "हम खाना लाए।"
+              ],
+              "options_read_as": [
+                "maiṁ chaay laayaa.",
+                "usne kitaab laaii.",
+                "vah rotii laayaa.",
+                "ham khaanaa laae."
+              ],
+              "answer_index": 1,
+              "explanation_en": "उसने किताब लाई does two wrong things at once — ने on लाना, and agreement with the object. It should be वह किताब लाया or लाई depending on who the subject is."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं पानी लाया।",
+              "वह रोटी लाया।",
+              "हम किताबें लाए।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L11-I3",
+          "type": "grammar",
+          "target": "वह नाम भूला",
+          "read_as": "vah naam bhuulaa",
+          "pronunciation_notes": "भूला carries an aspirated bh and a long uu: bhuu-laa. The aspiration is a puff of breath, not a separate h sound after the b.",
+          "gloss_en": "he forgot the name — भूलना takes no ने",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ergative",
+            "ne_exception",
+            "bhuulnaa",
+            "transitive",
+            "perfective",
+            "subject_agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "भूलना forgets ने as well",
+              "explanation_en": "भूलना is the third and last exception. Like लाना it is transitive in meaning — you forget something — and like लाना it refuses ने and agrees with the subject. लड़का किताब भूला is the diagnostic sentence: किताब is feminine and the verb stays masculine, because it is looking at लड़का. That is the whole list now: बोलना, लाना, भूलना. Three verbs. Everything else in Hindi follows the test from level 10, so it is worth spending a minute committing these three to memory rather than hoping to work them out.",
+              "examples": [
+                {
+                  "hindi": "वह नाम भूला।",
+                  "read_as": "vah naam bhuulaa.",
+                  "english": "He forgot the name.",
+                  "note": "No ने, subject agreement."
+                },
+                {
+                  "hindi": "लड़का किताब भूला।",
+                  "read_as": "laṛkaa kitaab bhuulaa.",
+                  "english": "The boy forgot the book.",
+                  "note": "Feminine object, masculine verb — the object has no vote."
+                },
+                {
+                  "hindi": "मैं रास्ता भूली।",
+                  "read_as": "maiṁ raastaa bhuulii.",
+                  "english": "I forgot the way. (female speaker)",
+                  "note": "रास्ता is masculine and the verb is feminine, because the speaker is."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने नाम भूला।",
+                "right": "वह नाम भूला।",
+                "why_en": "भूलना is on the exception list; the subject stays plain no matter how transitive the verb feels."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Put this sentence into the perfective.",
+              "question": "वह नाम भूलता है।",
+              "question_read_as": "vah naam bhuultaa hai.",
+              "options": [
+                "उसने नाम भूला।",
+                "वह नाम भूले।",
+                "उसने नाम भूली।",
+                "वह नाम भूला।"
+              ],
+              "options_read_as": [
+                "usne naam bhuulaa.",
+                "vah naam bhuule.",
+                "usne naam bhuulii.",
+                "vah naam bhuulaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "भूलना takes no ने, so वह stays plain and भूला agrees with the subject."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "उसने चाबी भूली।",
+                "वह नाम भूला।",
+                "लड़का किताब भूला।",
+                "हम रास्ता भूले।"
+              ],
+              "options_read_as": [
+                "usne chaabii bhuulii.",
+                "vah naam bhuulaa.",
+                "laṛkaa kitaab bhuulaa.",
+                "ham raastaa bhuule."
+              ],
+              "answer_index": 0,
+              "explanation_en": "उसने चाबी भूली has both errors — ने on भूलना, and the verb agreeing with the object instead of the subject."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह नाम भूला।",
+              "लड़का किताब भूला।",
+              "मैं रास्ता भूली।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Three verbs refuse ने no matter how transitive they feel: बोलना, लाना, भूलना. In all three the subject stays plain and the verb agrees with the subject, ignoring the object entirely.",
+        "key_forms": [
+          "वह बोला",
+          "मैं पानी लाया",
+          "वह नाम भूला"
+        ],
+        "next_up_en": "Next: each exception set directly against the ordinary verb it sits closest to."
+      }
+    },
+    {
+      "level": 12,
+      "title_en": "Each exception against its neighbour",
+      "title_hi": "बोला बनाम कहा",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M09-L12-I1",
+          "type": "grammar",
+          "target": "वह बोला / उसने कहा",
+          "read_as": "vah bolaa / usne kahaa",
+          "pronunciation_notes": "कहा is ka-haa — the h is a full consonant here, not a breath on the k.",
+          "gloss_en": "he spoke / he said — the same meaning, opposite behaviour",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ergative",
+            "ne_exception",
+            "contrast_pair",
+            "bolnaa",
+            "kahnaa",
+            "perfective"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Two verbs for saying, one ने between them",
+              "explanation_en": "बोलना and कहना cover almost the same ground in English, and they behave in opposite ways in the perfective. कहना is an ordinary transitive verb and takes ने: उसने कहा. बोलना does not: वह बोला. No difference in meaning is large enough to explain the split — this is arbitrary, and the only defence is to learn the two forms as one pair. There is a soft usage split worth knowing alongside it: कहना usually introduces what was said, while बोलना is closer to the act of speaking. But when you are choosing between उसने and वह, meaning will not help you. The pair will.",
+              "examples": [
+                {
+                  "hindi": "वह बोला।",
+                  "read_as": "vah bolaa.",
+                  "english": "He spoke.",
+                  "note": "बोलना — no ने."
+                },
+                {
+                  "hindi": "उसने कहा।",
+                  "read_as": "usne kahaa.",
+                  "english": "He said.",
+                  "note": "कहना — ने, and the verb sits in the neutral masculine because there is no object to agree with."
+                },
+                {
+                  "hindi": "उसने सच कहा।",
+                  "read_as": "usne sach kahaa.",
+                  "english": "He told the truth.",
+                  "note": "सच is masculine, so कहा — and here the agreement is genuinely with the object."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने बोला।",
+                "right": "वह बोला।",
+                "why_en": "The ने belongs to कहना, not to बोलना. Swapping the two is the single most common form of this error."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Which pair is correct?",
+              "question": "वह बोलता है। / वह कहता है।",
+              "question_read_as": "vah boltaa hai. / vah kahtaa hai.",
+              "options": [
+                "उसने बोला। / उसने कहा।",
+                "वह बोला। / वह कहा।",
+                "वह बोला। / उसने कहा।",
+                "उसने बोला। / वह कहा।"
+              ],
+              "options_read_as": [
+                "usne bolaa. / usne kahaa.",
+                "vah bolaa. / vah kahaa.",
+                "vah bolaa. / usne kahaa.",
+                "usne bolaa. / vah kahaa."
+              ],
+              "answer_index": 2,
+              "explanation_en": "बोलना refuses ने and कहना requires it, so the correct pair splits down the middle."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "उसने सच कहा।",
+                "वह ज़ोर से बोला।",
+                "वह सच कहा।",
+                "लड़की बोली।"
+              ],
+              "options_read_as": [
+                "usne sach kahaa.",
+                "vah zor se bolaa.",
+                "vah sach kahaa.",
+                "laṛkii bolii."
+              ],
+              "answer_index": 2,
+              "explanation_en": "वह सच कहा is missing ने — कहना is an ordinary transitive verb and needs उसने."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह बोला।",
+              "उसने कहा।",
+              "उसने सच कहा।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L12-I2",
+          "type": "grammar",
+          "target": "मैं लाया / मैंने दिया",
+          "read_as": "maiṁ laayaa / maiṁne diyaa",
+          "pronunciation_notes": "दिया is di-yaa, a short first syllable and a long second. Compare लिया, li-yaa, which behaves the same way.",
+          "gloss_en": "I brought / I gave — one takes ने, the other does not",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ergative",
+            "ne_exception",
+            "contrast_pair",
+            "laanaa",
+            "denaa",
+            "object_agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Bringing and giving split apart",
+              "explanation_en": "लाना and देना both move a thing between people, and only देना takes ने. That makes them the sharpest pair in the module, because the second half also shows the full machine working: मैंने किताब दी has ने on the subject and a feminine verb agreeing with किताब. Put मैं किताब लाया next to it and every moving part is visible at once — one sentence agrees with the subject and one agrees with the object, and the presence of ने is what decides which.",
+              "examples": [
+                {
+                  "hindi": "मैं किताब लाया।",
+                  "read_as": "maiṁ kitaab laayaa.",
+                  "english": "I brought the book.",
+                  "note": "No ने. Feminine object, masculine verb — agreement is with मैं."
+                },
+                {
+                  "hindi": "मैंने किताब दी।",
+                  "read_as": "maiṁne kitaab dii.",
+                  "english": "I gave the book.",
+                  "note": "ने appears, and now the feminine object controls the verb."
+                },
+                {
+                  "hindi": "उसने पानी दिया।",
+                  "read_as": "usne paanii diyaa.",
+                  "english": "He gave water.",
+                  "note": "Masculine object, masculine verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने किताब लाई।",
+                "right": "मैं किताब लाया।",
+                "why_en": "Learners copy the दी pattern across to लाना. लाना has no ने, so nothing licenses object agreement."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Which pair is correct?",
+              "question": "मैं किताब लाता हूँ। / मैं किताब देता हूँ।",
+              "question_read_as": "maiṁ kitaab laataa huuṁ. / maiṁ kitaab detaa huuṁ.",
+              "options": [
+                "मैंने किताब लाई। / मैंने किताब दी।",
+                "मैं किताब लाया। / मैंने किताब दी।",
+                "मैं किताब लाया। / मैं किताब दिया।",
+                "मैंने किताब लाया। / मैंने किताब दिया।"
+              ],
+              "options_read_as": [
+                "maiṁne kitaab laaii. / maiṁne kitaab dii.",
+                "maiṁ kitaab laayaa. / maiṁne kitaab dii.",
+                "maiṁ kitaab laayaa. / maiṁ kitaab diyaa.",
+                "maiṁne kitaab laayaa. / maiṁne kitaab diyaa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "लाना stays plain with subject agreement; देना takes ने and then agrees with feminine किताब, giving दी."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "वह चाय लाया।",
+                "उसने चाय दी।",
+                "हम खाना लाए।",
+                "मैंने खाना लाया।"
+              ],
+              "options_read_as": [
+                "vah chaay laayaa.",
+                "usne chaay dii.",
+                "ham khaanaa laae.",
+                "maiṁne khaanaa laayaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "मैंने खाना लाया puts ने on लाना. It should be मैं खाना लाया."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं किताब लाया।",
+              "मैंने किताब दी।",
+              "उसने पानी दिया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L12-I3",
+          "type": "grammar",
+          "target": "वह भूला / उसने याद किया",
+          "read_as": "vah bhuulaa / usne yaad kiyaa",
+          "pronunciation_notes": "याद ends in a soft d made with the tongue on the teeth, not the ridge behind them.",
+          "gloss_en": "he forgot / he remembered — and a rule that comes free",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "ergative",
+            "ne_exception",
+            "contrast_pair",
+            "bhuulnaa",
+            "karnaa_compound",
+            "perfective"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Forgetting is irregular; remembering is not",
+              "explanation_en": "भूलना refuses ने. Its opposite, याद करना, takes it without complaint — and that hands you a rule worth more than the pair itself: every verb built on करना takes ने. काम करना, याद करना, मदद करना, इंतज़ार करना, शुरू करना. Hindi builds enormous numbers of verbs this way, borrowing a noun and bolting करना onto it, so a single decision covers hundreds of verbs at once. Note मदद की in the third example — मदद is feminine, so the करना half agrees with it and becomes की.",
+              "examples": [
+                {
+                  "hindi": "वह नाम भूला।",
+                  "read_as": "vah naam bhuulaa.",
+                  "english": "He forgot the name.",
+                  "note": "No ने."
+                },
+                {
+                  "hindi": "उसने नाम याद किया।",
+                  "read_as": "usne naam yaad kiyaa.",
+                  "english": "He memorised the name.",
+                  "note": "करना verb, so ने, and किया agrees with masculine नाम."
+                },
+                {
+                  "hindi": "उसने मदद की।",
+                  "read_as": "usne madad kii.",
+                  "english": "He helped.",
+                  "note": "मदद is feminine, so करना becomes की — the agreement runs on the noun inside the verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह याद किया।",
+                "right": "उसने याद किया।",
+                "why_en": "करना verbs always take ने, and भूलना being an exception does not spread to its opposite."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Put this sentence into the perfective.",
+              "question": "वह मदद करता है।",
+              "question_read_as": "vah madad kartaa hai.",
+              "options": [
+                "उसने मदद की।",
+                "वह मदद किया।",
+                "उसने मदद किया।",
+                "वह मदद की।"
+              ],
+              "options_read_as": [
+                "usne madad kii.",
+                "vah madad kiyaa.",
+                "usne madad kiyaa.",
+                "vah madad kii."
+              ],
+              "answer_index": 0,
+              "explanation_en": "करना takes ने, and मदद is feminine, so the verb becomes की."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "उसने काम किया।",
+                "वह नाम भूला।",
+                "उसने याद किया।",
+                "उसने रास्ता भूला।"
+              ],
+              "options_read_as": [
+                "usne kaam kiyaa.",
+                "vah naam bhuulaa.",
+                "usne yaad kiyaa.",
+                "usne raastaa bhuulaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "उसने रास्ता भूला puts ने on भूलना. It should be वह रास्ता भूला."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह नाम भूला।",
+              "उसने नाम याद किया।",
+              "उसने मदद की।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "बोलना against कहना, लाना against देना, भूलना against याद करना — in each pair only one verb takes ने, and the meanings give you no clue which. A free rule falls out of the third pair: every करना verb takes ने.",
+        "key_forms": [
+          "उसने कहा",
+          "मैंने किताब दी",
+          "उसने मदद की"
+        ],
+        "next_up_en": "Next: what happens to agreement when the object itself carries को."
+      }
+    },
+    {
+      "level": 13,
+      "title_en": "को on the object switches agreement off",
+      "title_hi": "को — क्रिया तटस्थ हो जाती है",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M09-L13-I1",
+          "type": "grammar",
+          "target": "मैंने उसको देखा",
+          "read_as": "maiṁne usko dekhaa",
+          "pronunciation_notes": "उसको is three light syllables run together, us-ko, with no pause before the postposition.",
+          "gloss_en": "I saw him/her — को blocks object agreement",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ergative",
+            "ko_marked_object",
+            "neutral_agreement",
+            "perfective",
+            "dekhnaa"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A third possibility: agreement with nothing",
+              "explanation_en": "Up to now there have been two settings. No ने, and the verb agrees with the subject. ने, and the verb agrees with the object. Here is the third: ने, but the object carries को, and now the verb agrees with nothing at all. It falls back to the neutral form, which is masculine singular -आ, regardless of what the object actually is. मैंने उसको देखा stays देखा whether the person seen is a man, a woman, or a crowd. The reason is mechanical rather than semantic — a noun already wearing a postposition is not available for agreement, and को is a postposition. You met exactly this logic in Module 6.",
+              "examples": [
+                {
+                  "hindi": "मैंने उसको देखा।",
+                  "read_as": "maiṁne usko dekhaa.",
+                  "english": "I saw him. / I saw her.",
+                  "note": "One form covers both, because the verb is not agreeing with anything."
+                },
+                {
+                  "hindi": "मैंने उनको देखा।",
+                  "read_as": "maiṁne unko dekhaa.",
+                  "english": "I saw them.",
+                  "note": "Plural object and the verb still does not move."
+                },
+                {
+                  "hindi": "मैंने किताब देखी।",
+                  "read_as": "maiṁne kitaab dekhii.",
+                  "english": "I saw the book.",
+                  "note": "Remove को and agreement comes straight back — feminine object, feminine verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने उनको देखे।",
+                "right": "मैंने उनको देखा।",
+                "why_en": "A को-marked object cannot control the verb, so pluralising it is not an option."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Put this sentence into the perfective.",
+              "question": "मैं उनको देखता हूँ।",
+              "question_read_as": "maiṁ unko dekhtaa huuṁ.",
+              "options": [
+                "मैंने उनको देखा।",
+                "मैं उनको देखा।",
+                "मैंने उनको देखीं।",
+                "मैंने उनको देखे।"
+              ],
+              "options_read_as": [
+                "maiṁne unko dekhaa.",
+                "maiṁ unko dekhaa.",
+                "maiṁne unko dekhiiṁ.",
+                "maiṁne unko dekhe."
+              ],
+              "answer_index": 0,
+              "explanation_en": "ने is required, and को on the object holds the verb in the neutral देखा."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "मैंने उसको देखा।",
+                "मैंने किताब देखी।",
+                "मैंने उनको देखे।",
+                "उसने मुझको देखा।"
+              ],
+              "options_read_as": [
+                "maiṁne usko dekhaa.",
+                "maiṁne kitaab dekhii.",
+                "maiṁne unko dekhe.",
+                "usne mujhko dekhaa."
+              ],
+              "answer_index": 2,
+              "explanation_en": "मैंने उनको देखे lets a को-marked object control the verb. It should be देखा."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने उसको देखा।",
+              "मैंने उनको देखा।",
+              "मैंने किताब देखी।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L13-I2",
+          "type": "grammar",
+          "target": "मैंने लड़की को बुलाया",
+          "read_as": "maiṁne laṛkii ko bulaayaa",
+          "pronunciation_notes": "बुलाया is bu-laa-yaa, three syllables with the length in the middle. Keep the first one short or it drifts towards भुलाया.",
+          "gloss_en": "I called the girl — feminine object, masculine verb",
+          "gender": null,
+          "difficulty": 9,
+          "tags": [
+            "ergative",
+            "ko_marked_object",
+            "neutral_agreement",
+            "feminine_object",
+            "bulaanaa"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The verb ignores a feminine object under को",
+              "explanation_en": "This is the item where the rule earns its place. लड़की is feminine, it is the object, and Module 9 has spent ten levels training you to make the verb follow it. Then को appears and the verb stays बुलाया. Everything you have practised says बुलाई and everything you have practised is wrong here. The cleanest way to feel it is to take को off: मैंने लड़की देखी is perfectly good Hindi and the agreement snaps straight back. Same noun, same gender, same speaker — the only variable is the postposition.",
+              "examples": [
+                {
+                  "hindi": "मैंने लड़की को बुलाया।",
+                  "read_as": "maiṁne laṛkii ko bulaayaa.",
+                  "english": "I called the girl.",
+                  "note": "को present, so the verb is frozen at बुलाया."
+                },
+                {
+                  "hindi": "मैंने लड़की देखी।",
+                  "read_as": "maiṁne laṛkii dekhii.",
+                  "english": "I saw a girl.",
+                  "note": "No को, so the feminine object takes control again."
+                },
+                {
+                  "hindi": "उसने माँ को बुलाया।",
+                  "read_as": "usne maaṁ ko bulaayaa.",
+                  "english": "He called mother.",
+                  "note": "Same shape with a different feminine noun — still बुलाया."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने लड़की को बुलाई।",
+                "right": "मैंने लड़की को बुलाया।",
+                "why_en": "The instinct is right for a bare object and wrong for a को-marked one. को removes the object from the agreement system entirely."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Put this sentence into the perfective.",
+              "question": "मैं लड़की को बुलाता हूँ।",
+              "question_read_as": "maiṁ laṛkii ko bulaataa huuṁ.",
+              "options": [
+                "मैंने लड़की को बुलाई।",
+                "मैं लड़की को बुलाया।",
+                "मैंने लड़की को बुलाया।",
+                "मैंने लड़की को बुलाईं।"
+              ],
+              "options_read_as": [
+                "maiṁne laṛkii ko bulaaii.",
+                "maiṁ laṛkii ko bulaayaa.",
+                "maiṁne laṛkii ko bulaayaa.",
+                "maiṁne laṛkii ko bulaaiiṁ."
+              ],
+              "answer_index": 2,
+              "explanation_en": "ने is required and को blocks agreement, so the verb sits in the neutral बुलाया."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "मैंने लड़की को बुलाई।",
+                "मैंने लड़की देखी।",
+                "उसने माँ को बुलाया।",
+                "मैंने रोटी खाई।"
+              ],
+              "options_read_as": [
+                "maiṁne laṛkii ko bulaaii.",
+                "maiṁne laṛkii dekhii.",
+                "usne maaṁ ko bulaayaa.",
+                "maiṁne rotii khaaii."
+              ],
+              "answer_index": 0,
+              "explanation_en": "The other three are all correct. Only the first has a feminine verb after a को-marked object."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने लड़की को बुलाया।",
+              "मैंने लड़की देखी।",
+              "उसने माँ को बुलाया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L13-I3",
+          "type": "grammar",
+          "target": "उसने बच्चों को पढ़ाया",
+          "read_as": "usne bacchoṁ ko paṛhaayaa",
+          "pronunciation_notes": "बच्चों has a doubled ch that must be held, bac-choṁ, and पढ़ाया uses the flapped ṛh — the tongue flicks down off the roof of the mouth.",
+          "gloss_en": "he taught the children — plural object, neutral verb",
+          "gender": null,
+          "difficulty": 9,
+          "tags": [
+            "ergative",
+            "ko_marked_object",
+            "neutral_agreement",
+            "plural_object",
+            "oblique_plural"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Number is blocked as well as gender",
+              "explanation_en": "को does not just switch off gender agreement, it switches off number too. बच्चों is plural, and the verb is still the singular पढ़ाया. Notice the object is also in the oblique plural — बच्चों, not बच्चे — because को is a postposition and Module 6 said every noun in front of a postposition goes oblique. That is worth pausing on: the same fact explains both halves of this sentence. को makes the noun oblique, and an oblique noun cannot govern the verb. Take को away and both effects vanish together: उसने किताबें पढ़ीं has a bare feminine plural object and a verb that follows it all the way to the nasal.",
+              "examples": [
+                {
+                  "hindi": "उसने बच्चों को पढ़ाया।",
+                  "read_as": "usne bacchoṁ ko paṛhaayaa.",
+                  "english": "He taught the children.",
+                  "note": "Plural, oblique, को — and a singular verb."
+                },
+                {
+                  "hindi": "उसने लड़कों को बुलाया।",
+                  "read_as": "usne laṛkoṁ ko bulaayaa.",
+                  "english": "He called the boys.",
+                  "note": "Same shape, same neutral verb."
+                },
+                {
+                  "hindi": "उसने किताबें पढ़ीं।",
+                  "read_as": "usne kitaabeṁ paṛhiiṁ.",
+                  "english": "He read the books.",
+                  "note": "No को, so the feminine plural object controls the verb completely."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने बच्चों को पढ़ाए।",
+                "right": "उसने बच्चों को पढ़ाया।",
+                "why_en": "The plural on the object is invisible to the verb once को is in the way."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Put this sentence into the perfective.",
+              "question": "वह बच्चों को पढ़ाता है।",
+              "question_read_as": "vah bacchoṁ ko paṛhaataa hai.",
+              "options": [
+                "उसने बच्चों को पढ़ाए।",
+                "वह बच्चों को पढ़ाया।",
+                "उसने बच्चे को पढ़ाया।",
+                "उसने बच्चों को पढ़ाया।"
+              ],
+              "options_read_as": [
+                "usne bacchoṁ ko paṛhaae.",
+                "vah bacchoṁ ko paṛhaayaa.",
+                "usne bacche ko paṛhaayaa.",
+                "usne bacchoṁ ko paṛhaayaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "ने on the subject, oblique plural बच्चों before को, and a neutral verb."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "उसने लड़कों को बुलाया।",
+                "उसने किताबें पढ़ीं।",
+                "उसने बच्चों को पढ़ाए।",
+                "मैंने उनको देखा।"
+              ],
+              "options_read_as": [
+                "usne laṛkoṁ ko bulaayaa.",
+                "usne kitaabeṁ paṛhiiṁ.",
+                "usne bacchoṁ ko paṛhaae.",
+                "maiṁne unko dekhaa."
+              ],
+              "answer_index": 2,
+              "explanation_en": "उसने बच्चों को पढ़ाए lets a को-marked plural pull the verb into the plural. It should be पढ़ाया."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उसने बच्चों को पढ़ाया।",
+              "उसने लड़कों को बुलाया।",
+              "उसने किताबें पढ़ीं।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "को on the object removes it from the agreement system. The verb drops to the neutral masculine singular -आ and stays there, whatever the object's gender or number. Remove को and agreement returns immediately.",
+        "key_forms": [
+          "मैंने उसको देखा",
+          "मैंने लड़की को बुलाया",
+          "उसने बच्चों को पढ़ाया"
+        ],
+        "next_up_en": "Next: when को is required in the first place, and the pair that proves को is the switch."
+      }
+    },
+    {
+      "level": 14,
+      "title_en": "को with people, and the proof",
+      "title_hi": "व्यक्ति के साथ को",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M09-L14-I1",
+          "type": "grammar",
+          "target": "राम ने सीता को देखा",
+          "read_as": "raam ne siitaa ko dekhaa",
+          "pronunciation_notes": "Noun subjects keep ने as a separate word with a real gap before it: raam · ne. Only pronouns fuse.",
+          "gloss_en": "Ram saw Sita — noun subject, को-marked person",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ergative",
+            "ko_marked_object",
+            "noun_subject",
+            "animate_object",
+            "neutral_agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Two postpositions, one sentence",
+              "explanation_en": "This sentence has ने on the subject and को on the object, and both are doing exactly what Module 6 predicted. राम ने is written apart because राम is a noun — only pronouns fuse into मैंने, उसने, उन्होंने. सीता को is a specific human being, and Hindi strongly prefers को on specific humans in object position. The verb then has nothing to agree with and sits in देखा. Reverse the sentence and nothing changes structurally: सीता ने राम को देखा, still देखा, because the blocking has nothing to do with who is male or female.",
+              "examples": [
+                {
+                  "hindi": "राम ने सीता को देखा।",
+                  "read_as": "raam ne siitaa ko dekhaa.",
+                  "english": "Ram saw Sita.",
+                  "note": "Feminine object, neutral verb."
+                },
+                {
+                  "hindi": "सीता ने राम को देखा।",
+                  "read_as": "siitaa ne raam ko dekhaa.",
+                  "english": "Sita saw Ram.",
+                  "note": "Feminine subject this time, and the verb is unchanged — ने sentences never look at the subject."
+                },
+                {
+                  "hindi": "राम ने किताब पढ़ी।",
+                  "read_as": "raam ne kitaab paṛhii.",
+                  "english": "Ram read the book.",
+                  "note": "Bare inanimate object, so agreement is live again."
+                }
+              ],
+              "common_error": {
+                "wrong": "राम ने सीता को देखी।",
+                "right": "राम ने सीता को देखा।",
+                "why_en": "सीता is feminine but को-marked, so she cannot control the verb."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Put this sentence into the perfective.",
+              "question": "राम सीता को देखता है।",
+              "question_read_as": "raam siitaa ko dekhtaa hai.",
+              "options": [
+                "राम सीता को देखा।",
+                "राम ने सीता को देखी।",
+                "रामने सीता को देखा।",
+                "राम ने सीता को देखा।"
+              ],
+              "options_read_as": [
+                "raam siitaa ko dekhaa.",
+                "raam ne siitaa ko dekhii.",
+                "raamne siitaa ko dekhaa.",
+                "raam ne siitaa ko dekhaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "ने is needed and stays a separate word after a noun; को then holds the verb at देखा."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "सीता ने राम को देखा।",
+                "रामने सीता को देखा।",
+                "राम ने किताब पढ़ी।",
+                "राम ने सीता को देखा।"
+              ],
+              "options_read_as": [
+                "siitaa ne raam ko dekhaa.",
+                "raamne siitaa ko dekhaa.",
+                "raam ne kitaab paṛhii.",
+                "raam ne siitaa ko dekhaa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "रामने is written as one word. Nouns keep ने separate — only pronouns fuse."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "राम ने सीता को देखा।",
+              "सीता ने राम को देखा।",
+              "राम ने किताब पढ़ी।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L14-I2",
+          "type": "grammar",
+          "target": "उसने डॉक्टर को बुलाया",
+          "read_as": "usne ḍaakṭar ko bulaayaa",
+          "pronunciation_notes": "डॉक्टर uses the ऑ vowel, a rounded o between English 'cot' and 'caught', and the retroflex ḍ and ṭ are made with the tongue curled back.",
+          "gloss_en": "he called the doctor — को is near-compulsory with specific people",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ergative",
+            "ko_marked_object",
+            "animate_object",
+            "neutral_agreement",
+            "bulaanaa"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "When को is not optional",
+              "explanation_en": "You now know what को does to the verb. The remaining question is when to put it there, and the working answer is: on a specific person, almost always. उसने डॉक्टर को बुलाया, not उसने डॉक्टर बुलाया. With things, को is usually absent unless the thing is highly definite. This item deliberately uses a masculine object, because डॉक्टर would give बुलाया either way — which lets the next example do the real work. उसने माँ को बुलाया is also बुलाया, and माँ is unambiguously feminine. Same form, opposite genders. को is doing it, not gender.",
+              "examples": [
+                {
+                  "hindi": "उसने डॉक्टर को बुलाया।",
+                  "read_as": "usne ḍaakṭar ko bulaayaa.",
+                  "english": "He called the doctor.",
+                  "note": "A specific person, so को."
+                },
+                {
+                  "hindi": "उसने माँ को बुलाया।",
+                  "read_as": "usne maaṁ ko bulaayaa.",
+                  "english": "He called mother.",
+                  "note": "Feminine object, identical verb form — the proof."
+                },
+                {
+                  "hindi": "हमने बच्चे को बुलाया।",
+                  "read_as": "hamne bacche ko bulaayaa.",
+                  "english": "We called the child.",
+                  "note": "बच्चा goes oblique to बच्चे before को, but the verb is untouched."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने माँ को बुलाई।",
+                "right": "उसने माँ को बुलाया।",
+                "why_en": "माँ is feminine, but को has already removed her from the agreement system."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Put this sentence into the perfective.",
+              "question": "वह माँ को बुलाता है।",
+              "question_read_as": "vah maaṁ ko bulaataa hai.",
+              "options": [
+                "उसने माँ को बुलाया।",
+                "उसने माँ को बुलाई।",
+                "वह माँ को बुलाया।",
+                "उसने माँ बुलाई।"
+              ],
+              "options_read_as": [
+                "usne maaṁ ko bulaayaa.",
+                "usne maaṁ ko bulaaii.",
+                "vah maaṁ ko bulaayaa.",
+                "usne maaṁ bulaaii."
+              ],
+              "answer_index": 0,
+              "explanation_en": "ने on the subject, को kept on the person, and the verb neutral at बुलाया."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "उसने डॉक्टर को बुलाया।",
+                "हमने बच्चे को बुलाया।",
+                "उसने माँ को बुलाई।",
+                "उसने रोटी खाई।"
+              ],
+              "options_read_as": [
+                "usne ḍaakṭar ko bulaayaa.",
+                "hamne bacche ko bulaayaa.",
+                "usne maaṁ ko bulaaii.",
+                "usne rotii khaaii."
+              ],
+              "answer_index": 2,
+              "explanation_en": "उसने माँ को बुलाई agrees with a को-marked object. रोटी in the last option has no को, so खाई there is correct."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उसने डॉक्टर को बुलाया।",
+              "उसने माँ को बुलाया।",
+              "हमने बच्चे को बुलाया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L14-I3",
+          "type": "grammar",
+          "target": "मैंने माँ को समझाया",
+          "read_as": "maiṁne maaṁ ko samjhaayaa",
+          "pronunciation_notes": "समझाया is sam-jhaa-yaa. The झ is an aspirated j — one sound, not j followed by h.",
+          "gloss_en": "I explained to mother — the pair that proves the rule",
+          "gender": null,
+          "difficulty": 9,
+          "tags": [
+            "ergative",
+            "ko_marked_object",
+            "minimal_pair",
+            "feminine_object",
+            "samjhaanaa"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "One verb, one speaker, two verb forms",
+              "explanation_en": "Here is the pair the whole block has been building towards. मैंने माँ को समझाया and मैंने बात समझाई. Same speaker, same verb, both objects feminine — and the verbs differ. The only difference in the sentences is को. That is as close to a controlled experiment as grammar gets, and it rules out every other explanation you might have been carrying: it is not about animacy, not about gender, not about word order. The third example puts both objects in one sentence: मैंने माँ को बात समझाई. माँ has को and is out of the running; बात is bare and takes the verb.",
+              "examples": [
+                {
+                  "hindi": "मैंने माँ को समझाया।",
+                  "read_as": "maiṁne maaṁ ko samjhaayaa.",
+                  "english": "I explained to mother.",
+                  "note": "को-marked feminine, neutral verb."
+                },
+                {
+                  "hindi": "मैंने बात समझाई।",
+                  "read_as": "maiṁne baat samjhaaii.",
+                  "english": "I explained the matter.",
+                  "note": "Bare feminine, feminine verb."
+                },
+                {
+                  "hindi": "मैंने माँ को बात समझाई।",
+                  "read_as": "maiṁne maaṁ ko baat samjhaaii.",
+                  "english": "I explained the matter to mother.",
+                  "note": "Both present. The bare object wins, because the को-marked one was never eligible."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने माँ को समझाई।",
+                "right": "मैंने माँ को समझाया।",
+                "why_en": "With को on माँ there is no eligible controller left, so the verb takes the neutral form."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Which pair is correct?",
+              "question": "मैं माँ को समझाता हूँ। / मैं बात समझाता हूँ।",
+              "question_read_as": "maiṁ maaṁ ko samjhaataa huuṁ. / maiṁ baat samjhaataa huuṁ.",
+              "options": [
+                "मैंने माँ को समझाई। / मैंने बात समझाई।",
+                "मैंने माँ को समझाया। / मैंने बात समझाया।",
+                "मैंने माँ को समझाई। / मैंने बात समझाया।",
+                "मैंने माँ को समझाया। / मैंने बात समझाई।"
+              ],
+              "options_read_as": [
+                "maiṁne maaṁ ko samjhaaii. / maiṁne baat samjhaaii.",
+                "maiṁne maaṁ ko samjhaayaa. / maiṁne baat samjhaayaa.",
+                "maiṁne maaṁ ko samjhaaii. / maiṁne baat samjhaayaa.",
+                "maiṁne maaṁ ko samjhaayaa. / maiṁne baat samjhaaii."
+              ],
+              "answer_index": 3,
+              "explanation_en": "को blocks agreement in the first, and the bare feminine बात controls the verb in the second."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "मैंने माँ को बात समझाई।",
+                "मैंने माँ को समझाई।",
+                "मैंने बात समझाई।",
+                "मैंने माँ को समझाया।"
+              ],
+              "options_read_as": [
+                "maiṁne maaṁ ko baat samjhaaii.",
+                "maiṁne maaṁ ko samjhaaii.",
+                "maiṁne baat samjhaaii.",
+                "maiṁne maaṁ ko samjhaayaa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "The first sentence is correct because बात is bare and controls the verb. The second has only a को-marked object, so it must be समझाया."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने माँ को समझाया।",
+              "मैंने बात समझाई।",
+              "मैंने माँ को बात समझाई।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "को goes on specific people almost without exception, and once it is there the verb stops agreeing. मैंने माँ को समझाया against मैंने बात समझाई is the pair to keep — same speaker, same verb, and only को between them.",
+        "key_forms": [
+          "राम ने सीता को देखा",
+          "उसने माँ को बुलाया",
+          "मैंने बात समझाई"
+        ],
+        "next_up_en": "Next: ने carried into the present perfect, where a है is added on top."
+      }
+    },
+    {
+      "level": 15,
+      "title_en": "ने in the present perfect",
+      "title_hi": "मैंने खाया है",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M09-L15-I1",
+          "type": "grammar",
+          "target": "मैंने खाना खाया है",
+          "read_as": "maiṁne khaanaa khaayaa hai",
+          "pronunciation_notes": "Three long -aa syllables in a row across खाना खाया. Keep them even rather than stressing one.",
+          "gloss_en": "I have eaten — perfective plus है",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ergative",
+            "present_perfect",
+            "auxiliary",
+            "object_agreement",
+            "perfective"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Everything stays, and है is added",
+              "explanation_en": "The present perfect adds nothing new to the ने construction. ने stays on the subject, the participle still agrees with the object, and है is simply attached at the end. The only genuinely new fact is which one the है agrees with — and the answer is the object, like everything else in the sentence. This is where a very common error lives: मैंने खाना खाया हूँ. The हूँ is agreeing with मैं, and nothing in a ने sentence agrees with मैं. Once you have written ने, the subject has no further say in anything.",
+              "examples": [
+                {
+                  "hindi": "मैंने खाना खाया है।",
+                  "read_as": "maiṁne khaanaa khaayaa hai.",
+                  "english": "I have eaten.",
+                  "note": "है, not हूँ, even though the speaker is मैं."
+                },
+                {
+                  "hindi": "मैंने काम किया है।",
+                  "read_as": "maiṁne kaam kiyaa hai.",
+                  "english": "I have done the work.",
+                  "note": "Masculine object, masculine participle, singular auxiliary."
+                },
+                {
+                  "hindi": "उसने पानी पिया है।",
+                  "read_as": "usne paanii piyaa hai.",
+                  "english": "He has drunk water.",
+                  "note": "Same shape with a different subject — the subject never shows up in the verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने खाना खाया हूँ।",
+                "right": "मैंने खाना खाया है।",
+                "why_en": "हूँ is the मैं form of होना. In a ने sentence the auxiliary follows the object, so it is है."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Which sentence is correct?",
+              "question": "मैं खाना खाता हूँ। → I have eaten.",
+              "question_read_as": "maiṁ khaanaa khaataa huuṁ.",
+              "options": [
+                "मैं खाना खाया है।",
+                "मैंने खाना खाया है।",
+                "मैंने खाना खाए हैं।",
+                "मैंने खाना खाया हूँ।"
+              ],
+              "options_read_as": [
+                "maiṁ khaanaa khaayaa hai.",
+                "maiṁne khaanaa khaayaa hai.",
+                "maiṁne khaanaa khaae haiṁ.",
+                "maiṁne khaanaa khaayaa huuṁ."
+              ],
+              "answer_index": 1,
+              "explanation_en": "ने on the subject, खाया agreeing with masculine singular खाना, and है to match."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "उसने पानी पिया है।",
+                "मैंने काम किया हूँ।",
+                "मैंने खाना खाया है।",
+                "हमने काम किया है।"
+              ],
+              "options_read_as": [
+                "usne paanii piyaa hai.",
+                "maiṁne kaam kiyaa huuṁ.",
+                "maiṁne khaanaa khaayaa hai.",
+                "hamne kaam kiyaa hai."
+              ],
+              "answer_index": 1,
+              "explanation_en": "मैंने काम किया हूँ makes the auxiliary agree with मैं. It should be है, matching काम."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने खाना खाया है।",
+              "मैंने काम किया है।",
+              "उसने पानी पिया है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L15-I2",
+          "type": "grammar",
+          "target": "उसने पत्र लिखा है",
+          "read_as": "usne patr likhaa hai",
+          "pronunciation_notes": "पत्र ends in a conjunct with no vowel after it — patr, one syllable, not pa-tra.",
+          "gloss_en": "he has written the letter — what the है adds",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "ergative",
+            "present_perfect",
+            "auxiliary",
+            "aspect_contrast",
+            "likhnaa"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "What the है is actually for",
+              "explanation_en": "उसने पत्र लिखा and उसने पत्र लिखा है are both correct and they do not mean the same thing. The first reports a finished event, often with a time attached — he wrote the letter, yesterday, last week. The second says the event is done and its result is standing now — he has written it, so it exists, so you can go and read it. English draws the same line with wrote against has written, which makes this one of the few places in the module where your instincts help rather than hurt. The participle itself does not change; only the है is added or dropped.",
+              "examples": [
+                {
+                  "hindi": "उसने पत्र लिखा।",
+                  "read_as": "usne patr likhaa.",
+                  "english": "He wrote the letter.",
+                  "note": "A finished event, viewed as past."
+                },
+                {
+                  "hindi": "उसने पत्र लिखा है।",
+                  "read_as": "usne patr likhaa hai.",
+                  "english": "He has written the letter.",
+                  "note": "Done, and it matters now."
+                },
+                {
+                  "hindi": "उन्होंने पत्र लिखे हैं।",
+                  "read_as": "unhoṁne patr likhe haiṁ.",
+                  "english": "They have written letters.",
+                  "note": "Masculine plural object, so both the participle and the auxiliary go plural."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने पत्र लिखा हैं।",
+                "right": "उसने पत्र लिखा है।",
+                "why_en": "पत्र is singular, so the auxiliary is है. हैं belongs with a plural object such as पत्र लिखे हैं."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Which sentence means 'They have written letters'?",
+              "question": "वे पत्र लिखते हैं।",
+              "question_read_as": "ve patr likhte haiṁ.",
+              "options": [
+                "उन्होंने पत्र लिखे हैं।",
+                "उन्होंने पत्र लिखा हैं।",
+                "उन्होंने पत्र लिखे है।",
+                "वे पत्र लिखे हैं।"
+              ],
+              "options_read_as": [
+                "unhoṁne patr likhe haiṁ.",
+                "unhoṁne patr likhaa haiṁ.",
+                "unhoṁne patr likhe hai.",
+                "ve patr likhe haiṁ."
+              ],
+              "answer_index": 0,
+              "explanation_en": "The object is masculine plural, so the participle is लिखे and the auxiliary हैं."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "उसने पत्र लिखा।",
+                "उसने पत्र लिखा है।",
+                "उन्होंने पत्र लिखे हैं।",
+                "उसने पत्र लिखे है।"
+              ],
+              "options_read_as": [
+                "usne patr likhaa.",
+                "usne patr likhaa hai.",
+                "unhoṁne patr likhe haiṁ.",
+                "usne patr likhe hai."
+              ],
+              "answer_index": 3,
+              "explanation_en": "उसने पत्र लिखे है mixes a plural participle with a singular auxiliary. They must match."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उसने पत्र लिखा।",
+              "उसने पत्र लिखा है।",
+              "उन्होंने पत्र लिखे हैं।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L15-I3",
+          "type": "grammar",
+          "target": "हमने फ़िल्म देखी है",
+          "read_as": "hamne film dekhii hai",
+          "pronunciation_notes": "फ़ is an f, not a p sound, and फ़िल्म is one syllable in careful speech — film, with the l and m run together.",
+          "gloss_en": "we have seen the film — feminine object in the present perfect",
+          "gender": null,
+          "difficulty": 9,
+          "tags": [
+            "ergative",
+            "present_perfect",
+            "auxiliary",
+            "feminine_object",
+            "agreement_split"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The participle carries gender, the auxiliary carries number",
+              "explanation_en": "फ़िल्म is feminine, so the participle is देखी. The auxiliary stays है, because है and हैं are a singular-plural pair with no gender in them at all. That is the split worth naming: gender lives on the participle, number lives on both. Make the object feminine plural and you see it move — हमने फ़िल्में देखी हैं, where the participle is still देखी and the auxiliary has gone to हैं. And note what happened to the nasal: standing alone the feminine plural would be देखीं, but with an auxiliary behind it the nasalisation shifts onto the हैं and the participle relaxes to देखी.",
+              "examples": [
+                {
+                  "hindi": "हमने फ़िल्म देखी है।",
+                  "read_as": "hamne film dekhii hai.",
+                  "english": "We have seen the film.",
+                  "note": "Feminine participle, singular auxiliary."
+                },
+                {
+                  "hindi": "हमने फ़िल्में देखी हैं।",
+                  "read_as": "hamne filmeṁ dekhii haiṁ.",
+                  "english": "We have seen the films.",
+                  "note": "Plural object, so हैं — and देखीं loses its nasal to the auxiliary."
+                },
+                {
+                  "hindi": "उन्होंने रोटियाँ खाई हैं।",
+                  "read_as": "unhoṁne rotiyaaṁ khaaii haiṁ.",
+                  "english": "They have eaten rotis.",
+                  "note": "Same pattern with a different feminine noun."
+                }
+              ],
+              "common_error": {
+                "wrong": "हमने फ़िल्म देखा है।",
+                "right": "हमने फ़िल्म देखी है।",
+                "why_en": "फ़िल्म is feminine and bare, with no को anywhere, so it controls the participle."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Which sentence is correct?",
+              "question": "हम फ़िल्म देखते हैं। → We have seen the film.",
+              "question_read_as": "ham film dekhte haiṁ.",
+              "options": [
+                "हमने फ़िल्म देखा है।",
+                "हमने फ़िल्म देखी है।",
+                "हम फ़िल्म देखी है।",
+                "हमने फ़िल्म देखी हैं।"
+              ],
+              "options_read_as": [
+                "hamne film dekhaa hai.",
+                "hamne film dekhii hai.",
+                "ham film dekhii hai.",
+                "hamne film dekhii haiṁ."
+              ],
+              "answer_index": 1,
+              "explanation_en": "Feminine singular object gives देखी, and singular gives है."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "हमने फ़िल्में देखी हैं।",
+                "उन्होंने रोटियाँ खाई हैं।",
+                "हमने फ़िल्म देखी है।",
+                "हमने फ़िल्म देखी हैं।"
+              ],
+              "options_read_as": [
+                "hamne filmeṁ dekhii haiṁ.",
+                "unhoṁne rotiyaaṁ khaaii haiṁ.",
+                "hamne film dekhii hai.",
+                "hamne film dekhii haiṁ."
+              ],
+              "answer_index": 3,
+              "explanation_en": "The object फ़िल्म is singular, so the auxiliary must be है. हैं needs a plural object."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "हमने फ़िल्म देखी है।",
+              "हमने फ़िल्में देखी हैं।",
+              "उन्होंने रोटियाँ खाई हैं।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The present perfect changes nothing structural: ने stays, the participle still agrees with the object, and है is added on top. Gender sits on the participle, number sits on both, and the subject has no say anywhere — which is why मैंने खाया हूँ is wrong.",
+        "key_forms": [
+          "मैंने खाना खाया है",
+          "उन्होंने पत्र लिखे हैं",
+          "हमने फ़िल्म देखी है"
+        ],
+        "next_up_en": "Next: level 16 — the same construction in the past perfect, where था carries the agreement too."
+      }
+    }
+  ]
+}

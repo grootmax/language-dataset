@@ -1,0 +1,1541 @@
+{
+  "module": 4,
+  "module_name_en": "Core Words I",
+  "module_name_hi": "शब्द भंडार १",
+  "phase": 2,
+  "batch": {
+    "levels_from": 6,
+    "levels_to": 10
+  },
+  "levels": [
+    {
+      "level": 6,
+      "title_en": "The face",
+      "title_hi": "कान नाक चेहरा",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L06-I1",
+          "type": "word",
+          "target": "कान",
+          "read_as": "kaan",
+          "pronunciation_notes": "Unaspirated क with no puff of air — the k of English 'skate', not 'kite'. One syllable, kaan.",
+          "gloss_en": "ear",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "body",
+          "plural": "कान",
+          "plural_read_as": "kaan",
+          "difficulty": 3,
+          "tags": [
+            "body",
+            "noun",
+            "masculine",
+            "consonant_ending",
+            "gender_flag"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कान — ear",
+              "explanation_en": "कान is an ear. Like most body parts that come in pairs you will hear it in the plural as often as the singular, and the plural is unchanged. It ends in a consonant and is masculine, which the ending does not tell you. Keep the first sound free of breath: खान, with a puff of air, means a mine.",
+              "examples": [
+                {
+                  "hindi": "दो कान",
+                  "read_as": "do kaan",
+                  "english": "two ears",
+                  "note": "The plural is identical to the singular."
+                },
+                {
+                  "hindi": "बड़े कान",
+                  "read_as": "baṛe kaan",
+                  "english": "big ears",
+                  "note": "बड़े takes -े for a masculine plural."
+                },
+                {
+                  "hindi": "छोटा कान",
+                  "read_as": "chhoṭaa kaan",
+                  "english": "a small ear",
+                  "note": "In the singular the adjective takes -ा instead."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "कान",
+              "question_read_as": "kaan",
+              "options": [
+                "a hand",
+                "an eye",
+                "an ear",
+                "a nose"
+              ],
+              "options_read_as": [
+                "a hand",
+                "an eye",
+                "an ear",
+                "a nose"
+              ],
+              "answer_index": 2,
+              "explanation_en": "कान is an ear. नाक is a nose and आँख an eye."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ कान — का, के or की?",
+              "options": [
+                "के",
+                "का",
+                "की",
+                "कि"
+              ],
+              "options_read_as": [
+                "ke",
+                "kaa",
+                "kii",
+                "ki"
+              ],
+              "answer_index": 1,
+              "explanation_en": "कान is masculine, so का. Its consonant ending gives no clue at all."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "कान",
+              "दो कान",
+              "बड़े कान"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L06-I2",
+          "type": "word",
+          "target": "नाक",
+          "read_as": "naak",
+          "pronunciation_notes": "Dental न with the tongue on the teeth, and an unaspirated क at the end: naak.",
+          "gloss_en": "nose",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "body",
+          "plural": "नाकें",
+          "plural_read_as": "naakeṁ",
+          "difficulty": 4,
+          "tags": [
+            "body",
+            "noun",
+            "feminine",
+            "consonant_ending",
+            "gender_flag"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "नाक — nose",
+              "explanation_en": "नाक is the nose, and it is feminine. That is worth pausing on, because it sits right beside कान and हाथ, which look structurally identical — three body parts, three consonant endings, and नाक is the odd one out. There is no pattern to lean on here. The gender is a property of the word and has to be memorised with it.",
+              "examples": [
+                {
+                  "hindi": "लंबी नाक",
+                  "read_as": "lambii naak",
+                  "english": "a long nose",
+                  "note": "लंबी takes -ी because नाक is feminine."
+                },
+                {
+                  "hindi": "बड़ी नाक",
+                  "read_as": "baṛii naak",
+                  "english": "a big nose",
+                  "note": "Compare बड़े कान, where the same adjective takes -े."
+                },
+                {
+                  "hindi": "नाक और कान",
+                  "read_as": "naak aur kaan",
+                  "english": "nose and ears",
+                  "note": "One feminine, one masculine, both ending in consonants."
+                }
+              ],
+              "common_error": {
+                "wrong": "बड़ा नाक",
+                "right": "बड़ी नाक",
+                "why_en": "नाक is feminine, so the adjective takes -ी — unlike कान, which takes -ा."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "नाक",
+              "question_read_as": "naak",
+              "options": [
+                "a nose",
+                "an ear",
+                "a mouth",
+                "an eye"
+              ],
+              "options_read_as": [
+                "a nose",
+                "an ear",
+                "a mouth",
+                "an eye"
+              ],
+              "answer_index": 0,
+              "explanation_en": "नाक is the nose. कान is an ear and मुँह a mouth."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ नाक — का, के or की?",
+              "options": [
+                "का",
+                "के",
+                "कि",
+                "की"
+              ],
+              "options_read_as": [
+                "kaa",
+                "ke",
+                "ki",
+                "kii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "नाक is feminine, so की — while कान, which also ends in a consonant, takes का."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "नाक",
+              "लंबी नाक",
+              "नाक और कान"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L06-I3",
+          "type": "word",
+          "target": "चेहरा",
+          "read_as": "chehraa",
+          "pronunciation_notes": "The inherent vowel on ह drops, so the word is said in two syllables as chehraa rather than chehaaraa.",
+          "gloss_en": "face",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "body",
+          "plural": "चेहरे",
+          "plural_read_as": "chehre",
+          "difficulty": 3,
+          "tags": [
+            "body",
+            "noun",
+            "masculine",
+            "aa_ending",
+            "regular_plural",
+            "medial_schwa"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "चेहरा — face",
+              "explanation_en": "चेहरा is the face. It ends in -ा and is masculine, so the ending predicts correctly and the plural changes to चेहरे in the ordinary way. The word doubles as a small schwa exercise: written out it looks like three syllables, but the inherent vowel on ह disappears, leaving two.",
+              "examples": [
+                {
+                  "hindi": "गोल चेहरा",
+                  "read_as": "gol chehraa",
+                  "english": "a round face",
+                  "note": "गोल never changes form, whatever the noun."
+                },
+                {
+                  "hindi": "खुश चेहरे",
+                  "read_as": "khush chehre",
+                  "english": "happy faces",
+                  "note": "The -ा becomes -े in the plural."
+                },
+                {
+                  "hindi": "साफ़ चेहरा",
+                  "read_as": "saaf chehraa",
+                  "english": "a clean face",
+                  "note": "साफ़ carries the dotted letter from Module 2."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "चेहरा",
+              "question_read_as": "chehraa",
+              "options": [
+                "a head",
+                "a mouth",
+                "an eye",
+                "a face"
+              ],
+              "options_read_as": [
+                "a head",
+                "a mouth",
+                "an eye",
+                "a face"
+              ],
+              "answer_index": 3,
+              "explanation_en": "चेहरा is the face as a whole. सिर is the head and मुँह the mouth."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ चेहरा — का, के or की?",
+              "options": [
+                "का",
+                "की",
+                "के",
+                "कि"
+              ],
+              "options_read_as": [
+                "kaa",
+                "kii",
+                "ke",
+                "ki"
+              ],
+              "answer_index": 0,
+              "explanation_en": "चेहरा is masculine, so का. The -ा ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "चेहरा",
+              "गोल चेहरा",
+              "चेहरे"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added कान, नाक and चेहरा. नाक is the one to remember: it looks exactly like कान and हाथ but is feminine, which is why consonant endings are treated as giving no information.",
+        "key_forms": [
+          "कान",
+          "नाक",
+          "चेहरा"
+        ],
+        "next_up_en": "Next: पैर, उँगली and पेट, including one word whose ending finally predicts correctly."
+      }
+    },
+    {
+      "level": 7,
+      "title_en": "Limbs and middle",
+      "title_hi": "पैर उँगली पेट",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L07-I1",
+          "type": "word",
+          "target": "पैर",
+          "read_as": "pair",
+          "pronunciation_notes": "The ऐ is a single open vowel close to the a of 'cat' — the word rhymes roughly with 'pear', not with 'pyre'.",
+          "gloss_en": "foot, leg",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "body",
+          "plural": "पैर",
+          "plural_read_as": "pair",
+          "difficulty": 3,
+          "tags": [
+            "body",
+            "noun",
+            "masculine",
+            "consonant_ending",
+            "gender_flag"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पैर — foot, leg",
+              "explanation_en": "पैर covers both the foot and, in ordinary speech, the leg as well — Hindi does not insist on the distinction English makes. It is masculine and ends in a consonant, so the gender is unpredictable. Do not let the transliteration mislead you: the vowel is the open ऐ from Module 1, so this is said with the vowel of 'pet', not the sound of English 'pyre'.",
+              "examples": [
+                {
+                  "hindi": "दो पैर",
+                  "read_as": "do pair",
+                  "english": "two feet",
+                  "note": "The plural is unchanged."
+                },
+                {
+                  "hindi": "बड़े पैर",
+                  "read_as": "baṛe pair",
+                  "english": "big feet",
+                  "note": "बड़े takes -े for a masculine plural."
+                },
+                {
+                  "hindi": "नंगे पैर",
+                  "read_as": "nange pair",
+                  "english": "bare feet",
+                  "note": "The usual way to say barefoot."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पैर",
+              "question_read_as": "pair",
+              "options": [
+                "a hand",
+                "a foot",
+                "a finger",
+                "a knee"
+              ],
+              "options_read_as": [
+                "a hand",
+                "a foot",
+                "a finger",
+                "a knee"
+              ],
+              "answer_index": 1,
+              "explanation_en": "पैर is a foot, and in everyday speech the leg as well. हाथ is a hand."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ पैर — का, के or की?",
+              "options": [
+                "की",
+                "के",
+                "का",
+                "कि"
+              ],
+              "options_read_as": [
+                "kii",
+                "ke",
+                "kaa",
+                "ki"
+              ],
+              "answer_index": 2,
+              "explanation_en": "पैर is masculine, so का."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पैर",
+              "दो पैर",
+              "नंगे पैर"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L07-I2",
+          "type": "word",
+          "target": "उँगली",
+          "read_as": "ũglii",
+          "pronunciation_notes": "The crescent nasalises the opening vowel and the inherent vowel on ग drops, giving ũglii in two syllables.",
+          "gloss_en": "finger",
+          "gender": "f",
+          "gender_flag": false,
+          "category": "body",
+          "plural": "उँगलियाँ",
+          "plural_read_as": "ũgliyãa",
+          "difficulty": 4,
+          "tags": [
+            "body",
+            "noun",
+            "feminine",
+            "ii_ending",
+            "chandrabindu",
+            "medial_schwa"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "उँगली — finger",
+              "explanation_en": "उँगली is a finger, and it covers toes as well, with पैर की उँगली meaning a toe. It ends in -ी and is feminine, so the ending predicts correctly, and the plural follows the -ियाँ pattern you saw in बेटियाँ. Two things happen when you say it: the crescent nasalises the first vowel, and the inherent vowel on ग drops out entirely.",
+              "examples": [
+                {
+                  "hindi": "छोटी उँगली",
+                  "read_as": "chhoṭii ũglii",
+                  "english": "little finger",
+                  "note": "छोटी takes -ी to match the feminine noun."
+                },
+                {
+                  "hindi": "पाँच उँगलियाँ",
+                  "read_as": "pãach ũgliyãa",
+                  "english": "five fingers",
+                  "note": "The -ी becomes -ियाँ in the plural."
+                },
+                {
+                  "hindi": "लंबी उँगलियाँ",
+                  "read_as": "lambii ũgliyãa",
+                  "english": "long fingers",
+                  "note": "Feminine adjectives keep -ी in the plural too."
+                }
+              ],
+              "common_error": {
+                "wrong": "उँगलीयाँ",
+                "right": "उँगलियाँ",
+                "why_en": "The long ी shortens to ि before the plural ending, exactly as it does in बेटियाँ."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "उँगली",
+              "question_read_as": "ũglii",
+              "options": [
+                "a finger",
+                "a hand",
+                "an arm",
+                "a nail"
+              ],
+              "options_read_as": [
+                "a finger",
+                "a hand",
+                "an arm",
+                "a nail"
+              ],
+              "answer_index": 0,
+              "explanation_en": "उँगली is a finger. हाथ is the hand it belongs to."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ उँगली — का, के or की?",
+              "options": [
+                "का",
+                "की",
+                "के",
+                "कि"
+              ],
+              "options_read_as": [
+                "kaa",
+                "kii",
+                "ke",
+                "ki"
+              ],
+              "answer_index": 1,
+              "explanation_en": "उँगली is feminine, so की. The -ी ending predicts correctly here."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उँगली",
+              "छोटी उँगली",
+              "उँगलियाँ"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L07-I3",
+          "type": "word",
+          "target": "पेट",
+          "read_as": "peṭ",
+          "pronunciation_notes": "Retroflex ट with the tongue curled back, and a flat ए with no glide after it: peṭ.",
+          "gloss_en": "stomach, belly",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "body",
+          "plural": "पेट",
+          "plural_read_as": "peṭ",
+          "difficulty": 3,
+          "tags": [
+            "body",
+            "noun",
+            "masculine",
+            "consonant_ending",
+            "gender_flag",
+            "retroflex"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पेट — stomach",
+              "explanation_en": "पेट is the stomach or belly, and it is the word used for hunger and for stomach trouble alike. It is masculine and ends in a consonant, so the gender is unpredictable. The final letter is the retroflex ट, so curl the tongue back rather than letting it land where an English t would.",
+              "examples": [
+                {
+                  "hindi": "बड़ा पेट",
+                  "read_as": "baṛaa peṭ",
+                  "english": "a big stomach",
+                  "note": "The masculine adjective ending."
+                },
+                {
+                  "hindi": "खाली पेट",
+                  "read_as": "khaalii peṭ",
+                  "english": "an empty stomach",
+                  "note": "खाली ends in -ी but never changes form."
+                },
+                {
+                  "hindi": "भरा पेट",
+                  "read_as": "bharaa peṭ",
+                  "english": "a full stomach",
+                  "note": "भरा takes -ा to agree."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पेट",
+              "question_read_as": "peṭ",
+              "options": [
+                "a back",
+                "a chest",
+                "a stomach",
+                "a heart"
+              ],
+              "options_read_as": [
+                "a back",
+                "a chest",
+                "a stomach",
+                "a heart"
+              ],
+              "answer_index": 2,
+              "explanation_en": "पेट is the stomach. पीठ is the back."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ पेट — का, के or की?",
+              "options": [
+                "की",
+                "कि",
+                "के",
+                "का"
+              ],
+              "options_read_as": [
+                "kii",
+                "ki",
+                "ke",
+                "kaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "पेट is masculine, so का."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पेट",
+              "बड़ा पेट",
+              "खाली पेट"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered पैर, उँगली and पेट. उँगली is the only one whose ending predicts its gender, and it also packs in a nasalised vowel and a dropped medial schwa.",
+        "key_forms": [
+          "पैर",
+          "उँगली",
+          "पेट"
+        ],
+        "next_up_en": "Next: दाँत, पीठ and बाल complete the body words, including one noun that is normally plural."
+      }
+    },
+    {
+      "level": 8,
+      "title_en": "Completing the body",
+      "title_hi": "दाँत पीठ मुँह",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L08-I1",
+          "type": "word",
+          "target": "दाँत",
+          "read_as": "dãat",
+          "pronunciation_notes": "The crescent nasalises the vowel, and both consonants are dental — the tongue stays on the teeth from start to finish: dãat.",
+          "gloss_en": "tooth",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "body",
+          "plural": "दाँत",
+          "plural_read_as": "dãat",
+          "difficulty": 4,
+          "tags": [
+            "body",
+            "noun",
+            "masculine",
+            "consonant_ending",
+            "chandrabindu",
+            "gender_flag"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "दाँत — tooth",
+              "explanation_en": "दाँत is a tooth, and like कान and पैर it does not change in the plural, which is convenient since teeth are usually talked about several at a time. It is masculine with a consonant ending, so the gender is unpredictable. The word is also a compact pronunciation test: the crescent nasalises the vowel, and both द and त are dental, so the tongue never leaves the teeth.",
+              "examples": [
+                {
+                  "hindi": "सफ़ेद दाँत",
+                  "read_as": "safed dãat",
+                  "english": "white teeth",
+                  "note": "सफ़ेद never changes form."
+                },
+                {
+                  "hindi": "टूटा दाँत",
+                  "read_as": "ṭuuṭaa dãat",
+                  "english": "a broken tooth",
+                  "note": "टूटा takes -ा to agree with the masculine noun."
+                },
+                {
+                  "hindi": "बत्तीस दाँत",
+                  "read_as": "battiis dãat",
+                  "english": "thirty-two teeth",
+                  "note": "The plural is identical to the singular."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दाँत",
+              "question_read_as": "dãat",
+              "options": [
+                "a tongue",
+                "a tooth",
+                "a lip",
+                "a mouth"
+              ],
+              "options_read_as": [
+                "a tongue",
+                "a tooth",
+                "a lip",
+                "a mouth"
+              ],
+              "answer_index": 1,
+              "explanation_en": "दाँत is a tooth. मुँह is the mouth it sits in."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ दाँत — का, के or की?",
+              "options": [
+                "के",
+                "की",
+                "का",
+                "कि"
+              ],
+              "options_read_as": [
+                "ke",
+                "kii",
+                "kaa",
+                "ki"
+              ],
+              "answer_index": 2,
+              "explanation_en": "दाँत is masculine, so का."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दाँत",
+              "सफ़ेद दाँत",
+              "टूटा दाँत"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L08-I2",
+          "type": "word",
+          "target": "पीठ",
+          "read_as": "piiṭh",
+          "pronunciation_notes": "The final ठ is a retroflex released with breath — the tongue curls back and a puff follows: piiṭh.",
+          "gloss_en": "back",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "body",
+          "plural": "पीठें",
+          "plural_read_as": "piiṭheṁ",
+          "difficulty": 4,
+          "tags": [
+            "body",
+            "noun",
+            "feminine",
+            "consonant_ending",
+            "gender_flag",
+            "retroflex"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पीठ — back",
+              "explanation_en": "पीठ is the back. It is feminine, joining नाक and आँख as consonant-ending body parts that turn out not to be masculine — three out of the eight covered here, which is often enough that guessing masculine is a poor strategy. The final letter is the aspirated retroflex ठ, so the tongue curls back and breath is released after it.",
+              "examples": [
+                {
+                  "hindi": "सीधी पीठ",
+                  "read_as": "siidhii piiṭh",
+                  "english": "a straight back",
+                  "note": "सीधी takes -ी because पीठ is feminine."
+                },
+                {
+                  "hindi": "चौड़ी पीठ",
+                  "read_as": "chauṛii piiṭh",
+                  "english": "a broad back",
+                  "note": "चौड़ी contains the flap ड़ from Module 2."
+                },
+                {
+                  "hindi": "पीठ और पेट",
+                  "read_as": "piiṭh aur peṭ",
+                  "english": "back and stomach",
+                  "note": "One feminine, one masculine, both ending in consonants."
+                }
+              ],
+              "common_error": {
+                "wrong": "सीधा पीठ",
+                "right": "सीधी पीठ",
+                "why_en": "पीठ is feminine, so the adjective takes -ी — while पेट, also a consonant ending, takes -ा."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पीठ",
+              "question_read_as": "piiṭh",
+              "options": [
+                "a stomach",
+                "a chest",
+                "a shoulder",
+                "a back"
+              ],
+              "options_read_as": [
+                "a stomach",
+                "a chest",
+                "a shoulder",
+                "a back"
+              ],
+              "answer_index": 3,
+              "explanation_en": "पीठ is the back. पेट is the stomach on the other side."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ पीठ — का, के or की?",
+              "options": [
+                "की",
+                "का",
+                "के",
+                "कि"
+              ],
+              "options_read_as": [
+                "kii",
+                "kaa",
+                "ke",
+                "ki"
+              ],
+              "answer_index": 0,
+              "explanation_en": "पीठ is feminine, so की. Its consonant ending predicts nothing."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पीठ",
+              "सीधी पीठ",
+              "पीठ और पेट"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L08-I3",
+          "type": "word",
+          "target": "मुँह",
+          "read_as": "mũh",
+          "pronunciation_notes": "The crescent nasalises the vowel and the final ह is light, giving one syllable: mũh.",
+          "gloss_en": "mouth",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "body",
+          "plural": "मुँह",
+          "plural_read_as": "mũh",
+          "difficulty": 4,
+          "tags": [
+            "body",
+            "noun",
+            "masculine",
+            "consonant_ending",
+            "chandrabindu",
+            "gender_flag"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मुँह — mouth",
+              "explanation_en": "मुँह is the mouth. It is masculine and ends in a consonant, so the gender is unpredictable and has to be learned. The crescent nasalises the vowel, so nothing like an n is pronounced, and the final ह is light enough that the whole word is a single syllable. It is also used more widely than the English word, covering the face in some fixed phrases.",
+              "examples": [
+                {
+                  "hindi": "बड़ा मुँह",
+                  "read_as": "baṛaa mũh",
+                  "english": "a big mouth",
+                  "note": "बड़ा takes -ा because मुँह is masculine."
+                },
+                {
+                  "hindi": "खुला मुँह",
+                  "read_as": "khulaa mũh",
+                  "english": "an open mouth",
+                  "note": "खुला also takes -ा to agree."
+                },
+                {
+                  "hindi": "मुँह और नाक",
+                  "read_as": "mũh aur naak",
+                  "english": "mouth and nose",
+                  "note": "One masculine, one feminine, both ending in consonants."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "मुँह",
+              "question_read_as": "mũh",
+              "options": [
+                "a nose",
+                "a tooth",
+                "a mouth",
+                "a tongue"
+              ],
+              "options_read_as": [
+                "a nose",
+                "a tooth",
+                "a mouth",
+                "a tongue"
+              ],
+              "answer_index": 2,
+              "explanation_en": "मुँह is the mouth. दाँत are the teeth inside it and नाक is the nose."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ मुँह — का, के or की?",
+              "options": [
+                "कि",
+                "की",
+                "के",
+                "का"
+              ],
+              "options_read_as": [
+                "ki",
+                "kii",
+                "ke",
+                "kaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "मुँह is masculine, so का. Its consonant ending gives no clue."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुँह",
+              "बड़ा मुँह",
+              "मुँह और नाक"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level finished the body words with दाँत, पीठ and मुँह. Of the twelve body words, four turned out to be feminine and eight masculine, with no ending reliably predicting which.",
+        "key_forms": [
+          "दाँत",
+          "पीठ",
+          "मुँह"
+        ],
+        "next_up_en": "Next: food and drink, opening with the two most useful nouns in the language and the gender trap in each."
+      }
+    },
+    {
+      "level": 9,
+      "title_en": "Water, tea and bread",
+      "title_hi": "पानी चाय रोटी",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L09-I1",
+          "type": "word",
+          "target": "पानी",
+          "read_as": "paanii",
+          "pronunciation_notes": "A long aa then a long ii, with a dental न between them: paanii.",
+          "gloss_en": "water",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "food_drink",
+          "plural": "पानी",
+          "plural_read_as": "paanii",
+          "difficulty": 5,
+          "tags": [
+            "food_drink",
+            "noun",
+            "masculine",
+            "ii_ending",
+            "gender_flag",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पानी — water",
+              "explanation_en": "पानी is water, and it is the single most important gender exception in the language for a learner to get right, simply because you will say it several times a day. It ends in -ी, which normally marks a feminine noun, and it is masculine. It belongs with भाई and आदमी in that small group of misleading -ी words. Being a mass noun it has no real plural, and the form never changes.",
+              "examples": [
+                {
+                  "hindi": "ठंडा पानी",
+                  "read_as": "ṭhaṇḍaa paanii",
+                  "english": "cold water",
+                  "note": "ठंडा takes -ा because पानी is masculine."
+                },
+                {
+                  "hindi": "गरम पानी",
+                  "read_as": "garam paanii",
+                  "english": "hot water",
+                  "note": "गरम never changes form, so it hides the gender."
+                },
+                {
+                  "hindi": "साफ़ पानी",
+                  "read_as": "saaf paanii",
+                  "english": "clean water",
+                  "note": "Another adjective that stays the same whatever the noun."
+                }
+              ],
+              "common_error": {
+                "wrong": "ठंडी पानी",
+                "right": "ठंडा पानी",
+                "why_en": "पानी ends in -ी but is masculine, so the adjective takes -ा. This is one of the most frequent mistakes learners make."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पानी",
+              "question_read_as": "paanii",
+              "options": [
+                "water",
+                "milk",
+                "tea",
+                "juice"
+              ],
+              "options_read_as": [
+                "water",
+                "milk",
+                "tea",
+                "juice"
+              ],
+              "answer_index": 0,
+              "explanation_en": "पानी is water. दूध is milk and चाय is tea."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ पानी — का, के or की?",
+              "options": [
+                "की",
+                "का",
+                "के",
+                "कि"
+              ],
+              "options_read_as": [
+                "kii",
+                "kaa",
+                "ke",
+                "ki"
+              ],
+              "answer_index": 1,
+              "explanation_en": "पानी is masculine, so का — despite the -ी ending, which is exactly why this word is flagged."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पानी",
+              "ठंडा पानी",
+              "गरम पानी"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L09-I2",
+          "type": "word",
+          "target": "चाय",
+          "read_as": "chaay",
+          "pronunciation_notes": "Light unaspirated च — the ch of English 'church' but with no puff of air. One syllable, chaay.",
+          "gloss_en": "tea",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "food_drink",
+          "plural": "चायें",
+          "plural_read_as": "chaayeṁ",
+          "difficulty": 4,
+          "tags": [
+            "food_drink",
+            "noun",
+            "feminine",
+            "consonant_ending",
+            "gender_flag",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "चाय — tea",
+              "explanation_en": "चाय is tea, and you will be offered it more often than any other noun in this module will come up. It is feminine, and since it ends in a consonant the ending gives you nothing to work from. Set it beside पानी on the last card: two everyday drinks, two opposite genders, and neither ending pointing the right way. Both have to be learned outright.",
+              "examples": [
+                {
+                  "hindi": "गरम चाय",
+                  "read_as": "garam chaay",
+                  "english": "hot tea",
+                  "note": "गरम is one of the adjectives that never changes."
+                },
+                {
+                  "hindi": "अच्छी चाय",
+                  "read_as": "achchhii chaay",
+                  "english": "good tea",
+                  "note": "अच्छी takes -ी because चाय is feminine."
+                },
+                {
+                  "hindi": "मीठी चाय",
+                  "read_as": "miiṭhii chaay",
+                  "english": "sweet tea",
+                  "note": "मीठी also takes -ी to agree."
+                }
+              ],
+              "common_error": {
+                "wrong": "अच्छा चाय",
+                "right": "अच्छी चाय",
+                "why_en": "चाय is feminine, so the adjective takes -ी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "चाय",
+              "question_read_as": "chaay",
+              "options": [
+                "water",
+                "coffee",
+                "milk",
+                "tea"
+              ],
+              "options_read_as": [
+                "water",
+                "coffee",
+                "milk",
+                "tea"
+              ],
+              "answer_index": 3,
+              "explanation_en": "चाय is tea. पानी is water and दूध is milk."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ चाय — का, के or की?",
+              "options": [
+                "की",
+                "के",
+                "का",
+                "कि"
+              ],
+              "options_read_as": [
+                "kii",
+                "ke",
+                "kaa",
+                "ki"
+              ],
+              "answer_index": 0,
+              "explanation_en": "चाय is feminine, so की — while पानी, from the same category, takes का."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "चाय",
+              "गरम चाय",
+              "मीठी चाय"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L09-I3",
+          "type": "word",
+          "target": "रोटी",
+          "read_as": "roṭii",
+          "pronunciation_notes": "Retroflex ट with the tongue curled back, and a flat ओ with no w-glide: roṭii.",
+          "gloss_en": "flatbread",
+          "gender": "f",
+          "gender_flag": false,
+          "category": "food_drink",
+          "plural": "रोटियाँ",
+          "plural_read_as": "roṭiyãa",
+          "difficulty": 3,
+          "tags": [
+            "food_drink",
+            "noun",
+            "feminine",
+            "ii_ending",
+            "regular_plural"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "रोटी — flatbread",
+              "explanation_en": "रोटी is the flatbread eaten with almost every meal in north India. It ends in -ी and is feminine, so the ending predicts correctly for once, and the plural follows the -ियाँ pattern. Put it next to पानी from two cards back and the point of this whole module becomes visible: identical endings, opposite genders, and only the word itself tells you which.",
+              "examples": [
+                {
+                  "hindi": "गरम रोटी",
+                  "read_as": "garam roṭii",
+                  "english": "hot flatbread",
+                  "note": "An adjective that does not change form."
+                },
+                {
+                  "hindi": "दो रोटियाँ",
+                  "read_as": "do roṭiyãa",
+                  "english": "two flatbreads",
+                  "note": "The -ी becomes -ियाँ in the plural."
+                },
+                {
+                  "hindi": "ताज़ी रोटी",
+                  "read_as": "taazii roṭii",
+                  "english": "fresh flatbread",
+                  "note": "ताज़ी carries the dotted ज़ and takes -ी to agree."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "रोटी",
+              "question_read_as": "roṭii",
+              "options": [
+                "rice",
+                "flatbread",
+                "lentils",
+                "vegetables"
+              ],
+              "options_read_as": [
+                "rice",
+                "flatbread",
+                "lentils",
+                "vegetables"
+              ],
+              "answer_index": 1,
+              "explanation_en": "रोटी is flatbread. चावल is rice and दाल is lentils."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ रोटी — का, के or की?",
+              "options": [
+                "का",
+                "के",
+                "की",
+                "कि"
+              ],
+              "options_read_as": [
+                "kaa",
+                "ke",
+                "kii",
+                "ki"
+              ],
+              "answer_index": 2,
+              "explanation_en": "रोटी is feminine, so की. The -ी ending predicts correctly here, unlike in पानी."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "रोटी",
+              "गरम रोटी",
+              "रोटियाँ"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level opened food and drink with पानी, चाय and रोटी. पानी and रोटी share an ending and take opposite genders, which makes them the clearest pair in the module for showing that endings cannot be trusted.",
+        "key_forms": [
+          "पानी",
+          "चाय",
+          "रोटी"
+        ],
+        "next_up_en": "Next: दूध, खाना and दाल, including a word that is also a verb and a word that changes meaning if your tongue slips."
+      }
+    },
+    {
+      "level": 10,
+      "title_en": "The everyday meal",
+      "title_hi": "दूध खाना दाल",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L10-I1",
+          "type": "word",
+          "target": "दूध",
+          "read_as": "duudh",
+          "pronunciation_notes": "A plain dental द at the front and a breathy dental ध at the end, with a long vowel between: duudh.",
+          "gloss_en": "milk",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "food_drink",
+          "plural": "दूध",
+          "plural_read_as": "duudh",
+          "difficulty": 3,
+          "tags": [
+            "food_drink",
+            "noun",
+            "masculine",
+            "consonant_ending",
+            "gender_flag"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "दूध — milk",
+              "explanation_en": "दूध is milk. It ends in a consonant and is masculine, so the gender has to be learned. The word is also a compact pronunciation exercise you have met before: both consonants are dental, so the tongue stays on the teeth, and the second one is released with breath while the first is not.",
+              "examples": [
+                {
+                  "hindi": "ठंडा दूध",
+                  "read_as": "ṭhaṇḍaa duudh",
+                  "english": "cold milk",
+                  "note": "ठंडा takes -ा because दूध is masculine."
+                },
+                {
+                  "hindi": "गरम दूध",
+                  "read_as": "garam duudh",
+                  "english": "hot milk",
+                  "note": "An adjective that never changes form."
+                },
+                {
+                  "hindi": "ताज़ा दूध",
+                  "read_as": "taazaa duudh",
+                  "english": "fresh milk",
+                  "note": "ताज़ा here, but ताज़ी with रोटी — the ending follows the noun."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दूध",
+              "question_read_as": "duudh",
+              "options": [
+                "water",
+                "tea",
+                "curd",
+                "milk"
+              ],
+              "options_read_as": [
+                "water",
+                "tea",
+                "curd",
+                "milk"
+              ],
+              "answer_index": 3,
+              "explanation_en": "दूध is milk. दही is curd, and it is masculine too despite ending in -ी."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ दूध — का, के or की?",
+              "options": [
+                "के",
+                "का",
+                "कि",
+                "की"
+              ],
+              "options_read_as": [
+                "ke",
+                "kaa",
+                "ki",
+                "kii"
+              ],
+              "answer_index": 1,
+              "explanation_en": "दूध is masculine, so का."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दूध",
+              "ठंडा दूध",
+              "ताज़ा दूध"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L10-I2",
+          "type": "word",
+          "target": "खाना",
+          "read_as": "khaanaa",
+          "pronunciation_notes": "Aspirated ख with a clear puff of breath, then two long vowels: khaanaa.",
+          "gloss_en": "food",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "food_drink",
+          "plural": "खाने",
+          "plural_read_as": "khaane",
+          "difficulty": 4,
+          "tags": [
+            "food_drink",
+            "noun",
+            "masculine",
+            "aa_ending",
+            "regular_plural",
+            "double_meaning"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "खाना — food",
+              "explanation_en": "खाना is food. It is masculine and ends in -ा, so both its gender and its plural behave predictably. It also has a second life worth knowing about now, even though the grammar arrives much later: the same word is the verb 'to eat'. Hindi names its verbs this way, so खाना is both the meal and the act of eating it, and only the surrounding sentence tells you which is meant.",
+              "examples": [
+                {
+                  "hindi": "अच्छा खाना",
+                  "read_as": "achchhaa khaanaa",
+                  "english": "good food",
+                  "note": "The masculine adjective ending."
+                },
+                {
+                  "hindi": "गरम खाना",
+                  "read_as": "garam khaanaa",
+                  "english": "hot food",
+                  "note": "An adjective that does not change."
+                },
+                {
+                  "hindi": "घर का खाना",
+                  "read_as": "ghar kaa khaanaa",
+                  "english": "home-cooked food",
+                  "note": "का takes its masculine form because खाना, the word after it, is masculine."
+                }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "खाना",
+              "question_read_as": "khaanaa",
+              "options": [
+                "a kitchen",
+                "a mealtime",
+                "food",
+                "a plate"
+              ],
+              "options_read_as": [
+                "a kitchen",
+                "a mealtime",
+                "food",
+                "a plate"
+              ],
+              "answer_index": 2,
+              "explanation_en": "खाना is food. The same word is also the verb 'to eat', which arrives in Module 7."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ खाना — का, के or की?",
+              "options": [
+                "की",
+                "के",
+                "कि",
+                "का"
+              ],
+              "options_read_as": [
+                "kii",
+                "ke",
+                "ki",
+                "kaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "खाना is masculine, so का. The -ा ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "खाना",
+              "अच्छा खाना",
+              "घर का खाना"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L10-I3",
+          "type": "word",
+          "target": "दाल",
+          "read_as": "daal",
+          "pronunciation_notes": "Dental द with the tongue on the teeth. Curl the tongue back instead and you get डाल, which means a branch.",
+          "gloss_en": "lentils",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "food_drink",
+          "plural": "दालें",
+          "plural_read_as": "daaleṁ",
+          "difficulty": 5,
+          "tags": [
+            "food_drink",
+            "noun",
+            "feminine",
+            "consonant_ending",
+            "gender_flag",
+            "minimal_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "दाल — lentils",
+              "explanation_en": "दाल is lentils, and the dish made from them that appears at most meals. This is the word Module 1 used to introduce the dental and retroflex split, so it carries two lessons at once: the tongue must press against the teeth rather than curl back, and the word is feminine despite a consonant ending that tells you nothing. Order it with the tongue in the wrong place and you have asked for a tree branch.",
+              "examples": [
+                {
+                  "hindi": "गरम दाल",
+                  "read_as": "garam daal",
+                  "english": "hot lentils",
+                  "note": "An adjective that does not change form."
+                },
+                {
+                  "hindi": "अच्छी दाल",
+                  "read_as": "achchhii daal",
+                  "english": "good lentils",
+                  "note": "अच्छी takes -ी because दाल is feminine."
+                },
+                {
+                  "hindi": "दाल और रोटी",
+                  "read_as": "daal aur roṭii",
+                  "english": "lentils and flatbread",
+                  "note": "Two feminine nouns, and the most everyday meal there is."
+                }
+              ],
+              "common_error": {
+                "wrong": "अच्छा दाल",
+                "right": "अच्छी दाल",
+                "why_en": "दाल is feminine, so the adjective takes -ी — while दूध, also a consonant ending, takes -ा."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दाल",
+              "question_read_as": "daal",
+              "options": [
+                "lentils",
+                "rice",
+                "a branch",
+                "bread"
+              ],
+              "options_read_as": [
+                "lentils",
+                "rice",
+                "a branch",
+                "bread"
+              ],
+              "answer_index": 0,
+              "explanation_en": "दाल is lentils. डाल, said with the tongue curled back, is a branch — the pair from Module 1."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ दाल — का, के or की?",
+              "options": [
+                "का",
+                "कि",
+                "की",
+                "के"
+              ],
+              "options_read_as": [
+                "kaa",
+                "ki",
+                "kii",
+                "ke"
+              ],
+              "answer_index": 2,
+              "explanation_en": "दाल is feminine, so की."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दाल",
+              "गरम दाल",
+              "दाल और रोटी"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered दूध, खाना and दाल. दूध and दाल both end in consonants and take opposite genders, and दाल is also the word that tests whether your tongue is on the teeth or curled back.",
+        "key_forms": [
+          "दूध",
+          "खाना",
+          "दाल"
+        ],
+        "next_up_en": "Next: more food and drink, including rice, vegetables and the words for sweet and salty."
+      }
+    }
+  ]
+}

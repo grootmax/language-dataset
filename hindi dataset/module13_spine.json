@@ -1,0 +1,1640 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "total_items": 165,
+  "total_levels": 55,
+  "learner_knows_through_module": 12,
+  "vocabulary_formats": {
+    "practice": "meaning_match",
+    "game": "near_synonym_choice"
+  },
+  "reading_formats": {
+    "practice": "comprehension",
+    "game": "inference"
+  },
+  "inference_rule": "An inference question must NOT be answerable by locating a single sentence. If a learner can point at one line and read off the answer, the question is a comprehension question wearing the wrong label.",
+  "target_word_rule": "Every reading item introduces exactly ONE new word, carried in target_word. 105 vocabulary items plus 60 reading target words = 165 new words from this module, which is what keeps the app at 480 words total. A vocabulary card must never forward-reference a reading target by level: naming it spoils the introduction and risks the word being used before it is due.",
+  "interleave_plan": {
+    "rule_en": "Roughly five levels of vocabulary, then three of reading, repeating. Never all the vocabulary first.",
+    "blocks": [
+      {
+        "levels": "1-5",
+        "kind": "vocabulary",
+        "items": 15,
+        "categories": "abstract nouns 12, personality 3"
+      },
+      {
+        "levels": "6-8",
+        "kind": "reading",
+        "items": 9,
+        "categories": "signs and notices 9"
+      },
+      {
+        "levels": "9-13",
+        "kind": "vocabulary",
+        "items": 15,
+        "categories": "personality 6, opinion and argument 9"
+      },
+      {
+        "levels": "14-16",
+        "kind": "reading",
+        "items": 9,
+        "categories": "signs and notices 9"
+      },
+      {
+        "levels": "17-21",
+        "kind": "vocabulary",
+        "items": 15,
+        "categories": "opinion and argument 3, formal register 12"
+      },
+      {
+        "levels": "22-24",
+        "kind": "reading",
+        "items": 9,
+        "categories": "signs 2, messages 7"
+      },
+      {
+        "levels": "25-29",
+        "kind": "vocabulary",
+        "items": 15,
+        "categories": "Sanskrit-influenced pairs 9, Urdu-influenced pairs 6"
+      },
+      {
+        "levels": "30-32",
+        "kind": "reading",
+        "items": 9,
+        "categories": "messages 8, news 1"
+      },
+      {
+        "levels": "33-37",
+        "kind": "vocabulary",
+        "items": 15,
+        "categories": "Urdu-influenced pairs 3, news and current affairs 12"
+      },
+      {
+        "levels": "38-40",
+        "kind": "reading",
+        "items": 9,
+        "categories": "news 9"
+      },
+      {
+        "levels": "41-45",
+        "kind": "vocabulary",
+        "items": 15,
+        "categories": "technology 9, advanced verbs 6"
+      },
+      {
+        "levels": "46-48",
+        "kind": "reading",
+        "items": 9,
+        "categories": "news 5, narratives 4"
+      },
+      {
+        "levels": "49-53",
+        "kind": "vocabulary",
+        "items": 15,
+        "categories": "advanced verbs 6, near-synonym sets 9"
+      },
+      {
+        "levels": "54-55",
+        "kind": "reading",
+        "items": 6,
+        "categories": "narratives 6"
+      }
+    ],
+    "totals_check": {
+      "vocabulary_levels": 35,
+      "vocabulary_items": 105,
+      "reading_levels": 20,
+      "reading_items": 60
+    }
+  },
+  "word_count_bands": {
+    "sign": "10-25",
+    "message": "25-50",
+    "email": "25-50",
+    "news": "50-90",
+    "narrative": "90-140"
+  },
+  "spine": [
+    {
+      "id": "M13-L01-I1",
+      "level": 1,
+      "kind": "vocabulary",
+      "category": "abstract_noun",
+      "target": "उम्मीद",
+      "gender": "f",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L01-I2",
+      "level": 1,
+      "kind": "vocabulary",
+      "category": "abstract_noun",
+      "target": "कोशिश",
+      "gender": "f",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L01-I3",
+      "level": 1,
+      "kind": "vocabulary",
+      "category": "abstract_noun",
+      "target": "ज़रूरत",
+      "gender": "f",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L02-I1",
+      "level": 2,
+      "kind": "vocabulary",
+      "category": "abstract_noun",
+      "target": "मुश्किल",
+      "gender": "f",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L02-I2",
+      "level": 2,
+      "kind": "vocabulary",
+      "category": "abstract_noun",
+      "target": "सच्चाई",
+      "gender": "f",
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L02-I3",
+      "level": 2,
+      "kind": "vocabulary",
+      "category": "abstract_noun",
+      "target": "आज़ादी",
+      "gender": "f",
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L03-I1",
+      "level": 3,
+      "kind": "vocabulary",
+      "category": "abstract_noun",
+      "target": "भरोसा",
+      "gender": "m",
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L03-I2",
+      "level": 3,
+      "kind": "vocabulary",
+      "category": "abstract_noun",
+      "target": "अनुभव",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L03-I3",
+      "level": 3,
+      "kind": "vocabulary",
+      "category": "abstract_noun",
+      "target": "फ़ैसला",
+      "gender": "m",
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L04-I1",
+      "level": 4,
+      "kind": "vocabulary",
+      "category": "abstract_noun",
+      "target": "ख़याल",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L04-I2",
+      "level": 4,
+      "kind": "vocabulary",
+      "category": "abstract_noun",
+      "target": "मक़सद",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L04-I3",
+      "level": 4,
+      "kind": "vocabulary",
+      "category": "abstract_noun",
+      "target": "हालात",
+      "gender": "m_pl",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L05-I1",
+      "level": 5,
+      "kind": "vocabulary",
+      "category": "personality",
+      "target": "ईमानदार",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L05-I2",
+      "level": 5,
+      "kind": "vocabulary",
+      "category": "personality",
+      "target": "मेहनती",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L05-I3",
+      "level": 5,
+      "kind": "vocabulary",
+      "category": "personality",
+      "target": "ज़िद्दी",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L06-I1",
+      "level": 6,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 14,
+      "target_word": "प्रवेश",
+      "topic": "entry gate at a museum"
+    },
+    {
+      "id": "M13-L06-I2",
+      "level": 6,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 12,
+      "target_word": "निकास",
+      "topic": "exit sign in a metro station"
+    },
+    {
+      "id": "M13-L06-I3",
+      "level": 6,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 16,
+      "target_word": "सावधान",
+      "topic": "wet floor warning"
+    },
+    {
+      "id": "M13-L07-I1",
+      "level": 7,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 15,
+      "target_word": "वर्जित",
+      "topic": "no entry beyond this point"
+    },
+    {
+      "id": "M13-L07-I2",
+      "level": 7,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 18,
+      "target_word": "शुल्क",
+      "topic": "parking charges board"
+    },
+    {
+      "id": "M13-L07-I3",
+      "level": 7,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 13,
+      "target_word": "निःशुल्क",
+      "topic": "free entry for children"
+    },
+    {
+      "id": "M13-L08-I1",
+      "level": 8,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 17,
+      "target_word": "धूम्रपान",
+      "topic": "no smoking notice"
+    },
+    {
+      "id": "M13-L08-I2",
+      "level": 8,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 20,
+      "target_word": "पूछताछ",
+      "topic": "enquiry counter directions"
+    },
+    {
+      "id": "M13-L08-I3",
+      "level": 8,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 19,
+      "target_word": "शौचालय",
+      "topic": "toilet direction sign with a note"
+    },
+    {
+      "id": "M13-L09-I1",
+      "level": 9,
+      "kind": "vocabulary",
+      "category": "personality",
+      "target": "शर्मीला",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L09-I2",
+      "level": 9,
+      "kind": "vocabulary",
+      "category": "personality",
+      "target": "समझदार",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L09-I3",
+      "level": 9,
+      "kind": "vocabulary",
+      "category": "personality",
+      "target": "लापरवाह",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L10-I1",
+      "level": 10,
+      "kind": "vocabulary",
+      "category": "personality",
+      "target": "घमंडी",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L10-I2",
+      "level": 10,
+      "kind": "vocabulary",
+      "category": "personality",
+      "target": "दयालु",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L10-I3",
+      "level": 10,
+      "kind": "vocabulary",
+      "category": "personality",
+      "target": "चालाक",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L11-I1",
+      "level": 11,
+      "kind": "vocabulary",
+      "category": "opinion",
+      "target": "राय",
+      "gender": "f",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L11-I2",
+      "level": 11,
+      "kind": "vocabulary",
+      "category": "opinion",
+      "target": "तर्क",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L11-I3",
+      "level": 11,
+      "kind": "vocabulary",
+      "category": "opinion",
+      "target": "सहमत",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L12-I1",
+      "level": 12,
+      "kind": "vocabulary",
+      "category": "opinion",
+      "target": "असहमत",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L12-I2",
+      "level": 12,
+      "kind": "vocabulary",
+      "category": "opinion",
+      "target": "बहस",
+      "gender": "f",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L12-I3",
+      "level": 12,
+      "kind": "vocabulary",
+      "category": "opinion",
+      "target": "दलील",
+      "gender": "f",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L13-I1",
+      "level": 13,
+      "kind": "vocabulary",
+      "category": "opinion",
+      "target": "नज़रिया",
+      "gender": "m",
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L13-I2",
+      "level": 13,
+      "kind": "vocabulary",
+      "category": "opinion",
+      "target": "पक्ष",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L13-I3",
+      "level": 13,
+      "kind": "vocabulary",
+      "category": "opinion",
+      "target": "विरोध",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L14-I1",
+      "level": 14,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 18,
+      "target_word": "चेतावनी",
+      "topic": "warning about deep water"
+    },
+    {
+      "id": "M13-L14-I2",
+      "level": 14,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 21,
+      "target_word": "आपातकाल",
+      "topic": "emergency exit instructions"
+    },
+    {
+      "id": "M13-L14-I3",
+      "level": 14,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 16,
+      "target_word": "सूचना",
+      "topic": "lift out of order notice"
+    },
+    {
+      "id": "M13-L15-I1",
+      "level": 15,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 22,
+      "target_word": "प्रतीक्षा",
+      "topic": "waiting room rules"
+    },
+    {
+      "id": "M13-L15-I2",
+      "level": 15,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 19,
+      "target_word": "मना",
+      "topic": "photography not allowed"
+    },
+    {
+      "id": "M13-L15-I3",
+      "level": 15,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 23,
+      "target_word": "सीढ़ी",
+      "topic": "stairs vs lift during a power cut"
+    },
+    {
+      "id": "M13-L16-I1",
+      "level": 16,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 24,
+      "target_word": "अवधि",
+      "topic": "working hours board"
+    },
+    {
+      "id": "M13-L16-I2",
+      "level": 16,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 20,
+      "target_word": "पूर्व",
+      "topic": "ticket window closing time"
+    },
+    {
+      "id": "M13-L16-I3",
+      "level": 16,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 25,
+      "target_word": "पंक्ति",
+      "topic": "queue notice"
+    },
+    {
+      "id": "M13-L17-I1",
+      "level": 17,
+      "kind": "vocabulary",
+      "category": "opinion",
+      "target": "समर्थन",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L17-I2",
+      "level": 17,
+      "kind": "vocabulary",
+      "category": "opinion",
+      "target": "मुद्दा",
+      "gender": "m",
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L17-I3",
+      "level": 17,
+      "kind": "vocabulary",
+      "category": "opinion",
+      "target": "निष्कर्ष",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L18-I1",
+      "level": 18,
+      "kind": "vocabulary",
+      "category": "formal_register",
+      "target": "आवश्यक",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L18-I2",
+      "level": 18,
+      "kind": "vocabulary",
+      "category": "formal_register",
+      "target": "उपलब्ध",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L18-I3",
+      "level": 18,
+      "kind": "vocabulary",
+      "category": "formal_register",
+      "target": "संबंधित",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L19-I1",
+      "level": 19,
+      "kind": "vocabulary",
+      "category": "formal_register",
+      "target": "प्रस्तुत",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L19-I2",
+      "level": 19,
+      "kind": "vocabulary",
+      "category": "formal_register",
+      "target": "सूचित",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L19-I3",
+      "level": 19,
+      "kind": "vocabulary",
+      "category": "formal_register",
+      "target": "निवेदन",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L20-I1",
+      "level": 20,
+      "kind": "vocabulary",
+      "category": "formal_register",
+      "target": "संदर्भ",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L20-I2",
+      "level": 20,
+      "kind": "vocabulary",
+      "category": "formal_register",
+      "target": "विषय",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L20-I3",
+      "level": 20,
+      "kind": "vocabulary",
+      "category": "formal_register",
+      "target": "दिनांक",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L21-I1",
+      "level": 21,
+      "kind": "vocabulary",
+      "category": "formal_register",
+      "target": "हस्ताक्षर",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L21-I2",
+      "level": 21,
+      "kind": "vocabulary",
+      "category": "formal_register",
+      "target": "प्रयास",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L21-I3",
+      "level": 21,
+      "kind": "vocabulary",
+      "category": "formal_register",
+      "target": "सादर",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L22-I1",
+      "level": 22,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 24,
+      "target_word": "वापसी",
+      "topic": "returns and exchange policy card"
+    },
+    {
+      "id": "M13-L22-I2",
+      "level": 22,
+      "kind": "reading",
+      "text_kind": "sign",
+      "words": 25,
+      "target_word": "रसीद",
+      "topic": "left-luggage counter notice"
+    },
+    {
+      "id": "M13-L22-I3",
+      "level": 22,
+      "kind": "reading",
+      "text_kind": "message",
+      "words": 28,
+      "target_word": "व्यस्त",
+      "topic": "explaining a missed call"
+    },
+    {
+      "id": "M13-L23-I1",
+      "level": 23,
+      "kind": "reading",
+      "text_kind": "message",
+      "words": 32,
+      "target_word": "पुष्टि",
+      "topic": "confirming a booking by WhatsApp"
+    },
+    {
+      "id": "M13-L23-I2",
+      "level": 23,
+      "kind": "reading",
+      "text_kind": "message",
+      "words": 35,
+      "target_word": "स्थगित",
+      "topic": "a postponed gathering"
+    },
+    {
+      "id": "M13-L23-I3",
+      "level": 23,
+      "kind": "reading",
+      "text_kind": "message",
+      "words": 30,
+      "target_word": "बधाई",
+      "topic": "congratulations on a new job"
+    },
+    {
+      "id": "M13-L24-I1",
+      "level": 24,
+      "kind": "reading",
+      "text_kind": "message",
+      "words": 38,
+      "target_word": "शामिल",
+      "topic": "a gathering invitation sent to a group"
+    },
+    {
+      "id": "M13-L24-I2",
+      "level": 24,
+      "kind": "reading",
+      "text_kind": "message",
+      "words": 34,
+      "target_word": "क्षमा",
+      "topic": "apologising for missing something"
+    },
+    {
+      "id": "M13-L24-I3",
+      "level": 24,
+      "kind": "reading",
+      "text_kind": "message",
+      "words": 40,
+      "target_word": "गुज़ारिश",
+      "topic": "asking a neighbour to take in a parcel"
+    },
+    {
+      "id": "M13-L25-I1",
+      "level": 25,
+      "kind": "vocabulary",
+      "category": "sanskrit_pair",
+      "target": "प्रारंभ",
+      "gender": "m",
+      "gender_flag": true,
+      "pairs_with": "शुरू"
+    },
+    {
+      "id": "M13-L25-I2",
+      "level": 25,
+      "kind": "vocabulary",
+      "category": "sanskrit_pair",
+      "target": "समाप्त",
+      "gender": null,
+      "gender_flag": false,
+      "pairs_with": "ख़त्म"
+    },
+    {
+      "id": "M13-L25-I3",
+      "level": 25,
+      "kind": "vocabulary",
+      "category": "sanskrit_pair",
+      "target": "कठिन",
+      "gender": null,
+      "gender_flag": false,
+      "pairs_with": "मुश्किल"
+    },
+    {
+      "id": "M13-L26-I1",
+      "level": 26,
+      "kind": "vocabulary",
+      "category": "sanskrit_pair",
+      "target": "प्रश्न",
+      "gender": "m",
+      "gender_flag": true,
+      "pairs_with": "सवाल"
+    },
+    {
+      "id": "M13-L26-I2",
+      "level": 26,
+      "kind": "vocabulary",
+      "category": "sanskrit_pair",
+      "target": "उत्तर",
+      "gender": "m",
+      "gender_flag": true,
+      "pairs_with": "जवाब"
+    },
+    {
+      "id": "M13-L26-I3",
+      "level": 26,
+      "kind": "vocabulary",
+      "category": "sanskrit_pair",
+      "target": "समय",
+      "gender": "m",
+      "gender_flag": true,
+      "pairs_with": "वक़्त"
+    },
+    {
+      "id": "M13-L27-I1",
+      "level": 27,
+      "kind": "vocabulary",
+      "category": "sanskrit_pair",
+      "target": "कार्य",
+      "gender": "m",
+      "gender_flag": true,
+      "pairs_with": "काम"
+    },
+    {
+      "id": "M13-L27-I2",
+      "level": 27,
+      "kind": "vocabulary",
+      "category": "sanskrit_pair",
+      "target": "स्थान",
+      "gender": "m",
+      "gender_flag": true,
+      "pairs_with": "जगह"
+    },
+    {
+      "id": "M13-L27-I3",
+      "level": 27,
+      "kind": "vocabulary",
+      "category": "sanskrit_pair",
+      "target": "आवश्यकता",
+      "gender": "f",
+      "gender_flag": false,
+      "pairs_with": "ज़रूरत"
+    },
+    {
+      "id": "M13-L28-I1",
+      "level": 28,
+      "kind": "vocabulary",
+      "category": "urdu_pair",
+      "target": "मुमकिन",
+      "gender": null,
+      "gender_flag": false,
+      "pairs_with": "संभव"
+    },
+    {
+      "id": "M13-L28-I2",
+      "level": 28,
+      "kind": "vocabulary",
+      "category": "urdu_pair",
+      "target": "इंतज़ार",
+      "gender": "m",
+      "gender_flag": true,
+      "pairs_with": "प्रतीक्षा"
+    },
+    {
+      "id": "M13-L28-I3",
+      "level": 28,
+      "kind": "vocabulary",
+      "category": "urdu_pair",
+      "target": "ज़िंदगी",
+      "gender": "f",
+      "gender_flag": false,
+      "pairs_with": "जीवन"
+    },
+    {
+      "id": "M13-L29-I1",
+      "level": 29,
+      "kind": "vocabulary",
+      "category": "urdu_pair",
+      "target": "ख़बर",
+      "gender": "f",
+      "gender_flag": true,
+      "pairs_with": "समाचार"
+    },
+    {
+      "id": "M13-L29-I2",
+      "level": 29,
+      "kind": "vocabulary",
+      "category": "urdu_pair",
+      "target": "मुल्क",
+      "gender": "m",
+      "gender_flag": true,
+      "pairs_with": "देश"
+    },
+    {
+      "id": "M13-L29-I3",
+      "level": 29,
+      "kind": "vocabulary",
+      "category": "urdu_pair",
+      "target": "तालीम",
+      "gender": "f",
+      "gender_flag": true,
+      "pairs_with": "शिक्षा"
+    },
+    {
+      "id": "M13-L30-I1",
+      "level": 30,
+      "kind": "reading",
+      "text_kind": "message",
+      "words": 42,
+      "target_word": "स्मरण",
+      "topic": "a formal written reminder"
+    },
+    {
+      "id": "M13-L30-I2",
+      "level": 30,
+      "kind": "reading",
+      "text_kind": "email",
+      "words": 45,
+      "target_word": "अनुलग्नक",
+      "topic": "email with an attachment"
+    },
+    {
+      "id": "M13-L30-I3",
+      "level": 30,
+      "kind": "reading",
+      "text_kind": "email",
+      "words": 44,
+      "target_word": "प्रेषक",
+      "topic": "forwarded email header and note"
+    },
+    {
+      "id": "M13-L31-I1",
+      "level": 31,
+      "kind": "reading",
+      "text_kind": "email",
+      "words": 48,
+      "target_word": "उपस्थित",
+      "topic": "accepting an invitation formally"
+    },
+    {
+      "id": "M13-L31-I2",
+      "level": 31,
+      "kind": "reading",
+      "text_kind": "email",
+      "words": 46,
+      "target_word": "अनुमति",
+      "topic": "applying for leave in writing"
+    },
+    {
+      "id": "M13-L31-I3",
+      "level": 31,
+      "kind": "reading",
+      "text_kind": "email",
+      "words": 50,
+      "target_word": "शिकायत",
+      "topic": "a polite written complaint"
+    },
+    {
+      "id": "M13-L32-I1",
+      "level": 32,
+      "kind": "reading",
+      "text_kind": "message",
+      "words": 40,
+      "target_word": "तत्काल",
+      "topic": "an urgent group message"
+    },
+    {
+      "id": "M13-L32-I2",
+      "level": 32,
+      "kind": "reading",
+      "text_kind": "message",
+      "words": 38,
+      "target_word": "स्वीकृति",
+      "topic": "approval granted by message"
+    },
+    {
+      "id": "M13-L32-I3",
+      "level": 32,
+      "kind": "reading",
+      "text_kind": "news",
+      "words": 55,
+      "target_word": "निवासी",
+      "topic": "a short local news item"
+    },
+    {
+      "id": "M13-L33-I1",
+      "level": 33,
+      "kind": "vocabulary",
+      "category": "urdu_pair",
+      "target": "फ़र्क़",
+      "gender": "m",
+      "gender_flag": true,
+      "pairs_with": "अंतर"
+    },
+    {
+      "id": "M13-L33-I2",
+      "level": 33,
+      "kind": "vocabulary",
+      "category": "urdu_pair",
+      "target": "क़िस्मत",
+      "gender": "f",
+      "gender_flag": true,
+      "pairs_with": "भाग्य"
+    },
+    {
+      "id": "M13-L33-I3",
+      "level": 33,
+      "kind": "vocabulary",
+      "category": "urdu_pair",
+      "target": "इज़्ज़त",
+      "gender": "f",
+      "gender_flag": true,
+      "pairs_with": "सम्मान"
+    },
+    {
+      "id": "M13-L34-I1",
+      "level": 34,
+      "kind": "vocabulary",
+      "category": "news",
+      "target": "सरकार",
+      "gender": "f",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L34-I2",
+      "level": 34,
+      "kind": "vocabulary",
+      "category": "news",
+      "target": "चुनाव",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L34-I3",
+      "level": 34,
+      "kind": "vocabulary",
+      "category": "news",
+      "target": "नीति",
+      "gender": "f",
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L35-I1",
+      "level": 35,
+      "kind": "vocabulary",
+      "category": "news",
+      "target": "अर्थव्यवस्था",
+      "gender": "f",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L35-I2",
+      "level": 35,
+      "kind": "vocabulary",
+      "category": "news",
+      "target": "प्रदर्शन",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L35-I3",
+      "level": 35,
+      "kind": "vocabulary",
+      "category": "news",
+      "target": "घोषणा",
+      "gender": "f",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L36-I1",
+      "level": 36,
+      "kind": "vocabulary",
+      "category": "news",
+      "target": "मंत्री",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L36-I2",
+      "level": 36,
+      "kind": "vocabulary",
+      "category": "news",
+      "target": "अदालत",
+      "gender": "f",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L36-I3",
+      "level": 36,
+      "kind": "vocabulary",
+      "category": "news",
+      "target": "क़ानून",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L37-I1",
+      "level": 37,
+      "kind": "vocabulary",
+      "category": "news",
+      "target": "बजट",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L37-I2",
+      "level": 37,
+      "kind": "vocabulary",
+      "category": "news",
+      "target": "विकास",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L37-I3",
+      "level": 37,
+      "kind": "vocabulary",
+      "category": "news",
+      "target": "संसद",
+      "gender": "f",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L38-I1",
+      "level": 38,
+      "kind": "reading",
+      "text_kind": "news",
+      "words": 58,
+      "target_word": "आरोप",
+      "topic": "a civic dispute reported briefly"
+    },
+    {
+      "id": "M13-L38-I2",
+      "level": 38,
+      "kind": "reading",
+      "text_kind": "news",
+      "words": 62,
+      "target_word": "प्रतिक्रिया",
+      "topic": "an official response after an incident"
+    },
+    {
+      "id": "M13-L38-I3",
+      "level": 38,
+      "kind": "reading",
+      "text_kind": "news",
+      "words": 60,
+      "target_word": "गठन",
+      "topic": "a committee formed to review something"
+    },
+    {
+      "id": "M13-L39-I1",
+      "level": 39,
+      "kind": "reading",
+      "text_kind": "news",
+      "words": 68,
+      "target_word": "पारित",
+      "topic": "a municipal project"
+    },
+    {
+      "id": "M13-L39-I2",
+      "level": 39,
+      "kind": "reading",
+      "text_kind": "news",
+      "words": 72,
+      "target_word": "वृद्धि",
+      "topic": "a rise in something measurable"
+    },
+    {
+      "id": "M13-L39-I3",
+      "level": 39,
+      "kind": "reading",
+      "text_kind": "news",
+      "words": 70,
+      "target_word": "गिरावट",
+      "topic": "a decline reported with figures"
+    },
+    {
+      "id": "M13-L40-I1",
+      "level": 40,
+      "kind": "reading",
+      "text_kind": "news",
+      "words": 78,
+      "target_word": "सर्वेक्षण",
+      "topic": "a survey and its numbers"
+    },
+    {
+      "id": "M13-L40-I2",
+      "level": 40,
+      "kind": "reading",
+      "text_kind": "news",
+      "words": 80,
+      "target_word": "खंडन",
+      "topic": "an official disputes a complaint"
+    },
+    {
+      "id": "M13-L40-I3",
+      "level": 40,
+      "kind": "reading",
+      "text_kind": "news",
+      "words": 85,
+      "target_word": "जाँच",
+      "topic": "an investigation announced"
+    },
+    {
+      "id": "M13-L41-I1",
+      "level": 41,
+      "kind": "vocabulary",
+      "category": "technology",
+      "target": "ऐप",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L41-I2",
+      "level": 41,
+      "kind": "vocabulary",
+      "category": "technology",
+      "target": "नेटवर्क",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L41-I3",
+      "level": 41,
+      "kind": "vocabulary",
+      "category": "technology",
+      "target": "पासवर्ड",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L42-I1",
+      "level": 42,
+      "kind": "vocabulary",
+      "category": "technology",
+      "target": "स्क्रीन",
+      "gender": "f",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L42-I2",
+      "level": 42,
+      "kind": "vocabulary",
+      "category": "technology",
+      "target": "डेटा",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L42-I3",
+      "level": 42,
+      "kind": "vocabulary",
+      "category": "technology",
+      "target": "डाउनलोड",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L43-I1",
+      "level": 43,
+      "kind": "vocabulary",
+      "category": "technology",
+      "target": "ऑनलाइन",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L43-I2",
+      "level": 43,
+      "kind": "vocabulary",
+      "category": "technology",
+      "target": "सोशल मीडिया",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L43-I3",
+      "level": 43,
+      "kind": "vocabulary",
+      "category": "technology",
+      "target": "वीडियो कॉल",
+      "gender": "m",
+      "gender_flag": true
+    },
+    {
+      "id": "M13-L44-I1",
+      "level": 44,
+      "kind": "vocabulary",
+      "category": "advanced_verb",
+      "target": "निपटना",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L44-I2",
+      "level": 44,
+      "kind": "vocabulary",
+      "category": "advanced_verb",
+      "target": "टालना",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L44-I3",
+      "level": 44,
+      "kind": "vocabulary",
+      "category": "advanced_verb",
+      "target": "संभालना",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L45-I1",
+      "level": 45,
+      "kind": "vocabulary",
+      "category": "advanced_verb",
+      "target": "सुलझाना",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L45-I2",
+      "level": 45,
+      "kind": "vocabulary",
+      "category": "advanced_verb",
+      "target": "उलझना",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L45-I3",
+      "level": 45,
+      "kind": "vocabulary",
+      "category": "advanced_verb",
+      "target": "जताना",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L46-I1",
+      "level": 46,
+      "kind": "reading",
+      "text_kind": "news",
+      "words": 82,
+      "target_word": "नियुक्ति",
+      "topic": "an appointment announced"
+    },
+    {
+      "id": "M13-L46-I2",
+      "level": 46,
+      "kind": "reading",
+      "text_kind": "news",
+      "words": 88,
+      "target_word": "समझौता",
+      "topic": "an agreement between two bodies"
+    },
+    {
+      "id": "M13-L46-I3",
+      "level": 46,
+      "kind": "reading",
+      "text_kind": "news",
+      "words": 86,
+      "target_word": "आपूर्ति",
+      "topic": "a supply disruption"
+    },
+    {
+      "id": "M13-L47-I1",
+      "level": 47,
+      "kind": "reading",
+      "text_kind": "news",
+      "words": 90,
+      "target_word": "सम्मेलन",
+      "topic": "a conference and what came of it"
+    },
+    {
+      "id": "M13-L47-I2",
+      "level": 47,
+      "kind": "reading",
+      "text_kind": "news",
+      "words": 84,
+      "target_word": "उद्घाटन",
+      "topic": "an opening ceremony"
+    },
+    {
+      "id": "M13-L47-I3",
+      "level": 47,
+      "kind": "reading",
+      "text_kind": "narrative",
+      "words": 95,
+      "target_word": "सुकून",
+      "topic": "a quiet morning remembered"
+    },
+    {
+      "id": "M13-L48-I1",
+      "level": 48,
+      "kind": "reading",
+      "text_kind": "narrative",
+      "words": 100,
+      "target_word": "यादें",
+      "topic": "returning to a childhood street"
+    },
+    {
+      "id": "M13-L48-I2",
+      "level": 48,
+      "kind": "reading",
+      "text_kind": "narrative",
+      "words": 105,
+      "target_word": "झिझक",
+      "topic": "hesitating before knocking on a door"
+    },
+    {
+      "id": "M13-L48-I3",
+      "level": 48,
+      "kind": "reading",
+      "text_kind": "narrative",
+      "words": 98,
+      "target_word": "लगाव",
+      "topic": "attachment to an old object"
+    },
+    {
+      "id": "M13-L49-I1",
+      "level": 49,
+      "kind": "vocabulary",
+      "category": "advanced_verb",
+      "target": "निभाना",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L49-I2",
+      "level": 49,
+      "kind": "vocabulary",
+      "category": "advanced_verb",
+      "target": "बरतना",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L49-I3",
+      "level": 49,
+      "kind": "vocabulary",
+      "category": "advanced_verb",
+      "target": "टिकना",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L50-I1",
+      "level": 50,
+      "kind": "vocabulary",
+      "category": "advanced_verb",
+      "target": "गुज़ारना",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L50-I2",
+      "level": 50,
+      "kind": "vocabulary",
+      "category": "advanced_verb",
+      "target": "आज़माना",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L50-I3",
+      "level": 50,
+      "kind": "vocabulary",
+      "category": "advanced_verb",
+      "target": "थामना",
+      "gender": null,
+      "gender_flag": false
+    },
+    {
+      "id": "M13-L51-I1",
+      "level": 51,
+      "kind": "vocabulary",
+      "category": "near_synonym",
+      "target": "निहारना",
+      "gender": null,
+      "gender_flag": false,
+      "set_with": "देखना, ताकना"
+    },
+    {
+      "id": "M13-L51-I2",
+      "level": 51,
+      "kind": "vocabulary",
+      "category": "near_synonym",
+      "target": "ताकना",
+      "gender": null,
+      "gender_flag": false,
+      "set_with": "देखना, निहारना"
+    },
+    {
+      "id": "M13-L51-I3",
+      "level": 51,
+      "kind": "vocabulary",
+      "category": "near_synonym",
+      "target": "मानना",
+      "gender": null,
+      "gender_flag": false,
+      "set_with": "समझना, जानना"
+    },
+    {
+      "id": "M13-L52-I1",
+      "level": 52,
+      "kind": "vocabulary",
+      "category": "near_synonym",
+      "target": "उम्दा",
+      "gender": null,
+      "gender_flag": false,
+      "set_with": "अच्छा, बढ़िया"
+    },
+    {
+      "id": "M13-L52-I2",
+      "level": 52,
+      "kind": "vocabulary",
+      "category": "near_synonym",
+      "target": "विशाल",
+      "gender": null,
+      "gender_flag": false,
+      "set_with": "बड़ा, विराट"
+    },
+    {
+      "id": "M13-L52-I3",
+      "level": 52,
+      "kind": "vocabulary",
+      "category": "near_synonym",
+      "target": "शीघ्र",
+      "gender": null,
+      "gender_flag": false,
+      "set_with": "जल्दी, फ़ौरन"
+    },
+    {
+      "id": "M13-L53-I1",
+      "level": 53,
+      "kind": "vocabulary",
+      "category": "near_synonym",
+      "target": "भय",
+      "gender": "m",
+      "gender_flag": true,
+      "set_with": "डर, ख़ौफ़"
+    },
+    {
+      "id": "M13-L53-I2",
+      "level": 53,
+      "kind": "vocabulary",
+      "category": "near_synonym",
+      "target": "धरना",
+      "gender": null,
+      "gender_flag": false,
+      "set_with": "रखना"
+    },
+    {
+      "id": "M13-L53-I3",
+      "level": 53,
+      "kind": "vocabulary",
+      "category": "near_synonym",
+      "target": "फ़ौरन",
+      "gender": null,
+      "gender_flag": false,
+      "set_with": "जल्दी, तुरंत"
+    },
+    {
+      "id": "M13-L54-I1",
+      "level": 54,
+      "kind": "reading",
+      "text_kind": "narrative",
+      "words": 110,
+      "target_word": "बेचैनी",
+      "topic": "waiting for news that does not come"
+    },
+    {
+      "id": "M13-L54-I2",
+      "level": 54,
+      "kind": "reading",
+      "text_kind": "narrative",
+      "words": 118,
+      "target_word": "तन्हाई",
+      "topic": "a first week in a new city"
+    },
+    {
+      "id": "M13-L54-I3",
+      "level": 54,
+      "kind": "reading",
+      "text_kind": "narrative",
+      "words": 125,
+      "target_word": "अपनापन",
+      "topic": "being taken in by strangers"
+    },
+    {
+      "id": "M13-L55-I1",
+      "level": 55,
+      "kind": "reading",
+      "text_kind": "narrative",
+      "words": 130,
+      "target_word": "कशमकश",
+      "topic": "an opinion paragraph on a hard choice"
+    },
+    {
+      "id": "M13-L55-I2",
+      "level": 55,
+      "kind": "reading",
+      "text_kind": "narrative",
+      "words": 135,
+      "target_word": "ठहराव",
+      "topic": "an opinion paragraph on slowing down"
+    },
+    {
+      "id": "M13-L55-I3",
+      "level": 55,
+      "kind": "reading",
+      "text_kind": "narrative",
+      "words": 140,
+      "target_word": "संकोच",
+      "topic": "final reading — reticence and what it costs"
+    }
+  ],
+  "review_flags": [
+    "Sanskrit-influenced and Urdu-influenced pairs must never be framed as pure against impure, or correct against corrupted. Module 15 makes this explicit; this module must not contradict it in advance. Each pair item states the register each word belongs to and stops there.",
+    "The 60 reading target words are load-bearing for the 480-word total. If any reading item is rewritten and loses its target_word, the count breaks silently — worth a check in validate.py.",
+    "गिरावट, वृद्धि, आँकड़े and the news block generally will date. Keep the texts about generic civic situations rather than nameable events, and avoid real organisations."
+  ]
+}

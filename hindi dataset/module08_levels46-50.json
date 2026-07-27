@@ -1,0 +1,1723 @@
+{
+  "module": 8,
+  "module_name_en": "Core Words II",
+  "module_name_hi": "शब्द भंडार २",
+  "phase": 4,
+  "type": "word",
+  "batch": {
+    "levels_from": 46,
+    "levels_to": 50
+  },
+  "learner_knows_through_module": 7,
+  "levels": [
+    {
+      "level": 46,
+      "title_en": "Time: after, before, minutes",
+      "title_hi": "बाद · पहले · मिनट",
+      "category": "time_calendar",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L46-I1",
+          "type": "word",
+          "target": "बाद",
+          "read_as": "baad",
+          "pronunciation_notes": "One long syllable with a soft final d: baad.",
+          "gloss_en": "after, afterwards",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "के बाद",
+            "read_as": "ke baad",
+            "english": "after"
+          },
+          "category": "time_calendar",
+          "difficulty": 6,
+          "tags": [
+            "time_calendar",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "compound_postposition",
+            "very_high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "के बाद — after, with के",
+              "explanation_en": "बाद means after, and it works as part of the compound postposition के बाद: खाने के बाद, after eating. Note that the thing before it goes oblique — खाना becomes खाने — exactly as Module 6 taught for any noun in front of a postposition. बाद में on its own means afterwards or later, with no reference point named. The word is masculine, though you will rarely need that fact since it almost never takes an adjective.",
+              "examples": [
+                {
+                  "hindi": "खाने के बाद",
+                  "read_as": "khaane ke baad",
+                  "english": "after eating",
+                  "note": "खाना goes oblique to खाने before के, since it is Class 1."
+                },
+                {
+                  "hindi": "बाद में आना",
+                  "read_as": "baad meṁ aanaa",
+                  "english": "to come later",
+                  "note": "बाद में on its own means afterwards, with nothing named."
+                },
+                {
+                  "hindi": "क्लास के बाद मिलेंगे",
+                  "read_as": "klaas ke baad mileṁge",
+                  "english": "we will meet after class",
+                  "note": "मिलना in the plural future, agreeing with an unstated हम."
+                }
+              ],
+              "common_error": {
+                "wrong": "खाना के बाद",
+                "right": "खाने के बाद",
+                "why_en": "खाना ends in -ा, so it is Class 1 and must go oblique before a postposition."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बाद",
+              "question_read_as": "baad",
+              "options": [
+                "after",
+                "before",
+                "during",
+                "until"
+              ],
+              "options_read_as": [
+                "after",
+                "before",
+                "during",
+                "until"
+              ],
+              "answer_index": 0,
+              "explanation_en": "बाद means after, and it appears in the compound postposition के बाद."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition goes with बाद?",
+              "options": [
+                "से",
+                "में",
+                "को",
+                "के"
+              ],
+              "options_read_as": [
+                "se",
+                "meṁ",
+                "ko",
+                "ke"
+              ],
+              "answer_index": 3,
+              "explanation_en": "के बाद. Its opposite पहले takes से instead, which is worth keeping straight."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बाद",
+              "खाने के बाद",
+              "बाद में आना",
+              "क्लास के बाद मिलेंगे"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L46-I2",
+          "type": "word",
+          "target": "पहले",
+          "read_as": "pahle",
+          "pronunciation_notes": "The middle vowel drops in speech, giving pah-le rather than pa-ha-le.",
+          "gloss_en": "before, earlier, first",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adverb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "से पहले",
+            "read_as": "se pahle",
+            "english": "before"
+          },
+          "category": "time_calendar",
+          "difficulty": 7,
+          "tags": [
+            "time_calendar",
+            "adverb",
+            "invariant",
+            "compound_postposition",
+            "contrast_pair",
+            "very_high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "से पहले — before, and the postposition is different",
+              "explanation_en": "This is the trap of the level. बाद takes के and पहले takes से: खाने के बाद, after eating, but खाने से पहले, before eating. The two are exact opposites and they do not share a postposition, so copying one across is the natural mistake. पहले on its own means earlier or first — पहले तुम बोलो, you speak first — and दो साल पहले means two years ago, with the time period simply placed in front.",
+              "examples": [
+                {
+                  "hindi": "खाने से पहले",
+                  "read_as": "khaane se pahle",
+                  "english": "before eating",
+                  "note": "से rather than के, unlike बाद."
+                },
+                {
+                  "hindi": "दो साल पहले",
+                  "read_as": "do saal pahle",
+                  "english": "two years ago",
+                  "note": "The period goes in front and no postposition is needed at all."
+                },
+                {
+                  "hindi": "पहले तुम बोलो",
+                  "read_as": "pahle tum bolo",
+                  "english": "you speak first",
+                  "note": "पहले on its own, meaning first in sequence."
+                }
+              ],
+              "common_error": {
+                "wrong": "खाने के पहले",
+                "right": "खाने से पहले",
+                "why_en": "पहले takes से. Copying के across from बाद is the commonest mistake with this pair."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पहले",
+              "question_read_as": "pahle",
+              "options": [
+                "after",
+                "later",
+                "before",
+                "meanwhile"
+              ],
+              "options_read_as": [
+                "after",
+                "later",
+                "before",
+                "meanwhile"
+              ],
+              "answer_index": 2,
+              "explanation_en": "पहले means before or earlier, and it also means first in a sequence."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition goes with पहले?",
+              "options": [
+                "के",
+                "से",
+                "में",
+                "को"
+              ],
+              "options_read_as": [
+                "ke",
+                "se",
+                "meṁ",
+                "ko"
+              ],
+              "answer_index": 1,
+              "explanation_en": "से पहले — while its opposite बाद takes के. The pair does not match."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पहले",
+              "खाने से पहले",
+              "दो साल पहले",
+              "पहले तुम बोलो"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L46-I3",
+          "type": "word",
+          "target": "मिनट",
+          "read_as": "minaṭ",
+          "pronunciation_notes": "The final ट is retroflex, as in every English loanword: mi-naṭ.",
+          "gloss_en": "minute",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "मिनट",
+          "plural_read_as": "minaṭ",
+          "collocation": {
+            "hindi": "एक मिनट",
+            "read_as": "ek minaṭ",
+            "english": "one minute, just a moment"
+          },
+          "category": "time_calendar",
+          "difficulty": 6,
+          "tags": [
+            "time_calendar",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "loanword",
+            "class_2",
+            "set_phrase"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "एक मिनट is a phrase, not a measurement",
+              "explanation_en": "मिनट is borrowed from English, masculine and Class 2 so the plural is identical — दो मिनट, not दो मिनटें. The phrase worth having whole is एक मिनट, which functions like just a moment or hold on and rarely means sixty seconds. मिनट में means in a minute. Compare it with पल, which is a moment in the poetic sense and belongs to a different register entirely.",
+              "examples": [
+                {
+                  "hindi": "एक मिनट",
+                  "read_as": "ek minaṭ",
+                  "english": "just a moment",
+                  "note": "A set phrase, used to ask someone to wait."
+                },
+                {
+                  "hindi": "दो मिनट में",
+                  "read_as": "do minaṭ meṁ",
+                  "english": "in two minutes",
+                  "note": "Class 2, so the plural looks identical to the singular."
+                },
+                {
+                  "hindi": "पाँच मिनट लगेंगे",
+                  "read_as": "paaṁch minaṭ lageṁge",
+                  "english": "it will take five minutes",
+                  "note": "लगना for time taken, in the plural future."
+                }
+              ],
+              "common_error": {
+                "wrong": "दो मिनटें",
+                "right": "दो मिनट",
+                "why_en": "मिनट is masculine and Class 2, so the plural is identical. -ें is a feminine ending."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "मिनट",
+              "question_read_as": "minaṭ",
+              "options": [
+                "hour",
+                "moment",
+                "second",
+                "minute"
+              ],
+              "options_read_as": [
+                "hour",
+                "moment",
+                "second",
+                "minute"
+              ],
+              "answer_index": 3,
+              "explanation_en": "मिनट is a minute, masculine, and unchanged in the plural."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with मिनट for time taken?",
+              "options": [
+                "लगना",
+                "करना",
+                "होना",
+                "आना"
+              ],
+              "options_read_as": [
+                "lagnaa",
+                "karnaa",
+                "honaa",
+                "aanaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "पाँच मिनट लगेंगे — लगना is the verb for time something takes."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मिनट",
+              "एक मिनट",
+              "दो मिनट में",
+              "पाँच मिनट लगेंगे"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "बाद takes के and पहले takes से, which is the one thing to get right about this pair since they are opposites and do not match. Both put the noun in front of them into the oblique, exactly as Module 6 taught.",
+        "key_forms": [
+          "खाने के बाद",
+          "खाने से पहले",
+          "एक मिनट"
+        ],
+        "next_up_en": "Next: next, last, and age — three more things Hindi handles differently from English."
+      }
+    },
+    {
+      "level": 47,
+      "title_en": "Time: next, last, age",
+      "title_hi": "अगला · पिछला · उम्र",
+      "category": "time_calendar",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L47-I1",
+          "type": "word",
+          "target": "अगला",
+          "read_as": "aglaa",
+          "pronunciation_notes": "The ग्ल cluster runs together with no vowel between: ag-laa.",
+          "gloss_en": "next, the following one",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "marked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "अगले हफ़्ते",
+            "read_as": "agle hafte",
+            "english": "next week"
+          },
+          "category": "time_calendar",
+          "difficulty": 7,
+          "tags": [
+            "time_calendar",
+            "adjective",
+            "marked_adjective",
+            "agreement",
+            "oblique_adverbial",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "अगले हफ़्ते — the oblique doing adverbial work",
+              "explanation_en": "अगला is next, a marked adjective, so it agrees: अगला, अगली, अगले. The thing worth noticing is the time phrase. अगले हफ़्ते means next week, and both words are in the oblique even though there is no postposition visible. Hindi uses the oblique on its own to make a time expression adverbial — the same happens in पिछले साल and इस बार. So if a time phrase looks oblique for no reason, that is the reason.",
+              "examples": [
+                {
+                  "hindi": "अगले हफ़्ते",
+                  "read_as": "agle hafte",
+                  "english": "next week",
+                  "note": "Both words oblique, with no postposition — this is how time phrases work."
+                },
+                {
+                  "hindi": "अगला सवाल",
+                  "read_as": "aglaa savaal",
+                  "english": "the next question",
+                  "note": "Direct form, since this is not a time expression."
+                },
+                {
+                  "hindi": "अगली बार",
+                  "read_as": "aglii baar",
+                  "english": "next time",
+                  "note": "बार is feminine, so the adjective takes -ी."
+                }
+              ],
+              "common_error": {
+                "wrong": "अगला हफ़्ता",
+                "right": "अगले हफ़्ते",
+                "why_en": "As a time expression the phrase goes oblique, even with no postposition following it."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "अगला",
+              "question_read_as": "aglaa",
+              "options": [
+                "last",
+                "next",
+                "first",
+                "other"
+              ],
+              "options_read_as": [
+                "last",
+                "next",
+                "first",
+                "other"
+              ],
+              "answer_index": 1,
+              "explanation_en": "अगला is next, and it agrees with the noun it describes."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which form means next week?",
+              "options": [
+                "अगला हफ़्ता",
+                "अगली हफ़्ता",
+                "अगले हफ़्ते",
+                "अगले हफ़्ता"
+              ],
+              "options_read_as": [
+                "aglaa haftaa",
+                "aglii haftaa",
+                "agle hafte",
+                "agle haftaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "अगले हफ़्ते — time expressions take the oblique with no postposition."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अगला",
+              "अगले हफ़्ते",
+              "अगला सवाल",
+              "अगली बार"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L47-I2",
+          "type": "word",
+          "target": "पिछला",
+          "read_as": "pichhlaa",
+          "pronunciation_notes": "Aspirated chh in the middle and the cluster runs together: pichh-laa.",
+          "gloss_en": "last, previous",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "marked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "पिछले साल",
+            "read_as": "pichhle saal",
+            "english": "last year"
+          },
+          "category": "time_calendar",
+          "difficulty": 7,
+          "tags": [
+            "time_calendar",
+            "adjective",
+            "marked_adjective",
+            "agreement",
+            "oblique_adverbial",
+            "pairs_with_aglaa"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पिछले साल — the same oblique trick",
+              "explanation_en": "पिछला is last or previous, the opposite of अगला, and it behaves identically: marked, agreeing, and going oblique in time expressions. पिछले साल is last year and पिछले हफ़्ते is last week, both with no postposition in sight. Note that Hindi does not use कल for last week or next week the way English uses yesterday and tomorrow loosely — कल is strictly the adjacent day in either direction, and anything further needs पिछला or अगला.",
+              "examples": [
+                {
+                  "hindi": "पिछले साल",
+                  "read_as": "pichhle saal",
+                  "english": "last year",
+                  "note": "Oblique with no postposition, as time expressions are."
+                },
+                {
+                  "hindi": "पिछली बार",
+                  "read_as": "pichhlii baar",
+                  "english": "last time",
+                  "note": "बार is feminine, so the adjective takes -ी."
+                },
+                {
+                  "hindi": "पिछला सवाल मुश्किल था",
+                  "read_as": "pichhlaa savaal mushkil thaa",
+                  "english": "the last question was difficult",
+                  "note": "Direct form here, since this is not a time phrase."
+                }
+              ],
+              "common_error": {
+                "wrong": "पिछला साल",
+                "right": "पिछले साल",
+                "why_en": "In a time expression the phrase goes oblique. पिछला साल would be the last year as a thing being described rather than when something happened."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पिछला",
+              "question_read_as": "pichhlaa",
+              "options": [
+                "next",
+                "recent",
+                "last",
+                "old"
+              ],
+              "options_read_as": [
+                "next",
+                "recent",
+                "last",
+                "old"
+              ],
+              "answer_index": 2,
+              "explanation_en": "पिछला is last or previous, and it is the opposite of अगला."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which form means last time?",
+              "options": [
+                "पिछला बार",
+                "पिछली बार",
+                "पिछले बार",
+                "पिछलीं बार"
+              ],
+              "options_read_as": [
+                "pichhlaa baar",
+                "pichhlii baar",
+                "pichhle baar",
+                "pichhliiṁ baar"
+              ],
+              "answer_index": 1,
+              "explanation_en": "बार is feminine, so the adjective takes -ी and stays -ी in the oblique."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पिछला",
+              "पिछले साल",
+              "पिछली बार",
+              "पिछला सवाल मुश्किल था"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L47-I3",
+          "type": "word",
+          "target": "उम्र",
+          "read_as": "umr",
+          "pronunciation_notes": "The म्र cluster ends the word with no vowel after it: umr, one syllable.",
+          "gloss_en": "age",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "उम्र होना",
+            "read_as": "umr honaa",
+            "english": "to be a certain age"
+          },
+          "category": "time_calendar",
+          "difficulty": 7,
+          "tags": [
+            "time_calendar",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "arabic_origin",
+            "ko_construction"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Age is something you have, not something you are",
+              "explanation_en": "उम्र is age, feminine and flagged. English says I am thirty; Hindi says मेरी उम्र तीस साल है, my age is thirty years — the age is a possession rather than a property of you. The question is तुम्हारी उम्र कितनी है, and the possessive is feminine because it agrees with उम्र. There is also a colloquial version using को: उसे कितने साल हुए. Both work, and the possessive one is more common.",
+              "examples": [
+                {
+                  "hindi": "तुम्हारी उम्र कितनी है?",
+                  "read_as": "tumhaarii umr kitnii hai?",
+                  "english": "how old are you?",
+                  "note": "Both तुम्हारी and कितनी are feminine, agreeing with उम्र."
+                },
+                {
+                  "hindi": "मेरी उम्र तीस साल है",
+                  "read_as": "merii umr tiis saal hai",
+                  "english": "I am thirty",
+                  "note": "Literally my age is thirty years."
+                },
+                {
+                  "hindi": "उम्र बढ़ रही है",
+                  "read_as": "umr baṛh rahii hai",
+                  "english": "I am getting older",
+                  "note": "बढ़ना is intransitive, and रही agrees with उम्र."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं तीस साल हूँ",
+                "right": "मेरी उम्र तीस साल है",
+                "why_en": "That says you are thirty years, as an object. Age in Hindi is possessed rather than being what you are."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "उम्र",
+              "question_read_as": "umr",
+              "options": [
+                "age",
+                "birthday",
+                "generation",
+                "lifetime"
+              ],
+              "options_read_as": [
+                "age",
+                "birthday",
+                "generation",
+                "lifetime"
+              ],
+              "answer_index": 0,
+              "explanation_en": "उम्र is age, feminine, and it is expressed as something you have."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "How do you ask someone's age?",
+              "options": [
+                "तुम कितने हो?",
+                "तुम्हें कितनी उम्र है?",
+                "तुम्हारा उम्र क्या है?",
+                "तुम्हारी उम्र कितनी है?"
+              ],
+              "options_read_as": [
+                "tum kitne ho?",
+                "tumheṁ kitnii umr hai?",
+                "tumhaaraa umr kyaa hai?",
+                "tumhaarii umr kitnii hai?"
+              ],
+              "answer_index": 3,
+              "explanation_en": "तुम्हारी उम्र कितनी है — the possessive, feminine because it agrees with उम्र."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उम्र",
+              "तुम्हारी उम्र कितनी है?",
+              "मेरी उम्र तीस साल है",
+              "उम्र बढ़ रही है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The time block is complete at twelve words. Time expressions take the oblique with no postposition — अगले हफ़्ते, पिछले साल — which explains a great many phrases that otherwise look wrong. Age is possessed rather than being what you are.",
+        "key_forms": [
+          "अगले हफ़्ते",
+          "पिछले साल",
+          "मेरी उम्र"
+        ],
+        "next_up_en": "Next: adverbs of manner, and the one pattern that generates most of them."
+      }
+    },
+    {
+      "level": 48,
+      "title_en": "Manner: slowly, attention, force",
+      "title_hi": "धीरे · ध्यान · ज़ोर",
+      "category": "adverbs",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L48-I1",
+          "type": "word",
+          "target": "धीरे",
+          "read_as": "dhiire",
+          "pronunciation_notes": "Breathy dh at the front and a clear e at the end: dhii-re.",
+          "gloss_en": "slowly, gently, quietly",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adverb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "धीरे बोलना",
+            "read_as": "dhiire bolnaa",
+            "english": "to speak quietly or slowly"
+          },
+          "category": "adverbs",
+          "difficulty": 6,
+          "tags": [
+            "adverbs",
+            "adverb",
+            "invariant",
+            "doubling",
+            "broad_meaning",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "धीरे covers slowly and quietly at once",
+              "explanation_en": "धीरे means slowly, and also gently and quietly — the common thread is reduced intensity, so धीरे बोलो can mean speak slowly or lower your voice depending on the situation. It never changes. The doubled form धीरे-धीरे means gradually or bit by bit, and it is one of the most used phrases in the language. Doubling has now appeared three times — बार-बार, कभी-कभी and here — and it consistently either intensifies or softens.",
+              "examples": [
+                {
+                  "hindi": "धीरे बोलो",
+                  "read_as": "dhiire bolo",
+                  "english": "speak quietly",
+                  "note": "Or speak slowly, depending on context."
+                },
+                {
+                  "hindi": "धीरे-धीरे",
+                  "read_as": "dhiire-dhiire",
+                  "english": "gradually, bit by bit",
+                  "note": "The doubled form, softening rather than intensifying."
+                },
+                {
+                  "hindi": "गाड़ी धीरे चलाओ",
+                  "read_as": "gaaṛii dhiire chalaao",
+                  "english": "drive slowly",
+                  "note": "चलाना is transitive, so this is the imperative."
+                }
+              ],
+              "common_error": {
+                "wrong": "धीरा बोलो",
+                "right": "धीरे बोलो",
+                "why_en": "धीरे is an adverb and has one form. There is a related adjective धीमा, but धीरे itself never takes -ा."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "धीरे",
+              "question_read_as": "dhiire",
+              "options": [
+                "quickly",
+                "slowly",
+                "loudly",
+                "carefully"
+              ],
+              "options_read_as": [
+                "quickly",
+                "slowly",
+                "loudly",
+                "carefully"
+              ],
+              "answer_index": 1,
+              "explanation_en": "धीरे is slowly, and also gently or quietly — the thread is reduced intensity."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "What does the doubled form धीरे-धीरे mean?",
+              "options": [
+                "very slowly",
+                "again and again",
+                "gradually",
+                "not at all"
+              ],
+              "options_read_as": [
+                "very slowly",
+                "again and again",
+                "gradually",
+                "not at all"
+              ],
+              "answer_index": 2,
+              "explanation_en": "धीरे-धीरे means gradually or bit by bit. Doubling softens here rather than intensifying."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "धीरे",
+              "धीरे बोलो",
+              "धीरे-धीरे",
+              "गाड़ी धीरे चलाओ"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L48-I2",
+          "type": "word",
+          "target": "ध्यान",
+          "read_as": "dhyaan",
+          "pronunciation_notes": "The ध्य is a single cluster with the y folded in: dhyaan.",
+          "gloss_en": "attention; also meditation",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "ध्यान देना",
+            "read_as": "dhyaan denaa",
+            "english": "to pay attention"
+          },
+          "category": "adverbs",
+          "difficulty": 7,
+          "tags": [
+            "adverbs",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "manner_with_se",
+            "sanskrit_origin",
+            "two_meanings"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ध्यान से — noun plus से makes an adverb",
+              "explanation_en": "ध्यान is attention, and ध्यान से means carefully or attentively. That is the pattern this whole block turns on: a noun plus से gives you an adverb of manner. You have already met आराम से for calmly, प्यार से for kindly and जल्दी से for quickly, and now ध्यान से and ज़ोर से join them. It is fully productive, so you can build adverbs from nouns nobody has taught you. ध्यान देना is to pay attention, and the thing attended to takes पर.",
+              "examples": [
+                {
+                  "hindi": "ध्यान से सुनो",
+                  "read_as": "dhyaan se suno",
+                  "english": "listen carefully",
+                  "note": "Noun plus से, giving an adverb of manner."
+                },
+                {
+                  "hindi": "ध्यान दो",
+                  "read_as": "dhyaan do",
+                  "english": "pay attention",
+                  "note": "देना for giving attention, in the तुम imperative."
+                },
+                {
+                  "hindi": "इस पर ध्यान दो",
+                  "read_as": "is par dhyaan do",
+                  "english": "pay attention to this",
+                  "note": "The thing attended to takes पर, like भरोसा."
+                }
+              ],
+              "common_error": {
+                "wrong": "ध्यान करो",
+                "right": "ध्यान दो",
+                "why_en": "करना is the default guess again. Attention is given rather than done — though ध्यान करना does exist and means to meditate."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does ध्यान से mean?",
+              "question": "ध्यान से",
+              "question_read_as": "dhyaan se",
+              "options": [
+                "quickly",
+                "quietly",
+                "willingly",
+                "carefully"
+              ],
+              "options_read_as": [
+                "quickly",
+                "quietly",
+                "willingly",
+                "carefully"
+              ],
+              "answer_index": 3,
+              "explanation_en": "ध्यान से is carefully or attentively — the noun ध्यान plus से."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition turns a noun into an adverb of manner?",
+              "options": [
+                "से",
+                "को",
+                "पर",
+                "में"
+              ],
+              "options_read_as": [
+                "se",
+                "ko",
+                "par",
+                "meṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "से — as in ध्यान से, आराम से, प्यार से and जल्दी से."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ध्यान",
+              "ध्यान से सुनो",
+              "ध्यान दो",
+              "इस पर ध्यान दो"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L48-I3",
+          "type": "word",
+          "target": "ज़ोर",
+          "read_as": "zor",
+          "pronunciation_notes": "The dotted ज़ is a z and the vowel is a long open o: zor.",
+          "gloss_en": "force, strength, loudness",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "ज़ोर से बोलना",
+            "read_as": "zor se bolnaa",
+            "english": "to speak loudly"
+          },
+          "category": "adverbs",
+          "difficulty": 7,
+          "tags": [
+            "adverbs",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "manner_with_se",
+            "nukta",
+            "persian_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ज़ोर से — the opposite of धीरे",
+              "explanation_en": "ज़ोर is force or strength, and ज़ोर से means loudly, hard or forcefully — the direct opposite of धीरे. Built with the same noun-plus-से pattern. You met ज़ोर already without knowing it: कमज़ोर, weak, is कम plus ज़ोर, less force. That kind of transparency is worth looking for, because a great many Hindi words are compounds of pieces you already have.",
+              "examples": [
+                {
+                  "hindi": "ज़ोर से बोलो",
+                  "read_as": "zor se bolo",
+                  "english": "speak up",
+                  "note": "The opposite instruction to धीरे बोलो."
+                },
+                {
+                  "hindi": "ज़ोर से हँसना",
+                  "read_as": "zor se haṁsnaa",
+                  "english": "to laugh loudly",
+                  "note": "The same pattern with another verb."
+                },
+                {
+                  "hindi": "वह कमज़ोर है",
+                  "read_as": "vah kamzor hai",
+                  "english": "he is weak",
+                  "note": "कम plus ज़ोर — less force — which is where the word comes from."
+                }
+              ],
+              "common_error": {
+                "wrong": "ज़ोर बोलो",
+                "right": "ज़ोर से बोलो",
+                "why_en": "The से is what makes it an adverb. Without it you have just named the noun force."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does ज़ोर से mean?",
+              "question": "ज़ोर से",
+              "question_read_as": "zor se",
+              "options": [
+                "loudly",
+                "gently",
+                "slowly",
+                "clearly"
+              ],
+              "options_read_as": [
+                "loudly",
+                "gently",
+                "slowly",
+                "clearly"
+              ],
+              "answer_index": 0,
+              "explanation_en": "ज़ोर से is loudly or forcefully — the opposite of धीरे."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which word is built from कम plus ज़ोर?",
+              "options": [
+                "ज़ोरी",
+                "ज़ोरदार",
+                "कमी",
+                "कमज़ोर"
+              ],
+              "options_read_as": [
+                "zorii",
+                "zordaar",
+                "kamii",
+                "kamzor"
+              ],
+              "answer_index": 3,
+              "explanation_en": "कमज़ोर — less force, meaning weak. Many Hindi words are transparent compounds like this."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ज़ोर",
+              "ज़ोर से बोलो",
+              "ज़ोर से हँसना",
+              "वह कमज़ोर है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A noun plus से gives an adverb of manner, and the pattern is fully productive — ध्यान से, ज़ोर से, आराम से, प्यार से, जल्दी से. That single rule generates most of the manner adverbs in the language, so it is worth more than any individual word in this level.",
+        "key_forms": [
+          "धीरे बोलना",
+          "ध्यान से सुनना",
+          "ज़ोर से बोलना"
+        ],
+        "next_up_en": "Next: how often things happen, and the adverb that goes with a guess."
+      }
+    },
+    {
+      "level": 49,
+      "title_en": "Frequency: often, sometimes, perhaps",
+      "title_hi": "अक्सर · कभी · शायद",
+      "category": "adverbs",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L49-I1",
+          "type": "word",
+          "target": "अक्सर",
+          "read_as": "aksar",
+          "pronunciation_notes": "The क्स cluster runs together with no vowel between: ak-sar.",
+          "gloss_en": "often, usually",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adverb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "अक्सर जाना",
+            "read_as": "aksar jaanaa",
+            "english": "to go often"
+          },
+          "category": "adverbs",
+          "difficulty": 6,
+          "tags": [
+            "adverbs",
+            "adverb",
+            "invariant",
+            "frequency",
+            "habitual_trigger",
+            "arabic_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "अक्सर is the third habitual trigger",
+              "explanation_en": "अक्सर means often or usually, and like रोज़ and हमेशा it can only sit with the habitual — something that happens often cannot be described with the continuous. वह अक्सर देर से आता है. That gives you three reliable adverbs for choosing a tense, and between them they cover most cases where you are unsure. अक्सर never changes and it usually sits just before the verb, though it can move to the front for emphasis.",
+              "examples": [
+                {
+                  "hindi": "वह अक्सर यहाँ आता है",
+                  "read_as": "vah aksar yahaaṁ aataa hai",
+                  "english": "he often comes here",
+                  "note": "अक्सर forces the habitual, as रोज़ and हमेशा do."
+                },
+                {
+                  "hindi": "मैं अक्सर देर से उठता हूँ",
+                  "read_as": "maiṁ aksar der se uṭhtaa huuṁ",
+                  "english": "I often get up late",
+                  "note": "देर से for late, and उठना is intransitive."
+                },
+                {
+                  "hindi": "अक्सर ऐसा होता है",
+                  "read_as": "aksar aisaa hotaa hai",
+                  "english": "that often happens",
+                  "note": "ऐसा means like this or such, and it agrees as a marked adjective."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह अक्सर आ रहा है",
+                "right": "वह अक्सर आता है",
+                "why_en": "The continuous describes one stretch of time in progress, which cannot be something that happens often."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "अक्सर",
+              "question_read_as": "aksar",
+              "options": [
+                "always",
+                "sometimes",
+                "often",
+                "never"
+              ],
+              "options_read_as": [
+                "always",
+                "sometimes",
+                "often",
+                "never"
+              ],
+              "answer_index": 2,
+              "explanation_en": "अक्सर is often or usually, and it forces the habitual."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which tense must follow अक्सर?",
+              "options": [
+                "perfective",
+                "habitual",
+                "continuous",
+                "future"
+              ],
+              "options_read_as": [
+                "perfective",
+                "habitual",
+                "continuous",
+                "future"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The habitual — joining रोज़ and हमेशा as a reliable tense test."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अक्सर",
+              "वह अक्सर यहाँ आता है",
+              "मैं अक्सर देर से उठता हूँ",
+              "अक्सर ऐसा होता है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L49-I2",
+          "type": "word",
+          "target": "कभी",
+          "read_as": "kabhii",
+          "pronunciation_notes": "Breathy bh in the middle and a long ii at the end: ka-bhii.",
+          "gloss_en": "ever, at any time; sometimes when doubled",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adverb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "कभी नहीं",
+            "read_as": "kabhii nahiiṁ",
+            "english": "never"
+          },
+          "category": "adverbs",
+          "difficulty": 7,
+          "tags": [
+            "adverbs",
+            "adverb",
+            "invariant",
+            "frequency",
+            "doubling",
+            "negation_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कभी नहीं for never, कभी-कभी for sometimes",
+              "explanation_en": "कभी on its own means ever or at any time, and it takes its real meaning from what surrounds it. With नहीं it becomes never: मैं कभी नहीं जाता. Doubled it becomes sometimes: कभी-कभी. And in a question it means ever — क्या तुम कभी गए हो. Hindi has no single word for never, so कभी नहीं is how it is built, and that is worth knowing because reaching for one word will leave you stuck.",
+              "examples": [
+                {
+                  "hindi": "मैं कभी नहीं जाता",
+                  "read_as": "maiṁ kabhii nahiiṁ jaataa",
+                  "english": "I never go",
+                  "note": "कभी plus नहीं is how Hindi says never."
+                },
+                {
+                  "hindi": "कभी-कभी",
+                  "read_as": "kabhii-kabhii",
+                  "english": "sometimes",
+                  "note": "The doubled form, softening as धीरे-धीरे does."
+                },
+                {
+                  "hindi": "कभी आओ",
+                  "read_as": "kabhii aao",
+                  "english": "come sometime",
+                  "note": "In an invitation it means at some point, unspecified."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं नहीं जाता कभी",
+                "right": "मैं कभी नहीं जाता",
+                "why_en": "कभी comes before नहीं, and the pair stays together in front of the verb."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does कभी-कभी mean?",
+              "question": "कभी-कभी",
+              "question_read_as": "kabhii-kabhii",
+              "options": [
+                "never",
+                "sometimes",
+                "always",
+                "often"
+              ],
+              "options_read_as": [
+                "never",
+                "sometimes",
+                "always",
+                "often"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The doubled form means sometimes. On its own कभी means ever."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "How does Hindi say never?",
+              "options": [
+                "कभी",
+                "कभी-कभी",
+                "कभी नहीं",
+                "नहीं कभी"
+              ],
+              "options_read_as": [
+                "kabhii",
+                "kabhii-kabhii",
+                "kabhii nahiiṁ",
+                "nahiiṁ kabhii"
+              ],
+              "answer_index": 2,
+              "explanation_en": "कभी नहीं. There is no single word for never, so it is built from two."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "कभी",
+              "मैं कभी नहीं जाता",
+              "कभी-कभी",
+              "कभी आओ"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L49-I3",
+          "type": "word",
+          "target": "शायद",
+          "read_as": "shaayad",
+          "pronunciation_notes": "The length falls on the first syllable: shaa-yad.",
+          "gloss_en": "perhaps, maybe",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adverb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "शायद होगा",
+            "read_as": "shaayad hogaa",
+            "english": "it is probably so"
+          },
+          "category": "adverbs",
+          "difficulty": 7,
+          "tags": [
+            "adverbs",
+            "adverb",
+            "invariant",
+            "modality",
+            "presumptive_pair",
+            "module7_link",
+            "persian_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "शायद goes with the presumptive",
+              "explanation_en": "शायद means perhaps, and it pairs naturally with the presumptive forms from Module 7 — शायद वह घर पर होगा, he is probably at home. That is not a rule so much as a fit: होगा already carries the sense of a guess, and शायद makes it explicit. It also works with the future and with the plain present, and it always sits at the front of the clause rather than next to the verb.",
+              "examples": [
+                {
+                  "hindi": "शायद वह घर पर होगा",
+                  "read_as": "shaayad vah ghar par hogaa",
+                  "english": "he is probably at home",
+                  "note": "शायद with the presumptive होगा, which already means probably."
+                },
+                {
+                  "hindi": "शायद बारिश होगी",
+                  "read_as": "shaayad baarish hogii",
+                  "english": "it will probably rain",
+                  "note": "होगी agrees with the feminine बारिश."
+                },
+                {
+                  "hindi": "शायद मुझे पता है",
+                  "read_as": "shaayad mujhe pataa hai",
+                  "english": "I think I know",
+                  "note": "With the plain present it softens a claim rather than guessing."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह शायद घर पर है शायद",
+                "right": "शायद वह घर पर है",
+                "why_en": "शायद sits once, at the front of the clause. It does not attach to the verb like other adverbs."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "शायद",
+              "question_read_as": "shaayad",
+              "options": [
+                "certainly",
+                "apparently",
+                "hardly",
+                "perhaps"
+              ],
+              "options_read_as": [
+                "certainly",
+                "apparently",
+                "hardly",
+                "perhaps"
+              ],
+              "answer_index": 3,
+              "explanation_en": "शायद is perhaps or maybe, and it sits at the front of the clause."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb form pairs most naturally with शायद?",
+              "options": [
+                "होगा",
+                "था",
+                "है",
+                "हुआ"
+              ],
+              "options_read_as": [
+                "hogaa",
+                "thaa",
+                "hai",
+                "huaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "होगा — the presumptive, which already carries the sense of a guess."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "शायद",
+              "शायद वह घर पर होगा",
+              "शायद बारिश होगी",
+              "शायद मुझे पता है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "अक्सर joins रोज़ and हमेशा as an adverb that forces the habitual, giving three reliable tense tests. Hindi has no single word for never — कभी नहीं builds it from two — and शायद pairs with the presumptive because both are about guessing.",
+        "key_forms": [
+          "अक्सर आना",
+          "कभी नहीं",
+          "शायद होगा"
+        ],
+        "next_up_en": "Next: absolutely and only, and a conversation about how often you come here."
+      }
+    },
+    {
+      "level": 50,
+      "title_en": "Degree: absolutely and only",
+      "title_hi": "बिल्कुल · सिर्फ़",
+      "category": "adverbs",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M08-L50-I1",
+          "type": "word",
+          "target": "बिल्कुल",
+          "read_as": "bilkul",
+          "pronunciation_notes": "The doubled ल is held slightly and no vowel follows the final ल: bil-kul.",
+          "gloss_en": "absolutely, completely, exactly",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adverb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "बिल्कुल नहीं",
+            "read_as": "bilkul nahiiṁ",
+            "english": "not at all"
+          },
+          "category": "adverbs",
+          "difficulty": 7,
+          "tags": [
+            "adverbs",
+            "adverb",
+            "invariant",
+            "degree",
+            "negation_pair",
+            "arabic_origin",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बिल्कुल intensifies whatever it touches",
+              "explanation_en": "बिल्कुल means absolutely or completely, and it strengthens whatever follows. On its own as an answer it means absolutely, yes. With नहीं it becomes not at all, which is far stronger than a plain नहीं — बिल्कुल नहीं is a flat refusal. It also means exactly: बिल्कुल सही, exactly right. Like every adverb in this block it never changes, and it sits directly in front of the word it is strengthening.",
+              "examples": [
+                {
+                  "hindi": "बिल्कुल नहीं",
+                  "read_as": "bilkul nahiiṁ",
+                  "english": "not at all",
+                  "note": "Much stronger than a plain नहीं."
+                },
+                {
+                  "hindi": "बिल्कुल सही",
+                  "read_as": "bilkul sahii",
+                  "english": "exactly right",
+                  "note": "Here it means precisely rather than completely."
+                },
+                {
+                  "hindi": "मुझे बिल्कुल पता नहीं",
+                  "read_as": "mujhe bilkul pataa nahiiṁ",
+                  "english": "I have absolutely no idea",
+                  "note": "Strengthening the पता होना construction from level forty-one."
+                }
+              ],
+              "common_error": {
+                "wrong": "बिल्कुला",
+                "right": "बिल्कुल",
+                "why_en": "बिल्कुल is an adverb with one form. It never takes an ending of any kind."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बिल्कुल",
+              "question_read_as": "bilkul",
+              "options": [
+                "almost",
+                "hardly",
+                "absolutely",
+                "roughly"
+              ],
+              "options_read_as": [
+                "almost",
+                "hardly",
+                "absolutely",
+                "roughly"
+              ],
+              "answer_index": 2,
+              "explanation_en": "बिल्कुल is absolutely or completely, and it strengthens whatever follows."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "What does बिल्कुल नहीं mean?",
+              "options": [
+                "maybe not",
+                "not at all",
+                "not yet",
+                "not really"
+              ],
+              "options_read_as": [
+                "maybe not",
+                "not at all",
+                "not yet",
+                "not really"
+              ],
+              "answer_index": 1,
+              "explanation_en": "बिल्कुल नहीं is a flat refusal, much stronger than नहीं on its own."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बिल्कुल",
+              "बिल्कुल नहीं",
+              "बिल्कुल सही",
+              "मुझे बिल्कुल पता नहीं"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L50-I2",
+          "type": "word",
+          "target": "सिर्फ़",
+          "read_as": "sirf",
+          "pronunciation_notes": "The dotted फ़ is an f and no vowel follows it: sirf, one syllable.",
+          "gloss_en": "only, just",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adverb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "सिर्फ़ एक",
+            "read_as": "sirf ek",
+            "english": "only one"
+          },
+          "category": "adverbs",
+          "difficulty": 6,
+          "tags": [
+            "adverbs",
+            "adverb",
+            "invariant",
+            "degree",
+            "nukta",
+            "arabic_origin",
+            "word_order_matters"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सिर्फ़ goes directly in front of what it limits",
+              "explanation_en": "सिर्फ़ means only, and its position decides the meaning exactly as in English. सिर्फ़ मैं गया says only I went, nobody else; मैं सिर्फ़ वहाँ गया says I only went there and did nothing more. So it must sit immediately in front of the word it is limiting rather than drifting to the front of the clause. The Hindi word केवल means the same and is more formal, common in writing.",
+              "examples": [
+                {
+                  "hindi": "सिर्फ़ एक",
+                  "read_as": "sirf ek",
+                  "english": "only one",
+                  "note": "Directly in front of what it limits."
+                },
+                {
+                  "hindi": "सिर्फ़ तुम जानते हो",
+                  "read_as": "sirf tum jaante ho",
+                  "english": "only you know",
+                  "note": "Limiting तुम, so nobody else knows."
+                },
+                {
+                  "hindi": "मैं सिर्फ़ हिंदी बोलता हूँ",
+                  "read_as": "maiṁ sirf hindii boltaa huuṁ",
+                  "english": "I only speak Hindi",
+                  "note": "Limiting हिंदी — no other language, rather than no other activity."
+                }
+              ],
+              "common_error": {
+                "wrong": "सिर्फ़ मैं हिंदी बोलता हूँ",
+                "right": "मैं सिर्फ़ हिंदी बोलता हूँ",
+                "why_en": "The first says only I speak Hindi and nobody else does. Position decides what is being limited, as it does in English."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सिर्फ़",
+              "question_read_as": "sirf",
+              "options": [
+                "only",
+                "also",
+                "even",
+                "almost"
+              ],
+              "options_read_as": [
+                "only",
+                "also",
+                "even",
+                "almost"
+              ],
+              "answer_index": 0,
+              "explanation_en": "सिर्फ़ is only or just, and its position decides what it limits."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Where does सिर्फ़ go?",
+              "options": [
+                "at the front of the clause",
+                "next to the verb",
+                "at the end",
+                "directly before what it limits"
+              ],
+              "options_read_as": [
+                "at the front of the clause",
+                "next to the verb",
+                "at the end",
+                "directly before what it limits"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Directly before what it limits — exactly as only does in English."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सिर्फ़",
+              "सिर्फ़ एक",
+              "सिर्फ़ तुम जानते हो",
+              "मैं सिर्फ़ हिंदी बोलता हूँ"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L50-I3",
+          "type": "dialogue",
+          "target": "कभी-कभी आता हूँ",
+          "read_as": "kabhii-kabhii aataa huuṁ",
+          "pronunciation_notes": "The doubled word runs together as one unit: ka-bhii-ka-bhii.",
+          "gloss_en": "how often you come here",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "phrase",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "कभी-कभी",
+            "read_as": "kabhii-kabhii",
+            "english": "sometimes"
+          },
+          "category": "adverbs",
+          "difficulty": 7,
+          "tags": [
+            "adverbs",
+            "dialogue",
+            "micro_dialogue",
+            "frequency",
+            "habitual_trigger",
+            "agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Frequency adverbs, and the tense they force",
+              "explanation_en": "Both frequency words in this exchange take the habitual — अक्सर in the question and कभी-कभी in the answer — because both describe how often something happens rather than what is happening now. The second half switches to instructions, where धीरे is doing manner work rather than frequency. Notice तुम taking आते in the first line: plural agreement even for one person, as it has throughout.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "तुम अक्सर यहाँ आते हो?",
+                  "read_as": "tum aksar yahaaṁ aate ho?",
+                  "english": "Do you often come here?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "नहीं, कभी-कभी आता हूँ।",
+                  "read_as": "nahiiṁ, kabhii-kabhii aataa huuṁ.",
+                  "english": "No, I come sometimes."
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "धीरे बोलो, यहाँ भीड़ है।",
+                  "read_as": "dhiire bolo, yahaaṁ bhiiṛ hai.",
+                  "english": "Speak quietly, it is crowded here."
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "ठीक है, मैं धीरे बोलूँगा।",
+                  "read_as": "ṭhiik hai, maiṁ dhiire boluuṁgaa.",
+                  "english": "All right, I will speak quietly."
+                }
+              ],
+              "common_error": {
+                "wrong": "तुम अक्सर यहाँ आ रहे हो?",
+                "right": "तुम अक्सर यहाँ आते हो?",
+                "why_en": "अक्सर asks about frequency, which the continuous cannot express. The habitual is the only option."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this phrase mean?",
+              "question": "कभी-कभी आता हूँ",
+              "question_read_as": "kabhii-kabhii aataa huuṁ",
+              "options": [
+                "I never come",
+                "I come sometimes",
+                "I always come",
+                "I am coming"
+              ],
+              "options_read_as": [
+                "I never come",
+                "I come sometimes",
+                "I always come",
+                "I am coming"
+              ],
+              "answer_index": 1,
+              "explanation_en": "कभी-कभी means sometimes, and it takes the habitual."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the first line. Which word is missing?",
+              "masked_line_index": 0,
+              "masked_word": "आते",
+              "options": [
+                "आता",
+                "आती",
+                "आते",
+                "आओ"
+              ],
+              "options_read_as": [
+                "aataa",
+                "aatii",
+                "aate",
+                "aao"
+              ],
+              "answer_index": 2,
+              "explanation_en": "तुम takes plural agreement, so the participle is आते."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तुम अक्सर यहाँ आते हो?",
+              "नहीं, कभी-कभी आता हूँ।",
+              "धीरे बोलो, यहाँ भीड़ है।",
+              "ठीक है, मैं धीरे बोलूँगा।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "बिल्कुल strengthens whatever it touches and बिल्कुल नहीं is a flat refusal. सिर्फ़ must sit directly in front of what it limits, since its position decides the meaning exactly as only does in English.",
+        "key_forms": [
+          "बिल्कुल नहीं",
+          "सिर्फ़ एक",
+          "कभी-कभी"
+        ],
+        "next_up_en": "Next: the last of the adverbs, then the final verb block that closes the module."
+      }
+    }
+  ]
+}

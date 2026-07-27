@@ -1,0 +1,1517 @@
+{
+  "module": 6,
+  "module_name_en": "The Oblique Case",
+  "module_name_hi": "तिरछा रूप",
+  "phase": 3,
+  "batch": {
+    "levels_from": 1,
+    "levels_to": 5
+  },
+  "levels": [
+    {
+      "level": 1,
+      "title_en": "Every noun has two forms",
+      "title_hi": "हर संज्ञा के दो रूप",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L01-I1",
+          "type": "grammar",
+          "target": "दो रूप",
+          "read_as": "do ruup",
+          "pronunciation_notes": "रूप has a long uu and the final vowel drops: do ruup, two syllables.",
+          "gloss_en": "the two forms every noun has",
+          "gender": null,
+          "difficulty": 3,
+          "tags": [
+            "oblique",
+            "concept",
+            "case",
+            "gateway"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Two forms, not one",
+              "explanation_en": "Every Hindi noun has two forms. The one you learned in Module 4 is the direct form, used when the noun is the subject or stands alone. The second is the oblique form, used whenever a postposition follows. बेटा is the direct form; बेटे को is the oblique. For some nouns the two look identical, which is why Module 5 could avoid the whole question — every noun it used was one of those.",
+              "examples": [
+                {
+                  "hindi": "बेटा",
+                  "read_as": "beṭaa",
+                  "english": "son",
+                  "note": "The direct form, as learned in Module 4."
+                },
+                {
+                  "hindi": "बेटे को",
+                  "read_as": "beṭe ko",
+                  "english": "to the son",
+                  "note": "The oblique form, because a postposition follows."
+                },
+                {
+                  "hindi": "घर में",
+                  "read_as": "ghar meṁ",
+                  "english": "in the house",
+                  "note": "घर looks the same in both forms, which is why Module 5 used it constantly."
+                }
+              ],
+              "common_error": {
+                "wrong": "बेटा को",
+                "right": "बेटे को",
+                "why_en": "A postposition forces the oblique form, and बेटा changes to बेटे."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its oblique form.",
+              "question": "बेटा + को",
+              "question_read_as": "beṭaa + ko",
+              "options": [
+                "बेटा को",
+                "बेटे को",
+                "बेटों को",
+                "बेटी को"
+              ],
+              "options_read_as": [
+                "beṭaa ko",
+                "beṭe ko",
+                "beṭoṁ ko",
+                "beṭii ko"
+              ],
+              "answer_index": 1,
+              "explanation_en": "One son, and a postposition follows, so बेटा becomes बेटे."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "घर में किताब है।",
+                "बेटे को किताब है।",
+                "बेटा यहाँ है।",
+                "बेटा को किताब है।"
+              ],
+              "options_read_as": [
+                "ghar meṁ kitaab hai.",
+                "beṭe ko kitaab hai.",
+                "beṭaa yahãa hai.",
+                "beṭaa ko kitaab hai."
+              ],
+              "answer_index": 3,
+              "explanation_en": "बेटा को is wrong — a postposition requires the oblique बेटे. The others are all correct."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बेटा",
+              "बेटे को",
+              "घर में"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L01-I2",
+          "type": "grammar",
+          "target": "परसर्ग",
+          "read_as": "parsarg",
+          "pronunciation_notes": "The vowel after र drops, giving parsarg in two syllables.",
+          "gloss_en": "the postposition — what triggers the change",
+          "gender": null,
+          "difficulty": 3,
+          "tags": [
+            "oblique",
+            "trigger",
+            "postposition",
+            "concept"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "What makes a noun change",
+              "explanation_en": "Only one thing forces the oblique form: a postposition following the noun. में, पर, से, को, तक, का and the compounds built on के all do it. Nothing else does — not being an object, not being plural, not being anywhere in particular. If there is no postposition after the noun, the noun stays in its direct form. That single rule is the whole trigger, and it is worth over-learning.",
+              "examples": [
+                {
+                  "hindi": "बेटा अच्छा है।",
+                  "read_as": "beṭaa achchhaa hai.",
+                  "english": "The son is good.",
+                  "note": "No postposition, so the direct form stays."
+                },
+                {
+                  "hindi": "बेटे को",
+                  "read_as": "beṭe ko",
+                  "english": "to the son",
+                  "note": "को follows, so the noun goes oblique."
+                },
+                {
+                  "hindi": "बेटे के लिए",
+                  "read_as": "beṭe ke lie",
+                  "english": "for the son",
+                  "note": "A compound postposition triggers it exactly the same way."
+                }
+              ],
+              "common_error": {
+                "wrong": "बेटे अच्छा है।",
+                "right": "बेटा अच्छा है।",
+                "why_en": "There is no postposition here, so the noun stays in its direct form."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its oblique form.",
+              "question": "बच्चा + के लिए",
+              "question_read_as": "bachchaa + ke lie",
+              "options": [
+                "बच्चों के लिए",
+                "बच्ची के लिए",
+                "बच्चा के लिए",
+                "बच्चे के लिए"
+              ],
+              "options_read_as": [
+                "bachchoṁ ke lie",
+                "bachchii ke lie",
+                "bachchaa ke lie",
+                "bachche ke lie"
+              ],
+              "answer_index": 3,
+              "explanation_en": "के लिए is a postposition, so बच्चा becomes बच्चे."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "बच्चा अच्छा है।",
+                "बच्चे अच्छा है।",
+                "बच्चे को चाय है।",
+                "बच्चे के लिए चाय है।"
+              ],
+              "options_read_as": [
+                "bachchaa achchhaa hai.",
+                "bachche achchhaa hai.",
+                "bachche ko chaay hai.",
+                "bachche ke lie chaay hai."
+              ],
+              "answer_index": 1,
+              "explanation_en": "बच्चे अच्छा है is wrong — with no postposition the noun should stay बच्चा."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बेटा अच्छा है।",
+              "बेटे को",
+              "बेटे के लिए"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L01-I3",
+          "type": "grammar",
+          "target": "सीधा रूप / तिरछा रूप",
+          "read_as": "siidhaa ruup / tirchhaa ruup",
+          "pronunciation_notes": "तिरछा has an aspirated छ, and the vowel after त drops: tirchhaa.",
+          "gloss_en": "direct form against oblique form",
+          "gender": null,
+          "difficulty": 4,
+          "tags": [
+            "oblique",
+            "direct",
+            "contrast",
+            "concept",
+            "noun_classes"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Which nouns actually change",
+              "explanation_en": "Not every noun looks different in the oblique. घर is घर in both, and so are किताब, चाय and शहर — which is exactly why Module 5 could build sentences with postpositions and never mention any of this. But बेटा becomes बेटे, and in the plural almost every noun changes. Hindi nouns fall into six classes by how they behave, and this module works through them one at a time.",
+              "examples": [
+                {
+                  "hindi": "घर में",
+                  "read_as": "ghar meṁ",
+                  "english": "in the house",
+                  "note": "No change at all — the direct and oblique forms are identical."
+                },
+                {
+                  "hindi": "किताब में",
+                  "read_as": "kitaab meṁ",
+                  "english": "in the book",
+                  "note": "Also unchanged."
+                },
+                {
+                  "hindi": "कमरे में",
+                  "read_as": "kamre meṁ",
+                  "english": "in the room",
+                  "note": "कमरा changes to कमरे, because it ends in -ा."
+                }
+              ],
+              "common_error": {
+                "wrong": "कमरा में",
+                "right": "कमरे में",
+                "why_en": "कमरा ends in -ा, so it changes before a postposition — unlike घर, which does not."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its oblique form.",
+              "question": "कमरा + में",
+              "question_read_as": "kamraa + meṁ",
+              "options": [
+                "कमरे में",
+                "कमरा में",
+                "कमरों में",
+                "कमरी में"
+              ],
+              "options_read_as": [
+                "kamre meṁ",
+                "kamraa meṁ",
+                "kamroṁ meṁ",
+                "kamrii meṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "कमरा ends in -ा and is singular, so the oblique is कमरे."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": [
+                "घर में",
+                "किताब में",
+                "कमरा में",
+                "कमरे में"
+              ],
+              "options_read_as": [
+                "ghar meṁ",
+                "kitaab meṁ",
+                "kamraa meṁ",
+                "kamre meṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "कमरा में is wrong. घर and किताब do not change, but कमरा must become कमरे."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "घर में",
+              "किताब में",
+              "कमरे में"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level introduced the central fact of the module: every noun has a direct form and an oblique form, and a postposition is the only thing that triggers the switch. Some nouns look identical in both, which is why Module 5 could ignore the whole question.",
+        "key_forms": [
+          "बेटे को",
+          "घर में",
+          "कमरे में"
+        ],
+        "next_up_en": "Next: the first noun class — masculines ending in -ा, which change the most visibly."
+      }
+    },
+    {
+      "level": 2,
+      "title_en": "Class 1: masculines in -ा",
+      "title_hi": "वर्ग १ — बेटा, बच्चा",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L02-I1",
+          "type": "grammar",
+          "target": "बेटे को",
+          "read_as": "beṭe ko",
+          "pronunciation_notes": "बेटे ends in a flat ए with no glide, and को is unstressed: beṭe ko.",
+          "gloss_en": "Class 1 singular oblique",
+          "gender": null,
+          "difficulty": 4,
+          "tags": [
+            "oblique",
+            "class_1",
+            "masculine",
+            "singular",
+            "aa_ending"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बेटा becomes बेटे",
+              "explanation_en": "Masculine nouns ending in -ा are the first class, and they are the most visible: the -ा becomes -े before any postposition. बेटा को is never right; बेटे को is. This class includes a great many everyday words — बच्चा, कुत्ता, कमरा, दरवाज़ा, जूता, कपड़ा — so once you can spot the -ा ending you have a rule that pays off constantly.",
+              "examples": [
+                {
+                  "hindi": "बेटे को",
+                  "read_as": "beṭe ko",
+                  "english": "to the son",
+                  "note": "The -ा becomes -े before को."
+                },
+                {
+                  "hindi": "बेटे के लिए",
+                  "read_as": "beṭe ke lie",
+                  "english": "for the son",
+                  "note": "Any postposition does it, compound ones included."
+                },
+                {
+                  "hindi": "बेटे से",
+                  "read_as": "beṭe se",
+                  "english": "from the son",
+                  "note": "And से as well."
+                }
+              ],
+              "common_error": {
+                "wrong": "बेटा को",
+                "right": "बेटे को",
+                "why_en": "A masculine noun in -ा must change to -े before a postposition."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its oblique form.",
+              "question": "बेटा + से",
+              "question_read_as": "beṭaa + se",
+              "options": [
+                "बेटों से",
+                "बेटे से",
+                "बेटा से",
+                "बेटी से"
+              ],
+              "options_read_as": [
+                "beṭoṁ se",
+                "beṭe se",
+                "beṭaa se",
+                "beṭii se"
+              ],
+              "answer_index": 1,
+              "explanation_en": "One son, so the -ा becomes -े and gives बेटे."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": [
+                "बेटा को",
+                "बेटे से",
+                "बेटे को",
+                "बेटे के लिए"
+              ],
+              "options_read_as": [
+                "beṭaa ko",
+                "beṭe se",
+                "beṭe ko",
+                "beṭe ke lie"
+              ],
+              "answer_index": 0,
+              "explanation_en": "बेटा को keeps the direct form where the oblique बेटे is required."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बेटे को",
+              "बेटे के लिए",
+              "बेटे से"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L02-I2",
+          "type": "grammar",
+          "target": "बच्चे से",
+          "read_as": "bachche se",
+          "pronunciation_notes": "The च्च stack holds the ch with no breath on either half: bachche se.",
+          "gloss_en": "Class 1 with another noun",
+          "gender": null,
+          "difficulty": 4,
+          "tags": [
+            "oblique",
+            "class_1",
+            "masculine",
+            "singular",
+            "conjunct"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The same rule, every time",
+              "explanation_en": "The rule does not depend on the word. Any masculine noun ending in -ा behaves identically: बच्चा becomes बच्चे, कुत्ता becomes कुत्ते, दरवाज़ा becomes दरवाज़े. There are no exceptions inside this class, which makes it the easiest of the six to learn — the difficulty is only in remembering to apply it while you are speaking.",
+              "examples": [
+                {
+                  "hindi": "बच्चे से",
+                  "read_as": "bachche se",
+                  "english": "from the child",
+                  "note": "बच्चा becomes बच्चे."
+                },
+                {
+                  "hindi": "कुत्ते को",
+                  "read_as": "kutte ko",
+                  "english": "to the dog",
+                  "note": "कुत्ता behaves the same way."
+                },
+                {
+                  "hindi": "दरवाज़े पर",
+                  "read_as": "darvaaze par",
+                  "english": "at the door",
+                  "note": "And so does दरवाज़ा."
+                }
+              ],
+              "common_error": {
+                "wrong": "कुत्ता को",
+                "right": "कुत्ते को",
+                "why_en": "कुत्ता ends in -ा, so it takes the oblique कुत्ते before a postposition."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its oblique form.",
+              "question": "दरवाज़ा + पर",
+              "question_read_as": "darvaazaa + par",
+              "options": [
+                "दरवाज़ा पर",
+                "दरवाज़ों पर",
+                "दरवाज़ी पर",
+                "दरवाज़े पर"
+              ],
+              "options_read_as": [
+                "darvaazaa par",
+                "darvaazoṁ par",
+                "darvaazii par",
+                "darvaaze par"
+              ],
+              "answer_index": 3,
+              "explanation_en": "One door, and a postposition follows, so दरवाज़ा becomes दरवाज़े."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": [
+                "बच्चे से",
+                "कमरे में",
+                "दरवाज़े पर",
+                "कुत्ता को"
+              ],
+              "options_read_as": [
+                "bachche se",
+                "kamre meṁ",
+                "darvaaze par",
+                "kuttaa ko"
+              ],
+              "answer_index": 3,
+              "explanation_en": "कुत्ता को should be कुत्ते को. The other three have all made the change correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बच्चे से",
+              "कुत्ते को",
+              "दरवाज़े पर"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L02-I3",
+          "type": "grammar",
+          "target": "कमरे में",
+          "read_as": "kamre meṁ",
+          "pronunciation_notes": "The vowel after क drops, so कमरे is two syllables: kam-re.",
+          "gloss_en": "Class 1 with a location postposition",
+          "gender": null,
+          "difficulty": 4,
+          "tags": [
+            "oblique",
+            "class_1",
+            "masculine",
+            "singular",
+            "location"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "In the room, not in the कमरा",
+              "explanation_en": "Location postpositions trigger the oblique just as को and से do. कमरे में, दरवाज़े पर, घोड़े पर — all of them take the changed form. This matters because location phrases are among the first things a learner wants to say, and कमरा में is one of the most audible mistakes there is. Say कमरे में a dozen times and the habit sticks.",
+              "examples": [
+                {
+                  "hindi": "कमरे में",
+                  "read_as": "kamre meṁ",
+                  "english": "in the room",
+                  "note": "कमरा becomes कमरे before में."
+                },
+                {
+                  "hindi": "घोड़े पर",
+                  "read_as": "ghoṛe par",
+                  "english": "on the horse",
+                  "note": "घोड़ा behaves identically."
+                },
+                {
+                  "hindi": "कमरे में मेज़ है।",
+                  "read_as": "kamre meṁ mez hai.",
+                  "english": "There is a table in the room.",
+                  "note": "A full sentence, and the verb still comes last."
+                }
+              ],
+              "common_error": {
+                "wrong": "कमरा में मेज़ है।",
+                "right": "कमरे में मेज़ है।",
+                "why_en": "में is a postposition, so कमरा must take its oblique form कमरे."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its oblique form.",
+              "question": "घोड़ा + पर",
+              "question_read_as": "ghoṛaa + par",
+              "options": [
+                "घोड़ों पर",
+                "घोड़ी पर",
+                "घोड़े पर",
+                "घोड़ा पर"
+              ],
+              "options_read_as": [
+                "ghoṛoṁ par",
+                "ghoṛii par",
+                "ghoṛe par",
+                "ghoṛaa par"
+              ],
+              "answer_index": 2,
+              "explanation_en": "One horse, so घोड़ा becomes घोड़े."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "कमरे में मेज़ है।",
+                "कमरा में मेज़ है।",
+                "घर में मेज़ है।",
+                "घोड़े पर बच्चा है।"
+              ],
+              "options_read_as": [
+                "kamre meṁ mez hai.",
+                "kamraa meṁ mez hai.",
+                "ghar meṁ mez hai.",
+                "ghoṛe par bachchaa hai."
+              ],
+              "answer_index": 1,
+              "explanation_en": "कमरा में is wrong. घर needs no change, but कमरा does."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "कमरे में",
+              "घोड़े पर",
+              "कमरे में मेज़ है।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered Class 1 in the singular: masculine nouns ending in -ा change that -ा to -े before any postposition, with no exceptions inside the class.",
+        "key_forms": [
+          "बेटे को",
+          "कुत्ते को",
+          "कमरे में"
+        ],
+        "next_up_en": "Next: the same class in the plural, where the ending changes again."
+      }
+    },
+    {
+      "level": 3,
+      "title_en": "Class 1 in the plural",
+      "title_hi": "वर्ग १ — बहुवचन",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L03-I1",
+          "type": "grammar",
+          "target": "बेटों को",
+          "read_as": "beṭoṁ ko",
+          "pronunciation_notes": "The dot nasalises the ओ, so बेटों ends in a hum: beṭoṁ.",
+          "gloss_en": "Class 1 plural oblique",
+          "gender": null,
+          "difficulty": 5,
+          "tags": [
+            "oblique",
+            "class_1",
+            "masculine",
+            "plural",
+            "oṁ_ending"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बेटों — the plural oblique",
+              "explanation_en": "In the plural, Class 1 nouns take -ों before a postposition: बेटे becomes बेटों, बच्चे becomes बच्चों. This -ों ending is not confined to Class 1 — nearly every Hindi noun takes it in the plural oblique, whatever class it belongs to. That makes it the single most useful ending in the module, and the one to learn first.",
+              "examples": [
+                {
+                  "hindi": "बेटों को",
+                  "read_as": "beṭoṁ ko",
+                  "english": "to the sons",
+                  "note": "Plural and oblique, so -ों."
+                },
+                {
+                  "hindi": "बच्चों के लिए",
+                  "read_as": "bachchoṁ ke lie",
+                  "english": "for the children",
+                  "note": "The same ending with a compound postposition."
+                },
+                {
+                  "hindi": "कुत्तों से",
+                  "read_as": "kuttoṁ se",
+                  "english": "from the dogs",
+                  "note": "And again with से."
+                }
+              ],
+              "common_error": {
+                "wrong": "बेटे को चाय है।",
+                "right": "बेटों को चाय है।",
+                "why_en": "For more than one son the plural oblique बेटों is needed, not the singular oblique बेटे."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its plural oblique form.",
+              "question": "बच्चे + के लिए",
+              "question_read_as": "bachche + ke lie",
+              "options": [
+                "बच्चे के लिए",
+                "बच्चों के लिए",
+                "बच्चा के लिए",
+                "बच्चियों के लिए"
+              ],
+              "options_read_as": [
+                "bachche ke lie",
+                "bachchoṁ ke lie",
+                "bachchaa ke lie",
+                "bachchiyoṁ ke lie"
+              ],
+              "answer_index": 1,
+              "explanation_en": "More than one child, and a postposition follows, so the form is बच्चों."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": [
+                "कुत्ताओं से",
+                "बच्चों के लिए",
+                "बेटों को",
+                "कुत्तों से"
+              ],
+              "options_read_as": [
+                "kuttaaoṁ se",
+                "bachchoṁ ke lie",
+                "beṭoṁ ko",
+                "kuttoṁ se"
+              ],
+              "answer_index": 0,
+              "explanation_en": "कुत्ताओं से adds an ending to the direct form instead of replacing it. The plural oblique is कुत्तों."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बेटों को",
+              "बच्चों के लिए",
+              "कुत्तों से"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L03-I2",
+          "type": "grammar",
+          "target": "कमरों में",
+          "read_as": "kamroṁ meṁ",
+          "pronunciation_notes": "Both words end in a nasalised vowel, so the phrase hums twice: kamroṁ meṁ.",
+          "gloss_en": "Class 1 plural with a location postposition",
+          "gender": null,
+          "difficulty": 5,
+          "tags": [
+            "oblique",
+            "class_1",
+            "masculine",
+            "plural",
+            "location"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कमरों में — in the rooms",
+              "explanation_en": "The plural oblique works the same way with location postpositions. कमरों में, दरवाज़ों पर, घोड़ों पर. Notice the shape of the whole system for this class: three forms, and each has one job. कमरा stands alone, कमरे is either the plain plural or the singular before a postposition, and कमरों is the plural before a postposition.",
+              "examples": [
+                {
+                  "hindi": "कमरों में",
+                  "read_as": "kamroṁ meṁ",
+                  "english": "in the rooms",
+                  "note": "Plural and oblique together."
+                },
+                {
+                  "hindi": "दरवाज़ों पर",
+                  "read_as": "darvaazoṁ par",
+                  "english": "at the doors",
+                  "note": "The same ending with पर."
+                },
+                {
+                  "hindi": "कमरों में मेज़ें हैं।",
+                  "read_as": "kamroṁ meṁ mezeṁ haiṁ.",
+                  "english": "There are tables in the rooms.",
+                  "note": "A full sentence, with the verb last as always."
+                }
+              ],
+              "common_error": {
+                "wrong": "कमरे में मेज़ें हैं।",
+                "right": "कमरों में मेज़ें हैं।",
+                "why_en": "If more than one room is meant, the noun needs the plural oblique कमरों."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its plural oblique form.",
+              "question": "दरवाज़े + पर",
+              "question_read_as": "darvaaze + par",
+              "options": [
+                "दरवाज़ा पर",
+                "दरवाज़े पर",
+                "दरवाज़ी पर",
+                "दरवाज़ों पर"
+              ],
+              "options_read_as": [
+                "darvaazaa par",
+                "darvaaze par",
+                "darvaazii par",
+                "darvaazoṁ par"
+              ],
+              "answer_index": 3,
+              "explanation_en": "More than one door, and पर follows, so the form is दरवाज़ों."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": [
+                "कमरों में",
+                "दरवाज़ों पर",
+                "कमराओं में",
+                "घोड़ों पर"
+              ],
+              "options_read_as": [
+                "kamroṁ meṁ",
+                "darvaazoṁ par",
+                "kamraaoṁ meṁ",
+                "ghoṛoṁ par"
+              ],
+              "answer_index": 2,
+              "explanation_en": "कमराओं में is not a Hindi form. The -ा is replaced by -ों, not added to."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "कमरों में",
+              "दरवाज़ों पर",
+              "कमरों में मेज़ें हैं।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L03-I3",
+          "type": "grammar",
+          "target": "बेटा / बेटे / बेटों",
+          "read_as": "beṭaa / beṭe / beṭoṁ",
+          "pronunciation_notes": "The three differ only in their final vowel, and the third adds a nasal hum.",
+          "gloss_en": "the full Class 1 paradigm",
+          "gender": null,
+          "difficulty": 5,
+          "tags": [
+            "oblique",
+            "class_1",
+            "paradigm",
+            "masculine",
+            "review"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Three forms, and what each is for",
+              "explanation_en": "A Class 1 noun has three shapes and each does a clear job. बेटा is the direct singular: one son, no postposition. बेटे is either the direct plural or the oblique singular — it covers both, which is a genuine ambiguity you have to read around. बेटों is the oblique plural. Learn the three as a set and the class is finished.",
+              "examples": [
+                {
+                  "hindi": "बेटा अच्छा है।",
+                  "read_as": "beṭaa achchhaa hai.",
+                  "english": "The son is good.",
+                  "note": "Direct singular — no postposition anywhere."
+                },
+                {
+                  "hindi": "बेटे अच्छे हैं।",
+                  "read_as": "beṭe achchhe haiṁ.",
+                  "english": "The sons are good.",
+                  "note": "Direct plural, and the verb confirms it."
+                },
+                {
+                  "hindi": "बेटों को चाय है।",
+                  "read_as": "beṭoṁ ko chaay hai.",
+                  "english": "The sons have tea.",
+                  "note": "Oblique plural, because को follows."
+                }
+              ],
+              "common_error": {
+                "wrong": "बेटों अच्छे हैं।",
+                "right": "बेटे अच्छे हैं।",
+                "why_en": "There is no postposition here, so the plural stays in its direct form बेटे."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its plural oblique form.",
+              "question": "बेटे + को",
+              "question_read_as": "beṭe + ko",
+              "options": [
+                "बेटा को",
+                "बेटे को",
+                "बेटों को",
+                "बेटियों को"
+              ],
+              "options_read_as": [
+                "beṭaa ko",
+                "beṭe ko",
+                "beṭoṁ ko",
+                "beṭiyoṁ ko"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Plural and followed by a postposition, so the form is बेटों."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "बेटा अच्छा है।",
+                "बेटों अच्छे हैं।",
+                "बेटों को चाय है।",
+                "बेटे अच्छे हैं।"
+              ],
+              "options_read_as": [
+                "beṭaa achchhaa hai.",
+                "beṭoṁ achchhe haiṁ.",
+                "beṭoṁ ko chaay hai.",
+                "beṭe achchhe haiṁ."
+              ],
+              "answer_index": 1,
+              "explanation_en": "बेटों अच्छे हैं has an oblique form with no postposition to justify it. It should be बेटे."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बेटा अच्छा है।",
+              "बेटे अच्छे हैं।",
+              "बेटों को चाय है।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed Class 1. Three forms: बेटा alone, बेटे for the plain plural or the singular before a postposition, and बेटों for the plural before a postposition. The -ों ending will return in every class that follows.",
+        "key_forms": [
+          "बेटों को",
+          "कमरों में",
+          "बेटे अच्छे हैं।"
+        ],
+        "next_up_en": "Next: the ambiguity of the middle form, and a drill on where it goes wrong."
+      }
+    },
+    {
+      "level": 4,
+      "title_en": "The middle form",
+      "title_hi": "बेटे — दो काम",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L04-I1",
+          "type": "grammar",
+          "target": "बेटे",
+          "read_as": "beṭe",
+          "pronunciation_notes": "A flat ए with no glide, and identical whichever of its two jobs it is doing.",
+          "gloss_en": "one form, two jobs",
+          "gender": null,
+          "difficulty": 5,
+          "tags": [
+            "oblique",
+            "class_1",
+            "ambiguity",
+            "reading"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बेटे does two jobs",
+              "explanation_en": "बेटे is the direct plural and also the oblique singular, and nothing in the word tells you which. What tells you is what comes next. If a postposition follows, it is one son in the oblique. If no postposition follows, it is several sons in the direct form. बेटे को is to one son; बेटे अच्छे हैं is several sons are good. Reading Hindi means checking the next word before deciding.",
+              "examples": [
+                {
+                  "hindi": "बेटे को चाय है।",
+                  "read_as": "beṭe ko chaay hai.",
+                  "english": "The son has tea.",
+                  "note": "को follows, so this is one son in the oblique."
+                },
+                {
+                  "hindi": "बेटे अच्छे हैं।",
+                  "read_as": "beṭe achchhe haiṁ.",
+                  "english": "The sons are good.",
+                  "note": "No postposition, so this is several sons."
+                },
+                {
+                  "hindi": "कमरे में मेज़ है।",
+                  "read_as": "kamre meṁ mez hai.",
+                  "english": "There is a table in the room.",
+                  "note": "One room, oblique, because में follows."
+                }
+              ],
+              "common_error": {
+                "wrong": "बेटे को चाय हैं।",
+                "right": "बेटे को चाय है।",
+                "why_en": "The verb agrees with चाय, which is singular. बेटे here is one son, not several."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its singular oblique form.",
+              "question": "कमरा + में",
+              "question_read_as": "kamraa + meṁ",
+              "options": [
+                "कमरों में",
+                "कमरा में",
+                "कमरी में",
+                "कमरे में"
+              ],
+              "options_read_as": [
+                "kamroṁ meṁ",
+                "kamraa meṁ",
+                "kamrii meṁ",
+                "kamre meṁ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "One room and a postposition following, so the form is कमरे."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "बेटे को चाय है।",
+                "बेटे अच्छे हैं।",
+                "कमरे में मेज़ है।",
+                "बेटे अच्छा है।"
+              ],
+              "options_read_as": [
+                "beṭe ko chaay hai.",
+                "beṭe achchhe haiṁ.",
+                "kamre meṁ mez hai.",
+                "beṭe achchhaa hai."
+              ],
+              "answer_index": 3,
+              "explanation_en": "बेटे अच्छा है mixes a plural noun with a singular adjective and verb. With no postposition, बेटे must be plural throughout."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बेटे को चाय है।",
+              "बेटे अच्छे हैं।",
+              "कमरे में मेज़ है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L04-I2",
+          "type": "grammar",
+          "target": "कुत्ते को / कुत्तों को",
+          "read_as": "kutte ko / kuttoṁ ko",
+          "pronunciation_notes": "The only audible difference is the nasal hum on the second, which is easy to lose in fast speech.",
+          "gloss_en": "one against many in the oblique",
+          "gender": null,
+          "difficulty": 5,
+          "tags": [
+            "oblique",
+            "class_1",
+            "number",
+            "contrast",
+            "listening"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "One dog or several",
+              "explanation_en": "Once a postposition is in place, the only thing separating one from many is the ending: कुत्ते को for one dog, कुत्तों को for several. Nothing else in the phrase changes, and in speech the difference is a single nasal hum. This is where careless listening costs you meaning, and where the -ों ending earns its keep.",
+              "examples": [
+                {
+                  "hindi": "कुत्ते को",
+                  "read_as": "kutte ko",
+                  "english": "to the dog",
+                  "note": "One dog."
+                },
+                {
+                  "hindi": "कुत्तों को",
+                  "read_as": "kuttoṁ ko",
+                  "english": "to the dogs",
+                  "note": "Several, marked only by the -ों."
+                },
+                {
+                  "hindi": "बच्चों के लिए चाय है।",
+                  "read_as": "bachchoṁ ke lie chaay hai.",
+                  "english": "There is tea for the children.",
+                  "note": "Plural oblique inside a full sentence."
+                }
+              ],
+              "common_error": {
+                "wrong": "कुत्ते को खाना है।",
+                "right": "कुत्तों को खाना है।",
+                "why_en": "If several dogs are meant, the plural oblique कुत्तों is required — the singular form does not cover both."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its plural oblique form.",
+              "question": "कुत्ते + को",
+              "question_read_as": "kutte + ko",
+              "options": [
+                "कुत्तों को",
+                "कुत्ता को",
+                "कुत्ते को",
+                "कुत्तियों को"
+              ],
+              "options_read_as": [
+                "kuttoṁ ko",
+                "kuttaa ko",
+                "kutte ko",
+                "kuttiyoṁ ko"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Several dogs before a postposition, so the form is कुत्तों."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": [
+                "कुत्ते को",
+                "कुत्तों को",
+                "कुत्ता को",
+                "बच्चों के लिए"
+              ],
+              "options_read_as": [
+                "kutte ko",
+                "kuttoṁ ko",
+                "kuttaa ko",
+                "bachchoṁ ke lie"
+              ],
+              "answer_index": 2,
+              "explanation_en": "कुत्ता को uses the direct form before a postposition. Both कुत्ते को and कुत्तों को are correct, for one dog and several."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "कुत्ते को",
+              "कुत्तों को",
+              "बच्चों के लिए चाय है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L04-I3",
+          "type": "grammar",
+          "target": "कमरे में मेज़ है",
+          "read_as": "kamre meṁ mez hai",
+          "pronunciation_notes": "Four words, with the oblique कमरे and the postposition में running together in speech.",
+          "gloss_en": "Class 1 inside a full sentence",
+          "gender": null,
+          "difficulty": 5,
+          "tags": [
+            "oblique",
+            "class_1",
+            "sentence",
+            "agreement",
+            "word_order"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Putting it in a sentence",
+              "explanation_en": "The oblique form changes the noun and nothing else. The verb still agrees with whatever the subject is, the word order is unchanged, and the postposition still follows its noun. कमरे में मेज़ है has an oblique noun at the front and a verb agreeing with मेज़ at the back, and the two have nothing to do with each other. Keeping them separate in your head is the whole trick.",
+              "examples": [
+                {
+                  "hindi": "कमरे में मेज़ है।",
+                  "read_as": "kamre meṁ mez hai.",
+                  "english": "There is a table in the room.",
+                  "note": "Oblique noun, and the verb agrees with मेज़."
+                },
+                {
+                  "hindi": "कमरों में मेज़ें हैं।",
+                  "read_as": "kamroṁ meṁ mezeṁ haiṁ.",
+                  "english": "There are tables in the rooms.",
+                  "note": "Both are plural now, but independently."
+                },
+                {
+                  "hindi": "बच्चों के लिए दूध है।",
+                  "read_as": "bachchoṁ ke lie duudh hai.",
+                  "english": "There is milk for the children.",
+                  "note": "Plural oblique, and a singular verb agreeing with दूध."
+                }
+              ],
+              "common_error": {
+                "wrong": "बच्चों के लिए दूध हैं।",
+                "right": "बच्चों के लिए दूध है।",
+                "why_en": "The verb agrees with दूध, which is singular. The plural oblique noun has no effect on it."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its plural oblique form.",
+              "question": "कमरे + में",
+              "question_read_as": "kamre + meṁ",
+              "options": [
+                "कमरों में",
+                "कमरे में",
+                "कमरा में",
+                "कमराओं में"
+              ],
+              "options_read_as": [
+                "kamroṁ meṁ",
+                "kamre meṁ",
+                "kamraa meṁ",
+                "kamraaoṁ meṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "More than one room before a postposition gives कमरों."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": [
+                "बच्चों के लिए दूध हैं।",
+                "कमरों में मेज़ें हैं।",
+                "कमरे में मेज़ है।",
+                "बच्चों के लिए दूध है।"
+              ],
+              "options_read_as": [
+                "bachchoṁ ke lie duudh haiṁ.",
+                "kamroṁ meṁ mezeṁ haiṁ.",
+                "kamre meṁ mez hai.",
+                "bachchoṁ ke lie duudh hai."
+              ],
+              "answer_index": 0,
+              "explanation_en": "The verb must agree with दूध, which is singular. A plural oblique noun earlier in the sentence changes nothing."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "कमरे में मेज़ है।",
+              "कमरों में मेज़ें हैं।",
+              "बच्चों के लिए दूध है।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level drilled the ambiguity at the centre of Class 1. बेटे is both the plain plural and the oblique singular, and only the next word tells you which — while the verb goes on agreeing with the subject regardless.",
+        "key_forms": [
+          "बेटे को",
+          "कुत्तों को",
+          "कमरे में मेज़ है।"
+        ],
+        "next_up_en": "Next: Class 2, the masculines that do not change in the singular at all."
+      }
+    },
+    {
+      "level": 5,
+      "title_en": "Class 2: unmarked masculines",
+      "title_hi": "वर्ग २ — घर, शहर",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M06-L05-I1",
+          "type": "grammar",
+          "target": "घर में",
+          "read_as": "ghar meṁ",
+          "pronunciation_notes": "Two short words that run together in speech, with the nasal hum closing the phrase.",
+          "gloss_en": "Class 2 singular — no change at all",
+          "gender": null,
+          "difficulty": 4,
+          "tags": [
+            "oblique",
+            "class_2",
+            "masculine",
+            "singular",
+            "no_change"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The class that does nothing",
+              "explanation_en": "Class 2 is every masculine noun that does not end in -ा: घर, शहर, गाँव, बाज़ार, स्कूल, दिन. In the singular these do not change at all before a postposition — घर is घर whether it stands alone or has में after it. This is the class Module 5 leaned on for every one of its examples, which is why postpositions felt so easy there.",
+              "examples": [
+                {
+                  "hindi": "घर में",
+                  "read_as": "ghar meṁ",
+                  "english": "in the house",
+                  "note": "No change from the direct form."
+                },
+                {
+                  "hindi": "शहर में",
+                  "read_as": "shahar meṁ",
+                  "english": "in the city",
+                  "note": "Also unchanged."
+                },
+                {
+                  "hindi": "बाज़ार से",
+                  "read_as": "baazaar se",
+                  "english": "from the market",
+                  "note": "And again — nothing happens."
+                }
+              ],
+              "common_error": {
+                "wrong": "घरे में",
+                "right": "घर में",
+                "why_en": "घर does not end in -ा, so there is no -े form for it to take."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its oblique form.",
+              "question": "शहर + में",
+              "question_read_as": "shahar + meṁ",
+              "options": [
+                "शहरे में",
+                "शहर में",
+                "शहरों में",
+                "शहरा में"
+              ],
+              "options_read_as": [
+                "shahare meṁ",
+                "shahar meṁ",
+                "shahroṁ meṁ",
+                "shaharaa meṁ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "One city, and Class 2 nouns do not change in the singular, so शहर stays as it is."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": [
+                "घर में",
+                "शहर में",
+                "बाज़ार से",
+                "घरे में"
+              ],
+              "options_read_as": [
+                "ghar meṁ",
+                "shahar meṁ",
+                "baazaar se",
+                "ghare meṁ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "घरे में invents an ending. Class 2 nouns take no ending at all in the singular oblique."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "घर में",
+              "शहर में",
+              "बाज़ार से"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L05-I2",
+          "type": "grammar",
+          "target": "घरों में",
+          "read_as": "gharoṁ meṁ",
+          "pronunciation_notes": "Both words end in a nasalised vowel: gharoṁ meṁ, with two hums in a row.",
+          "gloss_en": "Class 2 plural — the -ों returns",
+          "gender": null,
+          "difficulty": 5,
+          "tags": [
+            "oblique",
+            "class_2",
+            "masculine",
+            "plural",
+            "oṁ_ending"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The plural does change",
+              "explanation_en": "Class 2 does nothing in the singular, but the plural oblique is another matter: घर becomes घरों, शहर becomes शहरों. This is the same -ों you met in Class 1, and it will keep returning — it is the one ending shared by almost every class in the module. So the rule for Class 2 is short: nothing in the singular, -ों in the plural.",
+              "examples": [
+                {
+                  "hindi": "घरों में",
+                  "read_as": "gharoṁ meṁ",
+                  "english": "in the houses",
+                  "note": "The plural oblique takes -ों."
+                },
+                {
+                  "hindi": "शहरों में",
+                  "read_as": "shahroṁ meṁ",
+                  "english": "in the cities",
+                  "note": "The same ending, and the middle vowel drops in speech."
+                },
+                {
+                  "hindi": "घरों में लोग हैं।",
+                  "read_as": "gharoṁ meṁ log haiṁ.",
+                  "english": "There are people in the houses.",
+                  "note": "A full sentence with the plural oblique at the front."
+                }
+              ],
+              "common_error": {
+                "wrong": "घर में लोग हैं।",
+                "right": "घरों में लोग हैं।",
+                "why_en": "If more than one house is meant, the plural oblique घरों is needed — the unchanged form covers only the singular."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its plural oblique form.",
+              "question": "शहर + में",
+              "question_read_as": "shahar + meṁ",
+              "options": [
+                "शहर में",
+                "शहरे में",
+                "शहरों में",
+                "शहरें में"
+              ],
+              "options_read_as": [
+                "shahar meṁ",
+                "shahare meṁ",
+                "shahroṁ meṁ",
+                "shahareṁ meṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "More than one city before a postposition, so the form is शहरों."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": [
+                "घरों में",
+                "घरें में",
+                "गाँवों में",
+                "शहरों में"
+              ],
+              "options_read_as": [
+                "gharoṁ meṁ",
+                "ghareṁ meṁ",
+                "gãavoṁ meṁ",
+                "shahroṁ meṁ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "घरें में uses a feminine plural ending on a masculine noun. The plural oblique is घरों."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "घरों में",
+              "शहरों में",
+              "घरों में लोग हैं।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L05-I3",
+          "type": "dialogue",
+          "target": "शहरों में",
+          "read_as": "shahroṁ meṁ",
+          "pronunciation_notes": "The vowel after श drops and the ending hums, giving shahroṁ in two syllables.",
+          "gloss_en": "Class 2 singular and plural side by side",
+          "gender": null,
+          "difficulty": 5,
+          "tags": [
+            "oblique",
+            "class_2",
+            "contrast",
+            "dialogue",
+            "plural"
+          ],
+          "setting_en": "Two people comparing city and village life",
+          "speakers": 2,
+          "speed": "slow",
+          "cards": {
+            "learn": {
+              "title_en": "Both forms in one conversation",
+              "explanation_en": "Listen for the difference between शहर में and शहरों में in the exchange below. One city takes no ending at all; several take -ों. The two are only a hum apart, and since Class 2 covers a large share of the place names you will need, this is a contrast worth being able to hear rather than only to read.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "क्या यह घर शहर में है?",
+                  "read_as": "kyaa yah ghar shahar meṁ hai?",
+                  "english": "Is this house in the city?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "नहीं, यह गाँव में है।",
+                  "read_as": "nahiiṁ, yah gãav meṁ hai.",
+                  "english": "No, it is in the village."
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "शहरों में घर महँगे हैं।",
+                  "read_as": "shahroṁ meṁ ghar mahãge haiṁ.",
+                  "english": "Houses in cities are expensive."
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "हाँ, लेकिन गाँवों में सस्ते हैं।",
+                  "read_as": "hãa, lekin gãavoṁ meṁ saste haiṁ.",
+                  "english": "Yes, but in villages they are cheap."
+                }
+              ],
+              "common_error": {
+                "wrong": "शहर में घर महँगे हैं।",
+                "right": "शहरों में घर महँगे हैं।",
+                "why_en": "The claim is about cities in general, so the plural oblique शहरों is needed."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its plural oblique form.",
+              "question": "गाँव + में",
+              "question_read_as": "gãav + meṁ",
+              "options": [
+                "गाँव में",
+                "गाँवों में",
+                "गाँवे में",
+                "गाँवें में"
+              ],
+              "options_read_as": [
+                "gãav meṁ",
+                "gãavoṁ meṁ",
+                "gãave meṁ",
+                "gãaveṁ meṁ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "More than one village before a postposition, so the form is गाँवों."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the third line. Which word is missing?",
+              "masked_line_index": 2,
+              "masked_word": "शहरों",
+              "mask_reason": "the plural oblique form of a Class 2 noun",
+              "options": [
+                "शहर",
+                "शहरे",
+                "शहरों",
+                "शहरें"
+              ],
+              "options_read_as": [
+                "shahar",
+                "shahare",
+                "shahroṁ",
+                "shahareṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The statement is about cities in general and में follows, so the plural oblique शहरों is required."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "क्या यह घर शहर में है?",
+              "नहीं, यह गाँव में है।",
+              "शहरों में घर महँगे हैं।",
+              "हाँ, लेकिन गाँवों में सस्ते हैं।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level opened Class 2: masculine nouns that do not end in -ा. They do not change at all in the singular, which is why Module 5 could use them freely, but the plural oblique still takes -ों.",
+        "key_forms": [
+          "घर में",
+          "घरों में",
+          "शहरों में"
+        ],
+        "next_up_en": "Next: more of Class 2, and then the masculines ending in -ी."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1140 @@
+{
+  "module": 12,
+  "module_name_en": "Conversation",
+  "module_name_hi": "बातचीत",
+  "phase": 5,
+  "batch": {
+    "levels_from": 16,
+    "levels_to": 18
+  },
+  "receptive_only": true,
+  "levels": [
+    {
+      "level": 16,
+      "title_en": "When it goes wrong, and paying",
+      "title_hi": "ग़लत ऑर्डर और बिल",
+      "items": [
+        {
+          "id": "M12-L16-I1",
+          "type": "dialogue",
+          "target": "ये तो हमने ऑर्डर नहीं किया",
+          "title_en": "The order is wrong",
+          "setting": "restaurant",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "restaurant",
+            "complaint",
+            "ne",
+            "to_particle",
+            "causative"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Waiter",
+              "label_hi": "वेटर"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भैया, ये तो हमने ऑर्डर नहीं किया।",
+              "read_as": "bhaiyaa, ye to hamne ôrḍar nahiiṁ kiyaa.",
+              "english": "We didn't order this."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "क्या मँगवाया था सर?",
+              "read_as": "kyaa maṁgvaayaa thaa sar?",
+              "english": "What had you asked for?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "दाल मखनी, ये पनीर आ गया।",
+              "read_as": "daal makhnii, ye paniir aa gayaa.",
+              "english": "Dal makhani — this paneer's turned up."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "माफ़ कीजिए, अभी बदलवाता हूँ।",
+              "read_as": "maaf kiijie, abhii badalvaataa huuṁ.",
+              "english": "Sorry, I'll get it changed right away."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "और थोड़ा जल्दी, बच्चे भूखे हैं।",
+              "read_as": "aur thoṛaa jaldii, bacche bhuukhe haiṁ.",
+              "english": "And quickly please, the children are hungry."
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "दो मिनट सर।",
+              "read_as": "do minaṭ sar.",
+              "english": "Two minutes, sir."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Complaining without complaining",
+              "explanation_en": "ये तो हमने ऑर्डर नहीं किया is about as direct as a restaurant complaint gets in Hindi, and notice what it does not do: it never says the waiter made a mistake. It states a fact about what was ordered and leaves the inference to him. तो is doing the work — as for this, we didn't order it. The waiter's माफ़ कीजिए and बदलवाता हूँ close the matter immediately, and nobody has had to assign blame out loud. That shape is worth learning, because a direct accusation would land far harder in Hindi than the English equivalent does.",
+              "listening_notes": [
+                "हमने ऑर्डर नहीं किया: करना is transitive and perfective, so ने. The English verb ऑर्डर stays inert, as always.",
+                "बदलवाता हूँ is the second causative of बदलना — I'll have it changed, not I'll change it myself.",
+                "बच्चे भूखे हैं uses an adjective where you might expect the dative बच्चों को भूख लगी है. Both exist; the adjective is blunter and quicker."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What had they actually ordered?",
+              "options": [
+                "The waiter never took an order",
+                "Paneer",
+                "Dal makhani",
+                "Both"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 3: दाल मखनी — the paneer is what arrived by mistake."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 1,
+              "masked_token": "हमने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "ये तो ___ ऑर्डर नहीं किया।",
+              "question_read_as": "ye to ___ ôrḍar nahiiṁ kiyaa.",
+              "options": [
+                "हमने",
+                "हमें",
+                "हमारा",
+                "हम"
+              ],
+              "options_read_as": [
+                "hamne",
+                "hameṁ",
+                "hamaaraa",
+                "ham"
+              ],
+              "answer_index": 0,
+              "explanation_en": "करना is transitive and the tense is perfective, so ने."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Nobody raises their voice. Line 1 is flat and factual, which is the point."
+          }
+        },
+        {
+          "id": "M12-L16-I2",
+          "type": "dialogue",
+          "target": "छह रोटियाँ लिखी हैं",
+          "title_en": "Checking the bill",
+          "setting": "restaurant",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "restaurant",
+            "bill",
+            "feminine_plural",
+            "nasal_shift",
+            "module9_link"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Waiter",
+              "label_hi": "वेटर"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भैया, बिल ले आइए।",
+              "read_as": "bhaiyaa, bil le aaie.",
+              "english": "Bring the bill."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "जी सर, ये लीजिए।",
+              "read_as": "jii sar, ye liijie.",
+              "english": "Here you are."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "एक मिनट — यहाँ छह रोटियाँ लिखी हैं।",
+              "read_as": "ek minaṭ — yahaaṁ chhah roṭiyaaṁ likhii haiṁ.",
+              "english": "One second — six rotis are written here."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हाँ सर, चार पहले और दो बाद में।",
+              "read_as": "haaṁ sar, chaar pahle aur do baad meṁ.",
+              "english": "Yes sir, four first and two later."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "अच्छा, ठीक है।",
+              "read_as": "acchaa, ṭhiik hai.",
+              "english": "Ah, fine."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "लिखी हैं, not लिखीं — the nasal moves",
+              "explanation_en": "छह रोटियाँ लिखी हैं has a feminine plural subject. Standing alone, the participle would be लिखीं, carrying the nasal. With an auxiliary behind it the nasal moves onto the हैं and the participle relaxes to लिखी. That is the rule from the end of Module 9, and this is the first place in real conversation where you can hear it doing its job. In a busy restaurant the difference between लिखी and लिखीं would be inaudible — which is exactly why the auxiliary carries it instead.",
+              "listening_notes": [
+                "बिल ले आइए — the लाना-plus-आना compound again, \"go and bring\".",
+                "चार पहले और दो बाद में — the entire explanation is five words with no verb at all.",
+                "रोटी is feminine, so the plural is रोटियाँ with -याँ."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why are six rotis on the bill?",
+              "options": [
+                "Six were ordered at once",
+                "Two were for another table",
+                "The waiter made a mistake",
+                "Four were ordered first and two more later"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 4: चार पहले और दो बाद में."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "लिखी",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "यहाँ छह रोटियाँ ___ हैं।",
+              "question_read_as": "yahaaṁ chhah roṭiyaaṁ ___ haiṁ.",
+              "options": [
+                "लिखा",
+                "लिखी",
+                "लिखे",
+                "लिखीं"
+              ],
+              "options_read_as": [
+                "likhaa",
+                "likhii",
+                "likhe",
+                "likhiiṁ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Feminine plural, but with an auxiliary present the nasal sits on हैं and the participle is plain लिखी."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 3 should sound like genuine checking, not accusation."
+          }
+        },
+        {
+          "id": "M12-L16-I3",
+          "type": "dialogue",
+          "target": "मैं कार्ड से दे देता हूँ",
+          "title_en": "Splitting the bill",
+          "setting": "restaurant",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "restaurant",
+            "three_speakers",
+            "se_instrument",
+            "ellipsis",
+            "money"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Friend A",
+              "label_hi": "पहला दोस्त"
+            },
+            {
+              "id": "B",
+              "label_en": "Friend B",
+              "label_hi": "दूसरा दोस्त"
+            },
+            {
+              "id": "C",
+              "label_en": "Friend C",
+              "label_hi": "तीसरा दोस्त"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "कितना हुआ?",
+              "read_as": "kitnaa huaa?",
+              "english": "How much is it?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "बारह सौ। तीन में बाँट लेते हैं।",
+              "read_as": "baarah sau. tiin meṁ baaṁṭ lete haiṁ.",
+              "english": "Twelve hundred. Let's split it three ways."
+            },
+            {
+              "n": 3,
+              "speaker": "C",
+              "hindi": "मैं कार्ड से दे देता हूँ, तुम लोग बाद में भेज देना।",
+              "read_as": "maiṁ kaarḍ se de detaa huuṁ, tum log baad meṁ bhej denaa.",
+              "english": "I'll pay by card, you two send it later."
+            },
+            {
+              "n": 4,
+              "speaker": "A",
+              "hindi": "ठीक है, मैं अभी भेज देता हूँ।",
+              "read_as": "ṭhiik hai, maiṁ abhii bhej detaa huuṁ.",
+              "english": "Fine, I'll send it now."
+            },
+            {
+              "n": 5,
+              "speaker": "B",
+              "hindi": "मेरा भी लिख लो।",
+              "read_as": "meraa bhii likh lo.",
+              "english": "Note mine down too."
+            },
+            {
+              "n": 6,
+              "speaker": "C",
+              "hindi": "कोई बात नहीं, याद है।",
+              "read_as": "koii baat nahiiṁ, yaad hai.",
+              "english": "No need, I've got it."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "से for the means of payment",
+              "explanation_en": "कार्ड से — by card. This is the same से you met in रिक्शे से, by rickshaw, and ब्लू लाइन से, by that line: the instrument or channel through which something happens. Note also तीन में बाँट लेते हैं, split it three ways, where में marks the number of parts. The whole exchange settles in six lines with no negotiation, because Hindi has a fixed phrase for each move and nobody has to invent anything.",
+              "listening_notes": [
+                "भेज देना in line 3 is an infinitive used as a soft instruction between friends, exactly like एक चाय देना at the tea stall.",
+                "मेरा भी लिख लो — मेरा stands alone for \"my share\", with हिस्सा understood and never said.",
+                "याद है means \"I remember\". Strictly it would be मुझे याद है; dropping the मुझे is normal when it is obvious who is doing the remembering."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How do they settle the bill?",
+              "options": [
+                "C pays by card and the others send their share",
+                "They split it in cash",
+                "B pays for everyone",
+                "Each pays their own share at the counter"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 3: मैं कार्ड से दे देता हूँ, तुम लोग बाद में भेज देना."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "से",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "मैं कार्ड ___ दे देता हूँ, तुम लोग बाद में भेज देना।",
+              "question_read_as": "maiṁ kaarḍ ___ de detaa huuṁ, tum log baad meṁ bhej denaa.",
+              "options": [
+                "को",
+                "पर",
+                "से",
+                "में"
+              ],
+              "options_read_as": [
+                "ko",
+                "par",
+                "se",
+                "meṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "से for the instrument — the thing the action happens through."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Three voices. Lines 5 and 6 overlap slightly; line 6 is dismissive in a friendly way."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A complaint states a fact and leaves the blame unsaid — ये तो हमने ऑर्डर नहीं किया. With an auxiliary present the feminine plural nasal moves off the participle onto the auxiliary: लिखी हैं. And से covers the means of payment as well as everything else it already did.",
+        "key_forms": [
+          "ये तो हमने ऑर्डर नहीं किया",
+          "लिखी हैं",
+          "कार्ड से"
+        ],
+        "next_up_en": "Next: street food, and whether the water is safe."
+      }
+    },
+    {
+      "level": 17,
+      "title_en": "Street food",
+      "title_hi": "चाट की दुकान पर",
+      "items": [
+        {
+          "id": "M12-L17-I1",
+          "type": "dialogue",
+          "target": "ज़्यादा मिर्च मत डलवाना",
+          "title_en": "At the chaat stall",
+          "setting": "street_food",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "street_food",
+            "mat_negative",
+            "causative",
+            "subjunctive"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Chaat vendor",
+              "label_hi": "चाट वाला"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भैया, दो गोलगप्पे की प्लेट।",
+              "read_as": "bhaiyaa, do golgappe kii pleṭ.",
+              "english": "Two plates of golgappe."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "तीखा या मीठा पानी?",
+              "read_as": "tiikhaa yaa miiṭhaa paanii?",
+              "english": "Spicy or sweet water?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "तीखा, पर ज़्यादा मिर्च मत डलवाना।",
+              "read_as": "tiikhaa, par zyaadaa mirch mat ḍalvaanaa.",
+              "english": "Spicy, but don't have too much chilli put in."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "ठीक है। दही भी डाल दूँ?",
+              "read_as": "ṭhiik hai. dahii bhii ḍaal duuṁ?",
+              "english": "Fine. Shall I add yoghurt too?"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "हाँ, थोड़ा सा डाल दीजिए।",
+              "read_as": "haaṁ, thoṛaa saa ḍaal diijie.",
+              "english": "Yes, just a little."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मत — the negative reserved for instructions",
+              "explanation_en": "नहीं negates a statement; मत negates an instruction. ज़्यादा मिर्च मत डलवाना is \"don't have too much chilli put in\" — and it is डलवाना, the causative, because the person doing the putting is not necessarily the one being spoken to. मत only ever appears with commands, so hearing it tells you immediately that what follows is a request rather than a description, before you have parsed anything else.",
+              "listening_notes": [
+                "दही भी डाल दूँ? — the subjunctive offering again, first person: shall I put it in?",
+                "थोड़ा सा — सा softens a quantity, roughly \"just a little bit\". It agrees, so थोड़ी सी with a feminine noun.",
+                "गोलगप्पे की प्लेट — की because प्लेट is feminine, even though गोलगप्पे is masculine plural."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What does the customer ask them not to do?",
+              "options": [
+                "Use sweet water",
+                "Put in too much chilli",
+                "Make two plates",
+                "Add yoghurt"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 3: ज़्यादा मिर्च मत डलवाना."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "दूँ",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "दही भी डाल ___ ?",
+              "question_read_as": "dahii bhii ḍaal ___ ?",
+              "options": [
+                "दो",
+                "दें",
+                "दिया",
+                "दूँ"
+              ],
+              "options_read_as": [
+                "do",
+                "deṁ",
+                "diyaa",
+                "duuṁ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "First-person subjunctive — shall I? दो would be an instruction to the customer instead."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Very noisy. The vendor's lines are half-shouted and quick."
+          }
+        },
+        {
+          "id": "M12-L17-I2",
+          "type": "dialogue",
+          "target": "बोतल का पानी",
+          "title_en": "Is the water safe",
+          "setting": "street_food",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "street_food",
+            "ka_material",
+            "water",
+            "elliptical"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Chaat vendor",
+              "label_hi": "चाट वाला"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भैया, पानी फ़िल्टर का है?",
+              "read_as": "bhaiyaa, paanii filṭar kaa hai?",
+              "english": "Is the water filtered?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "हाँ जी, बोतल का पानी इस्तेमाल करते हैं।",
+              "read_as": "haaṁ jii, botal kaa paanii istemaal karte haiṁ.",
+              "english": "Yes, we use bottled water."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "पक्का?",
+              "read_as": "pakkaa?",
+              "english": "Definitely?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "वो देखिए, बोतल रखी है।",
+              "read_as": "vo dekhie, botal rakhii hai.",
+              "english": "Look, the bottle's right there."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ठीक है, तब बना दीजिए।",
+              "read_as": "ṭhiik hai, tab banaa diijie.",
+              "english": "All right, go ahead then."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "का for what something is made of or comes from",
+              "explanation_en": "बोतल का पानी is water from a bottle; फ़िल्टर का पानी is filtered water. का here is not possession at all — it is source or material, the same as मिट्टी का घड़ा, a clay pot, or सोने की चेन, a gold chain. It agrees with the thing being described, so masculine पानी gives का and feminine चाय would give की. This use is everywhere on a street and it is the quickest way to ask what something is made from.",
+              "listening_notes": [
+                "इस्तेमाल करते हैं — a करना verb built on an Urdu-derived noun. Vendors speak about themselves in the plural.",
+                "बोतल रखी है — बोतल is feminine, so रखी. Literally \"the bottle is placed\".",
+                "पक्का? on its own is an entire question: are you sure?"
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How does the vendor back up his answer?",
+              "options": [
+                "He says the customer can watch",
+                "He shows a certificate",
+                "He points at the bottle",
+                "He offers a different drink"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 4: वो देखिए, बोतल रखी है."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "का",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "बोतल ___ पानी इस्तेमाल करते हैं।",
+              "question_read_as": "botal ___ paanii istemaal karte haiṁ.",
+              "options": [
+                "का",
+                "की",
+                "के",
+                "को"
+              ],
+              "options_read_as": [
+                "kaa",
+                "kii",
+                "ke",
+                "ko"
+              ],
+              "answer_index": 0,
+              "explanation_en": "पानी is masculine, and का agrees with the thing described, not with बोतल."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 3 is a single word and slightly sceptical. Line 4 is amused."
+          }
+        },
+        {
+          "id": "M12-L17-I3",
+          "type": "dialogue",
+          "target": "बाक़ी दुकानों से बेहतर",
+          "title_en": "A friend recommends a stall",
+          "setting": "street_food",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "street_food",
+            "three_speakers",
+            "se_comparison",
+            "oblique_plural"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Friend A",
+              "label_hi": "पहला दोस्त"
+            },
+            {
+              "id": "B",
+              "label_en": "Friend B",
+              "label_hi": "दूसरा दोस्त"
+            },
+            {
+              "id": "C",
+              "label_en": "Friend C",
+              "label_hi": "तीसरा दोस्त"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "यहाँ की चाट अच्छी है क्या?",
+              "read_as": "yahaaṁ kii chaaṭ acchii hai kyaa?",
+              "english": "Is the chaat here any good?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "हाँ यार, बाक़ी दुकानों से बेहतर।",
+              "read_as": "haaṁ yaar, baaqii dukaanoṁ se behtar.",
+              "english": "Yeah, better than the other stalls."
+            },
+            {
+              "n": 3,
+              "speaker": "C",
+              "hindi": "मैंने पिछली बार यहीं खाया था।",
+              "read_as": "maiṁne pichhlii baar yahiiṁ khaayaa thaa.",
+              "english": "I ate here last time."
+            },
+            {
+              "n": 4,
+              "speaker": "A",
+              "hindi": "तबीयत तो ठीक रही थी?",
+              "read_as": "tabiiyat to ṭhiik rahii thii?",
+              "english": "And you were all right afterwards?"
+            },
+            {
+              "n": 5,
+              "speaker": "C",
+              "hindi": "बिल्कुल। कुछ नहीं हुआ।",
+              "read_as": "bilkul. kuchh nahiiṁ huaa.",
+              "english": "Absolutely. Nothing happened."
+            },
+            {
+              "n": 6,
+              "speaker": "A",
+              "hindi": "तो चलो, दो प्लेट लगवा लेते हैं।",
+              "read_as": "to chalo, do pleṭ lagvaa lete haiṁ.",
+              "english": "Come on then, let's get two plates."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "से for comparison — the fourth job",
+              "explanation_en": "बाक़ी दुकानों से बेहतर — better than the other stalls. से is how Hindi compares: X से बड़ा, bigger than X; X से अच्छा, better than X. There is no separate word for \"than\" at all. And दुकानों is the oblique plural because से is a postposition like any other. That makes four distinct jobs for से across this module: from, by means of, by way of a route, and now than. One preposition-shaped word carrying most of the relational work in the language.",
+              "listening_notes": [
+                "यहाँ की चाट — की because चाट is feminine. यहाँ का, यहाँ की, यहाँ के all mean \"of this place\".",
+                "तबीयत तो ठीक रही थी? — तबीयत is feminine, so रही. The whole question is a polite way of asking whether he got ill.",
+                "लगवा लेते हैं — the second causative of लगाना with the लेना vector: let's have two plates made up for us."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What finally persuades A to eat there?",
+              "options": [
+                "It is cheaper than the others",
+                "There is no other stall open",
+                "The stall looks clean",
+                "C ate there before and was fine"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Lines 3 to 5 — C ate there last time and nothing happened."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "दुकानों",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "हाँ यार, बाक़ी ___ से बेहतर।",
+              "question_read_as": "haaṁ yaar, baaqii ___ se behtar.",
+              "options": [
+                "दुकानें",
+                "दुकानों",
+                "दुकानो",
+                "दुकान"
+              ],
+              "options_read_as": [
+                "dukaaneṁ",
+                "dukaanoṁ",
+                "dukaano",
+                "dukaan"
+              ],
+              "answer_index": 1,
+              "explanation_en": "से is a postposition, so the plural दुकानें goes oblique to दुकानों."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Three voices, casual, outdoors. Line 4 is half-joking but genuinely asking."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "मत is the negative for instructions and नहीं for statements. का marks material or source — बोतल का पानी. And से adds a fourth job to its list: comparison, with no separate word for \"than\" anywhere in the sentence.",
+        "key_forms": [
+          "मत डलवाना",
+          "बोतल का पानी",
+          "दुकानों से बेहतर"
+        ],
+        "next_up_en": "Next: being fed in somebody's home, which takes more refusing than you expect."
+      }
+    },
+    {
+      "level": 18,
+      "title_en": "Eating at someone's home",
+      "title_hi": "घर पर खाना",
+      "items": [
+        {
+          "id": "M12-L18-I1",
+          "type": "dialogue",
+          "target": "और लीजिए, थोड़ा और",
+          "title_en": "Being pressed to eat more",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "home",
+            "hospitality",
+            "causative",
+            "register",
+            "set_phrases"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Host",
+              "label_hi": "आंटी"
+            },
+            {
+              "id": "B",
+              "label_en": "Guest",
+              "label_hi": "मेहमान"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "और लीजिए, थोड़ा और।",
+              "read_as": "aur liijie, thoṛaa aur.",
+              "english": "Have some more, just a little."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "नहीं आंटी, बस बहुत हो गया।",
+              "read_as": "nahiiṁ aanṭii, bas bahut ho gayaa.",
+              "english": "No auntie, that's plenty."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "अरे कुछ नहीं खाया तुमने।",
+              "read_as": "are kuchh nahiiṁ khaayaa tumne.",
+              "english": "You've eaten nothing."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "सच में, पेट भर गया।",
+              "read_as": "sach meṁ, peṭ bhar gayaa.",
+              "english": "Really, I'm full."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "एक रोटी और खिला दूँ?",
+              "read_as": "ek roṭii aur khilaa duuṁ?",
+              "english": "Let me give you one more roti?"
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "बस आंटी, अगली बार।",
+              "read_as": "bas aanṭii, aglii baar.",
+              "english": "Enough, auntie — next time."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Refusing food, which takes several attempts",
+              "explanation_en": "Being fed in an Indian home is a negotiation with a fixed shape: the host offers, the guest declines, the host disputes the decline, the guest insists. Nobody is being difficult — declining once and being taken at your word would feel cold on both sides. बस बहुत हो गया, पेट भर गया and अगली बार are the standard moves, and a guest who does not know them will be fed considerably more than they wanted. Notice that the host never actually accepts the refusal; she just stops offering.",
+              "listening_notes": [
+                "कुछ नहीं खाया तुमने — the ने-subject has moved to the end of the sentence, which is emphatic and entirely normal.",
+                "खिला दूँ? is the causative खिलाना with the देना vector in a subjunctive offer: shall I feed you one more?",
+                "पेट भर गया — literally \"the stomach filled\". The person is not the subject; the stomach is."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How does the guest finally close it off?",
+              "options": [
+                "By saying he is full and will have more next time",
+                "By leaving the table",
+                "By changing the subject",
+                "By accepting one more roti"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Lines 4 and 6: पेट भर गया, and बस आंटी, अगली बार."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "खाया",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "अरे कुछ नहीं ___ तुमने।",
+              "question_read_as": "are kuchh nahiiṁ ___ tumne.",
+              "options": [
+                "खाए",
+                "खाईं",
+                "खाया",
+                "खाई"
+              ],
+              "options_read_as": [
+                "khaae",
+                "khaaiiṁ",
+                "khaayaa",
+                "khaaii"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The object is कुछ, which takes the neutral masculine singular."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Warm and insistent on the host's side, increasingly desperate on the guest's. Lines 3 and 5 overlap the guest's replies."
+          }
+        },
+        {
+          "id": "M12-L18-I2",
+          "type": "dialogue",
+          "target": "रोटियाँ बेटी ने बनाईं",
+          "title_en": "Complimenting the cooking",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 9,
+          "tags": [
+            "home",
+            "ne",
+            "feminine_plural",
+            "nasal_retained",
+            "module9_link"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Guest",
+              "label_hi": "मेहमान"
+            },
+            {
+              "id": "B",
+              "label_en": "Host",
+              "label_hi": "आंटी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "आंटी, खाना बहुत अच्छा बना है।",
+              "read_as": "aanṭii, khaanaa bahut acchaa banaa hai.",
+              "english": "Auntie, the food's turned out really well."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "अरे, आपने तो कुछ खाया ही नहीं।",
+              "read_as": "are, aapne to kuchh khaayaa hii nahiiṁ.",
+              "english": "You've barely eaten anything."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "सच में बहुत अच्छा था। ये सब्ज़ी आपने बनाई?",
+              "read_as": "sach meṁ bahut acchaa thaa. ye sabzii aapne banaaii?",
+              "english": "It really was very good. Did you make this sabzi?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हाँ, पर रोटियाँ बेटी ने बनाईं।",
+              "read_as": "haaṁ, par roṭiyaaṁ beṭii ne banaaiiṁ.",
+              "english": "Yes, but my daughter made the rotis."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "दोनों लाजवाब।",
+              "read_as": "donoṁ laajavaab.",
+              "english": "Both are superb."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बनाईं — the nasal that stays this time",
+              "explanation_en": "Compare line 3 with line 4. ये सब्ज़ी आपने बनाई has a feminine singular object, so बनाई. रोटियाँ बेटी ने बनाईं has a feminine plural object and no auxiliary behind it, so the nasal stays on the participle: बनाईं. Set that against लिखी हैं from level 16, where an auxiliary took the nasal away, and the picture is complete: the nasal always lands on the last word of the verb phrase, whichever word that turns out to be.",
+              "listening_notes": [
+                "बेटी ने — a noun subject, so ने stays a separate word rather than fusing.",
+                "खाना बहुत अच्छा बना है uses बनना, intransitive, so no ने. The food turned out well; nobody is named as having made it.",
+                "खाया ही नहीं — ही intensifying a negative: didn't eat at all."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Who made the rotis?",
+              "options": [
+                "The host",
+                "The host's daughter",
+                "The guest",
+                "They were bought"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 4: रोटियाँ बेटी ने बनाईं."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "आपने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "ये सब्ज़ी ___ बनाई?",
+              "question_read_as": "ye sabzii ___ banaaii?",
+              "options": [
+                "आपको",
+                "आपका",
+                "आप",
+                "आपने"
+              ],
+              "options_read_as": [
+                "aapko",
+                "aapkaa",
+                "aap",
+                "aapne"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बनाना is transitive and the tense is perfective, so ने."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 2 is a deflection, not a rebuke. Line 4 is quietly proud."
+          }
+        },
+        {
+          "id": "M12-L18-I3",
+          "type": "dialogue",
+          "target": "हमारे घर आइए",
+          "title_en": "An invitation",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "home",
+            "invitation",
+            "par_occasion",
+            "bare_ghar",
+            "subjunctive"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Host",
+              "label_hi": "मेज़बान"
+            },
+            {
+              "id": "B",
+              "label_en": "Guest",
+              "label_hi": "मेहमान"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "अगले हफ़्ते हमारे घर आइए।",
+              "read_as": "agle hafte hamaare ghar aaie.",
+              "english": "Come to ours next week."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "ज़रूर। कब?",
+              "read_as": "zaruur. kab?",
+              "english": "Of course. When?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "इतवार को, खाने पर।",
+              "read_as": "itvaar ko, khaane par.",
+              "english": "Sunday, for a meal."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "बच्चों को भी लाऊँ?",
+              "read_as": "bacchoṁ ko bhii laauuṁ?",
+              "english": "Should I bring the children too?"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "बिल्कुल, सबको लाइए।",
+              "read_as": "bilkul, sabko laaie.",
+              "english": "Absolutely, bring everyone."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "हमारे घर — no postposition at all",
+              "explanation_en": "हमारे घर आइए means \"come to our house\", and there is no postposition on घर whatsoever. घर belongs to a small set of nouns that take no marking for motion towards — you say घर जाओ, never घर को जाओ. The possessive in front still goes oblique, हमारे rather than हमारा, because it is agreeing with an oblique घर even though घर itself shows nothing. That invisible oblique is the kind of thing that makes the possessive look irregular when it is not.",
+              "listening_notes": [
+                "इतवार को — days of the week take को: सोमवार को, इतवार को.",
+                "खाने पर — खाना goes oblique to खाने before पर, and पर here marks the occasion rather than a surface.",
+                "बच्चों को भी लाऊँ? — subjunctive asking permission, with बच्चा in the oblique plural before को."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "When is the invitation for?",
+              "options": [
+                "No date is fixed",
+                "Tomorrow evening",
+                "Sunday, for a meal",
+                "Next month"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 3: इतवार को, खाने पर."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "पर",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "इतवार को, खाने ___ ।",
+              "question_read_as": "itvaar ko, khaane ___ .",
+              "options": [
+                "पर",
+                "में",
+                "से",
+                "तक"
+              ],
+              "options_read_as": [
+                "par",
+                "meṁ",
+                "se",
+                "tak"
+              ],
+              "answer_index": 0,
+              "explanation_en": "पर marks the occasion — खाने पर, for a meal."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Warm and quick. Line 5 overlaps the end of line 4."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Hospitality has a script: offer, decline, dispute, insist. The feminine plural nasal lands on whatever is last in the verb phrase — बनाईं with nothing after it, लिखी हैं with an auxiliary. And घर takes no postposition for motion, though the possessive in front still goes oblique.",
+        "key_forms": [
+          "बस बहुत हो गया",
+          "बेटी ने बनाईं",
+          "हमारे घर आइए"
+        ],
+        "next_up_en": "Next: the doctor's — registering, describing symptoms, and how long it has been going on."
+      }
+    }
+  ]
+}

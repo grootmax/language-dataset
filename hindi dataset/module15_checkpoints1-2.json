@@ -1,0 +1,418 @@
+{
+  "module": 15,
+  "module_name_en": "Register and Polish",
+  "module_name_hi": "भाषा की परतें",
+  "phase": 5,
+  "kind": "checkpoints",
+  "format_note_en": "Part F specifies a checkpoint of comprehension, recognition and gap-fill. That mix does not fit a register module: there is nothing to gap-fill when every option is grammatical, and comprehension is not what is being tested. These checkpoints use four question types instead — which_situation, pick_register_for_audience, which_axis and same_meaning_other_layer. The third is the important one, because it tests the single idea the module exists to teach: that a difference between two sentences may be one of setting or one of vocabulary layer, and that these are not the same question. This is the same divergence from Part F recorded for Module 12's eight checkpoints, and for the same reason.",
+  "question_types": [
+    "which_situation",
+    "pick_register_for_audience",
+    "which_axis",
+    "same_meaning_other_layer"
+  ],
+  "checkpoints": [
+    {
+      "checkpoint": 1,
+      "covers_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "title_en": "The two axes, and the situations",
+      "questions": [
+        {
+          "n": 1,
+          "type": "which_situation",
+          "sentence": "अनधिकृत प्रवेश वर्जित है।",
+          "read_as": "anadhikrit pravesh varjit hai.",
+          "question_en": "Where would you meet this?",
+          "options": [
+            "A printed sign",
+            "A polite request",
+            "A text message",
+            "A friend speaking"
+          ],
+          "answer_index": 0,
+          "explanation_en": "It states a rule and addresses nobody. That is a sign.",
+          "level_source": 5
+        },
+        {
+          "n": 2,
+          "type": "pick_register_for_audience",
+          "audience_en": "Your younger cousin, at home.",
+          "options": [
+            "कृपया दरवाज़ा बंद कर दीजिए।",
+            "कृपया द्वार बंद रखें।",
+            "दरवाज़ा बंद कर दो।",
+            "द्वार बंद करना अनिवार्य है।"
+          ],
+          "options_read_as": [
+            "kripayaa darvaazaa baṁd kar diijie.",
+            "kripayaa dvaar baṁd rakheṁ.",
+            "darvaazaa baṁd kar do.",
+            "dvaar baṁd karnaa anivaarya hai."
+          ],
+          "answer_index": 2,
+          "explanation_en": "The others are a sign, a regulation and something you would say to a stranger. Over-formality at home reads as distance.",
+          "level_source": 1
+        },
+        {
+          "n": 3,
+          "type": "which_axis",
+          "pair": [
+            "दरवाज़ा बंद कर दो।",
+            "कृपया दरवाज़ा बंद कर दीजिए।"
+          ],
+          "pair_read_as": [
+            "darvaazaa baṁd kar do.",
+            "kripayaa darvaazaa baṁd kar diijie."
+          ],
+          "question_en": "What kind of difference is this?",
+          "options": [
+            "Neither; they are identical",
+            "Situation — who is being spoken to",
+            "Tendency — which vocabulary layer",
+            "Both"
+          ],
+          "answer_index": 1,
+          "explanation_en": "Every content word is the same. Only the verb form and कृपया have changed, which is movement along the situation axis.",
+          "level_source": 1
+        },
+        {
+          "n": 4,
+          "type": "which_axis",
+          "pair": [
+            "आपका बहुत-बहुत शुक्रिया।",
+            "आपका हार्दिक धन्यवाद।"
+          ],
+          "pair_read_as": [
+            "aapkaa bahut-bahut shukriyaa.",
+            "aapkaa haardik dhanyavaad."
+          ],
+          "question_en": "What kind of difference is this?",
+          "options": [
+            "Both",
+            "Neither; they are identical",
+            "Situation — who is being spoken to",
+            "Tendency — which vocabulary layer"
+          ],
+          "answer_index": 3,
+          "explanation_en": "Both are polite and both address आप. What has changed is the layer the words come from.",
+          "level_source": 1
+        },
+        {
+          "n": 5,
+          "type": "which_situation",
+          "sentence": "कहाँ जा रहे?",
+          "read_as": "kahaaṁ jaa rahe?",
+          "question_en": "What tells you this is casual?",
+          "options": [
+            "The word order",
+            "The verb tense",
+            "The question word",
+            "The missing subject and auxiliary"
+          ],
+          "answer_index": 3,
+          "explanation_en": "तुम and हो have both gone. Casual speech is marked by what it drops.",
+          "level_source": 2
+        },
+        {
+          "n": 6,
+          "type": "pick_register_for_audience",
+          "audience_en": "Calling over a shopkeeper you have never met.",
+          "options": [
+            "सुनो, ज़रा इधर आओ।",
+            "सुनिए, ज़रा इधर आइए।",
+            "कृपया यहाँ उपस्थित हों।",
+            "सुन, ज़रा इधर आ।"
+          ],
+          "options_read_as": [
+            "suno, zaraa idhar aao.",
+            "sunie, zaraa idhar aaie.",
+            "kripayaa yahaaṁ upasthit hoṁ.",
+            "sun, zaraa idhar aa."
+          ],
+          "answer_index": 1,
+          "explanation_en": "तू would be an insult and तुम over-familiar. The fourth is institutional language aimed at one person.",
+          "level_source": 2
+        },
+        {
+          "n": 7,
+          "type": "which_situation",
+          "sentence": "ज़रा ये देख लीजिएगा।",
+          "read_as": "zaraa ye dekh liijiegaa.",
+          "question_en": "What does the -गा on the imperative add?",
+          "options": [
+            "A future tense",
+            "More formality",
+            "Less urgency",
+            "A question"
+          ],
+          "answer_index": 2,
+          "explanation_en": "कीजिएगा displaces the request into the future, which makes it unhurried rather than more formal.",
+          "level_source": 3
+        },
+        {
+          "n": 8,
+          "type": "pick_register_for_audience",
+          "audience_en": "The closing line of a written application to an institution.",
+          "options": [
+            "अतः आपसे निवेदन है कि अनुमति प्रदान करें।",
+            "तो प्लीज़ परमिशन दे दीजिए।",
+            "इसलिए इजाज़त दे दो ना।",
+            "अनुमति चाहिए, बता दीजिएगा।"
+          ],
+          "options_read_as": [
+            "ataḥ aapse nivedan hai ki anumati pradaan kareṁ.",
+            "to pliiz parmishan de diijie.",
+            "islie ijaazat de do naa.",
+            "anumati chaahie, bataa diijiegaa."
+          ],
+          "answer_index": 0,
+          "explanation_en": "अतः has no spoken life at all. The other three are a work message, casual speech and polite speech.",
+          "level_source": 4
+        },
+        {
+          "n": 9,
+          "type": "which_situation",
+          "sentence": "सूचित किया जाता है कि कार्यालय बंद रहेगा।",
+          "read_as": "suuchit kiyaa jaataa hai ki kaaryaalay baṁd rahegaa.",
+          "question_en": "What makes this institutional rather than formal writing?",
+          "options": [
+            "There is no writer and no addressee",
+            "The future tense",
+            "The word कार्यालय",
+            "The long words"
+          ],
+          "answer_index": 0,
+          "explanation_en": "A letter has a महोदय at the top and a signature at the bottom. This has neither, and the habitual passive removes the last trace of anybody.",
+          "level_source": 5
+        },
+        {
+          "n": 10,
+          "type": "same_meaning_other_layer",
+          "given": "शुक्रिया",
+          "given_read_as": "shukriyaa",
+          "question_en": "Which word means the same thing on the Sanskrit-influenced side?",
+          "options": [
+            "आभारी",
+            "मेहरबानी",
+            "धन्यवाद",
+            "इज़्ज़त"
+          ],
+          "options_read_as": [
+            "aabhaarii",
+            "mehrbaanii",
+            "dhanyavaad",
+            "izzat"
+          ],
+          "answer_index": 2,
+          "explanation_en": "धन्यवाद. Both are entirely current and the choice between them is one of setting.",
+          "level_source": 1
+        }
+      ]
+    },
+    {
+      "checkpoint": 2,
+      "covers_levels": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "title_en": "News, and the vocabulary layers",
+      "questions": [
+        {
+          "n": 1,
+          "type": "which_situation",
+          "sentence": "शहर में पानी की किल्लत, प्रदर्शन जारी",
+          "read_as": "shahar meṁ paanii kii killat, pradarshan jaarii",
+          "question_en": "What is this?",
+          "options": [
+            "A spoken summary",
+            "A headline",
+            "A notice",
+            "A message"
+          ],
+          "answer_index": 1,
+          "explanation_en": "No auxiliary, no conjunction, no full stop. Nothing else in Hindi is written this way.",
+          "level_source": 6
+        },
+        {
+          "n": 2,
+          "type": "which_situation",
+          "sentence": "पर मुझे ये ठीक नहीं लगता।",
+          "read_as": "par mujhe ye ṭhiik nahiiṁ lagtaa.",
+          "question_en": "Why would a news report not print this?",
+          "options": [
+            "It is too formal",
+            "It has no source",
+            "It is ungrammatical",
+            "It puts the reporter in the story"
+          ],
+          "answer_index": 3,
+          "explanation_en": "मुझे लगता है is the one thing the register does not allow. Attribution is the whole convention.",
+          "level_source": 6
+        },
+        {
+          "n": 3,
+          "type": "which_axis",
+          "pair": [
+            "काम हो गया।",
+            "कार्य पूर्ण हुआ।"
+          ],
+          "pair_read_as": [
+            "kaam ho gayaa.",
+            "kaarya puurṇa huaa."
+          ],
+          "question_en": "What kind of difference is this?",
+          "options": [
+            "Neither",
+            "Situation only",
+            "Tendency only",
+            "Both — the layer and the compound verb have changed together"
+          ],
+          "answer_index": 3,
+          "explanation_en": "काम becomes कार्य, which is the tendency axis, and the vector हो गया disappears, which is the situation axis. The two often move together, and that is why they are easy to confuse.",
+          "level_source": 7
+        },
+        {
+          "n": 4,
+          "type": "pick_register_for_audience",
+          "audience_en": "Asking somebody at home to warm some water.",
+          "options": [
+            "कृपया जल का तापमान बढ़ाएँ।",
+            "पानी थोड़ा गरम कर देना।",
+            "वॉटर थोड़ा हीट कर दो।",
+            "जल थोड़ा उष्ण कर दीजिए।"
+          ],
+          "options_read_as": [
+            "kripayaa jal kaa taapmaan baṛhaaeṁ.",
+            "paanii thoṛaa garam kar denaa.",
+            "vôṭar thoṛaa hiiṭ kar do.",
+            "jal thoṛaa uṣṇa kar diijie."
+          ],
+          "answer_index": 1,
+          "explanation_en": "The first is ceremonial and the second is a technical instruction. The fourth is possible in some households and unremarkable there.",
+          "level_source": 7
+        },
+        {
+          "n": 5,
+          "type": "which_situation",
+          "sentence": "पुस्तकालय सोमवार को बंद रहेगा।",
+          "read_as": "pustakaalay somvaar ko baṁd rahegaa.",
+          "question_en": "Where would you meet this?",
+          "options": [
+            "A text message",
+            "A conversation",
+            "A notice on the door",
+            "A headline"
+          ],
+          "answer_index": 2,
+          "explanation_en": "पुस्तकालय rather than लाइब्रेरी, and nobody addressed. Somebody telling you would say लाइब्रेरी बंद रहेगी.",
+          "level_source": 8
+        },
+        {
+          "n": 6,
+          "type": "same_meaning_other_layer",
+          "given": "ज़िम्मेदार",
+          "given_read_as": "zimmedaar",
+          "question_en": "Which word does the same job on the Sanskrit-influenced side?",
+          "options": [
+            "उत्तरदायी",
+            "ईमानदार",
+            "समझदार",
+            "अक़लमंद"
+          ],
+          "options_read_as": [
+            "uttardaayii",
+            "iimaandaar",
+            "samajhdaar",
+            "aqalmaṁd"
+          ],
+          "answer_index": 0,
+          "explanation_en": "उत्तरदायी. The other three are all built with the same -दार and -मंद suffixes as ज़िम्मेदार itself.",
+          "level_source": 9
+        },
+        {
+          "n": 7,
+          "type": "which_axis",
+          "pair": [
+            "शुक्रिया अदा करता हूँ।",
+            "शुक्रिया भाई।"
+          ],
+          "pair_read_as": [
+            "shukriyaa adaa kartaa huuṁ.",
+            "shukriyaa bhaaii."
+          ],
+          "question_en": "What kind of difference is this?",
+          "options": [
+            "Situation — the layer has not changed",
+            "Tendency — the layer has changed",
+            "Both",
+            "Neither"
+          ],
+          "answer_index": 0,
+          "explanation_en": "शुक्रिया is Urdu-side in both. One is formal and one is casual, which shows the layer says nothing about the situation.",
+          "level_source": 9
+        },
+        {
+          "n": 8,
+          "type": "which_situation",
+          "sentence": "संचिका अपलोड करके कड़ी साझा करें।",
+          "read_as": "saṁchikaa aploḍ karke kaṛii saajhaa kareṁ.",
+          "question_en": "Where would you meet this?",
+          "options": [
+            "A message to a friend",
+            "A work chat",
+            "A government portal or manual",
+            "A conversation"
+          ],
+          "answer_index": 2,
+          "explanation_en": "संचिका and कड़ी are the official coinages for file and link. They exist, and they live on portals.",
+          "level_source": 10
+        },
+        {
+          "n": 9,
+          "type": "pick_register_for_audience",
+          "audience_en": "A quick instruction to a colleague on a work chat.",
+          "options": [
+            "संचिका अपलोड करके कड़ी साझा करें।",
+            "फ़ाइल अपलोड करके लिंक शेयर कर दो।",
+            "कृपया संलग्न प्रपत्र भेजें।",
+            "वो चीज़ भेज देना।"
+          ],
+          "options_read_as": [
+            "saṁchikaa aploḍ karke kaṛii saajhaa kareṁ.",
+            "faail aploḍ karke liṁk sheyar kar do.",
+            "kripayaa saṁlagn prapatra bhejeṁ.",
+            "vo chiiz bhej denaa."
+          ],
+          "answer_index": 1,
+          "explanation_en": "In office life the English word is the word. The first would stop the conversation while everyone worked out what was meant.",
+          "level_source": 10
+        },
+        {
+          "n": 10,
+          "type": "which_situation",
+          "sentence": "मीटिंग कैंसिल हो गई।",
+          "read_as": "miiṭiṁg kainsil ho gaii.",
+          "question_en": "What does the गई tell you?",
+          "options": [
+            "That the sentence is informal",
+            "That कैंसिल is a Hindi word",
+            "That the speaker's Hindi is incomplete",
+            "That मीटिंग is feminine and the grammar is entirely Hindi"
+          ],
+          "answer_index": 3,
+          "explanation_en": "Three English words and every ending Hindi. Code-switching is one grammar running on borrowed vocabulary.",
+          "level_source": 10
+        }
+      ]
+    }
+  ]
+}

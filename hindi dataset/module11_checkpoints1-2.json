@@ -1,0 +1,520 @@
+{
+  "module": 11,
+  "note": "error_spot questions in this module target grammatical faults only — a missing ने, an inflected first element, a wrong agreement. A vectorless sentence is never the answer to an error_spot question.",
+  "checkpoints": [
+    {
+      "after_level": 5,
+      "covers_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "questions": [
+        {
+          "id": "M11-CP1-Q1",
+          "source": "current",
+          "format": "recognition",
+          "question": "मैंने खाना ___ ।",
+          "question_read_as": "maiṁne khaanaa ___ .",
+          "options": [
+            "खा लिया",
+            "खाना लिया",
+            "खाती लिया",
+            "खाया लिया"
+          ],
+          "options_read_as": [
+            "khaa liyaa",
+            "khaanaa liyaa",
+            "khaatii liyaa",
+            "khaayaa liyaa"
+          ],
+          "answer_index": 0,
+          "explanation_en": "The main verb goes to its bare stem, खा, and only the vector inflects.",
+          "source_item_ids": [
+            "M11-L01-I1"
+          ]
+        },
+        {
+          "id": "M11-CP1-Q2",
+          "source": "current",
+          "format": "recognition",
+          "question": "मैंने किताब पढ़ ___ ।",
+          "question_read_as": "maiṁne kitaab paṛh ___ .",
+          "options": [
+            "लिया",
+            "ली",
+            "लिए",
+            "लीं"
+          ],
+          "options_read_as": [
+            "liyaa",
+            "lii",
+            "lie",
+            "liiṁ"
+          ],
+          "answer_index": 1,
+          "explanation_en": "किताब is feminine singular, and the agreement lands on the vector.",
+          "source_item_ids": [
+            "M11-L01-I2",
+            "M11-L03-I1"
+          ]
+        },
+        {
+          "id": "M11-CP1-Q3",
+          "source": "current",
+          "format": "recognition",
+          "question": "मैं रोज़ खाना ___ ।",
+          "question_read_as": "maiṁ roz khaanaa ___ .",
+          "options": [
+            "खा गया",
+            "खा लेता हूँ",
+            "खाता हूँ",
+            "खा देता हूँ"
+          ],
+          "options_read_as": [
+            "khaa gayaa",
+            "khaa letaa huuṁ",
+            "khaataa huuṁ",
+            "khaa detaa huuṁ"
+          ],
+          "answer_index": 2,
+          "explanation_en": "Habitual statements normally take no vector, because there is no single completed action to shade.",
+          "source_item_ids": [
+            "M11-L01-I3"
+          ]
+        },
+        {
+          "id": "M11-CP1-Q4",
+          "source": "current",
+          "format": "recognition",
+          "question": "मैंने पैसे दे ___ ।",
+          "question_read_as": "maiṁne paise de ___ .",
+          "options": [
+            "दीं",
+            "दिया",
+            "दी",
+            "दिए"
+          ],
+          "options_read_as": [
+            "diiṁ",
+            "diyaa",
+            "dii",
+            "die"
+          ],
+          "answer_index": 3,
+          "explanation_en": "पैसे is masculine plural, so the vector is दिए.",
+          "source_item_ids": [
+            "M11-L04-I3",
+            "M11-L03-I2"
+          ]
+        },
+        {
+          "id": "M11-CP1-Q5",
+          "source": "current",
+          "format": "transform",
+          "question": "You finished eating, for yourself.",
+          "question_read_as": null,
+          "options": [
+            "मैंने खाना खा लिया।",
+            "मैं खाना खा लिया।",
+            "मैंने खाना खा गया।",
+            "मैंने खाना खा दिया।"
+          ],
+          "options_read_as": [
+            "maiṁne khaanaa khaa liyaa.",
+            "maiṁ khaanaa khaa liyaa.",
+            "maiṁne khaanaa khaa gayaa.",
+            "maiṁne khaanaa khaa diyaa."
+          ],
+          "answer_index": 0,
+          "explanation_en": "लेना keeps the result with you, and both halves are transitive so the subject takes ने.",
+          "source_item_ids": [
+            "M11-L02-I1"
+          ]
+        },
+        {
+          "id": "M11-CP1-Q6",
+          "source": "current",
+          "format": "transform",
+          "question": "You have fully understood.",
+          "question_read_as": null,
+          "options": [
+            "मैंने समझी लिया।",
+            "मैंने समझ लिया।",
+            "मैं समझ लिया।",
+            "मैंने समझ दिया।"
+          ],
+          "options_read_as": [
+            "maiṁne samajhii liyaa.",
+            "maiṁne samajh liyaa.",
+            "maiṁ samajh liyaa.",
+            "maiṁne samajh diyaa."
+          ],
+          "answer_index": 1,
+          "explanation_en": "समझ लिया — bare stem, inward vector, and ने on the subject.",
+          "source_item_ids": [
+            "M11-L02-I2"
+          ]
+        },
+        {
+          "id": "M11-CP1-Q7",
+          "source": "current",
+          "format": "transform",
+          "question": "The job is done and off your list.",
+          "question_read_as": null,
+          "options": [
+            "मैंने काम किया लिया।",
+            "मैंने काम कर ली।",
+            "मैंने काम कर लिया।",
+            "मैं काम कर लिया।"
+          ],
+          "options_read_as": [
+            "maiṁne kaam kiyaa liyaa.",
+            "maiṁne kaam kar lii.",
+            "maiṁne kaam kar liyaa.",
+            "maiṁ kaam kar liyaa."
+          ],
+          "answer_index": 2,
+          "explanation_en": "काम is masculine, so लिया, with ने on the subject and कर as a bare stem.",
+          "source_item_ids": [
+            "M11-L02-I3"
+          ]
+        },
+        {
+          "id": "M11-CP1-Q8",
+          "source": "current",
+          "format": "transform",
+          "question": "You cooked, and the food is for someone else.",
+          "question_read_as": null,
+          "options": [
+            "मैंने खाना बना लिया।",
+            "मैंने खाना बनाया दिया।",
+            "मैं खाना बना दिया।",
+            "मैंने खाना बना दिया।"
+          ],
+          "options_read_as": [
+            "maiṁne khaanaa banaa liyaa.",
+            "maiṁne khaanaa banaayaa diyaa.",
+            "maiṁ khaanaa banaa diyaa.",
+            "maiṁne khaanaa banaa diyaa."
+          ],
+          "answer_index": 3,
+          "explanation_en": "देना sends the food outward. बना लिया would keep it with you — a correct sentence about a different situation.",
+          "source_item_ids": [
+            "M11-L03-I3",
+            "M11-L04-I2"
+          ]
+        },
+        {
+          "id": "M11-CP1-Q9",
+          "source": "current",
+          "format": "error_spot",
+          "question": "कौन सा वाक्य ग़लत है?",
+          "question_read_as": "kaun saa vaakya ġalat hai?",
+          "options": [
+            "उसने चिट्ठी लिख दिया।",
+            "मैंने खिड़की खोल दी।",
+            "उसने दरवाज़ा खोल दिया।",
+            "उसने चिट्ठी लिख दी।"
+          ],
+          "options_read_as": [
+            "usne chiṭṭhii likh diyaa.",
+            "maiṁne khiṛkii khol dii.",
+            "usne darvaazaa khol diyaa.",
+            "usne chiṭṭhii likh dii."
+          ],
+          "answer_index": 0,
+          "explanation_en": "चिट्ठी is feminine, so the vector has to be दी. The other three all agree correctly with their objects.",
+          "source_item_ids": [
+            "M11-L05-I1",
+            "M11-L05-I2"
+          ]
+        },
+        {
+          "id": "M11-CP1-Q10",
+          "source": "current",
+          "format": "error_spot",
+          "question": "कौन सा वाक्य ग़लत है?",
+          "question_read_as": "kaun saa vaakya ġalat hai?",
+          "options": [
+            "मैंने किताब पढ़ दी।",
+            "मैं बता दिया।",
+            "मैंने बता दिया।",
+            "मैंने किताब पढ़ ली।"
+          ],
+          "options_read_as": [
+            "maiṁne kitaab paṛh dii.",
+            "maiṁ bataa diyaa.",
+            "maiṁne bataa diyaa.",
+            "maiṁne kitaab paṛh lii."
+          ],
+          "answer_index": 1,
+          "explanation_en": "बताना and देना are both transitive, so the subject needs ने. The first two are both correct and simply point in different directions.",
+          "source_item_ids": [
+            "M11-L04-I1",
+            "M11-L05-I3"
+          ]
+        }
+      ]
+    },
+    {
+      "after_level": 10,
+      "covers_levels": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "questions": [
+        {
+          "id": "M11-CP2-Q1",
+          "source": "current",
+          "format": "recognition",
+          "question": "वह आ ___ ।",
+          "question_read_as": "vah aa ___ .",
+          "options": [
+            "लिया",
+            "दिया",
+            "गया",
+            "पड़ा"
+          ],
+          "options_read_as": [
+            "liyaa",
+            "diyaa",
+            "gayaa",
+            "paṛaa"
+          ],
+          "answer_index": 2,
+          "explanation_en": "जाना marks the completed arrival, and brings no ने with it.",
+          "source_item_ids": [
+            "M11-L06-I1"
+          ]
+        },
+        {
+          "id": "M11-CP2-Q2",
+          "source": "current",
+          "format": "recognition",
+          "question": "देर हो ___ ।",
+          "question_read_as": "der ho ___ .",
+          "options": [
+            "गए",
+            "गईं",
+            "गया",
+            "गई"
+          ],
+          "options_read_as": [
+            "gae",
+            "gaiiṁ",
+            "gayaa",
+            "gaii"
+          ],
+          "answer_index": 3,
+          "explanation_en": "देर is feminine singular and there is no ने, so the verb agrees with it.",
+          "source_item_ids": [
+            "M11-L06-I2"
+          ]
+        },
+        {
+          "id": "M11-CP2-Q3",
+          "source": "current",
+          "format": "recognition",
+          "question": "मैं यह ___ सकता हूँ।",
+          "question_read_as": "maiṁ yah ___ saktaa huuṁ.",
+          "options": [
+            "कर",
+            "किया",
+            "करता",
+            "करना"
+          ],
+          "options_read_as": [
+            "kar",
+            "kiyaa",
+            "kartaa",
+            "karnaa"
+          ],
+          "answer_index": 0,
+          "explanation_en": "सकना takes a bare stem, never an infinitive.",
+          "source_item_ids": [
+            "M11-L10-I1"
+          ]
+        },
+        {
+          "id": "M11-CP2-Q4",
+          "source": "current",
+          "format": "recognition",
+          "question": "वह हिंदी बोल ___ है।",
+          "question_read_as": "vah hindii bol ___ hai.",
+          "options": [
+            "सकता",
+            "सकती",
+            "सकते",
+            "सके"
+          ],
+          "options_read_as": [
+            "saktaa",
+            "saktii",
+            "sakte",
+            "sake"
+          ],
+          "answer_index": 1,
+          "explanation_en": "There is no ने in a सकना sentence, so the verb agrees with the feminine subject — not with हिंदी.",
+          "source_item_ids": [
+            "M11-L10-I3"
+          ]
+        },
+        {
+          "id": "M11-CP2-Q5",
+          "source": "current",
+          "format": "transform",
+          "question": "He polished off the lot.",
+          "question_read_as": null,
+          "options": [
+            "उसने सब खा गई।",
+            "उसने सब खा गया।",
+            "वह सब खा गया।",
+            "वह सब खा लिया।"
+          ],
+          "options_read_as": [
+            "usne sab khaa gaii.",
+            "usne sab khaa gayaa.",
+            "vah sab khaa gayaa.",
+            "vah sab khaa liyaa."
+          ],
+          "answer_index": 2,
+          "explanation_en": "जाना is intransitive, so the compound is too and the subject stays वह. उसने सब खा लिया would also be correct, but that needs ने with it.",
+          "source_item_ids": [
+            "M11-L07-I1"
+          ]
+        },
+        {
+          "id": "M11-CP2-Q6",
+          "source": "current",
+          "format": "transform",
+          "question": "She's gone — she left.",
+          "question_read_as": null,
+          "options": [
+            "उसने चली गई।",
+            "वह चली गया।",
+            "वह चला गई।",
+            "वह चली गई।"
+          ],
+          "options_read_as": [
+            "usne chalii gaii.",
+            "vah chalii gayaa.",
+            "vah chalaa gaii.",
+            "vah chalii gaii."
+          ],
+          "answer_index": 3,
+          "explanation_en": "In चला जाना both elements agree, so a feminine subject gives चली गई.",
+          "source_item_ids": [
+            "M11-L07-I3"
+          ]
+        },
+        {
+          "id": "M11-CP2-Q7",
+          "source": "current",
+          "format": "transform",
+          "question": "He burst into tears — it came over him.",
+          "question_read_as": null,
+          "options": [
+            "वह रो पड़ा।",
+            "वह रो पड़ी।",
+            "उसने रो दिया।",
+            "उसने रो पड़ा।"
+          ],
+          "options_read_as": [
+            "vah ro paṛaa.",
+            "vah ro paṛii.",
+            "usne ro diyaa.",
+            "usne ro paṛaa."
+          ],
+          "answer_index": 0,
+          "explanation_en": "पड़ना for the involuntariness, and no ने because neither half is transitive.",
+          "source_item_ids": [
+            "M11-L08-I1",
+            "M11-L09-I2"
+          ]
+        },
+        {
+          "id": "M11-CP2-Q8",
+          "source": "current",
+          "format": "transform",
+          "question": "May I go?",
+          "question_read_as": null,
+          "options": [
+            "क्या मैंने जा सकता हूँ?",
+            "क्या मैं जा सकता हूँ?",
+            "क्या मैं जा सकता हूँ था?",
+            "क्या मैं जाना सकता हूँ?"
+          ],
+          "options_read_as": [
+            "kyaa maiṁne jaa saktaa huuṁ?",
+            "kyaa maiṁ jaa saktaa huuṁ?",
+            "kyaa maiṁ jaa saktaa huuṁ thaa?",
+            "kyaa maiṁ jaanaa saktaa huuṁ?"
+          ],
+          "answer_index": 1,
+          "explanation_en": "Bare stem जा, no ने, and the auxiliary agreeing with मैं.",
+          "source_item_ids": [
+            "M11-L10-I2"
+          ]
+        },
+        {
+          "id": "M11-CP2-Q9",
+          "source": "current",
+          "format": "error_spot",
+          "question": "कौन सा वाक्य ग़लत है?",
+          "question_read_as": "kaun saa vaakya ġalat hai?",
+          "options": [
+            "वह कह पड़ा।",
+            "उसने कहा।",
+            "उसने कह पड़ा।",
+            "वह नाम भूल गया।"
+          ],
+          "options_read_as": [
+            "vah kah paṛaa.",
+            "usne kahaa.",
+            "usne kah paṛaa.",
+            "vah naam bhuul gayaa."
+          ],
+          "answer_index": 2,
+          "explanation_en": "पड़ना is intransitive, so the compound cannot take ने even though कहना is transitive.",
+          "source_item_ids": [
+            "M11-L09-I1",
+            "M11-L09-I3",
+            "M11-L07-I2"
+          ]
+        },
+        {
+          "id": "M11-CP2-Q10",
+          "source": "current",
+          "format": "error_spot",
+          "question": "कौन सा वाक्य ग़लत है?",
+          "question_read_as": "kaun saa vaakya ġalat hai?",
+          "options": [
+            "वह हँस पड़ी।",
+            "वह उठ पड़ा।",
+            "वह सो गया।",
+            "उसने सो गया।"
+          ],
+          "options_read_as": [
+            "vah haṁs paṛii.",
+            "vah uṭh paṛaa.",
+            "vah so gayaa.",
+            "usne so gayaa."
+          ],
+          "answer_index": 3,
+          "explanation_en": "सोना and जाना are both intransitive, so ने has nothing to attach to.",
+          "source_item_ids": [
+            "M11-L06-I3",
+            "M11-L08-I2",
+            "M11-L08-I3"
+          ]
+        }
+      ]
+    }
+  ]
+}

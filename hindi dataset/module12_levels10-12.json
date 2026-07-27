@@ -1,0 +1,1112 @@
+{
+  "module": 12,
+  "module_name_en": "Conversation",
+  "module_name_hi": "बातचीत",
+  "phase": 5,
+  "batch": {
+    "levels_from": 10,
+    "levels_to": 12
+  },
+  "receptive_only": true,
+  "levels": [
+    {
+      "level": 10,
+      "title_en": "On the bus",
+      "title_hi": "बस में",
+      "items": [
+        {
+          "id": "M12-L10-I1",
+          "type": "dialogue",
+          "target": "ये बस जाएगी?",
+          "title_en": "Does this bus go there",
+          "setting": "bus",
+          "speed": "slow",
+          "difficulty": 6,
+          "tags": [
+            "bus",
+            "loanword_gender",
+            "future",
+            "subjunctive"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Passenger",
+              "label_hi": "सवारी"
+            },
+            {
+              "id": "B",
+              "label_en": "Conductor",
+              "label_hi": "कंडक्टर"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भैया, ये बस लाजपत नगर जाएगी?",
+              "read_as": "bhaiyaa, ye bas laajpat nagar jaaegii?",
+              "english": "Does this bus go to Lajpat Nagar?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "नहीं, ये दूसरी तरफ़ जाती है।",
+              "read_as": "nahiiṁ, ye duusrii taraf jaatii hai.",
+              "english": "No, this one goes the other way."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "तो कौन सी लूँ?",
+              "read_as": "to kaun sii luuṁ?",
+              "english": "Which one should I take then?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "चार सौ बीस नंबर। वो सीधे जाएगी।",
+              "read_as": "chaar sau biis nambar. vo siidhe jaaegii.",
+              "english": "Number four-twenty. That one goes straight there."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "शुक्रिया भैया।",
+              "read_as": "shukriyaa bhaiyaa.",
+              "english": "Thanks."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बस is feminine, and so is everything about it",
+              "explanation_en": "बस is one of the feminine loanwords you met in level 3 alongside ब्रेड and ट्रेन, and here it drives four forms in five lines: जाएगी, जाती है, कौन सी, and जाएगी again. Mis-gender बस once and you will mis-hear every one of them. Note कौन सी लूँ? in line 3 — the question word is feminine for the same reason, and the verb is a subjunctive asking for advice rather than stating anything.",
+              "listening_notes": [
+                "जाएगी is future feminine singular. The masculine जाएगा is one vowel away and easy to lose under traffic noise.",
+                "दूसरी तरफ़ — तरफ़ is feminine, so दूसरी. Direction words in Hindi are mostly feminine.",
+                "Bus numbers are read in groups: चार सौ बीस, not four-two-zero."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Which bus should the passenger take?",
+              "options": [
+                "The one going the other way",
+                "There is no direct bus",
+                "This one",
+                "Number four hundred and twenty"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 4: चार सौ बीस नंबर."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 1,
+              "masked_token": "जाएगी",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "ये बस लाजपत नगर ___ ?",
+              "question_read_as": "ye bas laajpat nagar ___ ?",
+              "options": [
+                "जाएगा",
+                "जाएगी",
+                "जाएँगे",
+                "जाएँगी"
+              ],
+              "options_read_as": [
+                "jaaegaa",
+                "jaaegii",
+                "jaaeṁge",
+                "jaaeṁgii"
+              ],
+              "answer_index": 1,
+              "explanation_en": "बस is feminine singular, so the future is जाएगी."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Loud. The conductor half-shouts and the passenger has to lean in."
+          }
+        },
+        {
+          "id": "M12-L10-I2",
+          "type": "dialogue",
+          "target": "लाजपत नगर के लिए",
+          "title_en": "Buying a ticket",
+          "setting": "bus",
+          "speed": "slow",
+          "difficulty": 6,
+          "tags": [
+            "bus",
+            "ke_lie",
+            "money",
+            "polite_future_imperative"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Passenger",
+              "label_hi": "सवारी"
+            },
+            {
+              "id": "B",
+              "label_en": "Conductor",
+              "label_hi": "कंडक्टर"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "एक टिकट लाजपत नगर के लिए।",
+              "read_as": "ek ṭikaṭ laajpat nagar ke lie.",
+              "english": "One ticket for Lajpat Nagar."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "पंद्रह रुपये। छुट्टा दीजिए।",
+              "read_as": "pandrah rupae. chhuṭṭaa diijie.",
+              "english": "Fifteen rupees. Exact change, please."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "बस बीस का नोट है।",
+              "read_as": "bas biis kaa noṭ hai.",
+              "english": "I've only got a twenty."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "चलिए, बाद में पाँच रुपये लौटा दूँगा।",
+              "read_as": "chalie, baad meṁ paaṁch rupae lauṭaa duuṁgaa.",
+              "english": "All right, I'll give you five back later."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ठीक है, याद रखिएगा।",
+              "read_as": "ṭhiik hai, yaad rakhiegaa.",
+              "english": "Fine — do remember."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "के लिए — for, and only for",
+              "explanation_en": "के लिए means \"for the purpose of\" or \"on behalf of\". एक टिकट लाजपत नगर के लिए is a ticket for that destination. It is not के पास, which is in somebody's keeping, and not के साथ, which is in company — and those three are the postpositions learners swap most often. Note याद रखिएगा at the end: the polite future imperative you met with बता दीजिएगा in level 1, here doing gentle enforcement rather than an offer.",
+              "listening_notes": [
+                "छुट्टा दीजिए — the small-change problem from level 2, except that here the conductor asks first.",
+                "बीस का नोट — का agrees with masculine नोट, exactly as सौ का नोट did at the tea stall.",
+                "लौटा दूँगा uses the देना vector: I'll return it, and that is settled."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What is the difficulty over payment?",
+              "options": [
+                "The passenger has no money",
+                "The fare is disputed",
+                "The passenger has only a twenty and the fare is fifteen",
+                "The conductor has run out of tickets"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Lines 2 and 3 — fifteen rupees, and only a twenty-rupee note."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 1,
+              "masked_token": "लिए",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "एक टिकट लाजपत नगर के ___ ।",
+              "question_read_as": "ek ṭikaṭ laajpat nagar ke ___ .",
+              "options": [
+                "लिए",
+                "पास",
+                "साथ",
+                "बाद"
+              ],
+              "options_read_as": [
+                "lie",
+                "paas",
+                "saath",
+                "baad"
+              ],
+              "answer_index": 0,
+              "explanation_en": "के लिए is \"for\". के पास would mean the ticket is in the town's keeping."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Fast and transactional. Line 5 should be lightly pointed."
+          }
+        },
+        {
+          "id": "M12-L10-I3",
+          "type": "dialogue",
+          "target": "आंटी जी, आप बैठिए",
+          "title_en": "Offering a seat",
+          "setting": "bus",
+          "speed": "slow",
+          "difficulty": 6,
+          "tags": [
+            "bus",
+            "address_forms",
+            "ne",
+            "register",
+            "politeness"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Young passenger",
+              "label_hi": "नौजवान"
+            },
+            {
+              "id": "B",
+              "label_en": "Older passenger",
+              "label_hi": "आंटी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "आंटी जी, आप बैठिए।",
+              "read_as": "aanṭii jii, aap baiṭhie.",
+              "english": "Auntie, please sit."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "अरे नहीं बेटा, तुम बैठो। मैंने पूरा दिन आराम किया है।",
+              "read_as": "are nahiiṁ beṭaa, tum baiṭho. maiṁne puuraa din aaraam kiyaa hai.",
+              "english": "No no, son, you sit. I've rested all day."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "नहीं नहीं, मैं अगले स्टॉप पर उतर जाऊँगा।",
+              "read_as": "nahiiṁ nahiiṁ, maiṁ agle sṭôp par utar jaauṁgaa.",
+              "english": "No really, I'm getting off at the next stop."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "अच्छा? तो ठीक है। शुक्रिया बेटा।",
+              "read_as": "acchaa? to ṭhiik hai. shukriyaa beṭaa.",
+              "english": "Oh? All right then. Thank you, son."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "कोई बात नहीं आंटी।",
+              "read_as": "koii baat nahiiṁ aanṭii.",
+              "english": "Not at all, auntie."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "आंटी and बेटा — how strangers address each other",
+              "explanation_en": "Hindi speakers routinely use family words for complete strangers. आंटी for a woman of your mother's generation, अंकल for a man, बेटा for anyone noticeably younger, भैया for a man serving you, भाई साहब for a man in the street. None of them implies any actual relation, and using none of them sounds cold rather than neutral. This is probably the largest single register difference from English, where calling a stranger \"son\" would be odd or condescending.",
+              "listening_notes": [
+                "मैंने पूरा दिन आराम किया है: आराम करना is a करना verb, so ने, and किया agrees with masculine आराम.",
+                "बैठिए and बैठो in consecutive lines — she uses तुम to him because he is younger, and he uses आप to her. The asymmetry is exactly what makes it polite.",
+                "उतर जाऊँगा — the जाना vector on a future, making the getting-off definite rather than possible."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why does the young man insist she takes the seat?",
+              "options": [
+                "He prefers to stand",
+                "He is getting off at the next stop",
+                "The seat is not his",
+                "She looked unwell"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 3: मैं अगले स्टॉप पर उतर जाऊँगा."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "मैंने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "___ पूरा दिन आराम किया है।",
+              "question_read_as": "___ puuraa din aaraam kiyaa hai.",
+              "options": [
+                "मुझे",
+                "मेरा",
+                "मैं",
+                "मैंने"
+              ],
+              "options_read_as": [
+                "mujhe",
+                "meraa",
+                "maiṁ",
+                "maiṁne"
+              ],
+              "answer_index": 3,
+              "explanation_en": "करना is transitive and the tense is perfective, so the subject takes ने."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Warm throughout. The refusals in lines 2 and 3 are affectionate, not awkward."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "बस is feminine and drives every verb around it. के लिए is \"for\" and is not interchangeable with के पास or के साथ. And strangers address each other with family words — आंटी, बेटा, भैया — which is warmth rather than presumption.",
+        "key_forms": [
+          "ये बस जाएगी?",
+          "के लिए",
+          "आंटी जी"
+        ],
+        "next_up_en": "Next: the train station, where nothing runs on time."
+      }
+    },
+    {
+      "level": 11,
+      "title_en": "At the train station",
+      "title_hi": "रेलवे स्टेशन पर",
+      "items": [
+        {
+          "id": "M12-L11-I1",
+          "type": "dialogue",
+          "target": "प्लेटफ़ॉर्म तीन पर",
+          "title_en": "Finding the platform",
+          "setting": "train_station",
+          "speed": "slow",
+          "difficulty": 6,
+          "tags": [
+            "train",
+            "par",
+            "oblique",
+            "word_order"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Traveller",
+              "label_hi": "यात्री"
+            },
+            {
+              "id": "B",
+              "label_en": "Station staff",
+              "label_hi": "कर्मचारी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भाई साहब, शताब्दी किस प्लेटफ़ॉर्म पर आएगी?",
+              "read_as": "bhaaii saahab, shataabdii kis pleṭfôrm par aaegii?",
+              "english": "Which platform does the Shatabdi come in at?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "प्लेटफ़ॉर्म तीन पर।",
+              "read_as": "pleṭfôrm tiin par.",
+              "english": "Platform three."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "और जाना किधर से है?",
+              "read_as": "aur jaanaa kidhar se hai?",
+              "english": "And which way do I go?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "सामने से पुल चढ़िए, उतर जाइए तीन पर।",
+              "read_as": "saamne se pul chaṛhie, utar jaaie tiin par.",
+              "english": "Take the bridge in front, come down at three."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "शुक्रिया।",
+              "read_as": "shukriyaa.",
+              "english": "Thank you."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पर for platforms, floors and points",
+              "explanation_en": "पर is the postposition for a surface or a point: प्लेटफ़ॉर्म तीन पर, तीसरी मंज़िल पर from level 1, अगले चौराहे पर from level 7. में would put you inside the platform, which is not a thing anyone means. English uses \"at\" and \"on\" for these and Hindi uses one word for both, which makes पर one of the easiest postpositions to get right and one of the easiest to forget entirely.",
+              "listening_notes": [
+                "किस प्लेटफ़ॉर्म पर — कौन सा goes oblique to किस before a postposition.",
+                "शताब्दी is a train name and it is feminine, so आएगी. Most Indian train names are feminine, because ट्रेन and गाड़ी both are.",
+                "जाना किधर से है? — the infinitive-plus-है obligation with the question word in the middle. Question word order is very loose in speech."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How does the traveller get to the platform?",
+              "options": [
+                "Over the bridge in front",
+                "Through the underpass",
+                "By asking at the ticket window",
+                "Straight ahead along the tracks"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 4: सामने से पुल चढ़िए."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "पर",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "प्लेटफ़ॉर्म तीन ___ ।",
+              "question_read_as": "pleṭfôrm tiin ___ .",
+              "options": [
+                "से",
+                "तक",
+                "पर",
+                "में"
+              ],
+              "options_read_as": [
+                "se",
+                "tak",
+                "par",
+                "meṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "पर for a platform, a floor or any point you arrive at."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Station announcements audible underneath. Line 4 is rattled off quickly."
+          }
+        },
+        {
+          "id": "M12-L11-I2",
+          "type": "dialogue",
+          "target": "ट्रेन कितनी लेट है?",
+          "title_en": "The train is late",
+          "setting": "train_station",
+          "speed": "slow",
+          "difficulty": 7,
+          "tags": [
+            "train",
+            "loanword_gender",
+            "ellipsis",
+            "subjunctive"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Traveller",
+              "label_hi": "यात्री"
+            },
+            {
+              "id": "B",
+              "label_en": "Another traveller",
+              "label_hi": "दूसरा यात्री"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "ट्रेन कितनी लेट है?",
+              "read_as": "ṭren kitnii leṭ hai?",
+              "english": "How late is the train?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "दो घंटे। अभी तक चली भी नहीं।",
+              "read_as": "do ghanṭe. abhii tak chalii bhii nahiiṁ.",
+              "english": "Two hours. It hasn't even left yet."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "अरे! कोई अनाउंसमेंट हुई थी?",
+              "read_as": "are! koii anaauṁsmenṭ huii thii?",
+              "english": "Was there an announcement?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हाँ, अभी हुई। बोर्ड पर भी लिखा है।",
+              "read_as": "haaṁ, abhii huii. borḍ par bhii likhaa hai.",
+              "english": "Yes, just now. It's on the board too."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "दो घंटे कहाँ बैठें?",
+              "read_as": "do ghanṭe kahaaṁ baiṭheṁ?",
+              "english": "Where do we sit for two hours?"
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "वेटिंग रूम खुला है।",
+              "read_as": "veṭiṁg ruum khulaa hai.",
+              "english": "The waiting room's open."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ट्रेन is feminine, and लेट does not inflect at all",
+              "explanation_en": "ट्रेन is feminine like बस, so चली and कितनी लेट rather than कितना. But notice लेट itself: it is an English word doing the job of an adjective and it never changes shape, whatever it describes. Hindi borrows the word and leaves all the grammar to the words around it — exactly as it did with बुक करना in level 8. अनाउंसमेंट is feminine too, hence हुई, which shows how loanword genders get assigned by analogy with whatever Hindi word they displace.",
+              "listening_notes": [
+                "अभी तक चली भी नहीं — the auxiliary है is dropped entirely, and भी adds \"even\".",
+                "कहाँ बैठें? is a subjunctive asking for advice, exactly like कौन सी लूँ? on the bus.",
+                "बोर्ड पर भी लिखा है — पर again for a surface, and लिखा है for \"it is written\"."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How late is the train?",
+              "options": [
+                "Nobody knows yet",
+                "Half an hour",
+                "One hour",
+                "Two hours"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 2: दो घंटे — and it has not even started out."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "चली",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "अभी तक ___ भी नहीं।",
+              "question_read_as": "abhii tak ___ bhii nahiiṁ.",
+              "options": [
+                "चला",
+                "चली",
+                "चले",
+                "चलीं"
+              ],
+              "options_read_as": [
+                "chalaa",
+                "chalii",
+                "chale",
+                "chaliiṁ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "ट्रेन is feminine singular, so चली."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Both resigned rather than annoyed. Line 5 is genuinely asking."
+          }
+        },
+        {
+          "id": "M12-L11-I3",
+          "type": "dialogue",
+          "target": "दो लोगों का रिज़र्वेशन",
+          "title_en": "Checking a reservation",
+          "setting": "train_station",
+          "speed": "slow",
+          "difficulty": 7,
+          "tags": [
+            "train",
+            "oblique_plural",
+            "genitive",
+            "numbers"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Traveller",
+              "label_hi": "यात्री"
+            },
+            {
+              "id": "B",
+              "label_en": "Clerk",
+              "label_hi": "क्लर्क"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "दो लोगों का रिज़र्वेशन है। कोच कौन सा?",
+              "read_as": "do logoṁ kaa rizarveshan hai. koch kaun saa?",
+              "english": "I have a reservation for two. Which coach?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "नाम बताइए।",
+              "read_as": "naam bataaie.",
+              "english": "Name, please."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "शर्मा। एस-फ़ोर में बुक किया था।",
+              "read_as": "sharmaa. es-for meṁ buk kiyaa thaa.",
+              "english": "Sharma. Booked in S-four."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हाँ मिल गया। एस-फ़ोर, सीट बाईस और तेईस।",
+              "read_as": "haaṁ mil gayaa. es-for, siiṭ baaiis aur teiis.",
+              "english": "Yes, found it. S-four, seats twenty-two and twenty-three."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "बहुत शुक्रिया।",
+              "read_as": "bahut shukriyaa.",
+              "english": "Thanks very much."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "लोगों का — the oblique before a genitive",
+              "explanation_en": "का, की and के are postpositions like any other, so the noun in front of them goes oblique: दो लोगों का, not दो लोग का. Learners often treat the genitive as a special case because it feels like an English apostrophe-s, but it behaves exactly like में or से and always has. Note also मिल गया in line 4 — मिलना with the जाना vector, meaning \"found\", and taking no ने because both halves are intransitive.",
+              "listening_notes": [
+                "एस-फ़ोर में बुक किया था: another English verb running through करना, with the ने-subject dropped because it is obvious who booked.",
+                "बाईस and तेईस — twenty-two and twenty-three. Hindi numbers in the twenties are irregular enough that they have to be heard rather than worked out.",
+                "कोच कौन सा? — the question word has moved to the end, which is perfectly normal in speech."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Which seats does the traveller have?",
+              "options": [
+                "The booking cannot be found",
+                "S-four, twelve and thirteen",
+                "S-four, twenty-two and twenty-three",
+                "S-three, twenty-two and twenty-three"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 4: एस-फ़ोर, सीट बाईस और तेईस."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 1,
+              "masked_token": "लोगों",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "दो ___ का रिज़र्वेशन है।",
+              "question_read_as": "do ___ kaa rizarveshan hai.",
+              "options": [
+                "लोगों",
+                "लोगो",
+                "लोगें",
+                "लोग"
+              ],
+              "options_read_as": [
+                "logoṁ",
+                "logo",
+                "logeṁ",
+                "log"
+              ],
+              "answer_index": 0,
+              "explanation_en": "का is a postposition, so the plural लोग goes oblique to लोगों."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Counter window, slight muffling. Line 4 read at speed, as numbers usually are."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "पर marks a platform, a floor or any point. ट्रेन is feminine and so is शताब्दी. English loanwords like लेट never inflect — the grammar happens around them. And the genitive का takes an oblique in front of it just like every other postposition: दो लोगों का.",
+        "key_forms": [
+          "प्लेटफ़ॉर्म तीन पर",
+          "कितनी लेट है?",
+          "दो लोगों का"
+        ],
+        "next_up_en": "Next: the metro — tokens, changing lines, and a card that has gone missing."
+      }
+    },
+    {
+      "level": 12,
+      "title_en": "On the metro",
+      "title_hi": "मेट्रो में",
+      "items": [
+        {
+          "id": "M12-L12-I1",
+          "type": "dialogue",
+          "target": "ब्लू लाइन से जाइए",
+          "title_en": "Token and line",
+          "setting": "metro",
+          "speed": "slow",
+          "difficulty": 6,
+          "tags": [
+            "metro",
+            "se_route",
+            "obligation",
+            "vector"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Traveller",
+              "label_hi": "यात्री"
+            },
+            {
+              "id": "B",
+              "label_en": "Metro staff",
+              "label_hi": "कर्मचारी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "राजीव चौक जाना है। टोकन कहाँ मिलेगा?",
+              "read_as": "raajiiv chauk jaanaa hai. ṭokan kahaaṁ milegaa?",
+              "english": "I need to go to Rajiv Chowk. Where do I get a token?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "उधर काउंटर पर। ब्लू लाइन से जाइए।",
+              "read_as": "udhar kaauṁṭar par. bluu laain se jaaie.",
+              "english": "At that counter. Take the Blue Line."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "सीधा पहुँच जाऊँगा?",
+              "read_as": "siidhaa pahuṁch jaauṁgaa?",
+              "english": "Will I get there directly?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हाँ, बदलना नहीं पड़ेगा।",
+              "read_as": "haaṁ, badalnaa nahiiṁ paṛegaa.",
+              "english": "Yes, you won't have to change."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "बढ़िया, शुक्रिया।",
+              "read_as": "baṛhiyaa, shukriyaa.",
+              "english": "Great, thanks."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "से for the route you travel by",
+              "explanation_en": "से does a great deal of work. You have met it as \"from\" in यहाँ से, as \"by means of\" in रिक्शे से, and here as the line you travel on: ब्लू लाइन से जाइए. The thread running through all three is a path or a source — something the action comes through or out of. में would put you inside the line as though it were a container, which is not what anybody means.",
+              "listening_notes": [
+                "जाना है at the start of line 1 — the obligation ladder, with the destination stated before it.",
+                "बदलना नहीं पड़ेगा — the पड़ना rung of that ladder in the future negative: you will not be forced to.",
+                "पहुँच जाऊँगा — the जाना vector making the arrival definite rather than merely likely."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Does the traveller need to change lines?",
+              "options": [
+                "Yes, twice",
+                "No",
+                "Only at rush hour",
+                "Yes, once"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 4: बदलना नहीं पड़ेगा."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "से",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "ब्लू लाइन ___ जाइए।",
+              "question_read_as": "bluu laain ___ jaaie.",
+              "options": [
+                "पर",
+                "में",
+                "तक",
+                "से"
+              ],
+              "options_read_as": [
+                "par",
+                "meṁ",
+                "tak",
+                "se"
+              ],
+              "answer_index": 3,
+              "explanation_en": "से for the route you travel by, as with रिक्शे से."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Echoey concourse. Both speak clearly over it."
+          }
+        },
+        {
+          "id": "M12-L12-I2",
+          "type": "dialogue",
+          "target": "येलो लाइन पकड़नी है",
+          "title_en": "Where to change",
+          "setting": "metro",
+          "speed": "slow",
+          "difficulty": 7,
+          "tags": [
+            "metro",
+            "obligation",
+            "infinitive_agreement",
+            "feminine_nouns"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Traveller",
+              "label_hi": "यात्री"
+            },
+            {
+              "id": "B",
+              "label_en": "Fellow passenger",
+              "label_hi": "सहयात्री"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "यहाँ से मुझे कहाँ बदलना है?",
+              "read_as": "yahaaṁ se mujhe kahaaṁ badalnaa hai?",
+              "english": "Where do I change from here?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "कश्मीरी गेट पर। येलो लाइन पकड़नी है।",
+              "read_as": "kashmiirii geṭ par. yelo laain pakaṛnii hai.",
+              "english": "At Kashmere Gate. You need to take the Yellow Line."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "कौन सी तरफ़?",
+              "read_as": "kaun sii taraf?",
+              "english": "Which side?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "नीचे उतरना पड़ेगा, फिर दाईं तरफ़।",
+              "read_as": "niiche utarnaa paṛegaa, phir daaiiṁ taraf.",
+              "english": "You'll have to go down, then right."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "समझ गया, शुक्रिया।",
+              "read_as": "samajh gayaa, shukriyaa.",
+              "english": "Got it, thanks."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Two obligations, two endings, one dialogue",
+              "explanation_en": "येलो लाइन पकड़नी है has पकड़नी because लाइन is feminine. नीचे उतरना पड़ेगा has उतरना because there is no object at all. Exactly the same pattern as the cab dialogue in level 8, and this module keeps returning to it because it is the last piece of grammar that stays genuinely hard at listening speed. If you can hear the difference between पकड़नी and पकड़ना across a noisy concourse, the agreement system has landed.",
+              "listening_notes": [
+                "लाइन is feminine, like बस and ट्रेन. English transport loanwords in Hindi are overwhelmingly feminine.",
+                "दाईं तरफ़ — दायाँ goes feminine to दाईं because तरफ़ is feminine.",
+                "कौन सी तरफ़? — feminine again, and the entire question is two words."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Where does the traveller change lines?",
+              "options": [
+                "Kashmere Gate",
+                "The next station",
+                "He does not need to change",
+                "Rajiv Chowk"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 2: कश्मीरी गेट पर."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "पकड़नी",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "येलो लाइन ___ है।",
+              "question_read_as": "yelo laain ___ hai.",
+              "options": [
+                "पकड़ा",
+                "पकड़ना",
+                "पकड़नी",
+                "पकड़ने"
+              ],
+              "options_read_as": [
+                "pakaṛaa",
+                "pakaṛnaa",
+                "pakaṛnii",
+                "pakaṛne"
+              ],
+              "answer_index": 2,
+              "explanation_en": "लाइन is feminine, so the infinitive in an obligation takes -नी."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "On a moving train. Line 4 has to be delivered before the doors open."
+          }
+        },
+        {
+          "id": "M12-L12-I3",
+          "type": "dialogue",
+          "target": "गिर गया होगा",
+          "title_en": "A card that has gone missing",
+          "setting": "metro",
+          "speed": "slow",
+          "difficulty": 7,
+          "tags": [
+            "metro",
+            "presumptive",
+            "ne",
+            "vector",
+            "set_phrases"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Traveller",
+              "label_hi": "यात्री"
+            },
+            {
+              "id": "B",
+              "label_en": "Gate staff",
+              "label_hi": "कर्मचारी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भैया, मेरा कार्ड नहीं मिल रहा।",
+              "read_as": "bhaiyaa, meraa kaarḍ nahiiṁ mil rahaa.",
+              "english": "I can't find my card."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "कहीं गिर गया होगा। कहाँ रखा था?",
+              "read_as": "kahiiṁ gir gayaa hogaa. kahaaṁ rakhaa thaa?",
+              "english": "It must have fallen somewhere. Where did you put it?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "मैंने जेब में रखा था, पक्का।",
+              "read_as": "maiṁne jeb meṁ rakhaa thaa, pakkaa.",
+              "english": "I put it in my pocket, definitely."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "बैग देख लीजिए एक बार।",
+              "read_as": "baig dekh liijie ek baar.",
+              "english": "Have a look in your bag, just once."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "अरे हाँ, यहीं था।",
+              "read_as": "are haaṁ, yahiiṁ thaa.",
+              "english": "Oh — yes, here it is."
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "चलिए, अच्छा हुआ।",
+              "read_as": "chalie, acchaa huaa.",
+              "english": "Good, that's all right then."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "गिर गया होगा — reasoning out loud",
+              "explanation_en": "होगा after a past form means \"it must have\" — a guess offered as near-certainty. कहीं गिर गया होगा is \"it must have fallen somewhere\". You met होगा in Module 11 as a future obligation, मुझे जाना होगा; here it is doing inference instead, and what tells the two apart is that the main verb is already in a past form. Hindi uses this constantly for thinking aloud, and once you hear it you will notice how often people reason at each other rather than asserting.",
+              "listening_notes": [
+                "मैंने जेब में रखा था: रखना is transitive and perfective, so ने.",
+                "देख लीजिए — the लेना vector on a polite imperative: have a look, for your own sake.",
+                "अच्छा हुआ is the standard expression of relief, literally \"good happened\"."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Where was the card in the end?",
+              "options": [
+                "At the counter",
+                "It was never found",
+                "In his pocket",
+                "In his bag"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The staff member suggests the bag in line 4 and the traveller finds it in line 5."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "मैंने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "___ जेब में रखा था, पक्का।",
+              "question_read_as": "___ jeb meṁ rakhaa thaa, pakkaa.",
+              "options": [
+                "मैं",
+                "मैंने",
+                "मुझे",
+                "मेरा"
+              ],
+              "options_read_as": [
+                "maiṁ",
+                "maiṁne",
+                "mujhe",
+                "meraa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "रखना is transitive and the tense is perfective, so ने."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Line 3 is slightly defensive. Line 5 should be embarrassed."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "से covers from, by means of, and the line you travel on — one idea of a path running through all three. The obligation ladder shows its agreement twice more: पकड़नी है with a feminine object, उतरना पड़ेगा without one. And होगा after a past form means \"must have\", which is how Hindi reasons aloud.",
+        "key_forms": [
+          "ब्लू लाइन से",
+          "पकड़नी है",
+          "गिर गया होगा"
+        ],
+        "next_up_en": "Next: the dhaba, and the speed steps up from slow to normal."
+      }
+    }
+  ]
+}

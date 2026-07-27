@@ -1,0 +1,611 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "kind": "mock_exam",
+  "questions_total": 40,
+  "coverage_note_en": "Forty questions across fifty-five levels, so not every level appears — the mock samples the patterns rather than the words. Eight questions draw on other Phase 5 modules as Part F requires, which is straightforward here because Module 12 supplied this module's spoken register, Module 14 supplied the grammar its texts were written around, and Module 15 named the vocabulary axis this module spent thirty levels demonstrating.",
+  "question_types": [
+    "meaning_match",
+    "near_synonym_choice",
+    "gender_recall",
+    "comprehension",
+    "inference"
+  ],
+  "questions": [
+    {
+      "n": 1,
+      "type": "gender_recall",
+      "prompt_en": "Which suffix does NOT reliably produce a feminine noun?",
+      "options": [
+        "-ति",
+        "-आई",
+        "-ता",
+        "-आव"
+      ],
+      "answer_index": 3,
+      "explanation_en": "-आव builds masculines from verbs — चुनाव, बदलाव, दबाव. The other three are feminine without exception.",
+      "level_source": 34
+    },
+    {
+      "n": 2,
+      "type": "meaning_match",
+      "prompt_en": "Which prefix is NOT a way of negating?",
+      "options": [
+        "ग़ैर-",
+        "स-",
+        "बे-",
+        "निः-"
+      ],
+      "answer_index": 1,
+      "explanation_en": "स- means with — सादर, सहर्ष, सप्रेम. The module's seven negators are निः-, ला-, अ-, बिना, ना-, ग़ैर- and बे-.",
+      "level_source": 21
+    },
+    {
+      "n": 3,
+      "type": "gender_recall",
+      "prompt_en": "Which pair matches in gender?",
+      "options": [
+        "ख़बर and समाचार",
+        "दिनांक and तारीख़",
+        "स्थान and जगह",
+        "आवश्यकता and ज़रूरत"
+      ],
+      "answer_index": 3,
+      "explanation_en": "Both feminine. The other three mismatch, and roughly half the module's pairs do.",
+      "level_source": 27
+    },
+    {
+      "n": 4,
+      "type": "meaning_match",
+      "prompt_en": "What does the -आलय suffix mean?",
+      "options": [
+        "a person",
+        "a place",
+        "a quality",
+        "an action"
+      ],
+      "answer_index": 1,
+      "explanation_en": "शौचालय, विद्यालय, पुस्तकालय, न्यायालय, मंत्रालय, चिकित्सालय.",
+      "level_source": 8
+    },
+    {
+      "n": 5,
+      "type": "near_synonym_choice",
+      "question_en": "Which word means an argument in the sense of reasoning, and does not take करना?",
+      "options": [
+        "तर्क",
+        "दलील",
+        "राय",
+        "बहस"
+      ],
+      "answer_index": 0,
+      "explanation_en": "तर्क is reasoning as such; बहस takes करना and दलील takes देना.",
+      "level_source": 11
+    },
+    {
+      "n": 6,
+      "type": "meaning_match",
+      "prompt_en": "Which negative belongs on a written sign?",
+      "options": [
+        "नहीं",
+        "मत",
+        "न",
+        "कोई"
+      ],
+      "answer_index": 2,
+      "explanation_en": "नहीं for statements, मत for spoken instructions, न for written ones.",
+      "level_source": 14
+    },
+    {
+      "n": 7,
+      "type": "gender_recall",
+      "prompt_en": "Which is feminine?",
+      "options": [
+        "समर्थन",
+        "पंक्ति",
+        "संदर्भ",
+        "निष्कर्ष"
+      ],
+      "answer_index": 1,
+      "explanation_en": "पंक्ति is feminine and the other three are masculine — none of the four shows it in its shape.",
+      "level_source": 16
+    },
+    {
+      "n": 8,
+      "type": "meaning_match",
+      "prompt_en": "Which three words head an official Hindi letter?",
+      "options": [
+        "प्रस्तुत, सूचित, संलग्न",
+        "निवेदन, अनुरोध, गुज़ारिश",
+        "महोदय, सादर, धन्यवाद",
+        "संदर्भ, विषय, दिनांक"
+      ],
+      "answer_index": 3,
+      "explanation_en": "Learn them together and any official document orients itself in seconds.",
+      "level_source": 20
+    },
+    {
+      "n": 9,
+      "type": "near_synonym_choice",
+      "question_en": "Which request word is made upwards, to somebody able to grant it?",
+      "options": [
+        "गुज़ारिश",
+        "अनुरोध",
+        "निवेदन",
+        "आदेश"
+      ],
+      "answer_index": 2,
+      "explanation_en": "निवेदन है कि opens a formal request. अनुरोध is level, गुज़ारिश is warm, and आदेश goes the other way.",
+      "level_source": 19
+    },
+    {
+      "n": 10,
+      "type": "meaning_match",
+      "prompt_en": "Sanskrit nouns ending in -आ are which gender?",
+      "options": [
+        "feminine — व्यवस्था, समस्या, चर्चा, घोषणा",
+        "it varies",
+        "they take no gender",
+        "masculine, like most -आ nouns"
+      ],
+      "answer_index": 0,
+      "explanation_en": "The single most reliable gender trap in the language.",
+      "level_source": 35
+    },
+    {
+      "n": 11,
+      "type": "gender_recall",
+      "prompt_en": "मंत्री ends in -ी. What gender is it?",
+      "options": [
+        "masculine, joining आदमी, पानी and the agent nouns",
+        "it varies",
+        "it has no gender",
+        "feminine"
+      ],
+      "answer_index": 0,
+      "explanation_en": "The mirror image of the -आ feminines.",
+      "level_source": 36
+    },
+    {
+      "n": 12,
+      "type": "meaning_match",
+      "prompt_en": "Free words swap between registers. What does not?",
+      "options": [
+        "Pronouns",
+        "Verbs",
+        "Compounds and institutional names",
+        "Adjectives"
+      ],
+      "answer_index": 2,
+      "explanation_en": "देशभक्ति not मुल्कभक्ति, कार्यक्रम not कामक्रम, शिक्षा मंत्रालय not तालीम मंत्रालय, जीवन बीमा not ज़िंदगी बीमा.",
+      "level_source": 29
+    },
+    {
+      "n": 13,
+      "type": "near_synonym_choice",
+      "question_en": "Which word for waiting is masculine?",
+      "options": [
+        "देरी",
+        "ठहराव",
+        "प्रतीक्षा",
+        "इंतज़ार"
+      ],
+      "answer_index": 3,
+      "explanation_en": "इंतज़ार is masculine and प्रतीक्षा feminine — the fourth mismatched pair.",
+      "level_source": 28
+    },
+    {
+      "n": 14,
+      "type": "comprehension",
+      "context_en": "A sign reads: बिना रसीद के सामान वापस नहीं मिलेगा।",
+      "question_en": "What does this tell you?",
+      "options": [
+        "Receipts are optional",
+        "Without a receipt your luggage will not be returned",
+        "There is a charge for receipts",
+        "Luggage is not accepted"
+      ],
+      "answer_index": 1,
+      "explanation_en": "बिना ... के, the wrap-around \"without\" — the fourth negating device in the module.",
+      "level_source": 22
+    },
+    {
+      "n": 15,
+      "type": "meaning_match",
+      "prompt_en": "What is the everyday equivalent of प्रयोग करना?",
+      "options": [
+        "प्रस्तुत करना",
+        "संपर्क करना",
+        "जमा करना",
+        "इस्तेमाल करना"
+      ],
+      "answer_index": 3,
+      "explanation_en": "प्रयोग करना on a sign, इस्तेमाल करना in speech, यूज़ करना in a work message. Three settings, one action.",
+      "level_source": 14
+    },
+    {
+      "n": 16,
+      "type": "inference",
+      "context_en": "A group message reads: कृपया पंक्ति में ही लगें ... धक्का-मुक्की बिल्कुल न करें।",
+      "question_en": "What does this suggest about the place?",
+      "options": [
+        "The queue is usually orderly",
+        "People often push in here",
+        "The counter is usually empty",
+        "Elderly people have a separate counter"
+      ],
+      "answer_index": 1,
+      "explanation_en": "A sign forbids what actually happens. The ही and the बिल्कुल are the evidence.",
+      "level_source": 16
+    },
+    {
+      "n": 17,
+      "type": "meaning_match",
+      "prompt_en": "असुविधा is built from which word?",
+      "options": [
+        "सुविधा",
+        "विधा",
+        "सूचना",
+        "सेवा"
+      ],
+      "answer_index": 0,
+      "explanation_en": "अ- plus सुविधा. Inconvenience is un-facility.",
+      "level_source": 14
+    },
+    {
+      "n": 18,
+      "type": "near_synonym_choice",
+      "question_en": "Which word for a request is Urdu-side and warm?",
+      "options": [
+        "निवेदन",
+        "प्रार्थना",
+        "गुज़ारिश",
+        "आवेदन"
+      ],
+      "answer_index": 2,
+      "explanation_en": "And एक छोटी सी गुज़ारिश थी uses a past tense on a present request, which is politeness rather than chronology.",
+      "level_source": 24
+    },
+    {
+      "n": 19,
+      "type": "meaning_match",
+      "prompt_en": "What does the ellipsis in a casual message signal?",
+      "options": [
+        "Carelessness",
+        "Closeness — the listener can supply what is dropped",
+        "Uncertainty",
+        "Formality"
+      ],
+      "answer_index": 1,
+      "explanation_en": "Subjects, auxiliaries and sometimes the verb go. The full form is not more polite, only less close.",
+      "level_source": 22
+    },
+    {
+      "n": 20,
+      "type": "meaning_match",
+      "prompt_en": "नामुमकिन and असंभव both mean impossible. Why two prefixes?",
+      "options": [
+        "One is a mistake",
+        "One is older",
+        "They mean different things",
+        "Each word keeps the prefix from its own side of the vocabulary"
+      ],
+      "answer_index": 3,
+      "explanation_en": "ना- is Persian and अ- is Sanskrit, and neither crosses over. The same holds for ग़ैरक़ानूनी.",
+      "level_source": 28
+    },
+    {
+      "n": 21,
+      "type": "comprehension",
+      "context_en": "A news report reads: स्थानीय निवासी इस काम से ख़ुश हैं। कुछ लोगों ने धूल और शोर की शिकायत भी की।",
+      "question_en": "What is the report doing?",
+      "options": [
+        "Suggesting the complaints came from elsewhere",
+        "Contradicting itself",
+        "Reporting both reactions without judging between them",
+        "Saying residents changed their minds"
+      ],
+      "answer_index": 2,
+      "explanation_en": "Both lines are attributed to different groups. Setting them side by side and taking no side is the convention.",
+      "level_source": 32
+    },
+    {
+      "n": 22,
+      "type": "meaning_match",
+      "prompt_en": "Why is news Hindi so dense with ने?",
+      "options": [
+        "Every claim is attributed, and reporting who said what needs a perfective transitive verb",
+        "ने is required in the present tense",
+        "News uses more verbs",
+        "It is a stylistic habit"
+      ],
+      "answer_index": 0,
+      "explanation_en": "के अनुसार, ने कहा, का कहना है — the register never speaks in its own voice.",
+      "level_source": 32
+    },
+    {
+      "n": 23,
+      "type": "gender_recall",
+      "prompt_en": "सरकार is which gender?",
+      "options": [
+        "feminine",
+        "it varies",
+        "it has no gender",
+        "masculine"
+      ],
+      "answer_index": 0,
+      "explanation_en": "नई सरकार, and सरकारी is one of the most useful adjectives in the language.",
+      "level_source": 34
+    },
+    {
+      "n": 24,
+      "type": "meaning_match",
+      "prompt_en": "In a compound, which element decides the gender?",
+      "options": [
+        "Compounds are always masculine",
+        "The first",
+        "The last",
+        "The longer one"
+      ],
+      "answer_index": 2,
+      "explanation_en": "घोषणा is feminine but घोषणापत्र is masculine, because पत्र is.",
+      "level_source": 35
+    },
+    {
+      "n": 25,
+      "type": "near_synonym_choice",
+      "question_en": "Which word means a demonstration and also a performance?",
+      "options": [
+        "हड़ताल",
+        "जुलूस",
+        "विरोध",
+        "प्रदर्शन"
+      ],
+      "answer_index": 3,
+      "explanation_en": "प्र- plus दर्शन, a showing-forth. Only context separates the senses.",
+      "level_source": 35
+    },
+    {
+      "n": 26,
+      "type": "meaning_match",
+      "prompt_en": "Which loanword ending reliably signals a feminine noun?",
+      "options": [
+        "-ल",
+        "-इंग",
+        "-र",
+        "-ट"
+      ],
+      "answer_index": 1,
+      "explanation_en": "मीटिंग, बुकिंग, सिटिंग, पार्किंग. The other endings tell you nothing.",
+      "level_source": 42
+    },
+    {
+      "n": 27,
+      "type": "meaning_match",
+      "prompt_en": "What has not settled about words like कॉल, मैसेज and ईमेल?",
+      "options": [
+        "Their meaning",
+        "Their pronunciation",
+        "Their spelling",
+        "Their gender — speakers differ"
+      ],
+      "answer_index": 3,
+      "explanation_en": "Gender assignment in Hindi is a process currently happening rather than one that finished.",
+      "level_source": 43
+    },
+    {
+      "n": 28,
+      "type": "near_synonym_choice",
+      "question_en": "Which verb covers catching a falling glass, running a business, and steadying a person?",
+      "options": [
+        "थामना",
+        "संभालना",
+        "निभाना",
+        "पकड़ना"
+      ],
+      "answer_index": 1,
+      "explanation_en": "English needs catch, manage, take over and comfort. Hindi lets the object decide.",
+      "level_source": 44
+    },
+    {
+      "n": 29,
+      "type": "meaning_match",
+      "prompt_en": "निपटना is intransitive. What is निपटाना?",
+      "options": [
+        "The transitive",
+        "The causative only",
+        "A different verb",
+        "The past tense"
+      ],
+      "answer_index": 0,
+      "explanation_en": "Adding -आ makes it transitive. सुलझना and सुलझाना, उलझना and उलझाना work the same way.",
+      "level_source": 44
+    },
+    {
+      "n": 30,
+      "type": "comprehension",
+      "context_en": "A narrative reads: मैंने घंटी नहीं बजाई ... कुछ दरवाज़े बाहर से बंद नहीं होते। वो भीतर से बंद होते हैं।",
+      "question_en": "What are the last two lines about?",
+      "options": [
+        "An empty house",
+        "A locked door",
+        "That nothing outside him was stopping him",
+        "A lost key"
+      ],
+      "answer_index": 2,
+      "explanation_en": "Somebody was clearly home — he could hear them. The door was never the problem.",
+      "level_source": 48
+    },
+    {
+      "n": 31,
+      "type": "meaning_match",
+      "prompt_en": "How is झिझक formed?",
+      "options": [
+        "with the -आई suffix",
+        "from the bare verb stem, with nothing added",
+        "from a Sanskrit root",
+        "it is a loanword"
+      ],
+      "answer_index": 1,
+      "explanation_en": "Like समझ, माँग, पकड़ and दौड़ — and all of them are feminine.",
+      "level_source": 48
+    },
+    {
+      "n": 32,
+      "type": "near_synonym_choice",
+      "question_en": "Which verb tests a thing rather than attempting an action?",
+      "options": [
+        "निभाना",
+        "टालना",
+        "कोशिश करना",
+        "आज़माना"
+      ],
+      "answer_index": 3,
+      "explanation_en": "You आज़माओ a method or your luck; you कोशिश करो to do something.",
+      "level_source": 50
+    },
+    {
+      "n": 33,
+      "type": "meaning_match",
+      "prompt_en": "जल्दी is which of these?",
+      "options": [
+        "A noun",
+        "Precisely 'immediately'",
+        "Ambiguous between quickly and early",
+        "Formal"
+      ],
+      "answer_index": 2,
+      "explanation_en": "शीघ्र and फ़ौरन are each precise; the everyday word is the vague one.",
+      "level_source": 52
+    },
+    {
+      "n": 34,
+      "type": "meaning_match",
+      "prompt_en": "अपनापन has no single English word. What does it mean?",
+      "options": [
+        "The quality of being treated as one's own",
+        "Selfishness",
+        "Independence",
+        "Ownership"
+      ],
+      "answer_index": 0,
+      "explanation_en": "अपना plus -पन. The narrative that teaches it defines it with an action rather than a synonym.",
+      "level_source": 54
+    },
+    {
+      "n": 35,
+      "type": "comprehension",
+      "context_en": "An opinion paragraph reads: शायद असली बात यह है कि कशमकश का कोई हल नहीं होता ... बस इतना होता है कि इंतज़ार करना मुमकिन नहीं रहता।",
+      "question_en": "How does the writer say a dilemma ends?",
+      "options": [
+        "It is never solved; waiting simply stops being possible",
+        "A list makes it clear",
+        "Somebody else decides",
+        "The right answer becomes obvious"
+      ],
+      "answer_index": 0,
+      "explanation_en": "Neither line says it alone. The claim sits in the two together.",
+      "level_source": 55
+    },
+    {
+      "n": 36,
+      "type": "meaning_match",
+      "prompt_en": "[Module 12] What does the presumptive होगा do?",
+      "options": [
+        "Marks the past",
+        "Predicts the future",
+        "Marks an inference — it must be the case",
+        "Asks a question"
+      ],
+      "answer_index": 2,
+      "explanation_en": "Module 12 taught it and Module 13's news items use it constantly for attributed conclusions.",
+      "level_source": 17
+    },
+    {
+      "n": 37,
+      "type": "meaning_match",
+      "prompt_en": "[Module 14] Why did this module's news texts avoid जाँच के आदेश दिए गए हैं?",
+      "options": [
+        "News does not use the passive",
+        "It is too formal",
+        "It is ungrammatical",
+        "The passive with जाना is not taught until Module 14"
+      ],
+      "answer_index": 3,
+      "explanation_en": "The strain shows most in the news block, and those texts are flagged for revision now that Module 14 exists.",
+      "level_source": 40
+    },
+    {
+      "n": 38,
+      "type": "meaning_match",
+      "prompt_en": "[Module 14] जब तक वो नहीं आता means what?",
+      "options": [
+        "While he is not coming",
+        "Until he comes",
+        "Because he is not coming",
+        "If he does not come"
+      ],
+      "answer_index": 1,
+      "explanation_en": "जब तक requires a negative English has no room for. Dropping it reverses the sense.",
+      "level_source": 15
+    },
+    {
+      "n": 39,
+      "type": "meaning_match",
+      "prompt_en": "[Module 15] Which axis does swapping पानी for जल move you along?",
+      "options": [
+        "Both",
+        "Neither",
+        "Situation — who you are speaking to",
+        "Tendency — which vocabulary layer"
+      ],
+      "answer_index": 3,
+      "explanation_en": "To be more polite you change the verb form, not the layer. This module demonstrated the distinction for thirty levels before Module 15 named it.",
+      "level_source": 27
+    },
+    {
+      "n": 40,
+      "type": "meaning_match",
+      "prompt_en": "[Module 15] What is the most reliable difference between the two vocabulary layers?",
+      "options": [
+        "One is more formal",
+        "The Sanskrit side takes the institutions and the compounds; the other keeps the conversation",
+        "One is older",
+        "One is used in writing only"
+      ],
+      "answer_index": 1,
+      "explanation_en": "This module's own finding, at level 29 — and the reason तालीम will never name a ministry.",
+      "level_source": 29
+    }
+  ],
+  "module_assessment_complete": {
+    "checkpoints": 11,
+    "mock_questions": 40,
+    "checkpoint_questions": 110,
+    "note_en": "Module 13's assessment is complete: eleven checkpoints of ten questions each and a forty-question mock, 150 questions in all.",
+    "phase_5_draw": [
+      {
+        "n": 36,
+        "draws_on": "Module 12's presumptive"
+      },
+      {
+        "n": 37,
+        "draws_on": "Module 14's passive, and the revision this module's news texts are flagged for"
+      },
+      {
+        "n": 38,
+        "draws_on": "Module 14's जब तक"
+      },
+      {
+        "n": 39,
+        "draws_on": "Module 15's two axes"
+      },
+      {
+        "n": 40,
+        "draws_on": "Module 15's naming of this module's own finding"
+      }
+    ]
+  }
+}

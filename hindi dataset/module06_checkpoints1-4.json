@@ -1,0 +1,698 @@
+{
+  "module": 6,
+  "module_name_en": "The Oblique Case",
+  "checkpoints": [
+    {
+      "checkpoint": 1,
+      "after_level": 5,
+      "covers_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "questions": [
+        {
+          "id": "M06-CP1-Q1",
+          "source_item_ids": [
+            "M06-L01-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "बेटे को",
+            "बेटा को",
+            "कमरा में",
+            "राम का बेटी"
+          ],
+          "answer_index": 0,
+          "explanation_en": "A postposition forces the oblique form, and बेटा changes to बेटे."
+        },
+        {
+          "id": "M06-CP1-Q2",
+          "source_item_ids": [
+            "M06-L02-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "मैं को",
+            "बेटे को",
+            "बेटा को",
+            "स्कूलें में"
+          ],
+          "answer_index": 1,
+          "explanation_en": "A masculine noun in -ा must change to -े before a postposition."
+        },
+        {
+          "id": "M06-CP1-Q3",
+          "source_item_ids": [
+            "M06-L03-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "भाए से",
+            "कमरा में मेज़ है।",
+            "बेटों को चाय है।",
+            "बेटे को चाय है।"
+          ],
+          "answer_index": 2,
+          "explanation_en": "For more than one son the plural oblique बेटों is needed, not the singular oblique बेटे."
+        },
+        {
+          "id": "M06-CP1-Q4",
+          "source_item_ids": [
+            "M06-L04-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "बेटे को चाय हैं।",
+            "आदमे को",
+            "स्कूलें में",
+            "बेटे को चाय है।"
+          ],
+          "answer_index": 3,
+          "explanation_en": "The verb agrees with चाय, which is singular. बेटे here is one son, not several."
+        },
+        {
+          "id": "M06-CP1-Q5",
+          "source_item_ids": [
+            "M06-L05-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "आदमे को",
+            "घर में",
+            "घरे में",
+            "किताबे में"
+          ],
+          "answer_index": 1,
+          "explanation_en": "घर does not end in -ा, so there is no -े form for it to take."
+        },
+        {
+          "id": "M06-CP1-Q6",
+          "source_item_ids": [
+            "M06-L01-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "भाए से",
+            "कमरा में मेज़ है।",
+            "बेटा अच्छा है।",
+            "बेटे अच्छा है।"
+          ],
+          "answer_index": 2,
+          "explanation_en": "There is no postposition here, so the noun stays in its direct form."
+        },
+        {
+          "id": "M06-CP1-Q7",
+          "source_item_ids": [
+            "M06-L02-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "कुत्ता को",
+            "बेटों अच्छे हैं।",
+            "आदमे को",
+            "कुत्ते को"
+          ],
+          "answer_index": 3,
+          "explanation_en": "कुत्ता ends in -ा, so it takes the oblique कुत्ते before a postposition."
+        },
+        {
+          "id": "M06-CP1-Q8",
+          "source_item_ids": [
+            "M06-L03-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "कमरों में मेज़ें हैं।",
+            "कमरे में मेज़ें हैं।",
+            "किताबे में",
+            "वे के पास"
+          ],
+          "answer_index": 0,
+          "explanation_en": "If more than one room is meant, the noun needs the plural oblique कमरों."
+        },
+        {
+          "id": "M06-CP1-Q9",
+          "source_item_ids": [
+            "M06-L04-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "मुझ के पास",
+            "लड़कीों को",
+            "कुत्तों को खाना है।",
+            "कुत्ते को खाना है।"
+          ],
+          "answer_index": 2,
+          "explanation_en": "If several dogs are meant, the plural oblique कुत्तों is required — the singular form does not cover both."
+        },
+        {
+          "id": "M06-CP1-Q10",
+          "source_item_ids": [
+            "M06-L05-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "घर में लोग हैं।",
+            "बच्चों के लिए दूध हैं।",
+            "दिनें तक",
+            "घरों में लोग हैं।"
+          ],
+          "answer_index": 3,
+          "explanation_en": "If more than one house is meant, the plural oblique घरों is needed — the unchanged form covers only the singular."
+        }
+      ]
+    },
+    {
+      "checkpoint": 2,
+      "after_level": 10,
+      "covers_levels": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "questions": [
+        {
+          "id": "M06-CP2-Q1",
+          "source_item_ids": [
+            "M06-L06-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "स्कूलों में",
+            "स्कूलें में",
+            "कमरा में",
+            "मैं से"
+          ],
+          "answer_index": 0,
+          "explanation_en": "-ें is a feminine plural ending. A masculine plural before a postposition takes -ों, whatever the noun's origin."
+        },
+        {
+          "id": "M06-CP2-Q2",
+          "source_item_ids": [
+            "M06-L07-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "बिल्ले को",
+            "आदमी को",
+            "आदमे को",
+            "मैं अच्छा स्कूल में हूँ।"
+          ],
+          "answer_index": 1,
+          "explanation_en": "-े is what a final -ा becomes. आदमी ends in -ी, so there is nothing for that ending to attach to."
+        },
+        {
+          "id": "M06-CP2-Q3",
+          "source_item_ids": [
+            "M06-L08-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "लड़कीों को",
+            "छोटा शहर में",
+            "आदमियों को",
+            "आदमीों को"
+          ],
+          "answer_index": 2,
+          "explanation_en": "The long ी cannot take -ों directly. It shortens to ि and a य appears between the vowels."
+        },
+        {
+          "id": "M06-CP2-Q4",
+          "source_item_ids": [
+            "M06-L09-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "लड़के को",
+            "मैं को",
+            "लाले घर में",
+            "लड़की को"
+          ],
+          "answer_index": 3,
+          "explanation_en": "लड़के is the oblique of लड़का, which is a different word meaning boy. लड़की does not change at all."
+        },
+        {
+          "id": "M06-CP2-Q5",
+          "source_item_ids": [
+            "M06-L10-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "बिल्ले को",
+            "लड़कियों को",
+            "लड़कीों को",
+            "चाये में"
+          ],
+          "answer_index": 1,
+          "explanation_en": "A long ी cannot carry -ों directly. It shortens to ि and takes a य before the ending."
+        },
+        {
+          "id": "M06-CP2-Q6",
+          "source_item_ids": [
+            "M06-L06-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "बेटीयों के लिए",
+            "तुम को",
+            "दिनों तक",
+            "दिनें तक"
+          ],
+          "answer_index": 2,
+          "explanation_en": "दिन is masculine, so its plural before a postposition is दिनों. दिनें is not a form Hindi has."
+        },
+        {
+          "id": "M06-CP2-Q7",
+          "source_item_ids": [
+            "M06-L07-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "भाए से",
+            "कमरे में मेज़ें हैं।",
+            "बेटे को चाय है।",
+            "भाई से"
+          ],
+          "answer_index": 3,
+          "explanation_en": "The -े ending exists only for Class 1 nouns ending in -ा. भाई does not qualify."
+        },
+        {
+          "id": "M06-CP2-Q8",
+          "source_item_ids": [
+            "M06-L08-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "भाइयों के लिए",
+            "भाईयों के लिए",
+            "लड़के को",
+            "बड़े किताबों में"
+          ],
+          "answer_index": 0,
+          "explanation_en": "The long ई shortens to इ before the य. Keeping it long is the single most common misspelling of this word."
+        },
+        {
+          "id": "M06-CP2-Q9",
+          "source_item_ids": [
+            "M06-L09-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "लोग को",
+            "लड़कीों को",
+            "बेटी से",
+            "बेटे से"
+          ],
+          "answer_index": 2,
+          "explanation_en": "बेटे is the oblique of बेटा. If you mean the daughter, the form is बेटी, unchanged."
+        },
+        {
+          "id": "M06-CP2-Q10",
+          "source_item_ids": [
+            "M06-L10-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "बेटीयों के लिए",
+            "आदमे को",
+            "अच्छे चाय में",
+            "बेटियों के लिए"
+          ],
+          "answer_index": 3,
+          "explanation_en": "The long ी shortens to ि before the य. This is the same trap as भाईयों and हाथीयों."
+        }
+      ]
+    },
+    {
+      "checkpoint": 3,
+      "after_level": 15,
+      "covers_levels": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "questions": [
+        {
+          "id": "M06-CP3-Q1",
+          "source_item_ids": [
+            "M06-L11-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "किताब में",
+            "किताबे में",
+            "बेटा को",
+            "बच्चों के लिए दूध हैं।"
+          ],
+          "answer_index": 0,
+          "explanation_en": "-े is what a Class 1 masculine ending in -ा turns into. किताब is feminine and ends in a consonant, so it takes no ending in the singular."
+        },
+        {
+          "id": "M06-CP3-Q2",
+          "source_item_ids": [
+            "M06-L12-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "लड़कीों को",
+            "किताबों में",
+            "किताबियों में",
+            "वह को"
+          ],
+          "answer_index": 1,
+          "explanation_en": "The य and the shortened vowel belong to nouns ending in a long -ी. किताब ends in a consonant, so -ों attaches directly."
+        },
+        {
+          "id": "M06-CP3-Q3",
+          "source_item_ids": [
+            "M06-L13-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "बिल्ले को",
+            "हम के साथ",
+            "बेटे और बेटी को",
+            "बेटा और बेटी को"
+          ],
+          "answer_index": 2,
+          "explanation_en": "को governs both nouns, so बेटा must go oblique even though it is not the word sitting directly in front of the postposition."
+        },
+        {
+          "id": "M06-CP3-Q4",
+          "source_item_ids": [
+            "M06-L14-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "कुत्ताओं और बिल्लीों को",
+            "बड़ा लड़के को",
+            "लड़के को",
+            "कुत्तों और बिल्लियों को"
+          ],
+          "answer_index": 3,
+          "explanation_en": "कुत्ता replaces its -ा rather than adding to it, and बिल्ली shortens its -ी rather than keeping it."
+        },
+        {
+          "id": "M06-CP3-Q5",
+          "source_item_ids": [
+            "M06-L15-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "बेटीयों के लिए",
+            "बड़े घर में",
+            "बड़ा घर में",
+            "छोटा शहर में"
+          ],
+          "answer_index": 1,
+          "explanation_en": "The noun does not change, so the adjective is the only thing that can mark the oblique — and it must."
+        },
+        {
+          "id": "M06-CP3-Q6",
+          "source_item_ids": [
+            "M06-L11-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "राम का बेटे",
+            "कमरा में मेज़ है।",
+            "रात को",
+            "राते को"
+          ],
+          "answer_index": 2,
+          "explanation_en": "रात is feminine and ends in a consonant. There is no -े form for it to take."
+        },
+        {
+          "id": "M06-CP3-Q7",
+          "source_item_ids": [
+            "M06-L12-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "रातियों को",
+            "किताबियों में",
+            "मैं अच्छा स्कूल में हूँ।",
+            "रातों को"
+          ],
+          "answer_index": 3,
+          "explanation_en": "There is no vowel here for a य to bridge. The ending goes straight onto the consonant."
+        },
+        {
+          "id": "M06-CP3-Q8",
+          "source_item_ids": [
+            "M06-L13-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "लड़कों और लड़कियों को",
+            "लड़कों और लड़कीों को",
+            "भाईयों और बहनियों के साथ",
+            "छोटा शहर में"
+          ],
+          "answer_index": 0,
+          "explanation_en": "Getting the first noun right does not carry over. लड़की still needs its vowel shortened and a य added."
+        },
+        {
+          "id": "M06-CP3-Q9",
+          "source_item_ids": [
+            "M06-L14-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "मैं को",
+            "राम का बेटे",
+            "पानी और चाय में",
+            "पाने और चाये में"
+          ],
+          "answer_index": 2,
+          "explanation_en": "The -े ending exists only for nouns ending in -ा. Neither of these words qualifies, so neither changes."
+        },
+        {
+          "id": "M06-CP3-Q10",
+          "source_item_ids": [
+            "M06-L15-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "छोटा शहर में",
+            "पाने और चाये में",
+            "लड़कीों को",
+            "छोटे शहर में"
+          ],
+          "answer_index": 3,
+          "explanation_en": "शहर cannot show the oblique, so the adjective has to. Leaving it as छोटा makes the phrase unmarked."
+        }
+      ]
+    },
+    {
+      "checkpoint": 4,
+      "after_level": 20,
+      "covers_levels": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "questions": [
+        {
+          "id": "M06-CP4-Q1",
+          "source_item_ids": [
+            "M06-L16-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "बड़ी लड़की को",
+            "बड़े लड़की को",
+            "घरे में",
+            "कुत्ताओं और बिल्लीों को"
+          ],
+          "answer_index": 0,
+          "explanation_en": "-े is the masculine oblique ending. A feminine noun takes बड़ी whatever follows it."
+        },
+        {
+          "id": "M06-CP4-Q2",
+          "source_item_ids": [
+            "M06-L17-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "लड़कों और लड़कीों को",
+            "बड़े लड़के को",
+            "बड़ा लड़के को",
+            "भाईयों के लिए"
+          ],
+          "answer_index": 1,
+          "explanation_en": "Getting the noun right does not excuse the adjective. Both are marked and both have to move."
+        },
+        {
+          "id": "M06-CP4-Q3",
+          "source_item_ids": [
+            "M06-L18-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "बच्चों के लिए दूध हैं।",
+            "भाईयों के लिए",
+            "मुझे",
+            "मैं को"
+          ],
+          "answer_index": 2,
+          "explanation_en": "Pronouns never stand beside को. मैं and को fuse into मुझे."
+        },
+        {
+          "id": "M06-CP4-Q4",
+          "source_item_ids": [
+            "M06-L19-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "तुम को",
+            "लड़के को",
+            "बेटा को",
+            "तुम्हें"
+          ],
+          "answer_index": 3,
+          "explanation_en": "The pronoun and the postposition merge. तुम को leaves them standing apart."
+        },
+        {
+          "id": "M06-CP4-Q5",
+          "source_item_ids": [
+            "M06-L20-I1"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "घरे में",
+            "उसे",
+            "वह को",
+            "लाले घर में"
+          ],
+          "answer_index": 1,
+          "explanation_en": "वह has no oblique form of its own. The pronoun is replaced by the stem उस, and को fuses onto it."
+        },
+        {
+          "id": "M06-CP4-Q6",
+          "source_item_ids": [
+            "M06-L16-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "मैं से",
+            "बेटा और बेटी को",
+            "बड़ी किताबों में",
+            "बड़े किताबों में"
+          ],
+          "answer_index": 2,
+          "explanation_en": "Making the noun plural does not change its gender. किताब is feminine in every number, so the adjective stays बड़ी."
+        },
+        {
+          "id": "M06-CP4-Q7",
+          "source_item_ids": [
+            "M06-L17-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "अच्छे चाय में",
+            "कुत्ताओं और बिल्लीों को",
+            "बेटे से",
+            "अच्छी चाय में"
+          ],
+          "answer_index": 3,
+          "explanation_en": "चाय is feminine, which is exactly why Module 4 asked you to memorise it. The masculine oblique -े never applies here."
+        },
+        {
+          "id": "M06-CP4-Q8",
+          "source_item_ids": [
+            "M06-L18-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "मुझसे",
+            "मैं से",
+            "शहर में घर महँगे हैं।",
+            "मैं वह के साथ हूँ।"
+          ],
+          "answer_index": 0,
+          "explanation_en": "से fuses with the oblique stem just as को does. The two words are never written apart."
+        },
+        {
+          "id": "M06-CP4-Q9",
+          "source_item_ids": [
+            "M06-L19-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "बेटे से",
+            "बड़ा घर में",
+            "आपको",
+            "आपे को"
+          ],
+          "answer_index": 2,
+          "explanation_en": "आप takes no ending of its own. The postposition attaches to it unchanged."
+        },
+        {
+          "id": "M06-CP4-Q10",
+          "source_item_ids": [
+            "M06-L20-I2"
+          ],
+          "type": "spot_the_error",
+          "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+          "options": [
+            "वे के पास",
+            "हम के साथ",
+            "मैं को",
+            "उनके पास"
+          ],
+          "answer_index": 3,
+          "explanation_en": "वे has no oblique form. The stem उन supplies the possessive उनके, and वे disappears entirely."
+        }
+      ]
+    }
+  ]
+}

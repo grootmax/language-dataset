@@ -1,0 +1,812 @@
+{
+  "module": 6,
+  "module_name_en": "The Oblique Case",
+  "module_name_hi": "तिरछा रूप",
+  "phase": 3,
+  "batch": { "levels_from": 16, "levels_to": 20 },
+  "levels": [
+    {
+      "level": 16,
+      "title_en": "Adjectives that do not move",
+      "title_hi": "बड़ी लड़की, लाल किताब",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L16-I1",
+          "type": "grammar",
+          "target": "बड़ी लड़की को",
+          "read_as": "baṛii laṛkii ko",
+          "pronunciation_notes": "Two long ii endings in a row, and both are held: ba-ṛii laṛ-kii ko.",
+          "gloss_en": "the feminine adjective has one form everywhere",
+          "gender": null,
+          "difficulty": 7,
+          "tags": ["oblique", "adjective", "marked_adjective", "feminine", "class_4", "invariant"],
+          "cards": {
+            "learn": {
+              "title_en": "The feminine form is the end of the story",
+              "explanation_en": "A marked adjective has three forms and no more: बड़ा for a direct masculine noun, बड़े for a masculine noun that is plural or oblique, and बड़ी for anything feminine. That third form is where the work stops. बड़ी लड़की, बड़ी लड़की को, बड़ी लड़कियों को — one girl or many, direct or oblique, the adjective has not moved once. The masculine forced you to check what came after the noun; the feminine asks nothing at all.",
+              "examples": [
+                { "hindi": "बड़ी लड़की को", "read_as": "baṛii laṛkii ko", "english": "to the big girl", "note": "Feminine adjective in front of an oblique noun, and unchanged." },
+                { "hindi": "बड़ी लड़की से", "read_as": "baṛii laṛkii se", "english": "from the big girl", "note": "A different postposition and the same non-event." },
+                { "hindi": "बड़ी बहन को", "read_as": "baṛii bahan ko", "english": "to the elder sister", "note": "A Class 5 noun this time, so nothing moves on either word." }
+              ],
+              "common_error": {
+                "wrong": "बड़े लड़की को",
+                "right": "बड़ी लड़की को",
+                "why_en": "-े is the masculine oblique ending. A feminine noun takes बड़ी whatever follows it."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put the phrase into its oblique form.",
+              "question": "बड़ी लड़की + से",
+              "question_read_as": "baṛii laṛkii + se",
+              "options": ["बड़े लड़की से", "बड़ी लड़कियों से", "बड़ा लड़की से", "बड़ी लड़की से"],
+              "options_read_as": ["baṛe laṛkii se", "baṛii laṛkiyoṁ se", "baṛaa laṛkii se", "baṛii laṛkii se"],
+              "answer_index": 3,
+              "explanation_en": "One girl, so the noun is singular and unchanged, and the feminine adjective is बड़ी in every position."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["बड़ी लड़की को", "बड़ी बहन से", "बड़े लड़की को", "बड़े लड़के को"],
+              "options_read_as": ["baṛii laṛkii ko", "baṛii bahan se", "baṛe laṛkii ko", "baṛe laṛke ko"],
+              "answer_index": 2,
+              "explanation_en": "लड़की is feminine, so the adjective must be बड़ी. The masculine -े cannot appear in front of it."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बड़ी लड़की को", "बड़ी लड़की से", "बड़ी बहन को"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L16-I2",
+          "type": "grammar",
+          "target": "बड़ी किताबों में",
+          "read_as": "baṛii kitaaboṁ meṁ",
+          "pronunciation_notes": "The adjective ends long, the noun ends on a hum: ba-ṛii ki-taa-boṁ meṁ.",
+          "gloss_en": "the noun does everything, the adjective does nothing",
+          "gender": null,
+          "difficulty": 7,
+          "tags": ["oblique", "adjective", "marked_adjective", "feminine", "class_5", "plural", "invariant"],
+          "cards": {
+            "learn": {
+              "title_en": "Even the full plural oblique leaves it alone",
+              "explanation_en": "Here the noun makes every change available to it. किताब goes to किताबों — plural, oblique, the whole transformation — and बड़ी sits in front of it entirely unaffected. Compare बड़े घरों में from the last level, where the masculine adjective moved for exactly the same kind of noun change. The difference is not that the feminine is being lazy; it is that the feminine adjective has no separate oblique form to move into. One form covers all four combinations.",
+              "examples": [
+                { "hindi": "बड़ी किताबों में", "read_as": "baṛii kitaaboṁ meṁ", "english": "in the big books", "note": "The noun is plural and oblique; the adjective is neither." },
+                { "hindi": "बड़ी किताब में", "read_as": "baṛii kitaab meṁ", "english": "in the big book", "note": "Singular now, and the adjective is identical." },
+                { "hindi": "बड़ी बिल्लियों को", "read_as": "baṛii billiyoṁ ko", "english": "to the big cats", "note": "A Class 4 noun with its own ending, and still nothing on the adjective." }
+              ],
+              "common_error": {
+                "wrong": "बड़े किताबों में",
+                "right": "बड़ी किताबों में",
+                "why_en": "Making the noun plural does not change its gender. किताब is feminine in every number, so the adjective stays बड़ी."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "More than one book. Put the phrase into its oblique form.",
+              "question": "बड़ी किताब + में",
+              "question_read_as": "baṛii kitaab + meṁ",
+              "options": ["बड़े किताबों में", "बड़ी किताबों में", "बड़ी किताबें में", "बड़ीं किताबों में"],
+              "options_read_as": ["baṛe kitaaboṁ meṁ", "baṛii kitaaboṁ meṁ", "baṛii kitaabeṁ meṁ", "baṛiiṁ kitaaboṁ meṁ"],
+              "answer_index": 1,
+              "explanation_en": "The noun takes -ों; the adjective stays बड़ी. किताबें is the direct plural and cannot stand before में."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["बड़े किताबों में", "बड़ी किताब पर", "बड़ी बिल्लियों को", "बड़ी बहनों से"],
+              "options_read_as": ["baṛe kitaaboṁ meṁ", "baṛii kitaab par", "baṛii billiyoṁ ko", "baṛii bahanoṁ se"],
+              "answer_index": 0,
+              "explanation_en": "किताब is feminine, so the adjective is बड़ी regardless of what the noun itself is doing."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बड़ी किताबों में", "बड़ी किताब में", "बड़ी बिल्लियों को"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L16-I3",
+          "type": "grammar",
+          "target": "लाल किताब में",
+          "read_as": "laal kitaab meṁ",
+          "pronunciation_notes": "Both l sounds are light and the vowel between them is long: laal, one syllable.",
+          "gloss_en": "unmarked adjectives, which have a single form",
+          "gender": null,
+          "difficulty": 7,
+          "tags": ["oblique", "adjective", "unmarked_adjective", "invariant", "colours"],
+          "cards": {
+            "learn": {
+              "title_en": "The adjectives that never change at all",
+              "explanation_en": "Not every adjective ends in -ा. लाल, सुंदर, साफ़ and ख़राब are unmarked, and they have exactly one form — masculine, feminine, singular, plural, direct and oblique alike. There is nothing to learn and nothing to get wrong. Roughly a third of the adjectives you will meet behave this way, which makes checking the ending a useful first move: if it does not end in -ा, you can stop thinking about agreement entirely and put your attention on the noun instead.",
+              "examples": [
+                { "hindi": "लाल किताब में", "read_as": "laal kitaab meṁ", "english": "in the red book", "note": "Unmarked adjective, feminine noun, and nothing happens anywhere." },
+                { "hindi": "लाल किताबों में", "read_as": "laal kitaaboṁ meṁ", "english": "in the red books", "note": "The noun goes plural oblique; the adjective does not follow." },
+                { "hindi": "लाल घर में", "read_as": "laal ghar meṁ", "english": "in the red house", "note": "Masculine now, and it is still लाल." }
+              ],
+              "common_error": {
+                "wrong": "लाले घर में",
+                "right": "लाल घर में",
+                "why_en": "लाल has no final -ा to convert into -े. Unmarked adjectives have one form and only one."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put the phrase into its oblique form.",
+              "question": "लाल घर + में",
+              "question_read_as": "laal ghar + meṁ",
+              "options": ["लाले घर में", "लाली घर में", "लाल घर में", "लालों घर में"],
+              "options_read_as": ["laale ghar meṁ", "laalii ghar meṁ", "laal ghar meṁ", "laaloṁ ghar meṁ"],
+              "answer_index": 2,
+              "explanation_en": "Neither word can show the oblique — the adjective is unmarked and the noun is Class 2 — so the phrase is unchanged."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["लाल किताब में", "लाले घर में", "लाल घरों में", "बड़ी किताब में"],
+              "options_read_as": ["laal kitaab meṁ", "laale ghar meṁ", "laal gharoṁ meṁ", "baṛii kitaab meṁ"],
+              "answer_index": 1,
+              "explanation_en": "लाले is not a word. Unmarked adjectives take no endings at all."
+            }
+          },
+          "audio": {
+            "tts_strings": ["लाल किताब में", "लाल किताबों में", "लाल घर में"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Feminine marked adjectives have one form, बड़ी, for every number and every position. Unmarked adjectives like लाल have one form full stop. So of the four possible adjective situations, only one — masculine plus oblique or plural — actually requires a change.",
+        "key_forms": ["बड़ी लड़की को", "बड़ी किताबों में", "लाल किताब में"],
+        "next_up_en": "Next: the three adjective checks in order, and the phrase that runs all of them twice."
+      }
+    },
+    {
+      "level": 17,
+      "title_en": "Adjectives: the whole picture",
+      "title_hi": "तीन फ़ैसले — बड़े, बड़ी, लाल",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L17-I1",
+          "type": "grammar",
+          "target": "बड़े लड़के को",
+          "read_as": "baṛe laṛke ko",
+          "pronunciation_notes": "Two words ending on the same clear e, which is what makes the phrase sound balanced: ba-ṛe laṛ-ke ko.",
+          "gloss_en": "both words marked, both words move",
+          "gender": null,
+          "difficulty": 8,
+          "tags": ["oblique", "adjective", "marked_adjective", "class_1", "masculine", "double_agreement"],
+          "cards": {
+            "learn": {
+              "title_en": "When both words move",
+              "explanation_en": "बड़े घर में had the adjective moving alone, because घर is Class 2 and cannot display the oblique. Here both words can and both do: बड़ा लड़का becomes बड़े लड़के. They end up matching, but that is not a rule about matching — it is one rule applied twice, once to a marked adjective and once to a Class 1 noun, which happen to use the same ending. Worth hearing as a unit, because the doubled -े is a large part of what makes a phrase sound like Hindi rather than like a translation.",
+              "examples": [
+                { "hindi": "बड़े लड़के को", "read_as": "baṛe laṛke ko", "english": "to the big boy", "note": "Both words are marked, so both take -े." },
+                { "hindi": "बड़े लड़कों को", "read_as": "baṛe laṛkoṁ ko", "english": "to the big boys", "note": "The noun goes plural; the adjective is already in its only oblique form." },
+                { "hindi": "छोटे बेटे से", "read_as": "chhoṭe beṭe se", "english": "from the younger son", "note": "The same doubling with a different pair of words." }
+              ],
+              "common_error": {
+                "wrong": "बड़ा लड़के को",
+                "right": "बड़े लड़के को",
+                "why_en": "Getting the noun right does not excuse the adjective. Both are marked and both have to move."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put the phrase into its oblique form.",
+              "question": "बड़ा लड़का + को",
+              "question_read_as": "baṛaa laṛkaa + ko",
+              "options": ["बड़े लड़के को", "बड़ा लड़के को", "बड़े लड़का को", "बड़ी लड़के को"],
+              "options_read_as": ["baṛe laṛke ko", "baṛaa laṛke ko", "baṛe laṛkaa ko", "baṛii laṛke ko"],
+              "answer_index": 0,
+              "explanation_en": "Marked adjective plus Class 1 noun, both before को, so both end in -े."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["बड़े लड़के को", "छोटे बेटे से", "बड़े लड़कों को", "बड़ा लड़के को"],
+              "options_read_as": ["baṛe laṛke ko", "chhoṭe beṭe se", "baṛe laṛkoṁ ko", "baṛaa laṛke ko"],
+              "answer_index": 3,
+              "explanation_en": "The noun has been put into the oblique but the adjective has been left behind. It must be बड़े."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बड़े लड़के को", "बड़े लड़कों को", "छोटे बेटे से"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L17-I2",
+          "type": "grammar",
+          "target": "अच्छी चाय में",
+          "read_as": "achchhii chaay meṁ",
+          "pronunciation_notes": "The doubled च and aspirated छ run together before the long ii: ach-chhii chaay meṁ.",
+          "gloss_en": "fully oblique, and completely invisible",
+          "gender": null,
+          "difficulty": 8,
+          "tags": ["oblique", "adjective", "marked_adjective", "feminine", "class_5", "invisible_oblique"],
+          "cards": {
+            "learn": {
+              "title_en": "When neither word moves",
+              "explanation_en": "चाय is Class 5, so it does nothing in the singular. अच्छी is feminine, so it does nothing anywhere. The result is a phrase that is fully oblique and shows not one visible sign of it. This is the case that makes learners doubt themselves — nothing looks different, so it feels as though a step was skipped. Nothing was skipped. The oblique is a relationship between a noun phrase and what follows it, and sometimes neither word in that phrase happens to own a form that can display it.",
+              "examples": [
+                { "hindi": "अच्छी चाय में", "read_as": "achchhii chaay meṁ", "english": "in the good tea", "note": "Fully oblique, and entirely invisible." },
+                { "hindi": "अच्छी किताब में", "read_as": "achchhii kitaab meṁ", "english": "in the good book", "note": "The same pair of non-events." },
+                { "hindi": "अच्छी बहनों को", "read_as": "achchhii bahanoṁ ko", "english": "to the good sisters", "note": "Plural now, so the noun finally shows something and the adjective still does not." }
+              ],
+              "common_error": {
+                "wrong": "अच्छे चाय में",
+                "right": "अच्छी चाय में",
+                "why_en": "चाय is feminine, which is exactly why Module 4 asked you to memorise it. The masculine oblique -े never applies here."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put the phrase into its oblique form.",
+              "question": "अच्छी किताब + में",
+              "question_read_as": "achchhii kitaab + meṁ",
+              "options": ["अच्छे किताब में", "अच्छा किताब में", "अच्छी किताब में", "अच्छी किताबे में"],
+              "options_read_as": ["achchhe kitaab meṁ", "achchhaa kitaab meṁ", "achchhii kitaab meṁ", "achchhii kitaabe meṁ"],
+              "answer_index": 2,
+              "explanation_en": "Feminine adjective, singular Class 5 noun. Neither has an oblique form, so the phrase is unchanged."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["अच्छी चाय में", "अच्छी बहनों को", "अच्छे चाय में", "अच्छी किताब पर"],
+              "options_read_as": ["achchhii chaay meṁ", "achchhii bahanoṁ ko", "achchhe chaay meṁ", "achchhii kitaab par"],
+              "answer_index": 2,
+              "explanation_en": "चाय is feminine and takes अच्छी. The -े form belongs to masculine nouns only."
+            }
+          },
+          "audio": {
+            "tts_strings": ["अच्छी चाय में", "अच्छी किताब में", "अच्छी बहनों को"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L17-I3",
+          "type": "grammar",
+          "target": "बड़े लड़कों और बड़ी लड़कियों को",
+          "read_as": "baṛe laṛkoṁ aur baṛii laṛkiyoṁ ko",
+          "pronunciation_notes": "The same adjective twice with different endings, and the difference is the whole point: ba-ṛe versus ba-ṛii.",
+          "gloss_en": "the three adjective checks, run twice in one phrase",
+          "gender": null,
+          "difficulty": 8,
+          "tags": ["oblique", "adjective", "mixed_class", "decision_drill", "rule_summary"],
+          "cards": {
+            "learn": {
+              "title_en": "Three checks, in this order",
+              "explanation_en": "Every adjective question in Hindi reduces to three checks. First: does the adjective end in -ा? If not, it never changes and you are done. Second: is the noun feminine? Then the adjective is -ी, always, in every number and position. Third: the noun is masculine, so is the phrase oblique or plural? Then it is -े. This phrase runs the whole procedure twice on the same adjective and gets two different answers, which is the clearest possible evidence that you cannot decide once and copy across.",
+              "examples": [
+                { "hindi": "बड़े लड़कों और बड़ी लड़कियों को", "read_as": "baṛe laṛkoṁ aur baṛii laṛkiyoṁ ko", "english": "to the big boys and the big girls", "note": "The same adjective twice, two forms, because the nouns differ in gender." },
+                { "hindi": "लाल किताबों और लाल घरों में", "read_as": "laal kitaaboṁ aur laal gharoṁ meṁ", "english": "in the red books and the red houses", "note": "Unmarked, so the procedure stops at the first check both times." },
+                { "hindi": "छोटे भाइयों और छोटी बहनों के साथ", "read_as": "chhoṭe bhaaiyoṁ aur chhoṭii bahanoṁ ke saath", "english": "with the younger brothers and sisters", "note": "Two adjective forms and two noun endings, all four decided separately." }
+              ],
+              "common_error": {
+                "wrong": "बड़े लड़कों और बड़े लड़कियों को",
+                "right": "बड़े लड़कों और बड़ी लड़कियों को",
+                "why_en": "The first adjective's form does not carry across. लड़कियों is feminine, so the second adjective is बड़ी."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "More than one of each. Put every word into the right form.",
+              "question": "बड़ा लड़का + बड़ी लड़की + को",
+              "question_read_as": "baṛaa laṛkaa + baṛii laṛkii + ko",
+              "options": ["बड़े लड़कों और बड़े लड़कियों को", "बड़े लड़कों और बड़ी लड़कियों को", "बड़ी लड़कों और बड़ी लड़कियों को", "बड़े लड़कों और बड़ी लड़कीों को"],
+              "options_read_as": ["baṛe laṛkoṁ aur baṛe laṛkiyoṁ ko", "baṛe laṛkoṁ aur baṛii laṛkiyoṁ ko", "baṛii laṛkoṁ aur baṛii laṛkiyoṁ ko", "baṛe laṛkoṁ aur baṛii laṛkiioṁ ko"],
+              "answer_index": 1,
+              "explanation_en": "Masculine takes बड़े, feminine takes बड़ी, and the nouns take their own class endings — four separate decisions."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["बड़े लड़कों और बड़े लड़कियों को", "लाल किताबों और लाल घरों में", "छोटे भाइयों और छोटी बहनों के साथ", "बड़ी लड़कियों को"],
+              "options_read_as": ["baṛe laṛkoṁ aur baṛe laṛkiyoṁ ko", "laal kitaaboṁ aur laal gharoṁ meṁ", "chhoṭe bhaaiyoṁ aur chhoṭii bahanoṁ ke saath", "baṛii laṛkiyoṁ ko"],
+              "answer_index": 0,
+              "explanation_en": "The second adjective describes a feminine noun and must be बड़ी, not बड़े."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बड़े लड़कों और बड़ी लड़कियों को", "लाल किताबों और लाल घरों में", "छोटे भाइयों और छोटी बहनों के साथ"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Three checks in order: does the adjective end in -ा, is the noun feminine, is the phrase oblique or plural. Only a marked adjective in front of a masculine oblique or plural noun actually changes — and the decision is made separately for every adjective in the sentence.",
+        "key_forms": ["बड़े लड़के को", "अच्छी चाय में", "बड़े लड़कों और बड़ी लड़कियों को"],
+        "next_up_en": "Next: Class 6, where pronouns stop standing beside postpositions and start merging with them."
+      }
+    },
+    {
+      "level": 18,
+      "title_en": "Class 6: pronouns fuse",
+      "title_hi": "वर्ग ६ — मुझे, मुझसे, मेरे पास",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L18-I1",
+          "type": "grammar",
+          "target": "मुझे",
+          "read_as": "mujhe",
+          "pronunciation_notes": "The झ is breathy, and the word ends on a clear e: mu-jhe, two syllables.",
+          "gloss_en": "मैं plus को, fused into one word",
+          "gender": null,
+          "difficulty": 8,
+          "tags": ["oblique", "class_6", "pronoun", "first_person", "fusion", "ko_dative"],
+          "cards": {
+            "learn": {
+              "title_en": "मैं plus को is one word",
+              "explanation_en": "Every noun in this module kept its postposition as a separate word standing behind it. Pronouns do not work that way. मैं and को merge into a single word, मुझे, and the stem changes on the way — there is no मैं left in it to recognise. मैं को is not a rough or informal version of मुझे; it is simply not Hindi, and it is one of the clearest markers of a beginner. मुझको also exists and means the same thing, but मुझे is what you will actually hear.",
+              "examples": [
+                { "hindi": "मुझे", "read_as": "mujhe", "english": "to me", "note": "मैं plus को, fused." },
+                { "hindi": "मुझे हिंदी पसंद है।", "read_as": "mujhe hindii pasand hai.", "english": "I like Hindi.", "note": "The same dative को you met in बिल्ली को, now carried inside a pronoun." },
+                { "hindi": "मुझे पानी पसंद है।", "read_as": "mujhe paanii pasand hai.", "english": "I like water.", "note": "मुझे is the one who likes; पानी is the subject and stays direct." }
+              ],
+              "common_error": {
+                "wrong": "मैं को",
+                "right": "मुझे",
+                "why_en": "Pronouns never stand beside को. मैं and को fuse into मुझे."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Combine the pronoun with the postposition.",
+              "question": "मैं + को",
+              "question_read_as": "maiṁ + ko",
+              "options": ["मैं को", "मेरा को", "मुझे को", "मुझे"],
+              "options_read_as": ["maiṁ ko", "meraa ko", "mujhe ko", "mujhe"],
+              "answer_index": 3,
+              "explanation_en": "मुझे already contains the को. Adding a second one is the most common overcorrection here."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which one is wrong?",
+              "options": ["मुझे", "मैं को", "मुझसे", "मेरे पास"],
+              "options_read_as": ["mujhe", "maiṁ ko", "mujhse", "mere paas"],
+              "answer_index": 1,
+              "explanation_en": "मैं cannot stand in front of a postposition. The fused form is मुझे."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मुझे", "मुझे हिंदी पसंद है।", "मुझे पानी पसंद है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L18-I2",
+          "type": "grammar",
+          "target": "मुझसे",
+          "read_as": "mujhse",
+          "pronunciation_notes": "No vowel between the झ and the स — the two run straight together: mujh-se.",
+          "gloss_en": "the same oblique stem with a different postposition",
+          "gender": null,
+          "difficulty": 8,
+          "tags": ["oblique", "class_6", "pronoun", "first_person", "fusion", "oblique_stem"],
+          "cards": {
+            "learn": {
+              "title_en": "One stem, two postpositions",
+              "explanation_en": "से fuses as well: मैं plus से gives मुझसे. Look at what the two forms share. मुझे and मुझसे are both built on मुझ, which is the oblique stem of मैं, with the postposition attached directly behind it. That is the shape of the entire class — each pronoun has one oblique stem, and को and से sit on it. Learn the stem once and you have both forms without learning either separately.",
+              "examples": [
+                { "hindi": "मुझसे", "read_as": "mujhse", "english": "from me", "note": "मुझ plus से, written as one word." },
+                { "hindi": "मुझे और मुझसे", "read_as": "mujhe aur mujhse", "english": "to me, and from me", "note": "The same stem मुझ sitting under both forms." },
+                { "hindi": "यह मेरे लिए है।", "read_as": "yah mere lie hai.", "english": "This is for me.", "note": "A third route, which the next item explains — के लिए does not use the stem at all." }
+              ],
+              "common_error": {
+                "wrong": "मैं से",
+                "right": "मुझसे",
+                "why_en": "से fuses with the oblique stem just as को does. The two words are never written apart."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Combine the pronoun with the postposition.",
+              "question": "मैं + से",
+              "question_read_as": "maiṁ + se",
+              "options": ["मैं से", "मुझसे", "मेरे से", "मुझे से"],
+              "options_read_as": ["maiṁ se", "mujhse", "mere se", "mujhe se"],
+              "answer_index": 1,
+              "explanation_en": "The oblique stem is मुझ, so मैं plus से is मुझसे. मेरे is the possessive and belongs to a different construction."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which one is wrong?",
+              "options": ["मैं से", "मुझसे", "मुझे", "मेरे लिए"],
+              "options_read_as": ["maiṁ se", "mujhse", "mujhe", "mere lie"],
+              "answer_index": 0,
+              "explanation_en": "मैं से leaves the pronoun in its direct form. It must fuse into मुझसे."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मुझसे", "मुझे और मुझसे", "यह मेरे लिए है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L18-I3",
+          "type": "grammar",
+          "target": "मेरे पास",
+          "read_as": "mere paas",
+          "pronunciation_notes": "पास has a long aa and a soft final s: me-re paas.",
+          "gloss_en": "the compound postpositions take the possessive instead",
+          "gender": null,
+          "difficulty": 8,
+          "tags": ["oblique", "class_6", "pronoun", "first_person", "possessive", "compound_postposition", "have_construction"],
+          "cards": {
+            "learn": {
+              "title_en": "A third route, for the compounds",
+              "explanation_en": "को and से fuse with the oblique stem. के साथ, के लिए and के पास do something different: they use the possessive form of the pronoun, and the के in them is what the possessive agrees with. So it is मेरे साथ, मेरे लिए, मेरे पास — never मुझ के साथ. मेरे पास is worth learning as a fixed unit, because it is how Hindi expresses having: मेरे पास किताब है means I have a book, and says it literally as the book is near me.",
+              "examples": [
+                { "hindi": "मेरे पास", "read_as": "mere paas", "english": "with me, in my possession", "note": "The possessive मेरा in its -े form, because पास follows." },
+                { "hindi": "मेरे पास किताब है।", "read_as": "mere paas kitaab hai.", "english": "I have a book.", "note": "This is the standard way to say have. किताब is the subject." },
+                { "hindi": "मेरे साथ", "read_as": "mere saath", "english": "with me", "note": "The same route for a different compound postposition." }
+              ],
+              "common_error": {
+                "wrong": "मुझ के पास",
+                "right": "मेरे पास",
+                "why_en": "Compounds built with के use the possessive form, not the oblique stem. The stem is only for को and से."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Combine the pronoun with the postposition.",
+              "question": "मैं + के पास",
+              "question_read_as": "maiṁ + ke paas",
+              "options": ["मुझ के पास", "मुझे के पास", "मेरे पास", "मेरा पास"],
+              "options_read_as": ["mujh ke paas", "mujhe ke paas", "mere paas", "meraa paas"],
+              "answer_index": 2,
+              "explanation_en": "The possessive मेरा appears in its -े form, and the के disappears into it."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which one is wrong?",
+              "options": ["मेरे पास", "मेरे साथ", "मुझसे", "मुझ के साथ"],
+              "options_read_as": ["mere paas", "mere saath", "mujhse", "mujh ke saath"],
+              "answer_index": 3,
+              "explanation_en": "The oblique stem is not used with के compounds. It is मेरे साथ."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मेरे पास", "मेरे पास किताब है।", "मेरे साथ"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Pronouns do not stand beside postpositions, they merge with them. को and से attach to the oblique stem, giving मुझे and मुझसे. The compounds built with के take the possessive instead: मेरे पास, मेरे साथ, मेरे लिए.",
+        "key_forms": ["मुझे", "मुझसे", "मेरे पास"],
+        "next_up_en": "Next: the same three routes for तुम, आप and हम."
+      }
+    },
+    {
+      "level": 19,
+      "title_en": "Class 6: the other persons",
+      "title_hi": "वर्ग ६ — तुम्हें, आपको, हमें",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L19-I1",
+          "type": "grammar",
+          "target": "तुम्हें",
+          "read_as": "tumheṁ",
+          "pronunciation_notes": "The ह is breathed through the म and the word ends on a hum: tum-heṁ.",
+          "gloss_en": "तुम plus को",
+          "gender": null,
+          "difficulty": 8,
+          "tags": ["oblique", "class_6", "pronoun", "second_person", "fusion", "register"],
+          "cards": {
+            "learn": {
+              "title_en": "तुम has its own stem too",
+              "explanation_en": "तुम plus को is तुम्हें, and तुम plus से is तुमसे. The oblique stem is तुम्ह, which you can hear clearly in तुम्हें and in the possessive तुम्हारा. Everything you learnt for मैं transfers directly: fused forms for को and से, and the possessive route for के साथ, के लिए and के पास, which gives तुम्हारे साथ and तुम्हारे पास. Only the stem is new.",
+              "examples": [
+                { "hindi": "तुम्हें", "read_as": "tumheṁ", "english": "to you", "note": "तुम plus को, fused." },
+                { "hindi": "तुमसे", "read_as": "tumse", "english": "from you", "note": "से attaches to the shorter stem तुम here." },
+                { "hindi": "तुम्हारे पास", "read_as": "tumhaare paas", "english": "you have", "note": "The possessive route, exactly as with मेरे पास." }
+              ],
+              "common_error": {
+                "wrong": "तुम को",
+                "right": "तुम्हें",
+                "why_en": "The pronoun and the postposition merge. तुम को leaves them standing apart."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Combine the pronoun with the postposition.",
+              "question": "तुम + को",
+              "question_read_as": "tum + ko",
+              "options": ["तुम्हें", "तुम को", "तुम्हारा को", "तुम्हें को"],
+              "options_read_as": ["tumheṁ", "tum ko", "tumhaaraa ko", "tumheṁ ko"],
+              "answer_index": 0,
+              "explanation_en": "तुम्हें already contains the को. तुम्हारा is the possessive and belongs with के compounds."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which one is wrong?",
+              "options": ["तुम्हें", "तुमसे", "तुम को", "तुम्हारे साथ"],
+              "options_read_as": ["tumheṁ", "tumse", "tum ko", "tumhaare saath"],
+              "answer_index": 2,
+              "explanation_en": "तुम cannot stand in its direct form before को. The fused form is तुम्हें."
+            }
+          },
+          "audio": {
+            "tts_strings": ["तुम्हें", "तुमसे", "तुम्हारे पास"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L19-I2",
+          "type": "grammar",
+          "target": "आपको",
+          "read_as": "aapko",
+          "pronunciation_notes": "One word with no break in the middle: aap-ko, and the p is unaspirated.",
+          "gloss_en": "the one pronoun with no stem change",
+          "gender": null,
+          "difficulty": 8,
+          "tags": ["oblique", "class_6", "pronoun", "second_person", "register", "regular"],
+          "cards": {
+            "learn": {
+              "title_en": "आप is the easy one",
+              "explanation_en": "आप does not change its stem at all. आप plus को gives आपको, आप plus से gives आपसे, and the compounds give आपके साथ, आपके लिए, आपके पास. It is the only pronoun in the class with nothing to memorise beyond writing it as one word. That is a convenient coincidence, because Module 5 already told you that आप is the safe default with anyone you do not know well — so the pronoun you should reach for most often is also the one least likely to go wrong.",
+              "examples": [
+                { "hindi": "आपको", "read_as": "aapko", "english": "to you", "note": "No stem change; the postposition simply attaches." },
+                { "hindi": "आपसे", "read_as": "aapse", "english": "from you", "note": "The same, with से." },
+                { "hindi": "आपके पास", "read_as": "aapke paas", "english": "you have", "note": "The possessive आपका in its -े form." }
+              ],
+              "common_error": {
+                "wrong": "आपे को",
+                "right": "आपको",
+                "why_en": "आप takes no ending of its own. The postposition attaches to it unchanged."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Combine the pronoun with the postposition.",
+              "question": "आप + के पास",
+              "question_read_as": "aap + ke paas",
+              "options": ["आप के पास", "आपे पास", "आपके पास", "आपको पास"],
+              "options_read_as": ["aap ke paas", "aape paas", "aapke paas", "aapko paas"],
+              "answer_index": 2,
+              "explanation_en": "The possessive आपका appears as आपके, written joined to the pronoun."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which one is wrong?",
+              "options": ["आपको", "आपसे", "आपके साथ", "आपे को"],
+              "options_read_as": ["aapko", "aapse", "aapke saath", "aape ko"],
+              "answer_index": 3,
+              "explanation_en": "आप never takes an ending. The form is आपको."
+            }
+          },
+          "audio": {
+            "tts_strings": ["आपको", "आपसे", "आपके पास"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L19-I3",
+          "type": "grammar",
+          "target": "हमारे साथ",
+          "read_as": "hamaare saath",
+          "pronunciation_notes": "Three syllables with the stress spread evenly: ha-maa-re saath.",
+          "gloss_en": "हम, and the pattern confirmed",
+          "gender": null,
+          "difficulty": 8,
+          "tags": ["oblique", "class_6", "pronoun", "first_person_plural", "possessive", "compound_postposition"],
+          "cards": {
+            "learn": {
+              "title_en": "The three routes, one last time",
+              "explanation_en": "हम plus को gives हमें, हम plus से gives हमसे, and the compounds take the possessive: हमारे साथ, हमारे पास, हमारे लिए. By now the shape should be predictable rather than surprising, which is the point of doing three persons in a row. Every pronoun has a fused form for को, a fused form for से, and reaches for its possessive whenever के is involved. That sentence is the whole of Class 6 — and it holds for the third person as well.",
+              "examples": [
+                { "hindi": "हमारे साथ", "read_as": "hamaare saath", "english": "with us", "note": "The possessive हमारा in its -े form." },
+                { "hindi": "हमें", "read_as": "hameṁ", "english": "to us", "note": "हम plus को, fused." },
+                { "hindi": "हमसे", "read_as": "hamse", "english": "from us", "note": "हम plus से, with no change to the stem." }
+              ],
+              "common_error": {
+                "wrong": "हम के साथ",
+                "right": "हमारे साथ",
+                "why_en": "के compounds use the possessive. Leaving हम in its direct form in front of के is not possible."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Combine the pronoun with the postposition.",
+              "question": "हम + के साथ",
+              "question_read_as": "ham + ke saath",
+              "options": ["हम के साथ", "हमारे साथ", "हमें साथ", "हमसे साथ"],
+              "options_read_as": ["ham ke saath", "hamaare saath", "hameṁ saath", "hamse saath"],
+              "answer_index": 1,
+              "explanation_en": "हमारा is the possessive, and it takes -े because साथ follows."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which one is wrong?",
+              "options": ["हमें", "हम के साथ", "हमसे", "हमारे पास"],
+              "options_read_as": ["hameṁ", "ham ke saath", "hamse", "hamaare paas"],
+              "answer_index": 1,
+              "explanation_en": "The possessive is required before के compounds, so it must be हमारे साथ."
+            }
+          },
+          "audio": {
+            "tts_strings": ["हमारे साथ", "हमें", "हमसे"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Three persons, one pattern. तुम्हें, आपको and हमें for को; तुमसे, आपसे and हमसे for से; and तुम्हारे, आपके and हमारे in front of के साथ, के लिए and के पास. आप is the only one with no stem change at all.",
+        "key_forms": ["तुम्हें", "आपको", "हमारे साथ"],
+        "next_up_en": "Next: यह and वह, where the stem changes completely and there is nothing in the word to warn you."
+      }
+    },
+    {
+      "level": 20,
+      "title_en": "Class 6: the pronouns that change stem",
+      "title_hi": "वर्ग ६ — उसे, उन्हें, उसके साथ",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M06-L20-I1",
+          "type": "grammar",
+          "target": "उसे",
+          "read_as": "use",
+          "pronunciation_notes": "Two syllables with no consonant between them: u-se, and the first is short.",
+          "gloss_en": "वह plus को, with a completely different stem",
+          "gender": null,
+          "difficulty": 8,
+          "tags": ["oblique", "class_6", "pronoun", "third_person", "stem_change", "irregular"],
+          "cards": {
+            "learn": {
+              "title_en": "वह becomes उस, and nothing warns you",
+              "explanation_en": "वह plus को is उसे. Not वहे, not वहको — the stem changes to उस, and there is nothing in वह that predicts it. The same happens with यह, which becomes इस, so यह plus को is इसे. This is the last irregularity in the module and the only thing in it you have to memorise outright rather than derive. Four stems: वह to उस, यह to इस, वे to उन, ये to इन. Once you hold those, every form in this level follows rules you already know.",
+              "examples": [
+                { "hindi": "उसे", "read_as": "use", "english": "to him, to her", "note": "वह plus को, with the stem changed to उस." },
+                { "hindi": "उससे", "read_as": "usse", "english": "from him, from her", "note": "The same उस stem carrying से." },
+                { "hindi": "इसे", "read_as": "ise", "english": "to this one", "note": "यह behaves identically, with the stem इस." }
+              ],
+              "common_error": {
+                "wrong": "वह को",
+                "right": "उसे",
+                "why_en": "वह has no oblique form of its own. The pronoun is replaced by the stem उस, and को fuses onto it."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Combine the pronoun with the postposition.",
+              "question": "वह + को",
+              "question_read_as": "vah + ko",
+              "options": ["वह को", "वहे", "वहको", "उसे"],
+              "options_read_as": ["vah ko", "vahe", "vahko", "use"],
+              "answer_index": 3,
+              "explanation_en": "The stem is उस, not वह, and को fuses onto it to give उसे."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which one is wrong?",
+              "options": ["उसे", "उससे", "वह को", "इसे"],
+              "options_read_as": ["use", "usse", "vah ko", "ise"],
+              "answer_index": 2,
+              "explanation_en": "वह cannot stand before को. The form is उसे."
+            }
+          },
+          "audio": {
+            "tts_strings": ["उसे", "उससे", "इसे"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L20-I2",
+          "type": "grammar",
+          "target": "उनके पास",
+          "read_as": "unke paas",
+          "pronunciation_notes": "The न and क run together with no vowel between: un-ke paas.",
+          "gloss_en": "the plural stem, and the compound route again",
+          "gender": null,
+          "difficulty": 8,
+          "tags": ["oblique", "class_6", "pronoun", "third_person", "plural", "stem_change", "possessive", "register"],
+          "cards": {
+            "learn": {
+              "title_en": "वे becomes उन, and it does more work than it looks",
+              "explanation_en": "वे becomes उन and ये becomes इन. So वे plus को is उन्हें, वे plus से is उनसे, and the compounds take उनके: उनके साथ, उनके लिए, उनके पास. There is a second reason to drill this beyond the plural. Hindi speaks politely about a single person using the plural — the same way आप is grammatically plural — so उनके पास will often mean he has or she has rather than they have, and you will hear it constantly about people who are standing right there.",
+              "examples": [
+                { "hindi": "उनके पास", "read_as": "unke paas", "english": "they have, he or she has", "note": "The possessive उनका in its -े form." },
+                { "hindi": "उन्हें", "read_as": "unheṁ", "english": "to them", "note": "वे plus को, fused onto the stem उन." },
+                { "hindi": "उनसे", "read_as": "unse", "english": "from them", "note": "The same stem with से." }
+              ],
+              "common_error": {
+                "wrong": "वे के पास",
+                "right": "उनके पास",
+                "why_en": "वे has no oblique form. The stem उन supplies the possessive उनके, and वे disappears entirely."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Combine the pronoun with the postposition.",
+              "question": "वे + के पास",
+              "question_read_as": "ve + ke paas",
+              "options": ["वे के पास", "वेके पास", "उनके पास", "उन्हें पास"],
+              "options_read_as": ["ve ke paas", "veke paas", "unke paas", "unheṁ paas"],
+              "answer_index": 2,
+              "explanation_en": "The stem is उन, and के compounds take the possessive, giving उनके पास."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which one is wrong?",
+              "options": ["वे के पास", "उनके साथ", "उन्हें", "उनसे"],
+              "options_read_as": ["ve ke paas", "unke saath", "unheṁ", "unse"],
+              "answer_index": 0,
+              "explanation_en": "वे must give way to the stem उन. The form is उनके पास."
+            }
+          },
+          "audio": {
+            "tts_strings": ["उनके पास", "उन्हें", "उनसे"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L20-I3",
+          "type": "dialogue",
+          "target": "उसके साथ",
+          "read_as": "uske saath",
+          "pronunciation_notes": "उसके is three quick syllables into a long साथ: us-ke saath.",
+          "gloss_en": "the same person, two different words",
+          "gender": null,
+          "difficulty": 8,
+          "tags": ["oblique", "class_6", "pronoun", "third_person", "dialogue", "direct_vs_oblique", "micro_dialogue"],
+          "cards": {
+            "learn": {
+              "title_en": "One person, two different words",
+              "explanation_en": "Listen to how the speakers refer to the same person across the four lines. First वह, standing on its own as the subject of a sentence. Then उसके, because के साथ is behind it. The person has not changed, the sentence has not changed its meaning, and nothing about the boy is different. The only thing that changed is what is standing behind the word. That is the whole of Class 6, and it is the whole of the module: the oblique is never about the word itself, it is about what comes next.",
+              "lines": [
+                { "speaker": "A", "hindi": "वह लड़का कौन है?", "read_as": "vah laṛkaa kaun hai?", "english": "Who is that boy?" },
+                { "speaker": "B", "hindi": "वह मेरा भाई है।", "read_as": "vah meraa bhaaii hai.", "english": "He is my brother." },
+                { "speaker": "A", "hindi": "क्या तुम उसके साथ हो?", "read_as": "kyaa tum uske saath ho?", "english": "Are you with him?" },
+                { "speaker": "B", "hindi": "हाँ, मैं उसके साथ हूँ।", "read_as": "haaṁ, maiṁ uske saath huuṁ.", "english": "Yes, I am with him." }
+              ],
+              "common_error": {
+                "wrong": "मैं वह के साथ हूँ।",
+                "right": "मैं उसके साथ हूँ।",
+                "why_en": "के साथ forces the pronoun onto its possessive form. वह cannot stand there at all."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Fill the gap.",
+              "question": "मैं ___ साथ हूँ।",
+              "question_read_as": "maiṁ ___ saath huuṁ.",
+              "options": ["उसके", "वह के", "उसे", "उससे"],
+              "options_read_as": ["uske", "vah ke", "use", "usse"],
+              "answer_index": 0,
+              "explanation_en": "साथ needs the possessive form, and the stem is उस, so the word is उसके."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the last line. Which word is missing?",
+              "masked_line_index": 3,
+              "masked_word": "उसके",
+              "options": ["वह", "उसे", "उससे", "उसके"],
+              "options_read_as": ["vah", "use", "usse", "uske"],
+              "answer_index": 3,
+              "explanation_en": "The speaker says उसके, because साथ is standing behind it."
+            }
+          },
+          "audio": {
+            "tts_strings": ["वह लड़का कौन है?", "वह मेरा भाई है।", "क्या तुम उसके साथ हो?", "हाँ, मैं उसके साथ हूँ।"],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "यह, वह, ये and वे replace their stems entirely — इस, उस, इन, उन — and there is nothing in the direct forms that predicts it. After that the routes are the ones you already know: उसे and उन्हें for को, उससे and उनसे for से, and उसके and उनके in front of the compounds.",
+        "key_forms": ["उसे", "उनके पास", "उसके साथ"],
+        "next_up_en": "Next: का, के and की, the possessive that agrees with the thing possessed rather than the owner — and the last two levels of the module."
+      }
+    }
+  ]
+}

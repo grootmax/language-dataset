@@ -1,0 +1,812 @@
+{
+  "module": 6,
+  "module_name_en": "The Oblique Case",
+  "module_name_hi": "तिरछा रूप",
+  "phase": 3,
+  "batch": { "levels_from": 6, "levels_to": 10 },
+  "levels": [
+    {
+      "level": 6,
+      "title_en": "Class 2 finished: plurals everywhere",
+      "title_hi": "वर्ग २ — स्कूलों, दिनों, लोगों",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L06-I1",
+          "type": "grammar",
+          "target": "स्कूलों में",
+          "read_as": "skuuloṁ meṁ",
+          "pronunciation_notes": "The -ों is a hummed o, not a separate syllable: skuu-loṁ, two beats, then the nasal में behind it.",
+          "gloss_en": "Class 2 plural oblique on a borrowed noun",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["oblique", "class_2", "masculine", "plural", "oṁ_ending", "loanword"],
+          "cards": {
+            "learn": {
+              "title_en": "Borrowed words are Class 2 too",
+              "explanation_en": "Class 2 is defined by its ending, not its origin. स्कूल, बाज़ार, स्टेशन and होटल all came into Hindi from other languages, and because none of them ends in -ा they behave exactly like घर: unchanged in the singular, -ों in the plural. That is worth saying plainly, because learners often assume foreign-looking words are exceptions. They are not — the ending decides everything in this module.",
+              "examples": [
+                { "hindi": "स्कूलों में", "read_as": "skuuloṁ meṁ", "english": "in the schools", "note": "Plural before a postposition, so -ों appears." },
+                { "hindi": "बाज़ारों में", "read_as": "baazaaroṁ meṁ", "english": "in the markets", "note": "Same ending on a Persian-origin word." },
+                { "hindi": "स्कूलों में बच्चे हैं।", "read_as": "skuuloṁ meṁ bachche haiṁ.", "english": "There are children in the schools.", "note": "बच्चे is the subject, so it stays direct — only स्कूलों sits before में." }
+              ],
+              "common_error": {
+                "wrong": "स्कूलें में",
+                "right": "स्कूलों में",
+                "why_en": "-ें is a feminine plural ending. A masculine plural before a postposition takes -ों, whatever the noun's origin."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "More than one school. Put the noun into its oblique form.",
+              "question": "स्कूल + में",
+              "question_read_as": "skuul + meṁ",
+              "options": ["स्कूल में", "स्कूले में", "स्कूलों में", "स्कूलें में"],
+              "options_read_as": ["skuul meṁ", "skuule meṁ", "skuuloṁ meṁ", "skuuleṁ meṁ"],
+              "answer_index": 2,
+              "explanation_en": "Plural before a postposition, so the ending is -ों. The unchanged form स्कूल में would mean one school."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["बाज़ारों में", "स्कूलें में", "शहरों में", "दिनों में"],
+              "options_read_as": ["baazaaroṁ meṁ", "skuuleṁ meṁ", "shahroṁ meṁ", "dinoṁ meṁ"],
+              "answer_index": 1,
+              "explanation_en": "स्कूलें में uses a feminine plural ending on a masculine noun. It should be स्कूलों में."
+            }
+          },
+          "audio": {
+            "tts_strings": ["स्कूलों में", "बाज़ारों में", "स्कूलों में बच्चे हैं।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L06-I2",
+          "type": "grammar",
+          "target": "दिनों तक",
+          "read_as": "dinoṁ tak",
+          "pronunciation_notes": "दिनों has the hum on the second syllable, then तक is short and flat: di-noṁ tak.",
+          "gloss_en": "Class 2 with a time noun",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["oblique", "class_2", "masculine", "plural", "time", "tak"],
+          "cards": {
+            "learn": {
+              "title_en": "Time words split across two classes",
+              "explanation_en": "दिन and साल do not end in -ा, so they are Class 2 and never change in the singular. महीना and हफ़्ता do end in -ा, so they are Class 1 and become महीने and हफ़्ते. In the plural the two classes converge — महीनों, हफ़्तों, दिनों, सालों all take the same -ों — so the only place the distinction bites is the singular. Time phrases are where you will meet this constantly, because तक and से attach to them all day long.",
+              "examples": [
+                { "hindi": "दिनों तक", "read_as": "dinoṁ tak", "english": "for days", "note": "Plural oblique with तक." },
+                { "hindi": "सालों से", "read_as": "saaloṁ se", "english": "for years now", "note": "The same ending with a different postposition." },
+                { "hindi": "दो दिनों तक", "read_as": "do dinoṁ tak", "english": "for two days", "note": "A number in front does not change what the noun has to do." }
+              ],
+              "common_error": {
+                "wrong": "दिनें तक",
+                "right": "दिनों तक",
+                "why_en": "दिन is masculine, so its plural before a postposition is दिनों. दिनें is not a form Hindi has."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "More than one year. Put the noun into its oblique form.",
+              "question": "साल + से",
+              "question_read_as": "saal + se",
+              "options": ["सालों से", "साल से", "साले से", "सालें से"],
+              "options_read_as": ["saaloṁ se", "saal se", "saale se", "saaleṁ se"],
+              "answer_index": 0,
+              "explanation_en": "Plural before से, so साल becomes सालों."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["दिनों तक", "सालों से", "महीनों में", "दिनें तक"],
+              "options_read_as": ["dinoṁ tak", "saaloṁ se", "mahiinoṁ meṁ", "dineṁ tak"],
+              "answer_index": 3,
+              "explanation_en": "दिनें is a feminine-shaped plural on a masculine noun. दिनों तक is correct."
+            }
+          },
+          "audio": {
+            "tts_strings": ["दिनों तक", "सालों से", "दो दिनों तक"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L06-I3",
+          "type": "grammar",
+          "target": "लोगों को",
+          "read_as": "logoṁ ko",
+          "pronunciation_notes": "The first o is long and open, the second is the nasal hum: lo-goṁ ko.",
+          "gloss_en": "a noun that is already plural in meaning",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["oblique", "class_2", "masculine", "plural", "inherently_plural", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "लोग is plural before you touch it",
+              "explanation_en": "लोग means people, and it is plural in meaning already — there is no singular लोग meaning one person, which is what आदमी is for. Because it is plural, it takes the plural oblique ending whenever a postposition follows: लोगों को, लोगों से, लोगों के साथ. This one is worth drilling on its own, because लोग को is an error English speakers make for months, translating the unmarked English word people straight across.",
+              "examples": [
+                { "hindi": "लोगों को", "read_as": "logoṁ ko", "english": "to the people", "note": "Plural in meaning, so plural in form." },
+                { "hindi": "लोगों के साथ", "read_as": "logoṁ ke saath", "english": "with the people", "note": "के साथ counts as a postposition, so the -ों is required." },
+                { "hindi": "गाँव में लोग हैं।", "read_as": "gaanv meṁ log haiṁ.", "english": "There are people in the village.", "note": "Here लोग is the subject, so it stays direct — only गाँव is oblique." }
+              ],
+              "common_error": {
+                "wrong": "लोग को",
+                "right": "लोगों को",
+                "why_en": "लोग is already plural, and a plural noun before a postposition must carry -ों."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its oblique form.",
+              "question": "लोग + को",
+              "question_read_as": "log + ko",
+              "options": ["लोग को", "लोगे को", "लोगें को", "लोगों को"],
+              "options_read_as": ["log ko", "loge ko", "logeṁ ko", "logoṁ ko"],
+              "answer_index": 3,
+              "explanation_en": "लोग is plural, so before को it becomes लोगों."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["लोग के साथ", "लोगों को", "गाँवों में", "दिनों तक"],
+              "options_read_as": ["log ke saath", "logoṁ ko", "gaanvoṁ meṁ", "dinoṁ tak"],
+              "answer_index": 0,
+              "explanation_en": "लोग is plural and sits before के साथ, so it must be लोगों के साथ."
+            }
+          },
+          "audio": {
+            "tts_strings": ["लोगों को", "लोगों के साथ", "गाँव में लोग हैं।"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Class 2 is finished. Any masculine noun that does not end in -ा is unchanged in the singular and takes -ों in the plural — including borrowed words, time words, and लोग, which is plural before you touch it.",
+        "key_forms": ["स्कूलों में", "दिनों तक", "लोगों को"],
+        "next_up_en": "Next: Class 3, the masculine nouns that end in -ी. They look as though they should change, and in the singular they do not."
+      }
+    },
+    {
+      "level": 7,
+      "title_en": "Class 3: masculine nouns ending in -ी",
+      "title_hi": "वर्ग ३ — आदमी, भाई, दही",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L07-I1",
+          "type": "grammar",
+          "target": "आदमी को",
+          "read_as": "aadmii ko",
+          "pronunciation_notes": "Three syllables with the long ii at the end: aad-mii ko. The middle vowel is barely there in speech.",
+          "gloss_en": "Class 3 singular — no change at all",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["oblique", "class_3", "masculine", "singular", "no_change", "gender_flagged"],
+          "cards": {
+            "learn": {
+              "title_en": "The class that looks like it should move",
+              "explanation_en": "आदमी is masculine, which surprises learners because it ends in -ी and -ी usually signals feminine. You met that warning back in Module 4. What matters here is that the -े ending belongs to Class 1 alone: it is what a final -ा turns into. आदमी has no -ा to convert, so in the singular it does nothing at all before a postposition. आदमे is not a word.",
+              "examples": [
+                { "hindi": "आदमी को", "read_as": "aadmii ko", "english": "to the man", "note": "Identical to the direct form." },
+                { "hindi": "आदमी से", "read_as": "aadmii se", "english": "from the man", "note": "A different postposition, the same non-event." },
+                { "hindi": "वह आदमी कौन है?", "read_as": "vah aadmii kaun hai?", "english": "Who is that man?", "note": "No postposition here, so nothing would change anyway." }
+              ],
+              "common_error": {
+                "wrong": "आदमे को",
+                "right": "आदमी को",
+                "why_en": "-े is what a final -ा becomes. आदमी ends in -ी, so there is nothing for that ending to attach to."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "One man. Put the noun into its oblique form.",
+              "question": "आदमी + से",
+              "question_read_as": "aadmii + se",
+              "options": ["आदमे से", "आदमी से", "आदमियों से", "आदमा से"],
+              "options_read_as": ["aadme se", "aadmii se", "aadmiyoṁ se", "aadmaa se"],
+              "answer_index": 1,
+              "explanation_en": "One man, and Class 3 nouns are unchanged in the singular, so आदमी stays as it is."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["आदमी को", "भाई से", "आदमे को", "पानी में"],
+              "options_read_as": ["aadmii ko", "bhaaii se", "aadme ko", "paanii meṁ"],
+              "answer_index": 2,
+              "explanation_en": "आदमे को applies the Class 1 ending to a noun that has no final -ा. The form is आदमी को."
+            }
+          },
+          "audio": {
+            "tts_strings": ["आदमी को", "आदमी से", "वह आदमी कौन है?"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L07-I2",
+          "type": "grammar",
+          "target": "भाई से",
+          "read_as": "bhaaii se",
+          "pronunciation_notes": "Breathy bh, then two vowels running together into one long glide: bhaa-ii se.",
+          "gloss_en": "Class 3 with a final -ई",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["oblique", "class_3", "masculine", "singular", "family", "ii_ending"],
+          "cards": {
+            "learn": {
+              "title_en": "भाई joins the same class",
+              "explanation_en": "भाई is written with the full vowel ई rather than the matra ी, but for the purposes of this module that is a spelling difference and nothing more. It is masculine, it does not end in -ा, and so it sits in Class 3 and stays exactly as it is in the singular. The spelling difference does start to matter in the plural, which is the next level — and it is where most of the errors on this word live.",
+              "examples": [
+                { "hindi": "भाई से", "read_as": "bhaaii se", "english": "from my brother", "note": "Unchanged before से." },
+                { "hindi": "भाई को", "read_as": "bhaaii ko", "english": "to my brother", "note": "Unchanged before को as well." },
+                { "hindi": "मेरा भाई घर में है।", "read_as": "meraa bhaaii ghar meṁ hai.", "english": "My brother is at home.", "note": "भाई is the subject and stays direct; only घर stands before a postposition." }
+              ],
+              "common_error": {
+                "wrong": "भाए से",
+                "right": "भाई से",
+                "why_en": "The -े ending exists only for Class 1 nouns ending in -ा. भाई does not qualify."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "One brother. Put the noun into its oblique form.",
+              "question": "भाई + को",
+              "question_read_as": "bhaaii + ko",
+              "options": ["भाए को", "भाइयों को", "भाई को", "भाया को"],
+              "options_read_as": ["bhaae ko", "bhaaiyoṁ ko", "bhaaii ko", "bhaayaa ko"],
+              "answer_index": 2,
+              "explanation_en": "One brother, so the singular form is used, and Class 3 singulars do not change. भाइयों को is the plural."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["भाई से", "भाए से", "आदमी को", "दही में"],
+              "options_read_as": ["bhaaii se", "bhaae se", "aadmii ko", "dahii meṁ"],
+              "answer_index": 1,
+              "explanation_en": "भाए is not a Hindi word. भाई does not change in the singular oblique."
+            }
+          },
+          "audio": {
+            "tts_strings": ["भाई से", "भाई को", "मेरा भाई घर में है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L07-I3",
+          "type": "grammar",
+          "target": "दही में",
+          "read_as": "dahii meṁ",
+          "pronunciation_notes": "The ह is a light breath between the two vowels, not a hard sound: da-hii meṁ.",
+          "gloss_en": "Class 3 mass nouns, which have no plural",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["oblique", "class_3", "masculine", "mass_noun", "no_plural", "gender_flagged", "food"],
+          "cards": {
+            "learn": {
+              "title_en": "The ones that never go plural",
+              "explanation_en": "दही, पानी and घी are the masculine -ी nouns Module 4 asked you to memorise with their gender, because nothing about them predicts it. They are also mass nouns — you do not count them — so the plural question never arises for them at all. That makes them the easiest members of Class 3: unchanged in the singular, and there is no second form to learn.",
+              "examples": [
+                { "hindi": "दही में", "read_as": "dahii meṁ", "english": "in the yoghurt", "note": "The -ी stays exactly as it is." },
+                { "hindi": "पानी में", "read_as": "paanii meṁ", "english": "in the water", "note": "Same class, same non-event." },
+                { "hindi": "घर में पानी है।", "read_as": "ghar meṁ paanii hai.", "english": "There is water in the house.", "note": "पानी is the subject here, so it is direct — only घर sits before the postposition." }
+              ],
+              "common_error": {
+                "wrong": "पाने में",
+                "right": "पानी में",
+                "why_en": "पानी ends in -ी, not -ा, so the Class 1 ending never applies to it."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "Put this noun into its oblique form.",
+              "question": "पानी + में",
+              "question_read_as": "paanii + meṁ",
+              "options": ["पानी में", "पाने में", "पानियों में", "पाना में"],
+              "options_read_as": ["paanii meṁ", "paane meṁ", "paaniyoṁ meṁ", "paanaa meṁ"],
+              "answer_index": 0,
+              "explanation_en": "पानी is a Class 3 mass noun. It is unchanged, and पानियों is not a form the word has."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["दही में", "पानी में", "भाई से", "पाने में"],
+              "options_read_as": ["dahii meṁ", "paanii meṁ", "bhaaii se", "paane meṁ"],
+              "answer_index": 3,
+              "explanation_en": "पाने में converts a -ी ending as though it were -ा. पानी does not change."
+            }
+          },
+          "audio": {
+            "tts_strings": ["दही में", "पानी में", "घर में पानी है।"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Class 3 is every masculine noun ending in -ी or -ई. In the singular it does nothing at all, because the -े ending belongs only to nouns with a final -ा. Mass nouns like पानी and दही never go plural, so for them that is the whole rule.",
+        "key_forms": ["आदमी को", "भाई से", "दही में"],
+        "next_up_en": "Next: the plural, which is the one place Class 3 does move — and the spelling that almost every learner gets wrong."
+      }
+    },
+    {
+      "level": 8,
+      "title_en": "Class 3 in the plural: -ियों",
+      "title_hi": "वर्ग ३ बहुवचन — आदमियों",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L08-I1",
+          "type": "grammar",
+          "target": "आदमियों को",
+          "read_as": "aadmiyoṁ ko",
+          "pronunciation_notes": "Four syllables, and the ii of आदमी shortens to a quick i: aad-mi-yoṁ ko.",
+          "gloss_en": "Class 3 plural — the -ी shortens and य appears",
+          "gender": null,
+          "difficulty": 6,
+          "tags": ["oblique", "class_3", "masculine", "plural", "iyoṁ_ending", "spelling_trap"],
+          "cards": {
+            "learn": {
+              "title_en": "Where the -ी finally moves",
+              "explanation_en": "In the plural oblique, a final -ी cannot simply carry -ों on its back. Hindi shortens the long ी to a short ि and slides a य in to bridge the two vowels: आदमी becomes आदमियों. The -ों at the end is the same ending you have seen since Class 1 — it has not changed, only what happens in front of it has. Say the word out loud and the reason becomes obvious: aad-mi-yoṁ flows, aad-mii-oṁ does not.",
+              "examples": [
+                { "hindi": "आदमियों को", "read_as": "aadmiyoṁ ko", "english": "to the men", "note": "Long ी shortens, य bridges, -ों closes." },
+                { "hindi": "आदमियों से", "read_as": "aadmiyoṁ se", "english": "from the men", "note": "The noun's form does not depend on which postposition follows." },
+                { "hindi": "दो आदमियों को", "read_as": "do aadmiyoṁ ko", "english": "to two men", "note": "A number makes the plural explicit but does not do the work for you." }
+              ],
+              "common_error": {
+                "wrong": "आदमीों को",
+                "right": "आदमियों को",
+                "why_en": "The long ी cannot take -ों directly. It shortens to ि and a य appears between the vowels."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "More than one man. Put the noun into its oblique form.",
+              "question": "आदमी + को",
+              "question_read_as": "aadmii + ko",
+              "options": ["आदमीों को", "आदमियों को", "आदमों को", "आदमेों को"],
+              "options_read_as": ["aadmiioṁ ko", "aadmiyoṁ ko", "aadmoṁ ko", "aadmeoṁ ko"],
+              "answer_index": 1,
+              "explanation_en": "Plural oblique of a -ी masculine: shorten the vowel, add य, then -ों."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["आदमियों से", "भाइयों को", "आदमीों को", "लोगों को"],
+              "options_read_as": ["aadmiyoṁ se", "bhaaiyoṁ ko", "aadmiioṁ ko", "logoṁ ko"],
+              "answer_index": 2,
+              "explanation_en": "आदमीों keeps the long vowel and stacks -ों on it. The correct plural is आदमियों."
+            }
+          },
+          "audio": {
+            "tts_strings": ["आदमियों को", "आदमियों से", "दो आदमियों को"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L08-I2",
+          "type": "grammar",
+          "target": "भाइयों के लिए",
+          "read_as": "bhaaiyoṁ ke lie",
+          "pronunciation_notes": "The long ii of भाई shortens here: bhaa-i-yoṁ, three syllables before के लिए.",
+          "gloss_en": "Class 3 plural where the vowel is written full",
+          "gender": null,
+          "difficulty": 6,
+          "tags": ["oblique", "class_3", "masculine", "plural", "family", "ke_lie", "spelling_trap"],
+          "cards": {
+            "learn": {
+              "title_en": "भाई follows the same road",
+              "explanation_en": "भाई becomes भाइयों, and the change is easier to see here than with आदमी because the vowel is written as a full letter: ई shrinks to इ, and य appears. Learners almost universally write भाईयों, keeping the long vowel and adding the ending on top. That spelling is wrong, and it is wrong for the same reason आदमीों is — Hindi will not stack -ों on a long vowel.",
+              "examples": [
+                { "hindi": "भाइयों के लिए", "read_as": "bhaaiyoṁ ke lie", "english": "for the brothers", "note": "के लिए is a postposition, so the plural must be oblique." },
+                { "hindi": "भाइयों के साथ", "read_as": "bhaaiyoṁ ke saath", "english": "with the brothers", "note": "Same form, different postposition." },
+                { "hindi": "भाइयों को", "read_as": "bhaaiyoṁ ko", "english": "to the brothers", "note": "The shortest of the three, and the one you will use most." }
+              ],
+              "common_error": {
+                "wrong": "भाईयों के लिए",
+                "right": "भाइयों के लिए",
+                "why_en": "The long ई shortens to इ before the य. Keeping it long is the single most common misspelling of this word."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "More than one brother. Put the noun into its oblique form.",
+              "question": "भाई + के लिए",
+              "question_read_as": "bhaaii + ke lie",
+              "options": ["भाईयों के लिए", "भाइों के लिए", "भाईों के लिए", "भाइयों के लिए"],
+              "options_read_as": ["bhaaiiyoṁ ke lie", "bhaaioṁ ke lie", "bhaaiioṁ ke lie", "bhaaiyoṁ ke lie"],
+              "answer_index": 3,
+              "explanation_en": "Short इ, then य, then -ों. Every other option either keeps the long vowel or drops the य."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["भाईयों को", "भाइयों से", "आदमियों को", "लोगों के साथ"],
+              "options_read_as": ["bhaaiiyoṁ ko", "bhaaiyoṁ se", "aadmiyoṁ ko", "logoṁ ke saath"],
+              "answer_index": 0,
+              "explanation_en": "भाईयों keeps the long ई. The plural oblique is भाइयों."
+            }
+          },
+          "audio": {
+            "tts_strings": ["भाइयों के लिए", "भाइयों के साथ", "भाइयों को"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L08-I3",
+          "type": "grammar",
+          "target": "हाथियों को",
+          "read_as": "haathiyoṁ ko",
+          "pronunciation_notes": "Aspirated th, then the shortened vowel: haa-thi-yoṁ ko.",
+          "gloss_en": "the pattern generalised to any -ी masculine",
+          "gender": null,
+          "difficulty": 6,
+          "tags": ["oblique", "class_3", "masculine", "plural", "animals", "generalisation"],
+          "cards": {
+            "learn": {
+              "title_en": "One rule, any -ी masculine",
+              "explanation_en": "Once the shape is visible it applies everywhere, and the meaning of the noun is irrelevant: हाथी becomes हाथियों just as आदमी becomes आदमियों. This is worth noticing because it is the first point in the module where you can predict a form for a word nobody has taught you. If it is masculine and it ends in -ी, the singular does nothing and the plural is -ियों. Two facts cover the whole class.",
+              "examples": [
+                { "hindi": "हाथी को", "read_as": "haathii ko", "english": "to the elephant", "note": "Singular, so unchanged." },
+                { "hindi": "हाथियों को", "read_as": "haathiyoṁ ko", "english": "to the elephants", "note": "Plural, so shortened vowel plus य plus -ों." },
+                { "hindi": "हाथियों से", "read_as": "haathiyoṁ se", "english": "from the elephants", "note": "The postposition changes; the noun does not." }
+              ],
+              "common_error": {
+                "wrong": "हाथीयों को",
+                "right": "हाथियों को",
+                "why_en": "Same trap as भाईयों — the long vowel must shorten before the य."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "More than one elephant. Put the noun into its oblique form.",
+              "question": "हाथी + को",
+              "question_read_as": "haathii + ko",
+              "options": ["हाथियों को", "हाथीयों को", "हाथीों को", "हाथों को"],
+              "options_read_as": ["haathiyoṁ ko", "haathiiyoṁ ko", "haathiioṁ ko", "haathoṁ ko"],
+              "answer_index": 0,
+              "explanation_en": "हाथियों. Note that हाथों is a real word, but it is the plural oblique of हाथ, meaning hands."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["हाथियों से", "आदमियों को", "भाइयों के साथ", "हाथीयों को"],
+              "options_read_as": ["haathiyoṁ se", "aadmiyoṁ ko", "bhaaiyoṁ ke saath", "haathiiyoṁ ko"],
+              "answer_index": 3,
+              "explanation_en": "हाथीयों keeps the long ी. The plural oblique is हाथियों."
+            }
+          },
+          "audio": {
+            "tts_strings": ["हाथी को", "हाथियों को", "हाथियों से"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Class 3 has exactly one moving part: in the plural the long final vowel shortens and a य appears before -ों. आदमी to आदमियों, भाई to भाइयों, हाथी to हाथियों. Keeping the vowel long is the error to watch for.",
+        "key_forms": ["आदमियों को", "भाइयों के लिए", "हाथियों को"],
+        "next_up_en": "Next: Class 4, the feminine nouns ending in -ी — and a class you can already half predict."
+      }
+    },
+    {
+      "level": 9,
+      "title_en": "Class 4: feminine nouns ending in -ी",
+      "title_hi": "वर्ग ४ — लड़की, बेटी, बिल्ली",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M06-L09-I1",
+          "type": "grammar",
+          "target": "लड़की को",
+          "read_as": "laṛkii ko",
+          "gloss_en": "Class 4 singular — no change at all",
+          "pronunciation_notes": "The ड़ is a flap, tongue struck once against the roof of the mouth: laṛ-kii ko.",
+          "gender": null,
+          "difficulty": 6,
+          "tags": ["oblique", "class_4", "feminine", "singular", "no_change", "class_1_contrast"],
+          "cards": {
+            "learn": {
+              "title_en": "Feminine -ी: nothing happens in the singular",
+              "explanation_en": "लड़की is feminine and ends in -ी, and before a postposition it does not change: लड़की को. Here is the honest version of what Class 4 is. In its forms it behaves exactly like Class 3 — unchanged in the singular, -ियों in the plural. It gets a class of its own because of gender, which decides adjective agreement and का or की, both coming later in this module. So the forms are a free ride; the gender is the thing to hold on to.",
+              "examples": [
+                { "hindi": "लड़की को", "read_as": "laṛkii ko", "english": "to the girl", "note": "Identical to the direct form." },
+                { "hindi": "लड़की से", "read_as": "laṛkii se", "english": "from the girl", "note": "Unchanged again." },
+                { "hindi": "लड़की स्कूल में है।", "read_as": "laṛkii skuul meṁ hai.", "english": "The girl is at school.", "note": "लड़की is the subject and stays direct; स्कूल is the one sitting before में." }
+              ],
+              "common_error": {
+                "wrong": "लड़के को",
+                "right": "लड़की को",
+                "why_en": "लड़के is the oblique of लड़का, which is a different word meaning boy. लड़की does not change at all."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "One girl. Put the noun into its oblique form.",
+              "question": "लड़की + से",
+              "question_read_as": "laṛkii + se",
+              "options": ["लड़के से", "लड़कियों से", "लड़की से", "लड़का से"],
+              "options_read_as": ["laṛke se", "laṛkiyoṁ se", "laṛkii se", "laṛkaa se"],
+              "answer_index": 2,
+              "explanation_en": "One girl and no change in the singular, so लड़की से. लड़के belongs to लड़का, and लड़कियों is the plural."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["लड़की को", "लड़का को", "बेटी से", "बिल्ली को"],
+              "options_read_as": ["laṛkii ko", "laṛkaa ko", "beṭii se", "billii ko"],
+              "answer_index": 1,
+              "explanation_en": "लड़का is Class 1 and must become लड़के before a postposition. The direct form cannot stand there."
+            }
+          },
+          "audio": {
+            "tts_strings": ["लड़की को", "लड़की से", "लड़की स्कूल में है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L09-I2",
+          "type": "grammar",
+          "target": "बेटी से",
+          "read_as": "beṭii se",
+          "pronunciation_notes": "Retroflex ट with the tongue curled back, then the long ii: be-ṭii se.",
+          "gloss_en": "Class 4, and the cleanest contrast pair in Hindi",
+          "gender": null,
+          "difficulty": 6,
+          "tags": ["oblique", "class_4", "feminine", "singular", "family", "minimal_pair"],
+          "cards": {
+            "learn": {
+              "title_en": "बेटा and बेटी, side by side",
+              "explanation_en": "बेटा and बेटी are the same word with two endings, and they land in different classes because of them. बेटा is Class 1 and becomes बेटे before a postposition; बेटी is Class 4 and becomes nothing at all. Holding this pair in mind is the fastest way to keep the two classes apart, because the meaning is identical and the ending is doing all the work. If you can produce बेटे को and बेटी को without hesitating, Class 1 and Class 4 are secure.",
+              "examples": [
+                { "hindi": "बेटी से", "read_as": "beṭii se", "english": "from my daughter", "note": "No change before से." },
+                { "hindi": "बेटी को", "read_as": "beṭii ko", "english": "to my daughter", "note": "No change before को either." },
+                { "hindi": "बेटा और बेटी घर में हैं।", "read_as": "beṭaa aur beṭii ghar meṁ haiṁ.", "english": "My son and daughter are at home.", "note": "Both are subjects, so both stay direct — only घर is oblique." }
+              ],
+              "common_error": {
+                "wrong": "बेटे से",
+                "right": "बेटी से",
+                "why_en": "बेटे is the oblique of बेटा. If you mean the daughter, the form is बेटी, unchanged."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "One daughter. Put the noun into its oblique form.",
+              "question": "बेटी + से",
+              "question_read_as": "beṭii + se",
+              "options": ["बेटे से", "बेटियों से", "बेटा से", "बेटी से"],
+              "options_read_as": ["beṭe se", "beṭiyoṁ se", "beṭaa se", "beṭii se"],
+              "answer_index": 3,
+              "explanation_en": "बेटी is Class 4 and unchanged in the singular. बेटे belongs to बेटा, and बेटा से is not possible at all before a postposition."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["बेटा से", "बेटी से", "लड़की को", "आदमी से"],
+              "options_read_as": ["beṭaa se", "beṭii se", "laṛkii ko", "aadmii se"],
+              "answer_index": 0,
+              "explanation_en": "बेटा ends in -ा, so it cannot stand in its direct form before से. It must be बेटे से."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बेटी से", "बेटी को", "बेटा और बेटी घर में हैं।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L09-I3",
+          "type": "grammar",
+          "target": "बिल्ली को",
+          "read_as": "billii ko",
+          "pronunciation_notes": "The double ल is held slightly longer than a single one, which is what separates बिल्ली from बिली: bil-lii ko.",
+          "gloss_en": "Class 4 in a live sentence",
+          "gender": null,
+          "difficulty": 6,
+          "tags": ["oblique", "class_4", "feminine", "singular", "animals", "ko_dative"],
+          "cards": {
+            "learn": {
+              "title_en": "Class 4 out in the open",
+              "explanation_en": "बिल्ली behaves like every other Class 4 noun, and it gives a good chance to see को doing something other than marking an object. In बिल्ली को दूध पसंद है the को marks who the liking belongs to — Hindi says the milk is pleasing to the cat. You met this shape in Module 5 with आपको. What matters here is that को is still a postposition, so the noun in front of it still has to be oblique, whatever job the को is doing.",
+              "examples": [
+                { "hindi": "बिल्ली को", "read_as": "billii ko", "english": "to the cat", "note": "Unchanged, like every Class 4 singular." },
+                { "hindi": "बिल्ली को दूध पसंद है।", "read_as": "billii ko duudh pasand hai.", "english": "The cat likes milk.", "note": "को marks the one who likes; the form of बिल्ली is unaffected by that." },
+                { "hindi": "बिल्ली घर में है।", "read_as": "billii ghar meṁ hai.", "english": "The cat is in the house.", "note": "Here बिल्ली is the subject, so it is direct — and it looks the same either way." }
+              ],
+              "common_error": {
+                "wrong": "बिल्ले को",
+                "right": "बिल्ली को",
+                "why_en": "बिल्ला is a separate masculine word for a tomcat. If you mean बिल्ली, it does not change."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "One cat. Put the noun into its oblique form.",
+              "question": "बिल्ली + को",
+              "question_read_as": "billii + ko",
+              "options": ["बिल्ले को", "बिल्ली को", "बिल्लों को", "बिल्ला को"],
+              "options_read_as": ["bille ko", "billii ko", "billoṁ ko", "billaa ko"],
+              "answer_index": 1,
+              "explanation_en": "Class 4 singulars do not change, so बिल्ली को."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["बिल्ली को", "लड़की से", "बिल्ले को", "बेटी को"],
+              "options_read_as": ["billii ko", "laṛkii se", "bille ko", "beṭii ko"],
+              "answer_index": 2,
+              "explanation_en": "बिल्ले is the oblique of the masculine बिल्ला. For बिल्ली the form stays बिल्ली को."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बिल्ली को", "बिल्ली को दूध पसंद है।", "बिल्ली घर में है।"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Class 4 is the feminine -ी nouns, and in the singular they change no more than Class 3 does. The pair बेटा and बेटी shows why the class exists: the ending decides the class, and the class decides what has to happen before a postposition.",
+        "key_forms": ["लड़की को", "बेटी से", "बिल्ली को"],
+        "next_up_en": "Next: the Class 4 plural, and the single most misspelled form in beginner Hindi."
+      }
+    },
+    {
+      "level": 10,
+      "title_en": "Class 4 plural: लड़कियों, never लड़कीों",
+      "title_hi": "वर्ग ४ बहुवचन — लड़कियों",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M06-L10-I1",
+          "type": "grammar",
+          "target": "लड़कियों को",
+          "read_as": "laṛkiyoṁ ko",
+          "pronunciation_notes": "Four beats with the vowel shortened in the middle: laṛ-ki-yoṁ ko.",
+          "gloss_en": "Class 4 plural — shorten, bridge with य, add -ों",
+          "gender": null,
+          "difficulty": 7,
+          "tags": ["oblique", "class_4", "feminine", "plural", "iyoṁ_ending", "spelling_trap", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "The form worth getting right the first time",
+              "explanation_en": "लड़की becomes लड़कियों, by exactly the process you learnt for आदमी two levels ago: the long ी shortens to ि, a य bridges the vowels, and -ों closes the word. लड़कीों is not a rare mistake or a regional spelling — it is simply not a possible Hindi word, because the script and the sound system both refuse it. Notice what this means: Class 3 and Class 4 produce identical plural shapes. The gender difference is invisible here and shows up only once adjectives and का or की arrive.",
+              "examples": [
+                { "hindi": "लड़कियों को", "read_as": "laṛkiyoṁ ko", "english": "to the girls", "note": "The full change: shorten, bridge, close." },
+                { "hindi": "लड़कियों के साथ", "read_as": "laṛkiyoṁ ke saath", "english": "with the girls", "note": "के साथ is a postposition, so the plural must be oblique." },
+                { "hindi": "लड़कियों को हिंदी पसंद है।", "read_as": "laṛkiyoṁ ko hindii pasand hai.", "english": "The girls like Hindi.", "note": "Same dative को as with बिल्ली, now on a plural." }
+              ],
+              "common_error": {
+                "wrong": "लड़कीों को",
+                "right": "लड़कियों को",
+                "why_en": "A long ी cannot carry -ों directly. It shortens to ि and takes a य before the ending."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "More than one girl. Put the noun into its oblique form.",
+              "question": "लड़की + को",
+              "question_read_as": "laṛkii + ko",
+              "options": ["लड़कीों को", "लड़केों को", "लड़कियों को", "लड़कीयों को"],
+              "options_read_as": ["laṛkiioṁ ko", "laṛkeoṁ ko", "laṛkiyoṁ ko", "laṛkiiyoṁ ko"],
+              "answer_index": 2,
+              "explanation_en": "लड़कियों को. The other three each keep a vowel that has to change or borrow an ending from another class."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["लड़कियों से", "लड़कीों को", "बेटियों के लिए", "आदमियों को"],
+              "options_read_as": ["laṛkiyoṁ se", "laṛkiioṁ ko", "beṭiyoṁ ke lie", "aadmiyoṁ ko"],
+              "answer_index": 1,
+              "explanation_en": "लड़कीों stacks -ों onto a long ी. The form is लड़कियों."
+            }
+          },
+          "audio": {
+            "tts_strings": ["लड़कियों को", "लड़कियों के साथ", "लड़कियों को हिंदी पसंद है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L10-I2",
+          "type": "grammar",
+          "target": "बेटियों के लिए",
+          "read_as": "beṭiyoṁ ke lie",
+          "pronunciation_notes": "Retroflex ट, then the shortened vowel and the hum: be-ṭi-yoṁ ke lie.",
+          "gloss_en": "Class 4 plural, and where the two -ी classes meet",
+          "gender": null,
+          "difficulty": 7,
+          "tags": ["oblique", "class_4", "feminine", "plural", "family", "class_3_convergence"],
+          "cards": {
+            "learn": {
+              "title_en": "Two classes, one plural shape",
+              "explanation_en": "बेटी becomes बेटियों, and if you compare it with भाइयों from level eight the two are built identically. This is the useful summary of the last four levels: every noun ending in -ी, masculine or feminine, makes its plural oblique the same way. You do not have to know the gender to produce the form. You will have to know it very soon — बेटियों के लिए and बेटों के लिए take different adjectives and different possessives — but not for this.",
+              "examples": [
+                { "hindi": "बेटियों के लिए", "read_as": "beṭiyoṁ ke lie", "english": "for the daughters", "note": "Plural oblique before के लिए." },
+                { "hindi": "बेटियों को", "read_as": "beṭiyoṁ ko", "english": "to the daughters", "note": "The same form with a shorter postposition." },
+                { "hindi": "यह किताब बेटियों के लिए है।", "read_as": "yah kitaab beṭiyoṁ ke lie hai.", "english": "This book is for the daughters.", "note": "किताब is the subject and stays direct; बेटियों is the word standing before के लिए." }
+              ],
+              "common_error": {
+                "wrong": "बेटीयों के लिए",
+                "right": "बेटियों के लिए",
+                "why_en": "The long ी shortens to ि before the य. This is the same trap as भाईयों and हाथीयों."
+              }
+            },
+            "practice": {
+              "format": "transform_to_oblique",
+              "prompt_en": "More than one daughter. Put the noun into its oblique form.",
+              "question": "बेटी + को",
+              "question_read_as": "beṭii + ko",
+              "options": ["बेटियों को", "बेटीों को", "बेटीयों को", "बेटेों को"],
+              "options_read_as": ["beṭiyoṁ ko", "beṭiioṁ ko", "beṭiiyoṁ ko", "beṭeoṁ ko"],
+              "answer_index": 0,
+              "explanation_en": "बेटियों को — shorten the vowel, add य, then -ों."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which phrase is wrong?",
+              "options": ["बेटियों से", "लड़कियों को", "आदमियों के साथ", "बेटीयों को"],
+              "options_read_as": ["beṭiyoṁ se", "laṛkiyoṁ ko", "aadmiyoṁ ke saath", "beṭiiyoṁ ko"],
+              "answer_index": 3,
+              "explanation_en": "बेटीयों keeps the long ी. The plural oblique is बेटियों."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बेटियों के लिए", "बेटियों को", "यह किताब बेटियों के लिए है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M06-L10-I3",
+          "type": "dialogue",
+          "target": "लड़कियों के साथ",
+          "read_as": "laṛkiyoṁ ke saath",
+          "pronunciation_notes": "साथ has an aspirated th and a long aa; the phrase runs as laṛ-ki-yoṁ ke saath.",
+          "gloss_en": "direct and oblique plurals side by side in speech",
+          "gender": null,
+          "difficulty": 7,
+          "tags": ["oblique", "class_4", "feminine", "plural", "dialogue", "direct_vs_oblique", "micro_dialogue"],
+          "cards": {
+            "learn": {
+              "title_en": "लड़कियाँ and लड़कियों in the same conversation",
+              "explanation_en": "This exchange puts the two plurals next to each other so the difference is audible rather than theoretical. लड़कियाँ is the direct plural — it is what you use when the girls are the subject and nothing follows them. लड़कियों is the oblique plural, and it only appears because के साथ is standing behind it. Listen for the ending: the direct form hums on aaṁ, the oblique on oṁ. That one vowel is carrying the whole grammatical difference.",
+              "lines": [
+                { "speaker": "A", "hindi": "लड़कियाँ कहाँ हैं?", "read_as": "laṛkiyaaṁ kahaaṁ haiṁ?", "english": "Where are the girls?" },
+                { "speaker": "B", "hindi": "वे स्कूल में हैं।", "read_as": "ve skuul meṁ haiṁ.", "english": "They are at school." },
+                { "speaker": "A", "hindi": "क्या तुम भी लड़कियों के साथ हो?", "read_as": "kyaa tum bhii laṛkiyoṁ ke saath ho?", "english": "Are you with the girls too?" },
+                { "speaker": "B", "hindi": "हाँ, मैं लड़कियों के साथ हूँ।", "read_as": "haaṁ, maiṁ laṛkiyoṁ ke saath huuṁ.", "english": "Yes, I am with the girls." }
+              ],
+              "common_error": {
+                "wrong": "मैं लड़कियाँ के साथ हूँ।",
+                "right": "मैं लड़कियों के साथ हूँ।",
+                "why_en": "लड़कियाँ is the direct plural and cannot stand before a postposition. के साथ forces the oblique लड़कियों."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Fill the gap.",
+              "question": "मैं ___ के साथ हूँ।",
+              "question_read_as": "maiṁ ___ ke saath huuṁ.",
+              "options": ["लड़कियाँ", "लड़की", "लड़कीों", "लड़कियों"],
+              "options_read_as": ["laṛkiyaaṁ", "laṛkii", "laṛkiioṁ", "laṛkiyoṁ"],
+              "answer_index": 3,
+              "explanation_en": "के साथ is a postposition and the meaning is plural, so the oblique plural लड़कियों is required."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the last line. Which word is missing?",
+              "masked_line_index": 3,
+              "masked_word": "लड़कियों",
+              "options": ["लड़कियों", "लड़कीों", "लड़की", "लड़कियाँ"],
+              "options_read_as": ["laṛkiyoṁ", "laṛkiioṁ", "laṛkii", "laṛkiyaaṁ"],
+              "answer_index": 0,
+              "explanation_en": "The speaker says लड़कियों — the oblique plural, because के साथ follows it."
+            }
+          },
+          "audio": {
+            "tts_strings": ["लड़कियाँ कहाँ हैं?", "वे स्कूल में हैं।", "क्या तुम भी लड़कियों के साथ हो?", "हाँ, मैं लड़कियों के साथ हूँ।"],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Class 4 plurals are built exactly like Class 3 plurals: लड़की to लड़कियों, बेटी to बेटियों. लड़कीों does not exist. The dialogue puts लड़कियाँ and लड़कियों side by side, where the only audible difference is the final vowel — and that vowel is the entire grammar.",
+        "key_forms": ["लड़कियों को", "बेटियों के लिए", "लड़कियों के साथ"],
+        "next_up_en": "Next: Class 5, the feminine nouns that do not end in -ी — किताब, रात, बात — where the plural takes plain -ों instead."
+      }
+    }
+  ]
+}

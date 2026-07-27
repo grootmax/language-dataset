@@ -1,0 +1,817 @@
+{
+  "module": 4,
+  "module_name_en": "Core Words I",
+  "module_name_hi": "शब्द भंडार १",
+  "phase": 2,
+  "batch": { "levels_from": 41, "levels_to": 45 },
+  "levels": [
+    {
+      "level": 41,
+      "title_en": "School, hospital, lane",
+      "title_hi": "स्कूल अस्पताल गली",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L41-I1",
+          "type": "word",
+          "target": "स्कूल",
+          "read_as": "skuul",
+          "pronunciation_notes": "The स्क stack runs स straight into क with no vowel between, and the final vowel drops: skuul, one syllable.",
+          "gloss_en": "school",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "places",
+          "plural": "स्कूल",
+          "plural_read_as": "skuul",
+          "difficulty": 3,
+          "tags": ["places", "noun", "masculine", "consonant_ending", "conjunct", "gender_flag", "borrowed_word"],
+          "cards": {
+            "learn": {
+              "title_en": "स्कूल — school",
+              "explanation_en": "स्कूल is a school, borrowed from English and keeping its opening cluster intact — unlike गिलास, which had a vowel inserted. It is masculine and ends in a consonant, so the gender is unpredictable, and the plural does not change. The older word विद्यालय still appears on signboards and in formal writing.",
+              "examples": [
+                { "hindi": "बड़ा स्कूल", "read_as": "baṛaa skuul", "english": "a big school", "note": "बड़ा takes -ा because स्कूल is masculine." },
+                { "hindi": "स्कूल जाना", "read_as": "skuul jaanaa", "english": "to go to school", "note": "The place comes before the verb." },
+                { "hindi": "पुराना स्कूल", "read_as": "puraanaa skuul", "english": "an old school", "note": "The masculine adjective ending again." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "स्कूल",
+              "question_read_as": "skuul",
+              "options": ["a hospital", "a school", "a college", "an office"],
+              "options_read_as": ["a hospital", "a school", "a college", "an office"],
+              "answer_index": 1,
+              "explanation_en": "स्कूल is a school. The formal word विद्यालय means the same thing."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ स्कूल — का, के or की?",
+              "options": ["की", "के", "कि", "का"],
+              "options_read_as": ["kii", "ke", "ki", "kaa"],
+              "answer_index": 3,
+              "explanation_en": "स्कूल is masculine, so का. Its consonant ending gives no clue."
+            }
+          },
+          "audio": {
+            "tts_strings": ["स्कूल", "बड़ा स्कूल", "स्कूल जाना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L41-I2",
+          "type": "word",
+          "target": "अस्पताल",
+          "read_as": "aspataal",
+          "pronunciation_notes": "The स्प stack sits after the opening vowel, and the word runs to three syllables: aspataal.",
+          "gloss_en": "hospital",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "places",
+          "plural": "अस्पताल",
+          "plural_read_as": "aspataal",
+          "difficulty": 4,
+          "tags": ["places", "noun", "masculine", "consonant_ending", "conjunct", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "अस्पताल — hospital",
+              "explanation_en": "अस्पताल is a hospital. It is masculine and ends in a consonant, so the gender is unpredictable, and the plural does not change. The word came through Portuguese rather than English, which is why it begins with a vowel — a useful one to be able to say clearly, since you may one day need to ask for it in a hurry.",
+              "examples": [
+                { "hindi": "बड़ा अस्पताल", "read_as": "baṛaa aspataal", "english": "a big hospital", "note": "The masculine adjective ending." },
+                { "hindi": "साफ़ अस्पताल", "read_as": "saaf aspataal", "english": "a clean hospital", "note": "साफ़ never changes form." },
+                { "hindi": "अस्पताल जाना", "read_as": "aspataal jaanaa", "english": "to go to the hospital", "note": "The same pattern as स्कूल जाना." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "अस्पताल",
+              "question_read_as": "aspataal",
+              "options": ["a school", "a bank", "a hotel", "a hospital"],
+              "options_read_as": ["a school", "a bank", "a hotel", "a hospital"],
+              "answer_index": 3,
+              "explanation_en": "अस्पताल is a hospital. It is a word worth being able to say clearly."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ अस्पताल — का, के or की?",
+              "options": ["की", "का", "के", "कि"],
+              "options_read_as": ["kii", "kaa", "ke", "ki"],
+              "answer_index": 1,
+              "explanation_en": "अस्पताल is masculine, so का."
+            }
+          },
+          "audio": {
+            "tts_strings": ["अस्पताल", "बड़ा अस्पताल", "अस्पताल जाना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L41-I3",
+          "type": "word",
+          "target": "गली",
+          "read_as": "galii",
+          "pronunciation_notes": "A short first vowel and a long second one: galii, two syllables.",
+          "gloss_en": "lane, alley",
+          "gender": "f",
+          "gender_flag": false,
+          "category": "places",
+          "plural": "गलियाँ",
+          "plural_read_as": "galiyãa",
+          "difficulty": 3,
+          "tags": ["places", "noun", "feminine", "ii_ending", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "गली — lane",
+              "explanation_en": "गली is a narrow lane or alley, the kind that branches off a सड़क and is too small for much traffic. It ends in -ी and is feminine, so the ending predicts correctly, and the plural is गलियाँ. Addresses in older parts of a city are often given by गली rather than by street name.",
+              "examples": [
+                { "hindi": "छोटी गली", "read_as": "chhoṭii galii", "english": "a narrow lane", "note": "छोटा takes -ी because गली is feminine." },
+                { "hindi": "दो गलियाँ", "read_as": "do galiyãa", "english": "two lanes", "note": "The -ी becomes -ियाँ in the plural." },
+                { "hindi": "गंदी गली", "read_as": "gandii galii", "english": "a dirty lane", "note": "गंदा also takes -ी here." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "गली",
+              "question_read_as": "galii",
+              "options": ["a lane", "a road", "a bridge", "a corner"],
+              "options_read_as": ["a lane", "a road", "a bridge", "a corner"],
+              "answer_index": 0,
+              "explanation_en": "गली is a narrow lane. सड़क is the wider road it leads off."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ गली — का, के or की?",
+              "options": ["का", "के", "की", "कि"],
+              "options_read_as": ["kaa", "ke", "kii", "ki"],
+              "answer_index": 2,
+              "explanation_en": "गली is feminine, so की. The -ी ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["गली", "छोटी गली", "गलियाँ"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added स्कूल, अस्पताल and गली. The two borrowed words are masculine and end in consonants, while गली is the one whose ending gives its gender away.",
+        "key_forms": ["स्कूल", "अस्पताल", "गली"],
+        "next_up_en": "Next: शहर, गाँव and जगह — the city, the village and the general word for a place."
+      }
+    },
+    {
+      "level": 42,
+      "title_en": "City, village, place",
+      "title_hi": "शहर गाँव जगह",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L42-I1",
+          "type": "word",
+          "target": "शहर",
+          "read_as": "shahar",
+          "pronunciation_notes": "The श is the sh of English 'ship', and the final vowel drops: shahar in two syllables.",
+          "gloss_en": "city, town",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "places",
+          "plural": "शहर",
+          "plural_read_as": "shahar",
+          "difficulty": 3,
+          "tags": ["places", "noun", "masculine", "consonant_ending", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "शहर — city",
+              "explanation_en": "शहर covers both a city and a decent-sized town, so it is broader than the English word. It is masculine and ends in a consonant, so the gender is unpredictable, and the plural does not change. You met it in Module 2 as the example word for श.",
+              "examples": [
+                { "hindi": "बड़ा शहर", "read_as": "baṛaa shahar", "english": "a big city", "note": "बड़ा takes -ा because शहर is masculine." },
+                { "hindi": "पुराना शहर", "read_as": "puraanaa shahar", "english": "the old city", "note": "Most Indian cities have one, and this is what it is called." },
+                { "hindi": "साफ़ शहर", "read_as": "saaf shahar", "english": "a clean city", "note": "साफ़ never changes form." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "शहर",
+              "question_read_as": "shahar",
+              "options": ["a village", "a country", "a city", "a state"],
+              "options_read_as": ["a village", "a country", "a city", "a state"],
+              "answer_index": 2,
+              "explanation_en": "शहर is a city or town. गाँव is a village."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ शहर — का, के or की?",
+              "options": ["का", "की", "के", "कि"],
+              "options_read_as": ["kaa", "kii", "ke", "ki"],
+              "answer_index": 0,
+              "explanation_en": "शहर is masculine, so का."
+            }
+          },
+          "audio": {
+            "tts_strings": ["शहर", "बड़ा शहर", "पुराना शहर"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L42-I2",
+          "type": "word",
+          "target": "गाँव",
+          "read_as": "gãav",
+          "pronunciation_notes": "The crescent nasalises the vowel and adds no n sound, and the final व is light: gãav, one syllable.",
+          "gloss_en": "village",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "places",
+          "plural": "गाँव",
+          "plural_read_as": "gãav",
+          "difficulty": 4,
+          "tags": ["places", "noun", "masculine", "consonant_ending", "chandrabindu", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "गाँव — village",
+              "explanation_en": "गाँव is a village, and it carries a good deal of weight in conversation — most people in India have a गाँव they or their family came from, so the word comes up in introductions constantly. It is masculine and ends in a consonant, so the gender is unpredictable. The crescent nasalises the vowel without adding any n sound.",
+              "examples": [
+                { "hindi": "छोटा गाँव", "read_as": "chhoṭaa gãav", "english": "a small village", "note": "छोटा takes -ा because गाँव is masculine." },
+                { "hindi": "गाँव जाना", "read_as": "gãav jaanaa", "english": "to go to the village", "note": "The place comes before the verb." },
+                { "hindi": "सुंदर गाँव", "read_as": "sundar gãav", "english": "a beautiful village", "note": "सुंदर never changes form." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "गाँव",
+              "question_read_as": "gãav",
+              "options": ["a town", "a village", "a farm", "a field"],
+              "options_read_as": ["a town", "a village", "a farm", "a field"],
+              "answer_index": 1,
+              "explanation_en": "गाँव is a village. शहर is a city or town."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ गाँव — का, के or की?",
+              "options": ["की", "कि", "के", "का"],
+              "options_read_as": ["kii", "ki", "ke", "kaa"],
+              "answer_index": 3,
+              "explanation_en": "गाँव is masculine, so का. Its consonant ending predicts nothing."
+            }
+          },
+          "audio": {
+            "tts_strings": ["गाँव", "छोटा गाँव", "गाँव जाना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L42-I3",
+          "type": "word",
+          "target": "जगह",
+          "read_as": "jagah",
+          "pronunciation_notes": "The final ह is lightly pronounced rather than dropped, giving jagah in two syllables.",
+          "gloss_en": "place, space, room",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "places",
+          "plural": "जगहें",
+          "plural_read_as": "jagaheṁ",
+          "difficulty": 3,
+          "tags": ["places", "noun", "feminine", "consonant_ending", "gender_flag", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "जगह — place",
+              "explanation_en": "जगह is a place, and also space in the sense of room for something — जगह है means there is room. It is feminine and ends in a consonant, so the gender is unpredictable, and it is worth memorising because it turns up in every kind of sentence. You met it in Module 2 as the example word for ज.",
+              "examples": [
+                { "hindi": "अच्छी जगह", "read_as": "achchhii jagah", "english": "a good place", "note": "अच्छा takes -ी because जगह is feminine." },
+                { "hindi": "खाली जगह", "read_as": "khaalii jagah", "english": "an empty space", "note": "खाली never changes form, so it hides the gender." },
+                { "hindi": "दो जगहें", "read_as": "do jagaheṁ", "english": "two places", "note": "Feminine consonant endings take -एँ." }
+              ],
+              "common_error": {
+                "wrong": "अच्छा जगह",
+                "right": "अच्छी जगह",
+                "why_en": "जगह is feminine despite its consonant ending, so the adjective takes -ी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "जगह",
+              "question_read_as": "jagah",
+              "options": ["a room", "a house", "a corner", "a place"],
+              "options_read_as": ["a room", "a house", "a corner", "a place"],
+              "answer_index": 3,
+              "explanation_en": "जगह is a place, and also space or room for something."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ जगह — का, के or की?",
+              "options": ["का", "की", "के", "कि"],
+              "options_read_as": ["kaa", "kii", "ke", "ki"],
+              "answer_index": 1,
+              "explanation_en": "जगह is feminine, so की. Its consonant ending gives no clue at all."
+            }
+          },
+          "audio": {
+            "tts_strings": ["जगह", "अच्छी जगह", "खाली जगह"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered शहर, गाँव and जगह. All three end in consonants, and जगह is the feminine one — worth fixing in memory, since it appears in more sentences than either of the others.",
+        "key_forms": ["शहर", "गाँव", "जगह"],
+        "next_up_en": "Next: स्टेशन, मंदिर and इमारत finish the places."
+      }
+    },
+    {
+      "level": 43,
+      "title_en": "Station, temple, building",
+      "title_hi": "स्टेशन मंदिर इमारत",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L43-I1",
+          "type": "word",
+          "target": "स्टेशन",
+          "read_as": "sṭeshan",
+          "pronunciation_notes": "The स्ट stack runs स into a retroflex ट, the ए is flat, and the final vowel drops: sṭeshan.",
+          "gloss_en": "station",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "places",
+          "plural": "स्टेशन",
+          "plural_read_as": "sṭeshan",
+          "difficulty": 4,
+          "tags": ["places", "noun", "masculine", "consonant_ending", "conjunct", "retroflex", "gender_flag", "borrowed_word"],
+          "cards": {
+            "learn": {
+              "title_en": "स्टेशन — station",
+              "explanation_en": "स्टेशन is a railway station, borrowed from English. Notice how the borrowing was reshaped: the t became the retroflex ट, because that is the Hindi sound closest to an English t. It is masculine and ends in a consonant, so the gender is unpredictable, and the plural does not change.",
+              "examples": [
+                { "hindi": "बड़ा स्टेशन", "read_as": "baṛaa sṭeshan", "english": "a big station", "note": "बड़ा takes -ा because स्टेशन is masculine." },
+                { "hindi": "स्टेशन जाना", "read_as": "sṭeshan jaanaa", "english": "to go to the station", "note": "The place comes before the verb." },
+                { "hindi": "पुराना स्टेशन", "read_as": "puraanaa sṭeshan", "english": "an old station", "note": "The masculine adjective ending again." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "स्टेशन",
+              "question_read_as": "sṭeshan",
+              "options": ["a bus stop", "an airport", "a station", "a platform"],
+              "options_read_as": ["a bus stop", "an airport", "a station", "a platform"],
+              "answer_index": 2,
+              "explanation_en": "स्टेशन is a railway station."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ स्टेशन — का, के or की?",
+              "options": ["का", "के", "की", "कि"],
+              "options_read_as": ["kaa", "ke", "kii", "ki"],
+              "answer_index": 0,
+              "explanation_en": "स्टेशन is masculine, so का."
+            }
+          },
+          "audio": {
+            "tts_strings": ["स्टेशन", "बड़ा स्टेशन", "स्टेशन जाना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L43-I2",
+          "type": "word",
+          "target": "मंदिर",
+          "read_as": "mandir",
+          "pronunciation_notes": "The dot before द is a plain dental n, and the final vowel drops: mandir in two syllables.",
+          "gloss_en": "temple",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "places",
+          "plural": "मंदिर",
+          "plural_read_as": "mandir",
+          "difficulty": 3,
+          "tags": ["places", "noun", "masculine", "consonant_ending", "anusvara", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "मंदिर — temple",
+              "explanation_en": "मंदिर is a Hindu temple. It is masculine and ends in a consonant, so the gender is unpredictable, and the plural does not change. The anusvara sits before द, a dental, so it is read as a plain n — compare मंदिर with पंखा, where the dot before ख came out as ng instead.",
+              "examples": [
+                { "hindi": "पुराना मंदिर", "read_as": "puraanaa mandir", "english": "an old temple", "note": "पुराना takes -ा because मंदिर is masculine." },
+                { "hindi": "सुंदर मंदिर", "read_as": "sundar mandir", "english": "a beautiful temple", "note": "सुंदर never changes form." },
+                { "hindi": "मंदिर जाना", "read_as": "mandir jaanaa", "english": "to go to the temple", "note": "The same pattern as स्टेशन जाना." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "मंदिर",
+              "question_read_as": "mandir",
+              "options": ["a temple", "a mosque", "a church", "a shrine"],
+              "options_read_as": ["a temple", "a mosque", "a church", "a shrine"],
+              "answer_index": 0,
+              "explanation_en": "मंदिर is a Hindu temple. मस्जिद is a mosque."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ मंदिर — का, के or की?",
+              "options": ["की", "के", "का", "कि"],
+              "options_read_as": ["kii", "ke", "kaa", "ki"],
+              "answer_index": 2,
+              "explanation_en": "मंदिर is masculine, so का."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मंदिर", "पुराना मंदिर", "मंदिर जाना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L43-I3",
+          "type": "word",
+          "target": "इमारत",
+          "read_as": "imaarat",
+          "pronunciation_notes": "The ि matra is drawn before म but read after it, and the final vowel drops: imaarat.",
+          "gloss_en": "building",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "places",
+          "plural": "इमारतें",
+          "plural_read_as": "imaarateṁ",
+          "difficulty": 4,
+          "tags": ["places", "noun", "feminine", "consonant_ending", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "इमारत — building",
+              "explanation_en": "इमारत is a building, usually a substantial one rather than a house. It is feminine and ends in a consonant, so the gender is unpredictable. Notice the pattern building up across the places: बाज़ार, स्कूल, अस्पताल, शहर, गाँव, स्टेशन and मंदिर are all masculine, while दुकान, सड़क, गली, जगह and इमारत are feminine. There is no rule behind it.",
+              "examples": [
+                { "hindi": "ऊँची इमारत", "read_as": "ũchii imaarat", "english": "a tall building", "note": "ऊँचा takes -ी because इमारत is feminine." },
+                { "hindi": "दो इमारतें", "read_as": "do imaarateṁ", "english": "two buildings", "note": "Feminine consonant endings take -एँ." },
+                { "hindi": "पुरानी इमारत", "read_as": "puraanii imaarat", "english": "an old building", "note": "पुराना also takes -ी here." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "इमारत",
+              "question_read_as": "imaarat",
+              "options": ["a wall", "a building", "a floor", "a roof"],
+              "options_read_as": ["a wall", "a building", "a floor", "a roof"],
+              "answer_index": 1,
+              "explanation_en": "इमारत is a building. दीवार is a wall within one."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ इमारत — का, के or की?",
+              "options": ["का", "की", "के", "कि"],
+              "options_read_as": ["kaa", "kii", "ke", "ki"],
+              "answer_index": 1,
+              "explanation_en": "इमारत is feminine, so की. Its consonant ending predicts nothing."
+            }
+          },
+          "audio": {
+            "tts_strings": ["इमारत", "ऊँची इमारत", "इमारतें"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed the twelve places. Seven are masculine and five feminine, and eleven of the twelve end in consonants — which is why almost every place word in this module carries a flag.",
+        "key_forms": ["स्टेशन", "मंदिर", "इमारत"],
+        "next_up_en": "Next: time words, beginning with the day and the night."
+      }
+    },
+    {
+      "level": 44,
+      "title_en": "Day, night, morning",
+      "title_hi": "दिन रात सुबह",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L44-I1",
+          "type": "word",
+          "target": "दिन",
+          "read_as": "din",
+          "pronunciation_notes": "The ि matra is drawn before द but read after it, and the final vowel drops: din, one syllable.",
+          "gloss_en": "day",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "time",
+          "plural": "दिन",
+          "plural_read_as": "din",
+          "difficulty": 3,
+          "tags": ["time", "noun", "masculine", "consonant_ending", "gender_flag", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "दिन — day",
+              "explanation_en": "दिन is a day, both the daylight hours and a full calendar day. It is masculine and ends in a consonant, so the gender is unpredictable, and the plural does not change. You have met this word repeatedly since Module 1, where it was the example for the short ि matra.",
+              "examples": [
+                { "hindi": "अच्छा दिन", "read_as": "achchhaa din", "english": "a good day", "note": "अच्छा takes -ा because दिन is masculine." },
+                { "hindi": "लंबा दिन", "read_as": "lambaa din", "english": "a long day", "note": "The masculine adjective ending again." },
+                { "hindi": "दिन और रात", "read_as": "din aur raat", "english": "day and night", "note": "One masculine, one feminine, both ending in consonants." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दिन",
+              "question_read_as": "din",
+              "options": ["a week", "a month", "an hour", "a day"],
+              "options_read_as": ["a week", "a month", "an hour", "a day"],
+              "answer_index": 3,
+              "explanation_en": "दिन is a day. रात is the night that follows it."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ दिन — का, के or की?",
+              "options": ["की", "के", "कि", "का"],
+              "options_read_as": ["kii", "ke", "ki", "kaa"],
+              "answer_index": 3,
+              "explanation_en": "दिन is masculine, so का. Its consonant ending gives no clue."
+            }
+          },
+          "audio": {
+            "tts_strings": ["दिन", "अच्छा दिन", "दिन और रात"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L44-I2",
+          "type": "word",
+          "target": "रात",
+          "read_as": "raat",
+          "pronunciation_notes": "A single tap for र, a dental त with the tongue on the teeth, and the final vowel drops: raat.",
+          "gloss_en": "night",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "time",
+          "plural": "रातें",
+          "plural_read_as": "raateṁ",
+          "difficulty": 5,
+          "tags": ["time", "noun", "feminine", "consonant_ending", "gender_flag", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "रात — night",
+              "explanation_en": "रात is the night. It is feminine and ends in a consonant, so the gender has to be learned — and it is worth the effort, because it sits beside दिन in dozens of everyday phrases and the two take opposite forms. Get into the habit of saying ठंडी रात and ठंडा दिन and the pair will stop being a decision.",
+              "examples": [
+                { "hindi": "ठंडी रात", "read_as": "ṭhaṇḍii raat", "english": "a cold night", "note": "ठंडा takes -ी because रात is feminine." },
+                { "hindi": "लंबी रात", "read_as": "lambii raat", "english": "a long night", "note": "Compare लंबा दिन, where the same adjective takes -ा." },
+                { "hindi": "दो रातें", "read_as": "do raateṁ", "english": "two nights", "note": "Feminine consonant endings take -एँ." }
+              ],
+              "common_error": {
+                "wrong": "ठंडा रात",
+                "right": "ठंडी रात",
+                "why_en": "रात is feminine despite its consonant ending, so the adjective takes -ी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "रात",
+              "question_read_as": "raat",
+              "options": ["night", "evening", "morning", "noon"],
+              "options_read_as": ["night", "evening", "morning", "noon"],
+              "answer_index": 0,
+              "explanation_en": "रात is night. शाम is the evening before it."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ रात — का, के or की?",
+              "options": ["का", "कि", "की", "के"],
+              "options_read_as": ["kaa", "ki", "kii", "ke"],
+              "answer_index": 2,
+              "explanation_en": "रात is feminine, so की — while दिन, also a consonant ending, takes का."
+            }
+          },
+          "audio": {
+            "tts_strings": ["रात", "ठंडी रात", "रातें"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L44-I3",
+          "type": "word",
+          "target": "सुबह",
+          "read_as": "subah",
+          "pronunciation_notes": "The final ह colours the vowel before it rather than sounding separately: subah in two syllables.",
+          "gloss_en": "morning",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "time",
+          "plural": "सुबहें",
+          "plural_read_as": "subaheṁ",
+          "difficulty": 3,
+          "tags": ["time", "noun", "feminine", "consonant_ending", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "सुबह — morning",
+              "explanation_en": "सुबह is the morning. It is feminine and ends in a consonant, so the gender is unpredictable. The plural सुबहें exists but is rarely needed, since mornings are usually spoken of one at a time. You met the word in Module 2 as an example of the light final ह.",
+              "examples": [
+                { "hindi": "अच्छी सुबह", "read_as": "achchhii subah", "english": "a good morning", "note": "अच्छा takes -ी because सुबह is feminine." },
+                { "hindi": "सुबह उठना", "read_as": "subah uṭhnaa", "english": "to get up in the morning", "note": "The time comes before the verb." },
+                { "hindi": "ठंडी सुबह", "read_as": "ṭhaṇḍii subah", "english": "a cold morning", "note": "The feminine adjective ending again." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सुबह",
+              "question_read_as": "subah",
+              "options": ["evening", "noon", "morning", "dawn"],
+              "options_read_as": ["evening", "noon", "morning", "dawn"],
+              "answer_index": 2,
+              "explanation_en": "सुबह is the morning. शाम is the evening."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ सुबह — का, के or की?",
+              "options": ["की", "का", "के", "कि"],
+              "options_read_as": ["kii", "kaa", "ke", "ki"],
+              "answer_index": 0,
+              "explanation_en": "सुबह is feminine, so की."
+            }
+          },
+          "audio": {
+            "tts_strings": ["सुबह", "अच्छी सुबह", "सुबह उठना"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level began the time words with दिन, रात and सुबह. दिन and रात are the pair to fix: both end in consonants, they appear together constantly, and their genders are opposite.",
+        "key_forms": ["दिन", "रात", "सुबह"],
+        "next_up_en": "Next: शाम, महीना and साल."
+      }
+    },
+    {
+      "level": 45,
+      "title_en": "Evening, month, year",
+      "title_hi": "शाम महीना साल",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L45-I1",
+          "type": "word",
+          "target": "शाम",
+          "read_as": "shaam",
+          "pronunciation_notes": "The श is the sh of English 'ship', and the final vowel drops: shaam, one syllable.",
+          "gloss_en": "evening",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "time",
+          "plural": "शामें",
+          "plural_read_as": "shaameṁ",
+          "difficulty": 3,
+          "tags": ["time", "noun", "feminine", "consonant_ending", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "शाम — evening",
+              "explanation_en": "शाम is the evening, the stretch between afternoon and night. It is feminine and ends in a consonant, so the gender is unpredictable — though by now the pattern in this section is clear: रात, सुबह and शाम are all feminine, and only दिन is masculine.",
+              "examples": [
+                { "hindi": "अच्छी शाम", "read_as": "achchhii shaam", "english": "a good evening", "note": "अच्छा takes -ी because शाम is feminine." },
+                { "hindi": "ठंडी शाम", "read_as": "ṭhaṇḍii shaam", "english": "a cool evening", "note": "The feminine adjective ending again." },
+                { "hindi": "सुबह और शाम", "read_as": "subah aur shaam", "english": "morning and evening", "note": "Two feminine nouns, both ending in consonants." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "शाम",
+              "question_read_as": "shaam",
+              "options": ["morning", "night", "noon", "evening"],
+              "options_read_as": ["morning", "night", "noon", "evening"],
+              "answer_index": 3,
+              "explanation_en": "शाम is the evening. रात is the night that follows."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ शाम — का, के or की?",
+              "options": ["का", "की", "के", "कि"],
+              "options_read_as": ["kaa", "kii", "ke", "ki"],
+              "answer_index": 1,
+              "explanation_en": "शाम is feminine, so की."
+            }
+          },
+          "audio": {
+            "tts_strings": ["शाम", "अच्छी शाम", "सुबह और शाम"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L45-I2",
+          "type": "word",
+          "target": "महीना",
+          "read_as": "mahiinaa",
+          "pronunciation_notes": "Three syllables with a long middle vowel: mahiinaa.",
+          "gloss_en": "month",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "time",
+          "plural": "महीने",
+          "plural_read_as": "mahiine",
+          "difficulty": 3,
+          "tags": ["time", "noun", "masculine", "aa_ending", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "महीना — month",
+              "explanation_en": "महीना is a month. It is masculine and ends in -ा, so the gender is predictable and the plural becomes महीने — the first time word in this section whose ending tells you anything. Do not confuse it with महँगा, which is expensive and carries a crescent.",
+              "examples": [
+                { "hindi": "पूरा महीना", "read_as": "puuraa mahiinaa", "english": "a whole month", "note": "पूरा takes -ा because महीना is masculine." },
+                { "hindi": "दो महीने", "read_as": "do mahiine", "english": "two months", "note": "The -ा becomes -े in the plural." },
+                { "hindi": "महीना और साल", "read_as": "mahiinaa aur saal", "english": "a month and a year", "note": "Both masculine, but only one has a helpful ending." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "महीना",
+              "question_read_as": "mahiinaa",
+              "options": ["a week", "a month", "a year", "a season"],
+              "options_read_as": ["a week", "a month", "a year", "a season"],
+              "answer_index": 1,
+              "explanation_en": "महीना is a month. साल is a year."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ महीना — का, के or की?",
+              "options": ["की", "कि", "के", "का"],
+              "options_read_as": ["kii", "ki", "ke", "kaa"],
+              "answer_index": 3,
+              "explanation_en": "महीना is masculine, so का. The -ा ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["महीना", "पूरा महीना", "दो महीने"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L45-I3",
+          "type": "word",
+          "target": "साल",
+          "read_as": "saal",
+          "pronunciation_notes": "A clear l at the end, kept bright rather than darkened as English would: saal.",
+          "gloss_en": "year",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "time",
+          "plural": "साल",
+          "plural_read_as": "saal",
+          "difficulty": 3,
+          "tags": ["time", "noun", "masculine", "consonant_ending", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "साल — year",
+              "explanation_en": "साल is a year. It is masculine and ends in a consonant, so the gender is unpredictable, and the plural does not change — दो साल is two years, with no ending added. The more formal वर्ष appears in writing and in official language, but साल is what you will hear.",
+              "examples": [
+                { "hindi": "पूरा साल", "read_as": "puuraa saal", "english": "a whole year", "note": "पूरा takes -ा because साल is masculine." },
+                { "hindi": "दो साल", "read_as": "do saal", "english": "two years", "note": "The plural is identical to the singular." },
+                { "hindi": "नया साल", "read_as": "nayaa saal", "english": "a new year", "note": "नया keeps its य in the masculine singular." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "साल",
+              "question_read_as": "saal",
+              "options": ["a day", "a month", "a year", "an age"],
+              "options_read_as": ["a day", "a month", "a year", "an age"],
+              "answer_index": 2,
+              "explanation_en": "साल is a year. The formal word वर्ष means the same thing."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ साल — का, के or की?",
+              "options": ["का", "की", "के", "कि"],
+              "options_read_as": ["kaa", "kii", "ke", "ki"],
+              "answer_index": 0,
+              "explanation_en": "साल is masculine, so का. Its consonant ending gives no clue."
+            }
+          },
+          "audio": {
+            "tts_strings": ["साल", "पूरा साल", "नया साल"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added शाम, महीना and साल. Of the six time words so far, only महीना carries an ending that reveals its gender — the other five all have to be memorised.",
+        "key_forms": ["शाम", "महीना", "साल"],
+        "next_up_en": "Next: the last four time words, and then the question words that end the module."
+      }
+    }
+  ]
+}

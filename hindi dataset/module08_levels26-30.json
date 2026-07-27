@@ -1,0 +1,1715 @@
+{
+  "module": 8,
+  "module_name_en": "Core Words II",
+  "module_name_hi": "शब्द भंडार २",
+  "phase": 4,
+  "type": "word",
+  "batch": {
+    "levels_from": 26,
+    "levels_to": 30
+  },
+  "learner_knows_through_module": 7,
+  "levels": [
+    {
+      "level": 26,
+      "title_en": "Study: memory, difficulty, learning",
+      "title_hi": "याद · मुश्किल · सीखना",
+      "category": "school_study",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L26-I1",
+          "type": "word",
+          "target": "याद",
+          "read_as": "yaad",
+          "pronunciation_notes": "One long syllable beginning with a य glide: yaad.",
+          "gloss_en": "memory; the state of remembering",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "यादें",
+          "plural_read_as": "yaadeṁ",
+          "collocation": {
+            "hindi": "याद आना",
+            "read_as": "yaad aanaa",
+            "english": "to come to mind"
+          },
+          "category": "school_study",
+          "difficulty": 7,
+          "tags": [
+            "school_study",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "three_collocations",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Three verbs, three different kinds of remembering",
+              "explanation_en": "याद is the richest collocation in this module because it takes three verbs and each means something distinct. याद आना is remembering by itself — मुझे याद आया, it came back to me. याद करना is deliberate: memorising, or thinking of someone. याद रखना is keeping something in mind for later. English uses remember for all three and Hindi will not, so the verb you choose says what kind of remembering you mean. याद is feminine and flagged.",
+              "examples": [
+                {
+                  "hindi": "मुझे याद आया",
+                  "read_as": "mujhe yaad aayaa",
+                  "english": "I remembered",
+                  "note": "It came to me — आना is intransitive, so the perfective works now."
+                },
+                {
+                  "hindi": "याद रखो",
+                  "read_as": "yaad rakho",
+                  "english": "keep it in mind",
+                  "note": "रखना for holding on to something deliberately."
+                },
+                {
+                  "hindi": "मुझे याद नहीं",
+                  "read_as": "mujhe yaad nahiiṁ",
+                  "english": "I do not remember",
+                  "note": "The auxiliary is dropped after नहीं, as usual."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं याद करता हूँ तुम्हें",
+                "right": "मुझे तुम्हारी याद आती है",
+                "why_en": "याद करना is deliberate recall or memorising. For missing someone, Hindi uses याद आना with the person in the possessive."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "याद",
+              "question_read_as": "yaad",
+              "options": [
+                "memory",
+                "idea",
+                "attention",
+                "habit"
+              ],
+              "options_read_as": [
+                "memory",
+                "idea",
+                "attention",
+                "habit"
+              ],
+              "answer_index": 0,
+              "explanation_en": "याद is memory or the state of remembering, and it is feminine."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with याद when something comes back to you on its own?",
+              "options": [
+                "करना",
+                "रखना",
+                "लेना",
+                "आना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "rakhnaa",
+                "lenaa",
+                "aanaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "याद आना — it comes to you. करना is deliberate recall and रखना is keeping it in mind."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "याद",
+              "मुझे याद आया",
+              "याद रखो",
+              "मुझे याद नहीं"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L26-I2",
+          "type": "word",
+          "target": "मुश्किल",
+          "read_as": "mushkil",
+          "pronunciation_notes": "The श्क cluster runs together with no vowel between: mush-kil.",
+          "gloss_en": "difficult; also a difficulty",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "unmarked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "मुश्किल होना",
+            "read_as": "mushkil honaa",
+            "english": "to be difficult"
+          },
+          "category": "school_study",
+          "difficulty": 6,
+          "tags": [
+            "school_study",
+            "adjective",
+            "unmarked_adjective",
+            "invariant",
+            "also_a_noun",
+            "arabic_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मुश्किल is both the adjective and the noun",
+              "explanation_en": "मुश्किल means difficult, and it is unmarked so it never changes: सवाल मुश्किल है, बात मुश्किल है. The same word is also a feminine noun meaning a difficulty — मुश्किल में हूँ, I am in trouble — and context tells you which. That double life is common with Arabic and Persian borrowings in Hindi. Its opposite is आसान, easy, which is also unmarked, so neither of the pair will ever ask you for an ending.",
+              "examples": [
+                {
+                  "hindi": "यह सवाल मुश्किल है",
+                  "read_as": "yah savaal mushkil hai",
+                  "english": "this question is difficult",
+                  "note": "A masculine subject, and the adjective is unchanged."
+                },
+                {
+                  "hindi": "यह बात मुश्किल है",
+                  "read_as": "yah baat mushkil hai",
+                  "english": "this is a difficult matter",
+                  "note": "A feminine subject, and still मुश्किल."
+                },
+                {
+                  "hindi": "हिंदी आसान है",
+                  "read_as": "hindii aasaan hai",
+                  "english": "Hindi is easy",
+                  "note": "आसान is the opposite, and also unmarked."
+                }
+              ],
+              "common_error": {
+                "wrong": "यह बात मुश्किली है",
+                "right": "यह बात मुश्किल है",
+                "why_en": "मुश्किल does not take an ending for gender. Adding -ी to make it feminine produces a word that does not exist."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "मुश्किल",
+              "question_read_as": "mushkil",
+              "options": [
+                "easy",
+                "important",
+                "difficult",
+                "necessary"
+              ],
+              "options_read_as": [
+                "easy",
+                "important",
+                "difficult",
+                "necessary"
+              ],
+              "answer_index": 2,
+              "explanation_en": "मुश्किल is difficult, and the same word is also a noun meaning a difficulty."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with मुश्किल?",
+              "options": [
+                "लगना",
+                "होना",
+                "आना",
+                "करना"
+              ],
+              "options_read_as": [
+                "lagnaa",
+                "honaa",
+                "aanaa",
+                "karnaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "मुश्किल होना. Adjectives of state take होना throughout this module."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुश्किल",
+              "यह सवाल मुश्किल है",
+              "यह बात मुश्किल है",
+              "हिंदी आसान है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L26-I3",
+          "type": "word",
+          "target": "सीखना",
+          "read_as": "siikhnaa",
+          "pronunciation_notes": "Long ii then an aspirated kh with no vowel between it and the न: siikh-naa.",
+          "gloss_en": "to learn",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "हिंदी सीखना",
+            "read_as": "hindii siikhnaa",
+            "english": "to learn Hindi"
+          },
+          "category": "school_study",
+          "difficulty": 6,
+          "tags": [
+            "school_study",
+            "verb",
+            "transitive",
+            "contrast_set",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सीखना, पढ़ना, समझना — three different things",
+              "explanation_en": "सीखना is to learn, in the sense of acquiring a skill you did not have. पढ़ना is to read or to study, the activity you do at a desk. समझना is to understand, the moment it clicks. English blurs the first two constantly — I am learning Hindi and I am studying Hindi are near-identical — and Hindi keeps them apart. मैं हिंदी सीख रहा हूँ says you are acquiring the language; मैं हिंदी पढ़ रहा हूँ says you are reading it right now.",
+              "examples": [
+                {
+                  "hindi": "मैं हिंदी सीख रहा हूँ",
+                  "read_as": "maiṁ hindii siikh rahaa huuṁ",
+                  "english": "I am learning Hindi",
+                  "note": "The continuous — सीखना is transitive, so the perfective waits for Module 9."
+                },
+                {
+                  "hindi": "वह जल्दी सीखता है",
+                  "read_as": "vah jaldii siikhtaa hai",
+                  "english": "he learns quickly",
+                  "note": "जल्दी means quickly and does not change."
+                },
+                {
+                  "hindi": "मैं सीखना चाहता हूँ",
+                  "read_as": "maiṁ siikhnaa chaahtaa huuṁ",
+                  "english": "I want to learn",
+                  "note": "चाहना takes the plain infinitive in front of it."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं हिंदी पढ़ रहा हूँ",
+                "right": "मैं हिंदी सीख रहा हूँ",
+                "why_en": "Not wrong, but it means you are reading Hindi at this moment. For acquiring the language, the verb is सीखना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सीखना",
+              "question_read_as": "siikhnaa",
+              "options": [
+                "to teach",
+                "to understand",
+                "to read",
+                "to learn"
+              ],
+              "options_read_as": [
+                "to teach",
+                "to understand",
+                "to read",
+                "to learn"
+              ],
+              "answer_index": 3,
+              "explanation_en": "सीखना is to learn a skill. सिखाना is to teach, formed with the same long aa that made चलाना from चलना."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb means acquiring a language rather than reading it?",
+              "options": [
+                "सीखना",
+                "समझना",
+                "पढ़ना",
+                "देखना"
+              ],
+              "options_read_as": [
+                "siikhnaa",
+                "samajhnaa",
+                "paṛhnaa",
+                "dekhnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "सीखना is acquiring the skill. पढ़ना is reading or studying, and समझना is understanding."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सीखना",
+              "मैं हिंदी सीख रहा हूँ",
+              "वह जल्दी सीखता है",
+              "मैं सीखना चाहता हूँ"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The school block is complete at twelve words. याद is the module's richest collocation — आना for spontaneous recall, करना for deliberate memorising, रखना for keeping in mind — and सीखना, पढ़ना and समझना stay separate where English blurs them.",
+        "key_forms": [
+          "याद आना",
+          "मुश्किल होना",
+          "हिंदी सीखना"
+        ],
+        "next_up_en": "Next: shopping and money, starting with the shop, the cash and the price."
+      }
+    },
+    {
+      "level": 27,
+      "title_en": "Money: shop, money, price",
+      "title_hi": "दुकान · पैसा · क़ीमत",
+      "category": "shopping_money",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L27-I1",
+          "type": "word",
+          "target": "दुकान",
+          "read_as": "dukaan",
+          "pronunciation_notes": "The first syllable is short and the second long: du-kaan.",
+          "gloss_en": "shop",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "दुकानें",
+          "plural_read_as": "dukaaneṁ",
+          "collocation": {
+            "hindi": "दुकान जाना",
+            "read_as": "dukaan jaanaa",
+            "english": "to go to the shop"
+          },
+          "category": "shopping_money",
+          "difficulty": 6,
+          "tags": [
+            "shopping_money",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "class_5",
+            "arabic_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "दुकान is feminine, and it is a Class 5 noun",
+              "explanation_en": "दुकान is a shop, feminine and flagged since the consonant ending predicts nothing. It is Class 5, so it does not change in the singular and takes दुकानों in the oblique plural. Like any destination it takes no postposition with जाना — दुकान जाओ — but with से it means from the shop, which is what you use when saying where you bought something.",
+              "examples": [
+                {
+                  "hindi": "दुकान जाओ",
+                  "read_as": "dukaan jaao",
+                  "english": "go to the shop",
+                  "note": "The destination takes no postposition, as always with जाना."
+                },
+                {
+                  "hindi": "यह दुकान बड़ी है",
+                  "read_as": "yah dukaan baṛii hai",
+                  "english": "this shop is big",
+                  "note": "बड़ी is feminine, which proves दुकान is."
+                },
+                {
+                  "hindi": "दुकानों में",
+                  "read_as": "dukaanoṁ meṁ",
+                  "english": "in the shops",
+                  "note": "The Class 5 oblique plural takes plain -ों."
+                }
+              ],
+              "common_error": {
+                "wrong": "यह दुकान बड़ा है",
+                "right": "यह दुकान बड़ी है",
+                "why_en": "दुकान is feminine. The consonant ending gives no clue at all, which is why it carries a flag."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दुकान",
+              "question_read_as": "dukaan",
+              "options": [
+                "market",
+                "shop",
+                "price",
+                "money"
+              ],
+              "options_read_as": [
+                "market",
+                "shop",
+                "price",
+                "money"
+              ],
+              "answer_index": 1,
+              "explanation_en": "दुकान is a shop, feminine, and it declines like किताब."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with दुकान?",
+              "options": [
+                "करना",
+                "लेना",
+                "जाना",
+                "मिलना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "lenaa",
+                "jaanaa",
+                "milnaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "दुकान जाना — and the destination takes no postposition."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दुकान",
+              "दुकान जाओ",
+              "यह दुकान बड़ी है",
+              "दुकानों में"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L27-I2",
+          "type": "word",
+          "target": "पैसा",
+          "read_as": "paisaa",
+          "pronunciation_notes": "The first syllable holds a diphthong close to the vowel in English 'pie': pai-saa.",
+          "gloss_en": "money; a coin",
+          "gender": "m",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "पैसे",
+          "plural_read_as": "paise",
+          "collocation": {
+            "hindi": "पैसे देना",
+            "read_as": "paise denaa",
+            "english": "to pay"
+          },
+          "category": "shopping_money",
+          "difficulty": 6,
+          "tags": [
+            "shopping_money",
+            "noun",
+            "masculine",
+            "class_1",
+            "plural_meaning",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Money is plural in Hindi",
+              "explanation_en": "पैसा in the singular is a coin — historically a hundredth of a rupee. Money in general is पैसे, the plural, and that is what you will use almost every time: पैसे दो, pay up; मेरे पास पैसे नहीं हैं, I have no money. English treats money as singular and Hindi does not, so the verb goes plural too. पैसा is Class 1, so it becomes पैसे in the plural and पैसों before a postposition.",
+              "examples": [
+                {
+                  "hindi": "पैसे दो",
+                  "read_as": "paise do",
+                  "english": "pay",
+                  "note": "The plural is the ordinary form for money."
+                },
+                {
+                  "hindi": "मेरे पास पैसे नहीं हैं",
+                  "read_as": "mere paas paise nahiiṁ haiṁ",
+                  "english": "I have no money",
+                  "note": "मेरे पास is the have construction from Module 6, and हैं is plural."
+                },
+                {
+                  "hindi": "पैसों की बात",
+                  "read_as": "paisoṁ kii baat",
+                  "english": "a matter of money",
+                  "note": "पैसों is the oblique plural before की."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेरे पास पैसा नहीं है",
+                "right": "मेरे पास पैसे नहीं हैं",
+                "why_en": "The singular would mean you do not have one coin. Money in general is plural in Hindi, and the verb follows."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पैसा",
+              "question_read_as": "paisaa",
+              "options": [
+                "price",
+                "bill",
+                "money",
+                "change"
+              ],
+              "options_read_as": [
+                "price",
+                "bill",
+                "money",
+                "change"
+              ],
+              "answer_index": 2,
+              "explanation_en": "पैसा is money, and the plural पैसे is the form you will use almost always."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with पैसे when you pay?",
+              "options": [
+                "करना",
+                "देना",
+                "लेना",
+                "मिलना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "denaa",
+                "lenaa",
+                "milnaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "पैसे देना — to pay. पैसे लेना would be taking money from someone."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पैसा",
+              "पैसे दो",
+              "मेरे पास पैसे नहीं हैं",
+              "पैसों की बात"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L27-I3",
+          "type": "word",
+          "target": "क़ीमत",
+          "read_as": "qiimat",
+          "pronunciation_notes": "The dotted क़ is made deep in the throat, further back than a plain क: qii-mat.",
+          "gloss_en": "price, value",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "क़ीमतें",
+          "plural_read_as": "qiimateṁ",
+          "collocation": {
+            "hindi": "क़ीमत होना",
+            "read_as": "qiimat honaa",
+            "english": "for something to cost"
+          },
+          "category": "shopping_money",
+          "difficulty": 7,
+          "tags": [
+            "shopping_money",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "nukta",
+            "arabic_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "क़ीमत, and the question you will actually ask",
+              "explanation_en": "क़ीमत is the price, feminine and flagged. In a shop you are more likely to hear यह कितने का है — how much is this, literally this is of how much — than the more formal क़ीमत क्या है. Both work. क़ीमत also means value in the abstract sense, so किसी चीज़ की क़ीमत is what something is worth. Note the dotted क़, which is pronounced further back in the throat than a plain क.",
+              "examples": [
+                {
+                  "hindi": "यह कितने का है?",
+                  "read_as": "yah kitne kaa hai?",
+                  "english": "how much is this?",
+                  "note": "कितने is oblique before का — the everyday way to ask a price."
+                },
+                {
+                  "hindi": "क़ीमत ज़्यादा है",
+                  "read_as": "qiimat zyaadaa hai",
+                  "english": "the price is high",
+                  "note": "ज़्यादा is unmarked and means more or excessive."
+                },
+                {
+                  "hindi": "क़ीमतें बढ़ रही हैं",
+                  "read_as": "qiimateṁ baṛh rahii haiṁ",
+                  "english": "prices are rising",
+                  "note": "बढ़ना is intransitive, and रही agrees with the feminine plural."
+                }
+              ],
+              "common_error": {
+                "wrong": "क़ीमत ज़्यादा हैं",
+                "right": "क़ीमत ज़्यादा है",
+                "why_en": "One price is singular. The plural क़ीमतें would need हैं, but the singular takes है."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "क़ीमत",
+              "question_read_as": "qiimat",
+              "options": [
+                "price",
+                "bill",
+                "discount",
+                "change"
+              ],
+              "options_read_as": [
+                "price",
+                "bill",
+                "discount",
+                "change"
+              ],
+              "answer_index": 0,
+              "explanation_en": "क़ीमत is the price or value, and it is feminine."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which question actually asks a price in a shop?",
+              "options": [
+                "यह कहाँ है?",
+                "यह क्या है?",
+                "यह कैसा है?",
+                "यह कितने का है?"
+              ],
+              "options_read_as": [
+                "yah kahaaṁ hai?",
+                "yah kyaa hai?",
+                "yah kaisaa hai?",
+                "yah kitne kaa hai?"
+              ],
+              "answer_index": 3,
+              "explanation_en": "यह कितने का है — literally this is of how much. More common than asking क़ीमत directly."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "क़ीमत",
+              "यह कितने का है?",
+              "क़ीमत ज़्यादा है",
+              "क़ीमतें बढ़ रही हैं"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Money is plural in Hindi — पैसे, with a plural verb — where English treats it as singular. दुकान and क़ीमत are both feminine with consonant endings that predict nothing, and the everyday way to ask a price is यह कितने का है rather than anything containing क़ीमत.",
+        "key_forms": [
+          "दुकान जाना",
+          "पैसे देना",
+          "यह कितने का है"
+        ],
+        "next_up_en": "Next: expensive, cheap and the discount you will try to get."
+      }
+    },
+    {
+      "level": 28,
+      "title_en": "Money: expensive, cheap, discount",
+      "title_hi": "महँगा · सस्ता · छूट",
+      "category": "shopping_money",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L28-I1",
+          "type": "word",
+          "target": "महँगा",
+          "read_as": "mahaṁgaa",
+          "pronunciation_notes": "The nasal hum sits on the middle syllable: ma-haṁ-gaa.",
+          "gloss_en": "expensive",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "marked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "महँगा होना",
+            "read_as": "mahaṁgaa honaa",
+            "english": "to be expensive"
+          },
+          "category": "shopping_money",
+          "difficulty": 6,
+          "tags": [
+            "shopping_money",
+            "adjective",
+            "marked_adjective",
+            "agreement",
+            "pairs_with_sasta"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A marked adjective, so it agrees",
+              "explanation_en": "महँगा ends in -ा, which makes it a marked adjective and one of the few in this module that actually changes: महँगा, महँगी, महँगे. Most of Module 8's adjectives have been unmarked and invariable, so this pair is where the Module 6 agreement rules come back into play. यह किताब महँगी है, because किताब is feminine. Getting it wrong here is more visible than usual, because the words it describes are the ones you say out loud in a shop.",
+              "examples": [
+                {
+                  "hindi": "यह महँगा है",
+                  "read_as": "yah mahaṁgaa hai",
+                  "english": "this is expensive",
+                  "note": "A masculine or unspecified subject."
+                },
+                {
+                  "hindi": "यह किताब महँगी है",
+                  "read_as": "yah kitaab mahaṁgii hai",
+                  "english": "this book is expensive",
+                  "note": "किताब is feminine, so the adjective takes -ी."
+                },
+                {
+                  "hindi": "महँगे कपड़े",
+                  "read_as": "mahaṁge kapṛe",
+                  "english": "expensive clothes",
+                  "note": "A masculine plural noun, so the adjective takes -े."
+                }
+              ],
+              "common_error": {
+                "wrong": "यह किताब महँगा है",
+                "right": "यह किताब महँगी है",
+                "why_en": "महँगा is marked, so it agrees. After a run of invariable adjectives it is easy to stop checking."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "महँगा",
+              "question_read_as": "mahaṁgaa",
+              "options": [
+                "cheap",
+                "expensive",
+                "free",
+                "valuable"
+              ],
+              "options_read_as": [
+                "cheap",
+                "expensive",
+                "free",
+                "valuable"
+              ],
+              "answer_index": 1,
+              "explanation_en": "महँगा is expensive, and it agrees with the noun it describes."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which form goes with किताब?",
+              "options": [
+                "महँगा",
+                "महँगे",
+                "महँगी",
+                "महँगों"
+              ],
+              "options_read_as": [
+                "mahaṁgaa",
+                "mahaṁge",
+                "mahaṁgii",
+                "mahaṁgoṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "किताब is feminine, so the marked adjective takes -ी."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "महँगा",
+              "यह महँगा है",
+              "यह किताब महँगी है",
+              "महँगे कपड़े"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L28-I2",
+          "type": "word",
+          "target": "सस्ता",
+          "read_as": "sastaa",
+          "pronunciation_notes": "The स्त cluster runs together with no vowel between: sas-taa.",
+          "gloss_en": "cheap, inexpensive",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "marked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "सस्ता होना",
+            "read_as": "sastaa honaa",
+            "english": "to be cheap"
+          },
+          "category": "shopping_money",
+          "difficulty": 6,
+          "tags": [
+            "shopping_money",
+            "adjective",
+            "marked_adjective",
+            "agreement",
+            "pairs_with_mahanga"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सस्ता carries no insult",
+              "explanation_en": "सस्ता is cheap, marked, and agrees exactly as महँगा does: सस्ता, सस्ती, सस्ते. Worth noting that it does not carry the sneer English cheap can — calling something सस्ता is usually a compliment about the price rather than a complaint about the quality. For poor quality you would say घटिया. The two words to have ready in a shop are बहुत महँगा है and कुछ सस्ता दिखाइए, show me something cheaper.",
+              "examples": [
+                {
+                  "hindi": "यह सस्ता है",
+                  "read_as": "yah sastaa hai",
+                  "english": "this is cheap",
+                  "note": "A compliment about the price, not a complaint."
+                },
+                {
+                  "hindi": "यह दुकान सस्ती है",
+                  "read_as": "yah dukaan sastii hai",
+                  "english": "this shop is cheap",
+                  "note": "दुकान is feminine, so the adjective takes -ी."
+                },
+                {
+                  "hindi": "सस्ते दाम",
+                  "read_as": "saste daam",
+                  "english": "low prices",
+                  "note": "दाम is a masculine plural word for price, so the adjective takes -े."
+                }
+              ],
+              "common_error": {
+                "wrong": "यह दुकान सस्ता है",
+                "right": "यह दुकान सस्ती है",
+                "why_en": "दुकान is feminine, and सस्ता is a marked adjective, so it has to follow."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सस्ता",
+              "question_read_as": "sastaa",
+              "options": [
+                "small",
+                "expensive",
+                "poor quality",
+                "cheap"
+              ],
+              "options_read_as": [
+                "small",
+                "expensive",
+                "poor quality",
+                "cheap"
+              ],
+              "answer_index": 3,
+              "explanation_en": "सस्ता is cheap in the sense of inexpensive, with no suggestion of poor quality."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which form goes with दुकान?",
+              "options": [
+                "सस्ती",
+                "सस्ता",
+                "सस्तों",
+                "सस्ते"
+              ],
+              "options_read_as": [
+                "sastii",
+                "sastaa",
+                "sastoṁ",
+                "saste"
+              ],
+              "answer_index": 0,
+              "explanation_en": "दुकान is feminine, so the marked adjective takes -ी."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सस्ता",
+              "यह सस्ता है",
+              "यह दुकान सस्ती है",
+              "सस्ते दाम"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L28-I3",
+          "type": "word",
+          "target": "छूट",
+          "read_as": "chhuuṭ",
+          "pronunciation_notes": "Aspirated chh at the front and a retroflex ट at the back: chhuuṭ.",
+          "gloss_en": "discount, a concession",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "छूट मिलना",
+            "read_as": "chhuuṭ milnaa",
+            "english": "to get a discount"
+          },
+          "category": "shopping_money",
+          "difficulty": 7,
+          "tags": [
+            "shopping_money",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "milnaa",
+            "bargaining"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "छूट मिलना — a discount is received",
+              "explanation_en": "छूट is a discount, feminine and flagged. Its verb is मिलना, to be received, which is intransitive — so छूट मिली, I got a discount, works in every tense including the perfective. That makes it one of the few shopping words you can use in the past right now. छूट देना also exists and is what the shopkeeper does. The related verb छूटना means to be left behind, which is why a train you miss is छूट गई.",
+              "examples": [
+                {
+                  "hindi": "छूट मिली",
+                  "read_as": "chhuuṭ milii",
+                  "english": "I got a discount",
+                  "note": "मिलना is intransitive, so the perfective is available now."
+                },
+                {
+                  "hindi": "कुछ छूट मिलेगी?",
+                  "read_as": "kuchh chhuuṭ milegii?",
+                  "english": "will there be some discount?",
+                  "note": "The future, and मिलेगी agrees with the feminine छूट."
+                },
+                {
+                  "hindi": "दुकानदार छूट देते हैं",
+                  "read_as": "dukaandaar chhuuṭ dete haiṁ",
+                  "english": "shopkeepers give discounts",
+                  "note": "देना from the shopkeeper's side, with respectful plural agreement."
+                }
+              ],
+              "common_error": {
+                "wrong": "छूट मिला",
+                "right": "छूट मिली",
+                "why_en": "छूट is feminine, so the perfective is मिली. The consonant ending predicts nothing."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "छूट",
+              "question_read_as": "chhuuṭ",
+              "options": [
+                "discount",
+                "bill",
+                "receipt",
+                "change"
+              ],
+              "options_read_as": [
+                "discount",
+                "bill",
+                "receipt",
+                "change"
+              ],
+              "answer_index": 0,
+              "explanation_en": "छूट is a discount, feminine, and it is received with मिलना."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with छूट from the buyer's side?",
+              "options": [
+                "देना",
+                "करना",
+                "लेना",
+                "मिलना"
+              ],
+              "options_read_as": [
+                "denaa",
+                "karnaa",
+                "lenaa",
+                "milnaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "छूट मिलना — the buyer receives it. छूट देना is what the shopkeeper does."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "छूट",
+              "छूट मिली",
+              "कुछ छूट मिलेगी?",
+              "दुकानदार छूट देते हैं"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "महँगा and सस्ता are marked adjectives and agree, which is a change after a long run of invariable ones. छूट takes मिलना from the buyer's side and देना from the seller's — the same two-sided pattern as परीक्षा and क्लास.",
+        "key_forms": [
+          "महँगी किताब",
+          "सस्ती दुकान",
+          "छूट मिलना"
+        ],
+        "next_up_en": "Next: buying, selling, and the person on the other side of the counter."
+      }
+    },
+    {
+      "level": 29,
+      "title_en": "Money: buying and selling",
+      "title_hi": "ख़रीदना · बेचना · दुकानदार",
+      "category": "shopping_money",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L29-I1",
+          "type": "word",
+          "target": "ख़रीदना",
+          "read_as": "khariidnaa",
+          "pronunciation_notes": "The dotted ख़ is far back in the throat and the ii is long: kha-riid-naa.",
+          "gloss_en": "to buy",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "दुकान से ख़रीदना",
+            "read_as": "dukaan se khariidnaa",
+            "english": "to buy from a shop"
+          },
+          "category": "shopping_money",
+          "difficulty": 7,
+          "tags": [
+            "shopping_money",
+            "verb",
+            "transitive",
+            "nukta",
+            "persian_origin",
+            "pairs_with_bechna"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ख़रीदना, and where you bought it takes से",
+              "explanation_en": "ख़रीदना is to buy, and the place you bought from takes से: मैं दुकान से ख़रीदता हूँ. That is the same से you met in बस से and स्टेशन से दूर — it covers from in all its senses. ख़रीदना is transitive, so its perfective needs ने and is not available yet. For small everyday purchases Hindi often uses लेना instead, which is gentler and shorter: दूध लो, get some milk.",
+              "examples": [
+                {
+                  "hindi": "मैं दुकान से ख़रीदता हूँ",
+                  "read_as": "maiṁ dukaan se khariidtaa huuṁ",
+                  "english": "I buy from the shop",
+                  "note": "से for the source, and दुकान is oblique before it."
+                },
+                {
+                  "hindi": "मैं यह ख़रीदूँगा",
+                  "read_as": "maiṁ yah khariiduuṁgaa",
+                  "english": "I will buy this",
+                  "note": "The future, which is safe with any verb."
+                },
+                {
+                  "hindi": "क्या तुम ख़रीद रहे हो?",
+                  "read_as": "kyaa tum khariid rahe ho?",
+                  "english": "are you buying?",
+                  "note": "The continuous, with तुम taking रहे and हो."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं दुकान में ख़रीदता हूँ",
+                "right": "मैं दुकान से ख़रीदता हूँ",
+                "why_en": "में would mean you are inside the shop doing the buying. The source of a purchase takes से."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "ख़रीदना",
+              "question_read_as": "khariidnaa",
+              "options": [
+                "to sell",
+                "to pay",
+                "to buy",
+                "to choose"
+              ],
+              "options_read_as": [
+                "to sell",
+                "to pay",
+                "to buy",
+                "to choose"
+              ],
+              "answer_index": 2,
+              "explanation_en": "ख़रीदना is to buy, and it is transitive."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition marks where you bought something?",
+              "options": [
+                "में",
+                "से",
+                "पर",
+                "को"
+              ],
+              "options_read_as": [
+                "meṁ",
+                "se",
+                "par",
+                "ko"
+              ],
+              "answer_index": 1,
+              "explanation_en": "दुकान से ख़रीदना — the source takes से."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ख़रीदना",
+              "मैं दुकान से ख़रीदता हूँ",
+              "मैं यह ख़रीदूँगा",
+              "क्या तुम ख़रीद रहे हो?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L29-I2",
+          "type": "word",
+          "target": "बेचना",
+          "read_as": "bechnaa",
+          "pronunciation_notes": "A clear e in the first syllable and no vowel before the न: bech-naa.",
+          "gloss_en": "to sell",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "सामान बेचना",
+            "read_as": "saamaan bechnaa",
+            "english": "to sell goods"
+          },
+          "category": "shopping_money",
+          "difficulty": 7,
+          "tags": [
+            "shopping_money",
+            "verb",
+            "transitive",
+            "pairs_with_khariidna",
+            "two_sides"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बेचना, and who you sell to takes को",
+              "explanation_en": "बेचना is to sell, and it completes the pair with ख़रीदना. Note the postpositions: you buy from a place with से and you sell to a person with को — मैं उसे बेचता हूँ. That is the same split you met with पूछना taking से and देना taking को, and it holds generally. Anything moving away from you towards a person uses को; anything coming from a source uses से.",
+              "examples": [
+                {
+                  "hindi": "वह सामान बेचता है",
+                  "read_as": "vah saamaan bechtaa hai",
+                  "english": "he sells goods",
+                  "note": "The habitual — बेचना is transitive, so the perfective waits."
+                },
+                {
+                  "hindi": "यह दुकान कपड़े बेचती है",
+                  "read_as": "yah dukaan kapṛe bechtii hai",
+                  "english": "this shop sells clothes",
+                  "note": "बेचती agrees with दुकान, which is feminine."
+                },
+                {
+                  "hindi": "मैं नहीं बेचूँगा",
+                  "read_as": "maiṁ nahiiṁ bechuuṁgaa",
+                  "english": "I will not sell",
+                  "note": "नहीं in front of the verb, and the future is safe."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं उससे बेचता हूँ",
+                "right": "मैं उसे बेचता हूँ",
+                "why_en": "You sell to a person, so को — which fuses into उसे. से would mean you are selling from him."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बेचना",
+              "question_read_as": "bechnaa",
+              "options": [
+                "to buy",
+                "to sell",
+                "to give",
+                "to keep"
+              ],
+              "options_read_as": [
+                "to buy",
+                "to sell",
+                "to give",
+                "to keep"
+              ],
+              "answer_index": 1,
+              "explanation_en": "बेचना is to sell, and it pairs with ख़रीदना."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition marks the person you sell to?",
+              "options": [
+                "को",
+                "से",
+                "पर",
+                "में"
+              ],
+              "options_read_as": [
+                "ko",
+                "se",
+                "par",
+                "meṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "उसे बेचना — selling to a person takes को, while buying from a source takes से."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बेचना",
+              "वह सामान बेचता है",
+              "यह दुकान कपड़े बेचती है",
+              "मैं नहीं बेचूँगा"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L29-I3",
+          "type": "word",
+          "target": "दुकानदार",
+          "read_as": "dukaandaar",
+          "pronunciation_notes": "Four syllables with the length on the last: du-kaan-daar.",
+          "gloss_en": "shopkeeper",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "दुकानदार",
+          "plural_read_as": "dukaandaar",
+          "collocation": {
+            "hindi": "दुकानदार से पूछना",
+            "read_as": "dukaandaar se puuchhnaa",
+            "english": "to ask the shopkeeper"
+          },
+          "category": "shopping_money",
+          "difficulty": 7,
+          "tags": [
+            "shopping_money",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "suffix_daar",
+            "class_2",
+            "profession"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The -दार suffix makes the person who holds something",
+              "explanation_en": "दुकानदार is a shopkeeper — दुकान plus -दार, a Persian suffix meaning one who holds or keeps. It is productive, so once you see it you can read a whole family of words: ज़िम्मेदार, one who holds responsibility; समझदार, one who has understanding; ईमानदार, honest. All are masculine by default and all are Class 2, so nothing changes in the plural. As with any person you ask, दुकानदार takes से with पूछना.",
+              "examples": [
+                {
+                  "hindi": "दुकानदार से पूछो",
+                  "read_as": "dukaandaar se puuchho",
+                  "english": "ask the shopkeeper",
+                  "note": "पूछना takes से for the person asked."
+                },
+                {
+                  "hindi": "दुकानदार अच्छे हैं",
+                  "read_as": "dukaandaar achchhe haiṁ",
+                  "english": "the shopkeeper is nice",
+                  "note": "Plural agreement for a stranger, as a mark of politeness."
+                },
+                {
+                  "hindi": "वह समझदार है",
+                  "read_as": "vah samajhdaar hai",
+                  "english": "he is sensible",
+                  "note": "The same -दार suffix, on समझ rather than दुकान."
+                }
+              ],
+              "common_error": {
+                "wrong": "दुकानदार को पूछो",
+                "right": "दुकानदार से पूछो",
+                "why_en": "पूछना always takes से for the person asked. को belongs with देना and बेचना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दुकानदार",
+              "question_read_as": "dukaandaar",
+              "options": [
+                "customer",
+                "owner",
+                "seller",
+                "shopkeeper"
+              ],
+              "options_read_as": [
+                "customer",
+                "owner",
+                "seller",
+                "shopkeeper"
+              ],
+              "answer_index": 3,
+              "explanation_en": "दुकानदार is a shopkeeper, built from दुकान plus the suffix -दार."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition goes with दुकानदार when you ask them something?",
+              "options": [
+                "को",
+                "में",
+                "से",
+                "पर"
+              ],
+              "options_read_as": [
+                "ko",
+                "meṁ",
+                "se",
+                "par"
+              ],
+              "answer_index": 2,
+              "explanation_en": "दुकानदार से पूछना — पूछना takes से for the person asked."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दुकानदार",
+              "दुकानदार से पूछो",
+              "दुकानदार अच्छे हैं",
+              "वह समझदार है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "You buy from a source with से and sell to a person with को, which is the same split as पूछना and देना. The suffix -दार makes the person who holds something, and it is productive enough to let you read words nobody has taught you.",
+        "key_forms": [
+          "दुकान से ख़रीदना",
+          "उसे बेचना",
+          "दुकानदार से पूछना"
+        ],
+        "next_up_en": "Next: rupees and the bill, and a conversation at the counter."
+      }
+    },
+    {
+      "level": 30,
+      "title_en": "Money: rupees and the bill",
+      "title_hi": "रुपया · बिल",
+      "category": "shopping_money",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M08-L30-I1",
+          "type": "word",
+          "target": "रुपया",
+          "read_as": "rupayaa",
+          "pronunciation_notes": "Three light syllables with the length only on the last: ru-pa-yaa.",
+          "gloss_en": "rupee",
+          "gender": "m",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "रुपये",
+          "plural_read_as": "rupaye",
+          "collocation": {
+            "hindi": "रुपये देना",
+            "read_as": "rupaye denaa",
+            "english": "to pay in rupees"
+          },
+          "category": "shopping_money",
+          "difficulty": 6,
+          "tags": [
+            "shopping_money",
+            "noun",
+            "masculine",
+            "class_1",
+            "plural_with_numbers",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "With any number above one, use the plural",
+              "explanation_en": "रुपया is a rupee, masculine and Class 1, so its plural is रुपये. That plural is what you use with every number above one — दो रुपये, सौ रुपये — and English speakers often leave it singular by mistake. Note that this is a genuine plural rather than the general-money plural you saw in पैसे: रुपये are countable and पैसे is money in the mass. In the oblique it becomes रुपयों, as any Class 1 noun does.",
+              "examples": [
+                {
+                  "hindi": "दो रुपये",
+                  "read_as": "do rupaye",
+                  "english": "two rupees",
+                  "note": "A number above one, so the plural."
+                },
+                {
+                  "hindi": "यह सौ रुपये का है",
+                  "read_as": "yah sau rupaye kaa hai",
+                  "english": "this costs a hundred rupees",
+                  "note": "The का construction for price, agreeing with the masculine यह."
+                },
+                {
+                  "hindi": "रुपये दो",
+                  "read_as": "rupaye do",
+                  "english": "pay up",
+                  "note": "The तुम imperative of देना."
+                }
+              ],
+              "common_error": {
+                "wrong": "दो रुपया",
+                "right": "दो रुपये",
+                "why_en": "Any number above one takes the plural. English says two rupee in Indian speech sometimes, but Hindi does not."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "रुपया",
+              "question_read_as": "rupayaa",
+              "options": [
+                "coin",
+                "note",
+                "rupee",
+                "price"
+              ],
+              "options_read_as": [
+                "coin",
+                "note",
+                "rupee",
+                "price"
+              ],
+              "answer_index": 2,
+              "explanation_en": "रुपया is a rupee, masculine, with the plural रुपये."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which form goes with दो?",
+              "options": [
+                "रुपया",
+                "रुपये",
+                "रुपयों",
+                "रुपयी"
+              ],
+              "options_read_as": [
+                "rupayaa",
+                "rupaye",
+                "rupayoṁ",
+                "rupayii"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Any number above one takes the plural रुपये."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "रुपया",
+              "दो रुपये",
+              "यह सौ रुपये का है",
+              "रुपये दो"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L30-I2",
+          "type": "word",
+          "target": "बिल",
+          "read_as": "bil",
+          "pronunciation_notes": "One short syllable with a light l: bil.",
+          "gloss_en": "bill, invoice",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "बिल",
+          "plural_read_as": "bil",
+          "collocation": {
+            "hindi": "बिल देना",
+            "read_as": "bil denaa",
+            "english": "to pay the bill"
+          },
+          "category": "shopping_money",
+          "difficulty": 6,
+          "tags": [
+            "shopping_money",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "loanword",
+            "class_2",
+            "two_sided_verb"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बिल देना works from both sides",
+              "explanation_en": "बिल is borrowed from English, masculine and Class 2. Its verb is देना, and unusually the same phrase works in both directions: the waiter gives you the bill and you give the money, so बिल दीजिए means bring me the bill and बिल दो can mean pay up. Context sorts it out. The Hindi alternative for settling a bill is बिल चुकाना, which is unambiguous but more formal.",
+              "examples": [
+                {
+                  "hindi": "बिल दीजिए",
+                  "read_as": "bil diijie",
+                  "english": "the bill, please",
+                  "note": "The polite imperative — one of the four irregulars from Module 7."
+                },
+                {
+                  "hindi": "बिल कितने का है?",
+                  "read_as": "bil kitne kaa hai?",
+                  "english": "how much is the bill?",
+                  "note": "The same कितने का shape used for any price."
+                },
+                {
+                  "hindi": "बिल ज़्यादा है",
+                  "read_as": "bil zyaadaa hai",
+                  "english": "the bill is high",
+                  "note": "ज़्यादा is unmarked and never changes."
+                }
+              ],
+              "common_error": {
+                "wrong": "बिल करो",
+                "right": "बिल दीजिए",
+                "why_en": "करना is the default guess and it is wrong. A bill is given, whichever direction it is travelling."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बिल",
+              "question_read_as": "bil",
+              "options": [
+                "bill",
+                "change",
+                "receipt",
+                "coin"
+              ],
+              "options_read_as": [
+                "bill",
+                "change",
+                "receipt",
+                "coin"
+              ],
+              "answer_index": 0,
+              "explanation_en": "बिल is a bill or invoice, masculine, and unchanged in the plural."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with बिल?",
+              "options": [
+                "करना",
+                "लगना",
+                "मिलना",
+                "देना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "lagnaa",
+                "milnaa",
+                "denaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बिल देना — and the same phrase works from both sides of the counter."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बिल",
+              "बिल दीजिए",
+              "बिल कितने का है?",
+              "बिल ज़्यादा है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L30-I3",
+          "type": "dialogue",
+          "target": "छूट मिलेगी",
+          "read_as": "chhuuṭ milegii",
+          "pronunciation_notes": "Both words end on a long ii, which is what marks the feminine agreement.",
+          "gloss_en": "asking for a discount",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "phrase",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "छूट मिलना",
+            "read_as": "chhuuṭ milnaa",
+            "english": "to get a discount"
+          },
+          "category": "shopping_money",
+          "difficulty": 7,
+          "tags": [
+            "shopping_money",
+            "dialogue",
+            "micro_dialogue",
+            "agreement",
+            "bargaining",
+            "future"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Two adjectives and a verb, all agreeing with different things",
+              "explanation_en": "The first two lines use महँगा and सस्ता with no noun in sight, so they take the default masculine — you are pointing at something unnamed. The last two switch to छूट, which is feminine, so both मिलेगी and थोड़ी take -ी. Three agreement decisions in four short lines, each answering to a different word. This is also a real bargaining exchange: asking for छूट is normal and expected in most Indian shops that do not display fixed prices.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "क्या यह महँगा है?",
+                  "read_as": "kyaa yah mahaṁgaa hai?",
+                  "english": "Is this expensive?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "नहीं, सस्ता है।",
+                  "read_as": "nahiiṁ, sastaa hai.",
+                  "english": "No, it is cheap."
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "छूट मिलेगी?",
+                  "read_as": "chhuuṭ milegii?",
+                  "english": "Will I get a discount?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "हाँ, थोड़ी छूट मिलेगी।",
+                  "read_as": "haaṁ, thoṛii chhuuṭ milegii.",
+                  "english": "Yes, a small discount."
+                }
+              ],
+              "common_error": {
+                "wrong": "हाँ, थोड़ा छूट मिलेगा।",
+                "right": "हाँ, थोड़ी छूट मिलेगी।",
+                "why_en": "छूट is feminine, so both the adjective and the verb take -ी. Getting the gender wrong costs two words here."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this question mean?",
+              "question": "छूट मिलेगी?",
+              "question_read_as": "chhuuṭ milegii?",
+              "options": [
+                "is there a bill?",
+                "will I get a discount?",
+                "is it cheap?",
+                "how much is it?"
+              ],
+              "options_read_as": [
+                "is there a bill?",
+                "will I get a discount?",
+                "is it cheap?",
+                "how much is it?"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The future of मिलना, agreeing with the feminine छूट."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the last line. Which word is missing?",
+              "masked_line_index": 3,
+              "masked_word": "थोड़ी",
+              "options": [
+                "थोड़ा",
+                "थोड़े",
+                "थोड़ी",
+                "ज़्यादा"
+              ],
+              "options_read_as": [
+                "thoṛaa",
+                "thoṛe",
+                "thoṛii",
+                "zyaadaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "छूट is feminine, so the marked adjective takes -ी."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "क्या यह महँगा है?",
+              "नहीं, सस्ता है।",
+              "छूट मिलेगी?",
+              "हाँ, थोड़ी छूट मिलेगी।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "रुपये takes the plural with any number above one, and बिल takes देना from both sides of the counter. The bargaining exchange puts three agreement decisions in four lines, each answering to a different word.",
+        "key_forms": [
+          "दो रुपये",
+          "बिल दीजिए",
+          "छूट मिलेगी"
+        ],
+        "next_up_en": "Next: the last of the shopping block, then food and cooking."
+      }
+    }
+  ]
+}

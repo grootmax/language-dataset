@@ -1,0 +1,1112 @@
+{
+  "module": 12,
+  "module_name_en": "Conversation",
+  "module_name_hi": "बातचीत",
+  "phase": 5,
+  "batch": {
+    "levels_from": 22,
+    "levels_to": 24
+  },
+  "receptive_only": true,
+  "content_note": "Clinic and lab settings used as language contexts. No real drug names, doses or medical guidance appear, and none is intended.",
+  "levels": [
+    {
+      "level": 22,
+      "title_en": "Tests and reports",
+      "title_hi": "जाँच और रिपोर्ट",
+      "items": [
+        {
+          "id": "M12-L22-I1",
+          "type": "dialogue",
+          "target": "नौ बजे से पहले",
+          "title_en": "Booking a blood test",
+          "setting": "lab",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "lab",
+            "se_pahle",
+            "clock_oblique",
+            "obligation",
+            "subjunctive"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Patient",
+              "label_hi": "मरीज़"
+            },
+            {
+              "id": "B",
+              "label_en": "Lab staff",
+              "label_hi": "लैब कर्मचारी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "ब्लड टेस्ट के लिए आना है। कब आऊँ?",
+              "read_as": "blaḍ ṭesṭ ke lie aanaa hai. kab aauuṁ?",
+              "english": "I need to come for a blood test. When should I come?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "सुबह आ जाइए, नौ बजे से पहले।",
+              "read_as": "subah aa jaaie, nau baje se pahle.",
+              "english": "Come in the morning, before nine."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "पर्ची लानी होगी?",
+              "read_as": "parchii laanii hogii?",
+              "english": "Do I need to bring the prescription?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हाँ, डॉक्टर की पर्ची ज़रूर लाइए।",
+              "read_as": "haaṁ, ḍôkṭar kii parchii zaruur laaie.",
+              "english": "Yes, do bring the doctor's slip."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ठीक है, कल आता हूँ।",
+              "read_as": "ṭhiik hai, kal aataa huuṁ.",
+              "english": "All right, I'll come tomorrow."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बजे — the oblique hiding inside every clock time",
+              "explanation_en": "नौ बजे से पहले, before nine o'clock. बजे is the oblique of बजा, and it is why every clock time in Hindi ends in -बजे rather than -बजा: the time is always sitting in front of something, or at least behaving as though it is. Note also पर्ची लानी होगी? — the obligation ladder with a feminine object, so the infinitive is लानी rather than लाना. That same agreement has now turned up in a cab, a metro station and a pathology lab.",
+              "listening_notes": [
+                "नौ बजे से पहले — से पहले for \"before\", with बजे already oblique before it.",
+                "कब आऊँ? is the subjunctive asking for instruction: when should I come?",
+                "डॉक्टर की पर्ची — की because पर्ची is feminine."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What must the patient bring with him?",
+              "options": [
+                "A previous report",
+                "Cash only",
+                "Nothing",
+                "The doctor's prescription slip"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 4: डॉक्टर की पर्ची ज़रूर लाइए."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "पहले",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "सुबह आ जाइए, नौ बजे से ___ ।",
+              "question_read_as": "subah aa jaaie, nau baje se ___ .",
+              "options": [
+                "पास",
+                "पहले",
+                "बाद",
+                "साथ"
+              ],
+              "options_read_as": [
+                "paas",
+                "pahle",
+                "baad",
+                "saath"
+              ],
+              "answer_index": 1,
+              "explanation_en": "से पहले is \"before\". बाद would need के in front of it, not से."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Reception counter, phone ringing behind. Brisk on both sides."
+          }
+        },
+        {
+          "id": "M12-L22-I2",
+          "type": "dialogue",
+          "target": "दवा छोड़नी पड़ेगी",
+          "title_en": "Fasting instructions",
+          "setting": "lab",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "lab",
+            "obligation",
+            "infinitive_agreement",
+            "paired_nouns",
+            "chalnaa"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Patient",
+              "label_hi": "मरीज़"
+            },
+            {
+              "id": "B",
+              "label_en": "Lab staff",
+              "label_hi": "लैब कर्मचारी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "कुछ खाना-पीना नहीं है क्या?",
+              "read_as": "kuchh khaanaa-piinaa nahiiṁ hai kyaa?",
+              "english": "Should I not eat or drink anything?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "बारह घंटे खाली पेट रहिए। और सुबह की दवा छोड़नी पड़ेगी।",
+              "read_as": "baarah ghanṭe khaalii peṭ rahie. aur subah kii davaa chhoṛnii paṛegii.",
+              "english": "Fast for twelve hours. And you'll have to skip the morning medicine."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "पानी भी नहीं?",
+              "read_as": "paanii bhii nahiiṁ?",
+              "english": "Not even water?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "पानी चल जाएगा। बस और कुछ नहीं।",
+              "read_as": "paanii chal jaaegaa. bas aur kuchh nahiiṁ.",
+              "english": "Water's fine. Nothing else, though."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "समझ गया।",
+              "read_as": "samajh gayaa.",
+              "english": "Understood."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "छोड़नी पड़ेगी — two words moved by one noun",
+              "explanation_en": "दवा is feminine, so the infinitive is छोड़नी and पड़ेगा follows it to पड़ेगी. Two words agreeing with a noun that sits in front of both of them, exactly as in Module 11. Now compare the first half of the same line: खाली पेट रहिए has no object at all, so nothing agrees with anything. One sentence, two obligation structures, and the only thing separating them is whether a feminine noun happens to be standing in the way.",
+              "listening_notes": [
+                "खाली पेट — literally \"empty stomach\", the standard phrase for fasting before a test.",
+                "पानी चल जाएगा — चलना for \"will do, is acceptable\", the same idiom as सफ़ेद भी चलेगा in the clothes shop.",
+                "खाना-पीना as a paired noun means food and drink in general. Hindi pairs verbs like this constantly: आना-जाना, लेना-देना."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Is he allowed water?",
+              "options": [
+                "Yes, water is fine",
+                "Only after the test",
+                "Only with the medicine",
+                "No, nothing at all"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 4: पानी चल जाएगा."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "पड़ेगी",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "और सुबह की दवा छोड़नी ___ ।",
+              "question_read_as": "aur subah kii davaa chhoṛnii ___ .",
+              "options": [
+                "पड़ेंगी",
+                "पड़ेगा",
+                "पड़ेगी",
+                "पड़ेंगे"
+              ],
+              "options_read_as": [
+                "paṛeṁgii",
+                "paṛegaa",
+                "paṛegii",
+                "paṛeṁge"
+              ],
+              "answer_index": 2,
+              "explanation_en": "दवा is feminine singular, so the infinitive is छोड़नी and the modal follows it."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 2 is delivered as a routine. Line 3 is genuinely worried."
+          }
+        },
+        {
+          "id": "M12-L22-I3",
+          "type": "dialogue",
+          "target": "रिपोर्ट लेने आया हूँ",
+          "title_en": "Collecting a report",
+          "setting": "lab",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "lab",
+            "purpose_infinitive",
+            "ne",
+            "time_words",
+            "hii"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Patient",
+              "label_hi": "मरीज़"
+            },
+            {
+              "id": "B",
+              "label_en": "Lab staff",
+              "label_hi": "लैब कर्मचारी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "रिपोर्ट लेने आया हूँ।",
+              "read_as": "riporṭ lene aayaa huuṁ.",
+              "english": "I've come to collect a report."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "नाम बताइए। कब टेस्ट करवाया था?",
+              "read_as": "naam bataaie. kab ṭesṭ karvaayaa thaa?",
+              "english": "Name? When did you get the test done?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "शर्मा। परसों सुबह।",
+              "read_as": "sharmaa. parsoṁ subah.",
+              "english": "Sharma. Day before yesterday, morning."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हाँ, तैयार है। आपने पैसे जमा किए थे?",
+              "read_as": "haaṁ, taiyaar hai. aapne paise jamaa kie the?",
+              "english": "Yes, it's ready. Did you pay?"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "हाँ, उसी दिन।",
+              "read_as": "haaṁ, usii din.",
+              "english": "Yes, the same day."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "लेने आया हूँ — the infinitive of purpose",
+              "explanation_en": "रिपोर्ट लेने आया हूँ is \"I've come to collect a report\". The infinitive goes oblique — लेने, not लेना — when it states the purpose of coming or going. You will hear this constantly: खाने आया हूँ, मिलने गया था, पूछने आई हूँ. There is no separate word for \"in order to\" anywhere in the sentence; the oblique ending is doing the whole job on its own.",
+              "listening_notes": [
+                "आपने पैसे जमा किए थे? — जमा करना is transitive, so ने, and किए agrees with masculine plural पैसे.",
+                "परसों means both the day before yesterday and the day after tomorrow. Context decides, and here the past tense settles it.",
+                "उसी दिन — उस plus ही, \"that very day\"."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "When was the test done?",
+              "options": [
+                "Yesterday evening",
+                "The day before yesterday, in the morning",
+                "A week ago",
+                "This morning"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 3: परसों सुबह."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "आपने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "हाँ, तैयार है। ___ पैसे जमा किए थे?",
+              "question_read_as": "haaṁ, taiyaar hai. ___ paise jamaa kie the?",
+              "options": [
+                "आपको",
+                "आपका",
+                "आप",
+                "आपने"
+              ],
+              "options_read_as": [
+                "aapko",
+                "aapkaa",
+                "aap",
+                "aapne"
+              ],
+              "answer_index": 3,
+              "explanation_en": "जमा करना is transitive and the tense is perfective, so ने."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Counter noise. Line 4 is asked while looking at a screen."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Clock times are always oblique — नौ बजे — because they behave as though a postposition follows. An obligation with a feminine object moves two words: दवा छोड़नी पड़ेगी. And the oblique infinitive states purpose all by itself: रिपोर्ट लेने आया हूँ.",
+        "key_forms": [
+          "नौ बजे से पहले",
+          "छोड़नी पड़ेगी",
+          "लेने आया हूँ"
+        ],
+        "next_up_en": "Next: the dentist, and the difficulty of naming a tooth."
+      }
+    },
+    {
+      "level": 23,
+      "title_en": "At the dentist",
+      "title_hi": "दाँत के डॉक्टर के पास",
+      "items": [
+        {
+          "id": "M12-L23-I1",
+          "type": "dialogue",
+          "target": "अगले हफ़्ते का दे दूँ?",
+          "title_en": "Getting an urgent slot",
+          "setting": "dentist",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "dentist",
+            "oblique",
+            "ellipsis",
+            "paanaa",
+            "causative"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Patient",
+              "label_hi": "मरीज़"
+            },
+            {
+              "id": "B",
+              "label_en": "Receptionist",
+              "label_hi": "रिसेप्शनिस्ट"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "दाँत में बहुत दर्द है। आज दिखा सकते हैं?",
+              "read_as": "daaṁt meṁ bahut dard hai. aaj dikhaa sakte haiṁ?",
+              "english": "My tooth's hurting a lot. Can you see me today?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "आज तो फ़ुल है। अगले हफ़्ते का दे दूँ?",
+              "read_as": "aaj to ful hai. agle hafte kaa de duuṁ?",
+              "english": "Today's full. Shall I give you next week?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "इतना इंतज़ार नहीं कर पाऊँगा।",
+              "read_as": "itnaa iṁtazaar nahiiṁ kar paauuṁgaa.",
+              "english": "I can't wait that long."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "रुकिए, शाम को एक स्लॉट खाली हुआ है।",
+              "read_as": "rukie, shaam ko ek slôṭ khaalii huaa hai.",
+              "english": "Hold on — a slot's opened up this evening."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "बिल्कुल, वही दे दीजिए।",
+              "read_as": "bilkul, vahii de diijie.",
+              "english": "Perfect, give me that."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "अगले हफ़्ते का — an oblique before an invisible noun",
+              "explanation_en": "अगले हफ़्ते का दे दूँ? — \"shall I give you next week's?\" There is no noun after का at all; स्लॉट is understood and never said. हफ़्ता still goes oblique to हफ़्ते because का follows it, and अगला follows to अगले. Hindi drops the noun and keeps every ending that was pointing at it, which is why in fast speech the agreements are often the only thing left telling you what is under discussion.",
+              "listening_notes": [
+                "दिखा सकते हैं? — दिखाना, the causative of देखना, plus सकना. Literally \"can you show\", meaning \"can you see me\".",
+                "कर पाऊँगा — पाना from Module 11 in the future: I won't manage to.",
+                "आज तो फ़ुल है — तो marking contrast, and फ़ुल used as an ordinary Hindi adjective."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "When does he end up getting an appointment?",
+              "options": [
+                "He does not get one",
+                "Next week",
+                "This evening",
+                "Tomorrow morning"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 4: शाम को एक स्लॉट खाली हुआ है."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "हफ़्ते",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "आज तो फ़ुल है। अगले ___ का दे दूँ?",
+              "question_read_as": "aaj to ful hai. agle ___ kaa de duuṁ?",
+              "options": [
+                "हफ़्ते",
+                "हफ़्तों",
+                "हफ़्ती",
+                "हफ़्ता"
+              ],
+              "options_read_as": [
+                "hafte",
+                "haftoṁ",
+                "haftii",
+                "haftaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "का is a postposition, so हफ़्ता goes oblique to हफ़्ते."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 3 is genuinely in pain. Line 4 comes after a pause and a keyboard."
+          }
+        },
+        {
+          "id": "M12-L23-I2",
+          "type": "dialogue",
+          "target": "मसूड़े के नीचे",
+          "title_en": "Which tooth",
+          "setting": "dentist",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "dentist",
+            "vaalaa",
+            "ke_niche",
+            "oblique",
+            "body_parts"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Dentist",
+              "label_hi": "डॉक्टर"
+            },
+            {
+              "id": "B",
+              "label_en": "Patient",
+              "label_hi": "मरीज़"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "कौन सा दाँत?",
+              "read_as": "kaun saa daaṁt?",
+              "english": "Which tooth?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "ये वाला, पीछे की तरफ़।",
+              "read_as": "ye vaalaa, piichhe kii taraf.",
+              "english": "This one, towards the back."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "ऊपर वाला या नीचे वाला?",
+              "read_as": "uupar vaalaa yaa niiche vaalaa?",
+              "english": "Upper or lower?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "नीचे वाला। मसूड़े के नीचे भी दर्द है।",
+              "read_as": "niiche vaalaa. masuuṛe ke niiche bhii dard hai.",
+              "english": "The lower one. It hurts under the gum too."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ठीक है, एक्स-रे करवाना पड़ेगा।",
+              "read_as": "ṭhiik hai, eks-re karvaanaa paṛegaa.",
+              "english": "All right, we'll need an X-ray."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "वाला pointing at things you can both see",
+              "explanation_en": "ये वाला, ऊपर वाला, नीचे वाला — वाला is doing the same job it did with रोज़ वाली चाय and गार्ड वाले गेट, but here it is pointing at physical things in front of both speakers. It agrees with what it stands for, so वाला for masculine दाँत. When a dentist asks कौन सा, the answer will almost always be a वाला phrase, because pointing is easier than naming a tooth in any language.",
+              "listening_notes": [
+                "मसूड़े के नीचे — मसूड़ा goes oblique to मसूड़े before के नीचे.",
+                "पीछे की तरफ़ — की because तरफ़ is feminine. Direction words in Hindi mostly are.",
+                "करवाना पड़ेगा — the second causative plus the obligation ladder: we'll have to have one done."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Which tooth is the problem?",
+              "options": [
+                "An upper one at the back",
+                "He cannot tell",
+                "An upper one at the front",
+                "A lower one towards the back"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Lines 2 and 4: पीछे की तरफ़, and नीचे वाला."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "नीचे",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "मसूड़े के ___ भी दर्द है।",
+              "question_read_as": "masuuṛe ke ___ bhii dard hai.",
+              "options": [
+                "साथ",
+                "नीचे",
+                "ऊपर",
+                "पास"
+              ],
+              "options_read_as": [
+                "saath",
+                "niiche",
+                "uupar",
+                "paas"
+              ],
+              "answer_index": 1,
+              "explanation_en": "के नीचे is under. के ऊपर would be above it."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "The patient's lines are slightly muffled — he is being examined while speaking."
+          }
+        },
+        {
+          "id": "M12-L23-I3",
+          "type": "dialogue",
+          "target": "दो-तीन सिटिंग लगेंगी",
+          "title_en": "Cost and sittings",
+          "setting": "dentist",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "dentist",
+            "lagnaa_cost",
+            "loanword_gender",
+            "reduplication",
+            "hii"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Patient",
+              "label_hi": "मरीज़"
+            },
+            {
+              "id": "B",
+              "label_en": "Dentist",
+              "label_hi": "डॉक्टर"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "कितना खर्चा आएगा?",
+              "read_as": "kitnaa kharchaa aaegaa?",
+              "english": "How much will it cost?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "रूट कैनाल है, तो पाँच-छह हज़ार लगेंगे।",
+              "read_as": "ruuṭ kainaal hai, to paaṁch-chhah hazaar lageṁge.",
+              "english": "It's a root canal, so five or six thousand."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "एक ही बार में हो जाएगा?",
+              "read_as": "ek hii baar meṁ ho jaaegaa?",
+              "english": "Will it be done in one go?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "नहीं, दो-तीन सिटिंग लगेंगी।",
+              "read_as": "nahiiṁ, do-tiin siṭiṁg lageṁgii.",
+              "english": "No, it'll take two or three sittings."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "कितने दिन का फ़र्क़?",
+              "read_as": "kitne din kaa farq?",
+              "english": "How many days apart?"
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "हफ़्ते-हफ़्ते भर का।",
+              "read_as": "hafte-hafte bhar kaa.",
+              "english": "About a week each."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "लगेंगे and लगेंगी, two lines apart",
+              "explanation_en": "पाँच-छह हज़ार लगेंगे in line 2, and दो-तीन सिटिंग लगेंगी in line 4. Same verb, same construction, and the endings differ because हज़ार is masculine and सिटिंग is feminine. English loanwords ending in -ing come into Hindi as feminine — मीटिंग, सिटिंग, बुकिंग, पार्किंग — which is worth knowing because they turn up constantly in any professional setting and they all behave the same way.",
+              "listening_notes": [
+                "खर्चा आएगा — an expense \"comes\" rather than \"is\". लगेगा would work here too.",
+                "एक ही बार में — ही narrowing it to one single go.",
+                "हफ़्ते-हफ़्ते भर का — the doubled word again, meaning roughly \"a week or so each time\"."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How many appointments will it take?",
+              "options": [
+                "Two or three",
+                "Five or six",
+                "It depends on the X-ray",
+                "One"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 4: दो-तीन सिटिंग लगेंगी."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "लगेंगी",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "नहीं, दो-तीन सिटिंग ___ ।",
+              "question_read_as": "nahiiṁ, do-tiin siṭiṁg ___ .",
+              "options": [
+                "लगेगी",
+                "लगेंगे",
+                "लगेंगी",
+                "लगेगा"
+              ],
+              "options_read_as": [
+                "lagegii",
+                "lageṁge",
+                "lageṁgii",
+                "lagegaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "सिटिंग is feminine and plural here, so लगेंगी — against masculine हज़ार लगेंगे two lines earlier."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Line 1 is apprehensive. The dentist is matter-of-fact throughout."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "वाला lets you point instead of naming, which is how anyone identifies a tooth. Hindi drops the noun and keeps its agreements — अगले हफ़्ते का, with स्लॉट never said. And English -ing loanwords are feminine: सिटिंग लगेंगी against हज़ार लगेंगे.",
+        "key_forms": [
+          "नीचे वाला",
+          "अगले हफ़्ते का",
+          "दो-तीन सिटिंग लगेंगी"
+        ],
+        "next_up_en": "Next: getting better, and being told not to rush it."
+      }
+    },
+    {
+      "level": 24,
+      "title_en": "Getting better",
+      "title_hi": "तबीयत सुधरना",
+      "items": [
+        {
+          "id": "M12-L24-I1",
+          "type": "dialogue",
+          "target": "पहले से बेहतर है",
+          "title_en": "A follow-up visit",
+          "setting": "clinic",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "clinic",
+            "se_comparison",
+            "feminine_agreement",
+            "module10_link"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Doctor",
+              "label_hi": "डॉक्टर"
+            },
+            {
+              "id": "B",
+              "label_en": "Patient",
+              "label_hi": "मरीज़"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "अब कैसा लग रहा है?",
+              "read_as": "ab kaisaa lag rahaa hai?",
+              "english": "How are you feeling now?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "पहले से बेहतर है। बुख़ार नहीं आया।",
+              "read_as": "pahle se behtar hai. buḳhaar nahiiṁ aayaa.",
+              "english": "Better than before. No fever."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "कमज़ोरी अभी है?",
+              "read_as": "kamzorii abhii hai?",
+              "english": "Still weak?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "थोड़ी है, पर बहुत कम हो गई है।",
+              "read_as": "thoṛii hai, par bahut kam ho gaii hai.",
+              "english": "A bit, but much less."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "अच्छा है। दवा पूरी कर लीजिए।",
+              "read_as": "acchaa hai. davaa puurii kar liijie.",
+              "english": "Good. Do finish the course."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पहले से बेहतर — comparing against a time",
+              "explanation_en": "पहले से बेहतर, better than before. से for comparison again, and this time what is being compared against is not a thing but an earlier moment. That is worth noticing, because English changes word here — \"than before\" rather than \"than X\" — and Hindi changes nothing at all. Note also दवा पूरी कर लीजिए, finish the medicine, where पूरी is feminine because दवा is, and the लेना vector adds that it is for the patient's own good.",
+              "listening_notes": [
+                "कमज़ोरी बहुत कम हो गई है: कमज़ोरी is feminine, so गई.",
+                "बुख़ार नहीं आया — a fever \"comes\" in Hindi, so its absence is that it did not come.",
+                "अब कैसा लग रहा है? — लगना for how something seems, from Module 10, with the dative dropped as usual."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What does the doctor tell him at the end?",
+              "options": [
+                "Come back in a week",
+                "Finish the course of medicine",
+                "Stop the medicine now",
+                "Get another test"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 5: दवा पूरी कर लीजिए."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "गई",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "थोड़ी है, पर बहुत कम हो ___ है।",
+              "question_read_as": "thoṛii hai, par bahut kam ho ___ hai.",
+              "options": [
+                "गए",
+                "गईं",
+                "गया",
+                "गई"
+              ],
+              "options_read_as": [
+                "gae",
+                "gaiiṁ",
+                "gayaa",
+                "gaii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "कमज़ोरी is feminine, so the vector is गई."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Both noticeably lighter in tone than the first consultation."
+          }
+        },
+        {
+          "id": "M12-L24-I2",
+          "type": "dialogue",
+          "target": "थकान से है",
+          "title_en": "A friend asks how you are",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "home",
+            "se_cause",
+            "naa_tag",
+            "mat_negative",
+            "ellipsis"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Friend",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "B",
+              "label_en": "Recovering friend",
+              "label_hi": "दोस्त"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "अब तबीयत कैसी है?",
+              "read_as": "ab tabiiyat kaisii hai?",
+              "english": "How are you feeling now?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "ठीक हूँ यार। कमज़ोरी बस थकान से है।",
+              "read_as": "ṭhiik huuṁ yaar. kamzorii bas thakaan se hai.",
+              "english": "I'm fine. The weakness is just from tiredness."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "आराम कर रहे हो ना?",
+              "read_as": "aaraam kar rahe ho naa?",
+              "english": "You are resting, right?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हाँ, दो दिन छुट्टी ली थी।",
+              "read_as": "haaṁ, do din chhuṭṭii lii thii.",
+              "english": "Yes, I took two days off."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "अच्छा किया। जल्दी काम पर मत लौटना।",
+              "read_as": "acchaa kiyaa. jaldii kaam par mat lauṭnaa.",
+              "english": "Good. Don't go back to work too soon."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "से for the cause, again",
+              "explanation_en": "कमज़ोरी थकान से है — the weakness is from tiredness. This is the same cause-marking से as किसी दवा से एलर्जी in level 20, and it is one of से's most useful jobs, because Hindi reaches for it wherever English would say \"because of\", \"from\" or \"due to\". Note also मत लौटना in line 5 — मत for an instruction, and the plain infinitive as a gentle command. Together they make it advice between friends rather than an order.",
+              "listening_notes": [
+                "आराम कर रहे हो ना? — the ना tag from level 15, expecting agreement rather than information.",
+                "अच्छा किया — \"you did well\". Strictly तुमने अच्छा किया; the subject drops because it is obvious.",
+                "काम पर लौटना — work takes पर, not में or को."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What does the friend advise at the end?",
+              "options": [
+                "Take more medicine",
+                "Go back to work soon",
+                "Don't go back to work too soon",
+                "See the doctor again"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 5: जल्दी काम पर मत लौटना."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "से",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "कमज़ोरी बस थकान ___ है।",
+              "question_read_as": "kamzorii bas thakaan ___ hai.",
+              "options": [
+                "से",
+                "में",
+                "को",
+                "पर"
+              ],
+              "options_read_as": [
+                "se",
+                "meṁ",
+                "ko",
+                "par"
+              ],
+              "answer_index": 0,
+              "explanation_en": "से marks the cause — the weakness comes from the tiredness."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Informal, warm. Line 5 is affectionate scolding."
+          }
+        },
+        {
+          "id": "M12-L24-I3",
+          "type": "dialogue",
+          "target": "डॉक्टर ने क्या कहा?",
+          "title_en": "What the doctor said",
+          "setting": "clinic",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "clinic",
+            "reported_speech",
+            "ne",
+            "word_order",
+            "obligation"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Family member",
+              "label_hi": "परिजन"
+            },
+            {
+              "id": "B",
+              "label_en": "Patient",
+              "label_hi": "मरीज़"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "डॉक्टर ने क्या कहा?",
+              "read_as": "ḍôkṭar ne kyaa kahaa?",
+              "english": "What did the doctor say?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "कहा कि तीन दिन आराम करो।",
+              "read_as": "kahaa ki tiin din aaraam karo.",
+              "english": "He said rest for three days."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "और दवा?",
+              "read_as": "aur davaa?",
+              "english": "And medicine?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "वो पूरी करनी है। बीच में छोड़ी तो फिर से शुरू।",
+              "read_as": "vo puurii karnii hai. biich meṁ chhoṛii to phir se shuruu.",
+              "english": "I have to finish it. Stop halfway and you start again."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "सही कहा उन्होंने।",
+              "read_as": "sahii kahaa unhoṁne.",
+              "english": "He's right."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कहा कि — reporting without transforming",
+              "explanation_en": "डॉक्टर ने कहा कि तीन दिन आराम करो. कि introduces reported speech, and Hindi does not shift the tense or the person the way English does — the doctor's actual words come through almost intact, imperative and all. English would say \"he said to rest for three days\" and rebuild the whole clause; Hindi keeps करो. Once you stop waiting for a transformation that never arrives, reported speech becomes one of the easier things to follow at speed.",
+              "listening_notes": [
+                "सही कहा उन्होंने — the ने-subject at the very end again, emphatic and entirely normal.",
+                "वो पूरी करनी है — दवा is feminine, so both पूरी and करनी. The obligation ladder once more.",
+                "बीच में छोड़ी तो फिर से शुरू — no verb at all in the second half. Conditionals compress hard in speech."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How long was he told to rest?",
+              "options": [
+                "A week",
+                "Until the fever goes",
+                "One day",
+                "Three days"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 2: तीन दिन आराम करो."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 1,
+              "masked_token": "ने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "डॉक्टर ___ क्या कहा?",
+              "question_read_as": "ḍôkṭar ___ kyaa kahaa?",
+              "options": [
+                "का",
+                "ने",
+                "को",
+                "से"
+              ],
+              "options_read_as": [
+                "kaa",
+                "ne",
+                "ko",
+                "se"
+              ],
+              "answer_index": 1,
+              "explanation_en": "कहना is transitive and the tense is perfective, so the noun subject takes a separate ने."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 4 is recited — he is repeating what he was told. Line 5 is approving."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "से compares against a time as easily as against a thing — पहले से बेहतर — and marks cause: थकान से. मत plus a plain infinitive is advice rather than an order. And reported speech with कि keeps the original words intact instead of rebuilding them.",
+        "key_forms": [
+          "पहले से बेहतर",
+          "थकान से",
+          "कहा कि"
+        ],
+        "next_up_en": "Next: the telephone — asking for someone, wrong numbers, and a bad line."
+      }
+    }
+  ]
+}

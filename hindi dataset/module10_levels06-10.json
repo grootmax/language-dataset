@@ -1,0 +1,1593 @@
+{
+  "module": 10,
+  "module_name_en": "Dative Experiencers, chaahie and lagnaa",
+  "module_name_hi": "अनुभवकर्ता, चाहिए और लगना",
+  "phase": 4,
+  "batch": {
+    "levels_from": 6,
+    "levels_to": 10
+  },
+  "levels": [
+    {
+      "level": 6,
+      "title_en": "Heat, pain, fever — and a second verb",
+      "title_hi": "गर्मी · दर्द · बुखार",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M10-L06-I1",
+          "type": "grammar",
+          "target": "गर्मी लगना",
+          "read_as": "garmii lagnaa",
+          "pronunciation_notes": "The र closes the first syllable rather than opening the second: gar-mii.",
+          "gloss_en": "to feel hot — literally, for heat to be felt",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "dative",
+            "experiencer",
+            "lagnaa",
+            "physical_state",
+            "feminine_thing",
+            "contrast"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "गर्मी splits the same way ठंड did",
+              "explanation_en": "गर्मी is feminine, so लग रही है, exactly like ठंड. And it splits the same two ways: मुझे गर्मी लग रही है is about you, गर्मी है is about the weather. One extra thing is worth knowing — गर्मी also means summer, so गर्मियों में is \"in summer\". The same word covers the season, the temperature and the sensation, and the grammar around it tells you which one is meant. Avoid मैं गर्म हूँ: it describes your body temperature to somebody touching you, and it is not how anyone says they feel hot.",
+              "literal_vs_natural": {
+                "hindi": "मुझे गर्मी लग रही है।",
+                "literal_en": "To me heat is being felt.",
+                "natural_en": "I'm hot."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे गर्मी लग रही है।",
+                  "read_as": "mujhe garmii lag rahii hai.",
+                  "english": "I'm hot.",
+                  "note": "About you."
+                },
+                {
+                  "hindi": "आज गर्मी है।",
+                  "read_as": "aaj garmii hai.",
+                  "english": "It's hot today.",
+                  "note": "About the weather. No dative anywhere."
+                },
+                {
+                  "hindi": "गर्मियों में बहुत गर्मी लगती है।",
+                  "read_as": "garmiyoṁ meṁ bahut garmii lagtii hai.",
+                  "english": "It feels very hot in summer.",
+                  "note": "Oblique plural गर्मियों for the season, and the sensation word again at the end."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं गर्म हूँ।",
+                "right": "मुझे गर्मी लग रही है।",
+                "why_en": "मैं गर्म हूँ says your body is hot to the touch. It does not say you feel hot."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ गर्मी लग रही है।",
+              "question_read_as": "___ garmii lag rahii hai.",
+              "options": [
+                "मेरा",
+                "मैंने",
+                "मैं",
+                "मुझे"
+              ],
+              "options_read_as": [
+                "meraa",
+                "maiṁne",
+                "maiṁ",
+                "mujhe"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Heat is felt at a person, so the person takes को."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence means 'I'm hot'?",
+              "options": [
+                "मैं गर्म हूँ।",
+                "मुझे गर्मी लग रही है।",
+                "मुझे गर्मी लग रहा है।",
+                "मैं गर्मी लग रही है।"
+              ],
+              "options_read_as": [
+                "maiṁ garm huuṁ.",
+                "mujhe garmii lag rahii hai.",
+                "mujhe garmii lag rahaa hai.",
+                "maiṁ garmii lag rahii hai."
+              ],
+              "answer_index": 1,
+              "explanation_en": "The first is about your body temperature. गर्मी is feminine, so लग रही है."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे गर्मी लग रही है।",
+              "आज गर्मी है।",
+              "गर्मियों में बहुत गर्मी लगती है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L06-I2",
+          "type": "grammar",
+          "target": "दर्द होना",
+          "read_as": "dard honaa",
+          "pronunciation_notes": "One syllable: dard. The द is dental, made with the tongue against the teeth.",
+          "gloss_en": "to be in pain — literally, for pain to happen",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "dative",
+            "experiencer",
+            "honaa",
+            "condition",
+            "masculine_thing",
+            "verb_split"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Conditions take होना, not लगना",
+              "explanation_en": "The verb changes here, and this is the first real fork in the module. Sensations that wash over you take लगना — भूख, प्यास, ठंड, गर्मी. Conditions you are in take होना — दर्द, बुखार. So it is मुझे दर्द हो रहा है, never लग रहा है. दर्द is masculine, so everything downstream is masculine: हो रहा है, हुआ, होता है. You will also hear मेरे सिर में दर्द है, \"in my head there is pain\", which uses में and a possessive instead of the dative. Both are current Hindi; the दर्द होना version is the more general one and the one to learn first.",
+              "literal_vs_natural": {
+                "hindi": "मुझे दर्द हो रहा है।",
+                "literal_en": "To me pain is happening.",
+                "natural_en": "I'm in pain."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे दर्द हो रहा है।",
+                  "read_as": "mujhe dard ho rahaa hai.",
+                  "english": "I'm in pain.",
+                  "note": "दर्द is masculine, so हो रहा."
+                },
+                {
+                  "hindi": "मेरे सिर में दर्द है।",
+                  "read_as": "mere sir meṁ dard hai.",
+                  "english": "I have a headache.",
+                  "note": "The other construction — में on the body part, no dative."
+                },
+                {
+                  "hindi": "बच्चे को दर्द हुआ।",
+                  "read_as": "bacche ko dard huaa.",
+                  "english": "The child was in pain.",
+                  "note": "Noun experiencer, perfective."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे दर्द लग रहा है।",
+                "right": "मुझे दर्द हो रहा है।",
+                "why_en": "दर्द is a condition, not a sensation felt on the surface, so it goes with होना."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ दर्द हो रहा है।",
+              "question_read_as": "___ dard ho rahaa hai.",
+              "options": [
+                "उसे",
+                "उसने",
+                "उसका",
+                "वह"
+              ],
+              "options_read_as": [
+                "use",
+                "usne",
+                "uskaa",
+                "vah"
+              ],
+              "answer_index": 0,
+              "explanation_en": "वह goes oblique and fuses with को to give उसे."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मैं दर्द हो रहा है।",
+                "मुझे दर्द लग रहा है।",
+                "मुझे दर्द हो रहा है।",
+                "मुझे दर्द हो रही है।"
+              ],
+              "options_read_as": [
+                "maiṁ dard ho rahaa hai.",
+                "mujhe dard lag rahaa hai.",
+                "mujhe dard ho rahaa hai.",
+                "mujhe dard ho rahii hai."
+              ],
+              "answer_index": 2,
+              "explanation_en": "दर्द takes होना and is masculine, so हो रहा है."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे दर्द हो रहा है।",
+              "मेरे सिर में दर्द है।",
+              "बच्चे को दर्द हुआ।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L06-I3",
+          "type": "grammar",
+          "target": "बुखार होना",
+          "read_as": "bukhaar honaa",
+          "pronunciation_notes": "ख is aspirated: bu-khaar, with the length on the second syllable.",
+          "gloss_en": "to have a fever — literally, for fever to be",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "dative",
+            "experiencer",
+            "honaa",
+            "condition",
+            "masculine_thing",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बुखार simply is",
+              "explanation_en": "बुखार takes होना like दर्द, but usually in its plainest form: मुझे बुखार है. No लगना, no रहा, just है. बुखार is masculine, so the past is मुझे बुखार था. Together with मुझे दर्द हो रहा है this is what you say at a doctor's, which makes it worth over-learning. Notice once more what Hindi does not have: there is no adjective for \"feverish\" any more than there was one for \"thirsty\". The noun does the work, and the dative puts you where it lands.",
+              "literal_vs_natural": {
+                "hindi": "मुझे बुखार है।",
+                "literal_en": "To me fever is.",
+                "natural_en": "I have a fever."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे बुखार है।",
+                  "read_as": "mujhe bukhaar hai.",
+                  "english": "I have a fever.",
+                  "note": "The whole sentence is three words."
+                },
+                {
+                  "hindi": "कल मुझे बुखार था।",
+                  "read_as": "kal mujhe bukhaar thaa.",
+                  "english": "I had a fever yesterday.",
+                  "note": "बुखार is masculine, so था."
+                },
+                {
+                  "hindi": "बच्चे को बुखार है।",
+                  "read_as": "bacche ko bukhaar hai.",
+                  "english": "The child has a fever.",
+                  "note": "Noun experiencer, oblique plus को."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं बुखार हूँ।",
+                "right": "मुझे बुखार है।",
+                "why_en": "मैं बुखार हूँ says you are a fever. The fever is the subject and you are where it is."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ बुखार है।",
+              "question_read_as": "___ bukhaar hai.",
+              "options": [
+                "मैं",
+                "मुझे",
+                "मेरा",
+                "मैंने"
+              ],
+              "options_read_as": [
+                "maiṁ",
+                "mujhe",
+                "meraa",
+                "maiṁne"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The fever is the subject; you are the place it is."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मुझे बुखार हूँ।",
+                "मुझे बुखार लगी है।",
+                "मैं बुखार हूँ।",
+                "मुझे बुखार है।"
+              ],
+              "options_read_as": [
+                "mujhe bukhaar huuṁ.",
+                "mujhe bukhaar lagii hai.",
+                "maiṁ bukhaar huuṁ.",
+                "mujhe bukhaar hai."
+              ],
+              "answer_index": 3,
+              "explanation_en": "मुझे बुखार है. The third option keeps हूँ, which would be agreeing with the speaker; the fourth uses लगना, which बुखार does not take."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे बुखार है।",
+              "कल मुझे बुखार था।",
+              "बच्चे को बुखार है।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "गर्मी completes the लगना set and splits like ठंड — मुझे गर्मी लग रही है is you, गर्मी है is the weather. दर्द and बुखार introduce the second verb: conditions take होना, and both are masculine, so हो रहा है and है.",
+        "key_forms": [
+          "मुझे गर्मी लग रही है",
+          "मुझे दर्द हो रहा है",
+          "मुझे बुखार है"
+        ],
+        "next_up_en": "Next: the third verb — things that arrive rather than being felt."
+      }
+    },
+    {
+      "level": 7,
+      "title_en": "Sleep, fear, anger",
+      "title_hi": "नींद · डर · ग़ुस्सा",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M10-L07-I1",
+          "type": "grammar",
+          "target": "नींद आना",
+          "read_as": "niiṁd aanaa",
+          "pronunciation_notes": "The vowel is long and nasalised at once: niiṁd, one syllable.",
+          "gloss_en": "to be sleepy — literally, for sleep to come",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "dative",
+            "experiencer",
+            "aanaa",
+            "verb_split",
+            "feminine_thing"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Some things arrive",
+              "explanation_en": "Third verb, third relationship. Things that come over you from outside take आना: नींद, ग़ुस्सा, हँसी, याद. मुझे नींद आ रही है — literally, to me sleep is coming. नींद is feminine, so आ रही है. It is worth holding the three-way split as a picture rather than a list: लगना is felt on you, होना is true of you, आना arrives at you. Textbooks present these as unpredictable idioms to be memorised one at a time. They are mostly not, and a learner who has the picture can guess correctly far more often than one who has the list.",
+              "literal_vs_natural": {
+                "hindi": "मुझे नींद आ रही है।",
+                "literal_en": "To me sleep is coming.",
+                "natural_en": "I'm sleepy."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे नींद आ रही है।",
+                  "read_as": "mujhe niiṁd aa rahii hai.",
+                  "english": "I'm sleepy.",
+                  "note": "नींद is feminine, so आ रही."
+                },
+                {
+                  "hindi": "मुझे नींद नहीं आई।",
+                  "read_as": "mujhe niiṁd nahiiṁ aaii.",
+                  "english": "I couldn't sleep.",
+                  "note": "Literally: sleep did not come to me."
+                },
+                {
+                  "hindi": "बच्चों को नींद आ रही है।",
+                  "read_as": "bacchoṁ ko niiṁd aa rahii hai.",
+                  "english": "The children are sleepy.",
+                  "note": "Plural experiencer, and the verb has not moved."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे नींद लग रही है।",
+                "right": "मुझे नींद आ रही है।",
+                "why_en": "Sleep arrives; it is not felt on the surface. नींद goes with आना."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ नींद आ रही है।",
+              "question_read_as": "___ niiṁd aa rahii hai.",
+              "options": [
+                "बच्चों",
+                "बच्चे",
+                "बच्चों को",
+                "बच्चा को"
+              ],
+              "options_read_as": [
+                "bacchoṁ",
+                "bacche",
+                "bacchoṁ ko",
+                "bacchaa ko"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Oblique plural बच्चों, then को as a separate word."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मुझे नींद आ रही है।",
+                "मुझे नींद आ रहा है।",
+                "मैं नींद आ रही है।",
+                "मुझे नींद लग रही है।"
+              ],
+              "options_read_as": [
+                "mujhe niiṁd aa rahii hai.",
+                "mujhe niiṁd aa rahaa hai.",
+                "maiṁ niiṁd aa rahii hai.",
+                "mujhe niiṁd lag rahii hai."
+              ],
+              "answer_index": 0,
+              "explanation_en": "नींद takes आना and is feminine, so आ रही है."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे नींद आ रही है।",
+              "मुझे नींद नहीं आई।",
+              "बच्चों को नींद आ रही है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L07-I2",
+          "type": "grammar",
+          "target": "डर लगना",
+          "read_as": "ḍar lagnaa",
+          "pronunciation_notes": "ड is retroflex — the tongue curls back to the roof of the mouth: ḍar.",
+          "gloss_en": "to be afraid — literally, for fear to be felt",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "dative",
+            "experiencer",
+            "lagnaa",
+            "masculine_thing",
+            "se_postposition",
+            "core_rule"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The first masculine noun in the लगना set",
+              "explanation_en": "डर goes back to लगना — fear is felt, like cold. But डर is masculine, and that makes it the first place in this module where a लगना sentence changes shape: मुझे डर लगता है, not लगती. Put it directly beside मुझे भूख लगती है. Same verb, same construction, same speaker, opposite endings — and the only cause is the gender of a noun sitting in the middle of the sentence. If you can say why those two differ, the core rule of the module is secure. The thing you are afraid of takes से: मुझे कुत्तों से डर लगता है.",
+              "literal_vs_natural": {
+                "hindi": "मुझे डर लगता है।",
+                "literal_en": "To me fear is felt.",
+                "natural_en": "I'm afraid."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे डर लगता है।",
+                  "read_as": "mujhe ḍar lagtaa hai.",
+                  "english": "I'm afraid.",
+                  "note": "डर is masculine, so लगता."
+                },
+                {
+                  "hindi": "मुझे कुत्तों से डर लगता है।",
+                  "read_as": "mujhe kuttoṁ se ḍar lagtaa hai.",
+                  "english": "I'm afraid of dogs.",
+                  "note": "The thing feared takes से, and it goes oblique first."
+                },
+                {
+                  "hindi": "उसे डर लगा।",
+                  "read_as": "use ḍar lagaa.",
+                  "english": "He got scared.",
+                  "note": "Perfective, still masculine."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे डर लगती है।",
+                "right": "मुझे डर लगता है।",
+                "why_en": "डर is masculine. The feminine ending has been carried over from भूख and प्यास, where it belonged."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ डर लगता है।",
+              "question_read_as": "___ ḍar lagtaa hai.",
+              "options": [
+                "मेरा",
+                "मैंने",
+                "मैं",
+                "मुझे"
+              ],
+              "options_read_as": [
+                "meraa",
+                "maiṁne",
+                "maiṁ",
+                "mujhe"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Fear is felt at a person, so the person is marked with को."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मुझे डर लगती है।",
+                "मुझे डर लगता है।",
+                "मैं डर लगता है।",
+                "मुझे डर लगे हैं।"
+              ],
+              "options_read_as": [
+                "mujhe ḍar lagtii hai.",
+                "mujhe ḍar lagtaa hai.",
+                "maiṁ ḍar lagtaa hai.",
+                "mujhe ḍar lage haiṁ."
+              ],
+              "answer_index": 1,
+              "explanation_en": "डर is masculine singular, so लगता है."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे डर लगता है।",
+              "मुझे कुत्तों से डर लगता है।",
+              "उसे डर लगा।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L07-I3",
+          "type": "grammar",
+          "target": "ग़ुस्सा आना",
+          "read_as": "ġussaa aanaa",
+          "pronunciation_notes": "ग़ is a throaty g, further back than the ordinary one, and the स is doubled: ġus-saa.",
+          "gloss_en": "to get angry — literally, for anger to come",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "dative",
+            "experiencer",
+            "aanaa",
+            "emotion",
+            "masculine_thing",
+            "par_postposition"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Anger comes, and it lands on somebody",
+              "explanation_en": "ग़ुस्सा takes आना, like नींद, and it is masculine: मुझे ग़ुस्सा आया. The person or thing you are angry at takes पर — मुझे उस पर ग़ुस्सा आया, anger came to me upon him. Pair that with डर, where the thing feared takes से. Two emotions, two different postpositions, and nothing in the meaning predicts which is which. But there are only two to learn, so learn them as a pair: डर से, ग़ुस्सा पर.",
+              "literal_vs_natural": {
+                "hindi": "मुझे ग़ुस्सा आया।",
+                "literal_en": "To me anger came.",
+                "natural_en": "I got angry."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे ग़ुस्सा आया।",
+                  "read_as": "mujhe ġussaa aayaa.",
+                  "english": "I got angry.",
+                  "note": "ग़ुस्सा is masculine, so आया."
+                },
+                {
+                  "hindi": "मुझे उस पर ग़ुस्सा आया।",
+                  "read_as": "mujhe us par ġussaa aayaa.",
+                  "english": "I got angry at him.",
+                  "note": "The target of the anger takes पर, and वह goes oblique to उस."
+                },
+                {
+                  "hindi": "माँ को ग़ुस्सा आता है।",
+                  "read_as": "maaṁ ko ġussaa aataa hai.",
+                  "english": "Mother gets angry.",
+                  "note": "Feminine experiencer, masculine verb — the verb is watching ग़ुस्सा."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे ग़ुस्सा लगा।",
+                "right": "मुझे ग़ुस्सा आया।",
+                "why_en": "Anger arrives rather than being felt on the surface, so it takes आना."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ ग़ुस्सा आया।",
+              "question_read_as": "___ ġussaa aayaa.",
+              "options": [
+                "माँ को",
+                "माँ ने",
+                "माँ का",
+                "माँ"
+              ],
+              "options_read_as": [
+                "maaṁ ko",
+                "maaṁ ne",
+                "maaṁ kaa",
+                "maaṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "A noun experiencer takes को as a separate word. माँ does not change shape in the oblique."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मैंने ग़ुस्सा आया।",
+                "मुझे ग़ुस्सा लगा।",
+                "मुझे ग़ुस्सा आया।",
+                "मुझे ग़ुस्सा आई।"
+              ],
+              "options_read_as": [
+                "maiṁne ġussaa aayaa.",
+                "mujhe ġussaa lagaa.",
+                "mujhe ġussaa aayaa.",
+                "mujhe ġussaa aaii."
+              ],
+              "answer_index": 2,
+              "explanation_en": "ग़ुस्सा takes आना and is masculine, so आया. The last option uses the ने form, which cannot appear here at all."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे ग़ुस्सा आया।",
+              "मुझे उस पर ग़ुस्सा आया।",
+              "माँ को ग़ुस्सा आता है।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Three verbs, three relationships. लगना is felt on you, होना is true of you, आना arrives at you. डर is the first masculine noun in the लगना set, so मुझे डर लगता है sits against मुझे भूख लगती है with only the noun's gender between them. And the postpositions come in a pair: डर से, ग़ुस्सा पर.",
+        "key_forms": [
+          "मुझे नींद आ रही है",
+          "मुझे डर लगता है",
+          "मुझे ग़ुस्सा आया"
+        ],
+        "next_up_en": "Next: पसंद — liking, and the number agreement everyone gets wrong."
+      }
+    },
+    {
+      "level": 8,
+      "title_en": "पसंद — and the verb is watching the thing",
+      "title_hi": "मुझे यह पसंद है",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M10-L08-I1",
+          "type": "grammar",
+          "target": "मुझे चाय पसंद है",
+          "read_as": "mujhe chaay pasand hai",
+          "pronunciation_notes": "पसंद ends on a nasal plus d: pa-sand, with the न hummed into the द.",
+          "gloss_en": "I like tea — literally, to me tea is pleasing",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "dative",
+            "experiencer",
+            "pasand",
+            "honaa",
+            "feminine_thing"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पसंद never moves; होना does",
+              "explanation_en": "पसंद is a noun meaning liking, and पसंद होना means to be pleasing. So मुझे चाय पसंद है is literally \"to me tea is pleasing\" — the tea is the subject and you are where it lands. पसंद itself never changes shape, not for gender and not for number. The होना does, and it follows the thing: singular thing, है. That is easy to state and hard to hold on to, because English puts \"I\" at the front and demotes the tea to an object, so every instinct you have points the wrong way.",
+              "literal_vs_natural": {
+                "hindi": "मुझे चाय पसंद है।",
+                "literal_en": "To me tea is pleasing.",
+                "natural_en": "I like tea."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे चाय पसंद है।",
+                  "read_as": "mujhe chaay pasand hai.",
+                  "english": "I like tea.",
+                  "note": "चाय is singular, so है."
+                },
+                {
+                  "hindi": "उसे यह पसंद है।",
+                  "read_as": "use yah pasand hai.",
+                  "english": "He likes this.",
+                  "note": "यह is the subject."
+                },
+                {
+                  "hindi": "तुम्हें क्या पसंद है?",
+                  "read_as": "tumheṁ kyaa pasand hai?",
+                  "english": "What do you like?",
+                  "note": "The question form, and the one you will hear most."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं चाय पसंद है।",
+                "right": "मुझे चाय पसंद है।",
+                "why_en": "The person is the destination, not the subject. चाय is what the sentence is about."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ चाय पसंद है।",
+              "question_read_as": "___ chaay pasand hai.",
+              "options": [
+                "मैं",
+                "मुझे",
+                "मैंने",
+                "मेरी"
+              ],
+              "options_read_as": [
+                "maiṁ",
+                "mujhe",
+                "maiṁne",
+                "merii"
+              ],
+              "answer_index": 1,
+              "explanation_en": "पसंद होना takes an experiencer, so मुझे."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मुझे चाय पसंद हूँ।",
+                "मैंने चाय पसंद है।",
+                "मैं चाय पसंद है।",
+                "मुझे चाय पसंद है।"
+              ],
+              "options_read_as": [
+                "mujhe chaay pasand huuṁ.",
+                "maiṁne chaay pasand hai.",
+                "maiṁ chaay pasand hai.",
+                "mujhe chaay pasand hai."
+              ],
+              "answer_index": 3,
+              "explanation_en": "मुझे for the experiencer, है for singular चाय. हूँ would be agreeing with the speaker, and nothing here does."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे चाय पसंद है।",
+              "उसे यह पसंद है।",
+              "तुम्हें क्या पसंद है?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L08-I2",
+          "type": "grammar",
+          "target": "मुझे किताबें पसंद हैं",
+          "read_as": "mujhe kitaabeṁ pasand haiṁ",
+          "pronunciation_notes": "Both किताबें and हैं end on a hum. Two nasals, and both are pronounced.",
+          "gloss_en": "I like books — plural thing, plural verb",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "dative",
+            "experiencer",
+            "pasand",
+            "plural_agreement",
+            "high_error"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The commonest पसंद error there is",
+              "explanation_en": "Make the thing plural and the verb has to go plural: मुझे किताबें पसंद हैं. This is the single most frequent mistake in the whole construction, and the reason is straightforward — the English is \"I like books\", which has one subject and feels singular, while the Hindi has a plural subject sitting in the middle of the sentence doing all the work. The person is irrelevant throughout. मुझे stays मुझे whether one book pleases you or a hundred do.",
+              "literal_vs_natural": {
+                "hindi": "मुझे किताबें पसंद हैं।",
+                "literal_en": "To me books are pleasing.",
+                "natural_en": "I like books."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे किताबें पसंद हैं।",
+                  "read_as": "mujhe kitaabeṁ pasand haiṁ.",
+                  "english": "I like books.",
+                  "note": "Plural thing, so हैं."
+                },
+                {
+                  "hindi": "मुझे किताब पसंद है।",
+                  "read_as": "mujhe kitaab pasand hai.",
+                  "english": "I like the book.",
+                  "note": "The same sentence with a singular thing. Only the verb moved."
+                },
+                {
+                  "hindi": "हमें ये किताबें पसंद हैं।",
+                  "read_as": "hameṁ ye kitaabeṁ pasand haiṁ.",
+                  "english": "We like these books.",
+                  "note": "Plural experiencer as well, and it still changes nothing."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे किताबें पसंद है।",
+                "right": "मुझे किताबें पसंद हैं।",
+                "why_en": "किताबें is plural and it is the subject of the sentence, so the verb must be plural."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ किताबें पसंद हैं।",
+              "question_read_as": "___ kitaabeṁ pasand haiṁ.",
+              "options": [
+                "हमारा",
+                "हम",
+                "हमें",
+                "हमने"
+              ],
+              "options_read_as": [
+                "hamaaraa",
+                "ham",
+                "hameṁ",
+                "hamne"
+              ],
+              "answer_index": 2,
+              "explanation_en": "हमें for the experiencer. हमने is the ergative form and belongs to Module 9."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मुझे किताबें पसंद हैं।",
+                "मैं किताबें पसंद हैं।",
+                "मुझे किताबें पसंद हूँ।",
+                "मुझे किताबें पसंद है।"
+              ],
+              "options_read_as": [
+                "mujhe kitaabeṁ pasand haiṁ.",
+                "maiṁ kitaabeṁ pasand haiṁ.",
+                "mujhe kitaabeṁ pasand huuṁ.",
+                "mujhe kitaabeṁ pasand hai."
+              ],
+              "answer_index": 0,
+              "explanation_en": "किताबें is plural, so हैं — and the experiencer stays मुझे."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे किताबें पसंद हैं।",
+              "मुझे किताब पसंद है।",
+              "हमें ये किताबें पसंद हैं।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L08-I3",
+          "type": "grammar",
+          "target": "उन्हें आम पसंद हैं",
+          "read_as": "unheṁ aam pasand haiṁ",
+          "pronunciation_notes": "आम has the same form in singular and plural — only the verb tells you which is meant.",
+          "gloss_en": "they like mangoes — masculine plural thing",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "dative",
+            "experiencer",
+            "pasand",
+            "plural_agreement",
+            "masculine_thing",
+            "number_only"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "With पसंद, only number ever matters",
+              "explanation_en": "आम is masculine, and here it is plural — mangoes in general — so the verb is हैं. Now notice something that makes this construction easier than it looks: होना has no masculine or feminine forms in the present. है and हैं differ only in number. So for पसंद sentences you need the thing's number and you can ignore its gender completely. That is a genuine relief, and it will not last: in the next level अच्छा लगना brings gender straight back, because there is an adjective in the sentence.",
+              "literal_vs_natural": {
+                "hindi": "उन्हें आम पसंद हैं।",
+                "literal_en": "To them mangoes are pleasing.",
+                "natural_en": "They like mangoes."
+              },
+              "examples": [
+                {
+                  "hindi": "उन्हें आम पसंद हैं।",
+                  "read_as": "unheṁ aam pasand haiṁ.",
+                  "english": "They like mangoes.",
+                  "note": "आम is plural here, so हैं. The word itself does not change."
+                },
+                {
+                  "hindi": "उसे आम पसंद है।",
+                  "read_as": "use aam pasand hai.",
+                  "english": "He likes mango.",
+                  "note": "Singular reading, so है. Only the verb distinguishes them."
+                },
+                {
+                  "hindi": "बच्चों को मिठाई पसंद है।",
+                  "read_as": "bacchoṁ ko miṭhaaii pasand hai.",
+                  "english": "The children like sweets.",
+                  "note": "Plural experiencer, singular thing, singular verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "उन्होंने आम पसंद हैं।",
+                "right": "उन्हें आम पसंद हैं।",
+                "why_en": "उन्होंने is the ergative form and requires a perfective transitive verb. पसंद होना is neither."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ आम पसंद हैं।",
+              "question_read_as": "___ aam pasand haiṁ.",
+              "options": [
+                "उन्होंने",
+                "उनका",
+                "वे",
+                "उन्हें"
+              ],
+              "options_read_as": [
+                "unhoṁne",
+                "unkaa",
+                "ve",
+                "unheṁ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "वे goes oblique to उन and fuses with को to give उन्हें."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence means 'They like mangoes'?",
+              "options": [
+                "उन्हें आम पसंद है।",
+                "उन्हें आम पसंद हैं।",
+                "उन्होंने आम पसंद हैं।",
+                "वे आम पसंद हैं।"
+              ],
+              "options_read_as": [
+                "unheṁ aam pasand hai.",
+                "unheṁ aam pasand haiṁ.",
+                "unhoṁne aam pasand haiṁ.",
+                "ve aam pasand haiṁ."
+              ],
+              "answer_index": 1,
+              "explanation_en": "Plural mangoes, so हैं. The first is grammatical but says he likes mango in the singular."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उन्हें आम पसंद हैं।",
+              "उसे आम पसंद है।",
+              "बच्चों को मिठाई पसंद है।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "पसंद है means \"is pleasing\", and the thing is the subject. पसंद never changes; होना does, and it follows the thing's number. Plural thing, plural verb — मुझे किताबें पसंद हैं. Gender never shows up, because है and हैं have no gender.",
+        "key_forms": [
+          "मुझे चाय पसंद है",
+          "मुझे किताबें पसंद हैं",
+          "उन्हें आम पसंद हैं"
+        ],
+        "next_up_en": "Next: अच्छा लगना, where the adjective moves as well as the verb."
+      }
+    },
+    {
+      "level": 9,
+      "title_en": "अच्छा लगना — two words move now",
+      "title_hi": "अच्छा लगना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M10-L09-I1",
+          "type": "grammar",
+          "target": "मुझे यह अच्छा लगता है",
+          "read_as": "mujhe yah acchaa lagtaa hai",
+          "pronunciation_notes": "अच्छा has a doubled aspirated ch that must be held: ac-chhaa.",
+          "gloss_en": "I like this — literally, to me this seems good",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "dative",
+            "experiencer",
+            "lagnaa",
+            "adjective_agreement",
+            "masculine_thing"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Now the adjective agrees too",
+              "explanation_en": "अच्छा लगना means to seem good, to feel good. Two words move with the thing here rather than one — the adjective अच्छा and the verb लगता. With a masculine thing both come out masculine: मुझे यह अच्छा लगता है. That doubles the number of places an error can hide, which is exactly why this level comes after पसंद rather than before it. One note on यह: it takes its gender from whatever it points at, and when nothing has been specified it defaults to masculine, which is the reading here.",
+              "literal_vs_natural": {
+                "hindi": "मुझे यह अच्छा लगता है।",
+                "literal_en": "To me this seems good.",
+                "natural_en": "I like this."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे यह अच्छा लगता है।",
+                  "read_as": "mujhe yah acchaa lagtaa hai.",
+                  "english": "I like this.",
+                  "note": "Masculine, so both अच्छा and लगता."
+                },
+                {
+                  "hindi": "मुझे यह गाना अच्छा लगता है।",
+                  "read_as": "mujhe yah gaanaa acchaa lagtaa hai.",
+                  "english": "I like this song.",
+                  "note": "गाना is masculine, and it is controlling both words."
+                },
+                {
+                  "hindi": "उसे यह अच्छा लगा।",
+                  "read_as": "use yah acchaa lagaa.",
+                  "english": "He liked it.",
+                  "note": "Perfective — a reaction at a particular moment."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे यह अच्छा लगती है।",
+                "right": "मुझे यह अच्छा लगता है।",
+                "why_en": "The adjective and the verb must agree with the same thing. Once अच्छा is masculine, लगती cannot follow it."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ यह गाना अच्छा लगता है।",
+              "question_read_as": "___ yah gaanaa acchaa lagtaa hai.",
+              "options": [
+                "मुझे",
+                "मैंने",
+                "मेरा",
+                "मैं"
+              ],
+              "options_read_as": [
+                "mujhe",
+                "maiṁne",
+                "meraa",
+                "maiṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "अच्छा लगना takes an experiencer, so मुझे."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मुझे यह अच्छा लगती है।",
+                "मुझे यह अच्छी लगती है।",
+                "मुझे यह अच्छा लगता है।",
+                "मैं यह अच्छा लगता है।"
+              ],
+              "options_read_as": [
+                "mujhe yah acchaa lagtii hai.",
+                "mujhe yah acchii lagtii hai.",
+                "mujhe yah acchaa lagtaa hai.",
+                "maiṁ yah acchaa lagtaa hai."
+              ],
+              "answer_index": 2,
+              "explanation_en": "Masculine throughout. The last option lets the adjective and the verb disagree, which is never allowed."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे यह अच्छा लगता है।",
+              "मुझे यह गाना अच्छा लगता है।",
+              "उसे यह अच्छा लगा।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L09-I2",
+          "type": "grammar",
+          "target": "मुझे यह जगह अच्छी लगी",
+          "read_as": "mujhe yah jagah acchii lagii",
+          "pronunciation_notes": "जगह ends in a light breath rather than a full syllable: ja-gah.",
+          "gloss_en": "I liked this place — one feminine noun, two changes",
+          "gender": null,
+          "difficulty": 9,
+          "tags": [
+            "dative",
+            "experiencer",
+            "lagnaa",
+            "adjective_agreement",
+            "feminine_thing",
+            "gender_trap"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "One noun, and everything after it moves",
+              "explanation_en": "जगह is feminine, and it moves both words: अच्छी लगी. Set the pair side by side — मुझे यह गाना अच्छा लगा against मुझे यह जगह अच्छी लगी — and the mechanism is visible in a single glance. The noun in the middle decides the shape of everything that follows it, and the person at the front decides nothing. Worth committing to memory separately: जगह is feminine. It ends in a consonant, which English speakers read as a masculine signal, and it is the noun in this module most often got wrong.",
+              "literal_vs_natural": {
+                "hindi": "मुझे यह जगह अच्छी लगी।",
+                "literal_en": "To me this place seemed good.",
+                "natural_en": "I liked this place."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे यह जगह अच्छी लगी।",
+                  "read_as": "mujhe yah jagah acchii lagii.",
+                  "english": "I liked this place.",
+                  "note": "Feminine, so अच्छी and लगी."
+                },
+                {
+                  "hindi": "मुझे यह गाना अच्छा लगा।",
+                  "read_as": "mujhe yah gaanaa acchaa lagaa.",
+                  "english": "I liked this song.",
+                  "note": "The masculine twin. Only the noun differs."
+                },
+                {
+                  "hindi": "उसे यह किताब अच्छी लगी।",
+                  "read_as": "use yah kitaab acchii lagii.",
+                  "english": "He liked this book.",
+                  "note": "किताब is feminine too, and the experiencer has changed for nothing."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे यह जगह अच्छा लगा।",
+                "right": "मुझे यह जगह अच्छी लगी।",
+                "why_en": "जगह is feminine and controls both the adjective and the verb."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ यह जगह अच्छी लगी।",
+              "question_read_as": "___ yah jagah acchii lagii.",
+              "options": [
+                "वह",
+                "उसे",
+                "उसने",
+                "उसका"
+              ],
+              "options_read_as": [
+                "vah",
+                "use",
+                "usne",
+                "uskaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "वह goes oblique and fuses with को to give उसे."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मुझे यह जगह अच्छी लगा।",
+                "मैं यह जगह अच्छी लगी।",
+                "मुझे यह जगह अच्छा लगा।",
+                "मुझे यह जगह अच्छी लगी।"
+              ],
+              "options_read_as": [
+                "mujhe yah jagah acchii lagaa.",
+                "maiṁ yah jagah acchii lagii.",
+                "mujhe yah jagah acchaa lagaa.",
+                "mujhe yah jagah acchii lagii."
+              ],
+              "answer_index": 3,
+              "explanation_en": "जगह is feminine, so both words are feminine. The third option changes only one of them."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे यह जगह अच्छी लगी।",
+              "मुझे यह गाना अच्छा लगा।",
+              "उसे यह किताब अच्छी लगी।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L09-I3",
+          "type": "grammar",
+          "target": "पसंद है या अच्छा लगता है",
+          "read_as": "pasand hai yaa acchaa lagtaa hai",
+          "pronunciation_notes": null,
+          "gloss_en": "a settled preference, or a reaction",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "dative",
+            "experiencer",
+            "contrast",
+            "pasand",
+            "lagnaa",
+            "semantics"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Both are \"I like it\", and they are not interchangeable",
+              "explanation_en": "पसंद है reports a standing preference — something generally true of you. अच्छा लगना reports a reaction, usually to a particular thing at a particular time. मुझे चाय पसंद है says you are a tea drinker. मुझे यह चाय अच्छी लगी says this cup was good, and says nothing about tea in general. There is a grammatical tell as well as a semantic one: पसंद never changes shape, while अच्छा does. So if the sentence has an adjective moving around in it, you are looking at the reaction one. The two constructions also cannot be mixed — there is no पसंद लगना.",
+              "literal_vs_natural": {
+                "hindi": "मुझे यह चाय अच्छी लगी।",
+                "literal_en": "To me this tea seemed good.",
+                "natural_en": "I liked this tea."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे चाय पसंद है।",
+                  "read_as": "mujhe chaay pasand hai.",
+                  "english": "I like tea.",
+                  "note": "A standing preference. You drink tea."
+                },
+                {
+                  "hindi": "मुझे यह चाय अच्छी लगी।",
+                  "read_as": "mujhe yah chaay acchii lagii.",
+                  "english": "I liked this tea.",
+                  "note": "A reaction to one cup."
+                },
+                {
+                  "hindi": "मुझे यह जगह पसंद है।",
+                  "read_as": "mujhe yah jagah pasand hai.",
+                  "english": "I like this place.",
+                  "note": "Settled — and notice पसंद stays flat even though जगह is feminine."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे यह चाय पसंद लगी।",
+                "right": "मुझे यह चाय अच्छी लगी।",
+                "why_en": "पसंद goes with होना and अच्छा goes with लगना. There is no construction that combines them."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ यह चाय अच्छी लगी।",
+              "question_read_as": "___ yah chaay acchii lagii.",
+              "options": [
+                "तुम्हारा",
+                "तुम",
+                "तुम्हें",
+                "तुमने"
+              ],
+              "options_read_as": [
+                "tumhaaraa",
+                "tum",
+                "tumheṁ",
+                "tumne"
+              ],
+              "answer_index": 2,
+              "explanation_en": "अच्छा लगना takes an experiencer, so तुम्हें."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मुझे यह चाय अच्छी लगी।",
+                "मुझे यह चाय अच्छा लगा।",
+                "मैं यह चाय अच्छी लगी।",
+                "मुझे यह चाय पसंद लगी।"
+              ],
+              "options_read_as": [
+                "mujhe yah chaay acchii lagii.",
+                "mujhe yah chaay acchaa lagaa.",
+                "maiṁ yah chaay acchii lagii.",
+                "mujhe yah chaay pasand lagii."
+              ],
+              "answer_index": 0,
+              "explanation_en": "पसंद लगना does not exist, and चाय is feminine so it must be अच्छी लगी."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे चाय पसंद है।",
+              "मुझे यह चाय अच्छी लगी।",
+              "मुझे यह जगह पसंद है।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "अच्छा लगना puts two agreeing words after the noun instead of one — मुझे यह जगह अच्छी लगी against मुझे यह गाना अच्छा लगा. पसंद है is a settled preference and never changes shape; अच्छा लगना is a reaction and changes twice. जगह is feminine.",
+        "key_forms": [
+          "मुझे यह अच्छा लगता है",
+          "मुझे यह जगह अच्छी लगी",
+          "मुझे चाय पसंद है"
+        ],
+        "next_up_en": "Next: skills and languages, which also come to you rather than being owned."
+      }
+    },
+    {
+      "level": 10,
+      "title_en": "Knowing a language, knowing a skill",
+      "title_hi": "मुझे हिंदी आती है",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M10-L10-I1",
+          "type": "grammar",
+          "target": "मुझे हिंदी आती है",
+          "read_as": "mujhe hindii aatii hai",
+          "pronunciation_notes": "हिंदी has a short first syllable and a long second: hin-dii.",
+          "gloss_en": "I know Hindi — literally, to me Hindi comes",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "dative",
+            "experiencer",
+            "aanaa",
+            "skill",
+            "feminine_thing",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A language comes to you",
+              "explanation_en": "Knowing a language is not something you do in Hindi. It is something that comes to you: मुझे हिंदी आती है, to me Hindi comes. हिंदी is feminine, so आती है. This is the sentence you will use to describe your own Hindi to every person who asks, so it is worth getting exactly right — including the negative, which usually drops the auxiliary: मुझे हिंदी नहीं आती. Languages are all feminine in Hindi, so अंग्रेज़ी, तमिल and हिंदी all take आती है, which removes one decision entirely.",
+              "literal_vs_natural": {
+                "hindi": "मुझे हिंदी आती है।",
+                "literal_en": "To me Hindi comes.",
+                "natural_en": "I know Hindi."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे हिंदी आती है।",
+                  "read_as": "mujhe hindii aatii hai.",
+                  "english": "I know Hindi.",
+                  "note": "हिंदी is feminine, so आती."
+                },
+                {
+                  "hindi": "मुझे हिंदी नहीं आती।",
+                  "read_as": "mujhe hindii nahiiṁ aatii.",
+                  "english": "I don't know Hindi.",
+                  "note": "The auxiliary is normally dropped after नहीं."
+                },
+                {
+                  "hindi": "आपको अंग्रेज़ी आती है?",
+                  "read_as": "aapko aṁgrezii aatii hai?",
+                  "english": "Do you know English?",
+                  "note": "Languages are feminine, so the form never changes."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं हिंदी आती हूँ।",
+                "right": "मुझे हिंदी आती है।",
+                "why_en": "The language is the subject and you are where it arrives, so the verb cannot agree with you."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ हिंदी आती है।",
+              "question_read_as": "___ hindii aatii hai.",
+              "options": [
+                "मैंने",
+                "मेरी",
+                "मैं",
+                "मुझे"
+              ],
+              "options_read_as": [
+                "maiṁne",
+                "merii",
+                "maiṁ",
+                "mujhe"
+              ],
+              "answer_index": 3,
+              "explanation_en": "A language comes to a person, so the person is an experiencer."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मैं हिंदी आती हूँ।",
+                "मुझे हिंदी आती है।",
+                "मुझे हिंदी आता है।",
+                "मैंने हिंदी आती है।"
+              ],
+              "options_read_as": [
+                "maiṁ hindii aatii huuṁ.",
+                "mujhe hindii aatii hai.",
+                "mujhe hindii aataa hai.",
+                "maiṁne hindii aatii hai."
+              ],
+              "answer_index": 1,
+              "explanation_en": "मुझे plus आती है. हिंदी is feminine and it is the subject."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे हिंदी आती है।",
+              "मुझे हिंदी नहीं आती।",
+              "आपको अंग्रेज़ी आती है?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L10-I2",
+          "type": "grammar",
+          "target": "मुझे तैरना आता है",
+          "read_as": "mujhe tairnaa aataa hai",
+          "pronunciation_notes": "The ऐ is a single vowel closer to English 'air' than to a two-part diphthong: tair-naa.",
+          "gloss_en": "I can swim — a skill as a verbal noun",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "dative",
+            "experiencer",
+            "aanaa",
+            "skill",
+            "infinitive",
+            "masculine_thing"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Infinitives are always masculine singular",
+              "explanation_en": "For a skill that is an action rather than a language, use the infinitive: तैरना, to swim. Infinitives in Hindi are always masculine singular, without exception, so the verb is always आता है — मुझे तैरना आता है, मुझे गाड़ी चलाना आता है, मुझे खाना बनाना आता है. That is a genuinely useful piece of stability in a module built on things moving around. Whatever the skill, however long the phrase, the ending does not change.",
+              "literal_vs_natural": {
+                "hindi": "मुझे तैरना आता है।",
+                "literal_en": "To me swimming comes.",
+                "natural_en": "I can swim."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे तैरना आता है।",
+                  "read_as": "mujhe tairnaa aataa hai.",
+                  "english": "I can swim.",
+                  "note": "Infinitive, so masculine singular."
+                },
+                {
+                  "hindi": "उसे गाड़ी चलाना आता है।",
+                  "read_as": "use gaaṛii chalaanaa aataa hai.",
+                  "english": "He can drive.",
+                  "note": "गाड़ी is feminine and it makes no difference — चलाना is the subject, not गाड़ी."
+                },
+                {
+                  "hindi": "मुझे खाना बनाना नहीं आता।",
+                  "read_as": "mujhe khaanaa banaanaa nahiiṁ aataa.",
+                  "english": "I can't cook.",
+                  "note": "Negative, auxiliary dropped."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे तैरना आती है।",
+                "right": "मुझे तैरना आता है।",
+                "why_en": "तैरना is an infinitive, and infinitives are masculine singular no matter what they refer to."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ गाड़ी चलाना आता है।",
+              "question_read_as": "___ gaaṛii chalaanaa aataa hai.",
+              "options": [
+                "उसे",
+                "उसने",
+                "उसका",
+                "वह"
+              ],
+              "options_read_as": [
+                "use",
+                "usne",
+                "uskaa",
+                "vah"
+              ],
+              "answer_index": 0,
+              "explanation_en": "A skill comes to a person, so the person takes को — उसे."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "मुझे तैरना आते हैं।",
+                "मुझे तैरना आती है।",
+                "मुझे तैरना आता है।",
+                "मैं तैरना आता हूँ।"
+              ],
+              "options_read_as": [
+                "mujhe tairnaa aate haiṁ.",
+                "mujhe tairnaa aatii hai.",
+                "mujhe tairnaa aataa hai.",
+                "maiṁ tairnaa aataa huuṁ."
+              ],
+              "answer_index": 2,
+              "explanation_en": "तैरना is masculine singular, so आता है."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे तैरना आता है।",
+              "उसे गाड़ी चलाना आता है।",
+              "मुझे खाना बनाना नहीं आता।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M10-L10-I3",
+          "type": "grammar",
+          "target": "आती है या जानता हूँ",
+          "read_as": "aatii hai yaa jaantaa huuṁ",
+          "pronunciation_notes": null,
+          "gloss_en": "two verbs for knowing, two constructions",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "dative",
+            "experiencer",
+            "contrast",
+            "aanaa",
+            "jaannaa",
+            "semantics"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "आना and जानना are not the same word",
+              "explanation_en": "Both get translated as \"know\", and they take opposite constructions. आना takes the dative and is about ability: मुझे हिंदी आती है means you can actually use Hindi. जानना is an ordinary transitive verb with an ordinary subject: मैं यह जानता हूँ, I know this. Use आना for skills and languages, जानना for facts and people. मैं हिंदी जानता हूँ is not ungrammatical, but it leans towards knowing about Hindi rather than being able to speak it — so when someone asks whether you speak the language, the sentence they want is मुझे हिंदी आती है.",
+              "literal_vs_natural": {
+                "hindi": "मुझे हिंदी आती है।",
+                "literal_en": "To me Hindi comes.",
+                "natural_en": "I can speak Hindi."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे हिंदी आती है।",
+                  "read_as": "mujhe hindii aatii hai.",
+                  "english": "I can speak Hindi.",
+                  "note": "Ability. Dative."
+                },
+                {
+                  "hindi": "मैं यह जानता हूँ।",
+                  "read_as": "maiṁ yah jaantaa huuṁ.",
+                  "english": "I know this.",
+                  "note": "A fact. Ordinary subject, ordinary agreement with मैं."
+                },
+                {
+                  "hindi": "मैं उसे जानता हूँ।",
+                  "read_as": "maiṁ use jaantaa huuṁ.",
+                  "english": "I know him.",
+                  "note": "A person. उसे here is the object, not an experiencer — the same form doing a different job."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे यह जानता हूँ।",
+                "right": "मैं यह जानता हूँ।",
+                "why_en": "जानना is an ordinary verb with an ordinary subject, so it takes मैं and the verb agrees with the speaker."
+              }
+            },
+            "practice": {
+              "format": "fix_the_subject",
+              "prompt_en": "Fix the subject.",
+              "question": "___ यह जानता हूँ।",
+              "question_read_as": "___ yah jaantaa huuṁ.",
+              "options": [
+                "मुझे",
+                "मैं",
+                "मेरा",
+                "मैंने"
+              ],
+              "options_read_as": [
+                "mujhe",
+                "maiṁ",
+                "meraa",
+                "maiṁne"
+              ],
+              "answer_index": 1,
+              "explanation_en": "जानना is not an experiencer verb. The subject is plain मैं."
+            },
+            "game": {
+              "format": "main_or_mujhe",
+              "question_en": "मैं or मुझे?",
+              "options": [
+                "मैं हिंदी आती हूँ।",
+                "मुझे यह जानती है।",
+                "मुझे यह जानता हूँ।",
+                "मैं यह जानता हूँ।"
+              ],
+              "options_read_as": [
+                "maiṁ hindii aatii huuṁ.",
+                "mujhe yah jaantii hai.",
+                "mujhe yah jaantaa huuṁ.",
+                "maiṁ yah jaantaa huuṁ."
+              ],
+              "answer_index": 3,
+              "explanation_en": "जानना takes मैं; आना takes मुझे. The third option has them the wrong way round."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे हिंदी आती है।",
+              "मैं यह जानता हूँ।",
+              "मैं उसे जानता हूँ।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Languages and skills come to you rather than being owned. मुझे हिंदी आती है — all languages are feminine, so this form never changes. Skills use the infinitive, which is always masculine singular: मुझे तैरना आता है. And जानना is a different verb entirely, with an ordinary subject: मैं यह जानता हूँ.",
+        "key_forms": [
+          "मुझे हिंदी आती है",
+          "मुझे तैरना आता है",
+          "मैं यह जानता हूँ"
+        ],
+        "next_up_en": "Next: मुझे लगता है for opinions, then चाहिए."
+      }
+    }
+  ]
+}

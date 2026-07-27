@@ -1,0 +1,699 @@
+{
+  "module": 14,
+  "module_name_en": "Connected Speech",
+  "module_name_hi": "जुड़े वाक्य",
+  "phase": 5,
+  "kind": "mock_exam",
+  "questions_total": 40,
+  "coverage_note_en": "Forty questions across all twenty-four levels, matching the blueprint's Modules 12-15 mock size of 40Q (the original 30Q build predates that sizing). Levels 21 to 24 fall past the last checkpoint, so questions 16-25 remain their primary assessment. Questions 31-40 close the last content gap: levels 2, 6, 8, 13 and 16 had never been drawn on by any earlier question, despite each carrying a load-bearing point (the missing-correlative error recurring across जो/जब/जहाँ, and the subjunctive-vs-indicative distinction across अगर/चाहे/शायद/ताकि).",
+  "question_types": [
+    "join_the_sentences",
+    "gap_fill",
+    "spot_the_error",
+    "which_structure"
+  ],
+  "questions": [
+    {
+      "n": 1,
+      "type": "join_the_sentences",
+      "sentences": [
+        "एक आदमी वहाँ खड़ा है।",
+        "वह डॉक्टर है।"
+      ],
+      "options": [
+        "जो आदमी वहाँ खड़ा है, वह डॉक्टर है।",
+        "जो आदमी वहाँ खड़ा है डॉक्टर है।",
+        "आदमी जो वहाँ खड़ा है वह डॉक्टर है।",
+        "वहाँ खड़ा आदमी जो डॉक्टर है।"
+      ],
+      "is_the_english_error": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "answer_index": 0,
+      "explanation_en": "Without वह the first half has nothing to attach to.",
+      "level_source": 1
+    },
+    {
+      "n": 2,
+      "type": "gap_fill",
+      "stem": "___ बेटा डॉक्टर है, वह मेरी पड़ोसन हैं।",
+      "stem_read_as": "___ beṭaa ḍôkṭar hai, vah merii paṛosan haiṁ.",
+      "options": [
+        "जिसकी",
+        "जिसके",
+        "जो का",
+        "जिसका"
+      ],
+      "answer_index": 3,
+      "explanation_en": "जिसका agrees with बेटा, the thing possessed, not with the woman who possesses him.",
+      "level_source": 3
+    },
+    {
+      "n": 3,
+      "type": "spot_the_error",
+      "sentences": [
+        "जिन लोगों ने मदद की, उन्हें धन्यवाद।",
+        "जो लोगों ने मदद की, उन्हें धन्यवाद।"
+      ],
+      "options": [
+        "The first",
+        "The second",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 1,
+      "explanation_en": "ने is a postposition, so both जो and लोग go oblique.",
+      "level_source": 4
+    },
+    {
+      "n": 4,
+      "type": "which_structure",
+      "sentence": "जैसे ही घंटी बजी, सब खड़े हो गए।",
+      "sentence_read_as": "jaise hii ghanṭii bajii, sab khaṛe ho gae.",
+      "options": [
+        "A manner clause",
+        "A correlative pair",
+        "A compound conjunction that takes no answer",
+        "A conditional"
+      ],
+      "answer_index": 2,
+      "explanation_en": "Supplying वैसे ही would change it to \"in the same manner\".",
+      "level_source": 7
+    },
+    {
+      "n": 5,
+      "type": "gap_fill",
+      "stem": "जब तक मैं ___ लौटूँ, तुम यहीं रहना।",
+      "stem_read_as": "jab tak maiṁ ___ lauṭuuṁ, tum yahiiṁ rahnaa.",
+      "options": [
+        "भी",
+        "फिर",
+        "न",
+        "नहीं"
+      ],
+      "answer_index": 2,
+      "explanation_en": "जब तक takes न with the subjunctive and नहीं with the indicative, but always takes one of them.",
+      "level_source": 7
+    },
+    {
+      "n": 6,
+      "type": "join_the_sentences",
+      "sentences": [
+        "तुम्हारे पास कुछ पैसा है।",
+        "उतना ही ख़र्च करो।"
+      ],
+      "options": [
+        "जितना पैसा है, उतना ही ख़र्च करो।",
+        "जितना पैसा है, ख़र्च करो।",
+        "जितनी पैसा है, उतना ही ख़र्च करो।",
+        "जितना पैसा है, उतना ख़र्च ही करो।"
+      ],
+      "is_the_english_error": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "answer_index": 0,
+      "explanation_en": "The last moves ही onto ख़र्च, so it emphasises spending rather than the amount.",
+      "level_source": 9
+    },
+    {
+      "n": 7,
+      "type": "which_structure",
+      "sentence": "अगर देर हो जाए तो फ़ोन कर देना।",
+      "sentence_read_as": "agar der ho jaae to fon kar denaa.",
+      "options": [
+        "A wish",
+        "A concession",
+        "An unreal condition",
+        "A real condition with the subjunctive, leaving it genuinely open"
+      ],
+      "answer_index": 3,
+      "explanation_en": "The subjunctive leaves the lateness a possibility. A future would assert it.",
+      "level_source": 12
+    },
+    {
+      "n": 8,
+      "type": "spot_the_error",
+      "sentences": [
+        "अगर तुम नहीं आए तो मैं अकेला चला जाऊँगा।",
+        "अगर तुम नहीं आते तो मैं अकेला चला जाऊँगा।"
+      ],
+      "options": [
+        "The first",
+        "The second — if a real condition is meant",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 1,
+      "explanation_en": "नहीं आते is the imperfect, which makes the condition unreal and clashes with the real future in the second half.",
+      "level_source": 12
+    },
+    {
+      "n": 9,
+      "type": "gap_fill",
+      "stem": "अगर तुम ___ बताते तो मुझे पता ही नहीं चलता।",
+      "stem_read_as": "agar tum ___ bataate to mujhe pataa hii nahiiṁ chaltaa.",
+      "options": [
+        "न",
+        "नहीं",
+        "कभी",
+        "भी"
+      ],
+      "answer_index": 0,
+      "explanation_en": "A counterfactual condition takes न; its consequence takes नहीं. The asymmetry is worth learning as a pair.",
+      "level_source": 14
+    },
+    {
+      "n": 10,
+      "type": "which_structure",
+      "sentence": "अगर उस दिन बता देते तो आज ये हाल न होता।",
+      "sentence_read_as": "agar us din bataa dete to aaj ye haal na hotaa.",
+      "options": [
+        "A real future condition",
+        "A wish",
+        "A past condition with a past consequence",
+        "A past condition with a present consequence, in one verb form used twice"
+      ],
+      "answer_index": 3,
+      "explanation_en": "English needs two constructions for this. Hindi does not distinguish \"if I went\" from \"if I had gone\".",
+      "level_source": 15
+    },
+    {
+      "n": 11,
+      "type": "join_the_sentences",
+      "sentences": [
+        "मेरी इच्छा है।",
+        "आप आएँ।"
+      ],
+      "options": [
+        "मैं आपको आना चाहता हूँ।",
+        "मैं चाहता हूँ कि आप आएँ।",
+        "मैं चाहता हूँ आपको आना।",
+        "मैं चाहता हूँ कि आप आएँगे।"
+      ],
+      "answer_index": 1,
+      "explanation_en": "चाहना takes the subjunctive after कि, never the future.",
+      "level_source": 17
+    },
+    {
+      "n": 12,
+      "type": "which_structure",
+      "sentence": "हो सकता है कि वो न आए।",
+      "sentence_read_as": "ho saktaa hai ki vo na aae.",
+      "options": [
+        "A reported statement",
+        "A prediction",
+        "An impersonal way of raising a possibility",
+        "A refusal"
+      ],
+      "answer_index": 2,
+      "explanation_en": "हो सकता है never changes for who is being discussed. It is about the situation, not the person.",
+      "level_source": 17
+    },
+    {
+      "n": 13,
+      "type": "spot_the_error",
+      "sentences": [
+        "डॉक्टर ने कहा कि आराम करें।",
+        "डॉक्टर ने कहा कि आराम कीजिए।"
+      ],
+      "options": [
+        "Neither",
+        "The first",
+        "The second",
+        "Both"
+      ],
+      "answer_index": 2,
+      "explanation_en": "कीजिए is addressed to somebody. Inside a report there is nobody to address, so the subjunctive takes over.",
+      "level_source": 18
+    },
+    {
+      "n": 14,
+      "type": "which_structure",
+      "sentence": "राहुल ने कहा कि मैं थक गया हूँ।",
+      "sentence_read_as": "raahul ne kahaa ki maiṁ thak gayaa huuṁ.",
+      "options": [
+        "Rahul said he was tired",
+        "The speaker asked Rahul a question",
+        "Rahul is quoting somebody else",
+        "Rahul said something, and separately the speaker is tired"
+      ],
+      "answer_index": 0,
+      "explanation_en": "कि introduces reported speech, so everything after it belongs to Rahul. Hindi resolves this by convention rather than grammar.",
+      "level_source": 19
+    },
+    {
+      "n": 15,
+      "type": "join_the_sentences",
+      "sentences": [
+        "वो हँस रहे थे।",
+        "वो अंदर आए।"
+      ],
+      "options": [
+        "वो हँसते अंदर आए।",
+        "वो हँसकर अंदर आए।",
+        "वो हँसते हुए अंदर आना।",
+        "वो हँसते हुए अंदर आए।"
+      ],
+      "answer_index": 3,
+      "explanation_en": "हँसकर would mean he laughed and then came in — a sequence rather than two things at once.",
+      "level_source": 20
+    },
+    {
+      "n": 16,
+      "type": "gap_fill",
+      "stem": "मेज़ पर ___ किताब मेरी है।",
+      "stem_read_as": "mez par ___ kitaab merii hai.",
+      "options": [
+        "रखकर",
+        "रखी हुई",
+        "रखते हुए",
+        "रखा हुआ"
+      ],
+      "answer_index": 1,
+      "explanation_en": "The perfective participle describes a thing in a settled state, and it agrees with feminine किताब.",
+      "level_source": 21
+    },
+    {
+      "n": 17,
+      "type": "spot_the_error",
+      "sentences": [
+        "वो कुर्सी पर बैठा है।",
+        "वो कुर्सी पर बैठ रहा है।"
+      ],
+      "options": [
+        "Neither — but the second means he is lowering himself onto it",
+        "Both",
+        "The second is ungrammatical",
+        "The first"
+      ],
+      "answer_index": 0,
+      "explanation_en": "Positions in Hindi are states. बैठ रहा है is the act of sitting down, not the state of being seated.",
+      "level_source": 21
+    },
+    {
+      "n": 18,
+      "type": "which_structure",
+      "sentence": "खाना खाकर हम निकल गए।",
+      "sentence_read_as": "khaanaa khaakar ham nikal gae.",
+      "options": [
+        "A condition",
+        "A purpose",
+        "Two things at once",
+        "One action then the next, with a single subject for both"
+      ],
+      "answer_index": 3,
+      "explanation_en": "-कर chains actions and requires the same subject. If the subjects differ you need के बाद.",
+      "level_source": 22
+    },
+    {
+      "n": 19,
+      "type": "gap_fill",
+      "stem": "मेहनत ___ ही सफलता मिलती है।",
+      "stem_read_as": "mehnat ___ hii safaltaa miltii hai.",
+      "options": [
+        "किया",
+        "करके",
+        "करकर",
+        "करते"
+      ],
+      "answer_index": 1,
+      "explanation_en": "करना is the one verb that cannot take plain कर, because that would give कर कर.",
+      "level_source": 22
+    },
+    {
+      "n": 20,
+      "type": "spot_the_error",
+      "sentences": [
+        "खाना खाने के बाद हम निकले।",
+        "खाना खाना के बाद हम निकले।"
+      ],
+      "options": [
+        "Neither",
+        "The first",
+        "The second",
+        "Both"
+      ],
+      "answer_index": 2,
+      "explanation_en": "के बाद is a postposition, so the infinitive in front of it goes oblique. Module 6, applied to a verb.",
+      "level_source": 23
+    },
+    {
+      "n": 21,
+      "type": "which_structure",
+      "sentence": "उनके जाने के बाद मैं पहुँचा।",
+      "sentence_read_as": "unke jaane ke baad maiṁ pahuṁchaa.",
+      "options": [
+        "This is a relative clause",
+        "This could equally be said with -कर",
+        "This cannot be said with -कर, because the two actions have different subjects",
+        "This is a conditional"
+      ],
+      "answer_index": 2,
+      "explanation_en": "-कर has no way to carry its own subject. That is the practical reason के बाद survives alongside a shorter form.",
+      "level_source": 23
+    },
+    {
+      "n": 22,
+      "type": "gap_fill",
+      "stem": "रिपोर्ट कल ___ जाएगी।",
+      "stem_read_as": "riporṭ kal ___ jaaegii.",
+      "options": [
+        "भेजी",
+        "भेजा",
+        "भेजे",
+        "भेजना"
+      ],
+      "answer_index": 0,
+      "explanation_en": "Both halves of a passive agree with the subject, and रिपोर्ट is feminine.",
+      "level_source": 24
+    },
+    {
+      "n": 23,
+      "type": "spot_the_error",
+      "sentences": [
+        "रिपोर्ट अधिकारी के द्वारा भेजी गई।",
+        "रिपोर्ट अधिकारी ने भेजी गई।"
+      ],
+      "options": [
+        "Both",
+        "Neither",
+        "The first",
+        "The second"
+      ],
+      "answer_index": 3,
+      "explanation_en": "A passive has no ने, because the agent is no longer the subject.",
+      "level_source": 24
+    },
+    {
+      "n": 24,
+      "type": "which_structure",
+      "sentence": "मुझसे इतना नहीं खाया जाता।",
+      "sentence_read_as": "mujhse itnaa nahiiṁ khaayaa jaataa.",
+      "options": [
+        "I am not allowed to eat this much",
+        "I find myself unable to eat this much",
+        "I do not want to eat",
+        "Somebody else is eating"
+      ],
+      "answer_index": 1,
+      "explanation_en": "The capability passive is about something in you refusing, which is not the same as सकना's plain inability.",
+      "level_source": 24
+    },
+    {
+      "n": 25,
+      "type": "which_structure",
+      "sentence": "यह काम कल किया जाएगा।",
+      "sentence_read_as": "yah kaam kal kiyaa jaaegaa.",
+      "options": [
+        "It states what will happen without naming who",
+        "It is a question",
+        "It is a command",
+        "It names who will do the work"
+      ],
+      "answer_index": 0,
+      "explanation_en": "Removing the agent is the point of the construction rather than a side effect, which is why notices and reports use it constantly.",
+      "level_source": 24
+    },
+    {
+      "n": 26,
+      "type": "which_structure",
+      "sentence": "वो हमेशा की तरह साढ़े नौ बजे आए और अपनी जगह बैठ गए।",
+      "sentence_read_as": "vo hameshaa kii tarah saaṛhe nau baje aae aur apnii jagah baiṭh gae.",
+      "options": [
+        "A conditional",
+        "A reported statement",
+        "A passive",
+        "Two compound verbs in a narrative past"
+      ],
+      "answer_index": 3,
+      "explanation_en": "From Module 13's final narrative. आए and बैठ गए, and the vector on the second marks the settling.",
+      "level_source": 22
+    },
+    {
+      "n": 27,
+      "type": "spot_the_error",
+      "sentences": [
+        "जब तक तुम यहाँ हो, कोई चिंता नहीं।",
+        "जब तक तुम यहाँ नहीं हो, कोई चिंता नहीं।"
+      ],
+      "options": [
+        "The first",
+        "The second — if \"as long as you are here\" is meant",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 1,
+      "explanation_en": "जब तक takes नहीं for \"until\" and drops it for \"as long as\". The negative changes which of the two you have said.",
+      "level_source": 5
+    },
+    {
+      "n": 28,
+      "type": "gap_fill",
+      "stem": "अगर आवश्यक हो ___ सूचित करें।",
+      "stem_read_as": "agar aavashyak ho ___ suuchit kareṁ.",
+      "options": [
+        "और",
+        "फिर",
+        "तो",
+        "तब"
+      ],
+      "answer_index": 2,
+      "explanation_en": "Every conditional is answered by तो. The vocabulary here comes from Module 13's formal register block.",
+      "level_source": 11
+    },
+    {
+      "n": 29,
+      "type": "which_structure",
+      "sentence": "जिस दुकान से सामान लिया, वह बंद हो गई।",
+      "sentence_read_as": "jis dukaan se saamaan liyaa, vah baṁd ho gaii.",
+      "options": [
+        "No postposition is needed",
+        "से because the shop was closed",
+        "से because buying is done from a shop, so the relative copies that postposition",
+        "को would be equally correct"
+      ],
+      "answer_index": 2,
+      "explanation_en": "Write the first half as a plain sentence, look at the postposition it used, and put जिस in front of it.",
+      "level_source": 4
+    },
+    {
+      "n": 30,
+      "type": "join_the_sentences",
+      "sentences": [
+        "माहौल अलग-अलग होता है।",
+        "उसी के हिसाब से बोलना चाहिए।"
+      ],
+      "options": [
+        "जहाँ जैसा माहौल हो, वहाँ वैसा ही बोलना चाहिए।",
+        "जहाँ जैसा माहौल हो, वैसा ही बोलना चाहिए।",
+        "जहाँ जैसा माहौल हो, वहाँ ही बोलना चाहिए।",
+        "जैसा जहाँ माहौल हो, वैसा वहाँ बोलना चाहिए।"
+      ],
+      "is_the_english_error": [
+        false,
+        true,
+        false,
+        false
+      ],
+      "answer_index": 0,
+      "explanation_en": "Two openers need two answerers. This is also the sentence Module 15 closes on.",
+      "level_source": 10
+    },
+    {
+      "n": 31,
+      "type": "spot_the_error",
+      "sentences": [
+        "जो कल कहा था, वही आज भी कहता हूँ।",
+        "जो कल कहा था, वह ही आज भी कहता हूँ।"
+      ],
+      "options": [
+        "The first",
+        "The second",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 0,
+      "explanation_en": "वह and ही fuse into वही. Writing them apart is not wrong so much as never done.",
+      "level_source": 2
+    },
+    {
+      "n": 32,
+      "type": "spot_the_error",
+      "sentences": [
+        "किताब कहाँ है जो मैंने कल दी थी?",
+        "वह किताब कहाँ है जो मैंने कल दी थी?"
+      ],
+      "options": [
+        "The first",
+        "The second — this is the correct one",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 1,
+      "explanation_en": "Even when the जो clause comes second, the correlative वह is still needed in front. Reversing the order does not let you drop it.",
+      "level_source": 2
+    },
+    {
+      "n": 33,
+      "type": "spot_the_error",
+      "sentences": [
+        "जब भी वो आते हैं, मिठाई लाते हैं।",
+        "जब भी वो आते हैं, तब भी मिठाई लाते हैं।"
+      ],
+      "options": [
+        "The first",
+        "The second",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 0,
+      "explanation_en": "तब भी exists but means \"even then\", which contradicts the sentence. A correlative isn't automatic just because the first half has भी.",
+      "level_source": 6
+    },
+    {
+      "n": 34,
+      "type": "spot_the_error",
+      "sentences": [
+        "जब वो आते हैं, तब बात करेंगे।",
+        "जब वो आएँगे, तब बात करेंगे।"
+      ],
+      "options": [
+        "The first",
+        "The second — this is the correct one",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 1,
+      "explanation_en": "The present here says they habitually come, turning a plan into a routine — the English when-clause habit leaking into Hindi.",
+      "level_source": 6
+    },
+    {
+      "n": 35,
+      "type": "spot_the_error",
+      "sentences": [
+        "जहाँ हम रुके थे, वहाँ अब होटल है।",
+        "जहाँ हम रुके थे, अब होटल है।"
+      ],
+      "options": [
+        "The first",
+        "The second",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 0,
+      "explanation_en": "The same missing correlative as जो...वह and जब...तब, now in जहाँ...वहाँ.",
+      "level_source": 8
+    },
+    {
+      "n": 36,
+      "type": "spot_the_error",
+      "sentences": [
+        "जहाँ भी जाओ, वहाँ भी सावधानी बरतो।",
+        "जहाँ भी जाओ, सावधानी बरतो।"
+      ],
+      "options": [
+        "The first",
+        "The second — this is the correct one",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 1,
+      "explanation_en": "वहाँ भी means \"there too\", which adds a second place the sentence never mentioned. The भी-hedged form takes no correlative.",
+      "level_source": 8
+    },
+    {
+      "n": 37,
+      "type": "spot_the_error",
+      "sentences": [
+        "अगर उन्होंने कहा है तो सही ही होगा।",
+        "अगर उन्होंने कहा है तो सही ही है।"
+      ],
+      "options": [
+        "The first",
+        "The second",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 0,
+      "explanation_en": "है asserts it flatly. होगा marks it as an inference, which is what this sentence is actually doing.",
+      "level_source": 13
+    },
+    {
+      "n": 38,
+      "type": "spot_the_error",
+      "sentences": [
+        "चाहे कुछ भी हो जाए, तो मैं जाऊँगा।",
+        "चाहे कुछ भी हो जाए, फिर भी मैं जाऊँगा।"
+      ],
+      "options": [
+        "The first",
+        "The second — this is the correct one",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 1,
+      "explanation_en": "तो answers अगर and means the condition led to the result. चाहे needs फिर भी, meaning the condition did not stop the outcome.",
+      "level_source": 13
+    },
+    {
+      "n": 39,
+      "type": "spot_the_error",
+      "sentences": [
+        "शायद वो कल आए।",
+        "शायद वो कल आता है।"
+      ],
+      "options": [
+        "The first",
+        "The second",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 0,
+      "explanation_en": "The present makes it a habit — 'he perhaps habitually comes tomorrow'. शायद takes the subjunctive or future, never the plain present.",
+      "level_source": 16
+    },
+    {
+      "n": 40,
+      "type": "spot_the_error",
+      "sentences": [
+        "जल्दी निकलो ताकि ट्रेन मिल जाएगी।",
+        "जल्दी निकलो ताकि ट्रेन मिल जाए।"
+      ],
+      "options": [
+        "The first",
+        "The second — this is the correct one",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 1,
+      "explanation_en": "The future asserts the train will be caught. ताकि states an aim, and an aim hasn't happened yet — it needs the subjunctive.",
+      "level_source": 16
+    }
+  ],
+  "module_assessment_complete": {
+    "checkpoints": 4,
+    "mock_questions": 40,
+    "levels_21_to_24_note_en": "Levels 21 to 24 fall past the last checkpoint, so questions 16 to 25 are the only assessment those four levels receive. If the engine ever adds a fifth checkpoint slot for modules whose level count is not a multiple of five, this is the gap it would close.",
+    "phase_5_draw": [
+      {
+        "n": 26,
+        "draws_on": "Module 13's final narrative"
+      },
+      {
+        "n": 28,
+        "draws_on": "Module 13's formal register block"
+      },
+      {
+        "n": 30,
+        "draws_on": "the sentence Module 15 closes on"
+      }
+    ],
+    "topup_note_en": "Questions 31-40 added to bring the mock from 30 to the spec's 40, sourced from Module 14 levels 2, 6, 8, 13, 16 (previously untested by this mock)."
+  }
+}

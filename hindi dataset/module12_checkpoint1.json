@@ -1,0 +1,258 @@
+{
+  "module": 12,
+  "format_divergence": {
+    "part_f_default": "4 recognition, 4 production/transform, 2 error-spotting",
+    "used_here": "3 comprehension, 2 recognition, 5 audio_gap_fill",
+    "reason_en": "This module is receptive. A production or transform question would ask the learner to build Hindi, which the module never teaches and the app never checks, and an error-spot question would present a wrong Hindi sentence to someone whose only job is to understand correct spoken Hindi. The two formats the module actually teaches — comprehension and gap-fill — are what it should be assessed on. Flagged rather than adopted silently: if the engine requires the Part F mix across all modules, this needs a ruling.",
+    "replay_note": "Every question carries replay_item_id so the player knows which dialogue audio to serve. Gap-fill questions also carry line_n."
+  },
+  "checkpoints": [
+    {
+      "after_level": 5,
+      "covers_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "questions": [
+        {
+          "id": "M12-CP1-Q1",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L01-I1",
+          "question_en": "Listen again. Why have the two neighbours not seen each other?",
+          "options": [
+            "One of them has been busy with work",
+            "One of them was unwell",
+            "They live in different buildings now",
+            "One of them was travelling"
+          ],
+          "answer_index": 0,
+          "explanation_en": "काम में लगा था — he has been tied up with work.",
+          "source_item_ids": [
+            "M12-L01-I1"
+          ]
+        },
+        {
+          "id": "M12-CP1-Q2",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L03-I1",
+          "question_en": "Listen again. What does the shopkeeper tell the customer to do?",
+          "options": [
+            "Take milk instead",
+            "Come back in the evening",
+            "Try the next shop",
+            "Pay tomorrow"
+          ],
+          "answer_index": 1,
+          "explanation_en": "शाम को आ जाइए — come back in the evening, once the bread is in.",
+          "source_item_ids": [
+            "M12-L03-I1"
+          ]
+        },
+        {
+          "id": "M12-CP1-Q3",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L05-I2",
+          "question_en": "Across the three clothes-shop dialogues, what item is being discussed?",
+          "options": [
+            "Shoes",
+            "Trousers",
+            "A shirt",
+            "A sari"
+          ],
+          "answer_index": 2,
+          "explanation_en": "कमीज़, a shirt — and it is named only once, in the very first line of the level. Everything after that is feminine endings pointing back at it.",
+          "source_item_ids": [
+            "M12-L05-I1",
+            "M12-L05-I2",
+            "M12-L05-I3"
+          ]
+        },
+        {
+          "id": "M12-CP1-Q4",
+          "source": "current",
+          "format": "recognition",
+          "replay_item_id": "M12-L03-I3",
+          "question_en": "You hear कल आपने चीनी नहीं दी थी. Why आपने rather than आप?",
+          "options": [
+            "Because the sentence is a question",
+            "Because चीनी is feminine",
+            "Because आप is plural",
+            "Because देना is transitive and the tense is perfective"
+          ],
+          "answer_index": 3,
+          "explanation_en": "ने marks the subject of a perfective transitive verb. The same thing happens in the market dialogue: कल मैंने पचास में ली थी.",
+          "source_item_ids": [
+            "M12-L03-I3",
+            "M12-L04-I2"
+          ]
+        },
+        {
+          "id": "M12-CP1-Q5",
+          "source": "current",
+          "format": "recognition",
+          "replay_item_id": "M12-L02-I2",
+          "question_en": "कोई बात नहीं turns up in several of these dialogues. What is it doing?",
+          "options": [
+            "Waving away a difficulty — \"no problem\"",
+            "Asking for clarification",
+            "Agreeing to a price",
+            "Refusing something politely"
+          ],
+          "answer_index": 0,
+          "explanation_en": "It waves away whatever has just gone slightly wrong — no change, no bread, a wrong size. It is one of the most useful phrases in the module.",
+          "source_item_ids": [
+            "M12-L01-I3",
+            "M12-L02-I2",
+            "M12-L03-I2"
+          ]
+        },
+        {
+          "id": "M12-CP1-Q6",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L01-I2",
+          "line_n": 4,
+          "mask_reason": "verb_ending",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "मैं कल ही ___ हूँ।",
+          "question_read_as": "maiṁ kal hii ___ huuṁ.",
+          "options": [
+            "आया",
+            "आई",
+            "आए",
+            "आईं"
+          ],
+          "options_read_as": [
+            "aayaa",
+            "aaii",
+            "aae",
+            "aaiiṁ"
+          ],
+          "answer_index": 1,
+          "explanation_en": "Seema is speaking about herself, so the verb is feminine singular.",
+          "source_item_ids": [
+            "M12-L01-I2"
+          ]
+        },
+        {
+          "id": "M12-CP1-Q7",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L02-I1",
+          "line_n": 4,
+          "mask_reason": "verb_ending",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "दो मिनट ___ ।",
+          "question_read_as": "do minaṭ ___ .",
+          "options": [
+            "लगेगा",
+            "लगेगी",
+            "लगेंगे",
+            "लगीं"
+          ],
+          "options_read_as": [
+            "lagegaa",
+            "lagegii",
+            "lageṁge",
+            "lagiiṁ"
+          ],
+          "answer_index": 2,
+          "explanation_en": "मिनट is masculine plural here, so the verb is plural.",
+          "source_item_ids": [
+            "M12-L02-I1"
+          ]
+        },
+        {
+          "id": "M12-CP1-Q8",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L02-I3",
+          "line_n": 2,
+          "mask_reason": "verb_ending",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "ट्रैफ़िक में फँस ___ था।",
+          "question_read_as": "ṭraifik meṁ phaṁs ___ thaa.",
+          "options": [
+            "गई",
+            "गए",
+            "लिया",
+            "गया"
+          ],
+          "options_read_as": [
+            "gaii",
+            "gae",
+            "liyaa",
+            "gayaa"
+          ],
+          "answer_index": 3,
+          "explanation_en": "A male speaker and no ने, so the vector agrees with the subject.",
+          "source_item_ids": [
+            "M12-L02-I3"
+          ]
+        },
+        {
+          "id": "M12-CP1-Q9",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L04-I1",
+          "line_n": 3,
+          "mask_reason": "oblique",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "आजकल ___ के दाम बहुत बढ़ गए हैं।",
+          "question_read_as": "aajkal ___ ke daam bahut baṛh gae haiṁ.",
+          "options": [
+            "सब्ज़ियों",
+            "सब्ज़ियो",
+            "सब्ज़ी",
+            "सब्ज़ियाँ"
+          ],
+          "options_read_as": [
+            "sabziyoṁ",
+            "sabziyo",
+            "sabzii",
+            "sabziyaaṁ"
+          ],
+          "answer_index": 0,
+          "explanation_en": "के is a postposition, so the plural goes oblique.",
+          "source_item_ids": [
+            "M12-L04-I1"
+          ]
+        },
+        {
+          "id": "M12-CP1-Q10",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L04-I3",
+          "line_n": 3,
+          "mask_reason": "postposition",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "मटर इस मौसम ___ मिलती है?",
+          "question_read_as": "maṭar is mausam ___ miltii hai?",
+          "options": [
+            "को",
+            "में",
+            "पर",
+            "से"
+          ],
+          "options_read_as": [
+            "ko",
+            "meṁ",
+            "par",
+            "se"
+          ],
+          "answer_index": 1,
+          "explanation_en": "A season is something you are inside, so में.",
+          "source_item_ids": [
+            "M12-L04-I3"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1724 @@
+{
+  "module": 8,
+  "module_name_en": "Core Words II",
+  "module_name_hi": "शब्द भंडार २",
+  "phase": 4,
+  "type": "word",
+  "batch": {
+    "levels_from": 16,
+    "levels_to": 20
+  },
+  "learner_knows_through_module": 7,
+  "levels": [
+    {
+      "level": 16,
+      "title_en": "Body states: hunger, thirst, sleep",
+      "title_hi": "भूख · प्यास · नींद",
+      "category": "health_body",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L16-I1",
+          "type": "word",
+          "target": "भूख",
+          "read_as": "bhuukh",
+          "pronunciation_notes": "Breathy bh at the front and a throaty kh at the back, with a long uu between: bhuukh.",
+          "gloss_en": "hunger",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "भूख लगना",
+            "read_as": "bhuukh lagnaa",
+            "english": "to be hungry"
+          },
+          "category": "health_body",
+          "difficulty": 6,
+          "tags": [
+            "health_body",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "uncountable",
+            "ko_construction",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मुझे भूख लगी है — hunger has attached to me",
+              "explanation_en": "There is no Hindi adjective meaning hungry. भूख is a feminine noun and it attaches to you with लगना, exactly as डर and ठंड did: मुझे भूख लगी है. The verb agrees with भूख, so it is लगी and never लगा, whoever is speaking. This is the third time this shape has appeared in Module 8, and it is worth treating as the default for anything your body is doing to you rather than something to relearn each time.",
+              "examples": [
+                {
+                  "hindi": "मुझे भूख लगी है",
+                  "read_as": "mujhe bhuukh lagii hai",
+                  "english": "I am hungry",
+                  "note": "लगी agrees with the feminine भूख, not with the speaker."
+                },
+                {
+                  "hindi": "क्या तुम्हें भूख लगी है?",
+                  "read_as": "kyaa tumheṁ bhuukh lagii hai?",
+                  "english": "are you hungry?",
+                  "note": "तुम्हें is तुम with को fused, from Module 6."
+                },
+                {
+                  "hindi": "बहुत भूख लगी है",
+                  "read_as": "bahut bhuukh lagii hai",
+                  "english": "I am very hungry",
+                  "note": "The person can be left out entirely when it is obvious."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं भूखा हूँ",
+                "right": "मुझे भूख लगी है",
+                "why_en": "भूखा does exist as an adjective but is much stronger, closer to starving or destitute. For ordinary hunger Hindi uses the noun."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "भूख",
+              "question_read_as": "bhuukh",
+              "options": [
+                "thirst",
+                "sleep",
+                "pain",
+                "hunger"
+              ],
+              "options_read_as": [
+                "thirst",
+                "sleep",
+                "pain",
+                "hunger"
+              ],
+              "answer_index": 3,
+              "explanation_en": "भूख is hunger, and it is feminine."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with भूख?",
+              "options": [
+                "होना",
+                "लगना",
+                "आना",
+                "करना"
+              ],
+              "options_read_as": [
+                "honaa",
+                "lagnaa",
+                "aanaa",
+                "karnaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "भूख लगना — hunger attaches to you, and the person takes को."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "भूख",
+              "मुझे भूख लगी है",
+              "क्या तुम्हें भूख लगी है?",
+              "बहुत भूख लगी है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L16-I2",
+          "type": "word",
+          "target": "प्यास",
+          "read_as": "pyaas",
+          "pronunciation_notes": "One syllable, with the p and y run together as a single cluster: pyaas.",
+          "gloss_en": "thirst",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "प्यास लगना",
+            "read_as": "pyaas lagnaa",
+            "english": "to be thirsty"
+          },
+          "category": "health_body",
+          "difficulty": 6,
+          "tags": [
+            "health_body",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "uncountable",
+            "ko_construction",
+            "pairs_with_bhukh"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "प्यास works exactly like भूख",
+              "explanation_en": "प्यास is thirst, feminine, and it takes लगना just as भूख does. The two are learnt as a pair because they turn up together constantly and behave identically: मुझे भूख लगी है and मुझे प्यास लगी है. That is a useful thing about this construction — once you have it, adding a new body state costs you only the noun. What you cannot do is guess the verb, which is why the game card keeps asking.",
+              "examples": [
+                {
+                  "hindi": "मुझे प्यास लगी है",
+                  "read_as": "mujhe pyaas lagii hai",
+                  "english": "I am thirsty",
+                  "note": "Identical in shape to the hunger sentence."
+                },
+                {
+                  "hindi": "पानी दो, प्यास लगी है",
+                  "read_as": "paanii do, pyaas lagii hai",
+                  "english": "give me water, I am thirsty",
+                  "note": "दो is the तुम imperative of देना."
+                },
+                {
+                  "hindi": "उसे प्यास लगी थी",
+                  "read_as": "use pyaas lagii thii",
+                  "english": "he was thirsty",
+                  "note": "The past, and both words are feminine because प्यास is."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे प्यास लगा है",
+                "right": "मुझे प्यास लगी है",
+                "why_en": "प्यास is feminine, so the verb is लगी. The consonant ending gives no clue, which is why it is flagged."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "प्यास",
+              "question_read_as": "pyaas",
+              "options": [
+                "hunger",
+                "thirst",
+                "fever",
+                "sleep"
+              ],
+              "options_read_as": [
+                "hunger",
+                "thirst",
+                "fever",
+                "sleep"
+              ],
+              "answer_index": 1,
+              "explanation_en": "प्यास is thirst, feminine, and it behaves exactly like भूख."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with प्यास?",
+              "options": [
+                "आना",
+                "करना",
+                "होना",
+                "लगना"
+              ],
+              "options_read_as": [
+                "aanaa",
+                "karnaa",
+                "honaa",
+                "lagnaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "प्यास लगना — the same verb as भूख. The two are a pair."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "प्यास",
+              "मुझे प्यास लगी है",
+              "पानी दो, प्यास लगी है",
+              "उसे प्यास लगी थी"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L16-I3",
+          "type": "word",
+          "target": "नींद",
+          "read_as": "niiṁd",
+          "pronunciation_notes": "The nasal is a hum on the long ii and the द is barely released: niiṁd.",
+          "gloss_en": "sleep, sleepiness",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "नींद आना",
+            "read_as": "niiṁd aanaa",
+            "english": "to feel sleepy"
+          },
+          "category": "health_body",
+          "difficulty": 7,
+          "tags": [
+            "health_body",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "collocation_trap",
+            "contrast_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Sleep comes — it does not attach",
+              "explanation_en": "This is the item the collocation card exists for. भूख and प्यास take लगना, and नींद — sitting in the same block, describing the same kind of bodily state — takes आना instead. मुझे नींद आ रही है, I am feeling sleepy. There is no reason for the difference and no rule to derive it from; the pairing simply belongs to the word. Note also that नींद is the state of sleepiness, while सोना is the verb for actually sleeping.",
+              "examples": [
+                {
+                  "hindi": "मुझे नींद आ रही है",
+                  "read_as": "mujhe niiṁd aa rahii hai",
+                  "english": "I am feeling sleepy",
+                  "note": "रही agrees with the feminine नींद."
+                },
+                {
+                  "hindi": "मुझे नींद नहीं आई",
+                  "read_as": "mujhe niiṁd nahiiṁ aaii",
+                  "english": "I could not sleep",
+                  "note": "Literally sleep did not come to me — the standard way to say it."
+                },
+                {
+                  "hindi": "वह सो रहा है",
+                  "read_as": "vah so rahaa hai",
+                  "english": "he is sleeping",
+                  "note": "The verb सोना, for the act rather than the feeling."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे नींद लग रही है",
+                "right": "मुझे नींद आ रही है",
+                "why_en": "लगना goes with भूख and प्यास but not with नींद. Sleep comes rather than attaching, and there is no logic behind the split."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "नींद",
+              "question_read_as": "niiṁd",
+              "options": [
+                "sleep",
+                "rest",
+                "tiredness",
+                "dream"
+              ],
+              "options_read_as": [
+                "sleep",
+                "rest",
+                "tiredness",
+                "dream"
+              ],
+              "answer_index": 0,
+              "explanation_en": "नींद is sleep or sleepiness. सोना is the verb for the act of sleeping."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with नींद?",
+              "options": [
+                "लगना",
+                "करना",
+                "आना",
+                "होना"
+              ],
+              "options_read_as": [
+                "lagnaa",
+                "karnaa",
+                "aanaa",
+                "honaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "नींद आना — sleep comes. This is where it differs from भूख and प्यास."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "नींद",
+              "मुझे नींद आ रही है",
+              "मुझे नींद नहीं आई",
+              "वह सो रहा है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Three body states, one construction, and two different verbs. भूख and प्यास take लगना; नींद takes आना. Nothing predicts which, and that is precisely why the collocation is drilled rather than the gender.",
+        "key_forms": [
+          "भूख लगना",
+          "प्यास लगना",
+          "नींद आना"
+        ],
+        "next_up_en": "Next: the doctor, injury, and the adjective for feeling weak — completing the health block."
+      }
+    },
+    {
+      "level": 17,
+      "title_en": "Health: doctor, injury, weakness",
+      "title_hi": "डॉक्टर · चोट · कमज़ोर",
+      "category": "health_body",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L17-I1",
+          "type": "word",
+          "target": "डॉक्टर",
+          "read_as": "ḍaakṭar",
+          "pronunciation_notes": "The ऑ vowel sign is used only for English loanwords and sounds like the o in 'doctor': ḍaak-ṭar.",
+          "gloss_en": "doctor",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "डॉक्टर",
+          "plural_read_as": "ḍaakṭar",
+          "collocation": {
+            "hindi": "डॉक्टर के पास जाना",
+            "read_as": "ḍaakṭar ke paas jaanaa",
+            "english": "to go to the doctor"
+          },
+          "category": "health_body",
+          "difficulty": 6,
+          "tags": [
+            "health_body",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "loanword",
+            "candra_o",
+            "profession"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "डॉक्टर, and a vowel sign that only English words use",
+              "explanation_en": "डॉक्टर is borrowed from English, with retroflex ट as loanwords always take and the vowel sign ऑ, which exists in Hindi almost entirely to write English o sounds — डॉक्टर, कॉलेज, ऑफ़िस. It is masculine by default, though a woman doctor is also डॉक्टर and the agreement follows the person. You go to one with के पास, the same phrase Module 6 taught for near and for having.",
+              "examples": [
+                {
+                  "hindi": "डॉक्टर के पास जाओ",
+                  "read_as": "ḍaakṭar ke paas jaao",
+                  "english": "go to the doctor",
+                  "note": "के पास for going to a person, rather than a bare destination."
+                },
+                {
+                  "hindi": "डॉक्टर क्या कहते हैं?",
+                  "read_as": "ḍaakṭar kyaa kahte haiṁ?",
+                  "english": "what does the doctor say?",
+                  "note": "Professionals usually take plural agreement out of respect, so कहते हैं rather than कहता है."
+                },
+                {
+                  "hindi": "वह डॉक्टर है",
+                  "read_as": "vah ḍaakṭar hai",
+                  "english": "she is a doctor",
+                  "note": "No word for a is needed, and the noun does not change for a woman."
+                }
+              ],
+              "common_error": {
+                "wrong": "डॉक्टर को जाओ",
+                "right": "डॉक्टर के पास जाओ",
+                "why_en": "Going to a person takes के पास. को would mark the doctor as an object rather than a destination."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "डॉक्टर",
+              "question_read_as": "ḍaakṭar",
+              "options": [
+                "medicine",
+                "hospital",
+                "doctor",
+                "patient"
+              ],
+              "options_read_as": [
+                "medicine",
+                "hospital",
+                "doctor",
+                "patient"
+              ],
+              "answer_index": 2,
+              "explanation_en": "डॉक्टर is a doctor, and the same word is used for a woman."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which phrase goes with डॉक्टर when you visit one?",
+              "options": [
+                "के पास",
+                "में",
+                "को",
+                "से दूर"
+              ],
+              "options_read_as": [
+                "ke paas",
+                "meṁ",
+                "ko",
+                "se duur"
+              ],
+              "answer_index": 0,
+              "explanation_en": "डॉक्टर के पास जाना — going to a person uses के पास."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "डॉक्टर",
+              "डॉक्टर के पास जाओ",
+              "डॉक्टर क्या कहते हैं?",
+              "वह डॉक्टर है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L17-I2",
+          "type": "word",
+          "target": "चोट",
+          "read_as": "choṭ",
+          "pronunciation_notes": "The ट is retroflex, made with the tongue curled back: choṭ, one syllable.",
+          "gloss_en": "injury, a wound, a knock",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "चोटें",
+          "plural_read_as": "choṭeṁ",
+          "collocation": {
+            "hindi": "चोट लगना",
+            "read_as": "choṭ lagnaa",
+            "english": "to get hurt"
+          },
+          "category": "health_body",
+          "difficulty": 7,
+          "tags": [
+            "health_body",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "ko_construction",
+            "class_5"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "चोट लगना — injury attaches, and nobody is blamed",
+              "explanation_en": "चोट is an injury, feminine and flagged, and it takes लगना like भूख and प्यास: मुझे चोट लगी, I got hurt. Notice what that construction does not say — it names no cause and no one at fault. Hindi finds this shape natural for accidents, where English would need a passive or a vague subject. If you want to say where, the body part takes में or पर: पैर में चोट लगी.",
+              "examples": [
+                {
+                  "hindi": "मुझे चोट लगी",
+                  "read_as": "mujhe choṭ lagii",
+                  "english": "I got hurt",
+                  "note": "The bare perfective, and लगी agrees with चोट."
+                },
+                {
+                  "hindi": "उसे चोट लगी है",
+                  "read_as": "use choṭ lagii hai",
+                  "english": "he is injured",
+                  "note": "With है the result still stands — the injury is current."
+                },
+                {
+                  "hindi": "ज़्यादा चोट नहीं लगी",
+                  "read_as": "zyaadaa choṭ nahiiṁ lagii",
+                  "english": "it is not a bad injury",
+                  "note": "ज़्यादा means much or excessive, and नहीं sits in front of the verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे चोट लगा",
+                "right": "मुझे चोट लगी",
+                "why_en": "चोट is feminine, so the perfective is लगी. This is the same agreement as भूख लगी and प्यास लगी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "चोट",
+              "question_read_as": "choṭ",
+              "options": [
+                "cough",
+                "injury",
+                "weakness",
+                "fever"
+              ],
+              "options_read_as": [
+                "cough",
+                "injury",
+                "weakness",
+                "fever"
+              ],
+              "answer_index": 1,
+              "explanation_en": "चोट is an injury, feminine, and it attaches with लगना."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with चोट?",
+              "options": [
+                "आना",
+                "करना",
+                "होना",
+                "लगना"
+              ],
+              "options_read_as": [
+                "aanaa",
+                "karnaa",
+                "honaa",
+                "lagnaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "चोट लगना — the injury attaches, and no one is named as the cause."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "चोट",
+              "मुझे चोट लगी",
+              "उसे चोट लगी है",
+              "ज़्यादा चोट नहीं लगी"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L17-I3",
+          "type": "word",
+          "target": "कमज़ोर",
+          "read_as": "kamzor",
+          "pronunciation_notes": "The dotted ज़ is a z, so the middle of the word buzzes: kam-zor.",
+          "gloss_en": "weak, frail",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "unmarked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "कमज़ोर होना",
+            "read_as": "kamzor honaa",
+            "english": "to be weak"
+          },
+          "category": "health_body",
+          "difficulty": 6,
+          "tags": [
+            "health_body",
+            "adjective",
+            "unmarked_adjective",
+            "invariant",
+            "nukta",
+            "persian_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कमज़ोर — one form, and it covers more than the body",
+              "explanation_en": "कमज़ोर is weak, unmarked so it never changes, and built from two Persian pieces — कम meaning less and ज़ोर meaning force. It describes bodies, but also arguments, signals and excuses, exactly as weak does in English. Its opposite is मज़बूत, strong, which is also unmarked. Both are worth learning together, and neither will ever ask you to choose an ending.",
+              "examples": [
+                {
+                  "hindi": "मैं कमज़ोर हूँ",
+                  "read_as": "maiṁ kamzor huuṁ",
+                  "english": "I feel weak",
+                  "note": "The adjective is identical whoever is speaking."
+                },
+                {
+                  "hindi": "वह बहुत कमज़ोर है",
+                  "read_as": "vah bahut kamzor hai",
+                  "english": "she is very weak",
+                  "note": "A feminine subject, and still कमज़ोर."
+                },
+                {
+                  "hindi": "बुख़ार के बाद कमज़ोरी आती है",
+                  "read_as": "bukhaar ke baad kamzorii aatii hai",
+                  "english": "weakness comes after a fever",
+                  "note": "कमज़ोरी is the noun, formed with -ी exactly as ख़ुशी was from ख़ुश."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह कमज़ोरी है",
+                "right": "वह कमज़ोर है",
+                "why_en": "कमज़ोरी is the noun weakness. The adjective is कमज़ोर, and adding -ी makes it a different word rather than a feminine form."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "कमज़ोर",
+              "question_read_as": "kamzor",
+              "options": [
+                "strong",
+                "tired",
+                "ill",
+                "weak"
+              ],
+              "options_read_as": [
+                "strong",
+                "tired",
+                "ill",
+                "weak"
+              ],
+              "answer_index": 3,
+              "explanation_en": "कमज़ोर is weak, and it never changes its form."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with कमज़ोर?",
+              "options": [
+                "लगना",
+                "होना",
+                "आना",
+                "करना"
+              ],
+              "options_read_as": [
+                "lagnaa",
+                "honaa",
+                "aanaa",
+                "karnaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "कमज़ोर होना. Adjectives of state take होना; it is the nouns that vary."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "कमज़ोर",
+              "मैं कमज़ोर हूँ",
+              "वह बहुत कमज़ोर है",
+              "बुख़ार के बाद कमज़ोरी आती है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The health block is complete at twelve words. Almost all of it runs on one construction — the state is the subject, the person takes को — and the only thing that varies is which verb each noun happens to take. Adjectives of state are the exception and all take होना.",
+        "key_forms": [
+          "डॉक्टर के पास जाना",
+          "चोट लगना",
+          "कमज़ोर होना"
+        ],
+        "next_up_en": "Next: work and the office, starting with the noun the collocation card was designed around."
+      }
+    },
+    {
+      "level": 18,
+      "title_en": "Work: work, office, job",
+      "title_hi": "काम · दफ़्तर · नौकरी",
+      "category": "work_office",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L18-I1",
+          "type": "word",
+          "target": "काम",
+          "read_as": "kaam",
+          "pronunciation_notes": "One long syllable, and the m is fully closed at the end: kaam.",
+          "gloss_en": "work, a task, a job to be done",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "काम",
+          "plural_read_as": "kaam",
+          "collocation": {
+            "hindi": "काम करना",
+            "read_as": "kaam karnaa",
+            "english": "to work"
+          },
+          "category": "work_office",
+          "difficulty": 5,
+          "tags": [
+            "work_office",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "class_2",
+            "very_high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "काम करना, never काम बनाना",
+              "explanation_en": "काम is work, and काम करना is to work. That looks obvious until you notice how many English verbs Hindi could have chosen — make, do, take — and how confidently learners reach for बनाना, to make, because English says make a living and do the work interchangeably. It is करना, always. काम is also a countable task: बहुत काम है means there is a lot to do, and मेरा एक काम है means I have something to attend to.",
+              "examples": [
+                {
+                  "hindi": "मैं काम करता हूँ",
+                  "read_as": "maiṁ kaam kartaa huuṁ",
+                  "english": "I work",
+                  "note": "The habitual present — करना is transitive, so the perfective waits for Module 9."
+                },
+                {
+                  "hindi": "बहुत काम है",
+                  "read_as": "bahut kaam hai",
+                  "english": "there is a lot of work",
+                  "note": "काम as a countable task, with a singular verb."
+                },
+                {
+                  "hindi": "काम हो गया",
+                  "read_as": "kaam ho gayaa",
+                  "english": "the work is done",
+                  "note": "होना rather than करना, because nobody is named as the doer."
+                }
+              ],
+              "common_error": {
+                "wrong": "काम बनाना",
+                "right": "काम करना",
+                "why_en": "बनाना is to make or build something. Work is done rather than made, and this is the pairing the whole collocation card exists to teach."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "काम",
+              "question_read_as": "kaam",
+              "options": [
+                "office",
+                "salary",
+                "work",
+                "meeting"
+              ],
+              "options_read_as": [
+                "office",
+                "salary",
+                "work",
+                "meeting"
+              ],
+              "answer_index": 2,
+              "explanation_en": "काम is work or a task, masculine, and unchanged in the plural."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with काम?",
+              "options": [
+                "करना",
+                "बनाना",
+                "लेना",
+                "लगना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "banaanaa",
+                "lenaa",
+                "lagnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "काम करना. बनाना means to make something, and it is the commonest wrong guess here."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "काम",
+              "मैं काम करता हूँ",
+              "बहुत काम है",
+              "काम हो गया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L18-I2",
+          "type": "word",
+          "target": "दफ़्तर",
+          "read_as": "daftar",
+          "pronunciation_notes": "The dotted फ़ is an f and no vowel follows it: daf-tar.",
+          "gloss_en": "office",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "दफ़्तर",
+          "plural_read_as": "daftar",
+          "collocation": {
+            "hindi": "दफ़्तर जाना",
+            "read_as": "daftar jaanaa",
+            "english": "to go to the office"
+          },
+          "category": "work_office",
+          "difficulty": 6,
+          "tags": [
+            "work_office",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "class_2",
+            "persian_origin",
+            "register"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "दफ़्तर and ऑफ़िस both work",
+              "explanation_en": "दफ़्तर is an office, a Persian borrowing, masculine and Class 2. The English ऑफ़िस is equally common in speech and neither is more correct — दफ़्तर is slightly more formal and turns up in writing, ऑफ़िस is what many people actually say. Like any destination with जाना, it takes no postposition: दफ़्तर जाओ, go to the office. But with में it means inside: दफ़्तर में काम है.",
+              "examples": [
+                {
+                  "hindi": "मैं दफ़्तर जाता हूँ",
+                  "read_as": "maiṁ daftar jaataa huuṁ",
+                  "english": "I go to the office",
+                  "note": "The destination takes no postposition, as always with जाना."
+                },
+                {
+                  "hindi": "दफ़्तर में बहुत काम है",
+                  "read_as": "daftar meṁ bahut kaam hai",
+                  "english": "there is a lot of work at the office",
+                  "note": "में for being inside, and दफ़्तर is oblique before it."
+                },
+                {
+                  "hindi": "दफ़्तर बंद है",
+                  "read_as": "daftar band hai",
+                  "english": "the office is closed",
+                  "note": "बंद is unmarked and means closed or shut."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं दफ़्तर को जाता हूँ",
+                "right": "मैं दफ़्तर जाता हूँ",
+                "why_en": "जाना takes its destination bare. Adding को is a translation of the English to."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दफ़्तर",
+              "question_read_as": "daftar",
+              "options": [
+                "office",
+                "shop",
+                "school",
+                "factory"
+              ],
+              "options_read_as": [
+                "office",
+                "shop",
+                "school",
+                "factory"
+              ],
+              "answer_index": 0,
+              "explanation_en": "दफ़्तर is an office. ऑफ़िस is the equally common English borrowing."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with दफ़्तर?",
+              "options": [
+                "करना",
+                "लेना",
+                "जाना",
+                "लगना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "lenaa",
+                "jaanaa",
+                "lagnaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "दफ़्तर जाना — and the destination takes no postposition."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दफ़्तर",
+              "मैं दफ़्तर जाता हूँ",
+              "दफ़्तर में बहुत काम है",
+              "दफ़्तर बंद है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L18-I3",
+          "type": "word",
+          "target": "नौकरी",
+          "read_as": "naukrii",
+          "pronunciation_notes": "The first syllable holds a diphthong close to the vowel in English 'now': nau-krii.",
+          "gloss_en": "a job, employment",
+          "gender": "f",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "नौकरियाँ",
+          "plural_read_as": "naukriyaaṁ",
+          "collocation": {
+            "hindi": "नौकरी करना",
+            "read_as": "naukrii karnaa",
+            "english": "to hold a job"
+          },
+          "category": "work_office",
+          "difficulty": 6,
+          "tags": [
+            "work_office",
+            "noun",
+            "feminine",
+            "class_4",
+            "contrast_pair",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "नौकरी against काम",
+              "explanation_en": "काम is work in general — the task in front of you. नौकरी is a job in the employment sense, the post you hold and get paid for. So काम करना is to be working and नौकरी करना is to be employed, and नौकरी ढूँढ़ना is job-hunting. नौकरी is feminine and predictable from its -ी ending, declining like लड़की, so नौकरियों में in the oblique plural.",
+              "examples": [
+                {
+                  "hindi": "मैं नौकरी करता हूँ",
+                  "read_as": "maiṁ naukrii kartaa huuṁ",
+                  "english": "I am employed",
+                  "note": "करता agrees with the subject, not with नौकरी."
+                },
+                {
+                  "hindi": "यह नौकरी अच्छी है",
+                  "read_as": "yah naukrii achchhii hai",
+                  "english": "this is a good job",
+                  "note": "अच्छी is feminine, agreeing with नौकरी."
+                },
+                {
+                  "hindi": "उसकी नौकरी नई है",
+                  "read_as": "uskii naukrii naii hai",
+                  "english": "her job is new",
+                  "note": "उसकी is feminine, agreeing with the thing possessed as Module 6 taught."
+                }
+              ],
+              "common_error": {
+                "wrong": "यह नौकरी अच्छा है",
+                "right": "यह नौकरी अच्छी है",
+                "why_en": "नौकरी ends in -ी and is feminine, so the adjective takes -ी too."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "नौकरी",
+              "question_read_as": "naukrii",
+              "options": [
+                "work",
+                "a meeting",
+                "an office",
+                "a job"
+              ],
+              "options_read_as": [
+                "work",
+                "a meeting",
+                "an office",
+                "a job"
+              ],
+              "answer_index": 3,
+              "explanation_en": "नौकरी is a job in the employment sense. काम is work in general."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with नौकरी?",
+              "options": [
+                "जाना",
+                "करना",
+                "लगना",
+                "होना"
+              ],
+              "options_read_as": [
+                "jaanaa",
+                "karnaa",
+                "lagnaa",
+                "honaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "नौकरी करना — to hold a job, the same verb as काम."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "नौकरी",
+              "मैं नौकरी करता हूँ",
+              "यह नौकरी अच्छी है",
+              "उसकी नौकरी नई है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "काम is work in general and नौकरी is the job you are employed in — both take करना. दफ़्तर takes जाना with no postposition, exactly as any destination does. काम बनाना is the wrong guess this block exists to prevent.",
+        "key_forms": [
+          "काम करना",
+          "दफ़्तर जाना",
+          "नौकरी करना"
+        ],
+        "next_up_en": "Next: effort, time off, and the phone — three things every working day runs on."
+      }
+    },
+    {
+      "level": 19,
+      "title_en": "Work: effort, leave, the phone",
+      "title_hi": "मेहनत · छुट्टी · फ़ोन",
+      "category": "work_office",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L19-I1",
+          "type": "word",
+          "target": "मेहनत",
+          "read_as": "mehnat",
+          "pronunciation_notes": "The ह is a light breath and the middle vowel almost disappears: meh-nat.",
+          "gloss_en": "hard work, effort",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "मेहनत करना",
+            "read_as": "mehnat karnaa",
+            "english": "to work hard"
+          },
+          "category": "work_office",
+          "difficulty": 7,
+          "tags": [
+            "work_office",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "uncountable",
+            "arabic_origin",
+            "cultural"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मेहनत is effort, and it is admired",
+              "explanation_en": "मेहनत is hard work or effort, feminine and flagged. It is not neutral — calling someone मेहनती, hard-working, is high praise, and मेहनत करो is what a parent or teacher says with real weight behind it. There is no exact English single word: graft comes close in register. The noun is uncountable, so it has no plural, and मेहनती is the adjective formed from it with the same -ी that made ख़ुशी from ख़ुश.",
+              "examples": [
+                {
+                  "hindi": "वह बहुत मेहनत करता है",
+                  "read_as": "vah bahut mehnat kartaa hai",
+                  "english": "he works very hard",
+                  "note": "करता agrees with the subject, not with मेहनत."
+                },
+                {
+                  "hindi": "मेहनत करो",
+                  "read_as": "mehnat karo",
+                  "english": "work hard",
+                  "note": "The तुम imperative, and a sentence with a lot of cultural weight."
+                },
+                {
+                  "hindi": "मेहनत बहुत है",
+                  "read_as": "mehnat bahut hai",
+                  "english": "it takes a lot of effort",
+                  "note": "The noun standing alone with होना."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेहनत होना",
+                "right": "मेहनत करना",
+                "why_en": "Effort is something you put in rather than something that happens to you, so this noun takes करना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "मेहनत",
+              "question_read_as": "mehnat",
+              "options": [
+                "salary",
+                "hard work",
+                "leave",
+                "meeting"
+              ],
+              "options_read_as": [
+                "salary",
+                "hard work",
+                "leave",
+                "meeting"
+              ],
+              "answer_index": 1,
+              "explanation_en": "मेहनत is hard work or effort, feminine, and it carries real approval."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with मेहनत?",
+              "options": [
+                "लगना",
+                "होना",
+                "आना",
+                "करना"
+              ],
+              "options_read_as": [
+                "lagnaa",
+                "honaa",
+                "aanaa",
+                "karnaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "मेहनत करना — effort is put in, not received."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मेहनत",
+              "वह बहुत मेहनत करता है",
+              "मेहनत करो",
+              "मेहनत बहुत है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L19-I2",
+          "type": "word",
+          "target": "छुट्टी",
+          "read_as": "chhuṭṭii",
+          "pronunciation_notes": "Aspirated chh at the front and a doubled retroflex ट held slightly longer: chhuṭ-ṭii.",
+          "gloss_en": "a holiday, a day off, leave",
+          "gender": "f",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "छुट्टियाँ",
+          "plural_read_as": "chhuṭṭiyaaṁ",
+          "collocation": {
+            "hindi": "छुट्टी लेना",
+            "read_as": "chhuṭṭii lenaa",
+            "english": "to take leave"
+          },
+          "category": "work_office",
+          "difficulty": 6,
+          "tags": [
+            "work_office",
+            "noun",
+            "feminine",
+            "class_4",
+            "high_frequency",
+            "plural_meaning"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "छुट्टी covers everything from an afternoon to a term",
+              "explanation_en": "छुट्टी is time off — a day's leave, a public holiday, or the end of the school day. आज छुट्टी है can mean today is a holiday or we have the day off, and छुट्टी हो गई is what schoolchildren shout when the bell goes. The plural छुट्टियाँ means the holidays as a stretch of time, exactly as गर्मियाँ meant the summer. Feminine, predictable from -ी, and it takes लेना.",
+              "examples": [
+                {
+                  "hindi": "आज छुट्टी है",
+                  "read_as": "aaj chhuṭṭii hai",
+                  "english": "today is a holiday",
+                  "note": "The noun standing alone with होना."
+                },
+                {
+                  "hindi": "मैं छुट्टी लूँगा",
+                  "read_as": "maiṁ chhuṭṭii luuṁgaa",
+                  "english": "I will take leave",
+                  "note": "The future — लेना is transitive, so the perfective waits."
+                },
+                {
+                  "hindi": "छुट्टियों में",
+                  "read_as": "chhuṭṭiyoṁ meṁ",
+                  "english": "in the holidays",
+                  "note": "The oblique plural, exactly like गर्मियों में."
+                }
+              ],
+              "common_error": {
+                "wrong": "छुट्टी करना",
+                "right": "छुट्टी लेना",
+                "why_en": "Leave is taken rather than done. करना is the default guess and it is wrong here."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "छुट्टी",
+              "question_read_as": "chhuṭṭii",
+              "options": [
+                "a meeting",
+                "a salary",
+                "a holiday",
+                "an office"
+              ],
+              "options_read_as": [
+                "a meeting",
+                "a salary",
+                "a holiday",
+                "an office"
+              ],
+              "answer_index": 2,
+              "explanation_en": "छुट्टी is a holiday or time off, and its plural means the holidays."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with छुट्टी?",
+              "options": [
+                "लेना",
+                "करना",
+                "जाना",
+                "लगना"
+              ],
+              "options_read_as": [
+                "lenaa",
+                "karnaa",
+                "jaanaa",
+                "lagnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "छुट्टी लेना — leave is taken, not done."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "छुट्टी",
+              "आज छुट्टी है",
+              "मैं छुट्टी लूँगा",
+              "छुट्टियों में"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L19-I3",
+          "type": "word",
+          "target": "फ़ोन",
+          "read_as": "fon",
+          "pronunciation_notes": "The dotted फ़ is an f, so this is fon rather than phon: one syllable.",
+          "gloss_en": "phone, a phone call",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "फ़ोन",
+          "plural_read_as": "fon",
+          "collocation": {
+            "hindi": "फ़ोन करना",
+            "read_as": "fon karnaa",
+            "english": "to phone someone"
+          },
+          "category": "work_office",
+          "difficulty": 6,
+          "tags": [
+            "work_office",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "loanword",
+            "nukta",
+            "class_2"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "फ़ोन करना, and who you call takes को",
+              "explanation_en": "फ़ोन is both the object and the call, so फ़ोन करना is to phone someone and मेरा फ़ोन कहाँ है is where is my phone. The person you call takes को: मुझे फ़ोन करो, call me. That is the same को you have been using for people on the receiving end all through this module. फ़ोन आना also exists and means a call came in, with the caller unnamed.",
+              "examples": [
+                {
+                  "hindi": "मुझे फ़ोन करो",
+                  "read_as": "mujhe fon karo",
+                  "english": "call me",
+                  "note": "The person called takes को, so मुझे."
+                },
+                {
+                  "hindi": "मैं तुम्हें फ़ोन करूँगा",
+                  "read_as": "maiṁ tumheṁ fon karuuṁgaa",
+                  "english": "I will call you",
+                  "note": "तुम्हें is तुम with को fused."
+                },
+                {
+                  "hindi": "फ़ोन आया",
+                  "read_as": "fon aayaa",
+                  "english": "a call came",
+                  "note": "आना is intransitive, so the perfective is available."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझको फ़ोन लगाओ",
+                "right": "मुझे फ़ोन करो",
+                "why_en": "लगाना is used for connecting a call in some contexts, but the ordinary verb for phoning someone is करना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "फ़ोन",
+              "question_read_as": "fon",
+              "options": [
+                "phone",
+                "file",
+                "letter",
+                "message"
+              ],
+              "options_read_as": [
+                "phone",
+                "file",
+                "letter",
+                "message"
+              ],
+              "answer_index": 0,
+              "explanation_en": "फ़ोन is both the device and the call, masculine, and written with a dotted फ़."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with फ़ोन when you call someone?",
+              "options": [
+                "लेना",
+                "जाना",
+                "करना",
+                "लगना"
+              ],
+              "options_read_as": [
+                "lenaa",
+                "jaanaa",
+                "karnaa",
+                "lagnaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "फ़ोन करना, and the person you call takes को."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "फ़ोन",
+              "मुझे फ़ोन करो",
+              "मैं तुम्हें फ़ोन करूँगा",
+              "फ़ोन आया"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "करना is the default verb in the work block — काम, नौकरी, मेहनत and फ़ोन all take it — but छुट्टी takes लेना, which is exactly the kind of exception the collocation card is for. Anyone on the receiving end of a phone call takes को.",
+        "key_forms": [
+          "मेहनत करना",
+          "छुट्टी लेना",
+          "फ़ोन करना"
+        ],
+        "next_up_en": "Next: pay and meetings, and a conversation about what you do for a living."
+      }
+    },
+    {
+      "level": 20,
+      "title_en": "Work: pay and meetings",
+      "title_hi": "तनख़्वाह · मीटिंग",
+      "category": "work_office",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M08-L20-I1",
+          "type": "word",
+          "target": "तनख़्वाह",
+          "read_as": "tankhvaah",
+          "pronunciation_notes": "Four sounds crowd together in the middle — न, ख़, व — with no vowels between: tan-khvaah.",
+          "gloss_en": "salary, pay",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "तनख़्वाहें",
+          "plural_read_as": "tankhvaaheṁ",
+          "collocation": {
+            "hindi": "तनख़्वाह मिलना",
+            "read_as": "tankhvaah milnaa",
+            "english": "to be paid"
+          },
+          "category": "work_office",
+          "difficulty": 8,
+          "tags": [
+            "work_office",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "nukta",
+            "persian_origin",
+            "milnaa"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तनख़्वाह मिलना — pay is received, not taken",
+              "explanation_en": "तनख़्वाह is a salary, feminine and flagged, and its verb is मिलना, to be received or obtained. मुझे तनख़्वाह मिली, I got paid — and मिलना is intransitive, so the perfective is fully available to you. That makes this one of the few work words you can use in the past right now. मिलना is worth knowing well beyond this word: it covers getting anything at all, and it also means to meet someone.",
+              "examples": [
+                {
+                  "hindi": "मुझे तनख़्वाह मिली",
+                  "read_as": "mujhe tankhvaah milii",
+                  "english": "I got paid",
+                  "note": "मिली agrees with the feminine तनख़्वाह, and मिलना is intransitive."
+                },
+                {
+                  "hindi": "तनख़्वाह कम है",
+                  "read_as": "tankhvaah kam hai",
+                  "english": "the pay is low",
+                  "note": "कम is unmarked and means little or less."
+                },
+                {
+                  "hindi": "अच्छी तनख़्वाह",
+                  "read_as": "achchhii tankhvaah",
+                  "english": "a good salary",
+                  "note": "अच्छी is feminine, which is the proof that तनख़्वाह is."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने तनख़्वाह ली",
+                "right": "मुझे तनख़्वाह मिली",
+                "why_en": "Pay is received rather than taken. मिलना is intransitive and needs no ने, which is why this sentence works now and the other does not."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "तनख़्वाह",
+              "question_read_as": "tankhvaah",
+              "options": [
+                "bonus",
+                "salary",
+                "expense",
+                "budget"
+              ],
+              "options_read_as": [
+                "bonus",
+                "salary",
+                "expense",
+                "budget"
+              ],
+              "answer_index": 1,
+              "explanation_en": "तनख़्वाह is a salary, and it is feminine."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with तनख़्वाह?",
+              "options": [
+                "लेना",
+                "करना",
+                "लगना",
+                "मिलना"
+              ],
+              "options_read_as": [
+                "lenaa",
+                "karnaa",
+                "lagnaa",
+                "milnaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "तनख़्वाह मिलना — pay is received. मिलना is intransitive, so no ने is involved."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तनख़्वाह",
+              "मुझे तनख़्वाह मिली",
+              "तनख़्वाह कम है",
+              "अच्छी तनख़्वाह"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L20-I2",
+          "type": "word",
+          "target": "मीटिंग",
+          "read_as": "miiṭiṁg",
+          "pronunciation_notes": "Retroflex ट as in every English loanword, and a nasal before the final g: mii-ṭiṁg.",
+          "gloss_en": "meeting",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "मीटिंगें",
+          "plural_read_as": "miiṭiṁgeṁ",
+          "collocation": {
+            "hindi": "मीटिंग होना",
+            "read_as": "miiṭiṁg honaa",
+            "english": "for a meeting to take place"
+          },
+          "category": "work_office",
+          "difficulty": 7,
+          "tags": [
+            "work_office",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "loanword",
+            "code_switching"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "An English word that took Hindi gender",
+              "explanation_en": "मीटिंग is borrowed whole from English and is feminine — which is worth pausing on, because English gives no gender at all and Hindi assigned one anyway. Every borrowed noun does this, and there is no rule: बस is feminine, टिकट is masculine, मीटिंग is feminine. The verb is होना, so मीटिंग होना is for a meeting to happen, and मीटिंग में for during one. The Hindi word बैठक also exists and sounds more formal.",
+              "examples": [
+                {
+                  "hindi": "मीटिंग हुई",
+                  "read_as": "miiṭiṁg huii",
+                  "english": "the meeting took place",
+                  "note": "हुई is feminine, agreeing with मीटिंग."
+                },
+                {
+                  "hindi": "कल मीटिंग होगी",
+                  "read_as": "kal miiṭiṁg hogii",
+                  "english": "there will be a meeting tomorrow",
+                  "note": "The presumptive form doubling as the future."
+                },
+                {
+                  "hindi": "वह मीटिंग में है",
+                  "read_as": "vah miiṭiṁg meṁ hai",
+                  "english": "he is in a meeting",
+                  "note": "मीटिंग is oblique before में, though nothing visible changes."
+                }
+              ],
+              "common_error": {
+                "wrong": "मीटिंग हुआ",
+                "right": "मीटिंग हुई",
+                "why_en": "मीटिंग is feminine in Hindi even though English has no gender at all. Borrowed nouns take a gender on arrival."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "मीटिंग",
+              "question_read_as": "miiṭiṁg",
+              "options": [
+                "minute",
+                "message",
+                "manager",
+                "meeting"
+              ],
+              "options_read_as": [
+                "minute",
+                "message",
+                "manager",
+                "meeting"
+              ],
+              "answer_index": 3,
+              "explanation_en": "मीटिंग is a meeting, and Hindi treats it as feminine."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with मीटिंग?",
+              "options": [
+                "करना",
+                "होना",
+                "मिलना",
+                "लेना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "honaa",
+                "milnaa",
+                "lenaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "मीटिंग होना — a meeting happens. मीटिंग करना also occurs and means to hold one."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मीटिंग",
+              "मीटिंग हुई",
+              "कल मीटिंग होगी",
+              "वह मीटिंग में है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L20-I3",
+          "type": "dialogue",
+          "target": "काम करते हो",
+          "read_as": "kaam karte ho",
+          "pronunciation_notes": "The three words run together at conversational speed: kaam kar-te ho.",
+          "gloss_en": "asking what someone does",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "phrase",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "काम करना",
+            "read_as": "kaam karnaa",
+            "english": "to work"
+          },
+          "category": "work_office",
+          "difficulty": 7,
+          "tags": [
+            "work_office",
+            "dialogue",
+            "micro_dialogue",
+            "habitual_present",
+            "agreement",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The habitual present is what this question needs",
+              "explanation_en": "तुम कहाँ काम करते हो asks where someone works as a standing fact, so it takes the habitual — not the continuous, which would ask where they are working at this moment. That distinction from Module 7 does real work here, because getting it wrong turns a normal question into an oddly specific one. The third line hangs on gender: नौकरी is feminine, so it is तुम्हारी and कैसी, and the reply picks up अच्छी to match.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "तुम कहाँ काम करते हो?",
+                  "read_as": "tum kahaaṁ kaam karte ho?",
+                  "english": "Where do you work?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "मैं दफ़्तर में काम करता हूँ।",
+                  "read_as": "maiṁ daftar meṁ kaam kartaa huuṁ.",
+                  "english": "I work in an office."
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "तुम्हारी नौकरी कैसी है?",
+                  "read_as": "tumhaarii naukrii kaisii hai?",
+                  "english": "How is your job?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "अच्छी है, लेकिन मेहनत बहुत है।",
+                  "read_as": "achchhii hai, lekin mehnat bahut hai.",
+                  "english": "It is good, but there is a lot of hard work."
+                }
+              ],
+              "common_error": {
+                "wrong": "तुम कहाँ काम कर रहे हो?",
+                "right": "तुम कहाँ काम करते हो?",
+                "why_en": "The continuous asks where they are working right now. For someone's occupation, Hindi uses the habitual."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this question mean?",
+              "question": "तुम कहाँ काम करते हो?",
+              "question_read_as": "tum kahaaṁ kaam karte ho?",
+              "options": [
+                "where are you working right now?",
+                "what work are you doing?",
+                "where do you work?",
+                "when do you work?"
+              ],
+              "options_read_as": [
+                "where are you working right now?",
+                "what work are you doing?",
+                "where do you work?",
+                "when do you work?"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The habitual present asks about someone's occupation as a standing fact."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the third line. Which word is missing?",
+              "masked_line_index": 2,
+              "masked_word": "कैसी",
+              "options": [
+                "कैसी",
+                "कैसा",
+                "कैसे",
+                "क्या"
+              ],
+              "options_read_as": [
+                "kaisii",
+                "kaisaa",
+                "kaise",
+                "kyaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "नौकरी is feminine, so the question word is कैसी."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तुम कहाँ काम करते हो?",
+              "मैं दफ़्तर में काम करता हूँ।",
+              "तुम्हारी नौकरी कैसी है?",
+              "अच्छी है, लेकिन मेहनत बहुत है।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "तनख़्वाह takes मिलना, which is intransitive and therefore usable in the past straight away. मीटिंग is a reminder that every borrowed noun gets a Hindi gender on arrival with no rule behind it — बस feminine, टिकट masculine, मीटिंग feminine.",
+        "key_forms": [
+          "तनख़्वाह मिलना",
+          "मीटिंग होना",
+          "काम करते हो"
+        ],
+        "next_up_en": "Next: the last of the work block, then school and study."
+      }
+    }
+  ]
+}

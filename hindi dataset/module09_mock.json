@@ -1,0 +1,730 @@
+{
+  "module": 9,
+  "mock_exam": {
+    "question_count": 30,
+    "composition": {
+      "current": 24,
+      "phase": 3,
+      "high_value": 3
+    },
+    "composition_note_en": "Part F allocates a fifth of a mock to earlier modules in the same phase. Module 9's only predecessor in Phase 4 is Module 8, whose files are not on disk — so the phase slice is three questions rather than six, and all three test the level 52-53 verb block that is independently attested. This is the same weighting decision taken in phase4_checkpoint.json and for the same reason. Three further phase questions should be added on merge.",
+    "questions": [
+      {
+        "id": "M09-MOCK-Q1",
+        "source": "current",
+        "format": "recognition",
+        "question": "ने कब लगता है?",
+        "question_read_as": "ne kab lagtaa hai?",
+        "options": [
+          "केवल मैं के साथ",
+          "हर भूतकाल में",
+          "सकर्मक क्रिया के परफ़ेक्टिव में",
+          "हर वाक्य में"
+        ],
+        "options_read_as": [
+          "keval maiṁ ke saath",
+          "har bhuutkaal meṁ",
+          "sakarmak kriyaa ke parfekṭiv meṁ",
+          "har vaakya meṁ"
+        ],
+        "answer_index": 2,
+        "explanation_en": "Two conditions at once: the verb must be transitive and the tense perfective. Either alone is not enough.",
+        "source_item_ids": [
+          "M09-L01-I1",
+          "M09-L01-I3"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q2",
+        "source": "current",
+        "format": "recognition",
+        "question": "वह खा रहा है। ने क्यों नहीं?",
+        "question_read_as": "vah khaa rahaa hai. ne kyoṁ nahiiṁ?",
+        "options": [
+          "वाक्य परफ़ेक्टिव नहीं है",
+          "वह ने नहीं ले सकता",
+          "कोई कर्म नहीं है",
+          "खाना अकर्मक है"
+        ],
+        "options_read_as": [
+          "vaakya parfekṭiv nahiiṁ hai",
+          "vah ne nahiiṁ le saktaa",
+          "koii karm nahiiṁ hai",
+          "khaanaa akarmak hai"
+        ],
+        "answer_index": 0,
+        "explanation_en": "खाना is transitive, but the continuous is not perfective. Every other tense is ने-free.",
+        "source_item_ids": [
+          "M09-L01-I3"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q3",
+        "source": "current",
+        "format": "transform",
+        "question": "वह पढ़ता है। → परफ़ेक्टिव में लिखिए।",
+        "question_read_as": "vah paṛhtaa hai. → parfekṭiv meṁ likhie.",
+        "options": [
+          "वह ने पढ़ा",
+          "उसने पढ़ा",
+          "वह पढ़ा",
+          "उसने पढ़ी"
+        ],
+        "options_read_as": [
+          "vah ne paṛhaa",
+          "usne paṛhaa",
+          "vah paṛhaa",
+          "usne paṛhii"
+        ],
+        "answer_index": 1,
+        "explanation_en": "पढ़ना is transitive, so वह becomes उसने. With no object stated the verb stays neutral.",
+        "source_item_ids": [
+          "M09-L02-I1"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q4",
+        "source": "current",
+        "format": "recognition",
+        "question": "उसने रोटी ___ ।",
+        "question_read_as": "usne roṭii ___ .",
+        "options": [
+          "खाए",
+          "खाईं",
+          "खाया",
+          "खाई"
+        ],
+        "options_read_as": [
+          "khaae",
+          "khaaiiṁ",
+          "khaayaa",
+          "khaaii"
+        ],
+        "answer_index": 3,
+        "explanation_en": "रोटी is feminine singular with no को, so the verb agrees with it.",
+        "source_item_ids": [
+          "M09-L03-I1"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q5",
+        "source": "current",
+        "format": "transform",
+        "question": "वह रोटियाँ खाता है। → परफ़ेक्टिव में लिखिए।",
+        "question_read_as": "vah roṭiyaaṁ khaataa hai. → parfekṭiv meṁ likhie.",
+        "options": [
+          "उसने रोटियाँ खाईं",
+          "उसने रोटियाँ खाई",
+          "उसने रोटियाँ खाए",
+          "उसने रोटियाँ खाया"
+        ],
+        "options_read_as": [
+          "usne roṭiyaaṁ khaaiiṁ",
+          "usne roṭiyaaṁ khaaii",
+          "usne roṭiyaaṁ khaae",
+          "usne roṭiyaaṁ khaayaa"
+        ],
+        "answer_index": 0,
+        "explanation_en": "Feminine plural takes खाईं with the nasal, which learners routinely flatten to खाई.",
+        "source_item_ids": [
+          "M09-L03-I3"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q6",
+        "source": "current",
+        "format": "recognition",
+        "question": "लड़की ने खाना खाया। क्रिया किससे मेल खाती है?",
+        "question_read_as": "laṛkii ne khaanaa khaayaa. kriyaa kisse mel khaatii hai?",
+        "options": [
+          "किसी से नहीं",
+          "लड़की से",
+          "खाना से",
+          "दोनों से"
+        ],
+        "options_read_as": [
+          "kisii se nahiiṁ",
+          "laṛkii se",
+          "khaanaa se",
+          "donoṁ se"
+        ],
+        "answer_index": 2,
+        "explanation_en": "Once ने is present the subject is irrelevant, however visible she is in the sentence.",
+        "source_item_ids": [
+          "M09-L04-I1"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q7",
+        "source": "current",
+        "format": "error_spot",
+        "question": "कौन सा वाक्य ग़लत है?",
+        "question_read_as": "kaun saa vaakya ġalat hai?",
+        "options": [
+          "लड़कों ने किताबें पढ़ीं",
+          "उसने खाना खाया",
+          "लड़के ने रोटी खाई",
+          "लड़का ने रोटी खाई"
+        ],
+        "options_read_as": [
+          "laṛkoṁ ne kitaabeṁ paṛhiiṁ",
+          "usne khaanaa khaayaa",
+          "laṛke ne roṭii khaaii",
+          "laṛkaa ne roṭii khaaii"
+        ],
+        "answer_index": 3,
+        "explanation_en": "ने is a postposition, so लड़का must go oblique to लड़के in front of it.",
+        "source_item_ids": [
+          "M09-L04-I2"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q8",
+        "source": "current",
+        "format": "transform",
+        "question": "लड़की चाय पीती है। → परफ़ेक्टिव में लिखिए।",
+        "question_read_as": "laṛkii chaay piitii hai. → parfekṭiv meṁ likhie.",
+        "options": [
+          "लड़की ने चाय पिया",
+          "लड़की ने चाय पी",
+          "लड़की चाय पी",
+          "लड़की ने चाय पीई"
+        ],
+        "options_read_as": [
+          "laṛkii ne chaay piyaa",
+          "laṛkii ne chaay pii",
+          "laṛkii chaay pii",
+          "laṛkii ne chaay piiii"
+        ],
+        "answer_index": 1,
+        "explanation_en": "पीना gives the one-syllable feminine पी. लड़की does not change because it is already in its oblique shape.",
+        "source_item_ids": [
+          "M09-L05-I1"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q9",
+        "source": "current",
+        "format": "recognition",
+        "question": "तुम का ने वाला रूप क्या है?",
+        "question_read_as": "tum kaa ne vaalaa ruup kyaa hai?",
+        "options": [
+          "तुमको",
+          "तुमने",
+          "तुम ने",
+          "तुम्हें"
+        ],
+        "options_read_as": [
+          "tumko",
+          "tumne",
+          "tum ne",
+          "tumheṁ"
+        ],
+        "answer_index": 1,
+        "explanation_en": "Pronouns fuse with ने. Noun subjects keep it separate.",
+        "source_item_ids": [
+          "M09-L06-I1"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q10",
+        "source": "current",
+        "format": "transform",
+        "question": "आप क्या कहते हैं? → परफ़ेक्टिव में लिखिए।",
+        "question_read_as": "aap kyaa kahte haiṁ? → parfekṭiv meṁ likhie.",
+        "options": [
+          "आपने क्या कही",
+          "आपको क्या कहा",
+          "आप क्या कहा",
+          "आपने क्या कहा"
+        ],
+        "options_read_as": [
+          "aapne kyaa kahii",
+          "aapko kyaa kahaa",
+          "aap kyaa kahaa",
+          "aapne kyaa kahaa"
+        ],
+        "answer_index": 3,
+        "explanation_en": "आपने, and क्या carries no gender so कहा stays neutral.",
+        "source_item_ids": [
+          "M09-L06-I2"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q11",
+        "source": "current",
+        "format": "recognition",
+        "question": "यह का ने वाला रूप क्या है?",
+        "question_read_as": "yah kaa ne vaalaa ruup kyaa hai?",
+        "options": [
+          "इसने",
+          "इन्होंने",
+          "इसको",
+          "यहने"
+        ],
+        "options_read_as": [
+          "isne",
+          "inhoṁne",
+          "isko",
+          "yahne"
+        ],
+        "answer_index": 0,
+        "explanation_en": "यह goes oblique to इस exactly as वह goes to उस, and then fuses.",
+        "source_item_ids": [
+          "M09-L07-I2"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q12",
+        "source": "current",
+        "format": "error_spot",
+        "question": "कौन सा रूप मौजूद नहीं है?",
+        "question_read_as": "kaun saa ruup maujuud nahiiṁ hai?",
+        "options": [
+          "उन्होंने",
+          "इन्होंने",
+          "उनने",
+          "तूने"
+        ],
+        "options_read_as": [
+          "unhoṁne",
+          "inhoṁne",
+          "unne",
+          "tuune"
+        ],
+        "answer_index": 2,
+        "explanation_en": "उनने is not a form. The plural is उन्होंने, irregular in the same way as इन्होंने.",
+        "source_item_ids": [
+          "M09-L08-I1",
+          "M09-L08-I2"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q13",
+        "source": "current",
+        "format": "transform",
+        "question": "लोग कहते हैं। → परफ़ेक्टिव में लिखिए।",
+        "question_read_as": "log kahte haiṁ. → parfekṭiv meṁ likhie.",
+        "options": [
+          "लोगने कहा",
+          "लोग ने कहा",
+          "लोगों ने कहा",
+          "लोगों कहा"
+        ],
+        "options_read_as": [
+          "logne kahaa",
+          "log ne kahaa",
+          "logoṁ ne kahaa",
+          "logoṁ kahaa"
+        ],
+        "answer_index": 2,
+        "explanation_en": "Nouns go oblique and keep ने as a separate word. Only pronouns fuse.",
+        "source_item_ids": [
+          "M09-L08-I3"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q14",
+        "source": "current",
+        "format": "recognition",
+        "question": "किस वाक्य में ने नहीं आएगा?",
+        "question_read_as": "kis vaakya meṁ ne nahiiṁ aaegaa?",
+        "options": [
+          "वह आई",
+          "उन्होंने कहा",
+          "हमने खाना खाया",
+          "उसने सब्ज़ी ख़रीदी"
+        ],
+        "options_read_as": [
+          "vah aaii",
+          "unhoṁne kahaa",
+          "hamne khaanaa khaayaa",
+          "usne sabzii ḳhariidii"
+        ],
+        "answer_index": 0,
+        "explanation_en": "आना is intransitive, so the verb agrees with the subject in the ordinary way.",
+        "source_item_ids": [
+          "M09-L09-I2"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q15",
+        "source": "current",
+        "format": "error_spot",
+        "question": "कौन सा वाक्य ग़लत है?",
+        "question_read_as": "kaun saa vaakya ġalat hai?",
+        "options": [
+          "हम बैठे",
+          "मैंने सोया",
+          "वह आई",
+          "मैं गया"
+        ],
+        "options_read_as": [
+          "ham baiṭhe",
+          "maiṁne soyaa",
+          "vah aaii",
+          "maiṁ gayaa"
+        ],
+        "answer_index": 1,
+        "explanation_en": "सोना is intransitive. Adding ने to an intransitive verb is the commonest over-correction once the rule has been learned.",
+        "source_item_ids": [
+          "M09-L10-I2"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q16",
+        "source": "current",
+        "format": "recognition",
+        "question": "मुझे किताब मिली। ने क्यों नहीं?",
+        "question_read_as": "mujhe kitaab milii. ne kyoṁ nahiiṁ?",
+        "options": [
+          "मिलना अनियमित है",
+          "वाक्य परफ़ेक्टिव नहीं है",
+          "मुझे ने नहीं ले सकता",
+          "मिलना अकर्मक है — किताब आपके पास आती है"
+        ],
+        "options_read_as": [
+          "milnaa aniyamit hai",
+          "vaakya parfekṭiv nahiiṁ hai",
+          "mujhe ne nahiiṁ le saktaa",
+          "milnaa akarmak hai — kitaab aapke paas aatii hai"
+        ],
+        "answer_index": 3,
+        "explanation_en": "It looks transitive in English and is not in Hindi. The verb agrees with किताब.",
+        "source_item_ids": [
+          "M09-L10-I1"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q17",
+        "source": "current",
+        "format": "recognition",
+        "question": "कौन सी क्रिया ने नहीं लेती?",
+        "question_read_as": "kaun sii kriyaa ne nahiiṁ letii?",
+        "options": [
+          "लाना",
+          "देखना",
+          "करना",
+          "पढ़ना"
+        ],
+        "options_read_as": [
+          "laanaa",
+          "dekhnaa",
+          "karnaa",
+          "paṛhnaa"
+        ],
+        "answer_index": 0,
+        "explanation_en": "बोलना, लाना and भूलना are the three transitive verbs that refuse it.",
+        "source_item_ids": [
+          "M09-L11-I2"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q18",
+        "source": "current",
+        "format": "error_spot",
+        "question": "कौन सा वाक्य ग़लत है?",
+        "question_read_as": "kaun saa vaakya ġalat hai?",
+        "options": [
+          "वह बोला",
+          "उसने कहा",
+          "उसने बोला",
+          "वह नाम भूला"
+        ],
+        "options_read_as": [
+          "vah bolaa",
+          "usne kahaa",
+          "usne bolaa",
+          "vah naam bhuulaa"
+        ],
+        "answer_index": 2,
+        "explanation_en": "बोलना refuses ने even though कहना, which sits beside it in meaning, takes it.",
+        "source_item_ids": [
+          "M09-L11-I1",
+          "M09-L12-I1"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q19",
+        "source": "current",
+        "format": "recognition",
+        "question": "मैंने उसको देखा। क्रिया तटस्थ क्यों है?",
+        "question_read_as": "maiṁne usko dekhaa. kriyaa taṭasth kyoṁ hai?",
+        "options": [
+          "कर्ता पुल्लिंग है",
+          "यह ग़लती है",
+          "देखना अनियमित है",
+          "को कर्म पर मेल रोक देता है"
+        ],
+        "options_read_as": [
+          "kartaa pulliṁg hai",
+          "yah ġaltii hai",
+          "dekhnaa aniyamit hai",
+          "ko karm par mel rok detaa hai"
+        ],
+        "answer_index": 3,
+        "explanation_en": "ने blocks the subject and को blocks the object, so nothing is left to agree with.",
+        "source_item_ids": [
+          "M09-L13-I1"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q20",
+        "source": "current",
+        "format": "transform",
+        "question": "मैं लड़की को बुलाता हूँ। → परफ़ेक्टिव में लिखिए।",
+        "question_read_as": "maiṁ laṛkii ko bulaataa huuṁ. → parfekṭiv meṁ likhie.",
+        "options": [
+          "मैंने लड़की को बुलाई",
+          "मैंने लड़की को बुलाया",
+          "मैं लड़की को बुलाया",
+          "मैंने लड़की बुलाई"
+        ],
+        "options_read_as": [
+          "maiṁne laṛkii ko bulaaii",
+          "maiṁne laṛkii ko bulaayaa",
+          "maiṁ laṛkii ko bulaayaa",
+          "maiṁne laṛkii bulaaii"
+        ],
+        "answer_index": 1,
+        "explanation_en": "को on a human object is obligatory, and it forces the neutral बुलाया despite लड़की being feminine.",
+        "source_item_ids": [
+          "M09-L13-I2",
+          "M09-L14-I2"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q21",
+        "source": "current",
+        "format": "recognition",
+        "question": "राम ने सीता को देखा। क्रिया किससे मेल खाती है?",
+        "question_read_as": "raam ne siitaa ko dekhaa. kriyaa kisse mel khaatii hai?",
+        "options": [
+          "दोनों से",
+          "किसी से नहीं",
+          "राम से",
+          "सीता से"
+        ],
+        "options_read_as": [
+          "donoṁ se",
+          "kisii se nahiiṁ",
+          "raam se",
+          "siitaa se"
+        ],
+        "answer_index": 1,
+        "explanation_en": "Both slots are blocked, which is the proof that को is doing grammatical work rather than only marking a person.",
+        "source_item_ids": [
+          "M09-L14-I1"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q22",
+        "source": "current",
+        "format": "transform",
+        "question": "मैंने खाना खाया। → वर्तमान पूर्ण में लिखिए।",
+        "question_read_as": "maiṁne khaanaa khaayaa. → vartamaan puurṇ meṁ likhie.",
+        "options": [
+          "मैं खाना खाया है",
+          "मैंने खाना खाई है",
+          "मैंने खाना खा रहा है",
+          "मैंने खाना खाया है"
+        ],
+        "options_read_as": [
+          "maiṁ khaanaa khaayaa hai",
+          "maiṁne khaanaa khaaii hai",
+          "maiṁne khaanaa khaa rahaa hai",
+          "maiṁne khaanaa khaayaa hai"
+        ],
+        "answer_index": 3,
+        "explanation_en": "The auxiliary is added and nothing else moves — ने and the agreement both stay exactly as they were.",
+        "source_item_ids": [
+          "M09-L15-I1"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q23",
+        "source": "current",
+        "format": "transform",
+        "question": "उसने रोटी खाई। → भूतकालिक पूर्ण में लिखिए।",
+        "question_read_as": "usne roṭii khaaii. → bhuutkaalik puurṇ meṁ likhie.",
+        "options": [
+          "उसने रोटी खाई थी",
+          "उसने रोटी खाया था",
+          "उसने रोटी खाईं थीं",
+          "उसने रोटी खाई है"
+        ],
+        "options_read_as": [
+          "usne roṭii khaaii thii",
+          "usne roṭii khaayaa thaa",
+          "usne roṭii khaaiiṁ thiiṁ",
+          "usne roṭii khaaii hai"
+        ],
+        "answer_index": 0,
+        "explanation_en": "थी agrees with रोटी just as खाई does. Both parts follow the object.",
+        "source_item_ids": [
+          "M09-L16-I2"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q24",
+        "source": "current",
+        "format": "error_spot",
+        "question": "कौन सा वाक्य ग़लत है?",
+        "question_read_as": "kaun saa vaakya ġalat hai?",
+        "options": [
+          "मैंने खाना खाया है",
+          "उसने पत्र लिखा है",
+          "उन्होंने किताबें पढ़े थे",
+          "उन्होंने किताबें पढ़ी थीं"
+        ],
+        "options_read_as": [
+          "maiṁne khaanaa khaayaa hai",
+          "usne patra likhaa hai",
+          "unhoṁne kitaabeṁ paṛhe the",
+          "unhoṁne kitaabeṁ paṛhii thiiṁ"
+        ],
+        "answer_index": 2,
+        "explanation_en": "किताबें is feminine plural, so both the participle and the auxiliary must be पढ़ी थीं.",
+        "source_item_ids": [
+          "M09-L16-I3"
+        ]
+      },
+      {
+        "id": "M09-MOCK-Q25",
+        "source": "phase",
+        "format": "recognition",
+        "question": "किस क्रिया के साथ सुनने वाला को लेता है?",
+        "question_read_as": "kis kriyaa ke saath sunne vaalaa ko letaa hai?",
+        "options": [
+          "कहना",
+          "पूछना",
+          "बताना",
+          "मिलना"
+        ],
+        "options_read_as": [
+          "kahnaa",
+          "puuchhnaa",
+          "bataanaa",
+          "milnaa"
+        ],
+        "answer_index": 2,
+        "explanation_en": "उसने मुझे बताया, but उसने मुझसे कहा and उसने मुझसे पूछा. Module 13 level 19 returns to exactly this.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M09-MOCK-Q26",
+        "source": "phase",
+        "format": "recognition",
+        "question": "मुझे मिल गया। इसका मतलब क्या है?",
+        "question_read_as": "mujhe mil gayaa. iskaa matlab kyaa hai?",
+        "options": [
+          "मुझे यह मिल गया",
+          "मैंने यह दिया",
+          "मैंने यह ढूँढा",
+          "मैं किसी से मिला"
+        ],
+        "options_read_as": [
+          "mujhe yah mil gayaa",
+          "maiṁne yah diyaa",
+          "maiṁne yah ḍhuuṁḍhaa",
+          "maiṁ kisii se milaa"
+        ],
+        "answer_index": 0,
+        "explanation_en": "मिलना covers meeting a person and something becoming available to you, and neither sense takes ने.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M09-MOCK-Q27",
+        "source": "phase",
+        "format": "error_spot",
+        "question": "कौन सा वाक्य ग़लत है?",
+        "question_read_as": "kaun saa vaakya ġalat hai?",
+        "options": [
+          "उसने मुझसे पूछा",
+          "उसने मुझसे बताया",
+          "उसने मुझसे कहा",
+          "उसने मुझे बताया"
+        ],
+        "options_read_as": [
+          "usne mujhse puuchhaa",
+          "usne mujhse bataayaa",
+          "usne mujhse kahaa",
+          "usne mujhe bataayaa"
+        ],
+        "answer_index": 1,
+        "explanation_en": "बताना takes को. से belongs with कहना and पूछना, and there is no logic to it beyond the verbs themselves.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M09-MOCK-Q28",
+        "source": "high_value",
+        "format": "recognition",
+        "question": "कमरा + में = ?",
+        "question_read_as": "kamraa + meṁ = ?",
+        "options": [
+          "कमरों में",
+          "कमरी में",
+          "कमरा में",
+          "कमरे में"
+        ],
+        "options_read_as": [
+          "kamroṁ meṁ",
+          "kamrii meṁ",
+          "kamraa meṁ",
+          "kamre meṁ"
+        ],
+        "answer_index": 3,
+        "explanation_en": "Any postposition forces the oblique — which is why ने does the same thing to लड़का and लोग.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M09-MOCK-Q29",
+        "source": "high_value",
+        "format": "recognition",
+        "question": "कौन सा शब्द स्त्रीलिंग है?",
+        "question_read_as": "kaun saa shabd striiliṁg hai?",
+        "options": [
+          "रोटी",
+          "पत्र",
+          "खाना",
+          "पानी"
+        ],
+        "options_read_as": [
+          "roṭii",
+          "patra",
+          "khaanaa",
+          "paanii"
+        ],
+        "answer_index": 0,
+        "explanation_en": "रोटी is feminine, which is the whole reason उसने रोटी खाई ends in -ई.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M09-MOCK-Q30",
+        "source": "high_value",
+        "format": "error_spot",
+        "question": "कौन सा वाक्य ग़लत है?",
+        "question_read_as": "kaun saa vaakya ġalat hai?",
+        "options": [
+          "वह रोटी खाती है",
+          "उसने रोटी खाई",
+          "वह ने रोटी खाई",
+          "लड़कों ने किताबें पढ़ीं"
+        ],
+        "options_read_as": [
+          "vah roṭii khaatii hai",
+          "usne roṭii khaaii",
+          "vah ne roṭii khaaii",
+          "laṛkoṁ ne kitaabeṁ paṛhiiṁ"
+        ],
+        "answer_index": 2,
+        "explanation_en": "वह cannot stand before ने. It goes oblique to उस and then fuses, giving उसने.",
+        "source_item_ids": []
+      }
+    ]
+  },
+  "review_flags": [
+    "Q25, Q26 and Q27 draw on the Module 8 level 52-53 verb block (बताना, पूछना, मिलना, लाना), the only part of that module attested anywhere on disk. Their source_item_ids are empty. Re-point them and add three further phase questions once module08.json is merged, bringing the phase slice from three to the six that Part F's twenty per cent implies.",
+    "Q28, Q29 and Q30 are marked high_value and test the oblique case and gender agreement, which Module 9 depends on completely — ने forces the oblique and the object controls the verb. They have no source_item_ids because the modules that taught them are not on disk."
+  ]
+}

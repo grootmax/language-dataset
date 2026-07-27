@@ -1,0 +1,677 @@
+{
+  "module": 3,
+  "module_name_en": "Matras, Conjuncts & Schwa",
+  "module_name_hi": "मात्रा",
+  "phase": 1,
+  "batch": { "levels_from": 9, "levels_to": 12 },
+  "levels": [
+    {
+      "level": 9,
+      "title_en": "More common stacks",
+      "title_hi": "म्प क्क च्च",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M03-L09-I1",
+          "type": "letter",
+          "target": "म्प",
+          "read_as": "mp",
+          "pronunciation_notes": "म loses its vertical stem and प follows. Modern Hindi increasingly writes this cluster with the anusvara instead, as ंप, and both spellings are read the same way.",
+          "gloss_en": "the stack mp",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["conjunct", "conjunct_form", "half_form", "common_stack", "anusvara_variant"],
+          "letter_form": "म्प",
+          "matra": null,
+          "sound_family": "half-form conjunct",
+          "contrasts_with": ["क्क", "च्च"],
+          "example_word": { "hindi": "सम्पर्क", "read_as": "sampark", "english": "contact" },
+          "cards": {
+            "learn": {
+              "title_en": "म्प — the stack that is losing ground",
+              "explanation_en": "म्प is a half-form like स्त: म drops its stem and प follows immediately. What makes it worth a card of its own is that modern Hindi is quietly replacing it. Because the anusvara is read as m before a lip consonant, संपर्क and सम्पर्क are the same word, and newspapers now overwhelmingly prefer the first. You need to read both, but you will rarely need to write the stacked form.",
+              "examples": [
+                { "hindi": "सम्पर्क", "read_as": "sampark", "english": "contact", "note": "Usually written संपर्क today; the two are identical in sound." },
+                { "hindi": "सम्पादक", "read_as": "sampaadak", "english": "editor", "note": "Formal vocabulary, common on newspaper mastheads." },
+                { "hindi": "टेम्पो", "read_as": "tempo", "english": "a shared three-wheeler", "note": "Borrowed from English and heard on the street constantly." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Join these two letters into a single conjunct.",
+              "question": "म् + प",
+              "question_read_as": "m + pa",
+              "options": ["मप", "प्म", "म्प", "म्पा"],
+              "options_read_as": ["map", "pm", "mp", "mpaa"],
+              "answer_index": 2,
+              "explanation_en": "म drops its vertical stem and प is written straight after it."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches सम्पर्क?",
+              "options": ["sampark", "samparak", "saampark", "sampaark"],
+              "options_read_as": ["sampark", "samparak", "saampark", "sampaark"],
+              "answer_index": 0,
+              "explanation_en": "The stack runs m straight into p, the hook over क is read before it, and the final vowel drops: sampark."
+            }
+          },
+          "audio": {
+            "tts_strings": ["म्प", "सम्पर्क", "सम्पादक", "टेम्पो"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L09-I2",
+          "type": "letter",
+          "target": "क्क",
+          "read_as": "kk",
+          "pronunciation_notes": "क् stacked above क. The consonant is genuinely held longer, as in English 'bookkeeper' rather than 'baker'.",
+          "gloss_en": "the stack kk",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["conjunct", "conjunct_form", "geminate", "common_stack"],
+          "letter_form": "क्क",
+          "matra": null,
+          "sound_family": "vertical stack",
+          "contrasts_with": ["म्प", "च्च"],
+          "example_word": { "hindi": "पक्का", "read_as": "pakkaa", "english": "firm, certain; ripe" },
+          "cards": {
+            "learn": {
+              "title_en": "क्क — hold the k",
+              "explanation_en": "क्क is another doubled consonant, and like न्न it is held rather than merely written twice. The words it appears in are all everyday ones, so this is a good place to build the habit: pause fractionally on the k in पक्का and the word sounds right immediately. Say it as a single k and you get पका, which is a different word.",
+              "examples": [
+                { "hindi": "पक्का", "read_as": "pakkaa", "english": "firm, certain; ripe", "note": "Used constantly to mean 'definite' or 'for sure'." },
+                { "hindi": "धक्का", "read_as": "dhakkaa", "english": "a push, a shove", "note": "Breathy ध at the front, held k in the middle." },
+                { "hindi": "मक्का", "read_as": "makkaa", "english": "maize, corn", "note": "Also the name of the city of Mecca." }
+              ],
+              "common_error": {
+                "wrong": "पका",
+                "right": "पक्का",
+                "why_en": "A single क gives पका, meaning 'cooked' or 'ripened'. The stack holds the sound longer and means something else."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Join these two letters into a single conjunct.",
+              "question": "क् + क",
+              "question_read_as": "k + ka",
+              "options": ["क्क", "कक", "क्का", "क्ख"],
+              "options_read_as": ["kk", "kak", "kkaa", "kkh"],
+              "answer_index": 0,
+              "explanation_en": "क् sits above क in a vertical stack, and the sound is held for longer than a single letter."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches पक्का?",
+              "options": ["pakaa", "paakkaa", "pakkha", "pakkaa"],
+              "options_read_as": ["pakaa", "paakkaa", "pakkha", "pakkaa"],
+              "answer_index": 3,
+              "explanation_en": "The k is held, neither k is aspirated, and the final vowel is long: pakkaa."
+            }
+          },
+          "audio": {
+            "tts_strings": ["क्क", "पक्का", "धक्का", "मक्का"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L09-I3",
+          "type": "letter",
+          "target": "च्च",
+          "read_as": "chch",
+          "pronunciation_notes": "च् stacked above च, both unaspirated. Distinguish it from च्छ, where the second letter carries a puff of breath.",
+          "gloss_en": "the stack chch",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["conjunct", "conjunct_form", "geminate", "common_stack"],
+          "letter_form": "च्च",
+          "matra": null,
+          "sound_family": "vertical stack",
+          "contrasts_with": ["क्क", "म्प"],
+          "example_word": { "hindi": "बच्चा", "read_as": "bachchaa", "english": "child" },
+          "cards": {
+            "learn": {
+              "title_en": "च्च — and how it differs from अच्छा",
+              "explanation_en": "च्च is a held ch with no breath on either half. It is worth setting beside अच्छा, which looks similar but is च् plus छ — the second half there is aspirated. So बच्चा has two plain ch sounds while अच्छा has a plain one followed by a breathy one. Learners who cannot yet hear aspiration tend to merge the two spellings, and both words are far too common for that to go unnoticed.",
+              "examples": [
+                { "hindi": "बच्चा", "read_as": "bachchaa", "english": "child", "note": "Both halves are plain, with no puff of air anywhere." },
+                { "hindi": "कच्चा", "read_as": "kachchaa", "english": "raw, unripe", "note": "The opposite of पक्का from the last card." },
+                { "hindi": "सच्चा", "read_as": "sachchaa", "english": "true, genuine", "note": "Same stack again, in a word you met when stacks were introduced." }
+              ],
+              "common_error": {
+                "wrong": "बछा",
+                "right": "बच्चा",
+                "why_en": "The stack is two plain ch sounds held together, not a single aspirated छ."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Join these two letters into a single conjunct.",
+              "question": "च् + च",
+              "question_read_as": "ch + cha",
+              "options": ["चच", "च्छ", "च्चा", "च्च"],
+              "options_read_as": ["chach", "chchh", "chchaa", "chch"],
+              "answer_index": 3,
+              "explanation_en": "Both halves are the plain च. Using छ as the second letter would add a puff of breath."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches बच्चा?",
+              "options": ["bachaa", "bachchaa", "baachchaa", "bachhaa"],
+              "options_read_as": ["bachaa", "bachchaa", "baachchaa", "bachhaa"],
+              "answer_index": 1,
+              "explanation_en": "The ch is held and neither half carries breath, so it is bachchaa rather than bachhaa."
+            }
+          },
+          "audio": {
+            "tts_strings": ["च्च", "बच्चा", "कच्चा", "सच्चा"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added म्प, क्क and च्च. The doubled stacks are genuinely held longer rather than just written twice, and म्प is increasingly written with the anusvara instead.",
+        "key_forms": ["सम्पर्क", "पक्का", "बच्चा"],
+        "next_up_en": "Next: ज्ज, त्त and प्प, three more doubled stacks in very common words."
+      }
+    },
+    {
+      "level": 10,
+      "title_en": "Doubled stacks",
+      "title_hi": "ज्ज त्त प्प",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M03-L10-I1",
+          "type": "letter",
+          "target": "ज्ज",
+          "read_as": "jj",
+          "pronunciation_notes": "ज् above ज, held longer than a single j. Neither half is aspirated.",
+          "gloss_en": "the stack jj",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["conjunct", "conjunct_form", "geminate", "common_stack"],
+          "letter_form": "ज्ज",
+          "matra": null,
+          "sound_family": "vertical stack",
+          "contrasts_with": ["त्त", "प्प"],
+          "example_word": { "hindi": "सज्जन", "read_as": "sajjan", "english": "a gentleman, a good person" },
+          "cards": {
+            "learn": {
+              "title_en": "ज्ज — a held j",
+              "explanation_en": "ज्ज follows the same pattern as क्क and च्च: the first letter stacks above the second and the sound is held. It is less frequent than the others in everyday speech and clusters in slightly formal vocabulary, but the words it appears in are ones you will read rather than words you can avoid.",
+              "examples": [
+                { "hindi": "सज्जन", "read_as": "sajjan", "english": "a gentleman, a good person", "note": "Polite and slightly formal, common in written Hindi." },
+                { "hindi": "लज्जा", "read_as": "lajjaa", "english": "shame, modesty", "note": "Formal register; शर्म is the everyday word." },
+                { "hindi": "ताज्जुब", "read_as": "taajjub", "english": "surprise, astonishment", "note": "Colloquial and very common in speech." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Join these two letters into a single conjunct.",
+              "question": "ज् + ज",
+              "question_read_as": "j + ja",
+              "options": ["जज", "ज्ज", "ज्झ", "ज्जा"],
+              "options_read_as": ["jaj", "jj", "jjh", "jjaa"],
+              "answer_index": 1,
+              "explanation_en": "ज् stacks above ज, and neither half carries breath — झ as the second letter would add it."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches सज्जन?",
+              "options": ["sajan", "saajjan", "sajjan", "sajjaan"],
+              "options_read_as": ["sajan", "saajjan", "sajjan", "sajjaan"],
+              "answer_index": 2,
+              "explanation_en": "The j is held, both vowels are short, and the final vowel drops: sajjan."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ज्ज", "सज्जन", "लज्जा", "ताज्जुब"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L10-I2",
+          "type": "letter",
+          "target": "त्त",
+          "read_as": "tt",
+          "pronunciation_notes": "त् above त, both dental. Keep the tongue on the teeth throughout — an English t here would give the retroflex ट्ट instead.",
+          "gloss_en": "the stack tt",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["conjunct", "conjunct_form", "geminate", "common_stack", "dental"],
+          "letter_form": "त्त",
+          "matra": null,
+          "sound_family": "vertical stack",
+          "contrasts_with": ["ज्ज", "प्प"],
+          "example_word": { "hindi": "उत्तर", "read_as": "uttar", "english": "north; an answer" },
+          "cards": {
+            "learn": {
+              "title_en": "त्त — held, and firmly on the teeth",
+              "explanation_en": "त्त combines two things you have already had to work at separately: holding a doubled consonant, and keeping the dental position that English never uses. Both halves are dental, so the tongue stays against the back of the upper teeth for the whole length of the sound. Let it drift back and you produce ट्ट, which is a different stack.",
+              "examples": [
+                { "hindi": "उत्तर", "read_as": "uttar", "english": "north; an answer", "note": "One word for both meanings, and you will need each of them." },
+                { "hindi": "पत्ता", "read_as": "pattaa", "english": "a leaf", "note": "Held t, then a long final vowel." },
+                { "hindi": "बत्ती", "read_as": "battii", "english": "a light, a lamp", "note": "Used for lamps, headlights and traffic lights alike." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Join these two letters into a single conjunct.",
+              "question": "त् + त",
+              "question_read_as": "t + ta",
+              "options": ["तत", "त्थ", "त्त", "त्ता"],
+              "options_read_as": ["tat", "tth", "tt", "ttaa"],
+              "answer_index": 2,
+              "explanation_en": "त् stacks above त. Using थ as the second letter would release the sound with breath."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches उत्तर?",
+              "options": ["uttar", "utar", "uttara", "uuttar"],
+              "options_read_as": ["uttar", "utar", "uttara", "uuttar"],
+              "answer_index": 0,
+              "explanation_en": "The t is held, the first vowel is short, and the final vowel drops: uttar."
+            }
+          },
+          "audio": {
+            "tts_strings": ["त्त", "उत्तर", "पत्ता", "बत्ती"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L10-I3",
+          "type": "letter",
+          "target": "प्प",
+          "read_as": "pp",
+          "pronunciation_notes": "प् above प, neither half aspirated. The lips stay closed slightly longer than for a single प.",
+          "gloss_en": "the stack pp",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["conjunct", "conjunct_form", "geminate", "common_stack"],
+          "letter_form": "प्प",
+          "matra": null,
+          "sound_family": "vertical stack",
+          "contrasts_with": ["ज्ज", "त्त"],
+          "example_word": { "hindi": "चप्पल", "read_as": "chappal", "english": "sandal, slipper" },
+          "cards": {
+            "learn": {
+              "title_en": "प्प — lips closed a little longer",
+              "explanation_en": "प्प holds the lips shut for an extra beat before releasing them, and crucially releases with no breath at all. That combination is awkward for English speakers, who tend to let a puff escape when they hold a p, turning the stack towards फ. Hold the closure, then open the lips quietly.",
+              "examples": [
+                { "hindi": "चप्पल", "read_as": "chappal", "english": "sandal, slipper", "note": "You will hear this daily; the final vowel drops." },
+                { "hindi": "गप्प", "read_as": "gapp", "english": "gossip, idle chat", "note": "The stack closes the word." },
+                { "hindi": "छप्पन", "read_as": "chhappan", "english": "fifty-six", "note": "Aspirated छ at the front, unaspirated held p in the middle." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Join these two letters into a single conjunct.",
+              "question": "प् + प",
+              "question_read_as": "p + pa",
+              "options": ["प्प", "पप", "प्फ", "प्पा"],
+              "options_read_as": ["pp", "pap", "pph", "ppaa"],
+              "answer_index": 0,
+              "explanation_en": "प् stacks above प, and neither half releases any breath — फ as the second letter would."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches चप्पल?",
+              "options": ["chapal", "chaappal", "chappaal", "chappal"],
+              "options_read_as": ["chapal", "chaappal", "chappaal", "chappal"],
+              "answer_index": 3,
+              "explanation_en": "The p is held, both vowels are short, and the final vowel drops: chappal."
+            }
+          },
+          "audio": {
+            "tts_strings": ["प्प", "चप्पल", "गप्प", "छप्पन"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered ज्ज, त्त and प्प. All three are held longer than a single letter, and त्त and प्प each combine that with something already difficult — the dental position and the absence of aspiration.",
+        "key_forms": ["सज्जन", "उत्तर", "चप्पल"],
+        "next_up_en": "Next: ल्ल, श्व and ष्ट complete the common stacks."
+      }
+    },
+    {
+      "level": 11,
+      "title_en": "The last common stacks",
+      "title_hi": "ल्ल श्व ष्ट",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M03-L11-I1",
+          "type": "letter",
+          "target": "ल्ल",
+          "read_as": "ll",
+          "pronunciation_notes": "ल् above ल, held longer than a single l and kept clear throughout — English darkens a long l, and Hindi does not.",
+          "gloss_en": "the stack ll",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["conjunct", "conjunct_form", "geminate", "common_stack"],
+          "letter_form": "ल्ल",
+          "matra": null,
+          "sound_family": "vertical stack",
+          "contrasts_with": ["श्व", "ष्ट"],
+          "example_word": { "hindi": "दिल्ली", "read_as": "dillii", "english": "Delhi" },
+          "cards": {
+            "learn": {
+              "title_en": "ल्ल — a long, clear l",
+              "explanation_en": "ल्ल holds the l for an extra beat. The difficulty is not the length but the quality: English darkens its l when it is held or final, so 'Delhi' said the English way has a swallowed l in the middle. Hindi keeps the sound bright and forward for its whole length. This stack appears in the name of the capital city, so it is worth getting right early.",
+              "examples": [
+                { "hindi": "दिल्ली", "read_as": "dillii", "english": "Delhi", "note": "The l is held and stays clear; the final vowel is long." },
+                { "hindi": "बिल्ली", "read_as": "billii", "english": "cat", "note": "Same shape as the city name, one letter apart." },
+                { "hindi": "उल्लू", "read_as": "ulluu", "english": "owl", "note": "Short vowel first, held l, then a long one." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Join these two letters into a single conjunct.",
+              "question": "ल् + ल",
+              "question_read_as": "l + la",
+              "options": ["लल", "ल्ल", "ल्ला", "ल्र"],
+              "options_read_as": ["lal", "ll", "llaa", "lr"],
+              "answer_index": 1,
+              "explanation_en": "ल् stacks above ल, giving one held sound rather than two separate syllables."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches दिल्ली?",
+              "options": ["dilii", "diillii", "dillii", "dillee"],
+              "options_read_as": ["dilii", "diillii", "dillii", "dillee"],
+              "answer_index": 2,
+              "explanation_en": "The first vowel is short, the l is held, and the final vowel is the long ी: dillii."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ल्ल", "दिल्ली", "बिल्ली", "उल्लू"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L11-I2",
+          "type": "letter",
+          "target": "श्व",
+          "read_as": "shv",
+          "pronunciation_notes": "श् plus व as a half-form. The व keeps its light contact — the lips approach the teeth without meeting.",
+          "gloss_en": "the stack shv",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["conjunct", "conjunct_form", "half_form", "common_stack"],
+          "letter_form": "श्व",
+          "matra": null,
+          "sound_family": "half-form conjunct",
+          "contrasts_with": ["ल्ल", "ष्ट"],
+          "example_word": { "hindi": "विश्वास", "read_as": "vishvaas", "english": "trust, belief" },
+          "cards": {
+            "learn": {
+              "title_en": "श्व — sh running into v",
+              "explanation_en": "श्व is a half-form: श loses its stem and व follows. The pair is awkward for English speakers because there is no vowel to lean on between the two sounds, and the temptation is to insert one and say 'vish-uh-vaas'. Run them together. Note also that this cluster drops its final vowel — विश्व is 'vishv' — which is the pattern the last level of this module explains.",
+              "examples": [
+                { "hindi": "विश्वास", "read_as": "vishvaas", "english": "trust, belief", "note": "Common in both speech and writing." },
+                { "hindi": "विश्व", "read_as": "vishv", "english": "world", "note": "Seen constantly in विश्व कप, the World Cup." },
+                { "hindi": "अश्व", "read_as": "ashv", "english": "horse", "note": "Formal and literary; घोड़ा is the everyday word." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Join these two letters into a single conjunct.",
+              "question": "श् + व",
+              "question_read_as": "sh + va",
+              "options": ["शव", "स्व", "श्वा", "श्व"],
+              "options_read_as": ["shav", "sv", "shvaa", "shv"],
+              "answer_index": 3,
+              "explanation_en": "श drops its stem and व follows immediately, with no vowel between the two."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches विश्वास?",
+              "options": ["vishaas", "vishvaas", "vishavaas", "viishvaas"],
+              "options_read_as": ["vishaas", "vishvaas", "vishavaas", "viishvaas"],
+              "answer_index": 1,
+              "explanation_en": "No vowel comes between the sh and the v, and only the last syllable is long: vishvaas."
+            }
+          },
+          "audio": {
+            "tts_strings": ["श्व", "विश्वास", "विश्व", "अश्व"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L11-I3",
+          "type": "letter",
+          "target": "ष्ट",
+          "read_as": "shṭ",
+          "pronunciation_notes": "ष plus the retroflex ट. ष is pronounced like श today, so the cluster is 'sht' with the tongue curled back for the t.",
+          "gloss_en": "the stack sht",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["conjunct", "conjunct_form", "half_form", "common_stack", "retroflex"],
+          "letter_form": "ष्ट",
+          "matra": null,
+          "sound_family": "half-form conjunct",
+          "contrasts_with": ["ल्ल", "श्व"],
+          "example_word": { "hindi": "कष्ट", "read_as": "kashṭ", "english": "trouble, hardship" },
+          "cards": {
+            "learn": {
+              "title_en": "ष्ट — and a preview of the next level",
+              "explanation_en": "ष्ट pairs the retroflex sibilant with the retroflex ट. Since ष and श sound identical today, the cluster is simply 'sht', with the tongue curled back for the second half. Look closely at राष्ट्र below: the same cluster with र added, and unlike कष्ट it keeps its final vowel. That difference is the subject of the next level.",
+              "examples": [
+                { "hindi": "कष्ट", "read_as": "kashṭ", "english": "trouble, hardship", "note": "The final vowel drops, so the word ends on the cluster." },
+                { "hindi": "नष्ट", "read_as": "nashṭ", "english": "destroyed, ruined", "note": "Same pattern; common in news writing." },
+                { "hindi": "राष्ट्र", "read_as": "raashṭra", "english": "nation", "note": "Here र is added and the final vowel is pronounced." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Join these two letters into a single conjunct.",
+              "question": "ष् + ट",
+              "question_read_as": "sh + ṭa",
+              "options": ["ष्ट", "षट", "स्ट", "ष्ठ"],
+              "options_read_as": ["shṭ", "shaṭ", "sṭ", "shṭh"],
+              "answer_index": 0,
+              "explanation_en": "ष loses its stem and the retroflex ट follows, with no breath released and no vowel between."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches कष्ट?",
+              "options": ["kashaṭ", "kaashṭ", "kashṭa", "kashṭ"],
+              "options_read_as": ["kashaṭ", "kaashṭ", "kashṭa", "kashṭ"],
+              "answer_index": 3,
+              "explanation_en": "No vowel comes between the sh and the retroflex t, and the final vowel drops: kashṭ."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ष्ट", "कष्ट", "नष्ट", "राष्ट्र"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level finished the common stacks with ल्ल, श्व and ष्ट. Two of them, विश्व and कष्ट, drop their final vowel while राष्ट्र keeps its own — the question the next level answers.",
+        "key_forms": ["दिल्ली", "विश्वास", "कष्ट"],
+        "next_up_en": "Next: which written vowels are actually pronounced — the rule that decides how every Hindi word ends."
+      }
+    },
+    {
+      "level": 12,
+      "title_en": "Schwa deletion",
+      "title_hi": "अ का लोप",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M03-L12-I1",
+          "type": "letter",
+          "target": "अंत का अ",
+          "read_as": "ant kaa a",
+          "pronunciation_notes": "The inherent अ at the end of a word is not pronounced in modern standard Hindi. कमल is kamal, नमक is namak, घर is ghar.",
+          "gloss_en": "word-final schwa deletion",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["schwa", "word_final", "deletion", "firm_rule", "word_build"],
+          "letter_form": "अ",
+          "matra": null,
+          "sound_family": "schwa",
+          "contrasts_with": ["ा"],
+          "example_word": { "hindi": "नमक", "read_as": "namak", "english": "salt" },
+          "cards": {
+            "learn": {
+              "title_en": "The final अ is not pronounced",
+              "explanation_en": "Every consonant carries an inherent अ, but the one at the end of a word is dropped. This is near-categorical in modern standard Hindi, so treat it as a firm rule rather than a tendency: कमल is 'kamal', नमक is 'namak', घर is 'ghar'. English speakers who sound out every letter produce 'kamala' and 'namaka', which is how Sanskrit is recited rather than how Hindi is spoken. There are two named exceptions, and the next card covers them.",
+              "examples": [
+                { "hindi": "कमल", "read_as": "kamal", "english": "lotus", "note": "Three letters, two syllables — the last vowel is written but silent." },
+                { "hindi": "नमक", "read_as": "namak", "english": "salt", "note": "Ask for 'namaka' and you will be understood, but you will sound like a textbook." },
+                { "hindi": "घर", "read_as": "ghar", "english": "house", "note": "One syllable, not two." }
+              ],
+              "common_error": {
+                "wrong": "कमला",
+                "right": "कमल",
+                "why_en": "Writing the ा matra makes the final vowel real: कमला is a woman's name, while कमल is the flower."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Build the word 'namak' from these letters.",
+              "question": "न + म + क",
+              "question_read_as": "na + ma + ka",
+              "options": ["नमका", "नामक", "नमक", "नमाक"],
+              "options_read_as": ["namakaa", "naamak", "namak", "namaak"],
+              "answer_index": 2,
+              "explanation_en": "All three letters carry an inherent vowel in writing, but the last one is not pronounced: namak."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches कमल?",
+              "options": ["kamal", "kamala", "kamaal", "kaamal"],
+              "options_read_as": ["kamal", "kamala", "kamaal", "kaamal"],
+              "answer_index": 0,
+              "explanation_en": "The final vowel is written but silent, and neither of the other two is long: kamal."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कमल", "नमक", "घर"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L12-I2",
+          "type": "letter",
+          "target": "अपवाद",
+          "read_as": "apvaad",
+          "pronunciation_notes": "The final vowel survives after a conjunct ending in र or य, and in Sanskrit words recited in a devotional register. Conjuncts ending in a stop or a nasal drop it as usual.",
+          "gloss_en": "when the final schwa is kept",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["schwa", "exception", "conjunct", "register", "word_build"],
+          "letter_form": "अ",
+          "matra": null,
+          "sound_family": "schwa",
+          "contrasts_with": ["द्ध", "न्न"],
+          "example_word": { "hindi": "मित्र", "read_as": "mitra", "english": "friend" },
+          "cards": {
+            "learn": {
+              "title_en": "Two places the final अ survives",
+              "explanation_en": "The rule has two named exceptions. First, a word ending in a conjunct can keep its vowel — but only some conjuncts do, so 'after a conjunct' is too loose. मित्र is 'mitra' and राष्ट्र is 'raashṭra' because those clusters end in र, and सत्य is 'satya' because it ends in य. Clusters ending in a stop or a nasal follow the ordinary rule, which is why शुद्ध is 'shuddh', अन्न is 'ann' and कष्ट is 'kashṭ'. Second, Sanskrit words recited devotionally keep the vowel: कृष्ण is 'krishn' in ordinary speech but 'krishna' when chanted.",
+              "examples": [
+                { "hindi": "मित्र", "read_as": "mitra", "english": "friend", "note": "The cluster ends in र, so the vowel is heard." },
+                { "hindi": "राष्ट्र", "read_as": "raashṭra", "english": "nation", "note": "The same cluster from the last level, now with र, and now with a final vowel." },
+                { "hindi": "शुद्ध", "read_as": "shuddh", "english": "pure, clean", "note": "This cluster ends in a stop, so the ordinary rule applies and the vowel drops." }
+              ],
+              "common_error": {
+                "wrong": "शुद्धा",
+                "right": "शुद्ध",
+                "why_en": "Not every conjunct keeps the final vowel. This one ends in a stop, so it behaves like any ordinary word ending."
+              }
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Build the word 'mitra' from these letters.",
+              "question": "म + ि + त् + र",
+              "question_read_as": "ma + i + t + ra",
+              "options": ["मीत्र", "मितर", "मित्रा", "मित्र"],
+              "options_read_as": ["miitra", "mitar", "mitraa", "mitra"],
+              "answer_index": 3,
+              "explanation_en": "The final vowel is pronounced without any matra being written, because the conjunct ends in र."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches राष्ट्र?",
+              "options": ["raashṭr", "raashṭra", "raashaṭra", "raashṭaar"],
+              "options_read_as": ["raashṭr", "raashṭra", "raashaṭra", "raashṭaar"],
+              "answer_index": 1,
+              "explanation_en": "The cluster ends in र, so the final vowel survives: raashṭra rather than raashṭr."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मित्र", "राष्ट्र", "शुद्ध", "सत्य"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M03-L12-I3",
+          "type": "letter",
+          "target": "बीच का अ",
+          "read_as": "biich kaa a",
+          "pronunciation_notes": "Medial schwa deletion is variable and depends on the word's structure. नमस्ते keeps its middle vowel while समझ drops its final one, and no single rule covers every case.",
+          "gloss_en": "medial schwa — variable deletion",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["schwa", "medial", "variable", "pattern", "word_build"],
+          "letter_form": "अ",
+          "matra": null,
+          "sound_family": "schwa",
+          "contrasts_with": ["ा", "ी"],
+          "example_word": { "hindi": "समझ", "read_as": "samajh", "english": "understanding" },
+          "cards": {
+            "learn": {
+              "title_en": "In the middle, it varies",
+              "explanation_en": "Inside a word the inherent अ sometimes drops and sometimes does not, and unlike the word-final rule this one has no exceptionless form — so do not try to learn it as one. A useful pattern rather than a rule: the vowel tends to go when removing it still leaves something pronounceable, and tends to stay when it does not. Compare समझ, said 'samajh' with its middle vowel intact, against समझना, where adding an ending makes that same vowel disappear. Even native speakers vary, so learn these word by word.",
+              "examples": [
+                { "hindi": "समझ", "read_as": "samajh", "english": "understanding", "note": "Two syllables — the middle vowel stays and the final one goes." },
+                { "hindi": "समझना", "read_as": "samajhnaa", "english": "to understand", "note": "The same word plus an ending, and now a vowel drops inside it." },
+                { "hindi": "नमस्ते", "read_as": "namaste", "english": "hello", "note": "Every written vowel here is pronounced." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "build_the_syllable",
+              "prompt_en": "Build the word 'samajh' from these letters.",
+              "question": "स + म + झ",
+              "question_read_as": "sa + ma + jha",
+              "options": ["सामझ", "समझ", "समाझ", "समझा"],
+              "options_read_as": ["saamajh", "samajh", "samaajh", "samjhaa"],
+              "answer_index": 1,
+              "explanation_en": "The middle vowel is pronounced and the final one is not, giving two syllables: samajh."
+            },
+            "game": {
+              "format": "hear_word_pick_transliteration",
+              "question_en": "Listen. Which transliteration matches नमस्ते?",
+              "options": ["namste", "namastay", "namaste", "namasatey"],
+              "options_read_as": ["namste", "namastay", "namaste", "namasatey"],
+              "answer_index": 2,
+              "explanation_en": "The first two vowels are both pronounced here, unlike the pattern in समझना: namaste."
+            }
+          },
+          "audio": {
+            "tts_strings": ["समझ", "समझना", "नमस्ते"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level established the rule that governs how every Hindi word ends: the final inherent अ is dropped. It survives only after a conjunct ending in र or य, and in devotional recitation. Inside a word the same vowel behaves variably and has to be learned word by word.",
+        "key_forms": ["नमक", "मित्र", "समझ"],
+        "next_up_en": "Module 4 leaves the script behind and begins vocabulary, starting with family words and the gender that every Hindi noun carries."
+      }
+    }
+  ]
+}

@@ -1,0 +1,864 @@
+{
+  "module": 2,
+  "module_name_en": "Consonants",
+  "module_name_hi": "व्यंजन",
+  "phase": 1,
+  "batch": { "levels_from": 1, "levels_to": 5 },
+  "levels": [
+    {
+      "level": 1,
+      "title_en": "The क-family begins",
+      "title_hi": "क ख ग",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M02-L01-I1",
+          "type": "letter",
+          "target": "क",
+          "read_as": "ka",
+          "pronunciation_notes": "Unaspirated k — no puff of air at all. The English k of 'kite' is aspirated and comes out as ख; the k inside 'skate' is the right sound.",
+          "gloss_en": "voiceless unaspirated velar stop",
+          "gender": null,
+          "difficulty": 1,
+          "tags": ["consonant", "ka_varga", "velar", "voiceless", "unaspirated"],
+          "letter_form": "क",
+          "matra": null,
+          "sound_family": "ka-varga",
+          "contrasts_with": ["ख", "ग"],
+          "example_word": { "hindi": "कमल", "read_as": "kamal", "english": "lotus" },
+          "cards": {
+            "learn": {
+              "title_en": "क — the k with no breath",
+              "explanation_en": "क is made at the back of the mouth like an English k, but with no puff of air after it. English aspirates its k at the start of a word, so reading क as in 'kite' produces ख instead; the k inside 'skate' is exactly right. Remember from Module 1 that every consonant also carries an unwritten अ, so this letter on its own is read 'ka', not 'k'.",
+              "examples": [
+                { "hindi": "कमल", "read_as": "kamal", "english": "lotus", "note": "Opens with a clean क, and the final vowel is not pronounced." },
+                { "hindi": "काम", "read_as": "kaam", "english": "work", "note": "क carrying the long ा matra you learned in Module 1." },
+                { "hindi": "एक", "read_as": "ek", "english": "one", "note": "क at the end of a word, where its अ disappears entirely." }
+              ],
+              "common_error": {
+                "wrong": "खमल",
+                "right": "कमल",
+                "why_en": "Adding English's automatic puff of breath turns क into ख, which is a different letter."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "कमल",
+              "question_read_as": "kamal",
+              "options": ["ख", "क", "ग", "घ"],
+              "options_read_as": ["kha", "ka", "ga", "gha"],
+              "answer_index": 1,
+              "explanation_en": "The sound is voiceless and releases no breath, which makes it क rather than ख."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant — one released with a puff of air?",
+              "options": ["कमल", "काम", "कोना", "खाना"],
+              "options_read_as": ["kamal", "kaam", "konaa", "khaanaa"],
+              "answer_index": 3,
+              "explanation_en": "खाना starts with ख, which carries the puff. The other three start with क, said with no breath at all."
+            }
+          },
+          "audio": {
+            "tts_strings": ["क", "कमल", "काम", "एक"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L01-I2",
+          "type": "letter",
+          "target": "ख",
+          "read_as": "kha",
+          "pronunciation_notes": "क with a clear puff of breath released after it — roughly the k of English 'kite'. Not the scraping ch of German 'Bach', which is the separate letter ख़.",
+          "gloss_en": "voiceless aspirated velar stop",
+          "gender": null,
+          "difficulty": 1,
+          "tags": ["consonant", "ka_varga", "velar", "voiceless", "aspirated"],
+          "letter_form": "ख",
+          "matra": null,
+          "sound_family": "ka-varga",
+          "contrasts_with": ["क", "घ"],
+          "example_word": { "hindi": "खाना", "read_as": "khaanaa", "english": "food; to eat" },
+          "cards": {
+            "learn": {
+              "title_en": "ख — क plus a puff",
+              "explanation_en": "ख is exactly क with a strong puff of breath released after it. English speakers already make this sound at the start of words like 'kite' and 'cool', so producing it is easy — the discipline is using it only where ख is actually written. Do not reach for the scraping sound of German 'Bach'; that belongs to a different letter taught much later.",
+              "examples": [
+                { "hindi": "खाना", "read_as": "khaanaa", "english": "food; to eat", "note": "A word you will use daily, and the puff is unmistakable." },
+                { "hindi": "खोना", "read_as": "khonaa", "english": "to lose", "note": "Compare कोना, 'corner', from Module 1 — the two words are one puff apart." },
+                { "hindi": "लिखना", "read_as": "likhnaa", "english": "to write", "note": "The breath is released in the middle of the word, on ख." }
+              ],
+              "common_error": {
+                "wrong": "कोना",
+                "right": "खोना",
+                "why_en": "Without the puff of breath the verb 'to lose' collapses into the noun 'corner'."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "खाना",
+              "question_read_as": "khaanaa",
+              "options": ["क", "ग", "घ", "ख"],
+              "options_read_as": ["ka", "ga", "gha", "kha"],
+              "answer_index": 3,
+              "explanation_en": "The sound is voiceless and followed by a clear puff, which makes it ख and not क."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["खोना", "कोना", "काम", "कमल"],
+              "options_read_as": ["khonaa", "konaa", "kaam", "kamal"],
+              "answer_index": 0,
+              "explanation_en": "खोना begins with ख. The other three begin with क, which releases no breath."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ख", "खाना", "खोना", "लिखना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L01-I3",
+          "type": "letter",
+          "target": "ग",
+          "read_as": "ga",
+          "pronunciation_notes": "Voiced g as in 'go', with no puff of air. Unlike क, the vocal cords are already buzzing as the sound is released.",
+          "gloss_en": "voiced unaspirated velar stop",
+          "gender": null,
+          "difficulty": 1,
+          "tags": ["consonant", "ka_varga", "velar", "voiced", "unaspirated"],
+          "letter_form": "ग",
+          "matra": null,
+          "sound_family": "ka-varga",
+          "contrasts_with": ["घ", "क"],
+          "example_word": { "hindi": "गाना", "read_as": "gaanaa", "english": "song; to sing" },
+          "cards": {
+            "learn": {
+              "title_en": "ग — the voiced partner of क",
+              "explanation_en": "ग is the g of English 'go'. It is made in the same place as क; the difference is voicing, meaning your vocal cords are running as the sound is released. English g is never aspirated, so this letter causes English speakers almost no trouble. The shape of every sound family is now visible: a voiceless pair and a voiced pair, each with a plain and a breathy member.",
+              "examples": [
+                { "hindi": "गाना", "read_as": "gaanaa", "english": "song; to sing", "note": "Clean voiced g, then the long ा matra." },
+                { "hindi": "गरम", "read_as": "garam", "english": "hot", "note": "Two syllables, and the final vowel drops as usual." },
+                { "hindi": "आग", "read_as": "aag", "english": "fire", "note": "ग at the end of a word." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "गाना",
+              "question_read_as": "gaanaa",
+              "options": ["ग", "क", "घ", "ख"],
+              "options_read_as": ["ga", "ka", "gha", "kha"],
+              "answer_index": 0,
+              "explanation_en": "The sound is voiced but releases no breath, which makes it ग and not घ."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["गाना", "गरम", "घर", "गीत"],
+              "options_read_as": ["gaanaa", "garam", "ghar", "giit"],
+              "answer_index": 2,
+              "explanation_en": "घर begins with घ, which is voiced and released with breath. The other three begin with plain ग."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ग", "गाना", "गरम", "आग"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level opened the क-family with क, ख and ग, and set up the grid every sound family follows: voiceless against voiced, each with a plain and an aspirated member.",
+        "key_forms": ["कमल", "खाना", "गाना"],
+        "next_up_en": "Next: घ and ङ complete the family, followed by a drill on the क/ख contrast."
+      }
+    },
+    {
+      "level": 2,
+      "title_en": "Closing the क-family",
+      "title_hi": "घ ङ",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M02-L02-I1",
+          "type": "letter",
+          "target": "घ",
+          "read_as": "gha",
+          "pronunciation_notes": "Voiced g released with breath — a murmured sound English has no equivalent for. It is one consonant, not g followed by a separate h.",
+          "gloss_en": "voiced aspirated velar stop",
+          "gender": null,
+          "difficulty": 2,
+          "tags": ["consonant", "ka_varga", "velar", "voiced", "aspirated", "breathy_voice"],
+          "letter_form": "घ",
+          "matra": null,
+          "sound_family": "ka-varga",
+          "contrasts_with": ["ग", "ख"],
+          "example_word": { "hindi": "घर", "read_as": "ghar", "english": "house" },
+          "cards": {
+            "learn": {
+              "title_en": "घ — voiced and breathy at once",
+              "explanation_en": "घ is ग released with breath, something English never does: the voicing and the puff happen together, giving the sound a murmured quality. Do not produce it as two separate sounds. A reliable trick is to start from a sigh and let the g emerge out of it. This letter arrives early and stays, because घर, 'house', is one of the most common nouns in the language.",
+              "examples": [
+                { "hindi": "घर", "read_as": "ghar", "english": "house", "note": "The single most useful word containing this letter." },
+                { "hindi": "घास", "read_as": "ghaas", "english": "grass", "note": "The same breathy release, followed by a long ा." },
+                { "hindi": "घंटा", "read_as": "ghaṇṭaa", "english": "hour; bell", "note": "Breathy घ at the start, and the dot read as ṇ because ट follows." }
+              ],
+              "common_error": {
+                "wrong": "गर",
+                "right": "घर",
+                "why_en": "Dropping the breath gives plain ग, and a listener hears a different word."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "घर",
+              "question_read_as": "ghar",
+              "options": ["क", "ग", "घ", "ख"],
+              "options_read_as": ["ka", "ga", "gha", "kha"],
+              "answer_index": 2,
+              "explanation_en": "The sound is voiced and carries breath at the same time, which is घ and not ग."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["गाना", "घास", "गरम", "गीत"],
+              "options_read_as": ["gaanaa", "ghaas", "garam", "giit"],
+              "answer_index": 1,
+              "explanation_en": "घास begins with घ, which is released with breath. The other three begin with plain ग."
+            }
+          },
+          "audio": {
+            "tts_strings": ["घ", "घर", "घास", "घंटा"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L02-I2",
+          "type": "letter",
+          "target": "ङ",
+          "read_as": "ṅa",
+          "pronunciation_notes": "The ng of English 'sing'. The full letter is almost never written in modern Hindi — the sound is spelt with the anusvara ं before a क-family consonant.",
+          "gloss_en": "velar nasal",
+          "gender": null,
+          "difficulty": 2,
+          "tags": ["consonant", "ka_varga", "velar", "nasal", "rare_letter"],
+          "letter_form": "ङ",
+          "matra": null,
+          "sound_family": "ka-varga",
+          "contrasts_with": ["ञ", "ण"],
+          "example_word": { "hindi": "रंग", "read_as": "raṅg", "english": "colour" },
+          "cards": {
+            "learn": {
+              "title_en": "ङ — the sound you know, the letter you rarely see",
+              "explanation_en": "ङ is the ng of English 'sing' and 'thank'. Every sound family has a nasal of its own, and this is the क-family's. You will hardly ever meet the full letter: modern Hindi writes the anusvara ं instead, and the dot takes its colour from whatever consonant follows. In रंग the dot is read as ng precisely because ग comes after it.",
+              "examples": [
+                { "hindi": "रंग", "read_as": "raṅg", "english": "colour", "note": "The dot is read ng here because a क-family letter follows it." },
+                { "hindi": "संगीत", "read_as": "saṅgiit", "english": "music", "note": "Again the dot before ग is pronounced ng, not n." },
+                { "hindi": "कंघी", "read_as": "kaṅghii", "english": "comb", "note": "The nasal appears before घ, another member of the same family." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which sound does the dot stand for in this word?",
+              "question": "रंग",
+              "question_read_as": "raṅg",
+              "options": ["न", "म", "ण", "ङ"],
+              "options_read_as": ["na", "ma", "ṇa", "ṅa"],
+              "answer_index": 3,
+              "explanation_en": "A क-family consonant follows, so the dot is pronounced as the velar nasal ङ — the ng of 'sing'."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "In which of these words is the nasal followed by an aspirated consonant?",
+              "options": ["कंघी", "रंग", "संगीत", "अंक"],
+              "options_read_as": ["kaṅghii", "raṅg", "saṅgiit", "aṅk"],
+              "answer_index": 0,
+              "explanation_en": "कंघी has घ after the nasal, which is released with breath. The others have plain ग or क."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ङ", "रंग", "संगीत", "कंघी"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L02-I3",
+          "type": "letter",
+          "target": "क / ख",
+          "read_as": "ka / kha",
+          "pronunciation_notes": "The only difference is the puff of breath. Test it with a strip of paper held in front of your mouth: क leaves it still, ख makes it jump.",
+          "gloss_en": "aspiration drill in the ka-varga",
+          "gender": null,
+          "difficulty": 2,
+          "tags": ["drill", "aspiration", "minimal_pair", "ka_varga"],
+          "letter_form": "क / ख",
+          "matra": null,
+          "sound_family": "ka-varga",
+          "contrasts_with": ["ग / घ"],
+          "example_word": { "hindi": "कान / खान", "read_as": "kaan / khaan", "english": "ear / a mine" },
+          "cards": {
+            "learn": {
+              "title_en": "Drill: क or ख?",
+              "explanation_en": "This is the contrast Module 1 introduced, now with letters attached to it. English chooses aspiration automatically by position — puffed at the start of a word, plain after s — so an English speaker reading कान will almost certainly produce खान. The fix is mechanical rather than musical: hold a strip of paper in front of your mouth and keep it perfectly still for क.",
+              "examples": [
+                { "hindi": "कान", "read_as": "kaan", "english": "ear", "note": "No breath. The paper does not move." },
+                { "hindi": "खान", "read_as": "khaan", "english": "a mine", "note": "One puff of air, and the word has changed completely." },
+                { "hindi": "कोई", "read_as": "koii", "english": "someone, any", "note": "A very common word where the puff must not appear." }
+              ],
+              "common_error": {
+                "wrong": "खान",
+                "right": "कान",
+                "why_en": "Meaning 'ear', but importing English's automatic puff produces the word for a mine."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "कान",
+              "question_read_as": "kaan",
+              "options": ["ख", "क", "घ", "ग"],
+              "options_read_as": ["kha", "ka", "gha", "ga"],
+              "answer_index": 1,
+              "explanation_en": "Nothing is released after the sound, so it is क — कान, meaning 'ear'."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["कान", "कोई", "काम", "खान"],
+              "options_read_as": ["kaan", "koii", "kaam", "khaan"],
+              "answer_index": 3,
+              "explanation_en": "खान begins with ख and releases a puff of air. The other three begin with the plain क."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कान", "खान", "कोई", "काम"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level closed the क-family with घ and ङ, and drilled the क/ख contrast — a mistake English speakers make out of habit rather than ignorance, since they can already produce both sounds.",
+        "key_forms": ["घर", "रंग", "कान / खान"],
+        "next_up_en": "Next: the च-family, where the same four-way grid repeats one step forward in the mouth."
+      }
+    },
+    {
+      "level": 3,
+      "title_en": "The च-family begins",
+      "title_hi": "च छ ज",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M02-L03-I1",
+          "type": "letter",
+          "target": "च",
+          "read_as": "cha",
+          "pronunciation_notes": "Unaspirated ch — lighter than the ch of English 'church', which is aspirated and comes out as छ. Written 'ch' here; the doubled 'chh' marks its aspirated partner.",
+          "gloss_en": "voiceless unaspirated palatal affricate",
+          "gender": null,
+          "difficulty": 2,
+          "tags": ["consonant", "cha_varga", "palatal", "voiceless", "unaspirated"],
+          "letter_form": "च",
+          "matra": null,
+          "sound_family": "cha-varga",
+          "contrasts_with": ["छ", "ज"],
+          "example_word": { "hindi": "चाय", "read_as": "chaay", "english": "tea" },
+          "cards": {
+            "learn": {
+              "title_en": "च — a light ch",
+              "explanation_en": "च is made just behind the teeth ridge, close to the ch of English 'church' but without the puff of air English adds. The grid from the क-family repeats exactly here: च voiceless and plain, छ voiceless and breathy, ज voiced and plain, झ voiced and breathy. If your ch comes out forceful, you are producing छ.",
+              "examples": [
+                { "hindi": "चाय", "read_as": "chaay", "english": "tea", "note": "The word you will say most often in India — keep it light." },
+                { "hindi": "चार", "read_as": "chaar", "english": "four", "note": "Plain च with no breath released after it." },
+                { "hindi": "चलना", "read_as": "chalnaa", "english": "to walk, to move", "note": "The final vowel of न drops, as it always does." }
+              ],
+              "common_error": {
+                "wrong": "छाय",
+                "right": "चाय",
+                "why_en": "English's forceful ch adds breath and turns च into छ, a separate letter."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "चाय",
+              "question_read_as": "chaay",
+              "options": ["छ", "ज", "च", "झ"],
+              "options_read_as": ["chha", "ja", "cha", "jha"],
+              "answer_index": 2,
+              "explanation_en": "The sound is voiceless and light, with no breath after it, so it is च."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["चाय", "छह", "चार", "चलना"],
+              "options_read_as": ["chaay", "chhah", "chaar", "chalnaa"],
+              "answer_index": 1,
+              "explanation_en": "छह begins with छ, which carries a puff of air. The other three begin with the light च."
+            }
+          },
+          "audio": {
+            "tts_strings": ["च", "चाय", "चार", "चलना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L03-I2",
+          "type": "letter",
+          "target": "छ",
+          "read_as": "chha",
+          "pronunciation_notes": "च with a strong puff of breath — close to the ch of English 'cheese' said emphatically. The doubled h marks aspiration, not a longer sound.",
+          "gloss_en": "voiceless aspirated palatal affricate",
+          "gender": null,
+          "difficulty": 2,
+          "tags": ["consonant", "cha_varga", "palatal", "voiceless", "aspirated"],
+          "letter_form": "छ",
+          "matra": null,
+          "sound_family": "cha-varga",
+          "contrasts_with": ["च", "झ"],
+          "example_word": { "hindi": "छह", "read_as": "chhah", "english": "six" },
+          "cards": {
+            "learn": {
+              "title_en": "छ — ch with the breath",
+              "explanation_en": "छ is च released with a clear puff of air. English speakers can already make it, since the ch at the start of 'cheese' is close, so the work is the same as with क and ख: use it only where it is written. Handwritten छ and ख look alike to beginners, so read the whole word before deciding which one you are looking at.",
+              "examples": [
+                { "hindi": "छह", "read_as": "chhah", "english": "six", "note": "A number you will need constantly." },
+                { "hindi": "छोटा", "read_as": "chhoṭaa", "english": "small", "note": "Aspirated छ, then the retroflex ट arriving in level five." },
+                { "hindi": "मछली", "read_as": "machhlii", "english": "fish", "note": "The puff is released in the middle of the word." }
+              ],
+              "common_error": {
+                "wrong": "चोटा",
+                "right": "छोटा",
+                "why_en": "Without the puff of breath छ becomes च, and the spelling no longer matches any word."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "छोटा",
+              "question_read_as": "chhoṭaa",
+              "options": ["छ", "च", "ज", "झ"],
+              "options_read_as": ["chha", "cha", "ja", "jha"],
+              "answer_index": 0,
+              "explanation_en": "A clear puff follows the sound, which makes it छ rather than the light च."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["चार", "चाय", "छोटा", "चलना"],
+              "options_read_as": ["chaar", "chaay", "chhoṭaa", "chalnaa"],
+              "answer_index": 2,
+              "explanation_en": "छोटा begins with छ, released with breath. The other three begin with the plain च."
+            }
+          },
+          "audio": {
+            "tts_strings": ["छ", "छह", "छोटा", "मछली"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L03-I3",
+          "type": "letter",
+          "target": "ज",
+          "read_as": "ja",
+          "pronunciation_notes": "The j of English 'jam', voiced and with no puff. Its dotted form ज़, pronounced z, is a separate letter taught in level thirteen.",
+          "gloss_en": "voiced unaspirated palatal affricate",
+          "gender": null,
+          "difficulty": 2,
+          "tags": ["consonant", "cha_varga", "palatal", "voiced", "unaspirated"],
+          "letter_form": "ज",
+          "matra": null,
+          "sound_family": "cha-varga",
+          "contrasts_with": ["झ", "च"],
+          "example_word": { "hindi": "जाना", "read_as": "jaanaa", "english": "to go" },
+          "cards": {
+            "learn": {
+              "title_en": "ज — the voiced one",
+              "explanation_en": "ज is the j of English 'jam'. It occupies the voiced and plain slot of the च-family, exactly where ग sits in the क-family. English j is never aspirated, so this letter is easy. One warning: adding a dot underneath produces ज़, pronounced z, which is a separate letter with its own set of words — the two are not spelling variants of each other.",
+              "examples": [
+                { "hindi": "जाना", "read_as": "jaanaa", "english": "to go", "note": "Plain voiced j at the start of one of the commonest verbs." },
+                { "hindi": "जगह", "read_as": "jagah", "english": "place", "note": "The ह at the end is lightly pronounced rather than dropped." },
+                { "hindi": "आज", "read_as": "aaj", "english": "today", "note": "ज at the end of a word." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "जाना",
+              "question_read_as": "jaanaa",
+              "options": ["च", "छ", "झ", "ज"],
+              "options_read_as": ["cha", "chha", "jha", "ja"],
+              "answer_index": 3,
+              "explanation_en": "The sound is voiced but releases no breath, which makes it ज and not झ."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["झूठ", "जाना", "जगह", "जाल"],
+              "options_read_as": ["jhuuṭh", "jaanaa", "jagah", "jaal"],
+              "answer_index": 0,
+              "explanation_en": "झूठ begins with झ, which is voiced and breathy at once. The other three begin with plain ज."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ज", "जाना", "जगह", "आज"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level opened the च-family with च, छ and ज, and showed that every sound family repeats the same four-way grid: voiceless plain, voiceless breathy, voiced plain, voiced breathy.",
+        "key_forms": ["चाय", "छोटा", "जाना"],
+        "next_up_en": "Next: झ and ञ close the family, followed by a drill on the च/छ contrast."
+      }
+    },
+    {
+      "level": 4,
+      "title_en": "Closing the च-family",
+      "title_hi": "झ ञ",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M02-L04-I1",
+          "type": "letter",
+          "target": "झ",
+          "read_as": "jha",
+          "pronunciation_notes": "Voiced j released with breath, murmured in the same way as घ. It is one sound, not j followed by h.",
+          "gloss_en": "voiced aspirated palatal affricate",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["consonant", "cha_varga", "palatal", "voiced", "aspirated", "breathy_voice"],
+          "letter_form": "झ",
+          "matra": null,
+          "sound_family": "cha-varga",
+          "contrasts_with": ["ज", "छ"],
+          "example_word": { "hindi": "झूठ", "read_as": "jhuuṭh", "english": "a lie" },
+          "cards": {
+            "learn": {
+              "title_en": "झ — voiced and breathy",
+              "explanation_en": "झ stands to ज exactly as घ stands to ग: the same sound, released with breath while the voicing continues underneath. English has no consonant like this, so build it the same way you built घ — start from a sigh and let the j emerge out of it. Produce it as two separate sounds and a Hindi listener hears ज followed by ह.",
+              "examples": [
+                { "hindi": "झूठ", "read_as": "jhuuṭh", "english": "a lie", "note": "Breathy झ, a long ऊ, then a retroflex arriving next level." },
+                { "hindi": "झंडा", "read_as": "jhaṇḍaa", "english": "flag", "note": "The dot before ड is read as the retroflex nasal." },
+                { "hindi": "समझना", "read_as": "samajhnaa", "english": "to understand", "note": "The breathy release sits in the middle of a very common verb." }
+              ],
+              "common_error": {
+                "wrong": "जूठ",
+                "right": "झूठ",
+                "why_en": "Dropping the breath gives ज, and जूठ is a real but quite different word, used of food someone has already eaten from."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "झूठ",
+              "question_read_as": "jhuuṭh",
+              "options": ["ज", "च", "झ", "छ"],
+              "options_read_as": ["ja", "cha", "jha", "chha"],
+              "answer_index": 2,
+              "explanation_en": "The sound is voiced and carries breath at the same time, which is झ and not ज."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["जाना", "जगह", "जाल", "झंडा"],
+              "options_read_as": ["jaanaa", "jagah", "jaal", "jhaṇḍaa"],
+              "answer_index": 3,
+              "explanation_en": "झंडा begins with झ, released with breath. The other three begin with the plain ज."
+            }
+          },
+          "audio": {
+            "tts_strings": ["झ", "झूठ", "झंडा", "समझना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L04-I2",
+          "type": "letter",
+          "target": "ञ",
+          "read_as": "ña",
+          "pronunciation_notes": "The ny of English 'canyon'. Like ङ it is almost never written as a full letter — the anusvara ं carries the sound before a च-family consonant.",
+          "gloss_en": "palatal nasal",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["consonant", "cha_varga", "palatal", "nasal", "rare_letter"],
+          "letter_form": "ञ",
+          "matra": null,
+          "sound_family": "cha-varga",
+          "contrasts_with": ["ङ", "ण"],
+          "example_word": { "hindi": "चंचल", "read_as": "chañchal", "english": "restless, playful" },
+          "cards": {
+            "learn": {
+              "title_en": "ञ — the nasal you spell with a dot",
+              "explanation_en": "ञ is the ny of English 'canyon' and 'onion'. It is the च-family's nasal, and like ङ it survives as a sound rather than a written letter: modern Hindi writes the anusvara ं and lets the following consonant decide how the dot is read. Before च, छ, ज or झ, that dot is ञ.",
+              "examples": [
+                { "hindi": "चंचल", "read_as": "chañchal", "english": "restless, playful", "note": "The dot before च is read as ny." },
+                { "hindi": "पंचायत", "read_as": "pañchaayat", "english": "village council", "note": "Same rule — a च-family letter follows, so the nasal is ñ." },
+                { "hindi": "मंजिल", "read_as": "mañjil", "english": "floor, storey; destination", "note": "Before ज the dot is again the palatal nasal." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which sound does the dot stand for in this word?",
+              "question": "चंचल",
+              "question_read_as": "chañchal",
+              "options": ["ञ", "न", "ङ", "म"],
+              "options_read_as": ["ña", "na", "ṅa", "ma"],
+              "answer_index": 0,
+              "explanation_en": "A च-family consonant follows, so the dot is read as the palatal nasal ञ — the ny of 'canyon'."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["चंचल", "छाता", "चाय", "जाना"],
+              "options_read_as": ["chañchal", "chhaataa", "chaay", "jaanaa"],
+              "answer_index": 1,
+              "explanation_en": "छाता begins with छ, which releases a puff of air. The other three begin with unaspirated consonants."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ञ", "चंचल", "पंचायत", "मंजिल"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L04-I3",
+          "type": "letter",
+          "target": "च / छ",
+          "read_as": "cha / chha",
+          "pronunciation_notes": "The two differ only by the puff of breath. English speakers over-aspirate at the start of a word, so च is the letter that needs the practice, not छ.",
+          "gloss_en": "aspiration drill in the cha-varga",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["drill", "aspiration", "minimal_pair", "cha_varga"],
+          "letter_form": "च / छ",
+          "matra": null,
+          "sound_family": "cha-varga",
+          "contrasts_with": ["ज / झ"],
+          "example_word": { "hindi": "चल / छल", "read_as": "chal / chhal", "english": "go on! / deceit" },
+          "cards": {
+            "learn": {
+              "title_en": "Drill: च or छ?",
+              "explanation_en": "This is the same aspiration problem as क and ख, moved forward in the mouth. English speakers make the aspirated छ automatically at the start of a word and then have to unlearn it for च. The pair repays real drilling because both letters are frequent: चल is the everyday 'go on, come on', while छल means deceit.",
+              "examples": [
+                { "hindi": "चल", "read_as": "chal", "english": "go on! come on!", "note": "No breath at all — the paper in front of your mouth stays still." },
+                { "hindi": "छल", "read_as": "chhal", "english": "deceit", "note": "One puff, and the meaning is unrecognisable." },
+                { "hindi": "चाय", "read_as": "chaay", "english": "tea", "note": "The commonest word with this letter. Keep it light." }
+              ],
+              "common_error": {
+                "wrong": "छल",
+                "right": "चल",
+                "why_en": "Meaning 'come on', but English's automatic puff of breath produces the noun for deceit."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "चल",
+              "question_read_as": "chal",
+              "options": ["छ", "च", "ज", "झ"],
+              "options_read_as": ["chha", "cha", "ja", "jha"],
+              "answer_index": 1,
+              "explanation_en": "Nothing is released after the sound, so it is च — चल, meaning 'come on'."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["चल", "चाय", "छल", "चार"],
+              "options_read_as": ["chal", "chaay", "chhal", "chaar"],
+              "answer_index": 2,
+              "explanation_en": "छल begins with छ and releases a puff of air. The other three begin with the plain च."
+            }
+          },
+          "audio": {
+            "tts_strings": ["चल", "छल", "चाय", "चार"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level closed the च-family with झ and ञ, and drilled the च/छ contrast — the same aspiration habit that made क and ख difficult, one step forward in the mouth.",
+        "key_forms": ["झूठ", "चंचल", "चल / छल"],
+        "next_up_en": "Next: the retroflex family opens with ट, ठ and ड — sounds English has no letters for at all."
+      }
+    },
+    {
+      "level": 5,
+      "title_en": "The retroflex family begins",
+      "title_hi": "ट ठ ड",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M02-L05-I1",
+          "type": "letter",
+          "target": "ट",
+          "read_as": "ṭa",
+          "pronunciation_notes": "Tongue tip curled back to touch the roof of the mouth, with no puff of air. The t of English 'stop' is closest in breath, though it is made further forward.",
+          "gloss_en": "voiceless unaspirated retroflex stop",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["consonant", "ta_varga_retroflex", "retroflex", "voiceless", "unaspirated"],
+          "letter_form": "ट",
+          "matra": null,
+          "sound_family": "ṭa-varga",
+          "contrasts_with": ["ठ", "ड"],
+          "example_word": { "hindi": "टमाटर", "read_as": "ṭamaaṭar", "english": "tomato" },
+          "cards": {
+            "learn": {
+              "title_en": "ट — the tongue curls back",
+              "explanation_en": "For ट the tip of the tongue curls up and back to touch the roof of the mouth, well behind the teeth. English has no letter for this, but English speakers produce something close to it every time they say a t, which is exactly why the दाल and डाल confusion from Module 1 happens. Here the difficulty is reversed: ट is the sound your mouth already wants to make, so this letter is the easy one and त, arriving in level seven, will be the hard one.",
+              "examples": [
+                { "hindi": "टमाटर", "read_as": "ṭamaaṭar", "english": "tomato", "note": "Both t sounds are retroflex, whatever the English spelling suggests." },
+                { "hindi": "टोपी", "read_as": "ṭopii", "english": "cap, hat", "note": "Curl the tongue back before the ओ." },
+                { "hindi": "छोटा", "read_as": "chhoṭaa", "english": "small", "note": "The retroflex sits in the middle, after the aspirated छ from last level." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "टोपी",
+              "question_read_as": "ṭopii",
+              "options": ["ठ", "ड", "ट", "ढ"],
+              "options_read_as": ["ṭha", "ḍa", "ṭa", "ḍha"],
+              "answer_index": 2,
+              "explanation_en": "The tongue curls back and nothing is released after the sound, so it is ट."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["ठंडा", "टोपी", "टमाटर", "टूटना"],
+              "options_read_as": ["ṭhaṇḍaa", "ṭopii", "ṭamaaṭar", "ṭuuṭnaa"],
+              "answer_index": 0,
+              "explanation_en": "ठंडा begins with ठ, which adds a puff of air to the retroflex. The other three begin with plain ट."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ट", "टमाटर", "टोपी", "छोटा"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L05-I2",
+          "type": "letter",
+          "target": "ठ",
+          "read_as": "ṭha",
+          "pronunciation_notes": "ट with a puff of breath. The h marks aspiration, not the th of English 'think' or 'this' — neither of those sounds exists in Hindi.",
+          "gloss_en": "voiceless aspirated retroflex stop",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["consonant", "ta_varga_retroflex", "retroflex", "voiceless", "aspirated"],
+          "letter_form": "ठ",
+          "matra": null,
+          "sound_family": "ṭa-varga",
+          "contrasts_with": ["ट", "ढ"],
+          "example_word": { "hindi": "ठंडा", "read_as": "ṭhaṇḍaa", "english": "cold" },
+          "cards": {
+            "learn": {
+              "title_en": "ठ — retroflex with breath",
+              "explanation_en": "ठ is ट released with a puff of air. The transliteration misleads badly: English speakers see th and reach for the sound in 'think' or 'this', and neither exists anywhere in Hindi. Keep the tongue curled back at the roof of the mouth and simply add breath to what you already do for ट.",
+              "examples": [
+                { "hindi": "ठंडा", "read_as": "ṭhaṇḍaa", "english": "cold", "note": "The dot before ड is read as the retroflex nasal." },
+                { "hindi": "ठीक", "read_as": "ṭhiik", "english": "fine, correct, all right", "note": "One of the most frequent words in everyday conversation." },
+                { "hindi": "मीठा", "read_as": "miiṭhaa", "english": "sweet", "note": "The aspirated retroflex falls in the middle of the word." }
+              ],
+              "common_error": {
+                "wrong": "टीक",
+                "right": "ठीक",
+                "why_en": "Without the puff of breath ठ becomes ट, which is a different letter."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "ठंडा",
+              "question_read_as": "ṭhaṇḍaa",
+              "options": ["ट", "द", "ध", "ठ"],
+              "options_read_as": ["ṭa", "da", "dha", "ṭha"],
+              "answer_index": 3,
+              "explanation_en": "The tongue is curled back and a puff of air follows, which makes it ठ — not the dental द and not the plain ट."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["टमाटर", "ठीक", "टोपी", "टूटना"],
+              "options_read_as": ["ṭamaaṭar", "ṭhiik", "ṭopii", "ṭuuṭnaa"],
+              "answer_index": 1,
+              "explanation_en": "ठीक begins with ठ, the retroflex released with breath. The other three begin with plain ट."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ठ", "ठंडा", "ठीक", "मीठा"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L05-I3",
+          "type": "letter",
+          "target": "ड",
+          "read_as": "ḍa",
+          "pronunciation_notes": "The voiced retroflex — tongue curled back, vocal cords running, no puff. Its dotted form ड़ is a flapped sound and a separate letter, taught in level fifteen.",
+          "gloss_en": "voiced unaspirated retroflex stop",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["consonant", "ta_varga_retroflex", "retroflex", "voiced", "unaspirated"],
+          "letter_form": "ड",
+          "matra": null,
+          "sound_family": "ṭa-varga",
+          "contrasts_with": ["ढ", "ट"],
+          "example_word": { "hindi": "डाल", "read_as": "ḍaal", "english": "branch" },
+          "cards": {
+            "learn": {
+              "title_en": "ड — the voiced retroflex",
+              "explanation_en": "ड is ट with the vocal cords running: tongue curled back, no breath released. This is the letter behind the दाल and डाल confusion from Module 1, and the one an English d turns into by default. Adding a dot underneath gives ड़, a flapped sound made by flicking the tongue forward, which is a separate letter with its own words.",
+              "examples": [
+                { "hindi": "डाल", "read_as": "ḍaal", "english": "branch", "note": "Retroflex — compare दाल, 'lentils', where the tongue touches the teeth." },
+                { "hindi": "डर", "read_as": "ḍar", "english": "fear", "note": "One syllable; the final vowel drops." },
+                { "hindi": "अंडा", "read_as": "aṇḍaa", "english": "egg", "note": "The dot before ड is read as the retroflex nasal ṇ." }
+              ],
+              "common_error": {
+                "wrong": "दाल",
+                "right": "डाल",
+                "why_en": "Meaning 'branch', but putting the tongue on the teeth gives the dental द and the word for lentils."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "डर",
+              "question_read_as": "ḍar",
+              "options": ["द", "ड", "ढ", "ध"],
+              "options_read_as": ["da", "ḍa", "ḍha", "dha"],
+              "answer_index": 1,
+              "explanation_en": "The tongue curls back and no breath follows, so it is the retroflex ड and not the dental द."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["डाल", "डर", "डाक", "ढाई"],
+              "options_read_as": ["ḍaal", "ḍar", "ḍaak", "ḍhaaii"],
+              "answer_index": 3,
+              "explanation_en": "ढाई begins with ढ, the voiced retroflex released with breath. The other three begin with plain ड."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ड", "डाल", "डर", "अंडा"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level opened the retroflex family with ट, ठ and ड — sounds English has no letters for, even though English speakers produce something close to them every time they say a t or a d.",
+        "key_forms": ["टमाटर", "ठंडा", "डाल"],
+        "next_up_en": "Next: ढ and ण complete the retroflex family, followed by the drill that separates the whole series from the dental one."
+      }
+    }
+  ]
+}

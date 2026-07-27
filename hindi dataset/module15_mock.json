@@ -1,0 +1,408 @@
+{
+  "module": 15,
+  "module_name_en": "Register and Polish",
+  "module_name_hi": "भाषा की परतें",
+  "phase": 5,
+  "kind": "mock_exam",
+  "questions_total": 20,
+  "coverage_note_en": "Twenty questions across all twelve levels. Part F allocates a fifth of a mock to earlier modules in the same phase; Module 15 closes Phase 5, so four questions draw on Modules 12, 13 and 14 — which is easy here, because this module's whole subject is naming what those three were doing.",
+  "question_types": [
+    "which_situation",
+    "pick_register_for_audience",
+    "which_axis",
+    "same_meaning_other_layer"
+  ],
+  "questions": [
+    {
+      "n": 1,
+      "type": "which_axis",
+      "pair": [
+        "यार वो पूरी तरह असंभव है।",
+        "यह पूर्णतः अनावश्यक है।"
+      ],
+      "pair_read_as": [
+        "yaar vo puurii tarah asaṁbhav hai.",
+        "yah puurṇataḥ anaavashyak hai."
+      ],
+      "question_en": "Both use Sanskrit-influenced words. What separates them?",
+      "options": [
+        "The situation",
+        "Nothing",
+        "The grammar",
+        "The vocabulary layer"
+      ],
+      "answer_index": 0,
+      "explanation_en": "यार marks the first as casual. Both draw on the same layer, which is the clearest demonstration that the axes are independent.",
+      "level_source": 1
+    },
+    {
+      "n": 2,
+      "type": "pick_register_for_audience",
+      "audience_en": "A text message to a friend you see every day.",
+      "options": [
+        "आप कहाँ जा रहे हैं?",
+        "कृपया बताइए कि आप कहाँ जा रहे हैं।",
+        "कहाँ जा रहे?",
+        "क्या आप कहीं जा रहे हैं?"
+      ],
+      "options_read_as": [
+        "aap kahaaṁ jaa rahe haiṁ?",
+        "kripayaa bataaie ki aap kahaaṁ jaa rahe haiṁ.",
+        "kahaaṁ jaa rahe?",
+        "kyaa aap kahiiṁ jaa rahe haiṁ?"
+      ],
+      "answer_index": 2,
+      "explanation_en": "The others are all correct and all put distance in. The first would read as a summons.",
+      "level_source": 2
+    },
+    {
+      "n": 3,
+      "type": "which_situation",
+      "sentence": "एक छोटी सी गुज़ारिश थी।",
+      "read_as": "ek chhoṭii sii guzaarish thii.",
+      "question_en": "What is the थी doing?",
+      "options": [
+        "Marking a past event",
+        "Softening a present request",
+        "Marking a habit",
+        "Nothing"
+      ],
+      "answer_index": 1,
+      "explanation_en": "Putting the asking one step into the past makes it easier to refuse — the same instinct as English \"I was wondering whether\".",
+      "level_source": 3
+    },
+    {
+      "n": 4,
+      "type": "which_situation",
+      "sentence": "कृपया संलग्न प्रपत्र भरकर जमा करें।",
+      "read_as": "kripayaa saṁlagn prapatra bharkar jamaa kareṁ.",
+      "question_en": "Why करें rather than कीजिए?",
+      "options": [
+        "It is a question",
+        "It is plural",
+        "It is more formal",
+        "It addresses whoever picks the form up, rather than one reader now"
+      ],
+      "answer_index": 3,
+      "explanation_en": "कीजिए is aimed at you, at this moment. A form is read by everybody who ever handles it.",
+      "level_source": 5
+    },
+    {
+      "n": 5,
+      "type": "which_axis",
+      "pair": [
+        "शिकायत दर्ज कराने के लिए यहाँ संपर्क करें।",
+        "कोई प्रॉब्लम हो तो यहाँ बता दो।"
+      ],
+      "pair_read_as": [
+        "shikaayat darj karaane ke lie yahaaṁ saṁpark kareṁ.",
+        "koii prôblam ho to yahaaṁ bataa do."
+      ],
+      "question_en": "What kind of difference is this?",
+      "options": [
+        "Neither",
+        "Situation only",
+        "Tendency only",
+        "Both"
+      ],
+      "answer_index": 3,
+      "explanation_en": "The first is institutional and Urdu-side; the second is casual and Hinglish. Both axes have moved, which is common and is why they need separating.",
+      "level_source": 1
+    },
+    {
+      "n": 6,
+      "type": "which_situation",
+      "sentence": "अधिकारियों के अनुसार जाँच जारी है।",
+      "read_as": "adhikaariyoṁ ke anusaar jaaṁch jaarii hai.",
+      "question_en": "What does के अनुसार tell you?",
+      "options": [
+        "That the investigation is definitely continuing",
+        "That the report is attributing the claim rather than making it",
+        "That officials are being criticised",
+        "That the writer disagrees"
+      ],
+      "answer_index": 1,
+      "explanation_en": "News never speaks in its own voice. Every claim carries a source, which is why the register is so dense with ने.",
+      "level_source": 6
+    },
+    {
+      "n": 7,
+      "type": "pick_register_for_audience",
+      "audience_en": "A newspaper headline.",
+      "options": [
+        "शहर में पानी की किल्लत है और प्रदर्शन जारी है।",
+        "सूचित किया जाता है कि शहर में पानी की किल्लत है।",
+        "शहर में पानी की किल्लत, प्रदर्शन जारी",
+        "शहर में पानी नहीं आ रहा और लोग गुस्से में हैं।"
+      ],
+      "options_read_as": [
+        "shahar meṁ paanii kii killat hai aur pradarshan jaarii hai.",
+        "suuchit kiyaa jaataa hai ki shahar meṁ paanii kii killat hai.",
+        "shahar meṁ paanii kii killat, pradarshan jaarii",
+        "shahar meṁ paanii nahiiṁ aa rahaa aur log gusse meṁ haiṁ."
+      ],
+      "answer_index": 2,
+      "explanation_en": "A headline drops the auxiliary, the conjunction and the full stop. The first is the sentence it compresses.",
+      "level_source": 6
+    },
+    {
+      "n": 8,
+      "type": "which_situation",
+      "sentence": "बात हो गई, काम भी निपट गया।",
+      "read_as": "baat ho gaii, kaam bhii nipaṭ gayaa.",
+      "question_en": "What makes this spoken rather than written?",
+      "options": [
+        "Two compound verbs in nine words",
+        "The tense",
+        "The word order",
+        "The vocabulary layer"
+      ],
+      "answer_index": 0,
+      "explanation_en": "Vectors are dense in speech and thin in formal writing. Their number is a register signal on its own.",
+      "level_source": 7
+    },
+    {
+      "n": 9,
+      "type": "same_meaning_other_layer",
+      "given": "इम्तिहान",
+      "given_read_as": "imtihaan",
+      "question_en": "Which word does the same job on the Sanskrit-influenced side?",
+      "options": [
+        "परीक्षा",
+        "पाठ्यक्रम",
+        "विद्यालय",
+        "तैयारी"
+      ],
+      "options_read_as": [
+        "pariikṣaa",
+        "paaṭhyakram",
+        "vidyaalay",
+        "taiyaarii"
+      ],
+      "answer_index": 0,
+      "explanation_en": "परीक्षा — and it is one of the -आ nouns that are feminine despite the ending.",
+      "level_source": 8
+    },
+    {
+      "n": 10,
+      "type": "which_situation",
+      "sentence": "राष्ट्रीय शिक्षा नीति का उद्देश्य स्पष्ट है।",
+      "read_as": "raaṣṭriiya shikṣaa niiti kaa uddeshya spaṣṭ hai.",
+      "question_en": "Why is the policy's own name on this side of the vocabulary?",
+      "options": [
+        "Because it is a long name",
+        "Because policies are always formal",
+        "Because this layer does the naming of institutions and policies",
+        "Because the other layers have no word for education"
+      ],
+      "answer_index": 2,
+      "explanation_en": "तालीम is entirely current and will never name a ministry. The free words are interchangeable and the names are not.",
+      "level_source": 8
+    },
+    {
+      "n": 11,
+      "type": "which_situation",
+      "sentence": "ज़िंदगी में ख़ुशी की कोई कमी नहीं।",
+      "read_as": "ziṁdagii meṁ ḳhushii kii koii kamii nahiiṁ.",
+      "question_en": "What do the dots under ज़ and ख़ signal?",
+      "options": [
+        "That the words are informal",
+        "Where the words came from",
+        "That the sentence is poetic",
+        "A spelling error"
+      ],
+      "answer_index": 1,
+      "explanation_en": "They mark Perso-Arabic vocabulary. Very many speakers and writers leave them off, and that is entirely normal.",
+      "level_source": 9
+    },
+    {
+      "n": 12,
+      "type": "pick_register_for_audience",
+      "audience_en": "Thanking a neighbour warmly for a favour.",
+      "options": [
+        "आपके सहयोग के लिए हार्दिक धन्यवाद।",
+        "थैंक्स सो मच।",
+        "आपका आभार व्यक्त किया जाता है।",
+        "आपकी मेहरबानी का शुक्रिया अदा करता हूँ।"
+      ],
+      "options_read_as": [
+        "aapke sahyog ke lie haardik dhanyavaad.",
+        "thaiṁks so mach.",
+        "aapkaa aabhaar vyakt kiyaa jaataa hai.",
+        "aapkii mehrbaanii kaa shukriyaa adaa kartaa huuṁ."
+      ],
+      "answer_index": 3,
+      "explanation_en": "The first has removed the person doing the thanking, which is the last thing a thank-you should do.",
+      "level_source": 9
+    },
+    {
+      "n": 13,
+      "type": "which_situation",
+      "sentence": "शादी में सब बहुत ख़ुश थे।",
+      "read_as": "shaadii meṁ sab bahut ḳhush the.",
+      "question_en": "Why is there no English in this sentence?",
+      "options": [
+        "The speaker does not know English",
+        "It is a written sentence",
+        "English is never used about weddings",
+        "Around ceremony and family the English tends to thin out — though how far varies a great deal"
+      ],
+      "answer_index": 3,
+      "explanation_en": "The tendency is real and the line falls in different places for different speakers, cities and generations.",
+      "level_source": 10
+    },
+    {
+      "n": 14,
+      "type": "which_situation",
+      "sentence": "कोई बात नहीं।",
+      "read_as": "koii baat nahiiṁ.",
+      "question_en": "What can this answer?",
+      "options": [
+        "Only thanks",
+        "An apology, thanks, or an awkward moment",
+        "Only a question",
+        "Only an apology"
+      ],
+      "answer_index": 1,
+      "explanation_en": "It absorbs all three, which is why it is the most useful phrase in Hindi social life.",
+      "level_source": 11
+    },
+    {
+      "n": 15,
+      "type": "pick_register_for_audience",
+      "audience_en": "A host is serving you more food and you have had plenty.",
+      "options": [
+        "पर्याप्त हो चुका है।",
+        "मुझे और नहीं दीजिए।",
+        "बस, इतना ही काफ़ी है।",
+        "नहीं चाहिए।"
+      ],
+      "options_read_as": [
+        "paryaapt ho chukaa hai.",
+        "mujhe aur nahiiṁ diijie.",
+        "bas, itnaa hii kaafii hai.",
+        "nahiiṁ chaahie."
+      ],
+      "answer_index": 2,
+      "explanation_en": "बस refuses the quantity rather than the thing, which leaves the offer and the host intact.",
+      "level_source": 11
+    },
+    {
+      "n": 16,
+      "type": "which_situation",
+      "sentence": "देखते हैं, कोशिश करूँगा।",
+      "read_as": "dekhte haiṁ, koshish karuuṁgaa.",
+      "question_en": "What is this most likely to mean?",
+      "options": [
+        "A polite refusal",
+        "A question",
+        "Enthusiasm",
+        "A firm commitment"
+      ],
+      "answer_index": 0,
+      "explanation_en": "Very often a no, with the word never said. A real yes usually brings a follow-up question about a time or a detail.",
+      "level_source": 12
+    },
+    {
+      "n": 17,
+      "type": "pick_register_for_audience",
+      "audience_en": "Disagreeing with a senior colleague in a meeting.",
+      "options": [
+        "आपकी बात सही है, पर एक और पहलू भी है।",
+        "आप ग़लत हैं।",
+        "नहीं, ऐसा नहीं है।",
+        "मैं इससे बिल्कुल असहमत हूँ।"
+      ],
+      "options_read_as": [
+        "aapkii baat sahii hai, par ek aur pahluu bhii hai.",
+        "aap ġalat haiṁ.",
+        "nahiiṁ, aisaa nahiiṁ hai.",
+        "maiṁ isse bilkul asahmat huuṁ."
+      ],
+      "answer_index": 0,
+      "explanation_en": "Hindi disagreement concedes and then adds. The last would work in a written response, where there is no face across the table.",
+      "level_source": 12
+    },
+    {
+      "n": 18,
+      "type": "which_situation",
+      "sentence": "जाँच के आदेश दिए गए हैं।",
+      "read_as": "jaaṁch ke aadesh die gae haiṁ.",
+      "question_en": "Why does a news report prefer this to प्रशासन ने जाँच के आदेश दिए हैं?",
+      "options": [
+        "The active form is ungrammatical",
+        "It is shorter",
+        "The passive lets the report state what happened without naming who ordered it",
+        "It is more polite"
+      ],
+      "answer_index": 2,
+      "explanation_en": "Module 14 taught the form and this is what it is for. Removing the agent is the point rather than a side effect.",
+      "level_source": 6
+    },
+    {
+      "n": 19,
+      "type": "which_axis",
+      "pair": [
+        "मुझे नहीं लगता कि ऐसा होता है।",
+        "अरे यार, ऐसा थोड़ी होता है ना।"
+      ],
+      "pair_read_as": [
+        "mujhe nahiiṁ lagtaa ki aisaa hotaa hai.",
+        "are yaar, aisaa thoṛii hotaa hai naa."
+      ],
+      "question_en": "What kind of difference is this?",
+      "options": [
+        "Neither",
+        "Situation — the particles have changed, not the layer",
+        "Tendency — the layer has changed",
+        "Both"
+      ],
+      "answer_index": 1,
+      "explanation_en": "अरे, यार, थोड़ी and ना carry the closeness. No word has moved to a different vocabulary layer.",
+      "level_source": 2
+    },
+    {
+      "n": 20,
+      "type": "pick_register_for_audience",
+      "audience_en": "Summing up, in one sentence, what this module has been about.",
+      "options": [
+        "हमेशा औपचारिक भाषा का प्रयोग करें।",
+        "जितनी सरल भाषा हो, उतना अच्छा।",
+        "अंग्रेज़ी शब्दों से बचना चाहिए।",
+        "जहाँ जैसा माहौल हो, वहाँ वैसी ही भाषा चाहिए।"
+      ],
+      "options_read_as": [
+        "hameshaa aupchaarik bhaaṣaa kaa prayog kareṁ.",
+        "jitnii saral bhaaṣaa ho, utnaa acchaa.",
+        "aṁgrezii shabdoṁ se bachnaa chaahie.",
+        "jahaaṁ jaisaa maahaul ho, vahaaṁ vaisii hii bhaaṣaa chaahie."
+      ],
+      "answer_index": 3,
+      "explanation_en": "The first three each propose one setting for all occasions, and each would go wrong somewhere. Only the last leaves the choice where it belongs.",
+      "level_source": 12
+    }
+  ],
+  "module_assessment_complete": {
+    "checkpoints": 2,
+    "mock_questions": 20,
+    "note_en": "Module 15 now has complete assessment. Modules 13 and 14 still have none — Module 13 needs eleven checkpoints and a mock, Module 14 four and a mock.",
+    "phase_5_draw": [
+      {
+        "n": 8,
+        "draws_on": "Module 11 vectors, recognised as a register signal"
+      },
+      {
+        "n": 9,
+        "draws_on": "Module 13 register pairs"
+      },
+      {
+        "n": 10,
+        "draws_on": "Module 13's finding that the Sanskrit side owns the naming"
+      },
+      {
+        "n": 18,
+        "draws_on": "Module 14 level 24, the passive"
+      }
+    ]
+  }
+}

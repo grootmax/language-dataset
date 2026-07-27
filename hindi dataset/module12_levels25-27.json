@@ -1,0 +1,1125 @@
+{
+  "module": 12,
+  "module_name_en": "Conversation",
+  "module_name_hi": "बातचीत",
+  "phase": 5,
+  "batch": {
+    "levels_from": 25,
+    "levels_to": 27
+  },
+  "receptive_only": true,
+  "levels": [
+    {
+      "level": 25,
+      "title_en": "On the phone",
+      "title_hi": "फ़ोन पर",
+      "items": [
+        {
+          "id": "M12-L25-I1",
+          "type": "dialogue",
+          "target": "शर्मा जी से बात हो सकती है?",
+          "title_en": "Asking for someone",
+          "setting": "phone",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "phone",
+            "se_baat",
+            "impersonal",
+            "naa_tag",
+            "denaa_vector"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Caller",
+              "label_hi": "फ़ोन करने वाला"
+            },
+            {
+              "id": "B",
+              "label_en": "Colleague",
+              "label_hi": "सहकर्मी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "हैलो, शर्मा जी से बात हो सकती है?",
+              "read_as": "hailo, sharmaa jii se baat ho saktii hai?",
+              "english": "Hello, may I speak to Mr Sharma?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "वो अभी मीटिंग में हैं। कौन बोल रहा है?",
+              "read_as": "vo abhii miiṭiṁg meṁ haiṁ. kaun bol rahaa hai?",
+              "english": "He's in a meeting. Who's speaking?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "मैं राहुल, दिल्ली ऑफ़िस से।",
+              "read_as": "maiṁ raahul, dillii ôfis se.",
+              "english": "Rahul, from the Delhi office."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "मैं बता देती हूँ। नंबर वही है ना?",
+              "read_as": "maiṁ bataa detii huuṁ. nambar vahii hai naa?",
+              "english": "I'll let him know. Same number, right?"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "हाँ जी, वही।",
+              "read_as": "haaṁ jii, vahii.",
+              "english": "Yes, the same."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "से बात करना — you speak with, never to",
+              "explanation_en": "शर्मा जी से बात हो सकती है? is the standard way of asking for somebody on the phone. बात करना and बात होना both take से — you have a conversation with a person. को would be wrong here in a way that is easy to miss, because English says \"speak to\" and the habit transfers. Note also कौन बोल रहा है?, literally \"who is speaking\", which is the fixed Hindi equivalent of \"who's calling\".",
+              "listening_notes": [
+                "बात हो सकती है? is impersonal — \"can a conversation happen\" — and softer than मैं बात कर सकता हूँ.",
+                "मैं बता देती हूँ — a female speaker, so देती. The देना vector says she will pass it on for you.",
+                "नंबर वही है ना? — the ना tag again, expecting agreement rather than information."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why can't the caller speak to Mr Sharma?",
+              "options": [
+                "He no longer works there",
+                "He has left for the day",
+                "He is in a meeting",
+                "He is on another call"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 2: वो अभी मीटिंग में हैं."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 1,
+              "masked_token": "से",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "हैलो, शर्मा जी ___ बात हो सकती है?",
+              "question_read_as": "hailo, sharmaa jii ___ baat ho saktii hai?",
+              "options": [
+                "से",
+                "को",
+                "का",
+                "में"
+              ],
+              "options_read_as": [
+                "se",
+                "ko",
+                "kaa",
+                "meṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "बात करना and बात होना take से. You speak with a person, not to them."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Phone-line quality throughout. Office noise behind speaker B."
+          }
+        },
+        {
+          "id": "M12-L25-I2",
+          "type": "dialogue",
+          "target": "ग़लत नंबर लग गया",
+          "title_en": "Wrong number",
+          "setting": "phone",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "phone",
+            "lagnaa",
+            "subject_choice",
+            "numbers",
+            "ellipsis"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Caller",
+              "label_hi": "फ़ोन करने वाला"
+            },
+            {
+              "id": "B",
+              "label_en": "Stranger",
+              "label_hi": "अनजान"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "हैलो, गुप्ता जी हैं?",
+              "read_as": "hailo, guptaa jii haiṁ?",
+              "english": "Hello, is Mr Gupta there?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "किसको चाहिए? यहाँ कोई गुप्ता नहीं है।",
+              "read_as": "kisko chaahie? yahaaṁ koii guptaa nahiiṁ hai.",
+              "english": "Who do you want? There's no Gupta here."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "ये नौ-आठ-दो-एक नहीं है?",
+              "read_as": "ye nau-aaṭh-do-ek nahiiṁ hai?",
+              "english": "Isn't this nine-eight-two-one?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "नहीं, ग़लत नंबर लग गया है।",
+              "read_as": "nahiiṁ, ġalat nambar lag gayaa hai.",
+              "english": "No, you've got the wrong number."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "माफ़ कीजिए।",
+              "read_as": "maaf kiijie.",
+              "english": "Sorry."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "नंबर लग गया — the number connected, not you",
+              "explanation_en": "ग़लत नंबर लग गया है is literally \"the wrong number has connected\". The caller is not the subject and is not blamed for anything; the number did it. Hindi does this constantly — you have already seen बात हो सकती है, पेट भर गया, दाम बढ़ गए — and it is worth expecting rather than being surprised by, because the person English would put in the subject slot is very often not in the Hindi sentence at all.",
+              "listening_notes": [
+                "लगना for a phone connecting is a distinct sense. Add it to felt, seem, attach, cost and begin.",
+                "किसको चाहिए? — किसे and किसको are the same thing, and both are heard.",
+                "Phone numbers are read digit by digit: नौ-आठ-दो-एक."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What has gone wrong?",
+              "options": [
+                "Mr Gupta has moved",
+                "The caller has dialled the wrong number",
+                "The line is bad",
+                "Mr Gupta is not answering"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 4: ग़लत नंबर लग गया है."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "गया",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "नहीं, ग़लत नंबर लग ___ है।",
+              "question_read_as": "nahiiṁ, ġalat nambar lag ___ hai.",
+              "options": [
+                "गई",
+                "गए",
+                "गईं",
+                "गया"
+              ],
+              "options_read_as": [
+                "gaii",
+                "gae",
+                "gaiiṁ",
+                "gayaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "नंबर is masculine and it is the subject — the number connected, not the caller."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 2 is mildly irritated. Line 5 is quick and slightly embarrassed."
+          }
+        },
+        {
+          "id": "M12-L25-I3",
+          "type": "dialogue",
+          "target": "आवाज़ नहीं आ रही",
+          "title_en": "The line is breaking up",
+          "setting": "phone",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "phone",
+            "oblique_plural",
+            "to_conditional",
+            "subject_choice",
+            "vector"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Caller",
+              "label_hi": "फ़ोन करने वाला"
+            },
+            {
+              "id": "B",
+              "label_en": "Friend",
+              "label_hi": "दोस्त"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "हैलो? हैलो? आवाज़ नहीं आ रही।",
+              "read_as": "hailo? hailo? aavaaz nahiiṁ aa rahii.",
+              "english": "Hello? Hello? I can't hear you."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "मैं पहाड़ों में हूँ, सिग्नल कम है।",
+              "read_as": "maiṁ pahaaṛoṁ meṁ huuṁ, signal kam hai.",
+              "english": "I'm up in the hills, the signal's weak."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "अब ठीक है। बोलिए।",
+              "read_as": "ab ṭhiik hai. bolie.",
+              "english": "It's fine now. Go ahead."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "फिर कट गया तो मैसेज कर दूँगा।",
+              "read_as": "phir kaṭ gayaa to maisej kar duuṁgaa.",
+              "english": "If it cuts out again I'll message."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ठीक है, वही बेहतर।",
+              "read_as": "ṭhiik hai, vahii behtar.",
+              "english": "Fine, that's better."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तो carrying a conditional with no word for \"if\"",
+              "explanation_en": "फिर कट गया तो मैसेज कर दूँगा — \"if it cuts out again, I'll message\". There is no word for \"if\" anywhere in the sentence. अगर exists and is used in careful speech, but in ordinary conversation तो alone carries the whole conditional, sitting between the condition and the consequence. That gives तो a fifth job in this module, after contrast, emphasis, opening a conclusion, and marking a topic. And आवाज़ नहीं आ रही is another sentence where the thing is the subject: the voice is not coming, rather than \"I can't hear you\".",
+              "listening_notes": [
+                "पहाड़ों में — पहाड़ goes to the oblique plural before में. Hills are almost always plural in Hindi.",
+                "कट गया — the जाना vector on कटना: the line cut out and stayed cut.",
+                "मैसेज कर दूँगा — an English noun through करना, with the देना vector and a future ending."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why is the signal weak?",
+              "options": [
+                "He is in the hills",
+                "His phone is old",
+                "It is raining",
+                "He is underground"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 2: मैं पहाड़ों में हूँ."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "पहाड़ों",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "मैं ___ में हूँ, सिग्नल कम है।",
+              "question_read_as": "maiṁ ___ meṁ huuṁ, signal kam hai.",
+              "options": [
+                "पहाड़ो",
+                "पहाड़",
+                "पहाड़ों",
+                "पहाड़ें"
+              ],
+              "options_read_as": [
+                "pahaaṛo",
+                "pahaaṛ",
+                "pahaaṛoṁ",
+                "pahaaṛeṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "में is a postposition, so the plural goes oblique to पहाड़ों."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Speaker B should genuinely drop out and return. Line 1 is shouted."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "बात करना and बात होना take से — you speak with somebody. Phone sentences keep putting the thing in the subject slot: the number connects, the voice does not come. And तो alone can carry a conditional, with no word for \"if\" in the sentence at all.",
+        "key_forms": [
+          "से बात हो सकती है?",
+          "ग़लत नंबर लग गया",
+          "कट गया तो"
+        ],
+        "next_up_en": "Next: fixing, moving and cancelling an appointment."
+      }
+    },
+    {
+      "level": 26,
+      "title_en": "Appointments",
+      "title_hi": "समय तय करना",
+      "items": [
+        {
+          "id": "M12-L26-I1",
+          "type": "dialogue",
+          "target": "गुरुवार को आना होगा",
+          "title_en": "Making an appointment",
+          "setting": "phone",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "phone",
+            "obligation",
+            "oblique_infinitive",
+            "clock_oblique",
+            "days"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Caller",
+              "label_hi": "फ़ोन करने वाला"
+            },
+            {
+              "id": "B",
+              "label_en": "Receptionist",
+              "label_hi": "रिसेप्शनिस्ट"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "डॉक्टर से मिलने का समय चाहिए।",
+              "read_as": "ḍôkṭar se milne kaa samay chaahie.",
+              "english": "I need an appointment with the doctor."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "किस दिन?",
+              "read_as": "kis din?",
+              "english": "Which day?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "बुधवार को हो जाएगा?",
+              "read_as": "budhvaar ko ho jaaegaa?",
+              "english": "Would Wednesday work?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "बुधवार फ़ुल है। गुरुवार को आना होगा।",
+              "read_as": "budhvaar ful hai. guruvaar ko aanaa hogaa.",
+              "english": "Wednesday's full. You'll have to come Thursday."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "कितने बजे?",
+              "read_as": "kitne baje?",
+              "english": "What time?"
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "शाम पाँच बजे।",
+              "read_as": "shaam paaṁch baje.",
+              "english": "Five in the evening."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "आना होगा — obligation with nothing in the way",
+              "explanation_en": "गुरुवार को आना होगा — you'll have to come. The infinitive आना has no object, so it stays masculine and होगा follows it. Now compare पर्ची लानी होगी from level 22, where a feminine object moved both words. Same construction, same modal, and the only difference is whether an object happens to be standing between them. That contrast is the most repeated grammar point in this module, because it is the one that survives least well at conversational speed.",
+              "listening_notes": [
+                "मिलने का समय — the oblique infinitive before का: \"the time of meeting\", which is how Hindi says appointment.",
+                "किस दिन? — कौन सा goes oblique to किस, and दिन carries an unspoken को.",
+                "कितने बजे? — बजे oblique as always, with कितना agreeing with it."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "When is the appointment finally set for?",
+              "options": [
+                "Thursday morning",
+                "Wednesday morning",
+                "Wednesday evening",
+                "Thursday at five"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Lines 4 and 6: गुरुवार को, शाम पाँच बजे."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "होगा",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "बुधवार फ़ुल है। गुरुवार को आना ___ ।",
+              "question_read_as": "budhvaar ful hai. guruvaar ko aanaa ___ .",
+              "options": [
+                "होंगी",
+                "होगा",
+                "होगी",
+                "होंगे"
+              ],
+              "options_read_as": [
+                "hoṁgii",
+                "hogaa",
+                "hogii",
+                "hoṁge"
+              ],
+              "answer_index": 1,
+              "explanation_en": "आना is an infinitive with no object, so it stays masculine and होगा follows it."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Phone. Line 4 is delivered flatly — this is said all day."
+          }
+        },
+        {
+          "id": "M12-L26-I2",
+          "type": "dialogue",
+          "target": "गुरुवार के बदले शुक्रवार",
+          "title_en": "Rescheduling",
+          "setting": "phone",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "phone",
+            "ke_badle",
+            "causative",
+            "oblique",
+            "future"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Caller",
+              "label_hi": "फ़ोन करने वाला"
+            },
+            {
+              "id": "B",
+              "label_en": "Receptionist",
+              "label_hi": "रिसेप्शनिस्ट"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "गुरुवार का समय बदलवाना है।",
+              "read_as": "guruvaar kaa samay badalvaanaa hai.",
+              "english": "I need to change Thursday's appointment."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "कोई दिक़्क़त?",
+              "read_as": "koii diqqat?",
+              "english": "Any problem?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "हाँ, उस दिन बाहर रहूँगा। शुक्रवार मिल जाएगा?",
+              "read_as": "haaṁ, us din baahar rahuuṁgaa. shukravaar mil jaaegaa?",
+              "english": "Yes, I'll be away that day. Could I get Friday?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "गुरुवार के बदले शुक्रवार, ठीक है।",
+              "read_as": "guruvaar ke badle shukravaar, ṭhiik hai.",
+              "english": "Friday in place of Thursday, fine."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "बहुत शुक्रिया।",
+              "read_as": "bahut shukriyaa.",
+              "english": "Thank you very much."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "के बदले — in place of",
+              "explanation_en": "के बदले means in place of, in exchange for. It joins की जगह from level 21, and the two are close enough to be interchangeable in most contexts — के बदले leans a little towards exchange, की जगह a little towards substitution. Both take an oblique in front of them and both are worth recognising, because rescheduling anything in India will involve one of them sooner or later.",
+              "listening_notes": [
+                "बदलवाना है — the second causative of बदलना plus the obligation ladder: I need to have it changed.",
+                "कोई दिक़्क़त? is two words and a complete question: any trouble?",
+                "उस दिन — वह goes oblique to उस, and दिन carries an unspoken को."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why does he need to move the appointment?",
+              "options": [
+                "He has another appointment",
+                "He is unwell",
+                "He will be out of town that day",
+                "The doctor is unavailable"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 3: उस दिन बाहर रहूँगा."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "बदले",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "गुरुवार के ___ शुक्रवार, ठीक है।",
+              "question_read_as": "guruvaar ke ___ shukravaar, ṭhiik hai.",
+              "options": [
+                "बदले",
+                "बाद",
+                "पहले",
+                "साथ"
+              ],
+              "options_read_as": [
+                "badle",
+                "baad",
+                "pahle",
+                "saath"
+              ],
+              "answer_index": 0,
+              "explanation_en": "के बदले is \"in place of\". के बाद would mean after Thursday, which is not the offer."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 2 is two words, almost swallowed. Line 4 is read back off a screen."
+          }
+        },
+        {
+          "id": "M12-L26-I3",
+          "type": "dialogue",
+          "target": "तय होने पर फ़ोन कर दीजिएगा",
+          "title_en": "Cancelling",
+          "setting": "phone",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "phone",
+            "ne",
+            "oblique_infinitive",
+            "polite_future_imperative",
+            "english_verbs"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Caller",
+              "label_hi": "फ़ोन करने वाला"
+            },
+            {
+              "id": "B",
+              "label_en": "Receptionist",
+              "label_hi": "रिसेप्शनिस्ट"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "माफ़ कीजिए, मुझे कैंसिल करना पड़ेगा।",
+              "read_as": "maaf kiijie, mujhe kainsil karnaa paṛegaa.",
+              "english": "Sorry, I'll have to cancel."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "कोई बात नहीं। कब का रखूँ फिर?",
+              "read_as": "koii baat nahiiṁ. kab kaa rakhuuṁ phir?",
+              "english": "No problem. When shall I put it then?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "अभी पक्का नहीं है। मैंने अभी टिकट बुक नहीं किया।",
+              "read_as": "abhii pakkaa nahiiṁ hai. maiṁne abhii ṭikaṭ buk nahiiṁ kiyaa.",
+              "english": "Not sure yet. I haven't booked my ticket."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "ठीक है, तय होने पर फ़ोन कर दीजिएगा।",
+              "read_as": "ṭhiik hai, tay hone par fon kar diijiegaa.",
+              "english": "All right, ring when it's settled."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ज़रूर, शुक्रिया।",
+              "read_as": "zaruur, shukriyaa.",
+              "english": "Of course, thanks."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तय होने पर — when it's settled",
+              "explanation_en": "तय होने पर is \"on its being settled\", meaning when it's settled. The oblique infinitive plus पर is how Hindi says \"when X happens\" without any word for \"when\" — you saw the same shape in दबाने पर at the dentist's. It is compact, extremely common, and a learner listening for जब will miss it completely, because जब never arrives.",
+              "listening_notes": [
+                "मैंने टिकट बुक नहीं किया — करना transitive and perfective, so ने, with the English noun inert as usual.",
+                "कब का रखूँ? — subjunctive, and का with no noun after it because समय is understood.",
+                "फ़ोन कर दीजिएगा — the polite future imperative, softening an instruction into something closer to a request."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why can't he fix a new date now?",
+              "options": [
+                "The clinic is full",
+                "He has not booked his travel yet",
+                "He is waiting for a test result",
+                "He wants to think about it"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 3: मैंने अभी टिकट बुक नहीं किया."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "मैंने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "अभी पक्का नहीं है। ___ अभी टिकट बुक नहीं किया।",
+              "question_read_as": "abhii pakkaa nahiiṁ hai. ___ abhii ṭikaṭ buk nahiiṁ kiyaa.",
+              "options": [
+                "मुझे",
+                "मेरा",
+                "मैं",
+                "मैंने"
+              ],
+              "options_read_as": [
+                "mujhe",
+                "meraa",
+                "maiṁ",
+                "maiṁne"
+              ],
+              "answer_index": 3,
+              "explanation_en": "करना is transitive and the tense is perfective, so ने — even in the negative."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 1 is apologetic. Line 2 is entirely unbothered, which is the point."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "आना होगा against लानी होगी is the same construction with and without an object in the way. के बदले joins की जगह for \"in place of\". And the oblique infinitive plus पर means \"when X happens\", with no word for \"when\" anywhere.",
+        "key_forms": [
+          "आना होगा",
+          "के बदले",
+          "तय होने पर"
+        ],
+        "next_up_en": "Next: the office — introductions, asking for help, and killing time by the water cooler."
+      }
+    },
+    {
+      "level": 27,
+      "title_en": "In the office",
+      "title_hi": "ऑफ़िस में",
+      "items": [
+        {
+          "id": "M12-L27-I1",
+          "type": "dialogue",
+          "target": "अच्छा ही सुना होगा",
+          "title_en": "Introducing a new colleague",
+          "setting": "office",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "office",
+            "three_speakers",
+            "ne",
+            "presumptive",
+            "hii",
+            "english_verbs"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Manager",
+              "label_hi": "मैनेजर"
+            },
+            {
+              "id": "B",
+              "label_en": "Priya",
+              "label_hi": "प्रिया"
+            },
+            {
+              "id": "C",
+              "label_en": "Amit",
+              "label_hi": "अमित"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "प्रिया, ये अमित हैं, नई टीम से।",
+              "read_as": "priyaa, ye amit haiṁ, naii ṭiim se.",
+              "english": "Priya, this is Amit, from the new team."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "नमस्ते अमित। कब जॉइन किया?",
+              "read_as": "namaste amit. kab jôin kiyaa?",
+              "english": "Hello Amit. When did you join?"
+            },
+            {
+              "n": 3,
+              "speaker": "C",
+              "hindi": "पिछले हफ़्ते।",
+              "read_as": "pichhle hafte.",
+              "english": "Last week."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "अच्छा! मैंने आपका नाम सुना था मीटिंग में।",
+              "read_as": "acchaa! maiṁne aapkaa naam sunaa thaa miiṭiṁg meṁ.",
+              "english": "Ah! I'd heard your name in a meeting."
+            },
+            {
+              "n": 5,
+              "speaker": "C",
+              "hindi": "अच्छा? उम्मीद है अच्छा ही सुना होगा।",
+              "read_as": "acchaa? ummiid hai acchaa hii sunaa hogaa.",
+              "english": "Really? Good things, I hope."
+            },
+            {
+              "n": 6,
+              "speaker": "A",
+              "hindi": "बिल्कुल, सब अच्छा ही था।",
+              "read_as": "bilkul, sab acchaa hii thaa.",
+              "english": "Absolutely, all good."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सुना होगा — the presumptive doing social work",
+              "explanation_en": "अच्छा ही सुना होगा is \"you must have heard good things\", and it is a joke. It is the presumptive होगा from level 12, used here to assert something the speaker cannot possibly know. Hindi reaches for this constantly as light social pressure: you state the flattering assumption out loud and let the other person confirm it, which they duly do in line 6. Note the ही narrowing it to only good things.",
+              "listening_notes": [
+                "कब जॉइन किया? — an English verb through करना, with the ने-subject dropped because it is obvious.",
+                "पिछले हफ़्ते — हफ़्ता oblique, with an unspoken में or को behind it.",
+                "नई टीम से — से for where somebody comes from, in the organisational sense."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "When did Amit join?",
+              "options": [
+                "Last week",
+                "Last month",
+                "He has not started yet",
+                "Today"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 3: पिछले हफ़्ते."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "मैंने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "अच्छा! ___ आपका नाम सुना था मीटिंग में।",
+              "question_read_as": "acchaa! ___ aapkaa naam sunaa thaa miiṭiṁg meṁ.",
+              "options": [
+                "मेरा",
+                "मैं",
+                "मैंने",
+                "मुझे"
+              ],
+              "options_read_as": [
+                "meraa",
+                "maiṁ",
+                "maiṁne",
+                "mujhe"
+              ],
+              "answer_index": 2,
+              "explanation_en": "सुनना is transitive and the tense is perfective, so ने."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Three voices. Line 5 is delivered with a smile — it must not sound anxious."
+          }
+        },
+        {
+          "id": "M12-L27-I2",
+          "type": "dialogue",
+          "target": "ये देख सकती हैं?",
+          "title_en": "Asking a colleague for help",
+          "setting": "office",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "office",
+            "saknaa",
+            "respectful_agreement",
+            "zaraa",
+            "loanword_gender"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Colleague A",
+              "label_hi": "सहकर्मी"
+            },
+            {
+              "id": "B",
+              "label_en": "Colleague B",
+              "label_hi": "सहकर्मी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "एक मिनट है? ज़रा ये देख सकती हैं?",
+              "read_as": "ek minaṭ hai? zaraa ye dekh saktii haiṁ?",
+              "english": "Got a minute? Could you look at this?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "हाँ बोलिए। क्या दिक़्क़त है?",
+              "read_as": "haaṁ bolie. kyaa diqqat hai?",
+              "english": "Yes, go on. What's the trouble?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "ये फ़ाइल खुल नहीं रही।",
+              "read_as": "ye faail khul nahiiṁ rahii.",
+              "english": "This file won't open."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "फ़ॉर्मैट पुराना है शायद। मैं देखती हूँ।",
+              "read_as": "fôrmaiṭ puraanaa hai shaayad. maiṁ dekhtii huuṁ.",
+              "english": "Old format, probably. Let me look."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "शुक्रिया, बहुत मदद हो गई।",
+              "read_as": "shukriyaa, bahut madad ho gaii.",
+              "english": "Thanks, that's a big help."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "देख सकती हैं — feminine ending, plural auxiliary",
+              "explanation_en": "ज़रा ये देख सकती हैं? is addressed to a woman with आप, so सकना takes the feminine and the auxiliary takes the respectful plural: सकती हैं. That combination — a feminine singular ending with a plural auxiliary — is exactly what respectful address produces, and it catches learners who expect the two halves to match. Note ज़रा softening the request, doing the same work it did when borrowing sugar from a neighbour in level 6.",
+              "listening_notes": [
+                "ये फ़ाइल खुल नहीं रही — फ़ाइल is feminine, so रही. Another English loanword taking feminine.",
+                "मदद हो गई — मदद is feminine, so गई. The help simply happened; nobody is named as its agent.",
+                "मैं देखती हूँ — present tense for something about to happen, as it has been throughout this module."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What is the problem?",
+              "options": [
+                "A meeting has been moved",
+                "A colleague is absent",
+                "The internet is down",
+                "A file will not open"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 3: ये फ़ाइल खुल नहीं रही."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 1,
+              "masked_token": "सकती",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "एक मिनट है? ज़रा ये देख ___ हैं?",
+              "question_read_as": "ek minaṭ hai? zaraa ye dekh ___ haiṁ?",
+              "options": [
+                "सकता",
+                "सकती",
+                "सकते",
+                "सकीं"
+              ],
+              "options_read_as": [
+                "saktaa",
+                "saktii",
+                "sakte",
+                "sakiiṁ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The colleague being addressed is a woman, so सकती — with हैं for the respectful आप."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Quiet office. Line 1 is slightly apologetic about interrupting."
+          }
+        },
+        {
+          "id": "M12-L27-I3",
+          "type": "dialogue",
+          "target": "बहुत लोगों ने छुट्टी ली है",
+          "title_en": "By the water cooler",
+          "setting": "office",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "office",
+            "oblique_before_ne",
+            "ne",
+            "saa_softener",
+            "naa_tag"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Colleague A",
+              "label_hi": "सहकर्मी"
+            },
+            {
+              "id": "B",
+              "label_en": "Colleague B",
+              "label_hi": "सहकर्मी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "आज ऑफ़िस खाली सा है।",
+              "read_as": "aaj ôfis khaalii saa hai.",
+              "english": "Office feels empty today."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "हाँ, बहुत लोगों ने छुट्टी ली है।",
+              "read_as": "haaṁ, bahut logoṁ ne chhuṭṭii lii hai.",
+              "english": "Yes, a lot of people have taken leave."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "त्योहार आ रहा है ना।",
+              "read_as": "tyohaar aa rahaa hai naa.",
+              "english": "Festival's coming, isn't it."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हाँ, मैं भी सोच रहा हूँ।",
+              "read_as": "haaṁ, maiṁ bhii soch rahaa huuṁ.",
+              "english": "Yes, I'm thinking about it too."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ले लीजिए, फिर भीड़ हो जाएगी।",
+              "read_as": "le liijie, phir bhiiṛ ho jaaegii.",
+              "english": "Take it — it'll get crowded later."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "लोगों ने — an oblique before ने as well",
+              "explanation_en": "बहुत लोगों ने छुट्टी ली है — ने is a postposition like any other, so लोग goes oblique to लोगों in front of it. Learners often treat ने as a special case because it does so much work in Module 9, but it takes an oblique exactly as में and से do. And ली is feminine because छुट्टी is: the whole ने construction, running in an ordinary office corridor with nobody thinking about it.",
+              "listening_notes": [
+                "खाली सा — सा softening an adjective: sort of empty. It agrees, so खाली सी with a feminine noun.",
+                "त्योहार आ रहा है ना — the ना tag inviting agreement rather than asking anything.",
+                "भीड़ हो जाएगी — भीड़ is feminine, so जाएगी."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why is the office empty?",
+              "options": [
+                "Everyone is working from home",
+                "There is a holiday today",
+                "Many people have taken leave before a festival",
+                "A meeting is going on"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Lines 2 and 3: बहुत लोगों ने छुट्टी ली है, त्योहार आ रहा है."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "लोगों",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "हाँ, बहुत ___ ने छुट्टी ली है।",
+              "question_read_as": "haaṁ, bahut ___ ne chhuṭṭii lii hai.",
+              "options": [
+                "लोगों",
+                "लोगो",
+                "लोगें",
+                "लोग"
+              ],
+              "options_read_as": [
+                "logoṁ",
+                "logo",
+                "logeṁ",
+                "log"
+              ],
+              "answer_index": 0,
+              "explanation_en": "ने is a postposition, so the plural goes oblique — exactly as it would before में or से."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Idle, unhurried. Line 5 is friendly advice, not instruction."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "होगा after a past form asserts what the speaker cannot know, and Hindi uses it socially — अच्छा ही सुना होगा. Respectful आप gives a feminine ending with a plural auxiliary: सकती हैं. And ने takes an oblique in front of it like every other postposition: लोगों ने.",
+        "key_forms": [
+          "सुना होगा",
+          "देख सकती हैं",
+          "लोगों ने"
+        ],
+        "next_up_en": "Next: meetings, assigning work, and disagreeing politely."
+      }
+    }
+  ]
+}

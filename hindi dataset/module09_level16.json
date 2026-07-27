@@ -1,0 +1,160 @@
+{
+  "module": 9,
+  "module_name_en": "The ne Construction",
+  "module_name_hi": "ने",
+  "phase": 4,
+  "batch": { "levels_from": 16, "levels_to": 16 },
+  "levels": [
+    {
+      "level": 16,
+      "title_en": "ने in the past perfect",
+      "title_hi": "मैंने खाया था",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M09-L16-I1",
+          "type": "grammar",
+          "target": "मैंने खाना खाया था",
+          "read_as": "maiṁne khaanaa khaayaa thaa",
+          "pronunciation_notes": "था has an aspirated th — a breathy t, never the English th of 'the' or 'thin'.",
+          "gloss_en": "I had eaten — perfective plus था",
+          "gender": null,
+          "difficulty": 8,
+          "tags": ["ergative", "past_perfect", "auxiliary", "object_agreement", "perfective"],
+          "cards": {
+            "learn": {
+              "title_en": "Swap है for था and nothing else moves",
+              "explanation_en": "Level 15 added है to the perfective. This level swaps that है for था, and structurally nothing else changes at all: ने stays on the subject, the participle still agrees with the object, and था lands at the end. What changes is the meaning. मैंने खाना खाया है says the eating is done and it matters now. मैंने खाना खाया था pushes it further back — it had already happened before some other past moment. English uses had eaten for the same job. The error to watch for is the mirror of the हूँ error from the last level: a female speaker writing मैंने खाना खाया थी, because her own gender feels like it should appear somewhere. It does not. Once ने is written, the subject is invisible to every part of the verb.",
+              "examples": [
+                { "hindi": "मैंने खाना खाया था।", "read_as": "maiṁne khaanaa khaayaa thaa.", "english": "I had eaten.", "note": "था, whether the speaker is a man or a woman." },
+                { "hindi": "उसने काम किया था।", "read_as": "usne kaam kiyaa thaa.", "english": "He had done the work.", "note": "काम is masculine singular, so किया था." },
+                { "hindi": "मैंने पानी पिया था।", "read_as": "maiṁne paanii piyaa thaa.", "english": "I had drunk the water.", "note": "The participle and the auxiliary always match each other, because they are both following the object." }
+              ],
+              "common_error": {
+                "wrong": "मैंने खाना खाया थी।",
+                "right": "मैंने खाना खाया था।",
+                "why_en": "थी would be agreeing with a female speaker, and nothing in a ने sentence agrees with the subject. खाना is masculine, so था."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Which sentence means 'I had done the work'?",
+              "question": "मैं काम करता हूँ।",
+              "question_read_as": "maiṁ kaam kartaa huuṁ.",
+              "options": ["मैंने काम किया थी।", "मैं काम किया था।", "मैंने काम किए थे।", "मैंने काम किया था।"],
+              "options_read_as": ["maiṁne kaam kiyaa thii.", "maiṁ kaam kiyaa thaa.", "maiṁne kaam kie the.", "maiṁne kaam kiyaa thaa."],
+              "answer_index": 3,
+              "explanation_en": "ने on the subject, and काम is masculine singular, so both the participle and the auxiliary are singular masculine."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": ["मैंने खाना खाया था।", "उसने काम किया था।", "मैंने पानी पिया थी।", "उसने पत्र लिखा था।"],
+              "options_read_as": ["maiṁne khaanaa khaayaa thaa.", "usne kaam kiyaa thaa.", "maiṁne paanii piyaa thii.", "usne patr likhaa thaa."],
+              "answer_index": 2,
+              "explanation_en": "पानी is masculine, so the auxiliary must be था. थी there is agreeing with the speaker, which a ने sentence never does."
+            }
+          },
+          "audio": { "tts_strings": ["मैंने खाना खाया था।", "उसने काम किया था।", "मैंने पानी पिया था।"], "requires_recording": false }
+        },
+        {
+          "id": "M09-L16-I2",
+          "type": "grammar",
+          "target": "उसने रोटी खाई थी",
+          "read_as": "usne roṭii khaaii thii",
+          "pronunciation_notes": "खाई थी is four light beats, khaa-ii thii, with the aspiration on the th and nowhere else.",
+          "gloss_en": "she/he had eaten roti — the gender now travels twice",
+          "gender": null,
+          "difficulty": 9,
+          "tags": ["ergative", "past_perfect", "auxiliary", "feminine_object", "agreement_split"],
+          "cards": {
+            "learn": {
+              "title_en": "था carries gender; है never did",
+              "explanation_en": "This is the one real difference between the two perfect tenses, and it is worth stating plainly. है and हैं are a pair — singular and plural, with no gender in them at all, which is why हमने फ़िल्म देखी है ends in है even with a feminine object. था is not like that. था, थी, थे, थीं is a full four-way set carrying gender and number both. So in the past perfect the object's gender shows up twice: once on the participle and again on the auxiliary. उसने रोटी खाई थी. Put the two tenses side by side and the asymmetry is obvious — खाई है against खाई थी. Same participle, and only the past-tense auxiliary bothers to agree.",
+              "examples": [
+                { "hindi": "उसने रोटी खाई थी।", "read_as": "usne roṭii khaaii thii.", "english": "He had eaten roti.", "note": "Feminine object, and both खाई and थी follow it." },
+                { "hindi": "उसने रोटी खाई है।", "read_as": "usne roṭii khaaii hai.", "english": "He has eaten roti.", "note": "Same participle, but है has no feminine form to take." },
+                { "hindi": "मैंने चिट्ठी लिखी थी।", "read_as": "maiṁne chiṭṭhii likhii thii.", "english": "I had written the letter.", "note": "चिट्ठी is feminine, so लिखी थी." }
+              ],
+              "common_error": {
+                "wrong": "उसने रोटी खाई था।",
+                "right": "उसने रोटी खाई थी।",
+                "why_en": "The participle and the auxiliary must agree with the same thing. Once खाई has gone feminine, था cannot stay masculine."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Which sentence means 'I had written the letter'?",
+              "question": "मैं चिट्ठी लिखता हूँ।",
+              "question_read_as": "maiṁ chiṭṭhii likhtaa huuṁ.",
+              "options": ["मैंने चिट्ठी लिखी थी।", "मैंने चिट्ठी लिखा था।", "मैंने चिट्ठी लिखी था।", "मैं चिट्ठी लिखी थी।"],
+              "options_read_as": ["maiṁne chiṭṭhii likhii thii.", "maiṁne chiṭṭhii likhaa thaa.", "maiṁne chiṭṭhii likhii thaa.", "maiṁ chiṭṭhii likhii thii."],
+              "answer_index": 0,
+              "explanation_en": "चिट्ठी is feminine, so the participle is लिखी and the auxiliary थी."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": ["उसने रोटी खाई है।", "उसने रोटी खाई थी।", "उसने रोटी खाई था।", "मैंने चिट्ठी लिखी थी।"],
+              "options_read_as": ["usne roṭii khaaii hai.", "usne roṭii khaaii thii.", "usne roṭii khaaii thaa.", "maiṁne chiṭṭhii likhii thii."],
+              "answer_index": 2,
+              "explanation_en": "खाई is feminine, so था cannot follow it. The first option is fine because है has no gender at all."
+            }
+          },
+          "audio": { "tts_strings": ["उसने रोटी खाई थी।", "उसने रोटी खाई है।", "मैंने चिट्ठी लिखी थी।"], "requires_recording": false }
+        },
+        {
+          "id": "M09-L16-I3",
+          "type": "grammar",
+          "target": "उन्होंने किताबें पढ़ी थीं",
+          "read_as": "unhoṁne kitaabeṁ paṛhii thiiṁ",
+          "pronunciation_notes": "The hum belongs to थीं and to उन्होंने, but not to पढ़ी — thiiṁ closes the sentence with the nasal.",
+          "gloss_en": "they had read the books — the full stack",
+          "gender": null,
+          "difficulty": 10,
+          "tags": ["ergative", "past_perfect", "feminine_plural", "nasalisation", "unhoṁne", "capstone"],
+          "cards": {
+            "learn": {
+              "title_en": "Everything the module taught, in one sentence",
+              "explanation_en": "उन्होंने किताबें पढ़ी थीं is the hardest sentence in the module and every part of it has been taught. उन्होंने is one of the only two forms level 8 asked you to memorise. किताबें is a bare feminine plural object, so it controls the verb. पढ़ी is the feminine participle. थीं is the feminine plural auxiliary, carrying the nasal. And the nasal is the last thing to get right: on its own the feminine plural perfective is पढ़ीं, but when an auxiliary follows, the hum moves onto the auxiliary and the participle relaxes to पढ़ी. One nasal per verb phrase, always on the final word. That rule is the same one you met in the present perfect with देखी हैं.",
+              "examples": [
+                { "hindi": "उन्होंने किताबें पढ़ी थीं।", "read_as": "unhoṁne kitaabeṁ paṛhii thiiṁ.", "english": "They had read the books.", "note": "Feminine plural throughout, with the nasal only on थीं." },
+                { "hindi": "उन्होंने रोटियाँ खाई थीं।", "read_as": "unhoṁne roṭiyaaṁ khaaii thiiṁ.", "english": "They had eaten the rotis.", "note": "Same shape. खाईं loses its nasal to थीं." },
+                { "hindi": "उन्होंने पत्र लिखे थे।", "read_as": "unhoṁne patr likhe the.", "english": "They had written the letters.", "note": "Masculine plural object, so लिखे थे — no nasal anywhere." }
+              ],
+              "common_error": {
+                "wrong": "उन्होंने किताबें पढ़ीं थीं।",
+                "right": "उन्होंने किताबें पढ़ी थीं।",
+                "why_en": "Two nasals in one verb phrase. When an auxiliary is present the nasal sits on it alone."
+              }
+            },
+            "practice": {
+              "format": "transform_to_perfective",
+              "prompt_en": "Which sentence means 'They had eaten the rotis'?",
+              "question": "वे रोटियाँ खाते हैं।",
+              "question_read_as": "ve roṭiyaaṁ khaate haiṁ.",
+              "options": ["उन्होंने रोटियाँ खाईं थीं।", "उन्होंने रोटियाँ खाई थीं।", "उन्होंने रोटियाँ खाई थी।", "उन्होंने रोटियाँ खाए थे।"],
+              "options_read_as": ["unhoṁne roṭiyaaṁ khaaiiṁ thiiṁ.", "unhoṁne roṭiyaaṁ khaaii thiiṁ.", "unhoṁne roṭiyaaṁ khaaii thii.", "unhoṁne roṭiyaaṁ khaae the."],
+              "answer_index": 1,
+              "explanation_en": "Feminine plural object, so खाई थीं — with the nasal on the auxiliary only."
+            },
+            "game": {
+              "format": "spot_the_error",
+              "question_en": "Which sentence is wrong?",
+              "options": ["उन्होंने पत्र लिखे थे।", "उन्होंने किताबें पढ़ीं थीं।", "उन्होंने किताबें पढ़ी थीं।", "उन्होंने रोटियाँ खाई थीं।"],
+              "options_read_as": ["unhoṁne patr likhe the.", "unhoṁne kitaabeṁ paṛhiiṁ thiiṁ.", "unhoṁne kitaabeṁ paṛhii thiiṁ.", "unhoṁne roṭiyaaṁ khaaii thiiṁ."],
+              "answer_index": 1,
+              "explanation_en": "पढ़ीं थीं doubles the nasal. With an auxiliary present, only थीं carries it."
+            }
+          },
+          "audio": { "tts_strings": ["उन्होंने किताबें पढ़ी थीं।", "उन्होंने रोटियाँ खाई थीं।", "उन्होंने पत्र लिखे थे।"], "requires_recording": false }
+        }
+      ],
+      "summary": {
+        "recap_en": "The past perfect swaps है for था and changes nothing structural. The one new fact is that था, थी, थे, थीं carries gender where है and हैं carry only number, so a feminine object now shows up twice — खाई थी. And a verb phrase takes one nasal, on its final word: पढ़ी थीं, never पढ़ीं थीं.",
+        "key_forms": ["मैंने खाना खाया था", "उसने रोटी खाई थी", "उन्होंने किताबें पढ़ी थीं"],
+        "next_up_en": "That completes ने — all 48 items. The checkpoint sits behind you at level 15, so this level is assessed only in the module mock exam."
+      }
+    }
+  ]
+}

@@ -1,0 +1,817 @@
+{
+  "module": 4,
+  "module_name_en": "Core Words I",
+  "module_name_hi": "शब्द भंडार १",
+  "phase": 2,
+  "batch": { "levels_from": 36, "levels_to": 40 },
+  "levels": [
+    {
+      "level": 36,
+      "title_en": "New, old and clean",
+      "title_hi": "नया पुराना साफ़",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L36-I1",
+          "type": "word",
+          "target": "नया",
+          "read_as": "nayaa",
+          "pronunciation_notes": "Two short syllables, nayaa, with the stress even across both.",
+          "gloss_en": "new",
+          "gender": null,
+          "gender_flag": false,
+          "category": "adjectives",
+          "plural": "नए",
+          "plural_read_as": "nae",
+          "difficulty": 4,
+          "tags": ["adjectives", "adjective", "inflecting", "aa_ending", "irregular", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "नया — new",
+              "explanation_en": "नया means new, and it is the one adjective in this module whose forms do not follow the pattern exactly. Where बड़ा gives बड़ी and बड़े, नया gives नई and नए — the य disappears rather than staying put. The regularised forms नयी and नये do turn up in older writing, but नई and नए are what you should learn and use.",
+              "examples": [
+                { "hindi": "नई किताब", "read_as": "naii kitaab", "english": "a new book", "note": "The feminine drops the य entirely rather than adding -ी to it." },
+                { "hindi": "नए जूते", "read_as": "nae juute", "english": "new shoes", "note": "The masculine plural does the same." },
+                { "hindi": "नया कपड़ा", "read_as": "nayaa kapṛaa", "english": "new cloth", "note": "Only the masculine singular keeps the य." }
+              ],
+              "common_error": {
+                "wrong": "नयी किताब",
+                "right": "नई किताब",
+                "why_en": "The regular pattern would give नयी, but this adjective is irregular and the standard feminine is नई."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "नया",
+              "question_read_as": "nayaa",
+              "options": ["new", "old", "clean", "young"],
+              "options_read_as": ["new", "old", "clean", "young"],
+              "answer_index": 0,
+              "explanation_en": "नया is new. पुराना is old, of things rather than people."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ किताब — which form of नया fits?",
+              "options": ["नया", "नयी", "नई", "नए"],
+              "options_read_as": ["nayaa", "nayii", "naii", "nae"],
+              "answer_index": 2,
+              "explanation_en": "किताब is feminine, and this adjective is irregular: the standard form is नई rather than the regular-looking नयी."
+            }
+          },
+          "audio": {
+            "tts_strings": ["नया", "नई किताब", "नए जूते"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L36-I2",
+          "type": "word",
+          "target": "पुराना",
+          "read_as": "puraanaa",
+          "pronunciation_notes": "Three syllables, puraanaa, with the middle vowel long and the first short.",
+          "gloss_en": "old (of things)",
+          "gender": null,
+          "gender_flag": false,
+          "category": "adjectives",
+          "plural": "पुराने",
+          "plural_read_as": "puraane",
+          "difficulty": 3,
+          "tags": ["adjectives", "adjective", "inflecting", "aa_ending", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "पुराना — old",
+              "explanation_en": "पुराना means old, but only of things. For a person you need बूढ़ा, which means aged, or बड़ा, which means elder. Calling someone पुराना would suggest they had been in use for a while. It ends in -ा and inflects regularly: पुराना, पुरानी, पुराने.",
+              "examples": [
+                { "hindi": "पुराना घर", "read_as": "puraanaa ghar", "english": "an old house", "note": "घर is masculine singular, so -ा." },
+                { "hindi": "पुरानी किताब", "read_as": "puraanii kitaab", "english": "an old book", "note": "किताब is feminine, so -ी." },
+                { "hindi": "पुराने कपड़े", "read_as": "puraane kapṛe", "english": "old clothes", "note": "Masculine plural, so -े." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पुराना",
+              "question_read_as": "puraanaa",
+              "options": ["young", "dirty", "old", "empty"],
+              "options_read_as": ["young", "dirty", "old", "empty"],
+              "answer_index": 2,
+              "explanation_en": "पुराना is old, of things. For a person you would use बूढ़ा instead."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ घर — which form of पुराना fits?",
+              "options": ["पुराना", "पुरानी", "पुराने", "पुरान"],
+              "options_read_as": ["puraanaa", "puraanii", "puraane", "puraan"],
+              "answer_index": 0,
+              "explanation_en": "घर is masculine and singular, so पुराना keeps its -ा form."
+            }
+          },
+          "audio": {
+            "tts_strings": ["पुराना", "पुरानी किताब", "पुराने कपड़े"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L36-I3",
+          "type": "word",
+          "target": "साफ़",
+          "read_as": "saaf",
+          "pronunciation_notes": "The dotted फ़ is an f sound, and the final vowel drops: saaf, one syllable.",
+          "gloss_en": "clean; clear",
+          "gender": null,
+          "gender_flag": false,
+          "category": "adjectives",
+          "plural": "साफ़",
+          "plural_read_as": "saaf",
+          "difficulty": 3,
+          "tags": ["adjectives", "adjective", "invariable", "nukta", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "साफ़ — clean",
+              "explanation_en": "साफ़ means clean, and also clear — साफ़ पानी is clean water while साफ़ बात is plain speaking. It ends in a consonant, so it never changes form. This word has appeared in examples in almost every level of this module, always in exactly this shape, which is the whole point of an invariable adjective.",
+              "examples": [
+                { "hindi": "साफ़ घर", "read_as": "saaf ghar", "english": "a clean house", "note": "घर is masculine, and the form is unchanged." },
+                { "hindi": "साफ़ मेज़", "read_as": "saaf mez", "english": "a clean table", "note": "मेज़ is feminine, and it is still unchanged." },
+                { "hindi": "साफ़ कपड़े", "read_as": "saaf kapṛe", "english": "clean clothes", "note": "Plural, and unchanged again." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "साफ़",
+              "question_read_as": "saaf",
+              "options": ["white", "empty", "new", "clean"],
+              "options_read_as": ["white", "empty", "new", "clean"],
+              "answer_index": 3,
+              "explanation_en": "साफ़ is clean, and by extension clear or plain."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ मेज़ — which form of साफ़ fits?",
+              "options": ["साफ़ा", "साफ़", "साफ़ी", "साफ़े"],
+              "options_read_as": ["saafaa", "saaf", "saafii", "saafe"],
+              "answer_index": 1,
+              "explanation_en": "साफ़ ends in a consonant and never changes, so the same form serves a feminine noun as a masculine one."
+            }
+          },
+          "audio": {
+            "tts_strings": ["साफ़", "साफ़ घर", "साफ़ कपड़े"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added नया, पुराना and साफ़. नया is the one irregular adjective here, giving नई and नए rather than the forms the pattern would predict.",
+        "key_forms": ["नया", "पुराना", "साफ़"],
+        "next_up_en": "Next: गरम, ठंडा and गंदा — one invariable and two that inflect."
+      }
+    },
+    {
+      "level": 37,
+      "title_en": "Hot, cold and dirty",
+      "title_hi": "गरम ठंडा गंदा",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L37-I1",
+          "type": "word",
+          "target": "गरम",
+          "read_as": "garam",
+          "pronunciation_notes": "The final vowel drops, giving garam in two syllables, and र is a single tap.",
+          "gloss_en": "hot, warm",
+          "gender": null,
+          "gender_flag": false,
+          "category": "adjectives",
+          "plural": "गरम",
+          "plural_read_as": "garam",
+          "difficulty": 3,
+          "tags": ["adjectives", "adjective", "invariable", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "गरम — hot",
+              "explanation_en": "गरम covers both hot and warm, since Hindi does not separate the two the way English does. It ends in a consonant and never changes form. You will also see it spelt गर्म, with the reph, and both spellings are correct and equally common — the pronunciation is identical.",
+              "examples": [
+                { "hindi": "गरम चाय", "read_as": "garam chaay", "english": "hot tea", "note": "चाय is feminine, and गरम is unchanged." },
+                { "hindi": "गरम पानी", "read_as": "garam paanii", "english": "hot water", "note": "पानी is masculine, and the form is the same." },
+                { "hindi": "गरम रोटी", "read_as": "garam roṭii", "english": "hot flatbread", "note": "Unchanged again, as it always is." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "गरम",
+              "question_read_as": "garam",
+              "options": ["cold", "hot", "sweet", "fresh"],
+              "options_read_as": ["cold", "hot", "sweet", "fresh"],
+              "answer_index": 1,
+              "explanation_en": "गरम is hot or warm — Hindi uses one word for both."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ चाय — which form of गरम fits?",
+              "options": ["गरमा", "गरमी", "गरमे", "गरम"],
+              "options_read_as": ["garamaa", "garmii", "garame", "garam"],
+              "answer_index": 3,
+              "explanation_en": "गरम never changes form. गरमी is a separate noun meaning heat or summer, not a feminine version of this adjective."
+            }
+          },
+          "audio": {
+            "tts_strings": ["गरम", "गरम चाय", "गरम पानी"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L37-I2",
+          "type": "word",
+          "target": "ठंडा",
+          "read_as": "ṭhaṇḍaa",
+          "pronunciation_notes": "An aspirated retroflex ठ, and the dot before ड is read as the retroflex nasal: ṭhaṇḍaa.",
+          "gloss_en": "cold",
+          "gender": null,
+          "gender_flag": false,
+          "category": "adjectives",
+          "plural": "ठंडे",
+          "plural_read_as": "ṭhaṇḍe",
+          "difficulty": 3,
+          "tags": ["adjectives", "adjective", "inflecting", "aa_ending", "retroflex", "anusvara"],
+          "cards": {
+            "learn": {
+              "title_en": "ठंडा — cold",
+              "explanation_en": "ठंडा means cold, and unlike its opposite गरम it ends in -ा and inflects: ठंडा, ठंडी, ठंडे. That asymmetry is worth noticing — there is no rule saying opposites behave alike. The word opens with an aspirated retroflex and carries an anusvara read as the retroflex nasal, so it is a small pronunciation exercise as well.",
+              "examples": [
+                { "hindi": "ठंडा पानी", "read_as": "ṭhaṇḍaa paanii", "english": "cold water", "note": "पानी is masculine, so -ा." },
+                { "hindi": "ठंडी चाय", "read_as": "ṭhaṇḍii chaay", "english": "cold tea", "note": "चाय is feminine, so -ी — where गरम would not have changed." },
+                { "hindi": "ठंडा दूध", "read_as": "ṭhaṇḍaa duudh", "english": "cold milk", "note": "दूध is masculine, so -ा again." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "ठंडा",
+              "question_read_as": "ṭhaṇḍaa",
+              "options": ["cold", "hot", "fresh", "wet"],
+              "options_read_as": ["cold", "hot", "fresh", "wet"],
+              "answer_index": 0,
+              "explanation_en": "ठंडा is cold. गरम is its opposite, and it does not inflect."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ पानी — which form of ठंडा fits?",
+              "options": ["ठंडी", "ठंडे", "ठंडा", "ठंड"],
+              "options_read_as": ["ṭhaṇḍii", "ṭhaṇḍe", "ṭhaṇḍaa", "ṭhaṇḍ"],
+              "answer_index": 2,
+              "explanation_en": "पानी is masculine, so ठंडा keeps its -ा form. ठंड on its own is a noun meaning cold weather."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ठंडा", "ठंडा पानी", "ठंडी चाय"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L37-I3",
+          "type": "word",
+          "target": "गंदा",
+          "read_as": "gandaa",
+          "pronunciation_notes": "The dot before द is read as a plain dental n, so the word is gandaa.",
+          "gloss_en": "dirty",
+          "gender": null,
+          "gender_flag": false,
+          "category": "adjectives",
+          "plural": "गंदे",
+          "plural_read_as": "gande",
+          "difficulty": 3,
+          "tags": ["adjectives", "adjective", "inflecting", "aa_ending", "anusvara"],
+          "cards": {
+            "learn": {
+              "title_en": "गंदा — dirty",
+              "explanation_en": "गंदा means dirty, and it is the opposite of साफ़. Once again the pair splits: साफ़ never changes while गंदा inflects as गंदा, गंदी, गंदे. The anusvara here sits before द, a dental, so it is read as a plain n rather than the retroflex ṇ heard in ठंडा.",
+              "examples": [
+                { "hindi": "गंदा पानी", "read_as": "gandaa paanii", "english": "dirty water", "note": "पानी is masculine, so -ा." },
+                { "hindi": "गंदी कमीज़", "read_as": "gandii kamiiz", "english": "a dirty shirt", "note": "कमीज़ is feminine, so -ी." },
+                { "hindi": "गंदे कपड़े", "read_as": "gande kapṛe", "english": "dirty clothes", "note": "Masculine plural, so -े." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "गंदा",
+              "question_read_as": "gandaa",
+              "options": ["empty", "broken", "dirty", "dark"],
+              "options_read_as": ["empty", "broken", "dirty", "dark"],
+              "answer_index": 2,
+              "explanation_en": "गंदा is dirty. साफ़ is its opposite, and it does not inflect."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ कमीज़ — which form of गंदा fits?",
+              "options": ["गंदी", "गंदा", "गंदे", "गंद"],
+              "options_read_as": ["gandii", "gandaa", "gande", "gand"],
+              "answer_index": 0,
+              "explanation_en": "कमीज़ is feminine, so गंदा becomes गंदी."
+            }
+          },
+          "audio": {
+            "tts_strings": ["गंदा", "गंदा पानी", "गंदी कमीज़"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered गरम, ठंडा and गंदा. Both pairs of opposites here are mismatched — गरम and साफ़ never change while ठंडा and गंदा inflect — so being an opposite tells you nothing about the ending.",
+        "key_forms": ["गरम", "ठंडा", "गंदा"],
+        "next_up_en": "Next: खाली, भारी and लंबा, including two adjectives that end in -ी and still never change."
+      }
+    },
+    {
+      "level": 38,
+      "title_en": "The -ी adjectives that stay put",
+      "title_hi": "खाली भारी लंबा",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L38-I1",
+          "type": "word",
+          "target": "खाली",
+          "read_as": "khaalii",
+          "pronunciation_notes": "Aspirated ख with a clear puff of air, then two long vowels: khaalii.",
+          "gloss_en": "empty; vacant, free",
+          "gender": null,
+          "gender_flag": false,
+          "category": "adjectives",
+          "plural": "खाली",
+          "plural_read_as": "khaalii",
+          "difficulty": 4,
+          "tags": ["adjectives", "adjective", "invariable", "ii_ending", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "खाली — empty",
+              "explanation_en": "खाली means empty, and also vacant or free — a खाली कुर्सी is an unoccupied chair and खाली समय is free time. It ends in -ी, and this is where नारंगी's lesson pays off: adjectives ending in -ी do not inflect. Only the -ा ending triggers agreement, so खाली is fixed no matter what follows it.",
+              "examples": [
+                { "hindi": "खाली कमरा", "read_as": "khaalii kamraa", "english": "an empty room", "note": "कमरा is masculine, and खाली is unchanged." },
+                { "hindi": "खाली कुर्सी", "read_as": "khaalii kursii", "english": "an empty chair", "note": "कुर्सी is feminine, and it is still unchanged." },
+                { "hindi": "खाली प्लेट", "read_as": "khaalii pleṭ", "english": "an empty plate", "note": "Also feminine, and the form does not move." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "खाली",
+              "question_read_as": "khaalii",
+              "options": ["full", "empty", "open", "closed"],
+              "options_read_as": ["full", "empty", "open", "closed"],
+              "answer_index": 1,
+              "explanation_en": "खाली is empty, and also vacant or free."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ कुर्सी — which form of खाली fits?",
+              "options": ["खाला", "खाले", "खालिया", "खाली"],
+              "options_read_as": ["khaalaa", "khaale", "khaaliyaa", "khaalii"],
+              "answer_index": 3,
+              "explanation_en": "खाली ends in -ी, and adjectives with that ending never inflect — there is no masculine form to build."
+            }
+          },
+          "audio": {
+            "tts_strings": ["खाली", "खाली कमरा", "खाली कुर्सी"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L38-I2",
+          "type": "word",
+          "target": "भारी",
+          "read_as": "bhaarii",
+          "pronunciation_notes": "Breathy भ — one sound, not b then h — and a single tap for र: bhaarii.",
+          "gloss_en": "heavy",
+          "gender": null,
+          "gender_flag": false,
+          "category": "adjectives",
+          "plural": "भारी",
+          "plural_read_as": "bhaarii",
+          "difficulty": 4,
+          "tags": ["adjectives", "adjective", "invariable", "ii_ending"],
+          "cards": {
+            "learn": {
+              "title_en": "भारी — heavy",
+              "explanation_en": "भारी means heavy, in weight and also figuratively — a भारी आवाज़ is a deep voice. Like खाली it ends in -ी and never changes form. Two invariable -ी adjectives in one level is deliberate: this ending catches learners out repeatedly, because it looks exactly like the feminine marker on nouns.",
+              "examples": [
+                { "hindi": "भारी किताब", "read_as": "bhaarii kitaab", "english": "a heavy book", "note": "किताब is feminine, and भारी is unchanged." },
+                { "hindi": "भारी जूते", "read_as": "bhaarii juute", "english": "heavy shoes", "note": "Masculine plural, and still unchanged." },
+                { "hindi": "भारी मेज़", "read_as": "bhaarii mez", "english": "a heavy table", "note": "Feminine again, with no change at all." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "भारी",
+              "question_read_as": "bhaarii",
+              "options": ["big", "hard", "thick", "heavy"],
+              "options_read_as": ["big", "hard", "thick", "heavy"],
+              "answer_index": 3,
+              "explanation_en": "भारी is heavy. It also describes a deep voice."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ किताब — which form of भारी fits?",
+              "options": ["भारा", "भारी", "भारे", "भारिया"],
+              "options_read_as": ["bhaaraa", "bhaarii", "bhaare", "bhaariyaa"],
+              "answer_index": 1,
+              "explanation_en": "भारी ends in -ी and never inflects, so this is the only form it has."
+            }
+          },
+          "audio": {
+            "tts_strings": ["भारी", "भारी किताब", "भारी मेज़"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L38-I3",
+          "type": "word",
+          "target": "लंबा",
+          "read_as": "lambaa",
+          "pronunciation_notes": "The dot before ब is read as m, because ब is made with the lips: lambaa.",
+          "gloss_en": "long; tall",
+          "gender": null,
+          "gender_flag": false,
+          "category": "adjectives",
+          "plural": "लंबे",
+          "plural_read_as": "lambe",
+          "difficulty": 3,
+          "tags": ["adjectives", "adjective", "inflecting", "aa_ending", "anusvara"],
+          "cards": {
+            "learn": {
+              "title_en": "लंबा — long, tall",
+              "explanation_en": "लंबा covers both long and tall, so it works for a road and for a person alike. It ends in -ा and inflects: लंबा, लंबी, लंबे. The anusvara before ब is read as m, since ब is made with the lips — the same rule that made रंग an ng and अंडा a retroflex nasal.",
+              "examples": [
+                { "hindi": "लंबी नाक", "read_as": "lambii naak", "english": "a long nose", "note": "नाक is feminine, so -ी." },
+                { "hindi": "लंबी उँगलियाँ", "read_as": "lambii ũgliyãa", "english": "long fingers", "note": "Feminine plural, and the -ी stays." },
+                { "hindi": "लंबा कुर्ता", "read_as": "lambaa kurtaa", "english": "a long kurta", "note": "कुर्ता is masculine, so -ा." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "लंबा",
+              "question_read_as": "lambaa",
+              "options": ["long", "wide", "thin", "big"],
+              "options_read_as": ["long", "wide", "thin", "big"],
+              "answer_index": 0,
+              "explanation_en": "लंबा is long, and also tall when describing a person."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ उँगली — which form of लंबा fits?",
+              "options": ["लंबी", "लंबा", "लंबे", "लंब"],
+              "options_read_as": ["lambii", "lambaa", "lambe", "lamb"],
+              "answer_index": 0,
+              "explanation_en": "उँगली is feminine, so लंबा becomes लंबी."
+            }
+          },
+          "audio": {
+            "tts_strings": ["लंबा", "लंबी नाक", "लंबा कुर्ता"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level put two invariable -ी adjectives side by side with an inflecting -ा one. खाली and भारी look as though they carry a feminine ending and never move, while लंबा takes all three forms.",
+        "key_forms": ["खाली", "भारी", "लंबा"],
+        "next_up_en": "Next: सुंदर, सस्ता and महँगा complete the fifteen adjectives."
+      }
+    },
+    {
+      "level": 39,
+      "title_en": "Beautiful, cheap and dear",
+      "title_hi": "सुंदर सस्ता महँगा",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L39-I1",
+          "type": "word",
+          "target": "सुंदर",
+          "read_as": "sundar",
+          "pronunciation_notes": "The dot before द is a plain dental n, and the final vowel drops: sundar in two syllables.",
+          "gloss_en": "beautiful",
+          "gender": null,
+          "gender_flag": false,
+          "category": "adjectives",
+          "plural": "सुंदर",
+          "plural_read_as": "sundar",
+          "difficulty": 4,
+          "tags": ["adjectives", "adjective", "invariable", "anusvara"],
+          "cards": {
+            "learn": {
+              "title_en": "सुंदर — beautiful",
+              "explanation_en": "सुंदर means beautiful, and it is used of people, places and things alike. It ends in a consonant, so it never changes form. Note that सुंदरी exists as a separate noun meaning a beautiful woman — it is not the feminine of this adjective, and using it that way would be a mistake.",
+              "examples": [
+                { "hindi": "सुंदर चिड़िया", "read_as": "sundar chiṛiyaa", "english": "a beautiful bird", "note": "चिड़िया is feminine, and सुंदर is unchanged." },
+                { "hindi": "सुंदर घर", "read_as": "sundar ghar", "english": "a beautiful house", "note": "घर is masculine, and the form is the same." },
+                { "hindi": "सुंदर साड़ी", "read_as": "sundar saaṛii", "english": "a beautiful sari", "note": "Feminine again, with no change." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सुंदर",
+              "question_read_as": "sundar",
+              "options": ["clean", "bright", "beautiful", "kind"],
+              "options_read_as": ["clean", "bright", "beautiful", "kind"],
+              "answer_index": 2,
+              "explanation_en": "सुंदर is beautiful, and it works for people, places and things."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ चिड़िया — which form of सुंदर fits?",
+              "options": ["सुंदरा", "सुंदरे", "सुंदर", "सुंदरी"],
+              "options_read_as": ["sundaraa", "sundare", "sundar", "sundarii"],
+              "answer_index": 2,
+              "explanation_en": "सुंदर never changes. सुंदरी is a separate noun, not a feminine form of the adjective."
+            }
+          },
+          "audio": {
+            "tts_strings": ["सुंदर", "सुंदर घर", "सुंदर साड़ी"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L39-I2",
+          "type": "word",
+          "target": "सस्ता",
+          "read_as": "sastaa",
+          "pronunciation_notes": "The स्त stack runs स straight into त with no vowel between: sastaa, two syllables.",
+          "gloss_en": "cheap, inexpensive",
+          "gender": null,
+          "gender_flag": false,
+          "category": "adjectives",
+          "plural": "सस्ते",
+          "plural_read_as": "saste",
+          "difficulty": 4,
+          "tags": ["adjectives", "adjective", "inflecting", "aa_ending", "conjunct"],
+          "cards": {
+            "learn": {
+              "title_en": "सस्ता — cheap",
+              "explanation_en": "सस्ता means cheap or inexpensive, without the negative edge English sometimes gives the word — it is simply a good price. It ends in -ा and inflects regularly. The स्त stack from Module 3 sits in the middle, both halves dental, so the tongue stays on the teeth throughout.",
+              "examples": [
+                { "hindi": "सस्ता जूता", "read_as": "sastaa juutaa", "english": "a cheap shoe", "note": "जूता is masculine, so -ा." },
+                { "hindi": "सस्ती चीज़", "read_as": "sastii chiiz", "english": "a cheap thing", "note": "चीज़ is feminine, so -ी." },
+                { "hindi": "सस्ते कपड़े", "read_as": "saste kapṛe", "english": "cheap clothes", "note": "Masculine plural, so -े." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सस्ता",
+              "question_read_as": "sastaa",
+              "options": ["free", "small", "poor", "cheap"],
+              "options_read_as": ["free", "small", "poor", "cheap"],
+              "answer_index": 3,
+              "explanation_en": "सस्ता is cheap in the sense of inexpensive, with no suggestion of poor quality."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ जूता — which form of सस्ता fits?",
+              "options": ["सस्ती", "सस्ता", "सस्ते", "सस्त"],
+              "options_read_as": ["sastii", "sastaa", "saste", "sast"],
+              "answer_index": 1,
+              "explanation_en": "जूता is masculine and singular, so सस्ता keeps its -ा form."
+            }
+          },
+          "audio": {
+            "tts_strings": ["सस्ता", "सस्ती चीज़", "सस्ते कपड़े"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L39-I3",
+          "type": "word",
+          "target": "महँगा",
+          "read_as": "mahãgaa",
+          "pronunciation_notes": "The crescent nasalises the middle vowel and adds no n sound of its own: mahãgaa.",
+          "gloss_en": "expensive",
+          "gender": null,
+          "gender_flag": false,
+          "category": "adjectives",
+          "plural": "महँगे",
+          "plural_read_as": "mahãge",
+          "difficulty": 5,
+          "tags": ["adjectives", "adjective", "inflecting", "aa_ending", "chandrabindu", "spelling_variant"],
+          "cards": {
+            "learn": {
+              "title_en": "महँगा — expensive",
+              "explanation_en": "महँगा means expensive, the opposite of सस्ता, and it inflects the same way. The crescent in the middle nasalises the vowel without adding a consonant, so there is no n to be heard. You will also see it written महंगा with the plain dot, which is very common in print — the two spellings are read identically.",
+              "examples": [
+                { "hindi": "महँगी साड़ी", "read_as": "mahãgii saaṛii", "english": "an expensive sari", "note": "साड़ी is feminine, so -ी." },
+                { "hindi": "महँगा फ़ोन", "read_as": "mahãgaa fon", "english": "an expensive phone", "note": "फ़ोन is masculine, so -ा." },
+                { "hindi": "महँगे जूते", "read_as": "mahãge juute", "english": "expensive shoes", "note": "Masculine plural, so -े." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "महँगा",
+              "question_read_as": "mahãgaa",
+              "options": ["rich", "expensive", "heavy", "rare"],
+              "options_read_as": ["rich", "expensive", "heavy", "rare"],
+              "answer_index": 1,
+              "explanation_en": "महँगा is expensive. सस्ता is its opposite, and both inflect."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ साड़ी — which form of महँगा fits?",
+              "options": ["महँगा", "महँगे", "महँग", "महँगी"],
+              "options_read_as": ["mahãgaa", "mahãge", "mahãg", "mahãgii"],
+              "answer_index": 3,
+              "explanation_en": "साड़ी is feminine, so महँगा becomes महँगी."
+            }
+          },
+          "audio": {
+            "tts_strings": ["महँगा", "महँगी साड़ी", "महँगे जूते"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed the fifteen adjectives. Nine of them end in -ा and take three forms, while साफ़, गरम, खाली, भारी, सुंदर and नारंगी never change — and खाली and भारी prove that a -ी ending is no guarantee of anything.",
+        "key_forms": ["सुंदर", "सस्ता", "महँगा"],
+        "next_up_en": "Next: places in town, starting with the market and the shops in it."
+      }
+    },
+    {
+      "level": 40,
+      "title_en": "Places in town",
+      "title_hi": "बाज़ार दुकान सड़क",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L40-I1",
+          "type": "word",
+          "target": "बाज़ार",
+          "read_as": "baazaar",
+          "pronunciation_notes": "The dotted ज़ is a z sound, and the final vowel drops: baazaar in two syllables.",
+          "gloss_en": "market, bazaar",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "places",
+          "plural": "बाज़ार",
+          "plural_read_as": "baazaar",
+          "difficulty": 3,
+          "tags": ["places", "noun", "masculine", "consonant_ending", "nukta", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "बाज़ार — market",
+              "explanation_en": "बाज़ार is a market, and in practice the whole shopping area of a town rather than a single covered building. It is masculine and ends in a consonant, so the gender is unpredictable, and the plural does not change. English borrowed the word as 'bazaar', keeping the z sound that the dot marks.",
+              "examples": [
+                { "hindi": "बड़ा बाज़ार", "read_as": "baṛaa baazaar", "english": "a big market", "note": "बड़ा takes -ा because बाज़ार is masculine." },
+                { "hindi": "बाज़ार जाना", "read_as": "baazaar jaanaa", "english": "to go to the market", "note": "The place comes before the verb." },
+                { "hindi": "पुराना बाज़ार", "read_as": "puraanaa baazaar", "english": "an old market", "note": "The masculine adjective ending again." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बाज़ार",
+              "question_read_as": "baazaar",
+              "options": ["a shop", "a street", "a market", "a station"],
+              "options_read_as": ["a shop", "a street", "a market", "a station"],
+              "answer_index": 2,
+              "explanation_en": "बाज़ार is a market or shopping area. दुकान is a single shop within it."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ बाज़ार — का, के or की?",
+              "options": ["का", "की", "के", "कि"],
+              "options_read_as": ["kaa", "kii", "ke", "ki"],
+              "answer_index": 0,
+              "explanation_en": "बाज़ार is masculine, so का. Its consonant ending gives no clue."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बाज़ार", "बड़ा बाज़ार", "बाज़ार जाना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L40-I2",
+          "type": "word",
+          "target": "दुकान",
+          "read_as": "dukaan",
+          "pronunciation_notes": "Dental द with the tongue on the teeth, and the final vowel drops: dukaan.",
+          "gloss_en": "shop",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "places",
+          "plural": "दुकानें",
+          "plural_read_as": "dukaaneṁ",
+          "difficulty": 3,
+          "tags": ["places", "noun", "feminine", "consonant_ending", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "दुकान — shop",
+              "explanation_en": "दुकान is a shop, from the smallest stall upwards. It is feminine and ends in a consonant, so the gender is unpredictable — and it sits inside a बाज़ार, which is masculine, so a single sentence about shopping can easily need both forms. The plural is दुकानें.",
+              "examples": [
+                { "hindi": "छोटी दुकान", "read_as": "chhoṭii dukaan", "english": "a small shop", "note": "छोटा takes -ी because दुकान is feminine." },
+                { "hindi": "दो दुकानें", "read_as": "do dukaaneṁ", "english": "two shops", "note": "Feminine consonant endings take -एँ." },
+                { "hindi": "चाय की दुकान", "read_as": "chaay kii dukaan", "english": "a tea shop", "note": "की agrees with दुकान, the word that follows it." }
+              ],
+              "common_error": {
+                "wrong": "छोटा दुकान",
+                "right": "छोटी दुकान",
+                "why_en": "दुकान is feminine, so the adjective takes -ी — while बाज़ार, in the same setting, takes -ा."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दुकान",
+              "question_read_as": "dukaan",
+              "options": ["a shop", "a market", "a house", "an office"],
+              "options_read_as": ["a shop", "a market", "a house", "an office"],
+              "answer_index": 0,
+              "explanation_en": "दुकान is a single shop. बाज़ार is the whole market area."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ दुकान — का, के or की?",
+              "options": ["का", "के", "की", "कि"],
+              "options_read_as": ["kaa", "ke", "kii", "ki"],
+              "answer_index": 2,
+              "explanation_en": "दुकान is feminine, so की. Its consonant ending predicts nothing."
+            }
+          },
+          "audio": {
+            "tts_strings": ["दुकान", "छोटी दुकान", "दुकानें"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L40-I3",
+          "type": "word",
+          "target": "सड़क",
+          "read_as": "saṛak",
+          "pronunciation_notes": "The flap ड़ — the tongue curls back and flicks forward — and the final vowel drops: saṛak.",
+          "gloss_en": "road, street",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "places",
+          "plural": "सड़कें",
+          "plural_read_as": "saṛkeṁ",
+          "difficulty": 4,
+          "tags": ["places", "noun", "feminine", "consonant_ending", "nukta", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "सड़क — road",
+              "explanation_en": "सड़क is a road or street. It is feminine and ends in a consonant, so the gender has to be learned. The word contains the flap ड़ from Module 2, and notice what happens in the plural: सड़क is saṛak but सड़कें is saṛkeṁ, with the middle vowel dropping once the ending is added — the same behaviour as बहन and बहनें.",
+              "examples": [
+                { "hindi": "लंबी सड़क", "read_as": "lambii saṛak", "english": "a long road", "note": "लंबा takes -ी because सड़क is feminine." },
+                { "hindi": "दो सड़कें", "read_as": "do saṛkeṁ", "english": "two roads", "note": "The middle vowel drops in the plural." },
+                { "hindi": "साफ़ सड़क", "read_as": "saaf saṛak", "english": "a clean road", "note": "साफ़ never changes form." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सड़क",
+              "question_read_as": "saṛak",
+              "options": ["a bridge", "a path", "a wall", "a road"],
+              "options_read_as": ["a bridge", "a path", "a wall", "a road"],
+              "answer_index": 3,
+              "explanation_en": "सड़क is a road or street, the kind vehicles use."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ सड़क — का, के or की?",
+              "options": ["का", "की", "के", "कि"],
+              "options_read_as": ["kaa", "kii", "ke", "ki"],
+              "answer_index": 1,
+              "explanation_en": "सड़क is feminine, so की."
+            }
+          },
+          "audio": {
+            "tts_strings": ["सड़क", "लंबी सड़क", "सड़कें"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level began the places with बाज़ार, दुकान and सड़क. All three end in consonants and none of them announces its gender, so all three are flagged.",
+        "key_forms": ["बाज़ार", "दुकान", "सड़क"],
+        "next_up_en": "Next: more places in town, including the school, the hospital and the station."
+      }
+    }
+  ]
+}

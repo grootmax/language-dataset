@@ -1,0 +1,1532 @@
+{
+  "module": 9,
+  "module_name_en": "The ने Construction",
+  "module_name_hi": "ने",
+  "phase": 4,
+  "type": "grammar",
+  "batch": {
+    "levels_from": 6,
+    "levels_to": 10
+  },
+  "learner_knows_through_module": 8,
+  "levels": [
+    {
+      "level": 6,
+      "title_en": "ने with तुम, आप and हम",
+      "title_hi": "तुमने · आपने · हमने",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M09-L06-I1",
+          "type": "grammar",
+          "target": "तुमने क्या किया",
+          "read_as": "tumne kyaa kiyaa",
+          "pronunciation_notes": "तुमने is two syllables with no vowel between म and न: tum-ne.",
+          "gloss_en": "the question you will ask most in this module",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "ne",
+            "second_person",
+            "question",
+            "high_frequency",
+            "default_agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तुमने क्या किया — what did you do",
+              "explanation_en": "तुम plus ने gives तुमने, and this question is worth over-learning because it is how almost every conversation about the past begins. Note the verb: क्या has no gender of its own, so the verb falls back to the default masculine singular किया. That default will matter again at level thirteen, and for now it is enough to know that when there is nothing for the verb to agree with, it takes the masculine singular.",
+              "examples": [
+                {
+                  "hindi": "तुमने क्या किया?",
+                  "read_as": "tumne kyaa kiyaa?",
+                  "english": "what did you do?",
+                  "note": "क्या has no gender, so the verb takes the default masculine singular."
+                },
+                {
+                  "hindi": "तुमने क्या देखा?",
+                  "read_as": "tumne kyaa dekhaa?",
+                  "english": "what did you see?",
+                  "note": "The same shape with another transitive verb."
+                },
+                {
+                  "hindi": "तुमने रोटी खाई",
+                  "read_as": "tumne roṭii khaaii",
+                  "english": "you ate roti",
+                  "note": "With a real object the verb agrees with it — रोटी is feminine."
+                }
+              ],
+              "common_error": {
+                "wrong": "तुम ने क्या किया?",
+                "right": "तुमने क्या किया?",
+                "why_en": "A pronoun and ने are written as one word. Only noun subjects keep ने separate."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective question.",
+              "question": "तुम + क्या + करना · perfective",
+              "question_read_as": "tum + kyaa + karnaa · perfective",
+              "options": [
+                "तुम क्या किया?",
+                "तुमने क्या की?",
+                "तुमने क्या करा?",
+                "तुमने क्या किया?"
+              ],
+              "options_read_as": [
+                "tum kyaa kiyaa?",
+                "tumne kyaa kii?",
+                "tumne kyaa karaa?",
+                "tumne kyaa kiyaa?"
+              ],
+              "answer_index": 3,
+              "explanation_en": "तुमने as one word, and किया as the default masculine singular after क्या."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "तुमने क्या देखा?",
+                "तुम क्या देखा?",
+                "तुम ने क्या देखा?",
+                "तुम्हें क्या देखा?"
+              ],
+              "options_read_as": [
+                "tumne kyaa dekhaa?",
+                "tum kyaa dekhaa?",
+                "tum ne kyaa dekhaa?",
+                "tumheṁ kyaa dekhaa?"
+              ],
+              "answer_index": 0,
+              "explanation_en": "तुमने, written as one word. तुम्हें is the को form and does a different job."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तुमने क्या किया",
+              "तुमने क्या किया?",
+              "तुमने क्या देखा?",
+              "तुमने रोटी खाई"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L06-I2",
+          "type": "grammar",
+          "target": "आपने क्या कहा",
+          "read_as": "aapne kyaa kahaa",
+          "pronunciation_notes": "आपने keeps the long aa of आप: aap-ne.",
+          "gloss_en": "the polite form, and the verb कहना",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "ne",
+            "second_person",
+            "register",
+            "formal",
+            "kahna"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "आपने, and how to ask someone to repeat themselves",
+              "explanation_en": "आप plus ने gives आपने, with no surprises — आप has been the easy pronoun since Module 6 and it stays easy here. आपने क्या कहा is what did you say, and it is the polite way to ask someone to repeat themselves. कहना is transitive, so it takes ने. That is worth flagging now because बोलना, which also means to speak, does not — and those two verbs are the subject of level eleven.",
+              "examples": [
+                {
+                  "hindi": "आपने क्या कहा?",
+                  "read_as": "aapne kyaa kahaa?",
+                  "english": "what did you say?",
+                  "note": "The polite way to ask someone to repeat something."
+                },
+                {
+                  "hindi": "उसने कहा",
+                  "read_as": "usne kahaa",
+                  "english": "he said",
+                  "note": "कहना is transitive, so ने is needed."
+                },
+                {
+                  "hindi": "आपने क्या खाया?",
+                  "read_as": "aapne kyaa khaayaa?",
+                  "english": "what did you eat?",
+                  "note": "The polite version of the question from the last item."
+                }
+              ],
+              "common_error": {
+                "wrong": "आप क्या कहा?",
+                "right": "आपने क्या कहा?",
+                "why_en": "कहना is transitive, so its perfective needs ने however polite the pronoun is."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the polite perfective question.",
+              "question": "आप + क्या + कहना · perfective",
+              "question_read_as": "aap + kyaa + kahnaa · perfective",
+              "options": [
+                "आप क्या कहा?",
+                "आपने क्या कहा?",
+                "आपको क्या कहा?",
+                "आपने क्या कही?"
+              ],
+              "options_read_as": [
+                "aap kyaa kahaa?",
+                "aapne kyaa kahaa?",
+                "aapko kyaa kahaa?",
+                "aapne kyaa kahii?"
+              ],
+              "answer_index": 1,
+              "explanation_en": "आपने with ने, and कहा as the default masculine singular after क्या."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "आप क्या खाया?",
+                "आपने क्या खाई?",
+                "आपने क्या खाया?",
+                "आपको क्या खाया?"
+              ],
+              "options_read_as": [
+                "aap kyaa khaayaa?",
+                "aapne kyaa khaaii?",
+                "aapne kyaa khaayaa?",
+                "aapko kyaa khaayaa?"
+              ],
+              "answer_index": 2,
+              "explanation_en": "आपने, and the default masculine singular because क्या has no gender."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "आपने क्या कहा",
+              "आपने क्या कहा?",
+              "उसने कहा",
+              "आपने क्या खाया?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L06-I3",
+          "type": "grammar",
+          "target": "हमने खाना खाया",
+          "read_as": "hamne khaanaa khaayaa",
+          "pronunciation_notes": "हमने is two syllables with no vowel between म and न: ham-ne.",
+          "gloss_en": "first person plural",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "ne",
+            "first_person_plural",
+            "object_agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "हमने, and the subject is still irrelevant",
+              "explanation_en": "हम plus ने gives हमने. The sentence हमने खाना खाया is worth sitting with, because हम is plural and the verb is singular — खाया, agreeing with खाना. A plural subject and a singular verb in the same short sentence, and both correct. If that still feels wrong, it is the strongest sign that the object-agreement rule has not settled yet, and levels three and four are worth another pass.",
+              "examples": [
+                {
+                  "hindi": "हमने खाना खाया",
+                  "read_as": "hamne khaanaa khaayaa",
+                  "english": "we ate",
+                  "note": "Plural subject, singular verb — the object decides."
+                },
+                {
+                  "hindi": "हमने चाय पी",
+                  "read_as": "hamne chaay pii",
+                  "english": "we drank tea",
+                  "note": "चाय is feminine, so पी."
+                },
+                {
+                  "hindi": "हमने किताबें पढ़ीं",
+                  "read_as": "hamne kitaabeṁ paṛhiiṁ",
+                  "english": "we read the books",
+                  "note": "Here the verb is plural, but because किताबें is — not because हम is."
+                }
+              ],
+              "common_error": {
+                "wrong": "हमने खाना खाए",
+                "right": "हमने खाना खाया",
+                "why_en": "The verb follows खाना, which is singular. Matching it to the plural हम is exactly the instinct to break."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "हम + चाय + पीना · perfective",
+              "question_read_as": "ham + chaay + piinaa · perfective",
+              "options": [
+                "हमने चाय पिया",
+                "हम चाय पी",
+                "हमने चाय पी",
+                "हमने चाय पिए"
+              ],
+              "options_read_as": [
+                "hamne chaay piyaa",
+                "ham chaay pii",
+                "hamne chaay pii",
+                "hamne chaay pie"
+              ],
+              "answer_index": 2,
+              "explanation_en": "चाय is feminine and singular, so पी — whatever the subject is doing."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "हमने खाना खाए",
+                "हमने खाना खाया",
+                "हमने खाना खाई",
+                "हम खाना खाया"
+              ],
+              "options_read_as": [
+                "hamne khaanaa khaae",
+                "hamne khaanaa khaayaa",
+                "hamne khaanaa khaaii",
+                "ham khaanaa khaayaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "खाना is masculine singular, so खाया — even though हम is plural."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "हमने खाना खाया",
+              "हमने खाना खाया",
+              "हमने चाय पी",
+              "हमने किताबें पढ़ीं"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "तुमने, आपने and हमने all fuse regularly and hold no surprises. हमने खाना खाया is the sentence to test yourself on — a plural subject with a singular verb, because the object is what the verb is looking at.",
+        "key_forms": [
+          "तुमने क्या किया",
+          "आपने क्या कहा",
+          "हमने खाना खाया"
+        ],
+        "next_up_en": "Next: the third person, and the stems you already know from Module 6."
+      }
+    },
+    {
+      "level": 7,
+      "title_en": "ने with यह, वह and तू",
+      "title_hi": "उसने · इसने · तूने",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M09-L07-I1",
+          "type": "grammar",
+          "target": "उसने कहा",
+          "read_as": "usne kahaa",
+          "pronunciation_notes": "उसने is built on the stem उस, which you have had since Module 6: us-ne.",
+          "gloss_en": "the third person, on a stem you already know",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "ne",
+            "third_person",
+            "oblique_stem",
+            "module6_link",
+            "kahna"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "उसने is उस plus ने, and उस is not new",
+              "explanation_en": "Module 6 taught that वह has an oblique stem उस, and that everything attaching to it uses that stem: उसे, उससे, उसका, उसके पास. उसने is the same stem with one more postposition on it. So there is nothing to memorise here — if you can produce उसका, you can produce उसने. The same goes for यह and इस. Seeing ने as just another postposition on a familiar stem removes most of the difficulty.",
+              "examples": [
+                {
+                  "hindi": "उसने कहा",
+                  "read_as": "usne kahaa",
+                  "english": "he said",
+                  "note": "The stem उस, plus ने."
+                },
+                {
+                  "hindi": "उसका घर",
+                  "read_as": "uskaa ghar",
+                  "english": "his house",
+                  "note": "The same stem with का, from Module 6."
+                },
+                {
+                  "hindi": "उसने मुझे बताया",
+                  "read_as": "usne mujhe bataayaa",
+                  "english": "he told me",
+                  "note": "बताना takes को for the person told, so मुझे — and ने for the subject."
+                }
+              ],
+              "common_error": {
+                "wrong": "वहने कहा",
+                "right": "उसने कहा",
+                "why_en": "वह has no oblique form of its own — the stem is उस, exactly as with उसे and उसका."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "वह + कहना · perfective",
+              "question_read_as": "vah + kahnaa · perfective",
+              "options": [
+                "उसने कहा",
+                "वह कहा",
+                "वहने कहा",
+                "उसे कहा"
+              ],
+              "options_read_as": [
+                "usne kahaa",
+                "vah kahaa",
+                "vahne kahaa",
+                "use kahaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The oblique stem is उस, so उसने — the same stem as उसका and उसे."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "उसे मुझे बताया",
+                "उसने मुझसे बताया",
+                "वह मुझे बताया",
+                "उसने मुझे बताया"
+              ],
+              "options_read_as": [
+                "use mujhe bataayaa",
+                "usne mujhse bataayaa",
+                "vah mujhe bataayaa",
+                "usne mujhe bataayaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "ने on the subject, and बताना takes को for the person told."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उसने कहा",
+              "उसने कहा",
+              "उसका घर",
+              "उसने मुझे बताया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L07-I2",
+          "type": "grammar",
+          "target": "इसने किया",
+          "read_as": "isne kiyaa",
+          "pronunciation_notes": "इसने is built on the stem इस, the near counterpart of उस: is-ne.",
+          "gloss_en": "यह becomes इस, exactly as expected",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "ne",
+            "third_person",
+            "proximate",
+            "oblique_stem",
+            "module6_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "इसने for this one, उसने for that one",
+              "explanation_en": "यह gives the stem इस, so इसने. The pair works exactly as इसका and उसका do — इस for something near, उस for something further away, and in practice उसने is far more common because you are usually talking about someone who is not in front of you. इसने tends to appear when pointing at someone present, which can sound blunt, so वह and उसने are the safer default when talking about a person.",
+              "examples": [
+                {
+                  "hindi": "इसने किया",
+                  "read_as": "isne kiyaa",
+                  "english": "this one did it",
+                  "note": "The stem इस, plus ने."
+                },
+                {
+                  "hindi": "इसने मुझे दिया",
+                  "read_as": "isne mujhe diyaa",
+                  "english": "this one gave it to me",
+                  "note": "देना takes को for the recipient, so मुझे."
+                },
+                {
+                  "hindi": "उसने किया",
+                  "read_as": "usne kiyaa",
+                  "english": "he did it",
+                  "note": "The distal counterpart, and the one you will use more."
+                }
+              ],
+              "common_error": {
+                "wrong": "यहने किया",
+                "right": "इसने किया",
+                "why_en": "यह has the oblique stem इस, exactly as वह has उस. The direct form never takes a postposition."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "यह + करना · perfective",
+              "question_read_as": "yah + karnaa · perfective",
+              "options": [
+                "यह किया",
+                "इसने किया",
+                "यहने किया",
+                "इसे किया"
+              ],
+              "options_read_as": [
+                "yah kiyaa",
+                "isne kiyaa",
+                "yahne kiyaa",
+                "ise kiyaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The oblique stem of यह is इस, so इसने."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "इसे मुझे दिया",
+                "यह मुझे दिया",
+                "इसने मुझे दिया",
+                "इसने मुझसे दिया"
+              ],
+              "options_read_as": [
+                "ise mujhe diyaa",
+                "yah mujhe diyaa",
+                "isne mujhe diyaa",
+                "isne mujhse diyaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "इसने on the subject, and देना takes को for the recipient."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "इसने किया",
+              "इसने किया",
+              "इसने मुझे दिया",
+              "उसने किया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L07-I3",
+          "type": "grammar",
+          "target": "तूने",
+          "read_as": "tuune",
+          "pronunciation_notes": "The long uu of तू is kept: tuu-ne.",
+          "gloss_en": "the तू form, for recognition",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "ne",
+            "second_person",
+            "register",
+            "warning",
+            "tu",
+            "module5_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तूने completes the set, with the usual warning",
+              "explanation_en": "तू plus ने gives तूने, and that completes the singular forms. The same warning applies as in Modules 5 and 7: तू is not a neutral option. Between close friends and from parents to small children it is affectionate; to anyone else it is contemptuous. You will meet तूने constantly in film dialogue and song lyrics, so recognise it — but the advice remains not to produce it unless a Hindi speaker has used it on you first.",
+              "examples": [
+                {
+                  "hindi": "तूने क्या किया?",
+                  "read_as": "tuune kyaa kiyaa?",
+                  "english": "what did you do?",
+                  "note": "The तू version of the question from level six."
+                },
+                {
+                  "hindi": "तूने कहा",
+                  "read_as": "tuune kahaa",
+                  "english": "you said",
+                  "note": "Recognise it; think twice before saying it."
+                },
+                {
+                  "hindi": "तुमने कहा",
+                  "read_as": "tumne kahaa",
+                  "english": "you said",
+                  "note": "The safe casual form, and the one to use with friends."
+                }
+              ],
+              "common_error": {
+                "wrong": "तूने क्या किया?",
+                "right": "आपने क्या किया?",
+                "why_en": "Not a grammatical error but a social one. With anyone you have just met, तूने is the wrong choice however correct it looks."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective form for this pronoun.",
+              "question": "तू + करना · perfective",
+              "question_read_as": "tuu + karnaa · perfective",
+              "options": [
+                "तुझने किया",
+                "तुझे किया",
+                "तू किया",
+                "तूने किया"
+              ],
+              "options_read_as": [
+                "tujhne kiyaa",
+                "tujhe kiyaa",
+                "tuu kiyaa",
+                "tuune kiyaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "तूने. Unusually, तू keeps its direct form before ने rather than using the stem तुझ."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which form should you use with someone you have just met?",
+              "options": [
+                "आपने",
+                "तुमने",
+                "तूने",
+                "इसने"
+              ],
+              "options_read_as": [
+                "aapne",
+                "tumne",
+                "tuune",
+                "isne"
+              ],
+              "answer_index": 0,
+              "explanation_en": "आपने is the safe default with anyone you do not already know well."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तूने",
+              "तूने क्या किया?",
+              "तूने कहा",
+              "तुमने कहा"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "उसने and इसने are built on the oblique stems उस and इस that Module 6 gave you, so nothing about them is new — ने is just one more postposition on a familiar stem. तूने completes the singular set and carries the same register warning as तू itself.",
+        "key_forms": [
+          "उसने कहा",
+          "इसने किया",
+          "तूने"
+        ],
+        "next_up_en": "Next: the plural forms, including the one that almost nobody gets right first time."
+      }
+    },
+    {
+      "level": 8,
+      "title_en": "The plural forms, and the trap",
+      "title_hi": "उन्होंने · इन्होंने",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M09-L08-I1",
+          "type": "grammar",
+          "target": "उन्होंने कहा",
+          "read_as": "unhoṁne kahaa",
+          "pronunciation_notes": "Three syllables with a nasal in the middle: un-hoṁ-ne, not un-ne.",
+          "gloss_en": "the form that catches everybody",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ne",
+            "third_person_plural",
+            "irregular",
+            "trap",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "उन्होंने, not उनने",
+              "explanation_en": "This is the one irregular form in the whole set. वे has the oblique stem उन, which gives उनका, उनसे and उनके पास exactly as expected — and then with ने it becomes उन्होंने rather than the उनने you would predict. There is no reason and no pattern; it simply has an extra syllable. It is also extremely common, because it covers not just they but any single person you are speaking about respectfully. So this is the ने form you will hear most after उसने, and the one worth drilling hardest.",
+              "examples": [
+                {
+                  "hindi": "उन्होंने कहा",
+                  "read_as": "unhoṁne kahaa",
+                  "english": "they said, or he said politely",
+                  "note": "The irregular form — three syllables, not two."
+                },
+                {
+                  "hindi": "उनका घर",
+                  "read_as": "unkaa ghar",
+                  "english": "their house",
+                  "note": "The regular stem उन with का, for comparison."
+                },
+                {
+                  "hindi": "उन्होंने खाना खाया",
+                  "read_as": "unhoṁne khaanaa khaayaa",
+                  "english": "they ate",
+                  "note": "The verb still agrees with खाना, not with the subject."
+                }
+              ],
+              "common_error": {
+                "wrong": "उनने कहा",
+                "right": "उन्होंने कहा",
+                "why_en": "उनने is what the pattern predicts and it is not a word. This form has to be memorised on its own."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "वे + कहना · perfective",
+              "question_read_as": "ve + kahnaa · perfective",
+              "options": [
+                "उन्होंने कहा",
+                "वेने कहा",
+                "उनने कहा",
+                "उन्हें कहा"
+              ],
+              "options_read_as": [
+                "unhoṁne kahaa",
+                "vene kahaa",
+                "unne kahaa",
+                "unheṁ kahaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "उन्होंने — irregular, with a syllable the other forms do not have."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "वे खाना खाया",
+                "उनने खाना खाया",
+                "उन्हें खाना खाया",
+                "उन्होंने खाना खाया"
+              ],
+              "options_read_as": [
+                "ve khaanaa khaayaa",
+                "unne khaanaa khaayaa",
+                "unheṁ khaanaa khaayaa",
+                "unhoṁne khaanaa khaayaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "उन्होंने, and खाया agreeing with the masculine खाना."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उन्होंने कहा",
+              "उन्होंने कहा",
+              "उनका घर",
+              "उन्होंने खाना खाया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L08-I2",
+          "type": "grammar",
+          "target": "इन्होंने किया",
+          "read_as": "inhoṁne kiyaa",
+          "pronunciation_notes": "The same three-syllable shape as उन्होंने, with the near stem: in-hoṁ-ne.",
+          "gloss_en": "the near plural, irregular in the same way",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ne",
+            "third_person_plural",
+            "proximate",
+            "irregular",
+            "pairs_with_unhonne"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "इन्होंने matches उन्होंने",
+              "explanation_en": "ये gives the stem इन, and with ने it becomes इन्होंने — irregular in exactly the same way as उन्होंने. So the two plurals behave identically, which at least means there is only one irregularity to remember rather than two. The full set is now complete: मैंने, तूने, तुमने, आपने, हमने, इसने, उसने, इन्होंने, उन्होंने. Seven of the nine are entirely predictable from Module 6; only the last two have to be learnt outright.",
+              "examples": [
+                {
+                  "hindi": "इन्होंने किया",
+                  "read_as": "inhoṁne kiyaa",
+                  "english": "these people did it",
+                  "note": "The near plural, irregular in the same way as उन्होंने."
+                },
+                {
+                  "hindi": "इनका घर",
+                  "read_as": "inkaa ghar",
+                  "english": "their house",
+                  "note": "The regular stem इन with का, for comparison."
+                },
+                {
+                  "hindi": "इन्होंने मुझे बताया",
+                  "read_as": "inhoṁne mujhe bataayaa",
+                  "english": "they told me",
+                  "note": "बताना takes को for the person told."
+                }
+              ],
+              "common_error": {
+                "wrong": "इनने किया",
+                "right": "इन्होंने किया",
+                "why_en": "Like उनने, इनने is what the pattern predicts and is not a word."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "ये + करना · perfective",
+              "question_read_as": "ye + karnaa · perfective",
+              "options": [
+                "येने किया",
+                "इनने किया",
+                "इन्होंने किया",
+                "इन्हें किया"
+              ],
+              "options_read_as": [
+                "yene kiyaa",
+                "inne kiyaa",
+                "inhoṁne kiyaa",
+                "inheṁ kiyaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "इन्होंने — irregular, matching उन्होंने."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which two forms are irregular?",
+              "options": [
+                "मैंने and तुमने",
+                "इन्होंने and उन्होंने",
+                "उसने and इसने",
+                "हमने and आपने"
+              ],
+              "options_read_as": [
+                "maiṁne and tumne",
+                "inhoṁne and unhoṁne",
+                "usne and isne",
+                "hamne and aapne"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The two plurals. Everything else follows the Module 6 stems exactly."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "इन्होंने किया",
+              "इन्होंने किया",
+              "इनका घर",
+              "इन्होंने मुझे बताया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L08-I3",
+          "type": "grammar",
+          "target": "लोगों ने कहा",
+          "read_as": "logoṁ ne kahaa",
+          "pronunciation_notes": "With a noun subject ने stands apart: lo-goṁ ne.",
+          "gloss_en": "noun subjects keep ने separate",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ne",
+            "noun_subject",
+            "oblique_plural",
+            "written_separately",
+            "contrast"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Nouns are easier than pronouns here",
+              "explanation_en": "A noun subject does two simple things and nothing else: it goes oblique, and ने is written as a separate word after it. लोग becomes लोगों, and then लोगों ने. No fusion, no irregularity, no memorisation — just the oblique rule from Module 6 applied as usual. That is worth noticing, because it means the only difficult part of this whole level is the two pronoun forms. Every noun in the language behaves the same predictable way.",
+              "examples": [
+                {
+                  "hindi": "लोगों ने कहा",
+                  "read_as": "logoṁ ne kahaa",
+                  "english": "people said",
+                  "note": "Oblique plural, and ने written separately."
+                },
+                {
+                  "hindi": "बच्चों ने खाना खाया",
+                  "read_as": "bachchoṁ ne khaanaa khaayaa",
+                  "english": "the children ate",
+                  "note": "बच्चा goes to बच्चों before ने."
+                },
+                {
+                  "hindi": "डॉक्टर ने बताया",
+                  "read_as": "ḍaakṭar ne bataayaa",
+                  "english": "the doctor said",
+                  "note": "A Class 2 noun shows no change, but ने is still separate."
+                }
+              ],
+              "common_error": {
+                "wrong": "लोग ने कहा",
+                "right": "लोगों ने कहा",
+                "why_en": "लोग is plural and ने is a postposition, so the oblique plural लोगों is required."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "बच्चे + खाना + खाना · perfective",
+              "question_read_as": "bachche + khaanaa + khaanaa · perfective",
+              "options": [
+                "बच्चे ने खाना खाया",
+                "बच्चोंने खाना खाया",
+                "बच्चों ने खाना खाए",
+                "बच्चों ने खाना खाया"
+              ],
+              "options_read_as": [
+                "bachche ne khaanaa khaayaa",
+                "bachchoṁne khaanaa khaayaa",
+                "bachchoṁ ne khaanaa khaae",
+                "bachchoṁ ne khaanaa khaayaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Oblique plural बच्चों, ने written separately, and खाया agreeing with खाना."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "लोगों ने कहा",
+                "लोगोंने कहा",
+                "लोग ने कहा",
+                "लोगों कहा"
+              ],
+              "options_read_as": [
+                "logoṁ ne kahaa",
+                "logoṁne kahaa",
+                "log ne kahaa",
+                "logoṁ kahaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Oblique plural, and ने as a separate word — only pronouns fuse."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "लोगों ने कहा",
+              "लोगों ने कहा",
+              "बच्चों ने खाना खाया",
+              "डॉक्टर ने बताया"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The set is complete: मैंने, तूने, तुमने, आपने, हमने, इसने, उसने, इन्होंने, उन्होंने. Only the last two are irregular, and they are irregular in the same way. Noun subjects are entirely predictable — oblique, with ने written separately.",
+        "key_forms": [
+          "उन्होंने कहा",
+          "इन्होंने किया",
+          "लोगों ने कहा"
+        ],
+        "next_up_en": "Next: the verbs that take no ने at all, and why they are the easy half of the module."
+      }
+    },
+    {
+      "level": 9,
+      "title_en": "Intransitive verbs take no ने",
+      "title_hi": "मैं गया · वह आई",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M09-L09-I1",
+          "type": "grammar",
+          "target": "मैं गया",
+          "read_as": "maiṁ gayaa",
+          "pronunciation_notes": "No fusion here — मैं stays as it is: maiṁ ga-yaa.",
+          "gloss_en": "no object, no ने",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "no_ne",
+            "intransitive",
+            "subject_agreement",
+            "core_rule",
+            "module7_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "With no object, everything goes back to normal",
+              "explanation_en": "मैं गया is I went, and there is no ने because जाना takes no object. And once ने is absent, the whole sentence reverts to the pattern from Module 7: the subject is plain and the verb agrees with it. So intransitive perfectives are not a new thing to learn at all — they are the ordinary Hindi you already had, and this module simply does not touch them. That is why the intransitive half is the easy half.",
+              "examples": [
+                {
+                  "hindi": "मैं गया",
+                  "read_as": "maiṁ gayaa",
+                  "english": "I went",
+                  "note": "Said by a man — the verb agrees with the subject, as normal."
+                },
+                {
+                  "hindi": "मैं गई",
+                  "read_as": "maiṁ gaii",
+                  "english": "I went",
+                  "note": "Said by a woman, and the verb follows her."
+                },
+                {
+                  "hindi": "मैंने खाया",
+                  "read_as": "maiṁne khaayaa",
+                  "english": "I ate",
+                  "note": "Transitive, so ने appears and the subject stops controlling the verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने गया",
+                "right": "मैं गया",
+                "why_en": "जाना takes no object, so no ने. This is the over-application error, and it is as common as forgetting ने in the first place."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "मैं + जाना · perfective · masculine",
+              "question_read_as": "maiṁ + jaanaa · perfective · masculine",
+              "options": [
+                "मैंने गया",
+                "मैं गया",
+                "मुझे गया",
+                "मैंने जाया"
+              ],
+              "options_read_as": [
+                "maiṁne gayaa",
+                "maiṁ gayaa",
+                "mujhe gayaa",
+                "maiṁne jaayaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "जाना is intransitive, so no ने and the verb agrees with the subject."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence needs ने?",
+              "options": [
+                "मैं गया",
+                "मैं आया",
+                "मैंने खाया",
+                "मैं बैठा"
+              ],
+              "options_read_as": [
+                "maiṁ gayaa",
+                "maiṁ aayaa",
+                "maiṁne khaayaa",
+                "maiṁ baiṭhaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Only खाना, because it takes an object. The other three verbs do not."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं गया",
+              "मैं गया",
+              "मैं गई",
+              "मैंने खाया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L09-I2",
+          "type": "grammar",
+          "target": "वह आई",
+          "read_as": "vah aaii",
+          "pronunciation_notes": "Two vowels running together with no consonant between: aa-ii.",
+          "gloss_en": "the verb agrees with the subject again",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "no_ne",
+            "intransitive",
+            "subject_agreement",
+            "feminine",
+            "contrast"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The subject is back in charge",
+              "explanation_en": "वह आई is she came, and the verb is feminine because she is. Set that beside उसने रोटी खाई, where the verb is feminine because the roti is, and you have the whole module in two sentences. Same person, same gender of verb ending, two completely different reasons. Which reason applies depends on one thing only: whether the verb takes an object.",
+              "examples": [
+                {
+                  "hindi": "वह आई",
+                  "read_as": "vah aaii",
+                  "english": "she came",
+                  "note": "Feminine because the subject is — the ordinary pattern."
+                },
+                {
+                  "hindi": "उसने रोटी खाई",
+                  "read_as": "usne roṭii khaaii",
+                  "english": "she ate roti",
+                  "note": "Feminine because the object is. The subject could be anyone."
+                },
+                {
+                  "hindi": "वह बैठी",
+                  "read_as": "vah baiṭhii",
+                  "english": "she sat down",
+                  "note": "बैठना is intransitive, so the subject controls the verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने आई",
+                "right": "वह आई",
+                "why_en": "आना takes no object. Adding ने to an intransitive verb is the single most common overcorrection in this module."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "वह (feminine) + आना · perfective",
+              "question_read_as": "vah (feminine) + aanaa · perfective",
+              "options": [
+                "वह आई",
+                "वह आया",
+                "उसने आई",
+                "उसने आया"
+              ],
+              "options_read_as": [
+                "vah aaii",
+                "vah aayaa",
+                "usne aaii",
+                "usne aayaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "आना is intransitive, so no ने and the verb agrees with the feminine subject."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence is correct?",
+              "options": [
+                "वह ने बैठी",
+                "उसने बैठी",
+                "उसने बैठा",
+                "वह बैठी"
+              ],
+              "options_read_as": [
+                "vah ne baiṭhii",
+                "usne baiṭhii",
+                "usne baiṭhaa",
+                "vah baiṭhii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बैठना is intransitive, so no ने at all."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह आई",
+              "वह आई",
+              "उसने रोटी खाई",
+              "वह बैठी"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L09-I3",
+          "type": "grammar",
+          "target": "हम बैठे",
+          "read_as": "ham baiṭhe",
+          "pronunciation_notes": "Both words end on a short e: ham bai-ṭhe.",
+          "gloss_en": "a plural subject, and the verb follows it",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "no_ne",
+            "intransitive",
+            "subject_agreement",
+            "plural",
+            "contrast"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "हम बैठे against हमने खाना खाया",
+              "explanation_en": "हम बैठे has a plural verb because हम is plural. हमने खाना खाया, from level six, has a singular verb despite the same plural subject — because there the object is singular and the subject has no say. Putting the two side by side is the clearest test of whether the rule has settled: if you can explain why one verb is plural and the other is not, you have it.",
+              "examples": [
+                {
+                  "hindi": "हम बैठे",
+                  "read_as": "ham baiṭhe",
+                  "english": "we sat down",
+                  "note": "Plural verb, agreeing with the plural subject."
+                },
+                {
+                  "hindi": "हमने खाना खाया",
+                  "read_as": "hamne khaanaa khaayaa",
+                  "english": "we ate",
+                  "note": "Singular verb, agreeing with the singular object."
+                },
+                {
+                  "hindi": "वे आए",
+                  "read_as": "ve aae",
+                  "english": "they came",
+                  "note": "Intransitive, so the subject controls the verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "हमने बैठे",
+                "right": "हम बैठे",
+                "why_en": "बैठना takes no object, so no ने — and then the subject controls the verb as normal."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "वे + आना · perfective · masculine",
+              "question_read_as": "ve + aanaa · perfective · masculine",
+              "options": [
+                "उन्होंने आए",
+                "वे आया",
+                "वे आए",
+                "उन्होंने आया"
+              ],
+              "options_read_as": [
+                "unhoṁne aae",
+                "ve aayaa",
+                "ve aae",
+                "unhoṁne aayaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "आना is intransitive, so no ने and the verb agrees with the plural subject."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence needs ने?",
+              "options": [
+                "हम बैठे",
+                "हमने खाना खाया",
+                "वे आए",
+                "वे गए"
+              ],
+              "options_read_as": [
+                "ham baiṭhe",
+                "hamne khaanaa khaayaa",
+                "ve aae",
+                "ve gae"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Only खाना takes an object. The rest are intransitive."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "हम बैठे",
+              "हम बैठे",
+              "हमने खाना खाया",
+              "वे आए"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Intransitive perfectives are simply Module 7, untouched — no ने, and the verb agrees with the subject. वह आई and उसने रोटी खाई both end in a feminine verb for completely different reasons, and which reason applies depends only on whether the verb takes an object.",
+        "key_forms": [
+          "मैं गया",
+          "वह आई",
+          "हम बैठे"
+        ],
+        "next_up_en": "Next: the verbs that look transitive and are not, and a conversation that switches between the two in consecutive lines."
+      }
+    },
+    {
+      "level": 10,
+      "title_en": "Verbs that look transitive and are not",
+      "title_hi": "मुझे किताब मिली",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M09-L10-I1",
+          "type": "grammar",
+          "target": "मुझे किताब मिली",
+          "read_as": "mujhe kitaab milii",
+          "pronunciation_notes": "मिली is two light syllables ending long: mi-lii.",
+          "gloss_en": "a person and a thing, and still no ने",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "no_ne",
+            "intransitive",
+            "milnaa",
+            "false_transitive",
+            "module8_link",
+            "trap"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मिलना has a person and a thing and is still intransitive",
+              "explanation_en": "मुझे किताब मिली is I got the book. There is a person and there is a thing, which makes it look exactly like a transitive sentence — and it is not. मिलना is intransitive, so there is no ने. The trick is to see who is doing what: the book is the subject, it is the thing that arrived, and मुझे is where it arrived. That is why the verb is मिली, agreeing with किताब as any subject would. लगना works the same way, which is why मुझे भूख लगी has no ने either.",
+              "examples": [
+                {
+                  "hindi": "मुझे किताब मिली",
+                  "read_as": "mujhe kitaab milii",
+                  "english": "I got the book",
+                  "note": "किताब is the subject, so मिली agrees with it — and no ने."
+                },
+                {
+                  "hindi": "मुझे भूख लगी",
+                  "read_as": "mujhe bhuukh lagii",
+                  "english": "I got hungry",
+                  "note": "लगना is intransitive too, and भूख is the subject."
+                },
+                {
+                  "hindi": "मैंने किताब ली",
+                  "read_as": "maiṁne kitaab lii",
+                  "english": "I took the book",
+                  "note": "लेना is transitive, so this one does take ने — compare it directly."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने किताब मिली",
+                "right": "मुझे किताब मिली",
+                "why_en": "मिलना is intransitive. The book comes to you, so you take को rather than ने."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "मैं + किताब + मिलना · perfective",
+              "question_read_as": "maiṁ + kitaab + milnaa · perfective",
+              "options": [
+                "मैंने किताब मिली",
+                "मुझे किताब मिली",
+                "मैं किताब मिला",
+                "मुझसे किताब मिली"
+              ],
+              "options_read_as": [
+                "maiṁne kitaab milii",
+                "mujhe kitaab milii",
+                "maiṁ kitaab milaa",
+                "mujhse kitaab milii"
+              ],
+              "answer_index": 1,
+              "explanation_en": "मिलना is intransitive — the person takes को and the thing is the subject."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which sentence needs ने?",
+              "options": [
+                "मुझे किताब मिली",
+                "मुझे भूख लगी",
+                "मैंने किताब ली",
+                "मुझे चोट लगी"
+              ],
+              "options_read_as": [
+                "mujhe kitaab milii",
+                "mujhe bhuukh lagii",
+                "maiṁne kitaab lii",
+                "mujhe choṭ lagii"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Only लेना, which is transitive. मिलना and लगना are not, despite looking as though they should be."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे किताब मिली",
+              "मुझे किताब मिली",
+              "मुझे भूख लगी",
+              "मैंने किताब ली"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L10-I2",
+          "type": "grammar",
+          "target": "मैं सोया",
+          "read_as": "maiṁ soyaa",
+          "pronunciation_notes": "सोया is two syllables with a य between them: so-yaa.",
+          "gloss_en": "the test — can you do it to something?",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "no_ne",
+            "intransitive",
+            "the_test",
+            "rule_summary"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The question to ask: can this verb take an object?",
+              "explanation_en": "When you are unsure, ask whether the verb can take a thing after it. You can eat something, read something, buy something — those are transitive and take ने. You cannot sleep something, go something or sit something — those are intransitive and never do. It is not a perfect test, because a few verbs behave oddly and those are level eleven, but it settles the overwhelming majority. मैं सोया, I slept, with no object anywhere and therefore no ने.",
+              "examples": [
+                {
+                  "hindi": "मैं सोया",
+                  "read_as": "maiṁ soyaa",
+                  "english": "I slept",
+                  "note": "You cannot sleep something, so no ने."
+                },
+                {
+                  "hindi": "वह हँसा",
+                  "read_as": "vah haṁsaa",
+                  "english": "he laughed",
+                  "note": "Laughing takes no object either."
+                },
+                {
+                  "hindi": "उसने देखा",
+                  "read_as": "usne dekhaa",
+                  "english": "he saw",
+                  "note": "You see something, so देखना is transitive and takes ने."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने सोया",
+                "right": "मैं सोया",
+                "why_en": "Sleeping takes no object, so no ने. Apply the test before reaching for it."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the perfective sentence.",
+              "question": "वह + हँसना · perfective · masculine",
+              "question_read_as": "vah + haṁsnaa · perfective · masculine",
+              "options": [
+                "उसने हँसा",
+                "उसने हँसी",
+                "उसे हँसा",
+                "वह हँसा"
+              ],
+              "options_read_as": [
+                "usne haṁsaa",
+                "usne haṁsii",
+                "use haṁsaa",
+                "vah haṁsaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "हँसना takes no object, so no ने and the verb agrees with the subject."
+            },
+            "game": {
+              "format": "ne_or_no_ne",
+              "question_en": "Which verb can take an object, and so needs ने?",
+              "options": [
+                "देखना",
+                "हँसना",
+                "सोना",
+                "बैठना"
+              ],
+              "options_read_as": [
+                "dekhnaa",
+                "haṁsnaa",
+                "sonaa",
+                "baiṭhnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "देखना — you see something. The other three take no object at all."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं सोया",
+              "मैं सोया",
+              "वह हँसा",
+              "उसने देखा"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M09-L10-I3",
+          "type": "dialogue",
+          "target": "मैंने सब्ज़ी ख़रीदी",
+          "read_as": "maiṁne sabzii khariidii",
+          "pronunciation_notes": "ख़रीदी has the throaty ख़ and ends on a long ii: kha-rii-dii.",
+          "gloss_en": "the same speaker, with and without ने",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "ne",
+            "no_ne",
+            "dialogue",
+            "micro_dialogue",
+            "contrast",
+            "consolidation"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Two lines apart, and the construction switches",
+              "explanation_en": "The same speaker says मैं बाज़ार गया and then मैंने सब्ज़ी ख़रीदी, two lines apart. Nothing about him changed — the verb did. जाना takes no object so the subject stays plain and the verb agrees with him; ख़रीदना takes one, so ने appears and the verb switches to agreeing with सब्ज़ी instead. That switch, inside a single short exchange, is what this module is for. Note the first line too: तुम कहाँ गए uses plural agreement because तुम always does.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "तुम कहाँ गए?",
+                  "read_as": "tum kahaaṁ gae?",
+                  "english": "Where did you go?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "मैं बाज़ार गया।",
+                  "read_as": "maiṁ baazaar gayaa.",
+                  "english": "I went to the market."
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "तुमने क्या ख़रीदा?",
+                  "read_as": "tumne kyaa khariidaa?",
+                  "english": "What did you buy?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "मैंने सब्ज़ी ख़रीदी।",
+                  "read_as": "maiṁne sabzii khariidii.",
+                  "english": "I bought vegetables."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने बाज़ार गया।",
+                "right": "मैं बाज़ार गया।",
+                "why_en": "जाना is intransitive. बाज़ार is a destination, not an object, so there is nothing for ने to mark."
+              }
+            },
+            "practice": {
+              "format": "build_the_sentence",
+              "prompt_en": "Build the reply.",
+              "question": "मैं + सब्ज़ी + ख़रीदना · perfective",
+              "question_read_as": "maiṁ + sabzii + khariidnaa · perfective",
+              "options": [
+                "मैंने सब्ज़ी ख़रीदी",
+                "मैंने सब्ज़ी ख़रीदा",
+                "मैं सब्ज़ी ख़रीदी",
+                "मुझे सब्ज़ी ख़रीदी"
+              ],
+              "options_read_as": [
+                "maiṁne sabzii khariidii",
+                "maiṁne sabzii khariidaa",
+                "maiṁ sabzii khariidii",
+                "mujhe sabzii khariidii"
+              ],
+              "answer_index": 0,
+              "explanation_en": "ने on the subject, and ख़रीदी agreeing with the feminine सब्ज़ी."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the last line. Which word is missing?",
+              "masked_line_index": 3,
+              "masked_word": "ख़रीदी",
+              "options": [
+                "ख़रीदा",
+                "ख़रीदीं",
+                "ख़रीदे",
+                "ख़रीदी"
+              ],
+              "options_read_as": [
+                "khariidaa",
+                "khariidiiṁ",
+                "khariide",
+                "khariidii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "सब्ज़ी is feminine and singular, so the verb is ख़रीदी."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तुम कहाँ गए?",
+              "मैं बाज़ार गया।",
+              "तुमने क्या ख़रीदा?",
+              "मैंने सब्ज़ी ख़रीदी।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "मिलना and लगना have a person and a thing in the sentence and are still intransitive — the thing is the subject and the person takes को. The working test is whether the verb can take an object at all: you can eat something but you cannot sleep something.",
+        "key_forms": [
+          "मुझे किताब मिली",
+          "मैं सोया",
+          "मैंने सब्ज़ी ख़रीदी"
+        ],
+        "next_up_en": "Next: the exceptions — three transitive verbs that refuse ने anyway."
+      }
+    }
+  ]
+}

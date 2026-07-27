@@ -1,0 +1,730 @@
+{
+  "module": 10,
+  "mock_exam": {
+    "question_count": 30,
+    "composition": {
+      "current": 21,
+      "phase": 6,
+      "high_value": 3
+    },
+    "questions": [
+      {
+        "id": "M10-MOCK-Q1",
+        "source": "current",
+        "format": "recognition",
+        "question": "मैं + को = ?",
+        "question_read_as": "maiṁ + ko = ?",
+        "options": [
+          "मुझे",
+          "मैंने",
+          "मुझका",
+          "मेरा"
+        ],
+        "options_read_as": [
+          "mujhe",
+          "maiṁne",
+          "mujhkaa",
+          "meraa"
+        ],
+        "answer_index": 0,
+        "explanation_en": "मैं plus को fuses to मुझे. मुझको is the same thing unfused.",
+        "source_item_ids": [
+          "M10-L01-I1"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q2",
+        "source": "current",
+        "format": "error_spot",
+        "question": "कौन सा वाक्य ग़लत है?",
+        "question_read_as": "kaun saa vaakya ġalat hai?",
+        "options": [
+          "मैं स्कूल जाता हूँ।",
+          "मुझे जाता हूँ।",
+          "मुझे भूख लगी है।",
+          "मैं सोता हूँ।"
+        ],
+        "options_read_as": [
+          "maiṁ skuul jaataa huuṁ.",
+          "mujhe jaataa huuṁ.",
+          "mujhe bhuukh lagii hai.",
+          "maiṁ sotaa huuṁ."
+        ],
+        "answer_index": 1,
+        "explanation_en": "Going is an action, so it takes मैं. Only things that happen to you take मुझे.",
+        "source_item_ids": [
+          "M10-L01-I3"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q3",
+        "source": "current",
+        "format": "recognition",
+        "question": "___ क्या चाहिए?",
+        "question_read_as": "___ kyaa chaahie?",
+        "options": [
+          "तुमें",
+          "तुम्हारा",
+          "तुम्हें",
+          "तुम"
+        ],
+        "options_read_as": [
+          "tumeṁ",
+          "tumhaaraa",
+          "tumheṁ",
+          "tum"
+        ],
+        "answer_index": 2,
+        "explanation_en": "The stem is तुम्ह, the same one in तुम्हारा, so the dative is तुम्हें.",
+        "source_item_ids": [
+          "M10-L02-I1"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q4",
+        "source": "current",
+        "format": "recognition",
+        "question": "___ क्या चाहिए?",
+        "question_read_as": "___ kyaa chaahie?",
+        "options": [
+          "आपने",
+          "आपे",
+          "आप",
+          "आपको"
+        ],
+        "options_read_as": [
+          "aapne",
+          "aape",
+          "aap",
+          "aapko"
+        ],
+        "answer_index": 3,
+        "explanation_en": "आप is the only pronoun with no fused dative form.",
+        "source_item_ids": [
+          "M10-L03-I1"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q5",
+        "source": "current",
+        "format": "transform",
+        "question": "बच्चा को भूख लगी है।",
+        "question_read_as": "bacchaa ko bhuukh lagii hai.",
+        "options": [
+          "बच्चे को भूख लगी है।",
+          "बच्चेको भूख लगी है।",
+          "बच्चे भूख लगी है।",
+          "बच्चों को भूख लगा है।"
+        ],
+        "options_read_as": [
+          "bacche ko bhuukh lagii hai.",
+          "baccheko bhuukh lagii hai.",
+          "bacche bhuukh lagii hai.",
+          "bacchoṁ ko bhuukh lagaa hai."
+        ],
+        "answer_index": 0,
+        "explanation_en": "बच्चा goes oblique to बच्चे before को, and को stays a separate word.",
+        "source_item_ids": [
+          "M10-L04-I1"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q6",
+        "source": "current",
+        "format": "recognition",
+        "question": "मुझे प्यास ___ है।",
+        "question_read_as": "mujhe pyaas ___ hai.",
+        "options": [
+          "लगा",
+          "लगी",
+          "लगे",
+          "लगीं"
+        ],
+        "options_read_as": [
+          "lagaa",
+          "lagii",
+          "lage",
+          "lagiiṁ"
+        ],
+        "answer_index": 1,
+        "explanation_en": "प्यास is feminine singular and it is the subject, so लगी.",
+        "source_item_ids": [
+          "M10-L05-I2"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q7",
+        "source": "current",
+        "format": "transform",
+        "question": "मैं ठंडा हूँ।",
+        "question_read_as": "maiṁ ṭhanḍaa huuṁ.",
+        "options": [
+          "मैंने ठंड लगी है।",
+          "मुझे ठंड लग रहा है।",
+          "मुझे ठंड लग रही है।",
+          "मैं ठंड लग रही है।"
+        ],
+        "options_read_as": [
+          "maiṁne ṭhanḍ lagii hai.",
+          "mujhe ṭhanḍ lag rahaa hai.",
+          "mujhe ṭhanḍ lag rahii hai.",
+          "maiṁ ṭhanḍ lag rahii hai."
+        ],
+        "answer_index": 2,
+        "explanation_en": "मैं ठंडा हूँ is about your body temperature. The sensation is मुझे ठंड लग रही है, with feminine ठंड controlling the verb.",
+        "source_item_ids": [
+          "M10-L05-I3"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q8",
+        "source": "current",
+        "format": "recognition",
+        "question": "मुझे दर्द ___ रहा है।",
+        "question_read_as": "mujhe dard ___ rahaa hai.",
+        "options": [
+          "आ",
+          "है",
+          "लग",
+          "हो"
+        ],
+        "options_read_as": [
+          "aa",
+          "hai",
+          "lag",
+          "ho"
+        ],
+        "answer_index": 3,
+        "explanation_en": "दर्द is a condition rather than a surface sensation, so it takes होना.",
+        "source_item_ids": [
+          "M10-L06-I2"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q9",
+        "source": "current",
+        "format": "transform",
+        "question": "मैं बुखार हूँ।",
+        "question_read_as": "maiṁ bukhaar huuṁ.",
+        "options": [
+          "मुझे बुखार है।",
+          "मुझे बुखार हूँ।",
+          "मुझे बुखार हैं।",
+          "मुझे बुखार लगी है।"
+        ],
+        "options_read_as": [
+          "mujhe bukhaar hai.",
+          "mujhe bukhaar huuṁ.",
+          "mujhe bukhaar haiṁ.",
+          "mujhe bukhaar lagii hai."
+        ],
+        "answer_index": 0,
+        "explanation_en": "बुखार is the masculine singular subject, so है. हूँ would be agreeing with the speaker.",
+        "source_item_ids": [
+          "M10-L06-I3"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q10",
+        "source": "current",
+        "format": "recognition",
+        "question": "मुझे नींद ___ रही है।",
+        "question_read_as": "mujhe niiṁd ___ rahii hai.",
+        "options": [
+          "हो",
+          "आ",
+          "है",
+          "लग"
+        ],
+        "options_read_as": [
+          "ho",
+          "aa",
+          "hai",
+          "lag"
+        ],
+        "answer_index": 1,
+        "explanation_en": "Sleep arrives rather than being felt, so नींद takes आना.",
+        "source_item_ids": [
+          "M10-L07-I1"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q11",
+        "source": "current",
+        "format": "transform",
+        "question": "मुझे डर लगती है।",
+        "question_read_as": "mujhe ḍar lagtii hai.",
+        "options": [
+          "मुझे डर लगे हैं।",
+          "मुझे डर लगती हैं।",
+          "मुझे डर लगता है।",
+          "मैं डर लगता हूँ।"
+        ],
+        "options_read_as": [
+          "mujhe ḍar lage haiṁ.",
+          "mujhe ḍar lagtii haiṁ.",
+          "mujhe ḍar lagtaa hai.",
+          "maiṁ ḍar lagtaa huuṁ."
+        ],
+        "answer_index": 2,
+        "explanation_en": "डर is masculine, so लगता है — unlike भूख and प्यास, which are feminine.",
+        "source_item_ids": [
+          "M10-L07-I2"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q12",
+        "source": "current",
+        "format": "error_spot",
+        "question": "कौन सा वाक्य ग़लत है?",
+        "question_read_as": "kaun saa vaakya ġalat hai?",
+        "options": [
+          "मुझे ग़ुस्सा आया।",
+          "दीवार पर तस्वीर लगी है।",
+          "दो घंटे लगते हैं।",
+          "मुझे ग़ुस्सा लगा।"
+        ],
+        "options_read_as": [
+          "mujhe ġussaa aayaa.",
+          "diivaar par tasviir lagii hai.",
+          "do ghanṭe lagte haiṁ.",
+          "mujhe ġussaa lagaa."
+        ],
+        "answer_index": 3,
+        "explanation_en": "ग़ुस्सा arrives, so it takes आना, not लगना. The other three each use लगना in one of its correct senses.",
+        "source_item_ids": [
+          "M10-L07-I3",
+          "M10-L13-I2",
+          "M10-L13-I3"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q13",
+        "source": "current",
+        "format": "recognition",
+        "question": "मुझे किताबें पसंद ___ ।",
+        "question_read_as": "mujhe kitaabeṁ pasand ___ .",
+        "options": [
+          "हैं",
+          "हूँ",
+          "है",
+          "थी"
+        ],
+        "options_read_as": [
+          "haiṁ",
+          "huuṁ",
+          "hai",
+          "thii"
+        ],
+        "answer_index": 0,
+        "explanation_en": "किताबें is plural and it is the subject, so हैं.",
+        "source_item_ids": [
+          "M10-L08-I2"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q14",
+        "source": "current",
+        "format": "transform",
+        "question": "मैं चाय पसंद है।",
+        "question_read_as": "maiṁ chaay pasand hai.",
+        "options": [
+          "मुझे चाय पसंद हूँ।",
+          "मुझे चाय पसंद है।",
+          "मैंने चाय पसंद है।",
+          "मुझे चाय पसंद हैं।"
+        ],
+        "options_read_as": [
+          "mujhe chaay pasand huuṁ.",
+          "mujhe chaay pasand hai.",
+          "maiṁne chaay pasand hai.",
+          "mujhe chaay pasand haiṁ."
+        ],
+        "answer_index": 1,
+        "explanation_en": "मुझे for the experiencer, and चाय is singular so है.",
+        "source_item_ids": [
+          "M10-L08-I1"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q15",
+        "source": "current",
+        "format": "transform",
+        "question": "मुझे यह जगह अच्छा लगा।",
+        "question_read_as": "mujhe yah jagah acchaa lagaa.",
+        "options": [
+          "मुझे यह जगह अच्छी लगा।",
+          "मुझे यह जगह अच्छा लगी।",
+          "मुझे यह जगह अच्छी लगी।",
+          "मैं यह जगह अच्छी लगी।"
+        ],
+        "options_read_as": [
+          "mujhe yah jagah acchii lagaa.",
+          "mujhe yah jagah acchaa lagii.",
+          "mujhe yah jagah acchii lagii.",
+          "maiṁ yah jagah acchii lagii."
+        ],
+        "answer_index": 2,
+        "explanation_en": "जगह is feminine and controls both the adjective and the verb.",
+        "source_item_ids": [
+          "M10-L09-I2"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q16",
+        "source": "current",
+        "format": "error_spot",
+        "question": "कौन सा वाक्य ग़लत है?",
+        "question_read_as": "kaun saa vaakya ġalat hai?",
+        "options": [
+          "मुझे यह जगह पसंद है।",
+          "मुझे चाय पसंद है।",
+          "मुझे यह चाय अच्छी लगी।",
+          "मुझे यह चाय पसंद लगी।"
+        ],
+        "options_read_as": [
+          "mujhe yah jagah pasand hai.",
+          "mujhe chaay pasand hai.",
+          "mujhe yah chaay acchii lagii.",
+          "mujhe yah chaay pasand lagii."
+        ],
+        "answer_index": 3,
+        "explanation_en": "पसंद goes with होना and अच्छा goes with लगना. There is no पसंद लगना.",
+        "source_item_ids": [
+          "M10-L09-I3"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q17",
+        "source": "current",
+        "format": "transform",
+        "question": "मैं हिंदी आती हूँ।",
+        "question_read_as": "maiṁ hindii aatii huuṁ.",
+        "options": [
+          "मुझे हिंदी आती है।",
+          "मुझे हिंदी आता है।",
+          "मैंने हिंदी आती है।",
+          "मुझे हिंदी आती हूँ।"
+        ],
+        "options_read_as": [
+          "mujhe hindii aatii hai.",
+          "mujhe hindii aataa hai.",
+          "maiṁne hindii aatii hai.",
+          "mujhe hindii aatii huuṁ."
+        ],
+        "answer_index": 0,
+        "explanation_en": "हिंदी is the feminine subject and the speaker never appears in the verb.",
+        "source_item_ids": [
+          "M10-L10-I1"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q18",
+        "source": "current",
+        "format": "recognition",
+        "question": "मुझे तैरना ___ है।",
+        "question_read_as": "mujhe tairnaa ___ hai.",
+        "options": [
+          "आती",
+          "आता",
+          "आते",
+          "आ रही"
+        ],
+        "options_read_as": [
+          "aatii",
+          "aataa",
+          "aate",
+          "aa rahii"
+        ],
+        "answer_index": 1,
+        "explanation_en": "Infinitives are always masculine singular, so आता है.",
+        "source_item_ids": [
+          "M10-L10-I2"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q19",
+        "source": "current",
+        "format": "recognition",
+        "question": "___ लगता है कि वह आएगा।",
+        "question_read_as": "___ lagtaa hai ki vah aaegaa.",
+        "options": [
+          "मैं",
+          "मेरा",
+          "मुझे",
+          "मैंने"
+        ],
+        "options_read_as": [
+          "maiṁ",
+          "meraa",
+          "mujhe",
+          "maiṁne"
+        ],
+        "answer_index": 2,
+        "explanation_en": "मुझे लगता है means \"I think\". मैं लगता हूँ would mean \"I seem\".",
+        "source_item_ids": [
+          "M10-L11-I1"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q20",
+        "source": "current",
+        "format": "transform",
+        "question": "मुझे दो किताबें चाहिए हैं।",
+        "question_read_as": "mujhe do kitaabeṁ chaahie haiṁ.",
+        "options": [
+          "मुझे दो किताबें चाहिए हूँ।",
+          "मैं दो किताबें चाहिए।",
+          "मुझे दो किताबें चाहिए था।",
+          "मुझे दो किताबें चाहिए।"
+        ],
+        "options_read_as": [
+          "mujhe do kitaabeṁ chaahie huuṁ.",
+          "maiṁ do kitaabeṁ chaahie.",
+          "mujhe do kitaabeṁ chaahie thaa.",
+          "mujhe do kitaabeṁ chaahie."
+        ],
+        "answer_index": 3,
+        "explanation_en": "चाहिए is complete on its own and takes no form of होना behind it.",
+        "source_item_ids": [
+          "M10-L12-I3"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q21",
+        "source": "current",
+        "format": "transform",
+        "question": "वह रोना लगा।",
+        "question_read_as": "vah ronaa lagaa.",
+        "options": [
+          "वह रोने लगा।",
+          "उसने रोने लगा।",
+          "वह रोने लगी हूँ।",
+          "उसे रोने लगा।"
+        ],
+        "options_read_as": [
+          "vah rone lagaa.",
+          "usne rone lagaa.",
+          "vah rone lagii huuṁ.",
+          "use rone lagaa."
+        ],
+        "answer_index": 0,
+        "explanation_en": "The infinitive goes oblique to रोने, and the beginning meaning takes a plain subject.",
+        "source_item_ids": [
+          "M10-L14-I1"
+        ]
+      },
+      {
+        "id": "M10-MOCK-Q22",
+        "source": "phase",
+        "source_module": 9,
+        "format": "transform",
+        "question": "मैं रोटी खाता हूँ।",
+        "question_read_as": "maiṁ roṭii khaataa huuṁ.",
+        "options": [
+          "मैं रोटी खाई।",
+          "मैंने रोटी खाई।",
+          "मैंने रोटी खाए।",
+          "मैंने रोटी खाया।"
+        ],
+        "options_read_as": [
+          "maiṁ roṭii khaaii.",
+          "maiṁne roṭii khaaii.",
+          "maiṁne roṭii khaae.",
+          "maiṁne roṭii khaayaa."
+        ],
+        "answer_index": 1,
+        "explanation_en": "Perfective transitive, so ने — and the verb agrees with feminine रोटी, giving खाई.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M10-MOCK-Q23",
+        "source": "phase",
+        "source_module": 9,
+        "format": "recognition",
+        "question": "मैंने लड़की को ___ ।",
+        "question_read_as": "maiṁne laṛkii ko ___ .",
+        "options": [
+          "बुलाईं",
+          "बुलाई",
+          "बुलाया",
+          "बुलाए"
+        ],
+        "options_read_as": [
+          "bulaaiiṁ",
+          "bulaaii",
+          "bulaayaa",
+          "bulaae"
+        ],
+        "answer_index": 2,
+        "explanation_en": "को on the object blocks agreement, so the verb stays neutral even though लड़की is feminine.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M10-MOCK-Q24",
+        "source": "phase",
+        "source_module": 9,
+        "format": "error_spot",
+        "question": "कौन सा वाक्य ग़लत है?",
+        "question_read_as": "kaun saa vaakya ġalat hai?",
+        "options": [
+          "मैं पानी लाया।",
+          "वह बोला।",
+          "उसने कहा।",
+          "उसने बोला।"
+        ],
+        "options_read_as": [
+          "maiṁ paanii laayaa.",
+          "vah bolaa.",
+          "usne kahaa.",
+          "usne bolaa."
+        ],
+        "answer_index": 3,
+        "explanation_en": "बोलना is one of the three verbs that refuse ने. कहना, which means nearly the same thing, requires it.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M10-MOCK-Q25",
+        "source": "phase",
+        "source_module": 8,
+        "format": "recognition",
+        "question": "मुझे ___ ।",
+        "question_read_as": "mujhe ___ .",
+        "options": [
+          "बताओ",
+          "पूछो",
+          "बताना",
+          "पूछा"
+        ],
+        "options_read_as": [
+          "bataao",
+          "puuchho",
+          "bataanaa",
+          "puuchhaa"
+        ],
+        "answer_index": 0,
+        "explanation_en": "बताना takes को on the person told, so मुझे बताओ. पूछना takes से instead: मुझसे पूछो.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M10-MOCK-Q26",
+        "source": "phase",
+        "source_module": 8,
+        "format": "recognition",
+        "question": "मुझे किताब ___ ।",
+        "question_read_as": "mujhe kitaab ___ .",
+        "options": [
+          "मिला",
+          "मिली",
+          "मिले",
+          "मिलीं"
+        ],
+        "options_read_as": [
+          "milaa",
+          "milii",
+          "mile",
+          "miliiṁ"
+        ],
+        "answer_index": 1,
+        "explanation_en": "मिलना is intransitive and takes no ने. किताब is the subject and it is feminine, so मिली.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M10-MOCK-Q27",
+        "source": "phase",
+        "source_module": 8,
+        "format": "error_spot",
+        "question": "कौन सा वाक्य ग़लत है?",
+        "question_read_as": "kaun saa vaakya ġalat hai?",
+        "options": [
+          "मैं पानी लाया।",
+          "वह रोटी लाया।",
+          "मैंने किताब लाई।",
+          "मुझे किताब मिली।"
+        ],
+        "options_read_as": [
+          "maiṁ paanii laayaa.",
+          "vah roṭii laayaa.",
+          "maiṁne kitaab laaii.",
+          "mujhe kitaab milii."
+        ],
+        "answer_index": 2,
+        "explanation_en": "लाना takes no ने, so the subject stays plain and the verb agrees with it.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M10-MOCK-Q28",
+        "source": "high_value",
+        "source_module": 4,
+        "format": "recognition",
+        "question": "कौन सा शब्द स्त्रीलिंग है?",
+        "question_read_as": "kaun saa shabd striiliṁg hai?",
+        "options": [
+          "लड़का",
+          "घर",
+          "पानी",
+          "किताब"
+        ],
+        "options_read_as": [
+          "laṛkaa",
+          "ghar",
+          "paanii",
+          "kitaab"
+        ],
+        "answer_index": 3,
+        "explanation_en": "किताब is feminine. The other three are masculine, and none of them signals its gender from its ending.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M10-MOCK-Q29",
+        "source": "high_value",
+        "source_module": 6,
+        "format": "recognition",
+        "question": "___ में बहुत किताबें हैं।",
+        "question_read_as": "___ meṁ bahut kitaabeṁ haiṁ.",
+        "options": [
+          "घरों",
+          "घरे",
+          "घर",
+          "घरें"
+        ],
+        "options_read_as": [
+          "gharoṁ",
+          "ghare",
+          "ghar",
+          "ghareṁ"
+        ],
+        "answer_index": 0,
+        "explanation_en": "A plural noun takes the oblique -ों before any postposition, so घरों में.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M10-MOCK-Q30",
+        "source": "high_value",
+        "source_module": 9,
+        "format": "error_spot",
+        "question": "कौन सा वाक्य ग़लत है?",
+        "question_read_as": "kaun saa vaakya ġalat hai?",
+        "options": [
+          "मैं गया।",
+          "मैंने गया।",
+          "मैंने खाना खाया।",
+          "वह आया।"
+        ],
+        "options_read_as": [
+          "maiṁ gayaa.",
+          "maiṁne gayaa.",
+          "maiṁne khaanaa khaayaa.",
+          "vah aayaa."
+        ],
+        "answer_index": 1,
+        "explanation_en": "जाना is intransitive, so it never takes ने. Only perfective transitives do.",
+        "source_item_ids": []
+      }
+    ]
+  },
+  "review_flags": [
+    "Q25, Q26 and Q27 draw on Module 8 verbs (बताना, पूछना, मिलना, लाना) that I could verify from the M8 L52-L53 items. Re-point their source_item_ids once module08.json is merged, and swap in wider M8 vocabulary if the phase slice should be broader than the verb block.",
+    "Q28 uses घर, पानी, किताब and लड़का for the gender question. All four appear in Module 6, but confirm they are also in Module 4's taught word list before shipping."
+  ]
+}

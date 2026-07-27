@@ -1,0 +1,492 @@
+{
+  "module": 7,
+  "module_name_en": "The Tense-Aspect Engine",
+  "kind": "mock_exam",
+  "mock_exam": {
+    "total_questions": 30,
+    "weighting_note": "70% current module (21Q on M7 — all 6 items from levels 31-32 included in full, since those levels fall past the last checkpoint at level 30; 15 more spread across levels 1-30) / 20% same-phase review (6Q on M6, the oblique case) / 10% older high-value concepts (3Q on M4's gender-flagged words). This is the first mock to use the full three-way 70/20/10 split as specified, now that Module 7 has a genuine same-phase predecessor (M6) plus carried-forward concepts (gender) to draw on.",
+    "structural_note": "Module 7 has 32 levels, not a multiple of 5, so its 6 checkpoints (after L5/10/15/20/25/30) leave levels 31-32 uncovered by any checkpoint. All 6 items from those levels are included in the mock.",
+    "questions": [
+      {
+        "id": "M07-MOCK-Q1",
+        "source_item_ids": [
+          "M07-L31-I1"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "वह यहाँ रह रहा था",
+          "वह यहाँ रहा था रह",
+          "मैं जा नहीं रहा था",
+          "वह कल गया है"
+        ],
+        "answer_index": 0,
+        "explanation_en": "The bare stem comes first and the marker second. Reversing them separates the verb from its own ending."
+      },
+      {
+        "id": "M07-MOCK-Q2",
+        "source_item_ids": [
+          "M07-L31-I2"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "मैं सो रहा था और फिर मैं सो रहा था",
+          "उसने किए",
+          "वह किए",
+          "वे आया हैं"
+        ],
+        "answer_index": 1,
+        "explanation_en": "A transitive perfective needs ने on the subject, and the participle then agrees with the object rather than with वह. Both halves of that arrive in Module 9."
+      },
+      {
+        "id": "M07-MOCK-Q3",
+        "source_item_ids": [
+          "M07-L31-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "वह बैठ रहा है",
+          "करिए",
+          "राम की किताब",
+          "राम की"
+        ],
+        "answer_index": 2,
+        "explanation_en": "The possessive needs the thing possessed behind it. Standing alone at the end of a phrase, की would be read as the verb instead."
+      },
+      {
+        "id": "M07-MOCK-Q4",
+        "source_item_ids": [
+          "M07-L32-I1"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "वह रोज़ जा रहा है",
+          "वे गई",
+          "आप बैठो",
+          "वह रोज़ जाता है"
+        ],
+        "answer_index": 3,
+        "explanation_en": "The continuous describes one stretch of time in progress, which cannot be something that happens every day."
+      },
+      {
+        "id": "M07-MOCK-Q5",
+        "source_item_ids": [
+          "M07-L32-I2"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "वह अभी जा रहा है",
+          "वह अभी जाता है",
+          "आप बैठो",
+          "वह जा रहा है"
+        ],
+        "answer_index": 0,
+        "explanation_en": "The habitual is a fact about his routine and says nothing about this moment, which is exactly what अभी is asking about."
+      },
+      {
+        "id": "M07-MOCK-Q6",
+        "source_item_ids": [
+          "M07-L32-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "आप आओ",
+          "वह कल गया",
+          "वह कल गया है",
+          "वह किए"
+        ],
+        "answer_index": 1,
+        "explanation_en": "है ties the result to the present moment, which contradicts कल pointing back at yesterday."
+      },
+      {
+        "id": "M07-MOCK-Q7",
+        "source_item_ids": [
+          "M07-L27-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "तुम क्या कर रहा था",
+          "मैं आया नहीं था",
+          "बैठिए",
+          "आप बैठो"
+        ],
+        "answer_index": 2,
+        "explanation_en": "बैठो is the तुम form. Offering someone a seat in the wrong register undercuts the courtesy of offering at all."
+      },
+      {
+        "id": "M07-MOCK-Q8",
+        "source_item_ids": [
+          "M07-L05-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "मैं गाँव में रहते था।",
+          "मैं आया नहीं था",
+          "मैं जा रहा हूँ था",
+          "मैं गाँव में रहता था।"
+        ],
+        "answer_index": 3,
+        "explanation_en": "रहते belongs with तुम. When the speaker answers about himself the participle goes back to the singular रहता."
+      },
+      {
+        "id": "M07-MOCK-Q9",
+        "source_item_ids": [
+          "M07-L17-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "वे आए थे",
+          "वे आया था",
+          "मैं जाती था",
+          "वे जा रहा हैं"
+        ],
+        "answer_index": 0,
+        "explanation_en": "Both words go plural. Leaving either one singular is the same half-correction this module keeps producing."
+      },
+      {
+        "id": "M07-MOCK-Q10",
+        "source_item_ids": [
+          "M07-L24-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "मैं करऊँगा",
+          "वह जाएगा",
+          "वह जाएगा होगा",
+          "वह जाता है"
+        ],
+        "answer_index": 1,
+        "explanation_en": "The future needs no auxiliary at all, and होगा is itself a future. Stacking them says nothing extra."
+      },
+      {
+        "id": "M07-MOCK-Q11",
+        "source_item_ids": [
+          "M07-L04-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "वह कल आया था",
+          "तुम कहाँ होंगे?",
+          "हम रहते हैं",
+          "हम रहता है"
+        ],
+        "answer_index": 2,
+        "explanation_en": "हम is plural on both counts, so both the participle and the auxiliary have to be."
+      },
+      {
+        "id": "M07-MOCK-Q12",
+        "source_item_ids": [
+          "M07-L19-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "मैं सो रहा था और फिर मैं सो रहा था",
+          "जाता होगा",
+          "वह खाता खाएगा",
+          "मैं सो रहा था और फिर मैं सोया"
+        ],
+        "answer_index": 3,
+        "explanation_en": "The continuous describes an ongoing state and cannot narrate a completed event. Once something finishes, the aspect has to change."
+      },
+      {
+        "id": "M07-MOCK-Q13",
+        "source_item_ids": [
+          "M07-L08-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "वे जा रहे हैं",
+          "वे जा रहा हैं",
+          "वे आया था",
+          "आप पढ़ते हो"
+        ],
+        "answer_index": 0,
+        "explanation_en": "The marker has to go plural too. Fixing only the auxiliary is the same half-correction that showed up in the habitual."
+      },
+      {
+        "id": "M07-MOCK-Q14",
+        "source_item_ids": [
+          "M07-L14-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "जाता है",
+          "वह गया है",
+          "वह जाया है",
+          "वह आता है"
+        ],
+        "answer_index": 1,
+        "explanation_en": "जाया is what the rule predicts and it is not a word. जाना takes गया, and it is the only common verb that does anything this drastic."
+      },
+      {
+        "id": "M07-MOCK-Q15",
+        "source_item_ids": [
+          "M07-L02-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "तुम कहाँ गया था",
+          "वे जा रहा हैं",
+          "वे जाते हैं",
+          "वे जाता हैं"
+        ],
+        "answer_index": 2,
+        "explanation_en": "The participle has to go plural too. Fixing only the auxiliary is the commonest half-correction at this level."
+      },
+      {
+        "id": "M07-MOCK-Q16",
+        "source_item_ids": [
+          "M07-L09-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "लड़की किताब पढ़ रहा है",
+          "वे जाती थे",
+          "वे जाते होगा",
+          "लड़की किताब पढ़ रही है"
+        ],
+        "answer_index": 3,
+        "explanation_en": "The marker agrees with the subject लड़की, which is feminine. किताब being feminine too is a coincidence here and not the reason."
+      },
+      {
+        "id": "M07-MOCK-Q17",
+        "source_item_ids": [
+          "M07-L22-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "वे जाएंगे",
+          "वे जाएगा",
+          "नहीं, वह अभी आई है।",
+          "राम की"
+        ],
+        "answer_index": 0,
+        "explanation_en": "-एगा is singular. With no auxiliary present, the ending is the only thing marking the plural."
+      },
+      {
+        "id": "M07-MOCK-Q18",
+        "source_item_ids": [
+          "M07-L23-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "वे आया था",
+          "तुम जाओगे",
+          "तुम जाएंगे",
+          "वे जातीं हैं"
+        ],
+        "answer_index": 1,
+        "explanation_en": "-एंगे belongs to आप, हम and वे. Using it with तुम mixes two registers inside one sentence."
+      },
+      {
+        "id": "M07-MOCK-Q19",
+        "source_item_ids": [
+          "M07-L21-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "वह अभी पढ़ता है",
+          "मैं गाँव में रहते था।",
+          "तुम कहाँ होगे?",
+          "तुम कहाँ होंगे?"
+        ],
+        "answer_index": 2,
+        "explanation_en": "होंगे belongs to आप, हम and वे. तुम has held plural agreement everywhere else in this module, so this is the one place it breaks step."
+      },
+      {
+        "id": "M07-MOCK-Q20",
+        "source_item_ids": [
+          "M07-L28-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "मत जाएंगे",
+          "करिए",
+          "वे गईं हैं",
+          "मत जाइए"
+        ],
+        "answer_index": 3,
+        "explanation_en": "जाएंगे is the future, which is a prediction rather than an instruction. मत only ever attaches to an imperative."
+      },
+      {
+        "id": "M07-MOCK-Q21",
+        "source_item_ids": [
+          "M07-L29-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "क्या हुआ था?",
+          "क्या था हुआ?",
+          "आप आओ",
+          "वह जाया है"
+        ],
+        "answer_index": 0,
+        "explanation_en": "The participle comes first and the auxiliary sits behind it, exactly as with every other verb in the module."
+      },
+      {
+        "id": "M07-MOCK-Q22",
+        "source_item_ids": [
+          "M06-L13-I3"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "भाईयों के लिए",
+          "भाइयों और बहनों के साथ",
+          "भाईयों और बहनियों के साथ",
+          "बेटों अच्छे हैं।"
+        ],
+        "answer_index": 1,
+        "explanation_en": "Two errors at once: भाई must shorten its vowel, and बहन has no vowel for a य to bridge."
+      },
+      {
+        "id": "M07-MOCK-Q23",
+        "source_item_ids": [
+          "M06-L12-I1"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "बेटे अच्छा है।",
+          "भाईयों के लिए",
+          "किताबों में",
+          "किताबियों में"
+        ],
+        "answer_index": 2,
+        "explanation_en": "The य and the shortened vowel belong to nouns ending in a long -ी. किताब ends in a consonant, so -ों attaches directly."
+      },
+      {
+        "id": "M07-MOCK-Q24",
+        "source_item_ids": [
+          "M06-L22-I2"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "लड़के का घर में",
+          "पाने और चाये में",
+          "कुत्ता को",
+          "लड़के के घर में"
+        ],
+        "answer_index": 3,
+        "explanation_en": "में makes the possessed noun oblique, and the marker agrees with that noun in whatever state it is in."
+      },
+      {
+        "id": "M07-MOCK-Q25",
+        "source_item_ids": [
+          "M06-L17-I2"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "अच्छी चाय में",
+          "अच्छे चाय में",
+          "लड़कीों को",
+          "बच्चों के लिए दूध हैं।"
+        ],
+        "answer_index": 0,
+        "explanation_en": "चाय is feminine, which is exactly why Module 4 asked you to memorise it. The masculine oblique -े never applies here."
+      },
+      {
+        "id": "M07-MOCK-Q26",
+        "source_item_ids": [
+          "M06-L13-I1"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "आदमे को",
+          "बेटे और बेटी को",
+          "बेटा और बेटी को",
+          "लड़के को"
+        ],
+        "answer_index": 1,
+        "explanation_en": "को governs both nouns, so बेटा must go oblique even though it is not the word sitting directly in front of the postposition."
+      },
+      {
+        "id": "M07-MOCK-Q27",
+        "source_item_ids": [
+          "M06-L01-I1"
+        ],
+        "type": "spot_the_error",
+        "prompt_en": "Which of these is the grammatically correct sentence/phrase?",
+        "options": [
+          "बिल्ले को",
+          "घरे में",
+          "बेटे को",
+          "बेटा को"
+        ],
+        "answer_index": 2,
+        "explanation_en": "A postposition forces the oblique form, and बेटा changes to बेटे."
+      },
+      {
+        "id": "M07-MOCK-Q28",
+        "source_item_ids": [
+          "M04-L01-I1"
+        ],
+        "type": "review_gender_sort",
+        "prompt_en": "Fill the blank: ___ परिवार ('family', my ...).",
+        "options": [
+          "मेरी",
+          "मेरे",
+          "मेरों",
+          "मेरा"
+        ],
+        "answer_index": 3,
+        "explanation_en": "परिवार ('family') is masculine."
+      },
+      {
+        "id": "M07-MOCK-Q29",
+        "source_item_ids": [
+          "M04-L05-I1"
+        ],
+        "type": "review_gender_sort",
+        "prompt_en": "Fill the blank: ___ सिर ('head', my ...).",
+        "options": [
+          "मेरा",
+          "मेरी",
+          "मेरे",
+          "मेरों"
+        ],
+        "answer_index": 0,
+        "explanation_en": "सिर ('head') is masculine."
+      },
+      {
+        "id": "M07-MOCK-Q30",
+        "source_item_ids": [
+          "M04-L08-I2"
+        ],
+        "type": "review_gender_sort",
+        "prompt_en": "Fill the blank: ___ पीठ ('back', my ...).",
+        "options": [
+          "मेरा",
+          "मेरी",
+          "मेरे",
+          "मेरों"
+        ],
+        "answer_index": 1,
+        "explanation_en": "पीठ ('back') is feminine."
+      }
+    ]
+  }
+}

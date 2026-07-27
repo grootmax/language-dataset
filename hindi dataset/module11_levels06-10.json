@@ -1,0 +1,1581 @@
+{
+  "module": 11,
+  "module_name_en": "Compound Verbs, Modals and Causatives",
+  "module_name_hi": "संयुक्त क्रिया, सकना और प्रेरणार्थक",
+  "phase": 4,
+  "batch": {
+    "levels_from": 6,
+    "levels_to": 10
+  },
+  "levels": [
+    {
+      "level": 6,
+      "title_en": "जाना — a boundary crossed",
+      "title_hi": "जाना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L06-I1",
+          "type": "grammar",
+          "target": "आ जाना",
+          "read_as": "aa jaanaa",
+          "pronunciation_notes": "Two long syllables with a clean break: aa jaa-naa.",
+          "gloss_en": "to arrive, to get here",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "compound_verb",
+            "jaanaa",
+            "intransitive_vector",
+            "no_ne",
+            "motion"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जाना completes the arrival",
+              "explanation_en": "जाना as a vector marks completion, and with verbs of motion or change it marks that the change has actually happened. वह आ गया is \"he's arrived\" — more definite than वह आया, which just says he came. Both आना and जाना are intransitive, so there is no ने anywhere and the verb agrees with the subject: वह आ गई for a woman. The imperative आ जाओ is everywhere in spoken Hindi and is warmer than plain आओ — closer to \"come on over\" than to \"come\".",
+              "vectorless_equivalent": {
+                "with_vector": "वह आ गया।",
+                "without_vector": "वह आया।",
+                "difference_en": "Both correct. गया says the arrival is complete and he is here; आया reports that he came."
+              },
+              "examples": [
+                {
+                  "hindi": "वह आ गया।",
+                  "read_as": "vah aa gayaa.",
+                  "english": "He's arrived.",
+                  "note": "Both verbs intransitive, so no ने."
+                },
+                {
+                  "hindi": "आ जाओ।",
+                  "read_as": "aa jaao.",
+                  "english": "Come on over.",
+                  "note": "Warmer than plain आओ; very common in speech."
+                },
+                {
+                  "hindi": "वह आ गई।",
+                  "read_as": "vah aa gaii.",
+                  "english": "She's arrived.",
+                  "note": "The vector agrees with the subject, because there is no ने to change that."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने आ गया।",
+                "right": "वह आ गया।",
+                "why_en": "Neither आना nor जाना is transitive, so ने has nothing to attach to."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "He has arrived and is here now. Pick the vector.",
+              "question": "वह आ ___ ।",
+              "question_read_as": "vah aa ___ .",
+              "options": [
+                "लिया",
+                "दिया",
+                "गया",
+                "पड़ा"
+              ],
+              "options_read_as": [
+                "liyaa",
+                "diyaa",
+                "gayaa",
+                "paṛaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "जाना marks the completed arrival, and it brings no ने with it."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You want to say he's arrived — he is here now.",
+              "options": [
+                "वह आ गया।",
+                "वह आ रहा है।",
+                "वह आता है।",
+                "वह आया।"
+              ],
+              "options_read_as": [
+                "vah aa gayaa.",
+                "vah aa rahaa hai.",
+                "vah aataa hai.",
+                "vah aayaa."
+              ],
+              "answer_index": 0,
+              "explanation_en": "All four are correct Hindi. आ गया says the arrival is complete; आया reports it; the last two describe it in progress or as a habit."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह आ गया।",
+              "आ जाओ।",
+              "वह आ गई।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L06-I2",
+          "type": "grammar",
+          "target": "हो जाना",
+          "read_as": "ho jaanaa",
+          "pronunciation_notes": null,
+          "gloss_en": "to become, to get done — a change of state",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "compound_verb",
+            "jaanaa",
+            "change_of_state",
+            "high_frequency",
+            "no_ne"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "हो गया — it changed",
+              "explanation_en": "हो जाना is the workhorse of change. काम हो गया, the work is done. वह बीमार हो गया, he fell ill — not \"was ill\" but \"became ill\". देर हो गई, it's got late, with देर feminine so the vector is गई. The plain हुआ exists and reports that something happened; हो गया adds that a state has been crossed into. If you learn one जाना compound, learn this one. It is everywhere, and it is the natural way to say that something is now done.",
+              "vectorless_equivalent": {
+                "with_vector": "काम हो गया।",
+                "without_vector": "काम हुआ।",
+                "difference_en": "Both correct. हो गया says the work is now in a finished state; हुआ says it happened."
+              },
+              "examples": [
+                {
+                  "hindi": "काम हो गया।",
+                  "read_as": "kaam ho gayaa.",
+                  "english": "The work is done.",
+                  "note": "A state has been reached."
+                },
+                {
+                  "hindi": "वह बीमार हो गया।",
+                  "read_as": "vah biimaar ho gayaa.",
+                  "english": "He fell ill.",
+                  "note": "Became ill, rather than was ill."
+                },
+                {
+                  "hindi": "देर हो गई।",
+                  "read_as": "der ho gaii.",
+                  "english": "It's got late.",
+                  "note": "देर is feminine, so गई."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने बीमार हो गया।",
+                "right": "वह बीमार हो गया।",
+                "why_en": "होना and जाना are both intransitive, so no ने."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The subject is देर, which is feminine. Complete the compound.",
+              "question": "देर हो ___ ।",
+              "question_read_as": "der ho ___ .",
+              "options": [
+                "गए",
+                "गईं",
+                "गया",
+                "गई"
+              ],
+              "options_read_as": [
+                "gae",
+                "gaiiṁ",
+                "gayaa",
+                "gaii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "देर is feminine singular, and with no ने the verb agrees with it."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You want to say the work is finished — the state has changed.",
+              "options": [
+                "काम हुआ।",
+                "काम हो गया।",
+                "काम होता है।",
+                "काम हो रहा है।"
+              ],
+              "options_read_as": [
+                "kaam huaa.",
+                "kaam ho gayaa.",
+                "kaam hotaa hai.",
+                "kaam ho rahaa hai."
+              ],
+              "answer_index": 1,
+              "explanation_en": "All four are correct. हो गया marks the crossing into a finished state; the others report, generalise, or describe it in progress."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "काम हो गया।",
+              "वह बीमार हो गया।",
+              "देर हो गई।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L06-I3",
+          "type": "grammar",
+          "target": "सो जाना",
+          "read_as": "so jaanaa",
+          "pronunciation_notes": null,
+          "gloss_en": "to fall asleep — the moment of crossing",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "compound_verb",
+            "jaanaa",
+            "change_of_state",
+            "no_ne"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Crossing into a state",
+              "explanation_en": "सोना is to sleep; सो जाना is to fall asleep — the moment of crossing rather than the state itself. वह सो गया. Compare वह सोया, closer to \"he slept\", and वह सो रहा है, \"he is sleeping\". Hindi keeps these three apart cleanly where English leans on context. Notice the pattern forming across this level: जाना turns up wherever a boundary is crossed — arriving, becoming, falling asleep. That is the single idea behind all three items.",
+              "vectorless_equivalent": {
+                "with_vector": "वह सो गया।",
+                "without_vector": "वह सोया।",
+                "difference_en": "Both correct. सो गया is the moment of falling asleep; सोया is closer to \"he slept\"."
+              },
+              "examples": [
+                {
+                  "hindi": "वह सो गया।",
+                  "read_as": "vah so gayaa.",
+                  "english": "He fell asleep.",
+                  "note": "The moment of crossing over."
+                },
+                {
+                  "hindi": "बच्चा सो गया।",
+                  "read_as": "bacchaa so gayaa.",
+                  "english": "The child has fallen asleep.",
+                  "note": "Still no ने; सोना is intransitive."
+                },
+                {
+                  "hindi": "वह सो रहा है।",
+                  "read_as": "vah so rahaa hai.",
+                  "english": "He is sleeping.",
+                  "note": "The state, not the crossing. No vector needed at all."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने सो गया।",
+                "right": "वह सो गया।",
+                "why_en": "सोना is intransitive, and so is जाना."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The child has fallen asleep. Pick the vector.",
+              "question": "बच्चा सो ___ ।",
+              "question_read_as": "bacchaa so ___ .",
+              "options": [
+                "गया",
+                "पड़ा",
+                "लिया",
+                "दिया"
+              ],
+              "options_read_as": [
+                "gayaa",
+                "paṛaa",
+                "liyaa",
+                "diyaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "जाना marks the crossing into sleep."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You want to say he fell asleep — the moment it happened.",
+              "options": [
+                "वह सोता है।",
+                "वह सोया।",
+                "वह सो गया।",
+                "वह सो रहा है।"
+              ],
+              "options_read_as": [
+                "vah sotaa hai.",
+                "vah soyaa.",
+                "vah so gayaa.",
+                "vah so rahaa hai."
+              ],
+              "answer_index": 2,
+              "explanation_en": "All four are correct. सो गया is the crossing; the others are the event, the state, and the habit."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह सो गया।",
+              "बच्चा सो गया।",
+              "वह सो रहा है।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "जाना marks a boundary crossed — arriving, becoming, falling asleep. It is intransitive, so जाना compounds never take ने and the verb agrees with the subject. हो जाना is the one to learn first; it is everywhere.",
+        "key_forms": [
+          "वह आ गया",
+          "काम हो गया",
+          "वह सो गया"
+        ],
+        "next_up_en": "Next: the जाना compound that refuses ने even though its main verb is transitive."
+      }
+    },
+    {
+      "level": 7,
+      "title_en": "The compound that refuses ने",
+      "title_hi": "खा गया · भूल गया · चला गया",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L07-I1",
+          "type": "grammar",
+          "target": "खा जाना",
+          "read_as": "khaa jaanaa",
+          "pronunciation_notes": null,
+          "gloss_en": "to eat the lot — and the compound that takes no ने",
+          "gender": null,
+          "difficulty": 9,
+          "tags": [
+            "compound_verb",
+            "jaanaa",
+            "no_ne",
+            "module9_link",
+            "core_rule",
+            "counterintuitive"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A transitive verb whose compound takes no ने",
+              "explanation_en": "This is the most surprising fact in the module. खाना is transitive. Module 9 spent sixteen levels teaching you that a perfective transitive takes ने. And वह सब खा गया takes none. The rule governing compounds is stricter than the one for simple verbs: ने appears only when the main verb and the vector are both transitive. खाना is transitive but जाना is not, so the compound behaves intransitively — the subject stays plain and the verb agrees with the subject, giving वह खा गई for a woman. The nuance of खा जाना is \"ate the lot, polished it off\", usually with a hint that it was more than expected.",
+              "vectorless_equivalent": {
+                "with_vector": "वह सब खा गया।",
+                "without_vector": "उसने सब खाया।",
+                "difference_en": "Both correct — and notice the subject changes shape between them. The plain transitive takes ने; the जाना compound does not."
+              },
+              "examples": [
+                {
+                  "hindi": "वह सब खा गया।",
+                  "read_as": "vah sab khaa gayaa.",
+                  "english": "He ate the lot.",
+                  "note": "No ने, because जाना is intransitive."
+                },
+                {
+                  "hindi": "उसने सब खा लिया।",
+                  "read_as": "usne sab khaa liyaa.",
+                  "english": "He finished it all.",
+                  "note": "लेना is transitive, so ने returns. Same main verb, opposite marking."
+                },
+                {
+                  "hindi": "वह सारी मिठाई खा गई।",
+                  "read_as": "vah saarii miṭhaaii khaa gaii.",
+                  "english": "She polished off all the sweets.",
+                  "note": "The verb agrees with the subject, not with मिठाई."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने सब खा गया।",
+                "right": "वह सब खा गया।",
+                "why_en": "The compound is intransitive because जाना is, so there is nothing for ने to attach to."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "He polished off the lot. Pick the vector.",
+              "question": "वह सब खा ___ ।",
+              "question_read_as": "vah sab khaa ___ .",
+              "options": [
+                "दिया",
+                "गया",
+                "पड़ा",
+                "लिया"
+              ],
+              "options_read_as": [
+                "diyaa",
+                "gayaa",
+                "paṛaa",
+                "liyaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "गया — and notice the subject is वह, not उसने. With लिया the sentence would have to be उसने सब खा लिया."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "He polished off the lot — more than you would have expected.",
+              "options": [
+                "उसने सब खा लिया।",
+                "वह सब खाता है।",
+                "उसने सब खाया।",
+                "वह सब खा गया।"
+              ],
+              "options_read_as": [
+                "usne sab khaa liyaa.",
+                "vah sab khaataa hai.",
+                "usne sab khaayaa.",
+                "vah sab khaa gayaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "All four are correct Hindi. खा गया carries the sense of polishing it off; खा लिया just finishes it; the first reports it and the last is habitual. Note the subject marking changes with the vector."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह सब खा गया।",
+              "उसने सब खा लिया।",
+              "वह सारी मिठाई खा गई।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L07-I2",
+          "type": "grammar",
+          "target": "भूल जाना",
+          "read_as": "bhuul jaanaa",
+          "pronunciation_notes": null,
+          "gloss_en": "to clean forget — the everyday form",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "compound_verb",
+            "jaanaa",
+            "no_ne",
+            "module9_link",
+            "ne_exception"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The verb that already refused ने",
+              "explanation_en": "भूलना was one of Module 9's three exceptions — it takes no ने on its own. Add जाना and it takes none for a second reason as well. वह नाम भूल गया is the ordinary everyday way to say you forgot something; the bare वह नाम भूला is correct but sounds bookish beside it. Two independent rules pointing the same way is worth noticing, because it means you cannot get this one wrong by reasoning from either direction.",
+              "vectorless_equivalent": {
+                "with_vector": "वह नाम भूल गया।",
+                "without_vector": "वह नाम भूला।",
+                "difference_en": "Both correct and both without ने. The compound is what people actually say; the bare form reads as literary."
+              },
+              "examples": [
+                {
+                  "hindi": "वह नाम भूल गया।",
+                  "read_as": "vah naam bhuul gayaa.",
+                  "english": "He forgot the name.",
+                  "note": "The everyday form."
+                },
+                {
+                  "hindi": "मैं भूल गया।",
+                  "read_as": "maiṁ bhuul gayaa.",
+                  "english": "I forgot.",
+                  "note": "No object at all, and still no ने."
+                },
+                {
+                  "hindi": "लड़का किताब भूल गया।",
+                  "read_as": "laṛkaa kitaab bhuul gayaa.",
+                  "english": "The boy forgot the book.",
+                  "note": "किताब is feminine and the verb is masculine, because it is watching the subject."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने नाम भूल गया।",
+                "right": "वह नाम भूल गया।",
+                "why_en": "Neither भूलना nor जाना takes ने, so there are two reasons the subject stays plain."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "He clean forgot the name. Pick the vector.",
+              "question": "वह नाम भूल ___ ।",
+              "question_read_as": "vah naam bhuul ___ .",
+              "options": [
+                "लिया",
+                "दिया",
+                "गया",
+                "पड़ा"
+              ],
+              "options_read_as": [
+                "liyaa",
+                "diyaa",
+                "gayaa",
+                "paṛaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "भूल जाना is the standard compound, and जाना brings no ने."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You want to say you simply forgot — the everyday way to put it.",
+              "options": [
+                "मैं भूल गया।",
+                "मैं भूलता हूँ।",
+                "मैं भूल रहा हूँ।",
+                "मैं भूला।"
+              ],
+              "options_read_as": [
+                "maiṁ bhuul gayaa.",
+                "maiṁ bhuultaa huuṁ.",
+                "maiṁ bhuul rahaa huuṁ.",
+                "maiṁ bhuulaa."
+              ],
+              "answer_index": 0,
+              "explanation_en": "All four are grammatical. भूल गया is what people say; भूला is correct but literary; the others are habitual and progressive."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह नाम भूल गया।",
+              "मैं भूल गया।",
+              "लड़का किताब भूल गया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L07-I3",
+          "type": "grammar",
+          "target": "चला जाना",
+          "read_as": "chalaa jaanaa",
+          "pronunciation_notes": "cha-laa jaa-naa. The first element is चला, not चल — and that is the point of this item.",
+          "gloss_en": "to leave, to be gone — the one compound where both words move",
+          "gender": null,
+          "difficulty": 9,
+          "tags": [
+            "compound_verb",
+            "jaanaa",
+            "irregular",
+            "double_agreement",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The exception to \"only the vector inflects\"",
+              "explanation_en": "चला जाना means to go away, to leave for good — and it breaks the rule this module has been building. वह चला गया, वह चली गई, वे चले गए: both words agree, not just the vector. This is a small closed set of idioms and चला जाना is by far the commonest member, so learn it as a unit rather than trying to derive it. Everything else about it is regular — चलना and जाना are both intransitive, so no ने, and the agreement is with the subject. Worth knowing that वह चल गई is not an error but a different sentence: it is what you say of a car that has started moving.",
+              "vectorless_equivalent": {
+                "with_vector": "वह चला गया।",
+                "without_vector": "वह गया।",
+                "difference_en": "Both correct but not the same. वह गया says he went; वह चला गया says he left, and the leaving is the point."
+              },
+              "examples": [
+                {
+                  "hindi": "वह चला गया।",
+                  "read_as": "vah chalaa gayaa.",
+                  "english": "He's gone.",
+                  "note": "Both words masculine singular."
+                },
+                {
+                  "hindi": "वह चली गई।",
+                  "read_as": "vah chalii gaii.",
+                  "english": "She's gone.",
+                  "note": "Both words feminine. This is the irregularity."
+                },
+                {
+                  "hindi": "वे चले गए।",
+                  "read_as": "ve chale gae.",
+                  "english": "They've gone.",
+                  "note": "Both plural. The pattern holds all the way through."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह चल गई।",
+                "right": "वह चली गई।",
+                "why_en": "For \"she left\", the first element agrees too, giving चली. वह चल गई exists but means something else — it is what you say of a car that has started moving."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "She has left. Complete the first element.",
+              "question": "वह ___ गई।",
+              "question_read_as": "vah ___ gaii.",
+              "options": [
+                "चले",
+                "चल",
+                "चला",
+                "चली"
+              ],
+              "options_read_as": [
+                "chale",
+                "chal",
+                "chalaa",
+                "chalii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "In चला जाना the first element agrees as well, so a feminine subject gives चली गई."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "She's gone — she left.",
+              "options": [
+                "वह गई।",
+                "वह चली गई।",
+                "वह चल गई।",
+                "वह जा रही है।"
+              ],
+              "options_read_as": [
+                "vah gaii.",
+                "vah chalii gaii.",
+                "vah chal gaii.",
+                "vah jaa rahii hai."
+              ],
+              "answer_index": 1,
+              "explanation_en": "All four are grammatical. चली गई is departure; वह गई just says she went; वह चल गई is about something starting to move; the last is in progress."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह चला गया।",
+              "वह चली गई।",
+              "वे चले गए।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "ने appears only when the main verb and the vector are both transitive, so वह सब खा गया takes none even though खाना is transitive. भूल जाना is doubly exempt. And चला जाना is the one compound where the first element agrees too — चला गया, चली गई, चले गए.",
+        "key_forms": [
+          "वह सब खा गया",
+          "वह भूल गया",
+          "वह चली गई"
+        ],
+        "next_up_en": "Next: पड़ना, for the things that happen to you before you can stop them."
+      }
+    },
+    {
+      "level": 8,
+      "title_en": "पड़ना — sudden and involuntary",
+      "title_hi": "पड़ना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L08-I1",
+          "type": "grammar",
+          "target": "रो पड़ना",
+          "read_as": "ro paṛnaa",
+          "pronunciation_notes": "पड़ uses the flapped ṛ — the tongue flicks down off the roof of the mouth.",
+          "gloss_en": "to burst into tears",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "compound_verb",
+            "paṛnaa",
+            "involuntary",
+            "sudden",
+            "no_ne"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पड़ना is what happens to you, suddenly",
+              "explanation_en": "पड़ना as a vector marks an action that is sudden, involuntary, and often unwanted. वह रो पड़ा is \"he burst into tears\" — not a decision, a collapse. Compare वह रोया, \"he cried\", which says nothing about how it began. पड़ना is intransitive, so there is no ने and the verb agrees with the subject. Of the four vectors this is the narrowest in meaning and therefore the easiest to place: if the action took the person by surprise, पड़ना is the one.",
+              "vectorless_equivalent": {
+                "with_vector": "वह रो पड़ा।",
+                "without_vector": "वह रोया।",
+                "difference_en": "Both correct. पड़ा says it came over him; रोया reports that he cried and leaves the manner open."
+              },
+              "examples": [
+                {
+                  "hindi": "वह रो पड़ा।",
+                  "read_as": "vah ro paṛaa.",
+                  "english": "He burst into tears.",
+                  "note": "Sudden and involuntary."
+                },
+                {
+                  "hindi": "वह रोया।",
+                  "read_as": "vah royaa.",
+                  "english": "He cried.",
+                  "note": "Neutral. Nothing about how it started."
+                },
+                {
+                  "hindi": "वह अचानक रो पड़ी।",
+                  "read_as": "vah achaanak ro paṛii.",
+                  "english": "She suddenly burst into tears.",
+                  "note": "अचानक and पड़ना reinforce each other."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने रो पड़ा।",
+                "right": "वह रो पड़ा।",
+                "why_en": "रोना and पड़ना are both intransitive, so no ने."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "It came over him suddenly. Pick the vector.",
+              "question": "वह अचानक रो ___ ।",
+              "question_read_as": "vah achaanak ro ___ .",
+              "options": [
+                "पड़ा",
+                "लिया",
+                "दिया",
+                "गया"
+              ],
+              "options_read_as": [
+                "paṛaa",
+                "liyaa",
+                "diyaa",
+                "gayaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "पड़ना is the vector for something that takes the person by surprise."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "He burst into tears — it came over him before he could stop it.",
+              "options": [
+                "वह रोता है।",
+                "वह रोया।",
+                "वह रो पड़ा।",
+                "वह रो रहा था।"
+              ],
+              "options_read_as": [
+                "vah rotaa hai.",
+                "vah royaa.",
+                "vah ro paṛaa.",
+                "vah ro rahaa thaa."
+              ],
+              "answer_index": 2,
+              "explanation_en": "All four are correct. रो पड़ा carries the suddenness; रोया simply reports the crying."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह रो पड़ा।",
+              "वह रोया।",
+              "वह अचानक रो पड़ी।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L08-I2",
+          "type": "grammar",
+          "target": "हँस पड़ना",
+          "read_as": "haṁs paṛnaa",
+          "pronunciation_notes": "हँस carries a nasal hum on the vowel: haṁs, one syllable.",
+          "gloss_en": "to burst out laughing",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "compound_verb",
+            "paṛnaa",
+            "involuntary",
+            "feminine_subject",
+            "agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पड़ना with a feminine subject",
+              "explanation_en": "वह हँस पड़ी — she burst out laughing. Same involuntariness, and because the subject is feminine the vector is पड़ी. Worth noticing exactly what is agreeing here: there is no ने in the sentence, so the verb watches the subject, precisely as it did before Module 9 ever came up. The four forms are पड़ा, पड़ी, पड़े, पड़ीं, and which one you use depends only on who the subject is.",
+              "vectorless_equivalent": {
+                "with_vector": "वह हँस पड़ी।",
+                "without_vector": "वह हँसी।",
+                "difference_en": "Both correct. पड़ी says the laughter escaped her; हँसी just says she laughed."
+              },
+              "examples": [
+                {
+                  "hindi": "वह हँस पड़ी।",
+                  "read_as": "vah haṁs paṛii.",
+                  "english": "She burst out laughing.",
+                  "note": "Feminine subject, so पड़ी."
+                },
+                {
+                  "hindi": "सब हँस पड़े।",
+                  "read_as": "sab haṁs paṛe.",
+                  "english": "Everyone burst out laughing.",
+                  "note": "Plural, so पड़े."
+                },
+                {
+                  "hindi": "वह हँसी।",
+                  "read_as": "vah haṁsii.",
+                  "english": "She laughed.",
+                  "note": "Neutral, and still perfectly good Hindi."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह हँस पड़ा।",
+                "right": "वह हँस पड़ी।",
+                "why_en": "With a feminine subject and no ने in the sentence, the verb has to be feminine."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The subject is feminine and singular. Complete the compound.",
+              "question": "वह हँस ___ ।",
+              "question_read_as": "vah haṁs ___ .",
+              "options": [
+                "पड़ा",
+                "पड़ी",
+                "पड़े",
+                "पड़ीं"
+              ],
+              "options_read_as": [
+                "paṛaa",
+                "paṛii",
+                "paṛe",
+                "paṛiiṁ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "No ने, so the verb agrees with the feminine singular subject: पड़ी."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "She burst out laughing — she couldn't help it.",
+              "options": [
+                "वह हँस रही थी।",
+                "वह हँसती है।",
+                "वह हँसी।",
+                "वह हँस पड़ी।"
+              ],
+              "options_read_as": [
+                "vah haṁs rahii thii.",
+                "vah haṁstii hai.",
+                "vah haṁsii.",
+                "vah haṁs paṛii."
+              ],
+              "answer_index": 3,
+              "explanation_en": "All four are correct. हँस पड़ी is the one that says the laughter escaped her."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह हँस पड़ी।",
+              "सब हँस पड़े।",
+              "वह हँसी।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L08-I3",
+          "type": "grammar",
+          "target": "उठ पड़ना",
+          "read_as": "uṭh paṛnaa",
+          "pronunciation_notes": "Both consonants are retroflex and the ठ is aspirated: uṭh.",
+          "gloss_en": "to spring up",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "compound_verb",
+            "paṛnaa",
+            "sudden",
+            "physical",
+            "three_way_contrast"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पड़ना with physical actions",
+              "explanation_en": "उठ पड़ना is to get up abruptly, to spring up: वह उठ पड़ा. The involuntariness here is less about emotion and more about speed — no pause, no visible decision. Set it against वह उठा, which simply says he got up, and वह उठ गया, where जाना puts the emphasis on his now being up. Three vectors, three different things to say about the same movement, and none of the three is more correct than the others.",
+              "vectorless_equivalent": {
+                "with_vector": "वह उठ पड़ा।",
+                "without_vector": "वह उठा।",
+                "difference_en": "Both correct. पड़ा makes it abrupt; उठा simply reports that he got up."
+              },
+              "examples": [
+                {
+                  "hindi": "वह उठ पड़ा।",
+                  "read_as": "vah uṭh paṛaa.",
+                  "english": "He sprang up.",
+                  "note": "Abrupt, no pause."
+                },
+                {
+                  "hindi": "वह उठा।",
+                  "read_as": "vah uṭhaa.",
+                  "english": "He got up.",
+                  "note": "Neutral."
+                },
+                {
+                  "hindi": "वह उठ गया।",
+                  "read_as": "vah uṭh gayaa.",
+                  "english": "He got up.",
+                  "note": "जाना, so the emphasis is that he is now up rather than on how fast it was."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने उठ पड़ा।",
+                "right": "वह उठ पड़ा।",
+                "why_en": "उठना and पड़ना are both intransitive, so no ने."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "He sprang up, with no pause. Pick the vector.",
+              "question": "वह अचानक उठ ___ ।",
+              "question_read_as": "vah achaanak uṭh ___ .",
+              "options": [
+                "दिया",
+                "गया",
+                "पड़ा",
+                "लिया"
+              ],
+              "options_read_as": [
+                "diyaa",
+                "gayaa",
+                "paṛaa",
+                "liyaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "पड़ना for the abruptness. गया would say only that he ended up standing."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "He sprang up — no pause, no visible decision.",
+              "options": [
+                "वह उठ पड़ा।",
+                "वह उठता है।",
+                "वह उठा।",
+                "वह उठ गया।"
+              ],
+              "options_read_as": [
+                "vah uṭh paṛaa.",
+                "vah uṭhtaa hai.",
+                "vah uṭhaa.",
+                "vah uṭh gayaa."
+              ],
+              "answer_index": 0,
+              "explanation_en": "All four are correct Hindi. उठ पड़ा carries the abruptness; उठ गया says he is now up; उठा simply reports it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह उठ पड़ा।",
+              "वह उठा।",
+              "वह उठ गया।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "पड़ना marks the sudden and the involuntary — रो पड़ा, हँस पड़ी, उठ पड़ा. It is intransitive, so no ने, and the verb agrees with the subject. It is the narrowest of the four vectors and the easiest to place: if it took the person by surprise, use पड़ना.",
+        "key_forms": [
+          "वह रो पड़ा",
+          "वह हँस पड़ी",
+          "वह उठ पड़ा"
+        ],
+        "next_up_en": "Next: पड़ना with a transitive main verb, and all four vectors side by side."
+      }
+    },
+    {
+      "level": 9,
+      "title_en": "The rule, and all four vectors",
+      "title_hi": "चार वेक्टर",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L09-I1",
+          "type": "grammar",
+          "target": "कह पड़ना",
+          "read_as": "kah paṛnaa",
+          "pronunciation_notes": null,
+          "gloss_en": "to blurt out — the second diagnostic",
+          "gender": null,
+          "difficulty": 9,
+          "tags": [
+            "compound_verb",
+            "paṛnaa",
+            "no_ne",
+            "transitive_main_verb",
+            "core_rule"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A transitive main verb, and still no ने",
+              "explanation_en": "कहना is transitive — Module 9 made a point of it, setting उसने कहा against वह बोला. Put पड़ना behind it and the ने disappears: वह कह पड़ा. It is the same reason as खा गया. A compound takes ने only if both halves are transitive, and पड़ना is not. This is the second time the pattern has appeared, and once it clicks it covers every compound you will ever meet: look at the vector first, and if it is जाना or पड़ना, stop looking for ने.",
+              "vectorless_equivalent": {
+                "with_vector": "वह कह पड़ा।",
+                "without_vector": "उसने कहा।",
+                "difference_en": "Both correct, and notice the subject changes. The simple transitive takes ने; the पड़ना compound does not."
+              },
+              "examples": [
+                {
+                  "hindi": "वह कह पड़ा।",
+                  "read_as": "vah kah paṛaa.",
+                  "english": "He blurted it out.",
+                  "note": "कहना is transitive and there is still no ने."
+                },
+                {
+                  "hindi": "उसने कहा।",
+                  "read_as": "usne kahaa.",
+                  "english": "He said.",
+                  "note": "The simple verb, and here ने is required."
+                },
+                {
+                  "hindi": "वह अचानक कह पड़ी।",
+                  "read_as": "vah achaanak kah paṛii.",
+                  "english": "She suddenly blurted it out.",
+                  "note": "Feminine subject, feminine verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने कह पड़ा।",
+                "right": "वह कह पड़ा।",
+                "why_en": "पड़ना is intransitive, so the compound is too — whatever कहना does on its own."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "He blurted it out before he could stop himself. Pick the vector.",
+              "question": "वह कह ___ ।",
+              "question_read_as": "vah kah ___ .",
+              "options": [
+                "लिया",
+                "दिया",
+                "गया",
+                "पड़ा"
+              ],
+              "options_read_as": [
+                "liyaa",
+                "diyaa",
+                "gayaa",
+                "paṛaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "पड़ना for the involuntariness — and note the subject stays वह, not उसने."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "He blurted it out before he could stop himself.",
+              "options": [
+                "उसने कहा।",
+                "वह कह पड़ा।",
+                "उसने कह दिया।",
+                "वह कहता है।"
+              ],
+              "options_read_as": [
+                "usne kahaa.",
+                "vah kah paṛaa.",
+                "usne kah diyaa.",
+                "vah kahtaa hai."
+              ],
+              "answer_index": 1,
+              "explanation_en": "All four are correct. कह पड़ा is the involuntary one; कह दिया would mean he said it deliberately and finally. Notice the subject marking follows the vector."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह कह पड़ा।",
+              "उसने कहा।",
+              "वह अचानक कह पड़ी।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L09-I2",
+          "type": "grammar",
+          "target": "रो पड़ा या रो दिया",
+          "read_as": "ro paṛaa yaa ro diyaa",
+          "pronunciation_notes": null,
+          "gloss_en": "it happened to him, or he let it out",
+          "gender": null,
+          "difficulty": 9,
+          "tags": [
+            "compound_verb",
+            "paṛnaa",
+            "denaa",
+            "contrast",
+            "no_ne",
+            "core_rule"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Two ways to start crying",
+              "explanation_en": "वह रो पड़ा and वह रो दिया are both correct and differ in who is in charge. पड़ा says it happened to him. दिया says he let it out — a trace of volition, the tears released rather than escaping. And here is where the ने rule earns its keep: neither takes ने. रोना is intransitive, so no compound built on it takes ने, whatever the vector is. देना being transitive is not enough on its own — both halves have to be.",
+              "vectorless_equivalent": {
+                "with_vector": "वह रो पड़ा। / वह रो दिया।",
+                "without_vector": "वह रोया।",
+                "difference_en": "Three correct sentences: it overcame him, he let it out, or simply that he cried."
+              },
+              "examples": [
+                {
+                  "hindi": "वह रो पड़ा।",
+                  "read_as": "vah ro paṛaa.",
+                  "english": "He burst into tears.",
+                  "note": "It happened to him."
+                },
+                {
+                  "hindi": "वह रो दिया।",
+                  "read_as": "vah ro diyaa.",
+                  "english": "He let the tears come.",
+                  "note": "A trace of volition — and still no ने, because रोना is intransitive."
+                },
+                {
+                  "hindi": "वह रोया।",
+                  "read_as": "vah royaa.",
+                  "english": "He cried.",
+                  "note": "Neutral, and the third option as always."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने रो दिया।",
+                "right": "वह रो दिया।",
+                "why_en": "ने needs both halves transitive. रोना is not, so देना cannot bring ने in by itself."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "It came over him and he had no say in it. Pick the vector.",
+              "question": "वह रो ___ ।",
+              "question_read_as": "vah ro ___ .",
+              "options": [
+                "पड़ा",
+                "लिया",
+                "दिया",
+                "गया"
+              ],
+              "options_read_as": [
+                "paṛaa",
+                "liyaa",
+                "diyaa",
+                "gayaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "पड़ा for the involuntary version. दिया would put a trace of choice back in."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "He let the tears come — there was a trace of choice in it.",
+              "options": [
+                "वह रोया।",
+                "वह रो पड़ा।",
+                "वह रो दिया।",
+                "वह रो रहा था।"
+              ],
+              "options_read_as": [
+                "vah royaa.",
+                "vah ro paṛaa.",
+                "vah ro diyaa.",
+                "vah ro rahaa thaa."
+              ],
+              "answer_index": 2,
+              "explanation_en": "All four are correct. रो दिया carries the trace of volition; रो पड़ा is the involuntary one; and neither takes ने."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह रो पड़ा।",
+              "वह रो दिया।",
+              "वह रोया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L09-I3",
+          "type": "grammar",
+          "target": "चार वेक्टर",
+          "read_as": "chaar vekṭar",
+          "pronunciation_notes": null,
+          "gloss_en": "the four vectors side by side",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "compound_verb",
+            "capstone",
+            "summary",
+            "core_rule"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Four vectors, and two questions",
+              "explanation_en": "You now have all four. लेना completes the action and keeps the result with you: मैंने खाना खा लिया. देना completes it and sends the result outward, or makes it decisive: मैंने खाना बना दिया. जाना completes it and marks a boundary crossed: वह आ गया, वह सो गया. पड़ना marks the sudden and involuntary: वह रो पड़ा. Two questions settle everything else. First, which shade do you want — including none, which is always available. Second, are the main verb and the vector both transitive? If yes, the sentence takes ने. If either one is not, it does not, which means जाना and पड़ना compounds never take ने at all.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने खाना खा लिया।",
+                "without_vector": "मैंने खाना खाया।",
+                "difference_en": "The plain form has been correct throughout these nine levels and remains the right answer whenever you have no shade to add."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने खाना खा लिया।",
+                  "read_as": "maiṁne khaanaa khaa liyaa.",
+                  "english": "I've eaten.",
+                  "note": "Both halves transitive, so ने."
+                },
+                {
+                  "hindi": "वह सब खा गया।",
+                  "read_as": "vah sab khaa gayaa.",
+                  "english": "He ate the lot.",
+                  "note": "जाना is intransitive, so no ने."
+                },
+                {
+                  "hindi": "वह रो पड़ा।",
+                  "read_as": "vah ro paṛaa.",
+                  "english": "He burst into tears.",
+                  "note": "Neither half transitive, so no ने."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने सब खा गया।",
+                "right": "वह सब खा गया।",
+                "why_en": "जाना is intransitive, so the compound is too, and ने has nothing to attach to."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The laughter escaped her before she could stop it. Pick the vector.",
+              "question": "वह अचानक हँस ___ ।",
+              "question_read_as": "vah achaanak haṁs ___ .",
+              "options": [
+                "गई",
+                "पड़ी",
+                "ली",
+                "दी"
+              ],
+              "options_read_as": [
+                "gaii",
+                "paṛii",
+                "lii",
+                "dii"
+              ],
+              "answer_index": 1,
+              "explanation_en": "पड़ना for the involuntary, and पड़ी because the subject is feminine and there is no ने."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "The work got finished — the state changed, and you are not saying who did it or for whom.",
+              "options": [
+                "उसने काम कर लिया।",
+                "उसने काम कर दिया।",
+                "काम हुआ।",
+                "काम हो गया।"
+              ],
+              "options_read_as": [
+                "usne kaam kar liyaa.",
+                "usne kaam kar diyaa.",
+                "kaam huaa.",
+                "kaam ho gayaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "All four are correct Hindi. हो गया reports the change of state without an agent; the last two name a doer and take ने because both halves are transitive."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने खाना खा लिया।",
+              "वह सब खा गया।",
+              "वह रो पड़ा।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A compound takes ने only when the main verb and the vector are both transitive. कह पड़ा and रो दिया both take none, for the same reason from opposite directions. And the four vectors divide cleanly: लेना inward, देना outward or decisive, जाना a boundary crossed, पड़ना sudden and involuntary.",
+        "key_forms": [
+          "वह कह पड़ा",
+          "वह रो दिया",
+          "वह सब खा गया"
+        ],
+        "next_up_en": "Next: सकना — built the same way, but changing what the sentence claims rather than how it feels."
+      }
+    },
+    {
+      "level": 10,
+      "title_en": "सकना — ability",
+      "title_hi": "सकना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L10-I1",
+          "type": "grammar",
+          "target": "कर सकना",
+          "read_as": "kar saknaa",
+          "pronunciation_notes": null,
+          "gloss_en": "to be able to do",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "saknaa",
+            "ability",
+            "bare_stem",
+            "no_ne",
+            "modal"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सकना attaches to a stem, never to an infinitive",
+              "explanation_en": "सकना means \"can\", and like a vector it attaches to a bare stem: मैं कर सकता हूँ. It is never used with an infinitive — मैं यह करना सकता हूँ is not Hindi — and it never stands on its own. सकना is intransitive, so it takes no ने in any tense, and the verb agrees with the subject throughout: मैं कर सकता हूँ, वह कर सकती है, हम कर सकते हैं. One honest note: सकना is not a vector in the nuance sense. It changes what the sentence claims rather than shading how it feels. It sits here because it is built the same way.",
+              "vectorless_equivalent": {
+                "with_vector": "मैं यह कर सकता हूँ।",
+                "without_vector": "मैं यह करता हूँ।",
+                "difference_en": "Unlike लेना and देना, dropping सकना changes the meaning rather than the emphasis — from \"I can do this\" to \"I do this\"."
+              },
+              "examples": [
+                {
+                  "hindi": "मैं यह कर सकता हूँ।",
+                  "read_as": "maiṁ yah kar saktaa huuṁ.",
+                  "english": "I can do this.",
+                  "note": "Bare stem कर, then सकता agreeing with मैं."
+                },
+                {
+                  "hindi": "वह यह कर सकती है।",
+                  "read_as": "vah yah kar saktii hai.",
+                  "english": "She can do this.",
+                  "note": "Feminine subject, so सकती."
+                },
+                {
+                  "hindi": "हम कर सकते हैं।",
+                  "read_as": "ham kar sakte haiṁ.",
+                  "english": "We can do it.",
+                  "note": "Plural, so सकते हैं."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं यह करना सकता हूँ।",
+                "right": "मैं यह कर सकता हूँ।",
+                "why_en": "सकना takes a bare stem, never an infinitive."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "Complete the form that सकना requires.",
+              "question": "मैं यह ___ सकता हूँ।",
+              "question_read_as": "maiṁ yah ___ saktaa huuṁ.",
+              "options": [
+                "करता",
+                "करना",
+                "कर",
+                "किया"
+              ],
+              "options_read_as": [
+                "kartaa",
+                "karnaa",
+                "kar",
+                "kiyaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The bare stem कर. An infinitive cannot stand in front of सकना."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You want to say you are able to do this.",
+              "options": [
+                "मैं यह कर सकता हूँ।",
+                "मैं यह कर लेता हूँ।",
+                "मैं यह करूँगा।",
+                "मैं यह करता हूँ।"
+              ],
+              "options_read_as": [
+                "maiṁ yah kar saktaa huuṁ.",
+                "maiṁ yah kar letaa huuṁ.",
+                "maiṁ yah karuuṁgaa.",
+                "maiṁ yah kartaa huuṁ."
+              ],
+              "answer_index": 0,
+              "explanation_en": "All four are correct Hindi, but only सकता claims ability. The others say you do it, you get it done, or you will do it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं यह कर सकता हूँ।",
+              "वह यह कर सकती है।",
+              "हम कर सकते हैं।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L10-I2",
+          "type": "grammar",
+          "target": "जा सकना",
+          "read_as": "jaa saknaa",
+          "pronunciation_notes": null,
+          "gloss_en": "to be able to go — and asking permission",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "saknaa",
+            "ability",
+            "permission",
+            "no_ne",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "क्या मैं जा सकता हूँ?",
+              "explanation_en": "सकना works the same way with intransitive verbs: मैं जा सकता हूँ. Its most useful everyday job is asking permission — क्या मैं जा सकता हूँ? is \"may I go?\", and it is what you say to leave a room politely. The negative is मैं नहीं जा सकता, with the auxiliary usually dropped. And सकना never takes ने even in the perfective: मैं नहीं जा सका, not मैंने.",
+              "vectorless_equivalent": {
+                "with_vector": "मैं जा सकता हूँ।",
+                "without_vector": "मैं जाता हूँ।",
+                "difference_en": "Again a change of meaning rather than shade — \"I can go\" against \"I go\"."
+              },
+              "examples": [
+                {
+                  "hindi": "मैं जा सकता हूँ।",
+                  "read_as": "maiṁ jaa saktaa huuṁ.",
+                  "english": "I can go.",
+                  "note": "Bare stem जा."
+                },
+                {
+                  "hindi": "क्या मैं जा सकता हूँ?",
+                  "read_as": "kyaa maiṁ jaa saktaa huuṁ?",
+                  "english": "May I go?",
+                  "note": "The everyday permission question."
+                },
+                {
+                  "hindi": "मैं नहीं जा सकता।",
+                  "read_as": "maiṁ nahiiṁ jaa saktaa.",
+                  "english": "I can't go.",
+                  "note": "Negative, with the auxiliary dropped as usual."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने जा सका।",
+                "right": "मैं जा सका।",
+                "why_en": "सकना never takes ने, in any tense."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "Complete the form that सकना requires.",
+              "question": "क्या मैं ___ सकता हूँ?",
+              "question_read_as": "kyaa maiṁ ___ saktaa huuṁ?",
+              "options": [
+                "गया",
+                "जाता",
+                "जाना",
+                "जा"
+              ],
+              "options_read_as": [
+                "gayaa",
+                "jaataa",
+                "jaanaa",
+                "jaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The bare stem जा."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You want to ask politely whether you may leave.",
+              "options": [
+                "मैं जाता हूँ।",
+                "क्या मैं जा सकता हूँ?",
+                "मैं जा रहा हूँ।",
+                "मैं जाऊँगा।"
+              ],
+              "options_read_as": [
+                "maiṁ jaataa huuṁ.",
+                "kyaa maiṁ jaa saktaa huuṁ?",
+                "maiṁ jaa rahaa huuṁ.",
+                "maiṁ jaauṁgaa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "All four are correct Hindi. Only the second asks; the others announce that you are going."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं जा सकता हूँ।",
+              "क्या मैं जा सकता हूँ?",
+              "मैं नहीं जा सकता।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L10-I3",
+          "type": "grammar",
+          "target": "बोल सकना",
+          "read_as": "bol saknaa",
+          "pronunciation_notes": null,
+          "gloss_en": "to be able to speak",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "saknaa",
+            "ability",
+            "subject_agreement",
+            "module10_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सकना agrees with the subject, always",
+              "explanation_en": "वह हिंदी बोल सकती है. There is no ने anywhere in a सकना sentence, so the verb agrees with the subject — and it is सकती carrying that agreement, not बोल. Same division of labour as every compound in this module: the first element is fixed, the last one moves. Worth checking against your Module 9 instincts: हिंदी is feminine and has no effect here at all, because there is no ने to make the object matter.",
+              "vectorless_equivalent": {
+                "with_vector": "वह हिंदी बोल सकती है।",
+                "without_vector": "वह हिंदी बोलती है।",
+                "difference_en": "\"She can speak Hindi\" against \"she speaks Hindi\" — again a change of claim, not of shade."
+              },
+              "examples": [
+                {
+                  "hindi": "वह हिंदी बोल सकती है।",
+                  "read_as": "vah hindii bol saktii hai.",
+                  "english": "She can speak Hindi.",
+                  "note": "सकती agrees with वह, not with हिंदी."
+                },
+                {
+                  "hindi": "वह हिंदी बोल सकता है।",
+                  "read_as": "vah hindii bol saktaa hai.",
+                  "english": "He can speak Hindi.",
+                  "note": "Same sentence, masculine subject."
+                },
+                {
+                  "hindi": "मैं थोड़ी हिंदी बोल सकता हूँ।",
+                  "read_as": "maiṁ thoṛii hindii bol saktaa huuṁ.",
+                  "english": "I can speak a little Hindi.",
+                  "note": "The sentence you will actually use."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह हिंदी बोली सकती है।",
+                "right": "वह हिंदी बोल सकती है।",
+                "why_en": "The first element stays a bare stem; only सकना inflects."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The subject is feminine and singular. Complete the form.",
+              "question": "वह हिंदी बोल ___ है।",
+              "question_read_as": "vah hindii bol ___ hai.",
+              "options": [
+                "सकती",
+                "सकते",
+                "सके",
+                "सकता"
+              ],
+              "options_read_as": [
+                "saktii",
+                "sakte",
+                "sake",
+                "saktaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "No ने, so the verb agrees with the feminine singular subject: सकती."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You want to say you can speak a little Hindi.",
+              "options": [
+                "मैं थोड़ी हिंदी बोल लेता हूँ।",
+                "मैं थोड़ी हिंदी बोलता हूँ।",
+                "मैं थोड़ी हिंदी बोल सकता हूँ।",
+                "मुझे थोड़ी हिंदी आती है।"
+              ],
+              "options_read_as": [
+                "maiṁ thoṛii hindii bol letaa huuṁ.",
+                "maiṁ thoṛii hindii boltaa huuṁ.",
+                "maiṁ thoṛii hindii bol saktaa huuṁ.",
+                "mujhe thoṛii hindii aatii hai."
+              ],
+              "answer_index": 2,
+              "explanation_en": "All four are correct and natural. मुझे हिंदी आती है from Module 10 is the closest rival and is about a learned skill; सकना is about being able to."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह हिंदी बोल सकती है।",
+              "मैं थोड़ी हिंदी बोल सकता हूँ।",
+              "मैं नहीं बोल सकता।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "सकना means can, attaches to a bare stem, never takes an infinitive, and never takes ने. It agrees with the subject throughout. Unlike the four vectors it changes what the sentence claims rather than how it feels, which is why dropping it changes the meaning.",
+        "key_forms": [
+          "मैं कर सकता हूँ",
+          "क्या मैं जा सकता हूँ?",
+          "वह बोल सकती है"
+        ],
+        "next_up_en": "Next: सकना in the past, its negative, and how it differs from Module 10's आना."
+      }
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "module": 2,
+  "module_name_en": "Consonants",
+  "kind": "mock_exam",
+  "mock_exam": {
+    "total_questions": 20,
+    "weighting_note": "70% current module (14Q on M2) / 30% previous phase-1 module (6Q reviewing M1). No 'older high-value concepts' slice yet — gender/oblique/ने don't exist this early in the curriculum, so that 10% folds into the same-phase review slice.",
+    "questions": [
+      {
+        "id": "M02-MOCK-Q1",
+        "source_item_ids": [
+          "M02-L03-I3"
+        ],
+        "type": "recognition",
+        "prompt_en": "जाना ('to go') begins with which letter?",
+        "options": [
+          "ज",
+          "झ",
+          "च",
+          "छ"
+        ],
+        "answer_index": 0,
+        "explanation_en": "जाना opens with the plain, unaspirated ज."
+      },
+      {
+        "id": "M02-MOCK-Q2",
+        "source_item_ids": [
+          "M02-L04-I2"
+        ],
+        "type": "recognition",
+        "prompt_en": "In चंचल ('restless, playful'), the nasal before च is which consonant?",
+        "options": [
+          "न",
+          "ञ",
+          "ङ",
+          "ण"
+        ],
+        "answer_index": 1,
+        "explanation_en": "ञ is the nasal that pairs with the च-family."
+      },
+      {
+        "id": "M02-MOCK-Q3",
+        "source_item_ids": [
+          "M02-L04-I3"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling means 'come on!'?",
+        "options": [
+          "चाल",
+          "छाल",
+          "चल",
+          "छल"
+        ],
+        "answer_index": 2,
+        "explanation_en": "Adding the puff of breath turns च into छ, producing छल, 'deceit', instead."
+      },
+      {
+        "id": "M02-MOCK-Q4",
+        "source_item_ids": [
+          "M02-L05-I1"
+        ],
+        "type": "recognition",
+        "prompt_en": "टमाटर ('tomato') begins with which letter?",
+        "options": [
+          "ठ",
+          "ड",
+          "ढ",
+          "ट"
+        ],
+        "answer_index": 3,
+        "explanation_en": "टमाटर opens with the plain, unaspirated retroflex ट."
+      },
+      {
+        "id": "M02-MOCK-Q5",
+        "source_item_ids": [
+          "M02-L05-I2"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling means 'okay, fine'?",
+        "options": [
+          "ठीक",
+          "टीख",
+          "ठीख",
+          "टीक"
+        ],
+        "answer_index": 0,
+        "explanation_en": "Without the puff of breath, ठ becomes ट, which is a different letter."
+      },
+      {
+        "id": "M02-MOCK-Q6",
+        "source_item_ids": [
+          "M02-L07-I3"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling means 'lentils'?",
+        "options": [
+          "डाल",
+          "दाल",
+          "ढाल",
+          "टाल"
+        ],
+        "answer_index": 1,
+        "explanation_en": "The English d is made too far back (retroflex ड); Hindi 'lentils' needs the dental द."
+      },
+      {
+        "id": "M02-MOCK-Q7",
+        "source_item_ids": [
+          "M02-L08-I2"
+        ],
+        "type": "recognition",
+        "prompt_en": "नाम ('name') begins with which letter?",
+        "options": [
+          "म",
+          "ङ",
+          "न",
+          "ण"
+        ],
+        "answer_index": 2,
+        "explanation_en": "नाम opens with the dental nasal न."
+      },
+      {
+        "id": "M02-MOCK-Q8",
+        "source_item_ids": [
+          "M02-L09-I2"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling means 'fruit'?",
+        "options": [
+          "पाल",
+          "फाल",
+          "पल",
+          "फल"
+        ],
+        "answer_index": 3,
+        "explanation_en": "Dropping the breath gives प — पल instead means 'a moment'."
+      },
+      {
+        "id": "M02-MOCK-Q9",
+        "source_item_ids": [
+          "M02-L10-I2"
+        ],
+        "type": "recognition",
+        "prompt_en": "मन ('mind, heart') begins with which letter?",
+        "options": [
+          "म",
+          "न",
+          "ण",
+          "ङ"
+        ],
+        "answer_index": 0,
+        "explanation_en": "मन opens with the labial nasal म."
+      },
+      {
+        "id": "M02-MOCK-Q10",
+        "source_item_ids": [
+          "M02-L10-I3"
+        ],
+        "type": "recognition",
+        "prompt_en": "Which spelling means 'a moment'?",
+        "options": [
+          "फल",
+          "पल",
+          "फाल",
+          "पाल"
+        ],
+        "answer_index": 1,
+        "explanation_en": "Adding the puff of breath at the start turns प into फ, giving 'fruit' instead of 'a moment'."
+      },
+      {
+        "id": "M02-MOCK-Q11",
+        "source_item_ids": [
+          "M02-L13-I1"
+        ],
+        "type": "recognition",
+        "prompt_en": "सब ('all, everything') begins with which letter?",
+        "options": [
+          "ष",
+          "ह",
+          "स",
+          "श"
+        ],
+        "answer_index": 2,
+        "explanation_en": "सब opens with the plain स."
+      },
+      {
+        "id": "M02-MOCK-Q12",
+        "source_item_ids": [
+          "M02-L13-I2"
+        ],
+        "type": "recognition",
+        "prompt_en": "हाथ ('hand') begins with which letter?",
+        "options": [
+          "ख",
+          "घ",
+          "स",
+          "ह"
+        ],
+        "answer_index": 3,
+        "explanation_en": "हाथ opens with the breathy ह."
+      },
+      {
+        "id": "M02-MOCK-Q13",
+        "source_item_ids": [
+          "M02-L14-I2"
+        ],
+        "type": "recognition",
+        "prompt_en": "ख़बर ('news') uses which letter for its opening sound?",
+        "options": [
+          "ख़",
+          "ख",
+          "क़",
+          "ग़"
+        ],
+        "answer_index": 0,
+        "explanation_en": "This borrowed sound is written with the dotted ख़, distinct from plain aspirated ख."
+      },
+      {
+        "id": "M02-MOCK-Q14",
+        "source_item_ids": [
+          "M02-L14-I3"
+        ],
+        "type": "recognition",
+        "prompt_en": "ग़लत ('wrong, incorrect') uses which letter for its opening sound?",
+        "options": [
+          "क़",
+          "ग़",
+          "ग",
+          "ख़"
+        ],
+        "answer_index": 1,
+        "explanation_en": "This borrowed sound is written with the dotted ग़, distinct from plain ग."
+      },
+      {
+        "id": "M02-MOCK-Q15",
+        "source_item_ids": [
+          "M01-L01-I3"
+        ],
+        "type": "review",
+        "prompt_en": "इमली ('tamarind') opens with which vowel?",
+        "options": [
+          "अ",
+          "आ",
+          "इ",
+          "ई"
+        ],
+        "answer_index": 2,
+        "explanation_en": "इमली opens with the short इ, not the long ई."
+      },
+      {
+        "id": "M02-MOCK-Q16",
+        "source_item_ids": [
+          "M01-L02-I3"
+        ],
+        "type": "review",
+        "prompt_en": "फूल ('flower') contains which vowel sound?",
+        "options": [
+          "उ",
+          "ओ",
+          "औ",
+          "ऊ"
+        ],
+        "answer_index": 3,
+        "explanation_en": "फूल carries the long ऊ, held roughly twice as long as उ."
+      },
+      {
+        "id": "M02-MOCK-Q17",
+        "source_item_ids": [
+          "M01-L03-I3"
+        ],
+        "type": "review",
+        "prompt_en": "ओस ('dew') contains which vowel?",
+        "options": [
+          "ओ",
+          "औ",
+          "ए",
+          "ऐ"
+        ],
+        "answer_index": 0,
+        "explanation_en": "ओस carries the narrower long ओ, not the more open औ."
+      },
+      {
+        "id": "M02-MOCK-Q18",
+        "source_item_ids": [
+          "M01-L04-I2"
+        ],
+        "type": "review",
+        "prompt_en": "ऋतु ('season') is spelled with which vowel for its 'ri' sound?",
+        "options": [
+          "री",
+          "ऋ",
+          "र",
+          "रि"
+        ],
+        "answer_index": 1,
+        "explanation_en": "The sound is 'ri', but the spelling uses the vowel ऋ itself, not र with a matra."
+      },
+      {
+        "id": "M02-MOCK-Q19",
+        "source_item_ids": [
+          "M01-L05-I2"
+        ],
+        "type": "review",
+        "prompt_en": "हिंदी ('Hindi, the language') uses which nasal mark?",
+        "options": [
+          "ः",
+          "ृ",
+          "ं",
+          "ँ"
+        ],
+        "answer_index": 2,
+        "explanation_en": "Here the plain dot ं is pronounced as a full nasal consonant (n) before द."
+      },
+      {
+        "id": "M02-MOCK-Q20",
+        "source_item_ids": [
+          "M01-L05-I1"
+        ],
+        "type": "review",
+        "prompt_en": "टोपी ('hat') begins with a retroflex or dental sound?",
+        "options": [
+          "dental (त)",
+          "retroflex (ड)",
+          "dental (द)",
+          "retroflex (ट)"
+        ],
+        "answer_index": 3,
+        "explanation_en": "टोपी opens with the tongue curled back — the retroflex ट."
+      }
+    ]
+  }
+}

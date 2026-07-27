@@ -1,0 +1,1096 @@
+{
+  "module": 12,
+  "module_name_en": "Conversation",
+  "module_name_hi": "बातचीत",
+  "phase": 5,
+  "batch": {
+    "levels_from": 1,
+    "levels_to": 3
+  },
+  "receptive_only": true,
+  "levels": [
+    {
+      "level": 1,
+      "title_en": "Greetings and first meetings",
+      "title_hi": "नमस्ते और पहली मुलाक़ात",
+      "items": [
+        {
+          "id": "M12-L01-I1",
+          "type": "dialogue",
+          "target": "बहुत दिनों बाद",
+          "title_en": "Two neighbours, after a while",
+          "setting": "street",
+          "speed": "slow",
+          "difficulty": 4,
+          "tags": [
+            "greetings",
+            "small_talk",
+            "fillers",
+            "oblique"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Neighbour A",
+              "label_hi": "पड़ोसी"
+            },
+            {
+              "id": "B",
+              "label_en": "Neighbour B",
+              "label_hi": "पड़ोसी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "अरे नमस्ते! कैसे हैं आप?",
+              "read_as": "are namaste! kaise haiṁ aap?",
+              "english": "Oh, hello! How are you?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "नमस्ते जी। बस, ठीक हूँ। आप सुनाइए।",
+              "read_as": "namaste jii. bas, ṭhiik huuṁ. aap sunaaie.",
+              "english": "Hello. Getting by, I'm fine. And you?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "सब बढ़िया। बहुत दिनों बाद दिखे आप।",
+              "read_as": "sab baṛhiyaa. bahut dinoṁ baad dikhe aap.",
+              "english": "All good. Haven't seen you in ages."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हाँ यार, काम में लगा था।",
+              "read_as": "haaṁ yaar, kaam meṁ lagaa thaa.",
+              "english": "Yeah, I've been buried in work."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "अच्छा, चलिए, फिर मिलते हैं।",
+              "read_as": "acchaa, chalie, phir milte haiṁ.",
+              "english": "Right — see you again."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Getting by, and other things people actually say",
+              "explanation_en": "Four things in this exchange are not textbook Hindi and all four are everywhere. कैसे हैं आप? puts the verb before the subject, which is normal in questions and sounds friendlier than आप कैसे हैं. बस as an answer means \"getting by\" and is a complete reply on its own. आप सुनाइए is literally \"you tell\", and it means \"and you?\". And चलिए at the end is not an instruction to walk — it closes a conversation, roughly \"right then\".",
+              "listening_notes": [
+                "बहुत दिनों बाद: दिन goes oblique to दिनों before बाद, and in speech the three words run together as one unit — bahut-dinoṁ-baad.",
+                "यार is casual and warm. Use it with friends, not with your landlord.",
+                "फिर मिलते हैं is present tense doing future work. Hindi does this constantly with plans."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why haven't the two of them seen each other recently?",
+              "options": [
+                "B has been busy with work",
+                "B has been unwell",
+                "B has moved to another building",
+                "B has been away travelling"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 4: काम में लगा था — he has been tied up with work."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "दिनों",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "बहुत ___ बाद दिखे आप।",
+              "question_read_as": "bahut ___ baad dikhe aap.",
+              "options": [
+                "दिना",
+                "दिन",
+                "दिनों",
+                "दिनें"
+              ],
+              "options_read_as": [
+                "dinaa",
+                "din",
+                "dinoṁ",
+                "dineṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "बाद is a postposition, so दिन goes into the oblique plural: दिनों."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Warm, unhurried. A real pause before चलिए in line 5."
+          }
+        },
+        {
+          "id": "M12-L01-I2",
+          "type": "dialogue",
+          "target": "मैं कल ही आई हूँ",
+          "title_en": "Meeting a new resident",
+          "setting": "building",
+          "speed": "slow",
+          "difficulty": 4,
+          "tags": [
+            "introductions",
+            "hii",
+            "gender_agreement",
+            "ordinals"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Rahul",
+              "label_hi": "राहुल"
+            },
+            {
+              "id": "B",
+              "label_en": "Seema",
+              "label_hi": "सीमा"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "नमस्ते, मैं राहुल। और आप?",
+              "read_as": "namaste, maiṁ raahul. aur aap?",
+              "english": "Hello, I'm Rahul. And you?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "जी, मैं सीमा। आप यहीं रहते हैं?",
+              "read_as": "jii, maiṁ siimaa. aap yahiiṁ rahte haiṁ?",
+              "english": "I'm Seema. Do you live here?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "हाँ, इसी बिल्डिंग में। तीसरी मंज़िल पर।",
+              "read_as": "haaṁ, isii bilḍiṁg meṁ. tiisrii manzil par.",
+              "english": "Yes, this very building. Third floor."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "अच्छा! मैं कल ही आई हूँ। पाँचवीं मंज़िल।",
+              "read_as": "acchaa! maiṁ kal hii aaii huuṁ. paaṁchviiṁ manzil.",
+              "english": "Oh! I only moved in yesterday. Fifth floor."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "अरे वाह। कोई काम हो तो बता दीजिएगा।",
+              "read_as": "are vaah. koii kaam ho to bataa diijiegaa.",
+              "english": "Nice. If you need anything, do let me know."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ही, and the small words that carry the meaning",
+              "explanation_en": "यहीं, इसी and कल ही all contain the same little word — ही, meaning \"precisely, only, that very one\". यहीं is यहाँ plus ही: right here. इसी is इस plus ही: this very one. कल ही is only yesterday. It attaches to almost anything and it is doing real work every time, so it is worth training your ear on. Note also बता दीजिएगा, a polite imperative aimed at the future — softer than बता दीजिए and very common when offering help.",
+              "listening_notes": [
+                "मैं कल ही आई हूँ has आई because Seema is speaking about herself. A man would say आया in the same sentence and nothing else would change.",
+                "जी on its own at the start of a reply is a politeness marker, not a word with meaning.",
+                "Floors are ordinals — तीसरी, पाँचवीं — and मंज़िल is feminine, so they end in -ी."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Which of them is new to the building?",
+              "options": [
+                "Rahul",
+                "Seema",
+                "Both of them",
+                "Neither — they are old neighbours"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 4: मैं कल ही आई हूँ — Seema moved in only yesterday."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "आई",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "मैं कल ही ___ हूँ।",
+              "question_read_as": "maiṁ kal hii ___ huuṁ.",
+              "options": [
+                "आए",
+                "आईं",
+                "आया",
+                "आई"
+              ],
+              "options_read_as": [
+                "aae",
+                "aaiiṁ",
+                "aayaa",
+                "aaii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Seema is speaking about herself, so the verb is feminine singular."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Two different voices, clearly distinct in pitch. Line 4 should sound genuinely pleased."
+          }
+        },
+        {
+          "id": "M12-L01-I3",
+          "type": "dialogue",
+          "target": "मुझे एक फ़ोन करना है",
+          "title_en": "Running into someone",
+          "setting": "street",
+          "speed": "slow",
+          "difficulty": 5,
+          "tags": [
+            "small_talk",
+            "chalie",
+            "obligation",
+            "dative"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Speaker A",
+              "label_hi": "पहला"
+            },
+            {
+              "id": "B",
+              "label_en": "Speaker B",
+              "label_hi": "दूसरा"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "अरे! आप यहाँ?",
+              "read_as": "are! aap yahaaṁ?",
+              "english": "Oh! You, here?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "हाँ, बस बाज़ार जा रहा था। आप?",
+              "read_as": "haaṁ, bas baazaar jaa rahaa thaa. aap?",
+              "english": "Yeah, just heading to the market. You?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "मैं भी उधर ही जा रहा हूँ। चलिए, साथ चलते हैं।",
+              "read_as": "maiṁ bhii udhar hii jaa rahaa huuṁ. chalie, saath chalte haiṁ.",
+              "english": "Me too, same way. Come on, let's walk together."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हाँ चलिए। अच्छा एक मिनट — मुझे एक फ़ोन करना है।",
+              "read_as": "haaṁ chalie. acchaa ek minaṭ — mujhe ek fon karnaa hai.",
+              "english": "Sure. Oh, one second — I need to make a call."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "कोई बात नहीं, कर लीजिए।",
+              "read_as": "koii baat nahiiṁ, kar liijie.",
+              "english": "No problem, go ahead."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "चलिए twice, two different jobs",
+              "explanation_en": "चलिए turns up twice here and it is not the same thing both times. In चलिए, साथ चलते हैं it is an invitation — come on. In हाँ चलिए it is agreement — all right. And in the previous dialogue it closed a conversation altogether. One word, several jobs, and the tone tells you which. कोई बात नहीं is the standard \"no problem\" and is worth having ready. कर लीजिए is the polite imperative of कर लेना from Module 11, softer than कीजिए because the vector says take your time and finish it.",
+              "listening_notes": [
+                "मुझे एक फ़ोन करना है is the obligation ladder from Module 11 — dative person, infinitive, है. Not मैं.",
+                "उधर ही — ही again, this time meaning \"that very direction\".",
+                "बस at the start of line 2 is a filler, closer to \"just\" than to \"enough\"."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What does B want to do before they set off together?",
+              "options": [
+                "Wait for someone else",
+                "Buy something first",
+                "Make a phone call",
+                "Go home for a minute"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 4: मुझे एक फ़ोन करना है."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "मुझे",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "___ एक फ़ोन करना है।",
+              "question_read_as": "___ ek fon karnaa hai.",
+              "options": [
+                "मुझे",
+                "मैंने",
+                "मेरा",
+                "मैं"
+              ],
+              "options_read_as": [
+                "mujhe",
+                "maiṁne",
+                "meraa",
+                "maiṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "An obligation lands on a person, and that person is marked with को — fused to मुझे."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 4 needs a real interruption in the middle — the speaker changes track mid-sentence."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Greetings run on a handful of set pieces rather than on grammar: बस as a whole answer, आप सुनाइए for \"and you\", चलिए for opening, agreeing and closing, and कोई बात नहीं for anything that goes slightly wrong. The polite forms matter less than the tone.",
+        "key_forms": [
+          "आप सुनाइए",
+          "बहुत दिनों बाद",
+          "कोई बात नहीं"
+        ],
+        "next_up_en": "Next: the tea stall, where nobody uses a polite verb form and everyone is polite."
+      }
+    },
+    {
+      "level": 2,
+      "title_en": "At the tea stall",
+      "title_hi": "चाय की दुकान पर",
+      "items": [
+        {
+          "id": "M12-L02-I1",
+          "type": "dialogue",
+          "target": "एक चाय देना",
+          "title_en": "Ordering chai to taste",
+          "setting": "tea_stall",
+          "speed": "slow",
+          "difficulty": 4,
+          "tags": [
+            "tea_stall",
+            "infinitive_imperative",
+            "lagnaa",
+            "register"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Stall owner",
+              "label_hi": "दुकानदार"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भैया, एक चाय देना।",
+              "read_as": "bhaiyaa, ek chaay denaa.",
+              "english": "Bhaiya, one tea please."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "कैसी चाय? कड़क या हल्की?",
+              "read_as": "kaisii chaay? kaṛak yaa halkii?",
+              "english": "What kind? Strong or light?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "कड़क। और चीनी कम रखना।",
+              "read_as": "kaṛak. aur chiinii kam rakhnaa.",
+              "english": "Strong. And go easy on the sugar."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "ठीक है। दो मिनट लगेंगे।",
+              "read_as": "ṭhiik hai. do minaṭ lageṁge.",
+              "english": "Fine. It'll take two minutes."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "कोई बात नहीं, मैं रुकता हूँ।",
+              "read_as": "koii baat nahiiṁ, maiṁ ruktaa huuṁ.",
+              "english": "No problem, I'll wait."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The infinitive as a friendly order",
+              "explanation_en": "एक चाय देना looks like an infinitive and it is one. Hindi uses the plain infinitive as a mild, friendly imperative — softer than दो, less formal than दीजिए, and exactly what you hear at a tea stall. Same with चीनी कम रखना. भैया literally means brother and is the standard way to address a man serving you; there is no good English equivalent and you will hear it constantly. Notice that this whole exchange contains no polite verb forms at all and is perfectly polite. Register comes from भैया and from tone, not from conjugation.",
+              "listening_notes": [
+                "दो मिनट लगेंगे uses लगना for time taken, from Module 10. मिनट is masculine plural, so लगेंगे.",
+                "कड़क and हल्की are the two words that matter at a tea stall. हल्की agrees with feminine चाय.",
+                "कैसी चाय? — कैसी, not कैसा, because चाय is feminine. The question word agrees too."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How does the customer want his tea?",
+              "options": [
+                "Strong, with extra sugar",
+                "Light, with no sugar",
+                "Light, with extra sugar",
+                "Strong, with less sugar"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 3: कड़क, and चीनी कम."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "लगेंगे",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "दो मिनट ___ ।",
+              "question_read_as": "do minaṭ ___ .",
+              "options": [
+                "लगेगी",
+                "लगेंगे",
+                "लगीं",
+                "लगेगा"
+              ],
+              "options_read_as": [
+                "lagegii",
+                "lageṁge",
+                "lagiiṁ",
+                "lagegaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "मिनट is masculine plural here, so the verb is plural."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Background noise is fine and desirable — this is a street stall, not a studio."
+          }
+        },
+        {
+          "id": "M12-L02-I2",
+          "type": "dialogue",
+          "target": "कितने हुए?",
+          "title_en": "Paying without change",
+          "setting": "tea_stall",
+          "speed": "slow",
+          "difficulty": 4,
+          "tags": [
+            "tea_stall",
+            "money",
+            "genitive",
+            "politeness"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Stall owner",
+              "label_hi": "दुकानदार"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भैया, कितने हुए?",
+              "read_as": "bhaiyaa, kitne hue?",
+              "english": "How much is it?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "दो चाय — बीस रुपये।",
+              "read_as": "do chaay — biis rupae.",
+              "english": "Two teas, twenty rupees."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "ये लीजिए। छुट्टा नहीं है, सौ का नोट है।",
+              "read_as": "ye liijie. chhuṭṭaa nahiiṁ hai, sau kaa noṭ hai.",
+              "english": "Here. I don't have change, it's a hundred-rupee note."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "कोई बात नहीं। रुकिए, छुट्टा देता हूँ।",
+              "read_as": "koii baat nahiiṁ. rukie, chhuṭṭaa detaa huuṁ.",
+              "english": "No problem. Hang on, I'll get you change."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "शुक्रिया भैया।",
+              "read_as": "shukriyaa bhaiyaa.",
+              "english": "Thanks."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कितने हुए — the everyday way to ask a price",
+              "explanation_en": "कितने हुए is literally \"how many became\", and it is the ordinary spoken way of asking what something comes to. You will also hear कितना हुआ and कितने पैसे हुए. छुट्टा is small change, and not having it is a daily negotiation in India, so the whole of line 3 is worth learning as one unit. Notice that the customer uses polite imperatives to the vendor and the vendor uses them straight back — politeness here runs in both directions, which is not what a learner coming from a service-culture assumption expects.",
+              "listening_notes": [
+                "सौ का नोट — the का agrees with masculine नोट, not with सौ. A genitive always looks at the thing it describes.",
+                "शुक्रिया and धन्यवाद both mean thanks. शुक्रिया is warmer and more everyday; धन्यवाद is more formal.",
+                "रुपये is the plural of रुपया, and it is what you will hear after any number."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What is the difficulty with paying?",
+              "options": [
+                "The customer only has a large note",
+                "The vendor charged too much",
+                "The vendor has no change either",
+                "The customer has no money"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 3: छुट्टा नहीं है, सौ का नोट है — he has only a hundred-rupee note."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "का",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "सौ ___ नोट है।",
+              "question_read_as": "sau ___ noṭ hai.",
+              "options": [
+                "के",
+                "को",
+                "का",
+                "की"
+              ],
+              "options_read_as": [
+                "ke",
+                "ko",
+                "kaa",
+                "kii"
+              ],
+              "answer_index": 2,
+              "explanation_en": "नोट is masculine singular, so the genitive is का."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 4 should sound genuinely unbothered — the whole point is that it is not a problem."
+          }
+        },
+        {
+          "id": "M12-L02-I3",
+          "type": "dialogue",
+          "target": "रोज़ वाली",
+          "title_en": "A regular arrives late",
+          "setting": "tea_stall",
+          "speed": "slow",
+          "difficulty": 5,
+          "tags": [
+            "tea_stall",
+            "vaalaa",
+            "compound_verb",
+            "fillers"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Stall owner",
+              "label_hi": "दुकानदार"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "B",
+              "hindi": "अरे, आज देर से आए?",
+              "read_as": "are, aaj der se aae?",
+              "english": "Hey, running late today?"
+            },
+            {
+              "n": 2,
+              "speaker": "A",
+              "hindi": "हाँ यार, ट्रैफ़िक में फँस गया था।",
+              "read_as": "haaṁ yaar, ṭraifik meṁ phaṁs gayaa thaa.",
+              "english": "Yeah, got stuck in traffic."
+            },
+            {
+              "n": 3,
+              "speaker": "B",
+              "hindi": "रोज़ वाली बना दूँ?",
+              "read_as": "roz vaalii banaa duuṁ?",
+              "english": "Shall I make your usual?"
+            },
+            {
+              "n": 4,
+              "speaker": "A",
+              "hindi": "हाँ हाँ, वही। कम चीनी वाली।",
+              "read_as": "haaṁ haaṁ, vahii. kam chiinii vaalii.",
+              "english": "Yes, that one. The low-sugar one."
+            },
+            {
+              "n": 5,
+              "speaker": "B",
+              "hindi": "बस, दो मिनट।",
+              "read_as": "bas, do minaṭ.",
+              "english": "Two minutes."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "वाली — one word doing the work of a whole clause",
+              "explanation_en": "रोज़ वाली means \"the everyday one\" and कम चीनी वाली means \"the low-sugar one\". वाला, वाली, वाले attaches to almost anything and turns it into \"the one that is like this\". English needs a relative clause; Hindi needs one word. It agrees with what it describes, so it is वाली here because चाय is feminine — and चाय itself is never said, because both of them know what is being talked about. Once you start noticing वाला you will hear it every few sentences.",
+              "listening_notes": [
+                "फँस गया था is a जाना compound in the past perfect — stuck, and it had already happened. No ने, because जाना is intransitive.",
+                "बना दूँ? is a subjunctive offer: shall I make it? The rising tone does the asking.",
+                "आज देर से आए? drops the auxiliary. In fast speech आए हो becomes just आए."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why was the customer late?",
+              "options": [
+                "He overslept",
+                "He was stuck in traffic",
+                "He was at work",
+                "He went somewhere else first"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 2: ट्रैफ़िक में फँस गया था."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "गया",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "ट्रैफ़िक में फँस ___ था।",
+              "question_read_as": "ṭraifik meṁ phaṁs ___ thaa.",
+              "options": [
+                "गई",
+                "गए",
+                "लिया",
+                "गया"
+              ],
+              "options_read_as": [
+                "gaii",
+                "gae",
+                "liyaa",
+                "gayaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "A male speaker, no ने, so the vector agrees with the subject: गया."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "These two know each other. Line 3 should be offhand, barely a question."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A tea stall runs on infinitives used as gentle orders — देना, रखना — and on वाला, which turns any description into \"the one that is like this\". कितने हुए? is how you ask a price, and छुट्टा is the small change nobody has.",
+        "key_forms": [
+          "एक चाय देना",
+          "कितने हुए?",
+          "रोज़ वाली"
+        ],
+        "next_up_en": "Next: the corner shop, where things run out and prices go up."
+      }
+    },
+    {
+      "level": 3,
+      "title_en": "At the corner shop",
+      "title_hi": "दुकान पर",
+      "items": [
+        {
+          "id": "M12-L03-I1",
+          "type": "dialogue",
+          "target": "ब्रेड ख़त्म हो गई",
+          "title_en": "Milk yes, bread no",
+          "setting": "kirana_shop",
+          "speed": "slow",
+          "difficulty": 5,
+          "tags": [
+            "shop",
+            "loanword_gender",
+            "to_particle",
+            "compound_verb"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Shopkeeper",
+              "label_hi": "दुकानदार"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भैया, दूध है?",
+              "read_as": "bhaiyaa, duudh hai?",
+              "english": "Do you have milk?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "हाँ है। कितना चाहिए?",
+              "read_as": "haaṁ hai. kitnaa chaahie?",
+              "english": "Yes. How much do you need?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "एक लीटर। और ब्रेड भी दे दीजिए।",
+              "read_as": "ek liiṭar. aur breḍ bhii de diijie.",
+              "english": "A litre. And give me bread as well."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "ब्रेड तो ख़त्म हो गई। शाम को आ जाइए।",
+              "read_as": "breḍ to ḳhatm ho gaii. shaam ko aa jaaie.",
+              "english": "Bread's finished, I'm afraid. Come by in the evening."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ठीक है, फिर आऊँगा।",
+              "read_as": "ṭhiik hai, phir aauṁgaa.",
+              "english": "Fine, I'll come back."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ब्रेड is feminine, and तो is doing something",
+              "explanation_en": "Two things to catch here. ब्रेड is feminine in Hindi even though it is an English word — loanwords get assigned a gender and no rule predicts it, so ख़त्म हो गई and not गया. And तो in ब्रेड तो ख़त्म हो गई is not \"then\". It marks a contrast with what was just asked: you wanted bread, but as for bread, it's finished. That one syllable carries an entire apologetic shrug, and learners routinely hear straight past it.",
+              "listening_notes": [
+                "आ जाइए is a जाना compound in the polite imperative. आइए would be correct; आ जाइए is warmer.",
+                "शाम को — time expressions take को: सुबह को, शाम को, रात को.",
+                "Loanword genders worth memorising early: ब्रेड feminine, बस feminine, ट्रेन feminine, स्कूल masculine, होटल masculine."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What can the customer not buy today?",
+              "options": [
+                "Neither — he gets everything",
+                "Milk",
+                "Bread",
+                "Both"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 4: ब्रेड तो ख़त्म हो गई. The milk is available."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "गई",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "ब्रेड तो ख़त्म हो ___ ।",
+              "question_read_as": "breḍ to ḳhatm ho ___ .",
+              "options": [
+                "गई",
+                "गए",
+                "गईं",
+                "गया"
+              ],
+              "options_read_as": [
+                "gaii",
+                "gae",
+                "gaiiṁ",
+                "gayaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "ब्रेड is feminine in Hindi, so the vector is गई."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 4 needs an apologetic tone on तो — that is where the meaning sits."
+          }
+        },
+        {
+          "id": "M12-L03-I2",
+          "type": "dialogue",
+          "target": "क्या करें",
+          "title_en": "The price has gone up",
+          "setting": "kirana_shop",
+          "speed": "slow",
+          "difficulty": 5,
+          "tags": [
+            "shop",
+            "price",
+            "genitive",
+            "set_phrases"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Shopkeeper",
+              "label_hi": "दुकानदार"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "ये कितने का है?",
+              "read_as": "ye kitne kaa hai?",
+              "english": "How much is this?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "अस्सी रुपये किलो।",
+              "read_as": "assii rupae kilo.",
+              "english": "Eighty rupees a kilo."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "अरे इतना? कल तो सत्तर का था।",
+              "read_as": "are itnaa? kal to sattar kaa thaa.",
+              "english": "That much? It was seventy yesterday."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "क्या करें भैया, दाम बढ़ गए हैं। माल ताज़ा है।",
+              "read_as": "kyaa kareṁ bhaiyaa, daam baṛh gae haiṁ. maal taazaa hai.",
+              "english": "What can I do, prices have gone up. The stock's fresh."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "चलिए, एक किलो दे दीजिए।",
+              "read_as": "chalie, ek kilo de diijie.",
+              "english": "All right, give me a kilo."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "क्या करें — a question that is not a question",
+              "explanation_en": "क्या करें is literally \"what should we do\", and it is a shrug rather than an enquiry. It means \"what can I do about it\", and it is how a shopkeeper declines to argue without being rude. Hindi has a lot of these — कोई बात नहीं, चलिए, ठीक है — and recognising them as gestures rather than sentences is most of what makes fast speech land. Note also that भैया goes both ways: the shopkeeper calls the customer भैया too.",
+              "listening_notes": [
+                "कितने का है — का agrees with the masculine thing being priced. For a feminine thing it would be कितने की है.",
+                "दाम बढ़ गए हैं: दाम is masculine plural, so both the vector and the auxiliary go plural.",
+                "तो again in कल तो, marking a contrast with what was just said. This is its third appearance in two levels."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How has the price changed?",
+              "options": [
+                "It has stayed the same",
+                "The customer is quoted two different prices",
+                "It has fallen from 80 to 70",
+                "It has risen from 70 to 80"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Lines 2 and 3: eighty today, seventy yesterday."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 1,
+              "masked_token": "का",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "ये कितने ___ है?",
+              "question_read_as": "ye kitne ___ hai?",
+              "options": [
+                "को",
+                "का",
+                "की",
+                "के"
+              ],
+              "options_read_as": [
+                "ko",
+                "kaa",
+                "kii",
+                "ke"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The thing being priced is masculine, so का."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 4 should be delivered fast and flat — it is a routine, not a defence."
+          }
+        },
+        {
+          "id": "M12-L03-I3",
+          "type": "dialogue",
+          "target": "दी तो थी",
+          "title_en": "Something was missing from the bag",
+          "setting": "kirana_shop",
+          "speed": "slow",
+          "difficulty": 6,
+          "tags": [
+            "shop",
+            "ne",
+            "emphatic_to",
+            "complaint"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Shopkeeper",
+              "label_hi": "दुकानदार"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भैया, कल आपने चीनी नहीं दी थी?",
+              "read_as": "bhaiyaa, kal aapne chiinii nahiiṁ dii thii?",
+              "english": "Didn't you give me the sugar yesterday?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "दी तो थी। एक किलो।",
+              "read_as": "dii to thii. ek kilo.",
+              "english": "I did give it. A kilo."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "नहीं भैया, बैग में सिर्फ़ आटा था।",
+              "read_as": "nahiiṁ bhaiyaa, baig meṁ sirf aaṭaa thaa.",
+              "english": "No — there was only flour in the bag."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "अच्छा? रुकिए, देखता हूँ… हाँ, ग़लती हो गई।",
+              "read_as": "acchaa? rukie, dekhtaa huuṁ… haaṁ, ġaltii ho gaii.",
+              "english": "Really? Hold on, let me check… yes, my mistake."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "कोई बात नहीं, दे दीजिए।",
+              "read_as": "koii baat nahiiṁ, de diijie.",
+              "english": "No problem, hand it over."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "दी तो थी — where the emphasis lives",
+              "explanation_en": "तो has already appeared twice in this level marking contrast. Here it does something else: दी तो थी means \"I DID give it\", with तो carrying the emphasis that English puts on the verb by stressing it. Hindi rarely stresses a syllable to make a point — it inserts a word instead, usually तो or ही. That is worth internalising, because a learner listening for English-style emphasis will simply not hear it. The emphasis is a separate word.",
+              "listening_notes": [
+                "आपने चीनी नहीं दी थी: देना is transitive and perfective, so ने — and दी agrees with feminine चीनी, not with आप.",
+                "ग़लती हो गई: ग़लती is feminine, so गई.",
+                "सिर्फ़ means only, and is interchangeable with केवल, which is more formal."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What was actually in the bag?",
+              "options": [
+                "Flour only",
+                "Both sugar and flour",
+                "Neither",
+                "Sugar only"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 3: बैग में सिर्फ़ आटा था."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 1,
+              "masked_token": "आपने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "कल ___ चीनी नहीं दी थी?",
+              "question_read_as": "kal ___ chiinii nahiiṁ dii thii?",
+              "options": [
+                "आपका",
+                "आप",
+                "आपने",
+                "आपको"
+              ],
+              "options_read_as": [
+                "aapkaa",
+                "aap",
+                "aapne",
+                "aapko"
+              ],
+              "answer_index": 2,
+              "explanation_en": "देना is transitive and the tense is perfective, so the subject takes ने."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Neither speaker is angry. Line 2 is mildly indignant, line 4 is a genuine check and then a shrug."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "तो appears three times in this level doing two different jobs — marking a contrast (ब्रेड तो, कल तो) and carrying emphasis (दी तो थी). Hindi puts emphasis in a separate word rather than in a stressed syllable, which is the single hardest thing for an English ear to pick up.",
+        "key_forms": [
+          "ख़त्म हो गई",
+          "कितने का है?",
+          "क्या करें"
+        ],
+        "next_up_en": "Next: the vegetable market, weights and bargaining."
+      }
+    }
+  ]
+}

@@ -1,0 +1,829 @@
+{
+  "module": 4,
+  "module_name_en": "Core Words I",
+  "module_name_hi": "शब्द भंडार १",
+  "phase": 2,
+  "batch": { "levels_from": 11, "levels_to": 15 },
+  "levels": [
+    {
+      "level": 11,
+      "title_en": "On the plate",
+      "title_hi": "चावल सब्ज़ी फल",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L11-I1",
+          "type": "word",
+          "target": "चावल",
+          "read_as": "chaaval",
+          "pronunciation_notes": "Three letters but two syllables — the final inherent vowel drops, giving chaaval.",
+          "gloss_en": "rice",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "food_drink",
+          "plural": "चावल",
+          "plural_read_as": "chaaval",
+          "difficulty": 3,
+          "tags": ["food_drink", "noun", "masculine", "consonant_ending", "gender_flag", "mass_noun"],
+          "cards": {
+            "learn": {
+              "title_en": "चावल — rice",
+              "explanation_en": "चावल is rice. It is masculine and ends in a consonant, so the gender is unpredictable and has to be learned. Like most food substances it behaves as a mass noun: you talk about चावल without counting it, and the form does not change. Together with रोटी and दाल it makes up the core of an everyday meal, so those three cover most of what you will be offered.",
+              "examples": [
+                { "hindi": "गरम चावल", "read_as": "garam chaaval", "english": "hot rice", "note": "गरम never changes form, so it hides the gender." },
+                { "hindi": "सफ़ेद चावल", "read_as": "safed chaaval", "english": "white rice", "note": "सफ़ेद also stays the same whatever the noun." },
+                { "hindi": "अच्छा चावल", "read_as": "achchhaa chaaval", "english": "good rice", "note": "अच्छा takes -ा because चावल is masculine." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "चावल",
+              "question_read_as": "chaaval",
+              "options": ["lentils", "bread", "salt", "rice"],
+              "options_read_as": ["lentils", "bread", "salt", "rice"],
+              "answer_index": 3,
+              "explanation_en": "चावल is rice. दाल is lentils and रोटी is flatbread."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ चावल — का, के or की?",
+              "options": ["का", "की", "के", "कि"],
+              "options_read_as": ["kaa", "kii", "ke", "ki"],
+              "answer_index": 0,
+              "explanation_en": "चावल is masculine, so का. Its consonant ending gives no clue."
+            }
+          },
+          "audio": {
+            "tts_strings": ["चावल", "गरम चावल", "सफ़ेद चावल"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L11-I2",
+          "type": "word",
+          "target": "सब्ज़ी",
+          "read_as": "sabzii",
+          "pronunciation_notes": "The ब्ज़ stack runs ब straight into the dotted ज़, so the word is sabzii in two syllables.",
+          "gloss_en": "vegetable",
+          "gender": "f",
+          "gender_flag": false,
+          "category": "food_drink",
+          "plural": "सब्ज़ियाँ",
+          "plural_read_as": "sabziyãa",
+          "difficulty": 4,
+          "tags": ["food_drink", "noun", "feminine", "ii_ending", "nukta", "conjunct"],
+          "cards": {
+            "learn": {
+              "title_en": "सब्ज़ी — vegetable",
+              "explanation_en": "सब्ज़ी means a vegetable, and also the cooked vegetable dish served alongside रोटी — so asking for सब्ज़ी at a meal gets you the dish rather than a raw carrot. It ends in -ी and is feminine, so the ending predicts correctly. The word packs in two things from earlier modules: the dotted ज़ and a stacked conjunct, all inside two syllables.",
+              "examples": [
+                { "hindi": "हरी सब्ज़ी", "read_as": "harii sabzii", "english": "green vegetables", "note": "हरी takes -ी because सब्ज़ी is feminine." },
+                { "hindi": "ताज़ी सब्ज़ी", "read_as": "taazii sabzii", "english": "fresh vegetables", "note": "Two dotted letters inside one short phrase." },
+                { "hindi": "दो सब्ज़ियाँ", "read_as": "do sabziyãa", "english": "two vegetables", "note": "The -ी becomes -ियाँ in the plural." }
+              ],
+              "common_error": {
+                "wrong": "हरा सब्ज़ी",
+                "right": "हरी सब्ज़ी",
+                "why_en": "सब्ज़ी is feminine, so the adjective takes -ी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सब्ज़ी",
+              "question_read_as": "sabzii",
+              "options": ["fruit", "a vegetable", "a spice", "a grain"],
+              "options_read_as": ["fruit", "a vegetable", "a spice", "a grain"],
+              "answer_index": 1,
+              "explanation_en": "सब्ज़ी is a vegetable, and also the cooked vegetable dish. फल is fruit."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ सब्ज़ी — का, के or की?",
+              "options": ["का", "के", "की", "कि"],
+              "options_read_as": ["kaa", "ke", "kii", "ki"],
+              "answer_index": 2,
+              "explanation_en": "सब्ज़ी is feminine, so की. The -ी ending predicts correctly here."
+            }
+          },
+          "audio": {
+            "tts_strings": ["सब्ज़ी", "हरी सब्ज़ी", "सब्ज़ियाँ"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L11-I3",
+          "type": "word",
+          "target": "फल",
+          "read_as": "phal",
+          "pronunciation_notes": "Aspirated फ with a clear puff of breath, and the final vowel drops: phal.",
+          "gloss_en": "fruit",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "food_drink",
+          "plural": "फल",
+          "plural_read_as": "phal",
+          "difficulty": 3,
+          "tags": ["food_drink", "noun", "masculine", "consonant_ending", "gender_flag", "aspiration"],
+          "cards": {
+            "learn": {
+              "title_en": "फल — fruit",
+              "explanation_en": "फल is fruit, covering both fruit in general and an individual piece. It is masculine and ends in a consonant, so the gender is unpredictable, and the plural does not change. Keep the first sound aspirated: पल, said without the puff of air, means a moment — the minimal pair from Module 2 turning up in ordinary vocabulary.",
+              "examples": [
+                { "hindi": "मीठा फल", "read_as": "miiṭhaa phal", "english": "sweet fruit", "note": "मीठा takes -ा to agree with the masculine noun." },
+                { "hindi": "ताज़े फल", "read_as": "taaze phal", "english": "fresh fruits", "note": "ताज़े takes -े for a masculine plural." },
+                { "hindi": "एक फल", "read_as": "ek phal", "english": "one piece of fruit", "note": "The singular counts an individual fruit." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "फल",
+              "question_read_as": "phal",
+              "options": ["a flower", "a leaf", "fruit", "a seed"],
+              "options_read_as": ["a flower", "a leaf", "fruit", "a seed"],
+              "answer_index": 2,
+              "explanation_en": "फल is fruit. फूल, with a long vowel, is a flower."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ फल — का, के or की?",
+              "options": ["की", "के", "कि", "का"],
+              "options_read_as": ["kii", "ke", "ki", "kaa"],
+              "answer_index": 3,
+              "explanation_en": "फल is masculine, so का."
+            }
+          },
+          "audio": {
+            "tts_strings": ["फल", "मीठा फल", "ताज़े फल"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added चावल, सब्ज़ी and फल. Two of them end in consonants and have to be memorised, while सब्ज़ी is the rare case where the ending tells the truth.",
+        "key_forms": ["चावल", "सब्ज़ी", "फल"],
+        "next_up_en": "Next: दही, चीनी and नमक — two words with the same ending and opposite genders."
+      }
+    },
+    {
+      "level": 12,
+      "title_en": "Curd, sugar and salt",
+      "title_hi": "दही चीनी नमक",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L12-I1",
+          "type": "word",
+          "target": "दही",
+          "read_as": "dahii",
+          "pronunciation_notes": "Two syllables, dahii, with a dental द and a long final vowel.",
+          "gloss_en": "curd, yoghurt",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "food_drink",
+          "plural": "दही",
+          "plural_read_as": "dahii",
+          "difficulty": 5,
+          "tags": ["food_drink", "noun", "masculine", "ii_ending", "gender_flag", "mass_noun"],
+          "cards": {
+            "learn": {
+              "title_en": "दही — curd",
+              "explanation_en": "दही is curd, eaten with almost every meal. It is masculine, and it ends in -ी, which puts it with पानी, भाई and आदमी in the group of words whose ending points the wrong way. It is a mass noun and never changes form. The contrast comes up at every meal, since दही sits on the plate next to दाल and रोटी, both of which are feminine.",
+              "examples": [
+                { "hindi": "ठंडा दही", "read_as": "ṭhaṇḍaa dahii", "english": "cold curd", "note": "ठंडा takes -ा because दही is masculine." },
+                { "hindi": "ताज़ा दही", "read_as": "taazaa dahii", "english": "fresh curd", "note": "Again the masculine ending, despite the -ी on the noun." },
+                { "hindi": "दही और रोटी", "read_as": "dahii aur roṭii", "english": "curd and flatbread", "note": "Both end in -ी, and their genders are opposite." }
+              ],
+              "common_error": {
+                "wrong": "ठंडी दही",
+                "right": "ठंडा दही",
+                "why_en": "दही ends in -ी but is masculine, so the adjective takes -ा."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दही",
+              "question_read_as": "dahii",
+              "options": ["curd", "milk", "butter", "cream"],
+              "options_read_as": ["curd", "milk", "butter", "cream"],
+              "answer_index": 0,
+              "explanation_en": "दही is curd or yoghurt. दूध is the milk it is made from."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ दही — का, के or की?",
+              "options": ["की", "का", "के", "कि"],
+              "options_read_as": ["kii", "kaa", "ke", "ki"],
+              "answer_index": 1,
+              "explanation_en": "दही is masculine, so का — despite the -ी ending, which is why the word is flagged."
+            }
+          },
+          "audio": {
+            "tts_strings": ["दही", "ठंडा दही", "दही और रोटी"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L12-I2",
+          "type": "word",
+          "target": "चीनी",
+          "read_as": "chiinii",
+          "pronunciation_notes": "Two long ii vowels and a light unaspirated च with no puff of air: chiinii.",
+          "gloss_en": "sugar",
+          "gender": "f",
+          "gender_flag": false,
+          "category": "food_drink",
+          "plural": "चीनी",
+          "plural_read_as": "chiinii",
+          "difficulty": 3,
+          "tags": ["food_drink", "noun", "feminine", "ii_ending", "mass_noun", "double_meaning"],
+          "cards": {
+            "learn": {
+              "title_en": "चीनी — sugar",
+              "explanation_en": "चीनी is sugar. It ends in -ी and is feminine, so the ending predicts correctly — which makes it a useful contrast with दही on the card before, which has the same ending and the opposite gender. The word also means 'Chinese', from चीन, so which one is meant depends entirely on context.",
+              "examples": [
+                { "hindi": "सफ़ेद चीनी", "read_as": "safed chiinii", "english": "white sugar", "note": "An adjective that does not change form." },
+                { "hindi": "कम चीनी", "read_as": "kam chiinii", "english": "less sugar", "note": "कम never changes, and it is useful when ordering tea." },
+                { "hindi": "चीनी और नमक", "read_as": "chiinii aur namak", "english": "sugar and salt", "note": "One feminine, one masculine." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "चीनी",
+              "question_read_as": "chiinii",
+              "options": ["salt", "flour", "tea", "sugar"],
+              "options_read_as": ["salt", "flour", "tea", "sugar"],
+              "answer_index": 3,
+              "explanation_en": "चीनी is sugar. The same word also means 'Chinese'."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ चीनी — का, के or की?",
+              "options": ["की", "का", "के", "कि"],
+              "options_read_as": ["kii", "kaa", "ke", "ki"],
+              "answer_index": 0,
+              "explanation_en": "चीनी is feminine, so की — while दही, with the same ending, takes का."
+            }
+          },
+          "audio": {
+            "tts_strings": ["चीनी", "कम चीनी", "चीनी और नमक"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L12-I3",
+          "type": "word",
+          "target": "नमक",
+          "read_as": "namak",
+          "pronunciation_notes": "The final inherent vowel drops, so the word is namak in two syllables rather than three.",
+          "gloss_en": "salt",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "food_drink",
+          "plural": "नमक",
+          "plural_read_as": "namak",
+          "difficulty": 3,
+          "tags": ["food_drink", "noun", "masculine", "consonant_ending", "gender_flag", "mass_noun"],
+          "cards": {
+            "learn": {
+              "title_en": "नमक — salt",
+              "explanation_en": "नमक is salt. It is masculine and ends in a consonant, so the gender is unpredictable. The word is one of the standard demonstrations of word-final schwa deletion from Module 3: three consonants are written and only two vowels are said. Set it beside चीनी, which is feminine, and you have the pair you need at any table.",
+              "examples": [
+                { "hindi": "कम नमक", "read_as": "kam namak", "english": "less salt", "note": "कम does not change form." },
+                { "hindi": "ज़्यादा नमक", "read_as": "zyaadaa namak", "english": "too much salt", "note": "ज़्यादा carries the dotted ज़ and a stack." },
+                { "hindi": "नमक और मिर्च", "read_as": "namak aur mirch", "english": "salt and pepper", "note": "A fixed pair, heard at every meal." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "नमक",
+              "question_read_as": "namak",
+              "options": ["sugar", "salt", "pepper", "oil"],
+              "options_read_as": ["sugar", "salt", "pepper", "oil"],
+              "answer_index": 1,
+              "explanation_en": "नमक is salt. चीनी is sugar and मिर्च is pepper or chilli."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ नमक — का, के or की?",
+              "options": ["के", "की", "का", "कि"],
+              "options_read_as": ["ke", "kii", "kaa", "ki"],
+              "answer_index": 2,
+              "explanation_en": "नमक is masculine, so का."
+            }
+          },
+          "audio": {
+            "tts_strings": ["नमक", "कम नमक", "नमक और मिर्च"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level put दही and चीनी side by side: identical -ी endings, opposite genders, and no way to tell from the spelling. नमक completes the set of things on a table.",
+        "key_forms": ["दही", "चीनी", "नमक"],
+        "next_up_en": "Next: घी, अंडा and मिठाई finish the food words."
+      }
+    },
+    {
+      "level": 13,
+      "title_en": "Finishing the food words",
+      "title_hi": "घी अंडा मिठाई",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L13-I1",
+          "type": "word",
+          "target": "घी",
+          "read_as": "ghii",
+          "pronunciation_notes": "Breathy voiced घ — one sound, not g followed by a separate h — then a long ii: ghii.",
+          "gloss_en": "clarified butter, ghee",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "food_drink",
+          "plural": "घी",
+          "plural_read_as": "ghii",
+          "difficulty": 5,
+          "tags": ["food_drink", "noun", "masculine", "ii_ending", "gender_flag", "mass_noun"],
+          "cards": {
+            "learn": {
+              "title_en": "घी — clarified butter",
+              "explanation_en": "घी is clarified butter, used for cooking and poured over food at the table. It is masculine, and like दही it ends in -ी and points the wrong way, so it is flagged. It is a mass noun with no real plural. The word is a single syllable built on the breathy घ from Module 2, so keep the voicing and the breath together rather than saying a g and then an h.",
+              "examples": [
+                { "hindi": "ताज़ा घी", "read_as": "taazaa ghii", "english": "fresh ghee", "note": "ताज़ा takes -ा because घी is masculine." },
+                { "hindi": "गरम घी", "read_as": "garam ghii", "english": "hot ghee", "note": "An adjective that never changes form." },
+                { "hindi": "घी और चीनी", "read_as": "ghii aur chiinii", "english": "ghee and sugar", "note": "Two words ending in -ी, and their genders are opposite." }
+              ],
+              "common_error": {
+                "wrong": "ताज़ी घी",
+                "right": "ताज़ा घी",
+                "why_en": "घी ends in -ी but is masculine, so the adjective takes -ा — exactly like दही."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "घी",
+              "question_read_as": "ghii",
+              "options": ["clarified butter", "oil", "cream", "curd"],
+              "options_read_as": ["clarified butter", "oil", "cream", "curd"],
+              "answer_index": 0,
+              "explanation_en": "घी is clarified butter. दही is curd, and both are masculine despite ending in -ी."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ घी — का, के or की?",
+              "options": ["के", "का", "कि", "की"],
+              "options_read_as": ["ke", "kaa", "ki", "kii"],
+              "answer_index": 1,
+              "explanation_en": "घी is masculine, so का. Its -ी ending is misleading, which is why it is flagged."
+            }
+          },
+          "audio": {
+            "tts_strings": ["घी", "ताज़ा घी", "घी और चीनी"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L13-I2",
+          "type": "word",
+          "target": "अंडा",
+          "read_as": "aṇḍaa",
+          "pronunciation_notes": "The dot before ड is read as the retroflex nasal, so the word is aṇḍaa with the tongue curled back.",
+          "gloss_en": "egg",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "food_drink",
+          "plural": "अंडे",
+          "plural_read_as": "aṇḍe",
+          "difficulty": 4,
+          "tags": ["food_drink", "noun", "masculine", "aa_ending", "anusvara", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "अंडा — egg",
+              "explanation_en": "अंडा is an egg. It ends in -ा and is masculine, so both its gender and its plural behave predictably, and अंडे is the form you will see written on menus and stalls. The word is also a neat test of the anusvara rule from Module 3: the dot takes its sound from whatever follows, and since ड is retroflex, so is the nasal.",
+              "examples": [
+                { "hindi": "उबला अंडा", "read_as": "ublaa aṇḍaa", "english": "a boiled egg", "note": "उबला takes -ा to agree." },
+                { "hindi": "दो अंडे", "read_as": "do aṇḍe", "english": "two eggs", "note": "The -ा becomes -े in the plural." },
+                { "hindi": "अंडा और रोटी", "read_as": "aṇḍaa aur roṭii", "english": "egg and flatbread", "note": "A very ordinary breakfast." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "अंडा",
+              "question_read_as": "aṇḍaa",
+              "options": ["bread", "meat", "an egg", "cheese"],
+              "options_read_as": ["bread", "meat", "an egg", "cheese"],
+              "answer_index": 2,
+              "explanation_en": "अंडा is an egg. The plural अंडे is what you will usually see written."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ अंडा — का, के or की?",
+              "options": ["कि", "की", "के", "का"],
+              "options_read_as": ["ki", "kii", "ke", "kaa"],
+              "answer_index": 3,
+              "explanation_en": "अंडा is masculine, so का. The -ा ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["अंडा", "उबला अंडा", "अंडे"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L13-I3",
+          "type": "word",
+          "target": "मिठाई",
+          "read_as": "miṭhaaii",
+          "pronunciation_notes": "An aspirated retroflex ठ in the middle, then a long ii: miṭhaaii, three syllables.",
+          "gloss_en": "a sweet, sweets",
+          "gender": "f",
+          "gender_flag": false,
+          "category": "food_drink",
+          "plural": "मिठाइयाँ",
+          "plural_read_as": "miṭhaaiyãa",
+          "difficulty": 4,
+          "tags": ["food_drink", "noun", "feminine", "ii_ending", "retroflex", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "मिठाई — sweets",
+              "explanation_en": "मिठाई means a sweet, or sweets as a category — the boxed confections given at festivals and weddings. It is feminine and ends in the long ई, so the ending predicts correctly. The word is built from मीठा, meaning sweet, and the ठ in the middle is an aspirated retroflex, so the tongue curls back and breath follows.",
+              "examples": [
+                { "hindi": "ताज़ी मिठाई", "read_as": "taazii miṭhaaii", "english": "fresh sweets", "note": "ताज़ी takes -ी because मिठाई is feminine." },
+                { "hindi": "दो मिठाइयाँ", "read_as": "do miṭhaaiyãa", "english": "two sweets", "note": "The plural inserts a य sound before the ending." },
+                { "hindi": "मिठाई और चाय", "read_as": "miṭhaaii aur chaay", "english": "sweets and tea", "note": "Two feminine nouns, and a very common offer." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "मिठाई",
+              "question_read_as": "miṭhaaii",
+              "options": ["salt", "a spice", "a snack", "a sweet"],
+              "options_read_as": ["salt", "a spice", "a snack", "a sweet"],
+              "answer_index": 3,
+              "explanation_en": "मिठाई is a sweet. It comes from मीठा, meaning sweet as an adjective."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ मिठाई — का, के or की?",
+              "options": ["का", "कि", "की", "के"],
+              "options_read_as": ["kaa", "ki", "kii", "ke"],
+              "answer_index": 2,
+              "explanation_en": "मिठाई is feminine, so की. The long ई ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मिठाई", "ताज़ी मिठाई", "मिठाइयाँ"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed the fifteen food and drink words with घी, अंडा and मिठाई. घी joins दही and पानी as a masculine noun ending in -ी, which is now three of the fifteen.",
+        "key_forms": ["घी", "अंडा", "मिठाई"],
+        "next_up_en": "Next: things around the house, beginning with the house itself."
+      }
+    },
+    {
+      "level": 14,
+      "title_en": "Around the house",
+      "title_hi": "घर कमरा खिड़की",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L14-I1",
+          "type": "word",
+          "target": "घर",
+          "read_as": "ghar",
+          "pronunciation_notes": "One syllable — the final vowel drops, and घ is voiced and breathy at the same time: ghar.",
+          "gloss_en": "house, home",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "home",
+          "plural": "घर",
+          "plural_read_as": "ghar",
+          "difficulty": 3,
+          "tags": ["home", "noun", "masculine", "consonant_ending", "gender_flag", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "घर — house, home",
+              "explanation_en": "घर covers both the house and the home, doing the work of two English words. It is masculine and ends in a consonant, so the gender is unpredictable, and the plural does not change. It is worth setting against परिवार from the first level: परिवार is the people and घर is the place, and both happen to be masculine.",
+              "examples": [
+                { "hindi": "बड़ा घर", "read_as": "baṛaa ghar", "english": "a big house", "note": "The masculine adjective ending." },
+                { "hindi": "साफ़ घर", "read_as": "saaf ghar", "english": "a clean house", "note": "साफ़ never changes form." },
+                { "hindi": "दो घर", "read_as": "do ghar", "english": "two houses", "note": "The plural is identical to the singular." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "घर",
+              "question_read_as": "ghar",
+              "options": ["a room", "a house", "a village", "a family"],
+              "options_read_as": ["a room", "a house", "a village", "a family"],
+              "answer_index": 1,
+              "explanation_en": "घर is the house or home. परिवार is the family that lives in it."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ घर — का, के or की?",
+              "options": ["का", "के", "की", "कि"],
+              "options_read_as": ["kaa", "ke", "kii", "ki"],
+              "answer_index": 0,
+              "explanation_en": "घर is masculine, so का. Its consonant ending gives no clue."
+            }
+          },
+          "audio": {
+            "tts_strings": ["घर", "बड़ा घर", "साफ़ घर"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L14-I2",
+          "type": "word",
+          "target": "कमरा",
+          "read_as": "kamraa",
+          "pronunciation_notes": "The inherent vowel on म drops, so the word is kamraa in two syllables rather than three.",
+          "gloss_en": "room",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "home",
+          "plural": "कमरे",
+          "plural_read_as": "kamre",
+          "difficulty": 3,
+          "tags": ["home", "noun", "masculine", "aa_ending", "regular_plural", "medial_schwa"],
+          "cards": {
+            "learn": {
+              "title_en": "कमरा — room",
+              "explanation_en": "कमरा is a room. It is masculine and ends in -ा, so the gender is predictable and the plural changes to कमरे in the ordinary way. The pronunciation is another medial schwa case: written out it looks like three syllables, but the middle vowel disappears and it is said in two.",
+              "examples": [
+                { "hindi": "बड़ा कमरा", "read_as": "baṛaa kamraa", "english": "a big room", "note": "The masculine adjective ending." },
+                { "hindi": "तीन कमरे", "read_as": "tiin kamre", "english": "three rooms", "note": "The -ा becomes -े in the plural." },
+                { "hindi": "खाली कमरा", "read_as": "khaalii kamraa", "english": "an empty room", "note": "खाली ends in -ी but never changes form." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "कमरा",
+              "question_read_as": "kamraa",
+              "options": ["a house", "a door", "a room", "a wall"],
+              "options_read_as": ["a house", "a door", "a room", "a wall"],
+              "answer_index": 2,
+              "explanation_en": "कमरा is a room. घर is the whole house."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ कमरा — का, के or की?",
+              "options": ["की", "कि", "के", "का"],
+              "options_read_as": ["kii", "ki", "ke", "kaa"],
+              "answer_index": 3,
+              "explanation_en": "कमरा is masculine, so का. The -ा ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कमरा", "बड़ा कमरा", "कमरे"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L14-I3",
+          "type": "word",
+          "target": "खिड़की",
+          "read_as": "khiṛkii",
+          "pronunciation_notes": "The flap ड़ from Module 2, and the vowel after it drops: khiṛkii in two syllables.",
+          "gloss_en": "window",
+          "gender": "f",
+          "gender_flag": false,
+          "category": "home",
+          "plural": "खिड़कियाँ",
+          "plural_read_as": "khiṛkiyãa",
+          "difficulty": 4,
+          "tags": ["home", "noun", "feminine", "ii_ending", "nukta", "medial_schwa"],
+          "cards": {
+            "learn": {
+              "title_en": "खिड़की — window",
+              "explanation_en": "खिड़की is a window. It ends in -ी and is feminine, so the ending predicts correctly, and the plural follows the -ियाँ pattern. The word contains the flap ड़, where the tongue curls back and flicks forward once, and the vowel after it disappears, leaving two syllables rather than three.",
+              "examples": [
+                { "hindi": "खुली खिड़की", "read_as": "khulii khiṛkii", "english": "an open window", "note": "खुली takes -ी to agree with the feminine noun." },
+                { "hindi": "दो खिड़कियाँ", "read_as": "do khiṛkiyãa", "english": "two windows", "note": "The -ी becomes -ियाँ in the plural." },
+                { "hindi": "बड़ी खिड़की", "read_as": "baṛii khiṛkii", "english": "a big window", "note": "The feminine adjective ending." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "खिड़की",
+              "question_read_as": "khiṛkii",
+              "options": ["a door", "a wall", "a roof", "a window"],
+              "options_read_as": ["a door", "a wall", "a roof", "a window"],
+              "answer_index": 3,
+              "explanation_en": "खिड़की is a window. दरवाज़ा is a door."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ खिड़की — का, के or की?",
+              "options": ["का", "की", "के", "कि"],
+              "options_read_as": ["kaa", "kii", "ke", "ki"],
+              "answer_index": 1,
+              "explanation_en": "खिड़की is feminine, so की. The -ी ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["खिड़की", "खुली खिड़की", "खिड़कियाँ"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level began the home objects with घर, कमरा and खिड़की. Two of the three have endings that predict their gender, while घर has to be memorised like every other consonant-ending noun.",
+        "key_forms": ["घर", "कमरा", "खिड़की"],
+        "next_up_en": "Next: दरवाज़ा, मेज़ and किताब, including the noun every Hindi course uses to make the gender point."
+      }
+    },
+    {
+      "level": 15,
+      "title_en": "Doors, tables and books",
+      "title_hi": "दरवाज़ा मेज़ किताब",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L15-I1",
+          "type": "word",
+          "target": "दरवाज़ा",
+          "read_as": "darvaazaa",
+          "pronunciation_notes": "The dotted ज़ is a z sound, and the vowel after र drops: darvaazaa in three syllables.",
+          "gloss_en": "door",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "home",
+          "plural": "दरवाज़े",
+          "plural_read_as": "darvaaze",
+          "difficulty": 4,
+          "tags": ["home", "noun", "masculine", "aa_ending", "nukta", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "दरवाज़ा — door",
+              "explanation_en": "दरवाज़ा is a door. It is masculine and ends in -ा, so its gender and its plural are both predictable, giving दरवाज़े. The word carries the dotted ज़ from Module 2, pronounced as a z, and it belongs to a large group of everyday household words that came into Hindi from Persian.",
+              "examples": [
+                { "hindi": "बड़ा दरवाज़ा", "read_as": "baṛaa darvaazaa", "english": "a big door", "note": "The masculine adjective ending." },
+                { "hindi": "दो दरवाज़े", "read_as": "do darvaaze", "english": "two doors", "note": "The -ा becomes -े in the plural." },
+                { "hindi": "खुला दरवाज़ा", "read_as": "khulaa darvaazaa", "english": "an open door", "note": "खुला also takes -ा to agree." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दरवाज़ा",
+              "question_read_as": "darvaazaa",
+              "options": ["a window", "a door", "a key", "a wall"],
+              "options_read_as": ["a window", "a door", "a key", "a wall"],
+              "answer_index": 1,
+              "explanation_en": "दरवाज़ा is a door. खिड़की is a window."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ दरवाज़ा — का, के or की?",
+              "options": ["की", "के", "का", "कि"],
+              "options_read_as": ["kii", "ke", "kaa", "ki"],
+              "answer_index": 2,
+              "explanation_en": "दरवाज़ा is masculine, so का. The -ा ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["दरवाज़ा", "बड़ा दरवाज़ा", "दरवाज़े"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L15-I2",
+          "type": "word",
+          "target": "मेज़",
+          "read_as": "mez",
+          "pronunciation_notes": "One syllable ending in the dotted ज़, a z sound, with a flat ए and no glide: mez.",
+          "gloss_en": "table",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "home",
+          "plural": "मेज़ें",
+          "plural_read_as": "mezeṁ",
+          "difficulty": 4,
+          "tags": ["home", "noun", "feminine", "consonant_ending", "nukta", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "मेज़ — table",
+              "explanation_en": "मेज़ is a table. It is feminine and ends in a consonant, so the gender is unpredictable. Like दरवाज़ा it came into Hindi from Persian and carries the dotted ज़. Set the three household words so far together — कमरा, दरवाज़ा and मेज़ — and only मेज़ is feminine, with nothing in its shape to announce it.",
+              "examples": [
+                { "hindi": "बड़ी मेज़", "read_as": "baṛii mez", "english": "a big table", "note": "बड़ी takes -ी because मेज़ is feminine." },
+                { "hindi": "दो मेज़ें", "read_as": "do mezeṁ", "english": "two tables", "note": "Feminine nouns ending in a consonant take -एँ." },
+                { "hindi": "साफ़ मेज़", "read_as": "saaf mez", "english": "a clean table", "note": "साफ़ never changes form." }
+              ],
+              "common_error": {
+                "wrong": "बड़ा मेज़",
+                "right": "बड़ी मेज़",
+                "why_en": "मेज़ is feminine, so the adjective takes -ी — unlike दरवाज़ा, which takes -ा."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "मेज़",
+              "question_read_as": "mez",
+              "options": ["a chair", "a bed", "a cupboard", "a table"],
+              "options_read_as": ["a chair", "a bed", "a cupboard", "a table"],
+              "answer_index": 3,
+              "explanation_en": "मेज़ is a table. कुर्सी is a chair."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ मेज़ — का, के or की?",
+              "options": ["की", "के", "का", "कि"],
+              "options_read_as": ["kii", "ke", "kaa", "ki"],
+              "answer_index": 0,
+              "explanation_en": "मेज़ is feminine, so की. Its consonant ending predicts nothing."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मेज़", "बड़ी मेज़", "मेज़ें"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L15-I3",
+          "type": "word",
+          "target": "किताब",
+          "read_as": "kitaab",
+          "pronunciation_notes": "The ि matra is drawn before क but pronounced after it, and the final vowel drops: kitaab.",
+          "gloss_en": "book",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "home",
+          "plural": "किताबें",
+          "plural_read_as": "kitaabeṁ",
+          "difficulty": 4,
+          "tags": ["home", "noun", "feminine", "consonant_ending", "gender_flag", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "किताब — book",
+              "explanation_en": "किताब is a book, and it is the standard example of an unpredictable feminine noun — the word every Hindi course reaches for to make this point. It ends in a consonant, and it is feminine. Its plural किताबें is the form you met in Module 3 while learning to read several marks at once. Learn this one deliberately: it comes up constantly and the ending offers nothing at all.",
+              "examples": [
+                { "hindi": "अच्छी किताब", "read_as": "achchhii kitaab", "english": "a good book", "note": "अच्छी takes -ी because किताब is feminine." },
+                { "hindi": "दो किताबें", "read_as": "do kitaabeṁ", "english": "two books", "note": "The -एँ plural for a feminine consonant ending." },
+                { "hindi": "नई किताब", "read_as": "naii kitaab", "english": "a new book", "note": "नई is the feminine form of नया." }
+              ],
+              "common_error": {
+                "wrong": "अच्छा किताब",
+                "right": "अच्छी किताब",
+                "why_en": "किताब is feminine despite its consonant ending, so the adjective takes -ी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "किताब",
+              "question_read_as": "kitaab",
+              "options": ["a page", "a pen", "a book", "a letter"],
+              "options_read_as": ["a page", "a pen", "a book", "a letter"],
+              "answer_index": 2,
+              "explanation_en": "किताब is a book. Its plural किताबें appeared in Module 3."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ किताब — का, के or की?",
+              "options": ["का", "के", "कि", "की"],
+              "options_read_as": ["kaa", "ke", "ki", "kii"],
+              "answer_index": 3,
+              "explanation_en": "किताब is feminine, so की. This is the word to remember when the ending tells you nothing."
+            }
+          },
+          "audio": {
+            "tts_strings": ["किताब", "अच्छी किताब", "किताबें"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added दरवाज़ा, मेज़ and किताब. मेज़ and किताब both end in consonants and are feminine, while दरवाज़ा ends in -ा and is masculine, which is the pattern the whole module has been building.",
+        "key_forms": ["दरवाज़ा", "मेज़", "किताब"],
+        "next_up_en": "Next: more household objects, including a chair, a bed and the word for a thing in general."
+      }
+    }
+  ]
+}

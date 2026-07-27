@@ -1,0 +1,816 @@
+{
+  "module": 5,
+  "module_name_en": "First Sentences",
+  "module_name_hi": "पहला वाक्य",
+  "phase": 2,
+  "batch": { "levels_from": 11, "levels_to": 15 },
+  "levels": [
+    {
+      "level": 11,
+      "title_en": "Demonstratives in use",
+      "title_hi": "यह वह — और",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L11-I1",
+          "type": "grammar",
+          "target": "यह घर",
+          "read_as": "yah ghar",
+          "pronunciation_notes": "यह is said 'ye', so the pair runs together as 'ye ghar' in ordinary speech.",
+          "gloss_en": "a demonstrative standing before a noun",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["demonstrative", "modifier", "agreement", "chain"],
+          "cards": {
+            "learn": {
+              "title_en": "यह before a noun",
+              "explanation_en": "A demonstrative can stand alone as the subject — यह अच्छा है — or it can sit in front of a noun and point at it. Once it modifies a noun, everything downstream has to follow: यह घर बड़ा है has four singular words in a row, and ये घर बड़े हैं has four plural ones. Notice that घर itself does not change in the plural, so the demonstrative, the adjective and the verb are carrying the number between them.",
+              "examples": [
+                { "hindi": "यह घर बड़ा है।", "read_as": "yah ghar baṛaa hai.", "english": "This house is big.", "note": "Demonstrative, noun, adjective and verb all singular." },
+                { "hindi": "ये घर बड़े हैं।", "read_as": "ye ghar baṛe haiṁ.", "english": "These houses are big.", "note": "घर is unchanged, but everything around it is plural." },
+                { "hindi": "वह किताब नई है।", "read_as": "vah kitaab naii hai.", "english": "That book is new.", "note": "किताब is feminine, so नया takes its irregular feminine नई." }
+              ],
+              "common_error": {
+                "wrong": "यह घर बड़े हैं।",
+                "right": "ये घर बड़े हैं।",
+                "why_en": "The adjective and the verb are plural, so the demonstrative has to be plural as well."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "___ घर बड़े हैं।",
+              "question_read_as": "___ ghar baṛe haiṁ.",
+              "options": ["यह", "वह", "ये", "तू"],
+              "options_read_as": ["yah", "vah", "ye", "tuu"],
+              "answer_index": 2,
+              "explanation_en": "बड़े and हैं are both plural, so the demonstrative must be ये."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["ये घर बड़े हैं।", "यह घर बड़े हैं।", "ये घर बड़ा है।", "यह घर बड़े है।"],
+              "options_read_as": ["ye ghar baṛe haiṁ.", "yah ghar baṛe haiṁ.", "ye ghar baṛaa hai.", "yah ghar baṛe hai."],
+              "answer_index": 0,
+              "explanation_en": "Only one option keeps the demonstrative, the adjective and the verb all plural together."
+            }
+          },
+          "audio": {
+            "tts_strings": ["यह घर बड़ा है।", "ये घर बड़े हैं।", "वह किताब नई है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L11-I2",
+          "type": "grammar",
+          "target": "ये हैं",
+          "read_as": "ye haiṁ",
+          "pronunciation_notes": "Both words are short and unstressed, and the नasal on हैं is a hum rather than a consonant.",
+          "gloss_en": "the respectful singular",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["demonstrative", "respect", "plural_for_respect", "singular"],
+          "cards": {
+            "learn": {
+              "title_en": "ये हैं — one person, spoken of with respect",
+              "explanation_en": "Hindi shows respect by using plural forms, and that applies to talking about someone as much as to talking to them. Anyone you would address as आप is referred to as ये or वे, with हैं, even though only one person is meant. So ये पिता जी हैं is 'this is my father', with a plural verb for a single man. It is the same machinery you met with आप — respect and plurality share their forms, and only the situation separates them.",
+              "examples": [
+                { "hindi": "ये पिता जी हैं।", "read_as": "ye pitaa jii haiṁ.", "english": "This is father.", "note": "One person, plural forms throughout." },
+                { "hindi": "वे दादी जी हैं।", "read_as": "ve daadii jii haiṁ.", "english": "That is grandmother.", "note": "Respect again, and the same plural verb." },
+                { "hindi": "ये अच्छे हैं।", "read_as": "ye achchhe haiṁ.", "english": "He is good.", "note": "Or 'these are good' — only the situation decides which." }
+              ],
+              "common_error": {
+                "wrong": "ये पिता जी है।",
+                "right": "ये पिता जी हैं।",
+                "why_en": "Respect uses plural forms all the way through, so the verb is हैं even for one person."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "ये पिता जी ___।",
+              "question_read_as": "ye pitaa jii ___.",
+              "options": ["हैं", "है", "हूँ", "हो"],
+              "options_read_as": ["haiṁ", "hai", "huuṁ", "ho"],
+              "answer_index": 0,
+              "explanation_en": "जी marks respect, and respect takes plural forms — so हैं."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["ये पिता जी है।", "वे दादी जी है।", "ये पिता जी हैं।", "ये पिता जी हो।"],
+              "options_read_as": ["ye pitaa jii hai.", "ve daadii jii hai.", "ye pitaa jii haiṁ.", "ye pitaa jii ho."],
+              "answer_index": 2,
+              "explanation_en": "A respected person takes हैं. हो would need तुम as its subject."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ये पिता जी हैं।", "वे दादी जी हैं।", "ये अच्छे हैं।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L11-I3",
+          "type": "grammar",
+          "target": "वो",
+          "read_as": "vo",
+          "pronunciation_notes": "A flat ओ with no glide, so वो is one clean syllable and identical to how वह and वे are usually said.",
+          "gloss_en": "the spoken form of वह and वे",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["demonstrative", "spoken_form", "spelling_variant", "far", "listening"],
+          "cards": {
+            "learn": {
+              "title_en": "वो — what वह actually sounds like",
+              "explanation_en": "वह is written with a ह and said without one: in ordinary speech it comes out as वो. So does वे. That means the written singular and plural collapse into one spoken word, and you will also see वो written down in messages, subtitles and song lyrics. None of this is careless — it is simply what the language does. When listening, expect वो and let the verb tell you whether one thing or several are meant.",
+              "examples": [
+                { "hindi": "वो अच्छा है।", "read_as": "vo achchhaa hai.", "english": "He is good.", "note": "Singular — and only the verb says so." },
+                { "hindi": "वो अच्छे हैं।", "read_as": "vo achchhe haiṁ.", "english": "They are good.", "note": "The same spoken word, now plural." },
+                { "hindi": "वो किताब है।", "read_as": "vo kitaab hai.", "english": "That is a book.", "note": "Written वह in careful spelling, वो in ordinary use." }
+              ],
+              "common_error": {
+                "wrong": "वो अच्छा हैं।",
+                "right": "वो अच्छे हैं।",
+                "why_en": "If the verb is plural the adjective must be too. वो itself gives you no clue either way, so the rest of the sentence has to be consistent."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "वो अच्छे ___।",
+              "question_read_as": "vo achchhe ___.",
+              "options": ["है", "हैं", "हूँ", "हो"],
+              "options_read_as": ["hai", "haiṁ", "huuṁ", "ho"],
+              "answer_index": 1,
+              "explanation_en": "अच्छे is plural, so the verb has to be हैं."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["वो अच्छा हैं।", "वो अच्छे है।", "वो अच्छा हो।", "वो अच्छे हैं।"],
+              "options_read_as": ["vo achchhaa haiṁ.", "vo achchhe hai.", "vo achchhaa ho.", "vo achchhe haiṁ."],
+              "answer_index": 3,
+              "explanation_en": "The adjective and the verb must match each other, since वो does not tell you the number."
+            }
+          },
+          "audio": {
+            "tts_strings": ["वो अच्छा है।", "वो अच्छे हैं।", "वो किताब है।"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level finished the demonstratives. They can modify a noun or stand alone, they double as respectful singulars, and in speech वह and वे both come out as वो — which leaves the verb doing all the work of marking number.",
+        "key_forms": ["ये घर बड़े हैं।", "ये पिता जी हैं।", "वो अच्छे हैं।"],
+        "next_up_en": "Next: the question words, and the second job that क्या does."
+      }
+    },
+    {
+      "level": 12,
+      "title_en": "क्या and कौन",
+      "title_hi": "प्रश्न — क्या कौन",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L12-I1",
+          "type": "grammar",
+          "target": "क्या",
+          "read_as": "kyaa",
+          "pronunciation_notes": "The क्य stack runs क straight into य with no vowel between them: kyaa, one syllable.",
+          "gloss_en": "what",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["question_word", "interrogative", "word_order", "things"],
+          "cards": {
+            "learn": {
+              "title_en": "क्या — what",
+              "explanation_en": "क्या asks about things. The important structural point is where it goes: in a Hindi question the question word sits where the answer would sit, not at the front as in English. यह क्या है? is literally 'this what is?'. That turns out to be easier than it sounds — build the statement first, then swap the unknown part for the question word, and leave the verb where it already was, at the end.",
+              "examples": [
+                { "hindi": "यह क्या है?", "read_as": "yah kyaa hai?", "english": "What is this?", "note": "क्या sits exactly where the answer will go." },
+                { "hindi": "वह क्या है?", "read_as": "vah kyaa hai?", "english": "What is that?", "note": "The same shape, pointing further away." },
+                { "hindi": "ये क्या हैं?", "read_as": "ye kyaa haiṁ?", "english": "What are these?", "note": "Plural subject and plural verb, with क्या unchanged." }
+              ],
+              "common_error": {
+                "wrong": "ये क्या है?",
+                "right": "ये क्या हैं?",
+                "why_en": "ये is plural, so the verb must be हैं. क्या itself never changes."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "ये क्या ___?",
+              "question_read_as": "ye kyaa ___?",
+              "options": ["है", "हूँ", "हो", "हैं"],
+              "options_read_as": ["hai", "huuṁ", "ho", "haiṁ"],
+              "answer_index": 3,
+              "explanation_en": "ये is plural, so the verb is हैं."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["यह क्या हैं?", "यह क्या है?", "ये क्या है?", "यह क्या हूँ?"],
+              "options_read_as": ["yah kyaa haiṁ?", "yah kyaa hai?", "ye kyaa hai?", "yah kyaa huuṁ?"],
+              "answer_index": 1,
+              "explanation_en": "यह is singular, so it takes है. ये would need हैं."
+            }
+          },
+          "audio": {
+            "tts_strings": ["यह क्या है?", "वह क्या है?", "ये क्या हैं?"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L12-I2",
+          "type": "grammar",
+          "target": "क्या ... है?",
+          "read_as": "kyaa ... hai?",
+          "pronunciation_notes": "As a question marker क्या is unstressed and often barely audible, with the rising tone carrying most of the work.",
+          "gloss_en": "क्या as a yes-or-no question marker",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["question_word", "yes_no_question", "particle", "word_order"],
+          "cards": {
+            "learn": {
+              "title_en": "क्या at the front — a spoken question mark",
+              "explanation_en": "क्या has a second job, promised back in Module 4. Placed at the very front of a statement it turns the whole thing into a yes-or-no question and changes nothing else: चाय गरम है becomes क्या चाय गरम है?, 'is the tea hot?'. Here क्या means nothing at all by itself — it simply announces that a question is coming. In casual speech it is often dropped and a rising tone does the job instead.",
+              "examples": [
+                { "hindi": "क्या चाय गरम है?", "read_as": "kyaa chaay garam hai?", "english": "Is the tea hot?", "note": "The statement is untouched; क्या is simply added at the front." },
+                { "hindi": "क्या यह किताब है?", "read_as": "kyaa yah kitaab hai?", "english": "Is this a book?", "note": "A yes-or-no question, not a 'what' question." },
+                { "hindi": "क्या आप अच्छे हैं?", "read_as": "kyaa aap achchhe haiṁ?", "english": "Are you well?", "note": "The same marker with a polite subject." }
+              ],
+              "common_error": {
+                "wrong": "चाय गरम क्या है?",
+                "right": "क्या चाय गरम है?",
+                "why_en": "As a yes-or-no marker क्या belongs at the very front. Sitting in the middle it would be asking 'what' instead."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the yes-or-no question.",
+              "question": "___ चाय गरम है?",
+              "question_read_as": "___ chaay garam hai?",
+              "options": ["कौन", "कहाँ", "क्या", "कब"],
+              "options_read_as": ["kaun", "kahãa", "kyaa", "kab"],
+              "answer_index": 2,
+              "explanation_en": "क्या at the front turns a statement into a yes-or-no question."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence means 'Is this a book?'",
+              "options": ["क्या यह किताब है?", "यह क्या है?", "यह किताब क्या है?", "क्या यह है?"],
+              "options_read_as": ["kyaa yah kitaab hai?", "yah kyaa hai?", "yah kitaab kyaa hai?", "kyaa yah hai?"],
+              "answer_index": 0,
+              "explanation_en": "क्या at the front asks yes or no. In the middle it asks 'what', which gives a different question entirely."
+            }
+          },
+          "audio": {
+            "tts_strings": ["क्या चाय गरम है?", "क्या यह किताब है?", "क्या आप अच्छे हैं?"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L12-I3",
+          "type": "grammar",
+          "target": "कौन",
+          "read_as": "kaun",
+          "pronunciation_notes": "The open औ is a single vowel, nearer the aw of 'law' than the ow of 'cow': kaun.",
+          "gloss_en": "who",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["question_word", "interrogative", "people", "agreement"],
+          "cards": {
+            "learn": {
+              "title_en": "कौन — who",
+              "explanation_en": "कौन asks about people, and it behaves exactly like क्या: it sits where the answer would go and the verb stays at the end. The one thing to watch is the verb. कौन can take either है or हैं depending on whether you expect one person or several — and because respect uses plural forms, a polite question about one person also takes हैं.",
+              "examples": [
+                { "hindi": "यह कौन है?", "read_as": "yah kaun hai?", "english": "Who is this?", "note": "One person expected, so है." },
+                { "hindi": "वे कौन हैं?", "read_as": "ve kaun haiṁ?", "english": "Who are they?", "note": "Genuinely plural, so हैं." },
+                { "hindi": "ये कौन हैं?", "read_as": "ye kaun haiṁ?", "english": "Who is this?", "note": "One person, asked respectfully — and so still हैं." }
+              ],
+              "common_error": {
+                "wrong": "यह कौन हैं?",
+                "right": "यह कौन है?",
+                "why_en": "यह is singular, so the verb is है. The respectful version would use ये कौन हैं?"
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "यह कौन ___?",
+              "question_read_as": "yah kaun ___?",
+              "options": ["है", "हैं", "हूँ", "हो"],
+              "options_read_as": ["hai", "haiṁ", "huuṁ", "ho"],
+              "answer_index": 0,
+              "explanation_en": "यह is singular, so the verb is है."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["यह कौन हैं?", "ये कौन है?", "वे कौन हैं?", "वह कौन हैं?"],
+              "options_read_as": ["yah kaun haiṁ?", "ye kaun hai?", "ve kaun haiṁ?", "vah kaun haiṁ?"],
+              "answer_index": 2,
+              "explanation_en": "वे is plural and takes हैं. The other three each pair a singular demonstrative with a plural verb or the reverse."
+            }
+          },
+          "audio": {
+            "tts_strings": ["यह कौन है?", "वे कौन हैं?", "ये कौन हैं?"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered क्या and कौन. Hindi puts the question word where the answer would go rather than at the front — except when क्या leads the sentence, in which case it is asking yes or no rather than what.",
+        "key_forms": ["यह क्या है?", "क्या चाय गरम है?", "यह कौन है?"],
+        "next_up_en": "Next: कहाँ, कब and कैसे, and the relative of कैसे that does change form."
+      }
+    },
+    {
+      "level": 13,
+      "title_en": "कहाँ, कब, कैसे",
+      "title_hi": "प्रश्न — जगह समय ढंग",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L13-I1",
+          "type": "grammar",
+          "target": "कहाँ",
+          "read_as": "kahãa",
+          "pronunciation_notes": "The crescent nasalises the final vowel and adds no n sound: kahãa, two syllables.",
+          "gloss_en": "where",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["question_word", "interrogative", "place"],
+          "cards": {
+            "learn": {
+              "title_en": "कहाँ — where",
+              "explanation_en": "कहाँ asks about place and sits where the answer would go, like the others. It belongs to a set of three that end in the same nasalised vowel: कहाँ for where, यहाँ for here, वहाँ for there. Answering a कहाँ question in full usually needs a postposition — in the house, on the table — and those arrive in the next module, so for now the questions run ahead of the answers.",
+              "examples": [
+                { "hindi": "तुम कहाँ हो?", "read_as": "tum kahãa ho?", "english": "Where are you?", "note": "The question word comes just before the verb." },
+                { "hindi": "आप कहाँ थे?", "read_as": "aap kahãa the?", "english": "Where were you?", "note": "The same shape in the past, with आप taking थे." },
+                { "hindi": "वह कहाँ है?", "read_as": "vah kahãa hai?", "english": "Where is he?", "note": "Singular subject, singular verb." }
+              ],
+              "common_error": {
+                "wrong": "आप कहाँ था?",
+                "right": "आप कहाँ थे?",
+                "why_en": "आप takes plural agreement, so its past form is थे and never था."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "आप कहाँ ___?",
+              "question_read_as": "aap kahãa ___?",
+              "options": ["था", "थी", "हूँ", "थे"],
+              "options_read_as": ["thaa", "thii", "huuṁ", "the"],
+              "answer_index": 3,
+              "explanation_en": "आप takes plural agreement, so the past form is थे."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["आप कहाँ था?", "तुम कहाँ हो?", "तू कहाँ हो?", "आप कहाँ हो?"],
+              "options_read_as": ["aap kahãa thaa?", "tum kahãa ho?", "tuu kahãa ho?", "aap kahãa ho?"],
+              "answer_index": 1,
+              "explanation_en": "तुम takes हो. आप needs हैं or थे, and तू needs है."
+            }
+          },
+          "audio": {
+            "tts_strings": ["तुम कहाँ हो?", "आप कहाँ थे?", "वह कहाँ है?"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L13-I2",
+          "type": "grammar",
+          "target": "कब",
+          "read_as": "kab",
+          "pronunciation_notes": "Unaspirated क with no puff of air, and the final vowel drops: kab, one syllable.",
+          "gloss_en": "when",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["question_word", "interrogative", "time"],
+          "cards": {
+            "learn": {
+              "title_en": "कब — when",
+              "explanation_en": "कब asks about time. With only होना available the questions it can form are limited — you can ask when something was or is, but most real 'when' questions need a full verb, which arrives in Module 7. The time words from the last module supply the answers: सुबह, शाम, रात, कल. कब और कहाँ? is a complete question with no verb in it at all.",
+              "examples": [
+                { "hindi": "वह कब था?", "read_as": "vah kab thaa?", "english": "When was that?", "note": "Asking about something in the past." },
+                { "hindi": "यह कब है?", "read_as": "yah kab hai?", "english": "When is this?", "note": "Asking about something still to come." },
+                { "hindi": "कब और कहाँ?", "read_as": "kab aur kahãa?", "english": "When and where?", "note": "Two question words joined, with no verb needed." }
+              ],
+              "common_error": {
+                "wrong": "वह कब थे?",
+                "right": "वह कब था?",
+                "why_en": "वह is singular, so the past form is था. वे would take थे."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "वह कब ___?",
+              "question_read_as": "vah kab ___?",
+              "options": ["थे", "था", "थीं", "हो"],
+              "options_read_as": ["the", "thaa", "thiiṁ", "ho"],
+              "answer_index": 1,
+              "explanation_en": "वह is masculine and singular, so the past form is था."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["वह कब थे?", "वे कब था?", "तुम कब है?", "वह कब था?"],
+              "options_read_as": ["vah kab the?", "ve kab thaa?", "tum kab hai?", "vah kab thaa?"],
+              "answer_index": 3,
+              "explanation_en": "वह is singular and takes था. The other three all mismatch the subject and the verb."
+            }
+          },
+          "audio": {
+            "tts_strings": ["वह कब था?", "यह कब है?", "कब और कहाँ?"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L13-I3",
+          "type": "grammar",
+          "target": "कैसे",
+          "read_as": "kaise",
+          "pronunciation_notes": "The open ऐ then a flat ए, with no glide on either: kaise, two syllables.",
+          "gloss_en": "how — and कैसा, what kind",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["question_word", "interrogative", "manner", "inflecting", "agreement"],
+          "cards": {
+            "learn": {
+              "title_en": "कैसे — how, and कैसा — what kind",
+              "explanation_en": "कैसे asks how something is done, and in that sense it never changes. But it has a close relative that does change: कैसा asks what something is like, and it agrees like any -ा adjective — कैसा घर, कैसी किताब, कैसे बच्चे. This explains the greeting you have been using since level five. आप कैसे हैं? has कैसे because आप takes plural agreement, and a woman is asked आप कैसी हैं?",
+              "examples": [
+                { "hindi": "आप कैसे हैं?", "read_as": "aap kaise haiṁ?", "english": "How are you?", "note": "Plural agreement with आप." },
+                { "hindi": "तुम कैसे हो?", "read_as": "tum kaise ho?", "english": "How are you?", "note": "The familiar version, and still plural." },
+                { "hindi": "चाय कैसी है?", "read_as": "chaay kaisii hai?", "english": "How is the tea?", "note": "चाय is feminine, so the form becomes कैसी." }
+              ],
+              "common_error": {
+                "wrong": "चाय कैसा है?",
+                "right": "चाय कैसी है?",
+                "why_en": "चाय is feminine, so the form has to agree with it just as an adjective would."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "चाय ___ है?",
+              "question_read_as": "chaay ___ hai?",
+              "options": ["कैसे", "कैसा", "कैसी", "कैसों"],
+              "options_read_as": ["kaise", "kaisaa", "kaisii", "kaisoṁ"],
+              "answer_index": 2,
+              "explanation_en": "चाय is feminine and singular, so the form is कैसी."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["चाय कैसी है?", "चाय कैसा है?", "चाय कैसे है?", "चाय कैसे हैं?"],
+              "options_read_as": ["chaay kaisii hai?", "chaay kaisaa hai?", "chaay kaise hai?", "chaay kaise haiṁ?"],
+              "answer_index": 0,
+              "explanation_en": "चाय is feminine and singular, so both the question word and the verb have to match it."
+            }
+          },
+          "audio": {
+            "tts_strings": ["आप कैसे हैं?", "तुम कैसे हो?", "चाय कैसी है?"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered कहाँ, कब and कैसे. The first two never change form, but कैसे has a relative कैसा that agrees like an adjective — which is what the familiar greeting आप कैसे हैं? has been doing all along.",
+        "key_forms": ["तुम कहाँ हो?", "वह कब था?", "चाय कैसी है?"],
+        "next_up_en": "Next: क्यों, and the two question words that agree with the noun."
+      }
+    },
+    {
+      "level": 14,
+      "title_en": "क्यों, कितना, कौन सा",
+      "title_hi": "प्रश्न — कारण और मात्रा",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L14-I1",
+          "type": "grammar",
+          "target": "क्यों",
+          "read_as": "kyoṁ",
+          "pronunciation_notes": "The क्य stack plus a nasalised vowel, all in one syllable: kyoṁ.",
+          "gloss_en": "why",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["question_word", "interrogative", "reason", "conjunct"],
+          "cards": {
+            "learn": {
+              "title_en": "क्यों — why",
+              "explanation_en": "क्यों asks for a reason and never changes form. Answering it properly needs क्योंकि, meaning 'because', which arrives at the very end of this module — so for a while you will be able to ask why more easily than you can answer it. In the meantime क्यों नहीं?, 'why not?', is a complete and very usable question with no verb in it at all.",
+              "examples": [
+                { "hindi": "यह क्यों है?", "read_as": "yah kyoṁ hai?", "english": "Why is this?", "note": "The bare shape of the question." },
+                { "hindi": "क्यों नहीं?", "read_as": "kyoṁ nahiiṁ?", "english": "Why not?", "note": "A complete question with no verb." },
+                { "hindi": "आप क्यों थे?", "read_as": "aap kyoṁ the?", "english": "Why were you there?", "note": "आप takes थे in the past." }
+              ],
+              "common_error": {
+                "wrong": "आप क्यों था?",
+                "right": "आप क्यों थे?",
+                "why_en": "आप takes plural agreement, so the past form is थे."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "आप क्यों ___?",
+              "question_read_as": "aap kyoṁ ___?",
+              "options": ["थे", "था", "थी", "हूँ"],
+              "options_read_as": ["the", "thaa", "thii", "huuṁ"],
+              "answer_index": 0,
+              "explanation_en": "आप always takes plural agreement, so the past form is थे."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["आप क्यों था?", "वह क्यों थे?", "वह क्यों था?", "तुम क्यों है?"],
+              "options_read_as": ["aap kyoṁ thaa?", "vah kyoṁ the?", "vah kyoṁ thaa?", "tum kyoṁ hai?"],
+              "answer_index": 2,
+              "explanation_en": "वह is singular and takes था. आप needs थे, and तुम needs हो."
+            }
+          },
+          "audio": {
+            "tts_strings": ["यह क्यों है?", "क्यों नहीं?", "आप क्यों थे?"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L14-I2",
+          "type": "grammar",
+          "target": "कितना",
+          "read_as": "kitnaa",
+          "pronunciation_notes": "The vowel before -ना drops, giving kitnaa in two syllables rather than three.",
+          "gloss_en": "how much, how many",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["question_word", "interrogative", "quantity", "inflecting", "agreement"],
+          "cards": {
+            "learn": {
+              "title_en": "कितना — how much, and it agrees",
+              "explanation_en": "कितना asks about quantity, and unlike every question word so far it changes form: कितना with a masculine singular, कितनी with a feminine, कितने with a masculine plural. It behaves exactly like बड़ा or अच्छा. That makes it the first question word where you have to know the gender of the noun before you can even ask about it — which is where the last module's 150 genders start earning their keep.",
+              "examples": [
+                { "hindi": "कितना पानी?", "read_as": "kitnaa paanii?", "english": "How much water?", "note": "पानी is masculine, so कितना — despite that -ी ending." },
+                { "hindi": "कितनी चाय?", "read_as": "kitnii chaay?", "english": "How much tea?", "note": "चाय is feminine, so कितनी." },
+                { "hindi": "कितने बच्चे हैं?", "read_as": "kitne bachche haiṁ?", "english": "How many children are there?", "note": "Masculine plural, so कितने." }
+              ],
+              "common_error": {
+                "wrong": "कितना चाय?",
+                "right": "कितनी चाय?",
+                "why_en": "चाय is feminine, so कितना has to take its feminine form."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the question.",
+              "question": "___ चाय?",
+              "question_read_as": "___ chaay?",
+              "options": ["कितना", "कितनी", "कितने", "कितन"],
+              "options_read_as": ["kitnaa", "kitnii", "kitne", "kitan"],
+              "answer_index": 1,
+              "explanation_en": "चाय is feminine, so the form is कितनी."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which question is correct?",
+              "options": ["कितना चाय?", "कितने पानी?", "कितनी बच्चे?", "कितना पानी?"],
+              "options_read_as": ["kitnaa chaay?", "kitne paanii?", "kitnii bachche?", "kitnaa paanii?"],
+              "answer_index": 3,
+              "explanation_en": "पानी is masculine and singular, so कितना. Its -ी ending is misleading, as it has been since Module 4."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कितना पानी?", "कितनी चाय?", "कितने बच्चे हैं?"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L14-I3",
+          "type": "grammar",
+          "target": "कौन सा",
+          "read_as": "kaun saa",
+          "pronunciation_notes": "Two separate words, both unstressed, and सा carries the agreement rather than कौन.",
+          "gloss_en": "which one",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["question_word", "interrogative", "selection", "inflecting", "agreement"],
+          "cards": {
+            "learn": {
+              "title_en": "कौन सा — which one",
+              "explanation_en": "कौन on its own asks 'who'. Add सा and it becomes 'which', used to pick one item out of several. It is the सा part that agrees, not कौन: कौन सा घर, कौन सी किताब, कौन से बच्चे. English speakers regularly reach for कौन alone when they mean 'which', which asks about a person instead and lands strangely — कौन किताब? is close to asking 'who book?'.",
+              "examples": [
+                { "hindi": "कौन सा घर?", "read_as": "kaun saa ghar?", "english": "Which house?", "note": "घर is masculine singular, so सा." },
+                { "hindi": "कौन सी किताब?", "read_as": "kaun sii kitaab?", "english": "Which book?", "note": "किताब is feminine, so सी." },
+                { "hindi": "कौन से बच्चे?", "read_as": "kaun se bachche?", "english": "Which children?", "note": "Masculine plural, so से." }
+              ],
+              "common_error": {
+                "wrong": "कौन किताब?",
+                "right": "कौन सी किताब?",
+                "why_en": "कौन alone asks 'who'. For 'which' you need सा, agreeing with the noun that follows."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the question.",
+              "question": "कौन ___ किताब?",
+              "question_read_as": "kaun ___ kitaab?",
+              "options": ["सा", "से", "सों", "सी"],
+              "options_read_as": ["saa", "se", "soṁ", "sii"],
+              "answer_index": 3,
+              "explanation_en": "किताब is feminine, so सा becomes सी."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which question is correct?",
+              "options": ["कौन सा किताब?", "कौन सी किताब?", "कौन से किताब?", "कौन किताब?"],
+              "options_read_as": ["kaun saa kitaab?", "kaun sii kitaab?", "kaun se kitaab?", "kaun kitaab?"],
+              "answer_index": 1,
+              "explanation_en": "किताब is feminine and singular, so the form is सी. Dropping सा altogether changes the question to 'who'."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कौन सा घर?", "कौन सी किताब?", "कौन से बच्चे?"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed the question words. Most never change, but कितना and कौन सा agree with the noun exactly as adjectives do — so asking about quantity or choice requires knowing the gender first.",
+        "key_forms": ["क्यों नहीं?", "कितनी चाय?", "कौन सी किताब?"],
+        "next_up_en": "Next: adjective agreement set out in full, and a conversation that shows all three forms at once."
+      }
+    },
+    {
+      "level": 15,
+      "title_en": "Adjective agreement",
+      "title_hi": "विशेषण का रूप",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M05-L15-I1",
+          "type": "grammar",
+          "target": "अच्छा घर",
+          "read_as": "achchhaa ghar",
+          "pronunciation_notes": "The च्छ stack pairs a plain च with an aspirated छ, so only the second half carries breath.",
+          "gloss_en": "adjective agreement — masculine singular",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["adjective", "agreement", "masculine", "singular", "inflecting"],
+          "cards": {
+            "learn": {
+              "title_en": "The -ा form",
+              "explanation_en": "An adjective ending in -ा takes three forms, decided by the noun it describes, and -ा itself is the masculine singular: अच्छा घर, बड़ा कमरा, नया कपड़ा. Adjectives that do not end in -ा — साफ़, गरम, खाली, सुंदर — never change at all, so this whole question only ever arises for the -ा group. When such an adjective appears in a sentence with होना, the verb agrees separately and both have to be right.",
+              "examples": [
+                { "hindi": "अच्छा घर", "read_as": "achchhaa ghar", "english": "a good house", "note": "घर is masculine and singular, so -ा." },
+                { "hindi": "यह घर अच्छा है।", "read_as": "yah ghar achchhaa hai.", "english": "This house is good.", "note": "The adjective and the verb agree separately with घर." },
+                { "hindi": "साफ़ घर", "read_as": "saaf ghar", "english": "a clean house", "note": "साफ़ never changes, so it tells you nothing about the gender." }
+              ],
+              "common_error": {
+                "wrong": "अच्छी घर",
+                "right": "अच्छा घर",
+                "why_en": "घर is masculine, so the adjective takes -ा."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "यह घर ___ है।",
+              "question_read_as": "yah ghar ___ hai.",
+              "options": ["अच्छा", "अच्छी", "अच्छे", "अच्छ"],
+              "options_read_as": ["achchhaa", "achchhii", "achchhe", "achchh"],
+              "answer_index": 0,
+              "explanation_en": "घर is masculine and singular, so the adjective takes -ा."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["यह घर अच्छी है।", "यह घर अच्छे है।", "यह घर अच्छा है।", "यह घर अच्छ है।"],
+              "options_read_as": ["yah ghar achchhii hai.", "yah ghar achchhe hai.", "yah ghar achchhaa hai.", "yah ghar achchh hai."],
+              "answer_index": 2,
+              "explanation_en": "घर is masculine and singular, so the adjective is अच्छा."
+            }
+          },
+          "audio": {
+            "tts_strings": ["अच्छा घर", "यह घर अच्छा है।", "साफ़ घर"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L15-I2",
+          "type": "grammar",
+          "target": "अच्छी किताब",
+          "read_as": "achchhii kitaab",
+          "pronunciation_notes": "The ि matra on किताब is drawn before क but pronounced after it, as it has been since Module 3.",
+          "gloss_en": "adjective agreement — feminine",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["adjective", "agreement", "feminine", "singular", "plural", "inflecting"],
+          "cards": {
+            "learn": {
+              "title_en": "The -ी form",
+              "explanation_en": "-ी is the feminine form, and it covers both singular and plural: अच्छी किताब and अच्छी किताबें use exactly the same adjective. That is worth noticing, because it means a feminine plural shows its number in the noun and the verb but not in between. अच्छी किताबें हैं has a plural noun and a plural verb with an unchanged adjective sitting between them.",
+              "examples": [
+                { "hindi": "अच्छी किताब", "read_as": "achchhii kitaab", "english": "a good book", "note": "किताब is feminine, so -ी." },
+                { "hindi": "अच्छी किताबें", "read_as": "achchhii kitaabeṁ", "english": "good books", "note": "Feminine plural, and the adjective does not change at all." },
+                { "hindi": "यह किताब अच्छी है।", "read_as": "yah kitaab achchhii hai.", "english": "This book is good.", "note": "The adjective and the verb are both feminine." }
+              ],
+              "common_error": {
+                "wrong": "अच्छे किताबें",
+                "right": "अच्छी किताबें",
+                "why_en": "Feminine adjectives keep -ी in the plural. Only masculine ones change to -े."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "ये किताबें ___ हैं।",
+              "question_read_as": "ye kitaabeṁ ___ haiṁ.",
+              "options": ["अच्छा", "अच्छे", "अच्छी", "अच्छ"],
+              "options_read_as": ["achchhaa", "achchhe", "achchhii", "achchh"],
+              "answer_index": 2,
+              "explanation_en": "किताबें is feminine, and feminine adjectives keep -ी even in the plural."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which phrase is correct?",
+              "options": ["अच्छी किताबें", "अच्छे किताबें", "अच्छा किताबें", "अच्छ किताबें"],
+              "options_read_as": ["achchhii kitaabeṁ", "achchhe kitaabeṁ", "achchhaa kitaabeṁ", "achchh kitaabeṁ"],
+              "answer_index": 0,
+              "explanation_en": "किताबें is feminine plural, and the feminine adjective form does not change for number."
+            }
+          },
+          "audio": {
+            "tts_strings": ["अच्छी किताब", "अच्छी किताबें", "यह किताब अच्छी है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L15-I3",
+          "type": "dialogue",
+          "target": "अच्छे बच्चे",
+          "read_as": "achchhe bachche",
+          "pronunciation_notes": "Both words end in a flat ए with no glide, so the phrase has a matched rhythm: achchhe bachche.",
+          "gloss_en": "adjective agreement — masculine plural",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["adjective", "agreement", "masculine", "plural", "dialogue"],
+          "setting_en": "Two neighbours talking about a family",
+          "speakers": 2,
+          "speed": "slow",
+          "cards": {
+            "learn": {
+              "title_en": "The -े form",
+              "explanation_en": "-े is the masculine plural: अच्छे बच्चे, बड़े घर, नए जूते. With this the set is complete — -ा for masculine singular, -ी for feminine of any number, -े for masculine plural. Listen for the switch in the exchange below: the neighbours move from a group of children to a single child, and the adjective and the verb both change together in the same breath.",
+              "lines": [
+                { "speaker": "A", "hindi": "ये बच्चे कैसे हैं?", "read_as": "ye bachche kaise haiṁ?", "english": "How are these children?" },
+                { "speaker": "B", "hindi": "ये बच्चे बहुत अच्छे हैं।", "read_as": "ye bachche bahut achchhe haiṁ.", "english": "These children are very good." },
+                { "speaker": "A", "hindi": "और वह बच्चा?", "read_as": "aur vah bachchaa?", "english": "And that child?" },
+                { "speaker": "B", "hindi": "वह भी अच्छा है।", "read_as": "vah bhii achchhaa hai.", "english": "He is good too." }
+              ],
+              "common_error": {
+                "wrong": "ये बच्चे अच्छा हैं।",
+                "right": "ये बच्चे अच्छे हैं।",
+                "why_en": "बच्चे is masculine plural, so the adjective takes -े just as the verb takes हैं."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "वह बच्चा ___ है।",
+              "question_read_as": "vah bachchaa ___ hai.",
+              "options": ["अच्छे", "अच्छी", "अच्छ", "अच्छा"],
+              "options_read_as": ["achchhe", "achchhii", "achchh", "achchhaa"],
+              "answer_index": 3,
+              "explanation_en": "बच्चा is masculine and singular here, so the adjective is अच्छा."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the second line. Which word is missing?",
+              "masked_line_index": 1,
+              "masked_word": "अच्छे",
+              "mask_reason": "gender-marked adjective ending agreeing with बच्चे",
+              "options": ["अच्छा", "अच्छे", "अच्छी", "अच्छ"],
+              "options_read_as": ["achchhaa", "achchhe", "achchhii", "achchh"],
+              "answer_index": 1,
+              "explanation_en": "बच्चे is masculine plural, so the adjective takes -े. The word itself is guessable; only the ending is in question."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ये बच्चे कैसे हैं?", "ये बच्चे बहुत अच्छे हैं।", "और वह बच्चा?", "वह भी अच्छा है।"],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level set out adjective agreement in full: -ा for masculine singular, -ी for feminine of any number, -े for masculine plural, and no change at all for adjectives that do not end in -ा.",
+        "key_forms": ["अच्छा घर", "अच्छी किताबें", "अच्छे बच्चे"],
+        "next_up_en": "Next: more on agreement, and then the postpositions that make longer sentences possible."
+      }
+    }
+  ]
+}

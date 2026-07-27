@@ -1,0 +1,872 @@
+{
+  "module": 2,
+  "module_name_en": "Consonants",
+  "module_name_hi": "व्यंजन",
+  "phase": 1,
+  "batch": { "levels_from": 6, "levels_to": 10 },
+  "levels": [
+    {
+      "level": 6,
+      "title_en": "Closing the retroflex family",
+      "title_hi": "ढ ण",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M02-L06-I1",
+          "type": "letter",
+          "target": "ढ",
+          "read_as": "ḍha",
+          "pronunciation_notes": "Voiced retroflex released with breath — ड and घ combined. Its dotted form ढ़ is a separate flapped letter, taught in level fifteen.",
+          "gloss_en": "voiced aspirated retroflex stop",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["consonant", "ta_varga_retroflex", "retroflex", "voiced", "aspirated", "breathy_voice"],
+          "letter_form": "ढ",
+          "matra": null,
+          "sound_family": "ṭa-varga",
+          "contrasts_with": ["ड", "ठ"],
+          "example_word": { "hindi": "ढाई", "read_as": "ḍhaaii", "english": "two and a half" },
+          "cards": {
+            "learn": {
+              "title_en": "ढ — the last of the retroflex stops",
+              "explanation_en": "ढ completes the grid: tongue curled back as for ड, vocal cords running, and breath released at the same moment. It is the retroflex version of what घ does in the क-family, so anyone who has managed घ can usually reach it by keeping that murmur and moving the tongue back. Note that ढ with a dot underneath is a different letter altogether — a flap rather than a stop.",
+              "examples": [
+                { "hindi": "ढाई", "read_as": "ḍhaaii", "english": "two and a half", "note": "You will need this constantly for times and prices." },
+                { "hindi": "ढाबा", "read_as": "ḍhaabaa", "english": "roadside eatery", "note": "Breathy retroflex at the start, then a plain ब." },
+                { "hindi": "ढेर", "read_as": "ḍher", "english": "a heap, a lot of", "note": "One syllable of breathy retroflex, then the ए matra." }
+              ],
+              "common_error": {
+                "wrong": "डाई",
+                "right": "ढाई",
+                "why_en": "Dropping the breath gives plain ड, and the number is no longer recognisable."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "ढाबा",
+              "question_read_as": "ḍhaabaa",
+              "options": ["ट", "ड", "ढ", "ठ"],
+              "options_read_as": ["ṭa", "ḍa", "ḍha", "ṭha"],
+              "answer_index": 2,
+              "explanation_en": "The tongue is curled back, the sound is voiced, and breath is released with it — that is ढ and not ड."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["ढेर", "डर", "डाल", "डाक"],
+              "options_read_as": ["ḍher", "ḍar", "ḍaal", "ḍaak"],
+              "answer_index": 0,
+              "explanation_en": "ढेर begins with ढ, which releases breath. The other three begin with the plain ड."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ढ", "ढाई", "ढाबा", "ढेर"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L06-I2",
+          "type": "letter",
+          "target": "ण",
+          "read_as": "ṇa",
+          "pronunciation_notes": "Nasal made with the tongue curled back. It never begins a Hindi word; it appears inside words, and the anusvara ं is read as this sound before a retroflex consonant.",
+          "gloss_en": "retroflex nasal",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["consonant", "ta_varga_retroflex", "retroflex", "nasal"],
+          "letter_form": "ण",
+          "matra": null,
+          "sound_family": "ṭa-varga",
+          "contrasts_with": ["न", "ङ", "ञ"],
+          "example_word": { "hindi": "कारण", "read_as": "kaaraṇ", "english": "reason, cause" },
+          "cards": {
+            "learn": {
+              "title_en": "ण — the nasal with the tongue back",
+              "explanation_en": "ण is the retroflex family's nasal: an n made with the tongue curled back to the roof of the mouth. It never starts a Hindi word. You meet it in two places — written out in Sanskrit-derived words such as कारण, and hiding inside the anusvara ं whenever a retroflex consonant follows, which is why अंडा is read with it rather than with a plain n.",
+              "examples": [
+                { "hindi": "कारण", "read_as": "kaaraṇ", "english": "reason, cause", "note": "The letter written in full, at the end of a word." },
+                { "hindi": "अंडा", "read_as": "aṇḍaa", "english": "egg", "note": "The dot is read as ण because ड follows it." },
+                { "hindi": "ठंडा", "read_as": "ṭhaṇḍaa", "english": "cold", "note": "The same rule again — the following retroflex decides how the dot sounds." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which sound does the dot stand for in this word?",
+              "question": "अंडा",
+              "question_read_as": "aṇḍaa",
+              "options": ["ण", "न", "म", "ङ"],
+              "options_read_as": ["ṇa", "na", "ma", "ṅa"],
+              "answer_index": 0,
+              "explanation_en": "A retroflex consonant follows, so the dot is pronounced with the tongue curled back — ण, not the dental न."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "In which of these words is the nasal followed by an aspirated consonant?",
+              "options": ["अंडा", "ठंडा", "कंघी", "झंडा"],
+              "options_read_as": ["aṇḍaa", "ṭhaṇḍaa", "kaṅghii", "jhaṇḍaa"],
+              "answer_index": 2,
+              "explanation_en": "कंघी has घ after the nasal, which releases breath. The other three have the plain ड after it."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ण", "कारण", "अंडा", "ठंडा"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L06-I3",
+          "type": "letter",
+          "target": "ट / ठ / ड / ढ",
+          "read_as": "ṭa / ṭha / ḍa / ḍha",
+          "pronunciation_notes": "All four are made with the tongue curled back to the roof of the mouth. They differ only in voicing and breath — the place of articulation never moves.",
+          "gloss_en": "retroflex series drill",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["drill", "retroflex", "aspiration", "sound_family_review"],
+          "letter_form": "ट / ठ / ड / ढ",
+          "matra": null,
+          "sound_family": "ṭa-varga",
+          "contrasts_with": ["त / थ / द / ध"],
+          "example_word": { "hindi": "डाल / ढाल", "read_as": "ḍaal / ḍhaal", "english": "branch / shield" },
+          "cards": {
+            "learn": {
+              "title_en": "Drill: the whole retroflex set",
+              "explanation_en": "Four letters, one tongue position. ट is plain and voiceless, ठ adds breath, ड adds voice, ढ adds both. Reading them as a grid is far easier than memorising four shapes, and it is the same grid you already know from क ख ग घ. The retroflex position itself is not the hard part for an English speaker — the hard part arrives next level, when the dental series asks you to move the tongue forward and keep it there.",
+              "examples": [
+                { "hindi": "डाल", "read_as": "ḍaal", "english": "branch", "note": "Voiced, no breath." },
+                { "hindi": "ढाल", "read_as": "ḍhaal", "english": "shield; a slope", "note": "Voiced and breathy — one puff separates it from डाल." },
+                { "hindi": "ठीक", "read_as": "ṭhiik", "english": "fine, all right", "note": "Voiceless and breathy, the other diagonal of the grid." }
+              ],
+              "common_error": {
+                "wrong": "डाल",
+                "right": "ढाल",
+                "why_en": "Meaning 'shield', but without the breath it becomes the word for a branch."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "ढाल",
+              "question_read_as": "ḍhaal",
+              "options": ["ट", "ड", "ठ", "ढ"],
+              "options_read_as": ["ṭa", "ḍa", "ṭha", "ḍha"],
+              "answer_index": 3,
+              "explanation_en": "Voiced and released with breath, with the tongue curled back — that combination belongs to ढ alone."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["डाल", "ठीक", "टोपी", "डाक"],
+              "options_read_as": ["ḍaal", "ṭhiik", "ṭopii", "ḍaak"],
+              "answer_index": 1,
+              "explanation_en": "ठीक begins with ठ, which adds breath to the retroflex. The other three begin with plain ट or ड."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ट", "ठ", "ड", "ढ", "डाल", "ढाल"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed the retroflex family with ढ and ण, and drilled all four stops as a single grid: one tongue position, varied only by voicing and breath.",
+        "key_forms": ["ढाबा", "कारण", "डाल / ढाल"],
+        "next_up_en": "Next: the dental series त, थ and द, where the tongue moves forward onto the teeth and has to stay there."
+      }
+    },
+    {
+      "level": 7,
+      "title_en": "The dental series begins",
+      "title_hi": "त थ द",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M02-L07-I1",
+          "type": "letter",
+          "target": "त",
+          "read_as": "ta",
+          "pronunciation_notes": "Tongue tip pressed flat against the back of the upper teeth, with no puff of air. English has no consonant this far forward, and the English t is heard by Hindi ears as retroflex.",
+          "gloss_en": "voiceless unaspirated dental stop",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["consonant", "ta_varga_dental", "dental", "voiceless", "unaspirated"],
+          "letter_form": "त",
+          "matra": null,
+          "sound_family": "ta-varga",
+          "contrasts_with": ["थ", "द", "ट"],
+          "example_word": { "hindi": "तीन", "read_as": "tiin", "english": "three" },
+          "cards": {
+            "learn": {
+              "title_en": "त — the tongue moves to the teeth",
+              "explanation_en": "For त the tongue tip presses flat against the back of the upper teeth, further forward than any English consonant goes. This is the letter Module 1 warned you about: an English t lands behind the teeth ridge, which Hindi ears file as ट, so तीन comes out as टीन. Exaggerate at first — if it feels as though you are lisping very slightly, you are probably in the right place.",
+              "examples": [
+                { "hindi": "तीन", "read_as": "tiin", "english": "three", "note": "Tongue on the teeth, no breath. Compare टीन, which means a tin can." },
+                { "hindi": "तुम", "read_as": "tum", "english": "you", "note": "A pronoun you will use constantly, so the position matters here." },
+                { "hindi": "रात", "read_as": "raat", "english": "night", "note": "The dental closing a word." }
+              ],
+              "common_error": {
+                "wrong": "टीन",
+                "right": "तीन",
+                "why_en": "The English t is made too far back, which turns the number three into the word for sheet metal."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "तीन",
+              "question_read_as": "tiin",
+              "options": ["ट", "त", "थ", "ठ"],
+              "options_read_as": ["ṭa", "ta", "tha", "ṭha"],
+              "answer_index": 1,
+              "explanation_en": "The tongue touches the back of the upper teeth and no breath follows, which makes it the dental त."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["तीन", "तुम", "तेल", "थाली"],
+              "options_read_as": ["tiin", "tum", "tel", "thaalii"],
+              "answer_index": 3,
+              "explanation_en": "थाली begins with थ, the dental released with breath. The other three begin with plain त."
+            }
+          },
+          "audio": {
+            "tts_strings": ["त", "तीन", "तुम", "रात"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L07-I2",
+          "type": "letter",
+          "target": "थ",
+          "read_as": "tha",
+          "pronunciation_notes": "त with a puff of breath. The h marks aspiration only — never the th of English 'think' or 'this', neither of which exists anywhere in Hindi.",
+          "gloss_en": "voiceless aspirated dental stop",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["consonant", "ta_varga_dental", "dental", "voiceless", "aspirated"],
+          "letter_form": "थ",
+          "matra": null,
+          "sound_family": "ta-varga",
+          "contrasts_with": ["त", "ध", "ठ"],
+          "example_word": { "hindi": "थाली", "read_as": "thaalii", "english": "a metal plate" },
+          "cards": {
+            "learn": {
+              "title_en": "थ — dental with breath",
+              "explanation_en": "थ is त released with a puff of air, and it carries the same transliteration trap as ठ: English speakers see th and produce the sound in 'think' or 'the'. Hindi has neither. Keep the tongue flat against the teeth and simply add breath. Two things have to be right at once here, the position and the puff, which is why this letter takes longer to settle than most.",
+              "examples": [
+                { "hindi": "थाली", "read_as": "thaalii", "english": "a metal plate", "note": "The round plate a full meal is served on." },
+                { "hindi": "थकना", "read_as": "thaknaa", "english": "to get tired", "note": "Breath on the थ, then a plain क." },
+                { "hindi": "हाथ", "read_as": "haath", "english": "hand", "note": "The aspirated dental closing a very common noun." }
+              ],
+              "common_error": {
+                "wrong": "ताली",
+                "right": "थाली",
+                "why_en": "Without the breath थ becomes त, and ताली means a clap of the hands rather than a plate."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "थाली",
+              "question_read_as": "thaalii",
+              "options": ["थ", "त", "ट", "ठ"],
+              "options_read_as": ["tha", "ta", "ṭa", "ṭha"],
+              "answer_index": 0,
+              "explanation_en": "The tongue is on the teeth and a puff follows, so it is थ — not the retroflex ठ and not the plain त."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["तीन", "तुम", "थकना", "तेल"],
+              "options_read_as": ["tiin", "tum", "thaknaa", "tel"],
+              "answer_index": 2,
+              "explanation_en": "थकना begins with थ, which releases breath. The other three begin with the plain त."
+            }
+          },
+          "audio": {
+            "tts_strings": ["थ", "थाली", "थकना", "हाथ"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L07-I3",
+          "type": "letter",
+          "target": "द",
+          "read_as": "da",
+          "pronunciation_notes": "Voiced dental — tongue flat against the back of the upper teeth, vocal cords running, no puff. The English d is made further back and is heard as ड.",
+          "gloss_en": "voiced unaspirated dental stop",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["consonant", "ta_varga_dental", "dental", "voiced", "unaspirated"],
+          "letter_form": "द",
+          "matra": null,
+          "sound_family": "ta-varga",
+          "contrasts_with": ["ध", "त", "ड"],
+          "example_word": { "hindi": "दाल", "read_as": "daal", "english": "lentils" },
+          "cards": {
+            "learn": {
+              "title_en": "द — the one that becomes डाल",
+              "explanation_en": "द is त with voicing: the same flat tongue position against the teeth, vocal cords running, no breath. This is the other half of the warning from Module 1. An English d is made behind the teeth ridge, so दाल regularly comes out as डाल and lentils turn into a tree branch. The position is the whole battle — once the tongue is forward, the voicing takes care of itself.",
+              "examples": [
+                { "hindi": "दाल", "read_as": "daal", "english": "lentils", "note": "Tongue on the teeth. Compare डाल, 'branch', with the tongue curled back." },
+                { "hindi": "दिन", "read_as": "din", "english": "day", "note": "A word from Module 1, now with its letter named." },
+                { "hindi": "दूध", "read_as": "duudh", "english": "milk", "note": "Two dentals in one short word — the first plain, the second breathy." }
+              ],
+              "common_error": {
+                "wrong": "डाल",
+                "right": "दाल",
+                "why_en": "The English d sits too far back, which turns the food word into the word for a branch."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "दाल",
+              "question_read_as": "daal",
+              "options": ["ड", "ध", "द", "त"],
+              "options_read_as": ["ḍa", "dha", "da", "ta"],
+              "answer_index": 2,
+              "explanation_en": "Voiced, no breath, and the tongue on the teeth — that is the dental द rather than the retroflex ड."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["धूप", "दाल", "दिन", "दूध"],
+              "options_read_as": ["dhuup", "daal", "din", "duudh"],
+              "answer_index": 0,
+              "explanation_en": "धूप begins with ध, which is voiced and breathy at once. The other three begin with plain द."
+            }
+          },
+          "audio": {
+            "tts_strings": ["द", "दाल", "दिन", "दूध"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level moved the tongue forward onto the teeth for त, थ and द — the position English never uses, and the direct source of the दाल and डाल problem.",
+        "key_forms": ["तीन", "थाली", "दाल"],
+        "next_up_en": "Next: ध and न complete the dental series, followed by the unlearning drill that sets it against the retroflex one."
+      }
+    },
+    {
+      "level": 8,
+      "title_en": "Closing the dentals, and the unlearning drill",
+      "title_hi": "ध न",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M02-L08-I1",
+          "type": "letter",
+          "target": "ध",
+          "read_as": "dha",
+          "pronunciation_notes": "Voiced dental released with breath — द and घ at once. It is a full stop, not the continuous th of English 'this'.",
+          "gloss_en": "voiced aspirated dental stop",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["consonant", "ta_varga_dental", "dental", "voiced", "aspirated", "breathy_voice"],
+          "letter_form": "ध",
+          "matra": null,
+          "sound_family": "ta-varga",
+          "contrasts_with": ["द", "थ", "ढ"],
+          "example_word": { "hindi": "धूप", "read_as": "dhuup", "english": "sunshine" },
+          "cards": {
+            "learn": {
+              "title_en": "ध — voiced, breathy, and forward",
+              "explanation_en": "ध asks for three things at once: tongue flat on the teeth, vocal cords running, and breath released. It is the dental counterpart of घ and ढ. English speakers reach for the th of 'this', which is made by letting air pass continuously; ध closes completely and then releases with a murmur.",
+              "examples": [
+                { "hindi": "धूप", "read_as": "dhuup", "english": "sunshine", "note": "Breathy voiced dental, then the long ऊ." },
+                { "hindi": "धीरे", "read_as": "dhiire", "english": "slowly", "note": "Often said twice over, as a request to slow down." },
+                { "hindi": "दूध", "read_as": "duudh", "english": "milk", "note": "Plain द at the front, breathy ध at the back — the contrast inside one word." }
+              ],
+              "common_error": {
+                "wrong": "दूद",
+                "right": "दूध",
+                "why_en": "The final letter is breathy, and writing plain द loses a puff that Hindi speakers hear clearly."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "धूप",
+              "question_read_as": "dhuup",
+              "options": ["द", "ढ", "ड", "ध"],
+              "options_read_as": ["da", "ḍha", "ḍa", "dha"],
+              "answer_index": 3,
+              "explanation_en": "Voiced, breathy, and made on the teeth. The retroflex ढ would have the tongue curled back instead."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["दाल", "धीरे", "दिन", "दस"],
+              "options_read_as": ["daal", "dhiire", "din", "das"],
+              "answer_index": 1,
+              "explanation_en": "धीरे begins with ध, released with breath. The other three begin with the plain द."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ध", "धूप", "धीरे", "दूध"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L08-I2",
+          "type": "letter",
+          "target": "न",
+          "read_as": "na",
+          "pronunciation_notes": "Dental n — tongue flat against the back of the upper teeth, further forward than the English n, which sits on the teeth ridge.",
+          "gloss_en": "dental nasal",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["consonant", "ta_varga_dental", "dental", "nasal"],
+          "letter_form": "न",
+          "matra": null,
+          "sound_family": "ta-varga",
+          "contrasts_with": ["ण", "म", "ङ"],
+          "example_word": { "hindi": "नाम", "read_as": "naam", "english": "name" },
+          "cards": {
+            "learn": {
+              "title_en": "न — the nasal you will use most",
+              "explanation_en": "न is the dental family's nasal and by far the commonest nasal in Hindi. The English n is made on the teeth ridge; न is made on the teeth themselves, the same position as त and द. The difference is small but audible, and it is exactly what separates न from ण. Unlike ङ and ञ, this letter is written out constantly rather than hidden inside a dot.",
+              "examples": [
+                { "hindi": "नाम", "read_as": "naam", "english": "name", "note": "One of the first words you will need in a conversation." },
+                { "hindi": "नहीं", "read_as": "nahiiṁ", "english": "no, not", "note": "The commonest negative in the language; the dot nasalises the final vowel." },
+                { "hindi": "दिन", "read_as": "din", "english": "day", "note": "न closing a word, with its own vowel dropped." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "नाम",
+              "question_read_as": "naam",
+              "options": ["ण", "न", "म", "ङ"],
+              "options_read_as": ["ṇa", "na", "ma", "ṅa"],
+              "answer_index": 1,
+              "explanation_en": "The tongue is flat on the teeth rather than curled back, so it is the dental न and not ण."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["नाम", "नहीं", "नया", "धूप"],
+              "options_read_as": ["naam", "nahiiṁ", "nayaa", "dhuup"],
+              "answer_index": 3,
+              "explanation_en": "धूप begins with ध, which releases breath. Nasals such as न carry no aspiration at all."
+            }
+          },
+          "audio": {
+            "tts_strings": ["न", "नाम", "नहीं", "दिन"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L08-I3",
+          "type": "letter",
+          "target": "ट / त · ड / द · ण / न",
+          "read_as": "ṭa / ta · ḍa / da · ṇa / na",
+          "pronunciation_notes": "The two series differ only in where the tongue touches: the teeth for त, द and न, the roof of the mouth for ट, ड and ण. Breath and voicing work identically in both.",
+          "gloss_en": "retroflex against dental — the unlearning drill",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["drill", "retroflex", "dental", "minimal_pair", "unlearning"],
+          "letter_form": "ट / त · ड / द · ण / न",
+          "matra": null,
+          "sound_family": "ṭa-varga against ta-varga",
+          "contrasts_with": ["ठ / थ", "ढ / ध"],
+          "example_word": { "hindi": "तीन / टीन", "read_as": "tiin / ṭiin", "english": "three / tin, sheet metal" },
+          "cards": {
+            "learn": {
+              "title_en": "The unlearning drill",
+              "explanation_en": "This is the hardest single adjustment in Hindi pronunciation for an English speaker, and it is unlearning rather than learning. English has one t, one d and one n, all made at the teeth ridge — between the two Hindi positions, and closer to the retroflex one. So the retroflex letters come free and the dental letters have to be built deliberately: push the tongue forward onto the teeth for त, द and न, and keep it there. Getting this wrong does not produce an accent; it produces different words.",
+              "examples": [
+                { "hindi": "तीन", "read_as": "tiin", "english": "three", "note": "Dental. Tongue on the teeth." },
+                { "hindi": "टीन", "read_as": "ṭiin", "english": "tin, sheet metal", "note": "Retroflex. Tongue curled back — an entirely different word." },
+                { "hindi": "दाल", "read_as": "daal", "english": "lentils", "note": "Dental again, and the word you will need at every meal." }
+              ],
+              "common_error": {
+                "wrong": "टीन",
+                "right": "तीन",
+                "why_en": "The English t lands too far back, so the number three comes out as the word for sheet metal."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "टीन",
+              "question_read_as": "ṭiin",
+              "options": ["त", "थ", "ट", "ठ"],
+              "options_read_as": ["ta", "tha", "ṭa", "ṭha"],
+              "answer_index": 2,
+              "explanation_en": "The tongue curls back to the roof of the mouth, which makes it the retroflex ट. With the tongue on the teeth the word would be तीन, 'three'."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["थाली", "तीन", "टीन", "दाल"],
+              "options_read_as": ["thaalii", "tiin", "ṭiin", "daal"],
+              "answer_index": 0,
+              "explanation_en": "थाली begins with थ, the only one here released with breath. The other three are all plain, and differ from each other by tongue position rather than aspiration."
+            }
+          },
+          "audio": {
+            "tts_strings": ["तीन", "टीन", "दाल", "डाल", "नाम"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed the dental series with ध and न, then drilled it against the retroflex one. The retroflex letters come free to an English speaker; the dental letters have to be built on purpose and held in place.",
+        "key_forms": ["धूप", "नाम", "तीन / टीन"],
+        "next_up_en": "Next: the प-family, where the aspiration contrast returns in the shape English speakers find easiest to hear."
+      }
+    },
+    {
+      "level": 9,
+      "title_en": "The प-family begins",
+      "title_hi": "प फ ब",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M02-L09-I1",
+          "type": "letter",
+          "target": "प",
+          "read_as": "pa",
+          "pronunciation_notes": "Unaspirated p — no puff at all. The English p of 'pin' is aspirated and comes out as फ; the p inside 'spin' is the right sound.",
+          "gloss_en": "voiceless unaspirated labial stop",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["consonant", "pa_varga", "labial", "voiceless", "unaspirated"],
+          "letter_form": "प",
+          "matra": null,
+          "sound_family": "pa-varga",
+          "contrasts_with": ["फ", "ब"],
+          "example_word": { "hindi": "पानी", "read_as": "paanii", "english": "water" },
+          "cards": {
+            "learn": {
+              "title_en": "प — lips closed, no breath",
+              "explanation_en": "प closes both lips and releases them with no puff of air, exactly like the p inside English 'spin'. At the start of a word English aspirates automatically, so पानी easily comes out as फानी. This is the same habit that made क difficult, in a new family, and the same strip-of-paper test settles it.",
+              "examples": [
+                { "hindi": "पानी", "read_as": "paanii", "english": "water", "note": "The word you will ask for most often. No puff on the first sound." },
+                { "hindi": "पास", "read_as": "paas", "english": "near, close by", "note": "Plain प, then a long ा." },
+                { "hindi": "आप", "read_as": "aap", "english": "you (polite)", "note": "प at the end of a word, where its vowel drops." }
+              ],
+              "common_error": {
+                "wrong": "फानी",
+                "right": "पानी",
+                "why_en": "English's automatic puff at the start of a word turns प into फ."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "पानी",
+              "question_read_as": "paanii",
+              "options": ["प", "फ", "ब", "भ"],
+              "options_read_as": ["pa", "pha", "ba", "bha"],
+              "answer_index": 0,
+              "explanation_en": "The lips release with no breath at all, which makes it प and not फ."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["पानी", "पास", "पैसा", "फल"],
+              "options_read_as": ["paanii", "paas", "paisaa", "phal"],
+              "answer_index": 3,
+              "explanation_en": "फल begins with फ, which releases a puff of air. The other three begin with plain प."
+            }
+          },
+          "audio": {
+            "tts_strings": ["प", "पानी", "पास", "आप"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L09-I2",
+          "type": "letter",
+          "target": "फ",
+          "read_as": "pha",
+          "pronunciation_notes": "प with a puff of breath — the p of English 'pin'. Many speakers pronounce it as f in ordinary words and nobody is confused, but the letter written specifically for f is the dotted फ़.",
+          "gloss_en": "voiceless aspirated labial stop",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["consonant", "pa_varga", "labial", "voiceless", "aspirated"],
+          "letter_form": "फ",
+          "matra": null,
+          "sound_family": "pa-varga",
+          "contrasts_with": ["प", "भ"],
+          "example_word": { "hindi": "फल", "read_as": "phal", "english": "fruit" },
+          "cards": {
+            "learn": {
+              "title_en": "फ — p with breath, not f",
+              "explanation_en": "फ is प released with a strong puff, the sound at the start of English 'pin'. Do not read it as an f by default: that is a separate letter, written with a dot underneath and taught in level fifteen. In everyday speech many people do pronounce फ as f, but while you are learning to read, keep the two letters apart on the page.",
+              "examples": [
+                { "hindi": "फल", "read_as": "phal", "english": "fruit", "note": "Compare पल, 'a moment' — the two are one puff apart." },
+                { "hindi": "फूल", "read_as": "phuul", "english": "flower", "note": "A word from Module 1, now with its letter named." },
+                { "hindi": "फिर", "read_as": "phir", "english": "again, then", "note": "Very frequent in speech, often at the start of a sentence." }
+              ],
+              "common_error": {
+                "wrong": "पल",
+                "right": "फल",
+                "why_en": "Dropping the breath gives प, and पल means 'a moment' rather than 'fruit'."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "फूल",
+              "question_read_as": "phuul",
+              "options": ["प", "फ", "भ", "ब"],
+              "options_read_as": ["pa", "pha", "bha", "ba"],
+              "answer_index": 1,
+              "explanation_en": "The lips release with a clear puff and no voicing, which makes it फ."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["पास", "फिर", "पानी", "पैसा"],
+              "options_read_as": ["paas", "phir", "paanii", "paisaa"],
+              "answer_index": 1,
+              "explanation_en": "फिर begins with फ, released with breath. The other three begin with the plain प."
+            }
+          },
+          "audio": {
+            "tts_strings": ["फ", "फल", "फूल", "फिर"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L09-I3",
+          "type": "letter",
+          "target": "ब",
+          "read_as": "ba",
+          "pronunciation_notes": "Voiced b as in 'bus', with no puff. Keep it distinct from व, where the lips never fully meet.",
+          "gloss_en": "voiced unaspirated labial stop",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["consonant", "pa_varga", "labial", "voiced", "unaspirated"],
+          "letter_form": "ब",
+          "matra": null,
+          "sound_family": "pa-varga",
+          "contrasts_with": ["भ", "प", "व"],
+          "example_word": { "hindi": "बात", "read_as": "baat", "english": "a matter, a thing said" },
+          "cards": {
+            "learn": {
+              "title_en": "ब — lips closed and voiced",
+              "explanation_en": "ब is the b of English 'bus': both lips close, the vocal cords are running, and no breath is released. English b is never aspirated, so the sound itself is easy. The one thing to guard is the contrast with व from Module 1, where the lips must not meet at all — बार and वार are different words.",
+              "examples": [
+                { "hindi": "बात", "read_as": "baat", "english": "a matter, a thing said", "note": "Extremely common; it turns up in dozens of everyday expressions." },
+                { "hindi": "बस", "read_as": "bas", "english": "enough; a bus", "note": "Two meanings in one very short word." },
+                { "hindi": "सब", "read_as": "sab", "english": "all, everything", "note": "ब closing a word." }
+              ],
+              "common_error": {
+                "wrong": "वात",
+                "right": "बात",
+                "why_en": "The lips must close completely for ब; leaving them apart gives व, which is a different letter."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "बात",
+              "question_read_as": "baat",
+              "options": ["व", "भ", "प", "ब"],
+              "options_read_as": ["va", "bha", "pa", "ba"],
+              "answer_index": 3,
+              "explanation_en": "The lips close fully and the sound is voiced with no breath, which makes it ब rather than व or भ."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["बात", "बस", "भाई", "बाहर"],
+              "options_read_as": ["baat", "bas", "bhaaii", "baahar"],
+              "answer_index": 2,
+              "explanation_en": "भाई begins with भ, which is voiced and breathy at once. The other three begin with plain ब."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ब", "बात", "बस", "सब"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level opened the प-family with प, फ and ब. The aspiration contrast returns here in its most audible form, and फ carries a second trap: it is a p with breath, not an f.",
+        "key_forms": ["पानी", "फल", "बात"],
+        "next_up_en": "Next: भ and म close the family, followed by drills on प/फ and ब/भ."
+      }
+    },
+    {
+      "level": 10,
+      "title_en": "Closing the प-family",
+      "title_hi": "भ म",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M02-L10-I1",
+          "type": "letter",
+          "target": "भ",
+          "read_as": "bha",
+          "pronunciation_notes": "Voiced b released with breath, murmured in the same way as घ, झ, ढ and ध. It is one sound, not b followed by h.",
+          "gloss_en": "voiced aspirated labial stop",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["consonant", "pa_varga", "labial", "voiced", "aspirated", "breathy_voice"],
+          "letter_form": "भ",
+          "matra": null,
+          "sound_family": "pa-varga",
+          "contrasts_with": ["ब", "फ"],
+          "example_word": { "hindi": "भाई", "read_as": "bhaaii", "english": "brother" },
+          "cards": {
+            "learn": {
+              "title_en": "भ — the last of the breathy stops",
+              "explanation_en": "भ completes the set of voiced aspirates: घ, झ, ढ, ध and now भ. All five work identically — full voicing plus a murmured release — so once you can make one, the rest come by moving the tongue or the lips. This letter earns its place immediately, since भाई, 'brother', and भूख, 'hunger', are both everyday words.",
+              "examples": [
+                { "hindi": "भाई", "read_as": "bhaaii", "english": "brother", "note": "Also used to address a man you do not know." },
+                { "hindi": "भूख", "read_as": "bhuukh", "english": "hunger", "note": "Breathy at the front, aspirated ख at the back." },
+                { "hindi": "भारत", "read_as": "bhaarat", "english": "India", "note": "The country's own name for itself." }
+              ],
+              "common_error": {
+                "wrong": "बाई",
+                "right": "भाई",
+                "why_en": "Dropping the breath gives plain ब, and the word no longer means 'brother'."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "भाई",
+              "question_read_as": "bhaaii",
+              "options": ["भ", "ब", "प", "फ"],
+              "options_read_as": ["bha", "ba", "pa", "pha"],
+              "answer_index": 0,
+              "explanation_en": "The lips close, the sound is voiced, and breath is released with it — that combination is भ and not ब."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["बात", "बस", "बाहर", "भारत"],
+              "options_read_as": ["baat", "bas", "baahar", "bhaarat"],
+              "answer_index": 3,
+              "explanation_en": "भारत begins with भ, released with breath. The other three begin with the plain ब."
+            }
+          },
+          "audio": {
+            "tts_strings": ["भ", "भाई", "भूख", "भारत"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L10-I2",
+          "type": "letter",
+          "target": "म",
+          "read_as": "ma",
+          "pronunciation_notes": "The m of English 'man', made with both lips. Before a lip consonant the anusvara ं is read as this sound.",
+          "gloss_en": "labial nasal",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["consonant", "pa_varga", "labial", "nasal"],
+          "letter_form": "म",
+          "matra": null,
+          "sound_family": "pa-varga",
+          "contrasts_with": ["न", "ण", "ङ"],
+          "example_word": { "hindi": "मन", "read_as": "man", "english": "mind, heart" },
+          "cards": {
+            "learn": {
+              "title_en": "म — the last of the five nasals",
+              "explanation_en": "म is the प-family's nasal and the fifth and last of the series: ङ, ञ, ण, न, म, one for each family and each made in its own family's position. It is identical to the English m, so nothing here needs unlearning. Like the others it can hide inside the anusvara ं, which is read as m whenever a lip consonant follows.",
+              "examples": [
+                { "hindi": "मन", "read_as": "man", "english": "mind, heart", "note": "One syllable; the final vowel drops." },
+                { "hindi": "काम", "read_as": "kaam", "english": "work", "note": "म closing a word you have known since Module 1." },
+                { "hindi": "लंबा", "read_as": "lambaa", "english": "tall, long", "note": "The dot before ब is read as म, because ब is made with the lips." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which sound does the dot stand for in this word?",
+              "question": "लंबा",
+              "question_read_as": "lambaa",
+              "options": ["न", "ण", "म", "ङ"],
+              "options_read_as": ["na", "ṇa", "ma", "ṅa"],
+              "answer_index": 2,
+              "explanation_en": "A lip consonant follows, so the dot is read as म — the same rule that made it ṇ before ड and ng before ग."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["भारत", "मन", "माल", "मेरा"],
+              "options_read_as": ["bhaarat", "man", "maal", "meraa"],
+              "answer_index": 0,
+              "explanation_en": "भारत begins with भ, which releases breath. Nasals such as म are never aspirated."
+            }
+          },
+          "audio": {
+            "tts_strings": ["म", "मन", "काम", "लंबा"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L10-I3",
+          "type": "letter",
+          "target": "प / फ · ब / भ",
+          "read_as": "pa / pha · ba / bha",
+          "pronunciation_notes": "Both pairs use the same lip closure, and only the breath changes. For ब and भ the voicing continues right through the puff.",
+          "gloss_en": "aspiration drill in the pa-varga",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["drill", "aspiration", "minimal_pair", "pa_varga"],
+          "letter_form": "प / फ · ब / भ",
+          "matra": null,
+          "sound_family": "pa-varga",
+          "contrasts_with": ["क / ख", "च / छ"],
+          "example_word": { "hindi": "पल / फल", "read_as": "pal / phal", "english": "a moment / fruit" },
+          "cards": {
+            "learn": {
+              "title_en": "Drill: प/फ and ब/भ",
+              "explanation_en": "The aspiration contrast one last time, in the family where English speakers hear it most easily. प and फ behave exactly like क and ख: English puffs automatically at the start of a word, so प is the one that needs restraint. ब and भ are different in kind, because English has no voiced aspirate at all — भ has to be built rather than merely controlled.",
+              "examples": [
+                { "hindi": "पल", "read_as": "pal", "english": "a moment", "note": "No breath. The paper in front of your mouth stays still." },
+                { "hindi": "फल", "read_as": "phal", "english": "fruit", "note": "One puff, and the word has changed." },
+                { "hindi": "भाई", "read_as": "bhaaii", "english": "brother", "note": "Voiced and breathy together — compare the plain ब in बात." }
+              ],
+              "common_error": {
+                "wrong": "फल",
+                "right": "पल",
+                "why_en": "Meaning 'a moment', but English's automatic puff at the start of a word gives the word for fruit."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "पल",
+              "question_read_as": "pal",
+              "options": ["फ", "ब", "भ", "प"],
+              "options_read_as": ["pha", "ba", "bha", "pa"],
+              "answer_index": 3,
+              "explanation_en": "Nothing is released after the lips open, so it is प — पल, 'a moment', rather than फल, 'fruit'."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["पल", "बात", "फल", "पानी"],
+              "options_read_as": ["pal", "baat", "phal", "paanii"],
+              "answer_index": 2,
+              "explanation_en": "फल begins with फ, the only aspirated sound here. प and ब both release with no breath."
+            }
+          },
+          "audio": {
+            "tts_strings": ["पल", "फल", "बात", "भाई"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level closed the प-family with भ and म, completed the set of five nasals, and drilled the two aspiration pairs English speakers meet most often.",
+        "key_forms": ["भाई", "मन", "पल / फल"],
+        "next_up_en": "Next: य, र and ल — letters that behave less like a grid and more like individuals."
+      }
+    }
+  ]
+}

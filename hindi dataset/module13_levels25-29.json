@@ -1,0 +1,1379 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "batch": {
+    "levels_from": 25,
+    "levels_to": 29
+  },
+  "block_kind": "vocabulary",
+  "framing_rule": "No word in this block is described as pure, impure, correct, corrupted, better or worse than its partner. Both members of every pair are current Hindi, chosen by situation. Module 15 states this explicitly; this block must not contradict it in advance. Note also that levels 25 to 27 take the Sanskrit-side word as the item and levels 28 to 29 take the Urdu-side word, so that neither side is presented as the real word and the other as a variant.",
+  "levels": [
+    {
+      "level": 25,
+      "title_en": "Beginning, ending, difficulty",
+      "title_hi": "प्रारंभ · समाप्त · कठिन",
+      "items": [
+        {
+          "id": "M13-L25-I1",
+          "type": "word",
+          "target": "प्रारंभ",
+          "read_as": "praaraṁbh",
+          "gloss_en": "beginning, commencement",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "sanskrit_pair",
+            "masculine",
+            "gender_flag",
+            "asymmetric_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A pair is rarely a straight swap",
+              "explanation_en": "प्रारंभ is the formal word for a beginning, and शुरू is what people say — but the two do not line up neatly. शुरू is an invariable word that behaves like an adjective, so you say काम शुरू हुआ; प्रारंभ is a masculine noun, so you say कार्यक्रम का प्रारंभ. And the noun built from शुरू is शुरुआत, which is feminine. One idea, three words, two genders and two parts of speech. Flag प्रारंभ: masculine, consonant-final, nothing in the shape to tell you.",
+              "examples": [
+                {
+                  "hindi": "कार्यक्रम का प्रारंभ छह बजे होगा।",
+                  "read_as": "kaaryakram kaa praaraṁbh chhah baje hogaa.",
+                  "english": "The programme will begin at six.",
+                  "note": "का because प्रारंभ is masculine."
+                },
+                {
+                  "hindi": "काम शुरू हो गया।",
+                  "read_as": "kaam shuruu ho gayaa.",
+                  "english": "The work has started.",
+                  "note": "शुरू does not inflect and is not a noun here."
+                },
+                {
+                  "hindi": "शुरुआत अच्छी रही।",
+                  "read_as": "shuruaat acchii rahii.",
+                  "english": "It got off to a good start.",
+                  "note": "शुरुआत is feminine, so अच्छी and रही."
+                }
+              ],
+              "common_error": {
+                "wrong": "कार्यक्रम की प्रारंभ",
+                "right": "कार्यक्रम का प्रारंभ",
+                "why_en": "प्रारंभ is masculine, while शुरुआत, which means much the same, is feminine."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which of these is a feminine noun?",
+              "options": [
+                "none of them",
+                "प्रारंभ",
+                "शुरू",
+                "शुरुआत"
+              ],
+              "answer_index": 3,
+              "explanation_en": "शुरुआत is feminine. प्रारंभ is masculine and शुरू is not a noun at all."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means an inauguration or formal opening ceremony?",
+              "options": [
+                "प्रारंभ",
+                "उद्घाटन",
+                "शुरुआत",
+                "आरंभ"
+              ],
+              "options_read_as": [
+                "praaraṁbh",
+                "udghaaṭan",
+                "shuruaat",
+                "aaraṁbh"
+              ],
+              "answer_index": 1,
+              "explanation_en": "उद्घाटन is the ceremony itself. आरंभ is another word for a beginning and is close to प्रारंभ in every way."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "प्रारंभ",
+              "कार्यक्रम का प्रारंभ छह बजे होगा।",
+              "शुरुआत अच्छी रही।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L25-I2",
+          "type": "word",
+          "target": "समाप्त",
+          "read_as": "samaapt",
+          "gloss_en": "finished, concluded",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "sanskrit_pair",
+            "adjective",
+            "invariable",
+            "symmetric_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "समाप्त and ख़त्म — a pair that really is a straight swap",
+              "explanation_en": "After प्रारंभ, this is the easy case. समाप्त and ख़त्म are both invariable, both go with होना and करना, and both mean finished. You can replace either with the other and change nothing but the setting: बैठक समाप्त हुई in a report, बैठक ख़त्म हुई in conversation. Some pairs really are that clean. The noun from समाप्त is समापन, masculine, and there is no everyday equivalent for it — you would say ख़त्म होना instead.",
+              "examples": [
+                {
+                  "hindi": "बैठक समाप्त हुई।",
+                  "read_as": "baiṭhak samaapt huii.",
+                  "english": "The meeting concluded.",
+                  "note": "बैठक is feminine, so हुई. समाप्त itself never changes."
+                },
+                {
+                  "hindi": "खाना ख़त्म हो गया।",
+                  "read_as": "khaanaa ḳhatm ho gayaa.",
+                  "english": "The food has run out.",
+                  "note": "The everyday partner, in the sentence you already heard from a shopkeeper in level 3."
+                },
+                {
+                  "hindi": "कार्यक्रम का समापन कल होगा।",
+                  "read_as": "kaaryakram kaa samaapan kal hogaa.",
+                  "english": "The programme concludes tomorrow.",
+                  "note": "समापन, the noun, masculine — and formal-only."
+                }
+              ],
+              "common_error": {
+                "wrong": "बैठक समाप्ता हुई",
+                "right": "बैठक समाप्त हुई",
+                "why_en": "समाप्त is invariable. There is no feminine form."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "How do समाप्त and ख़त्म differ?",
+              "options": [
+                "Only in the setting they belong to",
+                "One is incorrect",
+                "In meaning",
+                "In grammar"
+              ],
+              "answer_index": 0,
+              "explanation_en": "They behave identically. A report uses one and a conversation the other."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means the conclusion of an event, as a noun?",
+              "options": [
+                "अंतिम",
+                "समाप्त",
+                "समापन",
+                "ख़त्म"
+              ],
+              "options_read_as": [
+                "aṁtim",
+                "samaapt",
+                "samaapan",
+                "ḳhatm"
+              ],
+              "answer_index": 2,
+              "explanation_en": "समापन is the noun. अंतिम means final or last, which is an adjective."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "समाप्त",
+              "बैठक समाप्त हुई।",
+              "कार्यक्रम का समापन कल होगा।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L25-I3",
+          "type": "word",
+          "target": "कठिन",
+          "read_as": "kaṭhin",
+          "gloss_en": "difficult, hard",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 6,
+          "tags": [
+            "sanskrit_pair",
+            "adjective",
+            "invariable",
+            "callback_l2",
+            "asymmetric_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कठिन is only an adjective, where मुश्किल is both",
+              "explanation_en": "You met कठिन in passing back in level 2, as the formal partner of मुश्किल. Here is the asymmetry: मुश्किल is a noun as well as an adjective — एक मुश्किल आ गई, a difficulty has come up — while कठिन is an adjective only. The noun on the Sanskrit side is कठिनाई, feminine, built with the -आई suffix from level 2. So the two sides cover the same ground with a different number of words, which is the normal state of affairs for these pairs.",
+              "examples": [
+                {
+                  "hindi": "यह प्रश्न कठिन है।",
+                  "read_as": "yah prashn kaṭhin hai.",
+                  "english": "This question is difficult.",
+                  "note": "Invariable, and the noun it describes makes no difference."
+                },
+                {
+                  "hindi": "उसे बहुत कठिनाई हुई।",
+                  "read_as": "use bahut kaṭhinaaii huii.",
+                  "english": "He had a great deal of difficulty.",
+                  "note": "कठिनाई, feminine because of the -आई suffix, so हुई."
+                },
+                {
+                  "hindi": "ये काम मुश्किल है।",
+                  "read_as": "ye kaam mushkil hai.",
+                  "english": "This work is difficult.",
+                  "note": "The everyday partner. Both sentences are equally correct."
+                }
+              ],
+              "common_error": {
+                "wrong": "एक कठिन आ गई",
+                "right": "एक मुश्किल आ गई",
+                "why_en": "कठिन cannot be a noun. For a difficulty as a thing, use मुश्किल or कठिनाई."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which of these can be used as a noun?",
+              "options": [
+                "कठिन",
+                "मुश्किल",
+                "both",
+                "neither"
+              ],
+              "answer_index": 1,
+              "explanation_en": "मुश्किल is both a noun and an adjective. कठिन is only an adjective."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means strict or severe rather than difficult?",
+              "options": [
+                "भारी",
+                "गहरा",
+                "कठिन",
+                "सख़्त"
+              ],
+              "options_read_as": [
+                "bhaarii",
+                "gahraa",
+                "kaṭhin",
+                "saḳht"
+              ],
+              "answer_index": 3,
+              "explanation_en": "सख़्त is strict, or hard to the touch. भारी is heavy and गहरा is deep."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "कठिन",
+              "यह प्रश्न कठिन है।",
+              "उसे बहुत कठिनाई हुई।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A register pair is rarely a straight swap. प्रारंभ is a noun while शुरू is not, and the noun on the other side is शुरुआत, feminine. समाप्त and ख़त्म genuinely are interchangeable. And कठिन is an adjective only, where मुश्किल is both adjective and noun.",
+        "key_forms": [
+          "का प्रारंभ",
+          "समाप्त हुई",
+          "कठिनाई"
+        ],
+        "next_up_en": "Next: three pairs where both words are in daily use, and one of them also means north."
+      }
+    },
+    {
+      "level": 26,
+      "title_en": "Question, answer, time",
+      "title_hi": "प्रश्न · उत्तर · समय",
+      "items": [
+        {
+          "id": "M13-L26-I1",
+          "type": "word",
+          "target": "प्रश्न",
+          "read_as": "prashn",
+          "gloss_en": "question",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "sanskrit_pair",
+            "masculine",
+            "gender_flag",
+            "compound_use"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "प्रश्न and सवाल — both alive, in different rooms",
+              "explanation_en": "प्रश्न and सवाल both mean a question and both are masculine, so there is no gender trap here. What separates them is where they live: an exam paper is a प्रश्न पत्र, a grammar book talks about प्रश्नवाचक शब्द, and a person asking you something asks a सवाल. Neither is more correct. Flag प्रश्न anyway: masculine and consonant-final, with nothing in the shape to tell you.",
+              "examples": [
+                {
+                  "hindi": "प्रश्न पत्र कठिन था।",
+                  "read_as": "prashn patra kaṭhin thaa.",
+                  "english": "The question paper was difficult.",
+                  "note": "A compound where सवाल would not be used."
+                },
+                {
+                  "hindi": "उसने एक अच्छा सवाल पूछा।",
+                  "read_as": "usne ek acchaa savaal puuchhaa.",
+                  "english": "She asked a good question.",
+                  "note": "The everyday partner, and सवाल पूछना is what people say."
+                },
+                {
+                  "hindi": "यह प्रश्न ही ग़लत है।",
+                  "read_as": "yah prashn hii ġalat hai.",
+                  "english": "The question itself is wrong.",
+                  "note": "ही narrowing it to the question rather than the answer."
+                }
+              ],
+              "common_error": {
+                "wrong": "सवाल पत्र",
+                "right": "प्रश्न पत्र",
+                "why_en": "The compound is fixed. सवाल is free as a word but does not go into this one."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which would appear on a school exam?",
+              "options": [
+                "neither",
+                "सवाल पत्र",
+                "प्रश्न पत्र",
+                "both are used"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The compound is fixed even though the free words are interchangeable."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a problem to be solved, as in mathematics?",
+              "options": [
+                "समस्या",
+                "मुद्दा",
+                "प्रश्न",
+                "सवाल"
+              ],
+              "options_read_as": [
+                "samasyaa",
+                "muddaa",
+                "prashn",
+                "savaal"
+              ],
+              "answer_index": 0,
+              "explanation_en": "समस्या is a problem. सवाल can mean a sum in school arithmetic, but a problem in the general sense is समस्या."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "प्रश्न",
+              "प्रश्न पत्र कठिन था।",
+              "उसने एक अच्छा सवाल पूछा।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L26-I2",
+          "type": "word",
+          "target": "उत्तर",
+          "read_as": "uttar",
+          "gloss_en": "answer; north",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "sanskrit_pair",
+            "masculine",
+            "gender_flag",
+            "polysemy",
+            "trap"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "उत्तर also means north",
+              "explanation_en": "उत्तर is an answer, and it is also the compass direction north — उत्तर प्रदेश is the northern state, not the answering one. The two senses are unrelated in use and only context separates them, which makes this one worth flagging twice over. The everyday partner for the answer sense is जवाब, also masculine, and both go with देना. Note जवाब नहीं, which literally says there is no answer and idiomatically means something is beyond compare — a compliment, not a complaint.",
+              "examples": [
+                {
+                  "hindi": "उसने कोई उत्तर नहीं दिया।",
+                  "read_as": "usne koii uttar nahiiṁ diyaa.",
+                  "english": "He gave no answer.",
+                  "note": "देना for both उत्तर and जवाब."
+                },
+                {
+                  "hindi": "दिल्ली भारत के उत्तर में है।",
+                  "read_as": "dillii bhaarat ke uttar meṁ hai.",
+                  "english": "Delhi is in the north of India.",
+                  "note": "The other sense entirely, and nothing but context tells you."
+                },
+                {
+                  "hindi": "आपके खाने का जवाब नहीं!",
+                  "read_as": "aapke khaane kaa javaab nahiiṁ!",
+                  "english": "Your cooking is beyond compare!",
+                  "note": "A compliment, despite what the words literally say."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने उत्तर किया",
+                "right": "उसने उत्तर दिया",
+                "why_en": "An answer is given, not done — with either उत्तर or जवाब."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "उत्तर प्रदेश means what?",
+              "options": [
+                "the upper state",
+                "the first state",
+                "the answering state",
+                "the northern state"
+              ],
+              "answer_index": 3,
+              "explanation_en": "उत्तर is north here. Context is the only guide."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a reply to a letter, in formal writing?",
+              "options": [
+                "उत्तर",
+                "प्रत्युत्तर",
+                "जवाब",
+                "बात"
+              ],
+              "options_read_as": [
+                "uttar",
+                "pratyuttar",
+                "javaab",
+                "baat"
+              ],
+              "answer_index": 1,
+              "explanation_en": "प्रत्युत्तर is a formal reply, with प्रति- meaning back or in return. उत्तर and जवाब are both ordinary answers."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उत्तर",
+              "उसने कोई उत्तर नहीं दिया।",
+              "दिल्ली भारत के उत्तर में है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L26-I3",
+          "type": "word",
+          "target": "समय",
+          "read_as": "samay",
+          "gloss_en": "time",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "sanskrit_pair",
+            "masculine",
+            "gender_flag",
+            "register_triplet"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "समय, वक़्त, टाइम — three words, all in daily use",
+              "explanation_en": "समय is time, and it is the neutral, slightly formal word. वक़्त is the Urdu-side partner and is warmer — it is what songs and poetry use, and what people say when time is doing something to them: वक़्त बदल गया. And टाइम, the English word, is entirely ordinary in speech: टाइम क्या हुआ? All three are masculine, so the grammar does not change. Flag समय: masculine, consonant-final, unguessable.",
+              "examples": [
+                {
+                  "hindi": "समय पर पहुँचिए।",
+                  "read_as": "samay par pahuṁchie.",
+                  "english": "Please arrive on time.",
+                  "note": "समय पर, which you saw on the ticket window sign in level 16."
+                },
+                {
+                  "hindi": "वक़्त बदल गया है।",
+                  "read_as": "vaqt badal gayaa hai.",
+                  "english": "Times have changed.",
+                  "note": "वक़्त is what this sentence wants. समय would sound like a report."
+                },
+                {
+                  "hindi": "टाइम क्या हुआ?",
+                  "read_as": "ṭaaim kyaa huaa?",
+                  "english": "What's the time?",
+                  "note": "The commonest way to ask, by a wide margin."
+                }
+              ],
+              "common_error": {
+                "wrong": "समय क्या हुआ?",
+                "right": "टाइम क्या हुआ? / क्या समय हुआ है?",
+                "why_en": "Grammatically fine, but nobody asks the time that way. The word and the sentence shape have to match."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which word would a song most likely use?",
+              "options": [
+                "वक़्त",
+                "टाइम",
+                "अवधि",
+                "समय"
+              ],
+              "answer_index": 0,
+              "explanation_en": "वक़्त carries more feeling. अवधि, from level 16, is a measured period and would be absurd in a song."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means an era or age?",
+              "options": [
+                "घड़ी",
+                "समय",
+                "युग",
+                "वक़्त"
+              ],
+              "options_read_as": [
+                "ghaṛii",
+                "samay",
+                "yug",
+                "vaqt"
+              ],
+              "answer_index": 2,
+              "explanation_en": "युग is an era. घड़ी is a clock or watch, and also a moment."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "समय",
+              "समय पर पहुँचिए।",
+              "वक़्त बदल गया है।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "प्रश्न and सवाल, उत्तर and जवाब, समय and वक़्त — three pairs where both members are in daily use and neither is going anywhere. उत्तर also means north, which nothing but context will tell you. And time has a third word as well: टाइम.",
+        "key_forms": [
+          "प्रश्न पत्र",
+          "उत्तर देना",
+          "समय पर"
+        ],
+        "next_up_en": "Next: three more pairs, and the question of whether the gender changes with the register."
+      }
+    },
+    {
+      "level": 27,
+      "title_en": "Work, place, need",
+      "title_hi": "कार्य · स्थान · आवश्यकता",
+      "items": [
+        {
+          "id": "M13-L27-I1",
+          "type": "word",
+          "target": "कार्य",
+          "read_as": "kaarya",
+          "gloss_en": "work, task",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "sanskrit_pair",
+            "masculine",
+            "gender_flag",
+            "compound_productive",
+            "callback_l16"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कार्य builds compounds that काम cannot",
+              "explanation_en": "कार्य and काम both mean work and both are masculine, so nothing changes grammatically. What changes is what they can build. कार्यक्रम is a programme, कार्यालय is an office — with the -आलय suffix from level 8 — कार्यकर्ता is a worker or activist, and कार्यवाही is proceedings. काम builds almost nothing: कामकाज is about the only one. Flag कार्य: masculine and consonant-final. You saw कार्य अवधि on the opening-hours board in level 16, which is exactly the kind of place it belongs.",
+              "examples": [
+                {
+                  "hindi": "यह कार्य कठिन है।",
+                  "read_as": "yah kaarya kaṭhin hai.",
+                  "english": "This task is difficult.",
+                  "note": "Formal. In speech this would be ये काम मुश्किल है."
+                },
+                {
+                  "hindi": "कार्यालय सुबह नौ बजे खुलता है।",
+                  "read_as": "kaaryaalay subah nau baje khultaa hai.",
+                  "english": "The office opens at nine.",
+                  "note": "कार्य plus आलय. Speech would say ऑफ़िस."
+                },
+                {
+                  "hindi": "मुझे बहुत काम है।",
+                  "read_as": "mujhe bahut kaam hai.",
+                  "english": "I have a lot of work.",
+                  "note": "The everyday partner, with the dative from Module 10."
+                }
+              ],
+              "common_error": {
+                "wrong": "कामक्रम",
+                "right": "कार्यक्रम",
+                "why_en": "The compound takes कार्य. Free words swap; compounds do not."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "कार्यालय means what?",
+              "options": [
+                "a workshop",
+                "an office",
+                "a working day",
+                "a task force"
+              ],
+              "answer_index": 1,
+              "explanation_en": "कार्य plus आलय, place — the same suffix as शौचालय and पुस्तकालय."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a worker or an activist?",
+              "options": [
+                "कार्यक्रम",
+                "कार्यवाही",
+                "कार्य",
+                "कार्यकर्ता"
+              ],
+              "options_read_as": [
+                "kaaryakram",
+                "kaaryavaahii",
+                "kaarya",
+                "kaaryakartaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "कार्यकर्ता, one who does the work. कार्यक्रम is a programme and कार्यवाही is proceedings."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "कार्य",
+              "कार्यालय सुबह नौ बजे खुलता है।",
+              "मुझे बहुत काम है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L27-I2",
+          "type": "word",
+          "target": "स्थान",
+          "read_as": "sthaan",
+          "gloss_en": "place, location",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "sanskrit_pair",
+            "masculine",
+            "gender_flag",
+            "gender_mismatch_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "स्थान is masculine and जगह is feminine",
+              "explanation_en": "Here is the third gender mismatch in this module. स्थान and जगह both mean a place, and they have opposite genders — इस स्थान पर but इस जगह पर, यह स्थान अच्छा है but यह जगह अच्छी है. You have already met दिनांक against तारीख़ in level 20 and प्रयास against कोशिश in level 21, both mismatched. Flag स्थान. But do not conclude that the mismatch is a rule, because the next item is a pair that matches perfectly.",
+              "examples": [
+                {
+                  "hindi": "यह स्थान सुरक्षित है।",
+                  "read_as": "yah sthaan surakṣit hai.",
+                  "english": "This place is safe.",
+                  "note": "Masculine, so सुरक्षित needs no change — but a masculine adjective would show it."
+                },
+                {
+                  "hindi": "यह जगह अच्छी है।",
+                  "read_as": "yah jagah acchii hai.",
+                  "english": "This place is nice.",
+                  "note": "Feminine, so अच्छी. The same sentence with स्थान would be अच्छा."
+                },
+                {
+                  "hindi": "स्थानीय लोग यही कहते हैं।",
+                  "read_as": "sthaaniiya log yahii kahte haiṁ.",
+                  "english": "Local people say the same.",
+                  "note": "स्थानीय, local — the -ईय suffix building an adjective."
+                }
+              ],
+              "common_error": {
+                "wrong": "यह जगह अच्छा है",
+                "right": "यह जगह अच्छी है",
+                "why_en": "जगह is feminine, even though स्थान, which means the same, is masculine."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which is feminine?",
+              "options": [
+                "neither",
+                "स्थान",
+                "जगह",
+                "both"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Same meaning, opposite genders — the third such pair in this module."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means local?",
+              "options": [
+                "स्थानीय",
+                "स्थापित",
+                "स्थिर",
+                "स्थान"
+              ],
+              "options_read_as": [
+                "sthaaniiya",
+                "sthaapit",
+                "sthir",
+                "sthaan"
+              ],
+              "answer_index": 0,
+              "explanation_en": "स्थानीय is local. स्थापित is established and स्थिर is stable or still."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "स्थान",
+              "यह स्थान सुरक्षित है।",
+              "यह जगह अच्छी है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L27-I3",
+          "type": "word",
+          "target": "आवश्यकता",
+          "read_as": "aavashyaktaa",
+          "gloss_en": "need, requirement",
+          "gender": "f",
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "sanskrit_pair",
+            "feminine",
+            "suffix_taa",
+            "matched_pair",
+            "callback_l1"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "And here the genders match",
+              "explanation_en": "आवश्यकता and ज़रूरत both mean a need and both are feminine, so this pair changes nothing at all. That matters: after three mismatched pairs in a row it would be easy to assume the mismatch is systematic, and it is not. There is no rule — you have to know each pair. आवश्यकता is built with -ता, a suffix that makes feminine abstract nouns from adjectives, exactly as -आई and -ई do: सुंदरता beauty, स्वतंत्रता freedom, क्षमता capacity.",
+              "examples": [
+                {
+                  "hindi": "इसकी कोई आवश्यकता नहीं है।",
+                  "read_as": "iskii koii aavashyaktaa nahiiṁ hai.",
+                  "english": "There is no need for this.",
+                  "note": "इसकी, feminine, agreeing with आवश्यकता."
+                },
+                {
+                  "hindi": "मुझे मदद की ज़रूरत है।",
+                  "read_as": "mujhe madad kii zaruurat hai.",
+                  "english": "I need help.",
+                  "note": "The everyday partner, from level 1, and also feminine."
+                },
+                {
+                  "hindi": "आवश्यकतानुसार बदलाव किया जा सकता है।",
+                  "read_as": "aavashyaktaanusaar badlaav kiyaa jaa saktaa hai.",
+                  "english": "Changes may be made as required.",
+                  "note": "आवश्यकतानुसार, as per requirement — the kind of compound only this side of the pair produces."
+                }
+              ],
+              "common_error": {
+                "wrong": "इसका कोई आवश्यकता नहीं",
+                "right": "इसकी कोई आवश्यकता नहीं",
+                "why_en": "आवश्यकता is feminine, like ज़रूरत."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does the suffix -ता build?",
+              "options": [
+                "adjectives from nouns",
+                "plurals",
+                "masculine nouns from verbs",
+                "feminine abstract nouns from adjectives"
+              ],
+              "answer_index": 3,
+              "explanation_en": "सुंदरता, स्वतंत्रता, क्षमता, आवश्यकता — all feminine, all from adjectives."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means capacity or ability?",
+              "options": [
+                "आवश्यकता",
+                "क्षमता",
+                "स्वतंत्रता",
+                "सुंदरता"
+              ],
+              "options_read_as": [
+                "aavashyaktaa",
+                "kṣamataa",
+                "svataṁtrataa",
+                "suṁdartaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "क्षमता, from सक्षम, capable. All four are -ता nouns and all four are feminine."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "आवश्यकता",
+              "इसकी कोई आवश्यकता नहीं है।",
+              "मुझे मदद की ज़रूरत है।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Free words swap between registers; compounds do not — कार्यक्रम has no कामक्रम. स्थान and जगह are the third gender-mismatched pair in the module, after दिनांक/तारीख़ and प्रयास/कोशिश. And आवश्यकता and ज़रूरत match perfectly, which shows the mismatch is not a rule.",
+        "key_forms": [
+          "कार्यालय",
+          "इस जगह पर",
+          "की आवश्यकता"
+        ],
+        "next_up_en": "Next: the direction reverses — the Urdu-side word becomes the item, starting with two prefixes for one meaning."
+      }
+    },
+    {
+      "level": 28,
+      "title_en": "Possible, waiting, life",
+      "title_hi": "मुमकिन · इंतज़ार · ज़िंदगी",
+      "items": [
+        {
+          "id": "M13-L28-I1",
+          "type": "word",
+          "target": "मुमकिन",
+          "read_as": "mumkin",
+          "gloss_en": "possible",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "urdu_pair",
+            "adjective",
+            "invariable",
+            "prefix_naa",
+            "negation_family"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "नामुमकिन and असंभव — two prefixes, one meaning",
+              "explanation_en": "मुमकिन is possible, and संभव is its Sanskrit-side partner. Both are invariable. The interesting part is the negatives: मुमकिन takes ना- to give नामुमकिन, and संभव takes अ- to give असंभव. Both mean impossible, both are in daily use, and each keeps the prefix that belongs to its own side. That gives you a fifth way of negating in this module, after निः-, ला-, अ- and बिना — and ना-, like ला-, came in through Persian.",
+              "examples": [
+                {
+                  "hindi": "ये मुमकिन नहीं है।",
+                  "read_as": "ye mumkin nahiiṁ hai.",
+                  "english": "This isn't possible.",
+                  "note": "Negating with नहीं rather than with a prefix."
+                },
+                {
+                  "hindi": "ये तो नामुमकिन है।",
+                  "read_as": "ye to naamumkin hai.",
+                  "english": "That's impossible.",
+                  "note": "The prefix version is stronger — flatly impossible rather than merely not possible."
+                },
+                {
+                  "hindi": "ऐसा होना असंभव है।",
+                  "read_as": "aisaa honaa asaṁbhav hai.",
+                  "english": "It is impossible for that to happen.",
+                  "note": "The Sanskrit-side negative, with अ-."
+                }
+              ],
+              "common_error": {
+                "wrong": "अमुमकिन",
+                "right": "नामुमकिन",
+                "why_en": "Each word keeps the prefix from its own side. अ- does not attach to मुमकिन, and ना- does not attach to संभव."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which prefix negates मुमकिन?",
+              "options": [
+                "ना-",
+                "निः-",
+                "ला-",
+                "अ-"
+              ],
+              "answer_index": 0,
+              "explanation_en": "नामुमकिन. संभव takes अ- instead, giving असंभव."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means likely rather than merely possible?",
+              "options": [
+                "ज़रूरी",
+                "मुमकिन",
+                "संभावित",
+                "असंभव"
+              ],
+              "options_read_as": [
+                "zaruurii",
+                "mumkin",
+                "saṁbhaavit",
+                "asaṁbhav"
+              ],
+              "answer_index": 2,
+              "explanation_en": "संभावित is probable or expected. मुमकिन and संभव only say a thing can happen."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुमकिन",
+              "ये मुमकिन नहीं है।",
+              "ये तो नामुमकिन है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L28-I2",
+          "type": "word",
+          "target": "इंतज़ार",
+          "read_as": "iṁtazaar",
+          "gloss_en": "waiting",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "urdu_pair",
+            "masculine",
+            "gender_flag",
+            "gender_mismatch_pair",
+            "callback_l15"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "इंतज़ार is masculine and प्रतीक्षा is feminine",
+              "explanation_en": "The fourth mismatched pair. इंतज़ार is masculine, प्रतीक्षा is feminine, and they mean the same thing. You met प्रतीक्षा on the waiting-room sign in level 15, which is exactly where it belongs; इंतज़ार is what you say and what you write in a message — आपका इंतज़ार रहेगा, from the hotel confirmation in level 23. Flag इंतज़ार. Both go with करना, and the thing waited for takes का: तुम्हारा इंतज़ार.",
+              "examples": [
+                {
+                  "hindi": "मैं तुम्हारा इंतज़ार कर रहा हूँ।",
+                  "read_as": "maiṁ tumhaaraa iṁtazaar kar rahaa huuṁ.",
+                  "english": "I'm waiting for you.",
+                  "note": "तुम्हारा, masculine, agreeing with इंतज़ार."
+                },
+                {
+                  "hindi": "प्रतीक्षा कक्ष दाईं ओर है।",
+                  "read_as": "pratiikshaa kaksh daaiiṁ or hai.",
+                  "english": "The waiting room is on the right.",
+                  "note": "The sign register, from level 15."
+                },
+                {
+                  "hindi": "लंबा इंतज़ार करना पड़ा।",
+                  "read_as": "lambaa iṁtazaar karnaa paṛaa.",
+                  "english": "We had a long wait.",
+                  "note": "लंबा masculine. With प्रतीक्षा it would be लंबी."
+                }
+              ],
+              "common_error": {
+                "wrong": "तुम्हारी इंतज़ार",
+                "right": "तुम्हारा इंतज़ार",
+                "why_en": "इंतज़ार is masculine, even though प्रतीक्षा, its partner, is feminine."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which is masculine?",
+              "options": [
+                "प्रतीक्षा",
+                "इंतज़ार",
+                "both",
+                "neither"
+              ],
+              "answer_index": 1,
+              "explanation_en": "इंतज़ार is masculine; प्रतीक्षा is feminine. The fourth such pair in the module."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a delay rather than the act of waiting?",
+              "options": [
+                "प्रतीक्षा",
+                "ठहराव",
+                "इंतज़ार",
+                "देरी"
+              ],
+              "options_read_as": [
+                "pratiikshaa",
+                "ṭhahraav",
+                "iṁtazaar",
+                "derii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "देरी is lateness or delay. ठहराव is a pause or stillness, and you meet it in the final reading of the module."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "इंतज़ार",
+              "मैं तुम्हारा इंतज़ार कर रहा हूँ।",
+              "लंबा इंतज़ार करना पड़ा।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L28-I3",
+          "type": "word",
+          "target": "ज़िंदगी",
+          "read_as": "ziṁdagii",
+          "gloss_en": "life",
+          "gender": "f",
+          "gender_flag": false,
+          "difficulty": 6,
+          "tags": [
+            "urdu_pair",
+            "feminine",
+            "gender_mismatch_pair",
+            "distribution",
+            "compound_use"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ज़िंदगी and जीवन are not always swappable",
+              "explanation_en": "The fifth mismatched pair: ज़िंदगी is feminine and जीवन is masculine. But this one goes further than gender, because the two are not freely interchangeable. जीवन owns the compounds — जीवन बीमा is life insurance and जीवनसाथी is a life partner, and there is no ज़िंदगी बीमा. ज़िंदगी owns the feeling: songs, poetry and anything said with any warmth at all will use ज़िंदगी. Both are everyday words; they simply do different jobs.",
+              "examples": [
+                {
+                  "hindi": "ज़िंदगी बहुत छोटी है।",
+                  "read_as": "ziṁdagii bahut chhoṭii hai.",
+                  "english": "Life is very short.",
+                  "note": "छोटी, feminine. With जीवन it would be छोटा — and it would sound like a textbook."
+                },
+                {
+                  "hindi": "उन्होंने जीवन बीमा करवाया।",
+                  "read_as": "unhoṁne jiivan biimaa karvaayaa.",
+                  "english": "They took out life insurance.",
+                  "note": "The compound takes जीवन and nothing else."
+                },
+                {
+                  "hindi": "सारी ज़िंदगी यहीं गुज़ार दी।",
+                  "read_as": "saarii ziṁdagii yahiiṁ guzaar dii.",
+                  "english": "He spent his whole life right here.",
+                  "note": "गुज़ारना, to spend time — a verb you meet properly in level 50."
+                }
+              ],
+              "common_error": {
+                "wrong": "ज़िंदगी बीमा",
+                "right": "जीवन बीमा",
+                "why_en": "Free words swap; compounds do not. This is the same rule as कार्यक्रम in level 27."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which word appears in the compound for life insurance?",
+              "options": [
+                "neither",
+                "ज़िंदगी",
+                "जीवन",
+                "either"
+              ],
+              "answer_index": 2,
+              "explanation_en": "जीवन बीमा. The compound is fixed."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a lifetime or an age?",
+              "options": [
+                "उम्र",
+                "जीवन",
+                "साँस",
+                "ज़िंदगी"
+              ],
+              "options_read_as": [
+                "umr",
+                "jiivan",
+                "saaṁs",
+                "ziṁdagii"
+              ],
+              "answer_index": 0,
+              "explanation_en": "उम्र is age or lifespan, and it is feminine. साँस is breath."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ज़िंदगी",
+              "ज़िंदगी बहुत छोटी है।",
+              "उन्होंने जीवन बीमा करवाया।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "नामुमकिन and असंभव each keep the negative prefix from their own side — ना- from Persian, अ- from Sanskrit. इंतज़ार and ज़िंदगी are the fourth and fifth gender-mismatched pairs. And ज़िंदगी shows that a pair can differ in distribution as well as register: जीवन owns the compounds and ज़िंदगी owns the feeling.",
+        "key_forms": [
+          "नामुमकिन",
+          "तुम्हारा इंतज़ार",
+          "जीवन बीमा"
+        ],
+        "next_up_en": "Next: news, country and education — and what happens to a pair inside a compound."
+      }
+    },
+    {
+      "level": 29,
+      "title_en": "News, country, education",
+      "title_hi": "ख़बर · मुल्क · तालीम",
+      "items": [
+        {
+          "id": "M13-L29-I1",
+          "type": "word",
+          "target": "ख़बर",
+          "read_as": "ḳhabar",
+          "gloss_en": "news, a piece of news",
+          "gender": "f",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "urdu_pair",
+            "feminine",
+            "gender_flag",
+            "gender_mismatch_pair",
+            "idiom"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ख़बर is a single item; समाचार is the broadcast",
+              "explanation_en": "The sixth mismatched pair: ख़बर is feminine and समाचार is masculine. But there is also a difference of grain. ख़बर is one piece of news — एक अच्छी ख़बर, a bit of good news — while समाचार is news as a body of it, which is why a bulletin is समाचार and a newspaper is समाचार पत्र. The Urdu-side word for a newspaper is अख़बार, masculine, and both are in daily use. Flag ख़बर. Note the idiom ख़बर रखना, to keep track of something.",
+              "examples": [
+                {
+                  "hindi": "एक अच्छी ख़बर है।",
+                  "read_as": "ek acchii ḳhabar hai.",
+                  "english": "There's some good news.",
+                  "note": "अच्छी, feminine, agreeing with ख़बर."
+                },
+                {
+                  "hindi": "नौ बजे के समाचार सुनिए।",
+                  "read_as": "nau baje ke samaachaar sunie.",
+                  "english": "Listen to the nine o'clock news.",
+                  "note": "Masculine plural — a bulletin is समाचार, not ख़बर."
+                },
+                {
+                  "hindi": "वो सबकी ख़बर रखता है।",
+                  "read_as": "vo sabkii ḳhabar rakhtaa hai.",
+                  "english": "He keeps track of everybody.",
+                  "note": "ख़बर रखना — one more रखना idiom, after the four on the waiting-room sign."
+                }
+              ],
+              "common_error": {
+                "wrong": "एक अच्छा ख़बर",
+                "right": "एक अच्छी ख़बर",
+                "why_en": "ख़बर is feminine, even though समाचार is masculine."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "A television news bulletin is called what?",
+              "options": [
+                "अख़बार",
+                "either of the first two",
+                "ख़बर",
+                "समाचार"
+              ],
+              "answer_index": 3,
+              "explanation_en": "समाचार, because it is news as a body rather than one item."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a newspaper?",
+              "options": [
+                "ख़बर",
+                "अख़बार",
+                "समाचार",
+                "ख़बरनवीस"
+              ],
+              "options_read_as": [
+                "ḳhabar",
+                "aḳhbaar",
+                "samaachaar",
+                "ḳhabarnaviis"
+              ],
+              "answer_index": 1,
+              "explanation_en": "अख़बार is a newspaper. ख़बरनवीस is a reporter, built with the Persian -नवीस, one who writes."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ख़बर",
+              "एक अच्छी ख़बर है।",
+              "वो सबकी ख़बर रखता है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L29-I2",
+          "type": "word",
+          "target": "मुल्क",
+          "read_as": "mulk",
+          "gloss_en": "country",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "urdu_pair",
+            "masculine",
+            "gender_flag",
+            "matched_pair",
+            "compound_asymmetry"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Both masculine — and only one of them makes compounds",
+              "explanation_en": "मुल्क and देश both mean a country and both are masculine, so this pair matches. What it does not do is share the compounds. देशभक्ति is patriotism, विदेश is abroad, स्वदेशी means home-produced, and there is no मुल्कभक्ति or विमुल्क. Flag मुल्क: masculine and consonant-final, with nothing in the shape to say so. मुल्क is free as a word, warm in tone, and common in speech and song — अपना मुल्क, हमारा मुल्क — but it does not build. That is the same asymmetry you saw with कार्य and जीवन, and it is the most reliable difference between the two sides of any pair.",
+              "examples": [
+                {
+                  "hindi": "ये हमारा मुल्क है।",
+                  "read_as": "ye hamaaraa mulk hai.",
+                  "english": "This is our country.",
+                  "note": "Warm. देश here would sound like a civics lesson."
+                },
+                {
+                  "hindi": "वो विदेश चला गया।",
+                  "read_as": "vo videsh chalaa gayaa.",
+                  "english": "He has gone abroad.",
+                  "note": "The compound takes देश. There is no विमुल्क."
+                },
+                {
+                  "hindi": "पूरे देश में यही हाल है।",
+                  "read_as": "puure desh meṁ yahii haal hai.",
+                  "english": "It's the same all over the country.",
+                  "note": "हाल, the singular of हालात from level 4."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुल्कभक्ति",
+                "right": "देशभक्ति",
+                "why_en": "Compounds pick a side and stay there, whatever the free words do."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which of these is a real word?",
+              "options": [
+                "विदेश",
+                "स्वमुल्की",
+                "विमुल्क",
+                "मुल्कभक्ति"
+              ],
+              "answer_index": 0,
+              "explanation_en": "विदेश, abroad. The compounds are all built on देश."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a nation in the sense of a people?",
+              "options": [
+                "इलाक़ा",
+                "मुल्क",
+                "राष्ट्र",
+                "देश"
+              ],
+              "options_read_as": [
+                "ilaaqaa",
+                "mulk",
+                "raaṣṭra",
+                "desh"
+              ],
+              "answer_index": 2,
+              "explanation_en": "राष्ट्र is a nation, and it is the word in राष्ट्रपति, president. इलाक़ा is an area or district."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुल्क",
+              "ये हमारा मुल्क है।",
+              "वो विदेश चला गया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L29-I3",
+          "type": "word",
+          "target": "तालीम",
+          "read_as": "taaliim",
+          "gloss_en": "education, instruction",
+          "gender": "f",
+          "gender_flag": true,
+          "difficulty": 8,
+          "tags": [
+            "urdu_pair",
+            "feminine",
+            "gender_flag",
+            "matched_pair",
+            "institutional_asymmetry"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तालीम and शिक्षा — matched genders, unmatched institutions",
+              "explanation_en": "Both are feminine, so this pair matches grammatically. But every institution in India uses शिक्षा: शिक्षा मंत्रालय is the Ministry of Education, शिक्षक is a teacher, शिक्षित means educated. Flag तालीम: feminine and consonant-final. तालीम is what a person says — बच्चों की तालीम, the children's education — and it is especially at home in Urdu-influenced speech. The pattern from the last three levels holds one more time: the Sanskrit side takes the offices and the compounds, and the Urdu side keeps the conversation.",
+              "examples": [
+                {
+                  "hindi": "बच्चों की तालीम पर ख़र्च करना चाहिए।",
+                  "read_as": "bacchoṁ kii taaliim par ḳharch karnaa chaahie.",
+                  "english": "One should spend on children's education.",
+                  "note": "की, feminine, and बच्चों oblique before it."
+                },
+                {
+                  "hindi": "शिक्षा मंत्रालय ने घोषणा की।",
+                  "read_as": "shikṣaa maṁtraalay ne ghoṣṇaa kii.",
+                  "english": "The Ministry of Education made an announcement.",
+                  "note": "मंत्रालय — another -आलय word. And तालीम मंत्रालय does not exist."
+                },
+                {
+                  "hindi": "वो पढ़े-लिखे हैं।",
+                  "read_as": "vo paṛhe-likhe haiṁ.",
+                  "english": "They are educated.",
+                  "note": "The everyday way to say it — a paired participle, avoiding both words entirely."
+                }
+              ],
+              "common_error": {
+                "wrong": "तालीम मंत्रालय",
+                "right": "शिक्षा मंत्रालय",
+                "why_en": "Institutions take शिक्षा. The free words are interchangeable; the names are not."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which word would a government department use in its name?",
+              "options": [
+                "तालीम",
+                "शिक्षा",
+                "either",
+                "neither"
+              ],
+              "answer_index": 1,
+              "explanation_en": "शिक्षा मंत्रालय. तालीम belongs to conversation."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means training, in the practical sense?",
+              "options": [
+                "शिक्षा",
+                "पढ़ाई",
+                "तालीम",
+                "प्रशिक्षण"
+              ],
+              "options_read_as": [
+                "shikṣaa",
+                "paṛhaaii",
+                "taaliim",
+                "prashikṣaṇ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "प्रशिक्षण is training, with the प्र- prefix. पढ़ाई is studying, and is built with the -आई suffix from level 2."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तालीम",
+              "बच्चों की तालीम पर ख़र्च करना चाहिए।",
+              "शिक्षा मंत्रालय ने घोषणा की।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "ख़बर is one item of news where समाचार is the whole bulletin. मुल्क and देश match in gender but not in compounds, and neither do तालीम and शिक्षा. Across all fifteen pairs the most reliable difference is not formality at all — it is that the Sanskrit side takes the institutions and the compounds, and the other side keeps the conversation.",
+        "key_forms": [
+          "एक अच्छी ख़बर",
+          "हमारा मुल्क",
+          "बच्चों की तालीम"
+        ],
+        "next_up_en": "Next: the fourth reading block — emails, and the first news item."
+      }
+    }
+  ]
+}

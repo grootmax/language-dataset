@@ -1,0 +1,246 @@
+{
+  "module": 1,
+  "module_name_en": "Sounds & Vowels",
+  "checkpoints": [
+    {
+      "checkpoint": 1,
+      "after_level": 5,
+      "covers_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "title_en": "All eleven vowels, and the three fossilizing contrasts",
+      "questions": [
+        {
+          "id": "M01-CP1-Q1",
+          "source_item_ids": [
+            "M01-L01-I1",
+            "M01-L01-I2"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling is correct for 'pomegranate'?",
+          "options": [
+            "अनार",
+            "अनाड़",
+            "आनाड़",
+            "आनार"
+          ],
+          "options_read_as": [
+            "anaar",
+            "anaaṛ",
+            "aanaaṛ",
+            "aanaar"
+          ],
+          "answer_index": 0,
+          "explanation_en": "अनार opens with the short अ. आनार stretches it into the long आ, and vowel length changes the word in Hindi rather than just adding emphasis."
+        },
+        {
+          "id": "M01-CP1-Q2",
+          "source_item_ids": [
+            "M01-L02-I1",
+            "M01-L01-I3"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling is correct for 'blue'?",
+          "options": [
+            "निला",
+            "नीला",
+            "नीली",
+            "निली"
+          ],
+          "options_read_as": [
+            "nilaa",
+            "niilaa",
+            "niilii",
+            "nilii"
+          ],
+          "answer_index": 1,
+          "explanation_en": "नीला needs the long ी. The short ि gives a syllable a Hindi speaker will not read as this word."
+        },
+        {
+          "id": "M01-CP1-Q3",
+          "source_item_ids": [
+            "M01-L02-I3",
+            "M01-L02-I2"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling is correct for 'milk'?",
+          "options": [
+            "दूद",
+            "दुध",
+            "दूध",
+            "दुद"
+          ],
+          "options_read_as": [
+            "duud",
+            "dudh",
+            "duudh",
+            "dud"
+          ],
+          "answer_index": 2,
+          "explanation_en": "The vowel in दूध is long — dropping it to दुध is the single most common English-speaker slip in this word."
+        },
+        {
+          "id": "M01-CP1-Q4",
+          "source_item_ids": [
+            "M01-L03-I1",
+            "M01-L03-I2"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling is correct for 'my'?",
+          "options": [
+            "मोरा",
+            "मौरा",
+            "मैरा",
+            "मेरा"
+          ],
+          "options_read_as": [
+            "moraa",
+            "mauraa",
+            "mairaa",
+            "meraa"
+          ],
+          "answer_index": 3,
+          "explanation_en": "मेरा takes the narrower ए. ऐ is a separate, more open vowel, and writing it here gives a form nobody will read as 'my'."
+        },
+        {
+          "id": "M01-CP1-Q5",
+          "source_item_ids": [
+            "M01-L03-I3",
+            "M01-L04-I1"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling is correct for 'two'?",
+          "options": [
+            "दौ",
+            "दो",
+            "दू",
+            "दे"
+          ],
+          "options_read_as": [
+            "dau",
+            "do",
+            "duu",
+            "de"
+          ],
+          "answer_index": 1,
+          "explanation_en": "औ is a separate, more open vowel than ओ. दौ is not a word — दो is 'two'."
+        },
+        {
+          "id": "M01-CP1-Q6",
+          "source_item_ids": [
+            "M01-L04-I1",
+            "M01-L03-I3"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling is correct for 'who'?",
+          "options": [
+            "कीन",
+            "कोन",
+            "कौन",
+            "कान"
+          ],
+          "options_read_as": [
+            "kiin",
+            "kon",
+            "kaun",
+            "kaan"
+          ],
+          "answer_index": 2,
+          "explanation_en": "कौन needs the open औ. The single-stroke matra ो gives the narrower ओ and a different, non-existent word."
+        },
+        {
+          "id": "M01-CP1-Q7",
+          "source_item_ids": [
+            "M01-L04-I3"
+          ],
+          "type": "odd_sound_out",
+          "prompt_en": "कोना means 'corner'. Which spelling accidentally means 'to lose' instead?",
+          "options": [
+            "कोनी",
+            "कौना",
+            "कोना",
+            "खोना"
+          ],
+          "options_read_as": [
+            "konii",
+            "kaunaa",
+            "konaa",
+            "khonaa"
+          ],
+          "answer_index": 3,
+          "explanation_en": "Adding the puff of breath that English speakers default to turns क into ख — 'corner' becomes खोना, 'to lose'."
+        },
+        {
+          "id": "M01-CP1-Q8",
+          "source_item_ids": [
+            "M01-L05-I1"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling is correct for 'lentils'?",
+          "options": [
+            "दाल",
+            "ढाल",
+            "धाल",
+            "डाल"
+          ],
+          "options_read_as": [
+            "daal",
+            "ḍhaal",
+            "dhaal",
+            "ḍaal"
+          ],
+          "answer_index": 0,
+          "explanation_en": "English speakers curl the tongue back by default, which turns the dental द into the retroflex ड — 'lentils' becomes डाल, 'branch'."
+        },
+        {
+          "id": "M01-CP1-Q9",
+          "source_item_ids": [
+            "M01-L05-I2"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling is correct for the command 'laugh!'?",
+          "options": [
+            "हँसाना",
+            "हंसना",
+            "हँसना",
+            "हंसाना"
+          ],
+          "options_read_as": [
+            "hãsaanaa",
+            "hansnaa",
+            "hãsnaa",
+            "hansaanaa"
+          ],
+          "answer_index": 2,
+          "explanation_en": "The verb 'to laugh' takes the moon-dot ँ, which nasalises the vowel with no consonant. The plain dot ं would instead point at हंस, the noun for a swan."
+        },
+        {
+          "id": "M01-CP1-Q10",
+          "source_item_ids": [
+            "M01-L05-I3"
+          ],
+          "type": "odd_sound_out",
+          "prompt_en": "वापस means 'back'. Which spelling closes the lips and changes the word?",
+          "options": [
+            "वापिस",
+            "वाबस",
+            "वापस",
+            "बापस"
+          ],
+          "options_read_as": [
+            "vaapis",
+            "vaabas",
+            "vaapas",
+            "baapas"
+          ],
+          "answer_index": 3,
+          "explanation_en": "व never presses the lips together — only the lower lip nears the upper teeth. Closing the lips fully turns it into ब, giving the non-word बापस."
+        }
+      ]
+    }
+  ]
+}

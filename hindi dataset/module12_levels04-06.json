@@ -1,0 +1,1115 @@
+{
+  "module": 12,
+  "module_name_en": "Conversation",
+  "module_name_hi": "बातचीत",
+  "phase": 5,
+  "batch": {
+    "levels_from": 4,
+    "levels_to": 6
+  },
+  "receptive_only": true,
+  "levels": [
+    {
+      "level": 4,
+      "title_en": "At the vegetable market",
+      "title_hi": "सब्ज़ी मंडी में",
+      "items": [
+        {
+          "id": "M12-L04-I1",
+          "type": "dialogue",
+          "target": "कैसे दिए?",
+          "title_en": "Buying by weight",
+          "setting": "vegetable_market",
+          "speed": "slow",
+          "difficulty": 5,
+          "tags": [
+            "market",
+            "price",
+            "oblique_plural",
+            "subjunctive"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Vegetable seller",
+              "label_hi": "सब्ज़ी वाला"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भैया, टमाटर कैसे दिए?",
+              "read_as": "bhaiyaa, ṭamaaṭar kaise die?",
+              "english": "Bhaiya, how much are the tomatoes?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "चालीस रुपये किलो।",
+              "read_as": "chaaliis rupae kilo.",
+              "english": "Forty a kilo."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "आजकल सब्ज़ियों के दाम बहुत बढ़ गए हैं।",
+              "read_as": "aajkal sabziyoṁ ke daam bahut baṛh gae haiṁ.",
+              "english": "Vegetable prices have really gone up lately."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "बारिश की वजह से, भैया। एक किलो दूँ?",
+              "read_as": "baarish kii vajah se, bhaiyaa. ek kilo duuṁ?",
+              "english": "It's the rain. Shall I give you a kilo?"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "हाँ, और आधा किलो प्याज़ भी।",
+              "read_as": "haaṁ, aur aadhaa kilo pyaaz bhii.",
+              "english": "Yes, and half a kilo of onions too."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कैसे दिए — asking a price at a market",
+              "explanation_en": "कैसे दिए is literally \"how did you give\", and it is the standard market way of asking a price for something sold loose. You will also hear क्या भाव है and simply कैसे हैं — all three mean the same thing and none of them is what a textbook teaches. बारिश की वजह से is the everyday way to say \"because of\", with की because बारिश is feminine. And दूँ? is the subjunctive doing an offer: shall I give you one?",
+              "listening_notes": [
+                "सब्ज़ियों के दाम: सब्ज़ी goes to the oblique plural सब्ज़ियों before के. Nouns ending in -ी take -ियों.",
+                "आजकल means \"these days\" and is extremely common in complaints about prices.",
+                "आधा किलो — आधा agrees with masculine किलो. Before a feminine noun it would be आधी."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What reason does the seller give for the price?",
+              "options": [
+                "Transport costs",
+                "The market is closed tomorrow",
+                "The season has ended",
+                "The rain"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 4: बारिश की वजह से."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "सब्ज़ियों",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "आजकल ___ के दाम बहुत बढ़ गए हैं।",
+              "question_read_as": "aajkal ___ ke daam bahut baṛh gae haiṁ.",
+              "options": [
+                "सब्ज़ियाँ",
+                "सब्ज़ियों",
+                "सब्ज़ियो",
+                "सब्ज़ी"
+              ],
+              "options_read_as": [
+                "sabziyaaṁ",
+                "sabziyoṁ",
+                "sabziyo",
+                "sabzii"
+              ],
+              "answer_index": 1,
+              "explanation_en": "के is a postposition, so सब्ज़ी goes into the oblique plural: सब्ज़ियों."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Outdoor market noise. Line 3 is a grumble, not a complaint."
+          }
+        },
+        {
+          "id": "M12-L04-I2",
+          "type": "dialogue",
+          "target": "कल की बात और थी",
+          "title_en": "Bargaining over okra",
+          "setting": "vegetable_market",
+          "speed": "slow",
+          "difficulty": 6,
+          "tags": [
+            "market",
+            "bargaining",
+            "ne",
+            "feminine_agreement",
+            "set_phrases"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Vegetable seller",
+              "label_hi": "सब्ज़ी वाला"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भिंडी कैसे दी?",
+              "read_as": "bhinḍii kaise dii?",
+              "english": "How much for the okra?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "साठ रुपये किलो।",
+              "read_as": "saaṭh rupae kilo.",
+              "english": "Sixty a kilo."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "अरे भैया, कल मैंने पचास में ली थी।",
+              "read_as": "are bhaiyaa, kal maiṁne pachaas meṁ lii thii.",
+              "english": "Come on, I bought it for fifty yesterday."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "कल की बात और थी। आज ताज़ा आई है।",
+              "read_as": "kal kii baat aur thii. aaj taazaa aaii hai.",
+              "english": "Yesterday was yesterday. Today's is fresh in."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "चलिए, पचपन लगा लो।",
+              "read_as": "chalie, pachpan lagaa lo.",
+              "english": "Come on, make it fifty-five."
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "ठीक है भैया, आपके लिए। कितनी दूँ?",
+              "read_as": "ṭhiik hai bhaiyaa, aapke lie. kitnii duuṁ?",
+              "english": "All right, for you. How much shall I give?"
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कल की बात और थी — refusing without refusing",
+              "explanation_en": "कल की बात और थी is literally \"yesterday's matter was different\", and it is a whole argument compressed into four words: circumstances have changed, so your point does not apply. It is the market equivalent of क्या करें from level 3. Bargaining in Hindi runs on set pieces like this rather than on sentences invented on the spot, so a handful of them is worth more than a lot of vocabulary. आपके लिए at the end — \"for you\" — is the standard way of granting a discount while implying it is a favour.",
+              "listening_notes": [
+                "मैंने पचास में ली थी: भिंडी is feminine, so the verb is ली — and ने is there because लेना is transitive.",
+                "कितनी दूँ? — कितनी, not कितना, because भिंडी is feminine. Even the question word agrees.",
+                "लगा लो is a compound imperative, roughly \"go on, settle on it\"."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What price do they settle on?",
+              "options": [
+                "Fifty-five a kilo",
+                "Sixty a kilo",
+                "They do not agree",
+                "Fifty a kilo"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The customer asks for पचपन in line 5 and the seller agrees in line 6."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "ली",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "कल मैंने पचास में ___ थी।",
+              "question_read_as": "kal maiṁne pachaas meṁ ___ thii.",
+              "options": [
+                "लीं",
+                "लिया",
+                "ली",
+                "लिए"
+              ],
+              "options_read_as": [
+                "liiṁ",
+                "liyaa",
+                "lii",
+                "lie"
+              ],
+              "answer_index": 2,
+              "explanation_en": "भिंडी is feminine singular, and with ने the verb agrees with the object."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Neither is annoyed. This is a routine both of them enjoy."
+          }
+        },
+        {
+          "id": "M12-L04-I3",
+          "type": "dialogue",
+          "target": "इस मौसम में",
+          "title_en": "What's fresh today",
+          "setting": "vegetable_market",
+          "speed": "slow",
+          "difficulty": 5,
+          "tags": [
+            "market",
+            "seasons",
+            "to_particle",
+            "feminine_nouns"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Vegetable seller",
+              "label_hi": "सब्ज़ी वाला"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "आज क्या ताज़ा है?",
+              "read_as": "aaj kyaa taazaa hai?",
+              "english": "What's fresh today?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "गोभी अच्छी है, और मटर भी।",
+              "read_as": "gobhii acchii hai, aur maṭar bhii.",
+              "english": "The cauliflower's good, and the peas too."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "मटर इस मौसम में मिलती है?",
+              "read_as": "maṭar is mausam meṁ miltii hai?",
+              "english": "Do you get peas in this season?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हाँ जी, अभी तो ख़ूब आ रही है।",
+              "read_as": "haaṁ jii, abhii to ḳhuub aa rahii hai.",
+              "english": "Yes, plenty coming in right now."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "तो आधा किलो मटर दे दीजिए।",
+              "read_as": "to aadhaa kilo maṭar de diijie.",
+              "english": "Half a kilo of peas then."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तो at the start of a sentence",
+              "explanation_en": "तो has been marking contrast and carrying emphasis. Here in तो आधा किलो मटर दे दीजिए it opens the sentence and means \"in that case\" — a conclusion drawn from what was just said. That is a third job for the same syllable, and position tells you which one you are hearing. At the start of a sentence it means \"so, then\". After a noun it marks contrast. After a verb it carries emphasis. Once you can place it by position you stop losing it.",
+              "listening_notes": [
+                "मटर is feminine, so मिलती and आ रही. गोभी is feminine too, hence अच्छी.",
+                "इस मौसम में — यह goes to इस before a postposition, even though मौसम itself does not change shape.",
+                "ख़ूब means plenty or a great deal, and is warmer than बहुत."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Which two things does the seller say are good today?",
+              "options": [
+                "Tomatoes and onions",
+                "Cauliflower and peas",
+                "Okra and peas",
+                "Cauliflower and tomatoes"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 2: गोभी अच्छी है, और मटर भी."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "में",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "मटर इस मौसम ___ मिलती है?",
+              "question_read_as": "maṭar is mausam ___ miltii hai?",
+              "options": [
+                "पर",
+                "से",
+                "को",
+                "में"
+              ],
+              "options_read_as": [
+                "par",
+                "se",
+                "ko",
+                "meṁ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "A season is something you are inside, so में."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 4 is enthusiastic — ख़ूब should sound like an offer, not a fact."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A market runs on कैसे दिए for prices and on set-piece replies for everything else — कल की बात और थी, आपके लिए, क्या करें. And तो now has three jobs: opening a conclusion, marking contrast, and carrying emphasis, told apart by where it sits.",
+        "key_forms": [
+          "कैसे दिए?",
+          "कल की बात और थी",
+          "आपके लिए"
+        ],
+        "next_up_en": "Next: the clothes shop, where the noun everyone is talking about is never actually said."
+      }
+    },
+    {
+      "level": 5,
+      "title_en": "At the clothes shop",
+      "title_hi": "कपड़ों की दुकान पर",
+      "items": [
+        {
+          "id": "M12-L05-I1",
+          "type": "dialogue",
+          "target": "नीली आई है",
+          "title_en": "Asking for a size",
+          "setting": "clothes_shop",
+          "speed": "slow",
+          "difficulty": 5,
+          "tags": [
+            "shop",
+            "clothes",
+            "feminine_agreement",
+            "chalegaa",
+            "subjunctive"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Shop assistant",
+              "label_hi": "दुकानदार"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "ये कमीज़ बड़े साइज़ में है?",
+              "read_as": "ye kamiiz baṛe saaiz meṁ hai?",
+              "english": "Do you have this shirt in a large?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "कौन सा रंग चाहिए?",
+              "read_as": "kaun saa raṁg chaahie?",
+              "english": "Which colour do you want?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "नीला। या सफ़ेद भी चलेगा।",
+              "read_as": "niilaa. yaa safed bhii chalegaa.",
+              "english": "Blue. Or white would do."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "नीली आई है अभी। दिखाऊँ?",
+              "read_as": "niilii aaii hai abhii. dikhaauṁ?",
+              "english": "A blue one's just come in. Shall I show you?"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "हाँ, दिखा दीजिए।",
+              "read_as": "haaṁ, dikhaa diijie.",
+              "english": "Yes, please show me."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कमीज़ is feminine, and not everything follows",
+              "explanation_en": "कमीज़ is feminine, so नीली and आई in line 4. But look at line 3: नीला, masculine, because there the speaker is naming a colour in the abstract rather than describing the shirt. And चलेगा is masculine because it refers to the idea, not the garment. Hindi keeps these apart carefully, and a learner who assumes everything in the conversation must agree with कमीज़ will hear line 3 as a mistake. It is not — the two lines are talking about different things.",
+              "listening_notes": [
+                "चलेगा is literally \"will walk\" and idiomatically \"will do, that's acceptable\". Extremely common.",
+                "दिखाऊँ? is the subjunctive: shall I show? दिखाना is the causative of देखना from Module 11.",
+                "बड़े साइज़ में — साइज़ goes oblique before में, and बड़े follows it."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What colour has the shop just received?",
+              "options": [
+                "Neither — nothing has come in",
+                "White",
+                "Blue",
+                "Both blue and white"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 4: नीली आई है अभी."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "आई",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "नीली ___ है अभी।",
+              "question_read_as": "niilii ___ hai abhii.",
+              "options": [
+                "आई",
+                "आए",
+                "आईं",
+                "आया"
+              ],
+              "options_read_as": [
+                "aaii",
+                "aae",
+                "aaiiṁ",
+                "aayaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "कमीज़ is feminine, and it is the subject even though the word itself is not said."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Indoor, quieter than the market. Line 4 should sound like good news."
+          }
+        },
+        {
+          "id": "M12-L05-I2",
+          "type": "dialogue",
+          "target": "मैं आपको दिखाता हूँ",
+          "title_en": "Trying it on",
+          "setting": "clothes_shop",
+          "speed": "slow",
+          "difficulty": 5,
+          "tags": [
+            "shop",
+            "clothes",
+            "causative",
+            "ko_marked",
+            "ellipsis"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Shop assistant",
+              "label_hi": "दुकानदार"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "ट्रायल रूम कहाँ है?",
+              "read_as": "ṭraayal ruum kahaaṁ hai?",
+              "english": "Where's the trial room?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "उधर, कोने में।",
+              "read_as": "udhar, kone meṁ.",
+              "english": "Over there, in the corner."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "भैया, ये थोड़ी ढीली है।",
+              "read_as": "bhaiyaa, ye thoṛii ḍhiilii hai.",
+              "english": "This is a bit loose."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "अच्छा। मैं आपको छोटा साइज़ दिखाता हूँ।",
+              "read_as": "acchaa. maiṁ aapko chhoṭaa saaiz dikhaataa huuṁ.",
+              "english": "Right. Let me show you a smaller size."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "हाँ, वही दिखाइए।",
+              "read_as": "haaṁ, vahii dikhaaie.",
+              "english": "Yes, show me that one."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "दिखाना — a causative you have been using all along",
+              "explanation_en": "दिखाना is the causative of देखना — to cause to see, to show — and the person shown takes को: मैं आपको दिखाता हूँ. That is the Module 11 rule about causatives running in an ordinary shop conversation, and it is worth noticing because nothing about the sentence feels like grammar practice. वही in line 5 is वह plus ही, \"that very one\", doing the work of a whole noun phrase.",
+              "listening_notes": [
+                "ये थोड़ी ढीली है — both थोड़ी and ढीली are feminine because कमीज़ is, even though कमीज़ is never said in this dialogue at all.",
+                "कोने में: कोना goes oblique to कोने before में.",
+                "दिखाता हूँ for something about to happen — present tense doing near-future work, as with फिर मिलते हैं in level 1."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What is wrong with the shirt?",
+              "options": [
+                "The colour is wrong",
+                "There is a mark on it",
+                "It is too tight",
+                "It is a bit loose"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 3: ये थोड़ी ढीली है."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "आपको",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "मैं ___ छोटा साइज़ दिखाता हूँ।",
+              "question_read_as": "maiṁ ___ chhoṭaa saaiz dikhaataa huuṁ.",
+              "options": [
+                "आप",
+                "आपको",
+                "आपने",
+                "आपका"
+              ],
+              "options_read_as": [
+                "aap",
+                "aapko",
+                "aapne",
+                "aapkaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The person being shown something takes को, and आप has no fused form."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 3 comes after a pause — the customer has been away and come back."
+          }
+        },
+        {
+          "id": "M12-L05-I3",
+          "type": "dialogue",
+          "target": "साइज़ ग़लत निकला",
+          "title_en": "Exchanging an item",
+          "setting": "clothes_shop",
+          "speed": "slow",
+          "difficulty": 6,
+          "tags": [
+            "shop",
+            "exchange",
+            "ne",
+            "nikalnaa",
+            "obligation"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Shop assistant",
+              "label_hi": "दुकानदार"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भैया, ये बदलनी है।",
+              "read_as": "bhaiyaa, ye badalnii hai.",
+              "english": "I need to exchange this."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "क्या हुआ?",
+              "read_as": "kyaa huaa?",
+              "english": "What's the matter?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "मैंने घर पर देखा, साइज़ ग़लत निकला।",
+              "read_as": "maiṁne ghar par dekhaa, saaiz ġalat niklaa.",
+              "english": "I looked at home — the size turned out wrong."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "बिल है आपके पास?",
+              "read_as": "bil hai aapke paas?",
+              "english": "Do you have the bill?"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "हाँ, ये लीजिए। कल ही ली थी।",
+              "read_as": "haaṁ, ye liijie. kal hii lii thii.",
+              "english": "Yes, here. I bought it just yesterday."
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "कोई बात नहीं, बदल देते हैं।",
+              "read_as": "koii baat nahiiṁ, badal dete haiṁ.",
+              "english": "No problem, we'll change it."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "निकला — how something turns out",
+              "explanation_en": "साइज़ ग़लत निकला means the size turned out to be wrong. निकलना literally means to come out, and it is the everyday verb for something proving to be the case once you actually look. It is in almost no textbook and it is everywhere in speech. Note ये बदलनी है in line 1 — the obligation ladder from Module 11, with the infinitive agreeing with feminine कमीज़, which once again is never said out loud.",
+              "listening_notes": [
+                "मैंने घर पर देखा: देखना is transitive and perfective, so ने.",
+                "कल ही ली थी drops the subject entirely. The ने-subject is obvious, so it goes — this is normal, not sloppy.",
+                "बदल देते हैं — present tense, plural, meaning \"we'll change it\". Shopkeepers routinely use the plural about themselves."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why does the customer want an exchange?",
+              "options": [
+                "The size is wrong",
+                "It is damaged",
+                "He changed his mind",
+                "The colour is wrong"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 3: साइज़ ग़लत निकला."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "मैंने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "___ घर पर देखा, साइज़ ग़लत निकला।",
+              "question_read_as": "___ ghar par dekhaa, saaiz ġalat niklaa.",
+              "options": [
+                "मेरा",
+                "मैं",
+                "मैंने",
+                "मुझे"
+              ],
+              "options_read_as": [
+                "meraa",
+                "maiṁ",
+                "maiṁne",
+                "mujhe"
+              ],
+              "answer_index": 2,
+              "explanation_en": "देखना is transitive and the tense is perfective, so the subject takes ने."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Slightly apologetic on the customer's side, entirely unbothered on the shop's."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The thing being discussed — कमीज़ — is never once said aloud in these three dialogues, and every feminine ending in them points back at it. That is normal Hindi: once the topic is established it disappears, and the agreement is all that is left to tell you what is being talked about.",
+        "key_forms": [
+          "चलेगा",
+          "साइज़ ग़लत निकला",
+          "आपके पास"
+        ],
+        "next_up_en": "Next: neighbours, tanks, and the watchman."
+      }
+    },
+    {
+      "level": 6,
+      "title_en": "Neighbours and the building",
+      "title_hi": "पड़ोसी और बिल्डिंग",
+      "items": [
+        {
+          "id": "M12-L06-I1",
+          "type": "dialogue",
+          "target": "पड़ोसियों से ही तो माँगते हैं",
+          "title_en": "Borrowing sugar",
+          "setting": "building",
+          "speed": "slow",
+          "difficulty": 6,
+          "tags": [
+            "neighbours",
+            "oblique_plural",
+            "hii",
+            "to_particle",
+            "zaraa"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Neighbour A",
+              "label_hi": "पड़ोसी"
+            },
+            {
+              "id": "B",
+              "label_en": "Neighbour B",
+              "label_hi": "पड़ोसन"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भाभी, ज़रा चीनी मिलेगी? मेहमान आ गए हैं।",
+              "read_as": "bhaabhii, zaraa chiinii milegii? mehmaan aa gae haiṁ.",
+              "english": "Could I get a little sugar? Guests have turned up."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "हाँ बिल्कुल। कितनी?",
+              "read_as": "haaṁ bilkul. kitnii?",
+              "english": "Of course. How much?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "बस एक कटोरी। दुकान बंद थी।",
+              "read_as": "bas ek kaṭorii. dukaan band thii.",
+              "english": "Just a bowl. The shop was shut."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "कोई बात नहीं। पड़ोसियों से ही तो माँगते हैं।",
+              "read_as": "koii baat nahiiṁ. paṛosiyoṁ se hii to maaṁgte haiṁ.",
+              "english": "Not at all. That's what neighbours are for."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "सच में, शुक्रिया।",
+              "read_as": "sach meṁ, shukriyaa.",
+              "english": "Really, thank you."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Six words that contain a whole attitude",
+              "explanation_en": "पड़ोसियों से ही तो माँगते हैं is literally \"it is precisely from neighbours that one asks\", and it means \"that's what neighbours are for\". Three of the small words you have been collecting are working at once — ही for precision, तो for emphasis, and the plain present tense for a general truth. And the sentence has no subject at all, because the statement is about people in general. Hindi drops the subject whenever it can, and a learner listening for one will keep waiting.",
+              "listening_notes": [
+                "पड़ोसियों से: पड़ोसी goes to the oblique plural पड़ोसियों before से. Nouns ending in -ी take -ियों.",
+                "भाभी literally means brother's wife and is a warm, respectful way to address a woman of your own generation.",
+                "ज़रा softens a request, roughly \"just a little\". It is almost untranslatable and almost always there."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why does she need to borrow sugar?",
+              "options": [
+                "She forgot to buy it",
+                "The shop was shut and guests arrived",
+                "She cannot afford it today",
+                "Her usual shop has run out"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Lines 1 and 3: मेहमान आ गए हैं and दुकान बंद थी."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "पड़ोसियों",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "___ से ही तो माँगते हैं।",
+              "question_read_as": "___ se hii to maaṁgte haiṁ.",
+              "options": [
+                "पड़ोसियो",
+                "पड़ोसी",
+                "पड़ोसियाँ",
+                "पड़ोसियों"
+              ],
+              "options_read_as": [
+                "paṛosiyo",
+                "paṛosii",
+                "paṛosiyaaṁ",
+                "paṛosiyoṁ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "से is a postposition, so the plural goes oblique: पड़ोसियों."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 4 should be warm and slightly dismissive of the thanks — that is the whole point of it."
+          }
+        },
+        {
+          "id": "M12-L06-I2",
+          "type": "dialogue",
+          "target": "टंकी ख़ाली हो गई है",
+          "title_en": "No water",
+          "setting": "building",
+          "speed": "slow",
+          "difficulty": 5,
+          "tags": [
+            "building",
+            "feminine_nouns",
+            "compound_verb",
+            "ellipsis"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Resident",
+              "label_hi": "निवासी"
+            },
+            {
+              "id": "B",
+              "label_en": "Caretaker",
+              "label_hi": "केयरटेकर"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भैया, पानी नहीं आ रहा।",
+              "read_as": "bhaiyaa, paanii nahiiṁ aa rahaa.",
+              "english": "There's no water coming."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "हाँ, टंकी ख़ाली हो गई है।",
+              "read_as": "haaṁ, ṭaṁkii ḳhaalii ho gaii hai.",
+              "english": "Yes, the tank's gone empty."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "कब तक आएगा?",
+              "read_as": "kab tak aaegaa?",
+              "english": "When will it come?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "मोटर चला दी है। एक घंटे में आ जाएगा।",
+              "read_as": "moṭar chalaa dii hai. ek ghanṭe meṁ aa jaaegaa.",
+              "english": "I've started the motor. It'll be back in an hour."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ठीक है, शुक्रिया।",
+              "read_as": "ṭhiik hai, shukriyaa.",
+              "english": "Okay, thanks."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The feminine machinery of a building",
+              "explanation_en": "A surprising number of the everyday objects in an Indian building are feminine: टंकी the tank, मोटर the pump, बिजली the electricity, लिफ़्ट the lift. That means the verbs around them keep coming out feminine — हो गई, चला दी, चली गई — which sounds odd to a learner who expects machinery to be masculine by default. It is worth learning this small group as a set, because they come up whenever something stops working, which is often.",
+              "listening_notes": [
+                "मोटर चला दी है: चलाना is transitive and मोटर is feminine, so दी. The ने-subject is dropped because it is obvious.",
+                "पानी नहीं आ रहा drops the auxiliary है entirely. Very common in speech.",
+                "एक घंटे में: घंटा goes oblique to घंटे before में."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How long until the water comes back?",
+              "options": [
+                "Tomorrow morning",
+                "A few minutes",
+                "About an hour",
+                "By the evening"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 4: एक घंटे में आ जाएगा."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "गई",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "टंकी ख़ाली हो ___ है।",
+              "question_read_as": "ṭaṁkii ḳhaalii ho ___ hai.",
+              "options": [
+                "गई",
+                "गए",
+                "गईं",
+                "गया"
+              ],
+              "options_read_as": [
+                "gaii",
+                "gae",
+                "gaiiṁ",
+                "gayaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "टंकी is feminine, so the vector is गई."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Both matter-of-fact. This happens every week."
+          }
+        },
+        {
+          "id": "M12-L06-I3",
+          "type": "dialogue",
+          "target": "गार्ड के पास रखा है",
+          "title_en": "Asking about a delivery",
+          "setting": "building",
+          "speed": "slow",
+          "difficulty": 6,
+          "tags": [
+            "building",
+            "ke_paas",
+            "causative",
+            "polite_future_imperative"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Resident",
+              "label_hi": "निवासी"
+            },
+            {
+              "id": "B",
+              "label_en": "Watchman",
+              "label_hi": "चौकीदार"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भैया, मेरा कोई पैकेट आया था?",
+              "read_as": "bhaiyaa, meraa koii paikeṭ aayaa thaa?",
+              "english": "Did a parcel come for me?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "हाँ, सुबह आया था। गार्ड के पास रखा है।",
+              "read_as": "haaṁ, subah aayaa thaa. gaarḍ ke paas rakhaa hai.",
+              "english": "Yes, this morning. It's with the guard."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "अच्छा, मैं ले लेता हूँ।",
+              "read_as": "acchaa, maiṁ le letaa huuṁ.",
+              "english": "Right, I'll take it."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "नाम लिखवा दीजिएगा रजिस्टर में।",
+              "read_as": "naam likhvaa diijiegaa rajisṭar meṁ.",
+              "english": "Do get your name entered in the register."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ज़रूर, शुक्रिया।",
+              "read_as": "zaruur, shukriyaa.",
+              "english": "Of course, thanks."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "के पास and के साथ — two ways of being with",
+              "explanation_en": "के पास means near, or in somebody's keeping — गार्ड के पास रखा है, it's with the guard. के साथ means together with, in company — गार्ड के साथ आया, he came with the guard. English uses \"with\" for both and learners swap them constantly. The test: if you could point at where the thing is, it is के पास. If two people are doing something jointly, it is के साथ.",
+              "listening_notes": [
+                "लिखवा दीजिएगा is the second causative of लिखना from Module 11, in a polite future imperative — have your name written, rather than write it yourself.",
+                "मैं ले लेता हूँ: present tense for something about to happen, with the लेना vector adding that you will take it away with you.",
+                "Notice the word order in line 4 — रजिस्टर में arrives after the verb. Spoken Hindi moves things to the end as afterthoughts far more freely than written Hindi does."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Where is the parcel?",
+              "options": [
+                "Outside the flat",
+                "It has not arrived yet",
+                "Still with the courier",
+                "With the guard"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 2: गार्ड के पास रखा है."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "पास",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "गार्ड के ___ रखा है।",
+              "question_read_as": "gaarḍ ke ___ rakhaa hai.",
+              "options": [
+                "बाद",
+                "पास",
+                "साथ",
+                "लिए"
+              ],
+              "options_read_as": [
+                "baad",
+                "paas",
+                "saath",
+                "lie"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The parcel is in the guard's keeping, so के पास. के साथ would mean it travelled alongside him."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 4 is an instruction delivered as a courtesy — the दीजिएगा does that work."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Building life is full of feminine machinery — टंकी, मोटर, बिजली, लिफ़्ट — so the verbs around a breakdown keep coming out feminine. के पास is possession or location; के साथ is company. And पड़ोसियों से ही तो माँगते हैं shows Hindi dropping the subject entirely for a general truth.",
+        "key_forms": [
+          "ज़रा",
+          "टंकी ख़ाली हो गई",
+          "गार्ड के पास"
+        ],
+        "next_up_en": "Next: autos and taxis — fares, stopping, and a meter that doesn't work."
+      }
+    }
+  ]
+}

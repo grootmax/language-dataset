@@ -1,0 +1,1381 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "batch": {
+    "levels_from": 49,
+    "levels_to": 53
+  },
+  "block_kind": "vocabulary",
+  "block_note": "The last vocabulary block. Six of these fifteen have already appeared in earlier texts or been named in an earlier card — टिकना, गुज़ारना, ताकना, मानना, शीघ्र, फ़ौरन — which is the preview a vocabulary item is allowed. The near-synonym sets in levels 51 to 53 are built so that the item's own word is never the answer to its own game: the point is to place it against its neighbours, not to identify it.",
+  "levels": [
+    {
+      "level": 49,
+      "title_en": "Sustaining, exercising, lasting",
+      "title_hi": "निभाना · बरतना · टिकना",
+      "items": [
+        {
+          "id": "M13-L49-I1",
+          "type": "word",
+          "target": "निभाना",
+          "read_as": "nibhaanaa",
+          "gloss_en": "to sustain, to carry through, to fulfil",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 8,
+          "tags": [
+            "advanced_verb",
+            "transitive",
+            "duration_not_action",
+            "collocation"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "निभाना is about keeping something going, not finishing it",
+              "explanation_en": "पूरा करना finishes a thing once. निभाना keeps a thing going over time, and that difference decides what it can take as an object: रिश्ता निभाना to sustain a relationship, वादा निभाना to keep a promise, ज़िम्मेदारी निभाना to carry a responsibility, किरदार निभाना to play a role. You cannot निभाना a task, because a task ends. Anything you निभाओ has to be something that could be dropped at any point and is not being dropped.",
+              "examples": [
+                {
+                  "hindi": "उन्होंने आख़िर तक रिश्ता निभाया।",
+                  "read_as": "unhoṁne aaḳhir tak rishtaa nibhaayaa.",
+                  "english": "They kept the relationship going to the end.",
+                  "note": "निभाया, masculine, agreeing with रिश्ता."
+                },
+                {
+                  "hindi": "अपना वादा निभाइए।",
+                  "read_as": "apnaa vaadaa nibhaaie.",
+                  "english": "Keep your promise.",
+                  "note": "वादा is masculine. वादा करना is to make one; निभाना is to keep it."
+                },
+                {
+                  "hindi": "उसने अपनी ज़िम्मेदारी अच्छी तरह निभाई।",
+                  "read_as": "usne apnii zimmedaarii acchhii tarah nibhaaii.",
+                  "english": "She carried out her responsibility well.",
+                  "note": "निभाई, feminine, agreeing with ज़िम्मेदारी."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने काम निभाया",
+                "right": "मैंने काम पूरा किया",
+                "why_en": "A piece of work is completed, not sustained. निभाना needs something ongoing."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which of these can निभाना take as its object?",
+              "options": [
+                "a journey",
+                "a promise",
+                "a meal",
+                "a report"
+              ],
+              "answer_index": 1,
+              "explanation_en": "A promise is kept over time. The others simply end."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which verb means to complete something and be done with it?",
+              "options": [
+                "संभालना",
+                "बरतना",
+                "निभाना",
+                "पूरा करना"
+              ],
+              "options_read_as": [
+                "saṁbhaalnaa",
+                "baratnaa",
+                "nibhaanaa",
+                "puuraa karnaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "पूरा करना finishes. संभालना, from level 44, is taking charge of something rather than sustaining it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "निभाना",
+              "अपना वादा निभाइए।",
+              "उन्होंने आख़िर तक रिश्ता निभाया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L49-I2",
+          "type": "word",
+          "target": "बरतना",
+          "read_as": "baratnaa",
+          "gloss_en": "to exercise, to employ (a quality)",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 9,
+          "tags": [
+            "advanced_verb",
+            "transitive",
+            "narrow_collocation",
+            "abstract_only"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बरतना takes only qualities of conduct",
+              "explanation_en": "बरतना is the narrowest verb in this module. It means to exercise or employ a quality of one's own behaviour, and its object is always abstract: सावधानी बरतना to exercise caution, संयम बरतना to show restraint, एहतियात बरतना to take precautions, नरमी बरतना to deal gently. You cannot बरतना an object, a person or an action. The whole usefulness of the word is its narrowness — it appears constantly on notices and in official writing, and almost nowhere else.",
+              "examples": [
+                {
+                  "hindi": "कृपया सावधानी बरतें।",
+                  "read_as": "kripayaa saavdhaanii barteṁ.",
+                  "english": "Please exercise caution.",
+                  "note": "The phrase a sign uses, alongside सावधान from level 6."
+                },
+                {
+                  "hindi": "पुलिस ने संयम बरता।",
+                  "read_as": "pulis ne saṁyam bartaa.",
+                  "english": "The police showed restraint.",
+                  "note": "बरता, masculine, agreeing with संयम."
+                },
+                {
+                  "hindi": "इस मामले में नरमी बरती गई।",
+                  "read_as": "is maamle meṁ narmii bartii gaii.",
+                  "english": "Leniency was shown in this matter.",
+                  "note": "बरती, feminine, agreeing with नरमी."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने चाकू बरता",
+                "right": "उसने चाकू इस्तेमाल किया",
+                "why_en": "बरतना cannot take a physical object. For using a thing, you need इस्तेमाल करना or प्रयोग करना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What kind of object does बरतना take?",
+              "options": [
+                "abstract qualities of conduct",
+                "places",
+                "tools and instruments",
+                "people"
+              ],
+              "answer_index": 0,
+              "explanation_en": "सावधानी, संयम, एहतियात, नरमी — never a thing."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which verb would you use for using a tool?",
+              "options": [
+                "थामना",
+                "बरतना",
+                "इस्तेमाल करना",
+                "निभाना"
+              ],
+              "options_read_as": [
+                "thaamnaa",
+                "baratnaa",
+                "istemaal karnaa",
+                "nibhaanaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "इस्तेमाल करना, the everyday partner of प्रयोग करना from level 14."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बरतना",
+              "कृपया सावधानी बरतें।",
+              "पुलिस ने संयम बरता।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L49-I3",
+          "type": "word",
+          "target": "टिकना",
+          "read_as": "ṭiknaa",
+          "gloss_en": "to last, to hold up, to stay put",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 8,
+          "tags": [
+            "advanced_verb",
+            "intransitive",
+            "suffix_aauu",
+            "previewed"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "टिकना, and the -आऊ that makes an adjective of capability",
+              "explanation_en": "टिकना is intransitive and covers three related ideas: to last, as of a colour or a government; to hold up, as of an argument; and to stay put, as of a restless person. रंग नहीं टिकता, the colour does not last. वो एक जगह नहीं टिकता, he never stays anywhere. The adjective built from it is टिकाऊ, durable, using the suffix -आऊ — which also gives बिकाऊ, for sale, and खाऊ, greedy. It is a small suffix that means capable of or given to.",
+              "examples": [
+                {
+                  "hindi": "ये रंग धूप में नहीं टिकता।",
+                  "read_as": "ye raṁg dhuup meṁ nahiiṁ ṭiktaa.",
+                  "english": "This colour doesn't last in the sun.",
+                  "note": "The colour is the subject and it does the not-lasting."
+                },
+                {
+                  "hindi": "वो किसी नौकरी में नहीं टिकता।",
+                  "read_as": "vo kisii naukrii meṁ nahiiṁ ṭiktaa.",
+                  "english": "He doesn't stay in any job.",
+                  "note": "में टिकना, to stay put in something."
+                },
+                {
+                  "hindi": "ये सामान टिकाऊ है।",
+                  "read_as": "ye saamaan ṭikaauu hai.",
+                  "english": "These goods are durable.",
+                  "note": "टिकाऊ, invariable."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने रंग टिकाया",
+                "right": "रंग टिक गया",
+                "why_en": "टिकना is intransitive. The transitive is टिकाना, to prop something up or settle it somewhere — a narrower word."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does the suffix -आऊ mean?",
+              "options": [
+                "belonging to",
+                "made from",
+                "without",
+                "capable of, given to"
+              ],
+              "answer_index": 3,
+              "explanation_en": "टिकाऊ durable, बिकाऊ for sale, खाऊ greedy."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means for sale?",
+              "options": [
+                "टिकाऊ",
+                "बिकाऊ",
+                "खाऊ",
+                "उठाऊ"
+              ],
+              "options_read_as": [
+                "ṭikaauu",
+                "bikaauu",
+                "khaauu",
+                "uṭhaauu"
+              ],
+              "answer_index": 1,
+              "explanation_en": "बिकाऊ, from बिकना, to be sold. यह मकान बिकाऊ है, this house is for sale."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "टिकना",
+              "ये रंग धूप में नहीं टिकता।",
+              "ये सामान टिकाऊ है।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "These three verbs are all about time rather than action. निभाना sustains what could be dropped; बरतना exercises a quality of conduct and takes nothing physical; टिकना is what lasts. And -आऊ builds adjectives of capability: टिकाऊ, बिकाऊ.",
+        "key_forms": [
+          "वादा निभाना",
+          "सावधानी बरतना",
+          "टिकाऊ"
+        ],
+        "next_up_en": "Next: spending time, trying things out, and holding on."
+      }
+    },
+    {
+      "level": 50,
+      "title_en": "Spending, testing, holding",
+      "title_hi": "गुज़ारना · आज़माना · थामना",
+      "items": [
+        {
+          "id": "M13-L50-I1",
+          "type": "word",
+          "target": "गुज़ारना",
+          "read_as": "guzaarnaa",
+          "gloss_en": "to spend, to pass (time)",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 8,
+          "tags": [
+            "advanced_verb",
+            "transitive",
+            "transitive_pair",
+            "urdu_origin",
+            "previewed"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "गुज़रना and गुज़ारना — the -आ pattern one more time",
+              "explanation_en": "गुज़रना is intransitive: वक़्त गुज़र गया, the time passed. Add -आ and you get गुज़ारना, the transitive: मैंने वक़्त गुज़ारा, I spent the time. That is the same machinery as निपटना and निपटाना from level 44, and it is worth counting how many pairs this module has now shown: निपटना, सुलझना, उलझना, गुज़रना, बनना, कटना. Note also गुज़ारा, a masculine noun meaning a livelihood — गुज़ारा करना, to get by.",
+              "examples": [
+                {
+                  "hindi": "वक़्त कैसे गुज़रा, पता ही नहीं चला।",
+                  "read_as": "vaqt kaise guzraa, pataa hii nahiiṁ chalaa.",
+                  "english": "I have no idea where the time went.",
+                  "note": "गुज़रा, intransitive, with the time as subject."
+                },
+                {
+                  "hindi": "उन्होंने सारी ज़िंदगी यहीं गुज़ार दी।",
+                  "read_as": "unhoṁne saarii ziṁdagii yahiiṁ guzaar dii.",
+                  "english": "They spent their whole life right here.",
+                  "note": "The transitive, so ने, and दी agreeing with feminine ज़िंदगी."
+                },
+                {
+                  "hindi": "इतने में गुज़ारा नहीं होता।",
+                  "read_as": "itne meṁ guzaaraa nahiiṁ hotaa.",
+                  "english": "You can't get by on this much.",
+                  "note": "गुज़ारा, the noun."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने वक़्त गुज़रा",
+                "right": "मैंने वक़्त गुज़ारा",
+                "why_en": "गुज़रना cannot take ने. With an agent you need the transitive."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which is the intransitive form?",
+              "options": [
+                "neither",
+                "गुज़ारना",
+                "गुज़रना",
+                "both"
+              ],
+              "answer_index": 2,
+              "explanation_en": "वक़्त गुज़र गया — the time passed, with nobody spending it."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a livelihood or getting by?",
+              "options": [
+                "गुज़ारा",
+                "गुज़रना",
+                "गुज़रे",
+                "गुज़ारना"
+              ],
+              "options_read_as": [
+                "guzaaraa",
+                "guzarnaa",
+                "guzre",
+                "guzaarnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "गुज़ारा, masculine — गुज़ारा करना, to make ends meet."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "गुज़ारना",
+              "वक़्त कैसे गुज़रा, पता ही नहीं चला।",
+              "इतने में गुज़ारा नहीं होता।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L50-I2",
+          "type": "word",
+          "target": "आज़माना",
+          "read_as": "aazmaanaa",
+          "gloss_en": "to try out, to test",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 8,
+          "tags": [
+            "advanced_verb",
+            "transitive",
+            "contrast_koshish",
+            "urdu_origin",
+            "callback_l1"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "आज़माना tests a thing; कोशिश करना attempts an action",
+              "explanation_en": "English uses try for both, and Hindi does not. कोशिश करना from level 1 is an attempt to do something: मैंने कोशिश की. आज़माना is putting something to the test to see whether it works: एक बार आज़मा कर देखिए, नुस्ख़ा आज़माना, क़िस्मत आज़माना to try one's luck. The object of आज़माना is the thing being tested, never the action. The noun is आज़माइश, feminine, a trial or ordeal.",
+              "examples": [
+                {
+                  "hindi": "एक बार आज़मा कर देखिए।",
+                  "read_as": "ek baar aazmaa kar dekhie.",
+                  "english": "Give it a try and see.",
+                  "note": "The thing is being tested, not the trying."
+                },
+                {
+                  "hindi": "उसने क़िस्मत आज़माई।",
+                  "read_as": "usne qismat aazmaaii.",
+                  "english": "He tried his luck.",
+                  "note": "आज़माई, feminine, agreeing with क़िस्मत from level 33."
+                },
+                {
+                  "hindi": "मैंने बहुत कोशिश की, पर नहीं हुआ।",
+                  "read_as": "maiṁne bahut koshish kii, par nahiiṁ huaa.",
+                  "english": "I tried hard, but it didn't work.",
+                  "note": "The other kind of trying — an attempt at an action."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने आने की आज़माइश की",
+                "right": "मैंने आने की कोशिश की",
+                "why_en": "An attempt to do something is कोशिश. आज़माना needs a thing to test."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does आज़माना take as its object?",
+              "options": [
+                "an action you attempt",
+                "a thing being tested",
+                "a person",
+                "a period of time"
+              ],
+              "answer_index": 1,
+              "explanation_en": "A remedy, a method, your luck — something that either works or does not."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means an attempt at doing something?",
+              "options": [
+                "आज़माइश",
+                "इरादा",
+                "आज़माना",
+                "कोशिश"
+              ],
+              "options_read_as": [
+                "aazmaaish",
+                "iraadaa",
+                "aazmaanaa",
+                "koshish"
+              ],
+              "answer_index": 3,
+              "explanation_en": "कोशिश, from level 1. आज़माइश is the trial of a thing, and इरादा is an intention."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "आज़माना",
+              "एक बार आज़मा कर देखिए।",
+              "उसने क़िस्मत आज़माई।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L50-I3",
+          "type": "word",
+          "target": "थामना",
+          "read_as": "thaamnaa",
+          "gloss_en": "to hold, to steady, to grasp",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 8,
+          "tags": [
+            "advanced_verb",
+            "transitive",
+            "three_way_split",
+            "warm_register",
+            "callback_l44"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पकड़ना, थामना, संभालना — three ways of taking hold",
+              "explanation_en": "पकड़ना is to catch or grab, and it can be forceful: चोर को पकड़ना. थामना is to hold steadily, usually to support something or somebody, and it carries warmth: हाथ थामना, to take somebody's hand. संभालना from level 44 is to take charge of, whether a falling glass or a business. Three verbs, one English word, and the difference is entirely in what you are holding it for.",
+              "examples": [
+                {
+                  "hindi": "उसने मेरा हाथ थाम लिया।",
+                  "read_as": "usne meraa haath thaam liyaa.",
+                  "english": "She took my hand.",
+                  "note": "थाम लेना — and the warmth is in the verb, not in anything else in the sentence."
+                },
+                {
+                  "hindi": "रेलिंग थामकर चलिए।",
+                  "read_as": "reliṁg thaamkar chalie.",
+                  "english": "Hold the railing as you walk.",
+                  "note": "For support — पकड़कर would be possible but less careful."
+                },
+                {
+                  "hindi": "पुलिस ने चोर को पकड़ लिया।",
+                  "read_as": "pulis ne chor ko pakaṛ liyaa.",
+                  "english": "The police caught the thief.",
+                  "note": "पकड़ना here, and थामना would be absurd."
+                }
+              ],
+              "common_error": {
+                "wrong": "पुलिस ने चोर को थाम लिया",
+                "right": "पुलिस ने चोर को पकड़ लिया",
+                "why_en": "थामना supports; it does not seize. The wrong choice here is almost comic."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which verb would you use for taking somebody's hand kindly?",
+              "options": [
+                "थामना",
+                "संभालना",
+                "उठाना",
+                "पकड़ना"
+              ],
+              "answer_index": 0,
+              "explanation_en": "थामना carries the warmth. पकड़ना would sound like restraint."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which verb means to catch or seize?",
+              "options": [
+                "निभाना",
+                "थामना",
+                "पकड़ना",
+                "संभालना"
+              ],
+              "options_read_as": [
+                "nibhaanaa",
+                "thaamnaa",
+                "pakaṛnaa",
+                "saṁbhaalnaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "पकड़ना. संभालना is taking charge, and निभाना from level 49 is sustaining something over time."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "थामना",
+              "उसने मेरा हाथ थाम लिया।",
+              "पुलिस ने चोर को पकड़ लिया।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "गुज़रना and गुज़ारना are the sixth intransitive-transitive pair this module has shown. आज़माना tests a thing where कोशिश करना attempts an action. And पकड़ना seizes, थामना supports, संभालना takes charge.",
+        "key_forms": [
+          "वक़्त गुज़ारना",
+          "क़िस्मत आज़माना",
+          "हाथ थामना"
+        ],
+        "next_up_en": "Next: the near-synonym sets — looking, and knowing."
+      }
+    },
+    {
+      "level": 51,
+      "title_en": "Looking and accepting",
+      "title_hi": "निहारना · ताकना · मानना",
+      "items": [
+        {
+          "id": "M13-L51-I1",
+          "type": "word",
+          "target": "निहारना",
+          "read_as": "nihaarnaa",
+          "gloss_en": "to gaze at fondly",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 9,
+          "tags": [
+            "near_synonym",
+            "verb",
+            "literary",
+            "attitude_verb"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "देखना is neutral; निहारना is not",
+              "explanation_en": "देखना simply means to see or look, and carries no attitude at all. निहारना is to gaze at something at length and with affection — a mother at a sleeping child, somebody at a view. It belongs to writing and to song rather than to conversation, and using it of an ordinary act of looking would sound absurd. The rule for this whole level: the neutral verb is देखना, and everything else adds a feeling to it.",
+              "examples": [
+                {
+                  "hindi": "माँ बच्चे को निहारती रहीं।",
+                  "read_as": "maaṁ bacche ko nihaartii rahiiṁ.",
+                  "english": "The mother went on gazing at the child.",
+                  "note": "The रहना construction for continuing, and the respectful plural रहीं."
+                },
+                {
+                  "hindi": "वो देर तक आसमान निहारता रहा।",
+                  "read_as": "vo der tak aasmaan nihaartaa rahaa.",
+                  "english": "He gazed at the sky for a long time.",
+                  "note": "देर तक, for a long while."
+                },
+                {
+                  "hindi": "मैंने घड़ी देखी।",
+                  "read_as": "maiṁne ghaṛii dekhii.",
+                  "english": "I looked at my watch.",
+                  "note": "The neutral verb. निहारना here would be ridiculous."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने मेन्यू निहारा",
+                "right": "मैंने मेन्यू देखा",
+                "why_en": "निहारना is for gazing with feeling. A menu gets देखना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "निहारना adds what to देखना?",
+              "options": [
+                "suspicion",
+                "formality",
+                "speed",
+                "length and affection"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Long looking, and fondness."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which verb is the neutral one, with no attitude at all?",
+              "options": [
+                "निहारना",
+                "देखना",
+                "ताकना",
+                "घूरना"
+              ],
+              "options_read_as": [
+                "nihaarnaa",
+                "dekhnaa",
+                "taaknaa",
+                "ghuurnaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "देखना. घूरना is to stare hard, and is usually hostile or intrusive."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "निहारना",
+              "माँ बच्चे को निहारती रहीं।",
+              "वो देर तक आसमान निहारता रहा।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L51-I2",
+          "type": "word",
+          "target": "ताकना",
+          "read_as": "taaknaa",
+          "gloss_en": "to stare, to peer",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 9,
+          "tags": [
+            "near_synonym",
+            "verb",
+            "echo_compound",
+            "negative_attitude",
+            "previewed"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ताकना looks with intent, and usually the wrong kind",
+              "explanation_en": "If निहारना is fond, ताकना is the other direction: peering, watching, often with an intent the person being watched would not welcome. The echo compound ताक-झाँक means prying or snooping, and ताक में रहना means to lie in wait for an opportunity. Together with देखना in the middle, the three verbs give you a small scale of attitude: fond, neutral, intrusive.",
+              "examples": [
+                {
+                  "hindi": "वो खिड़की से ताक रहा था।",
+                  "read_as": "vo khiṛkii se taak rahaa thaa.",
+                  "english": "He was peering out of the window.",
+                  "note": "से ताकना, to peer from."
+                },
+                {
+                  "hindi": "पड़ोसियों की ताक-झाँक अच्छी नहीं लगती।",
+                  "read_as": "paṛosiyoṁ kii taak-jhaaṁk acchhii nahiiṁ lagtii.",
+                  "english": "The neighbours' prying is unwelcome.",
+                  "note": "The echo compound, feminine — like पूछताछ and धक्का-मुक्की."
+                },
+                {
+                  "hindi": "वो मौक़े की ताक में है।",
+                  "read_as": "vo mauqe kii taak meṁ hai.",
+                  "english": "He is waiting for his chance.",
+                  "note": "ताक में रहना, to lie in wait."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने उन्हें प्यार से ताका",
+                "right": "मैंने उन्हें प्यार से देखा",
+                "why_en": "ताकना and affection do not go together. For a fond look you want निहारना or plain देखना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "ताक-झाँक means what?",
+              "options": [
+                "keeping watch for safety",
+                "a quick glance",
+                "prying or snooping",
+                "a careful inspection"
+              ],
+              "answer_index": 2,
+              "explanation_en": "An echo compound, and firmly disapproving."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which verb means to stare hard and rudely?",
+              "options": [
+                "घूरना",
+                "निहारना",
+                "देखना",
+                "ताकना"
+              ],
+              "options_read_as": [
+                "ghuurnaa",
+                "nihaarnaa",
+                "dekhnaa",
+                "taaknaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "घूरना is the strongest of the four and always unwelcome. ताकना is peering rather than glaring."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ताकना",
+              "वो खिड़की से ताक रहा था।",
+              "वो मौक़े की ताक में है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L51-I3",
+          "type": "word",
+          "target": "मानना",
+          "read_as": "maannaa",
+          "gloss_en": "to accept, to believe, to obey",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 8,
+          "tags": [
+            "near_synonym",
+            "verb",
+            "three_way_split",
+            "high_frequency",
+            "previewed"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जानना, समझना, मानना — know, understand, accept",
+              "explanation_en": "These three are constantly confused and they are quite distinct. जानना is to know a fact: मैं उन्हें जानता हूँ, I know them. समझना is to understand: मैं समझ गया. मानना is to accept as true or to concede: मैं मानता हूँ कि आप सही हैं, I accept that you are right. मानना also means to obey — बात मानना, to do as somebody says — and मान लेना means to suppose, for the sake of argument.",
+              "examples": [
+                {
+                  "hindi": "मैं मानता हूँ कि ग़लती मेरी थी।",
+                  "read_as": "maiṁ maantaa huuṁ ki ġaltii merii thii.",
+                  "english": "I accept that the mistake was mine.",
+                  "note": "Conceding, not merely knowing."
+                },
+                {
+                  "hindi": "बच्चे किसी की बात नहीं मानते।",
+                  "read_as": "bacche kisii kii baat nahiiṁ maante.",
+                  "english": "The children don't listen to anybody.",
+                  "note": "बात मानना, to obey — a different sense entirely."
+                },
+                {
+                  "hindi": "मान लीजिए कि वो नहीं आए।",
+                  "read_as": "maan liijie ki vo nahiiṁ aae.",
+                  "english": "Suppose he doesn't come.",
+                  "note": "मान लेना, to assume for the sake of argument."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं उन्हें मानता हूँ — meant as \"I know them\"",
+                "right": "मैं उन्हें जानता हूँ",
+                "why_en": "मैं उन्हें मानता हूँ would mean you accept their authority. Knowing a person is जानना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "बात मानना means what?",
+              "options": [
+                "to understand the point",
+                "to do as somebody says",
+                "to raise an issue",
+                "to know the matter"
+              ],
+              "answer_index": 1,
+              "explanation_en": "One of मानना's three jobs: accept, obey, suppose."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which verb means to know a person or a fact?",
+              "options": [
+                "समझना",
+                "पहचानना",
+                "मानना",
+                "जानना"
+              ],
+              "options_read_as": [
+                "samajhnaa",
+                "pahchaannaa",
+                "maannaa",
+                "jaannaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "जानना. पहचानना is to recognise — you met it in the level 48 narrative, where the shopkeeper did not."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मानना",
+              "मैं मानता हूँ कि ग़लती मेरी थी।",
+              "मान लीजिए कि वो नहीं आए।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "देखना is neutral, निहारना is fond, ताकना is intrusive and घूरना is hostile — a scale of attitude built on one plain verb. And जानना, समझना and मानना are know, understand and accept, which English blurs and Hindi does not.",
+        "key_forms": [
+          "निहारते रहे",
+          "ताक-झाँक",
+          "बात मानना"
+        ],
+        "next_up_en": "Next: three adjective sets, and the -आ words that refuse to inflect."
+      }
+    },
+    {
+      "level": 52,
+      "title_en": "Excellent, vast, prompt",
+      "title_hi": "उम्दा · विशाल · शीघ्र",
+      "items": [
+        {
+          "id": "M13-L52-I1",
+          "type": "word",
+          "target": "उम्दा",
+          "read_as": "umdaa",
+          "gloss_en": "excellent, of fine quality",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 8,
+          "tags": [
+            "near_synonym",
+            "adjective",
+            "invariable_aa",
+            "perso_arabic",
+            "contrast_l35"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "An -आ adjective that does not inflect",
+              "explanation_en": "उम्दा ends in -आ and never changes: उम्दा खाना and उम्दा चाय, with no उम्दी anywhere. That is because it came in from Persian and Arabic, and borrowed adjectives of that shape do not inflect — ताज़ा fresh, ज़िंदा alive, बढ़िया fine, दाना wise. Set that beside level 35, where Sanskrit nouns ending in -आ turned out to be feminine. The same ending misleads you twice in this module, in two different directions, and both times the source language is the reason.",
+              "examples": [
+                {
+                  "hindi": "खाना उम्दा था।",
+                  "read_as": "khaanaa umdaa thaa.",
+                  "english": "The food was excellent.",
+                  "note": "Masculine noun."
+                },
+                {
+                  "hindi": "चाय उम्दा थी।",
+                  "read_as": "chaay umdaa thii.",
+                  "english": "The tea was excellent.",
+                  "note": "Feminine noun, and उम्दा does not move. Only थी changes."
+                },
+                {
+                  "hindi": "ताज़ा सब्ज़ी ले आइए।",
+                  "read_as": "taazaa sabzii le aaie.",
+                  "english": "Bring fresh vegetables.",
+                  "note": "ताज़ा, another Perso-Arabic -आ adjective that stays put."
+                }
+              ],
+              "common_error": {
+                "wrong": "उम्दी चाय",
+                "right": "उम्दा चाय",
+                "why_en": "There is no feminine form. Compare बड़ी चाय, where बड़ा does inflect because it is a native Hindi adjective."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Why does उम्दा not inflect when बड़ा does?",
+              "options": [
+                "It is Perso-Arabic, and borrowed -आ adjectives stay fixed",
+                "It is only used with masculine nouns",
+                "It is formal",
+                "It is a noun"
+              ],
+              "answer_index": 0,
+              "explanation_en": "ताज़ा, ज़िंदा, बढ़िया and दाना behave the same way."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which of these adjectives DOES change for gender?",
+              "options": [
+                "ज़िंदा",
+                "उम्दा",
+                "प्यारा",
+                "ताज़ा"
+              ],
+              "options_read_as": [
+                "ziṁdaa",
+                "umdaa",
+                "pyaaraa",
+                "taazaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "प्यारा is a native Hindi adjective, so प्यारी. The other three are borrowed and fixed."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उम्दा",
+              "खाना उम्दा था।",
+              "चाय उम्दा थी।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L52-I2",
+          "type": "word",
+          "target": "विशाल",
+          "read_as": "vishaal",
+          "gloss_en": "vast, huge",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "near_synonym",
+            "adjective",
+            "invariable",
+            "scale_set",
+            "sanskrit_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बड़ा, विशाल, विराट — a scale, not three synonyms",
+              "explanation_en": "बड़ा is the everyday word for big and it inflects. विशाल means vast and belongs to description rather than measurement: विशाल भवन, विशाल मैदान. विराट is larger still and is almost entirely literary or religious. All three could translate as large, but they are not interchangeable — calling a room विशाल is a claim about grandeur, not about square feet. विशाल and विराट are consonant-final and so invariable.",
+              "examples": [
+                {
+                  "hindi": "यह एक विशाल भवन है।",
+                  "read_as": "yah ek vishaal bhavan hai.",
+                  "english": "This is a vast building.",
+                  "note": "Invariable, and formal."
+                },
+                {
+                  "hindi": "कमरा बड़ा है।",
+                  "read_as": "kamraa baṛaa hai.",
+                  "english": "The room is big.",
+                  "note": "बड़ा, which inflects — बड़ी अलमारी."
+                },
+                {
+                  "hindi": "मैदान में विशाल भीड़ थी।",
+                  "read_as": "maidaan meṁ vishaal bhiiṛ thii.",
+                  "english": "There was a huge crowd in the ground.",
+                  "note": "थी, feminine, agreeing with भीड़ — विशाल itself does not move."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेरा कमरा विशाल है — of an ordinary room",
+                "right": "मेरा कमरा बड़ा है",
+                "why_en": "विशाल claims grandeur. Used of a normal room it sounds like a boast or a joke."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which word would you use for an ordinary large room?",
+              "options": [
+                "विराट",
+                "भारी",
+                "विशाल",
+                "बड़ा"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बड़ा. विशाल and विराट both claim more than size."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word is the most literary of the three?",
+              "options": [
+                "बड़ा",
+                "विराट",
+                "विशाल",
+                "लंबा"
+              ],
+              "options_read_as": [
+                "baṛaa",
+                "viraaṭ",
+                "vishaal",
+                "laṁbaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "विराट is the largest and the rarest. लंबा is long or tall, which is a different dimension altogether."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "विशाल",
+              "यह एक विशाल भवन है।",
+              "मैदान में विशाल भीड़ थी।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L52-I3",
+          "type": "word",
+          "target": "शीघ्र",
+          "read_as": "shiighra",
+          "gloss_en": "promptly, soon",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "near_synonym",
+            "adverb",
+            "invariable",
+            "register_triplet",
+            "previewed"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जल्दी does two jobs; शीघ्र and फ़ौरन do one each",
+              "explanation_en": "जल्दी is the everyday word and it means both quickly and early — जल्दी आइए could be either, and only context tells you. शीघ्र is the Sanskrit-side word for promptly and appears almost only in writing; you met it in the water complaint at level 31. फ़ौरन, which is the next level, is Urdu-side and means immediately, with no delay at all. So the everyday word is the ambiguous one and the two formal words are each precise.",
+              "examples": [
+                {
+                  "hindi": "कृपया शीघ्र उत्तर दें।",
+                  "read_as": "kripayaa shiighra uttar deṁ.",
+                  "english": "Please reply promptly.",
+                  "note": "Written only. Nobody says this out loud."
+                },
+                {
+                  "hindi": "जल्दी आइए।",
+                  "read_as": "jaldii aaie.",
+                  "english": "Come quickly. / Come early.",
+                  "note": "Genuinely ambiguous, and speakers rely on context."
+                },
+                {
+                  "hindi": "शीघ्र स्वस्थ हों।",
+                  "read_as": "shiighra svasth hoṁ.",
+                  "english": "Get well soon.",
+                  "note": "A written formula — on a card rather than in speech."
+                }
+              ],
+              "common_error": {
+                "wrong": "शीघ्र आ जाओ — said to a friend",
+                "right": "जल्दी आ जाओ",
+                "why_en": "शीघ्र belongs to writing. In speech it sounds like reading from a form."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which of the three is ambiguous between quickly and early?",
+              "options": [
+                "none of them",
+                "शीघ्र",
+                "जल्दी",
+                "फ़ौरन"
+              ],
+              "answer_index": 2,
+              "explanation_en": "जल्दी. The two formal words are each precise."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means slowly?",
+              "options": [
+                "धीरे",
+                "जल्दी",
+                "तुरंत",
+                "शीघ्र"
+              ],
+              "options_read_as": [
+                "dhiire",
+                "jaldii",
+                "turaṁt",
+                "shiighra"
+              ],
+              "answer_index": 0,
+              "explanation_en": "धीरे, which you met on the wet-floor sign in level 6. तुरंत is immediately, the Sanskrit-side partner of फ़ौरन."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "शीघ्र",
+              "कृपया शीघ्र उत्तर दें।",
+              "जल्दी आइए।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Perso-Arabic adjectives ending in -आ never inflect — उम्दा, ताज़ा, ज़िंदा, बढ़िया — which is the second time in this module that an -आ ending has misled, after the Sanskrit -आ feminines of level 35. बड़ा, विशाल and विराट are a scale rather than three synonyms. And जल्दी is the ambiguous one of its set, not the precise one.",
+        "key_forms": [
+          "उम्दा चाय",
+          "विशाल भवन",
+          "शीघ्र उत्तर"
+        ],
+        "next_up_en": "Next: the last vocabulary level — fear, placing, and immediacy."
+      }
+    },
+    {
+      "level": 53,
+      "title_en": "Fear, placing, immediacy",
+      "title_hi": "भय · धरना · फ़ौरन",
+      "items": [
+        {
+          "id": "M13-L53-I1",
+          "type": "word",
+          "target": "भय",
+          "read_as": "bhay",
+          "gloss_en": "fear",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 8,
+          "tags": [
+            "near_synonym",
+            "masculine",
+            "gender_flag",
+            "matched_set",
+            "sanskrit_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "डर, भय, ख़ौफ़ — all masculine, all different",
+              "explanation_en": "भय is fear in the Sanskrit-side register, and it is masculine and consonant-final, so flag it. डर is the everyday word and also masculine; ख़ौफ़ is Urdu-side, masculine too, and heavier — closer to dread. For once a whole three-way set matches in gender, so nothing changes grammatically and the choice is purely one of setting. भय builds compounds the other two do not: भयभीत afraid, भयानक terrifying, निर्भय fearless.",
+              "examples": [
+                {
+                  "hindi": "मुझे डर लग रहा है।",
+                  "read_as": "mujhe ḍar lag rahaa hai.",
+                  "english": "I'm frightened.",
+                  "note": "डर लगना, with the dative from Module 10. This is what a person says."
+                },
+                {
+                  "hindi": "लोगों में भय का माहौल है।",
+                  "read_as": "logoṁ meṁ bhay kaa maahaul hai.",
+                  "english": "There is an atmosphere of fear among the people.",
+                  "note": "A news sentence. डर would be too plain here."
+                },
+                {
+                  "hindi": "फ़िल्म बहुत भयानक थी।",
+                  "read_as": "film bahut bhayaanak thii.",
+                  "english": "The film was terrifying.",
+                  "note": "भयानक, built on भय, and invariable."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे भय लग रहा है",
+                "right": "मुझे डर लग रहा है",
+                "why_en": "Grammatically correct, but भय in a spoken sentence about your own feelings sounds like a news bulletin."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What is unusual about this three-way set?",
+              "options": [
+                "They have different genders",
+                "All three are masculine, so only the register differs",
+                "Only one is a real word",
+                "They are all Sanskrit-side"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Many pairs in this module changed gender across the register. This set does not."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means fearless?",
+              "options": [
+                "भयभीत",
+                "ख़ौफ़",
+                "भयानक",
+                "निर्भय"
+              ],
+              "options_read_as": [
+                "bhaybhiit",
+                "ḳhauf",
+                "bhayaanak",
+                "nirbhay"
+              ],
+              "answer_index": 3,
+              "explanation_en": "निर्भय, using the निः- prefix from the level 7 sign in its निर्- form. भयभीत means afraid and भयानक terrifying."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "भय",
+              "मुझे डर लग रहा है।",
+              "लोगों में भय का माहौल है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L53-I2",
+          "type": "word",
+          "target": "धरना",
+          "read_as": "dharnaa",
+          "gloss_en": "to place; a sit-in protest",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 9,
+          "tags": [
+            "near_synonym",
+            "verb_and_noun",
+            "archaic_verb",
+            "live_noun",
+            "news_use"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A verb almost nobody uses, and a noun everybody knows",
+              "explanation_en": "धरना is the older verb for putting or placing, and रखना has almost entirely taken over its work — you would say किताब मेज़ पर रखो, not धरो. The verb survives in fixed phrases and in poetry: हाथ धरना, धर लेना. But the noun धरना is completely alive and appears in the news constantly, because it means a sit-in protest: किसानों ने धरना दिया. The verb faded and the noun did not, which is a reminder that a word can be archaic in one part of speech and current in another.",
+              "examples": [
+                {
+                  "hindi": "किसानों ने कल धरना दिया।",
+                  "read_as": "kisaanoṁ ne kal dharnaa diyaa.",
+                  "english": "The farmers held a sit-in yesterday.",
+                  "note": "धरना देना — the noun, and the standard news phrase."
+                },
+                {
+                  "hindi": "किताब मेज़ पर रख दो।",
+                  "read_as": "kitaab mez par rakh do.",
+                  "english": "Put the book on the table.",
+                  "note": "रखना, which took over the verb's job entirely."
+                },
+                {
+                  "hindi": "धरना अभी जारी है।",
+                  "read_as": "dharnaa abhii jaarii hai.",
+                  "english": "The sit-in is still going on.",
+                  "note": "जारी from the wet-floor sign in level 6."
+                }
+              ],
+              "common_error": {
+                "wrong": "किताब मेज़ पर धरो",
+                "right": "किताब मेज़ पर रखो",
+                "why_en": "The verb is archaic. Only the noun is in ordinary use."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "In modern Hindi, धरना is mainly what?",
+              "options": [
+                "a noun meaning a sit-in protest",
+                "an adjective",
+                "a postposition",
+                "a verb meaning to place"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The verb has been displaced by रखना; the noun is everywhere in the news."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which verb has taken over the job of placing something?",
+              "options": [
+                "थामना",
+                "धरना",
+                "रखना",
+                "डालना"
+              ],
+              "options_read_as": [
+                "thaamnaa",
+                "dharnaa",
+                "rakhnaa",
+                "ḍaalnaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "रखना. डालना is putting something in or pouring it, as with पासवर्ड डालना in level 41."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "धरना",
+              "किसानों ने कल धरना दिया।",
+              "किताब मेज़ पर रख दो।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L53-I3",
+          "type": "word",
+          "target": "फ़ौरन",
+          "read_as": "fauran",
+          "gloss_en": "immediately, at once",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "near_synonym",
+            "adverb",
+            "invariable",
+            "register_triplet",
+            "previewed",
+            "final_vocabulary_item"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "फ़ौरन — the last word of the vocabulary",
+              "explanation_en": "फ़ौरन is Urdu-side and means immediately, with no gap at all. Its Sanskrit-side partner is तुरंत and both are precise, against जल्दी from the last level, which is the everyday word and the ambiguous one. Notice that this final set behaves like almost every set in this module: an Urdu-side word, a Sanskrit-side word, and an everyday word that covers more ground than either. That pattern has held from level 25 onwards and it is the single most useful thing this module has to say about Hindi vocabulary.",
+              "examples": [
+                {
+                  "hindi": "वो फ़ौरन चला गया।",
+                  "read_as": "vo fauran chalaa gayaa.",
+                  "english": "He left at once.",
+                  "note": "No delay at all."
+                },
+                {
+                  "hindi": "तुरंत जवाब आया।",
+                  "read_as": "turaṁt javaab aayaa.",
+                  "english": "The reply came immediately.",
+                  "note": "The Sanskrit-side partner, equally precise."
+                },
+                {
+                  "hindi": "फ़ौरन डॉक्टर को बुलाइए।",
+                  "read_as": "fauran ḍôkṭar ko bulaaie.",
+                  "english": "Call the doctor at once.",
+                  "note": "In an emergency this is the word people reach for."
+                }
+              ],
+              "common_error": {
+                "wrong": "फ़ौरन आइए — meaning \"come early\"",
+                "right": "जल्दी आइए",
+                "why_en": "फ़ौरन means right now, not soon or early. The vagueness you want is in जल्दी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What is the Sanskrit-side partner of फ़ौरन?",
+              "options": [
+                "जल्दी",
+                "अभी",
+                "शीघ्र",
+                "तुरंत"
+              ],
+              "answer_index": 3,
+              "explanation_en": "तुरंत. शीघ्र is promptly rather than instantly, and जल्दी is the everyday catch-all."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means right now, at this moment?",
+              "options": [
+                "फ़ौरन",
+                "अभी",
+                "तुरंत",
+                "शीघ्र"
+              ],
+              "options_read_as": [
+                "fauran",
+                "abhii",
+                "turaṁt",
+                "shiighra"
+              ],
+              "answer_index": 1,
+              "explanation_en": "अभी marks the present moment; फ़ौरन and तुरंत mark the absence of delay. They overlap but are not the same."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "फ़ौरन",
+              "वो फ़ौरन चला गया।",
+              "फ़ौरन डॉक्टर को बुलाइए।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "डर, भय and ख़ौफ़ are a three-way set that matches in gender, so only the setting differs. धरना is archaic as a verb and entirely current as a noun. And फ़ौरन closes the vocabulary on the pattern the whole module has been describing: an Urdu-side word, a Sanskrit-side word, and an everyday word that covers more ground than either.",
+        "key_forms": [
+          "भय का माहौल",
+          "धरना देना",
+          "फ़ौरन"
+        ],
+        "next_up_en": "Next: the last two levels — three narratives, and the end of the module."
+      }
+    }
+  ]
+}

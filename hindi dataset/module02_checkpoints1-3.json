@@ -1,0 +1,528 @@
+{
+  "module": 2,
+  "module_name_en": "Consonants",
+  "checkpoints": [
+    {
+      "checkpoint": 1,
+      "after_level": 5,
+      "covers_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "title_en": "The क-family, the च-family, and the retroflex family begins",
+      "questions": [
+        {
+          "id": "M02-CP1-Q1",
+          "source_item_ids": [
+            "M02-L01-I1"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling is correct for 'lotus'?",
+          "options": [
+            "कमल",
+            "खमल",
+            "कमड़",
+            "खमड़"
+          ],
+          "answer_index": 0,
+          "explanation_en": "Adding the English-style puff of breath turns क into ख, which is a different letter."
+        },
+        {
+          "id": "M02-CP1-Q2",
+          "source_item_ids": [
+            "M02-L01-I2"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling means 'to lose'?",
+          "options": [
+            "कोना",
+            "खोना",
+            "कोनी",
+            "खोनी"
+          ],
+          "answer_index": 1,
+          "explanation_en": "Without the puff of breath, ख collapses into क, and 'to lose' becomes the noun 'corner'."
+        },
+        {
+          "id": "M02-CP1-Q3",
+          "source_item_ids": [
+            "M02-L01-I3"
+          ],
+          "type": "recognition",
+          "prompt_en": "गाना ('song / to sing') begins with which letter?",
+          "options": [
+            "क",
+            "ख",
+            "ग",
+            "घ"
+          ],
+          "answer_index": 2,
+          "explanation_en": "गाना opens with the plain, unaspirated ग."
+        },
+        {
+          "id": "M02-CP1-Q4",
+          "source_item_ids": [
+            "M02-L02-I1"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling means 'house'?",
+          "options": [
+            "गार",
+            "घार",
+            "गर",
+            "घर"
+          ],
+          "answer_index": 3,
+          "explanation_en": "Dropping the breath gives plain ग, and a listener hears a different, non-existent word."
+        },
+        {
+          "id": "M02-CP1-Q5",
+          "source_item_ids": [
+            "M02-L02-I2"
+          ],
+          "type": "recognition",
+          "prompt_en": "In रंग ('colour'), the nasal sound before ग is which consonant?",
+          "options": [
+            "न",
+            "ङ",
+            "ञ",
+            "ण"
+          ],
+          "answer_index": 1,
+          "explanation_en": "ङ is the nasal that pairs with the क-family, heard here before ग."
+        },
+        {
+          "id": "M02-CP1-Q6",
+          "source_item_ids": [
+            "M02-L02-I3"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling means 'ear'?",
+          "options": [
+            "कान्",
+            "खान्",
+            "कान",
+            "खान"
+          ],
+          "answer_index": 2,
+          "explanation_en": "कान means 'ear'. Adding the automatic English puff of breath produces खान, 'a mine', instead."
+        },
+        {
+          "id": "M02-CP1-Q7",
+          "source_item_ids": [
+            "M02-L03-I1"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling is correct for 'tea'?",
+          "options": [
+            "छाय",
+            "जाय",
+            "झाय",
+            "चाय"
+          ],
+          "answer_index": 3,
+          "explanation_en": "English's forceful 'ch' adds breath and turns च into छ, a separate letter."
+        },
+        {
+          "id": "M02-CP1-Q8",
+          "source_item_ids": [
+            "M02-L03-I2"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling means 'small'?",
+          "options": [
+            "छोटा",
+            "चोता",
+            "छोता",
+            "चोटा"
+          ],
+          "answer_index": 0,
+          "explanation_en": "Without the puff of breath, छ becomes च, and the spelling no longer matches any word."
+        },
+        {
+          "id": "M02-CP1-Q9",
+          "source_item_ids": [
+            "M02-L04-I1"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling means 'a lie'?",
+          "options": [
+            "झूट",
+            "जूठ",
+            "झूठ",
+            "जूट"
+          ],
+          "answer_index": 2,
+          "explanation_en": "Dropping the breath gives ज — जूठ is a real but different word, used of food someone has already eaten from."
+        },
+        {
+          "id": "M02-CP1-Q10",
+          "source_item_ids": [
+            "M02-L05-I3"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling means 'branch'?",
+          "options": [
+            "ढाल",
+            "टाल",
+            "दाल",
+            "डाल"
+          ],
+          "answer_index": 3,
+          "explanation_en": "Putting the tongue on the teeth gives the dental द, which instead means 'lentils'. 'Branch' needs the retroflex ड."
+        }
+      ]
+    },
+    {
+      "checkpoint": 2,
+      "after_level": 10,
+      "covers_levels": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "title_en": "Retroflex closes, the dental unlearning drill, and the प-family",
+      "questions": [
+        {
+          "id": "M02-CP2-Q1",
+          "source_item_ids": [
+            "M02-L06-I1"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling means 'two and a half'?",
+          "options": [
+            "ढाई",
+            "टाई",
+            "ठाई",
+            "डाई"
+          ],
+          "answer_index": 0,
+          "explanation_en": "Dropping the breath gives plain ड, and the number is no longer recognisable."
+        },
+        {
+          "id": "M02-CP2-Q2",
+          "source_item_ids": [
+            "M02-L06-I2"
+          ],
+          "type": "recognition",
+          "prompt_en": "कारण ('reason, cause') ends with which nasal consonant?",
+          "options": [
+            "ञ",
+            "ण",
+            "न",
+            "ङ"
+          ],
+          "answer_index": 1,
+          "explanation_en": "The retroflex nasal ण closes this word, matching the retroflex family it belongs to."
+        },
+        {
+          "id": "M02-CP2-Q3",
+          "source_item_ids": [
+            "M02-L06-I3"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling means 'shield'?",
+          "options": [
+            "धाल",
+            "डाल",
+            "ढाल",
+            "दाल"
+          ],
+          "answer_index": 2,
+          "explanation_en": "Without the breath, ढ collapses into ड, giving 'branch' instead of 'shield'."
+        },
+        {
+          "id": "M02-CP2-Q4",
+          "source_item_ids": [
+            "M02-L07-I1"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling is correct for the number 'three'?",
+          "options": [
+            "थीन",
+            "डीन",
+            "टीन",
+            "तीन"
+          ],
+          "answer_index": 3,
+          "explanation_en": "The English t is made too far back (retroflex ट); Hindi 'three' needs the dental त."
+        },
+        {
+          "id": "M02-CP2-Q5",
+          "source_item_ids": [
+            "M02-L07-I2"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling means 'a metal plate'?",
+          "options": [
+            "ताली",
+            "थाली",
+            "ताला",
+            "थाला"
+          ],
+          "answer_index": 1,
+          "explanation_en": "Without the breath, थ becomes त, and ताली instead means a clap of the hands."
+        },
+        {
+          "id": "M02-CP2-Q6",
+          "source_item_ids": [
+            "M02-L08-I1"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling means 'milk'?",
+          "options": [
+            "धूध",
+            "दूद",
+            "दूध",
+            "धूद"
+          ],
+          "answer_index": 2,
+          "explanation_en": "The final consonant is breathy (ध). Writing plain द loses a puff Hindi speakers hear clearly."
+        },
+        {
+          "id": "M02-CP2-Q7",
+          "source_item_ids": [
+            "M02-L08-I3"
+          ],
+          "type": "odd_sound_out",
+          "prompt_en": "Three of these consonants are dental (tongue on the teeth). Which one is retroflex (tongue curled back)?",
+          "options": [
+            "त",
+            "द",
+            "न",
+            "ट"
+          ],
+          "answer_index": 3,
+          "explanation_en": "त, द and न are all dental. ट is the retroflex member of the set — this is the contrast the 'unlearning drill' targets directly."
+        },
+        {
+          "id": "M02-CP2-Q8",
+          "source_item_ids": [
+            "M02-L09-I1"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling means 'water'?",
+          "options": [
+            "पानी",
+            "फानि",
+            "पानि",
+            "फानी"
+          ],
+          "answer_index": 0,
+          "explanation_en": "English's automatic puff at the start of a word turns प into फ — पानी needs the plain, unaspirated प."
+        },
+        {
+          "id": "M02-CP2-Q9",
+          "source_item_ids": [
+            "M02-L09-I3"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling means 'a matter, a thing said'?",
+          "options": [
+            "बाट",
+            "वात",
+            "बात",
+            "वाट"
+          ],
+          "answer_index": 2,
+          "explanation_en": "The lips must close completely for ब; leaving them apart gives व, a different letter."
+        },
+        {
+          "id": "M02-CP2-Q10",
+          "source_item_ids": [
+            "M02-L10-I1"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling means 'brother'?",
+          "options": [
+            "बाही",
+            "भाही",
+            "बाई",
+            "भाई"
+          ],
+          "answer_index": 3,
+          "explanation_en": "Dropping the breath gives plain ब, and the word no longer means 'brother'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 3,
+      "after_level": 15,
+      "covers_levels": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "title_en": "य र ल, the sh-letters, and the dotted borrowings",
+      "questions": [
+        {
+          "id": "M02-CP3-Q1",
+          "source_item_ids": [
+            "M02-L11-I1"
+          ],
+          "type": "recognition",
+          "prompt_en": "याद ('memory') begins with which letter?",
+          "options": [
+            "य",
+            "र",
+            "ल",
+            "व"
+          ],
+          "answer_index": 0,
+          "explanation_en": "याद opens with the semivowel य."
+        },
+        {
+          "id": "M02-CP3-Q2",
+          "source_item_ids": [
+            "M02-L11-I2"
+          ],
+          "type": "recognition",
+          "prompt_en": "रात ('night') begins with which letter?",
+          "options": [
+            "व",
+            "र",
+            "य",
+            "ल"
+          ],
+          "answer_index": 1,
+          "explanation_en": "रात opens with र."
+        },
+        {
+          "id": "M02-CP3-Q3",
+          "source_item_ids": [
+            "M02-L11-I3"
+          ],
+          "type": "recognition",
+          "prompt_en": "लाल ('red') begins with which letter?",
+          "options": [
+            "य",
+            "व",
+            "ल",
+            "र"
+          ],
+          "answer_index": 2,
+          "explanation_en": "लाल opens with ल."
+        },
+        {
+          "id": "M02-CP3-Q4",
+          "source_item_ids": [
+            "M02-L12-I1"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling means 'back' (as in 'go back')?",
+          "options": [
+            "वापिस",
+            "बापिस",
+            "बापस",
+            "वापस"
+          ],
+          "answer_index": 3,
+          "explanation_en": "व keeps the lips apart. Closing them fully turns it into ब, giving a non-word."
+        },
+        {
+          "id": "M02-CP3-Q5",
+          "source_item_ids": [
+            "M02-L12-I2"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling means 'city'?",
+          "options": [
+            "सहर",
+            "शहर",
+            "षहर",
+            "सहार"
+          ],
+          "answer_index": 1,
+          "explanation_en": "स and श are different sounds. 'City' specifically takes श, not स."
+        },
+        {
+          "id": "M02-CP3-Q6",
+          "source_item_ids": [
+            "M02-L12-I3"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling means 'language'?",
+          "options": [
+            "भाश",
+            "भाशा",
+            "भाषा",
+            "भासा"
+          ],
+          "answer_index": 2,
+          "explanation_en": "श and ष sound identical in modern speech; only the word's origin tells you which to write. 'Language' takes ष."
+        },
+        {
+          "id": "M02-CP3-Q7",
+          "source_item_ids": [
+            "M02-L13-I3"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which is the standard spelling for 'certainly, of course'?",
+          "options": [
+            "जरुर",
+            "ज़रुर",
+            "जरूर",
+            "ज़रूर"
+          ],
+          "answer_index": 3,
+          "explanation_en": "Without the dot the letter is read as j. Dropping it is common informally, but the dotted ज़ is the standard spelling."
+        },
+        {
+          "id": "M02-CP3-Q8",
+          "source_item_ids": [
+            "M02-L14-I1"
+          ],
+          "type": "recognition",
+          "prompt_en": "क़रीब ('near, close') uses which letter for its opening sound?",
+          "options": [
+            "क़",
+            "क",
+            "ख़",
+            "ख"
+          ],
+          "answer_index": 0,
+          "explanation_en": "This borrowed Persian/Arabic sound is written with the dotted क़, distinct from plain क."
+        },
+        {
+          "id": "M02-CP3-Q9",
+          "source_item_ids": [
+            "M02-L15-I2"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling is correct for 'boy'?",
+          "options": [
+            "लड्का",
+            "लडका",
+            "लड़का",
+            "लढका"
+          ],
+          "answer_index": 2,
+          "explanation_en": "Without the dot, the letter is the stop ड, which holds the air instead of flicking past it. The dot is not optional here."
+        },
+        {
+          "id": "M02-CP3-Q10",
+          "source_item_ids": [
+            "M02-L15-I3"
+          ],
+          "type": "recognition",
+          "prompt_en": "Which spelling is correct for 'to read, to study'?",
+          "options": [
+            "पड़ना",
+            "पडना",
+            "पढना",
+            "पढ़ना"
+          ],
+          "answer_index": 3,
+          "explanation_en": "Without the dot the letter is the stop ढ, which holds the air. The undotted spelling is common informally, but the two are different sounds."
+        }
+      ]
+    }
+  ]
+}

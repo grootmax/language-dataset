@@ -1,0 +1,966 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "batch": {
+    "levels_from": 22,
+    "levels_to": 24
+  },
+  "block_kind": "reading",
+  "block_note": "The register turns over inside this block. Levels 22's signs are the last of the formal notices; from the third item onward the texts are messages, where English words are dropped in freely, subjects and auxiliaries disappear, and कृपया is replaced by tone.",
+  "levels": [
+    {
+      "level": 22,
+      "title_en": "The last two notices, and the first message",
+      "title_hi": "वापसी · रसीद · व्यस्त",
+      "items": [
+        {
+          "id": "M13-L22-I1",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "वापसी",
+          "target_read_as": "vaapsii",
+          "target_gloss_en": "return, returning",
+          "target_gender": "f",
+          "word_count": 24,
+          "difficulty": 7,
+          "tags": [
+            "sign",
+            "shop",
+            "suffix_ii",
+            "register_pair",
+            "bhiitar"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "वापसी एवं बदलाव",
+                "read_as": "vaapsii evaṁ badlaav",
+                "english": "Returns and exchanges"
+              },
+              {
+                "n": 2,
+                "hindi": "बिल के साथ सात दिन के भीतर सामान बदल सकते हैं",
+                "read_as": "bil ke saath saat din ke bhiitar saamaan badal sakte haiṁ",
+                "english": "Goods may be exchanged within seven days with the bill"
+              },
+              {
+                "n": 3,
+                "hindi": "पैसे वापस नहीं होंगे",
+                "read_as": "paise vaapas nahiiṁ hoṁge",
+                "english": "No refunds"
+              },
+              {
+                "n": 4,
+                "hindi": "सेल का सामान वापस नहीं होगा",
+                "read_as": "sel kaa saamaan vaapas nahiiṁ hogaa",
+                "english": "Sale items cannot be returned"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "वापसी, and एवं for \"and\"",
+              "explanation_en": "वापस means back, and वापसी is the return — the -ई suffix from level 2 again, feminine as always. The header also gives you एवं, which is the formal written word for \"and\". Speech and ordinary writing use और; एवं belongs on notices, in official prose and in ceremonial language. It is a small word and an easy one to miss, but seeing it tells you immediately what kind of text you are in.",
+              "register_note_en": "एवं (notices, formal prose) · और (everywhere else). Nobody says एवं out loud in conversation.",
+              "vocabulary_notes": [
+                "के भीतर — within, formal. Speech says के अंदर, and both work for time as well as space.",
+                "बदलाव — change, masculine, built from बदलना.",
+                "सामान — goods or luggage, masculine, and it has no plural form."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How long do you have to exchange something?",
+              "options": [
+                "There is no time limit",
+                "Three days",
+                "Seven days",
+                "A month"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 2: सात दिन के भीतर."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                3,
+                4
+              ],
+              "question_en": "You bought something in the sale three days ago and want your money back. What follows?",
+              "options": [
+                "Neither is possible — it is excluded twice over",
+                "You can get a refund within seven days",
+                "You would need to ask at the counter",
+                "You can exchange it but not get a refund"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Sale goods cannot be returned at all, and separately there are no refunds on anything. Either line alone would only half-answer it."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "वापसी"
+            ]
+          }
+        },
+        {
+          "id": "M13-L22-I2",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "रसीद",
+          "target_read_as": "rasiid",
+          "target_gloss_en": "receipt",
+          "target_gender": "f",
+          "word_count": 25,
+          "difficulty": 7,
+          "tags": [
+            "sign",
+            "station",
+            "urdu_origin",
+            "prati",
+            "oblique_infinitive_par"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "अमानती सामान घर",
+                "read_as": "amaanatii saamaan ghar",
+                "english": "Left luggage"
+              },
+              {
+                "n": 2,
+                "hindi": "सामान जमा करने पर रसीद लें",
+                "read_as": "saamaan jamaa karne par rasiid leṁ",
+                "english": "Take a receipt when depositing luggage"
+              },
+              {
+                "n": 3,
+                "hindi": "बिना रसीद के सामान वापस नहीं मिलेगा",
+                "read_as": "binaa rasiid ke saamaan vaapas nahiiṁ milegaa",
+                "english": "Luggage will not be returned without a receipt"
+              },
+              {
+                "n": 4,
+                "hindi": "प्रति बैग बीस रुपये प्रतिदिन",
+                "read_as": "prati baig biis rupae pratidin",
+                "english": "Twenty rupees per bag per day"
+              },
+              {
+                "n": 5,
+                "hindi": "रसीद ध्यान से रखें",
+                "read_as": "rasiid dhyaan se rakheṁ",
+                "english": "Keep the receipt carefully"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "रसीद — an Urdu-side word on a Sanskrit-side sign",
+              "explanation_en": "रसीद is a receipt, and unlike most of the sign vocabulary in this module it is Urdu-side and completely at home in speech as well. It sits here beside अमानती (from अमानत, something entrusted, also Urdu-side) and प्रतिदिन (Sanskrit, per day) without any awkwardness at all. Note प्रति doing the same job it did on the parking sign in level 7, now compounded into प्रतिदिन. And सामान जमा करने पर is the oblique infinitive plus पर for the fifth time in the module.",
+              "register_note_en": "रसीद and बिल are not the same thing: a बिल itemises what you owe, and a रसीद proves you handed something over.",
+              "vocabulary_notes": [
+                "अमानती सामान घर is the standard Indian railway phrase for a cloakroom.",
+                "बिना रसीद के — the wrap-around \"without\" from level 15.",
+                "ध्यान से — carefully, using the same ध्यान as ध्यान रखें on the waiting-room sign."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What does it cost per bag per day?",
+              "options": [
+                "Fifty rupees",
+                "It depends on the size",
+                "Ten rupees",
+                "Twenty rupees"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 4: प्रति बैग बीस रुपये प्रतिदिन."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                3,
+                5
+              ],
+              "question_en": "You lose the receipt. What does the sign tell you?",
+              "options": [
+                "You can describe the bag instead",
+                "Your luggage will not be given back",
+                "You pay a penalty and collect it",
+                "You must come back the next day"
+              ],
+              "answer_index": 1,
+              "explanation_en": "One line makes the receipt the only proof, and the last line exists precisely because of it. The warning to keep it safe is the tell."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "रसीद"
+            ]
+          }
+        },
+        {
+          "id": "M13-L22-I3",
+          "type": "reading",
+          "text_kind": "message",
+          "target_word": "व्यस्त",
+          "target_read_as": "vyast",
+          "target_gloss_en": "busy",
+          "target_gender": null,
+          "word_count": 28,
+          "difficulty": 6,
+          "tags": [
+            "message",
+            "casual_register",
+            "code_mixing",
+            "ellipsis",
+            "register_switch"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "अरे यार सॉरी, मीटिंग में था",
+                "read_as": "are yaar sôrii, miiṭiṁg meṁ thaa",
+                "english": "Sorry mate, I was in a meeting"
+              },
+              {
+                "n": 2,
+                "hindi": "फ़ोन साइलेंट पर था",
+                "read_as": "fon saailenṭ par thaa",
+                "english": "Phone was on silent"
+              },
+              {
+                "n": 3,
+                "hindi": "अभी देखा तो तीन मिस्ड कॉल",
+                "read_as": "abhii dekhaa to tiin misḍ kôl",
+                "english": "Just looked and there were three missed calls"
+              },
+              {
+                "n": 4,
+                "hindi": "सब ठीक है ना? बहुत व्यस्त था आज",
+                "read_as": "sab ṭhiik hai naa? bahut vyast thaa aaj",
+                "english": "Everything all right? Been really busy today"
+              },
+              {
+                "n": 5,
+                "hindi": "कल बात करते हैं",
+                "read_as": "kal baat karte haiṁ",
+                "english": "Let's talk tomorrow"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "Everything the signs taught, inverted",
+              "explanation_en": "This is the first message in the module and it undoes almost every habit the signs established. No कृपया — the warmth comes from यार and from ना. No Sanskrit vocabulary except one word. English dropped in without apology: सॉरी, साइलेंट, मिस्ड कॉल, मीटिंग. And subjects and auxiliaries simply gone — मीटिंग में था has no मैं, and तीन मिस्ड कॉल has no verb at all. The one formal-side word is व्यस्त, and it is completely normal here, because busy has no everyday Hindi alternative that is not clumsy.",
+              "register_note_en": "व्यस्त crosses over. Most Sanskrit-side words would look absurd in a message like this; व्यस्त does not, because there is nothing else to say.",
+              "vocabulary_notes": [
+                "अभी देखा तो — तो carrying a sequence rather than a condition here: I looked, and then.",
+                "सब ठीक है ना? — the ना tag from Module 12, inviting reassurance.",
+                "कल बात करते हैं — present tense making a plan, exactly as in Module 12."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why did he not answer the calls?",
+              "options": [
+                "He was in a meeting with his phone on silent",
+                "He had lost his phone",
+                "He was travelling",
+                "He was asleep"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Lines 1 and 2 together."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                1,
+                4
+              ],
+              "question_en": "What does the way this message is written tell you about the two people?",
+              "options": [
+                "They have never met in person",
+                "They are colleagues who barely know each other",
+                "They are close friends",
+                "One works for the other"
+              ],
+              "answer_index": 2,
+              "explanation_en": "यार, no greeting, no sign-off, English thrown in, and a ना tag asking for reassurance. None of that survives between people who are not close."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "व्यस्त"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "एवं is \"and\" on a notice and nowhere else. रसीद proves you handed something over, where a बिल says what you owe. And the module's first message inverts every habit the signs built — no कृपया, English dropped in freely, subjects and auxiliaries gone.",
+        "key_forms": [
+          "के भीतर",
+          "बिना रसीद के",
+          "सब ठीक है ना?"
+        ],
+        "next_up_en": "Next: confirmations, postponements and congratulations — three more messages, three different distances."
+      }
+    },
+    {
+      "level": 23,
+      "title_en": "Three messages, three distances",
+      "title_hi": "पुष्टि · स्थगित · बधाई",
+      "items": [
+        {
+          "id": "M13-L23-I1",
+          "type": "reading",
+          "text_kind": "message",
+          "target_word": "पुष्टि",
+          "target_read_as": "puṣṭi",
+          "target_gloss_en": "confirmation",
+          "target_gender": "f",
+          "word_count": 32,
+          "difficulty": 7,
+          "tags": [
+            "message",
+            "business_register",
+            "mixed_register",
+            "polite_future_imperative"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "नमस्ते सर, आपकी बुकिंग की पुष्टि हो गई है",
+                "read_as": "namaste sar, aapkii bukiṁg kii puṣṭi ho gaii hai",
+                "english": "Hello sir, your booking is confirmed"
+              },
+              {
+                "n": 2,
+                "hindi": "कमरा नंबर 204, चेक-इन दोपहर 2 बजे के बाद",
+                "read_as": "kamraa nambar 204, chek-in dopahar 2 baje ke baad",
+                "english": "Room 204, check-in after 2 p.m."
+              },
+              {
+                "n": 3,
+                "hindi": "कोई भी दिक्कत हो तो इसी नंबर पर मैसेज कर दीजिएगा",
+                "read_as": "koii bhii dikkat ho to isii nambar par maisej kar diijiegaa",
+                "english": "If there is any problem at all, message this number"
+              },
+              {
+                "n": 4,
+                "hindi": "आपका इंतज़ार रहेगा",
+                "read_as": "aapkaa iṁtazaar rahegaa",
+                "english": "We look forward to seeing you"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "Business messaging sits in the middle",
+              "explanation_en": "This message is neither the notice nor the text to a friend. पुष्टि and इंतज़ार are formal-side; चेक-इन, दिक्कत and मैसेज are casual and English; सर and दीजिएगा are polite without being stiff. That mixture is exactly what a hotel or a shop sends, and it is worth recognising as its own register rather than as a failure to pick one. Note पुष्टि हो गई है rather than पुष्टि कर दी गई है — Hindi prefers letting the confirmation happen to saying who did it.",
+              "register_note_en": "पुष्टि होना, it gets confirmed · पुष्टि करना, to confirm. A business message will nearly always choose the first, because it avoids naming anybody.",
+              "vocabulary_notes": [
+                "इसी नंबर पर — इस plus ही, this very number.",
+                "दिक्कत — trouble or difficulty, Urdu-side and thoroughly everyday.",
+                "कर दीजिएगा — the polite future imperative from Module 12, softening an instruction into a request."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "When can he check in?",
+              "options": [
+                "Any time",
+                "After 2 p.m.",
+                "Before 2 p.m.",
+                "The message does not say"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 2: चेक-इन दोपहर 2 बजे के बाद."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                1,
+                2
+              ],
+              "question_en": "Which of these does the message deliberately not mention?",
+              "options": [
+                "How to get in touch",
+                "The room number",
+                "The check-in time",
+                "What it costs"
+              ],
+              "answer_index": 3,
+              "explanation_en": "It gives a room, a time and a contact route. The price is absent because the booking is already settled — a confirmation is not a quotation."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "पुष्टि"
+            ]
+          }
+        },
+        {
+          "id": "M13-L23-I2",
+          "type": "reading",
+          "text_kind": "message",
+          "target_word": "स्थगित",
+          "target_read_as": "sthagit",
+          "target_gloss_en": "postponed",
+          "target_gender": null,
+          "word_count": 35,
+          "difficulty": 8,
+          "tags": [
+            "message",
+            "group_announcement",
+            "mixed_register",
+            "callback_l14"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "सभी को नमस्कार",
+                "read_as": "sabhii ko namaskaar",
+                "english": "Hello everyone"
+              },
+              {
+                "n": 2,
+                "hindi": "बारिश की वजह से हमें कल का कार्यक्रम स्थगित करना पड़ा",
+                "read_as": "baarish kii vajah se hameṁ kal kaa kaaryakram sthagit karnaa paṛaa",
+                "english": "Because of the rain we have had to postpone tomorrow's event"
+              },
+              {
+                "n": 3,
+                "hindi": "नई तारीख़ जल्दी बताएँगे",
+                "read_as": "naii taariiḳh jaldii bataaeṁge",
+                "english": "We will announce a new date soon"
+              },
+              {
+                "n": 4,
+                "hindi": "पैसे वापस मिल जाएँगे",
+                "read_as": "paise vaapas mil jaaeṁge",
+                "english": "Money will be refunded"
+              },
+              {
+                "n": 5,
+                "hindi": "असुविधा के लिए खेद है",
+                "read_as": "asuvidhaa ke lie ḳhed hai",
+                "english": "We are sorry for the inconvenience"
+              },
+              {
+                "n": 6,
+                "hindi": "कृपया इस मैसेज को आगे भेज दें",
+                "read_as": "kripayaa is maisej ko aage bhej deṁ",
+                "english": "Please forward this message"
+              },
+              {
+                "n": 7,
+                "hindi": "धन्यवाद",
+                "read_as": "dhanyavaad",
+                "english": "Thank you"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "A group announcement is half a notice",
+              "explanation_en": "This message swings between registers line by line. असुविधा के लिए खेद है in line 5 is lifted straight off the lift notice in level 14 — pure officialese. मैसेज and आगे भेज दें in line 6 are ordinary WhatsApp. That is not carelessness: an announcement to a group is semi-official, and it borrows from both sides deliberately. Note also की वजह से here against के कारण on the level 14 sign — the same pair, and the message chooses the spoken one.",
+              "register_note_en": "स्थगित is firmly Sanskrit-side and there is no casual equivalent — you would rephrase, as with उपलब्ध. \"आगे बढ़ा दिया\" is the nearest, and it means moved rather than cancelled-for-now.",
+              "vocabulary_notes": [
+                "कार्यक्रम — a programme or event, masculine.",
+                "आगे भेज दें — to forward. आगे, onward, plus the देना vector.",
+                "करना पड़ा — the compulsion rung of the obligation ladder: we had no choice."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why has the event been postponed?",
+              "options": [
+                "The venue was unavailable",
+                "Low attendance",
+                "Rain",
+                "A clash of dates"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 2: बारिश की वजह से."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                1,
+                6
+              ],
+              "question_en": "What does the request to forward the message tell you?",
+              "options": [
+                "The organisers have no other way of reaching everyone",
+                "Only some people need to know",
+                "The message is confidential",
+                "Everybody has already been told individually"
+              ],
+              "answer_index": 0,
+              "explanation_en": "It is addressed to a group and then asks that group to spread it further. Neither the greeting nor the request means much alone."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "स्थगित"
+            ]
+          }
+        },
+        {
+          "id": "M13-L23-I3",
+          "type": "reading",
+          "text_kind": "message",
+          "target_word": "बधाई",
+          "target_read_as": "badhaaii",
+          "target_gloss_en": "congratulations",
+          "target_gender": "f",
+          "word_count": 30,
+          "difficulty": 7,
+          "tags": [
+            "message",
+            "casual_register",
+            "suffix_daar",
+            "lagnaa",
+            "hii_fused"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "अरे वाह! बहुत बहुत बधाई!!",
+                "read_as": "are vaah! bahut bahut badhaaii!!",
+                "english": "Wow — huge congratulations!"
+              },
+              {
+                "n": 2,
+                "hindi": "सुना कि नई जॉब लग गई",
+                "read_as": "sunaa ki naii jôb lag gaii",
+                "english": "Heard you got the new job"
+              },
+              {
+                "n": 3,
+                "hindi": "तुमने बहुत मेहनत की थी, तुम्हीं इसके हक़दार थे",
+                "read_as": "tumne bahut mehnat kii thii, tumhiiṁ iske haqdaar the",
+                "english": "You worked so hard — you deserved it"
+              },
+              {
+                "n": 4,
+                "hindi": "तुम्हारे मम्मी-पापा बहुत ख़ुश होंगे",
+                "read_as": "tumhaare mammii-paapaa bahut ḳhush hoṁge",
+                "english": "Your parents must be delighted"
+              },
+              {
+                "n": 5,
+                "hindi": "पार्टी कब दे रहे हो?",
+                "read_as": "paarṭii kab de rahe ho?",
+                "english": "So when's the party?"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "जॉब लग गई, and a suffix you already know",
+              "explanation_en": "जॉब is an English word and it is feminine in Hindi, so लग गई. And लगना here means to be obtained — a job attaches itself to you. That is now seven jobs for one verb: felt, seemed, attached, cost, began, a phone connecting, and now a job landing. Note हक़दार in line 3: हक़ is a right, and -दार is the possessing suffix from level 5, so a हक़दार is one who has the right to something. A suffix taught in a vocabulary block turning up unannounced in a WhatsApp message is the point of interleaving them.",
+              "register_note_en": "बधाई (everyday, universal) · मुबारक (Urdu-side, warm) · शुभकामनाएँ (Sanskrit-side, formal, and for wishes rather than congratulations).",
+              "vocabulary_notes": [
+                "तुम्हीं — तुम plus ही. You and nobody else.",
+                "होंगे here is the presumptive from Module 12: they must be happy, not they will be.",
+                "पार्टी कब दे रहे हो? — present continuous doing near-future, and a question that is really an expectation."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What has happened?",
+              "options": [
+                "He has passed an exam",
+                "His parents have visited",
+                "He has been promoted",
+                "He has got a new job"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 2: नई जॉब लग गई."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                1,
+                5
+              ],
+              "question_en": "What does the last line show about what follows good news?",
+              "options": [
+                "The sender wants to organise something",
+                "The person with the good news is expected to treat everyone",
+                "They are asking about an event already planned",
+                "The sender is being sarcastic"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The message opens with delight and closes by claiming a party, without either being negotiated. The obligation is assumed, not requested."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "बधाई"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Business messages mix registers on purpose, and a group announcement borrows officialese for its apology and WhatsApp for its request. लगना adds a seventh job — a job landing. And -दार from level 5 turns up in हक़दार in a text message.",
+        "key_forms": [
+          "पुष्टि हो गई है",
+          "स्थगित करना पड़ा",
+          "जॉब लग गई"
+        ],
+        "next_up_en": "Next: an invitation, an apology and a favour — the three things messages are most often for."
+      }
+    },
+    {
+      "level": 24,
+      "title_en": "Inviting, apologising, asking",
+      "title_hi": "शामिल · क्षमा · गुज़ारिश",
+      "items": [
+        {
+          "id": "M13-L24-I1",
+          "type": "reading",
+          "text_kind": "message",
+          "target_word": "शामिल",
+          "target_read_as": "shaamil",
+          "target_gloss_en": "included, taking part",
+          "target_gender": null,
+          "word_count": 38,
+          "difficulty": 7,
+          "tags": [
+            "message",
+            "invitation",
+            "sahit",
+            "urdu_origin",
+            "oblique_infinitive"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "सभी को नमस्ते",
+                "read_as": "sabhii ko namaste",
+                "english": "Hello everyone"
+              },
+              {
+                "n": 2,
+                "hindi": "अगले रविवार शाम 6 बजे सोसाइटी पार्क में होली मिलन का कार्यक्रम है",
+                "read_as": "agle ravivaar shaam 6 baje sosaaiṭii paark meṁ holii milan kaa kaaryakram hai",
+                "english": "There is a Holi gathering next Sunday at 6 p.m. in the society park"
+              },
+              {
+                "n": 3,
+                "hindi": "सब परिवार सहित शामिल हों",
+                "read_as": "sab parivaar sahit shaamil hoṁ",
+                "english": "Everyone please come with your families"
+              },
+              {
+                "n": 4,
+                "hindi": "खाने-पीने का इंतज़ाम है",
+                "read_as": "khaane-piine kaa iṁtazaam hai",
+                "english": "Food and drink are arranged"
+              },
+              {
+                "n": 5,
+                "hindi": "अपने साथ कुर्सी लाने की ज़रूरत नहीं",
+                "read_as": "apne saath kursii laane kii zaruurat nahiiṁ",
+                "english": "No need to bring your own chairs"
+              },
+              {
+                "n": 6,
+                "hindi": "कृपया समय पर पहुँचें",
+                "read_as": "kripayaa samay par pahuṁcheṁ",
+                "english": "Please arrive on time"
+              },
+              {
+                "n": 7,
+                "hindi": "मिलते हैं!",
+                "read_as": "milte haiṁ!",
+                "english": "See you there!"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "सहित — a postposition that follows nothing",
+              "explanation_en": "परिवार सहित means with family, and सहित is unusual in Hindi because it sits directly after the noun with no के in front of it. Compare परिवार के साथ, which means the same and is what people say. सहित is Sanskrit-side and slightly ceremonial, which is exactly right for a residents' association invitation. Note also लाने की ज़रूरत नहीं — the ज़रूरत construction from level 1, with the oblique infinitive and की, meaning there is no need to.",
+              "register_note_en": "सहित (formal, written) · के साथ (everywhere). A friend inviting you would say परिवार के साथ आना.",
+              "vocabulary_notes": [
+                "शामिल होना — to join or take part. शामिल is invariable.",
+                "इंतज़ाम — arrangement, masculine, Urdu-side.",
+                "मिलन — a gathering or meeting, from मिलना. होली मिलन is a standard name for a Holi get-together."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What are people told they need not bring?",
+              "options": [
+                "Chairs",
+                "Money",
+                "Children",
+                "Food"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 5: कुर्सी लाने की ज़रूरत नहीं."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                4,
+                5
+              ],
+              "question_en": "Why does the message mention chairs at all?",
+              "options": [
+                "Chairs have to be reserved",
+                "Chairs are not allowed",
+                "People would normally bring their own, so it is worth saying they need not",
+                "There are not enough chairs"
+              ],
+              "answer_index": 2,
+              "explanation_en": "It is listing what has been taken care of. Mentioning chairs alongside food only makes sense if bringing them was the default expectation."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "शामिल"
+            ]
+          }
+        },
+        {
+          "id": "M13-L24-I2",
+          "type": "reading",
+          "text_kind": "message",
+          "target_word": "क्षमा",
+          "target_read_as": "kṣamaa",
+          "target_gloss_en": "forgiveness, pardon",
+          "target_gender": "f",
+          "word_count": 34,
+          "difficulty": 8,
+          "tags": [
+            "message",
+            "apology",
+            "two_registers_one_text",
+            "saknaa",
+            "module15_preview"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "नमस्ते आंटी",
+                "read_as": "namaste aanṭii",
+                "english": "Hello auntie"
+              },
+              {
+                "n": 2,
+                "hindi": "कल आपके यहाँ नहीं आ सका, इसके लिए क्षमा चाहता हूँ",
+                "read_as": "kal aapke yahaaṁ nahiiṁ aa sakaa, iske lie kṣamaa chaahtaa huuṁ",
+                "english": "I couldn't come to you yesterday, and I'm sorry for that"
+              },
+              {
+                "n": 3,
+                "hindi": "अचानक ऑफ़िस का काम आ गया था",
+                "read_as": "achaanak ôfis kaa kaam aa gayaa thaa",
+                "english": "Some office work came up suddenly"
+              },
+              {
+                "n": 4,
+                "hindi": "आपने इतनी तैयारी की थी, बहुत बुरा लगा",
+                "read_as": "aapne itnii taiyaarii kii thii, bahut buraa lagaa",
+                "english": "You had made such preparations — I felt terrible"
+              },
+              {
+                "n": 5,
+                "hindi": "इस रविवार ज़रूर आऊँगा, माफ़ कीजिएगा",
+                "read_as": "is ravivaar zaruur aauuṁgaa, maaf kiijiegaa",
+                "english": "I'll definitely come this Sunday. Do forgive me"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "क्षमा and माफ़ी in the same short message",
+              "explanation_en": "Line 2 says क्षमा चाहता हूँ, which is Sanskrit-side and rather formal. Line 5 says माफ़ कीजिएगा, which is Urdu-side and everyday. They mean the same thing, they are three lines apart, and the writer is not confused. Hindi speakers move across this axis inside a single message without noticing, and a learner who is told to pick one side will write sentences that sound stiffer than anything a native speaker produces. Module 15 gives this two full levels; this message is the evidence.",
+              "register_note_en": "क्षमा चाहता हूँ (formal, written, and a shade ceremonial) · माफ़ कीजिए (everyday) · सॉरी (extremely common and not rude). All three are current Hindi.",
+              "vocabulary_notes": [
+                "नहीं आ सका — सकना in the negative, from Module 11: I was unable, which is gentler than saying I did not come.",
+                "आपके यहाँ — at your place. यहाँ after a possessive means somebody's home.",
+                "बुरा लगा — लगना again, for how something felt."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why could he not come?",
+              "options": [
+                "He was unwell",
+                "Office work came up suddenly",
+                "He forgot",
+                "He was travelling"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 3: अचानक ऑफ़िस का काम आ गया था."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                2,
+                4
+              ],
+              "question_en": "What does आपने इतनी तैयारी की थी add to the apology?",
+              "options": [
+                "It asks her to prepare again",
+                "It suggests the occasion was not important",
+                "It explains why he could not come",
+                "It acknowledges the trouble she went to, not only his absence"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The first apology covers his absence. This line apologises for a second thing — her wasted effort — which the earlier line does not touch."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "क्षमा"
+            ]
+          }
+        },
+        {
+          "id": "M13-L24-I3",
+          "type": "reading",
+          "text_kind": "message",
+          "target_word": "गुज़ारिश",
+          "target_read_as": "guzaarish",
+          "target_gloss_en": "request",
+          "target_gender": "f",
+          "word_count": 40,
+          "difficulty": 8,
+          "tags": [
+            "message",
+            "request",
+            "politeness_past",
+            "urdu_origin",
+            "register_triplet"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "भाभी जी नमस्ते",
+                "read_as": "bhaabhii jii namaste",
+                "english": "Hello bhabhi ji"
+              },
+              {
+                "n": 2,
+                "hindi": "एक छोटी सी गुज़ारिश थी",
+                "read_as": "ek chhoṭii sii guzaarish thii",
+                "english": "I had a small request"
+              },
+              {
+                "n": 3,
+                "hindi": "कल सुबह हमें बाहर जाना है और कोरियर वाला आने वाला है",
+                "read_as": "kal subah hameṁ baahar jaanaa hai aur koriyar vaalaa aane vaalaa hai",
+                "english": "We have to go out tomorrow morning and a courier is due"
+              },
+              {
+                "n": 4,
+                "hindi": "आप पैकेट ले लेंगी तो बड़ी मेहरबानी होगी",
+                "read_as": "aap paikeṭ le leṁgii to baṛii mehrbaanii hogii",
+                "english": "If you could take the parcel it would be very kind"
+              },
+              {
+                "n": 5,
+                "hindi": "शाम को हम ले लेंगे",
+                "read_as": "shaam ko ham le leṁge",
+                "english": "We'll collect it in the evening"
+              },
+              {
+                "n": 6,
+                "hindi": "दिक्कत हो तो बता दीजिएगा",
+                "read_as": "dikkat ho to bataa diijiegaa",
+                "english": "Do say if it's any trouble"
+              },
+              {
+                "n": 7,
+                "hindi": "बहुत धन्यवाद",
+                "read_as": "bahut dhanyavaad",
+                "english": "Thank you very much"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "गुज़ारिश थी — a present request in the past tense",
+              "explanation_en": "एक छोटी सी गुज़ारिश थी means \"I have a small request\", and it is in the past tense on purpose. Putting a request one step back in time makes it smaller and easier to refuse — the same instinct English follows in \"I was wondering whether\". Line 6 does the other half of the job: दिक्कत हो तो बता दीजिएगा hands her a way out before she has to look for one. Between them, the message asks for a favour while making it as easy as possible to say no.",
+              "register_note_en": "That completes the request set: निवेदन (formal, upwards, level 19) · अनुरोध (neutral) · गुज़ारिश (warm and personal, Urdu-side). All three are requests; the distance is what differs.",
+              "vocabulary_notes": [
+                "मेहरबानी — kindness, Persian-derived. बड़ी मेहरबानी होगी is a fixed phrase.",
+                "आने वाला है — about to come. The वाला construction for imminence.",
+                "छोटी सी — सा softening a size, and both words feminine because गुज़ारिश is."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What is she being asked to do?",
+              "options": [
+                "Cancel a delivery",
+                "Look after the house",
+                "Take in a parcel",
+                "Come over in the evening"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 4: आप पैकेट ले लेंगी."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                2,
+                6
+              ],
+              "question_en": "The request uses a past tense for something happening now. What is that doing?",
+              "options": [
+                "It softens the request, and the line near the end does the same job",
+                "It is a mistake",
+                "The request has already been refused",
+                "It repeats a request made earlier"
+              ],
+              "answer_index": 0,
+              "explanation_en": "थी puts the asking one step away, and the offer to hear about any difficulty gives her a refusal she does not have to invent. Both lines are doing politeness rather than carrying information."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "गुज़ारिश"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "सहित follows its noun with no के, unlike के साथ. क्षमा and माफ़ी appear three lines apart in one apology, which is normal Hindi rather than confusion. And a request in the past tense — गुज़ारिश थी — is politeness, not chronology.",
+        "key_forms": [
+          "परिवार सहित",
+          "क्षमा चाहता हूँ",
+          "गुज़ारिश थी"
+        ],
+        "next_up_en": "Next: back to vocabulary — Sanskrit-side and Urdu-side pairs, taught as choices rather than as rivals."
+      }
+    }
+  ]
+}

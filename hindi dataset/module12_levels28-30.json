@@ -1,0 +1,1131 @@
+{
+  "module": 12,
+  "module_name_en": "Conversation",
+  "module_name_hi": "बातचीत",
+  "phase": 5,
+  "batch": {
+    "levels_from": 28,
+    "levels_to": 30
+  },
+  "receptive_only": true,
+  "levels": [
+    {
+      "level": 28,
+      "title_en": "Meetings and decisions",
+      "title_hi": "मीटिंग और फ़ैसले",
+      "items": [
+        {
+          "id": "M12-L28-I1",
+          "type": "dialogue",
+          "target": "बारह बजे के बाद",
+          "title_en": "The meeting is moved",
+          "setting": "office",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "office",
+            "three_speakers",
+            "clock_oblique",
+            "fractions",
+            "vector"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Manager",
+              "label_hi": "मैनेजर"
+            },
+            {
+              "id": "B",
+              "label_en": "Colleague B",
+              "label_hi": "सहकर्मी"
+            },
+            {
+              "id": "C",
+              "label_en": "Colleague C",
+              "label_hi": "सहकर्मी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "टीम, मीटिंग आगे बढ़ गई है।",
+              "read_as": "ṭiim, miiṭiṁg aage baṛh gaii hai.",
+              "english": "Team, the meeting's been pushed back."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "कितने बजे की हो गई?",
+              "read_as": "kitne baje kii ho gaii?",
+              "english": "What time is it now?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "बारह बजे के बाद, शायद एक बजे।",
+              "read_as": "baarah baje ke baad, shaayad ek baje.",
+              "english": "After twelve, probably one."
+            },
+            {
+              "n": 4,
+              "speaker": "C",
+              "hindi": "मुझे एक बजे कॉल है।",
+              "read_as": "mujhe ek baje kôl hai.",
+              "english": "I've got a call at one."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "तो डेढ़ बजे कर देते हैं।",
+              "read_as": "to ḍeṛh baje kar dete haiṁ.",
+              "english": "Let's make it half one then."
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "ठीक है, कैलेंडर में डाल दीजिए।",
+              "read_as": "ṭhiik hai, kaileṁḍar meṁ ḍaal diijie.",
+              "english": "Fine, put it in the calendar."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बजे and डेढ़ — telling the time in an office",
+              "explanation_en": "बारह बजे के बाद, डेढ़ बजे. बजे is the oblique of बजा and clock times never appear in any other form. डेढ़ is one and a half, so डेढ़ बजे is half past one — the same fraction words you met negotiating an auto fare in level 7, now doing calendar work. Note मीटिंग आगे बढ़ गई है: आगे बढ़ना for a meeting means moved later, which is the opposite of what \"pushed forward\" suggests to an English ear.",
+              "listening_notes": [
+                "कितने बजे की हो गई? — की because मीटिंग is feminine, and the noun after it is dropped entirely.",
+                "डेढ़ बजे कर देते हैं — present tense proposing, with the देना vector making it settled.",
+                "कैलेंडर में डाल दीजिए — में for putting something inside, and the देना vector again."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What time does the meeting end up at?",
+              "options": [
+                "Half past one",
+                "It is postponed to another day",
+                "Twelve",
+                "One"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 5: तो डेढ़ बजे कर देते हैं — because C has a call at one."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "बजे",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "बारह ___ के बाद, शायद एक बजे।",
+              "question_read_as": "baarah ___ ke baad, shaayad ek baje.",
+              "options": [
+                "बजी",
+                "बजा",
+                "बजे",
+                "बजों"
+              ],
+              "options_read_as": [
+                "bajii",
+                "bajaa",
+                "baje",
+                "bajoṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "बजा goes oblique to बजे before के बाद — and clock times are always in that form anyway."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Three voices, open-plan office. Line 4 cuts in slightly early."
+          }
+        },
+        {
+          "id": "M12-L28-I2",
+          "type": "dialogue",
+          "target": "अमित से करवा लिया",
+          "title_en": "Assigning a task",
+          "setting": "office",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "office",
+            "causative_agent",
+            "ne",
+            "se_agent",
+            "module11_link"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Manager",
+              "label_hi": "मैनेजर"
+            },
+            {
+              "id": "B",
+              "label_en": "Team lead",
+              "label_hi": "टीम लीड"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "ये रिपोर्ट कौन देख रहा है?",
+              "read_as": "ye riporṭ kaun dekh rahaa hai?",
+              "english": "Who's handling this report?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "मैंने अमित से करवा लिया है।",
+              "read_as": "maiṁne amit se karvaa liyaa hai.",
+              "english": "I've had Amit do it."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "कब तक मिलेगी?",
+              "read_as": "kab tak milegii?",
+              "english": "When will we get it?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "कल शाम तक।",
+              "read_as": "kal shaam tak.",
+              "english": "By tomorrow evening."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ठीक है, मुझे भी भेज देना।",
+              "read_as": "ṭhiik hai, mujhe bhii bhej denaa.",
+              "english": "Fine, send it to me too."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "अमित से करवा लिया — two people, two markings",
+              "explanation_en": "मैंने अमित से करवा लिया है — I had Amit do it. The causative agent takes से, exactly as Module 11 said, and the speaker still takes ने because करवाना is transitive. Two people in one short clause, marked differently: ने on the one who arranged it, से on the one who actually did it. Note the लेना vector as well, quietly saying the arranging was for the speaker's own benefit rather than Amit's.",
+              "listening_notes": [
+                "कब तक मिलेगी? — मिलेगी is feminine because रिपोर्ट is, and तक marks a deadline.",
+                "कल शाम तक — three words and a complete answer.",
+                "भेज देना — the infinitive as a soft instruction, with the देना vector for sending it outward."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Who actually did the report?",
+              "options": [
+                "Nobody yet",
+                "The manager",
+                "The team lead",
+                "Amit"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 2: मैंने अमित से करवा लिया है — से marks Amit as the one who did it."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "मैंने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "___ अमित से करवा लिया है।",
+              "question_read_as": "___ amit se karvaa liyaa hai.",
+              "options": [
+                "मैं",
+                "मैंने",
+                "मुझे",
+                "मेरा"
+              ],
+              "options_read_as": [
+                "maiṁ",
+                "maiṁne",
+                "mujhe",
+                "meraa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "करवाना is transitive and the tense is perfective, so the arranger takes ने."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Brisk. Line 4 is three words and almost thrown away."
+          }
+        },
+        {
+          "id": "M12-L28-I3",
+          "type": "dialogue",
+          "target": "मेरे हिसाब से",
+          "title_en": "Disagreeing politely",
+          "setting": "office",
+          "speed": "normal",
+          "difficulty": 9,
+          "tags": [
+            "office",
+            "hisaab_se",
+            "disagreement",
+            "subjunctive",
+            "register"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Colleague A",
+              "label_hi": "सहकर्मी"
+            },
+            {
+              "id": "B",
+              "label_en": "Colleague B",
+              "label_hi": "सहकर्मी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "मेरे हिसाब से ये तारीख़ जल्दी है।",
+              "read_as": "mere hisaab se ye taariiḳh jaldii hai.",
+              "english": "To my mind that date's too soon."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "क्यों, क्या दिक़्क़त है?",
+              "read_as": "kyoṁ, kyaa diqqat hai?",
+              "english": "Why, what's the issue?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "टेस्टिंग का समय नहीं मिलेगा।",
+              "read_as": "ṭesṭiṁg kaa samay nahiiṁ milegaa.",
+              "english": "We won't get time for testing."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हम्म। एक हफ़्ता और ले लें?",
+              "read_as": "hamm. ek haftaa aur le leṁ?",
+              "english": "Hmm. Shall we take another week?"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "उतना काफ़ी होगा।",
+              "read_as": "utnaa kaafii hogaa.",
+              "english": "That'd be enough."
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "ठीक है, मैं क्लाइंट को बता देती हूँ।",
+              "read_as": "ṭhiik hai, maiṁ klaainṭ ko bataa detii huuṁ.",
+              "english": "Fine, I'll tell the client."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मेरे हिसाब से — disagreeing without saying no",
+              "explanation_en": "मेरे हिसाब से is \"by my reckoning\", and it is how a disagreement opens in a professional setting. It frames the objection as your own view rather than a correction, which is the same move the restaurant complaint made in level 16: state your position, leave the conclusion unsaid, let the other person draw it. Note that the phrase takes both के and से around हिसाब, and the possessive in front goes oblique to मेरे — the whole thing is fixed and worth learning as one unit.",
+              "listening_notes": [
+                "एक हफ़्ता और ले लें? — subjunctive proposing, with और meaning \"more\" rather than \"and\".",
+                "उतना काफ़ी होगा — उतना, \"that much\", answering एक हफ़्ता without repeating it.",
+                "क्लाइंट को बता देती हूँ — a female speaker, and the person told takes को."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What is A's objection?",
+              "options": [
+                "The budget is short",
+                "The client will not agree",
+                "There will be no time for testing",
+                "The team is too small"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 3: टेस्टिंग का समय नहीं मिलेगा."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 1,
+              "masked_token": "से",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "मेरे हिसाब ___ ये तारीख़ जल्दी है।",
+              "question_read_as": "mere hisaab ___ ye taariiḳh jaldii hai.",
+              "options": [
+                "से",
+                "में",
+                "को",
+                "पर"
+              ],
+              "options_read_as": [
+                "se",
+                "meṁ",
+                "ko",
+                "par"
+              ],
+              "answer_index": 0,
+              "explanation_en": "के हिसाब से is a fixed phrase — by the reckoning of."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Neither is defensive. Line 4's हम्म is a real pause for thought."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Clock times are always बजे, and the fraction words from the auto fare come back for calendars. A causative marks two people differently in one clause: ने on the arranger, से on the doer. And मेरे हिसाब से opens a disagreement as an opinion rather than a correction.",
+        "key_forms": [
+          "डेढ़ बजे",
+          "अमित से करवा लिया",
+          "मेरे हिसाब से"
+        ],
+        "next_up_en": "Next: deadlines, extensions, and a missing attachment."
+      }
+    },
+    {
+      "level": 29,
+      "title_en": "Deadlines",
+      "title_hi": "डेडलाइन",
+      "items": [
+        {
+          "id": "M12-L29-I1",
+          "type": "dialogue",
+          "target": "नहीं कर पाया",
+          "title_en": "Chasing a deadline",
+          "setting": "office",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "office",
+            "paanaa",
+            "register",
+            "word_order",
+            "tak"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Colleague A",
+              "label_hi": "सहकर्मी"
+            },
+            {
+              "id": "B",
+              "label_en": "Colleague B",
+              "label_hi": "सहकर्मी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "वो फ़ाइल भेजी थी आपने?",
+              "read_as": "vo faail bhejii thii aapne?",
+              "english": "Did you send that file?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "नहीं, कल नहीं कर पाया।",
+              "read_as": "nahiiṁ, kal nahiiṁ kar paayaa.",
+              "english": "No, I couldn't manage it yesterday."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "आज हो जाएगा? क्लाइंट पूछ रहा है।",
+              "read_as": "aaj ho jaaegaa? klaainṭ puuchh rahaa hai.",
+              "english": "Will it be done today? The client's asking."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हाँ, दोपहर तक भेज दूँगा।",
+              "read_as": "haaṁ, dopahar tak bhej duuṁgaa.",
+              "english": "Yes, I'll send it by the afternoon."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ठीक है, मैं बता देता हूँ।",
+              "read_as": "ṭhiik hai, maiṁ bataa detaa huuṁ.",
+              "english": "Fine, I'll let them know."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "नहीं कर पाया — the apologetic negative",
+              "explanation_en": "कल नहीं कर पाया is \"I couldn't manage it yesterday\". पाना from Module 11 points at circumstances rather than at capability, which is exactly why it is the form you reach for when explaining a missed deadline to a colleague. नहीं कर सका would suggest you were incapable of it; नहीं किया would suggest you chose not to. Three grammatically correct options, and the one you pick carries real weight in an office.",
+              "listening_notes": [
+                "वो फ़ाइल भेजी थी आपने? — the ने-subject at the end again, and भेजी feminine because फ़ाइल is.",
+                "दोपहर तक — तक for a deadline: by the afternoon, not until it.",
+                "मैं बता देता हूँ — present tense for something about to happen."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "When will the file be sent?",
+              "options": [
+                "It was sent yesterday",
+                "By this afternoon",
+                "Tomorrow morning",
+                "Once the client asks again"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 4: दोपहर तक भेज दूँगा."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "पाया",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "नहीं, कल नहीं कर ___ ।",
+              "question_read_as": "nahiiṁ, kal nahiiṁ kar ___ .",
+              "options": [
+                "पाई",
+                "पाए",
+                "पाईं",
+                "पाया"
+              ],
+              "options_read_as": [
+                "paaii",
+                "paae",
+                "paaiiṁ",
+                "paayaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "A male speaker, and पाना never takes ने, so the verb agrees with him."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 2 is slightly sheepish. Line 3 applies pressure without raising the voice."
+          }
+        },
+        {
+          "id": "M12-L29-I2",
+          "type": "dialogue",
+          "target": "सोमवार तक",
+          "title_en": "Asking for an extension",
+          "setting": "office",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "office",
+            "tak",
+            "impersonal",
+            "oblique_fused",
+            "ellipsis"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Employee",
+              "label_hi": "कर्मचारी"
+            },
+            {
+              "id": "B",
+              "label_en": "Manager",
+              "label_hi": "मैनेजर"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "सर, थोड़ा और समय मिल सकता है?",
+              "read_as": "sar, thoṛaa aur samay mil saktaa hai?",
+              "english": "Could I get a little more time?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "कब तक चाहिए?",
+              "read_as": "kab tak chaahie?",
+              "english": "By when do you need it?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "सोमवार तक हो जाएगा।",
+              "read_as": "somvaar tak ho jaaegaa.",
+              "english": "It'll be done by Monday."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "ठीक है, पर उसके बाद नहीं।",
+              "read_as": "ṭhiik hai, par uske baad nahiiṁ.",
+              "english": "All right, but not after that."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "जी, समझ गया।",
+              "read_as": "jii, samajh gayaa.",
+              "english": "Yes, understood."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तक — by, and as far as",
+              "explanation_en": "तक marks the far end of something. सोमवार तक, by Monday. स्टेशन तक, as far as the station, back in level 7. दोपहर तक in the last dialogue. English splits this into \"by\" for time and \"until\" or \"as far as\" for space, and Hindi does not bother — the far end is the far end, whatever kind of thing it is the far end of. Note उसके बाद, \"after that\", where वह goes oblique to उस and fuses with के.",
+              "listening_notes": [
+                "मिल सकता है? — impersonal again, \"can time be got\", softer than मैं ले सकता हूँ.",
+                "कब तक चाहिए? is four words asking a very precise question.",
+                "उसके बाद नहीं — no verb at all in the refusal, which makes it firmer rather than softer."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What is the new deadline?",
+              "options": [
+                "Monday",
+                "Next month",
+                "No extension is given",
+                "Tomorrow"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 3: सोमवार तक हो जाएगा — and the manager accepts."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "तक",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "सोमवार ___ हो जाएगा।",
+              "question_read_as": "somvaar ___ ho jaaegaa.",
+              "options": [
+                "में",
+                "पर",
+                "तक",
+                "से"
+              ],
+              "options_read_as": [
+                "meṁ",
+                "par",
+                "tak",
+                "se"
+              ],
+              "answer_index": 2,
+              "explanation_en": "तक for the far end — by Monday. से would say starting from Monday."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 4 is friendly but final. The pause before it does most of the work."
+          }
+        },
+        {
+          "id": "M12-L29-I3",
+          "type": "dialogue",
+          "target": "मैंने तो लगाया था",
+          "title_en": "The missing attachment",
+          "setting": "office",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "office",
+            "emphatic_to",
+            "ne",
+            "vector",
+            "module12_callback"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Sender",
+              "label_hi": "भेजने वाला"
+            },
+            {
+              "id": "B",
+              "label_en": "Recipient",
+              "label_hi": "पाने वाला"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "मेल मिल गया?",
+              "read_as": "mel mil gayaa?",
+              "english": "Did you get the mail?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "हाँ, पर अटैचमेंट नहीं था।",
+              "read_as": "haaṁ, par aṭaichmenṭ nahiiṁ thaa.",
+              "english": "Yes, but there was no attachment."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "अरे! मैंने तो लगाया था।",
+              "read_as": "are! maiṁne to lagaayaa thaa.",
+              "english": "Oh! I did attach it."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "फिर से भेज दीजिए।",
+              "read_as": "phir se bhej diijie.",
+              "english": "Send it again."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "अभी भेजता हूँ, माफ़ कीजिए।",
+              "read_as": "abhii bhejtaa huuṁ, maaf kiijie.",
+              "english": "Sending it now, sorry."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मैंने तो लगाया था — तो carrying the protest",
+              "explanation_en": "मैंने तो लगाया था is \"but I DID attach it\". तो carries the emphasis that English puts on the verb by stressing it, exactly as दी तो थी did in the corner shop back in level 3. Hindi almost never stresses a syllable to make a point; it inserts a word instead. Twenty-six levels apart, the same syllable doing the same job — and it remains the single most missable thing in spoken Hindi for an English ear, because the ear is listening for stress that never arrives.",
+              "listening_notes": [
+                "मेल मिल गया? — मिलना for receiving, with the जाना vector. No ने, because both halves are intransitive.",
+                "फिर से — \"again\". फिर on its own means \"then\"; फिर से means once more.",
+                "अभी भेजता हूँ — present tense doing immediate future, as it has all through this module."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What was wrong with the email?",
+              "options": [
+                "It never arrived",
+                "It was in the wrong format",
+                "It went to the wrong person",
+                "The attachment was missing"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 2: पर अटैचमेंट नहीं था."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "मैंने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "अरे! ___ तो लगाया था।",
+              "question_read_as": "are! ___ to lagaayaa thaa.",
+              "options": [
+                "मैं",
+                "मैंने",
+                "मुझे",
+                "मेरा"
+              ],
+              "options_read_as": [
+                "maiṁ",
+                "maiṁne",
+                "mujhe",
+                "meraa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "लगाना is transitive and the tense is perfective, so ने."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 3 must carry real protest — the तो is where it lives, not the verb."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "पाना is the apologetic negative — नहीं कर पाया blames circumstances where सका would blame you and किया would blame your choice. तक marks the far end of time or space alike. And तो carries emphasis where English would stress the verb.",
+        "key_forms": [
+          "नहीं कर पाया",
+          "सोमवार तक",
+          "मैंने तो लगाया था"
+        ],
+        "next_up_en": "Next: taking leave, handing over, and coming back to a pile of work."
+      }
+    },
+    {
+      "level": 30,
+      "title_en": "Taking leave",
+      "title_hi": "छुट्टी",
+      "items": [
+        {
+          "id": "M12-L30-I1",
+          "type": "dialogue",
+          "target": "चार दिनों की छुट्टी",
+          "title_en": "Applying for leave",
+          "setting": "office",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "office",
+            "oblique_plural",
+            "se_tak",
+            "counted_nouns",
+            "genitive"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Employee",
+              "label_hi": "कर्मचारी"
+            },
+            {
+              "id": "B",
+              "label_en": "Manager",
+              "label_hi": "मैनेजर"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "सर, चार दिनों की छुट्टी चाहिए।",
+              "read_as": "sar, chaar dinoṁ kii chhuṭṭii chaahie.",
+              "english": "Sir, I need four days' leave."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "कब से कब तक?",
+              "read_as": "kab se kab tak?",
+              "english": "From when to when?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "सोमवार से गुरुवार तक।",
+              "read_as": "somvaar se guruvaar tak.",
+              "english": "Monday to Thursday."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "प्रोजेक्ट का क्या होगा?",
+              "read_as": "projekṭ kaa kyaa hogaa?",
+              "english": "What about the project?"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "सब हैंडओवर कर दूँगा।",
+              "read_as": "sab hainḍovar kar duuṁgaa.",
+              "english": "I'll hand everything over."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "चार दिनों की छुट्टी — and चार दिन की, which is also right",
+              "explanation_en": "दिन goes oblique to दिनों because की follows it. But you will also hear चार दिन की छुट्टी, and that is equally correct — a counted noun after a specific number can stay unmarked, as it did with तीन-चार दिन से at the clinic in level 19. Both forms are current; the fuller one sounds a shade more careful. And कब से कब तक? is the standard four-word question for any period at all, from a leave request to a train journey.",
+              "listening_notes": [
+                "सोमवार से गुरुवार तक — से and तक marking the two ends, exactly as they did with journeys in level 9.",
+                "प्रोजेक्ट का क्या होगा? — literally \"what will happen of the project\". Hindi puts the thing in the genitive rather than making a person responsible.",
+                "हैंडओवर कर दूँगा — another English noun through करना, with the देना vector."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How long is the leave, and when?",
+              "options": [
+                "A week from Monday",
+                "Four days, but the dates are not fixed",
+                "Four days, Monday to Thursday",
+                "Three days, Monday to Wednesday"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Lines 1 and 3: चार दिनों की छुट्टी, सोमवार से गुरुवार तक."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 1,
+              "masked_token": "दिनों",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "सर, चार ___ की छुट्टी चाहिए।",
+              "question_read_as": "sar, chaar ___ kii chhuṭṭii chaahie.",
+              "options": [
+                "दिनों",
+                "दिनें",
+                "दिनो",
+                "दिन"
+              ],
+              "options_read_as": [
+                "dinoṁ",
+                "dineṁ",
+                "dino",
+                "din"
+              ],
+              "answer_index": 0,
+              "explanation_en": "की is a postposition, so दिन goes oblique — though चार दिन की is also heard."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 4 is the only pointed moment. Everything else is routine."
+          }
+        },
+        {
+          "id": "M12-L30-I2",
+          "type": "dialogue",
+          "target": "प्रिया को सब समझा दीजिए",
+          "title_en": "Handing over",
+          "setting": "office",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "office",
+            "causative",
+            "ko_person",
+            "feminine_plural",
+            "nasal_shift"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Manager",
+              "label_hi": "मैनेजर"
+            },
+            {
+              "id": "B",
+              "label_en": "Employee",
+              "label_hi": "कर्मचारी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "जाने से पहले प्रिया को सब समझा दीजिए।",
+              "read_as": "jaane se pahle priyaa ko sab samjhaa diijie.",
+              "english": "Before you go, brief Priya on everything."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "हाँ, कल बता दूँगा उसे।",
+              "read_as": "haaṁ, kal bataa duuṁgaa use.",
+              "english": "Yes, I'll go through it with her tomorrow."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "फ़ाइलें भी शेयर कर दीजिए।",
+              "read_as": "faaileṁ bhii sheyar kar diijie.",
+              "english": "Share the files too."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "कर दी हैं, ड्राइव पर।",
+              "read_as": "kar dii haiṁ, ḍraaiv par.",
+              "english": "Done, on the drive."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "अच्छा। और क्लाइंट को बता दिया?",
+              "read_as": "acchaa. aur klaainṭ ko bataa diyaa?",
+              "english": "Good. And have you told the client?"
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "हाँ, कल ही मेल कर दिया था।",
+              "read_as": "haaṁ, kal hii mel kar diyaa thaa.",
+              "english": "Yes, I mailed them yesterday."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "समझा दीजिए — the causative of understanding",
+              "explanation_en": "समझाना is the causative of समझना — to cause somebody to understand, which is to say, to explain. The person you explain to takes को: प्रिया को समझा दीजिए. That is the Module 11 rule about the person acted on, doing ordinary office work. Note फ़ाइलें कर दी हैं in line 4: feminine plural with an auxiliary, so the nasal sits on हैं and the participle stays plain दी — the rule from the restaurant bill in level 16, turning up for the third time.",
+              "listening_notes": [
+                "जाने से पहले — the oblique infinitive before से पहले.",
+                "बता दूँगा उसे — the object moved to the end, which is emphatic and entirely normal.",
+                "कल ही मेल कर दिया था — ही for \"as early as yesterday\"."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What has he already done?",
+              "options": [
+                "Nothing yet",
+                "Shared the files and mailed the client",
+                "Briefed Priya",
+                "Only mailed the client"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Lines 4 and 6. Priya is still to be briefed, tomorrow."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 1,
+              "masked_token": "को",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "जाने से पहले प्रिया ___ सब समझा दीजिए।",
+              "question_read_as": "jaane se pahle priyaa ___ sab samjhaa diijie.",
+              "options": [
+                "से",
+                "का",
+                "में",
+                "को"
+              ],
+              "options_read_as": [
+                "se",
+                "kaa",
+                "meṁ",
+                "ko"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The person being explained to takes को. से would make Priya the one doing the explaining."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Line 4 is two words and slightly pleased with itself."
+          }
+        },
+        {
+          "id": "M12-L30-I3",
+          "type": "dialogue",
+          "target": "दो मीटिंग हुई थीं",
+          "title_en": "Back from leave",
+          "setting": "office",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "office",
+            "feminine_plural",
+            "nasal_retained",
+            "past_perfect",
+            "module9_link"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Colleague",
+              "label_hi": "सहकर्मी"
+            },
+            {
+              "id": "B",
+              "label_en": "Returning employee",
+              "label_hi": "कर्मचारी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "वापस आ गए! कैसी रही छुट्टी?",
+              "read_as": "vaapas aa gae! kaisii rahii chhuṭṭii?",
+              "english": "You're back! How was the leave?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "बढ़िया। पर काम बहुत जमा हो गया है।",
+              "read_as": "baṛhiyaa. par kaam bahut jamaa ho gayaa hai.",
+              "english": "Great. But a lot of work's piled up."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "हाँ, दो मीटिंग हुई थीं। नोट्स भेज दिए हैं।",
+              "read_as": "haaṁ, do miiṭiṁg huii thiiṁ. noṭs bhej die haiṁ.",
+              "english": "Yes, there were two meetings. I've sent the notes."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "शुक्रिया, आज ही देख लूँगा।",
+              "read_as": "shukriyaa, aaj hii dekh luuṁgaa.",
+              "english": "Thanks, I'll look at them today."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "कोई जल्दी नहीं।",
+              "read_as": "koii jaldii nahiiṁ.",
+              "english": "No rush."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "हुई थीं — the nasal on the last word, for the third time",
+              "explanation_en": "दो मीटिंग हुई थीं. मीटिंग is feminine and plural, so the participle is हुई and the auxiliary थीं carries the nasal. That is the same rule as रोटियाँ लिखी हैं in level 16 and बनाईं in level 18, now appearing in the past perfect. Three sightings across the module, each in a different tense, and the rule has not moved an inch: the nasal lands on the last word of the verb phrase, whichever word that happens to be.",
+              "listening_notes": [
+                "कैसी रही छुट्टी? — छुट्टी is feminine, so कैसी and रही. The subject arrives last, which is normal in a question like this.",
+                "काम जमा हो गया है — the work \"gathers\" rather than being piled up by anybody.",
+                "आज ही देख लूँगा — ही for \"this very day\", and the लेना vector for doing it for your own sake."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What happened while he was away?",
+              "options": [
+                "Two meetings, and the notes have been sent",
+                "The project was cancelled",
+                "A client visited",
+                "Nothing much"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 3: दो मीटिंग हुई थीं। नोट्स भेज दिए हैं."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "थीं",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "हाँ, दो मीटिंग हुई ___ । नोट्स भेज दिए हैं।",
+              "question_read_as": "haaṁ, do miiṭiṁg huii ___ . noṭs bhej die haiṁ.",
+              "options": [
+                "थी",
+                "थे",
+                "थीं",
+                "था"
+              ],
+              "options_read_as": [
+                "thii",
+                "the",
+                "thiiṁ",
+                "thaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "मीटिंग is feminine plural, and the auxiliary carries the nasal while the participle stays plain हुई."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Warm. Line 5 is genuinely meant, not a formality."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A counted noun can go oblique or stay unmarked before a postposition — चार दिनों की and चार दिन की are both right. समझाना is the causative of understanding, with the person explained to taking को. And the feminine plural nasal lands on the last word of the verb phrase for the third time, now in the past perfect: हुई थीं.",
+        "key_forms": [
+          "कब से कब तक?",
+          "समझा दीजिए",
+          "हुई थीं"
+        ],
+        "next_up_en": "Next: visiting someone's home, and being refused tea until you accept it."
+      }
+    }
+  ]
+}

@@ -1,0 +1,1726 @@
+{
+  "module": 8,
+  "module_name_en": "Core Words II",
+  "module_name_hi": "शब्द भंडार २",
+  "phase": 4,
+  "type": "word",
+  "batch": {
+    "levels_from": 36,
+    "levels_to": 40
+  },
+  "learner_knows_through_module": 7,
+  "levels": [
+    {
+      "level": 36,
+      "title_en": "People: friends and neighbours",
+      "title_hi": "दोस्त · दोस्ती · पड़ोसी",
+      "category": "relationships_society",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L36-I1",
+          "type": "word",
+          "target": "दोस्त",
+          "read_as": "dost",
+          "pronunciation_notes": "One syllable ending in a consonant cluster with no vowel after it: dost.",
+          "gloss_en": "friend",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "दोस्त",
+          "plural_read_as": "dost",
+          "collocation": {
+            "hindi": "दोस्त बनना",
+            "read_as": "dost bannaa",
+            "english": "to become friends"
+          },
+          "category": "relationships_society",
+          "difficulty": 5,
+          "tags": [
+            "relationships_society",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "class_2",
+            "persian_origin",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "दोस्त is masculine whoever it refers to",
+              "explanation_en": "दोस्त is a friend, a Persian borrowing, masculine as a word and Class 2 so it never changes. The gender belongs to the word rather than the person: a woman friend is still मेरा दोस्त for many speakers, though मेरी दोस्त is also heard and increasingly common. There is a separate feminine सहेली for a woman's female friend. The verb is बनना, to become — दोस्त बनना, to become friends — and बनना is intransitive, so the perfective works now.",
+              "examples": [
+                {
+                  "hindi": "वह मेरा दोस्त है",
+                  "read_as": "vah meraa dost hai",
+                  "english": "he is my friend",
+                  "note": "मेरा is masculine, agreeing with the word दोस्त."
+                },
+                {
+                  "hindi": "हम दोस्त बने",
+                  "read_as": "ham dost bane",
+                  "english": "we became friends",
+                  "note": "बनना is intransitive, so the bare perfective is available."
+                },
+                {
+                  "hindi": "दोस्तों के साथ",
+                  "read_as": "dostoṁ ke saath",
+                  "english": "with friends",
+                  "note": "The Class 2 oblique plural takes plain -ों."
+                }
+              ],
+              "common_error": {
+                "wrong": "दोस्तें",
+                "right": "दोस्त",
+                "why_en": "दोस्त is masculine and Class 2, so the direct plural is identical to the singular. -ें is a feminine ending."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दोस्त",
+              "question_read_as": "dost",
+              "options": [
+                "neighbour",
+                "friend",
+                "guest",
+                "relative"
+              ],
+              "options_read_as": [
+                "neighbour",
+                "friend",
+                "guest",
+                "relative"
+              ],
+              "answer_index": 1,
+              "explanation_en": "दोस्त is a friend, masculine as a word, and unchanged in the plural."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with दोस्त?",
+              "options": [
+                "बनना",
+                "करना",
+                "लगना",
+                "मिलना"
+              ],
+              "options_read_as": [
+                "bannaa",
+                "karnaa",
+                "lagnaa",
+                "milnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "दोस्त बनना — to become friends. बनाना would mean making someone your friend deliberately."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दोस्त",
+              "वह मेरा दोस्त है",
+              "हम दोस्त बने",
+              "दोस्तों के साथ"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L36-I2",
+          "type": "word",
+          "target": "दोस्ती",
+          "read_as": "dostii",
+          "pronunciation_notes": "The cluster stays tight and the ending is long: dos-tii.",
+          "gloss_en": "friendship",
+          "gender": "f",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "दोस्ती करना",
+            "read_as": "dostii karnaa",
+            "english": "to make friends"
+          },
+          "category": "relationships_society",
+          "difficulty": 6,
+          "tags": [
+            "relationships_society",
+            "noun",
+            "feminine",
+            "derived_noun",
+            "ii_suffix"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The -ी suffix again, and always feminine",
+              "explanation_en": "दोस्ती is friendship, formed from दोस्त with the same -ी suffix that gave ख़ुशी from ख़ुश and ज़िम्मेदारी from ज़िम्मेदार. Everything that suffix makes is feminine, so the gender is fully predictable. दोस्ती करना is to make friends with someone, and the person takes से: उससे दोस्ती करो. That से is the same one that goes with प्यार करना and बात करना — relationships in Hindi are formed with someone rather than to them.",
+              "examples": [
+                {
+                  "hindi": "हमारी दोस्ती पुरानी है",
+                  "read_as": "hamaarii dostii puraanii hai",
+                  "english": "our friendship is an old one",
+                  "note": "Both हमारी and पुरानी are feminine, agreeing with दोस्ती."
+                },
+                {
+                  "hindi": "उससे दोस्ती करो",
+                  "read_as": "usse dostii karo",
+                  "english": "make friends with him",
+                  "note": "उससे is वह fused with से — relationships take से."
+                },
+                {
+                  "hindi": "दोस्ती अच्छी चीज़ है",
+                  "read_as": "dostii achchhii chiiz hai",
+                  "english": "friendship is a good thing",
+                  "note": "चीज़ is feminine too, so अच्छी agrees with it."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसको दोस्ती करो",
+                "right": "उससे दोस्ती करो",
+                "why_en": "दोस्ती करना takes से for the other person, like प्यार करना and बात करना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दोस्ती",
+              "question_read_as": "dostii",
+              "options": [
+                "trust",
+                "company",
+                "kindness",
+                "friendship"
+              ],
+              "options_read_as": [
+                "trust",
+                "company",
+                "kindness",
+                "friendship"
+              ],
+              "answer_index": 3,
+              "explanation_en": "दोस्ती is friendship, formed from दोस्त with the feminine -ी suffix."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition marks the other person in दोस्ती करना?",
+              "options": [
+                "को",
+                "में",
+                "से",
+                "पर"
+              ],
+              "options_read_as": [
+                "ko",
+                "meṁ",
+                "se",
+                "par"
+              ],
+              "answer_index": 2,
+              "explanation_en": "उससे दोस्ती करना — relationships are formed with someone, using से."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दोस्ती",
+              "हमारी दोस्ती पुरानी है",
+              "उससे दोस्ती करो",
+              "दोस्ती अच्छी चीज़ है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L36-I3",
+          "type": "word",
+          "target": "पड़ोसी",
+          "read_as": "paṛosii",
+          "pronunciation_notes": "The ड़ is a flap and the word ends on a long ii: pa-ṛo-sii.",
+          "gloss_en": "neighbour",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "पड़ोसी",
+          "plural_read_as": "paṛosii",
+          "collocation": {
+            "hindi": "पड़ोसी से मिलना",
+            "read_as": "paṛosii se milnaa",
+            "english": "to meet a neighbour"
+          },
+          "category": "relationships_society",
+          "difficulty": 7,
+          "tags": [
+            "relationships_society",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "ending_trap",
+            "class_3",
+            "masculine_ii"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A masculine noun ending in -ी",
+              "explanation_en": "पड़ोसी ends in -ी and is masculine, which is the mirror image of चिंता and हवा. There is a whole family of these — पड़ोसी, माली, धोबी, हाथी, साथी, आदमी — and most of them name a person or an animal by what they do. They are Class 3 from Module 6, so the singular does not change and the plural oblique is पड़ोसियों. Between the feminine -ा nouns and the masculine -ी nouns, both endings now have exceptions, which is why the flag exists at all.",
+              "examples": [
+                {
+                  "hindi": "मेरा पड़ोसी अच्छा है",
+                  "read_as": "meraa paṛosii achchhaa hai",
+                  "english": "my neighbour is nice",
+                  "note": "Both मेरा and अच्छा are masculine, despite the -ी ending."
+                },
+                {
+                  "hindi": "पड़ोसी से मिलो",
+                  "read_as": "paṛosii se milo",
+                  "english": "meet the neighbour",
+                  "note": "मिलना takes से for the person met."
+                },
+                {
+                  "hindi": "पड़ोसियों के साथ",
+                  "read_as": "paṛosiyoṁ ke saath",
+                  "english": "with the neighbours",
+                  "note": "The Class 3 oblique plural — the ी shortens and य appears."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेरी पड़ोसी अच्छी है",
+                "right": "मेरा पड़ोसी अच्छा है",
+                "why_en": "The -ी ending suggests feminine and is wrong here. पड़ोसी is masculine, like आदमी and हाथी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पड़ोसी",
+              "question_read_as": "paṛosii",
+              "options": [
+                "neighbour",
+                "stranger",
+                "relative",
+                "colleague"
+              ],
+              "options_read_as": [
+                "neighbour",
+                "stranger",
+                "relative",
+                "colleague"
+              ],
+              "answer_index": 0,
+              "explanation_en": "पड़ोसी is a neighbour, and it is masculine despite ending in -ी."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition goes with पड़ोसी when you meet them?",
+              "options": [
+                "को",
+                "पर",
+                "में",
+                "से"
+              ],
+              "options_read_as": [
+                "ko",
+                "par",
+                "meṁ",
+                "se"
+              ],
+              "answer_index": 3,
+              "explanation_en": "पड़ोसी से मिलना — मिलना takes से for the person you meet."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पड़ोसी",
+              "मेरा पड़ोसी अच्छा है",
+              "पड़ोसी से मिलो",
+              "पड़ोसियों के साथ"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "पड़ोसी is masculine despite ending in -ी, and it belongs to a family — माली, धोबी, साथी, आदमी — that mirrors the feminine -ा nouns from earlier in this module. Both endings have exceptions, which is exactly why every noun carries a gender flag.",
+        "key_forms": [
+          "दोस्त बनना",
+          "दोस्ती करना",
+          "पड़ोसी से मिलना"
+        ],
+        "next_up_en": "Next: guests, weddings and relationships — three things Hindi has a lot to say about."
+      }
+    },
+    {
+      "level": 37,
+      "title_en": "People: guests, marriage, relationships",
+      "title_hi": "मेहमान · शादी · रिश्ता",
+      "category": "relationships_society",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L37-I1",
+          "type": "word",
+          "target": "मेहमान",
+          "read_as": "mehmaan",
+          "pronunciation_notes": "The ह is a light breath and the second syllable is long: meh-maan.",
+          "gloss_en": "guest",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "मेहमान",
+          "plural_read_as": "mehmaan",
+          "collocation": {
+            "hindi": "मेहमान आना",
+            "read_as": "mehmaan aanaa",
+            "english": "for guests to come"
+          },
+          "category": "relationships_society",
+          "difficulty": 6,
+          "tags": [
+            "relationships_society",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "class_2",
+            "persian_origin",
+            "cultural"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मेहमान carries more weight than guest",
+              "explanation_en": "मेहमान is a guest, masculine and Class 2. The word sits inside a cultural expectation English does not carry — मेहमान नवाज़ी, hospitality, is treated as a serious obligation, and the phrase अतिथि देवो भव, the guest is god, is quoted often enough to be a cliché. Practically, this means मेहमान आ रहे हैं is not a neutral announcement: it means the house is about to be cleaned and food is about to be cooked.",
+              "examples": [
+                {
+                  "hindi": "मेहमान आ रहे हैं",
+                  "read_as": "mehmaan aa rahe haiṁ",
+                  "english": "guests are coming",
+                  "note": "Plural agreement, which also covers one guest politely."
+                },
+                {
+                  "hindi": "मेहमान के लिए खाना बनाओ",
+                  "read_as": "mehmaan ke lie khaanaa banaao",
+                  "english": "cook food for the guest",
+                  "note": "के लिए for the person something is done for."
+                },
+                {
+                  "hindi": "वह हमारा मेहमान है",
+                  "read_as": "vah hamaaraa mehmaan hai",
+                  "english": "he is our guest",
+                  "note": "हमारा is masculine, agreeing with मेहमान."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेहमानें",
+                "right": "मेहमान",
+                "why_en": "मेहमान is masculine and Class 2, so the direct plural is identical to the singular."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "मेहमान",
+              "question_read_as": "mehmaan",
+              "options": [
+                "host",
+                "relative",
+                "guest",
+                "visitor's family"
+              ],
+              "options_read_as": [
+                "host",
+                "relative",
+                "guest",
+                "visitor's family"
+              ],
+              "answer_index": 2,
+              "explanation_en": "मेहमान is a guest, masculine, and unchanged in the plural."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with मेहमान?",
+              "options": [
+                "करना",
+                "आना",
+                "बनना",
+                "देना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "aanaa",
+                "bannaa",
+                "denaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "मेहमान आना — guests come. आना is intransitive, so every tense is available."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मेहमान",
+              "मेहमान आ रहे हैं",
+              "मेहमान के लिए खाना बनाओ",
+              "वह हमारा मेहमान है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L37-I2",
+          "type": "word",
+          "target": "शादी",
+          "read_as": "shaadii",
+          "pronunciation_notes": "Long aa in the first syllable and long ii in the second: shaa-dii.",
+          "gloss_en": "wedding, marriage",
+          "gender": "f",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "शादियाँ",
+          "plural_read_as": "shaadiyaaṁ",
+          "collocation": {
+            "hindi": "शादी होना",
+            "read_as": "shaadii honaa",
+            "english": "to get married"
+          },
+          "category": "relationships_society",
+          "difficulty": 6,
+          "tags": [
+            "relationships_society",
+            "noun",
+            "feminine",
+            "class_4",
+            "two_verbs",
+            "cultural",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "शादी होना and शादी करना say different things",
+              "explanation_en": "शादी is a wedding or a marriage, feminine and predictable from its -ी. Both its verbs are common and they carry different implications. उसकी शादी हुई — his marriage happened — is the neutral statement and is what you use for an arranged marriage or simply to report the fact. उसने शादी की — he married — puts him in charge of it. Given how many Indian marriages are arranged, होना is the more frequent of the two by a wide margin, and the person married takes से.",
+              "examples": [
+                {
+                  "hindi": "उसकी शादी हुई",
+                  "read_as": "uskii shaadii huii",
+                  "english": "he got married",
+                  "note": "हुई agrees with the feminine शादी, and होना is intransitive."
+                },
+                {
+                  "hindi": "शादी कब है?",
+                  "read_as": "shaadii kab hai?",
+                  "english": "when is the wedding?",
+                  "note": "The noun with होना in the present."
+                },
+                {
+                  "hindi": "उससे शादी करो",
+                  "read_as": "usse shaadii karo",
+                  "english": "marry her",
+                  "note": "The person married takes से, like दोस्ती and प्यार."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसको शादी करो",
+                "right": "उससे शादी करो",
+                "why_en": "शादी करना takes से for the person married, joining प्यार करना and दोस्ती करना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "शादी",
+              "question_read_as": "shaadii",
+              "options": [
+                "festival",
+                "ceremony",
+                "party",
+                "wedding"
+              ],
+              "options_read_as": [
+                "festival",
+                "ceremony",
+                "party",
+                "wedding"
+              ],
+              "answer_index": 3,
+              "explanation_en": "शादी is a wedding or marriage, feminine, and it takes both होना and करना."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb is the neutral way to report that someone got married?",
+              "options": [
+                "बनना",
+                "करना",
+                "होना",
+                "लगना"
+              ],
+              "options_read_as": [
+                "bannaa",
+                "karnaa",
+                "honaa",
+                "lagnaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "शादी होना — the marriage happened. करना puts the person in charge of arranging it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "शादी",
+              "उसकी शादी हुई",
+              "शादी कब है?",
+              "उससे शादी करो"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L37-I3",
+          "type": "word",
+          "target": "रिश्ता",
+          "read_as": "rishtaa",
+          "pronunciation_notes": "The श्त cluster runs together with no vowel between: rish-taa.",
+          "gloss_en": "relationship, connection; a marriage proposal",
+          "gender": "m",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "रिश्ते",
+          "plural_read_as": "rishte",
+          "collocation": {
+            "hindi": "रिश्ता होना",
+            "read_as": "rishtaa honaa",
+            "english": "to have a relationship"
+          },
+          "category": "relationships_society",
+          "difficulty": 7,
+          "tags": [
+            "relationships_society",
+            "noun",
+            "masculine",
+            "class_1",
+            "persian_origin",
+            "two_meanings",
+            "cultural"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "रिश्ता is both the bond and the proposal",
+              "explanation_en": "रिश्ता is a relationship or connection of any kind — family, friendship, business — and it is masculine and Class 1, so it becomes रिश्ते in the plural and रिश्तों before a postposition. It also has a specific second sense: a marriage proposal. रिश्ता आया means a proposal has come, which in context is unmistakable. The related word रिश्तेदार, using the -दार suffix from the shopping block, means a relative.",
+              "examples": [
+                {
+                  "hindi": "हमारा रिश्ता अच्छा है",
+                  "read_as": "hamaaraa rishtaa achchhaa hai",
+                  "english": "our relationship is good",
+                  "note": "Both words are masculine, agreeing with रिश्ता."
+                },
+                {
+                  "hindi": "रिश्तों में",
+                  "read_as": "rishtoṁ meṁ",
+                  "english": "in relationships",
+                  "note": "The Class 1 oblique plural, exactly like लड़कों."
+                },
+                {
+                  "hindi": "वह मेरा रिश्तेदार है",
+                  "read_as": "vah meraa rishtedaar hai",
+                  "english": "he is my relative",
+                  "note": "The -दार suffix again, as in दुकानदार and ज़िम्मेदार."
+                }
+              ],
+              "common_error": {
+                "wrong": "रिश्ता में",
+                "right": "रिश्ते में",
+                "why_en": "रिश्ता ends in -ा, so it is Class 1 and must go oblique before a postposition."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "रिश्ता",
+              "question_read_as": "rishtaa",
+              "options": [
+                "friendship",
+                "relationship",
+                "family",
+                "promise"
+              ],
+              "options_read_as": [
+                "friendship",
+                "relationship",
+                "family",
+                "promise"
+              ],
+              "answer_index": 1,
+              "explanation_en": "रिश्ता is a relationship or connection, and in context also a marriage proposal."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which suffix turns रिश्ता into the word for a relative?",
+              "options": [
+                "-दार",
+                "-ी",
+                "-वाला",
+                "-पन"
+              ],
+              "options_read_as": [
+                "-daar",
+                "-ii",
+                "-vaalaa",
+                "-pan"
+              ],
+              "answer_index": 0,
+              "explanation_en": "रिश्तेदार — the same -दार suffix as दुकानदार and ज़िम्मेदार."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "रिश्ता",
+              "हमारा रिश्ता अच्छा है",
+              "रिश्तों में",
+              "वह मेरा रिश्तेदार है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Relationships in Hindi are formed with someone using से — दोस्ती करना, प्यार करना, शादी करना all take it. शादी होना is the neutral report and शादी करना puts the person in charge, which is a distinction worth having.",
+        "key_forms": [
+          "मेहमान आना",
+          "शादी होना",
+          "रिश्ता होना"
+        ],
+        "next_up_en": "Next: help, trust and quarrels — including one postposition that catches out almost everyone."
+      }
+    },
+    {
+      "level": 38,
+      "title_en": "People: help, trust, conflict",
+      "title_hi": "मदद · भरोसा · झगड़ा",
+      "category": "relationships_society",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L38-I1",
+          "type": "word",
+          "target": "मदद",
+          "read_as": "madad",
+          "pronunciation_notes": "Two short flat syllables with no length anywhere: ma-dad.",
+          "gloss_en": "help",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "मदद करना",
+            "read_as": "madad karnaa",
+            "english": "to help"
+          },
+          "category": "relationships_society",
+          "difficulty": 7,
+          "tags": [
+            "relationships_society",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "possessive_object",
+            "arabic_origin",
+            "very_high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मेरी मदद करो — the person helped goes in the possessive",
+              "explanation_en": "This is the trap of the level. मदद करना is to help, and the person you help does not take को or से — they go into the possessive: मेरी मदद करो, help me, literally do my help. उसकी मदद करो, help him. That is because मदद is a noun and the person is the one whose help it is. The possessive agrees with मदद, which is feminine, so it is always मेरी, तुम्हारी, उसकी — never मेरा. Almost every learner says मुझे मदद करो first.",
+              "examples": [
+                {
+                  "hindi": "मेरी मदद करो",
+                  "read_as": "merii madad karo",
+                  "english": "help me",
+                  "note": "मेरी is feminine, agreeing with मदद rather than with me."
+                },
+                {
+                  "hindi": "उसकी मदद करो",
+                  "read_as": "uskii madad karo",
+                  "english": "help him",
+                  "note": "उसकी whoever the person is, since it agrees with मदद."
+                },
+                {
+                  "hindi": "मुझे मदद चाहिए",
+                  "read_as": "mujhe madad chaahie",
+                  "english": "I need help",
+                  "note": "Here मुझे is correct, because चाहिए takes को for the person who needs."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे मदद करो",
+                "right": "मेरी मदद करो",
+                "why_en": "The person helped goes in the possessive, not with को. This is the single most common error with this word."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "मदद",
+              "question_read_as": "madad",
+              "options": [
+                "advice",
+                "favour",
+                "help",
+                "support"
+              ],
+              "options_read_as": [
+                "advice",
+                "favour",
+                "help",
+                "support"
+              ],
+              "answer_index": 2,
+              "explanation_en": "मदद is help, feminine, and the person helped goes in the possessive."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "How do you say help me?",
+              "options": [
+                "मुझे मदद करो",
+                "मेरी मदद करो",
+                "मुझसे मदद करो",
+                "मेरा मदद करो"
+              ],
+              "options_read_as": [
+                "mujhe madad karo",
+                "merii madad karo",
+                "mujhse madad karo",
+                "meraa madad karo"
+              ],
+              "answer_index": 1,
+              "explanation_en": "मेरी मदद करो — the possessive, feminine because it agrees with मदद."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मदद",
+              "मेरी मदद करो",
+              "उसकी मदद करो",
+              "मुझे मदद चाहिए"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L38-I2",
+          "type": "word",
+          "target": "भरोसा",
+          "read_as": "bharosaa",
+          "pronunciation_notes": "Breathy bh at the front and the length on the last syllable: bha-ro-saa.",
+          "gloss_en": "trust, confidence, reliance",
+          "gender": "m",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "भरोसा करना",
+            "read_as": "bharosaa karnaa",
+            "english": "to trust"
+          },
+          "category": "relationships_society",
+          "difficulty": 7,
+          "tags": [
+            "relationships_society",
+            "noun",
+            "masculine",
+            "class_1",
+            "par_construction",
+            "uncountable"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "You trust on someone, not in them",
+              "explanation_en": "भरोसा is trust, masculine and predictable from its -ा. Its postposition is पर: मुझे उस पर भरोसा है, I trust him — literally trust on him. English says trust in and Hindi says on, which is a small difference that is easy to get wrong when translating. Both भरोसा करना and भरोसा होना work: करना is the act of trusting, होना is the state of having trust, and the second is more common.",
+              "examples": [
+                {
+                  "hindi": "मुझे उस पर भरोसा है",
+                  "read_as": "mujhe us par bharosaa hai",
+                  "english": "I trust him",
+                  "note": "पर for the person trusted, and उस is the oblique stem of वह."
+                },
+                {
+                  "hindi": "उस पर भरोसा करो",
+                  "read_as": "us par bharosaa karo",
+                  "english": "trust him",
+                  "note": "The same पर with करना rather than होना."
+                },
+                {
+                  "hindi": "भरोसा टूट गया",
+                  "read_as": "bharosaa ṭuuṭ gayaa",
+                  "english": "the trust broke",
+                  "note": "टूटना is intransitive, so the perfective works."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे उसमें भरोसा है",
+                "right": "मुझे उस पर भरोसा है",
+                "why_en": "में would be trust inside him. Hindi puts trust on a person, using पर."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "भरोसा",
+              "question_read_as": "bharosaa",
+              "options": [
+                "trust",
+                "hope",
+                "respect",
+                "patience"
+              ],
+              "options_read_as": [
+                "trust",
+                "hope",
+                "respect",
+                "patience"
+              ],
+              "answer_index": 0,
+              "explanation_en": "भरोसा is trust or reliance, masculine, and it takes पर for the person trusted."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition marks the person you trust?",
+              "options": [
+                "में",
+                "से",
+                "को",
+                "पर"
+              ],
+              "options_read_as": [
+                "meṁ",
+                "se",
+                "ko",
+                "par"
+              ],
+              "answer_index": 3,
+              "explanation_en": "उस पर भरोसा — Hindi puts trust on a person, where English puts it in them."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "भरोसा",
+              "मुझे उस पर भरोसा है",
+              "उस पर भरोसा करो",
+              "भरोसा टूट गया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L38-I3",
+          "type": "word",
+          "target": "झगड़ा",
+          "read_as": "jhagṛaa",
+          "pronunciation_notes": "Breathy jh at the front and a flapped ड़ before the final vowel: jha-gṛaa.",
+          "gloss_en": "quarrel, argument, fight",
+          "gender": "m",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "झगड़े",
+          "plural_read_as": "jhagṛe",
+          "collocation": {
+            "hindi": "झगड़ा होना",
+            "read_as": "jhagṛaa honaa",
+            "english": "for a quarrel to break out"
+          },
+          "category": "relationships_society",
+          "difficulty": 7,
+          "tags": [
+            "relationships_society",
+            "noun",
+            "masculine",
+            "class_1",
+            "two_verbs",
+            "blame_avoidance"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "झगड़ा होना avoids naming who started it",
+              "explanation_en": "झगड़ा is a quarrel, masculine and Class 1. As with several words in this module the two verbs are not interchangeable: झगड़ा हुआ says a quarrel happened, with nobody blamed, while झगड़ा किया names the person who picked it. Hindi reaches for the first far more readily, and that preference for constructions where no one is at fault has now shown up three times — चोट लगी, मुझसे ग़लती हुई, and here. It is a real habit of the language rather than a coincidence.",
+              "examples": [
+                {
+                  "hindi": "झगड़ा हुआ",
+                  "read_as": "jhagṛaa huaa",
+                  "english": "there was a quarrel",
+                  "note": "होना is intransitive, so the perfective is available and nobody is blamed."
+                },
+                {
+                  "hindi": "झगड़ा मत करो",
+                  "read_as": "jhagṛaa mat karo",
+                  "english": "do not argue",
+                  "note": "With करना the person is responsible, and मत negates the imperative."
+                },
+                {
+                  "hindi": "उनके बीच झगड़ा है",
+                  "read_as": "unke biich jhagṛaa hai",
+                  "english": "there is a quarrel between them",
+                  "note": "के बीच means between, and उनके is the oblique possessive of वे."
+                }
+              ],
+              "common_error": {
+                "wrong": "झगड़ा में",
+                "right": "झगड़े में",
+                "why_en": "झगड़ा ends in -ा, so it is Class 1 and goes oblique before a postposition."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "झगड़ा",
+              "question_read_as": "jhagṛaa",
+              "options": [
+                "problem",
+                "quarrel",
+                "misunderstanding",
+                "complaint"
+              ],
+              "options_read_as": [
+                "problem",
+                "quarrel",
+                "misunderstanding",
+                "complaint"
+              ],
+              "answer_index": 1,
+              "explanation_en": "झगड़ा is a quarrel, masculine, and it takes both होना and करना."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb reports a quarrel without blaming anyone?",
+              "options": [
+                "होना",
+                "लगना",
+                "करना",
+                "आना"
+              ],
+              "options_read_as": [
+                "honaa",
+                "lagnaa",
+                "karnaa",
+                "aanaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "झगड़ा होना — it happened. करना names the person who started it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "झगड़ा",
+              "झगड़ा हुआ",
+              "झगड़ा मत करो",
+              "उनके बीच झगड़ा है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "मदद करना puts the person helped in the possessive — मेरी मदद करो, not मुझे — which is the most common single error with this word. भरोसा takes पर where English says in, and झगड़ा होना is the third construction in this module that reports something without naming who is at fault.",
+        "key_forms": [
+          "मेरी मदद करो",
+          "उस पर भरोसा",
+          "झगड़ा होना"
+        ],
+        "next_up_en": "Next: society, festivals and respect, closing the relationships block."
+      }
+    },
+    {
+      "level": 39,
+      "title_en": "Society: community, festivals, respect",
+      "title_hi": "समाज · त्योहार · इज़्ज़त",
+      "category": "relationships_society",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L39-I1",
+          "type": "word",
+          "target": "समाज",
+          "read_as": "samaaj",
+          "pronunciation_notes": "The length falls on the second syllable and the ज is soft: sa-maaj.",
+          "gloss_en": "society, community",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "समाज में",
+            "read_as": "samaaj meṁ",
+            "english": "in society"
+          },
+          "category": "relationships_society",
+          "difficulty": 7,
+          "tags": [
+            "relationships_society",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "class_2",
+            "sanskrit_origin",
+            "abstract"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "समाज — society as a thing people answer to",
+              "explanation_en": "समाज is society, masculine and flagged. It is worth knowing that the word does more work in Hindi than society does in English: समाज क्या कहेगा, what will society say, is a real and frequently voiced consideration rather than a rhetorical flourish. The related adjective सामाजिक means social, and समाज सेवा is social service. The word is uncountable in ordinary use, so it has no plural.",
+              "examples": [
+                {
+                  "hindi": "समाज में",
+                  "read_as": "samaaj meṁ",
+                  "english": "in society",
+                  "note": "समाज is oblique before में, though Class 2 shows nothing."
+                },
+                {
+                  "hindi": "समाज बदल रहा है",
+                  "read_as": "samaaj badal rahaa hai",
+                  "english": "society is changing",
+                  "note": "बदलना is intransitive here, with समाज as the subject."
+                },
+                {
+                  "hindi": "यह सामाजिक समस्या है",
+                  "read_as": "yah saamaajik samasyaa hai",
+                  "english": "this is a social problem",
+                  "note": "सामाजिक is the adjective, unmarked and never changing."
+                }
+              ],
+              "common_error": {
+                "wrong": "समाज बदल रही है",
+                "right": "समाज बदल रहा है",
+                "why_en": "समाज is masculine. The consonant ending predicts nothing, which is why it carries a flag."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "समाज",
+              "question_read_as": "samaaj",
+              "options": [
+                "family",
+                "government",
+                "village",
+                "society"
+              ],
+              "options_read_as": [
+                "family",
+                "government",
+                "village",
+                "society"
+              ],
+              "answer_index": 3,
+              "explanation_en": "समाज is society or community, masculine, and it has no plural."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which adjective is formed from समाज?",
+              "options": [
+                "समाजी",
+                "समाजदार",
+                "सामाजिक",
+                "समाजवाला"
+              ],
+              "options_read_as": [
+                "samaajii",
+                "samaajdaar",
+                "saamaajik",
+                "samaajvaalaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "सामाजिक, meaning social — a Sanskrit pattern that lengthens the first vowel."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "समाज",
+              "समाज में",
+              "समाज बदल रहा है",
+              "यह सामाजिक समस्या है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L39-I2",
+          "type": "word",
+          "target": "त्योहार",
+          "read_as": "tyohaar",
+          "pronunciation_notes": "The त्यो is one cluster with the y folded in: tyo-haar.",
+          "gloss_en": "festival",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "त्योहार",
+          "plural_read_as": "tyohaar",
+          "collocation": {
+            "hindi": "त्योहार मनाना",
+            "read_as": "tyohaar manaanaa",
+            "english": "to celebrate a festival"
+          },
+          "category": "relationships_society",
+          "difficulty": 7,
+          "tags": [
+            "relationships_society",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "class_2",
+            "cultural",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मनाना is the verb for celebrating",
+              "explanation_en": "त्योहार is a festival, masculine and Class 2. Its verb is मनाना, to celebrate or observe, which covers festivals, birthdays and anniversaries alike — दिवाली मनाना, जन्मदिन मनाना. मनाना is transitive, so its perfective needs ने and is not yet available; use the habitual, the continuous or the imperative. Note that मनाना also has a second sense, to persuade or coax someone round, which is a different verb history entirely.",
+              "examples": [
+                {
+                  "hindi": "हम त्योहार मनाते हैं",
+                  "read_as": "ham tyohaar manaate haiṁ",
+                  "english": "we celebrate the festival",
+                  "note": "The habitual — मनाना is transitive."
+                },
+                {
+                  "hindi": "त्योहार आ रहा है",
+                  "read_as": "tyohaar aa rahaa hai",
+                  "english": "the festival is coming",
+                  "note": "आना is intransitive, with त्योहार as the subject."
+                },
+                {
+                  "hindi": "त्योहारों के दिन",
+                  "read_as": "tyohaaroṁ ke din",
+                  "english": "festival days",
+                  "note": "The Class 2 oblique plural takes plain -ों."
+                }
+              ],
+              "common_error": {
+                "wrong": "त्योहार करना",
+                "right": "त्योहार मनाना",
+                "why_en": "करना is the default guess again. A festival is celebrated, and मनाना is the verb for it."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "त्योहार",
+              "question_read_as": "tyohaar",
+              "options": [
+                "wedding",
+                "holiday",
+                "festival",
+                "ceremony"
+              ],
+              "options_read_as": [
+                "wedding",
+                "holiday",
+                "festival",
+                "ceremony"
+              ],
+              "answer_index": 2,
+              "explanation_en": "त्योहार is a festival, masculine, and unchanged in the plural."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with त्योहार?",
+              "options": [
+                "करना",
+                "होना",
+                "लेना",
+                "मनाना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "honaa",
+                "lenaa",
+                "manaanaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "त्योहार मनाना — and the same verb covers birthdays and anniversaries."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "त्योहार",
+              "हम त्योहार मनाते हैं",
+              "त्योहार आ रहा है",
+              "त्योहारों के दिन"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L39-I3",
+          "type": "word",
+          "target": "इज़्ज़त",
+          "read_as": "izzat",
+          "pronunciation_notes": "The doubled ज़ is held slightly longer than a single one: iz-zat.",
+          "gloss_en": "respect, honour, dignity",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "इज़्ज़त करना",
+            "read_as": "izzat karnaa",
+            "english": "to respect"
+          },
+          "category": "relationships_society",
+          "difficulty": 8,
+          "tags": [
+            "relationships_society",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "nukta",
+            "arabic_origin",
+            "possessive_object",
+            "cultural"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "इज़्ज़त behaves exactly like मदद",
+              "explanation_en": "इज़्ज़त is respect or honour, feminine and flagged. Its construction is the same as मदद: the person respected goes into the possessive, not into को. उनकी इज़्ज़त करो, respect them — literally do their respect. Once you have noticed that मदद and इज़्ज़त work the same way, the pattern generalises: a noun plus करना usually puts its target in the possessive. The word also carries a strong cultural sense of family honour, which is why इज़्ज़त की बात is a heavy phrase rather than a mild one.",
+              "examples": [
+                {
+                  "hindi": "उनकी इज़्ज़त करो",
+                  "read_as": "unkii izzat karo",
+                  "english": "respect them",
+                  "note": "उनकी is feminine because it agrees with इज़्ज़त."
+                },
+                {
+                  "hindi": "बड़ों की इज़्ज़त करनी चाहिए",
+                  "read_as": "baṛoṁ kii izzat karnii chaahie",
+                  "english": "one should respect elders",
+                  "note": "बड़ों is the oblique plural of बड़ा, used as a noun for elders."
+                },
+                {
+                  "hindi": "यह इज़्ज़त की बात है",
+                  "read_as": "yah izzat kii baat hai",
+                  "english": "this is a matter of honour",
+                  "note": "की agrees with बात, which is feminine."
+                }
+              ],
+              "common_error": {
+                "wrong": "उनको इज़्ज़त करो",
+                "right": "उनकी इज़्ज़त करो",
+                "why_en": "Like मदद, the person respected goes in the possessive rather than taking को."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "इज़्ज़त",
+              "question_read_as": "izzat",
+              "options": [
+                "respect",
+                "kindness",
+                "duty",
+                "reputation"
+              ],
+              "options_read_as": [
+                "respect",
+                "kindness",
+                "duty",
+                "reputation"
+              ],
+              "answer_index": 0,
+              "explanation_en": "इज़्ज़त is respect or honour, feminine, and it carries strong cultural weight."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "How do you say respect them?",
+              "options": [
+                "उनको इज़्ज़त करो",
+                "उनकी इज़्ज़त करो",
+                "उनसे इज़्ज़त करो",
+                "उनपर इज़्ज़त करो"
+              ],
+              "options_read_as": [
+                "unko izzat karo",
+                "unkii izzat karo",
+                "unse izzat karo",
+                "unpar izzat karo"
+              ],
+              "answer_index": 1,
+              "explanation_en": "उनकी इज़्ज़त करो — the possessive, exactly as with मदद."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "इज़्ज़त",
+              "उनकी इज़्ज़त करो",
+              "बड़ों की इज़्ज़त करनी चाहिए",
+              "यह इज़्ज़त की बात है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The relationships block is complete at twelve words. मदद and इज़्ज़त share a construction worth generalising: a noun plus करना puts the person it is aimed at into the possessive rather than marking them with को.",
+        "key_forms": [
+          "समाज में",
+          "त्योहार मनाना",
+          "उनकी इज़्ज़त करो"
+        ],
+        "next_up_en": "Next: the city and its services, starting with the two places you will need to find."
+      }
+    },
+    {
+      "level": 40,
+      "title_en": "City: hospital and bank",
+      "title_hi": "अस्पताल · बैंक",
+      "category": "city_services",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M08-L40-I1",
+          "type": "word",
+          "target": "अस्पताल",
+          "read_as": "aspataal",
+          "pronunciation_notes": "Four syllables with the length only at the end: as-pa-taal.",
+          "gloss_en": "hospital",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "अस्पताल",
+          "plural_read_as": "aspataal",
+          "collocation": {
+            "hindi": "अस्पताल जाना",
+            "read_as": "aspataal jaanaa",
+            "english": "to go to hospital"
+          },
+          "category": "city_services",
+          "difficulty": 6,
+          "tags": [
+            "city_services",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "class_2",
+            "loanword_adapted"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "अस्पताल — English, reshaped",
+              "explanation_en": "अस्पताल comes from the English hospital, reshaped to fit Hindi sound patterns: the h has dropped and a vowel has been added at the front, because Hindi does not like words beginning with a consonant cluster like sp. That fronting happens with several borrowings — स्कूल stayed, but इस्कूल is heard in some speech. It is masculine, flagged, and Class 2. Like any destination it takes no postposition with जाना.",
+              "examples": [
+                {
+                  "hindi": "अस्पताल जाओ",
+                  "read_as": "aspataal jaao",
+                  "english": "go to the hospital",
+                  "note": "The destination takes no postposition, as always with जाना."
+                },
+                {
+                  "hindi": "वह अस्पताल में है",
+                  "read_as": "vah aspataal meṁ hai",
+                  "english": "he is in hospital",
+                  "note": "में for being inside, and अस्पताल is oblique before it."
+                },
+                {
+                  "hindi": "अस्पताल कहाँ है?",
+                  "read_as": "aspataal kahaaṁ hai?",
+                  "english": "where is the hospital?",
+                  "note": "A question worth having ready before you need it."
+                }
+              ],
+              "common_error": {
+                "wrong": "अस्पताल को जाओ",
+                "right": "अस्पताल जाओ",
+                "why_en": "जाना takes its destination bare. Adding को is a translation of the English to."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "अस्पताल",
+              "question_read_as": "aspataal",
+              "options": [
+                "clinic",
+                "doctor",
+                "pharmacy",
+                "hospital"
+              ],
+              "options_read_as": [
+                "clinic",
+                "doctor",
+                "pharmacy",
+                "hospital"
+              ],
+              "answer_index": 3,
+              "explanation_en": "अस्पताल is a hospital, masculine, and unchanged in the plural."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with अस्पताल?",
+              "options": [
+                "करना",
+                "लेना",
+                "जाना",
+                "मिलना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "lenaa",
+                "jaanaa",
+                "milnaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "अस्पताल जाना — and the destination takes no postposition."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अस्पताल",
+              "अस्पताल जाओ",
+              "वह अस्पताल में है",
+              "अस्पताल कहाँ है?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L40-I2",
+          "type": "word",
+          "target": "बैंक",
+          "read_as": "baiṁk",
+          "pronunciation_notes": "The first vowel is a diphthong close to English 'bank', with the nasal as a hum: baiṁk.",
+          "gloss_en": "bank",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "बैंक",
+          "plural_read_as": "baiṁk",
+          "collocation": {
+            "hindi": "बैंक जाना",
+            "read_as": "baiṁk jaanaa",
+            "english": "to go to the bank"
+          },
+          "category": "city_services",
+          "difficulty": 6,
+          "tags": [
+            "city_services",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "loanword",
+            "class_2"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बैंक is masculine, where मीटिंग was feminine",
+              "explanation_en": "बैंक is borrowed whole from English and is masculine — worth setting beside मीटिंग and बस, which came from the same language and turned out feminine. There is no rule at all: each borrowed noun is assigned a gender on arrival and the only way to know is to learn it. That is why every loanword in this module carries a flag. बैंक is Class 2 and takes जाना with no postposition, like any destination.",
+              "examples": [
+                {
+                  "hindi": "बैंक जाओ",
+                  "read_as": "baiṁk jaao",
+                  "english": "go to the bank",
+                  "note": "The destination takes no postposition."
+                },
+                {
+                  "hindi": "बैंक बंद है",
+                  "read_as": "baiṁk band hai",
+                  "english": "the bank is closed",
+                  "note": "बंद is unmarked and means closed."
+                },
+                {
+                  "hindi": "बैंक में पैसे हैं",
+                  "read_as": "baiṁk meṁ paise haiṁ",
+                  "english": "there is money in the bank",
+                  "note": "पैसे is plural, so the verb is हैं."
+                }
+              ],
+              "common_error": {
+                "wrong": "बैंक बंद हैं",
+                "right": "बैंक बंद है",
+                "why_en": "One bank is singular. Class 2 makes the plural invisible, so the verb is the only thing telling you which you mean."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बैंक",
+              "question_read_as": "baiṁk",
+              "options": [
+                "market",
+                "bank",
+                "office",
+                "post office"
+              ],
+              "options_read_as": [
+                "market",
+                "bank",
+                "office",
+                "post office"
+              ],
+              "answer_index": 1,
+              "explanation_en": "बैंक is a bank, and Hindi assigned it masculine gender on arrival."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which borrowed noun is masculine, unlike the other three?",
+              "options": [
+                "बैंक",
+                "मीटिंग",
+                "बस",
+                "क्लास"
+              ],
+              "options_read_as": [
+                "baiṁk",
+                "miiṭiṁg",
+                "bas",
+                "klaas"
+              ],
+              "answer_index": 0,
+              "explanation_en": "बैंक is masculine; बस, मीटिंग and क्लास are all feminine. There is no rule behind it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बैंक",
+              "बैंक जाओ",
+              "बैंक बंद है",
+              "बैंक में पैसे हैं"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L40-I3",
+          "type": "dialogue",
+          "target": "बैंक के पास",
+          "read_as": "baiṁk ke paas",
+          "pronunciation_notes": "The three words run together, with the stress on पास: baiṁk ke paas.",
+          "gloss_en": "asking where something is",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "phrase",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "के पास होना",
+            "read_as": "ke paas honaa",
+            "english": "to be near"
+          },
+          "category": "city_services",
+          "difficulty": 6,
+          "tags": [
+            "city_services",
+            "dialogue",
+            "micro_dialogue",
+            "directions",
+            "agreement",
+            "module6_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "के पास for near, and it is the same phrase as have",
+              "explanation_en": "के पास means near, and it is exactly the phrase Module 6 taught for having something — मेरे पास किताब है. That is not two constructions but one: having something is being near it. Here it is doing its literal job, giving directions. Notice the last line: अस्पताल is masculine, so अच्छा rather than अच्छी, and getting that wrong would be the only mistake available in this whole exchange.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "अस्पताल कहाँ है?",
+                  "read_as": "aspataal kahaaṁ hai?",
+                  "english": "Where is the hospital?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "बैंक के पास है।",
+                  "read_as": "baiṁk ke paas hai.",
+                  "english": "It is near the bank."
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "क्या अस्पताल अच्छा है?",
+                  "read_as": "kyaa aspataal achchhaa hai?",
+                  "english": "Is the hospital good?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "हाँ, बहुत अच्छा अस्पताल है।",
+                  "read_as": "haaṁ, bahut achchhaa aspataal hai.",
+                  "english": "Yes, it is a very good hospital."
+                }
+              ],
+              "common_error": {
+                "wrong": "हाँ, बहुत अच्छी अस्पताल है।",
+                "right": "हाँ, बहुत अच्छा अस्पताल है।",
+                "why_en": "अस्पताल is masculine. The consonant ending gives no clue, which is exactly why it is flagged."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this phrase mean?",
+              "question": "बैंक के पास",
+              "question_read_as": "baiṁk ke paas",
+              "options": [
+                "from the bank",
+                "inside the bank",
+                "near the bank",
+                "behind the bank"
+              ],
+              "options_read_as": [
+                "from the bank",
+                "inside the bank",
+                "near the bank",
+                "behind the bank"
+              ],
+              "answer_index": 2,
+              "explanation_en": "के पास means near, and it is the same phrase Hindi uses for having something."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the last line. Which word is missing?",
+              "masked_line_index": 3,
+              "masked_word": "अच्छा",
+              "options": [
+                "अच्छी",
+                "अच्छे",
+                "बुरा",
+                "अच्छा"
+              ],
+              "options_read_as": [
+                "achchhii",
+                "achchhe",
+                "buraa",
+                "achchhaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "अस्पताल is masculine, so the adjective is अच्छा."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अस्पताल कहाँ है?",
+              "बैंक के पास है।",
+              "क्या अस्पताल अच्छा है?",
+              "हाँ, बहुत अच्छा अस्पताल है।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "बैंक is masculine while बस, मीटिंग and क्लास are feminine — all four borrowed from English, with no rule deciding any of them. के पास means near, and it is the same phrase Module 6 taught for having something, because in Hindi having is being near.",
+        "key_forms": [
+          "अस्पताल जाना",
+          "बैंक जाना",
+          "बैंक के पास"
+        ],
+        "next_up_en": "Next: the rest of the city block — the police, the post, the address and the queue."
+      }
+    }
+  ]
+}

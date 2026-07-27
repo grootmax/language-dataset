@@ -1,0 +1,1259 @@
+{
+  "module": 11,
+  "module_name_en": "Compound Verbs, Modals and Causatives",
+  "module_name_hi": "संयुक्त क्रिया, सकना और प्रेरणार्थक",
+  "phase": 4,
+  "batch": {
+    "levels_from": 15,
+    "levels_to": 18
+  },
+  "levels": [
+    {
+      "level": 15,
+      "title_en": "The causative ladder",
+      "title_hi": "करना · कराना · करवाना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L15-I1",
+          "type": "grammar",
+          "target": "करना, कराना, करवाना",
+          "read_as": "karnaa, karaanaa, karvaanaa",
+          "pronunciation_notes": "The added syllables are unstressed: ka-raa-naa, kar-vaa-naa.",
+          "gloss_en": "do, have done, have done through someone",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "causative",
+            "ladder",
+            "concept",
+            "regular",
+            "takes_ne"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Three rungs, and they are completely regular",
+              "explanation_en": "Hindi builds causatives by adding to the root, and the pattern is one of the most regular things in the language. करना is to do. कराना is to have done — you cause it, fairly directly. करवाना is to have it done through somebody else. Two syllables of difference, and the whole chain of responsibility changes. All three are transitive, so all three take ने in the perfective and the verb agrees with the object, exactly as Module 9 said. After fourteen levels of nuance you have to feel for, this is a rule you can simply apply, which is why it sits at the end of the module.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने काम कराया।",
+                "without_vector": "मैंने काम किया।",
+                "difference_en": "Not a vector pair. किया means you did the work; कराया means you had it done."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने काम किया।",
+                  "read_as": "maiṁne kaam kiyaa.",
+                  "english": "I did the work.",
+                  "note": "The base verb."
+                },
+                {
+                  "hindi": "मैंने काम कराया।",
+                  "read_as": "maiṁne kaam karaayaa.",
+                  "english": "I had the work done.",
+                  "note": "First causative, with -आ-."
+                },
+                {
+                  "hindi": "मैंने काम करवाया।",
+                  "read_as": "maiṁne kaam karvaayaa.",
+                  "english": "I got the work done through somebody.",
+                  "note": "Second causative, with -वा-."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं काम कराया।",
+                "right": "मैंने काम कराया।",
+                "why_en": "Causatives are transitive, so the perfective takes ने."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "You had the work done through somebody else. Pick the form.",
+              "question": "मैंने काम ___ ।",
+              "question_read_as": "maiṁne kaam ___ .",
+              "options": [
+                "करवाया",
+                "करता",
+                "किया",
+                "कराया"
+              ],
+              "options_read_as": [
+                "karvaayaa",
+                "kartaa",
+                "kiyaa",
+                "karaayaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second causative -वा- puts somebody in between."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You did the work yourself.",
+              "options": [
+                "मैंने काम कराया।",
+                "मैंने काम करवाया।",
+                "मैं काम करता हूँ।",
+                "मैंने काम किया।"
+              ],
+              "options_read_as": [
+                "maiṁne kaam karaayaa.",
+                "maiṁne kaam karvaayaa.",
+                "maiṁ kaam kartaa huuṁ.",
+                "maiṁne kaam kiyaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "All four are correct Hindi. The base verb is the one that says you did it; the causatives hand the doing to somebody else."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने काम किया।",
+              "मैंने काम कराया।",
+              "मैंने काम करवाया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L15-I2",
+          "type": "grammar",
+          "target": "मैंने काम कराया",
+          "read_as": "maiṁne kaam karaayaa",
+          "pronunciation_notes": null,
+          "gloss_en": "I had the work done — the first causative",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "causative",
+            "first_causative",
+            "takes_ne",
+            "object_agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कराया — you caused it",
+              "explanation_en": "The first causative says you made it happen without necessarily doing it yourself. मैंने काम कराया — I had the work done. The line between this and करवाया is one of distance: कराना keeps things closer to your own hand, while करवाना puts somebody clearly in between. Honest caveat — many speakers use them interchangeably for everyday things, and करवाना is the commoner of the two in speech. काम is masculine, so the verb is कराया, and the agreement is with the object exactly as it has been since Module 9.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने काम कराया।",
+                "without_vector": "मैंने काम किया।",
+                "difference_en": "The difference is who did the work, not how the sentence feels."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने काम कराया।",
+                  "read_as": "maiṁne kaam karaayaa.",
+                  "english": "I had the work done.",
+                  "note": "काम is masculine, so कराया."
+                },
+                {
+                  "hindi": "उसने घर साफ़ कराया।",
+                  "read_as": "usne ghar saaf karaayaa.",
+                  "english": "He had the house cleaned.",
+                  "note": "घर is masculine, so कराया again."
+                },
+                {
+                  "hindi": "मैंने यह कराया।",
+                  "read_as": "maiṁne yah karaayaa.",
+                  "english": "I had this done.",
+                  "note": "No noun object, so the neutral masculine."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने काम करा।",
+                "right": "मैंने काम कराया।",
+                "why_en": "The perfective of कराना is कराया, agreeing with masculine काम."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "You caused it to happen, without an intermediary in the picture. Pick the form.",
+              "question": "मैंने काम ___ ।",
+              "question_read_as": "maiṁne kaam ___ .",
+              "options": [
+                "किया",
+                "कराया",
+                "करवाया",
+                "करता"
+              ],
+              "options_read_as": [
+                "kiyaa",
+                "karaayaa",
+                "karvaayaa",
+                "kartaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "कराया for the first causative."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You had the work done — you caused it, without doing it yourself.",
+              "options": [
+                "मैंने काम कर लिया।",
+                "मैंने काम किया।",
+                "मैंने काम कराया।",
+                "मैं काम करता हूँ।"
+              ],
+              "options_read_as": [
+                "maiṁne kaam kar liyaa.",
+                "maiṁne kaam kiyaa.",
+                "maiṁne kaam karaayaa.",
+                "maiṁ kaam kartaa huuṁ."
+              ],
+              "answer_index": 2,
+              "explanation_en": "All four are correct. कराया is the causative; कर लिया says you did it and finished it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने काम कराया।",
+              "उसने घर साफ़ कराया।",
+              "मैंने यह कराया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L15-I3",
+          "type": "grammar",
+          "target": "मैंने काम करवाया",
+          "read_as": "maiṁne kaam karvaayaa",
+          "pronunciation_notes": null,
+          "gloss_en": "I got the work done through someone — the second causative",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "causative",
+            "second_causative",
+            "intermediary",
+            "takes_ne"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "करवाया — somebody stood in between",
+              "explanation_en": "The second causative puts an intermediary in the picture. मैंने काम करवाया — I got the work done, through somebody. It is the form you want for anything you paid or asked another person to do, and in ordinary speech it is more common than कराया, because most of the time somebody else really is doing it. When you name that person they take से, which is level 18. काम is masculine, so करवाया.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने काम करवाया।",
+                "without_vector": "मैंने काम किया।",
+                "difference_en": "Again a difference of who, not of feel — you arranged it rather than doing it."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने काम करवाया।",
+                  "read_as": "maiṁne kaam karvaayaa.",
+                  "english": "I got the work done.",
+                  "note": "Somebody else did it."
+                },
+                {
+                  "hindi": "मैंने घर साफ़ करवाया।",
+                  "read_as": "maiṁne ghar saaf karvaayaa.",
+                  "english": "I had the house cleaned.",
+                  "note": "The commonest way to say this."
+                },
+                {
+                  "hindi": "उसने खाना बनवाया।",
+                  "read_as": "usne khaanaa banvaayaa.",
+                  "english": "He had food made.",
+                  "note": "बनवाना is the second causative of बनना."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने काम करवाई।",
+                "right": "मैंने काम करवाया।",
+                "why_en": "काम is masculine, so the verb is masculine."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "You had somebody else clean it. Pick the form.",
+              "question": "मैंने घर साफ़ ___ ।",
+              "question_read_as": "maiṁne ghar saaf ___ .",
+              "options": [
+                "करता",
+                "किया",
+                "कराया",
+                "करवाया"
+              ],
+              "options_read_as": [
+                "kartaa",
+                "kiyaa",
+                "karaayaa",
+                "karvaayaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "करवाया, because a cleaner did the cleaning."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You paid someone to do the work.",
+              "options": [
+                "मैंने काम करवाया।",
+                "मैंने काम कर लिया।",
+                "मैंने काम किया।",
+                "मैंने काम कराया।"
+              ],
+              "options_read_as": [
+                "maiṁne kaam karvaayaa.",
+                "maiṁne kaam kar liyaa.",
+                "maiṁne kaam kiyaa.",
+                "maiṁne kaam karaayaa."
+              ],
+              "answer_index": 0,
+              "explanation_en": "All four are correct. करवाया is the one with somebody clearly standing in between."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने काम करवाया।",
+              "मैंने घर साफ़ करवाया।",
+              "उसने खाना बनवाया।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "करना, कराना, करवाना — do it, have it done, have it done through somebody. All three are transitive, so all three take ने and agree with the object. After fourteen levels of nuance, this is a rule you can simply apply.",
+        "key_forms": [
+          "मैंने काम किया",
+          "मैंने काम कराया",
+          "मैंने काम करवाया"
+        ],
+        "next_up_en": "Next: the two spelling rules that make the whole set predictable."
+      }
+    },
+    {
+      "level": 16,
+      "title_en": "The vowel shortens, and a ल appears",
+      "title_hi": "पिलाना · खिलाना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L16-I1",
+          "type": "grammar",
+          "target": "पीना, पिलाना, पिलवाना",
+          "read_as": "piinaa, pilaanaa, pilvaanaa",
+          "pronunciation_notes": "The root vowel is long in पीना and short in पिलाना — pii against pi. That difference is the whole rule.",
+          "gloss_en": "drink, make drink, have made to drink",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "causative",
+            "vowel_shortening",
+            "la_insertion",
+            "spelling_rule"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Two things happen at once",
+              "explanation_en": "पीना has a long ii, and in the causative it shortens: पिलाना. Two things changed. The vowel went short, which happens in every causative built on a long-vowelled root. And a ल appeared, which happens when the root ends in a vowel — पी- has no consonant to attach the ending to, so ल is inserted to carry it. The same two things happen to खाना, सोना and देना. Once you see the pattern the whole set becomes predictable instead of a list to memorise.",
+              "vectorless_equivalent": {
+                "with_vector": "माँ ने बच्चे को दूध पिलाया।",
+                "without_vector": "बच्चे ने दूध पिया।",
+                "difference_en": "Not a vector pair. The base verb has the child drinking; the causative has somebody giving them the milk."
+              },
+              "examples": [
+                {
+                  "hindi": "बच्चे ने दूध पिया।",
+                  "read_as": "bacche ne duudh piyaa.",
+                  "english": "The child drank milk.",
+                  "note": "The base verb, with ने."
+                },
+                {
+                  "hindi": "माँ ने बच्चे को दूध पिलाया।",
+                  "read_as": "maaṁ ne bacche ko duudh pilaayaa.",
+                  "english": "Mother gave the child milk.",
+                  "note": "First causative, and the child takes को."
+                },
+                {
+                  "hindi": "उसने नौकर से चाय पिलवाई।",
+                  "read_as": "usne naukar se chaay pilvaaii.",
+                  "english": "He had the servant serve tea.",
+                  "note": "Second causative; चाय is feminine, so पिलवाई."
+                }
+              ],
+              "common_error": {
+                "wrong": "माँ ने बच्चे को दूध पीलाया।",
+                "right": "माँ ने बच्चे को दूध पिलाया।",
+                "why_en": "The long ii shortens to i in the causative. Keeping it long is the commonest spelling slip here."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "Mother did the giving herself. Pick the form.",
+              "question": "माँ ने बच्चे को दूध ___ ।",
+              "question_read_as": "maaṁ ne bacche ko duudh ___ .",
+              "options": [
+                "पीता",
+                "पिया",
+                "पिलाया",
+                "पिलवाया"
+              ],
+              "options_read_as": [
+                "piitaa",
+                "piyaa",
+                "pilaayaa",
+                "pilvaayaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "First causative पिलाया — short vowel, inserted ल."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "Mother gave the child milk to drink, with her own hands.",
+              "options": [
+                "बच्चे ने दूध पिया।",
+                "माँ ने बच्चे को दूध पिलाया।",
+                "माँ ने बच्चे को दूध पिलवाया।",
+                "माँ दूध पीती है।"
+              ],
+              "options_read_as": [
+                "bacche ne duudh piyaa.",
+                "maaṁ ne bacche ko duudh pilaayaa.",
+                "maaṁ ne bacche ko duudh pilvaayaa.",
+                "maaṁ duudh piitii hai."
+              ],
+              "answer_index": 1,
+              "explanation_en": "All four are correct. पिलाया is her own hands; पिलवाया would put somebody else in between."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बच्चे ने दूध पिया।",
+              "माँ ने बच्चे को दूध पिलाया।",
+              "उसने नौकर से चाय पिलवाई।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L16-I2",
+          "type": "grammar",
+          "target": "खाना, खिलाना, खिलवाना",
+          "read_as": "khaanaa, khilaanaa, khilvaanaa",
+          "pronunciation_notes": "खाना has a long aa; खिलाना has a short i. khaa against khi.",
+          "gloss_en": "eat, feed, have fed",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "causative",
+            "vowel_shortening",
+            "la_insertion",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "खाना does the same thing",
+              "explanation_en": "खाना behaves exactly like पीना: the root vowel shortens and a ल appears because the root ends in a vowel. खाना, खिलाना, खिलवाना. खिलाना is the ordinary word for feeding somebody and one of the most used causatives in the language, since feeding people is a large part of what Hindi conversation is about. The one thing to accept rather than derive is that the shortening goes to i and not to a short a — the same happens in सीखना and सिखाना.",
+              "vectorless_equivalent": {
+                "with_vector": "माँ ने बच्चे को खाना खिलाया।",
+                "without_vector": "बच्चे ने खाना खाया।",
+                "difference_en": "Who is eating changes. In the base verb the child eats; in the causative the mother feeds."
+              },
+              "examples": [
+                {
+                  "hindi": "बच्चे ने खाना खाया।",
+                  "read_as": "bacche ne khaanaa khaayaa.",
+                  "english": "The child ate.",
+                  "note": "The base verb."
+                },
+                {
+                  "hindi": "माँ ने बच्चे को खाना खिलाया।",
+                  "read_as": "maaṁ ne bacche ko khaanaa khilaayaa.",
+                  "english": "Mother fed the child.",
+                  "note": "First causative, with को on the child."
+                },
+                {
+                  "hindi": "उसने बच्चों को खाना खिलवाया।",
+                  "read_as": "usne bacchoṁ ko khaanaa khilvaayaa.",
+                  "english": "He had the children fed.",
+                  "note": "Second causative — somebody else did the feeding."
+                }
+              ],
+              "common_error": {
+                "wrong": "माँ ने बच्चे को खाना खाया।",
+                "right": "माँ ने बच्चे को खाना खिलाया।",
+                "why_en": "The mother is not the one eating, so the causative is required."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "Mother did the feeding herself. Pick the form.",
+              "question": "माँ ने बच्चे को खाना ___ ।",
+              "question_read_as": "maaṁ ne bacche ko khaanaa ___ .",
+              "options": [
+                "खिलाया",
+                "खिलवाया",
+                "खाता",
+                "खाया"
+              ],
+              "options_read_as": [
+                "khilaayaa",
+                "khilvaayaa",
+                "khaataa",
+                "khaayaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "खिलाया — short vowel, inserted ल, first causative."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "Mother fed the child herself.",
+              "options": [
+                "माँ ने बच्चे को खाना खिलवाया।",
+                "माँ खाना खाती है।",
+                "बच्चे ने खाना खाया।",
+                "माँ ने बच्चे को खाना खिलाया।"
+              ],
+              "options_read_as": [
+                "maaṁ ne bacche ko khaanaa khilvaayaa.",
+                "maaṁ khaanaa khaatii hai.",
+                "bacche ne khaanaa khaayaa.",
+                "maaṁ ne bacche ko khaanaa khilaayaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "All four are correct. खिलाया is her own hands; खिलवाया hands the feeding to somebody else."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बच्चे ने खाना खाया।",
+              "माँ ने बच्चे को खाना खिलाया।",
+              "उसने बच्चों को खाना खिलवाया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L16-I3",
+          "type": "grammar",
+          "target": "उसने बच्चे को खाना खिलाया",
+          "read_as": "usne bacche ko khaanaa khilaayaa",
+          "pronunciation_notes": null,
+          "gloss_en": "he fed the child — and where को goes",
+          "gender": null,
+          "difficulty": 9,
+          "tags": [
+            "causative",
+            "ko_marked",
+            "object_agreement",
+            "module9_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The person fed takes को, and cannot control the verb",
+              "explanation_en": "In a first causative the person you act on takes को: उसने बच्चे को खाना खिलाया. There are two nouns after the subject and only one of them is the grammatical object — खाना — so that is what the verb agrees with. बच्चे is को-marked, and as Module 9 established, a को-marked noun cannot control the verb. So खिलाया is masculine because खाना is, and it would stay खिलाया even if the child were a girl. Swap the food for something feminine and the verb moves: उसने बच्ची को रोटी खिलाई.",
+              "vectorless_equivalent": {
+                "with_vector": "उसने बच्चे को खाना खिलाया।",
+                "without_vector": "बच्चे ने खाना खाया।",
+                "difference_en": "The causative adds a feeder; the base verb has only an eater."
+              },
+              "examples": [
+                {
+                  "hindi": "उसने बच्चे को खाना खिलाया।",
+                  "read_as": "usne bacche ko khaanaa khilaayaa.",
+                  "english": "He fed the child.",
+                  "note": "खाना is the object; बच्चे को cannot control the verb."
+                },
+                {
+                  "hindi": "उसने बच्ची को रोटी खिलाई।",
+                  "read_as": "usne bacchii ko roṭii khilaaii.",
+                  "english": "He fed the little girl roti.",
+                  "note": "रोटी is feminine, so खिलाई. The को-marked child is still irrelevant."
+                },
+                {
+                  "hindi": "माँ ने बच्चे को दूध पिलाया।",
+                  "read_as": "maaṁ ne bacche ko duudh pilaayaa.",
+                  "english": "Mother gave the child milk.",
+                  "note": "The same shape with पिलाना."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने बच्ची को रोटी खिलाया।",
+                "right": "उसने बच्ची को रोटी खिलाई।",
+                "why_en": "रोटी is the bare object and it is feminine, so it controls the verb."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The bare object is रोटी, which is feminine. Complete the verb.",
+              "question": "उसने बच्ची को रोटी ___ ।",
+              "question_read_as": "usne bacchii ko roṭii ___ .",
+              "options": [
+                "खिलाया",
+                "खिलाई",
+                "खिलाए",
+                "खिलाईं"
+              ],
+              "options_read_as": [
+                "khilaayaa",
+                "khilaaii",
+                "khilaae",
+                "khilaaiiṁ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "रोटी is feminine singular and it is the only noun eligible to control the verb."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "He fed the little girl roti, with his own hands.",
+              "options": [
+                "वह रोटी खाता है।",
+                "बच्ची ने रोटी खाई।",
+                "उसने बच्ची को रोटी खिलाई।",
+                "उसने बच्ची को रोटी खिलवाई।"
+              ],
+              "options_read_as": [
+                "vah roṭii khaataa hai.",
+                "bacchii ne roṭii khaaii.",
+                "usne bacchii ko roṭii khilaaii.",
+                "usne bacchii ko roṭii khilvaaii."
+              ],
+              "answer_index": 2,
+              "explanation_en": "All four are correct. खिलाई is his own hands; खिलवाई would mean he had somebody else feed her."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उसने बच्चे को खाना खिलाया।",
+              "उसने बच्ची को रोटी खिलाई।",
+              "माँ ने बच्चे को दूध पिलाया।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Two spelling rules cover the whole causative set: long root vowels shorten, and roots ending in a vowel take an inserted ल. पीना to पिलाना, खाना to खिलाना. The person acted on takes को and therefore cannot control the verb — the bare object does.",
+        "key_forms": [
+          "पिलाया",
+          "खिलाया",
+          "उसने बच्ची को रोटी खिलाई"
+        ],
+        "next_up_en": "Next: three more ladders, including two verbs you have been using all along without noticing."
+      }
+    },
+    {
+      "level": 17,
+      "title_en": "Three more ladders",
+      "title_hi": "पढ़ाना · बनाना · सिखाना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L17-I1",
+          "type": "grammar",
+          "target": "पढ़ना, पढ़ाना, पढ़वाना",
+          "read_as": "paṛhnaa, paṛhaanaa, paṛhvaanaa",
+          "pronunciation_notes": null,
+          "gloss_en": "read, teach, have taught",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "causative",
+            "ladder",
+            "module6_link",
+            "no_vowel_change"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The causative you already knew",
+              "explanation_en": "पढ़ाना means to teach, and you have been using it since Module 6 without knowing it was a causative. It is one: to teach is to cause somebody to read. The root vowel here is already short, so nothing shortens and the ladder runs straight down — पढ़ना, पढ़ाना, पढ़वाना. The third rung, पढ़वाना, is what you do when you hire a tutor: you have somebody taught rather than teaching them yourself.",
+              "vectorless_equivalent": {
+                "with_vector": "उसने बच्चों को पढ़ाया।",
+                "without_vector": "बच्चों ने पढ़ा।",
+                "difference_en": "The base verb has the children reading; the causative has somebody teaching them."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने किताब पढ़ी।",
+                  "read_as": "maiṁne kitaab paṛhii.",
+                  "english": "I read the book.",
+                  "note": "The base verb, agreeing with feminine किताब."
+                },
+                {
+                  "hindi": "उसने बच्चों को पढ़ाया।",
+                  "read_as": "usne bacchoṁ ko paṛhaayaa.",
+                  "english": "He taught the children.",
+                  "note": "First causative. बच्चों को is को-marked, so the verb stays neutral."
+                },
+                {
+                  "hindi": "मैंने बच्चों को पढ़वाया।",
+                  "read_as": "maiṁne bacchoṁ ko paṛhvaayaa.",
+                  "english": "I had the children taught.",
+                  "note": "Second causative — a tutor was involved."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने बच्चों को पढ़ा।",
+                "right": "उसने बच्चों को पढ़ाया।",
+                "why_en": "Teaching requires the causative. पढ़ा would say he read them, which is not the meaning."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "He taught them himself. Pick the form.",
+              "question": "उसने बच्चों को ___ ।",
+              "question_read_as": "usne bacchoṁ ko ___ .",
+              "options": [
+                "पढ़वाया",
+                "पढ़ता",
+                "पढ़ा",
+                "पढ़ाया"
+              ],
+              "options_read_as": [
+                "paṛhvaayaa",
+                "paṛhtaa",
+                "paṛhaa",
+                "paṛhaayaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "पढ़ाया — the first causative, which is simply the word for teach."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You hired a tutor for the children.",
+              "options": [
+                "मैंने बच्चों को पढ़वाया।",
+                "मैंने किताब पढ़ी।",
+                "बच्चे पढ़ते हैं।",
+                "मैंने बच्चों को पढ़ाया।"
+              ],
+              "options_read_as": [
+                "maiṁne bacchoṁ ko paṛhvaayaa.",
+                "maiṁne kitaab paṛhii.",
+                "bacche paṛhte haiṁ.",
+                "maiṁne bacchoṁ ko paṛhaayaa."
+              ],
+              "answer_index": 0,
+              "explanation_en": "All four are correct. पढ़वाया puts the tutor in between; पढ़ाया would mean you taught them yourself."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने किताब पढ़ी।",
+              "उसने बच्चों को पढ़ाया।",
+              "मैंने बच्चों को पढ़वाया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L17-I2",
+          "type": "grammar",
+          "target": "बनना, बनाना, बनवाना",
+          "read_as": "bannaa, banaanaa, banvaanaa",
+          "pronunciation_notes": "बनना has a doubled n that must be held: ban-naa. बनाना does not.",
+          "gloss_en": "become, make, have made",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "causative",
+            "ladder",
+            "intransitive_base",
+            "no_ne",
+            "module9_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A ladder that starts one rung lower",
+              "explanation_en": "This one begins with an intransitive verb. बनना means to become, to be made. बनाना is its causative — to make. And बनवाना is the second — to have made. So the word you have been using for \"make\" since Module 4 is itself a causative, and there is a rung below it you may never have noticed. The ने consequence follows automatically: बनना is intransitive, so घर बना takes no ने, while मैंने घर बनाया does.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने घर बनवाया।",
+                "without_vector": "घर बना।",
+                "difference_en": "The base is intransitive and has no agent at all; the causatives add one, and with it ने."
+              },
+              "examples": [
+                {
+                  "hindi": "घर बना।",
+                  "read_as": "ghar banaa.",
+                  "english": "The house was built.",
+                  "note": "Intransitive, so no ने and no agent."
+                },
+                {
+                  "hindi": "मैंने घर बनाया।",
+                  "read_as": "maiṁne ghar banaayaa.",
+                  "english": "I built the house.",
+                  "note": "First causative, transitive, so ने appears."
+                },
+                {
+                  "hindi": "मैंने घर बनवाया।",
+                  "read_as": "maiṁne ghar banvaayaa.",
+                  "english": "I had the house built.",
+                  "note": "Second causative — builders did the building."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने घर बना।",
+                "right": "घर बना।",
+                "why_en": "बनना is intransitive and takes no ने. If you want ने you need बनाया."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "You had somebody else build it. Pick the form.",
+              "question": "मैंने घर ___ ।",
+              "question_read_as": "maiṁne ghar ___ .",
+              "options": [
+                "बना",
+                "बनाया",
+                "बनवाया",
+                "बनता"
+              ],
+              "options_read_as": [
+                "banaa",
+                "banaayaa",
+                "banvaayaa",
+                "bantaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "बनवाया — the second causative, with builders in between."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You hired builders and had the house built.",
+              "options": [
+                "मैंने घर बनाया।",
+                "मैंने घर बनवाया।",
+                "घर बनता है।",
+                "घर बना।"
+              ],
+              "options_read_as": [
+                "maiṁne ghar banaayaa.",
+                "maiṁne ghar banvaayaa.",
+                "ghar bantaa hai.",
+                "ghar banaa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "All four are correct Hindi. बनवाया names you as the one who arranged it; बनाया would say you built it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "घर बना।",
+              "मैंने घर बनाया।",
+              "मैंने घर बनवाया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L17-I3",
+          "type": "grammar",
+          "target": "सीखना, सिखाना, सिखवाना",
+          "read_as": "siikhnaa, sikhaanaa, sikhvaanaa",
+          "pronunciation_notes": "सीखना has a long ii and सिखाना a short i, with the aspirated kh in both.",
+          "gloss_en": "learn, teach, have taught",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "causative",
+            "vowel_shortening",
+            "ladder",
+            "semantics"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Long vowel, short causative",
+              "explanation_en": "सीखना has a long ii and it shortens: सिखाना. The same change as पीना to पिलाना, except that सीखना's root ends in a consonant, so no ल is needed. Between those two verbs you have the entire spelling rule — long vowels shorten, and vowel-final roots take a ल. Worth noting that Hindi now gives you two words for teach. पढ़ाना is teaching a subject; सिखाना is teaching a skill. You पढ़ाना history, and you सिखाना somebody to drive.",
+              "vectorless_equivalent": {
+                "with_vector": "उसने मुझे हिंदी सिखाई।",
+                "without_vector": "मैंने हिंदी सीखी।",
+                "difference_en": "Who is doing the learning changes. The base has me learning; the causative has him teaching."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने हिंदी सीखी।",
+                  "read_as": "maiṁne hindii siikhii.",
+                  "english": "I learned Hindi.",
+                  "note": "हिंदी is feminine, so सीखी."
+                },
+                {
+                  "hindi": "उसने मुझे हिंदी सिखाई।",
+                  "read_as": "usne mujhe hindii sikhaaii.",
+                  "english": "He taught me Hindi.",
+                  "note": "हिंदी is still the bare object, so सिखाई."
+                },
+                {
+                  "hindi": "मैंने उसे तैरना सिखाया।",
+                  "read_as": "maiṁne use tairnaa sikhaayaa.",
+                  "english": "I taught him to swim.",
+                  "note": "तैरना is an infinitive and therefore masculine, so सिखाया."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने मुझे हिंदी सीखाई।",
+                "right": "उसने मुझे हिंदी सिखाई।",
+                "why_en": "The long ii shortens in the causative."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "He taught you Hindi himself. Pick the form.",
+              "question": "उसने मुझे हिंदी ___ ।",
+              "question_read_as": "usne mujhe hindii ___ .",
+              "options": [
+                "सिखाई",
+                "सिखवाई",
+                "सीखती",
+                "सीखी"
+              ],
+              "options_read_as": [
+                "sikhaaii",
+                "sikhvaaii",
+                "siikhtii",
+                "siikhii"
+              ],
+              "answer_index": 0,
+              "explanation_en": "सिखाई — short vowel, first causative, agreeing with feminine हिंदी."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "He taught you Hindi himself.",
+              "options": [
+                "उसने मुझे हिंदी सिखवाई।",
+                "वह हिंदी सिखाता है।",
+                "मैंने हिंदी सीखी।",
+                "उसने मुझे हिंदी सिखाई।"
+              ],
+              "options_read_as": [
+                "usne mujhe hindii sikhvaaii.",
+                "vah hindii sikhaataa hai.",
+                "maiṁne hindii siikhii.",
+                "usne mujhe hindii sikhaaii."
+              ],
+              "answer_index": 3,
+              "explanation_en": "All four are correct. सिखाई is him teaching; सिखवाई would mean he arranged for somebody else to."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने हिंदी सीखी।",
+              "उसने मुझे हिंदी सिखाई।",
+              "मैंने उसे तैरना सिखाया।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "पढ़ाना and बनाना were causatives all along. बनना adds a rung below बनाना and is intransitive, so it takes no ने. सीखना shortens to सिखाना. And Hindi has two words for teach — पढ़ाना for a subject, सिखाना for a skill.",
+        "key_forms": [
+          "पढ़ाया",
+          "बनवाया",
+          "सिखाई"
+        ],
+        "next_up_en": "Next: naming the person who actually did it, and the causative you will use most in real life."
+      }
+    },
+    {
+      "level": 18,
+      "title_en": "Naming the agent, and everyday use",
+      "title_hi": "उससे करवाया · बाल कटवाए",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L18-I1",
+          "type": "grammar",
+          "target": "मैंने उससे काम करवाया",
+          "read_as": "maiṁne usse kaam karvaayaa",
+          "pronunciation_notes": "उससे has a doubled s that must be held: us-se.",
+          "gloss_en": "I got him to do the work — the agent takes से",
+          "gender": null,
+          "difficulty": 9,
+          "tags": [
+            "causative",
+            "agent",
+            "se_postposition",
+            "second_causative"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The person who actually did it takes से",
+              "explanation_en": "When you name the intermediary in a second causative, they take से: मैंने उससे काम करवाया — I got the work done by him. Not को, and not ने. That is worth holding on to, because three postpositions are now in play in a single sentence and only one of them is right for the agent. Compare the first causative, where the person you act on takes को: मैंने बच्चे को खिलाया. The rough rule is को for the person acted on, से for the person acting on your behalf.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने उससे काम करवाया।",
+                "without_vector": "उसने काम किया।",
+                "difference_en": "Both describe the same work getting done. One names you as the arranger; the other names him as the doer."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने उससे काम करवाया।",
+                  "read_as": "maiṁne usse kaam karvaayaa.",
+                  "english": "I got him to do the work.",
+                  "note": "The agent takes से."
+                },
+                {
+                  "hindi": "मैंने नौकर से खाना बनवाया।",
+                  "read_as": "maiṁne naukar se khaanaa banvaayaa.",
+                  "english": "I had the servant cook.",
+                  "note": "नौकर से, and खाना is what the verb agrees with."
+                },
+                {
+                  "hindi": "उसने मुझसे चिट्ठी लिखवाई।",
+                  "read_as": "usne mujhse chiṭṭhii likhvaaii.",
+                  "english": "He had me write the letter.",
+                  "note": "चिट्ठी is feminine, so लिखवाई."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने उसको काम करवाया।",
+                "right": "मैंने उससे काम करवाया।",
+                "why_en": "The person doing the work on your behalf takes से, not को."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "He is the one who did the work, on your behalf. Pick the postposition.",
+              "question": "मैंने ___ काम करवाया।",
+              "question_read_as": "maiṁne ___ kaam karvaayaa.",
+              "options": [
+                "उसको",
+                "उससे",
+                "उसने",
+                "उसका"
+              ],
+              "options_read_as": [
+                "usko",
+                "usse",
+                "usne",
+                "uskaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "से marks the agent of a causative."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You got him to do the work on your behalf, and you want him named.",
+              "options": [
+                "मैंने काम किया।",
+                "मैंने काम करवाया।",
+                "मैंने उससे काम करवाया।",
+                "उसने काम किया।"
+              ],
+              "options_read_as": [
+                "maiṁne kaam kiyaa.",
+                "maiṁne kaam karvaayaa.",
+                "maiṁne usse kaam karvaayaa.",
+                "usne kaam kiyaa."
+              ],
+              "answer_index": 2,
+              "explanation_en": "All four are correct. The third is the only one that both names him and keeps you as the arranger."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने उससे काम करवाया।",
+              "मैंने नौकर से खाना बनवाया।",
+              "उसने मुझसे चिट्ठी लिखवाई।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L18-I2",
+          "type": "grammar",
+          "target": "मैंने बाल कटवाए",
+          "read_as": "maiṁne baal kaṭvaae",
+          "pronunciation_notes": "ट is retroflex: kaṭ-vaa-e.",
+          "gloss_en": "I got my hair cut — the everyday causative",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "causative",
+            "second_causative",
+            "services",
+            "masculine_plural",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The form you need at the barber's",
+              "explanation_en": "This is where causatives stop being grammar and start being useful. Anything done to you as a service goes in the second causative, and the person who did it usually goes unmentioned: मैंने बाल कटवाए, I got my hair cut. बाल is masculine plural, so कटवाए. The same shape covers a great deal of ordinary life — मैंने कपड़े सिलवाए, मैंने गाड़ी ठीक करवाई. Saying मैंने बाल काटे instead would mean you cut your own hair, which is a different afternoon entirely.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने बाल कटवाए।",
+                "without_vector": "मैंने बाल काटे।",
+                "difference_en": "Both are correct and they describe different events — one at a barber's, one with your own scissors."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने बाल कटवाए।",
+                  "read_as": "maiṁne baal kaṭvaae.",
+                  "english": "I got my hair cut.",
+                  "note": "बाल is masculine plural, so कटवाए."
+                },
+                {
+                  "hindi": "मैंने बाल काटे।",
+                  "read_as": "maiṁne baal kaaṭe.",
+                  "english": "I cut my hair.",
+                  "note": "The base verb — you did it yourself."
+                },
+                {
+                  "hindi": "मैंने गाड़ी ठीक करवाई।",
+                  "read_as": "maiṁne gaaṛii ṭhiik karvaaii.",
+                  "english": "I got the car fixed.",
+                  "note": "गाड़ी is feminine, so करवाई."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने बाल कटवाया।",
+                "right": "मैंने बाल कटवाए।",
+                "why_en": "बाल is masculine plural, so the verb is plural too."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "A barber did it, and बाल is masculine plural. Pick the form.",
+              "question": "मैंने बाल ___ ।",
+              "question_read_as": "maiṁne baal ___ .",
+              "options": [
+                "कटवाया",
+                "काटता",
+                "काटे",
+                "कटवाए"
+              ],
+              "options_read_as": [
+                "kaṭvaayaa",
+                "kaaṭtaa",
+                "kaaṭe",
+                "kaṭvaae"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Second causative for a service, and plural to agree with बाल."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You went to a barber and had your hair cut.",
+              "options": [
+                "मैंने बाल कटवाए।",
+                "मैं बाल काटता हूँ।",
+                "मेरे बाल कटे।",
+                "मैंने बाल काटे।"
+              ],
+              "options_read_as": [
+                "maiṁne baal kaṭvaae.",
+                "maiṁ baal kaaṭtaa huuṁ.",
+                "mere baal kaṭe.",
+                "maiṁne baal kaaṭe."
+              ],
+              "answer_index": 0,
+              "explanation_en": "All four are correct Hindi describing different situations. कटवाए is the one with a barber in it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने बाल कटवाए।",
+              "मैंने बाल काटे।",
+              "मैंने गाड़ी ठीक करवाई।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L18-I3",
+          "type": "grammar",
+          "target": "प्रेरणार्थक सीढ़ी",
+          "read_as": "prernaarthak siiṛhii",
+          "pronunciation_notes": "प्रेरणार्थक is the grammatical term; you will not need to say it, only to recognise it in a textbook.",
+          "gloss_en": "the causative ladder, whole",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "causative",
+            "capstone",
+            "summary",
+            "module_close"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Three rungs, two spelling rules, two postpositions",
+              "explanation_en": "The ladder, complete. Rung one is the base verb: करना, खाना, पढ़ना, सीखना. Rung two adds -आ-: कराना, खिलाना, पढ़ाना, सिखाना — you cause it, fairly directly. Rung three adds -वा-: करवाना, खिलवाना, पढ़वाना, सिखवाना — somebody stands in between. Two spelling rules cover the whole set: long root vowels shorten, and roots ending in a vowel take an inserted ल. Two postpositions cover the participants: the person acted on takes को, and the person acting on your behalf takes से. And every causative is transitive, so the perfective takes ने and the verb agrees with the bare object.",
+              "vectorless_equivalent": {
+                "with_vector": "मैंने उससे काम करवाया।",
+                "without_vector": "मैंने काम किया।",
+                "difference_en": "The base verb says you did it. Everything the ladder adds is about who really did, and through whom."
+              },
+              "examples": [
+                {
+                  "hindi": "मैंने काम किया।",
+                  "read_as": "maiṁne kaam kiyaa.",
+                  "english": "I did the work.",
+                  "note": "Rung one."
+                },
+                {
+                  "hindi": "मैंने काम कराया।",
+                  "read_as": "maiṁne kaam karaayaa.",
+                  "english": "I had the work done.",
+                  "note": "Rung two."
+                },
+                {
+                  "hindi": "मैंने उससे काम करवाया।",
+                  "read_as": "maiṁne usse kaam karvaayaa.",
+                  "english": "I got him to do the work.",
+                  "note": "Rung three, with से on the agent."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने बच्चे से खाना खिलाया।",
+                "right": "मैंने बच्चे को खाना खिलाया।",
+                "why_en": "The child is the person acted on, so को. से would make the child the one doing the feeding."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The child is the one being fed. Pick the postposition.",
+              "question": "मैंने बच्चे ___ खाना खिलाया।",
+              "question_read_as": "maiṁne bacche ___ khaanaa khilaayaa.",
+              "options": [
+                "का",
+                "से",
+                "को",
+                "ने"
+              ],
+              "options_read_as": [
+                "kaa",
+                "se",
+                "ko",
+                "ne"
+              ],
+              "answer_index": 2,
+              "explanation_en": "को for the person acted on; से would make them the agent instead."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You got someone else to do the work for you.",
+              "options": [
+                "मैंने काम कराया।",
+                "मैंने उससे काम करवाया।",
+                "मैं काम करता हूँ।",
+                "मैंने काम किया।"
+              ],
+              "options_read_as": [
+                "maiṁne kaam karaayaa.",
+                "maiṁne usse kaam karvaayaa.",
+                "maiṁ kaam kartaa huuṁ.",
+                "maiṁne kaam kiyaa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "All four are correct. The third names the agent and puts you in the arranging role, which is what the situation calls for."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैंने काम किया।",
+              "मैंने काम कराया।",
+              "मैंने उससे काम करवाया।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The agent of a causative takes से — मैंने उससे काम करवाया — while the person acted on takes को. Services you have performed on you go in the second causative with the agent unmentioned: मैंने बाल कटवाए. That completes the ladder, and the module.",
+        "key_forms": [
+          "मैंने उससे काम करवाया",
+          "मैंने बाल कटवाए",
+          "मैंने बच्चे को खिलाया"
+        ],
+        "next_up_en": "That is all 54 items. Next is the checkpoint on levels 11 to 15, and then the module mock exam."
+      }
+    }
+  ]
+}

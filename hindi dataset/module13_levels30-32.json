@@ -1,0 +1,1066 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "batch": {
+    "levels_from": 30,
+    "levels_to": 32
+  },
+  "block_kind": "reading",
+  "block_note": "The emails in this block use the header and closing apparatus taught in levels 20 and 21 — विषय, महोदय, सादर — so the vocabulary block pays off here rather than being tested in isolation. The last item is the module's first news text.",
+  "levels": [
+    {
+      "level": 30,
+      "title_en": "A reminder and two emails",
+      "title_hi": "स्मरण · अनुलग्नक · प्रेषक",
+      "items": [
+        {
+          "id": "M13-L30-I1",
+          "type": "reading",
+          "text_kind": "message",
+          "target_word": "स्मरण",
+          "target_read_as": "smaraṇ",
+          "target_gloss_en": "remembrance; a reminder",
+          "target_gender": "m",
+          "word_count": 42,
+          "difficulty": 8,
+          "tags": [
+            "message",
+            "formal_notice",
+            "sanskrit_leaning",
+            "callback_l20"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "प्रिय सदस्यगण, नमस्कार",
+                "read_as": "priya sadasyagaṇ, namaskaar",
+                "english": "Dear members, greetings"
+              },
+              {
+                "n": 2,
+                "hindi": "स्मरण रहे कि वार्षिक शुल्क जमा करने की अंतिम तिथि इस महीने की तीस तारीख़ है",
+                "read_as": "smaraṇ rahe ki vaarṣik shulk jamaa karne kii aṁtim tithi is mahiine kii tiis taariiḳh hai",
+                "english": "Please note that the last date for depositing the annual fee is the thirtieth of this month"
+              },
+              {
+                "n": 3,
+                "hindi": "समय पर भुगतान न होने पर सदस्यता रद्द हो सकती है",
+                "read_as": "samay par bhugtaan na hone par sadasyataa radd ho saktii hai",
+                "english": "If payment is not made on time, membership may be cancelled"
+              },
+              {
+                "n": 4,
+                "hindi": "इस बार ऑनलाइन भुगतान की सुविधा भी उपलब्ध है",
+                "read_as": "is baar ônlaain bhugtaan kii suvidhaa bhii uplabdh hai",
+                "english": "Online payment is also available this time"
+              },
+              {
+                "n": 5,
+                "hindi": "कृपया ध्यान दें",
+                "read_as": "kripayaa dhyaan deṁ",
+                "english": "Please take note"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "तिथि and तारीख़ in the same breath",
+              "explanation_en": "स्मरण is remembrance, and स्मरण रहे कि — let it be remembered that — is how a formal notice says please note. But look at line 2 more closely: it uses अंतिम तिथि and then इस महीने की तीस तारीख़, five words apart. तिथि is the Sanskrit-side word you met as a distractor in level 20 and तारीख़ is the Urdu-side one, and the writer moves between them inside a single sentence without noticing. That is exactly the behaviour the pairs block described.",
+              "register_note_en": "स्मरण रहे कि (formal notice) · याद रखें or याद दिला दूँ (speech). Nobody says स्मरण out loud.",
+              "vocabulary_notes": [
+                "वार्षिक — annual, built from वर्ष with the -इक suffix.",
+                "भुगतान — payment, masculine. रद्द — cancelled, invariable, Urdu-side.",
+                "न होने पर — the oblique infinitive plus पर, negated with न as on the signs."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What is the deadline for the fee?",
+              "options": [
+                "The thirtieth of this month",
+                "The end of the year",
+                "There is no fixed date",
+                "The fifteenth"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 2: इस महीने की तीस तारीख़."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                2,
+                4
+              ],
+              "question_en": "इस बार ... भी in line 4. What does that tell you?",
+              "options": [
+                "Online payment costs extra",
+                "Online payment has always been available",
+                "Online payment is new this year",
+                "Only online payment is accepted"
+              ],
+              "answer_index": 2,
+              "explanation_en": "इस बार marks a change from previous times and भी adds it to what already existed. Neither word alone says the facility is new; together they do."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "स्मरण"
+            ]
+          }
+        },
+        {
+          "id": "M13-L30-I2",
+          "type": "reading",
+          "text_kind": "email",
+          "target_word": "अनुलग्नक",
+          "target_read_as": "anulagnak",
+          "target_gloss_en": "attachment, enclosure",
+          "target_gender": "m",
+          "word_count": 45,
+          "difficulty": 8,
+          "tags": [
+            "email",
+            "letter_skeleton",
+            "lagnaa_family",
+            "callback_l20_l21"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "विषय: मासिक रिपोर्ट",
+                "read_as": "viṣay: maasik riporṭ",
+                "english": "Subject: monthly report"
+              },
+              {
+                "n": 2,
+                "hindi": "महोदय,",
+                "read_as": "mahoday,",
+                "english": "Sir,"
+              },
+              {
+                "n": 3,
+                "hindi": "इस महीने की रिपोर्ट अनुलग्नक में भेज रहा हूँ",
+                "read_as": "is mahiine kii riporṭ anulagnak meṁ bhej rahaa huuṁ",
+                "english": "I am sending this month's report as an attachment"
+              },
+              {
+                "n": 4,
+                "hindi": "कुछ आँकड़े अभी अधूरे हैं। वो कल तक पूरे हो जाएँगे",
+                "read_as": "kuchh aaṁkaṛe abhii adhuure haiṁ. vo kal tak puure ho jaaeṁge",
+                "english": "Some figures are still incomplete. They will be finalised by tomorrow"
+              },
+              {
+                "n": 5,
+                "hindi": "कृपया इसे देख लीजिएगा",
+                "read_as": "kripayaa ise dekh liijiegaa",
+                "english": "Please do look it over"
+              },
+              {
+                "n": 6,
+                "hindi": "रिपोर्ट पर आपकी राय का इंतज़ार रहेगा",
+                "read_as": "riporṭ par aapkii raay kaa iṁtazaar rahegaa",
+                "english": "I look forward to your views on the report"
+              },
+              {
+                "n": 7,
+                "hindi": "किसी भी प्रश्न के लिए संपर्क करें",
+                "read_as": "kisii bhii prashn ke lie saṁpark kareṁ",
+                "english": "Do get in touch with any questions"
+              },
+              {
+                "n": 8,
+                "hindi": "सादर, अनिल कुमार",
+                "read_as": "saadar, anil kumaar",
+                "english": "Yours sincerely, Anil Kumar"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "अनुलग्नक — an attachment, from the verb that does everything",
+              "explanation_en": "अनुलग्नक is अनु- (along, after) plus a form of लगना, so it is a thing attached alongside. That is the same लगना you now have eight senses for — felt, seemed, attached, cost, began, a phone connecting, a job landing — and here it has built the word for an email attachment. Everyday speech uses अटैचमेंट, and both are heard. Note that this email uses the whole apparatus from levels 20 and 21: विषय at the top, महोदय as the salutation, सादर at the close.",
+              "register_note_en": "अनुलग्नक (formal writing) · अटैचमेंट (everywhere else, including most office email). The Hindi word is genuinely used, but on forms more than in inboxes.",
+              "vocabulary_notes": [
+                "महोदय — Sir, in a letter. महोदया for a woman. There is no everyday equivalent; you would simply use a name.",
+                "आँकड़े — figures or data, masculine plural. It is also a level 40 reading item.",
+                "अधूरा — incomplete, and it inflects, so अधूरी रिपोर्ट."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What is not yet finished?",
+              "options": [
+                "The whole report",
+                "Some of the figures",
+                "The subject line",
+                "Nothing — it is complete"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 4: कुछ आँकड़े अभी अधूरे हैं."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                4,
+                5
+              ],
+              "question_en": "Why is he sending a report he says is incomplete?",
+              "options": [
+                "The deadline has already passed",
+                "The figures do not matter",
+                "He has made a mistake",
+                "So that it can be reviewed while the last figures are finished"
+              ],
+              "answer_index": 3,
+              "explanation_en": "He flags what is missing and then asks for it to be looked over anyway. The reason is in the gap between the two lines, not in either of them."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "अनुलग्नक"
+            ]
+          }
+        },
+        {
+          "id": "M13-L30-I3",
+          "type": "reading",
+          "text_kind": "email",
+          "target_word": "प्रेषक",
+          "target_read_as": "preṣak",
+          "target_gloss_en": "sender",
+          "target_gender": "m",
+          "word_count": 44,
+          "difficulty": 8,
+          "tags": [
+            "email",
+            "suffix_ak",
+            "forwarded",
+            "callback_l14"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "विषय: भवन मरम्मत सूचना",
+                "read_as": "viṣay: bhavan marammat suuchnaa",
+                "english": "Subject: building repair notice"
+              },
+              {
+                "n": 2,
+                "hindi": "प्रेषक: सचिव, आवासीय समिति",
+                "read_as": "preṣak: sachiv, aavaasiiya samiti",
+                "english": "From: Secretary, Residents' Committee"
+              },
+              {
+                "n": 3,
+                "hindi": "समिति ने यह सूचना भेजी है",
+                "read_as": "samiti ne yah suuchnaa bhejii hai",
+                "english": "The committee has issued this notice"
+              },
+              {
+                "n": 4,
+                "hindi": "अगले सोमवार से लिफ़्ट की मरम्मत शुरू होगी",
+                "read_as": "agle somvaar se lifṭ kii marammat shuruu hogii",
+                "english": "Lift repairs begin next Monday"
+              },
+              {
+                "n": 5,
+                "hindi": "तीन दिन तक सीढ़ी का प्रयोग करना होगा",
+                "read_as": "tiin din tak siiṛhii kaa prayog karnaa hogaa",
+                "english": "The stairs will have to be used for three days"
+              },
+              {
+                "n": 6,
+                "hindi": "कृपया यह सूचना सभी सदस्यों तक पहुँचाएँ",
+                "read_as": "kripayaa yah suuchnaa sabhii sadasyoṁ tak pahuṁchaaeṁ",
+                "english": "Please pass this notice to all members"
+              },
+              {
+                "n": 7,
+                "hindi": "इस दौरान असुविधा के लिए खेद",
+                "read_as": "is dauraan asuvidhaa ke lie ḳhed",
+                "english": "We regret the inconvenience during this period"
+              },
+              {
+                "n": 8,
+                "hindi": "सादर",
+                "read_as": "saadar",
+                "english": "Yours sincerely"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "-क builds the one who does it",
+              "explanation_en": "प्रेषक is a sender, from प्रेषण, dispatch, plus the agent suffix -क. You have already met that suffix twice without being told: सूचक, an indicator, in the level 19 game, and समर्थक, a supporter, in level 17. It is everywhere — लेखक writer, पाठक reader, दर्शक viewer, शिक्षक teacher, चालक driver. All masculine, and all built the same way. Notice too how much of this email is recycled: सूचना, मरम्मत, असुविधा and खेद all come from the lift notice back in level 14.",
+              "register_note_en": "प्रेषक and प्राप्तकर्ता, sender and recipient, are what an official form prints. An email client shows भेजने वाला or simply the English.",
+              "vocabulary_notes": [
+                "सचिव — secretary, in the office-holder sense. आवासीय — residential, with the -ईय suffix.",
+                "पहुँचाना — to convey or deliver, the causative of पहुँचना.",
+                "इस दौरान — during this period. दौरान follows के in के दौरान but stands alone after इस."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How long will the lift be out of use?",
+              "options": [
+                "It does not say",
+                "One day",
+                "Three days",
+                "A week"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 5: तीन दिन तक."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                2,
+                6
+              ],
+              "question_en": "What does this email tell you about the person receiving it?",
+              "options": [
+                "They are expected to pass it on to other people",
+                "They wrote the original notice",
+                "They must reply to the secretary",
+                "They live in the building and need to know"
+              ],
+              "answer_index": 0,
+              "explanation_en": "It comes from the secretary and ends by asking that it reach all members. The recipient is a link in a chain, not the end of one."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "प्रेषक"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "तिथि and तारीख़ appear five words apart in one sentence, which is the pairs block in the wild. अनुलग्नक is built on लगना, the verb with eight senses. And -क builds the doer: प्रेषक, लेखक, पाठक, शिक्षक, and सूचक and समर्थक, which you had already met.",
+        "key_forms": [
+          "स्मरण रहे कि",
+          "अनुलग्नक में",
+          "प्रेषक:"
+        ],
+        "next_up_en": "Next: three complete formal emails — accepting, asking and complaining."
+      }
+    },
+    {
+      "level": 31,
+      "title_en": "Three formal emails",
+      "title_hi": "उपस्थित · अनुमति · शिकायत",
+      "items": [
+        {
+          "id": "M13-L31-I1",
+          "type": "reading",
+          "text_kind": "email",
+          "target_word": "उपस्थित",
+          "target_read_as": "upasthit",
+          "target_gloss_en": "present, in attendance",
+          "target_gender": null,
+          "word_count": 48,
+          "difficulty": 8,
+          "tags": [
+            "email",
+            "acceptance",
+            "suffix_iiya",
+            "yadi",
+            "callback_l18"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "विषय: आमंत्रण के संबंध में",
+                "read_as": "viṣay: aamaṁtraṇ ke saṁbaṁdh meṁ",
+                "english": "Subject: regarding the invitation"
+              },
+              {
+                "n": 2,
+                "hindi": "आदरणीय महोदया,",
+                "read_as": "aadarṇiiya mahodayaa,",
+                "english": "Respected madam,"
+              },
+              {
+                "n": 3,
+                "hindi": "आपका निमंत्रण मिला, बहुत धन्यवाद",
+                "read_as": "aapkaa nimaṁtraṇ milaa, bahut dhanyavaad",
+                "english": "I received your invitation — many thanks"
+              },
+              {
+                "n": 4,
+                "hindi": "मैं उस दिन अवश्य उपस्थित रहूँगा",
+                "read_as": "maiṁ us din avashya upasthit rahuuṁgaa",
+                "english": "I will certainly be present that day"
+              },
+              {
+                "n": 5,
+                "hindi": "कार्यक्रम की तारीख़ नोट कर ली है",
+                "read_as": "kaaryakram kii taariiḳh noṭ kar lii hai",
+                "english": "I have noted the date of the event"
+              },
+              {
+                "n": 6,
+                "hindi": "यदि किसी सहयोग की आवश्यकता हो तो अवश्य बताइएगा",
+                "read_as": "yadi kisii sahyog kii aavashyaktaa ho to avashya bataaiegaa",
+                "english": "If any help is needed, do let me know"
+              },
+              {
+                "n": 7,
+                "hindi": "आपसे मुलाक़ात का इंतज़ार रहेगा",
+                "read_as": "aapse mulaaqaat kaa iṁtazaar rahegaa",
+                "english": "I look forward to meeting you"
+              },
+              {
+                "n": 8,
+                "hindi": "कार्यक्रम की सफलता के लिए शुभकामनाएँ",
+                "read_as": "kaaryakram kii safaltaa ke lie shubhkaamnaaeṁ",
+                "english": "Best wishes for the success of the event"
+              },
+              {
+                "n": 9,
+                "hindi": "सादर, राजेश वर्मा",
+                "read_as": "saadar, raajesh varmaa",
+                "english": "Yours sincerely, Rajesh Verma"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "उपस्थित, and यदि for \"if\"",
+              "explanation_en": "उपस्थित means present or in attendance, and its noun उपस्थिति was a distractor in the level 18 game. Its negative is अनुपस्थित, absent, using the अन- form of the prefix before a vowel — and you will see that word in the next email. Note also यदि ... तो in line 6: यदि is the formal word for if, where speech uses अगर, and where a message often uses nothing at all and lets तो carry the whole conditional on its own.",
+              "register_note_en": "यदि (formal writing) · अगर (speech and ordinary writing) · nothing at all, with तो alone, in casual speech. Three ways to build a conditional, and the setting picks.",
+              "vocabulary_notes": [
+                "आदरणीय — respected, with the -ईय suffix that also gave स्थानीय and आवासीय.",
+                "अवश्य — certainly, formal. Speech says ज़रूर, which appears everywhere in Module 12.",
+                "शुभकामनाएँ — good wishes, feminine plural. Used for occasions rather than for congratulations."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What is he replying to?",
+              "options": [
+                "A bill",
+                "A job offer",
+                "A complaint",
+                "An invitation"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 3: आपका निमंत्रण मिला."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                2,
+                9
+              ],
+              "question_en": "What do आदरणीय महोदया and सादर together tell you about the two people?",
+              "options": [
+                "They are close friends",
+                "The relationship is formal — professional or civic",
+                "She works for him",
+                "They have never corresponded before"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The register is formal at both ends of the letter and never slips in between, which is not how people write to friends."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "उपस्थित"
+            ]
+          }
+        },
+        {
+          "id": "M13-L31-I2",
+          "type": "reading",
+          "text_kind": "email",
+          "target_word": "अनुमति",
+          "target_read_as": "anumati",
+          "target_gloss_en": "permission",
+          "target_gender": "f",
+          "word_count": 46,
+          "difficulty": 8,
+          "tags": [
+            "email",
+            "leave_application",
+            "prefix_an",
+            "register_pair",
+            "callback_l19"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "विषय: छुट्टी के लिए प्रार्थना",
+                "read_as": "viṣay: chhuṭṭii ke lie praarthanaa",
+                "english": "Subject: application for leave"
+              },
+              {
+                "n": 2,
+                "hindi": "आदरणीय महोदय,",
+                "read_as": "aadarṇiiya mahoday,",
+                "english": "Respected sir,"
+              },
+              {
+                "n": 3,
+                "hindi": "निवेदन है कि मुझे पारिवारिक कारणों से चार दिन की छुट्टी चाहिए",
+                "read_as": "nivedan hai ki mujhe paarivaarik kaaraṇoṁ se chaar din kii chhuṭṭii chaahie",
+                "english": "I request four days' leave for family reasons"
+              },
+              {
+                "n": 4,
+                "hindi": "दिनांक बारह से पंद्रह मार्च तक अनुपस्थित रहूँगा",
+                "read_as": "dinaaṁk baarah se paṁdrah maarch tak anupasthit rahuuṁgaa",
+                "english": "I will be absent from the twelfth to the fifteenth of March"
+              },
+              {
+                "n": 5,
+                "hindi": "मेरे काम की ज़िम्मेदारी श्री शर्मा सँभाल लेंगे",
+                "read_as": "mere kaam kii zimmedaarii shrii sharmaa saṁbhaal leṁge",
+                "english": "Mr Sharma will take charge of my work"
+              },
+              {
+                "n": 6,
+                "hindi": "कृपया अनुमति प्रदान करें",
+                "read_as": "kripayaa anumati pradaan kareṁ",
+                "english": "Please grant permission"
+              },
+              {
+                "n": 7,
+                "hindi": "आपकी अति कृपा होगी",
+                "read_as": "aapkii ati kripaa hogii",
+                "english": "I would be most grateful"
+              },
+              {
+                "n": 8,
+                "hindi": "सादर, मोहित सिंह",
+                "read_as": "saadar, mohit siṁh",
+                "english": "Yours sincerely, Mohit Singh"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "अनुपस्थित, one email later",
+              "explanation_en": "Line 4 gives you अनुपस्थित, absent — अन- plus उपस्थित from the previous item, exactly as promised. The prefix takes its अन- form because उपस्थित begins with a vowel, which is the rule you met in level 12. The target word itself, अनुमति, is permission, and it goes with देना or, more formally, प्रदान करना. Its Urdu-side partner is इजाज़त, feminine as well, so this is a matched pair.",
+              "register_note_en": "अनुमति (formal writing) · इजाज़त (speech). इजाज़त दीजिए is what you say before leaving somebody's house.",
+              "vocabulary_notes": [
+                "पारिवारिक — family-related, from परिवार with the -इक suffix, as वार्षिक came from वर्ष.",
+                "प्रदान करना — to grant or bestow. Only ever formal.",
+                "आपकी अति कृपा होगी — a fixed closing for a request. Literally, it will be your great kindness."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How long is the leave requested for?",
+              "options": [
+                "Four days",
+                "A week",
+                "It is not specified",
+                "Two days"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 3: चार दिन की छुट्टी, and line 4 gives the dates."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                3,
+                5
+              ],
+              "question_en": "Why does he mention Mr Sharma at all?",
+              "options": [
+                "To show the work is unimportant",
+                "To explain who Mr Sharma is",
+                "To remove the obvious objection before it can be raised",
+                "To ask Mr Sharma for permission too"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The request creates a problem — who covers the work — and the next line closes it. Neither line needs the other to make sense, which is why the move is easy to miss."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "अनुमति"
+            ]
+          }
+        },
+        {
+          "id": "M13-L31-I3",
+          "type": "reading",
+          "text_kind": "email",
+          "target_word": "शिकायत",
+          "target_read_as": "shikaayat",
+          "target_gloss_en": "complaint",
+          "target_gender": "f",
+          "word_count": 50,
+          "difficulty": 8,
+          "tags": [
+            "email",
+            "complaint",
+            "no_register_pair",
+            "urdu_origin",
+            "collective_framing"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "विषय: पानी की समस्या",
+                "read_as": "viṣay: paanii kii samasyaa",
+                "english": "Subject: water problem"
+              },
+              {
+                "n": 2,
+                "hindi": "आदरणीय महोदय,",
+                "read_as": "aadarṇiiya mahoday,",
+                "english": "Respected sir,"
+              },
+              {
+                "n": 3,
+                "hindi": "पिछले एक सप्ताह से हमारे भवन में पानी बहुत कम आ रहा है",
+                "read_as": "pichhle ek saptaah se hamaare bhavan meṁ paanii bahut kam aa rahaa hai",
+                "english": "For the past week there has been very little water in our building"
+              },
+              {
+                "n": 4,
+                "hindi": "सुबह केवल आधे घंटे पानी आता है",
+                "read_as": "subah keval aadhe ghanṭe paanii aataa hai",
+                "english": "Water comes for only half an hour in the morning"
+              },
+              {
+                "n": 5,
+                "hindi": "कई लोगों ने भी इसकी शिकायत की है",
+                "read_as": "kaii logoṁ ne bhii iskii shikaayat kii hai",
+                "english": "Several other people have complained about this as well"
+              },
+              {
+                "n": 6,
+                "hindi": "कृपया इस समस्या पर शीघ्र ध्यान दें",
+                "read_as": "kripayaa is samasyaa par shiighra dhyaan deṁ",
+                "english": "Please attend to this problem promptly"
+              },
+              {
+                "n": 7,
+                "hindi": "आपके सहयोग के लिए बहुत धन्यवाद",
+                "read_as": "aapke sahyog ke lie bahut dhanyavaad",
+                "english": "Many thanks for your cooperation"
+              },
+              {
+                "n": 8,
+                "hindi": "सादर, संगीता राव",
+                "read_as": "saadar, saṁgiitaa raav",
+                "english": "Yours sincerely, Sangeeta Rao"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "शिकायत has no formal partner — it is already both",
+              "explanation_en": "Most of the words in these emails have a partner on the other side of the register. शिकायत does not. It is Urdu-side in origin and it is also exactly what a government form, a consumer court and a police station all use — शिकायत दर्ज करें, register a complaint. That is the mirror image of उपलब्ध in level 18, which had no casual partner. Some words simply occupy the whole range, and looking for the other half wastes your time. Note that the thing complained about takes की: इसकी शिकायत.",
+              "register_note_en": "शिकायत covers everything from a child complaining about a sibling to a formal legal filing. There is no register decision to make.",
+              "vocabulary_notes": [
+                "सप्ताह — week, formal. Speech says हफ़्ता, which you met in Module 12.",
+                "भवन — building, formal. Speech says बिल्डिंग.",
+                "शीघ्र — promptly, formal, and the item at level 52 that pairs it with जल्दी and फ़ौरन."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How long has the problem been going on?",
+              "options": [
+                "Two days",
+                "A week",
+                "A month",
+                "Since the building opened"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 3: पिछले एक सप्ताह से."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                3,
+                5
+              ],
+              "question_en": "What is line 5 doing that lines 3 and 4 do not?",
+              "options": [
+                "Explaining why she is the one writing",
+                "Softening the complaint",
+                "Naming who is responsible",
+                "Turning a personal grievance into a collective one, which is harder to dismiss"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The first two lines describe her own building's problem. The third makes it everyone's, which changes what the reader can do about it."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "शिकायत"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "यदि, अगर and nothing-at-all are three ways of building a conditional, chosen by setting. अनुपस्थित follows उपस्थित one email later, with अन- before a vowel. And शिकायत has no register partner at all — it covers the whole range on its own, which is the mirror of उपलब्ध in level 18.",
+        "key_forms": [
+          "उपस्थित रहूँगा",
+          "अनुमति प्रदान करें",
+          "शिकायत की है"
+        ],
+        "next_up_en": "Next: two urgent messages, and the module's first news item."
+      }
+    },
+    {
+      "level": 32,
+      "title_en": "Urgent, approved, reported",
+      "title_hi": "तत्काल · स्वीकृति · निवासी",
+      "items": [
+        {
+          "id": "M13-L32-I1",
+          "type": "reading",
+          "text_kind": "message",
+          "target_word": "तत्काल",
+          "target_read_as": "tatkaal",
+          "target_gloss_en": "immediately, at once",
+          "target_gender": null,
+          "word_count": 40,
+          "difficulty": 7,
+          "tags": [
+            "message",
+            "group_announcement",
+            "sanskrit_compound",
+            "callback_l14"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "सभी ध्यान दें",
+                "read_as": "sabhii dhyaan deṁ",
+                "english": "Attention all"
+              },
+              {
+                "n": 2,
+                "hindi": "आज शाम पाँच बजे बिजली नहीं रहेगी",
+                "read_as": "aaj shaam paaṁch baje bijlii nahiiṁ rahegii",
+                "english": "There will be no electricity from five this evening"
+              },
+              {
+                "n": 3,
+                "hindi": "मरम्मत का काम तत्काल शुरू हो रहा है",
+                "read_as": "marammat kaa kaam tatkaal shuruu ho rahaa hai",
+                "english": "Repair work is starting immediately"
+              },
+              {
+                "n": 4,
+                "hindi": "कृपया ज़रूरी काम पहले निपटा लें",
+                "read_as": "kripayaa zaruurii kaam pahle nipṭaa leṁ",
+                "english": "Please finish anything urgent first"
+              },
+              {
+                "n": 5,
+                "hindi": "लिफ़्ट भी बंद रहेगी",
+                "read_as": "lifṭ bhii band rahegii",
+                "english": "The lift will be out as well"
+              },
+              {
+                "n": 6,
+                "hindi": "पानी की मोटर भी नहीं चलेगी",
+                "read_as": "paanii kii moṭar bhii nahiiṁ chalegii",
+                "english": "The water pump will not run either"
+              },
+              {
+                "n": 7,
+                "hindi": "असुविधा के लिए खेद",
+                "read_as": "asuvidhaa ke lie ḳhed",
+                "english": "We regret the inconvenience"
+              },
+              {
+                "n": 8,
+                "hindi": "आवासीय समिति",
+                "read_as": "aavaasiiya samiti",
+                "english": "Residents' Committee"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "तत्काल — at that very moment",
+              "explanation_en": "तत्काल is तत् (that) plus काल (time), so it means at that very time, immediately. It is the same काल you met in आपातकाल on the emergency sign in level 14. Everyday speech uses तुरंत or फ़ौरन instead, and all three are common. Note also that लिफ़्ट and मोटर are both feminine here — रहेगी and चलेगी — which is the building machinery from Module 12 turning up again.",
+              "register_note_en": "तत्काल (notices, and the name of Indian Railways' emergency booking quota) · तुरंत · फ़ौरन. The last is Urdu-side and comes up properly at level 53.",
+              "vocabulary_notes": [
+                "निपटा लें — to get something dealt with. निपटना is taught properly at level 44; here you meet it in passing, which is what graded reading is for.",
+                "भी appearing twice, in lines 5 and 6, adding one consequence after another.",
+                "असुविधा के लिए खेद — lifted straight from the level 14 lift notice, once again."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "When does the power go off?",
+              "options": [
+                "It does not say",
+                "Immediately",
+                "At five this evening",
+                "Tomorrow morning"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 2: आज शाम पाँच बजे."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                2,
+                6
+              ],
+              "question_en": "Why does the message mention the water pump separately?",
+              "options": [
+                "Because no power means no pump, which residents might not think through",
+                "The pump is being repaired too",
+                "The pump runs on a generator",
+                "The pump has its own fault"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The power cut is the cause and the pump is a consequence of it. Spelling out the consequence is the whole reason the line exists."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "तत्काल"
+            ]
+          }
+        },
+        {
+          "id": "M13-L32-I2",
+          "type": "reading",
+          "text_kind": "message",
+          "target_word": "स्वीकृति",
+          "target_read_as": "sviikriti",
+          "target_gloss_en": "approval, sanction",
+          "target_gender": "f",
+          "word_count": 38,
+          "difficulty": 8,
+          "tags": [
+            "message",
+            "suffix_ti",
+            "register_pair",
+            "abstract_noun_suffixes"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "नमस्ते, आपका आवेदन मिल गया था",
+                "read_as": "namaste, aapkaa aavedan mil gayaa thaa",
+                "english": "Hello, your application was received"
+              },
+              {
+                "n": 2,
+                "hindi": "छुट्टी की स्वीकृति मिल गई है",
+                "read_as": "chhuṭṭii kii sviikriti mil gaii hai",
+                "english": "Your leave has been approved"
+              },
+              {
+                "n": 3,
+                "hindi": "बारह से पंद्रह तारीख़ तक की छुट्टी मंज़ूर है",
+                "read_as": "baarah se paṁdrah taariiḳh tak kii chhuṭṭii maṁzuur hai",
+                "english": "Leave from the twelfth to the fifteenth is granted"
+              },
+              {
+                "n": 4,
+                "hindi": "ऑफ़िस में एंट्री कार्ड जमा करा दीजिएगा",
+                "read_as": "ôfis meṁ enṭrii kaarḍ jamaa karaa diijiegaa",
+                "english": "Please hand in your entry card at the office"
+              },
+              {
+                "n": 5,
+                "hindi": "लौटने पर ले लीजिएगा",
+                "read_as": "lauṭne par le liijiegaa",
+                "english": "Collect it again when you return"
+              },
+              {
+                "n": 6,
+                "hindi": "कोई सवाल हो तो पूछ लीजिएगा",
+                "read_as": "koii savaal ho to puuchh liijiegaa",
+                "english": "Do ask if you have any questions"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "-ति — the fourth abstract-noun suffix, and also feminine",
+              "explanation_en": "स्वीकृति is approval, built from स्वीकार करना, to accept, with the suffix -ति. That gives you four suffixes that build abstract nouns — -आई as in सच्चाई, -ई as in आज़ादी, -ता as in आवश्यकता, and now -ति as in स्वीकृति, प्रगति, शक्ति, गति, उन्नति. Every single one of them produces a feminine noun, without exception. Four different suffixes, one reliable gender, which is about as much regularity as Hindi ever offers.",
+              "register_note_en": "स्वीकृति (Sanskrit-side) · मंज़ूरी (Urdu-side), and both are feminine. The message uses स्वीकृति in line 2 and मंज़ूर in line 3, one line apart, without any awkwardness.",
+              "vocabulary_notes": [
+                "आवेदन — an application, masculine. आवेदन करना, to apply.",
+                "जमा करा दीजिएगा — the second causative of जमा करना: have it deposited, rather than deposit it yourself.",
+                "लौटने पर — the oblique infinitive plus पर, meaning when you return."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What must he hand in at the office?",
+              "options": [
+                "A medical certificate",
+                "Nothing",
+                "The application form",
+                "His entry card"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 4: एंट्री कार्ड जमा करा दीजिएगा."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                4,
+                5
+              ],
+              "question_en": "Why is the entry card taken?",
+              "options": [
+                "His leave has been cancelled",
+                "It is a routine security measure for the days he is away",
+                "He is being disciplined",
+                "The card has expired"
+              ],
+              "answer_index": 1,
+              "explanation_en": "It is taken and then given straight back on his return. A card handed back is not a penalty."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "स्वीकृति"
+            ]
+          }
+        },
+        {
+          "id": "M13-L32-I3",
+          "type": "reading",
+          "text_kind": "news",
+          "target_word": "निवासी",
+          "target_read_as": "nivaasii",
+          "target_gloss_en": "resident",
+          "target_gender": "m",
+          "word_count": 55,
+          "difficulty": 8,
+          "tags": [
+            "news",
+            "first_news_item",
+            "suffix_ii_agent",
+            "balanced_reporting",
+            "ke_anusaar"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "शहर के पूर्वी इलाक़े में सड़क मरम्मत का काम शुरू हुआ",
+                "read_as": "shahar ke puurvii ilaaqe meṁ saṛak marammat kaa kaam shuruu huaa",
+                "english": "Road repair work has begun in the eastern part of the city"
+              },
+              {
+                "n": 2,
+                "hindi": "नगर निगम के अनुसार यह काम दो महीने में पूरा होगा",
+                "read_as": "nagar nigam ke anusaar yah kaam do mahiine meṁ puuraa hogaa",
+                "english": "According to the municipal corporation the work will take two months"
+              },
+              {
+                "n": 3,
+                "hindi": "इस दौरान वाहनों को दूसरे रास्ते से जाना होगा",
+                "read_as": "is dauraan vaahanoṁ ko duusre raaste se jaanaa hogaa",
+                "english": "During this period vehicles will have to take another route"
+              },
+              {
+                "n": 4,
+                "hindi": "स्थानीय निवासी इस काम से ख़ुश हैं",
+                "read_as": "sthaaniiya nivaasii is kaam se ḳhush haiṁ",
+                "english": "Local residents are pleased with the work"
+              },
+              {
+                "n": 5,
+                "hindi": "कुछ लोगों ने धूल और शोर की शिकायत भी की",
+                "read_as": "kuchh logoṁ ne dhuul aur shor kii shikaayat bhii kii",
+                "english": "Some people have also complained of dust and noise"
+              },
+              {
+                "n": 6,
+                "hindi": "अधिकारियों ने पानी छिड़कने का आश्वासन दिया",
+                "read_as": "adhikaariyoṁ ne paanii chhiṛakne kaa aashvaasan diyaa",
+                "english": "Officials have promised that water will be sprinkled"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "The first news item, and what news writing does",
+              "explanation_en": "निवासी is a resident, from निवास, residence, plus -ई — a second agent suffix alongside the -क of प्रेषक two levels ago. But the more useful thing here is the shape of the text. Every claim is attributed: नगर निगम के अनुसार, स्थानीय निवासियों ने, कुछ लोगों ने, अधिकारियों ने. The report never says anything in its own voice, and it puts the welcome and the complaint side by side without choosing. That structure is what makes news dense with ने and with के अनुसार.",
+              "register_note_en": "के अनुसार (news, formal writing) · के हिसाब से (speech, and you met it in a Module 12 office argument). Both mean according to.",
+              "vocabulary_notes": [
+                "वाहन — vehicle, formal. Speech says गाड़ी. वाहनों is the oblique plural before को.",
+                "स्वागत करना — to welcome. स्वागत is masculine, hence किया.",
+                "आश्वासन — an assurance, and the standard word for an official promise.",
+                "निवासी is the same in the direct singular and the direct plural. It becomes निवासियों only before a postposition."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How long is the work expected to take?",
+              "options": [
+                "Two months",
+                "Six months",
+                "It is not stated",
+                "Two weeks"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 2: दो महीने में."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                4,
+                5
+              ],
+              "question_en": "Lines 4 and 5 appear to disagree. What is the report doing?",
+              "options": [
+                "Suggesting the complaints came from outside the area",
+                "Contradicting itself",
+                "Reporting both the welcome and the complaints without judging between them",
+                "Saying the residents changed their minds"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Both lines are attributed to different groups. Setting them next to each other and taking no side is the convention, not an error."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "निवासी"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "-ति joins -आई, -ई and -ता as a fourth abstract-noun suffix, and all four are reliably feminine. The approval message uses स्वीकृति and मंज़ूर one line apart. And the first news item attributes every single claim, which is why news Hindi is so dense with ने and के अनुसार.",
+        "key_forms": [
+          "तत्काल",
+          "स्वीकृति मिल गई",
+          "के अनुसार"
+        ],
+        "next_up_en": "Next: back to vocabulary — the last three Urdu-side pairs, and then the language of news."
+      }
+    }
+  ]
+}

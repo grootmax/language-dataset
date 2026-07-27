@@ -1,0 +1,1301 @@
+{
+  "module": 12,
+  "module_name_en": "Conversation",
+  "module_name_hi": "बातचीत",
+  "phase": 5,
+  "batch": {
+    "levels_from": 37,
+    "levels_to": 39
+  },
+  "receptive_only": true,
+  "speed_note": "Fast speech from level 37. Turns are shorter, speakers interrupt each other, and English vocabulary is mixed in freely. Lines marked overlaps_previous begin before the previous speaker has finished.",
+  "levels": [
+    {
+      "level": 37,
+      "title_en": "Friends, at speed",
+      "title_hi": "दोस्त, तेज़ रफ़्तार",
+      "items": [
+        {
+          "id": "M12-L37-I1",
+          "type": "dialogue",
+          "target": "ट्रैफ़िक में आधा घंटा लगेगा",
+          "title_en": "Where shall we go",
+          "setting": "cafe",
+          "speed": "fast",
+          "difficulty": 9,
+          "tags": [
+            "fast",
+            "three_speakers",
+            "interruption",
+            "vaalaa",
+            "ellipsis"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Friend A",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "B",
+              "label_en": "Friend B",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "C",
+              "label_en": "Friend C",
+              "label_hi": "दोस्त"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "तो कहाँ चलें?",
+              "read_as": "to kahaaṁ chaleṁ?",
+              "english": "So where shall we go?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "वहीं चलते हैं, पिछली बार वाली जगह।",
+              "read_as": "vahiiṁ chalte haiṁ, pichhlii baar vaalii jagah.",
+              "english": "Let's go where we went last time."
+            },
+            {
+              "n": 3,
+              "speaker": "C",
+              "hindi": "यार वो बहुत दूर है।",
+              "read_as": "yaar vo bahut duur hai.",
+              "english": "That's miles away, man."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "दूर कहाँ है? दस मिनट में —",
+              "read_as": "duur kahaaṁ hai? das minaṭ meṁ —",
+              "english": "How's it far? Ten minutes and—"
+            },
+            {
+              "n": 5,
+              "speaker": "C",
+              "hindi": "— ट्रैफ़िक में आधा घंटा लगेगा।",
+              "read_as": "— ṭraifik meṁ aadhaa ghanṭaa lagegaa.",
+              "english": "—half an hour in traffic.",
+              "overlaps_previous": true
+            },
+            {
+              "n": 6,
+              "speaker": "A",
+              "hindi": "ठीक है, पास वाला ही चलते हैं।",
+              "read_as": "ṭhiik hai, paas vaalaa hii chalte haiṁ.",
+              "english": "Fine, let's just do the nearby one."
+            },
+            {
+              "n": 7,
+              "speaker": "B",
+              "hindi": "चलो।",
+              "read_as": "chalo.",
+              "english": "Fine."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Interruption, and what survives it",
+              "explanation_en": "This is the first dialogue at full speed and the first with a line cut off mid-sentence. B's दस मिनट में — never finishes, and C completes the thought with a different number. Notice what survives the cut: the postposition में is still there in both halves, because Hindi cannot drop it the way English drops \"in\". Auxiliaries go, subjects go, whole verbs go — but the postposition stays, and that is exactly why it is the thing to listen for when everything else is disappearing.",
+              "listening_notes": [
+                "दूर कहाँ है? is not a question about location. कहाँ used this way denies something: it isn't far at all.",
+                "पिछली बार वाली जगह — वाली doing its usual work, agreeing with feminine जगह.",
+                "पास वाला ही — वाला again, and ही narrowing it to that one and no other."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Where do they decide to go?",
+              "options": [
+                "They cannot agree",
+                "The place from last time",
+                "The nearer place",
+                "Neither — they stay in"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 6: पास वाला ही चलते हैं, once C points out the traffic."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 5,
+              "masked_token": "में",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "— ट्रैफ़िक ___ आधा घंटा लगेगा।",
+              "question_read_as": "— ṭraifik ___ aadhaa ghanṭaa lagegaa.",
+              "options": [
+                "में",
+                "पर",
+                "से",
+                "को"
+              ],
+              "options_read_as": [
+                "meṁ",
+                "par",
+                "se",
+                "ko"
+              ],
+              "answer_index": 0,
+              "explanation_en": "में for being inside something — including inside traffic."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 7,
+            "notes_for_recording": "Genuinely fast. Line 5 must start before line 4 finishes — real overlap, not a pause."
+          }
+        },
+        {
+          "id": "M12-L37-I2",
+          "type": "dialogue",
+          "target": "पिछली बार भी तूने यही कहा था",
+          "title_en": "He's late again",
+          "setting": "cafe",
+          "speed": "fast",
+          "difficulty": 9,
+          "tags": [
+            "fast",
+            "three_speakers",
+            "tuu",
+            "ne",
+            "ne_exception",
+            "sarcasm"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Friend A",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "B",
+              "label_en": "Friend B",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "C",
+              "label_en": "Latecomer",
+              "label_hi": "देर से आने वाला"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "आ गया साहब!",
+              "read_as": "aa gayaa saahab!",
+              "english": "He arrives!"
+            },
+            {
+              "n": 2,
+              "speaker": "C",
+              "hindi": "सॉरी यार, ट्रैफ़िक —",
+              "read_as": "sôrii yaar, ṭraifik —",
+              "english": "Sorry, traffic—"
+            },
+            {
+              "n": 3,
+              "speaker": "B",
+              "hindi": "— ट्रैफ़िक ही होता है हमेशा।",
+              "read_as": "— ṭraifik hii hotaa hai hameshaa.",
+              "english": "—it's always traffic.",
+              "overlaps_previous": true
+            },
+            {
+              "n": 4,
+              "speaker": "A",
+              "hindi": "पिछली बार भी तूने यही कहा था।",
+              "read_as": "pichhlii baar bhii tuune yahii kahaa thaa.",
+              "english": "You said the same thing last time."
+            },
+            {
+              "n": 5,
+              "speaker": "C",
+              "hindi": "अच्छा बाबा, सॉरी।",
+              "read_as": "acchaa baabaa, sôrii.",
+              "english": "All right, all right, sorry."
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "चाय तेरी तरफ़ से।",
+              "read_as": "chaay terii taraf se.",
+              "english": "Tea's on you."
+            },
+            {
+              "n": 7,
+              "speaker": "C",
+              "hindi": "ठीक है ठीक है।",
+              "read_as": "ṭhiik hai ṭhiik hai.",
+              "english": "Fine, fine."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तू — the most intimate pronoun in the language",
+              "explanation_en": "तू and its ने form तूने are used between very close friends, with small children, and in prayer. Between people who have that footing it is warm; between people who do not it is shocking. This is the first time the module has used it, deliberately, because these three have known each other for years. Note also कहा rather than बोला: कहना takes ने and बोलना refuses it, and at speed the presence of ने is your only clue as to which verb is arriving.",
+              "listening_notes": [
+                "आ गया साहब! — साहब used sarcastically. The tone carries the entire joke.",
+                "ट्रैफ़िक ही होता है हमेशा — ही for \"always precisely that\", with a habitual होता है.",
+                "चाय तेरी तरफ़ से — तरफ़ से for \"from your side\". The bill is being assigned without anybody saying so."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What is the penalty for being late?",
+              "options": [
+                "He is not let in",
+                "Nothing — they let it go",
+                "He has to apologise properly",
+                "He pays for the tea"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 6: चाय तेरी तरफ़ से."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "तूने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "पिछली बार भी ___ यही कहा था।",
+              "question_read_as": "pichhlii baar bhii ___ yahii kahaa thaa.",
+              "options": [
+                "तू",
+                "तूने",
+                "तुझे",
+                "तेरा"
+              ],
+              "options_read_as": [
+                "tuu",
+                "tuune",
+                "tujhe",
+                "teraa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "कहना is transitive and the tense is perfective, so तू takes ने. बोलना in the same slot would not."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 7,
+            "notes_for_recording": "Affectionate throughout. Line 3 cuts straight across line 2."
+          }
+        },
+        {
+          "id": "M12-L37-I3",
+          "type": "dialogue",
+          "target": "टिप भी हो जाएगी",
+          "title_en": "Splitting the bill",
+          "setting": "cafe",
+          "speed": "fast",
+          "difficulty": 9,
+          "tags": [
+            "fast",
+            "three_speakers",
+            "hinglish",
+            "loanword_gender",
+            "numbers"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Friend A",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "B",
+              "label_en": "Friend B",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "C",
+              "label_en": "Friend C",
+              "label_hi": "दोस्त"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "कितना हुआ टोटल?",
+              "read_as": "kitnaa huaa ṭoṭal?",
+              "english": "What's the total?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "नौ सौ अस्सी।",
+              "read_as": "nau sau assii.",
+              "english": "Nine eighty."
+            },
+            {
+              "n": 3,
+              "speaker": "C",
+              "hindi": "थ्री-वे कर लेते हैं।",
+              "read_as": "thrii-ve kar lete haiṁ.",
+              "english": "Let's split it three ways."
+            },
+            {
+              "n": 4,
+              "speaker": "A",
+              "hindi": "तीन सौ छब्बीस-सत्ताईस बनते हैं हर एक के।",
+              "read_as": "tiin sau chhabbiis-sattaaiis bante haiṁ har ek ke.",
+              "english": "Comes to three twenty-six or seven each."
+            },
+            {
+              "n": 5,
+              "speaker": "B",
+              "hindi": "तीन सौ तीस कर दो, टिप भी हो जाएगी।",
+              "read_as": "tiin sau tiis kar do, ṭip bhii ho jaaegii.",
+              "english": "Make it three thirty, that covers the tip."
+            },
+            {
+              "n": 6,
+              "speaker": "C",
+              "hindi": "डन। मैं यूपीआई कर देता हूँ।",
+              "read_as": "ḍan. maiṁ yuupiiaaii kar detaa huuṁ.",
+              "english": "Done. I'll UPI it."
+            },
+            {
+              "n": 7,
+              "speaker": "A",
+              "hindi": "भेज दे।",
+              "read_as": "bhej de.",
+              "english": "Send it."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "टिप भी हो जाएगी — Hindi grammar around English words",
+              "explanation_en": "टिप is an English word and it is feminine, so हो जाएगी. Nothing about the word tells you that; it has been assigned a gender the way ब्रेड and बस and फ़ाइल were, and the verb agrees with it as though it had always been Hindi. This is what Hinglish actually is — not a mixture of two grammars, but Hindi grammar running on borrowed vocabulary. डन, राउंड, थ्री-वे and यूपीआई all sit inside completely ordinary Hindi sentences here, and every ending in the dialogue is Hindi.",
+              "listening_notes": [
+                "थ्री-वे कर लेते हैं — an English phrase through करना, present tense proposing.",
+                "बनते हैं — बनना for \"comes to\" in arithmetic. The amount makes itself; nobody calculates it.",
+                "हर एक के — के with an unspoken हिसाब से. Fast speech drops the noun and keeps the postposition."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How much does each person pay?",
+              "options": [
+                "Three hundred and thirty",
+                "Three hundred and twenty-seven",
+                "Nine hundred and eighty between them",
+                "Three hundred and twenty-six"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 5: तीन सौ तीस कर दो — rounded up to cover the tip."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 5,
+              "masked_token": "जाएगी",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "तीन सौ तीस कर दो, टिप भी हो ___ ।",
+              "question_read_as": "tiin sau tiis kar do, ṭip bhii ho ___ .",
+              "options": [
+                "जाएँगी",
+                "जाएगा",
+                "जाएगी",
+                "जाएँगे"
+              ],
+              "options_read_as": [
+                "jaaeṁgii",
+                "jaaegaa",
+                "jaaegii",
+                "jaaeṁge"
+              ],
+              "answer_index": 2,
+              "explanation_en": "टिप is feminine in Hindi, so the verb agrees with it."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 7,
+            "notes_for_recording": "Numbers rattled off. The English words should be pronounced Indian-English, not RP."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "At speed, auxiliaries, subjects and whole verbs disappear — but postpositions do not, which makes them the reliable thing to listen for. तू is for people you have known for years. And Hinglish is Hindi grammar running on English vocabulary: टिप is feminine, so टिप हो जाएगी.",
+        "key_forms": [
+          "दूर कहाँ है?",
+          "तेरी तरफ़ से",
+          "टिप हो जाएगी"
+        ],
+        "next_up_en": "Next: the office at speed, and an English noun taking a Hindi ending."
+      }
+    },
+    {
+      "level": 38,
+      "title_en": "The office, at speed",
+      "title_hi": "ऑफ़िस, तेज़ रफ़्तार",
+      "items": [
+        {
+          "id": "M12-L38-I1",
+          "type": "dialogue",
+          "target": "दो घंटे चली",
+          "title_en": "How was the meeting",
+          "setting": "office",
+          "speed": "fast",
+          "difficulty": 9,
+          "tags": [
+            "fast",
+            "three_speakers",
+            "feminine_agreement",
+            "ellipsis",
+            "implicature"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Colleague A",
+              "label_hi": "सहकर्मी"
+            },
+            {
+              "id": "B",
+              "label_en": "Colleague B",
+              "label_hi": "सहकर्मी"
+            },
+            {
+              "id": "C",
+              "label_en": "Colleague C",
+              "label_hi": "सहकर्मी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "मीटिंग कैसी रही?",
+              "read_as": "miiṭiṁg kaisii rahii?",
+              "english": "How was the meeting?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "दो घंटे चली।",
+              "read_as": "do ghanṭe chalii.",
+              "english": "Two hours."
+            },
+            {
+              "n": 3,
+              "speaker": "C",
+              "hindi": "और निकला कुछ?",
+              "read_as": "aur niklaa kuchh?",
+              "english": "And did anything come of it?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "कुछ नहीं। वही पुरानी बातें।",
+              "read_as": "kuchh nahiiṁ. vahii puraanii baateṁ.",
+              "english": "Nothing. Same old stuff."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "नेक्स्ट वीक फिर से रखी है उन्होंने।",
+              "read_as": "neksṭ viik phir se rakhii hai unhoṁne.",
+              "english": "They've put another one next week."
+            },
+            {
+              "n": 6,
+              "speaker": "C",
+              "hindi": "सीरियसली?",
+              "read_as": "siiriyaslii?",
+              "english": "Seriously?"
+            },
+            {
+              "n": 7,
+              "speaker": "B",
+              "hindi": "हाँ यार, कैलेंडर देख — आ गई है।",
+              "read_as": "haaṁ yaar, kaileṁḍar dekh — aa gaii hai.",
+              "english": "Yeah, check the calendar — it's in there."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Two words, and a complete answer to a different question",
+              "explanation_en": "दो घंटे चली is a full reply to \"how was the meeting\" — and it does not answer the question asked. It answers a different one, about length, and leaves the listener to draw the obvious conclusion. Fast Hindi does this constantly: the shortest true statement that implies everything else. Note चली, feminine, agreeing with मीटिंग — and then रखी है and आ गई है two lines later doing the same. Three feminine agreements all pointing back at a noun that was said once, at the start.",
+              "listening_notes": [
+                "और निकला कुछ? — निकलना for \"to come out of\", the same verb as साइज़ ग़लत निकला in the clothes shop.",
+                "रखी है उन्होंने — the ने-subject at the very end, which at speed is where it usually lands.",
+                "कैलेंडर देख — a तू imperative with a bare stem. Between close colleagues this is normal."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What has happened about next week?",
+              "options": [
+                "The meeting has been cancelled",
+                "Another meeting has been scheduled",
+                "The decision has been made",
+                "Nothing has been decided"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 5: नेक्स्ट वीक फिर से रखी है उन्होंने."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "चली",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "दो घंटे ___ ।",
+              "question_read_as": "do ghanṭe ___ .",
+              "options": [
+                "चले",
+                "चलीं",
+                "चला",
+                "चली"
+              ],
+              "options_read_as": [
+                "chale",
+                "chaliiṁ",
+                "chalaa",
+                "chalii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "मीटिंग is feminine singular, and it is the subject even though it was named a line earlier."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 7,
+            "notes_for_recording": "Corridor, walking. Line 2 is flat and weary. Line 6 is genuine disbelief."
+          }
+        },
+        {
+          "id": "M12-L38-I2",
+          "type": "dialogue",
+          "target": "फ़ोल्डरों में सब मिल जाएगा",
+          "title_en": "A quick handover",
+          "setting": "office",
+          "speed": "fast",
+          "difficulty": 10,
+          "tags": [
+            "fast",
+            "three_speakers",
+            "hinglish",
+            "oblique_plural",
+            "loanword_inflection"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Leaving colleague",
+              "label_hi": "जा रहा सहकर्मी"
+            },
+            {
+              "id": "B",
+              "label_en": "Colleague B",
+              "label_hi": "सहकर्मी"
+            },
+            {
+              "id": "C",
+              "label_en": "Colleague C",
+              "label_hi": "सहकर्मी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "सुनो, कल से मैं नहीं रहूँगा।",
+              "read_as": "suno, kal se maiṁ nahiiṁ rahuuṁgaa.",
+              "english": "Listen, I'm out from tomorrow."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "कितने दिन?",
+              "read_as": "kitne din?",
+              "english": "How long?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "चार-पाँच। क्लाइंट्स के मेल तुम देख लेना।",
+              "read_as": "chaar-paaṁch. klaainṭs ke mel tum dekh lenaa.",
+              "english": "Four or five. You take the client mails."
+            },
+            {
+              "n": 4,
+              "speaker": "C",
+              "hindi": "और डेली रिपोर्ट?",
+              "read_as": "aur ḍelii riporṭ?",
+              "english": "And the daily report?"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "वो प्रिया कर देगी। मैंने कह दिया है उसे —",
+              "read_as": "vo priyaa kar degii. maiṁne kah diyaa hai use —",
+              "english": "Priya'll do that. I've told her—"
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "— ठीक है, और फ़ाइल्स?",
+              "read_as": "— ṭhiik hai, aur faails?",
+              "english": "—okay, and the files?",
+              "overlaps_previous": true
+            },
+            {
+              "n": 7,
+              "speaker": "A",
+              "hindi": "ड्राइव पर हैं, फ़ोल्डरों में सब मिल जाएगा।",
+              "read_as": "ḍraaiv par haiṁ, folḍaroṁ meṁ sab mil jaaegaa.",
+              "english": "On the drive, you'll find everything in the folders."
+            },
+            {
+              "n": 8,
+              "speaker": "C",
+              "hindi": "सुपर।",
+              "read_as": "supar.",
+              "english": "Great."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "फ़ोल्डरों में — an English noun taking a Hindi oblique",
+              "explanation_en": "फ़ोल्डर is English, and before में it goes into the Hindi oblique plural: फ़ोल्डरों. You will also hear फ़ोल्डर्स में, with the English plural kept, and both are current — but the oblique form is what happens once a word has been absorbed rather than quoted. This is the clearest single demonstration of what Hinglish is: English vocabulary running on Hindi grammar, and the grammar winning wherever the two would conflict. Note क्लाइंट्स के in line 3, where the English plural survives instead — the same speaker, four lines apart, doing it both ways.",
+              "listening_notes": [
+                "कल से मैं नहीं रहूँगा — रहना for \"to be present\". Not जाऊँगा; he is not going anywhere in particular.",
+                "देख लेना — the infinitive as a soft instruction between colleagues.",
+                "मैंने कह दिया है उसे — the object at the end, and कहना taking ने where बोलना would not."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Who will handle the daily report?",
+              "options": [
+                "Colleague B",
+                "Colleague C",
+                "Priya",
+                "Nobody — it is paused"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 5: वो प्रिया कर देगी."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 7,
+              "masked_token": "फ़ोल्डरों",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "ड्राइव पर हैं, ___ में सब मिल जाएगा।",
+              "question_read_as": "ḍraaiv par haiṁ, ___ meṁ sab mil jaaegaa.",
+              "options": [
+                "फ़ोल्डरों",
+                "फ़ोल्डर्स",
+                "फ़ोल्डरें",
+                "फ़ोल्डर"
+              ],
+              "options_read_as": [
+                "folḍaroṁ",
+                "folḍars",
+                "folḍareṁ",
+                "folḍar"
+              ],
+              "answer_index": 0,
+              "explanation_en": "में is a postposition, so even an English noun takes the Hindi oblique plural. फ़ोल्डर्स में is also heard, but the absorbed form is फ़ोल्डरों."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 8,
+            "notes_for_recording": "Very fast, three people, at a desk. Line 6 cuts in over line 5's trailing उसे."
+          }
+        },
+        {
+          "id": "M12-L38-I3",
+          "type": "dialogue",
+          "target": "तीन डेडलाइन्स हैं मेरे पास",
+          "title_en": "Too much on",
+          "setting": "office",
+          "speed": "fast",
+          "difficulty": 9,
+          "tags": [
+            "fast",
+            "three_speakers",
+            "ke_paas",
+            "hinglish",
+            "mat_negative",
+            "idiom"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Colleague A",
+              "label_hi": "सहकर्मी"
+            },
+            {
+              "id": "B",
+              "label_en": "Colleague B",
+              "label_hi": "सहकर्मी"
+            },
+            {
+              "id": "C",
+              "label_en": "Colleague C",
+              "label_hi": "सहकर्मी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "यार इस हफ़्ते तो बहुत लोड है।",
+              "read_as": "yaar is hafte to bahut loḍ hai.",
+              "english": "There's so much load this week."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "सेम। तीन डेडलाइन्स हैं मेरे पास।",
+              "read_as": "sem. tiin ḍeḍlaains haiṁ mere paas.",
+              "english": "Same. I've got three deadlines."
+            },
+            {
+              "n": 3,
+              "speaker": "C",
+              "hindi": "और अप्रेज़ल भी सिर पर है।",
+              "read_as": "aur aprezal bhii sir par hai.",
+              "english": "And appraisals are on top of us."
+            },
+            {
+              "n": 4,
+              "speaker": "A",
+              "hindi": "उसकी टेंशन मत लो अभी।",
+              "read_as": "uskii ṭenshan mat lo abhii.",
+              "english": "Don't stress about that yet."
+            },
+            {
+              "n": 5,
+              "speaker": "B",
+              "hindi": "लेना ही पड़ता है यार।",
+              "read_as": "lenaa hii paṛtaa hai yaar.",
+              "english": "You can't help it."
+            },
+            {
+              "n": 6,
+              "speaker": "C",
+              "hindi": "चाय पीने चलें?",
+              "read_as": "chaay piine chaleṁ?",
+              "english": "Shall we go for tea?"
+            },
+            {
+              "n": 7,
+              "speaker": "A",
+              "hindi": "चलो, दस मिनट।",
+              "read_as": "chalo, das minaṭ.",
+              "english": "Come on, ten minutes."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मेरे पास हैं — Hindi has no verb for \"to have\"",
+              "explanation_en": "तीन डेडलाइन्स हैं मेरे पास is \"I have three deadlines\". Hindi has no verb meaning to have: you say the thing is near you, with के पास. That has been quietly true since the parcel was गार्ड के पास back in level 6, and here it does entirely abstract work — deadlines are not physically near anybody. Note सिर पर है in line 3, literally \"is on the head\", the standard idiom for something looming over you.",
+              "listening_notes": [
+                "इस हफ़्ते तो — तो marking the contrast with other, easier weeks.",
+                "टेंशन मत लो — मत for an instruction, and टेंशन लेना is the ordinary Hinglish for worrying.",
+                "चाय पीने चलें? — the purpose infinitive plus चलना: shall we go to drink tea."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What do they decide to do about it?",
+              "options": [
+                "Split the work differently",
+                "Stay late",
+                "Ask for an extension",
+                "Go for tea"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Lines 6 and 7: चाय पीने चलें? — चलो, दस मिनट."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "पास",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "सेम। तीन डेडलाइन्स हैं मेरे ___ ।",
+              "question_read_as": "sem. tiin ḍeḍlaains haiṁ mere ___ .",
+              "options": [
+                "ऊपर",
+                "पास",
+                "साथ",
+                "लिए"
+              ],
+              "options_read_as": [
+                "uupar",
+                "paas",
+                "saath",
+                "lie"
+              ],
+              "answer_index": 1,
+              "explanation_en": "के पास is how Hindi says \"to have\". के साथ would mean the deadlines are accompanying him somewhere."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 7,
+            "notes_for_recording": "Slumped, end of day. Line 6 lifts the energy sharply."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Fast Hindi answers a different question than the one asked and lets you infer the rest. English nouns take Hindi oblique endings once they are absorbed — फ़ोल्डरों में — though the English plural is heard too. And के पास does the work of the verb \"to have\", which Hindi does not have.",
+        "key_forms": [
+          "दो घंटे चली",
+          "फ़ोल्डरों में",
+          "मेरे पास हैं"
+        ],
+        "next_up_en": "Next: a family argument, interruptions and all."
+      }
+    },
+    {
+      "level": 39,
+      "title_en": "A family argument",
+      "title_hi": "घर में बहस",
+      "items": [
+        {
+          "id": "M12-L39-I1",
+          "type": "dialogue",
+          "target": "मुझे नहीं जाना",
+          "title_en": "I'm not going",
+          "setting": "home",
+          "speed": "fast",
+          "difficulty": 9,
+          "tags": [
+            "fast",
+            "three_speakers",
+            "obligation_refusal",
+            "ne",
+            "interruption",
+            "mat_negative"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Parent",
+              "label_hi": "माँ"
+            },
+            {
+              "id": "B",
+              "label_en": "Teenager",
+              "label_hi": "किशोर"
+            },
+            {
+              "id": "C",
+              "label_en": "Sibling",
+              "label_hi": "भाई-बहन"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "रविवार को सब चलेंगे नानी के घर।",
+              "read_as": "ravivaar ko sab chaleṁge naanii ke ghar.",
+              "english": "Everyone's going to Nani's on Sunday."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "मुझे नहीं जाना।",
+              "read_as": "mujhe nahiiṁ jaanaa.",
+              "english": "I don't want to go."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "क्यों नहीं जाना?",
+              "read_as": "kyoṁ nahiiṁ jaanaa?",
+              "english": "Why not?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "मैंने दोस्तों से प्लान बना लिया है।",
+              "read_as": "maiṁne dostoṁ se plaan banaa liyaa hai.",
+              "english": "I've made plans with friends."
+            },
+            {
+              "n": 5,
+              "speaker": "C",
+              "hindi": "तो कैंसिल कर दे —",
+              "read_as": "to kainsil kar de —",
+              "english": "So cancel it—"
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "— क्यों करूँ कैंसिल?",
+              "read_as": "— kyoṁ karuuṁ kainsil?",
+              "english": "—why should I cancel?",
+              "overlaps_previous": true
+            },
+            {
+              "n": 7,
+              "speaker": "A",
+              "hindi": "बस, बहस मत करो।",
+              "read_as": "bas, bahas mat karo.",
+              "english": "Enough, don't argue."
+            },
+            {
+              "n": 8,
+              "speaker": "B",
+              "hindi": "ठीक है।",
+              "read_as": "ṭhiik hai.",
+              "english": "Fine."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मुझे नहीं जाना — refusing with the obligation ladder",
+              "explanation_en": "मुझे नहीं जाना is literally \"to me, not going\", and it means \"I don't want to go\". It is the है rung of the obligation ladder, negated — and negating an arrangement turns it into a refusal. Compare मैं नहीं जाऊँगा, which would only predict that you won't go. In a family argument that difference is the entire tone: one is a statement about the world, the other is a position being taken.",
+              "listening_notes": [
+                "मैंने दोस्तों से प्लान बना लिया — दोस्त goes oblique to दोस्तों before से, and से here means \"with\".",
+                "क्यों करूँ कैंसिल? — the object thrown right to the end. At speed this happens constantly and it is emphatic.",
+                "बहस मत करो — मत again for an instruction, with बहस करना for arguing."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why doesn't the teenager want to go?",
+              "options": [
+                "He has already made plans with friends",
+                "He has schoolwork",
+                "He gives no reason",
+                "He dislikes his grandmother's house"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 4: मैंने दोस्तों से प्लान बना लिया है."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "मैंने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "___ दोस्तों से प्लान बना लिया है।",
+              "question_read_as": "___ dostoṁ se plaan banaa liyaa hai.",
+              "options": [
+                "मेरा",
+                "मैं",
+                "मैंने",
+                "मुझे"
+              ],
+              "options_read_as": [
+                "meraa",
+                "maiṁ",
+                "maiṁne",
+                "mujhe"
+              ],
+              "answer_index": 2,
+              "explanation_en": "बनाना is transitive and the tense is perfective, so ने — even though मुझे appeared two lines earlier in a different construction."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 8,
+            "notes_for_recording": "Voices rising. Line 6 cuts across line 5 sharply. Line 7 is loud and ends it."
+          }
+        },
+        {
+          "id": "M12-L39-I2",
+          "type": "dialogue",
+          "target": "मेरी चीज़ों को मत छू",
+          "title_en": "Siblings",
+          "setting": "home",
+          "speed": "fast",
+          "difficulty": 9,
+          "tags": [
+            "fast",
+            "three_speakers",
+            "oblique_plural",
+            "presumptive",
+            "tuu",
+            "idiom"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Sibling A",
+              "label_hi": "भाई-बहन"
+            },
+            {
+              "id": "B",
+              "label_en": "Sibling B",
+              "label_hi": "भाई-बहन"
+            },
+            {
+              "id": "C",
+              "label_en": "Parent, offstage",
+              "label_hi": "माँ"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "मेरी किताबें किसने हटाईं?",
+              "read_as": "merii kitaabeṁ kisne haṭaaiiṁ?",
+              "english": "Who moved my books?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "मैंने नहीं छुईं।",
+              "read_as": "maiṁne nahiiṁ chhuiiṁ.",
+              "english": "I didn't touch them."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "तो अलमारी में कैसे पहुँच गईं?",
+              "read_as": "to almaarii meṁ kaise pahuṁch gaiiṁ?",
+              "english": "Then how did they get into the cupboard?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "मम्मी ने रखी होंगी।",
+              "read_as": "mammii ne rakhii hoṁgii.",
+              "english": "Mum must have put them there."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "मेरी चीज़ों को मत छू।",
+              "read_as": "merii chiizoṁ ko mat chhuu.",
+              "english": "Don't touch my things."
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "किसको पड़ी है तेरी चीज़ों की!",
+              "read_as": "kisko paṛii hai terii chiizoṁ kii!",
+              "english": "Who even cares about your stuff!"
+            },
+            {
+              "n": 7,
+              "speaker": "C",
+              "hindi": "दोनों चुप!",
+              "read_as": "donoṁ chup!",
+              "english": "Both of you, quiet!"
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "रखी होंगी — accusing with a presumptive",
+              "explanation_en": "मम्मी ने रखी होंगी — Mum must have put them there. The presumptive again, and here it is doing something slightly dishonest: asserting as near-certain something the speaker has no evidence for at all, in order to deflect. Note रखी agreeing with feminine plural किताबें and होंगी matching it — the nasal landing on the last word of the verb phrase, for the fourth time in this module.",
+              "listening_notes": [
+                "मेरी चीज़ों को — चीज़ goes to the oblique plural चीज़ों before को.",
+                "किसको पड़ी है — an idiom, literally \"to whom has it fallen\", meaning who cares.",
+                "मत छू — a तू imperative. Between siblings this is ordinary; between strangers it would start a fight."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Who does B say moved the books?",
+              "options": [
+                "Nobody moved them",
+                "Their mother",
+                "Sibling A themselves",
+                "A visitor"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 4: मम्मी ने रखी होंगी — offered as near-certain, with no evidence at all."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 5,
+              "masked_token": "चीज़ों",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "मेरी ___ को मत छू।",
+              "question_read_as": "merii ___ ko mat chhuu.",
+              "options": [
+                "चीज़ो",
+                "चीज़",
+                "चीज़ें",
+                "चीज़ों"
+              ],
+              "options_read_as": [
+                "chiizo",
+                "chiiz",
+                "chiizeṁ",
+                "chiizoṁ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "को is a postposition, so the plural goes oblique."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 7,
+            "notes_for_recording": "Two young voices, both fast and overlapping. Line 7 from another room."
+          }
+        },
+        {
+          "id": "M12-L39-I3",
+          "type": "dialogue",
+          "target": "हम बच्चे ही तो हैं",
+          "title_en": "Settling it",
+          "setting": "home",
+          "speed": "fast",
+          "difficulty": 10,
+          "tags": [
+            "fast",
+            "three_speakers",
+            "oblique_plural",
+            "hii",
+            "to_particle",
+            "capstone"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Parent",
+              "label_hi": "माँ"
+            },
+            {
+              "id": "B",
+              "label_en": "Sibling B",
+              "label_hi": "भाई-बहन"
+            },
+            {
+              "id": "C",
+              "label_en": "Sibling C",
+              "label_hi": "भाई-बहन"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "क्या हो रहा है यहाँ?",
+              "read_as": "kyaa ho rahaa hai yahaaṁ?",
+              "english": "What's going on here?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "इसने मेरी किताबें हटाईं।",
+              "read_as": "isne merii kitaabeṁ haṭaaiiṁ.",
+              "english": "She moved my books."
+            },
+            {
+              "n": 3,
+              "speaker": "C",
+              "hindi": "मैंने नहीं हटाईं!",
+              "read_as": "maiṁne nahiiṁ haṭaaiiṁ!",
+              "english": "I did not!",
+              "overlaps_previous": true
+            },
+            {
+              "n": 4,
+              "speaker": "A",
+              "hindi": "दोनों चुप। किताबें मैंने रखी थीं अलमारी में।",
+              "read_as": "donoṁ chup. kitaabeṁ maiṁne rakhii thiiṁ almaarii meṁ.",
+              "english": "Both of you, quiet. I put the books in the cupboard."
+            },
+            {
+              "n": 5,
+              "speaker": "B",
+              "hindi": "ओह।",
+              "read_as": "oh.",
+              "english": "Oh."
+            },
+            {
+              "n": 6,
+              "speaker": "A",
+              "hindi": "और अगली बार बच्चों की तरह मत लड़ो।",
+              "read_as": "aur aglii baar bacchoṁ kii tarah mat laṛo.",
+              "english": "And next time don't fight like children."
+            },
+            {
+              "n": 7,
+              "speaker": "C",
+              "hindi": "हम बच्चे ही तो हैं।",
+              "read_as": "ham bacche hii to haiṁ.",
+              "english": "We are children."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "हम बच्चे ही तो हैं — the last word in an argument",
+              "explanation_en": "हम बच्चे ही तो हैं is \"we ARE children\", with ही narrowing and तो carrying the emphasis, and it wins the argument by agreeing with the accusation. Both of the small words you have been tracking since level 1 are working at once, and neither has a translation — in English the sentence is just \"we're children\", which loses the whole thing. That gap between what the words are and what the sentence does is what these levels have been about.",
+              "listening_notes": [
+                "बच्चों की तरह — की तरह for \"like\", with the noun going oblique in front of it.",
+                "इसने in line 2 — a sibling referred to as इस rather than by name, which is dismissive.",
+                "किताबें मैंने रखी थीं — the ने-subject after the object, and रखी थीं with the nasal on the auxiliary."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Who actually moved the books?",
+              "options": [
+                "Sibling B",
+                "Sibling C",
+                "The parent",
+                "Nobody — they were never moved"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 4: किताबें मैंने रखी थीं अलमारी में."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 6,
+              "masked_token": "बच्चों",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "और अगली बार ___ की तरह मत लड़ो।",
+              "question_read_as": "aur aglii baar ___ kii tarah mat laṛo.",
+              "options": [
+                "बच्चों",
+                "बच्ची",
+                "बच्चा",
+                "बच्चे"
+              ],
+              "options_read_as": [
+                "bacchoṁ",
+                "bacchii",
+                "bacchaa",
+                "bacche"
+              ],
+              "answer_index": 0,
+              "explanation_en": "की तरह is a postposition phrase, so the plural goes oblique."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 7,
+            "notes_for_recording": "Line 3 overlaps line 2 completely. Line 4 cuts through both. Line 7 is deadpan."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Negating the है rung of the obligation ladder turns an arrangement into a refusal — मुझे नहीं जाना. The presumptive can accuse as well as guess. And ही and तो, tracked since level 1, do the work that English does with stress and has no words for.",
+        "key_forms": [
+          "मुझे नहीं जाना",
+          "रखी होंगी",
+          "हम बच्चे ही तो हैं"
+        ],
+        "next_up_en": "Next: the last three dialogues, four speakers, and everything at once."
+      }
+    }
+  ]
+}

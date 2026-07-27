@@ -1,0 +1,1133 @@
+{
+  "module": 12,
+  "module_name_en": "Conversation",
+  "module_name_hi": "बातचीत",
+  "phase": 5,
+  "batch": {
+    "levels_from": 34,
+    "levels_to": 36
+  },
+  "receptive_only": true,
+  "levels": [
+    {
+      "level": 34,
+      "title_en": "Repairs and household help",
+      "title_hi": "मरम्मत और घर का काम",
+      "items": [
+        {
+          "id": "M12-L34-I1",
+          "type": "dialogue",
+          "target": "बदलवाना पड़ेगा",
+          "title_en": "Calling a plumber",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "home",
+            "causative",
+            "obligation",
+            "impersonal",
+            "module11_link"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Resident",
+              "label_hi": "निवासी"
+            },
+            {
+              "id": "B",
+              "label_en": "Plumber's shop",
+              "label_hi": "दुकान"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "हैलो, नल ठीक करवाना है।",
+              "read_as": "hailo, nal ṭhiik karvaanaa hai.",
+              "english": "Hello, I need a tap fixed."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "क्या दिक़्क़त है?",
+              "read_as": "kyaa diqqat hai?",
+              "english": "What's the problem?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "टपक रहा है, बंद नहीं हो रहा।",
+              "read_as": "ṭapak rahaa hai, band nahiiṁ ho rahaa.",
+              "english": "It's dripping, won't shut off."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "वॉशर बदलवाना पड़ेगा। कल भेज देंगे बंदा।",
+              "read_as": "vôshar badalvaanaa paṛegaa. kal bhej deṁge baṁdaa.",
+              "english": "The washer'll need changing. I'll send someone tomorrow."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "आज नहीं हो सकता?",
+              "read_as": "aaj nahiiṁ ho saktaa?",
+              "english": "Not today?"
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बदलवाना पड़ेगा — a causative inside an obligation",
+              "explanation_en": "वॉशर बदलवाना पड़ेगा stacks two Module 11 constructions on top of each other: the second causative बदलवाना, have it changed, sitting inside the पड़ना obligation, will have to be. वॉशर is masculine, so the infinitive stays बदलवाना and पड़ेगा follows it. Note भेज देंगे — the shop speaks about itself in the plural, exactly as the restaurant did with हल्की बनवा देंगे in level 15.",
+              "listening_notes": [
+                "टपक रहा है — नल is masculine, so रहा. The tap drips; nobody drips it.",
+                "बंदा literally means \"fellow\" and here means a workman. Very informal and very common.",
+                "आज नहीं हो सकता? — impersonal: can it not happen today. Softer than asking whether the man can come."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What is wrong with the tap?",
+              "options": [
+                "No water at all",
+                "It drips and won't shut off",
+                "The handle is broken",
+                "It is leaking underneath"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 3: टपक रहा है, बंद नहीं हो रहा."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "देंगे",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "वॉशर बदलवाना पड़ेगा। कल भेज ___ बंदा।",
+              "question_read_as": "vôshar badalvaanaa paṛegaa. kal bhej ___ baṁdaa.",
+              "options": [
+                "देंगी",
+                "देगा",
+                "देगी",
+                "देंगे"
+              ],
+              "options_read_as": [
+                "deṁgii",
+                "degaa",
+                "degii",
+                "deṁge"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The shop refers to itself in the plural, so देंगे."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Phone. Line 4 is fast and routine. Line 5 is hopeful rather than demanding."
+          }
+        },
+        {
+          "id": "M12-L34-I2",
+          "type": "dialogue",
+          "target": "धोबी से धुलवा लिए",
+          "title_en": "Instructions for the day",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 9,
+          "tags": [
+            "home",
+            "causative_agent",
+            "se_agent",
+            "ne",
+            "register",
+            "word_order"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Householder",
+              "label_hi": "गृहिणी"
+            },
+            {
+              "id": "B",
+              "label_en": "Household help",
+              "label_hi": "काम करने वाली"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "आज बर्तन के बाद कमरा भी साफ़ कर देना।",
+              "read_as": "aaj bartan ke baad kamraa bhii saaf kar denaa.",
+              "english": "After the dishes, clean the room as well today."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "ठीक है दीदी। कपड़े भी?",
+              "read_as": "ṭhiik hai diidii. kapṛe bhii?",
+              "english": "All right. Clothes too?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "नहीं, कपड़े मैंने धोबी से धुलवा लिए।",
+              "read_as": "nahiiṁ, kapṛe maiṁne dhobii se dhulvaa lie.",
+              "english": "No, I've had the washerman do the clothes."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "अच्छा। दूध लाना है?",
+              "read_as": "acchaa. duudh laanaa hai?",
+              "english": "Right. Shall I get milk?"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "हाँ, दो पैकेट। पैसे रखे हैं मेज़ पर।",
+              "read_as": "haaṁ, do paikeṭ. paise rakhe haiṁ mez par.",
+              "english": "Yes, two packets. The money's on the table."
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "जी।",
+              "read_as": "jii.",
+              "english": "Okay."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "धोबी से धुलवा लिए — the causative agent, again",
+              "explanation_en": "कपड़े मैंने धोबी से धुलवा लिए — I had the washerman wash the clothes. से on the person who did it, ने on the person who arranged it, exactly as with अमित से करवा लिया in the office at level 28. And लिए is masculine plural because कपड़े is. Three separate agreements in one clause, all of them Module 11 rules doing housework without drawing attention to themselves.",
+              "listening_notes": [
+                "दीदी literally means elder sister and is how domestic staff commonly address the woman of the house — and often the other way round too.",
+                "साफ़ कर देना — the infinitive as a soft instruction, with the देना vector.",
+                "पैसे रखे हैं मेज़ पर — the location arrives at the end as an afterthought, which is entirely normal in speech."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Which job has already been dealt with?",
+              "options": [
+                "The clothes",
+                "The milk",
+                "The dishes",
+                "The room"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 3: कपड़े मैंने धोबी से धुलवा लिए."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "से",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "नहीं, कपड़े मैंने धोबी ___ धुलवा लिए।",
+              "question_read_as": "nahiiṁ, kapṛe maiṁne dhobii ___ dhulvaa lie.",
+              "options": [
+                "ने",
+                "का",
+                "से",
+                "को"
+              ],
+              "options_read_as": [
+                "ne",
+                "kaa",
+                "se",
+                "ko"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The agent of a causative takes से. को would make the washerman the one being washed."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Kitchen sounds. Both brisk and familiar with each other."
+          }
+        },
+        {
+          "id": "M12-L34-I3",
+          "type": "dialogue",
+          "target": "ऊपर वाले कमरे में",
+          "title_en": "Something is leaking",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "home",
+            "oblique",
+            "vaalaa",
+            "presumptive",
+            "causative"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Resident",
+              "label_hi": "निवासी"
+            },
+            {
+              "id": "B",
+              "label_en": "Neighbour",
+              "label_hi": "पड़ोसी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "ऊपर वाले कमरे में पानी टपक रहा है।",
+              "read_as": "uupar vaale kamre meṁ paanii ṭapak rahaa hai.",
+              "english": "Water's dripping in the upstairs room."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "कब से?",
+              "read_as": "kab se?",
+              "english": "Since when?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "दो-तीन दिन से। दीवार गीली हो गई है।",
+              "read_as": "do-tiin din se. diivaar giilii ho gaii hai.",
+              "english": "Two or three days. The wall's gone damp."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "छत की टंकी लीक कर रही होगी।",
+              "read_as": "chhat kii ṭaṁkii liik kar rahii hogii.",
+              "english": "The roof tank must be leaking."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "किसी को बुलवा लीजिए, कल ही।",
+              "read_as": "kisii ko bulvaa liijie, kal hii.",
+              "english": "Get someone in, tomorrow itself."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कर रही होगी — presuming about a cause",
+              "explanation_en": "छत की टंकी लीक कर रही होगी — the roof tank must be leaking. This is the presumptive होगा again, but attached to a continuous form, so it means \"must be doing\" rather than \"must have done\". Hindi diagnoses out loud like this constantly, and the होगी is the only thing separating a guess from a claim — take it away and the neighbour has asserted something he cannot know.",
+              "listening_notes": [
+                "ऊपर वाले कमरे में — कमरा goes oblique to कमरे before में, and वाला follows it to वाले.",
+                "दो-तीन दिन से — से for a stretch of time that is still running.",
+                "किसी को बुलवा लीजिए — the second causative of बुलाना: have somebody called, rather than calling them yourself."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What does the neighbour think is causing it?",
+              "options": [
+                "Rain coming in",
+                "A blocked drain",
+                "A burst pipe",
+                "The roof tank leaking"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 4: छत की टंकी लीक कर रही होगी — and होगी marks it as a guess."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 1,
+              "masked_token": "कमरे",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "ऊपर वाले ___ में पानी टपक रहा है।",
+              "question_read_as": "uupar vaale ___ meṁ paanii ṭapak rahaa hai.",
+              "options": [
+                "कमरा",
+                "कमरे",
+                "कमरों",
+                "कमरी"
+              ],
+              "options_read_as": [
+                "kamraa",
+                "kamre",
+                "kamroṁ",
+                "kamrii"
+              ],
+              "answer_index": 1,
+              "explanation_en": "में is a postposition, so कमरा goes oblique to कमरे — and वाला follows it."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Doorway or landing. Line 4 is a diagnosis offered, not asserted."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A causative can sit inside an obligation — बदलवाना पड़ेगा, it'll have to be got changed. The agent of a causative takes से whether it is a colleague or a washerman. And होगा on a continuous form turns a diagnosis into a guess.",
+        "key_forms": [
+          "ठीक करवाना है",
+          "धोबी से धुलवा लिए",
+          "कर रही होगी"
+        ],
+        "next_up_en": "Next: school — homework, teachers, and who is collecting the child."
+      }
+    },
+    {
+      "level": 35,
+      "title_en": "School",
+      "title_hi": "स्कूल",
+      "items": [
+        {
+          "id": "M12-L35-I1",
+          "type": "dialogue",
+          "target": "कल भी तुमने यही कहा था",
+          "title_en": "Homework",
+          "setting": "school",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "school",
+            "ne",
+            "tum_forms",
+            "oblique_infinitive",
+            "verbless"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Parent",
+              "label_hi": "माँ"
+            },
+            {
+              "id": "B",
+              "label_en": "Child",
+              "label_hi": "बच्चा"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "होमवर्क कर लिया?",
+              "read_as": "homvark kar liyaa?",
+              "english": "Have you done your homework?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "थोड़ा बाक़ी है।",
+              "read_as": "thoṛaa baaqii hai.",
+              "english": "A bit's left."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "कल भी तुमने यही कहा था।",
+              "read_as": "kal bhii tumne yahii kahaa thaa.",
+              "english": "You said the same thing yesterday."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "आज कर लूँगा, पक्का।",
+              "read_as": "aaj kar luuṁgaa, pakkaa.",
+              "english": "I'll finish it today, promise."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "खाने से पहले।",
+              "read_as": "khaane se pahle.",
+              "english": "Before dinner."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तुमने — ने on the तुम form",
+              "explanation_en": "तुम plus ने gives तुमने, with no change beyond adding the syllable. The full set is मैंने, तूने, तुमने, आपने, उसने, हमने, इन्होंने, उन्होंने — and only the last two are irregular, which is what Module 9 said and what a household argument now confirms. Note खाने से पहले in line 5: the oblique infinitive before से पहले, and the entire sentence is three words with no verb in it at all.",
+              "listening_notes": [
+                "होमवर्क कर लिया? — the ने-subject dropped entirely, because it is obviously the child.",
+                "थोड़ा बाक़ी है — बाक़ी means \"remaining\". Three words and a complete confession.",
+                "कर लूँगा — the लेना vector on a future: I'll get it done, for my own sake."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "By when must the homework be finished?",
+              "options": [
+                "No deadline is given",
+                "Before school tomorrow",
+                "Before dinner",
+                "By the weekend"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 5: खाने से पहले."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "तुमने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "कल भी ___ यही कहा था।",
+              "question_read_as": "kal bhii ___ yahii kahaa thaa.",
+              "options": [
+                "तुमने",
+                "तुम्हें",
+                "तुम्हारा",
+                "तुम"
+              ],
+              "options_read_as": [
+                "tumne",
+                "tumheṁ",
+                "tumhaaraa",
+                "tum"
+              ],
+              "answer_index": 0,
+              "explanation_en": "कहना is transitive and the tense is perfective, so तुम takes ने."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 3 is weary rather than angry. Line 5 is two words and final."
+          }
+        },
+        {
+          "id": "M12-L35-I2",
+          "type": "dialogue",
+          "target": "मैंने उसे आगे बिठाया है",
+          "title_en": "A word with the teacher",
+          "setting": "school",
+          "speed": "normal",
+          "difficulty": 9,
+          "tags": [
+            "school",
+            "causative",
+            "vowel_shortening",
+            "ne",
+            "to_conditional"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Parent",
+              "label_hi": "अभिभावक"
+            },
+            {
+              "id": "B",
+              "label_en": "Teacher",
+              "label_hi": "मैडम"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "नमस्ते मैडम। रोहन कैसा कर रहा है?",
+              "read_as": "namaste maiḍam. rohan kaisaa kar rahaa hai?",
+              "english": "Hello. How's Rohan doing?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "पढ़ने में ठीक है, पर ध्यान नहीं देता।",
+              "read_as": "paṛhne meṁ ṭhiik hai, par dhyaan nahiiṁ detaa.",
+              "english": "He's fine at the work, but doesn't concentrate."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "घर पर भी यही हाल है।",
+              "read_as": "ghar par bhii yahii haal hai.",
+              "english": "Same at home."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "मैंने उसे आगे बिठाया है अब।",
+              "read_as": "maiṁne use aage biṭhaayaa hai ab.",
+              "english": "I've moved him to the front now."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "अच्छा किया। कुछ और करना हो तो बताइए।",
+              "read_as": "acchaa kiyaa. kuchh aur karnaa ho to bataaie.",
+              "english": "Good. Let me know if anything else is needed."
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "ज़रूर।",
+              "read_as": "zaruur.",
+              "english": "Of course."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बिठाया — the causative of sitting",
+              "explanation_en": "बिठाना is the causative of बैठना — to cause somebody to sit, which is to say, to seat them. मैंने उसे आगे बिठाया है, I've seated him at the front, with उसे taking को as the person acted on. Note the vowel: बैठना has ऐ and बिठाना has इ, the same shortening you saw in सीखना to सिखाना and खाना to खिलाना in Module 11. Long root vowels shorten in the causative, without exception.",
+              "listening_notes": [
+                "पढ़ने में ठीक है — the oblique infinitive before में: \"in the reading\", meaning at his studies.",
+                "ध्यान नहीं देता — ध्यान देना, to pay attention. Another noun-plus-verb compound.",
+                "कुछ और करना हो तो — तो carrying a conditional again, with no अगर anywhere."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What has the teacher already done about it?",
+              "options": [
+                "Spoken to him privately",
+                "Moved him to the front",
+                "Given him extra work",
+                "Nothing yet"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 4: मैंने उसे आगे बिठाया है अब."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "मैंने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "___ उसे आगे बिठाया है अब।",
+              "question_read_as": "___ use aage biṭhaayaa hai ab.",
+              "options": [
+                "मुझे",
+                "मेरा",
+                "मैं",
+                "मैंने"
+              ],
+              "options_read_as": [
+                "mujhe",
+                "meraa",
+                "maiṁ",
+                "maiṁne"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बिठाना is a causative and therefore transitive, so the perfective takes ने."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Corridor or classroom doorway. Both polite and slightly formal."
+          }
+        },
+        {
+          "id": "M12-L35-I3",
+          "type": "dialogue",
+          "target": "चार बजे तक पहुँच जाऊँगा",
+          "title_en": "Arranging pickup",
+          "setting": "school",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "school",
+            "purpose_infinitive",
+            "tak",
+            "hii",
+            "future"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "School office",
+              "label_hi": "स्कूल ऑफ़िस"
+            },
+            {
+              "id": "B",
+              "label_en": "Parent",
+              "label_hi": "अभिभावक"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "रोहन को कौन लेने आएगा?",
+              "read_as": "rohan ko kaun lene aaegaa?",
+              "english": "Who's coming to pick Rohan up?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "मैं ही आऊँगा, पर थोड़ा देर से।",
+              "read_as": "maiṁ hii aauuṁgaa, par thoṛaa der se.",
+              "english": "I'll come, but a bit late."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "कितनी देर?",
+              "read_as": "kitnii der?",
+              "english": "How late?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "चार बजे तक पहुँच जाऊँगा।",
+              "read_as": "chaar baje tak pahuṁch jaauuṁgaa.",
+              "english": "I'll get there by four."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ठीक है, वो ऑफ़िस में बैठेगा।",
+              "read_as": "ṭhiik hai, vo ôfis meṁ baiṭhegaa.",
+              "english": "Fine, he'll wait in the office."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "लेने आएगा — the purpose infinitive once more",
+              "explanation_en": "रोहन को कौन लेने आएगा? — who will come to fetch Rohan. The oblique infinitive states the purpose all by itself, exactly as रिपोर्ट लेने आया हूँ did at the lab in level 22. And चार बजे तक is \"by four\", with तक marking the far end of the waiting rather than the moment of arrival — the same तक that got the auto as far as the station in level 7.",
+              "listening_notes": [
+                "मैं ही आऊँगा — ही narrowing it: I myself will come, not somebody else.",
+                "थोड़ा देर से — से for manner again, meaning a bit late.",
+                "वो ऑफ़िस में बैठेगा — future for what will simply be the case, rather than for a decision."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What will happen until the parent arrives?",
+              "options": [
+                "Rohan will wait in the office",
+                "A teacher will drop him home",
+                "He will go with a friend",
+                "Rohan will wait outside"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 5: वो ऑफ़िस में बैठेगा."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "तक",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "चार बजे ___ पहुँच जाऊँगा।",
+              "question_read_as": "chaar baje ___ pahuṁch jaauuṁgaa.",
+              "options": [
+                "में",
+                "पर",
+                "तक",
+                "से"
+              ],
+              "options_read_as": [
+                "meṁ",
+                "par",
+                "tak",
+                "se"
+              ],
+              "answer_index": 2,
+              "explanation_en": "तक for the far end — by four. से would mean from four onwards."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Phone. The office speaker is efficient; the parent slightly apologetic."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "तुमने is ने on तुम, with no irregularity — only इन्होंने and उन्होंने are odd. बिठाना is the causative of बैठना, with the vowel shortening that every causative shows. And the oblique infinitive states purpose without any word for \"to\".",
+        "key_forms": [
+          "तुमने कहा था",
+          "आगे बिठाया",
+          "लेने आएगा"
+        ],
+        "next_up_en": "Next: making, fixing and cancelling weekend plans."
+      }
+    },
+    {
+      "level": 36,
+      "title_en": "Weekend plans",
+      "title_hi": "वीकेंड के प्लान",
+      "items": [
+        {
+          "id": "M12-L36-I1",
+          "type": "dialogue",
+          "target": "फ़िल्म चलेंगे?",
+          "title_en": "Making a plan",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "home",
+            "chalnaa",
+            "lagnaa",
+            "days_ko",
+            "english_verbs"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Friend A",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "B",
+              "label_en": "Friend B",
+              "label_hi": "दोस्त"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "इस वीकेंड कुछ प्लान है?",
+              "read_as": "is viikenḍ kuchh plaan hai?",
+              "english": "Any plans this weekend?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "कुछ ख़ास नहीं। क्यों?",
+              "read_as": "kuchh ḳhaas nahiiṁ. kyoṁ?",
+              "english": "Nothing special. Why?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "फ़िल्म चलेंगे? नई लगी है।",
+              "read_as": "film chaleṁge? naii lagii hai.",
+              "english": "Shall we go to a film? A new one's on."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "चलो, पर रविवार को। शनिवार को काम है।",
+              "read_as": "chalo, par ravivaar ko. shanivaar ko kaam hai.",
+              "english": "Sure, but Sunday. I've work on Saturday."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ठीक है, टिकट बुक कर देता हूँ।",
+              "read_as": "ṭhiik hai, ṭikaṭ buk kar detaa huuṁ.",
+              "english": "Fine, I'll book tickets."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "फ़िल्म चलेंगे? — going as walking",
+              "explanation_en": "चलना means to walk or to move, and Hindi uses it for going somewhere together: फ़िल्म चलेंगे?, shall we go to a film. जाएँगे would work too, but चलना carries the sense of setting off together, which is why चलिए and चलो have been turning up as invitations since level 1. Note नई लगी है — a film \"is put up\" rather than \"is showing\", the same लगना that had a picture attached to a wall in Module 10.",
+              "listening_notes": [
+                "फ़िल्म चलेंगे? — the verb is plural for \"we\", and फ़िल्म takes no postposition at all.",
+                "रविवार को, शनिवार को — days take को, where festivals took पर.",
+                "बुक कर देता हूँ — an English verb through करना, with the देना vector and present tense doing near-future."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Which day do they settle on?",
+              "options": [
+                "Friday evening",
+                "They do not decide",
+                "Saturday",
+                "Sunday"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 4: चलो, पर रविवार को — Saturday is out because of work."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "चलेंगे",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "फ़िल्म ___ ? नई लगी है।",
+              "question_read_as": "film ___ ? naii lagii hai.",
+              "options": [
+                "चलेगी",
+                "चलेंगे",
+                "चलेंगी",
+                "चलेगा"
+              ],
+              "options_read_as": [
+                "chalegii",
+                "chaleṁge",
+                "chaleṁgii",
+                "chalegaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The subject is \"we\", unspoken, so the verb is plural."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Relaxed, at home. Line 3 is casual, almost an afterthought."
+          }
+        },
+        {
+          "id": "M12-L36-I2",
+          "type": "dialogue",
+          "target": "मैंने तय कर लिया",
+          "title_en": "Fixing a time",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "home",
+            "three_speakers",
+            "vaalaa",
+            "ne",
+            "obligation",
+            "habitual"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Friend A",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "B",
+              "label_en": "Friend B",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "C",
+              "label_en": "Friend C",
+              "label_hi": "दोस्त"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "कितने बजे का शो लें?",
+              "read_as": "kitne baje kaa sho leṁ?",
+              "english": "What time show shall we get?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "शाम वाला। दोपहर में भीड़ होती है।",
+              "read_as": "shaam vaalaa. dopahar meṁ bhiiṛ hotii hai.",
+              "english": "The evening one. It's crowded in the afternoon."
+            },
+            {
+              "n": 3,
+              "speaker": "C",
+              "hindi": "मुझे सात बजे से पहले निकलना है।",
+              "read_as": "mujhe saat baje se pahle nikalnaa hai.",
+              "english": "I need to leave before seven."
+            },
+            {
+              "n": 4,
+              "speaker": "A",
+              "hindi": "तो चार वाला?",
+              "read_as": "to chaar vaalaa?",
+              "english": "The four o'clock one, then?"
+            },
+            {
+              "n": 5,
+              "speaker": "C",
+              "hindi": "हाँ, वो ठीक रहेगा।",
+              "read_as": "haaṁ, vo ṭhiik rahegaa.",
+              "english": "Yes, that works."
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "ठीक है, मैंने तय कर लिया — चार बजे।",
+              "read_as": "ṭhiik hai, maiṁne tay kar liyaa — chaar baje.",
+              "english": "Right, I've decided — four o'clock."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "शाम वाला, चार वाला — वाला standing in for everything",
+              "explanation_en": "शाम वाला is \"the evening one\" and चार वाला is \"the four o'clock one\". शो is never said again after line 1, and वाला carries it every time, agreeing masculine because शो is. This is वाला doing exactly what it did with रोज़ वाली चाय at the tea stall and गार्ड वाले गेट in the cab, and by level 36 it should be the least surprising thing in a Hindi conversation.",
+              "listening_notes": [
+                "मैंने तय कर लिया — तय करना, to decide. करना is transitive so ने, and the लेना vector settles it.",
+                "दोपहर में भीड़ होती है — habitual: it is generally crowded, not crowded right now.",
+                "वो ठीक रहेगा — रहना for \"will be\", a shade softer than होगा."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Which show do they pick, and why?",
+              "options": [
+                "They cannot agree",
+                "The evening one, because it is quieter",
+                "The four o'clock one, because C must leave by seven",
+                "The afternoon one, because it is cheaper"
+              ],
+              "answer_index": 2,
+              "explanation_en": "C needs to leave before seven, so the evening show is out and चार वाला wins."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 6,
+              "masked_token": "मैंने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "ठीक है, ___ तय कर लिया — चार बजे।",
+              "question_read_as": "ṭhiik hai, ___ tay kar liyaa — chaar baje.",
+              "options": [
+                "मैंने",
+                "मुझे",
+                "मेरा",
+                "मैं"
+              ],
+              "options_read_as": [
+                "maiṁne",
+                "mujhe",
+                "meraa",
+                "maiṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "तय करना is transitive and the tense is perfective, so ने."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Three voices, overlapping freely. Line 6 is mock-decisive."
+          }
+        },
+        {
+          "id": "M12-L36-I3",
+          "type": "dialogue",
+          "target": "अगले हफ़्ते चलते हैं",
+          "title_en": "Cancelling",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "home",
+            "oblique_plural",
+            "present_for_plans",
+            "obligation",
+            "respectful_plural"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Friend A",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "B",
+              "label_en": "Friend B",
+              "label_hi": "दोस्त"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "सुनो, रविवार का प्लान कैंसिल करना पड़ेगा।",
+              "read_as": "suno, ravivaar kaa plaan kainsil karnaa paṛegaa.",
+              "english": "Listen, we'll have to cancel Sunday."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "क्यों, क्या हुआ?",
+              "read_as": "kyoṁ, kyaa huaa?",
+              "english": "Why, what happened?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "मम्मी आ रही हैं दो दिनों के लिए।",
+              "read_as": "mammii aa rahii haiṁ do dinoṁ ke lie.",
+              "english": "Mum's coming for a couple of days."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "कोई बात नहीं। अगले हफ़्ते चलते हैं।",
+              "read_as": "koii baat nahiiṁ. agle hafte chalte haiṁ.",
+              "english": "No problem. We'll go next week."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "हाँ, वही ठीक रहेगा।",
+              "read_as": "haaṁ, vahii ṭhiik rahegaa.",
+              "english": "Yes, that's better."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "अगले हफ़्ते चलते हैं — the present tense making a plan",
+              "explanation_en": "अगले हफ़्ते चलते हैं is \"we'll go next week\", in the plain present. Hindi uses the present constantly for arrangements being made in the moment — फिर मिलते हैं in level 1, डेढ़ बजे कर देते हैं in level 28, and now this. The future tense would sound like a prediction about what will happen rather than a decision the two of you are taking together, which is a small difference that changes who is committing to what.",
+              "listening_notes": [
+                "दो दिनों के लिए — दिन goes oblique to दिनों before के लिए, marking a duration.",
+                "मम्मी आ रही हैं — the respectful plural, used for one's own mother.",
+                "वही ठीक रहेगा — वह plus ही, and रहना for \"will be\"."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why is the plan cancelled?",
+              "options": [
+                "He has to work",
+                "His mother is visiting",
+                "He is unwell",
+                "The film has been pulled"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 3: मम्मी आ रही हैं दो दिनों के लिए."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "दिनों",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "मम्मी आ रही हैं दो ___ के लिए।",
+              "question_read_as": "mammii aa rahii haiṁ do ___ ke lie.",
+              "options": [
+                "दिनें",
+                "दिनो",
+                "दिन",
+                "दिनों"
+              ],
+              "options_read_as": [
+                "dineṁ",
+                "dino",
+                "din",
+                "dinoṁ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "के लिए is a postposition, so the plural goes oblique."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Phone or in person. Line 4 is instantly accommodating — no disappointment at all."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "चलना is how you propose going somewhere together, which is why चलिए and चलो have been invitations since level 1. वाला carries a noun that has stopped being said. And the plain present makes plans, where the future would only predict them.",
+        "key_forms": [
+          "फ़िल्म चलेंगे?",
+          "चार वाला",
+          "अगले हफ़्ते चलते हैं"
+        ],
+        "next_up_en": "Next: fast speech — three friends, full speed, and Hinglish."
+      }
+    }
+  ]
+}

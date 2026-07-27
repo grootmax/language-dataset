@@ -1,0 +1,1106 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "batch": {
+    "levels_from": 38,
+    "levels_to": 40
+  },
+  "block_kind": "reading",
+  "block_note": "Nine news reports. Every claim is attributed, as the level 32 item established, and the texts are deliberately more active-voiced than real Hindi news because the passive with जाना is not taught until Module 14. See the review flag.",
+  "review_flags": [
+    "Real Hindi news uses the जाना passive constantly — कहा गया, फ़ैसला लिया गया, जाँच के आदेश दिए गए. Module 14 teaches it at level 24, which is after this entire module. Every news item here is therefore written in the active voice, which makes them read slightly more direct than the real thing. Either the passive moves earlier in Module 14, or these texts should be revisited once it is taught."
+  ],
+  "levels": [
+    {
+      "level": 38,
+      "title_en": "Allegation, response, committee",
+      "title_hi": "आरोप · प्रतिक्रिया · गठन",
+      "items": [
+        {
+          "id": "M13-L38-I1",
+          "type": "reading",
+          "text_kind": "news",
+          "target_word": "आरोप",
+          "target_read_as": "aarop",
+          "target_gloss_en": "allegation, accusation",
+          "target_gender": "m",
+          "word_count": 58,
+          "difficulty": 8,
+          "tags": [
+            "news",
+            "attribution",
+            "callback_l13",
+            "civic"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "शहर के दो मोहल्लों के बीच पानी का विवाद बढ़ गया है",
+                "read_as": "shahar ke do muhalloṁ ke biich paanii kaa vivaad baṛh gayaa hai",
+                "english": "A dispute over water between two neighbourhoods of the city has grown"
+              },
+              {
+                "n": 2,
+                "hindi": "एक पक्ष का आरोप है कि दूसरा पक्ष ज़्यादा पानी ले रहा है",
+                "read_as": "ek pakṣ kaa aarop hai ki duusraa pakṣ zyaadaa paanii le rahaa hai",
+                "english": "One side alleges that the other is taking too much water"
+              },
+              {
+                "n": 3,
+                "hindi": "दूसरे पक्ष ने इस आरोप से इनकार किया",
+                "read_as": "duusre pakṣ ne is aarop se inkaar kiyaa",
+                "english": "The other side has denied the allegation"
+              },
+              {
+                "n": 4,
+                "hindi": "नगर निगम ने दोनों पक्षों को बातचीत के लिए बुलाया",
+                "read_as": "nagar nigam ne donoṁ pakṣoṁ ko baatchiit ke lie bulaayaa",
+                "english": "The municipal corporation has called both sides for talks"
+              },
+              {
+                "n": 5,
+                "hindi": "अधिकारियों के अनुसार पानी में कोई कमी नहीं है",
+                "read_as": "adhikaariyoṁ ke anusaar paanii meṁ koii kamii nahiiṁ hai",
+                "english": "According to officials there is no shortage of water"
+              },
+              {
+                "n": 6,
+                "hindi": "अगली बैठक अगले सोमवार को होगी",
+                "read_as": "aglii baiṭhak agle somvaar ko hogii",
+                "english": "The next meeting will be on Monday"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "आरोप, इनकार, और के अनुसार — the three moves of a news report",
+              "explanation_en": "आरोप is an allegation, masculine, and it goes with लगाना or simply sits in आरोप है कि. Its answering move is इनकार करना, to deny, and the thing denied takes से. Watch what the six lines do: allegation, denial, official position. Nothing is asserted by the report itself. And पक्ष here is exactly the word you learned in level 13 — a side in a dispute, never a physical side.",
+              "register_note_en": "आरोप (news, legal) · इल्ज़ाम (Urdu-side, and what a person says in an argument). Both are masculine.",
+              "vocabulary_notes": [
+                "मोहल्ला — a neighbourhood, masculine, and oblique plural मोहल्लों before के बीच.",
+                "विवाद — a dispute. विवादित means disputed.",
+                "बातचीत — talks, another echo compound like पूछताछ from level 8."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What has the municipal corporation done?",
+              "options": [
+                "Cut off the supply",
+                "Called both sides for talks",
+                "Sided with one neighbourhood",
+                "Nothing so far"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 4: दोनों पक्षों को बातचीत के लिए बुलाया."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                2,
+                5
+              ],
+              "question_en": "What does the officials' statement add that neither side has said?",
+              "options": [
+                "That supply will be increased",
+                "That the dispute is not about water at all",
+                "That one side is lying",
+                "That the problem is how the water is shared, not how much there is"
+              ],
+              "answer_index": 3,
+              "explanation_en": "If there is no shortage, then a quarrel about who takes more is a quarrel about distribution. The report never says so; putting the two lines together does."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "आरोप"
+            ]
+          }
+        },
+        {
+          "id": "M13-L38-I2",
+          "type": "reading",
+          "text_kind": "news",
+          "target_word": "प्रतिक्रिया",
+          "target_read_as": "pratikriyaa",
+          "target_gloss_en": "reaction, response",
+          "target_gender": "f",
+          "word_count": 62,
+          "difficulty": 8,
+          "tags": [
+            "news",
+            "aa_feminine",
+            "prefix_prati",
+            "callback_l35"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "कल शाम बाज़ार में आग लगने की घटना हुई",
+                "read_as": "kal shaam baazaar meṁ aag lagne kii ghaṭnaa huii",
+                "english": "There was a fire in the market yesterday evening"
+              },
+              {
+                "n": 2,
+                "hindi": "दुकानदारों के अनुसार आग एक दुकान से शुरू हुई",
+                "read_as": "dukaandaaroṁ ke anusaar aag ek dukaan se shuruu huii",
+                "english": "According to shopkeepers the fire started in one shop"
+              },
+              {
+                "n": 3,
+                "hindi": "दमकल की गाड़ियाँ आधे घंटे में पहुँचीं",
+                "read_as": "damkal kii gaaṛiyaaṁ aadhe ghanṭe meṁ pahuṁchiiṁ",
+                "english": "Fire engines arrived within half an hour"
+              },
+              {
+                "n": 4,
+                "hindi": "किसी के घायल होने की ख़बर नहीं है",
+                "read_as": "kisii ke ghaayal hone kii ḳhabar nahiiṁ hai",
+                "english": "There are no reports of anyone being injured"
+              },
+              {
+                "n": 5,
+                "hindi": "नगर निगम की प्रतिक्रिया देर से आई",
+                "read_as": "nagar nigam kii pratikriyaa der se aaii",
+                "english": "The municipal corporation's response came late"
+              },
+              {
+                "n": 6,
+                "hindi": "अधिकारियों ने कहा कि कारण अभी स्पष्ट नहीं है",
+                "read_as": "adhikaariyoṁ ne kahaa ki kaaraṇ abhii spaṣṭ nahiiṁ hai",
+                "english": "Officials said the cause is not yet clear"
+              },
+              {
+                "n": 7,
+                "hindi": "दुकानदारों ने जल्द मुआवज़े की माँग की है",
+                "read_as": "dukaandaaroṁ ne jald muaavze kii maaṁg kii hai",
+                "english": "Shopkeepers have demanded prompt compensation"
+              },
+              {
+                "n": 8,
+                "hindi": "देरी पर सवाल उठे हैं",
+                "read_as": "derii par savaal uṭhe haiṁ",
+                "english": "Questions have been raised about the delay"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "प्रतिक्रिया — an action sent back",
+              "explanation_en": "प्रति- means back or in return, and क्रिया is an action, so प्रतिक्रिया is a reaction — and in news it means an official's public response. It ends in -आ and is feminine, joining the class from level 35, and the same प्रति- gave you प्रत्युत्तर in level 26 and प्रतिदिन on the cloakroom sign. Note घटना in line 1: also -आ, also feminine, also from that class.",
+              "register_note_en": "प्रतिक्रिया is what news calls a statement made in answer to something. A person reacting to news would just say उसने क्या कहा?",
+              "vocabulary_notes": [
+                "दमकल — a fire engine, feminine. दमकल की गाड़ियाँ is the usual phrase.",
+                "घायल — injured, invariable. घायल होना, to be hurt.",
+                "मुआवज़ा — compensation, masculine and Urdu-side. Oblique मुआवज़े before की."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Was anyone hurt?",
+              "options": [
+                "Several people",
+                "One shopkeeper",
+                "There are no reports of injuries",
+                "The report does not mention it"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 4: किसी के घायल होने की ख़बर नहीं है."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                3,
+                5
+              ],
+              "question_en": "Line 3 says the engines arrived in half an hour and line 5 says the response was late. Do they contradict each other?",
+              "options": [
+                "No — two different things are meant: the statement was late, not the fire engines",
+                "Yes, half an hour is the delay being complained about",
+                "No, the corporation sent the engines",
+                "Yes, the report contradicts itself"
+              ],
+              "answer_index": 0,
+              "explanation_en": "प्रतिक्रिया is the corporation's public statement, not its emergency response. A reader who takes it for the latter will find the report incoherent."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "प्रतिक्रिया"
+            ]
+          }
+        },
+        {
+          "id": "M13-L38-I3",
+          "type": "reading",
+          "text_kind": "news",
+          "target_word": "गठन",
+          "target_read_as": "gaṭhan",
+          "target_gloss_en": "formation, constitution",
+          "target_gender": "m",
+          "word_count": 60,
+          "difficulty": 8,
+          "tags": [
+            "news",
+            "suffix_an",
+            "callback_l34",
+            "unanswered_criticism"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "राज्य सरकार ने एक नई समिति का गठन किया है",
+                "read_as": "raajya sarkaar ne ek naii samiti kaa gaṭhan kiyaa hai",
+                "english": "The state government has constituted a new committee"
+              },
+              {
+                "n": 2,
+                "hindi": "समिति शिक्षा नीति की समीक्षा करेगी",
+                "read_as": "samiti shikṣaa niiti kii samiikṣaa karegii",
+                "english": "The committee will review education policy"
+              },
+              {
+                "n": 3,
+                "hindi": "इसमें पाँच सदस्य हैं",
+                "read_as": "ismeṁ paaṁch sadasya haiṁ",
+                "english": "It has five members"
+              },
+              {
+                "n": 4,
+                "hindi": "समिति तीन महीने में अपनी रिपोर्ट देगी",
+                "read_as": "samiti tiin mahiine meṁ apnii riporṭ degii",
+                "english": "The committee will submit its report in three months"
+              },
+              {
+                "n": 5,
+                "hindi": "शिक्षा मंत्री के अनुसार यह क़दम ज़रूरी था",
+                "read_as": "shikṣaa maṁtrii ke anusaar yah qadam zaruurii thaa",
+                "english": "According to the education minister this step was necessary"
+              },
+              {
+                "n": 6,
+                "hindi": "कुछ शिक्षक संगठनों ने गठन का स्वागत किया",
+                "read_as": "kuchh shikṣak saṁgaṭhanoṁ ne gaṭhan kaa svaagat kiyaa",
+                "english": "Some teachers' organisations have welcomed the formation"
+              },
+              {
+                "n": 7,
+                "hindi": "दूसरों ने कहा कि समिति में शिक्षकों का प्रतिनिधित्व कम है",
+                "read_as": "duusroṁ ne kahaa ki samiti meṁ shikṣakoṁ kaa pratinidhitv kam hai",
+                "english": "Others said teachers are under-represented on the committee"
+              },
+              {
+                "n": 8,
+                "hindi": "सरकार ने अभी कुछ नहीं कहा",
+                "read_as": "sarkaar ne abhii kuchh nahiiṁ kahaa",
+                "english": "The government has said nothing so far"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "-न builds a masculine action noun",
+              "explanation_en": "गठन is a formation or constitution, from गठना, and समिति का गठन करना is the fixed phrase for setting up a committee. The suffix -न builds masculine nouns of action: गठन, खंडन, निर्माण's relative वहन, and the pattern behind many news words. It joins -आव from level 34 as a second masculine noun-maker, against the four feminine ones. Note शिक्षक and शिक्षकों here — the -क agent suffix from level 30, and the oblique plural before का.",
+              "register_note_en": "समिति (news, official) · कमेटी (English, and completely ordinary in speech, including in offices).",
+              "vocabulary_notes": [
+                "समीक्षा — a review, another -आ feminine.",
+                "प्रतिनिधित्व — representation, from प्रतिनिधि, a representative. The प्रति- prefix again.",
+                "क़दम — a step, masculine, Urdu-side."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "When will the committee report?",
+              "options": [
+                "In a year",
+                "No date is given",
+                "Next week",
+                "In three months"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 4: तीन महीने में."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                7,
+                8
+              ],
+              "question_en": "What is the position at the end of the report?",
+              "options": [
+                "The government has accepted the criticism",
+                "The criticism has been made and not answered",
+                "The committee has been dissolved",
+                "The organisations all agree"
+              ],
+              "answer_index": 1,
+              "explanation_en": "An objection is raised in one line and the next records silence. Putting them in that order is how a report leaves a question open without asking it."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "गठन"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A news report moves in attributed steps: allegation, denial, official position, and nothing said in its own voice. प्रति- means back — प्रतिक्रिया, प्रत्युत्तर, प्रतिदिन. And -न joins -आव as a second masculine noun-building suffix, against four feminine ones.",
+        "key_forms": [
+          "आरोप है कि",
+          "के अनुसार",
+          "गठन किया"
+        ],
+        "next_up_en": "Next: a proposal, a rise and a fall — and two suffixes that differ only by three letters."
+      }
+    },
+    {
+      "level": 39,
+      "title_en": "Passed, risen, fallen",
+      "title_hi": "पारित · वृद्धि · गिरावट",
+      "items": [
+        {
+          "id": "M13-L39-I1",
+          "type": "reading",
+          "text_kind": "news",
+          "target_word": "पारित",
+          "target_read_as": "paarit",
+          "target_gloss_en": "passed, adopted",
+          "target_gender": null,
+          "word_count": 68,
+          "difficulty": 8,
+          "tags": [
+            "news",
+            "invariable_participle",
+            "indian_numbering",
+            "implicit_answer"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "नगर निगम की बैठक में एक प्रस्ताव पारित हुआ",
+                "read_as": "nagar nigam kii baiṭhak meṁ ek prastaav paarit huaa",
+                "english": "A proposal was passed at the municipal corporation's meeting"
+              },
+              {
+                "n": 2,
+                "hindi": "शहर के पुराने बाज़ार क्षेत्र में नई पार्किंग बनेगी",
+                "read_as": "shahar ke puraane baazaar kṣetra meṁ naii paarkiṁg banegii",
+                "english": "A new car park will be built in the old market area"
+              },
+              {
+                "n": 3,
+                "hindi": "इस पर लगभग दो करोड़ रुपये का ख़र्च आएगा",
+                "read_as": "is par lagbhag do karoṛ rupae kaa ḳharch aaegaa",
+                "english": "It will cost about two crore rupees"
+              },
+              {
+                "n": 4,
+                "hindi": "काम अगले वित्त वर्ष में शुरू होगा",
+                "read_as": "kaam agle vitt varṣ meṁ shuruu hogaa",
+                "english": "Work will begin in the next financial year"
+              },
+              {
+                "n": 5,
+                "hindi": "दुकानदारों ने प्रस्ताव का स्वागत किया है",
+                "read_as": "dukaandaaroṁ ne prastaav kaa svaagat kiyaa hai",
+                "english": "Shopkeepers have welcomed the proposal"
+              },
+              {
+                "n": 6,
+                "hindi": "उनके अनुसार पार्किंग ही सबसे बड़ी दिक्कत है",
+                "read_as": "unke anusaar paarkiṁg hii sabse baṛii dikkat hai",
+                "english": "In their view parking is the biggest difficulty"
+              },
+              {
+                "n": 7,
+                "hindi": "कुछ निवासियों ने शोर और धूल की आशंका भी जताई",
+                "read_as": "kuchh nivaasiyoṁ ne shor aur dhuul kii aashaṁkaa bhii jataaii",
+                "english": "Some residents have also expressed concern about noise and dust"
+              },
+              {
+                "n": 8,
+                "hindi": "निगम ने कहा कि रात में काम नहीं होगा",
+                "read_as": "nigam ne kahaa ki raat meṁ kaam nahiiṁ hogaa",
+                "english": "The corporation said there will be no work at night"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "करोड़ and लाख — the numbers Indian news counts in",
+              "explanation_en": "पारित means passed or adopted, and it is another invariable Sanskrit participle like समाप्त, उपस्थित and प्रस्तुत. But the thing that will slow you down in this text is दो करोड़. Indian numbering groups by लाख, a hundred thousand, and करोड़, ten million — not by millions and billions. दो करोड़ is twenty million, and no amount of vocabulary will help if the unit itself is unfamiliar. Any news report about money will be written this way.",
+              "register_note_en": "पारित (news, official records) · पास होना (everyday, and also used in news headlines). प्रस्ताव पास हो गया is perfectly ordinary.",
+              "vocabulary_notes": [
+                "क्षेत्र — an area or zone, masculine and formal. इलाक़ा is the Urdu-side partner.",
+                "वित्त वर्ष — financial year. वित्त, finance, from level 37.",
+                "आशंका — apprehension, another -आ feminine. जताना, to express, is taught properly at level 45."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What will the project cost?",
+              "options": [
+                "About two crore rupees",
+                "Twenty crore rupees",
+                "The figure is not given",
+                "Two lakh rupees"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 3: लगभग दो करोड़ रुपये."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                7,
+                8
+              ],
+              "question_en": "Why does the corporation mention night work at all?",
+              "options": [
+                "The shopkeepers asked for it",
+                "Night work would be cheaper",
+                "It is answering the residents' concern without naming it",
+                "Night work is not permitted by law"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Nobody asked about hours. The line only makes sense as a reply to the complaint about noise in the line before it."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "पारित"
+            ]
+          }
+        },
+        {
+          "id": "M13-L39-I2",
+          "type": "reading",
+          "text_kind": "news",
+          "target_word": "वृद्धि",
+          "target_read_as": "vriddhi",
+          "target_gloss_en": "increase, growth",
+          "target_gender": "f",
+          "word_count": 72,
+          "difficulty": 8,
+          "tags": [
+            "news",
+            "feminine_i_class",
+            "prati_shat",
+            "statistics"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "शहर में बिजली की खपत में इस साल दस प्रतिशत की वृद्धि हुई है",
+                "read_as": "shahar meṁ bijlii kii khapat meṁ is saal das pratishat kii vriddhi huii hai",
+                "english": "Electricity consumption in the city has risen ten per cent this year"
+              },
+              {
+                "n": 2,
+                "hindi": "बिजली विभाग के अनुसार गर्मी इसका मुख्य कारण है",
+                "read_as": "bijlii vibhaag ke anusaar garmii iskaa mukhya kaaraṇ hai",
+                "english": "According to the electricity department, heat is the main cause"
+              },
+              {
+                "n": 3,
+                "hindi": "पिछले तीन सालों में यह सबसे बड़ी वृद्धि है",
+                "read_as": "pichhle tiin saaloṁ meṁ yah sabse baṛii vriddhi hai",
+                "english": "This is the largest rise in three years"
+              },
+              {
+                "n": 4,
+                "hindi": "विभाग ने कहा कि बिजली की कमी नहीं होगी",
+                "read_as": "vibhaag ne kahaa ki bijlii kii kamii nahiiṁ hogii",
+                "english": "The department said there will be no shortage"
+              },
+              {
+                "n": 5,
+                "hindi": "नए कनेक्शनों की संख्या भी बढ़ी है",
+                "read_as": "nae kanekshanoṁ kii saṁkhyaa bhii baṛhii hai",
+                "english": "The number of new connections has also grown"
+              },
+              {
+                "n": 6,
+                "hindi": "एक साल में बारह हज़ार नए कनेक्शन जुड़े",
+                "read_as": "ek saal meṁ baarah hazaar nae kanekshan juṛe",
+                "english": "Twelve thousand new connections were added in one year"
+              },
+              {
+                "n": 7,
+                "hindi": "विशेषज्ञों के अनुसार यह वृद्धि आगे भी जारी रहेगी",
+                "read_as": "visheṣagyoṁ ke anusaar yah vriddhi aage bhii jaarii rahegii",
+                "english": "Experts say the rise will continue"
+              },
+              {
+                "n": 8,
+                "hindi": "विभाग अगले महीने नई दरें घोषित करेगा",
+                "read_as": "vibhaag agle mahiine naii dareṁ ghoṣit karegaa",
+                "english": "The department will announce new rates next month"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "प्रतिशत — per hundred",
+              "explanation_en": "वृद्धि is an increase, and it is feminine — it belongs with the -ति and -धि nouns like स्वीकृति, प्रगति and बुद्धि, all of which are feminine. The word to take away from this text, though, is प्रतिशत: प्रति, per, which you first met on the parking sign in level 7, plus शत, hundred. Per cent, built from two pieces you already had. And घोषित in the last line is the participle of घोषणा from level 35.",
+              "register_note_en": "वृद्धि (news, official) · बढ़ोतरी (also news, and slightly more everyday) · simply बढ़ना in speech.",
+              "vocabulary_notes": [
+                "खपत — consumption, feminine.",
+                "संख्या — a number or count, another -आ feminine.",
+                "दरें — rates, the plural of दर, feminine. विशेषज्ञ — an expert, masculine."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What reason does the department give for the rise?",
+              "options": [
+                "New connections",
+                "The heat",
+                "New rates",
+                "It gives no reason"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 2: गर्मी इसका मुख्य कारण है."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                4,
+                8
+              ],
+              "question_en": "The department promises no shortage and then announces new rates. What might connect the two?",
+              "options": [
+                "There will be a shortage after all",
+                "Rates are being reduced",
+                "The rates are unrelated to the rise",
+                "Rising demand is being handled through price rather than supply"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Neither line explains itself. Read together, a promise to keep supply steady followed by a rate announcement suggests where the adjustment is going to fall."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "वृद्धि"
+            ]
+          }
+        },
+        {
+          "id": "M13-L39-I3",
+          "type": "reading",
+          "text_kind": "news",
+          "target_word": "गिरावट",
+          "target_read_as": "giraavaṭ",
+          "target_gloss_en": "fall, decline",
+          "target_gender": "f",
+          "word_count": 70,
+          "difficulty": 8,
+          "tags": [
+            "news",
+            "suffix_aavaṭ",
+            "contrast_with_aav",
+            "hedged_causation"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "पिछले महीने शहर में सड़क दुर्घटनाओं में गिरावट आई है",
+                "read_as": "pichhle mahiine shahar meṁ saṛak durghaṭnaaoṁ meṁ giraavaṭ aaii hai",
+                "english": "Road accidents in the city fell last month"
+              },
+              {
+                "n": 2,
+                "hindi": "पुलिस के अनुसार दुर्घटनाओं की संख्या में पंद्रह प्रतिशत की कमी हुई",
+                "read_as": "pulis ke anusaar durghaṭnaaoṁ kii saṁkhyaa meṁ paṁdrah pratishat kii kamii huii",
+                "english": "According to police the number of accidents dropped fifteen per cent"
+              },
+              {
+                "n": 3,
+                "hindi": "नए ट्रैफ़िक सिग्नल और सड़क मरम्मत इसका कारण हो सकते हैं",
+                "read_as": "nae ṭraifik signal aur saṛak marammat iskaa kaaraṇ ho sakte haiṁ",
+                "english": "New traffic signals and road repairs may be the reason"
+              },
+              {
+                "n": 4,
+                "hindi": "सबसे ज़्यादा गिरावट रात के समय दर्ज हुई",
+                "read_as": "sabse zyaadaa giraavaṭ raat ke samay darj huii",
+                "english": "The biggest fall was recorded at night"
+              },
+              {
+                "n": 5,
+                "hindi": "दोपहिया वाहनों की घटनाएँ अब भी ज़्यादा हैं",
+                "read_as": "dopahiyaa vaahanoṁ kii ghaṭnaaeṁ ab bhii zyaadaa haiṁ",
+                "english": "Incidents involving two-wheelers are still high"
+              },
+              {
+                "n": 6,
+                "hindi": "पुलिस हेलमेट पर सख़्ती जारी रखेगी",
+                "read_as": "pulis helmeṭ par saḳhtii jaarii rakhegii",
+                "english": "Police will keep up enforcement on helmets"
+              },
+              {
+                "n": 7,
+                "hindi": "अगले महीने से नए नियम लागू होंगे",
+                "read_as": "agle mahiine se nae niyam laaguu hoṁge",
+                "english": "New rules come into force next month"
+              },
+              {
+                "n": 8,
+                "hindi": "विभाग अब हर महीने ये आँकड़े जारी करेगा",
+                "read_as": "vibhaag ab har mahiine ye aaṁkaṛe jaarii karegaa",
+                "english": "The department will now release these figures monthly"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "-आवट and -आव, three letters apart and opposite genders",
+              "explanation_en": "गिरावट is a fall, built from गिरना with the suffix -आवट — and -आवट builds feminine nouns: गिरावट, सजावट decoration, बनावट construction or make, थकावट tiredness, मिलावट adulteration. Set that beside -आव from level 34, which builds masculines from the very same verbs: बनाव against बनावट, both from बनना, and one is masculine while the other is feminine. Three letters of difference and the gender flips.",
+              "register_note_en": "गिरावट (news, markets) · कमी (everywhere, and used in line 2 of this very text). The report uses both, one line apart.",
+              "vocabulary_notes": [
+                "दुर्घटना — an accident, from दुर्- bad plus घटना an event. Another -आ feminine.",
+                "दर्ज होना — to be recorded. दर्ज करना, to register something.",
+                "सख़्ती — strictness, from सख़्त with the -ई suffix, so feminine."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "By how much did accidents fall?",
+              "options": [
+                "The figure is not given",
+                "Five per cent",
+                "Fifteen per cent",
+                "Fifty per cent"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 2: पंद्रह प्रतिशत की कमी."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                2,
+                3
+              ],
+              "question_en": "What is हो सकते हैं doing at the end of line 3?",
+              "options": [
+                "Offering a possible cause without claiming it is proven",
+                "Denying that there is any cause",
+                "Blaming the weather",
+                "Stating the proven cause"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The figure in line 2 is attributed and firm; the explanation in line 3 is hedged. The police are not being given the credit, and the hedge is the only thing withholding it."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "गिरावट"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Indian news counts in लाख and करोड़, not millions. प्रतिशत is प्रति plus शत, per hundred, built from a piece you had since level 7. And -आवट builds feminine nouns from the same verbs that -आव builds masculines from — बनाव and बनावट, three letters apart and opposite genders.",
+        "key_forms": [
+          "पारित हुआ",
+          "दस प्रतिशत की वृद्धि",
+          "गिरावट आई"
+        ],
+        "next_up_en": "Next: a survey, a denial and an investigation — the longest news items in the module."
+      }
+    },
+    {
+      "level": 40,
+      "title_en": "Survey, denial, investigation",
+      "title_hi": "सर्वेक्षण · खंडन · जाँच",
+      "items": [
+        {
+          "id": "M13-L40-I1",
+          "type": "reading",
+          "text_kind": "news",
+          "target_word": "सर्वेक्षण",
+          "target_read_as": "sarvekṣaṇ",
+          "target_gloss_en": "survey",
+          "target_gender": "m",
+          "word_count": 78,
+          "difficulty": 9,
+          "tags": [
+            "news",
+            "suffix_aṇ",
+            "statistics",
+            "numerical_inference"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "एक सर्वेक्षण ने शहर के लोगों से सार्वजनिक परिवहन के बारे में पूछा",
+                "read_as": "ek sarvekṣaṇ ne shahar ke logoṁ se saarvajanik parivahan ke baare meṁ puuchhaa",
+                "english": "A survey asked people in the city about public transport"
+              },
+              {
+                "n": 2,
+                "hindi": "साठ प्रतिशत लोगों ने कहा कि बस सेवा में सुधार ज़रूरी है",
+                "read_as": "saaṭh pratishat logoṁ ne kahaa ki bas sevaa meṁ sudhaar zaruurii hai",
+                "english": "Sixty per cent said the bus service needs improvement"
+              },
+              {
+                "n": 3,
+                "hindi": "पैंतीस प्रतिशत ने किराए को सबसे बड़ी समस्या बताया",
+                "read_as": "paiṁtiis pratishat ne kiraae ko sabse baṛii samasyaa bataayaa",
+                "english": "Thirty-five per cent named the fare as the biggest problem"
+              },
+              {
+                "n": 4,
+                "hindi": "केवल दस प्रतिशत लोग मौजूदा व्यवस्था से संतुष्ट हैं",
+                "read_as": "keval das pratishat log maujuudaa vyavasthaa se saṁtuṣṭ haiṁ",
+                "english": "Only ten per cent are satisfied with the current system"
+              },
+              {
+                "n": 5,
+                "hindi": "सर्वेक्षण में दो हज़ार लोगों ने हिस्सा लिया",
+                "read_as": "sarvekṣaṇ meṁ do hazaar logoṁ ne hissaa liyaa",
+                "english": "Two thousand people took part in the survey"
+              },
+              {
+                "n": 6,
+                "hindi": "महिलाओं ने सुरक्षा को सबसे ज़रूरी मुद्दा बताया",
+                "read_as": "mahilaaoṁ ne surakṣaa ko sabse zaruurii muddaa bataayaa",
+                "english": "Women named safety as the most important issue"
+              },
+              {
+                "n": 7,
+                "hindi": "परिवहन विभाग ने सर्वेक्षण के नतीजों पर विचार करने की बात कही",
+                "read_as": "parivahan vibhaag ne sarvekṣaṇ ke natiijoṁ par vichaar karne kii baat kahii",
+                "english": "The transport department said it would consider the survey's findings"
+              },
+              {
+                "n": 8,
+                "hindi": "नई योजना अगले साल आ सकती है",
+                "read_as": "naii yojnaa agle saal aa saktii hai",
+                "english": "A new scheme may come next year"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "-ण, a third masculine noun suffix",
+              "explanation_en": "सर्वेक्षण is a survey — सर्व, all, plus ईक्षण, viewing — and the -ण suffix builds masculine action nouns: सर्वेक्षण, प्रशिक्षण training, निर्माण construction, वितरण distribution, निरीक्षण inspection. That is now three masculine noun suffixes, -आव, -न and -ण, against five feminine ones. Note also नतीजा in line 7, the Urdu-side partner of परिणाम, which you met as an option in level 17.",
+              "register_note_en": "सर्वेक्षण (news, official) · सर्वे (English, and much commoner in speech and even in headlines).",
+              "vocabulary_notes": [
+                "सार्वजनिक — public, from सर्व. परिवहन — transport.",
+                "मौजूदा — current or existing, Urdu-side and invariable despite the -आ.",
+                "हिस्सा लेना — to take part. हिस्सा is a share or part, masculine."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How many people took part?",
+              "options": [
+                "Twenty thousand",
+                "It is not stated",
+                "Two hundred",
+                "Two thousand"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 5: दो हज़ार लोगों ने हिस्सा लिया."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                2,
+                4
+              ],
+              "question_en": "The percentages in lines 2, 3 and 4 add up to more than a hundred. What follows?",
+              "options": [
+                "The survey is wrong",
+                "People could give more than one answer, or these were separate questions",
+                "Only ten per cent replied",
+                "The figures are rounded estimates"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Sixty, thirty-five and ten cannot be exclusive shares of the same whole. Nothing in the text says the questions were separate; the arithmetic does."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "सर्वेक्षण"
+            ]
+          }
+        },
+        {
+          "id": "M13-L40-I2",
+          "type": "reading",
+          "text_kind": "news",
+          "target_word": "खंडन",
+          "target_read_as": "khaṁḍan",
+          "target_gloss_en": "denial, refutation",
+          "target_gender": "m",
+          "word_count": 80,
+          "difficulty": 9,
+          "tags": [
+            "news",
+            "suffix_an",
+            "claim_and_counterclaim",
+            "callback_l17"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "शिक्षा विभाग ने स्कूल भवनों की हालत पर आरोपों का खंडन किया है",
+                "read_as": "shikṣaa vibhaag ne skuul bhavanoṁ kii haalat par aaropoṁ kaa khaṁḍan kiyaa hai",
+                "english": "The education department has denied allegations about the condition of school buildings"
+              },
+              {
+                "n": 2,
+                "hindi": "एक स्थानीय संगठन ने कहा था कि कई स्कूलों में छत टपकती है",
+                "read_as": "ek sthaaniiya saṁgaṭhan ne kahaa thaa ki kaii skuuloṁ meṁ chhat ṭapaktii hai",
+                "english": "A local organisation had said that roofs leak in several schools"
+              },
+              {
+                "n": 3,
+                "hindi": "विभाग के एक अधिकारी ने इसे ग़लत बताया",
+                "read_as": "vibhaag ke ek adhikaarii ne ise ġalat bataayaa",
+                "english": "An official of the department called this incorrect"
+              },
+              {
+                "n": 4,
+                "hindi": "उनके अनुसार पिछले साल सभी भवनों की मरम्मत हुई थी",
+                "read_as": "unke anusaar pichhle saal sabhii bhavanoṁ kii marammat huii thii",
+                "english": "According to him all the buildings were repaired last year"
+              },
+              {
+                "n": 5,
+                "hindi": "संगठन ने अपने दावे के समर्थन में तस्वीरें दिखाईं",
+                "read_as": "saṁgaṭhan ne apne daave ke samarthan meṁ tasviireṁ dikhaaiiṁ",
+                "english": "The organisation showed photographs in support of its claim"
+              },
+              {
+                "n": 6,
+                "hindi": "विभाग ने कहा कि वो दोबारा निरीक्षण कराएगा",
+                "read_as": "vibhaag ne kahaa ki vo dobaaraa niriikṣaṇ karaaegaa",
+                "english": "The department said it would carry out another inspection"
+              },
+              {
+                "n": 7,
+                "hindi": "निरीक्षण अगले सप्ताह से शुरू होगा",
+                "read_as": "niriikṣaṇ agle saptaah se shuruu hogaa",
+                "english": "The inspection will begin next week"
+              },
+              {
+                "n": 8,
+                "hindi": "संगठन ने इसे बहुत देर का क़दम बताया",
+                "read_as": "saṁgaṭhan ne ise bahut der kaa qadam bataayaa",
+                "english": "The organisation called it a very belated step"
+              },
+              {
+                "n": 9,
+                "hindi": "मामला अभी ख़त्म नहीं हुआ",
+                "read_as": "maamlaa abhii ḳhatm nahiiṁ huaa",
+                "english": "The matter is not over"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "समर्थन in its natural habitat",
+              "explanation_en": "खंडन is a denial or refutation, and it goes with करना. But look at line 5: अपने दावे के समर्थन में — in support of its claim. समर्थन is the word you learned in level 17 as backing a position rather than helping a person, and here it is doing precisely that job in a phrase where मदद would be impossible. That is what these reading blocks are for: the vocabulary block gives you the distinction, and the report shows you the distinction being used.",
+              "register_note_en": "खंडन (news, official statements) · इनकार (also common, and used in the level 38 item) · मना करना (speech, and closer to refusing than denying).",
+              "vocabulary_notes": [
+                "दावा — a claim, masculine and Urdu-side. दावे is the oblique.",
+                "निरीक्षण — inspection, another -ण noun, and here with the second causative कराएगा.",
+                "छत टपकती है — the roof drips. टपकना, the same verb as the leaking tap in Module 12."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What did the organisation produce in support of its claim?",
+              "options": [
+                "Photographs",
+                "Witnesses",
+                "Nothing",
+                "A written report"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 5: तस्वीरें दिखाईं."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                1,
+                6
+              ],
+              "question_en": "The department denies the claim and then orders a fresh inspection. What does that combination suggest?",
+              "options": [
+                "The organisation has withdrawn its claim",
+                "The department has accepted the claim",
+                "The denial is not being left to stand on its own",
+                "The inspection was already scheduled"
+              ],
+              "answer_index": 2,
+              "explanation_en": "A confident denial needs nothing after it. Ordering an inspection concedes that the question is open, without saying so."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "खंडन"
+            ]
+          }
+        },
+        {
+          "id": "M13-L40-I3",
+          "type": "reading",
+          "text_kind": "news",
+          "target_word": "जाँच",
+          "target_read_as": "jaaṁch",
+          "target_gloss_en": "investigation, inspection, test",
+          "target_gender": "f",
+          "word_count": 85,
+          "difficulty": 9,
+          "tags": [
+            "news",
+            "wide_semantic_range",
+            "echo_compound_noun",
+            "longest_news_item"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "ज़िला प्रशासन ने एक पुल की हालत की जाँच के आदेश दिए हैं",
+                "read_as": "zilaa prashaasan ne ek pul kii haalat kii jaaṁch ke aadesh die haiṁ",
+                "english": "The district administration has ordered an inspection of a bridge's condition"
+              },
+              {
+                "n": 2,
+                "hindi": "पिछले हफ़्ते पुल के एक हिस्से में दरार दिखी थी",
+                "read_as": "pichhle hafte pul ke ek hisse meṁ daraar dikhii thii",
+                "english": "A crack was seen in part of the bridge last week"
+              },
+              {
+                "n": 3,
+                "hindi": "स्थानीय लोगों ने इसकी शिकायत की थी",
+                "read_as": "sthaaniiya logoṁ ne iskii shikaayat kii thii",
+                "english": "Local people had complained about it"
+              },
+              {
+                "n": 4,
+                "hindi": "जाँच में इंजीनियरों की एक टीम शामिल होगी",
+                "read_as": "jaaṁch meṁ inijiniyaroṁ kii ek ṭiim shaamil hogii",
+                "english": "A team of engineers will take part in the investigation"
+              },
+              {
+                "n": 5,
+                "hindi": "रिपोर्ट पंद्रह दिन में आएगी",
+                "read_as": "riporṭ paṁdrah din meṁ aaegii",
+                "english": "The report will come in fifteen days"
+              },
+              {
+                "n": 6,
+                "hindi": "तब तक पुल पर भारी वाहनों की आवाजाही बंद रहेगी",
+                "read_as": "tab tak pul par bhaarii vaahanoṁ kii aavaajaahii baṁd rahegii",
+                "english": "Until then heavy vehicles will not be allowed on the bridge"
+              },
+              {
+                "n": 7,
+                "hindi": "इससे शहर के पूर्वी हिस्से का रास्ता लंबा हो जाएगा",
+                "read_as": "isse shahar ke puurvii hisse kaa raastaa laṁbaa ho jaaegaa",
+                "english": "This will lengthen the route to the eastern part of the city"
+              },
+              {
+                "n": 8,
+                "hindi": "प्रशासन ने वैकल्पिक रास्ते की जानकारी दी है",
+                "read_as": "prashaasan ne vaikalpik raaste kii jaankaarii dii hai",
+                "english": "The administration has given details of an alternative route"
+              },
+              {
+                "n": 9,
+                "hindi": "अधिकारी के अनुसार सुरक्षा सबसे पहले है",
+                "read_as": "adhikaarii ke anusaar surakṣaa sabse pahle hai",
+                "english": "According to an official, safety comes first"
+              },
+              {
+                "n": 10,
+                "hindi": "जाँच पूरी होने तक फ़ैसला नहीं होगा",
+                "read_as": "jaaṁch puurii hone tak faislaa nahiiṁ hogaa",
+                "english": "No decision will be taken until the investigation is complete"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "जाँच covers an inspection, an investigation and a blood test",
+              "explanation_en": "जाँच is feminine and its range is unusually wide: a doctor ordering one in Module 12, a police investigation, a quality check on a factory line, and here a structural inspection of a bridge. English needs three or four words for that span and Hindi uses one, with the surrounding nouns doing the narrowing. Note आवाजाही in line 6 — movement or traffic — which is आना-जाना, the paired verb from level 8, turned into a noun.",
+              "register_note_en": "जाँच works at every level of formality. जाँच करना, जाँच होना, जाँच के आदेश देना — all current, in speech and in official writing alike.",
+              "vocabulary_notes": [
+                "ज़िला — a district, masculine. प्रशासन — administration, from level 34's game.",
+                "दरार — a crack, feminine. वैकल्पिक — alternative, from विकल्प, an option.",
+                "जाँच पूरी होने तक — the oblique infinitive plus तक, meaning until."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What will happen to heavy vehicles?",
+              "options": [
+                "They will be charged a toll",
+                "They will not be allowed on the bridge",
+                "They will be inspected",
+                "Nothing changes for them"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 6: भारी वाहनों की आवाजाही बंद रहेगी."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                1,
+                3
+              ],
+              "question_en": "What does line 3 change about how you read line 1?",
+              "options": [
+                "It blames local people for the damage",
+                "It has no bearing on the order",
+                "It shows the administration found the crack itself",
+                "It shows the administration acted after being told, not on its own initiative"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The order comes first in the report and the complaint comes third. Read in sequence, the administration is responding rather than discovering, which changes the credit due to it."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "जाँच"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "-ण is a third masculine noun suffix after -आव and -न, against five feminine ones. समर्थन turns up doing exactly the job level 17 described, in a phrase where मदद would be impossible. And जाँच covers an inspection, an investigation and a medical test with one word.",
+        "key_forms": [
+          "सर्वेक्षण में",
+          "खंडन किया",
+          "जाँच के आदेश"
+        ],
+        "next_up_en": "Next: back to vocabulary — technology, and the first of the advanced verbs."
+      }
+    }
+  ]
+}

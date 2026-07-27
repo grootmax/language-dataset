@@ -1,0 +1,884 @@
+{
+  "module": 1,
+  "module_name_en": "Sounds & Vowels",
+  "module_name_hi": "स्वर",
+  "phase": 1,
+  "batch": { "levels_from": 1, "levels_to": 5 },
+  "levels": [
+    {
+      "level": 1,
+      "title_en": "The first three vowels",
+      "title_hi": "अ आ इ",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M01-L01-I1",
+          "type": "letter",
+          "target": "अ",
+          "read_as": "a",
+          "pronunciation_notes": "Short 'a' as in 'cut', never as in 'cat'. Every consonant carries this vowel automatically, and word-finally it drops: कमल is kamal, not kamala.",
+          "gloss_en": "short vowel a — the inherent vowel",
+          "gender": null,
+          "difficulty": 1,
+          "tags": ["vowel", "short_vowel", "inherent_vowel", "schwa"],
+          "letter_form": "अ",
+          "matra": null,
+          "sound_family": "svar",
+          "contrasts_with": ["आ"],
+          "example_word": { "hindi": "अनार", "read_as": "anaar", "english": "pomegranate" },
+          "cards": {
+            "learn": {
+              "title_en": "अ — the vowel that is already there",
+              "explanation_en": "अ is a short 'a', the vowel in English 'cut', not the one in 'cat'. It is the only vowel with no matra symbol, because every consonant is assumed to carry it already — क on its own reads 'ka'. English speakers make two mistakes with it: they stretch it into a long 'aa', and they pronounce the final one that Hindi speakers drop.",
+              "examples": [
+                { "hindi": "अनार", "read_as": "anaar", "english": "pomegranate", "note": "Opens with the short अ; the long vowel comes in the second syllable." },
+                { "hindi": "कमल", "read_as": "kamal", "english": "lotus", "note": "क and म each carry an unwritten अ, but the final one is not pronounced." },
+                { "hindi": "अब", "read_as": "ab", "english": "now", "note": "Two letters, one syllable — the अ inside ब drops away." }
+              ],
+              "common_error": {
+                "wrong": "आनार",
+                "right": "अनार",
+                "why_en": "The first vowel is the short अ, not the long आ. Vowel length is part of the word in Hindi, not a matter of emphasis."
+              }
+            },
+            "practice": {
+              "format": "hear_it_pick_letter",
+              "prompt_en": "Listen. Which vowel does this word start with?",
+              "question": "अनार",
+              "question_read_as": "anaar",
+              "options": ["अ", "आ", "इ", "ई"],
+              "options_read_as": ["a", "aa", "i", "ii"],
+              "answer_index": 0,
+              "explanation_en": "The word opens with the short vowel अ. The long आ appears later, in the second syllable."
+            },
+            "game": {
+              "format": "odd_sound_out",
+              "question_en": "Three of these words begin with the short अ sound. Which one does not?",
+              "options": ["अनार", "अब", "आम", "असली"],
+              "options_read_as": ["anaar", "ab", "aam", "aslii"],
+              "answer_index": 2,
+              "explanation_en": "आम opens with the long vowel आ, held about twice as long. The other three open with short अ."
+            }
+          },
+          "audio": {
+            "tts_strings": ["अ", "अनार", "अब", "कमल"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M01-L01-I2",
+          "type": "letter",
+          "target": "आ",
+          "read_as": "aa",
+          "pronunciation_notes": "Long आ, roughly twice the length of अ. As a matra it is the vertical stroke written after the consonant: क plus ा gives का.",
+          "gloss_en": "long vowel aa",
+          "gender": null,
+          "difficulty": 1,
+          "tags": ["vowel", "long_vowel", "matra", "vowel_length"],
+          "letter_form": "आ",
+          "matra": "ा",
+          "sound_family": "svar",
+          "contrasts_with": ["अ"],
+          "example_word": { "hindi": "आम", "read_as": "aam", "english": "mango" },
+          "cards": {
+            "learn": {
+              "title_en": "आ — the long partner of अ",
+              "explanation_en": "आ uses the same mouth position as अ but is held about twice as long, like the a in 'father'. Written after a consonant it becomes the matra ा. Length carries meaning here, so shortening आ produces a different word — कम and काम are not variants of one another.",
+              "examples": [
+                { "hindi": "आम", "read_as": "aam", "english": "mango", "note": "Written in full because nothing comes before it." },
+                { "hindi": "काम", "read_as": "kaam", "english": "work", "note": "The same vowel, now written as the matra ा attached to क." },
+                { "hindi": "आना", "read_as": "aanaa", "english": "to come", "note": "Both syllables are long; the final ा is written and pronounced." }
+              ],
+              "common_error": {
+                "wrong": "कम",
+                "right": "काम",
+                "why_en": "Dropping the matra changes the word: कम means 'less', काम means 'work'."
+              }
+            },
+            "practice": {
+              "format": "hear_it_pick_letter",
+              "prompt_en": "Listen. Which vowel do you hear in the first syllable?",
+              "question": "काम",
+              "question_read_as": "kaam",
+              "options": ["अ", "आ", "उ", "ऊ"],
+              "options_read_as": ["a", "aa", "u", "uu"],
+              "answer_index": 1,
+              "explanation_en": "The vertical stroke after क makes the vowel long — kaam, not kam."
+            },
+            "game": {
+              "format": "odd_sound_out",
+              "question_en": "Three of these words contain the long आ sound. Which one does not?",
+              "options": ["आम", "काम", "नाम", "कम"],
+              "options_read_as": ["aam", "kaam", "naam", "kam"],
+              "answer_index": 3,
+              "explanation_en": "कम carries no matra, so its vowel is the short अ. The other three all have ा."
+            }
+          },
+          "audio": {
+            "tts_strings": ["आ", "आम", "काम", "आना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M01-L01-I3",
+          "type": "letter",
+          "target": "इ",
+          "read_as": "i",
+          "pronunciation_notes": "Short i as in 'sit'. Its matra ि is written to the LEFT of the consonant but pronounced after it: कि reads 'ki'.",
+          "gloss_en": "short vowel i",
+          "gender": null,
+          "difficulty": 2,
+          "tags": ["vowel", "short_vowel", "matra", "pre_consonant_matra"],
+          "letter_form": "इ",
+          "matra": "ि",
+          "sound_family": "svar",
+          "contrasts_with": ["ई"],
+          "example_word": { "hindi": "इमली", "read_as": "imlii", "english": "tamarind" },
+          "cards": {
+            "learn": {
+              "title_en": "इ — and the matra that jumps left",
+              "explanation_en": "इ is a short i, as in English 'sit'. Its matra is ि, and it is the one matra written to the left of its consonant even though it is spoken after it — कि is read 'ki', never 'ik'. Learners sounding words out letter by letter get this backwards for the first week or so; expect it and read the pair as a unit.",
+              "examples": [
+                { "hindi": "इमली", "read_as": "imlii", "english": "tamarind", "note": "Opens with the full letter इ because nothing precedes it." },
+                { "hindi": "किताब", "read_as": "kitaab", "english": "book", "note": "The matra sits to the left of क but is pronounced after it." },
+                { "hindi": "दिन", "read_as": "din", "english": "day", "note": "One syllable: द with the ि matra, then न with its vowel dropped." }
+              ],
+              "common_error": {
+                "wrong": "कीताब",
+                "right": "किताब",
+                "why_en": "The first vowel is the short इ. Using the long ी matra gives a spelling that does not exist."
+              }
+            },
+            "practice": {
+              "format": "hear_it_pick_letter",
+              "prompt_en": "Listen. Which vowel do you hear in the first syllable?",
+              "question": "किताब",
+              "question_read_as": "kitaab",
+              "options": ["आ", "ई", "इ", "उ"],
+              "options_read_as": ["aa", "ii", "i", "u"],
+              "answer_index": 2,
+              "explanation_en": "The matra on क is the short one — kitaab. The long ी would give 'kii', which is not how the word is said."
+            },
+            "game": {
+              "format": "odd_sound_out",
+              "question_en": "Three of these words have the short इ sound in the first syllable. Which one does not?",
+              "options": ["दीवार", "किताब", "दिन", "इमली"],
+              "options_read_as": ["diivaar", "kitaab", "din", "imlii"],
+              "answer_index": 0,
+              "explanation_en": "दीवार begins with the long ई sound. The other three carry the short इ."
+            }
+          },
+          "audio": {
+            "tts_strings": ["इ", "इमली", "किताब", "दिन"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level introduced अ, आ and इ, and the idea that every consonant already carries an अ unless a matra replaces it. It also showed the first matra that is written on the wrong side of its consonant.",
+        "key_forms": ["अनार", "काम", "किताब"],
+        "next_up_en": "Next: ई, उ and ऊ, where vowel length starts separating one word from another."
+      }
+    },
+    {
+      "level": 2,
+      "title_en": "Long and short in pairs",
+      "title_hi": "ई उ ऊ",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M01-L02-I1",
+          "type": "letter",
+          "target": "ई",
+          "read_as": "ii",
+          "pronunciation_notes": "Long ee as in 'seen'. The matra ी is written after the consonant — the opposite side from its short partner ि.",
+          "gloss_en": "long vowel ii",
+          "gender": null,
+          "difficulty": 2,
+          "tags": ["vowel", "long_vowel", "matra", "vowel_length"],
+          "letter_form": "ई",
+          "matra": "ी",
+          "sound_family": "svar",
+          "contrasts_with": ["इ"],
+          "example_word": { "hindi": "ईख", "read_as": "iikh", "english": "sugarcane" },
+          "cards": {
+            "learn": {
+              "title_en": "ई — length that changes the word",
+              "explanation_en": "ई is the long partner of इ, like the ee in 'seen'. Its matra ी goes on the right of the consonant, which is the mirror image of ि. Because Hindi treats vowel length as meaningful, दिन and दीन are two different words — a vowel held too long is not an accent, it is a different word.",
+              "examples": [
+                { "hindi": "ईख", "read_as": "iikh", "english": "sugarcane", "note": "The full letter, used at the start of a word." },
+                { "hindi": "नीला", "read_as": "niilaa", "english": "blue", "note": "The matra follows न and is held long." },
+                { "hindi": "दीवार", "read_as": "diivaar", "english": "wall", "note": "Long ई in the first syllable, long आ in the second." }
+              ],
+              "common_error": {
+                "wrong": "निला",
+                "right": "नीला",
+                "why_en": "नीला needs the long ी. The short ि gives a syllable a Hindi speaker will not read as this word."
+              }
+            },
+            "practice": {
+              "format": "hear_it_pick_letter",
+              "prompt_en": "Listen. Which matra is in the first syllable?",
+              "question": "नीला",
+              "question_read_as": "niilaa",
+              "options": ["ि", "ु", "ू", "ी"],
+              "options_read_as": ["i", "u", "uu", "ii"],
+              "answer_index": 3,
+              "explanation_en": "The stroke sits after न and is held long — niilaa. The short ि would be written before न."
+            },
+            "game": {
+              "format": "odd_sound_out",
+              "question_en": "Three of these words have a long ई sound. Which one does not?",
+              "options": ["नीला", "दिन", "दीवार", "ईख"],
+              "options_read_as": ["niilaa", "din", "diivaar", "iikh"],
+              "answer_index": 1,
+              "explanation_en": "दिन has the short इ matra. The other three all carry the long ई."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ई", "ईख", "नीला", "दीवार"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M01-L02-I2",
+          "type": "letter",
+          "target": "उ",
+          "read_as": "u",
+          "pronunciation_notes": "Short u as in 'put', never the 'yoo' of English 'use'. The matra ु hooks under the consonant. In उल्लू the doubled ल is held slightly longer.",
+          "gloss_en": "short vowel u",
+          "gender": null,
+          "difficulty": 2,
+          "tags": ["vowel", "short_vowel", "matra"],
+          "letter_form": "उ",
+          "matra": "ु",
+          "sound_family": "svar",
+          "contrasts_with": ["ऊ"],
+          "example_word": { "hindi": "उल्लू", "read_as": "ulluu", "english": "owl" },
+          "cards": {
+            "learn": {
+              "title_en": "उ — short and rounded",
+              "explanation_en": "उ is a short, rounded u, the vowel in English 'put'. Its matra ु hooks under the consonant. English speakers often import the 'yoo' sound from words like 'use' or 'unit'; Hindi never does that, and the vowel is always short unless the deeper double hook is written.",
+              "examples": [
+                { "hindi": "उल्लू", "read_as": "ulluu", "english": "owl", "note": "Short उ first, long ऊ at the end — the two lengths side by side in one word." },
+                { "hindi": "बुरा", "read_as": "buraa", "english": "bad", "note": "The matra hangs below ब and stays short." },
+                { "hindi": "सुबह", "read_as": "subah", "english": "morning", "note": "Short उ in the first syllable; the final vowel is not written at all." }
+              ],
+              "common_error": {
+                "wrong": "बूरा",
+                "right": "बुरा",
+                "why_en": "बुरा takes the short hook. The long ू stretches the syllable and sounds to a listener like a different word."
+              }
+            },
+            "practice": {
+              "format": "hear_it_pick_letter",
+              "prompt_en": "Listen. Which vowel do you hear in the first syllable?",
+              "question": "बुरा",
+              "question_read_as": "buraa",
+              "options": ["ऊ", "उ", "इ", "ई"],
+              "options_read_as": ["uu", "u", "i", "ii"],
+              "answer_index": 1,
+              "explanation_en": "The single hook under ब is the short उ — buraa, said briskly."
+            },
+            "game": {
+              "format": "odd_sound_out",
+              "question_en": "Three of these words begin with the short उ sound. Which one does not?",
+              "options": ["उल्लू", "उधर", "उठना", "ऊपर"],
+              "options_read_as": ["ulluu", "udhar", "uṭhnaa", "uupar"],
+              "answer_index": 3,
+              "explanation_en": "ऊपर opens with the long ऊ. The other three open with the short उ."
+            }
+          },
+          "audio": {
+            "tts_strings": ["उ", "उल्लू", "बुरा", "सुबह"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M01-L02-I3",
+          "type": "letter",
+          "target": "ऊ",
+          "read_as": "uu",
+          "pronunciation_notes": "Long oo as in 'food'. Its matra ू is a deeper double hook under the consonant, easy to confuse with the short ु in handwriting.",
+          "gloss_en": "long vowel uu",
+          "gender": null,
+          "difficulty": 2,
+          "tags": ["vowel", "long_vowel", "matra", "vowel_length"],
+          "letter_form": "ऊ",
+          "matra": "ू",
+          "sound_family": "svar",
+          "contrasts_with": ["उ"],
+          "example_word": { "hindi": "ऊन", "read_as": "uun", "english": "wool" },
+          "cards": {
+            "learn": {
+              "title_en": "ऊ — the long oo",
+              "explanation_en": "ऊ is the long partner of उ, like the oo in 'food'. Under a consonant it is written ू, a deeper hook than the short ु. The difference is not decorative: चुना means 'chose' and चूना means 'lime'. In handwriting the two hooks look similar, so read the whole word before deciding.",
+              "examples": [
+                { "hindi": "ऊन", "read_as": "uun", "english": "wool", "note": "The full letter at the start of a word." },
+                { "hindi": "फूल", "read_as": "phuul", "english": "flower", "note": "The long hook under फ — hold the vowel clearly." },
+                { "hindi": "दूध", "read_as": "duudh", "english": "milk", "note": "A long vowel in one of the most frequent words you will ever say." }
+              ],
+              "common_error": {
+                "wrong": "दुध",
+                "right": "दूध",
+                "why_en": "The vowel in दूध is long. Shortening it is the single most common English-speaker slip in this word."
+              }
+            },
+            "practice": {
+              "format": "hear_it_pick_letter",
+              "prompt_en": "Listen. Which matra is under the first consonant?",
+              "question": "दूध",
+              "question_read_as": "duudh",
+              "options": ["ु", "ि", "ू", "ी"],
+              "options_read_as": ["u", "i", "uu", "ii"],
+              "answer_index": 2,
+              "explanation_en": "The deeper double hook under द is the long ऊ — duudh."
+            },
+            "game": {
+              "format": "odd_sound_out",
+              "question_en": "Three of these words have the long ऊ sound. Which one does not?",
+              "options": ["सुबह", "फूल", "दूध", "ऊन"],
+              "options_read_as": ["subah", "phuul", "duudh", "uun"],
+              "answer_index": 0,
+              "explanation_en": "सुबह has the short hook ु. The other three all carry the long ऊ."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ऊ", "ऊन", "फूल", "दूध"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added ई, उ and ऊ, and established that vowel length is not a matter of accent — it separates one word from another.",
+        "key_forms": ["नीला", "बुरा", "दूध"],
+        "next_up_en": "Next: ए, ऐ and ओ, whose matras sit above the line and which English speakers tend to add a glide to."
+      }
+    },
+    {
+      "level": 3,
+      "title_en": "Vowels above the line",
+      "title_hi": "ए ऐ ओ",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M01-L03-I1",
+          "type": "letter",
+          "target": "ए",
+          "read_as": "e",
+          "pronunciation_notes": "A steady 'ay' with no glide at the end — not the English 'day', which slides into a y sound.",
+          "gloss_en": "long vowel e",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["vowel", "long_vowel", "matra", "monophthong"],
+          "letter_form": "ए",
+          "matra": "े",
+          "sound_family": "svar",
+          "contrasts_with": ["ऐ"],
+          "example_word": { "hindi": "एक", "read_as": "ek", "english": "one" },
+          "cards": {
+            "learn": {
+              "title_en": "ए — a steady vowel, no glide",
+              "explanation_en": "ए is close to the vowel in English 'bed' but longer and, crucially, flat. English speakers slide 'ay' into a y at the end; Hindi holds the vowel level from start to finish. Its matra े is a single small stroke above the consonant. Adding the glide is the fastest way to sound foreign in an otherwise correct sentence.",
+              "examples": [
+                { "hindi": "एक", "read_as": "ek", "english": "one", "note": "Two letters, one syllable — the final vowel of क drops." },
+                { "hindi": "मेरा", "read_as": "meraa", "english": "my", "note": "The stroke sits above म and the vowel stays flat." },
+                { "hindi": "देश", "read_as": "desh", "english": "country", "note": "Hold the vowel level; do not let it drift towards a y." }
+              ],
+              "common_error": {
+                "wrong": "मैरा",
+                "right": "मेरा",
+                "why_en": "ऐ is a separate, more open vowel. Writing two strokes where one belongs gives a form nobody will read as 'my'."
+              }
+            },
+            "practice": {
+              "format": "hear_it_pick_letter",
+              "prompt_en": "Listen. Which vowel do you hear in the first syllable?",
+              "question": "मेरा",
+              "question_read_as": "meraa",
+              "options": ["ए", "ऐ", "इ", "ई"],
+              "options_read_as": ["e", "ai", "i", "ii"],
+              "answer_index": 0,
+              "explanation_en": "The single stroke above म gives the flat ए. ऐ would open the mouth noticeably wider."
+            },
+            "game": {
+              "format": "odd_sound_out",
+              "question_en": "Three of these words have the ए sound. Which one does not?",
+              "options": ["एक", "पैसा", "मेरा", "देश"],
+              "options_read_as": ["ek", "paisaa", "meraa", "desh"],
+              "answer_index": 1,
+              "explanation_en": "पैसा carries the wider ऐ. The other three have the flat, narrower ए."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ए", "एक", "मेरा", "देश"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M01-L03-I2",
+          "type": "letter",
+          "target": "ऐ",
+          "read_as": "ai",
+          "pronunciation_notes": "In standard Hindi this is a single open vowel close to the a in 'cat' — not the 'eye' diphthong its usual transliteration suggests.",
+          "gloss_en": "open vowel ai",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["vowel", "open_vowel", "matra", "transliteration_trap"],
+          "letter_form": "ऐ",
+          "matra": "ै",
+          "sound_family": "svar",
+          "contrasts_with": ["ए"],
+          "example_word": { "hindi": "पैसा", "read_as": "paisaa", "english": "money" },
+          "cards": {
+            "learn": {
+              "title_en": "ऐ — not 'eye'",
+              "explanation_en": "ऐ is transliterated 'ai', which misleads English speakers into saying 'eye'. In standard spoken Hindi it is one open vowel, close to the a in 'cat'. Its matra ै is a double stroke above the consonant — one stroke more than ए. The word है, the commonest word in the language, is said 'heh', not 'high'.",
+              "examples": [
+                { "hindi": "पैसा", "read_as": "paisaa", "english": "money", "note": "Open ऐ in the first syllable — closer to 'pessa' than to 'pie-sa'." },
+                { "hindi": "है", "read_as": "hai", "english": "is", "note": "You will say this thousands of times. Get the vowel flat and open." },
+                { "hindi": "कैसे", "read_as": "kaise", "english": "how", "note": "Open ऐ then flat ए — neither vowel glides." }
+              ],
+              "common_error": {
+                "wrong": "पेसा",
+                "right": "पैसा",
+                "why_en": "पैसा needs the wider ऐ. The single stroke gives the narrower ए and a different-sounding word."
+              }
+            },
+            "practice": {
+              "format": "hear_it_pick_letter",
+              "prompt_en": "Listen. Which matra is written above the consonant?",
+              "question": "है",
+              "question_read_as": "hai",
+              "options": ["े", "ो", "ौ", "ै"],
+              "options_read_as": ["e", "o", "au", "ai"],
+              "answer_index": 3,
+              "explanation_en": "Two strokes above ह mark ऐ, the open vowel heard in hai."
+            },
+            "game": {
+              "format": "odd_sound_out",
+              "question_en": "Three of these words have the ऐ sound. Which one does not?",
+              "options": ["है", "पैसा", "देश", "कैसे"],
+              "options_read_as": ["hai", "paisaa", "desh", "kaise"],
+              "answer_index": 2,
+              "explanation_en": "देश has the flat ए. The other three carry the more open ऐ."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ऐ", "पैसा", "है", "कैसे"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M01-L03-I3",
+          "type": "letter",
+          "target": "ओ",
+          "read_as": "o",
+          "pronunciation_notes": "A pure long o with no glide — English 'go' ends in a small w sound, and Hindi does not.",
+          "gloss_en": "long vowel o",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["vowel", "long_vowel", "matra", "monophthong"],
+          "letter_form": "ओ",
+          "matra": "ो",
+          "sound_family": "svar",
+          "contrasts_with": ["औ"],
+          "example_word": { "hindi": "ओस", "read_as": "os", "english": "dew" },
+          "cards": {
+            "learn": {
+              "title_en": "ओ — flat, not 'oh-w'",
+              "explanation_en": "ओ is a long o held steady, like the vowel in Scottish 'boat'. English speakers finish the sound with a small w, which marks an accent immediately even when the grammar is perfect. Its matra ो combines the ा stroke with a mark above the line.",
+              "examples": [
+                { "hindi": "ओस", "read_as": "os", "english": "dew", "note": "The full letter at the start of a word." },
+                { "hindi": "सोना", "read_as": "sonaa", "english": "gold; to sleep", "note": "The vowel stays flat all the way through." },
+                { "hindi": "दो", "read_as": "do", "english": "two", "note": "One short word, one steady vowel, no w at the end." }
+              ],
+              "common_error": {
+                "wrong": "दौ",
+                "right": "दो",
+                "why_en": "औ is a separate, more open vowel. दौ is not a word."
+              }
+            },
+            "practice": {
+              "format": "hear_it_pick_letter",
+              "prompt_en": "Listen. Which vowel do you hear in the first syllable?",
+              "question": "सोना",
+              "question_read_as": "sonaa",
+              "options": ["ए", "औ", "ओ", "ऐ"],
+              "options_read_as": ["e", "au", "o", "ai"],
+              "answer_index": 2,
+              "explanation_en": "The matra gives a flat, steady o — sonaa, with no w sound at the end."
+            },
+            "game": {
+              "format": "odd_sound_out",
+              "question_en": "Three of these words have the ओ sound. Which one does not?",
+              "options": ["पैसा", "दो", "सोना", "ओस"],
+              "options_read_as": ["paisaa", "do", "sonaa", "os"],
+              "answer_index": 0,
+              "explanation_en": "पैसा has the open ऐ. The other three all carry the flat ओ."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ओ", "ओस", "सोना", "दो"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered ए, ऐ and ओ and the habit English speakers need to break: Hindi's mid vowels are held flat, without the y or w glide English adds automatically.",
+        "key_forms": ["एक", "है", "दो"],
+        "next_up_en": "Next: औ and ऋ finish the vowel set, and aspiration introduces the first contrast English marks without knowing it."
+      }
+    },
+    {
+      "level": 4,
+      "title_en": "The last vowels, and the puff of air",
+      "title_hi": "औ ऋ और महाप्राण",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M01-L04-I1",
+          "type": "letter",
+          "target": "औ",
+          "read_as": "au",
+          "pronunciation_notes": "A single open vowel closer to the aw of 'law' than to the 'ow' of 'cow'.",
+          "gloss_en": "open vowel au",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["vowel", "open_vowel", "matra", "transliteration_trap"],
+          "letter_form": "औ",
+          "matra": "ौ",
+          "sound_family": "svar",
+          "contrasts_with": ["ओ"],
+          "example_word": { "hindi": "और", "read_as": "aur", "english": "and" },
+          "cards": {
+            "learn": {
+              "title_en": "औ — the open o",
+              "explanation_en": "औ stands to ओ exactly as ऐ stands to ए: same region of the mouth, more open. Transliterated 'au', it tempts English speakers into the 'ow' of 'cow', but standard Hindi keeps it a single vowel nearer the aw of 'law'. Its matra ौ carries two strokes where ो carries one.",
+              "examples": [
+                { "hindi": "और", "read_as": "aur", "english": "and", "note": "One of the most frequent words in the language — worth getting right on day one." },
+                { "hindi": "कौन", "read_as": "kaun", "english": "who", "note": "Open औ, then a plain न." },
+                { "hindi": "नौ", "read_as": "nau", "english": "nine", "note": "Two letters, one open vowel, no glide." }
+              ],
+              "common_error": {
+                "wrong": "कोन",
+                "right": "कौन",
+                "why_en": "कौन needs the open औ. The single-stroke matra gives the narrower ओ."
+              }
+            },
+            "practice": {
+              "format": "hear_it_pick_letter",
+              "prompt_en": "Listen. Which vowel do you hear?",
+              "question": "कौन",
+              "question_read_as": "kaun",
+              "options": ["औ", "ओ", "ऐ", "ए"],
+              "options_read_as": ["au", "o", "ai", "e"],
+              "answer_index": 0,
+              "explanation_en": "Two strokes above क mark औ, the open vowel heard in kaun."
+            },
+            "game": {
+              "format": "odd_sound_out",
+              "question_en": "Three of these words have the औ sound. Which one does not?",
+              "options": ["और", "कौन", "नौ", "दो"],
+              "options_read_as": ["aur", "kaun", "nau", "do"],
+              "answer_index": 3,
+              "explanation_en": "दो has the flat ओ. The other three carry the more open औ."
+            }
+          },
+          "audio": {
+            "tts_strings": ["औ", "और", "कौन", "नौ"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M01-L04-I2",
+          "type": "letter",
+          "target": "ऋ",
+          "read_as": "ri",
+          "pronunciation_notes": "Historically a vocalic r; in modern Hindi it is simply pronounced 'ri'. कृपया is kripayaa, and the final vowel of अमृत drops.",
+          "gloss_en": "vowel pronounced 'ri' in modern Hindi",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["vowel", "sanskrit_vowel", "matra", "loan_vocabulary"],
+          "letter_form": "ऋ",
+          "matra": "ृ",
+          "sound_family": "svar",
+          "contrasts_with": ["र"],
+          "example_word": { "hindi": "ऋतु", "read_as": "ritu", "english": "season" },
+          "cards": {
+            "learn": {
+              "title_en": "ऋ — written as a vowel, said as 'ri'",
+              "explanation_en": "ऋ is counted as a vowel and was once a vocalic r, but modern Hindi speakers simply say 'ri'. You will meet it almost only in words borrowed from Sanskrit. Its matra ृ hooks under the consonant. Do not chase an exotic sound — say कृपया as 'kripayaa' and you are correct; the only real difficulty is spelling, since the sound gives no clue that a vowel rather than र is written.",
+              "examples": [
+                { "hindi": "ऋतु", "read_as": "ritu", "english": "season", "note": "The full letter, used at the start of a word." },
+                { "hindi": "कृपया", "read_as": "kripayaa", "english": "please", "note": "The matra sits under क and the syllable is read 'kri'." },
+                { "hindi": "अमृत", "read_as": "amrit", "english": "nectar", "note": "Read 'mri' in the middle, and the final vowel is not pronounced." }
+              ],
+              "common_error": {
+                "wrong": "रितु",
+                "right": "ऋतु",
+                "why_en": "The sound really is 'ri', but the spelling uses the vowel ऋ, not र with a matra."
+              }
+            },
+            "practice": {
+              "format": "hear_it_pick_letter",
+              "prompt_en": "Listen. Which sign does this word use?",
+              "question": "कृपया",
+              "question_read_as": "kripayaa",
+              "options": ["ु", "ू", "ि", "ृ"],
+              "options_read_as": ["u", "uu", "i", "ri"],
+              "answer_index": 3,
+              "explanation_en": "The hook under क is ऋ, read 'ri' — kripayaa, not kupayaa or kipayaa."
+            },
+            "game": {
+              "format": "odd_sound_out",
+              "question_en": "Three of these words are spelt with ऋ. Which one is not?",
+              "options": ["ऋतु", "रात", "कृपया", "अमृत"],
+              "options_read_as": ["ritu", "raat", "kripayaa", "amrit"],
+              "answer_index": 1,
+              "explanation_en": "रात is written with the consonant र plus a matra. The other three use the vowel ऋ."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ऋ", "ऋतु", "कृपया", "अमृत"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M01-L04-I3",
+          "type": "letter",
+          "target": "क / ख",
+          "read_as": "ka / kha",
+          "pronunciation_notes": "ख is क plus a puff of breath. The English k in 'kite' is already aspirated, so English speakers produce ख when they intend क — the unaspirated one is the harder sound for them.",
+          "gloss_en": "aspirated vs unaspirated stops",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["contrast", "aspiration", "minimal_pair", "consonant"],
+          "letter_form": "क / ख",
+          "matra": null,
+          "sound_family": "ka-varga and pa-varga aspiration",
+          "contrasts_with": ["प / फ"],
+          "example_word": { "hindi": "कोना / खोना", "read_as": "konaa / khonaa", "english": "corner / to lose" },
+          "cards": {
+            "learn": {
+              "title_en": "Aspiration: the puff that changes the word",
+              "explanation_en": "Hindi treats a puff of breath as part of the letter itself. क is said with no breath at all, ख with a clear puff; प has no puff, फ has one. English uses both sounds unconsciously — the k in 'kite' is aspirated, the k in 'skate' is not — so English speakers default to the puffed version and say खोना when they mean कोना. Hold a hand in front of your mouth: क and प should not move it.",
+              "examples": [
+                { "hindi": "कोना", "read_as": "konaa", "english": "corner", "note": "No breath on the first sound — a paper held in front of your mouth stays still." },
+                { "hindi": "खोना", "read_as": "khonaa", "english": "to lose", "note": "Same word shape, one puff of air, completely different meaning." },
+                { "hindi": "पल / फल", "read_as": "pal / phal", "english": "moment / fruit", "note": "The same contrast in the p-family. फ is p with breath, not the English f." }
+              ],
+              "common_error": {
+                "wrong": "खोना",
+                "right": "कोना",
+                "why_en": "Meaning 'corner' but adding English's automatic puff of breath turns the noun into the verb 'to lose'."
+              }
+            },
+            "practice": {
+              "format": "hear_it_pick_letter",
+              "prompt_en": "Listen. Which consonant starts this word?",
+              "question": "फल",
+              "question_read_as": "phal",
+              "options": ["प", "फ", "क", "ख"],
+              "options_read_as": ["pa", "pha", "ka", "kha"],
+              "answer_index": 1,
+              "explanation_en": "There is a clear puff of breath after the p, so it is फ — phal, 'fruit'. Without the puff it would be पल, 'a moment'."
+            },
+            "game": {
+              "format": "odd_sound_out",
+              "question_en": "Three of these words begin with an unaspirated consonant — no puff of air. Which one does not?",
+              "options": ["कोना", "पल", "खोना", "काम"],
+              "options_read_as": ["konaa", "pal", "khonaa", "kaam"],
+              "answer_index": 2,
+              "explanation_en": "खोना begins with ख, which carries the puff. The others begin with क or प, said with no breath at all."
+            }
+          },
+          "audio": {
+            "tts_strings": ["क", "ख", "कोना", "खोना", "पल", "फल"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level finished the vowel set with औ and ऋ, and introduced the first contrast English marks without noticing: aspiration, where a puff of breath is part of the letter and changes the word.",
+        "key_forms": ["और", "कृपया", "कोना / खोना"],
+        "next_up_en": "Next: retroflex against dental, the two nasal marks, and the sound of व — the three contrasts English gives you no habits at all for."
+      }
+    },
+    {
+      "level": 5,
+      "title_en": "Three contrasts English does not mark",
+      "title_hi": "तीन अंतर",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M01-L05-I1",
+          "type": "letter",
+          "target": "ट / त · ड / द",
+          "read_as": "ṭa / ta · ḍa / da",
+          "pronunciation_notes": "Retroflex ट and ड curl the tongue tip back to the roof of the mouth; dental त and द press the tongue flat against the back of the upper teeth. The English t and d sit between the two and are heard by Hindi speakers as retroflex.",
+          "gloss_en": "retroflex vs dental stops",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["contrast", "retroflex", "dental", "minimal_pair"],
+          "letter_form": "ट / त · ड / द",
+          "matra": null,
+          "sound_family": "ṭa-varga and ta-varga",
+          "contrasts_with": ["ण / न"],
+          "example_word": { "hindi": "डाल / दाल", "read_as": "ḍaal / daal", "english": "branch / lentils" },
+          "cards": {
+            "learn": {
+              "title_en": "Retroflex and dental: two t's, two d's",
+              "explanation_en": "Hindi splits what English hears as one t into two letters. For ट the tongue tip curls back and taps the roof of the mouth; for त it presses flat against the back of the upper teeth. The English t lands between them and Hindi ears file it as retroflex, so an English speaker asking for दाल usually produces डाल instead. The same split runs through ड and द, and through ण and न.",
+              "examples": [
+                { "hindi": "दाल", "read_as": "daal", "english": "lentils", "note": "Dental — tongue against the teeth. This is the everyday food word." },
+                { "hindi": "डाल", "read_as": "ḍaal", "english": "branch", "note": "Retroflex — tongue curled back. Order this at dinner and you have asked for a tree branch." },
+                { "hindi": "टमाटर", "read_as": "ṭamaaṭar", "english": "tomato", "note": "Both t sounds here are retroflex, despite what the English spelling suggests." }
+              ],
+              "common_error": {
+                "wrong": "डाल",
+                "right": "दाल",
+                "why_en": "English speakers curl the tongue back by default, which turns the word for lentils into the word for a branch."
+              }
+            },
+            "practice": {
+              "format": "hear_it_pick_letter",
+              "prompt_en": "Listen. Which consonant starts this word?",
+              "question": "दाल",
+              "question_read_as": "daal",
+              "options": ["ट", "त", "ड", "द"],
+              "options_read_as": ["ṭa", "ta", "ḍa", "da"],
+              "answer_index": 3,
+              "explanation_en": "The tongue touches the back of the upper teeth and the sound is voiced, so it is the dental द — daal, 'lentils'."
+            },
+            "game": {
+              "format": "odd_sound_out",
+              "question_en": "Three of these words begin with a retroflex sound. Which one does not?",
+              "options": ["टमाटर", "दाल", "डाल", "टोपी"],
+              "options_read_as": ["ṭamaaṭar", "daal", "ḍaal", "ṭopii"],
+              "answer_index": 1,
+              "explanation_en": "दाल begins with the dental द. The other three start with the tongue curled back to the roof of the mouth."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ट", "त", "ड", "द", "दाल", "डाल", "टमाटर"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M01-L05-I2",
+          "type": "letter",
+          "target": "ं / ँ",
+          "read_as": "ṁ / m̐",
+          "pronunciation_notes": "ं closes the syllable with a real nasal consonant matching whatever follows; ँ nasalises the vowel itself and adds no consonant. हंस is hans, हँस is hãs.",
+          "gloss_en": "anusvara vs chandrabindu",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["contrast", "nasalisation", "anusvara", "chandrabindu", "minimal_pair"],
+          "letter_form": "ं / ँ",
+          "matra": null,
+          "sound_family": "nasal marks",
+          "contrasts_with": ["न", "म"],
+          "example_word": { "hindi": "हंस / हँस", "read_as": "hans / hãs", "english": "swan / laugh!" },
+          "cards": {
+            "learn": {
+              "title_en": "Two dots that are not interchangeable",
+              "explanation_en": "The plain dot ं closes a syllable with a real nasal consonant, chosen to match the sound that follows: हिंदी is 'hindii', अंडा is 'aṇḍaa'. The moon-dot ँ adds no consonant at all — it just sends the vowel through the nose. हंस is a swan; हँस is the command 'laugh'. Learners who treat the two marks as one mark misspell and mishear both words.",
+              "examples": [
+                { "hindi": "हंस", "read_as": "hans", "english": "swan", "note": "The dot closes the syllable with an n before the s." },
+                { "hindi": "हँस", "read_as": "hãs", "english": "laugh (command)", "note": "The vowel hums through the nose and no n is pronounced." },
+                { "hindi": "हिंदी", "read_as": "hindii", "english": "Hindi, the language", "note": "Here the plain dot is read as n because द follows it." }
+              ],
+              "common_error": {
+                "wrong": "हंसना",
+                "right": "हँसना",
+                "why_en": "The verb 'to laugh' takes the moon-dot. The plain dot points at the noun for a swan instead."
+              }
+            },
+            "practice": {
+              "format": "hear_it_pick_letter",
+              "prompt_en": "Listen. Which mark does this word need?",
+              "question": "हँस",
+              "question_read_as": "hãs",
+              "options": ["ँ", "ं", "ः", "ृ"],
+              "options_read_as": ["m̐", "ṁ", "ḥ", "ri"],
+              "answer_index": 0,
+              "explanation_en": "Nothing is pronounced after the vowel — the vowel itself hums — so this is the moon-dot ँ."
+            },
+            "game": {
+              "format": "odd_sound_out",
+              "question_en": "In three of these words the nasal mark is pronounced as a full consonant. In which one is only the vowel nasalised?",
+              "options": ["हंस", "हिंदी", "अंडा", "हँसना"],
+              "options_read_as": ["hans", "hindii", "aṇḍaa", "hãsnaa"],
+              "answer_index": 3,
+              "explanation_en": "हँसना carries the moon-dot, so no n is heard. The other three use the plain dot, which closes the syllable with n or ṇ."
+            }
+          },
+          "audio": {
+            "tts_strings": ["हंस", "हँस", "हिंदी", "हँसना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M01-L05-I3",
+          "type": "letter",
+          "target": "व / ब",
+          "read_as": "va / ba",
+          "pronunciation_notes": "For व the lower lip approaches the upper teeth without pressing — lighter than an English v, firmer than a w. Its exact colour varies by word and speaker and both are accepted; ब, by contrast, closes the lips completely.",
+          "gloss_en": "the sound व — between English v and w — against ब",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["contrast", "semivowel", "approximant", "minimal_pair"],
+          "letter_form": "व / ब",
+          "matra": null,
+          "sound_family": "antahstha (semivowels)",
+          "contrasts_with": ["ब"],
+          "example_word": { "hindi": "वार / बार", "read_as": "vaar / baar", "english": "a blow / a time, an occasion" },
+          "cards": {
+            "learn": {
+              "title_en": "व — neither v nor w",
+              "explanation_en": "English has two separate sounds, v and w, and swapping them changes words: 'vet' and 'wet'. Hindi has one sound sitting between them — the lower lip comes close to the upper teeth but does not press. That means you cannot get it wrong by choosing between v and w; Hindi speakers hear no difference. What does go wrong is pressing too hard, because a firm English v drifts towards ब, which is a different letter and a different word.",
+              "examples": [
+                { "hindi": "वह", "read_as": "vah", "english": "he, she, that", "note": "Written this way, but usually said 'vo' in everyday speech." },
+                { "hindi": "वार", "read_as": "vaar", "english": "a blow, a strike", "note": "Light contact between lip and teeth — the lips never meet." },
+                { "hindi": "बार", "read_as": "baar", "english": "a time, an occasion", "note": "Full lip closure. Same word shape, different letter, different meaning." }
+              ],
+              "common_error": {
+                "wrong": "बापस",
+                "right": "वापस",
+                "why_en": "Closing the lips fully turns व into ब. वापस, 'back', keeps the lips apart."
+              }
+            },
+            "practice": {
+              "format": "hear_it_pick_letter",
+              "prompt_en": "Listen. Which consonant starts this word?",
+              "question": "वापस",
+              "question_read_as": "vaapas",
+              "options": ["ब", "भ", "व", "प"],
+              "options_read_as": ["ba", "bha", "va", "pa"],
+              "answer_index": 2,
+              "explanation_en": "The lips never close — the lower lip only approaches the teeth — so this is व, not ब."
+            },
+            "game": {
+              "format": "odd_sound_out",
+              "question_en": "Three of these words begin with व. Which one does not?",
+              "options": ["बार", "वापस", "वार", "वह"],
+              "options_read_as": ["baar", "vaapas", "vaar", "vah"],
+              "answer_index": 0,
+              "explanation_en": "बार closes the lips completely for ब. The other three use the lighter व, with the lips apart."
+            }
+          },
+          "audio": {
+            "tts_strings": ["व", "ब", "वार", "बार", "वापस", "वह"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered the three contrasts English gives no habits for: retroflex against dental, the plain dot against the moon-dot, and the single Hindi sound व that sits between English v and w.",
+        "key_forms": ["दाल / डाल", "हंस / हँस", "वापस"],
+        "next_up_en": "Module 2 begins the consonants proper, family by family, starting with the क-family and the aspiration drill introduced here."
+      }
+    }
+  ]
+}

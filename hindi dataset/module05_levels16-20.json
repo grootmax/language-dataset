@@ -1,0 +1,816 @@
+{
+  "module": 5,
+  "module_name_en": "First Sentences",
+  "module_name_hi": "पहला वाक्य",
+  "phase": 2,
+  "batch": { "levels_from": 16, "levels_to": 20 },
+  "levels": [
+    {
+      "level": 16,
+      "title_en": "Adjectives that do and do not change",
+      "title_hi": "बदलते और अटल विशेषण",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L16-I1",
+          "type": "grammar",
+          "target": "साफ़ घर",
+          "read_as": "saaf ghar",
+          "pronunciation_notes": "The dotted फ़ is an f sound, and साफ़ never takes an ending, so the phrase is two clean syllables.",
+          "gloss_en": "adjectives that never change",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["adjective", "invariable", "agreement", "no_change"],
+          "cards": {
+            "learn": {
+              "title_en": "The adjectives that never move",
+              "explanation_en": "Only adjectives ending in -ा take three forms. Everything else is fixed: साफ़, गरम, सुंदर, खाली, भारी, लाल, सफ़ेद, नारंगी — none of them ever changes, whatever noun it describes. That is roughly half the adjectives from Module 4, so the agreement problem is a good deal smaller than it first looks. The test is one question long: does it end in -ा? If not, leave it alone.",
+              "examples": [
+                { "hindi": "साफ़ घर", "read_as": "saaf ghar", "english": "a clean house", "note": "Masculine noun, and साफ़ is unchanged." },
+                { "hindi": "साफ़ किताब", "read_as": "saaf kitaab", "english": "a clean book", "note": "Feminine noun, and still unchanged." },
+                { "hindi": "गरम चाय", "read_as": "garam chaay", "english": "hot tea", "note": "Another fixed adjective, and another feminine noun." }
+              ],
+              "common_error": {
+                "wrong": "साफ़ी किताब",
+                "right": "साफ़ किताब",
+                "why_en": "साफ़ does not end in -ा, so it has no feminine form to take."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the phrase.",
+              "question": "___ किताब",
+              "question_read_as": "___ kitaab",
+              "options": ["साफ़ा", "साफ़ी", "साफ़", "साफ़े"],
+              "options_read_as": ["saafaa", "saafii", "saaf", "saafe"],
+              "answer_index": 2,
+              "explanation_en": "साफ़ never changes, so the feminine noun makes no difference to it."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which phrase is correct?",
+              "options": ["साफ़ किताब", "साफ़ी किताब", "साफ़ा किताब", "साफ़े किताब"],
+              "options_read_as": ["saaf kitaab", "saafii kitaab", "saafaa kitaab", "saafe kitaab"],
+              "answer_index": 0,
+              "explanation_en": "साफ़ has only one form, so any ending added to it is wrong."
+            }
+          },
+          "audio": {
+            "tts_strings": ["साफ़ घर", "साफ़ किताब", "गरम चाय"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L16-I2",
+          "type": "grammar",
+          "target": "नई किताब",
+          "read_as": "naii kitaab",
+          "pronunciation_notes": "नई is two short syllables with no य sounded between them: na-ii.",
+          "gloss_en": "the irregular adjective नया",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["adjective", "irregular", "agreement", "inflecting"],
+          "cards": {
+            "learn": {
+              "title_en": "नया — the one that breaks the pattern",
+              "explanation_en": "नया means new, and it is the one adjective in common use whose forms are not what the pattern predicts. Where बड़ा gives बड़ी and बड़े, नया gives नई and नए — the य disappears entirely rather than staying put and taking an ending. The regularised नयी and नये do turn up in older writing, but नई and नए are the forms to learn and use.",
+              "examples": [
+                { "hindi": "नई किताब", "read_as": "naii kitaab", "english": "a new book", "note": "The य drops in the feminine." },
+                { "hindi": "नए जूते", "read_as": "nae juute", "english": "new shoes", "note": "And in the masculine plural as well." },
+                { "hindi": "नया घर", "read_as": "nayaa ghar", "english": "a new house", "note": "Only the masculine singular keeps the य." }
+              ],
+              "common_error": {
+                "wrong": "नयी किताब",
+                "right": "नई किताब",
+                "why_en": "The regular pattern would give नयी, but this adjective is irregular and the standard feminine is नई."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the phrase.",
+              "question": "___ किताब",
+              "question_read_as": "___ kitaab",
+              "options": ["नई", "नयी", "नया", "नए"],
+              "options_read_as": ["naii", "nayii", "nayaa", "nae"],
+              "answer_index": 0,
+              "explanation_en": "किताब is feminine, and this adjective's irregular feminine is नई."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which phrase is correct?",
+              "options": ["नया किताब", "नए किताब", "नई किताब", "नयी किताब"],
+              "options_read_as": ["nayaa kitaab", "nae kitaab", "naii kitaab", "nayii kitaab"],
+              "answer_index": 2,
+              "explanation_en": "किताब is feminine and singular, and the standard form is नई rather than the regular-looking नयी."
+            }
+          },
+          "audio": {
+            "tts_strings": ["नई किताब", "नए जूते", "नया घर"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L16-I3",
+          "type": "grammar",
+          "target": "बड़ा साफ़ घर",
+          "read_as": "baṛaa saaf ghar",
+          "pronunciation_notes": "Three words, and only the first carries an agreement ending: baṛaa saaf ghar.",
+          "gloss_en": "two adjectives before one noun",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["adjective", "agreement", "stacking", "invariable", "inflecting"],
+          "cards": {
+            "learn": {
+              "title_en": "More than one adjective",
+              "explanation_en": "Adjectives stack up before the noun in Hindi as they do in English, and each one agrees on its own terms. In बड़ा साफ़ घर the first agrees because it ends in -ा, and the second does not because it does not. Nothing coordinates them — each simply looks at the noun and does whatever its own ending requires, which means a phrase can easily have one changing word and one fixed one side by side.",
+              "examples": [
+                { "hindi": "बड़ा साफ़ घर", "read_as": "baṛaa saaf ghar", "english": "a big clean house", "note": "One adjective agrees, the other does not." },
+                { "hindi": "बड़ी साफ़ किताब", "read_as": "baṛii saaf kitaab", "english": "a big clean book", "note": "The first changes for the feminine; the second stays put." },
+                { "hindi": "छोटे गरम कमरे", "read_as": "chhoṭe garam kamre", "english": "small warm rooms", "note": "Masculine plural, and गरम still does not move." }
+              ],
+              "common_error": {
+                "wrong": "बड़ी साफ़ी किताब",
+                "right": "बड़ी साफ़ किताब",
+                "why_en": "बड़ा agrees because it ends in -ा; साफ़ does not, so adding an ending to it is wrong."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the phrase.",
+              "question": "बड़ी ___ किताब",
+              "question_read_as": "baṛii ___ kitaab",
+              "options": ["साफ़ी", "साफ़ा", "साफ़े", "साफ़"],
+              "options_read_as": ["saafii", "saafaa", "saafe", "saaf"],
+              "answer_index": 3,
+              "explanation_en": "बड़ी has already agreed with किताब. साफ़ has no forms at all, so it stays as it is."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which phrase is correct?",
+              "options": ["बड़ी साफ़ी किताब", "बड़ी साफ़ किताब", "बड़ा साफ़ किताब", "बड़ी साफ़े किताब"],
+              "options_read_as": ["baṛii saafii kitaab", "baṛii saaf kitaab", "baṛaa saaf kitaab", "baṛii saafe kitaab"],
+              "answer_index": 1,
+              "explanation_en": "Only बड़ा has forms to choose between, and किताब is feminine, so it takes बड़ी."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बड़ा साफ़ घर", "बड़ी साफ़ किताब", "छोटे गरम कमरे"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level split the adjectives into two groups. Those ending in -ा take three forms, everything else takes one, and नया is the single irregular case. Two adjectives before one noun each behave independently.",
+        "key_forms": ["साफ़ किताब", "नई किताब", "बड़ी साफ़ किताब"],
+        "next_up_en": "Next: where adjectives sit in a sentence, and agreement across a whole clause."
+      }
+    },
+    {
+      "level": 17,
+      "title_en": "Agreement across a sentence",
+      "title_hi": "पूरे वाक्य में मेल",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L17-I1",
+          "type": "grammar",
+          "target": "घर अच्छा है",
+          "read_as": "ghar achchhaa hai",
+          "pronunciation_notes": "Three words with the verb last and unstressed, as it always is: ghar achchhaa hai.",
+          "gloss_en": "an adjective after the noun, before the verb",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["adjective", "position", "predicate", "attributive", "word_order"],
+          "cards": {
+            "learn": {
+              "title_en": "Two places an adjective can sit",
+              "explanation_en": "An adjective can sit directly before its noun — अच्छा घर, a good house — or it can sit after the noun and before the verb, where it makes a claim: घर अच्छा है, the house is good. The agreement is identical in both positions, so nothing new has to be learned. What changes is the job: the first names a thing, the second says something about it.",
+              "examples": [
+                { "hindi": "अच्छा घर", "read_as": "achchhaa ghar", "english": "a good house", "note": "Naming a thing." },
+                { "hindi": "घर अच्छा है।", "read_as": "ghar achchhaa hai.", "english": "The house is good.", "note": "Making a claim about it." },
+                { "hindi": "अच्छा घर बड़ा है।", "read_as": "achchhaa ghar baṛaa hai.", "english": "The good house is big.", "note": "Both positions inside one sentence." }
+              ],
+              "common_error": {
+                "wrong": "घर अच्छी है।",
+                "right": "घर अच्छा है।",
+                "why_en": "घर is masculine, so the adjective takes -ा wherever in the sentence it sits."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "घर ___ है।",
+              "question_read_as": "ghar ___ hai.",
+              "options": ["अच्छी", "अच्छा", "अच्छे", "अच्छ"],
+              "options_read_as": ["achchhii", "achchhaa", "achchhe", "achchh"],
+              "answer_index": 1,
+              "explanation_en": "घर is masculine and singular, so the adjective is अच्छा in this position too."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["घर अच्छी है।", "घर अच्छे है।", "घर अच्छ है।", "घर अच्छा है।"],
+              "options_read_as": ["ghar achchhii hai.", "ghar achchhe hai.", "ghar achchh hai.", "ghar achchhaa hai."],
+              "answer_index": 3,
+              "explanation_en": "घर is masculine singular, so the adjective takes -ा and the verb stays है."
+            }
+          },
+          "audio": {
+            "tts_strings": ["अच्छा घर", "घर अच्छा है।", "अच्छा घर बड़ा है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L17-I2",
+          "type": "grammar",
+          "target": "ये बड़े घर हैं",
+          "read_as": "ye baṛe ghar haiṁ",
+          "pronunciation_notes": "Four words, three of them carrying plural marking, and घर unchanged in the middle.",
+          "gloss_en": "the full agreement chain",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["agreement", "chain", "demonstrative", "adjective", "verb", "plural"],
+          "cards": {
+            "learn": {
+              "title_en": "Everything agreeing at once",
+              "explanation_en": "A full sentence can carry agreement in four places: the demonstrative, the noun, the adjective and the verb. ये बड़े घर हैं marks the plural on three of them, since घर itself does not change — and getting any one of them wrong makes the whole sentence wrong. The reliable way to build these is from the noun outwards: settle the noun and its number first, then let everything else follow from it.",
+              "examples": [
+                { "hindi": "ये बड़े घर हैं।", "read_as": "ye baṛe ghar haiṁ.", "english": "These are big houses.", "note": "Three plural markers, with घर unchanged between them." },
+                { "hindi": "यह बड़ा घर है।", "read_as": "yah baṛaa ghar hai.", "english": "This is a big house.", "note": "The same sentence in the singular." },
+                { "hindi": "ये अच्छी किताबें हैं।", "read_as": "ye achchhii kitaabeṁ haiṁ.", "english": "These are good books.", "note": "Feminine, so the adjective does not change even in the plural." }
+              ],
+              "common_error": {
+                "wrong": "ये बड़ा घर हैं।",
+                "right": "ये बड़े घर हैं।",
+                "why_en": "The demonstrative and the verb are plural, so the adjective has to be plural too."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "ये ___ घर हैं।",
+              "question_read_as": "ye ___ ghar haiṁ.",
+              "options": ["बड़ा", "बड़ी", "बड़े", "बड़"],
+              "options_read_as": ["baṛaa", "baṛii", "baṛe", "baṛ"],
+              "answer_index": 2,
+              "explanation_en": "ये and हैं are both plural, so the adjective must take -े as well."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["ये बड़े घर हैं।", "ये बड़ा घर हैं।", "यह बड़े घर हैं।", "ये बड़े घर है।"],
+              "options_read_as": ["ye baṛe ghar haiṁ.", "ye baṛaa ghar haiṁ.", "yah baṛe ghar haiṁ.", "ye baṛe ghar hai."],
+              "answer_index": 0,
+              "explanation_en": "Only one option keeps the demonstrative, the adjective and the verb all plural at the same time."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ये बड़े घर हैं।", "यह बड़ा घर है।", "ये अच्छी किताबें हैं।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L17-I3",
+          "type": "grammar",
+          "target": "चाय ठंडी थी",
+          "read_as": "chaay ṭhaṇḍii thii",
+          "pronunciation_notes": "Both ठंडी and थी end in the same long ii, which makes the agreement audible as a rhyme.",
+          "gloss_en": "agreement when the verb is past",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["agreement", "past", "adjective", "verb", "gender"],
+          "cards": {
+            "learn": {
+              "title_en": "Agreement when the verb is past",
+              "explanation_en": "In the present the verb agrees with person and ignores gender entirely, so an adjective can be feminine while the verb looks exactly as it always does. In the past both agree, and both agree with the same noun. चाय ठंडी थी carries two feminine markers doing the same job, one after the other. That is why a wrong gender in the past costs two errors rather than one, and why it is so audible.",
+              "examples": [
+                { "hindi": "चाय ठंडी थी।", "read_as": "chaay ṭhaṇḍii thii.", "english": "The tea was cold.", "note": "Adjective and verb both feminine, and both rhyming." },
+                { "hindi": "दूध ठंडा था।", "read_as": "duudh ṭhaṇḍaa thaa.", "english": "The milk was cold.", "note": "The same structure, both masculine." },
+                { "hindi": "किताबें अच्छी थीं।", "read_as": "kitaabeṁ achchhii thiiṁ.", "english": "The books were good.", "note": "Feminine plural — only the verb shows the number." }
+              ],
+              "common_error": {
+                "wrong": "चाय ठंडा थी।",
+                "right": "चाय ठंडी थी।",
+                "why_en": "Both the adjective and the verb agree with चाय, so both have to be feminine."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "चाय ठंडी ___।",
+              "question_read_as": "chaay ṭhaṇḍii ___.",
+              "options": ["थी", "था", "थे", "थीं"],
+              "options_read_as": ["thii", "thaa", "the", "thiiṁ"],
+              "answer_index": 0,
+              "explanation_en": "चाय is feminine and singular, so the past form is थी."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["चाय ठंडा थी।", "चाय ठंडी था।", "चाय ठंडी थी।", "चाय ठंडा था।"],
+              "options_read_as": ["chaay ṭhaṇḍaa thii.", "chaay ṭhaṇḍii thaa.", "chaay ṭhaṇḍii thii.", "chaay ṭhaṇḍaa thaa."],
+              "answer_index": 2,
+              "explanation_en": "Both words have to be feminine. Two of these get one right and the other wrong, which is the commonest slip."
+            }
+          },
+          "audio": {
+            "tts_strings": ["चाय ठंडी थी।", "दूध ठंडा था।", "किताबें अच्छी थीं।"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level took agreement across the whole sentence. An adjective behaves the same before its noun as after it, a plural sentence can carry three or four plural markers, and in the past the adjective and the verb agree together.",
+        "key_forms": ["घर अच्छा है।", "ये बड़े घर हैं।", "चाय ठंडी थी।"],
+        "next_up_en": "Next: postpositions, and sentences that finally get longer than three words."
+      }
+    },
+    {
+      "level": 18,
+      "title_en": "में, पर, से",
+      "title_hi": "परसर्ग — पहला भाग",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L18-I1",
+          "type": "grammar",
+          "target": "में",
+          "read_as": "meṁ",
+          "pronunciation_notes": "The dot nasalises the vowel, so में is a single hummed syllable with no n sounded.",
+          "gloss_en": "in, inside",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["postposition", "location", "word_order", "invariable"],
+          "cards": {
+            "learn": {
+              "title_en": "में — in",
+              "explanation_en": "Hindi puts its little location words after the noun rather than before it. English says 'in the house'; Hindi says घर में, house-in. Words like this are called postpositions, and they are the biggest change to sentence shape you have met so far. में means in or inside, and it never changes form itself — a relief after the last two levels.",
+              "examples": [
+                { "hindi": "घर में", "read_as": "ghar meṁ", "english": "in the house", "note": "The postposition follows the noun." },
+                { "hindi": "किताब में", "read_as": "kitaab meṁ", "english": "in the book", "note": "The same order with a feminine noun." },
+                { "hindi": "चाय में चीनी है।", "read_as": "chaay meṁ chiinii hai.", "english": "There is sugar in the tea.", "note": "A full sentence, and the verb is still last." }
+              ],
+              "common_error": {
+                "wrong": "में घर",
+                "right": "घर में",
+                "why_en": "Postpositions come after the noun in Hindi, never before it."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "चाय ___ चीनी है।",
+              "question_read_as": "chaay ___ chiinii hai.",
+              "options": ["पर", "में", "से", "को"],
+              "options_read_as": ["par", "meṁ", "se", "ko"],
+              "answer_index": 1,
+              "explanation_en": "The sugar is inside the tea, so the postposition is में."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which phrase means 'in the house'?",
+              "options": ["में घर", "घर पर", "पर घर", "घर में"],
+              "options_read_as": ["meṁ ghar", "ghar par", "par ghar", "ghar meṁ"],
+              "answer_index": 3,
+              "explanation_en": "The postposition follows the noun, and में means inside. घर पर would mean 'at home'."
+            }
+          },
+          "audio": {
+            "tts_strings": ["घर में", "किताब में", "चाय में चीनी है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L18-I2",
+          "type": "grammar",
+          "target": "पर",
+          "read_as": "par",
+          "pronunciation_notes": "A single tap for र and the final vowel drops: par, one syllable.",
+          "gloss_en": "on, at",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["postposition", "location", "invariable"],
+          "cards": {
+            "learn": {
+              "title_en": "पर — on",
+              "explanation_en": "पर means on, and also at when you mean stationed somewhere rather than inside it: मेज़ पर is on the table, घर पर is at home. It follows the noun like every postposition and never changes. One thing to note for later: पर is also a conjunction meaning 'but'. Position separates them — the conjunction sits between clauses, while the postposition sits right after a noun.",
+              "examples": [
+                { "hindi": "मेज़ पर", "read_as": "mez par", "english": "on the table", "note": "The postposition follows the noun." },
+                { "hindi": "घर पर", "read_as": "ghar par", "english": "at home", "note": "पर rather than में when you mean 'at' rather than 'inside'." },
+                { "hindi": "मेज़ पर किताब है।", "read_as": "mez par kitaab hai.", "english": "There is a book on the table.", "note": "The verb still comes last." }
+              ],
+              "common_error": {
+                "wrong": "मेज़ में किताब है।",
+                "right": "मेज़ पर किताब है।",
+                "why_en": "में means inside. A book resting on a table needs पर."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "मेज़ ___ किताब है।",
+              "question_read_as": "mez ___ kitaab hai.",
+              "options": ["में", "से", "को", "पर"],
+              "options_read_as": ["meṁ", "se", "ko", "par"],
+              "answer_index": 3,
+              "explanation_en": "The book is resting on the table, so the postposition is पर."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["मेज़ में किताब है।", "मेज़ पर किताब है।", "पर मेज़ किताब है।", "मेज़ को किताब है।"],
+              "options_read_as": ["mez meṁ kitaab hai.", "mez par kitaab hai.", "par mez kitaab hai.", "mez ko kitaab hai."],
+              "answer_index": 1,
+              "explanation_en": "पर is the right postposition for something resting on a surface, and it follows the noun."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मेज़ पर", "घर पर", "मेज़ पर किताब है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L18-I3",
+          "type": "grammar",
+          "target": "से",
+          "read_as": "se",
+          "pronunciation_notes": "A flat ए with no glide: se, one syllable, and identical in sound to the से of कौन से.",
+          "gloss_en": "from, with, by",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["postposition", "source", "instrument", "invariable", "homograph"],
+          "cards": {
+            "learn": {
+              "title_en": "से — from, and with",
+              "explanation_en": "से covers a good deal of ground: from a place, with an instrument, by a means. घर से is from the house; हाथ से is by hand. You have already met this shape once, in कौन से — but that से is the plural of सा and has nothing whatever to do with this one. They are separate words that happen to be spelled alike, and only what surrounds them tells you which is which.",
+              "examples": [
+                { "hindi": "घर से", "read_as": "ghar se", "english": "from the house", "note": "Movement away, or origin." },
+                { "hindi": "हाथ से", "read_as": "haath se", "english": "by hand", "note": "The same word marking an instrument instead." },
+                { "hindi": "वह स्कूल से है।", "read_as": "vah skuul se hai.", "english": "He is from the school.", "note": "A full sentence, with the verb still at the end." }
+              ],
+              "common_error": {
+                "wrong": "वह स्कूल से हैं।",
+                "right": "वह स्कूल से है।",
+                "why_en": "वह is singular, so the verb is है. A postposition does not change the agreement."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "वह स्कूल ___ है।",
+              "question_read_as": "vah skuul ___ hai.",
+              "options": ["से", "में", "पर", "को"],
+              "options_read_as": ["se", "meṁ", "par", "ko"],
+              "answer_index": 0,
+              "explanation_en": "से marks where someone or something comes from."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence means 'He is from the school'?",
+              "options": ["वह स्कूल से हैं।", "स्कूल से वह हैं।", "वह स्कूल से है।", "वह स्कूल का है।"],
+              "options_read_as": ["vah skuul se haiṁ.", "skuul se vah haiṁ.", "vah skuul se hai.", "vah skuul kaa hai."],
+              "answer_index": 2,
+              "explanation_en": "वह is singular so the verb is है, and से marks origin. वह स्कूल का है would mean it belongs to the school."
+            }
+          },
+          "audio": {
+            "tts_strings": ["घर से", "हाथ से", "वह स्कूल से है।"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level introduced postpositions — the little words that come after the noun instead of before it. में, पर and से never change form, and the verb still stays at the end of the sentence.",
+        "key_forms": ["घर में", "मेज़ पर", "घर से"],
+        "next_up_en": "Next: को, तक, and the one postposition that does change form."
+      }
+    },
+    {
+      "level": 19,
+      "title_en": "को, तक, का",
+      "title_hi": "परसर्ग — दूसरा भाग",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L19-I1",
+          "type": "grammar",
+          "target": "को",
+          "read_as": "ko",
+          "pronunciation_notes": "A flat ओ with no glide: ko, one syllable and unstressed.",
+          "gloss_en": "to; and a marker for definite objects",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["postposition", "destination", "object_marker", "invariable"],
+          "cards": {
+            "learn": {
+              "title_en": "को — to",
+              "explanation_en": "को marks a destination, and it also marks a person or definite thing that something is done to. That second use becomes important much later, when it changes how verbs agree. For now, treat it as 'to'. One warning worth having early: को is the postposition that most often forces a noun into a second form, which is what the whole next module is about — so the examples here stick to nouns that stay the same.",
+              "examples": [
+                { "hindi": "राम को", "read_as": "raam ko", "english": "to Ram", "note": "A person as the destination." },
+                { "hindi": "घर को", "read_as": "ghar ko", "english": "to the house", "note": "घर is unchanged before को." },
+                { "hindi": "बाज़ार को", "read_as": "baazaar ko", "english": "to the market", "note": "So is बाज़ार." }
+              ],
+              "common_error": {
+                "wrong": "को घर",
+                "right": "घर को",
+                "why_en": "को follows the noun, like every other postposition."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the phrase meaning 'to the market'.",
+              "question": "बाज़ार ___",
+              "question_read_as": "baazaar ___",
+              "options": ["में", "पर", "को", "से"],
+              "options_read_as": ["meṁ", "par", "ko", "se"],
+              "answer_index": 2,
+              "explanation_en": "को marks the destination. में would mean inside the market instead."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which phrase means 'to Ram'?",
+              "options": ["राम को", "को राम", "राम से", "राम में"],
+              "options_read_as": ["raam ko", "ko raam", "raam se", "raam meṁ"],
+              "answer_index": 0,
+              "explanation_en": "को follows the noun and marks the destination. से would mean 'from Ram'."
+            }
+          },
+          "audio": {
+            "tts_strings": ["राम को", "घर को", "बाज़ार को"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L19-I2",
+          "type": "grammar",
+          "target": "तक",
+          "read_as": "tak",
+          "pronunciation_notes": "A dental त with the tongue on the teeth, and the final vowel drops: tak.",
+          "gloss_en": "up to, until",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["postposition", "limit", "time", "invariable"],
+          "cards": {
+            "learn": {
+              "title_en": "तक — as far as, until",
+              "explanation_en": "तक marks a limit, in space or in time: घर तक is as far as the house, रात तक is until night. It pairs naturally with से, which marks the starting point, and the two together cover most of what you need for describing stretches — सुबह से रात तक, from morning until night. Neither one changes form.",
+              "examples": [
+                { "hindi": "घर तक", "read_as": "ghar tak", "english": "as far as the house", "note": "A limit in space." },
+                { "hindi": "रात तक", "read_as": "raat tak", "english": "until night", "note": "A limit in time." },
+                { "hindi": "सुबह से रात तक", "read_as": "subah se raat tak", "english": "from morning until night", "note": "से for the start, तक for the end." }
+              ],
+              "common_error": {
+                "wrong": "तक रात",
+                "right": "रात तक",
+                "why_en": "तक follows the noun it limits, like every postposition."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the phrase meaning 'until night'.",
+              "question": "रात ___",
+              "question_read_as": "raat ___",
+              "options": ["में", "से", "पर", "तक"],
+              "options_read_as": ["meṁ", "se", "par", "tak"],
+              "answer_index": 3,
+              "explanation_en": "तक marks the end point. रात से would mean 'from night' instead."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which phrase means 'from morning until night'?",
+              "options": ["सुबह तक रात से", "सुबह से रात तक", "रात से सुबह तक", "सुबह में रात तक"],
+              "options_read_as": ["subah tak raat se", "subah se raat tak", "raat se subah tak", "subah meṁ raat tak"],
+              "answer_index": 1,
+              "explanation_en": "से marks the start and तक the end, and each follows its own noun."
+            }
+          },
+          "audio": {
+            "tts_strings": ["घर तक", "रात तक", "सुबह से रात तक"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L19-I3",
+          "type": "grammar",
+          "target": "का",
+          "read_as": "kaa",
+          "pronunciation_notes": "One long syllable and unstressed, so in speech it leans onto the word before it: kaa.",
+          "gloss_en": "of — and the postposition that agrees",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["postposition", "possession", "agreement", "inflecting"],
+          "cards": {
+            "learn": {
+              "title_en": "का — of, and the one that agrees",
+              "explanation_en": "का marks possession, and it is the odd one out among postpositions. While में, पर, से, को and तक never change, का takes three forms — का, के, की. And it agrees not with the owner but with the thing owned. राम का घर takes का because घर is masculine; राम की किताब takes की because किताब is feminine. Whose it is makes no difference at all, which is exactly the trap English speakers fall into.",
+              "examples": [
+                { "hindi": "राम का घर", "read_as": "raam kaa ghar", "english": "Ram's house", "note": "घर is masculine, so का." },
+                { "hindi": "राम की किताब", "read_as": "raam kii kitaab", "english": "Ram's book", "note": "किताब is feminine, so की — even though Ram is not." },
+                { "hindi": "राम के जूते", "read_as": "raam ke juute", "english": "Ram's shoes", "note": "Masculine plural, so के." }
+              ],
+              "common_error": {
+                "wrong": "राम का किताब",
+                "right": "राम की किताब",
+                "why_en": "का agrees with the thing owned, and किताब is feminine. The owner's gender is irrelevant."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the phrase.",
+              "question": "राम ___ किताब",
+              "question_read_as": "raam ___ kitaab",
+              "options": ["का", "की", "के", "को"],
+              "options_read_as": ["kaa", "kii", "ke", "ko"],
+              "answer_index": 1,
+              "explanation_en": "किताब is feminine, so का takes its feminine form की."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which phrase is correct?",
+              "options": ["राम का किताब", "राम के किताब", "राम को किताब", "राम की किताब"],
+              "options_read_as": ["raam kaa kitaab", "raam ke kitaab", "raam ko kitaab", "raam kii kitaab"],
+              "answer_index": 3,
+              "explanation_en": "का agrees with किताब, which is feminine, and not with राम."
+            }
+          },
+          "audio": {
+            "tts_strings": ["राम का घर", "राम की किताब", "राम के जूते"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added को, तक and का. The first two never change, but का takes three forms and agrees with the thing owned rather than with the owner — which is where Module 4's genders start paying for themselves.",
+        "key_forms": ["राम को", "रात तक", "राम की किताब"],
+        "next_up_en": "Next: the compound postpositions built on के, including the way Hindi says 'have'."
+      }
+    },
+    {
+      "level": 20,
+      "title_en": "The compound postpositions",
+      "title_hi": "के लिए, के पास, के साथ",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M05-L20-I1",
+          "type": "grammar",
+          "target": "के लिए",
+          "read_as": "ke lie",
+          "pronunciation_notes": "Two short unstressed words, and लिए is said 'lie' in two quick syllables.",
+          "gloss_en": "for",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["postposition", "compound", "purpose", "frozen_form"],
+          "cards": {
+            "learn": {
+              "title_en": "के लिए — for",
+              "explanation_en": "Some postpositions are built from का plus another word, and के लिए is the commonest of them: it means 'for'. The का part is frozen in its के form here and does not agree with anything at all — that is the whole point of these compounds. Once you learn to spot the के at the front, the rest of the group becomes recognisable on sight.",
+              "examples": [
+                { "hindi": "राम के लिए", "read_as": "raam ke lie", "english": "for Ram", "note": "The के does not agree with anything." },
+                { "hindi": "घर के लिए", "read_as": "ghar ke lie", "english": "for the house", "note": "The same frozen form before a masculine noun." },
+                { "hindi": "किताब के लिए", "read_as": "kitaab ke lie", "english": "for the book", "note": "Feminine noun, and still के." }
+              ],
+              "common_error": {
+                "wrong": "किताब की लिए",
+                "right": "किताब के लिए",
+                "why_en": "In के लिए the के is fixed and does not agree with the noun before it."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the phrase.",
+              "question": "किताब ___ लिए",
+              "question_read_as": "kitaab ___ lie",
+              "options": ["का", "की", "के", "को"],
+              "options_read_as": ["kaa", "kii", "ke", "ko"],
+              "answer_index": 2,
+              "explanation_en": "In this compound the के never changes, whatever noun comes before it."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which phrase is correct?",
+              "options": ["किताब के लिए", "किताब की लिए", "किताब का लिए", "किताब को लिए"],
+              "options_read_as": ["kitaab ke lie", "kitaab kii lie", "kitaab kaa lie", "kitaab ko lie"],
+              "answer_index": 0,
+              "explanation_en": "के लिए is a fixed pair. Unlike plain का, it does not agree with anything."
+            }
+          },
+          "audio": {
+            "tts_strings": ["राम के लिए", "घर के लिए", "किताब के लिए"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L20-I2",
+          "type": "grammar",
+          "target": "के पास",
+          "read_as": "ke paas",
+          "pronunciation_notes": "पास has a long aa and the final vowel drops: ke paas, two syllables.",
+          "gloss_en": "near; and how Hindi says 'have'",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["postposition", "compound", "location", "possession", "have"],
+          "cards": {
+            "learn": {
+              "title_en": "के पास — near, and how Hindi says 'have'",
+              "explanation_en": "के पास means near or beside, but it does a second and far more important job. Hindi has no verb 'to have', and के पास with होना is how possession is expressed instead. राम के पास किताब है is literally 'near Ram a book is' and means 'Ram has a book'. Watch what the verb agrees with: the thing owned, not the owner. That will keep being true, and it is the first sign of a pattern Module 10 is built on.",
+              "examples": [
+                { "hindi": "घर के पास", "read_as": "ghar ke paas", "english": "near the house", "note": "The plain meaning of location." },
+                { "hindi": "राम के पास किताब है।", "read_as": "raam ke paas kitaab hai.", "english": "Ram has a book.", "note": "The verb agrees with किताब, not with राम." },
+                { "hindi": "राम के पास किताबें हैं।", "read_as": "raam ke paas kitaabeṁ haiṁ.", "english": "Ram has books.", "note": "A plural thing owned, so a plural verb." }
+              ],
+              "common_error": {
+                "wrong": "राम के पास किताब हैं।",
+                "right": "राम के पास किताब है।",
+                "why_en": "The verb agrees with किताब, which is singular — not with राम."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "राम के पास किताबें ___।",
+              "question_read_as": "raam ke paas kitaabeṁ ___.",
+              "options": ["हैं", "है", "हूँ", "हो"],
+              "options_read_as": ["haiṁ", "hai", "huuṁ", "ho"],
+              "answer_index": 0,
+              "explanation_en": "किताबें is plural, and the verb agrees with the thing owned rather than with राम."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["राम के पास किताब हैं।", "राम के पास किताबें है।", "राम के पास किताब है।", "राम की पास किताब है।"],
+              "options_read_as": ["raam ke paas kitaab haiṁ.", "raam ke paas kitaabeṁ hai.", "raam ke paas kitaab hai.", "raam kii paas kitaab hai."],
+              "answer_index": 2,
+              "explanation_en": "The verb must match किताब. के पास is also a fixed pair, so की पास is never right."
+            }
+          },
+          "audio": {
+            "tts_strings": ["घर के पास", "राम के पास किताब है।", "राम के पास किताबें हैं।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L20-I3",
+          "type": "dialogue",
+          "target": "के साथ",
+          "read_as": "ke saath",
+          "pronunciation_notes": "साथ ends in an aspirated dental थ, with the tongue on the teeth and breath released.",
+          "gloss_en": "with, in the company of",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["postposition", "compound", "accompaniment", "dialogue", "contrast"],
+          "setting_en": "Two friends at a tea stall, looking at what is on offer",
+          "speakers": 2,
+          "speed": "slow",
+          "cards": {
+            "learn": {
+              "title_en": "के साथ — with",
+              "explanation_en": "के साथ means 'with' in the sense of company — alongside someone or something. Do not confuse it with से, which also translates as 'with' but means by means of: हाथ से is with your hand as a tool, राम के साथ is with Ram as company. English uses one word for both and Hindi does not, so this is a distinction you have to make deliberately. The exchange below uses two of the compound postpositions side by side.",
+              "lines": [
+                { "speaker": "A", "hindi": "चाय के साथ क्या है?", "read_as": "chaay ke saath kyaa hai?", "english": "What is there with the tea?" },
+                { "speaker": "B", "hindi": "चाय के साथ मिठाई है।", "read_as": "chaay ke saath miṭhaaii hai.", "english": "There are sweets with the tea." },
+                { "speaker": "A", "hindi": "और राम के पास क्या है?", "read_as": "aur raam ke paas kyaa hai?", "english": "And what does Ram have?" },
+                { "speaker": "B", "hindi": "राम के पास किताबें हैं।", "read_as": "raam ke paas kitaabeṁ haiṁ.", "english": "Ram has books." }
+              ],
+              "common_error": {
+                "wrong": "चाय की साथ मिठाई है।",
+                "right": "चाय के साथ मिठाई है।",
+                "why_en": "के साथ is a fixed pair and the के never agrees, even before a feminine noun like चाय."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "चाय ___ साथ मिठाई है।",
+              "question_read_as": "chaay ___ saath miṭhaaii hai.",
+              "options": ["का", "की", "को", "के"],
+              "options_read_as": ["kaa", "kii", "ko", "ke"],
+              "answer_index": 3,
+              "explanation_en": "के साथ is fixed, so the के stays even though चाय is feminine."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the second line. Which word is missing?",
+              "masked_line_index": 1,
+              "masked_word": "के",
+              "mask_reason": "the frozen के of a compound postposition",
+              "options": ["का", "के", "की", "को"],
+              "options_read_as": ["kaa", "ke", "kii", "ko"],
+              "answer_index": 1,
+              "explanation_en": "In compound postpositions the के never changes, so a feminine noun before it makes no difference."
+            }
+          },
+          "audio": {
+            "tts_strings": ["चाय के साथ क्या है?", "चाय के साथ मिठाई है।", "और राम के पास क्या है?", "राम के पास किताबें हैं।"],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered the compound postpositions built on के. All of them freeze the के rather than agreeing, and के पास carries the whole weight of 'have' in a language that has no such verb.",
+        "key_forms": ["किताब के लिए", "राम के पास किताब है।", "चाय के साथ"],
+        "next_up_en": "Next: negation, word order, and the connectors that join two sentences."
+      }
+    }
+  ]
+}

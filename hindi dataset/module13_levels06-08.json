@@ -1,0 +1,857 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "batch": {
+    "levels_from": 6,
+    "levels_to": 8
+  },
+  "block_kind": "reading",
+  "block_note": "The first reading block. Signs are where Hindi is most Sanskrit-leaning, so this is also where formal vocabulary can be introduced without contrivance. Every inference question carries requires_lines — the line numbers it draws on — and that list must have at least two entries.",
+  "levels": [
+    {
+      "level": 6,
+      "title_en": "Entry, exit, caution",
+      "title_hi": "प्रवेश · निकास · सावधान",
+      "items": [
+        {
+          "id": "M13-L06-I1",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "प्रवेश",
+          "target_read_as": "pravesh",
+          "target_gloss_en": "entry, admission",
+          "target_gender": "m",
+          "word_count": 14,
+          "difficulty": 5,
+          "tags": [
+            "sign",
+            "institutional_register",
+            "sanskrit_leaning",
+            "opening_hours"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "संग्रहालय में प्रवेश",
+                "read_as": "saṁgrahaalay meṁ pravesh",
+                "english": "Museum entry"
+              },
+              {
+                "n": 2,
+                "hindi": "सुबह 10 बजे से शाम 5 बजे तक",
+                "read_as": "subah 10 baje se shaam 5 baje tak",
+                "english": "10 a.m. to 5 p.m."
+              },
+              {
+                "n": 3,
+                "hindi": "सोमवार को बंद",
+                "read_as": "somvaar ko band",
+                "english": "Closed Mondays"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "प्रवेश — the word signs use for going in",
+              "explanation_en": "प्रवेश is entry, and it is what a sign says where a person would say अंदर आना. Signs in India lean heavily Sanskrit-side, which is why this block is where formal vocabulary can be taught without inventing a situation for it — a museum board really does say प्रवेश, and nobody says it at a friend's door. Note बजे, the oblique that clock times always take, and से … तक marking the two ends of the range, exactly as they did for journeys in Module 12.",
+              "register_note_en": "प्रवेश (sign, formal writing) · अंदर आना (speech). Neither is more correct; they belong to different places.",
+              "vocabulary_notes": [
+                "संग्रहालय — museum, built from संग्रह (collection) plus आलय (place). You will meet the -आलय suffix properly in level 8.",
+                "बंद is an adjective here and does not inflect.",
+                "सोमवार को — days take को, as they did in Module 12."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "When is the museum closed?",
+              "options": [
+                "Every evening after 5",
+                "It does not say",
+                "Sundays",
+                "Mondays"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 3: सोमवार को बंद."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                2,
+                3
+              ],
+              "question_en": "You arrive at 4:30 on a Sunday afternoon. What follows from the sign?",
+              "options": [
+                "The museum is shut today",
+                "You can go in, but only for about half an hour",
+                "You will need to come back tomorrow",
+                "Entry is free at this hour"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Sunday is not the closing day, so it is open — but closing is at 5, so there is half an hour. Neither line gives you that on its own."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "प्रवेश"
+            ]
+          }
+        },
+        {
+          "id": "M13-L06-I2",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "निकास",
+          "target_read_as": "nikaas",
+          "target_gloss_en": "exit, way out",
+          "target_gender": "m",
+          "word_count": 12,
+          "difficulty": 5,
+          "tags": [
+            "sign",
+            "institutional_register",
+            "directions",
+            "feminine_agreement"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "निकास",
+                "read_as": "nikaas",
+                "english": "Exit"
+              },
+              {
+                "n": 2,
+                "hindi": "कृपया दाईं ओर से बाहर जाएँ",
+                "read_as": "kripayaa daaiiṁ or se baahar jaaeṁ",
+                "english": "Please exit on the right"
+              },
+              {
+                "n": 3,
+                "hindi": "लिफ़्ट के लिए सीधे आगे",
+                "read_as": "lifṭ ke lie siidhe aage",
+                "english": "Lift straight ahead"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "निकास — the pair to प्रवेश",
+              "explanation_en": "निकास is the way out, built on निकलना, to come out — the verb you met when a size turned out wrong in Module 12. प्रवेश and निकास travel together on signs the way in and out do in English. Note दाईं ओर: ओर means side or direction and is feminine, so दायाँ becomes दाईं. Direction words in Hindi are feminine with striking regularity — तरफ़, ओर, दिशा — and the adjectives in front of them follow.",
+              "register_note_en": "निकास (sign) · बाहर निकलना (speech). A person leaving a room says मैं निकल रहा हूँ, never मैं निकास कर रहा हूँ.",
+              "vocabulary_notes": [
+                "कृपया — please, formal. Speech uses ज़रा or simply a polite verb form.",
+                "दाईं ओर — feminine agreement on both words, because ओर is feminine.",
+                "के लिए for purpose, and सीधे आगे with no verb at all."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Which way is the lift?",
+              "options": [
+                "Straight ahead",
+                "Back the way you came",
+                "To the right",
+                "To the left"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 3: लिफ़्ट के लिए सीधे आगे."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                2,
+                3
+              ],
+              "question_en": "What does the sign tell you about how this space is laid out?",
+              "options": [
+                "You must use the lift in order to leave",
+                "The exit and the lift are in the same direction",
+                "The exit and the lift are in different directions",
+                "The lift is not working"
+              ],
+              "answer_index": 2,
+              "explanation_en": "One line sends you right, the other straight on. Neither says they are separate; putting them together does."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "निकास"
+            ]
+          }
+        },
+        {
+          "id": "M13-L06-I3",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "सावधान",
+          "target_read_as": "saavdhaan",
+          "target_gloss_en": "careful; caution",
+          "target_gender": null,
+          "word_count": 16,
+          "difficulty": 6,
+          "tags": [
+            "sign",
+            "warning",
+            "suffix_ii",
+            "oblique_infinitive"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "सावधान",
+                "read_as": "saavdhaan",
+                "english": "Caution"
+              },
+              {
+                "n": 2,
+                "hindi": "फ़र्श गीला है, सफ़ाई जारी है",
+                "read_as": "farsh giilaa hai, safaaii jaarii hai",
+                "english": "Floor is wet, cleaning in progress"
+              },
+              {
+                "n": 3,
+                "hindi": "फिसलने का ख़तरा",
+                "read_as": "phisalne kaa ḳhatraa",
+                "english": "Risk of slipping"
+              },
+              {
+                "n": 4,
+                "hindi": "कृपया धीरे और सावधानी से चलें",
+                "read_as": "kripayaa dhiire aur saavdhaanii se chaleṁ",
+                "english": "Please walk slowly and carefully"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "सावधान and सावधानी — the suffix from level 2, in the wild",
+              "explanation_en": "सावधान is careful; सावधानी is carefulness. That is the -ई suffix you met with आज़ादी and ख़ुशी, and as always the noun it builds is feminine. Both forms appear on this one sign, four words apart, which is a fair demonstration that the suffix is not a textbook curiosity. Note फिसलने का ख़तरा in line 3: the infinitive goes oblique to फिसलने before का, exactly as it did in खाने के बाद at the pharmacy.",
+              "register_note_en": "सावधान (sign, and also a military command) · ध्यान से (speech). A friend warning you says ज़रा ध्यान से.",
+              "vocabulary_notes": [
+                "फ़र्श — floor, masculine. गीला agrees with it.",
+                "जारी है — in progress, ongoing. A very common phrase on notices.",
+                "सावधानी से — the -ई noun plus से for manner, meaning carefully."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why is the floor wet?",
+              "options": [
+                "A pipe has burst",
+                "Cleaning is in progress",
+                "The sign does not say",
+                "It has been raining"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 2: सफ़ाई जारी है."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                2,
+                3
+              ],
+              "question_en": "What does the sign suggest about how long this will last?",
+              "options": [
+                "The area is closed indefinitely",
+                "Cleaning happens at this time every day",
+                "The floor is always slippery here",
+                "The condition is temporary"
+              ],
+              "answer_index": 3,
+              "explanation_en": "जारी है says the cleaning is under way, and a risk that exists because of cleaning ends when the cleaning does. The sign never says temporary."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "सावधान"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Signs are the most Sanskrit-leaning Hindi you will meet, and प्रवेश, निकास and सावधान are what they use where speech says अंदर आना, बाहर निकलना and ध्यान से. Direction nouns are feminine, so दाईं ओर. And the -ई suffix from level 2 turns up twice on one sign.",
+        "key_forms": [
+          "प्रवेश",
+          "दाईं ओर",
+          "सावधानी से"
+        ],
+        "next_up_en": "Next: what is forbidden, what it costs, and what is free."
+      }
+    },
+    {
+      "level": 7,
+      "title_en": "Forbidden, charged, free",
+      "title_hi": "वर्जित · शुल्क · निःशुल्क",
+      "items": [
+        {
+          "id": "M13-L07-I1",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "वर्जित",
+          "target_read_as": "varjit",
+          "target_gloss_en": "forbidden, prohibited",
+          "target_gender": null,
+          "word_count": 15,
+          "difficulty": 6,
+          "tags": [
+            "sign",
+            "prohibition",
+            "sanskrit_leaning",
+            "hii_particle"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "इस बिंदु से आगे प्रवेश वर्जित है",
+                "read_as": "is biṁdu se aage pravesh varjit hai",
+                "english": "Entry prohibited beyond this point"
+              },
+              {
+                "n": 2,
+                "hindi": "केवल अधिकृत कर्मचारी ही जा सकते हैं",
+                "read_as": "keval adhikrit karmchaarii hii jaa sakte haiṁ",
+                "english": "Only authorised staff may proceed"
+              },
+              {
+                "n": 3,
+                "hindi": "धन्यवाद",
+                "read_as": "dhanyavaad",
+                "english": "Thank you"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "वर्जित — forbidden, on paper",
+              "explanation_en": "वर्जित means prohibited and appears almost exclusively in writing. A person telling you not to do something says मना है, and a sign says वर्जित है — the same instruction in two registers. Line 2 stacks two markers of exclusivity on top of each other: केवल, only, and ही, precisely. Hindi does that routinely for emphasis where English would use one word and a tone of voice.",
+              "register_note_en": "वर्जित (sign) · मना है (speech) · allowed nowhere near either: मत करो, which is an instruction to a person rather than a rule about a place.",
+              "vocabulary_notes": [
+                "केवल — only, formal. Speech uses सिर्फ़.",
+                "अधिकृत — authorised. कर्मचारी — staff member, and the same form for singular and plural.",
+                "धन्यवाद — thanks, formal. Speech prefers शुक्रिया, which Module 15 will treat properly."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Who may go beyond this point?",
+              "options": [
+                "Visitors accompanied by staff",
+                "Anyone with a ticket",
+                "Authorised staff only",
+                "Nobody at all"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 2: केवल अधिकृत कर्मचारी ही जा सकते हैं."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                1,
+                2
+              ],
+              "question_en": "What does the sign assume about the person reading it?",
+              "options": [
+                "That they are not authorised staff",
+                "That they are lost",
+                "That they cannot read Hindi",
+                "That they are authorised staff"
+              ],
+              "answer_index": 0,
+              "explanation_en": "A prohibition is not addressed to the people exempt from it. The sign says who may pass precisely because it is speaking to everybody else."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "वर्जित"
+            ]
+          }
+        },
+        {
+          "id": "M13-L07-I2",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "शुल्क",
+          "target_read_as": "shulk",
+          "target_gloss_en": "fee, charge",
+          "target_gender": "m",
+          "word_count": 18,
+          "difficulty": 6,
+          "tags": [
+            "sign",
+            "money",
+            "prati",
+            "compound_nouns"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "पार्किंग शुल्क",
+                "read_as": "paarkiṁg shulk",
+                "english": "Parking charges"
+              },
+              {
+                "n": 2,
+                "hindi": "दोपहिया — दस रुपये प्रति घंटा",
+                "read_as": "dopahiyaa — das rupae prati ghanṭaa",
+                "english": "Two-wheeler — ten rupees per hour"
+              },
+              {
+                "n": 3,
+                "hindi": "चारपहिया — बीस रुपये प्रति घंटा",
+                "read_as": "chaarpahiyaa — biis rupae prati ghanṭaa",
+                "english": "Four-wheeler — twenty rupees per hour"
+              },
+              {
+                "n": 4,
+                "hindi": "रात भर के लिए अलग शुल्क",
+                "read_as": "raat bhar ke lie alag shulk",
+                "english": "Separate charge for overnight"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "शुल्क and प्रति — the vocabulary of official money",
+              "explanation_en": "शुल्क is a fee levied by an institution, which is different from किराया (rent or fare) and from दाम (a price a seller asks). A car park, a museum and a government office all charge शुल्क. प्रति means per and comes straight from Sanskrit — प्रति घंटा, per hour; प्रति व्यक्ति, per person. Note दोपहिया and चारपहिया, literally two-wheeled and four-wheeled, which is how Indian officialdom refers to vehicles.",
+              "register_note_en": "शुल्क (official) · फ़ीस (everyday, from English) · पैसे (just money). All three would be understood; only one belongs on a board.",
+              "vocabulary_notes": [
+                "रुपये is the plural of रुपया, and it is what follows any number.",
+                "रात भर — all night. भर after a noun means \"for the whole of\".",
+                "अलग — separate, and it does not inflect."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How much does a car cost per hour?",
+              "options": [
+                "Thirty rupees",
+                "It depends on the time of day",
+                "Ten rupees",
+                "Twenty rupees"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 3: चारपहिया — बीस रुपये प्रति घंटा."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                2,
+                3
+              ],
+              "question_en": "You leave a scooter at 9 a.m. and collect it at noon. What do you owe?",
+              "options": [
+                "Twenty rupees",
+                "Thirty rupees",
+                "Sixty rupees",
+                "The sign does not give you enough to work it out"
+              ],
+              "answer_index": 1,
+              "explanation_en": "A scooter is a दोपहिया at ten rupees an hour, and three hours have passed. You need the vehicle line, the rate, and the arithmetic."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "शुल्क"
+            ]
+          }
+        },
+        {
+          "id": "M13-L07-I3",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "निःशुल्क",
+          "target_read_as": "nihshulk",
+          "target_gloss_en": "free of charge",
+          "target_gender": null,
+          "word_count": 13,
+          "difficulty": 7,
+          "tags": [
+            "sign",
+            "prefix_nih",
+            "register_triplet",
+            "oblique_plural"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "बारह वर्ष से कम आयु के बच्चों का प्रवेश निःशुल्क है",
+                "read_as": "baarah varsh se kam aayu ke bacchoṁ kaa pravesh nihshulk hai",
+                "english": "Entry is free for children under twelve years of age"
+              },
+              {
+                "n": 2,
+                "hindi": "पहचान दिखाएँ",
+                "read_as": "pahchaan dikhaaeṁ",
+                "english": "Show identification"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "निः- means without, and this sign has three register pairs in it",
+              "explanation_en": "निःशुल्क is निः- (without) plus शुल्क (fee) — free of charge. That prefix builds a family: निःसंतान childless, निःशब्द speechless, निस्संदेह undoubtedly. And look at how much of this one line is formal-side: वर्ष where speech says साल, आयु where speech says उम्र, and निःशुल्क where speech says मुफ़्त or simply फ़्री. Three pairs in thirteen words, which is what makes signs the efficient place to teach this register.",
+              "register_note_en": "निःशुल्क (sign) · मुफ़्त (everyday, Urdu-side) · फ़्री (everyday, English). All current, all correct, chosen by where you are writing.",
+              "vocabulary_notes": [
+                "बच्चों का — बच्चा goes to the oblique plural before का.",
+                "आयु is feminine; वर्ष is masculine. Neither gender is guessable from the shape.",
+                "पहचान — identity or identification, feminine."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Who gets in free?",
+              "options": [
+                "Children under twelve",
+                "Children under twelve with a parent",
+                "Students of any age",
+                "Everybody"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 1: बारह वर्ष से कम आयु के बच्चों का प्रवेश निःशुल्क है."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                1,
+                2
+              ],
+              "question_en": "A family arrives with a fourteen-year-old and a ten-year-old. What follows?",
+              "options": [
+                "Both children enter free",
+                "Both children must pay",
+                "One enters free, and they may have to prove the age",
+                "Children cannot enter without an adult"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The age rule covers only one of them, and the second line explains why the younger one's age may need proving. Neither line alone gets you there."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "निःशुल्क"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "वर्जित is मना है in writing. शुल्क is what an institution charges, as opposed to किराया or दाम. And निःशुल्क shows the निः- prefix and, in one line, three words that each have an everyday partner: वर्ष/साल, आयु/उम्र, निःशुल्क/मुफ़्त.",
+        "key_forms": [
+          "प्रवेश वर्जित है",
+          "प्रति घंटा",
+          "निःशुल्क"
+        ],
+        "next_up_en": "Next: smoking, enquiries, and a suffix that builds half the public buildings in India."
+      }
+    },
+    {
+      "level": 8,
+      "title_en": "Notices in full formal dress",
+      "title_hi": "धूम्रपान · पूछताछ · शौचालय",
+      "items": [
+        {
+          "id": "M13-L08-I1",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "धूम्रपान",
+          "target_read_as": "dhuumrapaan",
+          "target_gloss_en": "smoking",
+          "target_gender": "m",
+          "word_count": 17,
+          "difficulty": 8,
+          "tags": [
+            "sign",
+            "sanskrit_compound",
+            "prohibition",
+            "suffix_tah"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "धूम्रपान निषेध",
+                "read_as": "dhuumrapaan nishedh",
+                "english": "No smoking"
+              },
+              {
+                "n": 2,
+                "hindi": "यह पूरा परिसर पूर्णतः धूम्रपान मुक्त है",
+                "read_as": "yah puuraa parisar puurṇataḥ dhuumrapaan mukt hai",
+                "english": "This entire premises is completely smoke-free"
+              },
+              {
+                "n": 3,
+                "hindi": "उल्लंघन पर जुर्माना होगा",
+                "read_as": "ullaṁghan par jurmaanaa hogaa",
+                "english": "A fine will apply for violation"
+              },
+              {
+                "n": 4,
+                "hindi": "सहयोग के लिए धन्यवाद",
+                "read_as": "sahyog ke lie dhanyavaad",
+                "english": "Thank you for your cooperation"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "धूम्रपान — smoke-drinking, and a sign made almost entirely of Sanskrit",
+              "explanation_en": "धूम्रपान is धूम्र (smoke) plus पान (drinking) — Hindi treats smoking as drinking smoke, which is also why you say सिगरेट पीना rather than anything involving smoke. This notice is a good specimen of full institutional register: निषेध prohibition, परिसर premises, पूर्णतः completely, मुक्त free-of, उल्लंघन violation, सहयोग cooperation. Almost every content word is Sanskrit-derived. A person saying the same thing would manage सिगरेट मत पीजिए.",
+              "register_note_en": "The suffix -तः builds adverbs from nouns: पूर्णतः completely, वस्तुतः in fact, सामान्यतः generally. It is a written-only form; nobody says पूर्णतः out loud.",
+              "vocabulary_notes": [
+                "जुर्माना — a fine. This one is Urdu-side, sitting inside an otherwise Sanskrit sentence, which is entirely normal.",
+                "मुक्त — free from, as in कर मुक्त, tax-free. Different from निःशुल्क, which is free of charge.",
+                "उल्लंघन पर — पर for the occasion, as in खाने पर."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What happens if somebody smokes here?",
+              "options": [
+                "They will be asked to leave",
+                "A fine will apply",
+                "Nothing is stated",
+                "They will be reported"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 3: उल्लंघन पर जुर्माना होगा."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                2,
+                3
+              ],
+              "question_en": "Does the rule apply to the open ground outside the building?",
+              "options": [
+                "The sign does not cover it",
+                "No, only indoors",
+                "Only in designated areas",
+                "Yes, everywhere within the grounds"
+              ],
+              "answer_index": 3,
+              "explanation_en": "परिसर means the whole premises, not the building, and पूरा and पूर्णतः close off the exceptions. The fine line then applies to all of it."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "धूम्रपान"
+            ]
+          }
+        },
+        {
+          "id": "M13-L08-I2",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "पूछताछ",
+          "target_read_as": "puuchhtaachh",
+          "target_gloss_en": "enquiry, enquiries",
+          "target_gender": "f",
+          "word_count": 20,
+          "difficulty": 7,
+          "tags": [
+            "sign",
+            "echo_compound",
+            "opening_hours",
+            "register_pairs"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "पूछताछ केंद्र",
+                "read_as": "puuchhtaachh keṁdra",
+                "english": "Enquiry centre"
+              },
+              {
+                "n": 2,
+                "hindi": "मुख्य द्वार के पास, बाईं ओर",
+                "read_as": "mukhya dvaar ke paas, baaiiṁ or",
+                "english": "Near the main gate, on the left"
+              },
+              {
+                "n": 3,
+                "hindi": "सुबह नौ बजे से शाम छह बजे तक",
+                "read_as": "subah nau baje se shaam chhah baje tak",
+                "english": "9 a.m. to 6 p.m."
+              },
+              {
+                "n": 4,
+                "hindi": "अवकाश के दिन बंद",
+                "read_as": "avkaash ke din band",
+                "english": "Closed on holidays"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "पूछताछ — a word made by saying almost the same thing twice",
+              "explanation_en": "पूछताछ comes from पूछना, to ask, doubled with a slight change of vowel. Hindi builds nouns this way constantly — लेन-देन dealings, रख-रखाव upkeep, आना-जाना coming and going, मेल-जोल mixing with people. The second half is often not a real word on its own; the pairing is the point. Note also two more register pairs here: द्वार where speech says दरवाज़ा, and अवकाश where speech says छुट्टी.",
+              "register_note_en": "पूछताछ is neutral and appears in speech too — पूछताछ करना, to make enquiries. It is the words around it on this sign that are formal.",
+              "vocabulary_notes": [
+                "केंद्र — centre. Also in केंद्र सरकार, central government.",
+                "मुख्य — main, chief. Does not inflect.",
+                "बाईं ओर — feminine again, because ओर is."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Where is the enquiry centre?",
+              "options": [
+                "On the first floor",
+                "Inside the main building",
+                "Near the main gate, on the left",
+                "Near the main gate, on the right"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 2: मुख्य द्वार के पास, बाईं ओर."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                3,
+                4
+              ],
+              "question_en": "It is a public holiday and you need information at eleven in the morning. What follows?",
+              "options": [
+                "It will be closed",
+                "It opens later than usual on holidays",
+                "The sign does not cover holidays",
+                "It will be open, since eleven is within the hours"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The hours line on its own would say yes. The holiday line overrides it, and you only get there by reading both."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "पूछताछ"
+            ]
+          }
+        },
+        {
+          "id": "M13-L08-I3",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "शौचालय",
+          "target_read_as": "shauchaalay",
+          "target_gloss_en": "toilet, lavatory",
+          "target_gender": "m",
+          "word_count": 19,
+          "difficulty": 7,
+          "tags": [
+            "sign",
+            "suffix_aalay",
+            "accessibility",
+            "productive_suffix"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "शौचालय",
+                "read_as": "shauchaalay",
+                "english": "Toilets"
+              },
+              {
+                "n": 2,
+                "hindi": "पुरुष — दाईं ओर",
+                "read_as": "purush — daaiiṁ or",
+                "english": "Men — right"
+              },
+              {
+                "n": 3,
+                "hindi": "महिला — बाईं ओर",
+                "read_as": "mahilaa — baaiiṁ or",
+                "english": "Women — left"
+              },
+              {
+                "n": 4,
+                "hindi": "दिव्यांगजन के लिए सुविधा भूतल पर उपलब्ध है",
+                "read_as": "divyaaṁgjan ke lie suvidhaa bhuutal par uplabdh hai",
+                "english": "Accessible facilities available on the ground floor"
+              },
+              {
+                "n": 5,
+                "hindi": "कृपया स्वच्छता बनाए रखें",
+                "read_as": "kripayaa svachchhataa banaae rakheṁ",
+                "english": "Please keep it clean"
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "-आलय builds half the public buildings in India",
+              "explanation_en": "शौचालय is शौच plus आलय, and आलय means a place or dwelling. Once you have that suffix a whole set of signs opens up without being taught: विद्यालय school, महाविद्यालय college, चिकित्सालय hospital, पुस्तकालय library, न्यायालय court, कार्यालय office. Every one of them is masculine. This is the third productive suffix in the module after -आई and -ई, and it is the one that will get you around a public building.",
+              "register_note_en": "शौचालय (sign) · बाथरूम or टॉयलेट (speech). Nobody asks a friend where the शौचालय is.",
+              "vocabulary_notes": [
+                "पुरुष and महिला — man and woman, formal. Speech uses आदमी and औरत.",
+                "सुविधा — facility, feminine. उपलब्ध — available, invariable.",
+                "स्वच्छता — cleanliness, built with the -ता suffix, which also makes feminine abstract nouns."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Where are the accessible facilities?",
+              "options": [
+                "In the main building",
+                "To the right",
+                "To the left",
+                "On the ground floor"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 4: सुविधा भूतल पर उपलब्ध है."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                1,
+                4
+              ],
+              "question_en": "Where in the building is this sign most likely to be?",
+              "options": [
+                "On the ground floor",
+                "On some floor other than the ground floor",
+                "Outside the building",
+                "In a single-storey building"
+              ],
+              "answer_index": 1,
+              "explanation_en": "A sign that directs you elsewhere for the ground-floor facilities is not itself on the ground floor. Nothing in the text says so; the direction implies it."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "शौचालय"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Signs are where Hindi is most Sanskrit-leaning, and this level shows why that is learnable rather than merely hard: -आलय builds शौचालय, विद्यालय, पुस्तकालय and half a dozen others; -तः builds adverbs; and पूछताछ shows the echo-compound pattern. Learn the pieces and the signs read themselves.",
+        "key_forms": [
+          "धूम्रपान निषेध",
+          "पूछताछ केंद्र",
+          "शौचालय"
+        ],
+        "next_up_en": "Next: back to vocabulary — six more personality words and the language of opinion."
+      }
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "module": 12,
+  "format_divergence": {
+    "part_f_default": "4 recognition, 4 production/transform, 2 error-spotting",
+    "used_here": "3 comprehension, 2 recognition, 5 audio_gap_fill",
+    "reason_en": "Sixth of eight, same reasoning throughout: a receptive module has nothing for a transform or error-spot question to test. Six are now written this way. Reworking them is a contained job today and a much larger one once levels 31 to 40 are in."
+  },
+  "checkpoints": [
+    {
+      "after_level": 30,
+      "covers_levels": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "questions": [
+        {
+          "id": "M12-CP6-Q1",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L26-I1",
+          "question_en": "Listen again. What is the outcome of the call?",
+          "options": [
+            "No appointment is available",
+            "Wednesday at five",
+            "Thursday at five",
+            "Thursday morning"
+          ],
+          "answer_index": 2,
+          "explanation_en": "Wednesday is full, so गुरुवार को आना होगा — and शाम पाँच बजे.",
+          "source_item_ids": [
+            "M12-L26-I1",
+            "M12-L26-I2"
+          ]
+        },
+        {
+          "id": "M12-CP6-Q2",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L28-I3",
+          "question_en": "Listen again. How is the disagreement resolved?",
+          "options": [
+            "The client decides",
+            "The work is reassigned",
+            "The date stands as it was",
+            "They add a week"
+          ],
+          "answer_index": 3,
+          "explanation_en": "एक हफ़्ता और ले लें? — and उतना काफ़ी होगा accepts it.",
+          "source_item_ids": [
+            "M12-L28-I3"
+          ]
+        },
+        {
+          "id": "M12-CP6-Q3",
+          "source": "current",
+          "format": "comprehension",
+          "replay_item_id": "M12-L30-I3",
+          "question_en": "Across the leave dialogues, what has been handled while he was away?",
+          "options": [
+            "Nothing — everything waited for him",
+            "Two meetings happened and the notes were sent",
+            "The project was handed to a client",
+            "His leave was cut short"
+          ],
+          "answer_index": 1,
+          "explanation_en": "दो मीटिंग हुई थीं, and नोट्स भेज दिए हैं.",
+          "source_item_ids": [
+            "M12-L30-I1",
+            "M12-L30-I3"
+          ]
+        },
+        {
+          "id": "M12-CP6-Q4",
+          "source": "current",
+          "format": "recognition",
+          "replay_item_id": "M12-L28-I2",
+          "question_en": "You hear मैंने अमित से करवा लिया and प्रिया को समझा दीजिए. Why से in one and को in the other?",
+          "options": [
+            "से marks the person who does the work; को marks the person acted on",
+            "They are interchangeable",
+            "से is used with names and को with pronouns",
+            "से is formal and को is informal"
+          ],
+          "answer_index": 0,
+          "explanation_en": "Amit did the report, so से. Priya is the one being explained to, so को. Both are Module 11's causative rules in an office.",
+          "source_item_ids": [
+            "M12-L28-I2",
+            "M12-L30-I2"
+          ]
+        },
+        {
+          "id": "M12-CP6-Q5",
+          "source": "current",
+          "format": "recognition",
+          "replay_item_id": "M12-L29-I3",
+          "question_en": "In मैंने तो लगाया था, what is तो doing?",
+          "options": [
+            "Marking a question",
+            "Introducing a conditional",
+            "Carrying the emphasis English would put on the verb",
+            "Meaning \"then\""
+          ],
+          "answer_index": 2,
+          "explanation_en": "\"I DID attach it.\" Hindi inserts a word where English stresses a syllable — the same job तो did in दी तो थी back in level 3.",
+          "source_item_ids": [
+            "M12-L29-I3",
+            "M12-L27-I1"
+          ]
+        },
+        {
+          "id": "M12-CP6-Q6",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L26-I3",
+          "line_n": 3,
+          "mask_reason": "ne",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "अभी पक्का नहीं है। ___ अभी टिकट बुक नहीं किया।",
+          "question_read_as": "abhii pakkaa nahiiṁ hai. ___ abhii ṭikaṭ buk nahiiṁ kiyaa.",
+          "options": [
+            "मुझे",
+            "मेरा",
+            "मैं",
+            "मैंने"
+          ],
+          "options_read_as": [
+            "mujhe",
+            "meraa",
+            "maiṁ",
+            "maiṁne"
+          ],
+          "answer_index": 3,
+          "explanation_en": "करना is transitive and perfective, so ने — even in the negative.",
+          "source_item_ids": [
+            "M12-L26-I3"
+          ]
+        },
+        {
+          "id": "M12-CP6-Q7",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L27-I2",
+          "line_n": 1,
+          "mask_reason": "verb_ending",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "एक मिनट है? ज़रा ये देख ___ हैं?",
+          "question_read_as": "ek minaṭ hai? zaraa ye dekh ___ haiṁ?",
+          "options": [
+            "सकता",
+            "सकती",
+            "सकते",
+            "सकीं"
+          ],
+          "options_read_as": [
+            "saktaa",
+            "saktii",
+            "sakte",
+            "sakiiṁ"
+          ],
+          "answer_index": 1,
+          "explanation_en": "The colleague addressed is a woman, so सकती — with हैं for the respectful आप.",
+          "source_item_ids": [
+            "M12-L27-I2"
+          ]
+        },
+        {
+          "id": "M12-CP6-Q8",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L27-I3",
+          "line_n": 2,
+          "mask_reason": "oblique",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "हाँ, बहुत ___ ने छुट्टी ली है।",
+          "question_read_as": "haaṁ, bahut ___ ne chhuṭṭii lii hai.",
+          "options": [
+            "लोगों",
+            "लोगो",
+            "लोगें",
+            "लोग"
+          ],
+          "options_read_as": [
+            "logoṁ",
+            "logo",
+            "logeṁ",
+            "log"
+          ],
+          "answer_index": 0,
+          "explanation_en": "ने is a postposition like any other, so the plural goes oblique in front of it.",
+          "source_item_ids": [
+            "M12-L27-I3"
+          ]
+        },
+        {
+          "id": "M12-CP6-Q9",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L28-I1",
+          "line_n": 3,
+          "mask_reason": "oblique",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "बारह ___ के बाद, शायद एक बजे।",
+          "question_read_as": "baarah ___ ke baad, shaayad ek baje.",
+          "options": [
+            "बजी",
+            "बजा",
+            "बजे",
+            "बजों"
+          ],
+          "options_read_as": [
+            "bajii",
+            "bajaa",
+            "baje",
+            "bajoṁ"
+          ],
+          "answer_index": 2,
+          "explanation_en": "बजा goes oblique to बजे before के बाद — and clock times are always in that form.",
+          "source_item_ids": [
+            "M12-L28-I1"
+          ]
+        },
+        {
+          "id": "M12-CP6-Q10",
+          "source": "current",
+          "format": "audio_gap_fill",
+          "replay_item_id": "M12-L29-I2",
+          "line_n": 3,
+          "mask_reason": "postposition",
+          "question_en": "Listen again. Which form fills the gap?",
+          "question": "सोमवार ___ हो जाएगा।",
+          "question_read_as": "somvaar ___ ho jaaegaa.",
+          "options": [
+            "से",
+            "में",
+            "पर",
+            "तक"
+          ],
+          "options_read_as": [
+            "se",
+            "meṁ",
+            "par",
+            "tak"
+          ],
+          "answer_index": 3,
+          "explanation_en": "तक for the far end — by Monday.",
+          "source_item_ids": [
+            "M12-L29-I2",
+            "M12-L29-I1"
+          ]
+        }
+      ]
+    }
+  ]
+}

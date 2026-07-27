@@ -1,0 +1,852 @@
+{
+  "module": 2,
+  "module_name_en": "Consonants",
+  "module_name_hi": "व्यंजन",
+  "phase": 1,
+  "batch": { "levels_from": 11, "levels_to": 15 },
+  "levels": [
+    {
+      "level": 11,
+      "title_en": "Letters outside the grid",
+      "title_hi": "य र ल",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M02-L11-I1",
+          "type": "letter",
+          "target": "य",
+          "read_as": "ya",
+          "pronunciation_notes": "The y of English 'yes'. In two very common words it softens in speech: यह is usually said 'ye' and वह 'vo'.",
+          "gloss_en": "palatal semivowel y",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["consonant", "antahstha", "semivowel", "palatal"],
+          "letter_form": "य",
+          "matra": null,
+          "sound_family": "antahstha (semivowels)",
+          "contrasts_with": ["र", "ल", "व"],
+          "example_word": { "hindi": "याद", "read_as": "yaad", "english": "memory, remembrance" },
+          "cards": {
+            "learn": {
+              "title_en": "य — the first of the in-between letters",
+              "explanation_en": "The five varga families are finished. The letters that follow do not sit in a grid: they have no aspirated partners and no voiced partners, so each has to be learned on its own terms. य is the easiest of them, identical to the English y in 'yes'. Its one quirk is that a few high-frequency words wear it down in speech, which is why यह is written one way and said another.",
+              "examples": [
+                { "hindi": "याद", "read_as": "yaad", "english": "memory, remembrance", "note": "A clean य at the start of the word." },
+                { "hindi": "यह", "read_as": "yah", "english": "this", "note": "Written with य, but almost always pronounced 'ye' in ordinary speech." },
+                { "hindi": "समय", "read_as": "samay", "english": "time", "note": "य closing a word, with its own vowel dropped." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "याद",
+              "question_read_as": "yaad",
+              "options": ["ल", "र", "व", "य"],
+              "options_read_as": ["la", "ra", "va", "ya"],
+              "answer_index": 3,
+              "explanation_en": "The sound glides out of the vowel position with no contact anywhere in the mouth, which makes it य."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["याद", "भाषा", "यह", "समय"],
+              "options_read_as": ["yaad", "bhaashaa", "yah", "samay"],
+              "answer_index": 1,
+              "explanation_en": "भाषा begins with भ, voiced and released with breath. Semivowels like य carry no aspiration at all."
+            }
+          },
+          "audio": {
+            "tts_strings": ["य", "याद", "यह", "समय"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L11-I2",
+          "type": "letter",
+          "target": "र",
+          "read_as": "ra",
+          "pronunciation_notes": "A single light tap of the tongue against the ridge behind the teeth — closer to the r of Spanish 'pero' than to the English r, which curls the tongue back without touching anything.",
+          "gloss_en": "alveolar tap r",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["consonant", "antahstha", "semivowel", "tap"],
+          "letter_form": "र",
+          "matra": null,
+          "sound_family": "antahstha (semivowels)",
+          "contrasts_with": ["य", "ल", "व"],
+          "example_word": { "hindi": "रात", "read_as": "raat", "english": "night" },
+          "cards": {
+            "learn": {
+              "title_en": "र — a tap, not a curl",
+              "explanation_en": "र is made by tapping the tongue once against the ridge behind the upper teeth. The English r is quite different: the tongue bunches or curls and never makes contact, which is why an English r in a Hindi word sounds immediately foreign. If you can roll an r, tap it just once. Note that र behaves oddly in stacked letters, and Module 3 deals with that separately.",
+              "examples": [
+                { "hindi": "रात", "read_as": "raat", "english": "night", "note": "One tap at the start, then a long ा." },
+                { "hindi": "रंग", "read_as": "raṅg", "english": "colour", "note": "The tap, then the dot read as ng before ग." },
+                { "hindi": "घर", "read_as": "ghar", "english": "house", "note": "र closing a word, with its own vowel dropped." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "रात",
+              "question_read_as": "raat",
+              "options": ["ल", "र", "य", "व"],
+              "options_read_as": ["la", "ra", "ya", "va"],
+              "answer_index": 1,
+              "explanation_en": "The tongue makes one brief tap against the ridge behind the teeth, which is र and not ल."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["रात", "रंग", "राजा", "धूप"],
+              "options_read_as": ["raat", "raṅg", "raajaa", "dhuup"],
+              "answer_index": 3,
+              "explanation_en": "धूप begins with ध, which releases breath. The other three begin with the tap र."
+            }
+          },
+          "audio": {
+            "tts_strings": ["र", "रात", "रंग", "घर"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L11-I3",
+          "type": "letter",
+          "target": "ल",
+          "read_as": "la",
+          "pronunciation_notes": "A clear l with the tongue on the teeth ridge, identical at the start and end of a word. English darkens its l finally, as in 'full', and Hindi never does.",
+          "gloss_en": "lateral l",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["consonant", "antahstha", "semivowel", "lateral"],
+          "letter_form": "ल",
+          "matra": null,
+          "sound_family": "antahstha (semivowels)",
+          "contrasts_with": ["र", "य", "व"],
+          "example_word": { "hindi": "लाल", "read_as": "laal", "english": "red" },
+          "cards": {
+            "learn": {
+              "title_en": "ल — the same l all the way through",
+              "explanation_en": "ल is a clear l made with the tongue touching the ridge behind the teeth. English has two versions of this sound: a light one at the start of 'leaf' and a dark, swallowed one at the end of 'full'. Hindi uses only the light one, in every position. The word लाल, 'red', is the test — both letters should sound identical.",
+              "examples": [
+                { "hindi": "लाल", "read_as": "laal", "english": "red", "note": "The same clear l at both ends of the word." },
+                { "hindi": "लोग", "read_as": "log", "english": "people", "note": "A plural noun in form; it is used for people in general." },
+                { "hindi": "कल", "read_as": "kal", "english": "yesterday; tomorrow", "note": "One word for both, with the tense of the sentence deciding which." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "लाल",
+              "question_read_as": "laal",
+              "options": ["र", "य", "ल", "व"],
+              "options_read_as": ["ra", "ya", "la", "va"],
+              "answer_index": 2,
+              "explanation_en": "The tongue stays in contact and the air flows around its sides, which is ल rather than the single tap र."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["थाली", "लाल", "लोग", "कल"],
+              "options_read_as": ["thaalii", "laal", "log", "kal"],
+              "answer_index": 0,
+              "explanation_en": "थाली begins with थ, the dental released with breath. The other three begin with ल or क, neither of which is aspirated."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ल", "लाल", "लोग", "कल"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level left the varga grid behind for य, र and ल. None of them has an aspirated or voiced partner, so each is learned on its own, and र in particular needs unlearning: it is a single tap, not the English curl.",
+        "key_forms": ["याद", "रात", "लाल"],
+        "next_up_en": "Next: व returns as a full letter, alongside the two sibilants श and ष that sound identical today."
+      }
+    },
+    {
+      "level": 12,
+      "title_en": "व and the two sh letters",
+      "title_hi": "व श ष",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M02-L12-I1",
+          "type": "letter",
+          "target": "व",
+          "read_as": "va",
+          "pronunciation_notes": "The lower lip approaches the upper teeth without pressing — between English v and w, and both are accepted. Full lip closure would make it ब.",
+          "gloss_en": "labiodental approximant",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["consonant", "antahstha", "semivowel", "approximant"],
+          "letter_form": "व",
+          "matra": null,
+          "sound_family": "antahstha (semivowels)",
+          "contrasts_with": ["ब", "य", "र"],
+          "example_word": { "hindi": "वह", "read_as": "vah", "english": "that; he, she" },
+          "cards": {
+            "learn": {
+              "title_en": "व — the letter behind the sound",
+              "explanation_en": "Module 1 taught this sound as a contrast; here it gets its letter. One Hindi sound covers the ground English divides between v and w, so you cannot choose wrong between them. The real boundary is with ब: for व the lips must not meet. Like यह, the word वह is written one way and usually said another, coming out as 'vo' in ordinary speech.",
+              "examples": [
+                { "hindi": "वह", "read_as": "vah", "english": "that; he, she", "note": "Written with a final ह, but generally pronounced 'vo'." },
+                { "hindi": "वापस", "read_as": "vaapas", "english": "back, returned", "note": "Lips apart throughout — closing them would give ब." },
+                { "hindi": "नाव", "read_as": "naav", "english": "boat", "note": "व closing a word." }
+              ],
+              "common_error": {
+                "wrong": "बापस",
+                "right": "वापस",
+                "why_en": "Closing the lips fully turns व into ब, which is a different letter."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "वह",
+              "question_read_as": "vah",
+              "options": ["व", "ब", "भ", "म"],
+              "options_read_as": ["va", "ba", "bha", "ma"],
+              "answer_index": 0,
+              "explanation_en": "The lips never meet — only the lower lip approaches the teeth — which makes it व and not ब."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["वह", "वापस", "भारत", "नाव"],
+              "options_read_as": ["vah", "vaapas", "bhaarat", "naav"],
+              "answer_index": 2,
+              "explanation_en": "भारत begins with भ, voiced and breathy at once. व releases no breath at all."
+            }
+          },
+          "audio": {
+            "tts_strings": ["व", "वह", "वापस", "नाव"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L12-I2",
+          "type": "letter",
+          "target": "श",
+          "read_as": "sha",
+          "pronunciation_notes": "The sh of English 'ship'. It is a fricative, not a stop, so it has no aspirated partner.",
+          "gloss_en": "palatal sibilant sh",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["consonant", "sibilant", "fricative", "palatal"],
+          "letter_form": "श",
+          "matra": null,
+          "sound_family": "ushma (sibilants)",
+          "contrasts_with": ["स", "ष"],
+          "example_word": { "hindi": "शहर", "read_as": "shahar", "english": "city" },
+          "cards": {
+            "learn": {
+              "title_en": "श — the ordinary sh",
+              "explanation_en": "श is the sh of 'ship' and gives English speakers no trouble at all as a sound. The difficulty is entirely on the page: Hindi writes this one sound with two letters, श and ष, and a third letter स is only one step away. Which one a word takes is decided by where the word came from, not by how it sounds.",
+              "examples": [
+                { "hindi": "शहर", "read_as": "shahar", "english": "city", "note": "A word you will need constantly when travelling." },
+                { "hindi": "शाम", "read_as": "shaam", "english": "evening", "note": "Clean श, then a long ा." },
+                { "hindi": "देश", "read_as": "desh", "english": "country", "note": "श closing a word." }
+              ],
+              "common_error": {
+                "wrong": "सहर",
+                "right": "शहर",
+                "why_en": "स and श are different sounds, and swapping them changes the word — this one takes श."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "शहर",
+              "question_read_as": "shahar",
+              "options": ["स", "च", "छ", "श"],
+              "options_read_as": ["sa", "cha", "chha", "sha"],
+              "answer_index": 3,
+              "explanation_en": "The air hisses continuously rather than stopping, and it is made further back than स, which makes it श."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["शहर", "भाई", "शाम", "देश"],
+              "options_read_as": ["shahar", "bhaaii", "shaam", "desh"],
+              "answer_index": 1,
+              "explanation_en": "भाई begins with भ, a stop released with breath. श is a fricative and has no aspirated form."
+            }
+          },
+          "audio": {
+            "tts_strings": ["श", "शहर", "शाम", "देश"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L12-I3",
+          "type": "letter",
+          "target": "ष",
+          "read_as": "sha",
+          "pronunciation_notes": "Historically a retroflex sh, but in modern Hindi it is pronounced exactly like श. It survives only in Sanskrit-derived spellings, so it is a spelling problem rather than a sound problem.",
+          "gloss_en": "retroflex sibilant, merged with श in modern pronunciation",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["consonant", "sibilant", "fricative", "retroflex", "spelling_only"],
+          "letter_form": "ष",
+          "matra": null,
+          "sound_family": "ushma (sibilants)",
+          "contrasts_with": ["श", "स"],
+          "example_word": { "hindi": "भाषा", "read_as": "bhaashaa", "english": "language" },
+          "cards": {
+            "learn": {
+              "title_en": "ष — a letter without a sound of its own",
+              "explanation_en": "ष was once a retroflex sh, made with the tongue curled back. Modern Hindi speakers no longer distinguish it from श, so the two letters are pronounced identically. That means you can never work out which one a word takes by listening — you have to know the word. ष turns up almost entirely in vocabulary borrowed from Sanskrit, so it clusters in formal and written registers.",
+              "examples": [
+                { "hindi": "भाषा", "read_as": "bhaashaa", "english": "language", "note": "Sanskrit-derived, and spelt with ष despite sounding like श." },
+                { "hindi": "दोष", "read_as": "dosh", "english": "fault, blame", "note": "ष closing a word; the final vowel drops." },
+                { "hindi": "संतोष", "read_as": "santosh", "english": "contentment", "note": "Also a common given name." }
+              ],
+              "common_error": {
+                "wrong": "भाशा",
+                "right": "भाषा",
+                "why_en": "The two letters sound identical, so the only guide is where the word came from — this one takes ष."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen, then choose the letter this word is spelt with.",
+              "question": "भाषा",
+              "question_read_as": "bhaashaa",
+              "options": ["स", "ष", "च", "ह"],
+              "options_read_as": ["sa", "sha", "cha", "ha"],
+              "answer_index": 1,
+              "explanation_en": "Listening cannot settle this one, since ष and श are pronounced the same today. भाषा comes from Sanskrit and is spelt with ष."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["दोष", "संतोष", "विशेष", "भाषा"],
+              "options_read_as": ["dosh", "santosh", "vishesh", "bhaashaa"],
+              "answer_index": 3,
+              "explanation_en": "भाषा begins with भ, a stop released with breath. The other three begin with द, स and व, none of which is aspirated."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ष", "भाषा", "दोष", "संतोष"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level gave व its letter and introduced the two sh sounds. श and ष are pronounced identically in modern Hindi, so the choice between them is a matter of a word's origin and has to be memorised word by word.",
+        "key_forms": ["वह", "शहर", "भाषा"],
+        "next_up_en": "Next: स and ह, and the first of the dotted letters — ज़."
+      }
+    },
+    {
+      "level": 13,
+      "title_en": "स, ह, and the first dotted letter",
+      "title_hi": "स ह ज़",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M02-L13-I1",
+          "type": "letter",
+          "target": "स",
+          "read_as": "sa",
+          "pronunciation_notes": "The s of English 'sun', made with the tongue near the teeth. Further forward than श, and never voiced into a z.",
+          "gloss_en": "dental sibilant s",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["consonant", "sibilant", "fricative", "dental"],
+          "letter_form": "स",
+          "matra": null,
+          "sound_family": "ushma (sibilants)",
+          "contrasts_with": ["श", "ष"],
+          "example_word": { "hindi": "सब", "read_as": "sab", "english": "all, everything" },
+          "cards": {
+            "learn": {
+              "title_en": "स — plain s, never z",
+              "explanation_en": "स is the s of 'sun'. English speakers have one habit to break here: English voices its s constantly, so that 'rose' and 'boys' end in a z sound. Hindi does not. स stays voiceless everywhere, and the z sound belongs to a separate dotted letter you meet later in this level.",
+              "examples": [
+                { "hindi": "सब", "read_as": "sab", "english": "all, everything", "note": "One syllable; the final vowel drops." },
+                { "hindi": "सात", "read_as": "saat", "english": "seven", "note": "स then the dental त — tongue forward for both." },
+                { "hindi": "पैसा", "read_as": "paisaa", "english": "money", "note": "स in the middle of a word from Module 1, still fully voiceless." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "सब",
+              "question_read_as": "sab",
+              "options": ["स", "श", "च", "ज"],
+              "options_read_as": ["sa", "sha", "cha", "ja"],
+              "answer_index": 0,
+              "explanation_en": "The hiss is made close to the teeth rather than further back, which makes it स and not श."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["सब", "सात", "थाली", "पैसा"],
+              "options_read_as": ["sab", "saat", "thaalii", "paisaa"],
+              "answer_index": 2,
+              "explanation_en": "थाली begins with थ, a stop released with breath. स is a fricative and has no aspirated partner."
+            }
+          },
+          "audio": {
+            "tts_strings": ["स", "सब", "सात", "पैसा"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L13-I2",
+          "type": "letter",
+          "target": "ह",
+          "read_as": "ha",
+          "pronunciation_notes": "Voiced h, softer than the English one. At the end of a word it often colours the vowel before it rather than sounding separately, which is why सुबह reads 'subah'.",
+          "gloss_en": "glottal h",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["consonant", "fricative", "glottal", "voiced"],
+          "letter_form": "ह",
+          "matra": null,
+          "sound_family": "ushma (fricatives)",
+          "contrasts_with": ["ख", "घ"],
+          "example_word": { "hindi": "हाथ", "read_as": "haath", "english": "hand" },
+          "cards": {
+            "learn": {
+              "title_en": "ह — breath with voice in it",
+              "explanation_en": "ह is an h with the vocal cords running, which makes it softer and more murmured than the sharp English h in 'hat'. It is the sound hiding inside every aspirated letter you have learned: घ, झ, ढ, ध and भ are their plain partners released through ह. At the end of a word it frequently fades into the vowel before it rather than standing on its own.",
+              "examples": [
+                { "hindi": "हाथ", "read_as": "haath", "english": "hand", "note": "Soft ह at the front, aspirated थ at the back." },
+                { "hindi": "हम", "read_as": "ham", "english": "we", "note": "A pronoun you will use in almost every conversation." },
+                { "hindi": "सुबह", "read_as": "subah", "english": "morning", "note": "The final ह colours the vowel rather than sounding as a separate consonant." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "हाथ",
+              "question_read_as": "haath",
+              "options": ["ख", "घ", "ह", "भ"],
+              "options_read_as": ["kha", "gha", "ha", "bha"],
+              "answer_index": 2,
+              "explanation_en": "Nothing closes anywhere in the mouth — the breath simply flows out with voice in it — which makes it ह."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["घर", "हाथ", "हम", "सुबह"],
+              "options_read_as": ["ghar", "haath", "ham", "subah"],
+              "answer_index": 0,
+              "explanation_en": "घर begins with घ, a stop that closes and then releases with breath. ह is breathy in itself but is not one of the aspirated stops."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ह", "हाथ", "हम", "सुबह"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L13-I3",
+          "type": "letter",
+          "target": "ज़",
+          "read_as": "za",
+          "pronunciation_notes": "The z of English 'zoo'. The dot underneath is the whole difference from ज; without it the letter is a j.",
+          "gloss_en": "voiced sibilant z",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["consonant", "nukta", "sibilant", "borrowed_sound"],
+          "letter_form": "ज़",
+          "matra": null,
+          "sound_family": "nukta letters",
+          "contrasts_with": ["ज", "स"],
+          "example_word": { "hindi": "ज़रूर", "read_as": "zaruur", "english": "certainly, of course" },
+          "cards": {
+            "learn": {
+              "title_en": "ज़ — a dot that changes the sound",
+              "explanation_en": "A small dot underneath a letter is called a nukta, and it marks sounds that came into Hindi with Persian, Arabic and English words. ज़ is ज with the dot, pronounced z. In casual handwriting and signage many people leave the dot off and readers manage perfectly well, but the dotted form is the standard spelling and is what you should write.",
+              "examples": [
+                { "hindi": "ज़रूर", "read_as": "zaruur", "english": "certainly, of course", "note": "Extremely common in speech, often as a one-word reply." },
+                { "hindi": "बाज़ार", "read_as": "baazaar", "english": "market", "note": "The dot sits under ज in the middle of the word." },
+                { "hindi": "ताज़ा", "read_as": "taazaa", "english": "fresh", "note": "You will see this on food stalls and menus." }
+              ],
+              "common_error": {
+                "wrong": "जरूर",
+                "right": "ज़रूर",
+                "why_en": "Without the dot the letter is read as j. Dropping it is widespread in informal writing, but the dotted spelling is the standard one."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "ज़रूर",
+              "question_read_as": "zaruur",
+              "options": ["ज", "स", "श", "ज़"],
+              "options_read_as": ["ja", "sa", "sha", "za"],
+              "answer_index": 3,
+              "explanation_en": "The sound hisses continuously with voice in it rather than starting with a closure, which makes it ज़ and not ज."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["ज़रूर", "झूठ", "बाज़ार", "ताज़ा"],
+              "options_read_as": ["zaruur", "jhuuṭh", "baazaar", "taazaa"],
+              "answer_index": 1,
+              "explanation_en": "झूठ begins with झ, voiced and released with breath. ज़ is a fricative and has no aspirated form."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ज़", "ज़रूर", "बाज़ार", "ताज़ा"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added the two remaining fricatives, स and ह, and introduced the nukta — the dot that marks sounds borrowed from Persian, Arabic and English, starting with ज़.",
+        "key_forms": ["सब", "हाथ", "ज़रूर"],
+        "next_up_en": "Next: three more dotted letters, क़, ख़ and ग़, which most speakers merge with their undotted partners."
+      }
+    },
+    {
+      "level": 14,
+      "title_en": "Dotted letters from Persian and Arabic",
+      "title_hi": "क़ ख़ ग़",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M02-L14-I1",
+          "type": "letter",
+          "target": "क़",
+          "read_as": "qa",
+          "pronunciation_notes": "A k made far back, at the uvula. Most Hindi speakers pronounce it as a plain क, and that is entirely acceptable; the dot preserves the spelling of words borrowed from Persian and Arabic.",
+          "gloss_en": "uvular q",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["consonant", "nukta", "borrowed_sound", "uvular"],
+          "letter_form": "क़",
+          "matra": null,
+          "sound_family": "nukta letters",
+          "contrasts_with": ["क", "ख़"],
+          "example_word": { "hindi": "क़रीब", "read_as": "qariib", "english": "near, close" },
+          "cards": {
+            "learn": {
+              "title_en": "क़ — a k from further back",
+              "explanation_en": "क़ is made at the very back of the throat, where the tongue meets the uvula. Unlike ज़, this one is not a sound most Hindi speakers actually produce: the large majority say it exactly like क, and no one considers that incorrect. So treat it as a spelling convention that tells you a word arrived from Persian or Arabic, and pronounce it however the people around you do.",
+              "examples": [
+                { "hindi": "क़रीब", "read_as": "qariib", "english": "near, close", "note": "Very common, and often heard with a plain क instead." },
+                { "hindi": "क़ीमत", "read_as": "qiimat", "english": "price", "note": "A word you will need in any shop or market." },
+                { "hindi": "क़ानून", "read_as": "qaanuun", "english": "law", "note": "Formal register, and usually written with the dot." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen, then choose the letter used to spell this word.",
+              "question": "क़रीब",
+              "question_read_as": "qariib",
+              "options": ["ख", "क़", "ग", "घ"],
+              "options_read_as": ["kha", "qa", "ga", "gha"],
+              "answer_index": 1,
+              "explanation_en": "Most speakers say this as a plain क, so listening alone will not settle it — क़रीब came from Arabic and is spelt with the dot."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["क़रीब", "क़ीमत", "खाना", "क़ानून"],
+              "options_read_as": ["qariib", "qiimat", "khaanaa", "qaanuun"],
+              "answer_index": 2,
+              "explanation_en": "खाना begins with ख, which releases a puff of air. क़ is unaspirated, whether it is said at the uvula or as a plain क."
+            }
+          },
+          "audio": {
+            "tts_strings": ["क़", "क़रीब", "क़ीमत", "क़ानून"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L14-I2",
+          "type": "letter",
+          "target": "ख़",
+          "read_as": "ḳha",
+          "pronunciation_notes": "A scraping sound made at the back of the mouth, as in German 'Bach' or Scottish 'loch'. Many speakers replace it with a plain ख, which is widely accepted.",
+          "gloss_en": "velar fricative kh",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["consonant", "nukta", "borrowed_sound", "fricative"],
+          "letter_form": "ख़",
+          "matra": null,
+          "sound_family": "nukta letters",
+          "contrasts_with": ["ख", "क़"],
+          "example_word": { "hindi": "ख़बर", "read_as": "ḳhabar", "english": "news" },
+          "cards": {
+            "learn": {
+              "title_en": "ख़ — the sound Module 1 told you to avoid",
+              "explanation_en": "When you learned ख, the warning was not to reach for the scraping sound of German 'Bach'. This is the letter that sound belongs to. The difference is real: ख is a stop released with breath, while ख़ never closes at all and scrapes continuously. As with क़, many speakers merge it with the undotted letter, so you will hear both.",
+              "examples": [
+                { "hindi": "ख़बर", "read_as": "ḳhabar", "english": "news", "note": "Common in conversation and unavoidable in newspapers." },
+                { "hindi": "ख़ुश", "read_as": "ḳhush", "english": "happy, pleased", "note": "The scrape at the front, then श at the end." },
+                { "hindi": "तारीख़", "read_as": "taariiḳh", "english": "date", "note": "The dotted letter closing a word." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen, then choose the letter used to spell this word.",
+              "question": "ख़बर",
+              "question_read_as": "ḳhabar",
+              "options": ["क", "क़", "ख़", "ग"],
+              "options_read_as": ["ka", "qa", "ḳha", "ga"],
+              "answer_index": 2,
+              "explanation_en": "The sound scrapes continuously instead of closing and releasing, which is what separates ख़ from the plain ख."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["ख़बर", "ख़ुश", "तारीख़", "भाई"],
+              "options_read_as": ["ḳhabar", "ḳhush", "taariiḳh", "bhaaii"],
+              "answer_index": 3,
+              "explanation_en": "भाई begins with भ, a stop released with breath. ख़ is a fricative — breathy in quality, but not an aspirated stop."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ख़", "ख़बर", "ख़ुश", "तारीख़"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L14-I3",
+          "type": "letter",
+          "target": "ग़",
+          "read_as": "ġa",
+          "pronunciation_notes": "The voiced partner of ख़ — the same scrape at the back of the mouth, with the vocal cords running. Close to a French r. Frequently replaced by a plain ग.",
+          "gloss_en": "voiced velar fricative gh",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["consonant", "nukta", "borrowed_sound", "fricative", "voiced"],
+          "letter_form": "ग़",
+          "matra": null,
+          "sound_family": "nukta letters",
+          "contrasts_with": ["ग", "ख़"],
+          "example_word": { "hindi": "ग़लत", "read_as": "ġalat", "english": "wrong, incorrect" },
+          "cards": {
+            "learn": {
+              "title_en": "ग़ — the voiced scrape",
+              "explanation_en": "ग़ is ख़ with voicing added: the same continuous scrape at the back of the mouth, with the vocal cords running through it. English speakers who know the French r in 'Paris' already have it. Like the other two dotted letters in this level, it is widely replaced by its undotted partner in ordinary speech, so ग़लत is heard both ways.",
+              "examples": [
+                { "hindi": "ग़लत", "read_as": "ġalat", "english": "wrong, incorrect", "note": "One of the most useful adjectives in the language." },
+                { "hindi": "ग़रीब", "read_as": "ġariib", "english": "poor", "note": "The same scrape, then the tap र." },
+                { "hindi": "बाग़", "read_as": "baaġ", "english": "garden", "note": "The dotted letter closing a word." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen, then choose the letter used to spell this word.",
+              "question": "ग़लत",
+              "question_read_as": "ġalat",
+              "options": ["ग़", "ख़", "घ", "क"],
+              "options_read_as": ["ġa", "ḳha", "gha", "ka"],
+              "answer_index": 0,
+              "explanation_en": "The sound is voiced and scrapes without closing, which is ग़. Its voiceless partner ख़ scrapes in the same place but with no voicing, and घ closes at the back of the mouth before releasing."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["ग़लत", "घर", "ग़रीब", "बाग़"],
+              "options_read_as": ["ġalat", "ghar", "ġariib", "baaġ"],
+              "answer_index": 1,
+              "explanation_en": "घर begins with घ, a stop released with breath. ग़ never closes at all, so it cannot be aspirated."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ग़", "ग़लत", "ग़रीब", "बाग़"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered क़, ख़ and ग़, three dotted letters from Persian and Arabic. All three are commonly merged with their undotted partners in speech, so they matter more for reading and spelling than for pronunciation.",
+        "key_forms": ["क़ीमत", "ख़बर", "ग़लत"],
+        "next_up_en": "Next: फ़, ड़ and ढ़ — the last three dotted letters, and the two flaps that appear in words you will meet every day."
+      }
+    },
+    {
+      "level": 15,
+      "title_en": "The last dotted letters",
+      "title_hi": "फ़ ड़ ढ़",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M02-L15-I1",
+          "type": "letter",
+          "target": "फ़",
+          "read_as": "fa",
+          "pronunciation_notes": "The f of English 'fan', made with the lower lip against the upper teeth. Its undotted partner फ is a p released with breath, made with both lips.",
+          "gloss_en": "labiodental fricative f",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["consonant", "nukta", "borrowed_sound", "fricative"],
+          "letter_form": "फ़",
+          "matra": null,
+          "sound_family": "nukta letters",
+          "contrasts_with": ["फ", "व"],
+          "example_word": { "hindi": "फ़ोन", "read_as": "fon", "english": "telephone" },
+          "cards": {
+            "learn": {
+              "title_en": "फ़ — the letter written for f",
+              "explanation_en": "फ़ is the f sound, and it is the letter Module 2 kept promising when it told you not to read फ as an f. The two are genuinely different: फ closes both lips and releases them with breath, while फ़ never closes at all, running air between the lower lip and the upper teeth. In practice many speakers pronounce both as f, and the boundary between the two letters is one of the softest in the writing system.",
+              "examples": [
+                { "hindi": "फ़ोन", "read_as": "fon", "english": "telephone", "note": "Borrowed from English, and spelt with the dotted letter." },
+                { "hindi": "साफ़", "read_as": "saaf", "english": "clean", "note": "The dotted letter closing a very common adjective." },
+                { "hindi": "तरफ़", "read_as": "taraf", "english": "side, direction", "note": "Used constantly for giving directions." }
+              ],
+              "common_error": {
+                "wrong": "फोन",
+                "right": "फ़ोन",
+                "why_en": "Without the dot the letter is a p released with breath. The undotted spelling is very common informally, but the dot is what marks the f."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound at the start of this word?",
+              "question": "फ़ोन",
+              "question_read_as": "fon",
+              "options": ["प", "फ़", "फ", "भ"],
+              "options_read_as": ["pa", "fa", "pha", "bha"],
+              "answer_index": 1,
+              "explanation_en": "The lips never meet — the air runs between the lower lip and the teeth — which makes it फ़ rather than फ."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which word begins with an aspirated consonant?",
+              "options": ["फूल", "फ़ोन", "साफ़", "तरफ़"],
+              "options_read_as": ["phuul", "fon", "saaf", "taraf"],
+              "answer_index": 0,
+              "explanation_en": "फूल begins with the undotted फ, a p released with breath. फ़ is a fricative and has no aspirated form."
+            }
+          },
+          "audio": {
+            "tts_strings": ["फ़", "फ़ोन", "साफ़", "तरफ़"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L15-I2",
+          "type": "letter",
+          "target": "ड़",
+          "read_as": "ṛa",
+          "pronunciation_notes": "A flap: the tongue curls back and then flicks forward, striking the roof of the mouth once. It never begins a word.",
+          "gloss_en": "retroflex flap",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["consonant", "nukta", "retroflex", "flap", "high_frequency"],
+          "letter_form": "ड़",
+          "matra": null,
+          "sound_family": "nukta letters",
+          "contrasts_with": ["ड", "ढ़"],
+          "example_word": { "hindi": "लड़का", "read_as": "laṛkaa", "english": "boy" },
+          "cards": {
+            "learn": {
+              "title_en": "ड़ — not trivia, but everyday vocabulary",
+              "explanation_en": "The other dotted letters mark borrowed sounds; ड़ is different. It is a native Hindi sound, it appears in some of the commonest words in the language, and it has no undotted equivalent. Where ड stops the air completely, ड़ flicks past: the tongue curls back and then snaps forward, touching the roof of the mouth for an instant. It never starts a word, so you will always meet it in the middle or at the end.",
+              "examples": [
+                { "hindi": "लड़का", "read_as": "laṛkaa", "english": "boy", "note": "One of the first nouns any course teaches, and it needs this letter." },
+                { "hindi": "बड़ा", "read_as": "baṛaa", "english": "big", "note": "An adjective you will use daily." },
+                { "hindi": "घड़ी", "read_as": "ghaṛii", "english": "watch, clock", "note": "Breathy घ at the front, the flap in the middle." }
+              ],
+              "common_error": {
+                "wrong": "लडका",
+                "right": "लड़का",
+                "why_en": "Without the dot the letter is the stop ड, which holds the air instead of flicking past it. Here the dot is not optional decoration."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound in the middle of this word?",
+              "question": "लड़का",
+              "question_read_as": "laṛkaa",
+              "options": ["ड", "द", "र", "ड़"],
+              "options_read_as": ["ḍa", "da", "ra", "ṛa"],
+              "answer_index": 3,
+              "explanation_en": "The tongue curls back and flicks forward once rather than stopping the air, which makes it the flap ड़ and not the stop ड."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which of these words contains the flap released with breath?",
+              "options": ["लड़का", "बड़ा", "पढ़ना", "घड़ी"],
+              "options_read_as": ["laṛkaa", "baṛaa", "paṛhnaa", "ghaṛii"],
+              "answer_index": 2,
+              "explanation_en": "पढ़ना has ढ़, the breathy flap. The other three have the plain flap ड़ — घड़ी has breath on its first letter, घ, but not on the flap."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ड़", "लड़का", "बड़ा", "घड़ी"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M02-L15-I3",
+          "type": "letter",
+          "target": "ढ़",
+          "read_as": "ṛha",
+          "pronunciation_notes": "The same flap as ड़ but released with breath. Like ड़ it never begins a word.",
+          "gloss_en": "aspirated retroflex flap",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["consonant", "nukta", "retroflex", "flap", "aspirated", "high_frequency"],
+          "letter_form": "ढ़",
+          "matra": null,
+          "sound_family": "nukta letters",
+          "contrasts_with": ["ड़", "ढ"],
+          "example_word": { "hindi": "पढ़ना", "read_as": "paṛhnaa", "english": "to read, to study" },
+          "cards": {
+            "learn": {
+              "title_en": "ढ़ — the last letter, and one you cannot avoid",
+              "explanation_en": "ढ़ is ड़ with breath released after the flap, and it closes the alphabet. Like ड़ it belongs to everyday Hindi rather than to borrowed vocabulary: पढ़ना, 'to read', is a verb you will use from your first week onwards, and बढ़ना, 'to increase', is close behind. Get the flap first and add the breath afterwards, rather than trying to build both at once.",
+              "examples": [
+                { "hindi": "पढ़ना", "read_as": "paṛhnaa", "english": "to read, to study", "note": "You will need this verb constantly, including to describe what you are doing now." },
+                { "hindi": "बढ़ना", "read_as": "baṛhnaa", "english": "to increase, to grow", "note": "The same breathy flap in the middle." },
+                { "hindi": "बूढ़ा", "read_as": "buuṛhaa", "english": "old (of a person)", "note": "Long ऊ, then the flap with breath." }
+              ],
+              "common_error": {
+                "wrong": "पढना",
+                "right": "पढ़ना",
+                "why_en": "Without the dot the letter is the stop ढ, which holds the air. The undotted spelling is common informally, but the two are different sounds."
+              }
+            },
+            "practice": {
+              "format": "sound_match",
+              "prompt_en": "Listen. Which letter makes the sound in the middle of this word?",
+              "question": "पढ़ना",
+              "question_read_as": "paṛhnaa",
+              "options": ["ड़", "ढ", "ढ़", "ड"],
+              "options_read_as": ["ṛa", "ḍha", "ṛha", "ḍa"],
+              "answer_index": 2,
+              "explanation_en": "The tongue flicks past rather than stopping, and breath follows — that combination belongs to ढ़ alone."
+            },
+            "game": {
+              "format": "spot_the_aspirate",
+              "question_en": "Which of these words contains the flap released with breath?",
+              "options": ["लड़का", "बड़ा", "घड़ी", "बढ़ना"],
+              "options_read_as": ["laṛkaa", "baṛaa", "ghaṛii", "baṛhnaa"],
+              "answer_index": 3,
+              "explanation_en": "बढ़ना has ढ़, the flap with breath after it. The other three have the plain flap ड़."
+            }
+          },
+          "audio": {
+            "tts_strings": ["ढ़", "पढ़ना", "बढ़ना", "बूढ़ा"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level finished the alphabet with फ़, ड़ and ढ़. The first marks a borrowed sound, but the two flaps are native Hindi and appear in everyday words like लड़का and पढ़ना, so their dots are not optional.",
+        "key_forms": ["फ़ोन", "लड़का", "पढ़ना"],
+        "next_up_en": "Module 3 turns from letters to how they combine: the matras in full, the stacked conjunct letters, and the rules governing which vowels are actually pronounced."
+      }
+    }
+  ]
+}

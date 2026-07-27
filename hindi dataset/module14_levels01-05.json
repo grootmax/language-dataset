@@ -1,0 +1,1618 @@
+{
+  "module": 14,
+  "module_name_en": "Connected Speech",
+  "module_name_hi": "जुड़े वाक्य",
+  "phase": 5,
+  "type": "grammar",
+  "batch": {
+    "levels_from": 1,
+    "levels_to": 5
+  },
+  "batch_note": "Every practice set in this batch includes the correlative-missing option among its distractors, because that is the error an English speaker actually makes. It is marked with is_the_english_error so the app can treat it differently if it wants to.",
+  "levels": [
+    {
+      "level": 1,
+      "title_en": "Hindi needs both halves",
+      "title_hi": "जो ... वह",
+      "items": [
+        {
+          "id": "M14-L01-I1",
+          "type": "grammar",
+          "structure": "jo_vah",
+          "target": "जो लड़का कल आया, वह मेरा भाई है।",
+          "read_as": "jo laṛkaa kal aayaa, vah meraa bhaaii hai.",
+          "english": "The boy who came yesterday is my brother.",
+          "difficulty": 6,
+          "tags": [
+            "relative_correlative",
+            "jo_vah",
+            "obligatory_correlative",
+            "concept_item"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जो opens; वह closes. You need both.",
+              "explanation_en": "English builds a relative clause inside the sentence: \"the boy who came yesterday is my brother\". Hindi builds it as two halves that answer each other — जो लड़का कल आया, वह मेरा भाई है, which is closer to \"which boy came yesterday, that one is my brother\". जो opens the first half and वह closes the second, and dropping वह is not an option. This is the single most reliable way to spot an English speaker writing Hindi, and it is worth over-correcting for a while.",
+              "examples": [
+                {
+                  "hindi": "जो लड़का कल आया, वह मेरा भाई है।",
+                  "read_as": "jo laṛkaa kal aayaa, vah meraa bhaaii hai.",
+                  "english": "The boy who came yesterday is my brother.",
+                  "note": "Two halves, two markers."
+                },
+                {
+                  "hindi": "जो आदमी बोल रहा है, वह हमारा टीचर है।",
+                  "read_as": "jo aadmii bol rahaa hai, vah hamaaraa ṭiichar hai.",
+                  "english": "The man who is speaking is our teacher.",
+                  "note": "Same shape, present tense."
+                },
+                {
+                  "hindi": "जो बच्चे बाहर हैं, वे मेरे नहीं हैं।",
+                  "read_as": "jo bacche baahar haiṁ, ve mere nahiiṁ haiṁ.",
+                  "english": "The children who are outside are not mine.",
+                  "note": "Plural: जो stays, and the correlative becomes वे."
+                }
+              ],
+              "common_error": {
+                "wrong": "जो लड़का कल आया, मेरा भाई है।",
+                "right": "जो लड़का कल आया, वह मेरा भाई है।",
+                "why_en": "The sentence is now missing its second half. English drops the correlative because it has no correlative to drop; Hindi does not have that option."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence.",
+              "sentences": [
+                "एक लड़का कल आया।",
+                "वह मेरा भाई है।"
+              ],
+              "sentences_read_as": [
+                "ek laṛkaa kal aayaa.",
+                "vah meraa bhaaii hai."
+              ],
+              "options": [
+                "जो लड़का कल आया, वह मेरा भाई है।",
+                "जो लड़का कल आया, मेरा भाई है।",
+                "लड़का जो कल आया वह मेरा भाई है।",
+                "वह लड़का कल आया और मेरा भाई है।"
+              ],
+              "options_read_as": [
+                "jo laṛkaa kal aayaa, vah meraa bhaaii hai.",
+                "jo laṛkaa kal aayaa, meraa bhaaii hai.",
+                "laṛkaa jo kal aayaa vah meraa bhaaii hai.",
+                "vah laṛkaa kal aayaa aur meraa bhaaii hai."
+              ],
+              "is_the_english_error": [
+                false,
+                true,
+                false,
+                false
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second option is the English shape with वह removed, and it is the error to watch for. The third puts जो after the noun, which is English word order. The fourth is two facts joined with और, not a relative clause at all."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "वह",
+                "जो लड़का",
+                "मेरा भाई है",
+                "कल आया"
+              ],
+              "answer": [
+                "जो लड़का",
+                "कल आया",
+                "वह",
+                "मेरा भाई है"
+              ],
+              "answer_read_as": "jo laṛkaa kal aayaa, vah meraa bhaaii hai.",
+              "explanation_en": "The जो half comes first and is complete before वह opens the second."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जो लड़का कल आया, वह मेरा भाई है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L01-I2",
+          "type": "grammar",
+          "structure": "jo_vah",
+          "target": "जो किताब मेज़ पर है, वह मेरी है।",
+          "read_as": "jo kitaab mez par hai, vah merii hai.",
+          "english": "The book on the table is mine.",
+          "difficulty": 6,
+          "tags": [
+            "relative_correlative",
+            "jo_vah",
+            "inanimate",
+            "gender_agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जो does not change for gender; the correlative does not either",
+              "explanation_en": "जो is the same for a boy, a book, one thing or many — it never inflects in the direct case. What does agree is everything else in the sentence: जो किताब मेज़ पर है, वह मेरी है, with मेरी feminine because किताब is. Notice too that English can compress this to \"the book on the table is mine\" with no relative pronoun at all. Hindi cannot: the two halves are the structure, and there is nothing to leave out.",
+              "examples": [
+                {
+                  "hindi": "जो किताब मेज़ पर है, वह मेरी है।",
+                  "read_as": "jo kitaab mez par hai, vah merii hai.",
+                  "english": "The book on the table is mine.",
+                  "note": "मेरी feminine, agreeing with किताब."
+                },
+                {
+                  "hindi": "जो कमरा ऊपर है, वह ख़ाली है।",
+                  "read_as": "jo kamraa uupar hai, vah ḳhaalii hai.",
+                  "english": "The room upstairs is empty.",
+                  "note": "Masculine, and जो is unchanged."
+                },
+                {
+                  "hindi": "जो चीज़ें बच गईं, वे यहाँ रख दो।",
+                  "read_as": "jo chiizeṁ bach gaiiṁ, ve yahaaṁ rakh do.",
+                  "english": "Put the things that are left over here.",
+                  "note": "Feminine plural, and the correlative is वे."
+                }
+              ],
+              "common_error": {
+                "wrong": "जी किताब मेज़ पर है",
+                "right": "जो किताब मेज़ पर है",
+                "why_en": "There is no feminine form of जो. Learners invent one by analogy with वह and वो."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence.",
+              "sentences": [
+                "एक किताब मेज़ पर है।",
+                "वह मेरी है।"
+              ],
+              "sentences_read_as": [
+                "ek kitaab mez par hai.",
+                "vah merii hai."
+              ],
+              "options": [
+                "जी किताब मेज़ पर है, वह मेरी है।",
+                "किताब जो मेज़ पर है मेरी है।",
+                "जो किताब मेज़ पर है, वह मेरी है।",
+                "जो किताब मेज़ पर है, मेरी है।"
+              ],
+              "options_read_as": [
+                "jii kitaab mez par hai, vah merii hai.",
+                "kitaab jo mez par hai merii hai.",
+                "jo kitaab mez par hai, vah merii hai.",
+                "jo kitaab mez par hai, merii hai."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                false,
+                true
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second drops वह. The third invents a feminine जो, which does not exist. The fourth uses English word order and drops the correlative as well."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "वह मेरी है",
+                "मेज़ पर है",
+                "जो किताब"
+              ],
+              "answer": [
+                "जो किताब",
+                "मेज़ पर है",
+                "वह मेरी है"
+              ],
+              "answer_read_as": "jo kitaab mez par hai, vah merii hai.",
+              "explanation_en": "जो and its noun stay together at the front."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जो किताब मेज़ पर है, वह मेरी है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L01-I3",
+          "type": "grammar",
+          "structure": "jo_vah",
+          "target": "जो आदमी वहाँ खड़ा है, वह डॉक्टर है।",
+          "read_as": "jo aadmii vahaaṁ khaṛaa hai, vah ḍôkṭar hai.",
+          "english": "The man standing over there is a doctor.",
+          "difficulty": 6,
+          "tags": [
+            "relative_correlative",
+            "jo_vah",
+            "obligatory_correlative",
+            "comma_rule"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Why the comma is doing real work",
+              "explanation_en": "In writing, the two halves are almost always separated by a comma, and in speech there is a small pause in the same place. That break is not decoration — it tells you where the जो half ends, and without it a long sentence becomes hard to parse. जो आदमी वहाँ खड़ा है, वह डॉक्टर है. Read the first half aloud and stop. Then the second half answers it. Once you hear the two halves as two, the structure stops feeling foreign.",
+              "examples": [
+                {
+                  "hindi": "जो आदमी वहाँ खड़ा है, वह डॉक्टर है।",
+                  "read_as": "jo aadmii vahaaṁ khaṛaa hai, vah ḍôkṭar hai.",
+                  "english": "The man standing over there is a doctor.",
+                  "note": "Pause at the comma."
+                },
+                {
+                  "hindi": "जो सामान बाहर पड़ा है, वह अंदर ले आओ।",
+                  "read_as": "jo saamaan baahar paṛaa hai, vah aṁdar le aao.",
+                  "english": "Bring in the things lying outside.",
+                  "note": "The second half can be a command."
+                },
+                {
+                  "hindi": "जो हुआ, वह अच्छा ही हुआ।",
+                  "read_as": "jo huaa, vah acchaa hii huaa.",
+                  "english": "What happened was for the best.",
+                  "note": "With no noun at all — जो alone means \"that which\"."
+                }
+              ],
+              "common_error": {
+                "wrong": "जो आदमी वहाँ खड़ा है डॉक्टर है।",
+                "right": "जो आदमी वहाँ खड़ा है, वह डॉक्टर है।",
+                "why_en": "Without वह there is no second half for the first half to attach to, and the sentence simply stops making sense."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence.",
+              "sentences": [
+                "एक आदमी वहाँ खड़ा है।",
+                "वह डॉक्टर है।"
+              ],
+              "sentences_read_as": [
+                "ek aadmii vahaaṁ khaṛaa hai.",
+                "vah ḍôkṭar hai."
+              ],
+              "options": [
+                "वहाँ खड़ा आदमी जो डॉक्टर है।",
+                "जो आदमी वहाँ खड़ा है, वह डॉक्टर है।",
+                "जो आदमी वहाँ खड़ा है डॉक्टर है।",
+                "आदमी जो वहाँ खड़ा है वह डॉक्टर है।"
+              ],
+              "options_read_as": [
+                "vahaaṁ khaṛaa aadmii jo ḍôkṭar hai.",
+                "jo aadmii vahaaṁ khaṛaa hai, vah ḍôkṭar hai.",
+                "jo aadmii vahaaṁ khaṛaa hai ḍôkṭar hai.",
+                "aadmii jo vahaaṁ khaṛaa hai vah ḍôkṭar hai."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                true,
+                false
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second is the correlative-missing error again. The third has English word order. The fourth is not a sentence at all — it never finishes."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "वहाँ खड़ा है",
+                "वह डॉक्टर है",
+                "जो आदमी"
+              ],
+              "answer": [
+                "जो आदमी",
+                "वहाँ खड़ा है",
+                "वह डॉक्टर है"
+              ],
+              "answer_read_as": "jo aadmii vahaaṁ khaṛaa hai, vah ḍôkṭar hai.",
+              "explanation_en": "Complete the जो half, then answer it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जो आदमी वहाँ खड़ा है, वह डॉक्टर है।",
+              "जो हुआ, वह अच्छा ही हुआ।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Hindi builds a relative clause as two halves that answer each other: जो opens and वह closes. English has nothing to close with, so an English speaker drops वह — and that single omission is the commonest error in this whole module. जो itself never inflects in the direct case.",
+        "key_forms": [
+          "जो ... वह",
+          "जो ... वे",
+          "जो हुआ, वह"
+        ],
+        "next_up_en": "Next: वही for emphasis, and what happens when the halves swap places."
+      }
+    },
+    {
+      "level": 2,
+      "title_en": "Emphasis and order",
+      "title_hi": "वही · क्रम",
+      "items": [
+        {
+          "id": "M14-L02-I1",
+          "type": "grammar",
+          "structure": "jo_vah",
+          "target": "जो कल कहा था, वही आज भी कहता हूँ।",
+          "read_as": "jo kal kahaa thaa, vahii aaj bhii kahtaa huuṁ.",
+          "english": "What I said yesterday is what I am still saying today.",
+          "difficulty": 7,
+          "tags": [
+            "relative_correlative",
+            "vahii",
+            "hii_particle",
+            "emphasis"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "वही — that very thing, and no other",
+              "explanation_en": "वह plus ही gives वही, and in the second half of a relative sentence it narrows the answer to exactly one thing: जो कल कहा था, वही आज भी कहता हूँ — what I said yesterday is precisely what I say today. English does this with stress on a word or with a phrase like \"the very same\"; Hindi does it with a syllable. The same applies to the other correlatives: वहीं, उसी, उन्हीं.",
+              "examples": [
+                {
+                  "hindi": "जो कल कहा था, वही आज भी कहता हूँ।",
+                  "read_as": "jo kal kahaa thaa, vahii aaj bhii kahtaa huuṁ.",
+                  "english": "What I said yesterday is what I still say today.",
+                  "note": "वही narrows it to that and nothing else."
+                },
+                {
+                  "hindi": "जो चाहिए था, वही मिल गया।",
+                  "read_as": "jo chaahie thaa, vahii mil gayaa.",
+                  "english": "I got exactly what I wanted.",
+                  "note": "Without ही this would only say \"I got what I wanted\"."
+                },
+                {
+                  "hindi": "जिस दुकान से लिया था, उसी में लौटा दो।",
+                  "read_as": "jis dukaan se liyaa thaa, usii meṁ lauṭaa do.",
+                  "english": "Return it to the very shop you bought it from.",
+                  "note": "उसी — the oblique correlative with ही, which the next level covers properly."
+                }
+              ],
+              "common_error": {
+                "wrong": "जो कल कहा था, वह ही आज भी कहता हूँ।",
+                "right": "जो कल कहा था, वही आज भी कहता हूँ।",
+                "why_en": "वह and ही fuse into वही. Writing them apart is not wrong so much as never done."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these so that the second half means exactly that thing.",
+              "sentences": [
+                "मैंने कल कुछ कहा था।",
+                "आज भी मैं वही कहता हूँ।"
+              ],
+              "sentences_read_as": [
+                "maiṁne kal kuchh kahaa thaa.",
+                "aaj bhii maiṁ vahii kahtaa huuṁ."
+              ],
+              "options": [
+                "जो कल कहा था, आज भी कहता हूँ।",
+                "जो कल कहा था, वह ही आज भी कहता हूँ।",
+                "कल जो कहा था वो आज कहता हूँ ही।",
+                "जो कल कहा था, वही आज भी कहता हूँ।"
+              ],
+              "options_read_as": [
+                "jo kal kahaa thaa, aaj bhii kahtaa huuṁ.",
+                "jo kal kahaa thaa, vah hii aaj bhii kahtaa huuṁ.",
+                "kal jo kahaa thaa vo aaj kahtaa huuṁ hii.",
+                "jo kal kahaa thaa, vahii aaj bhii kahtaa huuṁ."
+              ],
+              "is_the_english_error": [
+                true,
+                false,
+                false,
+                false
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second drops the correlative entirely. The third writes वह ही unfused. The fourth puts ही at the end, where it emphasises the wrong word."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "आज भी कहता हूँ",
+                "जो कल",
+                "वही",
+                "कहा था"
+              ],
+              "answer": [
+                "जो कल",
+                "कहा था",
+                "वही",
+                "आज भी कहता हूँ"
+              ],
+              "answer_read_as": "jo kal kahaa thaa, vahii aaj bhii kahtaa huuṁ.",
+              "explanation_en": "वही opens the second half, immediately after the comma."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जो कल कहा था, वही आज भी कहता हूँ।",
+              "जो चाहिए था, वही मिल गया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L02-I2",
+          "type": "grammar",
+          "structure": "jo_vah",
+          "target": "वह किताब कहाँ है जो मैंने कल दी थी?",
+          "read_as": "vah kitaab kahaaṁ hai jo maiṁne kal dii thii?",
+          "english": "Where is the book I gave you yesterday?",
+          "difficulty": 7,
+          "tags": [
+            "relative_correlative",
+            "word_order",
+            "postposed_clause",
+            "questions"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The जो half can come second — and then it is the tail",
+              "explanation_en": "The default is जो first, वह second. But the order can reverse, and in questions it very often does: वह किताब कहाँ है जो मैंने कल दी थी? Here the main clause comes first, complete, and the जो clause trails after it as extra information. Both orders are correct and they are not quite equivalent — putting जो first frames the whole sentence around identifying something, while putting it last adds a detail to a sentence that already stands.",
+              "examples": [
+                {
+                  "hindi": "वह किताब कहाँ है जो मैंने कल दी थी?",
+                  "read_as": "vah kitaab kahaaṁ hai jo maiṁne kal dii thii?",
+                  "english": "Where is the book I gave you yesterday?",
+                  "note": "The question is complete before जो arrives."
+                },
+                {
+                  "hindi": "जो किताब मैंने कल दी थी, वह कहाँ है?",
+                  "read_as": "jo kitaab maiṁne kal dii thii, vah kahaaṁ hai?",
+                  "english": "The book I gave you yesterday — where is it?",
+                  "note": "The same content, framed the other way round."
+                },
+                {
+                  "hindi": "मुझे वो आदमी पसंद है जो सच बोलता है।",
+                  "read_as": "mujhe vo aadmii pasaṁd hai jo sach boltaa hai.",
+                  "english": "I like a man who tells the truth.",
+                  "note": "Postposed, and completely idiomatic."
+                }
+              ],
+              "common_error": {
+                "wrong": "किताब कहाँ है जो मैंने कल दी थी?",
+                "right": "वह किताब कहाँ है जो मैंने कल दी थी?",
+                "why_en": "Even when the जो clause comes second, the correlative is still needed in front. Reversing the order does not let you drop it."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these, keeping the question first.",
+              "sentences": [
+                "वह किताब कहाँ है?",
+                "मैंने वह किताब कल दी थी।"
+              ],
+              "sentences_read_as": [
+                "vah kitaab kahaaṁ hai?",
+                "maiṁne vah kitaab kal dii thii."
+              ],
+              "options": [
+                "कहाँ है वह किताब मैंने कल दी थी जो?",
+                "जो किताब कहाँ है मैंने कल दी थी?",
+                "वह किताब कहाँ है जो मैंने कल दी थी?",
+                "किताब कहाँ है जो मैंने कल दी थी?"
+              ],
+              "options_read_as": [
+                "kahaaṁ hai vah kitaab maiṁne kal dii thii jo?",
+                "jo kitaab kahaaṁ hai maiṁne kal dii thii?",
+                "vah kitaab kahaaṁ hai jo maiṁne kal dii thii?",
+                "kitaab kahaaṁ hai jo maiṁne kal dii thii?"
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                false,
+                true
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second drops वह, which is still required in this order. The third strands जो at the end. The fourth interleaves the two halves, which Hindi does not do."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "जो मैंने",
+                "वह किताब",
+                "कल दी थी",
+                "कहाँ है"
+              ],
+              "answer": [
+                "वह किताब",
+                "कहाँ है",
+                "जो मैंने",
+                "कल दी थी"
+              ],
+              "answer_read_as": "vah kitaab kahaaṁ hai jo maiṁne kal dii thii?",
+              "explanation_en": "The question finishes first; the जो clause is a tail."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह किताब कहाँ है जो मैंने कल दी थी?",
+              "मुझे वो आदमी पसंद है जो सच बोलता है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L02-I3",
+          "type": "grammar",
+          "structure": "jo_vah",
+          "target": "जो लड़की गा रही थी, वह लड़की मेरी बहन है।",
+          "read_as": "jo laṛkii gaa rahii thii, vah laṛkii merii bahan hai.",
+          "english": "The girl who was singing is my sister.",
+          "difficulty": 7,
+          "tags": [
+            "relative_correlative",
+            "noun_repetition",
+            "redundancy_allowed"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The noun may appear in both halves, and often does",
+              "explanation_en": "जो लड़की गा रही थी, वह लड़की मेरी बहन है — with लड़की said twice. To an English ear that sounds redundant, and in English it would be. In Hindi it is normal, and it is especially common when the two halves are long or when several things are under discussion, because repeating the noun makes clear which one the second half is talking about. Saying it once, with वह alone, is equally correct and slightly lighter.",
+              "examples": [
+                {
+                  "hindi": "जो लड़की गा रही थी, वह लड़की मेरी बहन है।",
+                  "read_as": "jo laṛkii gaa rahii thii, vah laṛkii merii bahan hai.",
+                  "english": "The girl who was singing is my sister.",
+                  "note": "Noun repeated. Completely natural."
+                },
+                {
+                  "hindi": "जो लड़की गा रही थी, वह मेरी बहन है।",
+                  "read_as": "jo laṛkii gaa rahii thii, vah merii bahan hai.",
+                  "english": "The girl who was singing is my sister.",
+                  "note": "Noun said once. Also correct, and a shade lighter."
+                },
+                {
+                  "hindi": "जिस दिन वो आए, उस दिन बहुत बारिश हुई।",
+                  "read_as": "jis din vo aae, us din bahut baarish huii.",
+                  "english": "It rained hard on the day he came.",
+                  "note": "With दिन the repetition is not optional — this is the standard shape."
+                }
+              ],
+              "common_error": {
+                "wrong": "जो लड़की गा रही थी, लड़की मेरी बहन है।",
+                "right": "जो लड़की गा रही थी, वह लड़की मेरी बहन है।",
+                "why_en": "Repeating the noun does not replace the correlative. You may have both or just वह, but never the noun on its own."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these, repeating the noun in the second half.",
+              "sentences": [
+                "एक लड़की गा रही थी।",
+                "वह लड़की मेरी बहन है।"
+              ],
+              "sentences_read_as": [
+                "ek laṛkii gaa rahii thii.",
+                "vah laṛkii merii bahan hai."
+              ],
+              "options": [
+                "जो लड़की गा रही थी, वह लड़की मेरी बहन है।",
+                "जो लड़की गा रही थी, लड़की मेरी बहन है।",
+                "जो गा रही थी लड़की, वह मेरी बहन है।",
+                "लड़की जो गा रही थी मेरी बहन है।"
+              ],
+              "options_read_as": [
+                "jo laṛkii gaa rahii thii, vah laṛkii merii bahan hai.",
+                "jo laṛkii gaa rahii thii, laṛkii merii bahan hai.",
+                "jo gaa rahii thii laṛkii, vah merii bahan hai.",
+                "laṛkii jo gaa rahii thii merii bahan hai."
+              ],
+              "is_the_english_error": [
+                false,
+                true,
+                false,
+                false
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second has the noun but no correlative, which is the same error wearing a disguise. The third separates जो from its noun. The fourth is English word order with no correlative at all."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "वह लड़की",
+                "गा रही थी",
+                "जो लड़की",
+                "मेरी बहन है"
+              ],
+              "answer": [
+                "जो लड़की",
+                "गा रही थी",
+                "वह लड़की",
+                "मेरी बहन है"
+              ],
+              "answer_read_as": "jo laṛkii gaa rahii thii, vah laṛkii merii bahan hai.",
+              "explanation_en": "जो and वह each stay attached to their own copy of the noun."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जो लड़की गा रही थी, वह लड़की मेरी बहन है।",
+              "जिस दिन वो आए, उस दिन बहुत बारिश हुई।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "वही narrows the answer to that and nothing else. The two halves can swap order, and in questions they often do — but reversing them does not let you drop the correlative. And the noun may be repeated in both halves, which sounds redundant in English and is ordinary in Hindi.",
+        "key_forms": [
+          "वही",
+          "... है जो ...",
+          "जो लड़की ... वह लड़की"
+        ],
+        "next_up_en": "Next: what happens to जो when a postposition follows it."
+      }
+    },
+    {
+      "level": 3,
+      "title_en": "जो goes oblique",
+      "title_hi": "जिसे · जिससे · जिसका",
+      "items": [
+        {
+          "id": "M14-L03-I1",
+          "type": "grammar",
+          "structure": "jis_forms",
+          "target": "जिसे तुम ढूँढ रहे हो, वह चला गया।",
+          "read_as": "jise tum ḍhuuṁḍh rahe ho, vah chalaa gayaa.",
+          "english": "The person you are looking for has gone.",
+          "difficulty": 8,
+          "tags": [
+            "relative_correlative",
+            "jis_forms",
+            "oblique",
+            "ko_form",
+            "module6_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जो becomes जिस before a postposition — exactly like यह and वह",
+              "explanation_en": "You already know that यह goes oblique to इस and वह to उस when a postposition follows. जो does the same, becoming जिस — and जिस plus को fuses into जिसे, just as उस plus को gives उसे. So जिसे तुम ढूँढ रहे हो, वह चला गया: the one whom you are seeking has gone. The whole जिस- family is the oblique of जो and nothing more, which means Module 6 already taught you the pattern.",
+              "examples": [
+                {
+                  "hindi": "जिसे तुम ढूँढ रहे हो, वह चला गया।",
+                  "read_as": "jise tum ḍhuuṁḍh rahe ho, vah chalaa gayaa.",
+                  "english": "The person you are looking for has gone.",
+                  "note": "जिसे is जिस plus को."
+                },
+                {
+                  "hindi": "जिस लड़के को मैंने बुलाया, वह नहीं आया।",
+                  "read_as": "jis laṛke ko maiṁne bulaayaa, vah nahiiṁ aayaa.",
+                  "english": "The boy I called did not come.",
+                  "note": "With a noun, को stays separate — and लड़का goes oblique too."
+                },
+                {
+                  "hindi": "जिसे देखो, वही परेशान है।",
+                  "read_as": "jise dekho, vahii pareshaan hai.",
+                  "english": "Everyone you look at is worried.",
+                  "note": "A fixed idiom: जिसे देखो, वही — whoever you look at."
+                }
+              ],
+              "common_error": {
+                "wrong": "जो को तुम ढूँढ रहे हो",
+                "right": "जिसे तुम ढूँढ रहे हो",
+                "why_en": "जो cannot stand before a postposition any more than वह can. It has to go oblique first."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence.",
+              "sentences": [
+                "तुम किसी को ढूँढ रहे हो।",
+                "वह चला गया।"
+              ],
+              "sentences_read_as": [
+                "tum kisii ko ḍhuuṁḍh rahe ho.",
+                "vah chalaa gayaa."
+              ],
+              "options": [
+                "जिसे तुम ढूँढ रहे हो, चला गया।",
+                "जो को तुम ढूँढ रहे हो, वह चला गया।",
+                "जो तुम ढूँढ रहे हो, वह चला गया।",
+                "जिसे तुम ढूँढ रहे हो, वह चला गया।"
+              ],
+              "options_read_as": [
+                "jise tum ḍhuuṁḍh rahe ho, chalaa gayaa.",
+                "jo ko tum ḍhuuṁḍh rahe ho, vah chalaa gayaa.",
+                "jo tum ḍhuuṁḍh rahe ho, vah chalaa gayaa.",
+                "jise tum ḍhuuṁḍh rahe ho, vah chalaa gayaa."
+              ],
+              "is_the_english_error": [
+                true,
+                false,
+                false,
+                false
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second drops the correlative. The third leaves जो in the direct case before को. The fourth omits को altogether, which would be right for a thing but not for a person you are searching for."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "वह चला गया",
+                "ढूँढ रहे हो",
+                "जिसे तुम"
+              ],
+              "answer": [
+                "जिसे तुम",
+                "ढूँढ रहे हो",
+                "वह चला गया"
+              ],
+              "answer_read_as": "jise tum ḍhuuṁḍh rahe ho, vah chalaa gayaa.",
+              "explanation_en": "जिसे opens the first half."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जिसे तुम ढूँढ रहे हो, वह चला गया।",
+              "जिसे देखो, वही परेशान है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L03-I2",
+          "type": "grammar",
+          "structure": "jis_forms",
+          "target": "जिससे मैंने बात की, वह मैनेजर था।",
+          "read_as": "jisse maiṁne baat kii, vah mainejar thaa.",
+          "english": "The person I spoke to was the manager.",
+          "difficulty": 8,
+          "tags": [
+            "relative_correlative",
+            "jis_forms",
+            "se_form",
+            "callback_m12"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जिससे — and se doing every job it already does",
+              "explanation_en": "जिस plus से fuses into जिससे, and it carries all of से's jobs at once. जिससे मैंने बात की is the person I spoke with, because बात करना takes से. जिससे यह बना है is what it is made from. जिससे वो डरता है is what he is afraid of. The relative pronoun does not add a meaning — it simply carries whichever meaning से already had in the sentence you started from.",
+              "examples": [
+                {
+                  "hindi": "जिससे मैंने बात की, वह मैनेजर था।",
+                  "read_as": "jisse maiṁne baat kii, vah mainejar thaa.",
+                  "english": "The person I spoke to was the manager.",
+                  "note": "से for the person you speak with, from Module 12."
+                },
+                {
+                  "hindi": "जिस चाबी से ताला खुला, वह खो गई।",
+                  "read_as": "jis chaabii se taalaa khulaa, vah kho gaii.",
+                  "english": "The key that opened the lock has been lost.",
+                  "note": "With a noun, से stays separate."
+                },
+                {
+                  "hindi": "जिससे डर लगता है, वही होता है।",
+                  "read_as": "jisse ḍar lagtaa hai, vahii hotaa hai.",
+                  "english": "The thing you fear is the thing that happens.",
+                  "note": "से for the cause of fear, and वही narrowing it."
+                }
+              ],
+              "common_error": {
+                "wrong": "जिसको मैंने बात की",
+                "right": "जिससे मैंने बात की",
+                "why_en": "बात करना takes से, not को. The relative form has to match the postposition the verb demands."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence.",
+              "sentences": [
+                "मैंने किसी से बात की।",
+                "वह मैनेजर था।"
+              ],
+              "sentences_read_as": [
+                "maiṁne kisii se baat kii.",
+                "vah mainejar thaa."
+              ],
+              "options": [
+                "जो से मैंने बात की, वह मैनेजर था।",
+                "जिससे मैंने बात की, वह मैनेजर था।",
+                "जिससे मैंने बात की, मैनेजर था।",
+                "जिसको मैंने बात की, वह मैनेजर था।"
+              ],
+              "options_read_as": [
+                "jo se maiṁne baat kii, vah mainejar thaa.",
+                "jisse maiṁne baat kii, vah mainejar thaa.",
+                "jisse maiṁne baat kii, mainejar thaa.",
+                "jisko maiṁne baat kii, vah mainejar thaa."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                true,
+                false
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second drops the correlative. The third uses को where the verb needs से. The fourth leaves जो in the direct case."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "मैंने बात की",
+                "वह मैनेजर था",
+                "जिससे"
+              ],
+              "answer": [
+                "जिससे",
+                "मैंने बात की",
+                "वह मैनेजर था"
+              ],
+              "answer_read_as": "jisse maiṁne baat kii, vah mainejar thaa.",
+              "explanation_en": "जिससे comes first and the rest of its clause follows."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जिससे मैंने बात की, वह मैनेजर था।",
+              "जिस चाबी से ताला खुला, वह खो गई।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L03-I3",
+          "type": "grammar",
+          "structure": "jis_forms",
+          "target": "जिसका बेटा डॉक्टर है, वह मेरी पड़ोसन हैं।",
+          "read_as": "jiskaa beṭaa ḍôkṭar hai, vah merii paṛosan haiṁ.",
+          "english": "The woman whose son is a doctor is my neighbour.",
+          "difficulty": 8,
+          "tags": [
+            "relative_correlative",
+            "jis_forms",
+            "kaa_form",
+            "agreement_trap"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जिसका agrees with what is possessed, not with the possessor",
+              "explanation_en": "जिस plus का gives जिसका, whose — and like every genitive in Hindi it agrees with the thing possessed. जिसका बेटा is whose son, masculine because बेटा is; जिसकी बेटी is whose daughter. The possessor's own gender makes no difference at all, which is why जिसका बेटा डॉक्टर है, वह मेरी पड़ोसन हैं works with a woman as the possessor and का as the ending. This is Module 6's rule about का, applied to a relative pronoun.",
+              "examples": [
+                {
+                  "hindi": "जिसका बेटा डॉक्टर है, वह मेरी पड़ोसन हैं।",
+                  "read_as": "jiskaa beṭaa ḍôkṭar hai, vah merii paṛosan haiṁ.",
+                  "english": "The woman whose son is a doctor is my neighbour.",
+                  "note": "का for बेटा, though the possessor is a woman."
+                },
+                {
+                  "hindi": "जिसकी गाड़ी बाहर खड़ी है, वो अंदर बैठे हैं।",
+                  "read_as": "jiskii gaaṛii baahar khaṛii hai, vo aṁdar baiṭhe haiṁ.",
+                  "english": "The person whose car is parked outside is sitting inside.",
+                  "note": "की for गाड़ी, feminine."
+                },
+                {
+                  "hindi": "जिनके बच्चे यहाँ पढ़ते हैं, वे कल आएँगे।",
+                  "read_as": "jinke bacche yahaaṁ paṛhte haiṁ, ve kal aaeṁge.",
+                  "english": "Those whose children study here will come tomorrow.",
+                  "note": "Plural possessor, so जिनके — the next level covers this."
+                }
+              ],
+              "common_error": {
+                "wrong": "जिसकी बेटा डॉक्टर है",
+                "right": "जिसका बेटा डॉक्टर है",
+                "why_en": "The ending follows बेटा, not the woman. Learners match it to the person they are describing, which is exactly backwards."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence.",
+              "sentences": [
+                "एक महिला का बेटा डॉक्टर है।",
+                "वह मेरी पड़ोसन हैं।"
+              ],
+              "sentences_read_as": [
+                "ek mahilaa kaa beṭaa ḍôkṭar hai.",
+                "vah merii paṛosan haiṁ."
+              ],
+              "options": [
+                "जिसका बेटा डॉक्टर है, वह मेरी पड़ोसन हैं।",
+                "जिसका बेटा डॉक्टर है, मेरी पड़ोसन हैं।",
+                "जिसकी बेटा डॉक्टर है, वह मेरी पड़ोसन हैं।",
+                "जो का बेटा डॉक्टर है, वह मेरी पड़ोसन हैं।"
+              ],
+              "options_read_as": [
+                "jiskaa beṭaa ḍôkṭar hai, vah merii paṛosan haiṁ.",
+                "jiskaa beṭaa ḍôkṭar hai, merii paṛosan haiṁ.",
+                "jiskii beṭaa ḍôkṭar hai, vah merii paṛosan haiṁ.",
+                "jo kaa beṭaa ḍôkṭar hai, vah merii paṛosan haiṁ."
+              ],
+              "is_the_english_error": [
+                false,
+                true,
+                false,
+                false
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second drops the correlative. The third matches the ending to the woman instead of to her son. The fourth leaves जो in the direct case."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "वह मेरी पड़ोसन हैं",
+                "जिसका बेटा",
+                "डॉक्टर है"
+              ],
+              "answer": [
+                "जिसका बेटा",
+                "डॉक्टर है",
+                "वह मेरी पड़ोसन हैं"
+              ],
+              "answer_read_as": "jiskaa beṭaa ḍôkṭar hai, vah merii paṛosan haiṁ.",
+              "explanation_en": "जिसका and its noun stay together."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जिसका बेटा डॉक्टर है, वह मेरी पड़ोसन हैं।",
+              "जिसकी गाड़ी बाहर खड़ी है, वो अंदर बैठे हैं।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "जो goes oblique to जिस before a postposition, exactly as यह goes to इस and वह to उस. जिस plus को fuses to जिसे and जिस plus से to जिससे. And जिसका agrees with the thing possessed, never with the possessor — Module 6's rule, in a new place.",
+        "key_forms": [
+          "जिसे",
+          "जिससे",
+          "जिसका"
+        ],
+        "next_up_en": "Next: जिसमें, the plural जिन- forms, and a drill that makes you choose."
+      }
+    },
+    {
+      "level": 4,
+      "title_en": "Plurals, and choosing the form",
+      "title_hi": "जिसमें · जिन ...",
+      "items": [
+        {
+          "id": "M14-L04-I1",
+          "type": "grammar",
+          "structure": "jis_forms",
+          "target": "जिस कमरे में हम बैठे थे, वह अब बंद है।",
+          "read_as": "jis kamre meṁ ham baiṭhe the, vah ab baṁd hai.",
+          "english": "The room we were sitting in is closed now.",
+          "difficulty": 8,
+          "tags": [
+            "relative_correlative",
+            "jis_forms",
+            "meṁ_form",
+            "double_oblique"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जिस कमरे में — two words going oblique at once",
+              "explanation_en": "When जिस comes with a noun and a postposition, both of them go oblique: जिस कमरे में, not जिस कमरा में. That is the same double movement as इस कमरे में and उस कमरे में from Module 6 — the postposition acts on the whole phrase, so everything in front of it moves. Without a noun the two fuse instead: जिसमें, in which. Both are common and the presence of a noun is what decides.",
+              "examples": [
+                {
+                  "hindi": "जिस कमरे में हम बैठे थे, वह अब बंद है।",
+                  "read_as": "jis kamre meṁ ham baiṭhe the, vah ab baṁd hai.",
+                  "english": "The room we were sitting in is closed now.",
+                  "note": "जिस and कमरा both oblique."
+                },
+                {
+                  "hindi": "जिसमें सबसे कम भीड़ हो, वही चुन लो।",
+                  "read_as": "jismeṁ sabse kam bhiiṛ ho, vahii chun lo.",
+                  "english": "Pick whichever has the smallest crowd.",
+                  "note": "No noun, so जिस and में fuse."
+                },
+                {
+                  "hindi": "जिस दिन वो आए, उस दिन छुट्टी थी।",
+                  "read_as": "jis din vo aae, us din chhuṭṭii thii.",
+                  "english": "The day he came was a holiday.",
+                  "note": "दिन looks unchanged because it is a class-2 noun, but it is oblique all the same."
+                }
+              ],
+              "common_error": {
+                "wrong": "जिस कमरा में हम बैठे थे",
+                "right": "जिस कमरे में हम बैठे थे",
+                "why_en": "The postposition puts the whole phrase into the oblique, so कमरा becomes कमरे. This is Module 6, not something new."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence.",
+              "sentences": [
+                "हम एक कमरे में बैठे थे।",
+                "वह कमरा अब बंद है।"
+              ],
+              "sentences_read_as": [
+                "ham ek kamre meṁ baiṭhe the.",
+                "vah kamraa ab baṁd hai."
+              ],
+              "options": [
+                "जिस कमरा में हम बैठे थे, वह अब बंद है।",
+                "जो कमरे में हम बैठे थे, वह अब बंद है।",
+                "जिस कमरे में हम बैठे थे, वह अब बंद है।",
+                "जिस कमरे में हम बैठे थे, अब बंद है।"
+              ],
+              "options_read_as": [
+                "jis kamraa meṁ ham baiṭhe the, vah ab baṁd hai.",
+                "jo kamre meṁ ham baiṭhe the, vah ab baṁd hai.",
+                "jis kamre meṁ ham baiṭhe the, vah ab baṁd hai.",
+                "jis kamre meṁ ham baiṭhe the, ab baṁd hai."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                false,
+                true
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second drops the correlative. The third leaves कमरा in the direct case. The fourth leaves जो in the direct case while obliquing the noun — half the job done."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "वह अब बंद है",
+                "जिस कमरे में",
+                "हम बैठे थे"
+              ],
+              "answer": [
+                "जिस कमरे में",
+                "हम बैठे थे",
+                "वह अब बंद है"
+              ],
+              "answer_read_as": "jis kamre meṁ ham baiṭhe the, vah ab baṁd hai.",
+              "explanation_en": "The whole oblique phrase stays together at the front."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जिस कमरे में हम बैठे थे, वह अब बंद है।",
+              "जिस दिन वो आए, उस दिन छुट्टी थी।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L04-I2",
+          "type": "grammar",
+          "structure": "jin_forms",
+          "target": "जिन लोगों ने मदद की, उन्हें धन्यवाद।",
+          "read_as": "jin logoṁ ne madad kii, unheṁ dhanyavaad.",
+          "english": "Thank you to the people who helped.",
+          "difficulty": 9,
+          "tags": [
+            "relative_correlative",
+            "jin_forms",
+            "plural",
+            "ne_construction",
+            "module9_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जिन- is the plural oblique, and it takes ने like anything else",
+              "explanation_en": "The plural oblique of जो is जिन, and it fuses the same way: जिन्हें, जिन्होंने, जिनका, जिनसे. जिन लोगों ने मदद की, उन्हें धन्यवाद — the people who helped, thanks to them. Two things worth noticing. लोग goes oblique to लोगों because ने follows it, which is the Module 12 point about ने being an ordinary postposition. And the correlative here is उन्हें rather than वे, because it too is oblique.",
+              "examples": [
+                {
+                  "hindi": "जिन लोगों ने मदद की, उन्हें धन्यवाद।",
+                  "read_as": "jin logoṁ ne madad kii, unheṁ dhanyavaad.",
+                  "english": "Thanks to the people who helped.",
+                  "note": "Both halves oblique, both plural."
+                },
+                {
+                  "hindi": "जिन्होंने फ़ॉर्म भरा है, वे अंदर आ जाएँ।",
+                  "read_as": "jinhoṁne fôrm bharaa hai, ve aṁdar aa jaaeṁ.",
+                  "english": "Those who have filled in the form may come in.",
+                  "note": "जिन्होंने with no noun — the fused ने form."
+                },
+                {
+                  "hindi": "जिनके बच्चे छोटे हैं, उन्हें पहले भेजो।",
+                  "read_as": "jinke bacche chhoṭe haiṁ, unheṁ pahle bhejo.",
+                  "english": "Send those with small children first.",
+                  "note": "जिनके for the plural possessive."
+                }
+              ],
+              "common_error": {
+                "wrong": "जिन लोगों ने मदद की, वे धन्यवाद।",
+                "right": "जिन लोगों ने मदद की, उन्हें धन्यवाद।",
+                "why_en": "धन्यवाद goes to somebody, so the correlative needs को — उन्हें. The correlative takes whatever case the second half requires, independently of the first."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence.",
+              "sentences": [
+                "कुछ लोगों ने मदद की।",
+                "उन्हें धन्यवाद।"
+              ],
+              "sentences_read_as": [
+                "kuchh logoṁ ne madad kii.",
+                "unheṁ dhanyavaad."
+              ],
+              "options": [
+                "जो लोगों ने मदद की, उन्हें धन्यवाद।",
+                "जिन लोगों ने मदद की, उन्हें धन्यवाद।",
+                "जिन लोगों ने मदद की, धन्यवाद।",
+                "जिन लोगों ने मदद की, वे धन्यवाद।"
+              ],
+              "options_read_as": [
+                "jo logoṁ ne madad kii, unheṁ dhanyavaad.",
+                "jin logoṁ ne madad kii, unheṁ dhanyavaad.",
+                "jin logoṁ ne madad kii, dhanyavaad.",
+                "jin logoṁ ne madad kii, ve dhanyavaad."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                true,
+                false
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second drops the correlative. The third uses the direct वे where the second half needs को. The fourth leaves जो in the direct case before an oblique noun."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "उन्हें धन्यवाद",
+                "मदद की",
+                "जिन लोगों ने"
+              ],
+              "answer": [
+                "जिन लोगों ने",
+                "मदद की",
+                "उन्हें धन्यवाद"
+              ],
+              "answer_read_as": "jin logoṁ ne madad kii, unheṁ dhanyavaad.",
+              "explanation_en": "The ने phrase opens, and the correlative half answers with को."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जिन लोगों ने मदद की, उन्हें धन्यवाद।",
+              "जिन्होंने फ़ॉर्म भरा है, वे अंदर आ जाएँ।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L04-I3",
+          "type": "grammar",
+          "structure": "jis_forms",
+          "target": "जिस दुकान से सामान लिया, वह बंद हो गई।",
+          "read_as": "jis dukaan se saamaan liyaa, vah baṁd ho gaii.",
+          "english": "The shop we bought the things from has closed.",
+          "difficulty": 9,
+          "tags": [
+            "relative_correlative",
+            "mixed_drill",
+            "form_choice",
+            "jis_forms"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Choosing the form: ask what the first half needs",
+              "explanation_en": "The whole जिस- family comes down to one question — what postposition would the first half have used on its own? हमने उस दुकान से सामान लिया gives से, so the relative is जिस दुकान से. मैंने उसे बुलाया gives को, so it is जिसे. उसका बेटा gives का, so it is जिसका. Write the first half as a plain sentence, look at the postposition, and put जिस in front of it. The correlative in the second half is then decided separately, by what the second half needs.",
+              "examples": [
+                {
+                  "hindi": "जिस दुकान से सामान लिया, वह बंद हो गई।",
+                  "read_as": "jis dukaan se saamaan liyaa, vah baṁd ho gaii.",
+                  "english": "The shop we bought from has closed.",
+                  "note": "से in the first half, direct वह in the second."
+                },
+                {
+                  "hindi": "जिस लड़के को मैंने बुलाया, उसे अंदर भेज दो।",
+                  "read_as": "jis laṛke ko maiṁne bulaayaa, use aṁdar bhej do.",
+                  "english": "Send in the boy I called.",
+                  "note": "को in both halves, but for different reasons."
+                },
+                {
+                  "hindi": "जिस पर सबको भरोसा था, वही निकल गया।",
+                  "read_as": "jis par sabko bharosaa thaa, vahii nikal gayaa.",
+                  "english": "The very person everyone trusted walked out.",
+                  "note": "पर because भरोसा takes पर, from Module 13."
+                }
+              ],
+              "common_error": {
+                "wrong": "जिस दुकान को सामान लिया",
+                "right": "जिस दुकान से सामान लिया",
+                "why_en": "You buy from a shop, so the postposition is से. The relative form always copies whatever the plain sentence would have used."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence.",
+              "sentences": [
+                "हमने एक दुकान से सामान लिया।",
+                "वह दुकान बंद हो गई।"
+              ],
+              "sentences_read_as": [
+                "hamne ek dukaan se saamaan liyaa.",
+                "vah dukaan baṁd ho gaii."
+              ],
+              "options": [
+                "जिस दुकान से सामान लिया, बंद हो गई।",
+                "जिस दुकान को सामान लिया, वह बंद हो गई।",
+                "जो दुकान से सामान लिया, वह बंद हो गई।",
+                "जिस दुकान से सामान लिया, वह बंद हो गई।"
+              ],
+              "options_read_as": [
+                "jis dukaan se saamaan liyaa, baṁd ho gaii.",
+                "jis dukaan ko saamaan liyaa, vah baṁd ho gaii.",
+                "jo dukaan se saamaan liyaa, vah baṁd ho gaii.",
+                "jis dukaan se saamaan liyaa, vah baṁd ho gaii."
+              ],
+              "is_the_english_error": [
+                true,
+                false,
+                false,
+                false
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second drops the correlative. The third uses को where buying needs से. The fourth leaves जो direct before a postposition."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "सामान लिया",
+                "वह बंद हो गई",
+                "जिस दुकान से"
+              ],
+              "answer": [
+                "जिस दुकान से",
+                "सामान लिया",
+                "वह बंद हो गई"
+              ],
+              "answer_read_as": "jis dukaan se saamaan liyaa, vah baṁd ho gaii.",
+              "explanation_en": "The oblique phrase opens, and the correlative closes."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जिस दुकान से सामान लिया, वह बंद हो गई।",
+              "जिस पर सबको भरोसा था, वही निकल गया।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "जिस and its noun go oblique together, and with no noun they fuse: जिसमें. The plural is जिन-, and ने acts on it like any postposition. And to choose the form, write the first half as a plain sentence and look at what postposition it used — the relative simply copies it.",
+        "key_forms": [
+          "जिस कमरे में",
+          "जिन लोगों ने",
+          "जिस दुकान से"
+        ],
+        "next_up_en": "Next: the same two-part machinery, applied to time."
+      }
+    },
+    {
+      "level": 5,
+      "title_en": "When, then",
+      "title_hi": "जब ... तब",
+      "items": [
+        {
+          "id": "M14-L05-I1",
+          "type": "grammar",
+          "structure": "jab_tab",
+          "target": "जब बारिश रुकी, तब हम निकले।",
+          "read_as": "jab baarish rukii, tab ham nikle.",
+          "english": "We set off when the rain stopped.",
+          "difficulty": 6,
+          "tags": [
+            "time_clause",
+            "jab_tab",
+            "correlative_pair",
+            "same_machinery"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The same two halves, now for time",
+              "explanation_en": "जब ... तब is built exactly like जो ... वह. जब opens a time clause and तब answers it: जब बारिश रुकी, तब हम निकले. English says \"we set off when the rain stopped\" and needs nothing in the main clause, so an English speaker drops तब — the same omission as before, in a new place. The pattern is worth seeing as one thing rather than as five separate rules, because Hindi has five of these pairs and they all behave alike.",
+              "examples": [
+                {
+                  "hindi": "जब बारिश रुकी, तब हम निकले।",
+                  "read_as": "jab baarish rukii, tab ham nikle.",
+                  "english": "We set off when the rain stopped.",
+                  "note": "Two halves, two markers."
+                },
+                {
+                  "hindi": "जब वो पहुँचे, तब खाना लग चुका था।",
+                  "read_as": "jab vo pahuṁche, tab khaanaa lag chukaa thaa.",
+                  "english": "The food had already been served by the time they arrived.",
+                  "note": "The तब half can be in any tense."
+                },
+                {
+                  "hindi": "जब मन करे, तब आ जाना।",
+                  "read_as": "jab man kare, tab aa jaanaa.",
+                  "english": "Come whenever you feel like it.",
+                  "note": "Subjunctive in the जब half — level 17 covers why."
+                }
+              ],
+              "common_error": {
+                "wrong": "जब बारिश रुकी, हम निकले।",
+                "right": "जब बारिश रुकी, तब हम निकले।",
+                "why_en": "Understandable, and heard in casual speech, but the full form wants तब. It is the same correlative habit as जो ... वह."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence.",
+              "sentences": [
+                "बारिश रुकी।",
+                "तब हम निकले।"
+              ],
+              "sentences_read_as": [
+                "baarish rukii.",
+                "tab ham nikle."
+              ],
+              "options": [
+                "बारिश जब रुकी तब हम निकले।",
+                "हम निकले जब बारिश रुकी तब।",
+                "जब बारिश रुकी, तब हम निकले।",
+                "जब बारिश रुकी, हम निकले।"
+              ],
+              "options_read_as": [
+                "baarish jab rukii tab ham nikle.",
+                "ham nikle jab baarish rukii tab.",
+                "jab baarish rukii, tab ham nikle.",
+                "jab baarish rukii, ham nikle."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                false,
+                true
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second is the English shape with तब removed. The third puts जब after the subject. The fourth strands तब at the end."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "तब हम निकले",
+                "जब बारिश",
+                "रुकी"
+              ],
+              "answer": [
+                "जब बारिश",
+                "रुकी",
+                "तब हम निकले"
+              ],
+              "answer_read_as": "jab baarish rukii, tab ham nikle.",
+              "explanation_en": "The जब half completes before तब opens the second."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जब बारिश रुकी, तब हम निकले।",
+              "जब मन करे, तब आ जाना।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L05-I2",
+          "type": "grammar",
+          "structure": "jab_tab",
+          "target": "जब वो आया तो सब चुप हो गए।",
+          "read_as": "jab vo aayaa to sab chup ho gae.",
+          "english": "When he came in, everyone went quiet.",
+          "difficulty": 7,
+          "tags": [
+            "time_clause",
+            "jab_to",
+            "to_particle",
+            "callback_m12"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तो can do तब's job, and usually does",
+              "explanation_en": "In ordinary speech the correlative for जब is very often तो rather than तब: जब वो आया तो सब चुप हो गए. Both are correct. तब points more precisely at the moment, and तो is lighter and far commoner. This is the same तो you have been tracking since Module 12 — the one that opens a conclusion, marks a contrast, carries emphasis and introduces a conditional. Answering a जब clause is another of its jobs, and now you have met most of them.",
+              "examples": [
+                {
+                  "hindi": "जब वो आया तो सब चुप हो गए।",
+                  "read_as": "jab vo aayaa to sab chup ho gae.",
+                  "english": "When he came in, everyone went quiet.",
+                  "note": "तो as the correlative. Commoner than तब in speech."
+                },
+                {
+                  "hindi": "जब मैंने देखा तो कोई नहीं था।",
+                  "read_as": "jab maiṁne dekhaa to koii nahiiṁ thaa.",
+                  "english": "When I looked, there was nobody there.",
+                  "note": "Very often the तो half reports a discovery."
+                },
+                {
+                  "hindi": "जब बारिश रुकी, तब हम निकले।",
+                  "read_as": "jab baarish rukii, tab ham nikle.",
+                  "english": "We set off when the rain stopped.",
+                  "note": "तब here, which is a shade more deliberate."
+                }
+              ],
+              "common_error": {
+                "wrong": "जब वो आया, सब चुप हो गए।",
+                "right": "जब वो आया तो सब चुप हो गए।",
+                "why_en": "Dropping both तब and तो leaves the sentence without its second marker. One of them has to be there."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence, using the lighter correlative.",
+              "sentences": [
+                "वो आया।",
+                "सब चुप हो गए।"
+              ],
+              "sentences_read_as": [
+                "vo aayaa.",
+                "sab chup ho gae."
+              ],
+              "options": [
+                "जब वो आया तो सब चुप हो गए।",
+                "जब वो आया, सब चुप हो गए।",
+                "जब वो आया तब तो सब चुप हो गए।",
+                "वो जब आया सब तो चुप हो गए।"
+              ],
+              "options_read_as": [
+                "jab vo aayaa to sab chup ho gae.",
+                "jab vo aayaa, sab chup ho gae.",
+                "jab vo aayaa tab to sab chup ho gae.",
+                "vo jab aayaa sab to chup ho gae."
+              ],
+              "is_the_english_error": [
+                false,
+                true,
+                false,
+                false
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second has no correlative at all. The third stacks तब and तो, which is redundant. The fourth moves तो next to सब, where it emphasises the wrong word."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "तो सब",
+                "जब वो आया",
+                "चुप हो गए"
+              ],
+              "answer": [
+                "जब वो आया",
+                "तो सब",
+                "चुप हो गए"
+              ],
+              "answer_read_as": "jab vo aayaa to sab chup ho gae.",
+              "explanation_en": "तो sits at the head of the second half, before its subject."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जब वो आया तो सब चुप हो गए।",
+              "जब मैंने देखा तो कोई नहीं था।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L05-I3",
+          "type": "grammar",
+          "structure": "jab_tak",
+          "target": "जब तक वो नहीं आता, तब तक हम इंतज़ार करेंगे।",
+          "read_as": "jab tak vo nahiiṁ aataa, tab tak ham iṁtazaar kareṁge.",
+          "english": "We will wait until he comes.",
+          "difficulty": 9,
+          "tags": [
+            "time_clause",
+            "jab_tak",
+            "negation_trap",
+            "high_value"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जब तक needs a नहीं that English does not have",
+              "explanation_en": "जब तक ... तब तक means until, and Hindi puts a नहीं in the जब तक half that English has no place for: जब तक वो नहीं आता, तब तक हम इंतज़ार करेंगे — literally \"for as long as he does not come, for that long we will wait\". The नहीं is not a negative in the English sense; it is part of how until is built. Leave it out and you have said something close to the opposite. This is one of the highest-value sentences in the module and one of the easiest to get wrong.",
+              "examples": [
+                {
+                  "hindi": "जब तक वो नहीं आता, तब तक हम इंतज़ार करेंगे।",
+                  "read_as": "jab tak vo nahiiṁ aataa, tab tak ham iṁtazaar kareṁge.",
+                  "english": "We will wait until he comes.",
+                  "note": "नहीं required, and no negative in the English."
+                },
+                {
+                  "hindi": "जब तक बारिश नहीं रुकती, बाहर मत जाओ।",
+                  "read_as": "jab tak baarish nahiiṁ ruktii, baahar mat jaao.",
+                  "english": "Don't go out until the rain stops.",
+                  "note": "तब तक dropped here, which is common when the second half is a command."
+                },
+                {
+                  "hindi": "जब तक तुम यहाँ हो, कोई चिंता नहीं।",
+                  "read_as": "jab tak tum yahaaṁ ho, koii chiṁtaa nahiiṁ.",
+                  "english": "As long as you are here, there is nothing to worry about.",
+                  "note": "No नहीं — because this means \"as long as\", not \"until\"."
+                }
+              ],
+              "common_error": {
+                "wrong": "जब तक वो आता है, तब तक हम इंतज़ार करेंगे।",
+                "right": "जब तक वो नहीं आता, तब तक हम इंतज़ार करेंगे।",
+                "why_en": "Without नहीं this says \"we will wait for as long as he keeps coming\", which is not what you meant."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these to mean: we will wait until he comes.",
+              "sentences": [
+                "वो अभी नहीं आया है।",
+                "हम इंतज़ार करेंगे।"
+              ],
+              "sentences_read_as": [
+                "vo abhii nahiiṁ aayaa hai.",
+                "ham iṁtazaar kareṁge."
+              ],
+              "options": [
+                "जब तक वो नहीं आता, हम इंतज़ार करेंगे।",
+                "जब तक वो आता है, तब तक हम इंतज़ार करेंगे।",
+                "जब वो नहीं आता, तब हम इंतज़ार करेंगे।",
+                "जब तक वो नहीं आता, तब तक हम इंतज़ार करेंगे।"
+              ],
+              "options_read_as": [
+                "jab tak vo nahiiṁ aataa, ham iṁtazaar kareṁge.",
+                "jab tak vo aataa hai, tab tak ham iṁtazaar kareṁge.",
+                "jab vo nahiiṁ aataa, tab ham iṁtazaar kareṁge.",
+                "jab tak vo nahiiṁ aataa, tab tak ham iṁtazaar kareṁge."
+              ],
+              "is_the_english_error": [
+                true,
+                false,
+                false,
+                false
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second drops तब तक. The third drops the required नहीं and reverses the meaning. The fourth uses plain जब ... तब, which means when rather than until."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "तब तक हम",
+                "जब तक वो",
+                "इंतज़ार करेंगे",
+                "नहीं आता"
+              ],
+              "answer": [
+                "जब तक वो",
+                "नहीं आता",
+                "तब तक हम",
+                "इंतज़ार करेंगे"
+              ],
+              "answer_read_as": "jab tak vo nahiiṁ aataa, tab tak ham iṁtazaar kareṁge.",
+              "explanation_en": "जब तक opens with its नहीं, and तब तक answers."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जब तक वो नहीं आता, तब तक हम इंतज़ार करेंगे।",
+              "जब तक तुम यहाँ हो, कोई चिंता नहीं।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "जब ... तब is the same two-part machinery as जो ... वह, and तो very often stands in for तब in speech. And जब तक needs a नहीं that English has no room for — जब तक वो नहीं आता means until he comes, not while he is not coming.",
+        "key_forms": [
+          "जब ... तब",
+          "जब ... तो",
+          "जब तक ... नहीं"
+        ],
+        "next_up_en": "Next: जब भी, and time clauses in the past and the future."
+      }
+    }
+  ]
+}

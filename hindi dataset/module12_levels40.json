@@ -1,0 +1,470 @@
+{
+  "module": 12,
+  "module_name_en": "Conversation",
+  "module_name_hi": "बातचीत",
+  "phase": 5,
+  "batch": {
+    "levels_from": 40,
+    "levels_to": 40
+  },
+  "receptive_only": true,
+  "levels": [
+    {
+      "level": 40,
+      "title_en": "At the mall — everything at once",
+      "title_hi": "मॉल में — सब कुछ एक साथ",
+      "items": [
+        {
+          "id": "M12-L40-I1",
+          "type": "dialogue",
+          "target": "ब्रांड के नाम पर",
+          "title_en": "Three thousand for a shirt",
+          "setting": "mall",
+          "speed": "fast",
+          "difficulty": 10,
+          "tags": [
+            "fast",
+            "three_speakers",
+            "ke_naam_par",
+            "verbless",
+            "vaalaa",
+            "hinglish"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Friend A",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "B",
+              "label_en": "Friend B",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "C",
+              "label_en": "Friend C",
+              "label_hi": "दोस्त"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "ये वाली अच्छी लग रही है।",
+              "read_as": "ye vaalii acchii lag rahii hai.",
+              "english": "This one looks good."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "कितने की है?",
+              "read_as": "kitne kii hai?",
+              "english": "How much is it?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "तीन हज़ार।",
+              "read_as": "tiin hazaar.",
+              "english": "Three thousand."
+            },
+            {
+              "n": 4,
+              "speaker": "C",
+              "hindi": "तीन हज़ार की शर्ट? पागल है क्या?",
+              "read_as": "tiin hazaar kii sharṭ? paagal hai kyaa?",
+              "english": "Three thousand for a shirt? Are you mad?"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ब्रांड है यार।",
+              "read_as": "braanḍ hai yaar.",
+              "english": "It's a brand."
+            },
+            {
+              "n": 6,
+              "speaker": "C",
+              "hindi": "ब्रांड के नाम पर लूट है ये।",
+              "read_as": "braanḍ ke naam par luuṭ hai ye.",
+              "english": "It's daylight robbery in the name of a brand."
+            },
+            {
+              "n": 7,
+              "speaker": "B",
+              "hindi": "सेल में मिल जाएगी अगले महीने।",
+              "read_as": "sel meṁ mil jaaegii agle mahiine.",
+              "english": "You'll get it in the sale next month."
+            },
+            {
+              "n": 8,
+              "speaker": "A",
+              "hindi": "तब तक साइज़ ख़त्म।",
+              "read_as": "tab tak saaiz ḳhatm.",
+              "english": "By then the size'll be gone."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "के नाम पर — in the name of",
+              "explanation_en": "ब्रांड के नाम पर लूट है — it's robbery in the name of a brand. के नाम पर is a fixed phrase meaning under the pretext of, and it is one of the most useful complaint constructions in the language. Notice that the whole of line 6 contains exactly one verb, है, and everything else is nouns held together by a postposition. At speed Hindi compresses like this constantly, and the postpositions are what stop the sentence collapsing.",
+              "listening_notes": [
+                "कितने की है? — की because शर्ट is feminine, and the noun itself is dropped.",
+                "पागल है क्या? — the trailing क्या making it a question, and between friends it is affectionate rather than insulting.",
+                "तब तक साइज़ ख़त्म — no verb at all. तक for the far end, and ख़त्म doing the work of an entire clause."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What does B suggest?",
+              "options": [
+                "Wait for next month's sale",
+                "Try a different shop",
+                "Ask for a discount",
+                "Buy it now before it sells out"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 7: सेल में मिल जाएगी अगले महीने."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 6,
+              "masked_token": "पर",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "ब्रांड के नाम ___ लूट है ये।",
+              "question_read_as": "braanḍ ke naam ___ luuṭ hai ye.",
+              "options": [
+                "से",
+                "को",
+                "पर",
+                "में"
+              ],
+              "options_read_as": [
+                "se",
+                "ko",
+                "par",
+                "meṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "के नाम पर is fixed — in the name of, under the pretext of."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 8,
+            "notes_for_recording": "Mall ambience. Line 4 is genuinely outraged. Line 8 is flat and defeated."
+          }
+        },
+        {
+          "id": "M12-L40-I2",
+          "type": "dialogue",
+          "target": "मैंने कहा था ना",
+          "title_en": "The salesperson joins in",
+          "setting": "mall",
+          "speed": "fast",
+          "difficulty": 10,
+          "tags": [
+            "fast",
+            "four_speakers",
+            "address_tracking",
+            "ne",
+            "naa_tag",
+            "verbless"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Friend A",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "B",
+              "label_en": "Friend B",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "C",
+              "label_en": "Friend C",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "D",
+              "label_en": "Salesperson",
+              "label_hi": "सेल्समैन"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "D",
+              "hindi": "सर, कोई मदद चाहिए?",
+              "read_as": "sar, koii madad chaahie?",
+              "english": "Sir, can I help?"
+            },
+            {
+              "n": 2,
+              "speaker": "A",
+              "hindi": "ये बड़े साइज़ में है?",
+              "read_as": "ye baṛe saaiz meṁ hai?",
+              "english": "Do you have this in a large?"
+            },
+            {
+              "n": 3,
+              "speaker": "D",
+              "hindi": "देखता हूँ। कौन सा रंग?",
+              "read_as": "dekhtaa huuṁ. kaun saa raṁg?",
+              "english": "Let me see. Which colour?"
+            },
+            {
+              "n": 4,
+              "speaker": "C",
+              "hindi": "भैया, इस पर कोई डिस्काउंट?",
+              "read_as": "bhaiyaa, is par koii ḍiskaauṁṭ?",
+              "english": "Any discount on this?"
+            },
+            {
+              "n": 5,
+              "speaker": "D",
+              "hindi": "सेल अगले हफ़्ते से है।",
+              "read_as": "sel agle hafte se hai.",
+              "english": "The sale starts next week."
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "देखा? मैंने कहा था ना।",
+              "read_as": "dekhaa? maiṁne kahaa thaa naa.",
+              "english": "See? I told you.",
+              "overlaps_previous": true
+            },
+            {
+              "n": 7,
+              "speaker": "A",
+              "hindi": "यार एक हफ़्ता रुक जाते हैं।",
+              "read_as": "yaar ek haftaa ruk jaate haiṁ.",
+              "english": "Let's wait a week then."
+            },
+            {
+              "n": 8,
+              "speaker": "D",
+              "hindi": "कार्ड छोड़ जाइए, फ़ोन कर देंगे।",
+              "read_as": "kaarḍ chhoṛ jaaie, fon kar deṁge.",
+              "english": "Leave a card, we'll call you."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Four voices, and not one name",
+              "explanation_en": "Four speakers, and the only markers of who is talking to whom are the vocatives and the pronouns. D opens with सर, addressed to A. C switches to भैया to address D. B says ना to the friends, not to the salesman. Nobody's name is used once in eight lines. Following a four-way conversation in Hindi is almost entirely a matter of catching सर, भैया, यार and ना — each of which tells you the addressee and the register in a single syllable.",
+              "listening_notes": [
+                "मैंने कहा था ना — ना inviting agreement, and कहना taking ने as it always does.",
+                "इस पर कोई डिस्काउंट? — no verb at all, and इस going oblique before पर.",
+                "कार्ड छोड़ जाइए — छोड़ जाना, leave behind and go. Two verbs describing one action."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "When does the sale start?",
+              "options": [
+                "Next month",
+                "It has already ended",
+                "Today",
+                "Next week"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 5: सेल अगले हफ़्ते से है."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 6,
+              "masked_token": "मैंने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "देखा? ___ कहा था ना।",
+              "question_read_as": "dekhaa? ___ kahaa thaa naa.",
+              "options": [
+                "मैं",
+                "मैंने",
+                "मुझे",
+                "मेरा"
+              ],
+              "options_read_as": [
+                "maiṁ",
+                "maiṁne",
+                "mujhe",
+                "meraa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "कहना is transitive and the tense is perfective, so ने."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 8,
+            "notes_for_recording": "FOUR distinct voices. D must sound clearly separate from the three friends. Line 6 cuts in over line 5."
+          }
+        },
+        {
+          "id": "M12-L40-I3",
+          "type": "dialogue",
+          "target": "भूख के मारे जान निकल रही है",
+          "title_en": "The last dialogue",
+          "setting": "mall",
+          "speed": "fast",
+          "difficulty": 10,
+          "tags": [
+            "fast",
+            "four_speakers",
+            "capstone",
+            "dative",
+            "ne",
+            "causative",
+            "idiom"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Friend A",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "B",
+              "label_en": "Friend B",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "C",
+              "label_en": "Friend C",
+              "label_hi": "दोस्त"
+            },
+            {
+              "id": "D",
+              "label_en": "Waiter",
+              "label_hi": "वेटर"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "अच्छा सुनो, खाना कहाँ खाएँ?",
+              "read_as": "acchaa suno, khaanaa kahaaṁ khaaeṁ?",
+              "english": "Right, where shall we eat?"
+            },
+            {
+              "n": 2,
+              "speaker": "C",
+              "hindi": "मुझे बहुत भूख लगी है।",
+              "read_as": "mujhe bahut bhuukh lagii hai.",
+              "english": "I'm starving."
+            },
+            {
+              "n": 3,
+              "speaker": "B",
+              "hindi": "नीचे फ़ूड कोर्ट है, वहीं चलते हैं।",
+              "read_as": "niiche fuuḍ korṭ hai, vahiiṁ chalte haiṁ.",
+              "english": "There's a food court downstairs, let's go there."
+            },
+            {
+              "n": 4,
+              "speaker": "A",
+              "hindi": "मैंने पिछली बार वहीं खाया था — ठीक था।",
+              "read_as": "maiṁne pichhlii baar vahiiṁ khaayaa thaa — ṭhiik thaa.",
+              "english": "I ate there last time — it was fine."
+            },
+            {
+              "n": 5,
+              "speaker": "D",
+              "hindi": "सर, बिल बनवा दूँ?",
+              "read_as": "sar, bil banvaa duuṁ?",
+              "english": "Sir, shall I have the bill made up?"
+            },
+            {
+              "n": 6,
+              "speaker": "A",
+              "hindi": "नहीं भैया, अभी नहीं ले रहे।",
+              "read_as": "nahiiṁ bhaiyaa, abhii nahiiṁ le rahe.",
+              "english": "No, we're not taking it now."
+            },
+            {
+              "n": 7,
+              "speaker": "C",
+              "hindi": "चलो यार, भूख के मारे जान निकल रही है।",
+              "read_as": "chalo yaar, bhuukh ke maare jaan nikal rahii hai.",
+              "english": "Come on, I'm dying of hunger."
+            },
+            {
+              "n": 8,
+              "speaker": "B",
+              "hindi": "चलो चलो।",
+              "read_as": "chalo chalo.",
+              "english": "Coming, coming."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Everything at once",
+              "explanation_en": "This is the last dialogue in the module, and it holds most of what the module has been for. मुझे भूख लगी है is Module 10's dative experiencer. मैंने खाया था is Module 9's ने. बिल बनवा दूँ is Module 11's second causative with the देना vector. वहीं चलते हैं is the present tense making a plan rather than predicting one. भूख के मारे is an idiom built on an oblique. And जान निकल रही है puts the thing in the subject slot one last time — the life is leaving, rather than he is dying. Eight lines, four speakers, and not a single thing in it that has not been taught.",
+              "listening_notes": [
+                "भूख के मारे — के मारे for \"on account of\", with a strongly physical sense that बहुत भूख लगी है does not carry.",
+                "जान निकल रही है — जान is feminine, so रही. Literally, the life is coming out.",
+                "अभी नहीं ले रहे — auxiliary dropped, subject dropped. Four words doing the work of \"we're not taking it right now\"."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What do they decide to do?",
+              "options": [
+                "Carry on shopping",
+                "Pay the bill and leave",
+                "Eat at the food court downstairs",
+                "Go to a restaurant outside"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 3: नीचे फ़ूड कोर्ट है, वहीं चलते हैं — and A confirms he has eaten there before."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 7,
+              "masked_token": "रही",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "चलो यार, भूख के मारे जान निकल ___ है।",
+              "question_read_as": "chalo yaar, bhuukh ke maare jaan nikal ___ hai.",
+              "options": [
+                "रही",
+                "रहे",
+                "रहीं",
+                "रहा"
+              ],
+              "options_read_as": [
+                "rahii",
+                "rahe",
+                "rahiiṁ",
+                "rahaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "जान is feminine and it is the subject — the life is leaving, not the speaker."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 8,
+            "notes_for_recording": "Four voices. Line 7 is theatrical. The module should end on laughter."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The last three dialogues put four voices in one conversation, tracked entirely by vocatives — सर, भैया, यार — with not a name between them. And the final exchange runs the dative, ने, a causative, a compound verb and an idiom past you in eight lines without stopping, which is what ordinary Hindi does.",
+        "key_forms": [
+          "के नाम पर",
+          "मैंने कहा था ना",
+          "भूख के मारे"
+        ],
+        "next_up_en": "That completes all 120 dialogues. Next is the checkpoint on levels 36 to 40, and then the module mock."
+      }
+    }
+  ]
+}

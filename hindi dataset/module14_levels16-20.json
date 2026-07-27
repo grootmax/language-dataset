@@ -1,0 +1,1535 @@
+{
+  "module": 14,
+  "module_name_en": "Connected Speech",
+  "module_name_hi": "जुड़े वाक्य",
+  "phase": 5,
+  "type": "grammar",
+  "batch": {
+    "levels_from": 16,
+    "levels_to": 20
+  },
+  "batch_note": "From level 16 the module leaves the correlatives behind, so the English-error distractor requirement no longer applies except where अगर ... तो reappears. It is now scoped by structure rather than marked item by item. The centre of this batch is level 18: Hindi does not shift tense or person in reported speech, which means उन्होंने कहा कि मैं कल आऊँगा has मैं referring to the speaker being quoted and not to the person reporting.",
+  "levels": [
+    {
+      "level": 16,
+      "title_en": "Shall I, perhaps, so that",
+      "title_hi": "दूँ? · शायद · ताकि",
+      "items": [
+        {
+          "id": "M14-L16-I1",
+          "type": "grammar",
+          "structure": "subjunctive",
+          "target": "मैं चाय बना दूँ?",
+          "read_as": "maiṁ chaay banaa duuṁ?",
+          "english": "Shall I make tea?",
+          "difficulty": 7,
+          "tags": [
+            "subjunctive",
+            "first_person",
+            "offering",
+            "callback_m12"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The subjunctive is how you offer",
+              "explanation_en": "मैं चाय बना दूँ? — shall I make tea? The subjunctive endings are करूँ for मैं, करे for वह, करें for आप and वे, and करो for तुम, and in the first person a question with them is an offer rather than an enquiry. You have been hearing this since Module 12: दही भी डाल दूँ? from the dhaba, कब का रखूँ? on the telephone, अगले हफ़्ते का दे दूँ? at the dentist. Every one of them offers to do something and waits for permission.",
+              "examples": [
+                {
+                  "hindi": "मैं चाय बना दूँ?",
+                  "read_as": "maiṁ chaay banaa duuṁ?",
+                  "english": "Shall I make tea?",
+                  "note": "An offer, not a question about the future."
+                },
+                {
+                  "hindi": "खिड़की खोल दूँ?",
+                  "read_as": "khiṛkii khol duuṁ?",
+                  "english": "Shall I open the window?",
+                  "note": "Subject dropped — the ending carries it."
+                },
+                {
+                  "hindi": "मैं चाय बनाऊँगा।",
+                  "read_as": "maiṁ chaay banaauuṁgaa.",
+                  "english": "I will make tea.",
+                  "note": "The future announces; the subjunctive asks."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं चाय बनाऊँगा? — meant as an offer",
+                "right": "मैं चाय बना दूँ?",
+                "why_en": "The future as a question asks whether you predict you will make tea, which is not what anybody means. Offers take the subjunctive."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Turn this into an offer.",
+              "sentences": [
+                "चाय बनानी है।",
+                "मैं बना सकता हूँ।"
+              ],
+              "sentences_read_as": [
+                "chaay banaanii hai.",
+                "maiṁ banaa saktaa huuṁ."
+              ],
+              "options": [
+                "मैं चाय बनाऊँगा?",
+                "मैं चाय बनाता हूँ?",
+                "मैं चाय बना दिया?",
+                "मैं चाय बना दूँ?"
+              ],
+              "options_read_as": [
+                "maiṁ chaay banaauuṁgaa?",
+                "maiṁ chaay banaataa huuṁ?",
+                "maiṁ chaay banaa diyaa?",
+                "maiṁ chaay banaa duuṁ?"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second uses the future, which predicts rather than offers. The third states a habit. The fourth is a past form and also missing its ने."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "बना दूँ",
+                "मैं",
+                "चाय"
+              ],
+              "answer": [
+                "मैं",
+                "चाय",
+                "बना दूँ"
+              ],
+              "answer_read_as": "maiṁ chaay banaa duuṁ?",
+              "explanation_en": "Ordinary word order — only the verb form makes it an offer."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं चाय बना दूँ?",
+              "खिड़की खोल दूँ?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L16-I2",
+          "type": "grammar",
+          "structure": "subjunctive",
+          "target": "शायद वो कल आए।",
+          "read_as": "shaayad vo kal aae.",
+          "english": "He may come tomorrow.",
+          "difficulty": 8,
+          "tags": [
+            "subjunctive",
+            "shaayad",
+            "degree_of_certainty",
+            "subtle_distinction"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "शायद with the subjunctive is less certain than शायद with the future",
+              "explanation_en": "Both are correct and they are not the same. शायद वो कल आए, with the subjunctive, means he may come and you have no idea. शायद वो कल आएगा, with the future, means he probably will. English has to reach for different words — may against probably — and Hindi does it by changing the verb form after the same शायद. Learners use the future by default because it feels safer, and end up sounding more confident than they mean to.",
+              "examples": [
+                {
+                  "hindi": "शायद वो कल आए।",
+                  "read_as": "shaayad vo kal aae.",
+                  "english": "He may come tomorrow.",
+                  "note": "Genuinely open."
+                },
+                {
+                  "hindi": "शायद वो कल आएगा।",
+                  "read_as": "shaayad vo kal aaegaa.",
+                  "english": "He'll probably come tomorrow.",
+                  "note": "Same शायद, more confidence."
+                },
+                {
+                  "hindi": "शायद बारिश हो।",
+                  "read_as": "shaayad baarish ho.",
+                  "english": "It might rain.",
+                  "note": "The subjunctive of होना is simply हो."
+                }
+              ],
+              "common_error": {
+                "wrong": "शायद वो कल आता है।",
+                "right": "शायद वो कल आए।",
+                "why_en": "The present makes it a habit, so this says he perhaps habitually comes tomorrow. शायद takes the subjunctive or the future, never the plain present."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Say this with genuine uncertainty.",
+              "sentences": [
+                "वो कल आ सकता है।",
+                "पक्का नहीं है।"
+              ],
+              "sentences_read_as": [
+                "vo kal aa saktaa hai.",
+                "pakkaa nahiiṁ hai."
+              ],
+              "options": [
+                "शायद वो कल आया।",
+                "शायद वो कल आए।",
+                "शायद वो कल आएगा।",
+                "शायद वो कल आता है।"
+              ],
+              "options_read_as": [
+                "shaayad vo kal aayaa.",
+                "shaayad vo kal aae.",
+                "shaayad vo kal aaegaa.",
+                "shaayad vo kal aataa hai."
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second is correct Hindi but claims more confidence than the prompt allows. The third turns it into a habit. The fourth is past, and कल would then mean yesterday."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "कल आए",
+                "शायद",
+                "वो"
+              ],
+              "answer": [
+                "शायद",
+                "वो",
+                "कल आए"
+              ],
+              "answer_read_as": "shaayad vo kal aae.",
+              "explanation_en": "शायद sits at the front and the subjunctive does the rest."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "शायद वो कल आए।",
+              "शायद वो कल आएगा।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L16-I3",
+          "type": "grammar",
+          "structure": "taaki",
+          "target": "जल्दी निकलो ताकि ट्रेन मिल जाए।",
+          "read_as": "jaldii niklo taaki ṭren mil jaae.",
+          "english": "Leave early so that you catch the train.",
+          "difficulty": 8,
+          "tags": [
+            "subjunctive",
+            "taaki",
+            "purpose",
+            "vs_islie"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ताकि is purpose; इसलिए is result",
+              "explanation_en": "ताकि means so that, in the sense of in order that, and it always takes the subjunctive: जल्दी निकलो ताकि ट्रेन मिल जाए. Its neighbour इसलिए means therefore and reports a result that actually followed: वो जल्दी निकला इसलिए ट्रेन मिल गई. The difference is whether the second half is a goal or an outcome, and the verb form tells you — subjunctive for a goal, any real tense for an outcome.",
+              "examples": [
+                {
+                  "hindi": "जल्दी निकलो ताकि ट्रेन मिल जाए।",
+                  "read_as": "jaldii niklo taaki ṭren mil jaae.",
+                  "english": "Leave early so that you catch the train.",
+                  "note": "A goal — subjunctive."
+                },
+                {
+                  "hindi": "वो जल्दी निकला इसलिए ट्रेन मिल गई।",
+                  "read_as": "vo jaldii niklaa islie ṭren mil gaii.",
+                  "english": "He left early, so he caught the train.",
+                  "note": "An outcome — real past."
+                },
+                {
+                  "hindi": "धीरे बोलिए ताकि सब समझ सकें।",
+                  "read_as": "dhiire bolie taaki sab samajh sakeṁ.",
+                  "english": "Speak slowly so that everyone can follow.",
+                  "note": "सकें, the subjunctive of सकना."
+                }
+              ],
+              "common_error": {
+                "wrong": "जल्दी निकलो ताकि ट्रेन मिल जाएगी।",
+                "right": "जल्दी निकलो ताकि ट्रेन मिल जाए।",
+                "why_en": "The future asserts that the train will be caught. ताकि states an aim, and an aim has not happened yet."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these so that the second half is the purpose of the first.",
+              "sentences": [
+                "जल्दी निकलो।",
+                "ट्रेन मिल जाए।"
+              ],
+              "sentences_read_as": [
+                "jaldii niklo.",
+                "ṭren mil jaae."
+              ],
+              "options": [
+                "जल्दी निकलो इसलिए ट्रेन मिल जाए।",
+                "जल्दी निकलो, ट्रेन मिल जाए।",
+                "जल्दी निकलो ताकि ट्रेन मिल जाए।",
+                "जल्दी निकलो ताकि ट्रेन मिल जाएगी।"
+              ],
+              "options_read_as": [
+                "jaldii niklo islie ṭren mil jaae.",
+                "jaldii niklo, ṭren mil jaae.",
+                "jaldii niklo taaki ṭren mil jaae.",
+                "jaldii niklo taaki ṭren mil jaaegii."
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second uses the future after ताकि. The third uses इसलिए, which reports a result rather than stating a purpose. The fourth has no conjunction at all."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "ताकि ट्रेन",
+                "जल्दी निकलो",
+                "मिल जाए"
+              ],
+              "answer": [
+                "जल्दी निकलो",
+                "ताकि ट्रेन",
+                "मिल जाए"
+              ],
+              "answer_read_as": "jaldii niklo taaki ṭren mil jaae.",
+              "explanation_en": "The instruction comes first and ताकि introduces its purpose."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जल्दी निकलो ताकि ट्रेन मिल जाए।",
+              "वो जल्दी निकला इसलिए ट्रेन मिल गई।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The subjunctive is how Hindi offers, hedges and states a purpose. A first-person subjunctive question is an offer, not a prediction. शायद takes the subjunctive for genuine uncertainty and the future for probability. And ताकि always takes the subjunctive, because a purpose has not happened yet.",
+        "key_forms": [
+          "बना दूँ?",
+          "शायद ... आए",
+          "ताकि ... जाए"
+        ],
+        "next_up_en": "Next: the sentence English builds with an infinitive and Hindi cannot."
+      }
+    },
+    {
+      "level": 17,
+      "title_en": "I want you to come",
+      "title_hi": "चाहता हूँ कि ...",
+      "items": [
+        {
+          "id": "M14-L17-I1",
+          "type": "grammar",
+          "structure": "subjunctive",
+          "target": "मैं चाहता हूँ कि आप आएँ।",
+          "read_as": "maiṁ chaahtaa huuṁ ki aap aaeṁ.",
+          "english": "I want you to come.",
+          "difficulty": 9,
+          "tags": [
+            "subjunctive",
+            "chaahnaa",
+            "ki_clause",
+            "no_english_equivalent",
+            "high_value"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Hindi has no way to say \"I want you to come\" in one clause",
+              "explanation_en": "English uses an infinitive with a different subject attached to it: I want you to come. Hindi cannot do that at all. It splits the sentence in two with कि and puts the second verb in the subjunctive: मैं चाहता हूँ कि आप आएँ. The rule is about who is doing what. Same subject, use an infinitive — मैं जाना चाहता हूँ, I want to go. Different subject, use कि and the subjunctive — मैं चाहता हूँ कि तुम जाओ, I want you to go. Learners produce मैं चाहता हूँ आपको आना, which is not a sentence.",
+              "examples": [
+                {
+                  "hindi": "मैं चाहता हूँ कि आप आएँ।",
+                  "read_as": "maiṁ chaahtaa huuṁ ki aap aaeṁ.",
+                  "english": "I want you to come.",
+                  "note": "Two subjects, so कि and the subjunctive."
+                },
+                {
+                  "hindi": "मैं जाना चाहता हूँ।",
+                  "read_as": "maiṁ jaanaa chaahtaa huuṁ.",
+                  "english": "I want to go.",
+                  "note": "One subject, so a plain infinitive."
+                },
+                {
+                  "hindi": "वो चाहते हैं कि हम जल्दी पहुँचें।",
+                  "read_as": "vo chaahte haiṁ ki ham jaldii pahuṁcheṁ.",
+                  "english": "They want us to arrive early.",
+                  "note": "पहुँचें, the subjunctive for हम."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं चाहता हूँ आपको आना।",
+                "right": "मैं चाहता हूँ कि आप आएँ।",
+                "why_en": "This is English structure carried across whole. Hindi will not attach a second subject to an infinitive — it needs a new clause."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence.",
+              "sentences": [
+                "मेरी इच्छा है।",
+                "आप आएँ।"
+              ],
+              "sentences_read_as": [
+                "merii ichchhaa hai.",
+                "aap aaeṁ."
+              ],
+              "options": [
+                "मैं चाहता हूँ कि आप आएँ।",
+                "मैं चाहता हूँ आपको आना।",
+                "मैं चाहता हूँ कि आप आएँगे।",
+                "मैं आपको आना चाहता हूँ।"
+              ],
+              "options_read_as": [
+                "maiṁ chaahtaa huuṁ ki aap aaeṁ.",
+                "maiṁ chaahtaa huuṁ aapko aanaa.",
+                "maiṁ chaahtaa huuṁ ki aap aaeṁge.",
+                "maiṁ aapko aanaa chaahtaa huuṁ."
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second and fourth both try to hang a second subject on an infinitive, which Hindi does not allow. The third uses the future after कि, where चाहना needs the subjunctive."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "कि आप आएँ",
+                "चाहता हूँ",
+                "मैं"
+              ],
+              "answer": [
+                "मैं",
+                "चाहता हूँ",
+                "कि आप आएँ"
+              ],
+              "answer_read_as": "maiṁ chaahtaa huuṁ ki aap aaeṁ.",
+              "explanation_en": "कि opens the second clause, which has its own subject and its own verb."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं चाहता हूँ कि आप आएँ।",
+              "मैं जाना चाहता हूँ।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L17-I2",
+          "type": "grammar",
+          "structure": "subjunctive",
+          "target": "अगर वो पूछे तो सच बता देना।",
+          "read_as": "agar vo puuchhe to sach bataa denaa.",
+          "english": "If he asks, tell him the truth.",
+          "difficulty": 8,
+          "tags": [
+            "subjunctive",
+            "agar_to",
+            "openness",
+            "callback_l12"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The subjunctive in a condition leaves it genuinely open",
+              "explanation_en": "Level 11 said an अगर clause takes the perfective or the subjunctive. Here is the difference between them. अगर वो पूछे तो — if he asks, and he may well not. अगर उसने पूछा तो — if he asks, treating it as fairly likely. Both are real conditions and neither is counterfactual, but the subjunctive is the more open of the two. It is the form you want when you are giving somebody instructions for a situation that may never arise.",
+              "examples": [
+                {
+                  "hindi": "अगर वो पूछे तो सच बता देना।",
+                  "read_as": "agar vo puuchhe to sach bataa denaa.",
+                  "english": "If he asks, tell him the truth.",
+                  "note": "Subjunctive — he may not ask at all."
+                },
+                {
+                  "hindi": "अगर उसने पूछा तो क्या कहोगे?",
+                  "read_as": "agar usne puuchhaa to kyaa kahoge?",
+                  "english": "What will you say if he asks?",
+                  "note": "Perfective — the asking is being treated as likely."
+                },
+                {
+                  "hindi": "अगर कोई आए तो बिठा देना।",
+                  "read_as": "agar koii aae to biṭhaa denaa.",
+                  "english": "If anyone comes, sit them down.",
+                  "note": "कोई plus the subjunctive — maximum openness."
+                }
+              ],
+              "common_error": {
+                "wrong": "अगर वो पूछेगा तो सच बता देना।",
+                "right": "अगर वो पूछे तो सच बता देना।",
+                "why_en": "The future in an अगर clause asserts that the asking will happen, which removes the condition."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these, leaving the asking genuinely uncertain.",
+              "sentences": [
+                "हो सकता है वो पूछे।",
+                "सच बता देना।"
+              ],
+              "sentences_read_as": [
+                "ho saktaa hai vo puuchhe.",
+                "sach bataa denaa."
+              ],
+              "options": [
+                "अगर वो पूछता है तो सच बता देना।",
+                "अगर वो पूछे तो सच बता देना।",
+                "अगर वो पूछे, सच बता देना।",
+                "अगर वो पूछेगा तो सच बता देना।"
+              ],
+              "options_read_as": [
+                "agar vo puuchhtaa hai to sach bataa denaa.",
+                "agar vo puuchhe to sach bataa denaa.",
+                "agar vo puuchhe, sach bataa denaa.",
+                "agar vo puuchhegaa to sach bataa denaa."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                true,
+                false
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second drops तो. The third uses the future, which asserts the asking. The fourth uses the present, which makes it a habit."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "तो सच",
+                "अगर वो पूछे",
+                "बता देना"
+              ],
+              "answer": [
+                "अगर वो पूछे",
+                "तो सच",
+                "बता देना"
+              ],
+              "answer_read_as": "agar vo puuchhe to sach bataa denaa.",
+              "explanation_en": "The subjunctive completes the condition and तो opens the instruction."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अगर वो पूछे तो सच बता देना।",
+              "अगर उसने पूछा तो क्या कहोगे?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L17-I3",
+          "type": "grammar",
+          "structure": "subjunctive",
+          "target": "हो सकता है कि वो न आए।",
+          "read_as": "ho saktaa hai ki vo na aae.",
+          "english": "He may well not come.",
+          "difficulty": 9,
+          "tags": [
+            "subjunctive",
+            "ho_saktaa_hai",
+            "na_negative",
+            "impersonal"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "हो सकता है कि — it may be that",
+              "explanation_en": "हो सकता है कि वो न आए. The opening is impersonal — it may be — and everything after कि goes into the subjunctive, with न rather than नहीं for the negative. This is the most neutral way Hindi has of raising a possibility, more detached than शायद and much more detached than a plain future. Note that हो सकता है never changes for who is being discussed; it is about the situation, not about the person.",
+              "examples": [
+                {
+                  "hindi": "हो सकता है कि वो न आए।",
+                  "read_as": "ho saktaa hai ki vo na aae.",
+                  "english": "He may well not come.",
+                  "note": "न with the subjunctive, as always."
+                },
+                {
+                  "hindi": "हो सकता है कि उन्हें पता न हो।",
+                  "read_as": "ho saktaa hai ki unheṁ pataa na ho.",
+                  "english": "They may not know.",
+                  "note": "हो, the subjunctive of होना, after a dative."
+                },
+                {
+                  "hindi": "हो सकता है वो आ जाएँ।",
+                  "read_as": "ho saktaa hai vo aa jaaeṁ.",
+                  "english": "They may turn up.",
+                  "note": "कि dropped, which is common and perfectly correct."
+                }
+              ],
+              "common_error": {
+                "wrong": "हो सकता है कि वो नहीं आएगा।",
+                "right": "हो सकता है कि वो न आए।",
+                "why_en": "Two things at once: the future asserts, where the construction is raising a possibility, and नहीं belongs with the indicative rather than the subjunctive."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Raise this as a possibility rather than stating it.",
+              "sentences": [
+                "वो शायद नहीं आएगा।",
+                "पक्का नहीं है।"
+              ],
+              "sentences_read_as": [
+                "vo shaayad nahiiṁ aaegaa.",
+                "pakkaa nahiiṁ hai."
+              ],
+              "options": [
+                "हो सकता है कि वो नहीं आएगा।",
+                "हो सकता है कि वो न आएगा।",
+                "हो सकते हैं कि वो न आए।",
+                "हो सकता है कि वो न आए।"
+              ],
+              "options_read_as": [
+                "ho saktaa hai ki vo nahiiṁ aaegaa.",
+                "ho saktaa hai ki vo na aaegaa.",
+                "ho sakte haiṁ ki vo na aae.",
+                "ho saktaa hai ki vo na aae."
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second uses a future and नहीं. The third mixes न with a future. The fourth makes हो सकता है agree with a person, which it never does."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "कि वो",
+                "हो सकता है",
+                "न आए"
+              ],
+              "answer": [
+                "हो सकता है",
+                "कि वो",
+                "न आए"
+              ],
+              "answer_read_as": "ho saktaa hai ki vo na aae.",
+              "explanation_en": "The impersonal opener, then कि, then the subjunctive."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "हो सकता है कि वो न आए।",
+              "हो सकता है वो आ जाएँ।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Hindi cannot attach a second subject to an infinitive, so \"I want you to come\" has to become two clauses joined by कि, with the second verb in the subjunctive. The same subjunctive makes a condition genuinely open, and हो सकता है कि raises a possibility without committing to it.",
+        "key_forms": [
+          "चाहता हूँ कि ... आएँ",
+          "अगर वो पूछे तो",
+          "हो सकता है कि ... न"
+        ],
+        "next_up_en": "Next: reported speech, and the shift Hindi does not make."
+      }
+    },
+    {
+      "level": 18,
+      "title_en": "He said that I will come",
+      "title_hi": "... ने कहा कि ...",
+      "items": [
+        {
+          "id": "M14-L18-I1",
+          "type": "grammar",
+          "structure": "reported_ki",
+          "target": "उन्होंने कहा कि मैं कल आऊँगा।",
+          "read_as": "unhoṁne kahaa ki maiṁ kal aauuṁgaa.",
+          "english": "He said he would come tomorrow.",
+          "difficulty": 10,
+          "tags": [
+            "reported_speech",
+            "no_backshift",
+            "no_pronoun_shift",
+            "concept_item",
+            "high_value"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Hindi quotes; English rebuilds",
+              "explanation_en": "English reported speech rewrites everything. \"I will come tomorrow\" becomes \"he said he would come the next day\" — the tense moves back, the pronoun changes, and even the time word shifts. Hindi does none of this. उन्होंने कहा कि मैं कल आऊँगा keeps the original words exactly as they were spoken, and मैं refers to the person being quoted, not to the person reporting. So this sentence means \"he said he would come tomorrow\", even though it reads word for word as \"he said that I will come tomorrow\". Once you stop waiting for the rebuild, reported speech becomes one of the easiest things in the language.",
+              "examples": [
+                {
+                  "hindi": "उन्होंने कहा कि मैं कल आऊँगा।",
+                  "read_as": "unhoṁne kahaa ki maiṁ kal aauuṁgaa.",
+                  "english": "He said he would come tomorrow.",
+                  "note": "मैं is him. No shift of any kind."
+                },
+                {
+                  "hindi": "उसने कहा कि मुझे भूख लगी है।",
+                  "read_as": "usne kahaa ki mujhe bhuukh lagii hai.",
+                  "english": "She said she was hungry.",
+                  "note": "मुझे is her, and the present stays present."
+                },
+                {
+                  "hindi": "डॉक्टर ने कहा कि तीन दिन आराम करो।",
+                  "read_as": "ḍôkṭar ne kahaa ki tiin din aaraam karo.",
+                  "english": "The doctor said to rest for three days.",
+                  "note": "You met this in Module 12 — the imperative survives intact."
+                }
+              ],
+              "common_error": {
+                "wrong": "उन्होंने कहा कि वो कल आएगा। — meant as \"he said he would come\"",
+                "right": "उन्होंने कहा कि मैं कल आऊँगा।",
+                "why_en": "The version with वो is a real sentence, but it means he said that somebody else would come. Shifting the pronoun the way English does changes who is being talked about."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Report this exactly as he said it.",
+              "sentences": [
+                "उन्होंने कहा।",
+                "उनके शब्द थे: मैं कल आऊँगा।"
+              ],
+              "sentences_read_as": [
+                "unhoṁne kahaa.",
+                "unke shabd the: maiṁ kal aauuṁgaa."
+              ],
+              "options": [
+                "उन्होंने कहा कि मैं कल आऊँगा।",
+                "उन्होंने कहा कि वो अगले दिन आएगा।",
+                "उन्होंने कहा कि मैं कल आऊँगा था।",
+                "उन्होंने कहा मैं कल आऊँगा कि।"
+              ],
+              "options_read_as": [
+                "unhoṁne kahaa ki maiṁ kal aauuṁgaa.",
+                "unhoṁne kahaa ki vo agle din aaegaa.",
+                "unhoṁne kahaa ki maiṁ kal aauuṁgaa thaa.",
+                "unhoṁne kahaa maiṁ kal aauuṁgaa ki."
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second is the English rebuild — pronoun shifted, time word shifted — and it now says a third person will come. The third invents a past future. The fourth strands कि at the end, where it cannot go."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "कि मैं",
+                "उन्होंने कहा",
+                "कल आऊँगा"
+              ],
+              "answer": [
+                "उन्होंने कहा",
+                "कि मैं",
+                "कल आऊँगा"
+              ],
+              "answer_read_as": "unhoṁne kahaa ki maiṁ kal aauuṁgaa.",
+              "explanation_en": "कि marks the boundary, and everything after it is the original speech."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उन्होंने कहा कि मैं कल आऊँगा।",
+              "उसने कहा कि मुझे भूख लगी है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L18-I2",
+          "type": "grammar",
+          "structure": "reported_ki",
+          "target": "उसने पूछा कि तुम कहाँ जा रहे हो।",
+          "read_as": "usne puuchhaa ki tum kahaaṁ jaa rahe ho.",
+          "english": "He asked where I was going.",
+          "difficulty": 10,
+          "tags": [
+            "reported_speech",
+            "reported_question",
+            "no_inversion",
+            "no_backshift"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A reported question keeps its question words and drops nothing",
+              "explanation_en": "English rearranges a reported question — \"where are you going\" becomes \"where I was going\", losing the inversion and shifting the tense and the pronoun. Hindi again keeps the original: उसने पूछा कि तुम कहाँ जा रहे हो. तुम is you as the asker said it, so it means me. And there is no question mark, because although the words were a question, the sentence as a whole is a statement about what was asked.",
+              "examples": [
+                {
+                  "hindi": "उसने पूछा कि तुम कहाँ जा रहे हो।",
+                  "read_as": "usne puuchhaa ki tum kahaaṁ jaa rahe ho.",
+                  "english": "He asked where I was going.",
+                  "note": "तुम is the reporter. No question mark."
+                },
+                {
+                  "hindi": "उन्होंने पूछा कि क्या तुम आओगे।",
+                  "read_as": "unhoṁne puuchhaa ki kyaa tum aaoge.",
+                  "english": "They asked whether I would come.",
+                  "note": "क्या survives as the yes-or-no marker, doing the work of English \"whether\"."
+                },
+                {
+                  "hindi": "तुम कहाँ जा रहे हो?",
+                  "read_as": "tum kahaaṁ jaa rahe ho?",
+                  "english": "Where are you going?",
+                  "note": "The original. Word for word identical to the reported version."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने पूछा कि मैं कहाँ जा रहा था।",
+                "right": "उसने पूछा कि तुम कहाँ जा रहे हो।",
+                "why_en": "This is the English rebuild. It is grammatical Hindi but it reports a different question — one in which he asked about his own past movements."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Report the question exactly as it was asked.",
+              "sentences": [
+                "उसने पूछा।",
+                "उसके शब्द थे: तुम कहाँ जा रहे हो?"
+              ],
+              "sentences_read_as": [
+                "usne puuchhaa.",
+                "uske shabd the: tum kahaaṁ jaa rahe ho?"
+              ],
+              "options": [
+                "उसने पूछा कि कहाँ तुम जा रहे हो।",
+                "उसने पूछा कि तुम कहाँ जा रहे हो?",
+                "उसने पूछा कि तुम कहाँ जा रहे हो।",
+                "उसने पूछा कि मैं कहाँ जा रहा था।"
+              ],
+              "options_read_as": [
+                "usne puuchhaa ki kahaaṁ tum jaa rahe ho.",
+                "usne puuchhaa ki tum kahaaṁ jaa rahe ho?",
+                "usne puuchhaa ki tum kahaaṁ jaa rahe ho.",
+                "usne puuchhaa ki maiṁ kahaaṁ jaa rahaa thaa."
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second is the English rebuild and changes who was asked about. The third moves कहाँ in front of the subject. The fourth adds a question mark, but the whole sentence is a statement."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "कि तुम",
+                "जा रहे हो",
+                "उसने पूछा",
+                "कहाँ"
+              ],
+              "answer": [
+                "उसने पूछा",
+                "कि तुम",
+                "कहाँ",
+                "जा रहे हो"
+              ],
+              "answer_read_as": "usne puuchhaa ki tum kahaaṁ jaa rahe ho.",
+              "explanation_en": "The question word sits where it sat in the original."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उसने पूछा कि तुम कहाँ जा रहे हो।",
+              "उन्होंने पूछा कि क्या तुम आओगे।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L18-I3",
+          "type": "grammar",
+          "structure": "reported_ki",
+          "target": "डॉक्टर ने कहा कि आराम करें।",
+          "read_as": "ḍôkṭar ne kahaa ki aaraam kareṁ.",
+          "english": "The doctor said to rest.",
+          "difficulty": 9,
+          "tags": [
+            "reported_speech",
+            "reported_command",
+            "subjunctive",
+            "register_shift"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A reported command usually softens to the subjunctive",
+              "explanation_en": "This is the one place where Hindi does change something. A direct command — आराम कीजिए — becomes आराम करें when reported: डॉक्टर ने कहा कि आराम करें. The subjunctive replaces the imperative, and the effect is to report the instruction rather than to repeat it at the listener. The plain imperative does survive in casual reporting, as in डॉक्टर ने कहा कि तीन दिन आराम करो from Module 12 — but the subjunctive is the neutral choice and the one that will always be right.",
+              "examples": [
+                {
+                  "hindi": "डॉक्टर ने कहा कि आराम करें।",
+                  "read_as": "ḍôkṭar ne kahaa ki aaraam kareṁ.",
+                  "english": "The doctor said to rest.",
+                  "note": "Subjunctive — reporting, not commanding."
+                },
+                {
+                  "hindi": "उन्होंने कहा कि कल फिर आएँ।",
+                  "read_as": "unhoṁne kahaa ki kal phir aaeṁ.",
+                  "english": "They said to come again tomorrow.",
+                  "note": "Same shape, and the आएँ is not addressed to you by the reporter."
+                },
+                {
+                  "hindi": "माँ ने कहा कि जल्दी आ जाना।",
+                  "read_as": "maaṁ ne kahaa ki jaldii aa jaanaa.",
+                  "english": "Mum said to come back soon.",
+                  "note": "The infinitive imperative survives — warmer, and common in family speech."
+                }
+              ],
+              "common_error": {
+                "wrong": "डॉक्टर ने कहा कि आराम कीजिए।",
+                "right": "डॉक्टर ने कहा कि आराम करें।",
+                "why_en": "कीजिए is addressed to somebody. Inside a report there is nobody to address, so the subjunctive takes over."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Report the doctor's instruction.",
+              "sentences": [
+                "डॉक्टर ने कहा।",
+                "उनके शब्द थे: आराम कीजिए।"
+              ],
+              "sentences_read_as": [
+                "ḍôkṭar ne kahaa.",
+                "unke shabd the: aaraam kiijie."
+              ],
+              "options": [
+                "डॉक्टर ने कहा कि आराम कीजिए।",
+                "डॉक्टर ने कहा कि आराम करेंगे।",
+                "डॉक्टर ने कहा आराम करें कि।",
+                "डॉक्टर ने कहा कि आराम करें।"
+              ],
+              "options_read_as": [
+                "ḍôkṭar ne kahaa ki aaraam kiijie.",
+                "ḍôkṭar ne kahaa ki aaraam kareṁge.",
+                "ḍôkṭar ne kahaa aaraam kareṁ ki.",
+                "ḍôkṭar ne kahaa ki aaraam kareṁ."
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second keeps an imperative that has nobody to address. The third uses the future, which reports a prediction rather than an instruction. The fourth strands कि."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "कि आराम करें",
+                "ने कहा",
+                "डॉक्टर"
+              ],
+              "answer": [
+                "डॉक्टर",
+                "ने कहा",
+                "कि आराम करें"
+              ],
+              "answer_read_as": "ḍôkṭar ne kahaa ki aaraam kareṁ.",
+              "explanation_en": "The noun subject keeps ने separate, as Module 12 established."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "डॉक्टर ने कहा कि आराम करें।",
+              "माँ ने कहा कि जल्दी आ जाना।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Hindi quotes where English rebuilds. No tense shifts back, no pronoun changes, no time word moves — so उन्होंने कहा कि मैं कल आऊँगा means he said he would come tomorrow, with मैं referring to him. A reported question keeps its question word and its word order. Only a command changes, softening to the subjunctive.",
+        "key_forms": [
+          "कहा कि मैं ... आऊँगा",
+          "पूछा कि तुम ...",
+          "कहा कि ... करें"
+        ],
+        "next_up_en": "Next: which verb takes कि, and the ambiguity that Hindi simply lives with."
+      }
+    },
+    {
+      "level": 19,
+      "title_en": "Who is मैं?",
+      "title_hi": "कहना · पूछना · बताना",
+      "items": [
+        {
+          "id": "M14-L19-I1",
+          "type": "grammar",
+          "structure": "reported_ki",
+          "target": "उसने मुझे बताया कि दुकान बंद है।",
+          "read_as": "usne mujhe bataayaa ki dukaan baṁd hai.",
+          "english": "She told me the shop was closed.",
+          "difficulty": 8,
+          "tags": [
+            "reported_speech",
+            "verb_choice",
+            "bataanaa",
+            "ko_marking"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कहना, पूछना, बताना — all take कि, and they are not interchangeable",
+              "explanation_en": "All three introduce a कि clause and each does a different job. कहना is to say, and the person addressed takes से: उसने मुझसे कहा कि. पूछना is to ask, also with से. बताना is to tell somebody something, and the person takes को: उसने मुझे बताया कि. Getting the postposition wrong is the usual slip — कहना and पूछना take से, बताना takes को, and there is no logic to it beyond the verbs themselves.",
+              "examples": [
+                {
+                  "hindi": "उसने बताया कि दुकान बंद है।",
+                  "read_as": "usne bataayaa ki dukaan baṁd hai.",
+                  "english": "She told me the shop was closed.",
+                  "note": "The listener can be left out when it is obvious."
+                },
+                {
+                  "hindi": "उसने मुझे बताया कि दुकान बंद है।",
+                  "read_as": "usne mujhe bataayaa ki dukaan baṁd hai.",
+                  "english": "She told me the shop was closed.",
+                  "note": "मुझे — को on the person told."
+                },
+                {
+                  "hindi": "उसने मुझसे कहा कि दुकान बंद है।",
+                  "read_as": "usne mujhse kahaa ki dukaan baṁd hai.",
+                  "english": "She said to me that the shop was closed.",
+                  "note": "मुझसे — से with कहना."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने मुझसे बताया कि दुकान बंद है।",
+                "right": "उसने मुझे बताया कि दुकान बंद है।",
+                "why_en": "बताना takes को. से belongs with कहना and पूछना."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these, with the right postposition on the listener.",
+              "sentences": [
+                "उसने मुझे कुछ बताया।",
+                "दुकान बंद है।"
+              ],
+              "sentences_read_as": [
+                "usne mujhe kuchh bataayaa.",
+                "dukaan baṁd hai."
+              ],
+              "options": [
+                "उसने मुझे बताया दुकान बंद है कि।",
+                "उसने मुझे बताया कि दुकान बंद है।",
+                "उसने मुझसे बताया कि दुकान बंद है।",
+                "उसने मुझे कहा कि दुकान बंद है।"
+              ],
+              "options_read_as": [
+                "usne mujhe bataayaa dukaan baṁd hai ki.",
+                "usne mujhe bataayaa ki dukaan baṁd hai.",
+                "usne mujhse bataayaa ki dukaan baṁd hai.",
+                "usne mujhe kahaa ki dukaan baṁd hai."
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second gives बताना the से that belongs to कहना. The third gives कहना the को that belongs to बताना. The fourth strands कि at the end."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "दुकान बंद है",
+                "उसने मुझे",
+                "कि",
+                "बताया"
+              ],
+              "answer": [
+                "उसने मुझे",
+                "बताया",
+                "कि",
+                "दुकान बंद है"
+              ],
+              "answer_read_as": "usne mujhe bataayaa ki dukaan baṁd hai.",
+              "explanation_en": "The listener comes before the verb, and कि opens the reported clause."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उसने मुझे बताया कि दुकान बंद है।",
+              "उसने मुझसे कहा कि दुकान बंद है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L19-I2",
+          "type": "grammar",
+          "structure": "reported_ki",
+          "target": "राहुल ने कहा कि मैं थक गया हूँ।",
+          "read_as": "raahul ne kahaa ki maiṁ thak gayaa huuṁ.",
+          "english": "Rahul said he was tired.",
+          "difficulty": 10,
+          "tags": [
+            "reported_speech",
+            "ambiguity",
+            "convention",
+            "payoff_of_l18"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The ambiguity is real, and Hindi lives with it",
+              "explanation_en": "राहुल ने कहा कि मैं थक गया हूँ. By the rule from level 18, मैं is Rahul, and the sentence means Rahul said he was tired. But it could in principle mean Rahul said something, and separately I am tired. Hindi does not resolve this grammatically — it relies on the कि, on intonation, and on the fact that everyone knows the convention. If you genuinely need to be unambiguous, say राहुल ने कहा कि वो थक गया है, which forces the third person and loses nothing but the flavour of a direct quote.",
+              "examples": [
+                {
+                  "hindi": "राहुल ने कहा कि मैं थक गया हूँ।",
+                  "read_as": "raahul ne kahaa ki maiṁ thak gayaa huuṁ.",
+                  "english": "Rahul said he was tired.",
+                  "note": "मैं is Rahul, by convention."
+                },
+                {
+                  "hindi": "राहुल ने कहा कि वो थक गया है।",
+                  "read_as": "raahul ne kahaa ki vo thak gayaa hai.",
+                  "english": "Rahul said he was tired.",
+                  "note": "वो — unambiguous, and it may or may not be Rahul."
+                },
+                {
+                  "hindi": "राहुल ने कहा, और मैं थक गया हूँ।",
+                  "read_as": "raahul ne kahaa, aur maiṁ thak gayaa huuṁ.",
+                  "english": "Rahul said so, and I am tired.",
+                  "note": "With और and no कि, the second clause is clearly the speaker's own."
+                }
+              ],
+              "common_error": {
+                "wrong": "reading राहुल ने कहा कि मैं थक गया हूँ as \"Rahul said, and I am tired\"",
+                "right": "reading it as \"Rahul said he was tired\"",
+                "why_en": "कि introduces reported speech, so everything after it belongs to Rahul. The mistake is one of comprehension rather than production, and it is the one this level exists to prevent."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Report Rahul's own words.",
+              "sentences": [
+                "राहुल ने कहा।",
+                "उसके शब्द थे: मैं थक गया हूँ।"
+              ],
+              "sentences_read_as": [
+                "raahul ne kahaa.",
+                "uske shabd the: maiṁ thak gayaa huuṁ."
+              ],
+              "options": [
+                "राहुल ने कहा कि मैं थक गया था।",
+                "राहुल ने कहा कि तुम थक गए हो।",
+                "राहुल ने कहा कि मैं थक गया हूँ।",
+                "राहुल ने कहा और मैं थक गया हूँ।"
+              ],
+              "options_read_as": [
+                "raahul ne kahaa ki maiṁ thak gayaa thaa.",
+                "raahul ne kahaa ki tum thak gae ho.",
+                "raahul ne kahaa ki maiṁ thak gayaa huuṁ.",
+                "raahul ne kahaa aur maiṁ thak gayaa huuṁ."
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second uses और, which makes the tiredness the speaker's own. The third shifts the tense back, English-style. The fourth changes who was tired."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "कि मैं",
+                "राहुल ने कहा",
+                "थक गया हूँ"
+              ],
+              "answer": [
+                "राहुल ने कहा",
+                "कि मैं",
+                "थक गया हूँ"
+              ],
+              "answer_read_as": "raahul ne kahaa ki maiṁ thak gayaa huuṁ.",
+              "explanation_en": "कि is the boundary, and everything past it is Rahul speaking."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "राहुल ने कहा कि मैं थक गया हूँ।",
+              "राहुल ने कहा कि वो थक गया है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L19-I3",
+          "type": "grammar",
+          "structure": "reported_ki",
+          "target": "माँ ने कहा कि खाना खाकर जाना।",
+          "read_as": "maaṁ ne kahaa ki khaanaa khaakar jaanaa.",
+          "english": "Mum said to eat before going.",
+          "difficulty": 9,
+          "tags": [
+            "reported_speech",
+            "mixed_drill",
+            "kar_participle_preview",
+            "infinitive_imperative"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A reported instruction, and a form arriving three levels early",
+              "explanation_en": "माँ ने कहा कि खाना खाकर जाना. Two things are happening. The instruction is reported with the infinitive जाना rather than the subjunctive, which is warmer and is what family speech does. And खाकर is the conjunctive participle — eat, and then go — which level 22 will teach properly. It appears here because reported speech is where you meet it constantly, and because Module 12's kitchens and doorways were full of it long before this module named it.",
+              "examples": [
+                {
+                  "hindi": "माँ ने कहा कि खाना खाकर जाना।",
+                  "read_as": "maaṁ ne kahaa ki khaanaa khaakar jaanaa.",
+                  "english": "Mum said to eat before going.",
+                  "note": "खाकर — do this, then that."
+                },
+                {
+                  "hindi": "उन्होंने कहा कि पहले फ़ॉर्म भरकर आइए।",
+                  "read_as": "unhoṁne kahaa ki pahle fôrm bharkar aaie.",
+                  "english": "They said to fill in the form and then come.",
+                  "note": "भरकर, and a polite imperative surviving inside the report."
+                },
+                {
+                  "hindi": "माँ ने कहा कि खाना खा लो, फिर जाना।",
+                  "read_as": "maaṁ ne kahaa ki khaanaa khaa lo, phir jaanaa.",
+                  "english": "Mum said to eat, and then go.",
+                  "note": "The same instruction without the participle — two clauses instead of one."
+                }
+              ],
+              "common_error": {
+                "wrong": "माँ ने कहा कि खाना खाकर जाओ।",
+                "right": "माँ ने कहा कि खाना खाकर जाना।",
+                "why_en": "जाओ is addressed to somebody standing in front of you. Inside a report the infinitive जाना is the natural choice."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Report what Mum said.",
+              "sentences": [
+                "माँ ने कहा।",
+                "उनके शब्द थे: खाना खाकर जाना।"
+              ],
+              "sentences_read_as": [
+                "maaṁ ne kahaa.",
+                "unke shabd the: khaanaa khaakar jaanaa."
+              ],
+              "options": [
+                "माँ ने कहा कि खाना खाकर जाना।",
+                "माँ ने कहा कि खाना खाकर जाओ।",
+                "माँ ने कहा कि खाना खाकर गया।",
+                "माँ ने कहा खाना खाकर जाना कि।"
+              ],
+              "options_read_as": [
+                "maaṁ ne kahaa ki khaanaa khaakar jaanaa.",
+                "maaṁ ne kahaa ki khaanaa khaakar jaao.",
+                "maaṁ ne kahaa ki khaanaa khaakar gayaa.",
+                "maaṁ ne kahaa khaanaa khaakar jaanaa ki."
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second uses an imperative addressed to nobody. The third makes it a statement about somebody who already left. The fourth strands कि."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "खाना खाकर",
+                "माँ ने कहा",
+                "जाना",
+                "कि"
+              ],
+              "answer": [
+                "माँ ने कहा",
+                "कि",
+                "खाना खाकर",
+                "जाना"
+              ],
+              "answer_read_as": "maaṁ ne kahaa ki khaanaa khaakar jaanaa.",
+              "explanation_en": "The participle stays attached to its own object, and the main verb closes."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "माँ ने कहा कि खाना खाकर जाना।",
+              "माँ ने कहा कि खाना खा लो, फिर जाना।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "कहना and पूछना take से on the listener; बताना takes को. And the ambiguity in राहुल ने कहा कि मैं थक गया हूँ is real — Hindi resolves it by convention rather than by grammar, and वो is available when you need to be certain.",
+        "key_forms": [
+          "मुझे बताया कि",
+          "मुझसे कहा कि",
+          "कहा कि मैं ..."
+        ],
+        "next_up_en": "Next: the participles, starting with the one that means \"while doing\"."
+      }
+    },
+    {
+      "level": 20,
+      "title_en": "While doing",
+      "title_hi": "करते हुए · करते-करते",
+      "items": [
+        {
+          "id": "M14-L20-I1",
+          "type": "grammar",
+          "structure": "karte_hue",
+          "target": "वो हँसते हुए अंदर आए।",
+          "read_as": "vo haṁste hue aṁdar aae.",
+          "english": "He came in laughing.",
+          "difficulty": 9,
+          "tags": [
+            "participle",
+            "karte_hue",
+            "simultaneous",
+            "agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "करते हुए — two things at once, one of them in the background",
+              "explanation_en": "वो हँसते हुए अंदर आए — he came in laughing. करते हुए takes the imperfect participle and adds हुए, and it means the action was going on while the main verb happened. The main verb is the one that carries the sentence; the participle is scenery. English does this with an -ing form and Hindi does it with two words, and the two are close enough that this is one of the easier constructions to pick up. Note that it needs the same subject for both actions.",
+              "examples": [
+                {
+                  "hindi": "वो हँसते हुए अंदर आए।",
+                  "read_as": "vo haṁste hue aṁdar aae.",
+                  "english": "He came in laughing.",
+                  "note": "Both actions his, and the coming in is the main one."
+                },
+                {
+                  "hindi": "वो चलते हुए बात कर रहे थे।",
+                  "read_as": "vo chalte hue baat kar rahe the.",
+                  "english": "They were talking as they walked.",
+                  "note": "Walking in the background, talking in the foreground."
+                },
+                {
+                  "hindi": "बच्चे गाते हुए स्कूल गए।",
+                  "read_as": "bacche gaate hue skuul gae.",
+                  "english": "The children went to school singing.",
+                  "note": "Masculine plural, and गाते हुए does not change further."
+                }
+              ],
+              "common_error": {
+                "wrong": "वो हँसते हुए मैं अंदर आया।",
+                "right": "मैं हँसते हुए अंदर आया।",
+                "why_en": "The participle and the main verb must share a subject. You cannot have one person laughing and another coming in."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these so that one action is in the background.",
+              "sentences": [
+                "वो हँस रहे थे।",
+                "वो अंदर आए।"
+              ],
+              "sentences_read_as": [
+                "vo haṁs rahe the.",
+                "vo aṁdar aae."
+              ],
+              "options": [
+                "वो हँसते हुए अंदर आना।",
+                "वो हँसते हुए अंदर आए।",
+                "वो हँसते अंदर आए।",
+                "वो हँसकर अंदर आए।"
+              ],
+              "options_read_as": [
+                "vo haṁste hue aṁdar aanaa.",
+                "vo haṁste hue aṁdar aae.",
+                "vo haṁste aṁdar aae.",
+                "vo haṁskar aṁdar aae."
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second drops हुए. The third uses the -कर participle, which means he laughed and then came in — two actions in sequence rather than at once. The fourth ends with an infinitive and never becomes a sentence."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "अंदर आए",
+                "वो",
+                "हँसते हुए"
+              ],
+              "answer": [
+                "वो",
+                "हँसते हुए",
+                "अंदर आए"
+              ],
+              "answer_read_as": "vo haṁste hue aṁdar aae.",
+              "explanation_en": "The participle sits between the subject and the main verb."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वो हँसते हुए अंदर आए।",
+              "वो चलते हुए बात कर रहे थे।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L20-I2",
+          "type": "grammar",
+          "structure": "karte_karte",
+          "target": "पढ़ते-पढ़ते वो सो गया।",
+          "read_as": "paṛhte-paṛhte vo so gayaa.",
+          "english": "He fell asleep while reading.",
+          "difficulty": 9,
+          "tags": [
+            "participle",
+            "karte_karte",
+            "duration_then_interruption",
+            "reduplication"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "करते-करते — going on until something else happened",
+              "explanation_en": "पढ़ते-पढ़ते वो सो गया. The doubled participle means the action continued for a while and then the main verb interrupted it. करते हुए from the last item is neutral about duration; करते-करते insists on it, and usually implies that the length is the reason for what followed. He did not fall asleep while reading so much as because he had been reading for long enough. It also carries a second sense of gradual change — करते-करते आदत हो गई, doing it over and over, it became a habit.",
+              "examples": [
+                {
+                  "hindi": "पढ़ते-पढ़ते वो सो गया।",
+                  "read_as": "paṛhte-paṛhte vo so gayaa.",
+                  "english": "He fell asleep while reading.",
+                  "note": "The reading went on, and then sleep interrupted it."
+                },
+                {
+                  "hindi": "चलते-चलते पैर दुखने लगे।",
+                  "read_as": "chalte-chalte pair dukhne lage.",
+                  "english": "My feet started aching from all the walking.",
+                  "note": "The duration is the cause."
+                },
+                {
+                  "hindi": "करते-करते आदत हो गई।",
+                  "read_as": "karte-karte aadat ho gaii.",
+                  "english": "Doing it again and again, it became a habit.",
+                  "note": "The gradual-change sense."
+                }
+              ],
+              "common_error": {
+                "wrong": "पढ़ते हुए वो सो गया।",
+                "right": "पढ़ते-पढ़ते वो सो गया।",
+                "why_en": "Not wrong, but it loses the point. करते हुए says he was reading at the time; करते-करते says he had been reading long enough for it to send him to sleep."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these so that the first action went on until the second interrupted it.",
+              "sentences": [
+                "वो देर तक पढ़ता रहा।",
+                "फिर सो गया।"
+              ],
+              "sentences_read_as": [
+                "vo der tak paṛhtaa rahaa.",
+                "phir so gayaa."
+              ],
+              "options": [
+                "पढ़ते हुए वो सो गया।",
+                "पढ़कर वो सो गया।",
+                "पढ़ते-पढ़ते वो सोता है।",
+                "पढ़ते-पढ़ते वो सो गया।"
+              ],
+              "options_read_as": [
+                "paṛhte hue vo so gayaa.",
+                "paṛhkar vo so gayaa.",
+                "paṛhte-paṛhte vo sotaa hai.",
+                "paṛhte-paṛhte vo so gayaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second says he was reading at the time but not that it went on. The third says he finished reading and then slept, which is a different story. The fourth uses the present, which makes it a habit."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "सो गया",
+                "पढ़ते-पढ़ते",
+                "वो"
+              ],
+              "answer": [
+                "पढ़ते-पढ़ते",
+                "वो",
+                "सो गया"
+              ],
+              "answer_read_as": "paṛhte-paṛhte vo so gayaa.",
+              "explanation_en": "The doubled participle usually opens the sentence."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पढ़ते-पढ़ते वो सो गया।",
+              "करते-करते आदत हो गई।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L20-I3",
+          "type": "grammar",
+          "structure": "karte_hue",
+          "target": "वो रोती हुई कमरे से निकल गई।",
+          "read_as": "vo rotii huii kamre se nikal gaii.",
+          "english": "She left the room in tears.",
+          "difficulty": 9,
+          "tags": [
+            "participle",
+            "karte_hue",
+            "agreement",
+            "feminine"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "करते हुए agrees with the subject",
+              "explanation_en": "वो रोती हुई कमरे से निकल गई — both parts of the participle move for a feminine subject: रोती हुई, not रोते हुए. The pattern is रोते हुए for a masculine subject, रोती हुई for a feminine one, and रोते हुए again for the masculine plural. In practice रोते हुए is often heard with feminine subjects too, especially in speech, but the agreeing form is the standard and it is what writing expects.",
+              "examples": [
+                {
+                  "hindi": "वो रोती हुई कमरे से निकल गई।",
+                  "read_as": "vo rotii huii kamre se nikal gaii.",
+                  "english": "She left the room in tears.",
+                  "note": "Feminine throughout — रोती हुई, and निकल गई."
+                },
+                {
+                  "hindi": "वो रोते हुए कमरे से निकल गया।",
+                  "read_as": "vo rote hue kamre se nikal gayaa.",
+                  "english": "He left the room in tears.",
+                  "note": "Masculine, and the same sentence otherwise."
+                },
+                {
+                  "hindi": "लड़कियाँ हँसती हुई बाहर चली गईं।",
+                  "read_as": "laṛkiyaaṁ haṁstii huii baahar chalii gaiiṁ.",
+                  "english": "The girls went out laughing.",
+                  "note": "Feminine plural — and the participle does not change further."
+                }
+              ],
+              "common_error": {
+                "wrong": "वो रोते हुए कमरे से निकल गई।",
+                "right": "वो रोती हुई कमरे से निकल गई।",
+                "why_en": "The main verb has been made feminine and the participle has not. If one agrees, both should."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these, with a feminine subject.",
+              "sentences": [
+                "वो रो रही थी।",
+                "वो कमरे से निकल गई।"
+              ],
+              "sentences_read_as": [
+                "vo ro rahii thii.",
+                "vo kamre se nikal gaii."
+              ],
+              "options": [
+                "वो रोती हुई कमरे से निकल गई।",
+                "वो रोते हुए कमरे से निकल गई।",
+                "वो रोती हुए कमरे से निकल गई।",
+                "वो रोती हुई कमरे से निकल गया।"
+              ],
+              "options_read_as": [
+                "vo rotii huii kamre se nikal gaii.",
+                "vo rote hue kamre se nikal gaii.",
+                "vo rotii hue kamre se nikal gaii.",
+                "vo rotii huii kamre se nikal gayaa."
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second leaves the participle masculine. The third moves only half of it. The fourth makes the main verb masculine while the participle is feminine."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "कमरे से",
+                "रोती हुई",
+                "निकल गई",
+                "वो"
+              ],
+              "answer": [
+                "वो",
+                "रोती हुई",
+                "कमरे से",
+                "निकल गई"
+              ],
+              "answer_read_as": "vo rotii huii kamre se nikal gaii.",
+              "explanation_en": "Subject, participle, then the rest of the main clause."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वो रोती हुई कमरे से निकल गई।",
+              "लड़कियाँ हँसती हुई बाहर चली गईं।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "करते हुए puts one action in the background of another, and both parts agree with the subject — रोते हुए, रोती हुई. करते-करते insists that the action went on long enough to cause what followed. And both need the participle and the main verb to share a subject.",
+        "key_forms": [
+          "हँसते हुए",
+          "पढ़ते-पढ़ते",
+          "रोती हुई"
+        ],
+        "next_up_en": "Next: the participle that describes a thing rather than an action."
+      }
+    }
+  ]
+}

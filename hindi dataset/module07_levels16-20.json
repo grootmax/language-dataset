@@ -1,0 +1,1550 @@
+{
+  "module": 7,
+  "module_name_en": "The Tense-Aspect Engine",
+  "module_name_hi": "काल",
+  "phase": 3,
+  "batch": {
+    "levels_from": 16,
+    "levels_to": 20
+  },
+  "model_verb": {
+    "hindi": "जाना",
+    "read_as": "jaanaa",
+    "english": "to go",
+    "transitivity": "intransitive"
+  },
+  "levels": [
+    {
+      "level": 16,
+      "title_en": "The perfective without an auxiliary",
+      "title_hi": "वह आया · वे गईं",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L16-I1",
+          "type": "grammar",
+          "target": "वे गई हैं",
+          "read_as": "ve gaii haiṁ",
+          "pronunciation_notes": "गई is two vowels running together with nothing between them: ga-ii.",
+          "gloss_en": "perfective present, feminine plural",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "perfective_present",
+          "tags": [
+            "tense",
+            "perfective_present",
+            "third_person",
+            "feminine",
+            "plural",
+            "intransitive"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The auxiliary carries the plural, as usual",
+              "explanation_en": "वे गई हैं completes the perfective present. The participle is गई — feminine, and identical to the singular — while हैं does the counting. This is the pattern you have now seen in every aspect: the feminine marked ending refuses to distinguish number, so the auxiliary handles it alone. Hold on to that for one more item, because the next one is the single place in the whole course where it stops being true.",
+              "examples": [
+                {
+                  "hindi": "वे गई हैं",
+                  "read_as": "ve gaii haiṁ",
+                  "english": "they have gone",
+                  "note": "Feminine participle, plural auxiliary."
+                },
+                {
+                  "hindi": "लड़कियाँ स्कूल गई हैं",
+                  "read_as": "laṛkiyaaṁ skuul gaii haiṁ",
+                  "english": "the girls have gone to school",
+                  "note": "A plural feminine noun subject, and गई is unchanged."
+                },
+                {
+                  "hindi": "वे आई हैं",
+                  "read_as": "ve aaii haiṁ",
+                  "english": "they have come",
+                  "note": "आना behaves identically."
+                }
+              ],
+              "common_error": {
+                "wrong": "वे गईं हैं",
+                "right": "वे गई हैं",
+                "why_en": "The nasalised गईं is a real form, but it does not appear in front of an auxiliary. हैं is already carrying the plural."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · वे (feminine) · perfective present",
+              "question_read_as": "jaanaa · ve (feminine) · perfective present",
+              "options": [
+                "वे गईं हैं",
+                "वे गई हैं",
+                "वे गए हैं",
+                "वे गई है"
+              ],
+              "options_read_as": [
+                "ve gaiiṁ haiṁ",
+                "ve gaii haiṁ",
+                "ve gae haiṁ",
+                "ve gaii hai"
+              ],
+              "answer_index": 1,
+              "explanation_en": "गई for any feminine subject, हैं for the plural."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous present cell?",
+              "options": [
+                "वे गई हैं",
+                "वे जाती हैं",
+                "वे गई थीं",
+                "वे जा रही हैं"
+              ],
+              "options_read_as": [
+                "ve gaii haiṁ",
+                "ve jaatii haiṁ",
+                "ve gaii thiiṁ",
+                "ve jaa rahii haiṁ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "वे जा रही हैं — they are on their way. The first says they have already gone."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वे गई हैं",
+              "लड़कियाँ स्कूल गई हैं",
+              "वे आई हैं"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L16-I2",
+          "type": "grammar",
+          "target": "वह आया",
+          "read_as": "vah aayaa",
+          "pronunciation_notes": "Nothing follows the participle, so the sentence ends on the long aa: voh aa-yaa.",
+          "gloss_en": "the perfective standing alone — the everyday past",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "perfective_simple",
+          "tags": [
+            "tense",
+            "perfective_simple",
+            "bare_perfective",
+            "third_person",
+            "masculine",
+            "intransitive",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The most common past tense in Hindi has no auxiliary at all",
+              "explanation_en": "The perfective is the one participle that can stand without होना behind it, and when it does, it is the plain past: वह आया, he came. This is not a shortened or casual version of वह आया है — it means something different. आया है says he came and is still here. आया just says it happened. If you are telling someone what occurred yesterday, this bare form is what you will use for almost every verb in the account, which makes it the most frequent past tense in the language and the one to reach for by default.",
+              "examples": [
+                {
+                  "hindi": "वह आया",
+                  "read_as": "vah aayaa",
+                  "english": "he came",
+                  "note": "A finished event, with nothing said about now."
+                },
+                {
+                  "hindi": "वह आया है",
+                  "read_as": "vah aayaa hai",
+                  "english": "he has come",
+                  "note": "The same event, plus the claim that he is still here."
+                },
+                {
+                  "hindi": "वह कल आया",
+                  "read_as": "vah kal aayaa",
+                  "english": "he came yesterday",
+                  "note": "With a past time word, the bare form is the only natural choice."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह कल आया है",
+                "right": "वह कल आया",
+                "why_en": "है ties the result to the present, which clashes with कल pointing at yesterday. Naming a past time forces the bare form."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "आना · वह · masculine · simple past",
+              "question_read_as": "aanaa · vah · masculine · simple past",
+              "options": [
+                "वह आता",
+                "वह आया है",
+                "वह आ रहा",
+                "वह आया"
+              ],
+              "options_read_as": [
+                "vah aataa",
+                "vah aayaa hai",
+                "vah aa rahaa",
+                "vah aayaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "The perfective participle with no auxiliary behind it."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the perfective present cell?",
+              "options": [
+                "वह आया",
+                "वह आया है",
+                "वह आता है",
+                "वह आ रहा है"
+              ],
+              "options_read_as": [
+                "vah aayaa",
+                "vah aayaa hai",
+                "vah aataa hai",
+                "vah aa rahaa hai"
+              ],
+              "answer_index": 1,
+              "explanation_en": "वह आया है. The first is the bare perfective, which sits outside the nine-cell grid entirely."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह आया",
+              "वह आया है",
+              "वह कल आया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L16-I3",
+          "type": "grammar",
+          "target": "वे गईं",
+          "read_as": "ve gaiiṁ",
+          "pronunciation_notes": "The word ends on a nasal hum that is easy to miss and does all the work: ga-iiṁ.",
+          "gloss_en": "the one place a feminine ending marks number",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "perfective_simple",
+          "tags": [
+            "tense",
+            "perfective_simple",
+            "bare_perfective",
+            "feminine",
+            "plural",
+            "exception",
+            "nasalisation"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The exception to a rule you have been given four times",
+              "explanation_en": "You have been told repeatedly that a feminine marked ending never distinguishes singular from plural — बड़ी, जाती, रही, गई. Here is the exception, and there is only one. When the perfective stands alone with no auxiliary, there is nothing else in the sentence that could carry the plural, so the participle nasalises and does it: वह गई for one woman, वे गईं for several. Put an auxiliary back and the nasal disappears, because हैं or थीं takes the job over. So the rule is really that the feminine marks number only when nothing else can.",
+              "examples": [
+                {
+                  "hindi": "वे गईं",
+                  "read_as": "ve gaiiṁ",
+                  "english": "they went",
+                  "note": "No auxiliary, so the participle itself carries the plural."
+                },
+                {
+                  "hindi": "वह गई",
+                  "read_as": "vah gaii",
+                  "english": "she went",
+                  "note": "Singular, and the nasal is gone."
+                },
+                {
+                  "hindi": "लड़कियाँ स्कूल गईं",
+                  "read_as": "laṛkiyaaṁ skuul gaiiṁ",
+                  "english": "the girls went to school",
+                  "note": "A plural feminine noun subject with the bare perfective."
+                }
+              ],
+              "common_error": {
+                "wrong": "वे गई",
+                "right": "वे गईं",
+                "why_en": "With no auxiliary present, dropping the nasal leaves the sentence singular. Here the hum is the only thing marking the plural."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · वे (feminine) · simple past",
+              "question_read_as": "jaanaa · ve (feminine) · simple past",
+              "options": [
+                "वे गईं",
+                "वे गई",
+                "वे गए",
+                "वे गई हैं"
+              ],
+              "options_read_as": [
+                "ve gaiiṁ",
+                "ve gaii",
+                "ve gae",
+                "ve gaii haiṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "No auxiliary, so the participle nasalises to carry the plural."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the perfective present cell?",
+              "options": [
+                "वे गईं",
+                "वे जाती हैं",
+                "वे गई हैं",
+                "वे जा रही हैं"
+              ],
+              "options_read_as": [
+                "ve gaiiṁ",
+                "ve jaatii haiṁ",
+                "ve gaii haiṁ",
+                "ve jaa rahii haiṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "वे गई हैं — and note the nasal has gone, because हैं is carrying the plural now."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वे गईं",
+              "वह गई",
+              "लड़कियाँ स्कूल गईं"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The perfective is the only participle that can stand alone, and when it does it is the ordinary past — वह आया, he came. That bare form is more common in speech than either आया है or आया था. It is also the one place where a feminine ending nasalises to mark the plural, because no auxiliary is there to do it.",
+        "key_forms": [
+          "वे गई हैं",
+          "वह आया",
+          "वे गईं"
+        ],
+        "next_up_en": "Next: the perfective with था behind it, which places one past event before another."
+      }
+    },
+    {
+      "level": 17,
+      "title_en": "Perfective past: the form",
+      "title_hi": "आया था · आई थी · आए थे",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L17-I1",
+          "type": "grammar",
+          "target": "वह आया था",
+          "read_as": "vah aayaa thaa",
+          "pronunciation_notes": "Three long aa sounds and the phrase falls evenly across them: aa-yaa thaa.",
+          "gloss_en": "perfective past, masculine singular",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "perfective_past",
+          "tags": [
+            "tense",
+            "perfective_past",
+            "third_person",
+            "masculine",
+            "intransitive",
+            "relative_time"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Not further back — further back than something else",
+              "explanation_en": "वह आया था is he had come, and the था is doing something more precise than pushing the event deeper into the past. It places the event before another past moment that the conversation has already established. English works the same way: had come only makes sense once there is a later past point to measure it against. If you are simply telling someone what happened, you want the bare वह आया. Reach for था when you need to say that this had already happened by then.",
+              "examples": [
+                {
+                  "hindi": "वह आया था",
+                  "read_as": "vah aayaa thaa",
+                  "english": "he had come",
+                  "note": "Before some other past moment already under discussion."
+                },
+                {
+                  "hindi": "वह घर आया था",
+                  "read_as": "vah ghar aayaa thaa",
+                  "english": "he had come home",
+                  "note": "The destination takes no postposition, as always with आना."
+                },
+                {
+                  "hindi": "वह आया",
+                  "read_as": "vah aayaa",
+                  "english": "he came",
+                  "note": "The bare form, for when there is no earlier-than to express."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह कल आया था",
+                "right": "वह कल आया",
+                "why_en": "Naming a plain past time calls for the bare perfective. था would imply that something else happened after it and you are measuring back from that."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "आना · वह · masculine · perfective past",
+              "question_read_as": "aanaa · vah · masculine · perfective past",
+              "options": [
+                "वह आता था",
+                "वह आ रहा था",
+                "वह आया था",
+                "वह आया है"
+              ],
+              "options_read_as": [
+                "vah aataa thaa",
+                "vah aa rahaa thaa",
+                "vah aayaa thaa",
+                "vah aayaa hai"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Perfective participle आया with the past auxiliary था."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual past cell?",
+              "options": [
+                "वह आता था",
+                "वह आया था",
+                "वह आ रहा था",
+                "वह आया"
+              ],
+              "options_read_as": [
+                "vah aataa thaa",
+                "vah aayaa thaa",
+                "vah aa rahaa thaa",
+                "vah aayaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "वह आता था — he used to come, as a routine."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह आया था",
+              "वह घर आया था",
+              "वह आया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L17-I2",
+          "type": "grammar",
+          "target": "वह आई थी",
+          "read_as": "vah aaii thii",
+          "pronunciation_notes": "Two long ii endings in a row, and the pair rhymes: aa-ii thii.",
+          "gloss_en": "perfective past, feminine singular",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "perfective_past",
+          "tags": [
+            "tense",
+            "perfective_past",
+            "third_person",
+            "feminine",
+            "singular",
+            "intransitive"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The rhyme is back",
+              "explanation_en": "आई थी has the same property the continuous past had: both words agree with gender and number, so they end alike. आया था, आई थी, आए थे, आईं थीं — if the two halves do not rhyme, something has gone wrong, and you can hear it before you work it out. This is the last cell in the grid where you get that check for free, and it is worth using deliberately while you build the habit.",
+              "examples": [
+                {
+                  "hindi": "वह आई थी",
+                  "read_as": "vah aaii thii",
+                  "english": "she had come",
+                  "note": "Feminine on both words, and they rhyme."
+                },
+                {
+                  "hindi": "लड़की घर आई थी",
+                  "read_as": "laṛkii ghar aaii thii",
+                  "english": "the girl had come home",
+                  "note": "A feminine noun subject, and both words follow it."
+                },
+                {
+                  "hindi": "वह गई थी",
+                  "read_as": "vah gaii thii",
+                  "english": "she had gone",
+                  "note": "The irregular verb takes the same endings."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह आई था",
+                "right": "वह आई थी",
+                "why_en": "The participle and the auxiliary both carry gender here, so they cannot disagree with each other."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "आना · वह (feminine) · perfective past",
+              "question_read_as": "aanaa · vah (feminine) · perfective past",
+              "options": [
+                "वह आई थी",
+                "वह आई था",
+                "वह आया थी",
+                "वह आई थीं"
+              ],
+              "options_read_as": [
+                "vah aaii thii",
+                "vah aaii thaa",
+                "vah aayaa thii",
+                "vah aaii thiiṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Feminine singular on both words: आई and थी."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous past cell?",
+              "options": [
+                "वह आई थी",
+                "वह आती थी",
+                "वह आ रही थी",
+                "वह आई है"
+              ],
+              "options_read_as": [
+                "vah aaii thii",
+                "vah aatii thii",
+                "vah aa rahii thii",
+                "vah aaii hai"
+              ],
+              "answer_index": 2,
+              "explanation_en": "वह आ रही थी — she was on her way at that moment."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह आई थी",
+              "लड़की घर आई थी",
+              "वह गई थी"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L17-I3",
+          "type": "grammar",
+          "target": "वे आए थे",
+          "read_as": "ve aae the",
+          "pronunciation_notes": "Both words end in a short e and the phrase moves quickly: ve aa-e the.",
+          "gloss_en": "perfective past, masculine plural",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "perfective_past",
+          "tags": [
+            "tense",
+            "perfective_past",
+            "third_person",
+            "masculine",
+            "plural",
+            "intransitive"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Six cells done",
+              "explanation_en": "वे आए थे completes the perfective past for the third person, and with it six of the nine cells are yours. Take stock of what that actually cost: three participles built from one verb, two sets of auxiliaries you already had from Module 5, and one agreement pattern you have been using since Module 6. There has been almost no memorisation in this module, which is what the opening card promised and is the reason it opened with the whole grid.",
+              "examples": [
+                {
+                  "hindi": "वे आए थे",
+                  "read_as": "ve aae the",
+                  "english": "they had come",
+                  "note": "Masculine plural on both words."
+                },
+                {
+                  "hindi": "लड़के घर आए थे",
+                  "read_as": "laṛke ghar aae the",
+                  "english": "the boys had come home",
+                  "note": "A plural noun subject in its direct form."
+                },
+                {
+                  "hindi": "वे गए थे",
+                  "read_as": "ve gae the",
+                  "english": "they had gone",
+                  "note": "The irregular verb again, plural."
+                }
+              ],
+              "common_error": {
+                "wrong": "वे आया था",
+                "right": "वे आए थे",
+                "why_en": "Both words go plural. Leaving either one singular is the same half-correction this module keeps producing."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "आना · वे · masculine plural · perfective past",
+              "question_read_as": "aanaa · ve · masculine plural · perfective past",
+              "options": [
+                "वे आया था",
+                "वे आए है",
+                "वे आते थे",
+                "वे आए थे"
+              ],
+              "options_read_as": [
+                "ve aayaa thaa",
+                "ve aae hai",
+                "ve aate the",
+                "ve aae the"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Plural participle आए with the plural past auxiliary थे."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the perfective present cell?",
+              "options": [
+                "वे आते हैं",
+                "वे आए हैं",
+                "वे आए थे",
+                "वे आ रहे हैं"
+              ],
+              "options_read_as": [
+                "ve aate haiṁ",
+                "ve aae haiṁ",
+                "ve aae the",
+                "ve aa rahe haiṁ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "वे आए हैं — they have come, and are here."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वे आए थे",
+              "लड़के घर आए थे",
+              "वे गए थे"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The perfective past places an event before another past moment rather than simply further back. Participle and auxiliary both carry gender and number here, so they rhyme — आया था, आई थी, आए थे — which gives you an audible check on your own sentences.",
+        "key_forms": [
+          "वह आया था",
+          "वह आई थी",
+          "वे आए थे"
+        ],
+        "next_up_en": "Next: the perfective past for the other persons, and how to say something had not happened."
+      }
+    },
+    {
+      "level": 18,
+      "title_en": "Perfective past: in use",
+      "title_hi": "मैं गया था · नहीं आया था",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L18-I1",
+          "type": "grammar",
+          "target": "मैं गया था",
+          "read_as": "maiṁ gayaa thaa",
+          "pronunciation_notes": "Three light syllables followed by the heavy थ: maiṁ ga-yaa thaa.",
+          "gloss_en": "perfective past, first person",
+          "gender": null,
+          "difficulty": 7,
+          "grid_cell": "perfective_past",
+          "tags": [
+            "tense",
+            "perfective_past",
+            "first_person",
+            "masculine",
+            "intransitive",
+            "person_collapse"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Still no person in the past",
+              "explanation_en": "मैं गया था and वह गया था are the same verb, exactly as they were in the habitual past. The past auxiliary has never cared who is speaking, and it does not start now. That means the perfective past has only four possible verb shapes in total — गया था, गई थी, गए थे, गईं थीं — and every subject in the language picks one of them by gender and number alone. Four forms for the whole tense is as economical as Hindi gets.",
+              "examples": [
+                {
+                  "hindi": "मैं गया था",
+                  "read_as": "maiṁ gayaa thaa",
+                  "english": "I had gone",
+                  "note": "Said by a man, and identical to the third person."
+                },
+                {
+                  "hindi": "मैं स्कूल गया था",
+                  "read_as": "maiṁ skuul gayaa thaa",
+                  "english": "I had gone to school",
+                  "note": "A full sentence, distinguished from वह only by the pronoun."
+                },
+                {
+                  "hindi": "मैं गई थी",
+                  "read_as": "maiṁ gaii thii",
+                  "english": "I had gone",
+                  "note": "Said by a woman — the only thing that moves the auxiliary is gender."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं गया थे",
+                "right": "मैं गया था",
+                "why_en": "थे is plural. One speaker is singular whatever their person, so the auxiliary is था."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · मैं · masculine · perfective past",
+              "question_read_as": "jaanaa · maiṁ · masculine · perfective past",
+              "options": [
+                "मैं गया थे",
+                "मैं गया था",
+                "मैं जाता था",
+                "मैं गया हूँ"
+              ],
+              "options_read_as": [
+                "maiṁ gayaa the",
+                "maiṁ gayaa thaa",
+                "maiṁ jaataa thaa",
+                "maiṁ gayaa huuṁ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Masculine singular on both words, and person plays no part."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the continuous past cell?",
+              "options": [
+                "मैं गया था",
+                "मैं जाता था",
+                "मैं गया हूँ",
+                "मैं जा रहा था"
+              ],
+              "options_read_as": [
+                "maiṁ gayaa thaa",
+                "maiṁ jaataa thaa",
+                "maiṁ gayaa huuṁ",
+                "maiṁ jaa rahaa thaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "मैं जा रहा था — I was on my way."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं गया था",
+              "मैं स्कूल गया था",
+              "मैं गई थी"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L18-I2",
+          "type": "grammar",
+          "target": "वे गई थीं",
+          "read_as": "ve gaii thiiṁ",
+          "pronunciation_notes": "The nasal falls on थीं and not on गई, which is the whole distinction: ga-ii thiiṁ.",
+          "gloss_en": "feminine plural, with the auxiliary carrying the number",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "perfective_past",
+          "tags": [
+            "tense",
+            "perfective_past",
+            "third_person",
+            "feminine",
+            "plural",
+            "nasalisation",
+            "exception_contrast"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The nasal moves to the auxiliary",
+              "explanation_en": "Compare this with वे गईं from level sixteen. There the participle nasalised, because nothing else could carry the plural. Here थीं is present, so it takes the job and the participle relaxes back to गई. The nasal has not disappeared — it has moved. That is the cleanest way to hold the whole thing: Hindi marks the feminine plural exactly once per verb, and it puts the mark on whichever word is available to carry it.",
+              "examples": [
+                {
+                  "hindi": "वे गई थीं",
+                  "read_as": "ve gaii thiiṁ",
+                  "english": "they had gone",
+                  "note": "The nasal is on थीं, so गई stays plain."
+                },
+                {
+                  "hindi": "वे गईं",
+                  "read_as": "ve gaiiṁ",
+                  "english": "they went",
+                  "note": "No auxiliary, so the nasal moves onto the participle."
+                },
+                {
+                  "hindi": "लड़कियाँ स्कूल गई थीं",
+                  "read_as": "laṛkiyaaṁ skuul gaii thiiṁ",
+                  "english": "the girls had gone to school",
+                  "note": "A plural feminine noun subject with the auxiliary present."
+                }
+              ],
+              "common_error": {
+                "wrong": "वे गईं थीं",
+                "right": "वे गई थीं",
+                "why_en": "The plural is marked once, not twice. With थीं present, the participle does not nasalise."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · वे (feminine) · perfective past",
+              "question_read_as": "jaanaa · ve (feminine) · perfective past",
+              "options": [
+                "वे गईं थीं",
+                "वे गई थी",
+                "वे गई थीं",
+                "वे गए थे"
+              ],
+              "options_read_as": [
+                "ve gaiiṁ thiiṁ",
+                "ve gaii thii",
+                "ve gaii thiiṁ",
+                "ve gae the"
+              ],
+              "answer_index": 2,
+              "explanation_en": "गई plain, and थीं carrying the plural on its own."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual past cell?",
+              "options": [
+                "वे जाती थीं",
+                "वे गई थीं",
+                "वे जा रही थीं",
+                "वे गईं"
+              ],
+              "options_read_as": [
+                "ve jaatii thiiṁ",
+                "ve gaii thiiṁ",
+                "ve jaa rahii thiiṁ",
+                "ve gaiiṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "वे जाती थीं — they used to go."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वे गई थीं",
+              "वे गईं",
+              "लड़कियाँ स्कूल गई थीं"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L18-I3",
+          "type": "grammar",
+          "target": "मैं नहीं आया था",
+          "read_as": "maiṁ nahiiṁ aayaa thaa",
+          "pronunciation_notes": "Two nasal hums early and none at the end: maiṁ nahiiṁ, then aa-yaa thaa.",
+          "gloss_en": "negating the perfective",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "perfective_past",
+          "tags": [
+            "tense",
+            "perfective_past",
+            "negation",
+            "first_person",
+            "module5_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "नहीं in front, as always",
+              "explanation_en": "The placement rule has not changed once in this module: नहीं goes before the verb and nothing else moves. What is worth adding here is that negating a bare perfective is extremely common — मैं नहीं आया, I did not come — and it is one of the most useful short sentences you can build with what you now know. Note also that where English needs a helper verb for the negative, did not come, Hindi needs nothing extra at all.",
+              "examples": [
+                {
+                  "hindi": "मैं नहीं आया था",
+                  "read_as": "maiṁ nahiiṁ aayaa thaa",
+                  "english": "I had not come",
+                  "note": "नहीं in front of the whole verb."
+                },
+                {
+                  "hindi": "मैं नहीं आया",
+                  "read_as": "maiṁ nahiiṁ aayaa",
+                  "english": "I did not come",
+                  "note": "The bare perfective negated, which is the everyday version."
+                },
+                {
+                  "hindi": "वह नहीं गई",
+                  "read_as": "vah nahiiṁ gaii",
+                  "english": "she did not go",
+                  "note": "The same shape with feminine agreement."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं आया नहीं था",
+                "right": "मैं नहीं आया था",
+                "why_en": "नहीं belongs in front of the verb group rather than between the participle and its auxiliary."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Make this negative.",
+              "question": "मैं आया था · negative",
+              "question_read_as": "maiṁ aayaa thaa · negative",
+              "options": [
+                "मैं आया नहीं था",
+                "मैं आया था नहीं",
+                "मैं नहीं आता था",
+                "मैं नहीं आया था"
+              ],
+              "options_read_as": [
+                "maiṁ aayaa nahiiṁ thaa",
+                "maiṁ aayaa thaa nahiiṁ",
+                "maiṁ nahiiṁ aataa thaa",
+                "maiṁ nahiiṁ aayaa thaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "नहीं goes in front and the verb is otherwise untouched."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual past cell?",
+              "options": [
+                "मैं नहीं आया था",
+                "मैं नहीं आता था",
+                "मैं नहीं आ रहा था",
+                "मैं नहीं आया"
+              ],
+              "options_read_as": [
+                "maiṁ nahiiṁ aayaa thaa",
+                "maiṁ nahiiṁ aataa thaa",
+                "maiṁ nahiiṁ aa rahaa thaa",
+                "maiṁ nahiiṁ aayaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "मैं नहीं आता था — I did not use to come."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं नहीं आया था",
+              "मैं नहीं आया",
+              "वह नहीं गई"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Person plays no part in the perfective past, so the whole tense has four verb shapes. The feminine plural is marked exactly once — on the auxiliary when there is one, on the participle when there is not. नहीं goes in front, as it has throughout.",
+        "key_forms": [
+          "मैं गया था",
+          "वे गई थीं",
+          "मैं नहीं आया था"
+        ],
+        "next_up_en": "Next: the perfective row seen whole, and the questions it answers."
+      }
+    },
+    {
+      "level": 19,
+      "title_en": "The perfective row, seen whole",
+      "title_hi": "बैठा था · कहाँ गए थे?",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M07-L19-I1",
+          "type": "grammar",
+          "target": "वह बैठा था",
+          "read_as": "vah baiṭhaa thaa",
+          "pronunciation_notes": "Retroflex and aspirated in the middle, then the dental थ: bai-ṭhaa thaa.",
+          "gloss_en": "a resulting state, located in the past",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "perfective_past",
+          "tags": [
+            "tense",
+            "perfective_past",
+            "resulting_state",
+            "intransitive",
+            "translation_trap"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "वह बैठा था means he was sitting",
+              "explanation_en": "Level fourteen showed that वह बैठा है translates as he is sitting rather than he has sat. The past behaves the same way: वह बैठा था is he was sitting, describing a position he was already in. English reaches for a continuous in both cases, and a learner translating word by word will produce वह बैठ रहा था, which means he was in the act of lowering himself into a chair. This is the clearest case in the module where the aspect that sounds right in English is the wrong one in Hindi.",
+              "examples": [
+                {
+                  "hindi": "वह बैठा था",
+                  "read_as": "vah baiṭhaa thaa",
+                  "english": "he was sitting",
+                  "note": "Already seated — the sitting down had finished."
+                },
+                {
+                  "hindi": "वह यहाँ बैठा था",
+                  "read_as": "vah yahaaṁ baiṭhaa thaa",
+                  "english": "he was sitting here",
+                  "note": "A place word slots in without touching the verb."
+                },
+                {
+                  "hindi": "वह सोया था",
+                  "read_as": "vah soyaa thaa",
+                  "english": "he was asleep",
+                  "note": "सोना again — the falling asleep was done and the sleep remained."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह बैठ रहा था",
+                "right": "वह बैठा था",
+                "why_en": "बैठ रहा था describes the movement into the chair. For someone already seated, Hindi uses the perfective."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "बैठना · वह · masculine · perfective past",
+              "question_read_as": "baiṭhnaa · vah · masculine · perfective past",
+              "options": [
+                "वह बैठा था",
+                "वह बैठ रहा था",
+                "वह बैठता था",
+                "वह बैठा है"
+              ],
+              "options_read_as": [
+                "vah baiṭhaa thaa",
+                "vah baiṭh rahaa thaa",
+                "vah baiṭhtaa thaa",
+                "vah baiṭhaa hai"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Perfective participle बैठा with the past auxiliary था."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual past cell?",
+              "options": [
+                "वह बैठा था",
+                "वह बैठ रहा था",
+                "वह बैठता था",
+                "वह बैठा है"
+              ],
+              "options_read_as": [
+                "vah baiṭhaa thaa",
+                "vah baiṭh rahaa thaa",
+                "vah baiṭhtaa thaa",
+                "vah baiṭhaa hai"
+              ],
+              "answer_index": 2,
+              "explanation_en": "वह बैठता था — he used to sit, as a routine."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह बैठा था",
+              "वह यहाँ बैठा था",
+              "वह सोया था"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L19-I2",
+          "type": "grammar",
+          "target": "तुम कहाँ गए थे",
+          "read_as": "tum kahaaṁ gae the",
+          "pronunciation_notes": "कहाँ ends on a hum and the two short words after it run together: ka-haaṁ gae the.",
+          "gloss_en": "the perfective past as a question",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "perfective_past",
+          "tags": [
+            "tense",
+            "perfective_past",
+            "second_person",
+            "question",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Where had you gone",
+              "explanation_en": "तुम कहाँ गए थे is what you ask someone who turned up late or went missing, and it is worth learning as a unit because the perfective past is where this question naturally sits — you are asking about something that had already happened by the time you noticed. तुम keeps its plural agreement, so गए and थे even for one person. The polite form is आप कहाँ गए थे, with identical agreement, and that is the one to use with anyone you do not know.",
+              "examples": [
+                {
+                  "hindi": "तुम कहाँ गए थे?",
+                  "read_as": "tum kahaaṁ gae the?",
+                  "english": "where had you gone?",
+                  "note": "Casual register, plural agreement."
+                },
+                {
+                  "hindi": "आप कहाँ गए थे?",
+                  "read_as": "aap kahaaṁ gae the?",
+                  "english": "where had you gone?",
+                  "note": "The polite version, with the same forms."
+                },
+                {
+                  "hindi": "तुम कब आए थे?",
+                  "read_as": "tum kab aae the?",
+                  "english": "when had you come?",
+                  "note": "A different question word in the same slot."
+                }
+              ],
+              "common_error": {
+                "wrong": "तुम कहाँ गया था",
+                "right": "तुम कहाँ गए थे",
+                "why_en": "तुम takes plural agreement on both words in every tense, however many people you are addressing."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · तुम · perfective past",
+              "question_read_as": "jaanaa · tum · perfective past",
+              "options": [
+                "तुम गया था",
+                "तुम गए हो",
+                "तुम गए थे",
+                "तुम जाते थे"
+              ],
+              "options_read_as": [
+                "tum gayaa thaa",
+                "tum gae ho",
+                "tum gae the",
+                "tum jaate the"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Plural participle गए with the plural past auxiliary थे."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual past cell?",
+              "options": [
+                "तुम कहाँ जाते थे?",
+                "तुम कहाँ गए थे?",
+                "तुम कहाँ जा रहे थे?",
+                "तुम कहाँ गए हो?"
+              ],
+              "options_read_as": [
+                "tum kahaaṁ jaate the?",
+                "tum kahaaṁ gae the?",
+                "tum kahaaṁ jaa rahe the?",
+                "tum kahaaṁ gae ho?"
+              ],
+              "answer_index": 0,
+              "explanation_en": "तुम कहाँ जाते थे — where did you use to go."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तुम कहाँ गए थे?",
+              "आप कहाँ गए थे?",
+              "तुम कब आए थे?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L19-I3",
+          "type": "grammar",
+          "target": "मैं सोया था",
+          "read_as": "maiṁ soyaa thaa",
+          "pronunciation_notes": "सोया is two syllables with a y between the vowels: so-yaa.",
+          "gloss_en": "the four members of the perfective, side by side",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "perfective_past",
+          "tags": [
+            "tense",
+            "perfective_past",
+            "rule_summary",
+            "intransitive",
+            "bare_perfective_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "One participle, four sentences",
+              "explanation_en": "The perfective has four members, not three, and it is worth seeing them together: मैं सोया, I slept; मैं सोया हूँ, I am asleep; मैं सोया था, I had been asleep; and मैं सोया हूँगा, I have probably slept, which is the presumptive arriving next level. The participle सोया is identical in all four and the auxiliary alone decides which you have said. Of the four, the bare one is much the most common in speech, so if you are ever unsure which to use when narrating, drop the auxiliary and you will usually be right.",
+              "examples": [
+                {
+                  "hindi": "मैं सोया था",
+                  "read_as": "maiṁ soyaa thaa",
+                  "english": "I had been asleep",
+                  "note": "Before some other past moment."
+                },
+                {
+                  "hindi": "मैं सोया",
+                  "read_as": "maiṁ soyaa",
+                  "english": "I slept",
+                  "note": "The bare form, and the one you will reach for most."
+                },
+                {
+                  "hindi": "मैं सोया हूँ",
+                  "read_as": "maiṁ soyaa huuṁ",
+                  "english": "I am asleep",
+                  "note": "The result standing now, which is why it translates as a state."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं सो रहा था और फिर मैं सो रहा था",
+                "right": "मैं सो रहा था और फिर मैं सोया",
+                "why_en": "The continuous describes an ongoing state and cannot narrate a completed event. Once something finishes, the aspect has to change."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "सोना · मैं · masculine · perfective past",
+              "question_read_as": "sonaa · maiṁ · masculine · perfective past",
+              "options": [
+                "मैं सोता था",
+                "मैं सोया था",
+                "मैं सो रहा था",
+                "मैं सोया हूँ"
+              ],
+              "options_read_as": [
+                "maiṁ sotaa thaa",
+                "maiṁ soyaa thaa",
+                "maiṁ so rahaa thaa",
+                "maiṁ soyaa huuṁ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Perfective participle सोया with the past auxiliary था."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the perfective present cell?",
+              "options": [
+                "मैं सोता हूँ",
+                "मैं सो रहा हूँ",
+                "मैं सोया था",
+                "मैं सोया हूँ"
+              ],
+              "options_read_as": [
+                "maiṁ sotaa huuṁ",
+                "maiṁ so rahaa huuṁ",
+                "maiṁ soyaa thaa",
+                "maiṁ soyaa huuṁ"
+              ],
+              "answer_index": 3,
+              "explanation_en": "मैं सोया हूँ — the perfective participle with a present auxiliary."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं सोया था",
+              "मैं सोया",
+              "मैं सोया हूँ"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The perfective row has four members rather than three, because it alone can stand without an auxiliary. Verbs like बैठना and सोना describe a resulting state, so their perfectives translate as English continuous forms — the one place in this module where translating word by word gives you the wrong aspect.",
+        "key_forms": [
+          "वह बैठा था",
+          "तुम कहाँ गए थे",
+          "मैं सोया था"
+        ],
+        "next_up_en": "Next: the presumptive, which turns any cell of the grid into a guess."
+      }
+    },
+    {
+      "level": 20,
+      "title_en": "The presumptive",
+      "title_hi": "गया होगा · जा रहे होंगे",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M07-L20-I1",
+          "type": "grammar",
+          "target": "वह गया होगा",
+          "read_as": "vah gayaa hogaa",
+          "pronunciation_notes": "होगा has an open o and an unstressed second syllable: ho-gaa.",
+          "gloss_en": "the presumptive turns a statement into a guess",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "perfective_presumptive",
+          "tags": [
+            "tense",
+            "perfective_presumptive",
+            "third_person",
+            "masculine",
+            "intransitive",
+            "not_future"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A third auxiliary, and it means probably",
+              "explanation_en": "Swap the auxiliary for होगा and the sentence becomes a guess: वह गया होगा is he must have gone, or he has probably gone. It works in every cell — जाता होगा for a habit you are assuming, जा रहा होगा for something you suppose is happening now. The word to be careful with is future. होगा contains हो and looks like it should point forward, but it does not; it points at the same time the cell already pointed at and adds uncertainty. The actual future is जाएगा, and it arrives at level twenty-two. होगा can also stand alone, as in वह घर पर होगा, meaning he is probably at home.",
+              "examples": [
+                {
+                  "hindi": "वह गया होगा",
+                  "read_as": "vah gayaa hogaa",
+                  "english": "he must have gone",
+                  "note": "A completed event, offered as an inference rather than a fact."
+                },
+                {
+                  "hindi": "वह घर पर होगा",
+                  "read_as": "vah ghar par hogaa",
+                  "english": "he is probably at home",
+                  "note": "होगा standing alone, with no other verb — the presumptive of होना itself."
+                },
+                {
+                  "hindi": "वह जाता होगा",
+                  "read_as": "vah jaataa hogaa",
+                  "english": "he probably goes",
+                  "note": "A habit you are assuming rather than one you have observed."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह कल जाता होगा",
+                "right": "वह कल जाएगा",
+                "why_en": "होगा is a guess about a habit, not a plan for tomorrow. The real future is a different form entirely."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · वह · masculine · perfective presumptive",
+              "question_read_as": "jaanaa · vah · masculine · perfective presumptive",
+              "options": [
+                "वह गया होगा",
+                "वह गया था",
+                "वह जाता होगा",
+                "वह गया है"
+              ],
+              "options_read_as": [
+                "vah gayaa hogaa",
+                "vah gayaa thaa",
+                "vah jaataa hogaa",
+                "vah gayaa hai"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Perfective participle गया with the presumptive auxiliary होगा."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the habitual presumptive cell?",
+              "options": [
+                "वह गया होगा",
+                "वह जा रहा होगा",
+                "वह जाता होगा",
+                "वह गया था"
+              ],
+              "options_read_as": [
+                "vah gayaa hogaa",
+                "vah jaa rahaa hogaa",
+                "vah jaataa hogaa",
+                "vah gayaa thaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "वह जाता होगा — the habitual participle with the presumptive auxiliary."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वह गया होगा",
+              "वह घर पर होगा",
+              "वह जाता होगा"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L20-I2",
+          "type": "grammar",
+          "target": "वे जा रहे होंगे",
+          "read_as": "ve jaa rahe hoṁge",
+          "pronunciation_notes": "होंगे carries a nasal on the first syllable, which is what separates it from होगे: hoṁ-ge.",
+          "gloss_en": "the presumptive auxiliary agrees like the past one",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "continuous_presumptive",
+          "tags": [
+            "tense",
+            "continuous_presumptive",
+            "third_person",
+            "plural",
+            "agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "होगा, होगी, होंगे, होंगी — and हूँगा",
+              "explanation_en": "The presumptive auxiliary is the future of होना, which is why it looks like one. In the third person it splits by gender and number just as the past set does — होगा, होगी, होंगे, होंगी — but unlike the past set it does keep person in the first and second: मैं हूँगा, and तुम होगे rather than होंगे. So it sits between the two auxiliary systems you already know, borrowing the gender agreement of one and a little of the person marking of the other. वे जा रहे होंगे is they are probably going, and every agreeing word in it is plural: रहे and होंगे both.",
+              "examples": [
+                {
+                  "hindi": "वे जा रहे होंगे",
+                  "read_as": "ve jaa rahe hoṁge",
+                  "english": "they are probably going",
+                  "note": "Plural marker and plural presumptive auxiliary."
+                },
+                {
+                  "hindi": "वह जा रही होगी",
+                  "read_as": "vah jaa rahii hogii",
+                  "english": "she is probably going",
+                  "note": "Feminine singular on both words."
+                },
+                {
+                  "hindi": "वे घर पर होंगे",
+                  "read_as": "ve ghar par hoṁge",
+                  "english": "they are probably at home",
+                  "note": "The auxiliary standing alone again, in the plural."
+                }
+              ],
+              "common_error": {
+                "wrong": "वे जा रहे होगा",
+                "right": "वे जा रहे होंगे",
+                "why_en": "होगा is singular. The presumptive counts and genders exactly as the past auxiliary does."
+              }
+            },
+            "practice": {
+              "format": "conjugate",
+              "prompt_en": "Conjugate the verb for this subject.",
+              "question": "जाना · वे · masculine plural · continuous presumptive",
+              "question_read_as": "jaanaa · ve · masculine plural · continuous presumptive",
+              "options": [
+                "वे जा रहे होगा",
+                "वे जा रहा होंगे",
+                "वे जा रहे थे",
+                "वे जा रहे होंगे"
+              ],
+              "options_read_as": [
+                "ve jaa rahe hogaa",
+                "ve jaa rahaa hoṁge",
+                "ve jaa rahe the",
+                "ve jaa rahe hoṁge"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Plural marker रहे with the plural presumptive auxiliary होंगे."
+            },
+            "game": {
+              "format": "which_grid_cell",
+              "question_en": "Which form belongs in the perfective presumptive cell?",
+              "options": [
+                "वे जा रहे होंगे",
+                "वे गए होंगे",
+                "वे जाते होंगे",
+                "वे गए थे"
+              ],
+              "options_read_as": [
+                "ve jaa rahe hoṁge",
+                "ve gae hoṁge",
+                "ve jaate hoṁge",
+                "ve gae the"
+              ],
+              "answer_index": 1,
+              "explanation_en": "वे गए होंगे — they have probably gone."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "वे जा रहे होंगे",
+              "वह जा रही होगी",
+              "वे घर पर होंगे"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M07-L20-I3",
+          "type": "dialogue",
+          "target": "गई होगी",
+          "read_as": "gaii hogii",
+          "pronunciation_notes": "Two ii endings, and होगी keeps the open o in front of it: ga-ii ho-gii.",
+          "gloss_en": "knowing and guessing, one line apart",
+          "gender": null,
+          "difficulty": 8,
+          "grid_cell": "perfective_presumptive",
+          "tags": [
+            "tense",
+            "perfective_presumptive",
+            "perfective_present",
+            "dialogue",
+            "micro_dialogue",
+            "feminine"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "गई है and गई होगी",
+              "explanation_en": "The last two lines of this exchange are the same sentence with one word changed, and the change is the difference between reporting and supposing. वह कहाँ गई है asks where she has gone, treating it as a knowable fact. वह स्कूल गई होगी answers with a guess — she has probably gone to school, and the speaker does not actually know. Hindi marks that distinction in the verb rather than by adding a word like probably, which means you cannot avoid choosing. Note that both words are feminine here, agreeing with बहन.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "क्या बहन घर पर है?",
+                  "read_as": "kyaa bahan ghar par hai?",
+                  "english": "Is your sister at home?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "वह घर पर नहीं है।",
+                  "read_as": "vah ghar par nahiiṁ hai.",
+                  "english": "She is not at home."
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "वह कहाँ गई है?",
+                  "read_as": "vah kahaaṁ gaii hai?",
+                  "english": "Where has she gone?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "वह स्कूल गई होगी।",
+                  "read_as": "vah skuul gaii hogii.",
+                  "english": "She has probably gone to school."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह स्कूल गई होगा।",
+                "right": "वह स्कूल गई होगी।",
+                "why_en": "The presumptive auxiliary agrees with gender, and बहन is feminine — so होगी, matching गई."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Fill the gap.",
+              "question": "वह स्कूल गई ___।",
+              "question_read_as": "vah skuul gaii ___.",
+              "options": [
+                "है",
+                "था",
+                "होगी",
+                "होंगी"
+              ],
+              "options_read_as": [
+                "hai",
+                "thaa",
+                "hogii",
+                "hoṁgii"
+              ],
+              "answer_index": 2,
+              "explanation_en": "A guess about one woman, so the feminine singular presumptive होगी."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the last line. Which word is missing?",
+              "masked_line_index": 3,
+              "masked_word": "होगी",
+              "options": [
+                "होगी",
+                "होगा",
+                "होंगे",
+                "है"
+              ],
+              "options_read_as": [
+                "hogii",
+                "hogaa",
+                "hoṁge",
+                "hai"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The speaker says होगी — feminine singular, agreeing with बहन and matching गई."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "क्या बहन घर पर है?",
+              "वह घर पर नहीं है।",
+              "वह कहाँ गई है?",
+              "वह स्कूल गई होगी।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "होगा, होगी, होंगे and होंगी replace the auxiliary in any cell and turn the sentence into a guess. They agree by gender and number exactly as the past set does, and they can stand alone — वह घर पर होगा. They are not the future, however much होगा looks like it should be.",
+        "key_forms": [
+          "वह गया होगा",
+          "वे जा रहे होंगे",
+          "गई होगी"
+        ],
+        "next_up_en": "Next: the presumptive across the rest of the grid, and then the real future — which is a different form altogether."
+      }
+    }
+  ]
+}

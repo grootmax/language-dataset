@@ -1,0 +1,1264 @@
+{
+  "module": 11,
+  "module_name_en": "Compound Verbs, Modals and Causatives",
+  "module_name_hi": "संयुक्त क्रिया, सकना और प्रेरणार्थक",
+  "phase": 4,
+  "batch": {
+    "levels_from": 11,
+    "levels_to": 14
+  },
+  "levels": [
+    {
+      "level": 11,
+      "title_en": "सकना in the past, and against आना",
+      "title_hi": "कर सका · नहीं कर सकता",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L11-I1",
+          "type": "grammar",
+          "target": "कर सका",
+          "read_as": "kar sakaa",
+          "pronunciation_notes": "Two light beats: sa-kaa, with the length only on the second.",
+          "gloss_en": "was able to do — सकना in the perfective",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "saknaa",
+            "perfective",
+            "no_ne",
+            "module9_link",
+            "ability"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सकना in the past, and still no ने",
+              "explanation_en": "The perfective of सकना is सका, सकी, सके, सकीं, and it never takes ने in any tense — मैं कर सका, not मैंने. That is worth stating flatly, because everything else you know pulls the other way: करना is transitive, the tense is perfective, and the sentence still refuses ने. सकना is intransitive and it is the last verb in the phrase, so it decides. In practice the positive is less common than the negative; people report what they could not do far more often than what they could.",
+              "vectorless_equivalent": {
+                "with_vector": "मैं यह कर सका।",
+                "without_vector": "मैंने यह किया।",
+                "difference_en": "Not two shades of one claim. मैंने यह किया says you did it; मैं यह कर सका says you were able to, which implies it had been in doubt."
+              },
+              "examples": [
+                {
+                  "hindi": "मैं यह कर सका।",
+                  "read_as": "maiṁ yah kar sakaa.",
+                  "english": "I was able to do this.",
+                  "note": "No ने, even though करना is transitive."
+                },
+                {
+                  "hindi": "वह नहीं आ सकी।",
+                  "read_as": "vah nahiiṁ aa sakii.",
+                  "english": "She couldn't come.",
+                  "note": "Feminine subject, so सकी."
+                },
+                {
+                  "hindi": "हम नहीं जा सके।",
+                  "read_as": "ham nahiiṁ jaa sake.",
+                  "english": "We couldn't go.",
+                  "note": "Plural, so सके."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने यह कर सका।",
+                "right": "मैं यह कर सका।",
+                "why_en": "सकना never takes ने, in any tense, whatever the main verb does on its own."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The subject is feminine and singular. Complete the form.",
+              "question": "वह नहीं आ ___ ।",
+              "question_read_as": "vah nahiiṁ aa ___ .",
+              "options": [
+                "सके",
+                "सकीं",
+                "सका",
+                "सकी"
+              ],
+              "options_read_as": [
+                "sake",
+                "sakiiṁ",
+                "sakaa",
+                "sakii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "No ने in a सकना sentence, so the verb agrees with the feminine singular subject."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You want to say you were able to do it — it had been in doubt.",
+              "options": [
+                "मैंने यह किया।",
+                "मैं यह कर सका।",
+                "मैंने यह कर लिया।",
+                "मैं यह करता हूँ।"
+              ],
+              "options_read_as": [
+                "maiṁne yah kiyaa.",
+                "maiṁ yah kar sakaa.",
+                "maiṁne yah kar liyaa.",
+                "maiṁ yah kartaa huuṁ."
+              ],
+              "answer_index": 1,
+              "explanation_en": "All four are correct Hindi. कर सका is the one that claims ability against doubt; कर लिया just says it got finished."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं यह कर सका।",
+              "वह नहीं आ सकी।",
+              "हम नहीं जा सके।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L11-I2",
+          "type": "grammar",
+          "target": "नहीं कर सकता",
+          "read_as": "nahiiṁ kar saktaa",
+          "pronunciation_notes": null,
+          "gloss_en": "cannot do — negating ability",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "saknaa",
+            "negation",
+            "register",
+            "politeness"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The auxiliary usually goes, and the refusal softens",
+              "explanation_en": "मैं नहीं कर सकता is the ordinary way to say \"I can't\". The हूँ is normally dropped after नहीं, as it is with other habitual forms — मैं नहीं कर सकता हूँ is possible but heavier than people usually want. Position matters too: नहीं goes in front of the whole compound rather than between the stem and सकना. And there is a politeness payoff worth knowing. मैं नहीं आ सकता is a softer refusal than मैं नहीं आऊँगा, because it says you are unable rather than unwilling, which lets everybody keep their footing.",
+              "vectorless_equivalent": {
+                "with_vector": "मैं नहीं कर सकता।",
+                "without_vector": "मैं नहीं करता।",
+                "difference_en": "\"I can't\" against \"I don't\" — a change of claim, and the सकना version is the politer refusal."
+              },
+              "examples": [
+                {
+                  "hindi": "मैं नहीं कर सकता।",
+                  "read_as": "maiṁ nahiiṁ kar saktaa.",
+                  "english": "I can't do it.",
+                  "note": "Auxiliary dropped after नहीं, as usual."
+                },
+                {
+                  "hindi": "मैं नहीं आ सकता।",
+                  "read_as": "maiṁ nahiiṁ aa saktaa.",
+                  "english": "I can't come.",
+                  "note": "A softer refusal than मैं नहीं आऊँगा."
+                },
+                {
+                  "hindi": "वह नहीं बोल सकती।",
+                  "read_as": "vah nahiiṁ bol saktii.",
+                  "english": "She can't speak.",
+                  "note": "Feminine subject, so सकती."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं नहीं करना सकता।",
+                "right": "मैं नहीं कर सकता।",
+                "why_en": "सकना takes a bare stem, and नहीं sits in front of the whole compound."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "Complete the form that सकना requires.",
+              "question": "मैं नहीं ___ सकता।",
+              "question_read_as": "maiṁ nahiiṁ ___ saktaa.",
+              "options": [
+                "करता",
+                "करना",
+                "कर",
+                "किया"
+              ],
+              "options_read_as": [
+                "kartaa",
+                "karnaa",
+                "kar",
+                "kiyaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The bare stem कर. An infinitive cannot stand in front of सकना."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You want to decline politely — unable rather than unwilling.",
+              "options": [
+                "मैं नहीं आ सकता।",
+                "मैं नहीं आता।",
+                "मैं नहीं आ रहा हूँ।",
+                "मैं नहीं आऊँगा।"
+              ],
+              "options_read_as": [
+                "maiṁ nahiiṁ aa saktaa.",
+                "maiṁ nahiiṁ aataa.",
+                "maiṁ nahiiṁ aa rahaa huuṁ.",
+                "maiṁ nahiiṁ aauṁgaa."
+              ],
+              "answer_index": 0,
+              "explanation_en": "All four are correct. नहीं आ सकता blames circumstance rather than will, which is what makes it the gentler refusal."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं नहीं कर सकता।",
+              "मैं नहीं आ सकता।",
+              "वह नहीं बोल सकती।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L11-I3",
+          "type": "grammar",
+          "target": "सकना या आना",
+          "read_as": "saknaa yaa aanaa",
+          "pronunciation_notes": null,
+          "gloss_en": "able to do, or knows how to",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "saknaa",
+            "contrast",
+            "module10_link",
+            "dative",
+            "semantics"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A skill you have, or a thing you can do now",
+              "explanation_en": "Module 10 gave you मुझे हिंदी आती है — a skill that has come to you, with the person in the dative. This module gives you मैं हिंदी बोल सकता हूँ — an ability, with an ordinary subject. They are not the same claim. आना is about what you know; सकना is about what you can do in the circumstances. The sentence that separates them cleanly is मुझे तैरना आता है लेकिन मैं अभी तैर नहीं सकता — I know how to swim, but I can't swim right now. The knowing has not gone anywhere; the ability has.",
+              "vectorless_equivalent": {
+                "with_vector": "मैं हिंदी बोल सकता हूँ।",
+                "without_vector": "मुझे हिंदी आती है।",
+                "difference_en": "Not a vectorless pair but a genuine alternative — one claims ability, the other a learned skill, and both are natural."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे हिंदी आती है।",
+                  "read_as": "mujhe hindii aatii hai.",
+                  "english": "I know Hindi.",
+                  "note": "A skill, with the dative subject from Module 10."
+                },
+                {
+                  "hindi": "मैं हिंदी बोल सकता हूँ।",
+                  "read_as": "maiṁ hindii bol saktaa huuṁ.",
+                  "english": "I can speak Hindi.",
+                  "note": "An ability, with an ordinary subject."
+                },
+                {
+                  "hindi": "मुझे तैरना आता है लेकिन मैं अभी तैर नहीं सकता।",
+                  "read_as": "mujhe tairnaa aataa hai lekin maiṁ abhii tair nahiiṁ saktaa.",
+                  "english": "I know how to swim but I can't swim right now.",
+                  "note": "The sentence that separates the two cleanly."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे हिंदी बोल सकता हूँ।",
+                "right": "मैं हिंदी बोल सकता हूँ।",
+                "why_en": "सकना takes an ordinary subject. The dative belongs to आना, not to this construction."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "Fix the subject for सकना.",
+              "question": "___ हिंदी बोल सकता हूँ।",
+              "question_read_as": "___ hindii bol saktaa huuṁ.",
+              "options": [
+                "मुझे",
+                "मैं",
+                "मेरा",
+                "मैंने"
+              ],
+              "options_read_as": [
+                "mujhe",
+                "maiṁ",
+                "meraa",
+                "maiṁne"
+              ],
+              "answer_index": 1,
+              "explanation_en": "सकना is not a dative construction — the subject is plain मैं."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You know how to swim, but conditions mean you can't right now.",
+              "options": [
+                "मैं तैरता नहीं हूँ।",
+                "मुझे तैरना आता है।",
+                "मुझे तैरना नहीं आता।",
+                "मैं अभी तैर नहीं सकता।"
+              ],
+              "options_read_as": [
+                "maiṁ tairtaa nahiiṁ huuṁ.",
+                "mujhe tairnaa aataa hai.",
+                "mujhe tairnaa nahiiṁ aataa.",
+                "maiṁ abhii tair nahiiṁ saktaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "All four are correct. The first denies the skill, which is not what you mean; the second denies the ability right now, which is."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे हिंदी आती है।",
+              "मैं हिंदी बोल सकता हूँ।",
+              "मुझे तैरना आता है लेकिन मैं अभी तैर नहीं सकता।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "सकना never takes ने, in any tense — मैं कर सका, not मैंने. Its negative drops the auxiliary and softens a refusal. And it is not the same as Module 10's आना: आना is a skill you have, सकना is something you can do in the circumstances.",
+        "key_forms": [
+          "मैं कर सका",
+          "मैं नहीं कर सकता",
+          "मैं बोल सकता हूँ"
+        ],
+        "next_up_en": "Next: पाना — managing to, which is where the negative lives."
+      }
+    },
+    {
+      "level": 12,
+      "title_en": "पाना — managing to",
+      "title_hi": "पाना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L12-I1",
+          "type": "grammar",
+          "target": "कर पाना",
+          "read_as": "kar paanaa",
+          "pronunciation_notes": "पाना is two long syllables: paa-naa.",
+          "gloss_en": "to manage to do",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "paanaa",
+            "achievement",
+            "no_ne",
+            "modal"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पाना is succeeding, not merely being able",
+              "explanation_en": "पाना as a modal means to manage to, to succeed in. मैं यह कर पाया — I managed to do it, with a hint that it took something. Like सकना it attaches to a bare stem and takes no ने, even though पाना on its own is a transitive verb meaning to obtain. The last verb in the phrase decides, and here it is behaving as a modal. The division of labour with सकना is clean enough to hold on to: सकना is about capability, पाना is about outcome — whether the thing actually came off.",
+              "vectorless_equivalent": {
+                "with_vector": "मैं यह कर पाया।",
+                "without_vector": "मैंने यह किया।",
+                "difference_en": "मैंने यह किया says you did it. मैं यह कर पाया says you managed to, which implies it might not have happened."
+              },
+              "examples": [
+                {
+                  "hindi": "मैं यह कर पाया।",
+                  "read_as": "maiṁ yah kar paayaa.",
+                  "english": "I managed to do it.",
+                  "note": "No ने, though करना is transitive."
+                },
+                {
+                  "hindi": "वह समय पर पहुँच पाई।",
+                  "read_as": "vah samay par pahuṁch paaii.",
+                  "english": "She managed to arrive on time.",
+                  "note": "Feminine subject, so पाई."
+                },
+                {
+                  "hindi": "हम मिल पाए।",
+                  "read_as": "ham mil paae.",
+                  "english": "We managed to meet.",
+                  "note": "Plural, so पाए."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने यह कर पाया।",
+                "right": "मैं यह कर पाया।",
+                "why_en": "पाना as a modal takes no ने, whatever the main verb is."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The subject is feminine and singular. Complete the form.",
+              "question": "वह समय पर पहुँच ___ ।",
+              "question_read_as": "vah samay par pahuṁch ___ .",
+              "options": [
+                "पाई",
+                "पाए",
+                "पाईं",
+                "पाया"
+              ],
+              "options_read_as": [
+                "paaii",
+                "paae",
+                "paaiiṁ",
+                "paayaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "No ने, so the verb agrees with the feminine singular subject."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You managed to do it — it was not certain you would.",
+              "options": [
+                "मैंने यह कर लिया।",
+                "मैंने यह किया।",
+                "मैं यह कर पाया।",
+                "मैं यह कर सकता हूँ।"
+              ],
+              "options_read_as": [
+                "maiṁne yah kar liyaa.",
+                "maiṁne yah kiyaa.",
+                "maiṁ yah kar paayaa.",
+                "maiṁ yah kar saktaa huuṁ."
+              ],
+              "answer_index": 2,
+              "explanation_en": "All four are correct Hindi. कर पाया is the one carrying the sense that it might not have come off."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं यह कर पाया।",
+              "वह समय पर पहुँच पाई।",
+              "हम मिल पाए।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L12-I2",
+          "type": "grammar",
+          "target": "नहीं कर पाया",
+          "read_as": "nahiiṁ kar paayaa",
+          "pronunciation_notes": null,
+          "gloss_en": "couldn't manage to",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "paanaa",
+            "negation",
+            "apology",
+            "register",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पाना lives in the negative",
+              "explanation_en": "The negative is where पाना does most of its work. मैं नहीं कर पाया — I couldn't manage it. It is softer and more apologetic than मैं नहीं कर सका, because it points at circumstances rather than at your capability. If you are explaining why something did not happen and you would rather not sound incapable, this is the form to reach for. मैं कल नहीं आ पाया is the standard apology for having missed something, and it is worth having ready.",
+              "vectorless_equivalent": {
+                "with_vector": "मैं कल नहीं आ पाया।",
+                "without_vector": "मैं कल नहीं आया।",
+                "difference_en": "मैं कल नहीं आया says you didn't come. मैं कल नहीं आ पाया says you couldn't manage it — an apology rather than a report."
+              },
+              "examples": [
+                {
+                  "hindi": "मैं नहीं कर पाया।",
+                  "read_as": "maiṁ nahiiṁ kar paayaa.",
+                  "english": "I couldn't manage it.",
+                  "note": "Apologetic; the difficulty was in the circumstances."
+                },
+                {
+                  "hindi": "मैं कल नहीं आ पाया।",
+                  "read_as": "maiṁ kal nahiiṁ aa paayaa.",
+                  "english": "I couldn't make it yesterday.",
+                  "note": "The standard apology."
+                },
+                {
+                  "hindi": "वह नहीं बोल पाई।",
+                  "read_as": "vah nahiiṁ bol paaii.",
+                  "english": "She couldn't get the words out.",
+                  "note": "Feminine subject, so पाई."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने नहीं कर पाया।",
+                "right": "मैं नहीं कर पाया।",
+                "why_en": "पाना takes no ने."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The speaker is male. Complete the form.",
+              "question": "मैं कल नहीं आ ___ ।",
+              "question_read_as": "maiṁ kal nahiiṁ aa ___ .",
+              "options": [
+                "पाई",
+                "पाए",
+                "पाईं",
+                "पाया"
+              ],
+              "options_read_as": [
+                "paaii",
+                "paae",
+                "paaiiṁ",
+                "paayaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Masculine singular subject, so पाया."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You are apologising for missing something — circumstances stopped you.",
+              "options": [
+                "मैं कल नहीं आया।",
+                "मैं कल नहीं आ पाया।",
+                "मैं कल नहीं आ सका।",
+                "मैं कल नहीं आता।"
+              ],
+              "options_read_as": [
+                "maiṁ kal nahiiṁ aayaa.",
+                "maiṁ kal nahiiṁ aa paayaa.",
+                "maiṁ kal nahiiṁ aa sakaa.",
+                "maiṁ kal nahiiṁ aataa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "All four are correct. आ पाया and आ सका overlap heavily here and both work; पाया leans towards circumstance, which is what an apology wants."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं नहीं कर पाया।",
+              "मैं कल नहीं आ पाया।",
+              "वह नहीं बोल पाई।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L12-I3",
+          "type": "grammar",
+          "target": "सका या पाया",
+          "read_as": "sakaa yaa paayaa",
+          "pronunciation_notes": null,
+          "gloss_en": "couldn't, or didn't manage to",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "saknaa",
+            "paanaa",
+            "contrast",
+            "semantics",
+            "overlap"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Two ways of not having done it",
+              "explanation_en": "मैं नहीं कर सका and मैं नहीं कर पाया are both correct and overlap heavily in practice. The distinction, where it holds: सका points at capability or permission — you were not able. पाया points at outcome — it did not come off. A locked door gives नहीं जा सका; a delayed train gives नहीं जा पाया; and plenty of situations take either quite happily. This is one place not to agonise. Both are natural, neither will sound wrong, and native speakers themselves choose between them loosely.",
+              "vectorless_equivalent": {
+                "with_vector": "मैं नहीं जा सका।",
+                "without_vector": "मैं नहीं गया।",
+                "difference_en": "The plain negative says it did not happen and offers no reason. Both modals offer one."
+              },
+              "examples": [
+                {
+                  "hindi": "मैं नहीं जा सका।",
+                  "read_as": "maiṁ nahiiṁ jaa sakaa.",
+                  "english": "I couldn't go.",
+                  "note": "Something made it impossible."
+                },
+                {
+                  "hindi": "मैं नहीं जा पाया।",
+                  "read_as": "maiṁ nahiiṁ jaa paayaa.",
+                  "english": "I didn't manage to go.",
+                  "note": "It did not come off."
+                },
+                {
+                  "hindi": "मैं नहीं गया।",
+                  "read_as": "maiṁ nahiiṁ gayaa.",
+                  "english": "I didn't go.",
+                  "note": "The plain negative. No excuse offered, which is sometimes exactly right."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने नहीं जा सका।",
+                "right": "मैं नहीं जा सका।",
+                "why_en": "Neither सकना nor पाना ever takes ने."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The train was delayed, so it simply did not come off. Pick the modal.",
+              "question": "मैं नहीं जा ___ ।",
+              "question_read_as": "maiṁ nahiiṁ jaa ___ .",
+              "options": [
+                "पड़ा",
+                "सका",
+                "पाया",
+                "गया"
+              ],
+              "options_read_as": [
+                "paṛaa",
+                "sakaa",
+                "paayaa",
+                "gayaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "पाया points at the outcome. सका would also be understood, but it points at capability."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "A locked door made it impossible — you were not able to.",
+              "options": [
+                "मैं नहीं जा सका।",
+                "मैं नहीं गया।",
+                "मैं नहीं जाता।",
+                "मैं नहीं जा पाया।"
+              ],
+              "options_read_as": [
+                "maiṁ nahiiṁ jaa sakaa.",
+                "maiṁ nahiiṁ gayaa.",
+                "maiṁ nahiiṁ jaataa.",
+                "maiṁ nahiiṁ jaa paayaa."
+              ],
+              "answer_index": 0,
+              "explanation_en": "All four are correct. सका points at the impossibility; पाया would also be understood and points at the outcome instead."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मैं नहीं जा सका।",
+              "मैं नहीं जा पाया।",
+              "मैं नहीं गया।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "पाना means managing to, and it takes no ने either. It lives mostly in the negative, where it is the apologetic option — मैं नहीं आ पाया points at circumstances, मैं नहीं आ सका points at capability, and the two overlap enough that neither will sound wrong.",
+        "key_forms": [
+          "मैं कर पाया",
+          "मैं नहीं आ पाया",
+          "मैं नहीं जा सका"
+        ],
+        "next_up_en": "Next: the obligation ladder — should, have to, and had to."
+      }
+    },
+    {
+      "level": 13,
+      "title_en": "The obligation ladder",
+      "title_hi": "चाहिए · है · पड़ा",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L13-I1",
+          "type": "grammar",
+          "target": "मुझे जाना चाहिए",
+          "read_as": "mujhe jaanaa chaahie",
+          "pronunciation_notes": null,
+          "gloss_en": "I should go — the bottom rung",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "obligation",
+            "chaahie",
+            "dative",
+            "module10_link",
+            "advice"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Three ways to say you have to, and this is the softest",
+              "explanation_en": "Hindi has a ladder of obligation, and चाहिए sits at the bottom of it: advice, what would be right, what you ought to do. मुझे जाना चाहिए — I should go. You met चाहिए in Module 10 and nothing about it has changed: the person is in the dative, the infinitive is the grammatical subject, and चाहिए never inflects for anybody. The two rungs above it are मुझे जाना है and मुझे जाना पड़ा, and what separates all three is how much choice you had.",
+              "vectorless_equivalent": {
+                "with_vector": "मुझे जाना चाहिए।",
+                "without_vector": "मैं जाऊँगा।",
+                "difference_en": "Not a vector pair. चाहिए states an obligation; the future states what will happen."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे जाना चाहिए।",
+                  "read_as": "mujhe jaanaa chaahie.",
+                  "english": "I should go.",
+                  "note": "Advice, and the softest of the three rungs."
+                },
+                {
+                  "hindi": "तुम्हें आराम करना चाहिए।",
+                  "read_as": "tumheṁ aaraam karnaa chaahie.",
+                  "english": "You should rest.",
+                  "note": "The standard way to give advice."
+                },
+                {
+                  "hindi": "मुझे जाना चाहिए था।",
+                  "read_as": "mujhe jaanaa chaahie thaa.",
+                  "english": "I should have gone.",
+                  "note": "था turns advice into regret."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं जाना चाहिए।",
+                "right": "मुझे जाना चाहिए।",
+                "why_en": "The obligation lands on a person, and that person is marked with को."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "Fix the subject.",
+              "question": "___ आराम करना चाहिए।",
+              "question_read_as": "___ aaraam karnaa chaahie.",
+              "options": [
+                "तुम",
+                "तुम्हें",
+                "तुमने",
+                "तुम्हारा"
+              ],
+              "options_read_as": [
+                "tum",
+                "tumheṁ",
+                "tumne",
+                "tumhaaraa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "All three rungs of the ladder put the person in the dative."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You are advising someone gently that resting would be the right thing.",
+              "options": [
+                "तुम्हें आराम करना पड़ेगा।",
+                "तुम आराम करते हो।",
+                "तुम आराम करो।",
+                "तुम्हें आराम करना चाहिए।"
+              ],
+              "options_read_as": [
+                "tumheṁ aaraam karnaa paṛegaa.",
+                "tum aaraam karte ho.",
+                "tum aaraam karo.",
+                "tumheṁ aaraam karnaa chaahie."
+              ],
+              "answer_index": 3,
+              "explanation_en": "All four are correct Hindi. चाहिए advises; the imperative instructs; पड़ेगा says they will be forced to."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे जाना चाहिए।",
+              "तुम्हें आराम करना चाहिए।",
+              "मुझे जाना चाहिए था।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L13-I2",
+          "type": "grammar",
+          "target": "मुझे जाना है",
+          "read_as": "mujhe jaanaa hai",
+          "pronunciation_notes": null,
+          "gloss_en": "I have to go — the middle rung",
+          "gender": null,
+          "difficulty": 6,
+          "tags": [
+            "obligation",
+            "honaa",
+            "dative",
+            "arrangement",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "है — a settled arrangement",
+              "explanation_en": "मुझे जाना है is the middle rung. It is not advice and it is not compulsion; it is something already settled — a plan, an arrangement, a thing on the list. English says \"I have to go\" and also \"I'm to go\", and the second is closer to what the Hindi means. It is the commonest of the three in ordinary speech, simply because most obligations are arrangements rather than dramas. The infinitive is the grammatical subject here too, and the है agrees with it rather than with you.",
+              "vectorless_equivalent": {
+                "with_vector": "मुझे जाना है।",
+                "without_vector": "मैं जा रहा हूँ।",
+                "difference_en": "Not a vector pair. मुझे जाना है is an arrangement; मैं जा रहा हूँ describes you leaving."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे जाना है।",
+                  "read_as": "mujhe jaanaa hai.",
+                  "english": "I have to go.",
+                  "note": "Settled, already arranged."
+                },
+                {
+                  "hindi": "मुझे कल दिल्ली जाना है।",
+                  "read_as": "mujhe kal dillii jaanaa hai.",
+                  "english": "I'm going to Delhi tomorrow.",
+                  "note": "A plan, stated as an obligation — which is how Hindi usually states plans."
+                },
+                {
+                  "hindi": "उसे काम करना है।",
+                  "read_as": "use kaam karnaa hai.",
+                  "english": "He has work to do.",
+                  "note": "Third person, and the है has not moved."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं जाना है।",
+                "right": "मुझे जाना है।",
+                "why_en": "The person is in the dative, exactly as with चाहिए."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "Fix the subject.",
+              "question": "___ कल दिल्ली जाना है।",
+              "question_read_as": "___ kal dillii jaanaa hai.",
+              "options": [
+                "मुझे",
+                "मैंने",
+                "मेरा",
+                "मैं"
+              ],
+              "options_read_as": [
+                "mujhe",
+                "maiṁne",
+                "meraa",
+                "maiṁ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Dative, as on every rung of the ladder."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "It is arranged — you are going tomorrow, and it is not up for discussion.",
+              "options": [
+                "मैं कल जाता हूँ।",
+                "मुझे कल जाना चाहिए।",
+                "मुझे कल जाना है।",
+                "मुझे कल जाना पड़ा।"
+              ],
+              "options_read_as": [
+                "maiṁ kal jaataa huuṁ.",
+                "mujhe kal jaanaa chaahie.",
+                "mujhe kal jaanaa hai.",
+                "mujhe kal jaanaa paṛaa."
+              ],
+              "answer_index": 2,
+              "explanation_en": "All four are correct. है is the arrangement; चाहिए would only advise it, and पड़ा is in the past and adds reluctance."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे जाना है।",
+              "मुझे कल दिल्ली जाना है।",
+              "उसे काम करना है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L13-I3",
+          "type": "grammar",
+          "target": "मुझे जाना पड़ा",
+          "read_as": "mujhe jaanaa paṛaa",
+          "pronunciation_notes": null,
+          "gloss_en": "I had to go — the top rung",
+          "gender": null,
+          "difficulty": 7,
+          "tags": [
+            "obligation",
+            "paṛnaa",
+            "dative",
+            "compulsion",
+            "no_ne"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पड़ना — you had no choice",
+              "explanation_en": "पड़ना at the top of the ladder means external compulsion, and usually reluctance. मुझे जाना पड़ा — I had to go, and I would rather not have. It is the same पड़ना you met as a vector five levels ago: something happened to the person rather than being chosen by them, and the sense carries straight across. Use it when you want the listener to know it was not your idea. The present मुझे जाना पड़ता है means you have to, repeatedly, with the reluctance intact.",
+              "vectorless_equivalent": {
+                "with_vector": "मुझे जाना पड़ा।",
+                "without_vector": "मैं गया।",
+                "difference_en": "मैं गया says you went. मुझे जाना पड़ा says you were made to, and would rather not have."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे जाना पड़ा।",
+                  "read_as": "mujhe jaanaa paṛaa.",
+                  "english": "I had to go.",
+                  "note": "Compulsion, and usually reluctance."
+                },
+                {
+                  "hindi": "मुझे रोज़ जल्दी उठना पड़ता है।",
+                  "read_as": "mujhe roz jaldii uṭhnaa paṛtaa hai.",
+                  "english": "I have to get up early every day.",
+                  "note": "Habitual compulsion, with no enthusiasm in it."
+                },
+                {
+                  "hindi": "उसे रुकना पड़ा।",
+                  "read_as": "use ruknaa paṛaa.",
+                  "english": "He had to stay.",
+                  "note": "No ने anywhere; पड़ना is intransitive."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने जाना पड़ा।",
+                "right": "मुझे जाना पड़ा।",
+                "why_en": "The person is a dative experiencer, and पड़ना never takes ने."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "Fix the subject.",
+              "question": "___ जाना पड़ा।",
+              "question_read_as": "___ jaanaa paṛaa.",
+              "options": [
+                "मैंने",
+                "मेरा",
+                "मैं",
+                "मुझे"
+              ],
+              "options_read_as": [
+                "maiṁne",
+                "meraa",
+                "maiṁ",
+                "mujhe"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Dative, and no ने — पड़ना is intransitive."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You went, but only because you were made to.",
+              "options": [
+                "मैं गया।",
+                "मुझे जाना पड़ा।",
+                "मुझे जाना चाहिए।",
+                "मुझे जाना है।"
+              ],
+              "options_read_as": [
+                "maiṁ gayaa.",
+                "mujhe jaanaa paṛaa.",
+                "mujhe jaanaa chaahie.",
+                "mujhe jaanaa hai."
+              ],
+              "answer_index": 1,
+              "explanation_en": "All four are correct Hindi. पड़ा is the only one that carries the compulsion; मैं गया reports the going and leaves the reason out."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे जाना पड़ा।",
+              "मुझे रोज़ जल्दी उठना पड़ता है।",
+              "उसे रुकना पड़ा।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Three rungs, all with the person in the dative and an infinitive as the subject. चाहिए advises, है reports an arrangement, पड़ा reports compulsion. English blurs them under \"should\" and \"have to\"; Hindi keeps them apart and the choice will be heard.",
+        "key_forms": [
+          "मुझे जाना चाहिए",
+          "मुझे जाना है",
+          "मुझे जाना पड़ा"
+        ],
+        "next_up_en": "Next: what happens to the ladder when there is an object in the sentence."
+      }
+    },
+    {
+      "level": 14,
+      "title_en": "Objects on the ladder, and the future",
+      "title_hi": "करना पड़ा · जाना होगा",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M11-L14-I1",
+          "type": "grammar",
+          "target": "मुझे काम करना पड़ा",
+          "read_as": "mujhe kaam karnaa paṛaa",
+          "pronunciation_notes": null,
+          "gloss_en": "I had to do the work — and where the agreement goes",
+          "gender": null,
+          "difficulty": 9,
+          "tags": [
+            "obligation",
+            "paṛnaa",
+            "infinitive_agreement",
+            "object_agreement",
+            "core_rule"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The infinitive agrees with the object",
+              "explanation_en": "This is the fiddly part of the ladder. When there is an object, the infinitive agrees with it, and the modal then follows the infinitive. काम is masculine, so मुझे काम करना पड़ा. Make the object feminine and both words move: मुझे किताब पढ़नी पड़ी, with the infinitive taking -नी and पड़ा becoming पड़ी. This is the same principle you have met twice before — with ने the verb watches the object, and here the infinitive does the same job. In casual speech plenty of people leave everything masculine; the agreeing form is what careful Hindi uses, and it is what this app teaches.",
+              "vectorless_equivalent": {
+                "with_vector": "मुझे काम करना पड़ा।",
+                "without_vector": "मैंने काम किया।",
+                "difference_en": "मैंने काम किया says you did the work. मुझे काम करना पड़ा says you were made to."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे काम करना पड़ा।",
+                  "read_as": "mujhe kaam karnaa paṛaa.",
+                  "english": "I had to do the work.",
+                  "note": "काम is masculine, so करना पड़ा."
+                },
+                {
+                  "hindi": "मुझे किताब पढ़नी पड़ी।",
+                  "read_as": "mujhe kitaab paṛhnii paṛii.",
+                  "english": "I had to read the book.",
+                  "note": "किताब is feminine, so पढ़नी पड़ी. Both words moved."
+                },
+                {
+                  "hindi": "मुझे चिट्ठी लिखनी है।",
+                  "read_as": "mujhe chiṭṭhii likhnii hai.",
+                  "english": "I have to write a letter.",
+                  "note": "The same agreement on the middle rung."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे किताब पढ़ना पड़ा।",
+                "right": "मुझे किताब पढ़नी पड़ी।",
+                "why_en": "The infinitive agrees with the object, and the modal then follows the infinitive."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The object is किताब, which is feminine. Complete the infinitive.",
+              "question": "मुझे किताब ___ पड़ी।",
+              "question_read_as": "mujhe kitaab ___ paṛii.",
+              "options": [
+                "पढ़ा",
+                "पढ़ना",
+                "पढ़नी",
+                "पढ़ने"
+              ],
+              "options_read_as": [
+                "paṛhaa",
+                "paṛhnaa",
+                "paṛhnii",
+                "paṛhne"
+              ],
+              "answer_index": 2,
+              "explanation_en": "किताब is feminine, so the infinitive takes -नी and the modal follows it."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You were made to read the book.",
+              "options": [
+                "मुझे किताब पढ़नी पड़ी।",
+                "मुझे किताब पढ़नी है।",
+                "मुझे किताब पढ़नी चाहिए।",
+                "मैंने किताब पढ़ी।"
+              ],
+              "options_read_as": [
+                "mujhe kitaab paṛhnii paṛii.",
+                "mujhe kitaab paṛhnii hai.",
+                "mujhe kitaab paṛhnii chaahie.",
+                "maiṁne kitaab paṛhii."
+              ],
+              "answer_index": 0,
+              "explanation_en": "All four are correct Hindi. पड़ी carries the compulsion; है would be an arrangement and चाहिए only advice."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे काम करना पड़ा।",
+              "मुझे किताब पढ़नी पड़ी।",
+              "मुझे चिट्ठी लिखनी है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L14-I2",
+          "type": "grammar",
+          "target": "मुझे जाना होगा",
+          "read_as": "mujhe jaanaa hogaa",
+          "pronunciation_notes": null,
+          "gloss_en": "I'll have to go — obligation in the future",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "obligation",
+            "future",
+            "honaa",
+            "infinitive_agreement"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "होगा — the arrangement moved forward",
+              "explanation_en": "मुझे जाना होगा is the future of the है rung: I will have to go. It is what you say about an obligation that has not arrived yet but is not in doubt. होगा agrees with the infinitive, so a feminine object moves it too: मुझे चिट्ठी लिखनी होगी. And पड़ेगा is available for the top rung in the future — मुझे जाना पड़ेगा carries the same reluctance पड़ा did, projected forward. Note that मैं जाऊँगा is not the same promise: it says you will go, not that you will have to.",
+              "vectorless_equivalent": {
+                "with_vector": "मुझे जाना होगा।",
+                "without_vector": "मैं जाऊँगा।",
+                "difference_en": "मैं जाऊँगा says you will go. मुझे जाना होगा says you will have to, which is a different thing to commit to."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे जाना होगा।",
+                  "read_as": "mujhe jaanaa hogaa.",
+                  "english": "I'll have to go.",
+                  "note": "The future of the है rung."
+                },
+                {
+                  "hindi": "मुझे चिट्ठी लिखनी होगी।",
+                  "read_as": "mujhe chiṭṭhii likhnii hogii.",
+                  "english": "I'll have to write a letter.",
+                  "note": "चिट्ठी is feminine, so लिखनी होगी."
+                },
+                {
+                  "hindi": "मुझे जाना पड़ेगा।",
+                  "read_as": "mujhe jaanaa paṛegaa.",
+                  "english": "I'll be made to go.",
+                  "note": "The top rung in the future, with the reluctance intact."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे चिट्ठी लिखना होगा।",
+                "right": "मुझे चिट्ठी लिखनी होगी।",
+                "why_en": "The infinitive agrees with feminine चिट्ठी, and होगा then follows the infinitive."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The object is चिट्ठी, which is feminine. Complete the infinitive.",
+              "question": "मुझे चिट्ठी ___ होगी।",
+              "question_read_as": "mujhe chiṭṭhii ___ hogii.",
+              "options": [
+                "लिखना",
+                "लिखनी",
+                "लिखने",
+                "लिखा"
+              ],
+              "options_read_as": [
+                "likhnaa",
+                "likhnii",
+                "likhne",
+                "likhaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "चिट्ठी is feminine, so the infinitive is लिखनी and the modal होगी."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "You will have to go — it hasn't happened yet, but it isn't in doubt.",
+              "options": [
+                "मुझे जाना चाहिए।",
+                "मुझे जाना है।",
+                "मैं जाऊँगा।",
+                "मुझे जाना होगा।"
+              ],
+              "options_read_as": [
+                "mujhe jaanaa chaahie.",
+                "mujhe jaanaa hai.",
+                "maiṁ jaauṁgaa.",
+                "mujhe jaanaa hogaa."
+              ],
+              "answer_index": 3,
+              "explanation_en": "All four are correct. होगा is the obligation in the future; मैं जाऊँगा promises the going itself."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे जाना होगा।",
+              "मुझे चिट्ठी लिखनी होगी।",
+              "मुझे जाना पड़ेगा।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M11-L14-I3",
+          "type": "grammar",
+          "target": "चाहिए, है, पड़ा",
+          "read_as": "chaahie, hai, paṛaa",
+          "pronunciation_notes": null,
+          "gloss_en": "the three rungs on one verb",
+          "gender": null,
+          "difficulty": 8,
+          "tags": [
+            "obligation",
+            "capstone",
+            "summary",
+            "contrast"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "How much choice did you have?",
+              "explanation_en": "Put the three side by side on the same verb and the ladder is obvious. मुझे जाना चाहिए — I should go: advice, and you have a choice. मुझे जाना है — I have to go: an arrangement, and the choice was made earlier, possibly by you. मुझे जाना पड़ा — I had to go: compulsion, and the choice was not yours. All three put the person in the dative, all three use an infinitive, and all three let the infinitive agree with the object when there is one. The only thing that changes is the last word, and that is where all the meaning lives.",
+              "vectorless_equivalent": {
+                "with_vector": "मुझे जाना पड़ा।",
+                "without_vector": "मैं गया।",
+                "difference_en": "The plain verb reports what happened and says nothing about whether you wanted to — which is often exactly right."
+              },
+              "examples": [
+                {
+                  "hindi": "मुझे जाना चाहिए।",
+                  "read_as": "mujhe jaanaa chaahie.",
+                  "english": "I should go.",
+                  "note": "Advice. You have a choice."
+                },
+                {
+                  "hindi": "मुझे जाना है।",
+                  "read_as": "mujhe jaanaa hai.",
+                  "english": "I have to go.",
+                  "note": "An arrangement. The choice was made earlier."
+                },
+                {
+                  "hindi": "मुझे जाना पड़ा।",
+                  "read_as": "mujhe jaanaa paṛaa.",
+                  "english": "I had to go.",
+                  "note": "Compulsion. The choice was not yours."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे काम करनी पड़ी।",
+                "right": "मुझे काम करना पड़ा।",
+                "why_en": "काम is masculine, so the infinitive is करना and the modal पड़ा."
+              }
+            },
+            "practice": {
+              "format": "pick_the_right_vector",
+              "prompt_en": "The object is काम, which is masculine. Complete the infinitive.",
+              "question": "मुझे काम ___ पड़ा।",
+              "question_read_as": "mujhe kaam ___ paṛaa.",
+              "options": [
+                "करना",
+                "करनी",
+                "करने",
+                "किया"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "karnii",
+                "karne",
+                "kiyaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "काम is masculine, so करना, and the modal follows it."
+            },
+            "game": {
+              "format": "best_nuance",
+              "question_en": "Someone made you go, and you want that heard.",
+              "options": [
+                "मुझे जाना चाहिए।",
+                "मुझे जाना है।",
+                "मुझे जाना पड़ा।",
+                "मैं गया।"
+              ],
+              "options_read_as": [
+                "mujhe jaanaa chaahie.",
+                "mujhe jaanaa hai.",
+                "mujhe jaanaa paṛaa.",
+                "maiṁ gayaa."
+              ],
+              "answer_index": 2,
+              "explanation_en": "All four are correct Hindi. Only पड़ा says the choice was not yours."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुझे जाना चाहिए।",
+              "मुझे जाना है।",
+              "मुझे जाना पड़ा।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "With an object in the sentence the infinitive agrees with it and the modal follows the infinitive — मुझे किताब पढ़नी पड़ी against मुझे काम करना पड़ा. होगा and पड़ेगा move the ladder into the future. And the rung you choose is heard: advice, arrangement, or compulsion.",
+        "key_forms": [
+          "मुझे किताब पढ़नी पड़ी",
+          "मुझे जाना होगा",
+          "मुझे जाना पड़ा"
+        ],
+        "next_up_en": "Next: the causative ladder — करना, कराना, करवाना — which is the reward after all this nuance work."
+      }
+    }
+  ]
+}

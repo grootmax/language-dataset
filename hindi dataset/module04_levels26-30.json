@@ -1,0 +1,817 @@
+{
+  "module": 4,
+  "module_name_en": "Core Words I",
+  "module_name_hi": "शब्द भंडार १",
+  "phase": 2,
+  "batch": { "levels_from": 26, "levels_to": 30 },
+  "levels": [
+    {
+      "level": 26,
+      "title_en": "Shoes and hats",
+      "title_hi": "जूता चप्पल टोपी",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L26-I1",
+          "type": "word",
+          "target": "जूता",
+          "read_as": "juutaa",
+          "pronunciation_notes": "A long uu and a retroflex ट with the tongue curled back: juutaa, two syllables.",
+          "gloss_en": "shoe",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "clothing",
+          "plural": "जूते",
+          "plural_read_as": "juute",
+          "difficulty": 3,
+          "tags": ["clothing", "noun", "masculine", "aa_ending", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "जूता — shoe",
+              "explanation_en": "जूता is a shoe. It is masculine and ends in -ा, so both the gender and the plural are predictable, giving जूते. As with English, the plural is what you will normally hear, since shoes come in pairs and are talked about as a set.",
+              "examples": [
+                { "hindi": "काला जूता", "read_as": "kaalaa juutaa", "english": "a black shoe", "note": "काला takes -ा because जूता is masculine." },
+                { "hindi": "दो जूते", "read_as": "do juute", "english": "two shoes", "note": "The -ा becomes -े in the plural." },
+                { "hindi": "नए जूते", "read_as": "nae juute", "english": "new shoes", "note": "नया becomes नए for a masculine plural." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "जूता",
+              "question_read_as": "juutaa",
+              "options": ["a sock", "a sandal", "a shoe", "a boot"],
+              "options_read_as": ["a sock", "a sandal", "a shoe", "a boot"],
+              "answer_index": 2,
+              "explanation_en": "जूता is a shoe. चप्पल is an open sandal or slipper."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ जूता — का, के or की?",
+              "options": ["की", "का", "के", "कि"],
+              "options_read_as": ["kii", "kaa", "ke", "ki"],
+              "answer_index": 1,
+              "explanation_en": "जूता is masculine, so का. The -ा ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["जूता", "काला जूता", "जूते"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L26-I2",
+          "type": "word",
+          "target": "चप्पल",
+          "read_as": "chappal",
+          "pronunciation_notes": "The प्प stack holds the p with no breath released, and the final vowel drops: chappal.",
+          "gloss_en": "sandal, slipper",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "clothing",
+          "plural": "चप्पलें",
+          "plural_read_as": "chappaleṁ",
+          "difficulty": 3,
+          "tags": ["clothing", "noun", "feminine", "consonant_ending", "conjunct", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "चप्पल — sandal, slipper",
+              "explanation_en": "चप्पल is an open sandal or slipper, the footwear people slip off at the door. It is feminine and ends in a consonant, so the gender is unpredictable — and worth noticing beside जूता, which is masculine. Two kinds of footwear, opposite genders. The word appeared in Module 3 as an example of the held प्प stack.",
+              "examples": [
+                { "hindi": "नई चप्पल", "read_as": "naii chappal", "english": "a new sandal", "note": "नई is the feminine form of नया." },
+                { "hindi": "दो चप्पलें", "read_as": "do chappaleṁ", "english": "two sandals", "note": "Feminine consonant endings take -एँ." },
+                { "hindi": "काली चप्पल", "read_as": "kaalii chappal", "english": "a black sandal", "note": "काला takes -ी because चप्पल is feminine." }
+              ],
+              "common_error": {
+                "wrong": "काला चप्पल",
+                "right": "काली चप्पल",
+                "why_en": "चप्पल is feminine, so the colour takes -ी — while जूता, also footwear, takes -ा."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "चप्पल",
+              "question_read_as": "chappal",
+              "options": ["a sandal", "a shoe", "a sock", "a boot"],
+              "options_read_as": ["a sandal", "a shoe", "a sock", "a boot"],
+              "answer_index": 0,
+              "explanation_en": "चप्पल is an open sandal or slipper. जूता is a closed shoe."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ चप्पल — का, के or की?",
+              "options": ["का", "के", "कि", "की"],
+              "options_read_as": ["kaa", "ke", "ki", "kii"],
+              "answer_index": 3,
+              "explanation_en": "चप्पल is feminine, so की. Its consonant ending predicts nothing."
+            }
+          },
+          "audio": {
+            "tts_strings": ["चप्पल", "नई चप्पल", "चप्पलें"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L26-I3",
+          "type": "word",
+          "target": "टोपी",
+          "read_as": "ṭopii",
+          "pronunciation_notes": "Retroflex ट with the tongue curled back, and a flat ओ with no glide: ṭopii.",
+          "gloss_en": "cap, hat",
+          "gender": "f",
+          "gender_flag": false,
+          "category": "clothing",
+          "plural": "टोपियाँ",
+          "plural_read_as": "ṭopiyãa",
+          "difficulty": 3,
+          "tags": ["clothing", "noun", "feminine", "ii_ending", "retroflex", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "टोपी — cap, hat",
+              "explanation_en": "टोपी is a cap or hat of any kind. It ends in -ी and is feminine, so the ending predicts correctly, and the plural is टोपियाँ. You met the word in Module 2 as an example of the retroflex ट, so the tongue position should already be familiar.",
+              "examples": [
+                { "hindi": "लाल टोपी", "read_as": "laal ṭopii", "english": "a red cap", "note": "लाल never changes form." },
+                { "hindi": "दो टोपियाँ", "read_as": "do ṭopiyãa", "english": "two caps", "note": "The -ी becomes -ियाँ in the plural." },
+                { "hindi": "सफ़ेद टोपी", "read_as": "safed ṭopii", "english": "a white cap", "note": "सफ़ेद also stays the same." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "टोपी",
+              "question_read_as": "ṭopii",
+              "options": ["a scarf", "a cap", "a coat", "a glove"],
+              "options_read_as": ["a scarf", "a cap", "a coat", "a glove"],
+              "answer_index": 1,
+              "explanation_en": "टोपी is a cap or hat, worn on the head."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ टोपी — का, के or की?",
+              "options": ["की", "का", "के", "कि"],
+              "options_read_as": ["kii", "kaa", "ke", "ki"],
+              "answer_index": 0,
+              "explanation_en": "टोपी is feminine, so की. The -ी ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["टोपी", "लाल टोपी", "टोपियाँ"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added जूता, चप्पल and टोपी. जूता and चप्पल are both footwear and take opposite genders, which is another reminder that meaning offers no shortcut either.",
+        "key_forms": ["जूता", "चप्पल", "टोपी"],
+        "next_up_en": "Next: कुर्ता, सलवार and मोज़ा."
+      }
+    },
+    {
+      "level": 27,
+      "title_en": "Everyday wear",
+      "title_hi": "कुर्ता सलवार मोज़ा",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L27-I1",
+          "type": "word",
+          "target": "कुर्ता",
+          "read_as": "kurtaa",
+          "pronunciation_notes": "The hook above त is र with no vowel, read before it: kurtaa rather than kutraa.",
+          "gloss_en": "kurta, a long loose shirt",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "clothing",
+          "plural": "कुर्ते",
+          "plural_read_as": "kurte",
+          "difficulty": 4,
+          "tags": ["clothing", "noun", "masculine", "aa_ending", "reph", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "कुर्ता — kurta",
+              "explanation_en": "कुर्ता is the long loose shirt worn across South Asia by men and women alike. It is masculine and ends in -ा, so the gender and plural are both predictable, giving कुर्ते. Like कुर्सी it contains the reph: र with no vowel written as a hook above the following letter but pronounced before it.",
+              "examples": [
+                { "hindi": "सफ़ेद कुर्ता", "read_as": "safed kurtaa", "english": "a white kurta", "note": "सफ़ेद never changes form." },
+                { "hindi": "दो कुर्ते", "read_as": "do kurte", "english": "two kurtas", "note": "The -ा becomes -े in the plural." },
+                { "hindi": "नीला कुर्ता", "read_as": "niilaa kurtaa", "english": "a blue kurta", "note": "नीला takes -ा because कुर्ता is masculine." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "कुर्ता",
+              "question_read_as": "kurtaa",
+              "options": ["a jacket", "trousers", "a shawl", "a long shirt"],
+              "options_read_as": ["a jacket", "trousers", "a shawl", "a long shirt"],
+              "answer_index": 3,
+              "explanation_en": "कुर्ता is a long loose shirt. कमीज़ is the shorter fitted kind."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ कुर्ता — का, के or की?",
+              "options": ["की", "के", "का", "कि"],
+              "options_read_as": ["kii", "ke", "kaa", "ki"],
+              "answer_index": 2,
+              "explanation_en": "कुर्ता is masculine, so का. The -ा ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कुर्ता", "सफ़ेद कुर्ता", "कुर्ते"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L27-I2",
+          "type": "word",
+          "target": "सलवार",
+          "read_as": "salvaar",
+          "pronunciation_notes": "The inherent vowel on ल drops, so the word is salvaar in two syllables.",
+          "gloss_en": "salwar, loose trousers",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "clothing",
+          "plural": "सलवारें",
+          "plural_read_as": "salvaareṁ",
+          "difficulty": 3,
+          "tags": ["clothing", "noun", "feminine", "consonant_ending", "gender_flag", "medial_schwa"],
+          "cards": {
+            "learn": {
+              "title_en": "सलवार — salwar",
+              "explanation_en": "सलवार is the loose trousers gathered at the ankle, worn with a कमीज़ — together they make the सलवार-कमीज़. It is feminine and ends in a consonant, so the gender is unpredictable. Conveniently both halves of the outfit are feminine, so any colour describing either takes the same form.",
+              "examples": [
+                { "hindi": "नई सलवार", "read_as": "naii salvaar", "english": "a new salwar", "note": "नई is the feminine form of नया." },
+                { "hindi": "दो सलवारें", "read_as": "do salvaareṁ", "english": "two salwars", "note": "Feminine consonant endings take -एँ." },
+                { "hindi": "हरी सलवार", "read_as": "harii salvaar", "english": "a green salwar", "note": "हरा takes -ी because सलवार is feminine." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सलवार",
+              "question_read_as": "salvaar",
+              "options": ["a shirt", "loose trousers", "a scarf", "a skirt"],
+              "options_read_as": ["a shirt", "loose trousers", "a scarf", "a skirt"],
+              "answer_index": 1,
+              "explanation_en": "सलवार is the loose trousers worn with a कमीज़."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ सलवार — का, के or की?",
+              "options": ["का", "की", "के", "कि"],
+              "options_read_as": ["kaa", "kii", "ke", "ki"],
+              "answer_index": 1,
+              "explanation_en": "सलवार is feminine, so की. Its consonant ending gives no clue."
+            }
+          },
+          "audio": {
+            "tts_strings": ["सलवार", "नई सलवार", "सलवारें"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L27-I3",
+          "type": "word",
+          "target": "मोज़ा",
+          "read_as": "mozaa",
+          "pronunciation_notes": "The dotted ज़ is a z sound, and the ओ is flat with no glide: mozaa.",
+          "gloss_en": "sock",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "clothing",
+          "plural": "मोज़े",
+          "plural_read_as": "moze",
+          "difficulty": 4,
+          "tags": ["clothing", "noun", "masculine", "aa_ending", "nukta", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "मोज़ा — sock",
+              "explanation_en": "मोज़ा is a sock. It is masculine and ends in -ा, so the gender and plural are predictable, giving मोज़े — and like shoes, socks are usually spoken of in the plural. The word carries the dotted ज़ from Module 2 and came into Hindi from Persian, as so much of the clothing vocabulary did.",
+              "examples": [
+                { "hindi": "सफ़ेद मोज़े", "read_as": "safed moze", "english": "white socks", "note": "सफ़ेद never changes form." },
+                { "hindi": "दो मोज़े", "read_as": "do moze", "english": "two socks", "note": "The -ा becomes -े in the plural." },
+                { "hindi": "काला मोज़ा", "read_as": "kaalaa mozaa", "english": "a black sock", "note": "काला takes -ा in the singular." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "मोज़ा",
+              "question_read_as": "mozaa",
+              "options": ["a sock", "a glove", "a shoe", "a belt"],
+              "options_read_as": ["a sock", "a glove", "a shoe", "a belt"],
+              "answer_index": 0,
+              "explanation_en": "मोज़ा is a sock. जूता is the shoe that goes over it."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ मोज़ा — का, के or की?",
+              "options": ["की", "कि", "के", "का"],
+              "options_read_as": ["kii", "ki", "ke", "kaa"],
+              "answer_index": 3,
+              "explanation_en": "मोज़ा is masculine, so का. The -ा ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मोज़ा", "सफ़ेद मोज़े", "काला मोज़ा"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered कुर्ता, सलवार and मोज़ा. Most of the clothing vocabulary arrived through Persian, which is why so many of these words carry a dotted letter.",
+        "key_forms": ["कुर्ता", "सलवार", "मोज़ा"],
+        "next_up_en": "Next: the last clothing word, and then verbs — which behave differently again."
+      }
+    },
+    {
+      "level": 28,
+      "title_en": "Verbs begin",
+      "title_hi": "पैंट होना करना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L28-I1",
+          "type": "word",
+          "target": "पैंट",
+          "read_as": "paiṇṭ",
+          "pronunciation_notes": "The dot before ट is read as the retroflex nasal, and the ऐ is a single open vowel: paiṇṭ.",
+          "gloss_en": "trousers",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "clothing",
+          "plural": "पैंटें",
+          "plural_read_as": "paiṇṭeṁ",
+          "difficulty": 4,
+          "tags": ["clothing", "noun", "feminine", "consonant_ending", "anusvara", "gender_flag", "borrowed_word"],
+          "cards": {
+            "learn": {
+              "title_en": "पैंट — trousers",
+              "explanation_en": "पैंट is trousers, borrowed from English but treated as a singular noun: one pair is एक पैंट, not a plural as in English. It is feminine and ends in a consonant, so the gender is unpredictable. Note that it is feminine while its English-borrowed neighbour गिलास is masculine — borrowing settles nothing about gender.",
+              "examples": [
+                { "hindi": "नीली पैंट", "read_as": "niilii paiṇṭ", "english": "blue trousers", "note": "नीला takes -ी because पैंट is feminine." },
+                { "hindi": "काली पैंट", "read_as": "kaalii paiṇṭ", "english": "black trousers", "note": "The same feminine ending again." },
+                { "hindi": "दो पैंटें", "read_as": "do paiṇṭeṁ", "english": "two pairs of trousers", "note": "Feminine consonant endings take -एँ." }
+              ],
+              "common_error": {
+                "wrong": "नीला पैंट",
+                "right": "नीली पैंट",
+                "why_en": "पैंट is feminine, so an inflecting colour has to take its -ी form."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पैंट",
+              "question_read_as": "paiṇṭ",
+              "options": ["a shirt", "a skirt", "a belt", "trousers"],
+              "options_read_as": ["a shirt", "a skirt", "a belt", "trousers"],
+              "answer_index": 3,
+              "explanation_en": "पैंट is trousers, and Hindi treats one pair as singular."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ पैंट — का, के or की?",
+              "options": ["का", "के", "की", "कि"],
+              "options_read_as": ["kaa", "ke", "kii", "ki"],
+              "answer_index": 2,
+              "explanation_en": "पैंट is feminine, so की — while गिलास, also borrowed from English, is masculine."
+            }
+          },
+          "audio": {
+            "tts_strings": ["पैंट", "नीली पैंट", "पैंटें"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L28-I2",
+          "type": "word",
+          "target": "होना",
+          "read_as": "honaa",
+          "pronunciation_notes": "A flat ओ with no glide, then a light ह: honaa, two syllables.",
+          "gloss_en": "to be, to become",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "होना",
+          "plural_read_as": "honaa",
+          "difficulty": 4,
+          "tags": ["verbs", "verb", "infinitive", "irregular", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "होना — to be",
+              "explanation_en": "होना means to be, and it is the most important verb in the language. Every Hindi verb is named by its infinitive, which always ends in -ना, and the part before that ending is the stem — here हो. The stem is what every other form is built from, so it is worth spotting from the start. Verbs are not nouns, so they carry no gender of their own.",
+              "examples": [
+                { "hindi": "साफ़ होना", "read_as": "saaf honaa", "english": "to be clean", "note": "The infinitive after a describing word." },
+                { "hindi": "खुश होना", "read_as": "khush honaa", "english": "to be happy", "note": "A very common pairing." },
+                { "hindi": "बड़ा होना", "read_as": "baṛaa honaa", "english": "to grow up", "note": "Literally 'to be big', used for growing up." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "होना",
+              "question_read_as": "honaa",
+              "options": ["to do", "to be", "to go", "to have"],
+              "options_read_as": ["to do", "to be", "to go", "to have"],
+              "answer_index": 1,
+              "explanation_en": "होना is to be. करना is to do."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "होना — which part is the stem, once -ना is removed?",
+              "options": ["हो", "होन", "होना", "होनी"],
+              "options_read_as": ["ho", "hon", "honaa", "honii"],
+              "answer_index": 0,
+              "explanation_en": "Take -ना off the infinitive and हो is what remains. Every other form of this verb is built on that stem."
+            }
+          },
+          "audio": {
+            "tts_strings": ["होना", "खुश होना", "बड़ा होना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L28-I3",
+          "type": "word",
+          "target": "करना",
+          "read_as": "karnaa",
+          "pronunciation_notes": "The inherent vowel on र drops, so the word is karnaa in two syllables rather than three.",
+          "gloss_en": "to do, to make",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "करना",
+          "plural_read_as": "karnaa",
+          "difficulty": 4,
+          "tags": ["verbs", "verb", "infinitive", "medial_schwa", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "करना — to do",
+              "explanation_en": "करना means to do or to make, and it is the workhorse of the language: Hindi builds enormous numbers of expressions by pairing a noun or adjective with करना. Its stem is कर. The middle vowel drops in speech, so the word has two syllables and not three, which is the medial schwa behaviour from Module 3.",
+              "examples": [
+                { "hindi": "साफ़ करना", "read_as": "saaf karnaa", "english": "to clean", "note": "Literally 'to make clean' — this pattern is everywhere." },
+                { "hindi": "बंद करना", "read_as": "band karnaa", "english": "to close", "note": "Another adjective paired with करना." },
+                { "hindi": "तेज़ करना", "read_as": "tez karnaa", "english": "to speed up", "note": "The same pattern again, with a dotted letter." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "करना",
+              "question_read_as": "karnaa",
+              "options": ["to be", "to give", "to do", "to take"],
+              "options_read_as": ["to be", "to give", "to do", "to take"],
+              "answer_index": 2,
+              "explanation_en": "करना is to do or to make. होना is to be."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "करना — which part is the stem, once -ना is removed?",
+              "options": ["करन", "करना", "करनी", "कर"],
+              "options_read_as": ["karan", "karnaa", "karnii", "kar"],
+              "answer_index": 3,
+              "explanation_en": "Removing -ना from करना leaves कर, and every other form of the verb is built on it."
+            }
+          },
+          "audio": {
+            "tts_strings": ["करना", "साफ़ करना", "बंद करना"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level finished the clothing words with पैंट and introduced the first two verbs. Every Hindi verb is named by an infinitive ending in -ना, and the part before that ending is the stem that all other forms are built from.",
+        "key_forms": ["पैंट", "होना", "करना"],
+        "next_up_en": "Next: जाना, आना and देखना — three more verbs and three more stems."
+      }
+    },
+    {
+      "level": 29,
+      "title_en": "Coming and going",
+      "title_hi": "जाना आना देखना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L29-I1",
+          "type": "word",
+          "target": "जाना",
+          "read_as": "jaanaa",
+          "pronunciation_notes": "Two long aa vowels and a dental न: jaanaa.",
+          "gloss_en": "to go",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "जाना",
+          "plural_read_as": "jaanaa",
+          "difficulty": 3,
+          "tags": ["verbs", "verb", "infinitive", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "जाना — to go",
+              "explanation_en": "जाना means to go, and its stem is जा. Along with आना it makes up the pair you will use most often in giving and following directions. Notice how short the stem is: with verbs ending in -ाना, removing the -ना leaves just one syllable, which is normal rather than a sign that something is missing.",
+              "examples": [
+                { "hindi": "घर जाना", "read_as": "ghar jaanaa", "english": "to go home", "note": "The place comes before the verb in Hindi." },
+                { "hindi": "बाज़ार जाना", "read_as": "baazaar jaanaa", "english": "to go to the market", "note": "बाज़ार carries the dotted ज़." },
+                { "hindi": "वापस जाना", "read_as": "vaapas jaanaa", "english": "to go back", "note": "वापस never changes form." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "जाना",
+              "question_read_as": "jaanaa",
+              "options": ["to go", "to come", "to run", "to leave"],
+              "options_read_as": ["to go", "to come", "to run", "to leave"],
+              "answer_index": 0,
+              "explanation_en": "जाना is to go. आना is to come."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "जाना — which part is the stem, once -ना is removed?",
+              "options": ["जान", "जा", "जाना", "जानी"],
+              "options_read_as": ["jaan", "jaa", "jaanaa", "jaanii"],
+              "answer_index": 1,
+              "explanation_en": "Removing -ना leaves जा, a single syllable, which is the stem."
+            }
+          },
+          "audio": {
+            "tts_strings": ["जाना", "घर जाना", "वापस जाना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L29-I2",
+          "type": "word",
+          "target": "आना",
+          "read_as": "aanaa",
+          "pronunciation_notes": "Both vowels are long, and the word opens with the full letter आ: aanaa.",
+          "gloss_en": "to come",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "आना",
+          "plural_read_as": "aanaa",
+          "difficulty": 3,
+          "tags": ["verbs", "verb", "infinitive", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "आना — to come",
+              "explanation_en": "आना means to come, and its stem is simply आ — the shortest stem in the language. It pairs with जाना everywhere, and the two together cover most of what you need for movement. Later on आना also carries the sense of knowing how to do something, but that construction belongs to a much later module.",
+              "examples": [
+                { "hindi": "घर आना", "read_as": "ghar aanaa", "english": "to come home", "note": "The same pattern as घर जाना." },
+                { "hindi": "वापस आना", "read_as": "vaapas aanaa", "english": "to come back", "note": "वापस works with both verbs." },
+                { "hindi": "आना और जाना", "read_as": "aanaa aur jaanaa", "english": "coming and going", "note": "A fixed pair, used as a phrase." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "आना",
+              "question_read_as": "aanaa",
+              "options": ["to go", "to stay", "to bring", "to come"],
+              "options_read_as": ["to go", "to stay", "to bring", "to come"],
+              "answer_index": 3,
+              "explanation_en": "आना is to come. जाना is to go."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "आना — which part is the stem, once -ना is removed?",
+              "options": ["आन", "आना", "आ", "आनी"],
+              "options_read_as": ["aan", "aanaa", "aa", "aanii"],
+              "answer_index": 2,
+              "explanation_en": "Removing -ना leaves आ, a single vowel, and that is the whole stem."
+            }
+          },
+          "audio": {
+            "tts_strings": ["आना", "घर आना", "आना और जाना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L29-I3",
+          "type": "word",
+          "target": "देखना",
+          "read_as": "dekhnaa",
+          "pronunciation_notes": "The inherent vowel on ख drops, so the word is dekhnaa in two syllables, and the ए is flat with no glide.",
+          "gloss_en": "to see, to look at",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "देखना",
+          "plural_read_as": "dekhnaa",
+          "difficulty": 4,
+          "tags": ["verbs", "verb", "infinitive", "medial_schwa", "aspiration"],
+          "cards": {
+            "learn": {
+              "title_en": "देखना — to see",
+              "explanation_en": "देखना covers seeing, looking at and watching, so it does the work of several English verbs. Its stem is देख. The middle vowel drops in speech, giving two syllables rather than three, and the ख is aspirated, so a clear puff of air follows it.",
+              "examples": [
+                { "hindi": "घर देखना", "read_as": "ghar dekhnaa", "english": "to look at a house", "note": "The thing seen comes before the verb." },
+                { "hindi": "मछली देखना", "read_as": "machhlii dekhnaa", "english": "to watch a fish", "note": "The same word covers watching." },
+                { "hindi": "चिड़िया देखना", "read_as": "chiṛiyaa dekhnaa", "english": "to see a bird", "note": "And seeing too — one verb for all three." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "देखना",
+              "question_read_as": "dekhnaa",
+              "options": ["to hear", "to see", "to show", "to find"],
+              "options_read_as": ["to hear", "to see", "to show", "to find"],
+              "answer_index": 1,
+              "explanation_en": "देखना is to see, to look at, or to watch — all three."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "देखना — which part is the stem, once -ना is removed?",
+              "options": ["देख", "देखन", "देखना", "देखनी"],
+              "options_read_as": ["dekh", "dekhan", "dekhnaa", "dekhnii"],
+              "answer_index": 0,
+              "explanation_en": "Removing -ना leaves देख, which is the stem every other form is built on."
+            }
+          },
+          "audio": {
+            "tts_strings": ["देखना", "घर देखना", "चिड़िया देखना"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added जाना, आना and देखना. Stripping -ना gives जा, आ and देख — stems of one syllable or even one vowel, which is normal rather than a sign that anything is missing.",
+        "key_forms": ["जाना", "आना", "देखना"],
+        "next_up_en": "Next: पीना, बोलना and लिखना complete this run of verbs."
+      }
+    },
+    {
+      "level": 30,
+      "title_en": "Drinking, speaking, writing",
+      "title_hi": "पीना बोलना लिखना",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L30-I1",
+          "type": "word",
+          "target": "पीना",
+          "read_as": "piinaa",
+          "pronunciation_notes": "Unaspirated प with no puff of air, then a long ii: piinaa.",
+          "gloss_en": "to drink",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "पीना",
+          "plural_read_as": "piinaa",
+          "difficulty": 3,
+          "tags": ["verbs", "verb", "infinitive", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "पीना — to drink",
+              "explanation_en": "पीना means to drink, and its stem is पी. It also covers smoking — सिगरेट पीना is how you say to smoke a cigarette, which surprises English speakers but follows the same logic as taking something in. Keep the opening sound free of breath, since फीना with a puff is not a word.",
+              "examples": [
+                { "hindi": "पानी पीना", "read_as": "paanii piinaa", "english": "to drink water", "note": "The drink comes before the verb." },
+                { "hindi": "चाय पीना", "read_as": "chaay piinaa", "english": "to drink tea", "note": "You will hear this offered constantly." },
+                { "hindi": "दूध पीना", "read_as": "duudh piinaa", "english": "to drink milk", "note": "The same pattern with a third drink." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पीना",
+              "question_read_as": "piinaa",
+              "options": ["to drink", "to eat", "to pour", "to fill"],
+              "options_read_as": ["to drink", "to eat", "to pour", "to fill"],
+              "answer_index": 0,
+              "explanation_en": "पीना is to drink. खाना, which you met as a noun, is the verb to eat."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "पीना — which part is the stem, once -ना is removed?",
+              "options": ["पीन", "पी", "पीना", "पीनी"],
+              "options_read_as": ["piin", "pii", "piinaa", "piinii"],
+              "answer_index": 1,
+              "explanation_en": "Removing -ना leaves पी, a single syllable, which is the stem."
+            }
+          },
+          "audio": {
+            "tts_strings": ["पीना", "पानी पीना", "चाय पीना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L30-I2",
+          "type": "word",
+          "target": "बोलना",
+          "read_as": "bolnaa",
+          "pronunciation_notes": "The inherent vowel on ल drops, giving bolnaa in two syllables, with a flat ओ and no glide.",
+          "gloss_en": "to speak, to say",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "बोलना",
+          "plural_read_as": "bolnaa",
+          "difficulty": 4,
+          "tags": ["verbs", "verb", "infinitive", "medial_schwa", "high_frequency"],
+          "cards": {
+            "learn": {
+              "title_en": "बोलना — to speak",
+              "explanation_en": "बोलना means to speak or to say, and its stem is बोल. Use it for speaking a language and for speaking in general. The middle vowel drops, so the word has two syllables. Much later, in the module on the ने construction, बोलना turns out to be one of a small group of verbs that behave unusually — but that is a long way off.",
+              "examples": [
+                { "hindi": "हिंदी बोलना", "read_as": "hindii bolnaa", "english": "to speak Hindi", "note": "The language comes before the verb." },
+                { "hindi": "धीरे बोलना", "read_as": "dhiire bolnaa", "english": "to speak slowly", "note": "A useful request when you are learning." },
+                { "hindi": "कम बोलना", "read_as": "kam bolnaa", "english": "to speak little", "note": "कम never changes form." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बोलना",
+              "question_read_as": "bolnaa",
+              "options": ["to hear", "to ask", "to speak", "to call"],
+              "options_read_as": ["to hear", "to ask", "to speak", "to call"],
+              "answer_index": 2,
+              "explanation_en": "बोलना is to speak or to say. सुनना is to hear."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "बोलना — which part is the stem, once -ना is removed?",
+              "options": ["बोलन", "बोलना", "बोलनी", "बोल"],
+              "options_read_as": ["bolan", "bolnaa", "bolnii", "bol"],
+              "answer_index": 3,
+              "explanation_en": "Removing -ना leaves बोल, which is the stem."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बोलना", "हिंदी बोलना", "धीरे बोलना"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L30-I3",
+          "type": "word",
+          "target": "लिखना",
+          "read_as": "likhnaa",
+          "pronunciation_notes": "The ि matra is drawn before ल but read after it, and the inherent vowel on ख drops: likhnaa.",
+          "gloss_en": "to write",
+          "gender": null,
+          "gender_flag": false,
+          "category": "verbs",
+          "plural": "लिखना",
+          "plural_read_as": "likhnaa",
+          "difficulty": 4,
+          "tags": ["verbs", "verb", "infinitive", "medial_schwa", "aspiration"],
+          "cards": {
+            "learn": {
+              "title_en": "लिखना — to write",
+              "explanation_en": "लिखना means to write, and its stem is लिख. You met the word back in Module 2 as an example of the aspirated ख, so the puff of air in the middle should be familiar. It pairs naturally with पढ़ना, to read, which contains the breathy flap and is the other half of literacy vocabulary.",
+              "examples": [
+                { "hindi": "नाम लिखना", "read_as": "naam likhnaa", "english": "to write a name", "note": "The thing written comes before the verb." },
+                { "hindi": "किताब लिखना", "read_as": "kitaab likhnaa", "english": "to write a book", "note": "The same pattern with a longer object." },
+                { "hindi": "पत्र लिखना", "read_as": "patra likhnaa", "english": "to write a letter", "note": "पत्र keeps its final vowel because it ends in a conjunct with र." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "लिखना",
+              "question_read_as": "likhnaa",
+              "options": ["to read", "to draw", "to send", "to write"],
+              "options_read_as": ["to read", "to draw", "to send", "to write"],
+              "answer_index": 3,
+              "explanation_en": "लिखना is to write. पढ़ना is to read."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "लिखना — which part is the stem, once -ना is removed?",
+              "options": ["लिखन", "लिखना", "लिख", "लिखनी"],
+              "options_read_as": ["likhan", "likhnaa", "likh", "likhnii"],
+              "answer_index": 2,
+              "explanation_en": "Removing -ना leaves लिख, which is the stem every other form is built on."
+            }
+          },
+          "audio": {
+            "tts_strings": ["लिखना", "नाम लिखना", "किताब लिखना"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed eight verbs with पीना, बोलना and लिखना. Every one is named by an infinitive in -ना, and every one hides a stem underneath it — पी, बोल and लिख — which is what the next modules will build on.",
+        "key_forms": ["पीना", "बोलना", "लिखना"],
+        "next_up_en": "Next: more verbs, including the ones for eating, reading, taking and giving."
+      }
+    }
+  ]
+}

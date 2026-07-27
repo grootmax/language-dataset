@@ -1,0 +1,1307 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "batch": {
+    "levels_from": 46,
+    "levels_to": 48
+  },
+  "block_kind": "reading",
+  "block_note": "The register turns over inside this block for the second time in the module. Levels 46 and 47 close the news, and from level 47 item 3 onward the texts are narrative — first person, past habitual, and written to be read slowly. The inference questions change with them: a news item asks what the report is doing, a narrative asks what the writer is not saying.",
+  "levels": [
+    {
+      "level": 46,
+      "title_en": "Appointment, agreement, supply",
+      "title_hi": "नियुक्ति · समझौता · आपूर्ति",
+      "items": [
+        {
+          "id": "M13-L46-I1",
+          "type": "reading",
+          "text_kind": "news",
+          "target_word": "नियुक्ति",
+          "target_read_as": "niyukti",
+          "target_gloss_en": "appointment (to a post)",
+          "target_gender": "f",
+          "word_count": 82,
+          "difficulty": 8,
+          "tags": [
+            "news",
+            "suffix_ti",
+            "callback_l44",
+            "callback_l33",
+            "balanced_reporting"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "शहर के मुख्य अस्पताल को नया अधीक्षक मिल गया है।",
+                "read_as": "shahar ke mukhya aspataal ko nayaa adhiikṣak mil gayaa hai.",
+                "english": "The city's main hospital has a new superintendent."
+              },
+              {
+                "n": 2,
+                "hindi": "स्वास्थ्य विभाग ने कल इस नियुक्ति की घोषणा की।",
+                "read_as": "svaasthya vibhaag ne kal is niyukti kii ghoṣṇaa kii.",
+                "english": "The health department announced the appointment yesterday."
+              },
+              {
+                "n": 3,
+                "hindi": "डॉक्टर मेहरा पिछले बीस साल से इसी अस्पताल में हैं।",
+                "read_as": "ḍôkṭar mehraa pichhle biis saal se isii aspataal meṁ haiṁ.",
+                "english": "Dr Mehra has been at this same hospital for twenty years."
+              },
+              {
+                "n": 4,
+                "hindi": "वो अगले सोमवार से पद संभालेंगे।",
+                "read_as": "vo agle somvaar se pad saṁbhaaleṁge.",
+                "english": "He takes up the post from next Monday."
+              },
+              {
+                "n": 5,
+                "hindi": "अस्पताल में डॉक्टरों की कमी लंबे समय से मुद्दा रही है।",
+                "read_as": "aspataal meṁ ḍôkṭaroṁ kii kamii laṁbe samay se muddaa rahii hai.",
+                "english": "A shortage of doctors at the hospital has long been an issue."
+              },
+              {
+                "n": 6,
+                "hindi": "कर्मचारी संघ ने इस नियुक्ति का स्वागत किया।",
+                "read_as": "karmchaarii saṁgh ne is niyukti kaa svaagat kiyaa.",
+                "english": "The staff union welcomed the appointment."
+              },
+              {
+                "n": 7,
+                "hindi": "संघ के अध्यक्ष ने कहा कि अब फ़ैसले जल्दी होंगे।",
+                "read_as": "saṁgh ke adhyakṣ ne kahaa ki ab faisle jaldii hoṁge.",
+                "english": "The union president said decisions would now be quicker."
+              },
+              {
+                "n": 8,
+                "hindi": "कुछ मरीज़ों ने कहा कि उन्हें नाम से फ़र्क़ नहीं पड़ता।",
+                "read_as": "kuchh mariizoṁ ne kahaa ki unheṁ naam se farq nahiiṁ paṛtaa.",
+                "english": "Some patients said the name made no difference to them."
+              },
+              {
+                "n": 9,
+                "hindi": "शिकायत सुविधाओं की है, अधिकारियों की नहीं।",
+                "read_as": "shikaayat suvidhaaoṁ kii hai, adhikaariyoṁ kii nahiiṁ.",
+                "english": "The complaint is about facilities, not about officials."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "नियुक्ति, and three things you already have",
+              "explanation_en": "नियुक्ति is an appointment to a post, from नियुक्त करना. It is a -ति noun, so feminine and predictable — and news Hindi is full of them: आपूर्ति, स्वीकृति, स्थिति, प्रगति, अनुमति. This one report also hands back three things from earlier levels: पद संभालना uses संभालना from level 44, फ़र्क़ नहीं पड़ता is the idiom from level 33, and मुद्दा is level 17's word for the point at issue.",
+              "register_note_en": "नियुक्ति (news, official) · तैनाती (posting, especially of police or armed forces) · भर्ती (recruitment, of a whole intake rather than one person).",
+              "vocabulary_notes": [
+                "अधीक्षक — superintendent, with the -क agent suffix from level 30.",
+                "संघ — a union or association, masculine. अध्यक्ष — a president or chair.",
+                "कमी — shortage, feminine, built with the -ई suffix from level 2."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "When does the new superintendent start?",
+              "options": [
+                "Next Monday",
+                "Next month",
+                "It is not stated",
+                "Immediately"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 4: अगले सोमवार से."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                6,
+                8
+              ],
+              "question_en": "The union welcomes the appointment and the patients shrug. What does that difference show?",
+              "options": [
+                "The patients have not heard the news",
+                "The patients dislike Dr Mehra",
+                "The appointment matters to the people who work there and not to the people who use it",
+                "The union was consulted and the patients were not"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 9 explains why: their complaint was never about who was in charge. Neither reaction means much without the other beside it."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "नियुक्ति"
+            ]
+          }
+        },
+        {
+          "id": "M13-L46-I2",
+          "type": "reading",
+          "text_kind": "news",
+          "target_word": "समझौता",
+          "target_read_as": "samjhautaa",
+          "target_gloss_en": "agreement; compromise",
+          "target_gender": "m",
+          "word_count": 88,
+          "difficulty": 8,
+          "tags": [
+            "news",
+            "root_family",
+            "two_senses",
+            "callback_l39"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "नगर निगम और एक निजी संस्था के बीच कल एक समझौता हुआ।",
+                "read_as": "nagar nigam aur ek nijii saṁsthaa ke biich kal ek samjhautaa huaa.",
+                "english": "An agreement was reached yesterday between the municipal corporation and a private organisation."
+              },
+              {
+                "n": 2,
+                "hindi": "इसके तहत शहर के बीस पार्कों की देखभाल संस्था करेगी।",
+                "read_as": "iske tahat shahar ke biis paarkoṁ kii dekhbhaal saṁsthaa karegii.",
+                "english": "Under it, the organisation will look after twenty of the city's parks."
+              },
+              {
+                "n": 3,
+                "hindi": "समझौता पाँच साल के लिए है।",
+                "read_as": "samjhautaa paaṁch saal ke lie hai.",
+                "english": "The agreement is for five years."
+              },
+              {
+                "n": 4,
+                "hindi": "निगम हर साल एक तय रक़म देगा।",
+                "read_as": "nigam har saal ek tay raqam degaa.",
+                "english": "The corporation will pay a fixed sum each year."
+              },
+              {
+                "n": 5,
+                "hindi": "संस्था ने कहा कि पानी और सफ़ाई का इंतज़ाम वो ख़ुद करेगी।",
+                "read_as": "saṁsthaa ne kahaa ki paanii aur safaaii kaa iṁtazaam vo ḳhud karegii.",
+                "english": "The organisation said it would arrange water and cleaning itself."
+              },
+              {
+                "n": 6,
+                "hindi": "पार्कों में अभी घास सूखी है और बेंच नहीं हैं।",
+                "read_as": "paarkoṁ meṁ abhii ghaas suukhii hai aur beṁch nahiiṁ haiṁ.",
+                "english": "The grass in the parks is dry at present and there are no benches."
+              },
+              {
+                "n": 7,
+                "hindi": "कुछ पार्षदों ने इस समझौते पर सवाल उठाए।",
+                "read_as": "kuchh paarṣadoṁ ne is samjhaute par savaal uṭhaae.",
+                "english": "Some councillors raised questions about the agreement."
+              },
+              {
+                "n": 8,
+                "hindi": "उनका कहना है कि निगम का अपना अमला है।",
+                "read_as": "unkaa kahnaa hai ki nigam kaa apnaa amlaa hai.",
+                "english": "They say the corporation has its own staff."
+              },
+              {
+                "n": 9,
+                "hindi": "महापौर ने कहा कि समझौता पैसे बचाएगा।",
+                "read_as": "mahaapaur ne kahaa ki samjhautaa paise bachaaegaa.",
+                "english": "The mayor said the agreement would save money."
+              },
+              {
+                "n": 10,
+                "hindi": "फ़िलहाल पूरी शर्तें सामने नहीं आई हैं।",
+                "read_as": "filhaal puurii sharteṁ saamne nahiiṁ aaii haiṁ.",
+                "english": "The full terms have not yet been made public."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "समझौता is built on समझना",
+              "explanation_en": "An agreement in Hindi is a coming-to-an-understanding: समझौता is built directly on समझना, to understand. That gives it a second sense in ordinary speech — समझौता करना also means to compromise, and often to settle for less than you wanted: उसने समझौता कर लिया. In the news the first sense dominates; in conversation the second usually does, and only the context separates them.",
+              "register_note_en": "समझौता (agreement, and compromise) · अनुबंध (a contract, in legal writing) · करार (an accord, Urdu-side and slightly formal).",
+              "vocabulary_notes": [
+                "इसके तहत — under it, under its terms. You met the phrase in the municipal project at level 39.",
+                "समझौते is the oblique of समझौता, before पर in line 6.",
+                "अमला — staff or workforce, masculine and Urdu-side. महापौर — mayor."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How long does the agreement run?",
+              "options": [
+                "Twenty years",
+                "It is open-ended",
+                "One year",
+                "Five years"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 3: पाँच साल के लिए."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                9,
+                10
+              ],
+              "question_en": "The mayor says the deal will save money, and the last line says the terms are not public. What does that pairing leave the reader with?",
+              "options": [
+                "Proof that the deal saves money",
+                "A claim about savings that cannot yet be checked",
+                "Evidence that the councillors are right",
+                "A cancelled agreement"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The report does not dispute the mayor. It simply places his claim next to the fact that nobody can verify it, and lets the order of the lines do the work."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "समझौता"
+            ]
+          }
+        },
+        {
+          "id": "M13-L46-I3",
+          "type": "reading",
+          "text_kind": "news",
+          "target_word": "आपूर्ति",
+          "target_read_as": "aapuurti",
+          "target_gloss_en": "supply",
+          "target_gender": "f",
+          "word_count": 86,
+          "difficulty": 8,
+          "tags": [
+            "news",
+            "suffix_ti",
+            "invariable_thap",
+            "civic"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "शहर के कई इलाक़ों में तीन दिन से पानी की आपूर्ति ठप है।",
+                "read_as": "shahar ke kaii ilaaqoṁ meṁ tiin din se paanii kii aapuurti ṭhap hai.",
+                "english": "The water supply has been halted for three days in several parts of the city."
+              },
+              {
+                "n": 2,
+                "hindi": "जल विभाग के अनुसार मुख्य पाइपलाइन में रिसाव है।",
+                "read_as": "jal vibhaag ke anusaar mukhya paaiplaain meṁ risaav hai.",
+                "english": "According to the water department there is a leak in the main pipeline."
+              },
+              {
+                "n": 3,
+                "hindi": "मरम्मत का काम चल रहा है।",
+                "read_as": "marammat kaa kaam chal rahaa hai.",
+                "english": "Repair work is under way."
+              },
+              {
+                "n": 4,
+                "hindi": "विभाग ने कहा कि कल शाम तक आपूर्ति बहाल हो जाएगी।",
+                "read_as": "vibhaag ne kahaa ki kal shaam tak aapuurti bahaal ho jaaegii.",
+                "english": "The department said supply would be restored by tomorrow evening."
+              },
+              {
+                "n": 5,
+                "hindi": "इस बीच टैंकरों से पानी भेजा जा रहा है।",
+                "read_as": "is biich ṭaiṁkaroṁ se paanii bhejaa jaa rahaa hai.",
+                "english": "Water is being sent by tanker in the meantime"
+              },
+              {
+                "n": 6,
+                "hindi": "लोगों का कहना है कि टैंकर कम हैं।",
+                "read_as": "logoṁ kaa kahnaa hai ki ṭaiṁkar kam haiṁ.",
+                "english": "People say there are too few tankers."
+              },
+              {
+                "n": 7,
+                "hindi": "कई घरों में सुबह से लाइन लगी रहती है।",
+                "read_as": "kaii gharoṁ meṁ subah se laain lagii rahtii hai.",
+                "english": "In many homes there is a queue from the morning onwards."
+              },
+              {
+                "n": 8,
+                "hindi": "दुकानों में पानी की बोतलें भी महँगी हो गई हैं।",
+                "read_as": "dukaanoṁ meṁ paanii kii botleṁ bhii mahaṁgii ho gaii haiṁ.",
+                "english": "Bottled water in the shops has also become more expensive."
+              },
+              {
+                "n": 9,
+                "hindi": "विभाग ने दाम बढ़ने की शिकायत पर जाँच की बात कही।",
+                "read_as": "vibhaag ne daam baṛhne kii shikaayat par jaaṁch kii baat kahii.",
+                "english": "The department said it would look into complaints of price rises."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "The -ति nouns own the news register",
+              "explanation_en": "आपूर्ति is supply, and it is the fourth -ति noun in three levels: नियुक्ति, आपूर्ति, स्वीकृति from level 32, स्थिति from level 38. Every one is feminine, and once you notice how many of them there are, a great deal of news Hindi becomes predictable — प्रगति, अनुमति, शक्ति, गति, उन्नति all behave identically. Note also ठप, invariable, meaning at a standstill: आपूर्ति ठप है, काम ठप है, यातायात ठप है.",
+              "register_note_en": "आपूर्ति (news and official) · सप्लाई (the English word, entirely normal in speech). A person says पानी की सप्लाई बंद है.",
+              "vocabulary_notes": [
+                "बहाल होना — to be restored. बहाली is the noun.",
+                "रिसाव — a leak, and another -आव noun from level 34, so masculine.",
+                "लाइन लगी रहती है — the queue stays formed. लाइन is feminine, as level 42 said."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What is the stated cause?",
+              "options": [
+                "Excessive demand",
+                "A pump failure",
+                "A leak in the main pipeline",
+                "A power cut"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 2: मुख्य पाइपलाइन में रिसाव है."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                4,
+                8
+              ],
+              "question_en": "The department promises supply by tomorrow evening. What does line 8 suggest about how people are treating that promise?",
+              "options": [
+                "They are buying bottled water anyway, which is why the price has risen",
+                "They have complained to the shops",
+                "They have found another source",
+                "They believe it and are waiting"
+              ],
+              "answer_index": 0,
+              "explanation_en": "A price rise means demand has jumped. People are not behaving as though the water is coming back tomorrow, and the report shows that without saying it."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "आपूर्ति"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "नियुक्ति and आपूर्ति join स्वीकृति and स्थिति — the -ति nouns are feminine without exception and they run the news register. समझौता is built on समझना, which is why it means both an agreement and a compromise. And a report can undercut a claim simply by choosing what to put next to it.",
+        "key_forms": [
+          "पद संभालेंगे",
+          "इसके तहत",
+          "आपूर्ति ठप है"
+        ],
+        "next_up_en": "Next: a conference, a foundation stone, and then the first narrative."
+      }
+    },
+    {
+      "level": 47,
+      "title_en": "The last of the news, and the first narrative",
+      "title_hi": "सम्मेलन · शिलान्यास · सुकून",
+      "items": [
+        {
+          "id": "M13-L47-I1",
+          "type": "reading",
+          "text_kind": "news",
+          "target_word": "सम्मेलन",
+          "target_read_as": "sammelan",
+          "target_gloss_en": "conference",
+          "target_gender": "m",
+          "word_count": 90,
+          "difficulty": 8,
+          "tags": [
+            "news",
+            "root_milnaa",
+            "gender_pair_suffix",
+            "callback_l24"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "शहर में कल शिक्षा पर दो दिन का सम्मेलन शुरू हुआ।",
+                "read_as": "shahar meṁ kal shikṣaa par do din kaa sammelan shuruu huaa.",
+                "english": "A two-day conference on education began in the city yesterday."
+              },
+              {
+                "n": 2,
+                "hindi": "इसमें पूरे राज्य से तीन सौ शिक्षक आए हैं।",
+                "read_as": "ismeṁ puure raajya se tiin sau shikṣak aae haiṁ.",
+                "english": "Three hundred teachers from across the state have come to it."
+              },
+              {
+                "n": 3,
+                "hindi": "पहले दिन सरकारी स्कूलों की हालत पर चर्चा हुई।",
+                "read_as": "pahle din sarkaarii skuuloṁ kii haalat par charchaa huii.",
+                "english": "The first day was a discussion of conditions in state schools."
+              },
+              {
+                "n": 4,
+                "hindi": "कई शिक्षकों ने कहा कि कक्षाओं में बच्चे बहुत ज़्यादा हैं।",
+                "read_as": "kaii shikṣakoṁ ne kahaa ki kakṣaaoṁ meṁ bacche bahut zyaadaa haiṁ.",
+                "english": "Many teachers said there are far too many children in the classrooms."
+              },
+              {
+                "n": 5,
+                "hindi": "एक शिक्षिका की कक्षा में सत्तर बच्चे हैं।",
+                "read_as": "ek shikṣikaa kii kakṣaa meṁ sattar bacche haiṁ.",
+                "english": "One teacher has seventy children in her class."
+              },
+              {
+                "n": 6,
+                "hindi": "शिक्षा विभाग के एक अधिकारी ने नई भर्ती का आश्वासन दिया।",
+                "read_as": "shikṣaa vibhaag ke ek adhikaarii ne naii bhartii kaa aashvaasan diyaa.",
+                "english": "An education department official promised new recruitment."
+              },
+              {
+                "n": 7,
+                "hindi": "पर उन्होंने कोई तारीख़ नहीं बताई।",
+                "read_as": "par unhoṁne koii taariiḳh nahiiṁ bataaii.",
+                "english": "But he gave no date."
+              },
+              {
+                "n": 8,
+                "hindi": "दूसरे दिन नए पाठ्यक्रम पर बात होगी।",
+                "read_as": "duusre din nae paaṭhyakram par baat hogii.",
+                "english": "The second day will discuss the new syllabus."
+              },
+              {
+                "n": 9,
+                "hindi": "सम्मेलन के अंत में एक रिपोर्ट सरकार को जाएगी।",
+                "read_as": "sammelan ke aṁt meṁ ek riporṭ sarkaar ko jaaegii.",
+                "english": "A report will go to the government at the end of the conference."
+              },
+              {
+                "n": 10,
+                "hindi": "पिछली रिपोर्ट का क्या हुआ, किसी ने नहीं पूछा।",
+                "read_as": "pichhlii riporṭ kaa kyaa huaa, kisii ne nahiiṁ puuchhaa.",
+                "english": "Nobody asked what became of the previous report."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "-क and -इका — a matched pair of agent suffixes",
+              "explanation_en": "Line 2 has शिक्षक and line 5 has शिक्षिका: the -क agent suffix from level 30 with its feminine counterpart -इका. The pair runs right through the language — लेखक and लेखिका a writer, अध्यापक and अध्यापिका a teacher, नायक and नायिका a hero and heroine, गायक and गायिका a singer. And सम्मेलन itself is सम् (together) plus a form of मिलना — a coming-together, from the same root as मिलन in the होली मिलन invitation at level 24.",
+              "register_note_en": "सम्मेलन (a formal conference) · बैठक (a meeting) · गोष्ठी (a seminar or discussion circle). All three are Sanskrit-side.",
+              "vocabulary_notes": [
+                "कक्षा — a classroom or a school year, feminine, and another -आ feminine from level 35.",
+                "भर्ती — recruitment, feminine. पाठ्यक्रम — a syllabus.",
+                "चर्चा हुई — a discussion happened. Nobody is named as holding it."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What did the official promise?",
+              "options": [
+                "Smaller classes",
+                "New recruitment",
+                "A new syllabus",
+                "A report by Friday"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 6: नई भर्ती का आश्वासन."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                9,
+                10
+              ],
+              "question_en": "The last line is the only sentence in the report with no source attached. What is it doing?",
+              "options": [
+                "Correcting an earlier line",
+                "Announcing the next conference",
+                "Reporting a question that was asked",
+                "Making the reporter's own point about whether any of this will matter"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Every other line is attributed to somebody. This one records an absence, and by putting it directly after the promise of a new report it says what the reporter will not say outright."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "सम्मेलन"
+            ]
+          }
+        },
+        {
+          "id": "M13-L47-I2",
+          "type": "reading",
+          "text_kind": "news",
+          "target_word": "शिलान्यास",
+          "target_read_as": "shilaanyaas",
+          "target_gloss_en": "foundation-stone laying",
+          "target_gender": "m",
+          "word_count": 84,
+          "difficulty": 8,
+          "tags": [
+            "news",
+            "sanskrit_compound",
+            "civic_ritual",
+            "gender_pair_suffix"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "नए पुस्तकालय भवन का शिलान्यास कल हुआ।",
+                "read_as": "nae pustakaalay bhavan kaa shilaanyaas kal huaa.",
+                "english": "The foundation stone of the new library building was laid yesterday."
+              },
+              {
+                "n": 2,
+                "hindi": "मंत्री और महापौर मौजूद थे।",
+                "read_as": "maṁtrii aur mahaapaur maujuud the.",
+                "english": "The minister and the mayor were present."
+              },
+              {
+                "n": 3,
+                "hindi": "भवन दो मंज़िल का होगा।",
+                "read_as": "bhavan do maṁzil kaa hogaa.",
+                "english": "The building will be two storeys."
+              },
+              {
+                "n": 4,
+                "hindi": "इसमें पढ़ने के लिए दो बड़े कमरे रहेंगे।",
+                "read_as": "ismeṁ paṛhne ke lie do baṛe kamre raheṁge.",
+                "english": "It will have two large reading rooms."
+              },
+              {
+                "n": 5,
+                "hindi": "विभाग के अनुसार काम अठारह महीने में पूरा किया जाएगा।",
+                "read_as": "vibhaag ke anusaar kaam aṭhaarah mahiine meṁ puuraa kiyaa jaaegaa.",
+                "english": "According to the department the work will be completed in eighteen months"
+              },
+              {
+                "n": 6,
+                "hindi": "इलाक़े में कोई पुस्तकालय नहीं है।",
+                "read_as": "ilaaqe meṁ koii pustakaalay nahiiṁ hai.",
+                "english": "There is no library in the area."
+              },
+              {
+                "n": 7,
+                "hindi": "पास के कॉलेज के छात्र दूर जाते हैं।",
+                "read_as": "paas ke kôlej ke chhaatra duur jaate haiṁ.",
+                "english": "Students from the nearby college travel some distance."
+              },
+              {
+                "n": 8,
+                "hindi": "एक छात्रा ने कहा कि उसे रोज़ एक घंटा लगता है।",
+                "read_as": "ek chhaatraa ne kahaa ki use roz ek ghanṭaa lagtaa hai.",
+                "english": "One student said it takes her an hour each day."
+              },
+              {
+                "n": 9,
+                "hindi": "कुछ लोगों ने याद दिलाया कि यहाँ पहले भी एक भवन बनना था।",
+                "read_as": "kuchh logoṁ ne yaad dilaayaa ki yahaaṁ pahle bhii ek bhavan bannaa thaa.",
+                "english": "Some people recalled that a building was supposed to be built here before."
+              },
+              {
+                "n": 10,
+                "hindi": "वो योजना दस साल पहले बीच में ही रुक गई थी।",
+                "read_as": "vo yojnaa das saal pahle biich meṁ hii ruk gaii thii.",
+                "english": "That plan stopped halfway ten years ago."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "शिलान्यास and उद्घाटन are not the same ceremony",
+              "explanation_en": "शिलान्यास is शिला, a stone, plus न्यास, a placing — the laying of a foundation stone, which happens at the start. उद्घाटन is the opening, which happens at the end. Indian civic news reports both constantly and a learner who treats them as synonyms will misread the stage a project is at by a year or more. Note also छात्र and छात्रा in lines 7 and 8: the same masculine and feminine pairing as शिक्षक and शिक्षिका in the last item, this time with a plain -आ.",
+              "register_note_en": "पुस्तकालय (formal, and what the building is called) · लाइब्रेरी (what everybody says). The -आलय suffix from level 8 once more.",
+              "vocabulary_notes": [
+                "मौजूद — present, invariable, Urdu-side. The Sanskrit-side word is उपस्थित, from level 31.",
+                "याद दिलाना — to remind. The causative of याद आना.",
+                "बनना था — was supposed to be built. The था turns an intention into one that was never carried out."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How long is the work expected to take?",
+              "options": [
+                "Eighteen months",
+                "Two years",
+                "It is not stated",
+                "Ten years"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 5: अठारह महीने में."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                5,
+                10
+              ],
+              "question_en": "Why do the last two lines change how you read line 5?",
+              "options": [
+                "They confirm the department's record",
+                "They prove the eighteen-month estimate is wrong",
+                "They give the reader a reason to treat the estimate cautiously",
+                "They describe a different building"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Nothing in the report says the promise will not be kept. It simply notes that a promise was made here before and not kept, and lets the reader do the rest."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "शिलान्यास"
+            ]
+          }
+        },
+        {
+          "id": "M13-L47-I3",
+          "type": "reading",
+          "text_kind": "narrative",
+          "target_word": "सुकून",
+          "target_read_as": "sukuun",
+          "target_gloss_en": "peace, ease, contentment",
+          "target_gender": "m",
+          "word_count": 95,
+          "difficulty": 8,
+          "tags": [
+            "narrative",
+            "first_narrative",
+            "habitual_past",
+            "tense_shift",
+            "urdu_origin"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "गाँव में सुबह जल्दी नींद खुल जाती थी।",
+                "read_as": "gaaṁv meṁ subah jaldii niiṁd khul jaatii thii.",
+                "english": "In the village I would wake early."
+              },
+              {
+                "n": 2,
+                "hindi": "बाहर अभी अँधेरा रहता था।",
+                "read_as": "baahar abhii aṁdheraa rahtaa thaa.",
+                "english": "It would still be dark outside."
+              },
+              {
+                "n": 3,
+                "hindi": "कहीं दूर से किसी पक्षी की आवाज़ आती और फिर सब चुप।",
+                "read_as": "kahiiṁ duur se kisii pakṣii kii aavaaz aatii aur phir sab chup.",
+                "english": "A bird would call somewhere far off, and then everything would be quiet again."
+              },
+              {
+                "n": 4,
+                "hindi": "माँ चूल्हा जलाती थीं और धुएँ की गंध पूरे घर में फैल जाती थी।",
+                "read_as": "maaṁ chuulhaa jalaatii thiiṁ aur dhueṁ kii gaṁdh puure ghar meṁ phail jaatii thii.",
+                "english": "My mother would light the stove and the smell of smoke would spread through the house."
+              },
+              {
+                "n": 5,
+                "hindi": "चाय की पहली प्याली वहीं मिलती थी।",
+                "read_as": "chaay kii pahlii pyaalii vahiiṁ miltii thii.",
+                "english": "The first cup of tea came there."
+              },
+              {
+                "n": 6,
+                "hindi": "मैं आँगन में बैठ जाता और कुछ नहीं करता।",
+                "read_as": "maiṁ aaṁgan meṁ baiṭh jaataa aur kuchh nahiiṁ kartaa.",
+                "english": "I would sit in the courtyard and do nothing."
+              },
+              {
+                "n": 7,
+                "hindi": "न फ़ोन, न ख़बर, न कोई जल्दी।",
+                "read_as": "na fon, na ḳhabar, na koii jaldii.",
+                "english": "No phone, no news, no hurry."
+              },
+              {
+                "n": 8,
+                "hindi": "शहर में ऐसा कभी नहीं होता।",
+                "read_as": "shahar meṁ aisaa kabhii nahiiṁ hotaa.",
+                "english": "It is never like that in the city."
+              },
+              {
+                "n": 9,
+                "hindi": "वहाँ सुबह भी शोर से शुरू होती है।",
+                "read_as": "vahaaṁ subah bhii shor se shuruu hotii hai.",
+                "english": "There even the morning starts with noise."
+              },
+              {
+                "n": 10,
+                "hindi": "उन दिनों मुझे नहीं पता था कि इसे सुकून कहते हैं।",
+                "read_as": "un dinoṁ mujhe nahiiṁ pataa thaa ki ise sukuun kahte haiṁ.",
+                "english": "In those days I did not know that this is called सुकून."
+              },
+              {
+                "n": 11,
+                "hindi": "अब पता है, पर अब वक़्त नहीं है।",
+                "read_as": "ab pataa hai, par ab vaqt nahiiṁ hai.",
+                "english": "Now I know, and now there is no time."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "The habitual past is what memory is written in",
+              "explanation_en": "Read the verb endings across this piece: खुल जाती थी, रहता था, आती, जलाती थीं, मिलती थी, बैठ जाता, करता. That is the habitual past — used to, would — and it is the tense Hindi memory writing lives in, because it describes what happened repeatedly rather than once. Then look at lines 8, 9 and 11: होता, होती है, है. The tense shifts to the present, and that shift is the point of the piece. The village is remembered; the city is now.",
+              "register_note_en": "सुकून (Urdu-side, restful contentment) · शांति (Sanskrit-side, quiet, and also peace in the political sense) · चैन (relief from anxiety, as in चैन से सोना). They are not interchangeable: शांति can be imposed, सुकून cannot.",
+              "vocabulary_notes": [
+                "नींद खुलना — for sleep to open, meaning to wake. The sleep does it, not you.",
+                "आँगन — the inner courtyard of a house, masculine.",
+                "न ... न ... न — neither, nor, nor. A verbless line, and the shortest in the piece."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What did the writer do in the courtyard?",
+              "options": [
+                "Helped his mother",
+                "Made tea",
+                "Read the newspaper",
+                "Nothing"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 6: कुछ नहीं करता."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                10,
+                11
+              ],
+              "question_en": "What does the last line say about the writer now?",
+              "options": [
+                "He no longer visits the village",
+                "He can name the thing now but no longer has it",
+                "He has forgotten the word",
+                "He prefers the city"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Knowledge arrived and the thing left. The piece never says he is unhappy, and it does not need to."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "सुकून"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "-क and -इका make masculine and feminine agents: शिक्षक and शिक्षिका, छात्र and छात्रा. शिलान्यास starts a building and उद्घाटन opens it. And the first narrative runs entirely in the habitual past until it shifts to the present in its last lines, which is where its meaning is.",
+        "key_forms": [
+          "शिक्षिका",
+          "शिलान्यास",
+          "पता नहीं था"
+        ],
+        "next_up_en": "Next: three more narratives — a street, a doorway, and an old watch."
+      }
+    },
+    {
+      "level": 48,
+      "title_en": "Three narratives",
+      "title_hi": "यादें · झिझक · लगाव",
+      "items": [
+        {
+          "id": "M13-L48-I1",
+          "type": "reading",
+          "text_kind": "narrative",
+          "target_word": "यादें",
+          "target_read_as": "yaadeṁ",
+          "target_gloss_en": "memories",
+          "target_gender": "f",
+          "word_count": 100,
+          "difficulty": 8,
+          "tags": [
+            "narrative",
+            "yaad_family",
+            "bhii_particle",
+            "concrete_then_abstract"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "बीस साल बाद उस गली में गया।",
+                "read_as": "biis saal baad us galii meṁ gayaa.",
+                "english": "I went back to that lane after twenty years."
+              },
+              {
+                "n": 2,
+                "hindi": "सब कुछ पहले से छोटा लग रहा था।",
+                "read_as": "sab kuchh pahle se chhoṭaa lag rahaa thaa.",
+                "english": "Everything looked smaller than before."
+              },
+              {
+                "n": 3,
+                "hindi": "एक दीवार थी।",
+                "read_as": "ek diivaar thii.",
+                "english": "There was a wall."
+              },
+              {
+                "n": 4,
+                "hindi": "बचपन में वो बहुत ऊँची लगती थी।",
+                "read_as": "bachpan meṁ vo bahut uuṁchii lagtii thii.",
+                "english": "In childhood it seemed very high."
+              },
+              {
+                "n": 5,
+                "hindi": "अब कंधे तक भी नहीं आती।",
+                "read_as": "ab kaṁdhe tak bhii nahiiṁ aatii.",
+                "english": "Now it does not even reach my shoulder."
+              },
+              {
+                "n": 6,
+                "hindi": "नुक्कड़ की दुकान अब भी वहीं है, पर दुकानदार कोई और है।",
+                "read_as": "nukkaṛ kii dukaan ab bhii vahiiṁ hai, par dukaandaar koii aur hai.",
+                "english": "The shop on the corner is still there, but the shopkeeper is someone else."
+              },
+              {
+                "n": 7,
+                "hindi": "उसने मुझे नहीं पहचाना।",
+                "read_as": "usne mujhe nahiiṁ pahchaanaa.",
+                "english": "He did not recognise me."
+              },
+              {
+                "n": 8,
+                "hindi": "मैंने भी कुछ नहीं कहा।",
+                "read_as": "maiṁne bhii kuchh nahiiṁ kahaa.",
+                "english": "I said nothing either."
+              },
+              {
+                "n": 9,
+                "hindi": "पुराने घर के बाहर एक नई गाड़ी खड़ी थी।",
+                "read_as": "puraane ghar ke baahar ek naii gaaṛii khaṛii thii.",
+                "english": "A new car stood outside the old house."
+              },
+              {
+                "n": 10,
+                "hindi": "दरवाज़े का रंग बदल गया था।",
+                "read_as": "darvaaze kaa raṁg badal gayaa thaa.",
+                "english": "The colour of the door had changed."
+              },
+              {
+                "n": 11,
+                "hindi": "मैं थोड़ी देर वहीं खड़ा रहा और फिर लौट आया।",
+                "read_as": "maiṁ thoṛii der vahiiṁ khaṛaa rahaa aur phir lauṭ aayaa.",
+                "english": "I stood there a while and then came away."
+              },
+              {
+                "n": 12,
+                "hindi": "यादें जगह में नहीं रहतीं।",
+                "read_as": "yaadeṁ jagah meṁ nahiiṁ rahtiiṁ.",
+                "english": "Memories do not stay in places."
+              },
+              {
+                "n": 13,
+                "hindi": "वो हमारे साथ चलती हैं और जगह को पीछे छोड़ देती हैं।",
+                "read_as": "vo hamaare saath chaltii haiṁ aur jagah ko piichhe chhoṛ detii haiṁ.",
+                "english": "They travel with us and leave the place behind."
+              },
+              {
+                "n": 14,
+                "hindi": "उस दिन यही समझ में आया।",
+                "read_as": "us din yahii samajh meṁ aayaa.",
+                "english": "That was what I understood that day."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "याद with three different verbs",
+              "explanation_en": "याद is feminine, and its plural यादें is what this piece is about. The verb changes the meaning completely: याद आना is for a memory that arrives unbidden — मुझे उनकी याद आई. याद रखना is to keep something in mind deliberately. And याद करना is to call something to mind, and also, of a person, to miss them: वो तुम्हें बहुत याद करते हैं. Three constructions, one noun, and choosing the wrong one changes who is doing what.",
+              "register_note_en": "यादें (memories, everyday) · स्मृति (Sanskrit-side, formal and literary) · स्मरण, which you met as a notice header at level 30, is the act of remembering rather than the thing remembered.",
+              "vocabulary_notes": [
+                "नुक्कड़ — a street corner, masculine.",
+                "कंधे तक भी नहीं आती — the wall is the subject. It does the not-reaching.",
+                "समझ में आना — for something to become clear, from level 9. समझ is feminine."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What has changed about the corner shop?",
+              "options": [
+                "It has closed",
+                "It has moved",
+                "The shopkeeper is a different person",
+                "It is larger now"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 6: दुकानदार कोई और है."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                7,
+                8
+              ],
+              "question_en": "Line 8 says मैंने भी कुछ नहीं कहा. What is the भी doing?",
+              "options": [
+                "Matching his silence to the shopkeeper's failure to recognise him — he chose not to correct it",
+                "Showing he had nothing to buy",
+                "Showing he was too shy to speak",
+                "Emphasising that he was silent"
+              ],
+              "answer_index": 0,
+              "explanation_en": "भी makes the second silence answer the first. He could have said who he was, and the whole weight of the line is that he did not."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "यादें"
+            ]
+          }
+        },
+        {
+          "id": "M13-L48-I2",
+          "type": "reading",
+          "text_kind": "narrative",
+          "target_word": "झिझक",
+          "target_read_as": "jhijhak",
+          "target_gloss_en": "hesitation",
+          "target_gender": "f",
+          "word_count": 105,
+          "difficulty": 9,
+          "tags": [
+            "narrative",
+            "bare_stem_noun",
+            "new_noun_pattern",
+            "short_sentences"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "दरवाज़े तक पहुँचा और रुक गया।",
+                "read_as": "darvaaze tak pahuṁchaa aur ruk gayaa.",
+                "english": "I got as far as the door and stopped."
+              },
+              {
+                "n": 2,
+                "hindi": "हाथ उठाया, फिर नीचे कर लिया।",
+                "read_as": "haath uṭhaayaa, phir niiche kar liyaa.",
+                "english": "I raised my hand, then lowered it again."
+              },
+              {
+                "n": 3,
+                "hindi": "दस साल हो गए थे।",
+                "read_as": "das saal ho gae the.",
+                "english": "Ten years had passed."
+              },
+              {
+                "n": 4,
+                "hindi": "शायद उन्होंने माफ़ कर दिया था। शायद नहीं।",
+                "read_as": "shaayad unhoṁne maaf kar diyaa thaa. shaayad nahiiṁ.",
+                "english": "Perhaps they had forgiven me. Perhaps not."
+              },
+              {
+                "n": 5,
+                "hindi": "भीतर से बर्तनों की आवाज़ आ रही थी।",
+                "read_as": "bhiitar se bartanoṁ kii aavaaz aa rahii thii.",
+                "english": "The sound of dishes came from inside."
+              },
+              {
+                "n": 6,
+                "hindi": "कोई ज़ोर से हँसा।",
+                "read_as": "koii zor se haṁsaa.",
+                "english": "Somebody laughed loudly."
+              },
+              {
+                "n": 7,
+                "hindi": "मैं वहीं खड़ा रहा।",
+                "read_as": "maiṁ vahiiṁ khaṛaa rahaa.",
+                "english": "I stayed where I was."
+              },
+              {
+                "n": 8,
+                "hindi": "झिझक कोई बड़ी चीज़ नहीं होती।",
+                "read_as": "jhijhak koii baṛii chiiz nahiiṁ hotii.",
+                "english": "Hesitation is not a large thing."
+              },
+              {
+                "n": 9,
+                "hindi": "वो बस एक पल की चीज़ है।",
+                "read_as": "vo bas ek pal kii chiiz hai.",
+                "english": "It is a thing of one moment only."
+              },
+              {
+                "n": 10,
+                "hindi": "पर उस पल में बहुत कुछ तय हो जाता है।",
+                "read_as": "par us pal meṁ bahut kuchh tay ho jaataa hai.",
+                "english": "But a great deal gets decided in that moment."
+              },
+              {
+                "n": 11,
+                "hindi": "मैंने घंटी नहीं बजाई।",
+                "read_as": "maiṁne ghanṭii nahiiṁ bajaaii.",
+                "english": "I did not ring the bell."
+              },
+              {
+                "n": 12,
+                "hindi": "मैं सीढ़ियाँ उतर गया।",
+                "read_as": "maiṁ siiṛhiyaaṁ utar gayaa.",
+                "english": "I went down the stairs."
+              },
+              {
+                "n": 13,
+                "hindi": "नीचे आया और फ़ोन निकाला।",
+                "read_as": "niiche aayaa aur fon nikaalaa.",
+                "english": "Downstairs I took out my phone."
+              },
+              {
+                "n": 14,
+                "hindi": "नंबर मिलाया, फिर काट दिया।",
+                "read_as": "nambar milaayaa, phir kaaṭ diyaa.",
+                "english": "I dialled the number, then cut the call."
+              },
+              {
+                "n": 15,
+                "hindi": "कुछ दरवाज़े बाहर से बंद नहीं होते।",
+                "read_as": "kuchh darvaaze baahar se baṁd nahiiṁ hote.",
+                "english": "Some doors are not locked from outside."
+              },
+              {
+                "n": 16,
+                "hindi": "वो भीतर से बंद होते हैं।",
+                "read_as": "vo bhiitar se baṁd hote haiṁ.",
+                "english": "They are shut from within."
+              },
+              {
+                "n": 17,
+                "hindi": "और उन्हें खोलने के लिए सिर्फ़ हिम्मत चाहिए, चाबी नहीं।",
+                "read_as": "aur unheṁ kholne ke lie sirf himmat chaahie, chaabii nahiiṁ.",
+                "english": "And to open them you need only courage, not a key."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "The bare verb stem as a feminine noun",
+              "explanation_en": "झिझक is simply the stem of झिझकना used as a noun, with nothing added — and every noun made this way is feminine. It is a large and quiet family: समझ from समझना, माँग from माँगना, पकड़ from पकड़ना, दौड़ from दौड़ना, चमक from चमकना, बचत from बचना. That makes five ways Hindi builds a feminine noun — -आई, -ई, -ता, -ति, and now nothing at all. The one masculine-maker you have met is -आव, in चुनाव and बदलाव.",
+              "register_note_en": "झिझक (everyday) · हिचकिचाहट (also everyday, and built with -आहट, a cousin of the -आवट in गिरावट). Both are feminine; the second is a little heavier.",
+              "vocabulary_notes": [
+                "नंबर मिलाना — to dial a number. काट देना — to cut a call.",
+                "तय हो जाना — to get settled or decided, with no agent.",
+                "The sentences here are much shorter than in the news items. That is deliberate: the rhythm is the point."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What did he do after leaving the stairs?",
+              "options": [
+                "Went back up",
+                "Dialled a number and cut the call",
+                "Waited outside",
+                "Rang the bell"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 14: नंबर मिलाया, फिर काट दिया."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                11,
+                17
+              ],
+              "question_en": "The last three lines are about doors. What are they actually about?",
+              "options": [
+                "That he had lost the key",
+                "That nobody was at home",
+                "The door was locked from inside",
+                "That nothing outside him was preventing him — the obstacle was his own"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Somebody was clearly home — he could hear them. The door was never the problem, and the piece waits until its last word to say so."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "झिझक"
+            ]
+          }
+        },
+        {
+          "id": "M13-L48-I3",
+          "type": "reading",
+          "text_kind": "narrative",
+          "target_word": "लगाव",
+          "target_read_as": "lagaav",
+          "target_gloss_en": "attachment",
+          "target_gender": "m",
+          "word_count": 98,
+          "difficulty": 9,
+          "tags": [
+            "narrative",
+            "suffix_aav",
+            "lagnaa_ninth_sense",
+            "chaahie_thaa",
+            "euphemism"
+          ],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "अलमारी में एक पुरानी घड़ी पड़ी थी।",
+                "read_as": "almaarii meṁ ek puraanii ghaṛii paṛii thii.",
+                "english": "An old watch lay in the cupboard."
+              },
+              {
+                "n": 2,
+                "hindi": "वो कई साल से बंद है।",
+                "read_as": "vo kaii saal se baṁd hai.",
+                "english": "It has been stopped for years."
+              },
+              {
+                "n": 3,
+                "hindi": "सुई हिलती नहीं।",
+                "read_as": "suii hiltii nahiiṁ.",
+                "english": "The hand does not move."
+              },
+              {
+                "n": 4,
+                "hindi": "दादा जी की थी।",
+                "read_as": "daadaa jii kii thii.",
+                "english": "It was my grandfather's."
+              },
+              {
+                "n": 5,
+                "hindi": "ठीक करवाने की कोशिश दो बार की।",
+                "read_as": "ṭhiik karvaane kii koshish do baar kii.",
+                "english": "I tried twice to have it repaired."
+              },
+              {
+                "n": 6,
+                "hindi": "दोनों बार मिस्त्री ने कहा कि पुर्ज़े नहीं मिलते।",
+                "read_as": "donoṁ baar mistrii ne kahaa ki purze nahiiṁ milte.",
+                "english": "Both times the repairer said the parts are not available."
+              },
+              {
+                "n": 7,
+                "hindi": "फेंक देनी चाहिए थी।",
+                "read_as": "pheṁk denii chaahie thii.",
+                "english": "I should have thrown it away."
+              },
+              {
+                "n": 8,
+                "hindi": "पर हर बार हाथ रुक जाता है।",
+                "read_as": "par har baar haath ruk jaataa hai.",
+                "english": "But every time my hand stops."
+              },
+              {
+                "n": 9,
+                "hindi": "चीज़ों से लगाव अजीब होता है।",
+                "read_as": "chiizoṁ se lagaav ajiib hotaa hai.",
+                "english": "Attachment to things is a strange business."
+              },
+              {
+                "n": 10,
+                "hindi": "इसकी क़ीमत कुछ नहीं।",
+                "read_as": "iskii qiimat kuchh nahiiṁ.",
+                "english": "It is worth nothing."
+              },
+              {
+                "n": 11,
+                "hindi": "काम नहीं करती।",
+                "read_as": "kaam nahiiṁ kartii.",
+                "english": "It does not work."
+              },
+              {
+                "n": 12,
+                "hindi": "फिर भी अलमारी खोलने पर सबसे पहले वही दिखती है।",
+                "read_as": "phir bhii almaarii kholne par sabse pahle vahii dikhtii hai.",
+                "english": "And still, when I open the cupboard, it is the first thing I see."
+              },
+              {
+                "n": 13,
+                "hindi": "शायद हम चीज़ों से नहीं जुड़ते।",
+                "read_as": "shaayad ham chiizoṁ se nahiiṁ juṛte.",
+                "english": "Perhaps we do not become attached to things."
+              },
+              {
+                "n": 14,
+                "hindi": "हम उन लोगों से जुड़ते हैं।",
+                "read_as": "ham un logoṁ se juṛte haiṁ.",
+                "english": "We become attached to the people."
+              },
+              {
+                "n": 15,
+                "hindi": "चीज़ें बस बहाना हैं।",
+                "read_as": "chiizeṁ bas bahaanaa haiṁ.",
+                "english": "The things are only an excuse."
+              },
+              {
+                "n": 16,
+                "hindi": "दादा जी को गए बीस साल हो गए, पर घड़ी वहीं है।",
+                "read_as": "daadaa jii ko gae biis saal ho gae, par ghaṛii vahiiṁ hai.",
+                "english": "Twenty years since my grandfather went, and the watch is still there."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "लगाव — the ninth job for लगना",
+              "explanation_en": "लगाव is attachment, and it is a -आव noun from लगना, using the masculine-making suffix from level 34. That verb has now done nine jobs across this course: felt, seemed, attached, cost, begun, a phone connecting, a job landing, hunger arriving, and here, one person's feeling for another. Note also फेंक देनी चाहिए थी in line 7: चाहिए plus था is should have — an obligation that was never met. The whole piece turns on the gap between that line and the one after it.",
+              "register_note_en": "लगाव (attachment, neutral and warm) · मोह (Sanskrit-side, and in religious contexts a attachment one ought to give up) · प्यार (love). The piece could not use मोह without becoming a sermon.",
+              "vocabulary_notes": [
+                "दादा जी को गए बीस साल हो गए — twenty years since he went. गए here is a euphemism for died, and Hindi uses it exactly as English uses passed.",
+                "फेंक देनी — feminine, agreeing with घड़ी, and the देना vector making the discarding final.",
+                "बहाना — an excuse or pretext, masculine."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why was the watch never repaired?",
+              "options": [
+                "The parts are not available",
+                "He never took it in",
+                "The repairer refused",
+                "It was too expensive"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 6: पुर्ज़े नहीं मिलते."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [
+                7,
+                15
+              ],
+              "question_en": "Line 7 says he should have thrown it away. What do lines 13 to 15 do to that?",
+              "options": [
+                "They suggest he will throw it away soon",
+                "They agree that he should have",
+                "They explain why he could not — the attachment was never to the watch",
+                "They say the watch is valuable after all"
+              ],
+              "answer_index": 2,
+              "explanation_en": "He gives the rational verdict early and spends the rest of the piece explaining why it did not govern him. The answer only arrives at the end."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": [
+              "लगाव"
+            ]
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "याद takes three different verbs and means three different things. झिझक is a bare verb stem used as a noun, which is the fifth way Hindi builds a feminine — after -आई, -ई, -ता and -ति. And लगाव gives लगना its ninth job, in a piece that turns on चाहिए था, the obligation that was never met.",
+        "key_forms": [
+          "याद आना",
+          "झिझक",
+          "चाहिए था"
+        ],
+        "next_up_en": "Next: back to vocabulary for the last time — six verbs and nine near-synonym sets."
+      }
+    }
+  ],
+  "review_flags": [
+    "REVISED. Two lines rewritten into the passive now that Module 14 level 24 exists — पानी भेजा जा रहा है and काम पूरा किया जाएगा. Word counts unchanged."
+  ]
+}

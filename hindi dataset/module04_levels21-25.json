@@ -1,0 +1,821 @@
+{
+  "module": 4,
+  "module_name_en": "Core Words I",
+  "module_name_hi": "शब्द भंडार १",
+  "phase": 2,
+  "batch": { "levels_from": 21, "levels_to": 25 },
+  "levels": [
+    {
+      "level": 21,
+      "title_en": "More animals",
+      "title_hi": "मछली शेर चूहा",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L21-I1",
+          "type": "word",
+          "target": "मछली",
+          "read_as": "machhlii",
+          "pronunciation_notes": "The छ is aspirated, with a puff of air, and the vowel after it drops: machhlii in two syllables.",
+          "gloss_en": "fish",
+          "gender": "f",
+          "gender_flag": false,
+          "category": "animals",
+          "plural": "मछलियाँ",
+          "plural_read_as": "machhliyãa",
+          "difficulty": 3,
+          "tags": ["animals", "noun", "feminine", "ii_ending", "aspiration", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "मछली — fish",
+              "explanation_en": "मछली is a fish, and also fish as food. It ends in -ी and is feminine, so the ending predicts correctly, and the plural is मछलियाँ. The word appeared back in Module 2 as an example of the aspirated छ, so the puff of air in the middle should already be familiar.",
+              "examples": [
+                { "hindi": "छोटी मछली", "read_as": "chhoṭii machhlii", "english": "a small fish", "note": "छोटी takes -ी to agree with the feminine noun." },
+                { "hindi": "दो मछलियाँ", "read_as": "do machhliyãa", "english": "two fish", "note": "The -ी becomes -ियाँ in the plural." },
+                { "hindi": "ताज़ी मछली", "read_as": "taazii machhlii", "english": "fresh fish", "note": "ताज़ी carries the dotted ज़ and agrees with the noun." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "मछली",
+              "question_read_as": "machhlii",
+              "options": ["a bird", "a fish", "an insect", "a frog"],
+              "options_read_as": ["a bird", "a fish", "an insect", "a frog"],
+              "answer_index": 1,
+              "explanation_en": "मछली is a fish. चिड़िया is a bird."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ मछली — का, के or की?",
+              "options": ["का", "के", "की", "कि"],
+              "options_read_as": ["kaa", "ke", "kii", "ki"],
+              "answer_index": 2,
+              "explanation_en": "मछली is feminine, so की. The -ी ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मछली", "छोटी मछली", "मछलियाँ"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L21-I2",
+          "type": "word",
+          "target": "शेर",
+          "read_as": "sher",
+          "pronunciation_notes": "The श is the sh of English 'ship', and the final vowel drops: sher, one syllable.",
+          "gloss_en": "lion, tiger",
+          "gender": "m",
+          "gender_flag": true,
+          "category": "animals",
+          "plural": "शेर",
+          "plural_read_as": "sher",
+          "difficulty": 3,
+          "tags": ["animals", "noun", "masculine", "consonant_ending", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "शेर — lion, tiger",
+              "explanation_en": "शेर covers both the lion and the tiger, since everyday speech does not always keep them apart, though बाघ is available when you specifically mean a tiger. It is masculine and ends in a consonant, so the gender is unpredictable, and the plural does not change. A separate word that looks identical means a couplet of Urdu poetry.",
+              "examples": [
+                { "hindi": "बड़ा शेर", "read_as": "baṛaa sher", "english": "a big lion", "note": "The masculine adjective ending." },
+                { "hindi": "दो शेर", "read_as": "do sher", "english": "two lions", "note": "The plural is identical to the singular." },
+                { "hindi": "काला शेर", "read_as": "kaalaa sher", "english": "a black lion", "note": "काला takes -ा to agree." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "शेर",
+              "question_read_as": "sher",
+              "options": ["a bear", "a wolf", "an elephant", "a lion"],
+              "options_read_as": ["a bear", "a wolf", "an elephant", "a lion"],
+              "answer_index": 3,
+              "explanation_en": "शेर is a lion, and often a tiger as well. हाथी is an elephant."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ शेर — का, के or की?",
+              "options": ["का", "की", "के", "कि"],
+              "options_read_as": ["kaa", "kii", "ke", "ki"],
+              "answer_index": 0,
+              "explanation_en": "शेर is masculine, so का. Its consonant ending gives no clue."
+            }
+          },
+          "audio": {
+            "tts_strings": ["शेर", "बड़ा शेर", "दो शेर"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L21-I3",
+          "type": "word",
+          "target": "चूहा",
+          "read_as": "chuuhaa",
+          "pronunciation_notes": "A long uu then a light ह, and no puff on the opening च: chuuhaa, two syllables.",
+          "gloss_en": "mouse, rat",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "animals",
+          "plural": "चूहे",
+          "plural_read_as": "chuuhe",
+          "difficulty": 3,
+          "tags": ["animals", "noun", "masculine", "aa_ending", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "चूहा — mouse, rat",
+              "explanation_en": "चूहा covers both a mouse and a rat, since Hindi does not routinely separate them. It is masculine and ends in -ा, so both the gender and the plural are predictable, giving चूहे. There is a feminine चुहिया for a small female mouse, but चूहा is the general word.",
+              "examples": [
+                { "hindi": "छोटा चूहा", "read_as": "chhoṭaa chuuhaa", "english": "a small mouse", "note": "The masculine adjective ending." },
+                { "hindi": "दो चूहे", "read_as": "do chuuhe", "english": "two mice", "note": "The -ा becomes -े in the plural." },
+                { "hindi": "काला चूहा", "read_as": "kaalaa chuuhaa", "english": "a black mouse", "note": "काला takes -ा to agree." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "चूहा",
+              "question_read_as": "chuuhaa",
+              "options": ["a cat", "a bird", "a mouse", "a squirrel"],
+              "options_read_as": ["a cat", "a bird", "a mouse", "a squirrel"],
+              "answer_index": 2,
+              "explanation_en": "चूहा is a mouse or a rat. बिल्ली is the cat that chases it."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ चूहा — का, के or की?",
+              "options": ["की", "के", "कि", "का"],
+              "options_read_as": ["kii", "ke", "ki", "kaa"],
+              "answer_index": 3,
+              "explanation_en": "चूहा is masculine, so का. The -ा ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["चूहा", "छोटा चूहा", "चूहे"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level added मछली, शेर and चूहा. Only शेर has to be memorised for gender; the other two carry endings that say what they are.",
+        "key_forms": ["मछली", "शेर", "चूहा"],
+        "next_up_en": "Next: the last animal, and then the colours — which behave quite differently from everything so far."
+      }
+    },
+    {
+      "level": 22,
+      "title_en": "Colours begin",
+      "title_hi": "भैंस लाल काला",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L22-I1",
+          "type": "word",
+          "target": "भैंस",
+          "read_as": "bhaiṁs",
+          "pronunciation_notes": "Breathy भ, the open ऐ, and the dot nasalises the vowel because स belongs to no varga: bhaiṁs.",
+          "gloss_en": "buffalo",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "animals",
+          "plural": "भैंसें",
+          "plural_read_as": "bhaiṁseṁ",
+          "difficulty": 4,
+          "tags": ["animals", "noun", "feminine", "consonant_ending", "anusvara", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "भैंस — buffalo",
+              "explanation_en": "भैंस is a water buffalo, and it matters more than an English speaker might expect: most of the milk sold in India comes from buffaloes rather than cows. It is feminine and ends in a consonant, so the gender is unpredictable. The dot here nasalises the vowel rather than standing for a full consonant, because the following स belongs to none of the five sound families.",
+              "examples": [
+                { "hindi": "काली भैंस", "read_as": "kaalii bhaiṁs", "english": "a black buffalo", "note": "काली takes -ी because भैंस is feminine." },
+                { "hindi": "दो भैंसें", "read_as": "do bhaiṁseṁ", "english": "two buffaloes", "note": "Feminine consonant endings take -एँ." },
+                { "hindi": "भैंस का दूध", "read_as": "bhaiṁs kaa duudh", "english": "buffalo milk", "note": "का agrees with दूध, the word that follows it." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "भैंस",
+              "question_read_as": "bhaiṁs",
+              "options": ["a buffalo", "a cow", "a goat", "a bull"],
+              "options_read_as": ["a buffalo", "a cow", "a goat", "a bull"],
+              "answer_index": 0,
+              "explanation_en": "भैंस is a buffalo. गाय is a cow, and most milk sold comes from the former."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ भैंस — का, के or की?",
+              "options": ["का", "की", "के", "कि"],
+              "options_read_as": ["kaa", "kii", "ke", "ki"],
+              "answer_index": 1,
+              "explanation_en": "भैंस is feminine, so की. Its consonant ending predicts nothing."
+            }
+          },
+          "audio": {
+            "tts_strings": ["भैंस", "काली भैंस", "भैंसें"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L22-I2",
+          "type": "word",
+          "target": "लाल",
+          "read_as": "laal",
+          "pronunciation_notes": "A clear l at both ends, identical in quality — English darkens a final l and Hindi does not: laal.",
+          "gloss_en": "red",
+          "gender": null,
+          "gender_flag": false,
+          "category": "colours",
+          "plural": "लाल",
+          "plural_read_as": "laal",
+          "difficulty": 3,
+          "tags": ["colours", "adjective", "invariable", "consonant_ending"],
+          "cards": {
+            "learn": {
+              "title_en": "लाल — red",
+              "explanation_en": "लाल means red. Unlike every word so far in this module it is an adjective rather than a noun, so it has no gender of its own — it takes its cue from whatever it describes. And because it ends in a consonant it does not change at all: लाल किताब and लाल घर use exactly the same form. Hindi colours divide into two groups on precisely this point, and this is the invariable one.",
+              "examples": [
+                { "hindi": "लाल किताब", "read_as": "laal kitaab", "english": "a red book", "note": "किताब is feminine, and लाल is unchanged." },
+                { "hindi": "लाल घर", "read_as": "laal ghar", "english": "a red house", "note": "घर is masculine, and लाल is still unchanged." },
+                { "hindi": "लाल चीज़ें", "read_as": "laal chiizeṁ", "english": "red things", "note": "Even in the plural the form stays the same." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "लाल",
+              "question_read_as": "laal",
+              "options": ["green", "red", "black", "yellow"],
+              "options_read_as": ["green", "red", "black", "yellow"],
+              "answer_index": 1,
+              "explanation_en": "लाल is red. It is an adjective, so it describes a noun rather than naming one."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ किताब — which form of लाल fits?",
+              "options": ["लाली", "लाले", "लाल", "लाला"],
+              "options_read_as": ["laalii", "laale", "laal", "laalaa"],
+              "answer_index": 2,
+              "explanation_en": "लाल ends in a consonant and never changes, so it is the same before a feminine noun as before a masculine one."
+            }
+          },
+          "audio": {
+            "tts_strings": ["लाल", "लाल किताब", "लाल घर"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L22-I3",
+          "type": "word",
+          "target": "काला",
+          "read_as": "kaalaa",
+          "pronunciation_notes": "Two clear l sounds and a long final vowel: kaalaa, two syllables.",
+          "gloss_en": "black",
+          "gender": null,
+          "gender_flag": false,
+          "category": "colours",
+          "plural": "काले",
+          "plural_read_as": "kaale",
+          "difficulty": 4,
+          "tags": ["colours", "adjective", "inflecting", "aa_ending"],
+          "cards": {
+            "learn": {
+              "title_en": "काला — black",
+              "explanation_en": "काला means black, and it belongs to the other group of colours: the ones ending in -ा, which do change to match the noun. काला goes with a masculine singular, काली with any feminine, काले with a masculine plural. Every colour from here on falls into one of these two groups, and the ending is what tells you which — but only -ा counts as an inflecting ending.",
+              "examples": [
+                { "hindi": "काला कुत्ता", "read_as": "kaalaa kuttaa", "english": "a black dog", "note": "Masculine singular, so -ा." },
+                { "hindi": "काली बिल्ली", "read_as": "kaalii billii", "english": "a black cat", "note": "Feminine, so -ी." },
+                { "hindi": "काले घोड़े", "read_as": "kaale ghoṛe", "english": "black horses", "note": "Masculine plural, so -े." }
+              ],
+              "common_error": {
+                "wrong": "काला बिल्ली",
+                "right": "काली बिल्ली",
+                "why_en": "बिल्ली is feminine, so a colour ending in -ा has to change to -ी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "काला",
+              "question_read_as": "kaalaa",
+              "options": ["white", "blue", "brown", "black"],
+              "options_read_as": ["white", "blue", "brown", "black"],
+              "answer_index": 3,
+              "explanation_en": "काला is black. Unlike लाल, it changes form to match the noun."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ किताब — which form of काला fits?",
+              "options": ["काली", "काला", "काले", "काल"],
+              "options_read_as": ["kaalii", "kaalaa", "kaale", "kaal"],
+              "answer_index": 0,
+              "explanation_en": "किताब is feminine, so काला takes its feminine form काली."
+            }
+          },
+          "audio": {
+            "tts_strings": ["काला", "काली बिल्ली", "काले घोड़े"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level finished the animals with भैंस and opened the colours. Colours are adjectives, not nouns, so they have no gender of their own — they borrow it from whatever they describe, and only those ending in -ा actually change form.",
+        "key_forms": ["भैंस", "लाल", "काला"],
+        "next_up_en": "Next: सफ़ेद, हरा and नीला, one invariable and two that inflect."
+      }
+    },
+    {
+      "level": 23,
+      "title_en": "White, green and blue",
+      "title_hi": "सफ़ेद हरा नीला",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L23-I1",
+          "type": "word",
+          "target": "सफ़ेद",
+          "read_as": "safed",
+          "pronunciation_notes": "The dotted फ़ is an f sound, and the final vowel drops: safed in two syllables.",
+          "gloss_en": "white",
+          "gender": null,
+          "gender_flag": false,
+          "category": "colours",
+          "plural": "सफ़ेद",
+          "plural_read_as": "safed",
+          "difficulty": 3,
+          "tags": ["colours", "adjective", "invariable", "nukta"],
+          "cards": {
+            "learn": {
+              "title_en": "सफ़ेद — white",
+              "explanation_en": "सफ़ेद means white. It ends in a consonant, so it joins लाल in the invariable group and never changes form no matter what it describes. It carries the dotted फ़ from Module 2, pronounced as an f rather than as an aspirated p. You have already met it several times in example phrases without being told what it was.",
+              "examples": [
+                { "hindi": "सफ़ेद दीवार", "read_as": "safed diivaar", "english": "a white wall", "note": "दीवार is feminine, and सफ़ेद is unchanged." },
+                { "hindi": "सफ़ेद घोड़ा", "read_as": "safed ghoṛaa", "english": "a white horse", "note": "घोड़ा is masculine, and the form is exactly the same." },
+                { "hindi": "सफ़ेद दाँत", "read_as": "safed dãat", "english": "white teeth", "note": "Plural, and still unchanged." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सफ़ेद",
+              "question_read_as": "safed",
+              "options": ["white", "yellow", "grey", "silver"],
+              "options_read_as": ["white", "yellow", "grey", "silver"],
+              "answer_index": 0,
+              "explanation_en": "सफ़ेद is white. Like लाल, it never changes form."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ दीवार — which form of सफ़ेद fits?",
+              "options": ["सफ़ेदा", "सफ़ेद", "सफ़ेदी", "सफ़ेदे"],
+              "options_read_as": ["safedaa", "safed", "safedii", "safede"],
+              "answer_index": 1,
+              "explanation_en": "सफ़ेद ends in a consonant and never changes, so it is the same before दीवार as before घोड़ा."
+            }
+          },
+          "audio": {
+            "tts_strings": ["सफ़ेद", "सफ़ेद दीवार", "सफ़ेद घोड़ा"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L23-I2",
+          "type": "word",
+          "target": "हरा",
+          "read_as": "haraa",
+          "pronunciation_notes": "A single light tap for र, not the English curl, and a long final vowel: haraa.",
+          "gloss_en": "green",
+          "gender": null,
+          "gender_flag": false,
+          "category": "colours",
+          "plural": "हरे",
+          "plural_read_as": "hare",
+          "difficulty": 4,
+          "tags": ["colours", "adjective", "inflecting", "aa_ending"],
+          "cards": {
+            "learn": {
+              "title_en": "हरा — green",
+              "explanation_en": "हरा means green, and it inflects exactly like काला: हरा, हरी, हरे. It is the colour you will meet most often on food, and because the food nouns it describes are usually feminine — सब्ज़ी above all — the -ी form is the one that comes up most in practice.",
+              "examples": [
+                { "hindi": "हरा दरवाज़ा", "read_as": "haraa darvaazaa", "english": "a green door", "note": "दरवाज़ा is masculine, so -ा." },
+                { "hindi": "हरी सब्ज़ी", "read_as": "harii sabzii", "english": "green vegetables", "note": "सब्ज़ी is feminine, so -ी." },
+                { "hindi": "हरे फल", "read_as": "hare phal", "english": "green fruits", "note": "Masculine plural, so -े." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "हरा",
+              "question_read_as": "haraa",
+              "options": ["blue", "red", "green", "brown"],
+              "options_read_as": ["blue", "red", "green", "brown"],
+              "answer_index": 2,
+              "explanation_en": "हरा is green. It ends in -ा, so it changes form to match the noun."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ सब्ज़ी — which form of हरा fits?",
+              "options": ["हरा", "हरे", "हर", "हरी"],
+              "options_read_as": ["haraa", "hare", "har", "harii"],
+              "answer_index": 3,
+              "explanation_en": "सब्ज़ी is feminine, so हरा becomes हरी."
+            }
+          },
+          "audio": {
+            "tts_strings": ["हरा", "हरी सब्ज़ी", "हरे फल"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L23-I3",
+          "type": "word",
+          "target": "नीला",
+          "read_as": "niilaa",
+          "pronunciation_notes": "A long ii then a clear l, and a long final vowel: niilaa, two syllables.",
+          "gloss_en": "blue",
+          "gender": null,
+          "gender_flag": false,
+          "category": "colours",
+          "plural": "नीले",
+          "plural_read_as": "niile",
+          "difficulty": 4,
+          "tags": ["colours", "adjective", "inflecting", "aa_ending"],
+          "cards": {
+            "learn": {
+              "title_en": "नीला — blue",
+              "explanation_en": "नीला means blue and inflects like काला and हरा. You met the word back in Module 1 as an example of the long ी matra, so its shape should be familiar. One thing worth fixing now: नीला ends in -ा and inflects, while नारंगी ends in -ी and does not. For an adjective, only the -ा ending triggers agreement.",
+              "examples": [
+                { "hindi": "नीला पानी", "read_as": "niilaa paanii", "english": "blue water", "note": "पानी is masculine despite its -ी ending, so the colour takes -ा." },
+                { "hindi": "नीली कमीज़", "read_as": "niilii kamiiz", "english": "a blue shirt", "note": "कमीज़ is feminine, so -ी." },
+                { "hindi": "नीले कपड़े", "read_as": "niile kapṛe", "english": "blue clothes", "note": "Masculine plural, so -े." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "नीला",
+              "question_read_as": "niilaa",
+              "options": ["black", "purple", "green", "blue"],
+              "options_read_as": ["black", "purple", "green", "blue"],
+              "answer_index": 3,
+              "explanation_en": "नीला is blue. Like काला and हरा, it changes form to match the noun."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ पानी — which form of नीला fits?",
+              "options": ["नीला", "नीली", "नीले", "नील"],
+              "options_read_as": ["niilaa", "niilii", "niile", "niil"],
+              "answer_index": 0,
+              "explanation_en": "पानी is masculine, so नीला keeps its -ा form — and remember that पानी is masculine despite ending in -ी itself."
+            }
+          },
+          "audio": {
+            "tts_strings": ["नीला", "नीली कमीज़", "नीले कपड़े"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered सफ़ेद, हरा and नीला. सफ़ेद ends in a consonant and never changes, while the other two end in -ा and take three forms each.",
+        "key_forms": ["सफ़ेद", "हरा", "नीला"],
+        "next_up_en": "Next: पीला, भूरा and नारंगी, the last of which ends in -ी and still does not inflect."
+      }
+    },
+    {
+      "level": 24,
+      "title_en": "Finishing the colours",
+      "title_hi": "पीला भूरा नारंगी",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L24-I1",
+          "type": "word",
+          "target": "पीला",
+          "read_as": "piilaa",
+          "pronunciation_notes": "Unaspirated प with no puff of air, then a long ii: piilaa.",
+          "gloss_en": "yellow",
+          "gender": null,
+          "gender_flag": false,
+          "category": "colours",
+          "plural": "पीले",
+          "plural_read_as": "piile",
+          "difficulty": 4,
+          "tags": ["colours", "adjective", "inflecting", "aa_ending"],
+          "cards": {
+            "learn": {
+              "title_en": "पीला — yellow",
+              "explanation_en": "पीला means yellow and inflects in the usual way. Keep the opening sound free of breath: with a puff it drifts towards फ, and although फीला is not a word, the same slip does real damage elsewhere. This is the third inflecting colour in a row, so the three-form pattern should be starting to feel automatic.",
+              "examples": [
+                { "hindi": "पीला कपड़ा", "read_as": "piilaa kapṛaa", "english": "yellow cloth", "note": "कपड़ा is masculine, so -ा." },
+                { "hindi": "पीली चिड़िया", "read_as": "piilii chiṛiyaa", "english": "a yellow bird", "note": "चिड़िया is feminine despite its -ा ending, so the colour takes -ी." },
+                { "hindi": "पीले फल", "read_as": "piile phal", "english": "yellow fruits", "note": "Masculine plural, so -े." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पीला",
+              "question_read_as": "piilaa",
+              "options": ["orange", "yellow", "brown", "white"],
+              "options_read_as": ["orange", "yellow", "brown", "white"],
+              "answer_index": 1,
+              "explanation_en": "पीला is yellow. नारंगी is orange."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ चिड़िया — which form of पीला fits?",
+              "options": ["पीला", "पीले", "पीली", "पील"],
+              "options_read_as": ["piilaa", "piile", "piilii", "piil"],
+              "answer_index": 2,
+              "explanation_en": "चिड़िया is feminine even though it ends in -ा, so पीला becomes पीली."
+            }
+          },
+          "audio": {
+            "tts_strings": ["पीला", "पीली चिड़िया", "पीले फल"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L24-I2",
+          "type": "word",
+          "target": "भूरा",
+          "read_as": "bhuuraa",
+          "pronunciation_notes": "Breathy भ — one sound, not b followed by h — and a long uu: bhuuraa.",
+          "gloss_en": "brown",
+          "gender": null,
+          "gender_flag": false,
+          "category": "colours",
+          "plural": "भूरे",
+          "plural_read_as": "bhuure",
+          "difficulty": 4,
+          "tags": ["colours", "adjective", "inflecting", "aa_ending"],
+          "cards": {
+            "learn": {
+              "title_en": "भूरा — brown",
+              "explanation_en": "भूरा means brown and inflects like the others. It opens with the breathy भ from Module 2, where the voicing and the puff of air happen together rather than one after the other. Brown is often described by comparison instead — coffee-coloured, or the colour of something else — so भूरा is heard less often than the colours before it.",
+              "examples": [
+                { "hindi": "भूरा घोड़ा", "read_as": "bhuuraa ghoṛaa", "english": "a brown horse", "note": "घोड़ा is masculine, so -ा." },
+                { "hindi": "भूरी आँखें", "read_as": "bhuurii ãakheṁ", "english": "brown eyes", "note": "आँख is feminine, so -ी even in the plural." },
+                { "hindi": "भूरे कपड़े", "read_as": "bhuure kapṛe", "english": "brown clothes", "note": "Masculine plural, so -े." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "भूरा",
+              "question_read_as": "bhuuraa",
+              "options": ["brown", "grey", "purple", "orange"],
+              "options_read_as": ["brown", "grey", "purple", "orange"],
+              "answer_index": 0,
+              "explanation_en": "भूरा is brown. It ends in -ा, so it changes to match the noun."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ घोड़ा — which form of भूरा fits?",
+              "options": ["भूरी", "भूरा", "भूरे", "भूर"],
+              "options_read_as": ["bhuurii", "bhuuraa", "bhuure", "bhuur"],
+              "answer_index": 1,
+              "explanation_en": "घोड़ा is masculine and singular, so भूरा keeps its -ा form."
+            }
+          },
+          "audio": {
+            "tts_strings": ["भूरा", "भूरी आँखें", "भूरे कपड़े"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L24-I3",
+          "type": "word",
+          "target": "नारंगी",
+          "read_as": "naaraṅgii",
+          "pronunciation_notes": "The dot before ग is read as the velar nasal, giving an ng sound: naaraṅgii.",
+          "gloss_en": "orange",
+          "gender": null,
+          "gender_flag": false,
+          "category": "colours",
+          "plural": "नारंगी",
+          "plural_read_as": "naaraṅgii",
+          "difficulty": 5,
+          "tags": ["colours", "adjective", "invariable", "ii_ending", "anusvara"],
+          "cards": {
+            "learn": {
+              "title_en": "नारंगी — orange",
+              "explanation_en": "नारंगी means orange, named after the fruit just as the English word is. It ends in -ी, and here is the point that matters most in this level: adjectives ending in -ी do not inflect. Only adjectives ending in -ा change form. So नारंगी behaves like लाल and सफ़ेद rather than like काला and हरा, even though its ending looks exactly like a feminine marker.",
+              "examples": [
+                { "hindi": "नारंगी फल", "read_as": "naaraṅgii phal", "english": "an orange fruit", "note": "फल is masculine, and the form is unchanged." },
+                { "hindi": "नारंगी कमीज़", "read_as": "naaraṅgii kamiiz", "english": "an orange shirt", "note": "कमीज़ is feminine, and it is still unchanged." },
+                { "hindi": "नारंगी कपड़े", "read_as": "naaraṅgii kapṛe", "english": "orange clothes", "note": "Plural, and unchanged again." }
+              ],
+              "common_error": {
+                "wrong": "नारंगा फल",
+                "right": "नारंगी फल",
+                "why_en": "नारंगी never changes form, so there is no masculine version of it to reach for."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "नारंगी",
+              "question_read_as": "naaraṅgii",
+              "options": ["pink", "red", "orange", "gold"],
+              "options_read_as": ["pink", "red", "orange", "gold"],
+              "answer_index": 2,
+              "explanation_en": "नारंगी is orange, and it is also the name of the fruit."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "___ फल — which form of नारंगी fits?",
+              "options": ["नारंगा", "नारंगे", "नारंगिया", "नारंगी"],
+              "options_read_as": ["naaraṅgaa", "naaraṅge", "naaraṅgiyaa", "naaraṅgii"],
+              "answer_index": 3,
+              "explanation_en": "नारंगी never changes, so the same form is used before a masculine noun as before a feminine one."
+            }
+          },
+          "audio": {
+            "tts_strings": ["नारंगी", "नारंगी फल", "नारंगी कमीज़"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed the eight colours. Five end in -ा and take three forms each, while लाल, सफ़ेद and नारंगी never change — and नारंगी proves that it is the -ा ending specifically, not any vowel ending, that triggers agreement.",
+        "key_forms": ["पीला", "भूरा", "नारंगी"],
+        "next_up_en": "Next: clothing, where the colours you have just learned get something to describe."
+      }
+    },
+    {
+      "level": 25,
+      "title_en": "Clothing",
+      "title_hi": "कपड़ा कमीज़ साड़ी",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M04-L25-I1",
+          "type": "word",
+          "target": "कपड़ा",
+          "read_as": "kapṛaa",
+          "pronunciation_notes": "The flap ड़ — the tongue curls back and flicks forward — and the vowel before it drops: kapṛaa.",
+          "gloss_en": "cloth; a garment",
+          "gender": "m",
+          "gender_flag": false,
+          "category": "clothing",
+          "plural": "कपड़े",
+          "plural_read_as": "kapṛe",
+          "difficulty": 4,
+          "tags": ["clothing", "noun", "masculine", "aa_ending", "nukta", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "कपड़ा — cloth, clothes",
+              "explanation_en": "कपड़ा is cloth, or a single piece of it, and its plural कपड़े is the ordinary everyday word for clothes. It is masculine and ends in -ा, so both the gender and the plural are predictable. The word contains the flap ड़ from Module 2. You will hear the plural far more often than the singular, since people talk about their clothes rather than about cloth.",
+              "examples": [
+                { "hindi": "साफ़ कपड़े", "read_as": "saaf kapṛe", "english": "clean clothes", "note": "साफ़ never changes form." },
+                { "hindi": "नया कपड़ा", "read_as": "nayaa kapṛaa", "english": "new cloth", "note": "नया takes -ा because कपड़ा is masculine." },
+                { "hindi": "दो कपड़े", "read_as": "do kapṛe", "english": "two garments", "note": "The -ा becomes -े in the plural." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "कपड़ा",
+              "question_read_as": "kapṛaa",
+              "options": ["a shoe", "a shirt", "a button", "cloth"],
+              "options_read_as": ["a shoe", "a shirt", "a button", "cloth"],
+              "answer_index": 3,
+              "explanation_en": "कपड़ा is cloth. Its plural कपड़े is the everyday word for clothes."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ कपड़ा — का, के or की?",
+              "options": ["की", "के", "का", "कि"],
+              "options_read_as": ["kii", "ke", "kaa", "ki"],
+              "answer_index": 2,
+              "explanation_en": "कपड़ा is masculine, so का. The -ा ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कपड़ा", "साफ़ कपड़े", "नया कपड़ा"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L25-I2",
+          "type": "word",
+          "target": "कमीज़",
+          "read_as": "kamiiz",
+          "pronunciation_notes": "The dotted ज़ is a z sound, and the final vowel drops: kamiiz in two syllables.",
+          "gloss_en": "shirt",
+          "gender": "f",
+          "gender_flag": true,
+          "category": "clothing",
+          "plural": "कमीज़ें",
+          "plural_read_as": "kamiizeṁ",
+          "difficulty": 4,
+          "tags": ["clothing", "noun", "feminine", "consonant_ending", "nukta", "gender_flag"],
+          "cards": {
+            "learn": {
+              "title_en": "कमीज़ — shirt",
+              "explanation_en": "कमीज़ is a shirt, worn by men and women alike — the कमीज़ of सलवार-कमीज़ is this same word. It is feminine and ends in a consonant, so the gender is unpredictable. It carries the dotted ज़, and like मेज़ and दरवाज़ा it arrived in Hindi through Persian, which is a useful clue: that group of household and clothing words is large.",
+              "examples": [
+                { "hindi": "सफ़ेद कमीज़", "read_as": "safed kamiiz", "english": "a white shirt", "note": "सफ़ेद never changes form, so it hides the gender." },
+                { "hindi": "नीली कमीज़", "read_as": "niilii kamiiz", "english": "a blue shirt", "note": "नीला takes -ी because कमीज़ is feminine." },
+                { "hindi": "दो कमीज़ें", "read_as": "do kamiizeṁ", "english": "two shirts", "note": "Feminine consonant endings take -एँ." }
+              ],
+              "common_error": {
+                "wrong": "नीला कमीज़",
+                "right": "नीली कमीज़",
+                "why_en": "कमीज़ is feminine, so an inflecting colour has to take its -ी form."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "कमीज़",
+              "question_read_as": "kamiiz",
+              "options": ["a shoe", "a shirt", "trousers", "a scarf"],
+              "options_read_as": ["a shoe", "a shirt", "trousers", "a scarf"],
+              "answer_index": 1,
+              "explanation_en": "कमीज़ is a shirt, worn by men and women alike."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ कमीज़ — का, के or की?",
+              "options": ["की", "का", "के", "कि"],
+              "options_read_as": ["kii", "kaa", "ke", "ki"],
+              "answer_index": 0,
+              "explanation_en": "कमीज़ is feminine, so की. Its consonant ending predicts nothing."
+            }
+          },
+          "audio": {
+            "tts_strings": ["कमीज़", "सफ़ेद कमीज़", "कमीज़ें"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M04-L25-I3",
+          "type": "word",
+          "target": "साड़ी",
+          "read_as": "saaṛii",
+          "pronunciation_notes": "The flap ड़ sits between two long vowels: saaṛii, two syllables.",
+          "gloss_en": "sari",
+          "gender": "f",
+          "gender_flag": false,
+          "category": "clothing",
+          "plural": "साड़ियाँ",
+          "plural_read_as": "saaṛiyãa",
+          "difficulty": 3,
+          "tags": ["clothing", "noun", "feminine", "ii_ending", "nukta", "regular_plural"],
+          "cards": {
+            "learn": {
+              "title_en": "साड़ी — sari",
+              "explanation_en": "साड़ी is a sari, the single length of cloth worn draped rather than stitched. It ends in -ी and is feminine, so the ending predicts correctly, and the plural is साड़ियाँ. English borrowed the word without the flap, which is why it is written 'sari' with nothing to mark the ड़ in the middle.",
+              "examples": [
+                { "hindi": "लाल साड़ी", "read_as": "laal saaṛii", "english": "a red sari", "note": "लाल never changes form." },
+                { "hindi": "दो साड़ियाँ", "read_as": "do saaṛiyãa", "english": "two saris", "note": "The -ी becomes -ियाँ in the plural." },
+                { "hindi": "नई साड़ी", "read_as": "naii saaṛii", "english": "a new sari", "note": "नई is the feminine form of नया." }
+              ],
+              "common_error": null
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "साड़ी",
+              "question_read_as": "saaṛii",
+              "options": ["a shawl", "a skirt", "a sari", "a blouse"],
+              "options_read_as": ["a shawl", "a skirt", "a sari", "a blouse"],
+              "answer_index": 2,
+              "explanation_en": "साड़ी is a sari, worn draped rather than stitched."
+            },
+            "game": {
+              "format": "gender_sort",
+              "question_en": "राम ___ साड़ी — का, के or की?",
+              "options": ["का", "की", "के", "कि"],
+              "options_read_as": ["kaa", "kii", "ke", "ki"],
+              "answer_index": 1,
+              "explanation_en": "साड़ी is feminine, so की. The -ी ending predicts correctly."
+            }
+          },
+          "audio": {
+            "tts_strings": ["साड़ी", "लाल साड़ी", "साड़ियाँ"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level began the clothing words with कपड़ा, कमीज़ and साड़ी, and put the colours to work: लाल stays fixed while नीला changes to नीली before a feminine noun.",
+        "key_forms": ["कपड़ा", "कमीज़", "साड़ी"],
+        "next_up_en": "Next: more clothing, including shoes and the trousers that go with a कमीज़."
+      }
+    }
+  ]
+}

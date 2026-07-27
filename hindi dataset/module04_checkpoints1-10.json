@@ -1,0 +1,1736 @@
+{
+  "module": 4,
+  "module_name_en": "Core Words I",
+  "checkpoints": [
+    {
+      "checkpoint": 1,
+      "after_level": 5,
+      "covers_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "questions": [
+        {
+          "id": "M04-CP1-Q1",
+          "source_item_ids": [
+            "M04-L01-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ परिवार ('family', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 0,
+          "explanation_en": "परिवार ('family') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP1-Q2",
+          "source_item_ids": [
+            "M04-L01-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ माँ ('mother', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 1,
+          "explanation_en": "माँ ('mother') is grammatically feminine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP1-Q3",
+          "source_item_ids": [
+            "M04-L02-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ भाई ('brother', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 2,
+          "explanation_en": "भाई ('brother') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP1-Q4",
+          "source_item_ids": [
+            "M04-L02-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ बहन ('sister', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 3,
+          "explanation_en": "बहन ('sister') is grammatically feminine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP1-Q5",
+          "source_item_ids": [
+            "M04-L03-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ पति ('husband', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 1,
+          "explanation_en": "पति ('husband') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP1-Q6",
+          "source_item_ids": [
+            "M04-L05-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ सिर ('head', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 2,
+          "explanation_en": "सिर ('head') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP1-Q7",
+          "source_item_ids": [
+            "M04-L02-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does बेटा (beṭaa) mean?",
+          "options": [
+            "paternal grandfather",
+            "father",
+            "mother",
+            "son"
+          ],
+          "answer_index": 3,
+          "explanation_en": "बेटा means 'son'."
+        },
+        {
+          "id": "M04-CP1-Q8",
+          "source_item_ids": [
+            "M04-L03-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does पत्नी (patnii) mean?",
+          "options": [
+            "wife",
+            "family",
+            "mother",
+            "child"
+          ],
+          "answer_index": 0,
+          "explanation_en": "पत्नी means 'wife'."
+        },
+        {
+          "id": "M04-CP1-Q9",
+          "source_item_ids": [
+            "M04-L04-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does दादा (daadaa) mean?",
+          "options": [
+            "brother",
+            "wife",
+            "paternal grandfather",
+            "child"
+          ],
+          "answer_index": 2,
+          "explanation_en": "दादा means 'paternal grandfather'."
+        },
+        {
+          "id": "M04-CP1-Q10",
+          "source_item_ids": [
+            "M04-L03-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does बेटी (beṭii) mean?",
+          "options": [
+            "family",
+            "sister",
+            "paternal grandmother",
+            "daughter"
+          ],
+          "answer_index": 3,
+          "explanation_en": "बेटी means 'daughter'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 2,
+      "after_level": 10,
+      "covers_levels": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "questions": [
+        {
+          "id": "M04-CP2-Q1",
+          "source_item_ids": [
+            "M04-L06-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ कान ('ear', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 0,
+          "explanation_en": "कान ('ear') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP2-Q2",
+          "source_item_ids": [
+            "M04-L06-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ नाक ('nose', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 1,
+          "explanation_en": "नाक ('nose') is grammatically feminine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP2-Q3",
+          "source_item_ids": [
+            "M04-L07-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ पैर ('foot, leg', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 2,
+          "explanation_en": "पैर ('foot, leg') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP2-Q4",
+          "source_item_ids": [
+            "M04-L07-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ पेट ('stomach, belly', my ...).",
+          "options": [
+            "मेरी",
+            "मेरे",
+            "मेरों",
+            "मेरा"
+          ],
+          "answer_index": 3,
+          "explanation_en": "पेट ('stomach, belly') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP2-Q5",
+          "source_item_ids": [
+            "M04-L08-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ दाँत ('tooth', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 1,
+          "explanation_en": "दाँत ('tooth') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP2-Q6",
+          "source_item_ids": [
+            "M04-L08-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ पीठ ('back', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 2,
+          "explanation_en": "पीठ ('back') is grammatically feminine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP2-Q7",
+          "source_item_ids": [
+            "M04-L10-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does खाना (khaanaa) mean?",
+          "options": [
+            "flatbread",
+            "water",
+            "tea",
+            "food"
+          ],
+          "answer_index": 3,
+          "explanation_en": "खाना means 'food'."
+        },
+        {
+          "id": "M04-CP2-Q8",
+          "source_item_ids": [
+            "M04-L06-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does चेहरा (chehraa) mean?",
+          "options": [
+            "face",
+            "back",
+            "foot, leg",
+            "tooth"
+          ],
+          "answer_index": 0,
+          "explanation_en": "चेहरा means 'face'."
+        },
+        {
+          "id": "M04-CP2-Q9",
+          "source_item_ids": [
+            "M04-L07-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does उँगली (ũglii) mean?",
+          "options": [
+            "ear",
+            "foot, leg",
+            "finger",
+            "nose"
+          ],
+          "answer_index": 2,
+          "explanation_en": "उँगली means 'finger'."
+        },
+        {
+          "id": "M04-CP2-Q10",
+          "source_item_ids": [
+            "M04-L09-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does रोटी (roṭii) mean?",
+          "options": [
+            "lentils",
+            "tea",
+            "milk",
+            "flatbread"
+          ],
+          "answer_index": 3,
+          "explanation_en": "रोटी means 'flatbread'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 3,
+      "after_level": 15,
+      "covers_levels": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "questions": [
+        {
+          "id": "M04-CP3-Q1",
+          "source_item_ids": [
+            "M04-L11-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ चावल ('rice', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 0,
+          "explanation_en": "चावल ('rice') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP3-Q2",
+          "source_item_ids": [
+            "M04-L11-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ फल ('fruit', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 1,
+          "explanation_en": "फल ('fruit') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP3-Q3",
+          "source_item_ids": [
+            "M04-L12-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ दही ('curd, yoghurt', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 2,
+          "explanation_en": "दही ('curd, yoghurt') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP3-Q4",
+          "source_item_ids": [
+            "M04-L12-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ नमक ('salt', my ...).",
+          "options": [
+            "मेरी",
+            "मेरे",
+            "मेरों",
+            "मेरा"
+          ],
+          "answer_index": 3,
+          "explanation_en": "नमक ('salt') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP3-Q5",
+          "source_item_ids": [
+            "M04-L13-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ घी ('clarified butter, ghee', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 1,
+          "explanation_en": "घी ('clarified butter, ghee') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP3-Q6",
+          "source_item_ids": [
+            "M04-L14-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ घर ('house, home', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 2,
+          "explanation_en": "घर ('house, home') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP3-Q7",
+          "source_item_ids": [
+            "M04-L14-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does खिड़की (khiṛkii) mean?",
+          "options": [
+            "table",
+            "book",
+            "door",
+            "window"
+          ],
+          "answer_index": 3,
+          "explanation_en": "खिड़की means 'window'."
+        },
+        {
+          "id": "M04-CP3-Q8",
+          "source_item_ids": [
+            "M04-L13-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does मिठाई (miṭhaaii) mean?",
+          "options": [
+            "a sweet, sweets",
+            "egg",
+            "vegetable",
+            "salt"
+          ],
+          "answer_index": 0,
+          "explanation_en": "मिठाई means 'a sweet, sweets'."
+        },
+        {
+          "id": "M04-CP3-Q9",
+          "source_item_ids": [
+            "M04-L14-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does कमरा (kamraa) mean?",
+          "options": [
+            "window",
+            "door",
+            "room",
+            "book"
+          ],
+          "answer_index": 2,
+          "explanation_en": "कमरा means 'room'."
+        },
+        {
+          "id": "M04-CP3-Q10",
+          "source_item_ids": [
+            "M04-L12-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does चीनी (chiinii) mean?",
+          "options": [
+            "clarified butter, ghee",
+            "fruit",
+            "egg",
+            "sugar"
+          ],
+          "answer_index": 3,
+          "explanation_en": "चीनी means 'sugar'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 4,
+      "after_level": 20,
+      "covers_levels": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "questions": [
+        {
+          "id": "M04-CP4-Q1",
+          "source_item_ids": [
+            "M04-L16-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ बिस्तर ('bed, bedding', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 0,
+          "explanation_en": "बिस्तर ('bed, bedding') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP4-Q2",
+          "source_item_ids": [
+            "M04-L16-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ चीज़ ('thing', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 1,
+          "explanation_en": "चीज़ ('thing') is grammatically feminine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP4-Q3",
+          "source_item_ids": [
+            "M04-L17-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ दीवार ('wall', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 2,
+          "explanation_en": "दीवार ('wall') is grammatically feminine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP4-Q4",
+          "source_item_ids": [
+            "M04-L18-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ गिलास ('glass, tumbler', my ...).",
+          "options": [
+            "मेरी",
+            "मेरे",
+            "मेरों",
+            "मेरा"
+          ],
+          "answer_index": 3,
+          "explanation_en": "गिलास ('glass, tumbler') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP4-Q5",
+          "source_item_ids": [
+            "M04-L18-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ प्लेट ('plate', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 1,
+          "explanation_en": "प्लेट ('plate') is grammatically feminine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP4-Q6",
+          "source_item_ids": [
+            "M04-L18-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ साबुन ('soap', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 2,
+          "explanation_en": "साबुन ('soap') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP4-Q7",
+          "source_item_ids": [
+            "M04-L19-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does कुत्ता (kuttaa) mean?",
+          "options": [
+            "cat",
+            "horse",
+            "elephant",
+            "dog"
+          ],
+          "answer_index": 3,
+          "explanation_en": "कुत्ता means 'dog'."
+        },
+        {
+          "id": "M04-CP4-Q8",
+          "source_item_ids": [
+            "M04-L17-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does चाबी (chaabii) mean?",
+          "options": [
+            "key",
+            "wall",
+            "plate",
+            "glass, tumbler"
+          ],
+          "answer_index": 0,
+          "explanation_en": "चाबी means 'key'."
+        },
+        {
+          "id": "M04-CP4-Q9",
+          "source_item_ids": [
+            "M04-L19-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does बिल्ली (billii) mean?",
+          "options": [
+            "elephant",
+            "horse",
+            "cat",
+            "cow"
+          ],
+          "answer_index": 2,
+          "explanation_en": "बिल्ली means 'cat'."
+        },
+        {
+          "id": "M04-CP4-Q10",
+          "source_item_ids": [
+            "M04-L20-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does घोड़ा (ghoṛaa) mean?",
+          "options": [
+            "dog",
+            "cow",
+            "cat",
+            "horse"
+          ],
+          "answer_index": 3,
+          "explanation_en": "घोड़ा means 'horse'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 5,
+      "after_level": 25,
+      "covers_levels": [
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "questions": [
+        {
+          "id": "M04-CP5-Q1",
+          "source_item_ids": [
+            "M04-L21-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ शेर ('lion, tiger', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 0,
+          "explanation_en": "शेर ('lion, tiger') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP5-Q2",
+          "source_item_ids": [
+            "M04-L22-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ भैंस ('buffalo', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 1,
+          "explanation_en": "भैंस ('buffalo') is grammatically feminine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP5-Q3",
+          "source_item_ids": [
+            "M04-L25-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ कमीज़ ('shirt', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 2,
+          "explanation_en": "कमीज़ ('shirt') is grammatically feminine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP5-Q4",
+          "source_item_ids": [
+            "M04-L21-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does मछली (machhlii) mean?",
+          "options": [
+            "buffalo",
+            "mouse, rat",
+            "lion, tiger",
+            "fish"
+          ],
+          "answer_index": 3,
+          "explanation_en": "मछली means 'fish'."
+        },
+        {
+          "id": "M04-CP5-Q5",
+          "source_item_ids": [
+            "M04-L24-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does पीला (piilaa) mean?",
+          "options": [
+            "white",
+            "yellow",
+            "green",
+            "red"
+          ],
+          "answer_index": 1,
+          "explanation_en": "पीला means 'yellow'."
+        },
+        {
+          "id": "M04-CP5-Q6",
+          "source_item_ids": [
+            "M04-L24-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does नारंगी (naaraṅgii) mean?",
+          "options": [
+            "yellow",
+            "white",
+            "orange",
+            "brown"
+          ],
+          "answer_index": 2,
+          "explanation_en": "नारंगी means 'orange'."
+        },
+        {
+          "id": "M04-CP5-Q7",
+          "source_item_ids": [
+            "M04-L23-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does हरा (haraa) mean?",
+          "options": [
+            "orange",
+            "brown",
+            "white",
+            "green"
+          ],
+          "answer_index": 3,
+          "explanation_en": "हरा means 'green'."
+        },
+        {
+          "id": "M04-CP5-Q8",
+          "source_item_ids": [
+            "M04-L23-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does सफ़ेद (safed) mean?",
+          "options": [
+            "white",
+            "yellow",
+            "orange",
+            "black"
+          ],
+          "answer_index": 0,
+          "explanation_en": "सफ़ेद means 'white'."
+        },
+        {
+          "id": "M04-CP5-Q9",
+          "source_item_ids": [
+            "M04-L24-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does भूरा (bhuuraa) mean?",
+          "options": [
+            "red",
+            "yellow",
+            "brown",
+            "green"
+          ],
+          "answer_index": 2,
+          "explanation_en": "भूरा means 'brown'."
+        },
+        {
+          "id": "M04-CP5-Q10",
+          "source_item_ids": [
+            "M04-L22-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does काला (kaalaa) mean?",
+          "options": [
+            "white",
+            "red",
+            "yellow",
+            "black"
+          ],
+          "answer_index": 3,
+          "explanation_en": "काला means 'black'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 6,
+      "after_level": 30,
+      "covers_levels": [
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "questions": [
+        {
+          "id": "M04-CP6-Q1",
+          "source_item_ids": [
+            "M04-L26-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ चप्पल ('sandal, slipper', my ...).",
+          "options": [
+            "मेरी",
+            "मेरे",
+            "मेरों",
+            "मेरा"
+          ],
+          "answer_index": 0,
+          "explanation_en": "चप्पल ('sandal, slipper') is grammatically feminine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP6-Q2",
+          "source_item_ids": [
+            "M04-L27-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ सलवार ('salwar, loose trousers', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 1,
+          "explanation_en": "सलवार ('salwar, loose trousers') is grammatically feminine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP6-Q3",
+          "source_item_ids": [
+            "M04-L28-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ पैंट ('trousers', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 2,
+          "explanation_en": "पैंट ('trousers') is grammatically feminine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP6-Q4",
+          "source_item_ids": [
+            "M04-L28-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does करना (karnaa) mean?",
+          "options": [
+            "to see, to look at",
+            "to speak, to say",
+            "to come",
+            "to do, to make"
+          ],
+          "answer_index": 3,
+          "explanation_en": "करना means 'to do, to make'."
+        },
+        {
+          "id": "M04-CP6-Q5",
+          "source_item_ids": [
+            "M04-L29-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does जाना (jaanaa) mean?",
+          "options": [
+            "to be, to become",
+            "to go",
+            "to do, to make",
+            "to speak, to say"
+          ],
+          "answer_index": 1,
+          "explanation_en": "जाना means 'to go'."
+        },
+        {
+          "id": "M04-CP6-Q6",
+          "source_item_ids": [
+            "M04-L26-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does जूता (juutaa) mean?",
+          "options": [
+            "cap, hat",
+            "trousers",
+            "shoe",
+            "sock"
+          ],
+          "answer_index": 2,
+          "explanation_en": "जूता means 'shoe'."
+        },
+        {
+          "id": "M04-CP6-Q7",
+          "source_item_ids": [
+            "M04-L27-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does मोज़ा (mozaa) mean?",
+          "options": [
+            "shoe",
+            "trousers",
+            "sandal, slipper",
+            "sock"
+          ],
+          "answer_index": 3,
+          "explanation_en": "मोज़ा means 'sock'."
+        },
+        {
+          "id": "M04-CP6-Q8",
+          "source_item_ids": [
+            "M04-L30-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does बोलना (bolnaa) mean?",
+          "options": [
+            "to speak, to say",
+            "to be, to become",
+            "to do, to make",
+            "to see, to look at"
+          ],
+          "answer_index": 0,
+          "explanation_en": "बोलना means 'to speak, to say'."
+        },
+        {
+          "id": "M04-CP6-Q9",
+          "source_item_ids": [
+            "M04-L30-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does लिखना (likhnaa) mean?",
+          "options": [
+            "to see, to look at",
+            "to do, to make",
+            "to write",
+            "to speak, to say"
+          ],
+          "answer_index": 2,
+          "explanation_en": "लिखना means 'to write'."
+        },
+        {
+          "id": "M04-CP6-Q10",
+          "source_item_ids": [
+            "M04-L28-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does होना (honaa) mean?",
+          "options": [
+            "to see, to look at",
+            "to write",
+            "to go",
+            "to be, to become"
+          ],
+          "answer_index": 3,
+          "explanation_en": "होना means 'to be, to become'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 7,
+      "after_level": 35,
+      "covers_levels": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "questions": [
+        {
+          "id": "M04-CP7-Q1",
+          "source_item_ids": [
+            "M04-L32-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does लेना (lenaa) mean?",
+          "options": [
+            "to take",
+            "to understand",
+            "to walk, to move, to go along",
+            "to sleep"
+          ],
+          "answer_index": 0,
+          "explanation_en": "लेना means 'to take'."
+        },
+        {
+          "id": "M04-CP7-Q2",
+          "source_item_ids": [
+            "M04-L34-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does बैठना (baiṭhnaa) mean?",
+          "options": [
+            "to say, to tell",
+            "to sit, to sit down",
+            "to take",
+            "to hear, to listen"
+          ],
+          "answer_index": 1,
+          "explanation_en": "बैठना means 'to sit, to sit down'."
+        },
+        {
+          "id": "M04-CP7-Q3",
+          "source_item_ids": [
+            "M04-L32-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does देना (denaa) mean?",
+          "options": [
+            "to sleep",
+            "to sit, to sit down",
+            "to give",
+            "to read, to study"
+          ],
+          "answer_index": 2,
+          "explanation_en": "देना means 'to give'."
+        },
+        {
+          "id": "M04-CP7-Q4",
+          "source_item_ids": [
+            "M04-L34-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does सोना (sonaa) mean?",
+          "options": [
+            "to get up, to rise",
+            "to live, to stay",
+            "to say, to tell",
+            "to sleep"
+          ],
+          "answer_index": 3,
+          "explanation_en": "सोना means 'to sleep'."
+        },
+        {
+          "id": "M04-CP7-Q5",
+          "source_item_ids": [
+            "M04-L33-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does चलना (chalnaa) mean?",
+          "options": [
+            "to read, to study",
+            "to walk, to move, to go along",
+            "to live, to stay",
+            "to understand"
+          ],
+          "answer_index": 1,
+          "explanation_en": "चलना means 'to walk, to move, to go along'."
+        },
+        {
+          "id": "M04-CP7-Q6",
+          "source_item_ids": [
+            "M04-L31-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does समझना (samajhnaa) mean?",
+          "options": [
+            "to make, to build",
+            "to say, to tell",
+            "to understand",
+            "to sleep"
+          ],
+          "answer_index": 2,
+          "explanation_en": "समझना means 'to understand'."
+        },
+        {
+          "id": "M04-CP7-Q7",
+          "source_item_ids": [
+            "M04-L35-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does अच्छा (achchhaa) mean?",
+          "options": [
+            "to read, to study",
+            "to give",
+            "to take",
+            "good; all right"
+          ],
+          "answer_index": 3,
+          "explanation_en": "अच्छा means 'good; all right'."
+        },
+        {
+          "id": "M04-CP7-Q8",
+          "source_item_ids": [
+            "M04-L35-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does बड़ा (baṛaa) mean?",
+          "options": [
+            "big, large; elder",
+            "good; all right",
+            "to sleep",
+            "to read, to study"
+          ],
+          "answer_index": 0,
+          "explanation_en": "बड़ा means 'big, large; elder'."
+        },
+        {
+          "id": "M04-CP7-Q9",
+          "source_item_ids": [
+            "M04-L34-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does उठना (uṭhnaa) mean?",
+          "options": [
+            "to hear, to listen",
+            "to walk, to move, to go along",
+            "to get up, to rise",
+            "to read, to study"
+          ],
+          "answer_index": 2,
+          "explanation_en": "उठना means 'to get up, to rise'."
+        },
+        {
+          "id": "M04-CP7-Q10",
+          "source_item_ids": [
+            "M04-L31-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does सुनना (sunnaa) mean?",
+          "options": [
+            "to sit, to sit down",
+            "to say, to tell",
+            "to give",
+            "to hear, to listen"
+          ],
+          "answer_index": 3,
+          "explanation_en": "सुनना means 'to hear, to listen'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 8,
+      "after_level": 40,
+      "covers_levels": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "questions": [
+        {
+          "id": "M04-CP8-Q1",
+          "source_item_ids": [
+            "M04-L40-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ बाज़ार ('market, bazaar', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 0,
+          "explanation_en": "बाज़ार ('market, bazaar') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP8-Q2",
+          "source_item_ids": [
+            "M04-L40-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ दुकान ('shop', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 1,
+          "explanation_en": "दुकान ('shop') is grammatically feminine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP8-Q3",
+          "source_item_ids": [
+            "M04-L40-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ सड़क ('road, street', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 2,
+          "explanation_en": "सड़क ('road, street') is grammatically feminine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP8-Q4",
+          "source_item_ids": [
+            "M04-L37-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does गरम (garam) mean?",
+          "options": [
+            "expensive",
+            "empty; vacant, free",
+            "cold",
+            "hot, warm"
+          ],
+          "answer_index": 3,
+          "explanation_en": "गरम means 'hot, warm'."
+        },
+        {
+          "id": "M04-CP8-Q5",
+          "source_item_ids": [
+            "M04-L39-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does सस्ता (sastaa) mean?",
+          "options": [
+            "heavy",
+            "cheap, inexpensive",
+            "cold",
+            "expensive"
+          ],
+          "answer_index": 1,
+          "explanation_en": "सस्ता means 'cheap, inexpensive'."
+        },
+        {
+          "id": "M04-CP8-Q6",
+          "source_item_ids": [
+            "M04-L38-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does लंबा (lambaa) mean?",
+          "options": [
+            "old (of things)",
+            "cheap, inexpensive",
+            "long; tall",
+            "heavy"
+          ],
+          "answer_index": 2,
+          "explanation_en": "लंबा means 'long; tall'."
+        },
+        {
+          "id": "M04-CP8-Q7",
+          "source_item_ids": [
+            "M04-L36-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does साफ़ (saaf) mean?",
+          "options": [
+            "dirty",
+            "beautiful",
+            "hot, warm",
+            "clean; clear"
+          ],
+          "answer_index": 3,
+          "explanation_en": "साफ़ means 'clean; clear'."
+        },
+        {
+          "id": "M04-CP8-Q8",
+          "source_item_ids": [
+            "M04-L38-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does भारी (bhaarii) mean?",
+          "options": [
+            "heavy",
+            "dirty",
+            "cold",
+            "clean; clear"
+          ],
+          "answer_index": 0,
+          "explanation_en": "भारी means 'heavy'."
+        },
+        {
+          "id": "M04-CP8-Q9",
+          "source_item_ids": [
+            "M04-L37-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does ठंडा (ṭhaṇḍaa) mean?",
+          "options": [
+            "beautiful",
+            "cheap, inexpensive",
+            "cold",
+            "new"
+          ],
+          "answer_index": 2,
+          "explanation_en": "ठंडा means 'cold'."
+        },
+        {
+          "id": "M04-CP8-Q10",
+          "source_item_ids": [
+            "M04-L37-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does गंदा (gandaa) mean?",
+          "options": [
+            "clean; clear",
+            "old (of things)",
+            "cold",
+            "dirty"
+          ],
+          "answer_index": 3,
+          "explanation_en": "गंदा means 'dirty'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 9,
+      "after_level": 45,
+      "covers_levels": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "questions": [
+        {
+          "id": "M04-CP9-Q1",
+          "source_item_ids": [
+            "M04-L41-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ स्कूल ('school', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 0,
+          "explanation_en": "स्कूल ('school') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP9-Q2",
+          "source_item_ids": [
+            "M04-L41-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ अस्पताल ('hospital', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 1,
+          "explanation_en": "अस्पताल ('hospital') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP9-Q3",
+          "source_item_ids": [
+            "M04-L42-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ शहर ('city, town', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 2,
+          "explanation_en": "शहर ('city, town') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP9-Q4",
+          "source_item_ids": [
+            "M04-L42-I2"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ गाँव ('village', my ...).",
+          "options": [
+            "मेरी",
+            "मेरे",
+            "मेरों",
+            "मेरा"
+          ],
+          "answer_index": 3,
+          "explanation_en": "गाँव ('village') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP9-Q5",
+          "source_item_ids": [
+            "M04-L42-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ जगह ('place, space, room', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 1,
+          "explanation_en": "जगह ('place, space, room') is grammatically feminine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP9-Q6",
+          "source_item_ids": [
+            "M04-L43-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ स्टेशन ('station', my ...).",
+          "options": [
+            "मेरे",
+            "मेरों",
+            "मेरा",
+            "मेरी"
+          ],
+          "answer_index": 2,
+          "explanation_en": "स्टेशन ('station') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP9-Q7",
+          "source_item_ids": [
+            "M04-L41-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does गली (galii) mean?",
+          "options": [
+            "building",
+            "hospital",
+            "place, space, room",
+            "lane, alley"
+          ],
+          "answer_index": 3,
+          "explanation_en": "गली means 'lane, alley'."
+        },
+        {
+          "id": "M04-CP9-Q8",
+          "source_item_ids": [
+            "M04-L45-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does महीना (mahiinaa) mean?",
+          "options": [
+            "month",
+            "evening",
+            "year",
+            "night"
+          ],
+          "answer_index": 0,
+          "explanation_en": "महीना means 'month'."
+        },
+        {
+          "id": "M04-CP9-Q9",
+          "source_item_ids": [
+            "M04-L43-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does मंदिर (mandir) mean?",
+          "options": [
+            "station",
+            "village",
+            "temple",
+            "school"
+          ],
+          "answer_index": 2,
+          "explanation_en": "मंदिर means 'temple'."
+        },
+        {
+          "id": "M04-CP9-Q10",
+          "source_item_ids": [
+            "M04-L43-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does इमारत (imaarat) mean?",
+          "options": [
+            "place, space, room",
+            "city, town",
+            "lane, alley",
+            "building"
+          ],
+          "answer_index": 3,
+          "explanation_en": "इमारत means 'building'."
+        }
+      ]
+    },
+    {
+      "checkpoint": 10,
+      "after_level": 50,
+      "covers_levels": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "questions": [
+        {
+          "id": "M04-CP10-Q1",
+          "source_item_ids": [
+            "M04-L46-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ समय ('time', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 0,
+          "explanation_en": "समय ('time') is grammatically masculine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP10-Q2",
+          "source_item_ids": [
+            "M04-L47-I1"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ तारीख़ ('date', my ...).",
+          "options": [
+            "मेरा",
+            "मेरी",
+            "मेरे",
+            "मेरों"
+          ],
+          "answer_index": 1,
+          "explanation_en": "तारीख़ ('date') is grammatically feminine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP10-Q3",
+          "source_item_ids": [
+            "M04-L50-I3"
+          ],
+          "type": "gender_sort",
+          "prompt_en": "Fill the blank: ___ बात ('a thing said; a matter', my ...).",
+          "options": [
+            "मेरों",
+            "मेरा",
+            "मेरी",
+            "मेरे"
+          ],
+          "answer_index": 2,
+          "explanation_en": "बात ('a thing said; a matter') is grammatically feminine — an exception worth flagging, since its shape does not follow the usual -ा/-ी pattern."
+        },
+        {
+          "id": "M04-CP10-Q4",
+          "source_item_ids": [
+            "M04-L48-I2"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does कब (kab) mean?",
+          "options": [
+            "why",
+            "and; more",
+            "what",
+            "when"
+          ],
+          "answer_index": 3,
+          "explanation_en": "कब means 'when'."
+        },
+        {
+          "id": "M04-CP10-Q5",
+          "source_item_ids": [
+            "M04-L49-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does क्यों (kyoṁ) mean?",
+          "options": [
+            "when",
+            "why",
+            "who",
+            "and; more"
+          ],
+          "answer_index": 1,
+          "explanation_en": "क्यों means 'why'."
+        },
+        {
+          "id": "M04-CP10-Q6",
+          "source_item_ids": [
+            "M04-L47-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does कौन (kaun) mean?",
+          "options": [
+            "how",
+            "when",
+            "who",
+            "very; a lot, much"
+          ],
+          "answer_index": 2,
+          "explanation_en": "कौन means 'who'."
+        },
+        {
+          "id": "M04-CP10-Q7",
+          "source_item_ids": [
+            "M04-L50-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does हाँ (hãa) mean?",
+          "options": [
+            "and; more",
+            "why",
+            "when",
+            "yes"
+          ],
+          "answer_index": 3,
+          "explanation_en": "हाँ means 'yes'."
+        },
+        {
+          "id": "M04-CP10-Q8",
+          "source_item_ids": [
+            "M04-L48-I1"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does कहाँ (kahãa) mean?",
+          "options": [
+            "where",
+            "no; not",
+            "what",
+            "yes"
+          ],
+          "answer_index": 0,
+          "explanation_en": "कहाँ means 'where'."
+        },
+        {
+          "id": "M04-CP10-Q9",
+          "source_item_ids": [
+            "M04-L49-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does नहीं (nahiiṁ) mean?",
+          "options": [
+            "when",
+            "how",
+            "no; not",
+            "why"
+          ],
+          "answer_index": 2,
+          "explanation_en": "नहीं means 'no; not'."
+        },
+        {
+          "id": "M04-CP10-Q10",
+          "source_item_ids": [
+            "M04-L48-I3"
+          ],
+          "type": "meaning_match",
+          "prompt_en": "What does कैसे (kaise) mean?",
+          "options": [
+            "why",
+            "and; more",
+            "no; not",
+            "how"
+          ],
+          "answer_index": 3,
+          "explanation_en": "कैसे means 'how'."
+        }
+      ]
+    }
+  ]
+}

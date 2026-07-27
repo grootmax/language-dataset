@@ -1,0 +1,1384 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "batch": {
+    "levels_from": 33,
+    "levels_to": 37
+  },
+  "block_kind": "vocabulary",
+  "block_note": "Seven of the twelve news words have already appeared in example sentences across earlier levels — सरकार, चुनाव, नीति, प्रदर्शन, घोषणा, अदालत and संसद. That is deliberate: the block confirms words the learner has been meeting in passing rather than introducing twelve at once, and levels 38 to 40 then read them.",
+  "levels": [
+    {
+      "level": 33,
+      "title_en": "Difference, fortune, honour",
+      "title_hi": "फ़र्क़ · क़िस्मत · इज़्ज़त",
+      "items": [
+        {
+          "id": "M13-L33-I1",
+          "type": "word",
+          "target": "फ़र्क़",
+          "read_as": "farq",
+          "gloss_en": "difference",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "urdu_pair",
+            "masculine",
+            "gender_flag",
+            "matched_pair",
+            "high_frequency_idiom"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कोई फ़र्क़ नहीं पड़ता",
+              "explanation_en": "फ़र्क़ is a difference, and अंतर is its Sanskrit-side partner. Both are masculine, so flag फ़र्क़ for the consonant ending alone. The reason to learn फ़र्क़ first is the idiom: फ़र्क़ पड़ना, for something to make a difference, and above all कोई फ़र्क़ नहीं पड़ता, it doesn't matter. That sentence is everywhere. अंतर, meanwhile, owns the compounds — अंतर्राष्ट्रीय international, अंतरिक्ष space — and फ़र्क़ builds nothing, which is the same asymmetry you saw with मुल्क and देश.",
+              "examples": [
+                {
+                  "hindi": "कोई फ़र्क़ नहीं पड़ता।",
+                  "read_as": "koii farq nahiiṁ paṛtaa.",
+                  "english": "It doesn't matter.",
+                  "note": "पड़ना, for a difference to fall. Learn it whole."
+                },
+                {
+                  "hindi": "दोनों में क्या फ़र्क़ है?",
+                  "read_as": "donoṁ meṁ kyaa farq hai?",
+                  "english": "What's the difference between the two?",
+                  "note": "में on what the difference lies between."
+                },
+                {
+                  "hindi": "दोनों के बीच का अंतर स्पष्ट है।",
+                  "read_as": "donoṁ ke biich kaa aṁtar spaṣṭ hai.",
+                  "english": "The difference between the two is clear.",
+                  "note": "The formal partner, and a sentence you would write rather than say."
+                }
+              ],
+              "common_error": {
+                "wrong": "अंतर्राष्ट्रीय की जगह फ़र्क़्राष्ट्रीय",
+                "right": "अंतर्राष्ट्रीय",
+                "why_en": "फ़र्क़ builds no compounds at all. The free words swap; the compounds are fixed."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "कोई फ़र्क़ नहीं पड़ता means what?",
+              "options": [
+                "I can't tell them apart",
+                "There is no difference at all",
+                "It doesn't matter",
+                "Nothing has changed"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Literally no difference falls. Idiomatically, it makes no odds."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means international?",
+              "options": [
+                "अंतर्राष्ट्रीय",
+                "अंतरिक्ष",
+                "अंतिम",
+                "फ़र्क़"
+              ],
+              "options_read_as": [
+                "aṁtarraaṣṭriiya",
+                "aṁtarikṣ",
+                "aṁtim",
+                "farq"
+              ],
+              "answer_index": 0,
+              "explanation_en": "अंतर plus राष्ट्र, nation. अंतरिक्ष is space and अंतिम is final."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "फ़र्क़",
+              "कोई फ़र्क़ नहीं पड़ता।",
+              "दोनों में क्या फ़र्क़ है?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L33-I2",
+          "type": "word",
+          "target": "क़िस्मत",
+          "read_as": "qismat",
+          "gloss_en": "fate, luck",
+          "gender": "f",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "urdu_pair",
+            "feminine",
+            "gender_flag",
+            "gender_mismatch_pair",
+            "compound_asymmetry"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "क़िस्मत is feminine and भाग्य is masculine",
+              "explanation_en": "The seventh mismatched pair in this module. क़िस्मत is what people say — क़िस्मत अच्छी है, क़िस्मत वाला, meaning lucky — and भाग्य is the written and ceremonial word. Flag क़िस्मत: feminine, consonant-final. And once again the Sanskrit side has the compounds: भाग्यशाली fortunate, दुर्भाग्य misfortune, सौभाग्य good fortune. There is no क़िस्मतशाली.",
+              "examples": [
+                {
+                  "hindi": "उसकी क़िस्मत अच्छी है।",
+                  "read_as": "uskii qismat acchii hai.",
+                  "english": "He's lucky.",
+                  "note": "उसकी and अच्छी, both feminine."
+                },
+                {
+                  "hindi": "क़िस्मत ने साथ नहीं दिया।",
+                  "read_as": "qismat ne saath nahiiṁ diyaa.",
+                  "english": "Luck wasn't on our side.",
+                  "note": "साथ देना, to support — and क़िस्मत takes ने because देना is transitive."
+                },
+                {
+                  "hindi": "यह दुर्भाग्य की बात है।",
+                  "read_as": "yah durbhaagya kii baat hai.",
+                  "english": "It is an unfortunate matter.",
+                  "note": "दुर्- is a prefix meaning bad, related to the कु- in कुतर्क from level 11."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसका क़िस्मत अच्छा है",
+                "right": "उसकी क़िस्मत अच्छी है",
+                "why_en": "क़िस्मत is feminine, though भाग्य, which means the same, is masculine."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which is masculine?",
+              "options": [
+                "क़िस्मत",
+                "भाग्य",
+                "both",
+                "neither"
+              ],
+              "answer_index": 1,
+              "explanation_en": "भाग्य is masculine and क़िस्मत is feminine — the seventh mismatched pair in the module."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means fortunate?",
+              "options": [
+                "दुर्भाग्य",
+                "भाग्य",
+                "क़िस्मत",
+                "भाग्यशाली"
+              ],
+              "options_read_as": [
+                "durbhaagya",
+                "bhaagya",
+                "qismat",
+                "bhaagyashaalii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "भाग्यशाली, with -शाली meaning possessing. दुर्भाग्य is misfortune."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "क़िस्मत",
+              "उसकी क़िस्मत अच्छी है।",
+              "क़िस्मत ने साथ नहीं दिया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L33-I3",
+          "type": "word",
+          "target": "इज़्ज़त",
+          "read_as": "izzat",
+          "gloss_en": "honour, respect",
+          "gender": "f",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "urdu_pair",
+            "feminine",
+            "gender_flag",
+            "gender_mismatch_pair",
+            "semantic_split"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "इज़्ज़त is owed to you; सम्मान is conferred on you",
+              "explanation_en": "The eighth mismatched pair — इज़्ज़त feminine, सम्मान masculine — so flag इज़्ज़त — and this one differs in meaning as well as register. इज़्ज़त is the respect you are owed as a person, which can be given, kept or lost: इज़्ज़त करना, इज़्ज़त बचाना. सम्मान is honour that is formally conferred — a सम्मान समारोह is an award ceremony, and सम्मानित करना is to honour somebody publicly. You can lose your इज़्ज़त; you cannot lose a सम्मान once it has been given.",
+              "examples": [
+                {
+                  "hindi": "बड़ों की इज़्ज़त करनी चाहिए।",
+                  "read_as": "baṛoṁ kii izzat karnii chaahie.",
+                  "english": "One should respect one's elders.",
+                  "note": "करनी, feminine, agreeing with इज़्ज़त — the obligation ladder from Module 11."
+                },
+                {
+                  "hindi": "उन्हें राष्ट्रीय सम्मान मिला।",
+                  "read_as": "unheṁ raaṣṭriiya sammaan milaa.",
+                  "english": "They received a national honour.",
+                  "note": "मिला, masculine, agreeing with सम्मान. This sense needs the formal word."
+                },
+                {
+                  "hindi": "इससे उसकी इज़्ज़त बढ़ी।",
+                  "read_as": "isse uskii izzat baṛhii.",
+                  "english": "It raised his standing.",
+                  "note": "बढ़ी, feminine. इज़्ज़त can go up and down; a सम्मान cannot."
+                }
+              ],
+              "common_error": {
+                "wrong": "उन्हें राष्ट्रीय इज़्ज़त मिली",
+                "right": "उन्हें राष्ट्रीय सम्मान मिला",
+                "why_en": "An award is a सम्मान. इज़्ज़त is not something an institution hands out."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which word would name a national award?",
+              "options": [
+                "सम्मान",
+                "either",
+                "neither",
+                "इज़्ज़त"
+              ],
+              "answer_index": 0,
+              "explanation_en": "सम्मान is honour conferred. इज़्ज़त is standing you hold."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means dignity or self-respect?",
+              "options": [
+                "आदर",
+                "इज़्ज़त",
+                "आत्मसम्मान",
+                "सम्मान"
+              ],
+              "options_read_as": [
+                "aadar",
+                "izzat",
+                "aatmasammaan",
+                "sammaan"
+              ],
+              "answer_index": 2,
+              "explanation_en": "आत्म- means self, so आत्मसम्मान is self-respect. आदर is deference shown to somebody, as in आदरणीय."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "इज़्ज़त",
+              "बड़ों की इज़्ज़त करनी चाहिए।",
+              "उन्हें राष्ट्रीय सम्मान मिला।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "That closes the pairs. Roughly half of the seventeen in this module change gender across the register and roughly half do not, so there is nothing to derive — each pair has to be known. What does hold every time is that the Sanskrit side takes the compounds: अंतर्राष्ट्रीय, भाग्यशाली, सम्मानित, and no फ़र्क़- or क़िस्मत- equivalents at all.",
+        "key_forms": [
+          "कोई फ़र्क़ नहीं पड़ता",
+          "क़िस्मत अच्छी है",
+          "इज़्ज़त करना"
+        ],
+        "next_up_en": "Next: the vocabulary of the news, starting with government and elections."
+      }
+    },
+    {
+      "level": 34,
+      "title_en": "Government, election, policy",
+      "title_hi": "सरकार · चुनाव · नीति",
+      "items": [
+        {
+          "id": "M13-L34-I1",
+          "type": "word",
+          "target": "सरकार",
+          "read_as": "sarkaar",
+          "gloss_en": "government",
+          "gender": "f",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "news",
+            "feminine",
+            "gender_flag",
+            "adjective_family",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सरकार is feminine, and सरकारी is everywhere",
+              "explanation_en": "सरकार is the government, and it is feminine despite the consonant ending, so flag it — सरकार ने कहा, but नई सरकार and राज्य सरकार ने घोषणा की. The adjective सरकारी is one of the most useful words in the language: सरकारी नौकरी a government job, सरकारी अस्पताल a state hospital, सरकारी काम officialdom in general. You have already seen सरकार in an example back in level 17, doing exactly what it does in the news.",
+              "examples": [
+                {
+                  "hindi": "सरकार ने नई नीति की घोषणा की।",
+                  "read_as": "sarkaar ne naii niiti kii ghoṣṇaa kii.",
+                  "english": "The government announced a new policy.",
+                  "note": "Three of this level's words in one sentence, and every agreement feminine."
+                },
+                {
+                  "hindi": "वो सरकारी नौकरी करते हैं।",
+                  "read_as": "vo sarkaarii naukrii karte haiṁ.",
+                  "english": "He works for the government.",
+                  "note": "सरकारी, invariable like all -ी adjectives."
+                },
+                {
+                  "hindi": "राज्य सरकार का फ़ैसला अलग है।",
+                  "read_as": "raajya sarkaar kaa faislaa alag hai.",
+                  "english": "The state government's decision is different.",
+                  "note": "का agrees with फ़ैसला, not with सरकार."
+                }
+              ],
+              "common_error": {
+                "wrong": "नया सरकार",
+                "right": "नई सरकार",
+                "why_en": "सरकार is feminine."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "सरकारी अस्पताल means what?",
+              "options": [
+                "a large hospital",
+                "a new hospital",
+                "a serious hospital",
+                "a state hospital"
+              ],
+              "answer_index": 3,
+              "explanation_en": "सरकारी is the adjective from सरकार."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means administration in the sense of day-to-day running?",
+              "options": [
+                "सरकार",
+                "प्रशासन",
+                "सरकारी",
+                "राज्य"
+              ],
+              "options_read_as": [
+                "sarkaar",
+                "prashaasan",
+                "sarkaarii",
+                "raajya"
+              ],
+              "answer_index": 1,
+              "explanation_en": "प्रशासन is the administration. राज्य is a state, and it is also the word for rule or reign."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सरकार",
+              "सरकार ने नई नीति की घोषणा की।",
+              "वो सरकारी नौकरी करते हैं।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L34-I2",
+          "type": "word",
+          "target": "चुनाव",
+          "read_as": "chunaav",
+          "gloss_en": "election; choice",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "news",
+            "masculine",
+            "gender_flag",
+            "suffix_aav",
+            "first_masculine_suffix"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "-आव builds masculine nouns from verbs",
+              "explanation_en": "चुनना is to choose and चुनाव is an election — or a choice, in the ordinary sense. Flag चुनाव: masculine and consonant-final. The suffix -आव turns a verb into a noun, and unlike every other noun-building suffix in this module, it produces masculines: बदलाव change, बहाव flow, झुकाव leaning, दबाव pressure, फैलाव spread. You met बदलाव on the returns sign in level 22 without being told what built it. After four feminine suffixes — -आई, -ई, -ता, -ति — this is the first that goes the other way.",
+              "examples": [
+                {
+                  "hindi": "अगले साल चुनाव होंगे।",
+                  "read_as": "agle saal chunaav hoṁge.",
+                  "english": "Elections are due next year.",
+                  "note": "Masculine plural, so होंगे."
+                },
+                {
+                  "hindi": "आपके पास कोई चुनाव नहीं है।",
+                  "read_as": "aapke paas koii chunaav nahiiṁ hai.",
+                  "english": "You have no choice.",
+                  "note": "The everyday sense, and के पास doing the work of \"have\"."
+                },
+                {
+                  "hindi": "इसमें कोई बदलाव नहीं होगा।",
+                  "read_as": "ismeṁ koii badlaav nahiiṁ hogaa.",
+                  "english": "There will be no change in this.",
+                  "note": "बदलाव, another -आव noun, also masculine."
+                }
+              ],
+              "common_error": {
+                "wrong": "चुनाव अगले साल होंगी",
+                "right": "चुनाव अगले साल होंगे",
+                "why_en": "-आव nouns are masculine. होंगी would need a feminine subject."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What gender do -आव nouns take?",
+              "options": [
+                "they have no gender",
+                "feminine",
+                "masculine",
+                "it varies"
+              ],
+              "answer_index": 2,
+              "explanation_en": "चुनाव, बदलाव, बहाव, दबाव — all masculine, and all built from verbs."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which -आव noun means pressure?",
+              "options": [
+                "दबाव",
+                "बहाव",
+                "झुकाव",
+                "चुनाव"
+              ],
+              "options_read_as": [
+                "dabaav",
+                "bahaav",
+                "jhukaav",
+                "chunaav"
+              ],
+              "answer_index": 0,
+              "explanation_en": "दबाव, from दबाना, to press. बहाव is flow and झुकाव is a leaning or inclination."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "चुनाव",
+              "अगले साल चुनाव होंगे।",
+              "इसमें कोई बदलाव नहीं होगा।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L34-I3",
+          "type": "word",
+          "target": "नीति",
+          "read_as": "niiti",
+          "gloss_en": "policy; ethics",
+          "gender": "f",
+          "gender_flag": false,
+          "difficulty": 6,
+          "tags": [
+            "news",
+            "feminine",
+            "suffix_ti",
+            "polysemy",
+            "callback_l32"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "नीति — a policy, and also a principle",
+              "explanation_en": "नीति is a policy in the news sense — विदेश नीति foreign policy, नई शिक्षा नीति a new education policy — and it also means ethics or right conduct, which is why a moral fable is a नीति कथा and why ईमानदारी सबसे अच्छी नीति है works as a proverb. It is a -ति noun like स्वीकृति from level 32, so it is feminine and predictable, which is why it is not flagged.",
+              "examples": [
+                {
+                  "hindi": "सरकार की नई नीति आ गई है।",
+                  "read_as": "sarkaar kii naii niiti aa gaii hai.",
+                  "english": "The government's new policy is out.",
+                  "note": "की and नई, both feminine."
+                },
+                {
+                  "hindi": "ईमानदारी सबसे अच्छी नीति है।",
+                  "read_as": "iimaandaarii sabse acchii niiti hai.",
+                  "english": "Honesty is the best policy.",
+                  "note": "The proverb, using नीति in its other sense — and सबसे for the superlative, from level 32."
+                },
+                {
+                  "hindi": "यह नीतिगत मामला है।",
+                  "read_as": "yah niitigat maamlaa hai.",
+                  "english": "This is a policy matter.",
+                  "note": "नीतिगत, policy-related, with the -गत suffix meaning pertaining to."
+                }
+              ],
+              "common_error": {
+                "wrong": "नया नीति",
+                "right": "नई नीति",
+                "why_en": "All -ति nouns are feminine, without exception."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Why is नीति not flagged for gender?",
+              "options": [
+                "It is masculine",
+                "It is a -ति noun, and all of those are feminine",
+                "It never takes an adjective",
+                "It has no gender"
+              ],
+              "answer_index": 1,
+              "explanation_en": "स्वीकृति, प्रगति, शक्ति, नीति — the suffix settles it."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a rule or regulation?",
+              "options": [
+                "योजना",
+                "सिद्धांत",
+                "नीति",
+                "नियम"
+              ],
+              "options_read_as": [
+                "yojnaa",
+                "siddhaaṁt",
+                "niiti",
+                "niyam"
+              ],
+              "answer_index": 3,
+              "explanation_en": "नियम is a rule, and you met it on the photography sign. योजना is a scheme or plan and सिद्धांत is a principle."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "नीति",
+              "सरकार की नई नीति आ गई है।",
+              "ईमानदारी सबसे अच्छी नीति है।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "सरकार is feminine and सरकारी is one of the most useful adjectives in Hindi. -आव builds masculine nouns from verbs — चुनाव, बदलाव, दबाव — and it is the first noun suffix in this module that does not produce a feminine. And नीति is a -ति noun, so its gender needs no flag.",
+        "key_forms": [
+          "सरकारी",
+          "चुनाव होंगे",
+          "नई नीति"
+        ],
+        "next_up_en": "Next: the economy, protests and announcements — and a class of feminine nouns that look masculine."
+      }
+    },
+    {
+      "level": 35,
+      "title_en": "Economy, protest, announcement",
+      "title_hi": "अर्थव्यवस्था · प्रदर्शन · घोषणा",
+      "items": [
+        {
+          "id": "M13-L35-I1",
+          "type": "word",
+          "target": "अर्थव्यवस्था",
+          "read_as": "arthvyavasthaa",
+          "gloss_en": "economy",
+          "gender": "f",
+          "gender_flag": true,
+          "difficulty": 8,
+          "tags": [
+            "news",
+            "feminine",
+            "gender_flag",
+            "sanskrit_compound",
+            "aa_feminine_class"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A feminine noun ending in -आ",
+              "explanation_en": "अर्थव्यवस्था is अर्थ, wealth or meaning, plus व्यवस्था, a system or arrangement. And here is the thing to flag: it ends in -आ, which normally signals a masculine noun in Hindi, and it is feminine. It belongs to a class of Sanskrit-derived -आ nouns that are all feminine — व्यवस्था, समस्या, प्रतीक्षा, कृपा, सेवा, भाषा, विद्या, चर्चा, घोषणा. Every one of them looks masculine and none of them is, which makes this the most reliable trap in Hindi gender.",
+              "examples": [
+                {
+                  "hindi": "अर्थव्यवस्था धीरे-धीरे सुधर रही है।",
+                  "read_as": "arthvyavasthaa dhiire-dhiire sudhar rahii hai.",
+                  "english": "The economy is slowly improving.",
+                  "note": "रही, feminine, despite the -आ ending."
+                },
+                {
+                  "hindi": "इसका क्या अर्थ है?",
+                  "read_as": "iskaa kyaa arth hai?",
+                  "english": "What does this mean?",
+                  "note": "अर्थ on its own means meaning, and is masculine."
+                },
+                {
+                  "hindi": "यह एक बड़ी समस्या है।",
+                  "read_as": "yah ek baṛii samasyaa hai.",
+                  "english": "This is a big problem.",
+                  "note": "समस्या, another -आ feminine, so बड़ी."
+                }
+              ],
+              "common_error": {
+                "wrong": "अर्थव्यवस्था सुधर रहा है",
+                "right": "अर्थव्यवस्था सुधर रही है",
+                "why_en": "The -आ ending is misleading. This whole class of Sanskrit nouns is feminine."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which of these is masculine?",
+              "options": [
+                "अर्थ",
+                "चर्चा",
+                "समस्या",
+                "व्यवस्था"
+              ],
+              "answer_index": 0,
+              "explanation_en": "अर्थ ends in a consonant and is masculine. The three -आ nouns are all feminine."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a discussion?",
+              "options": [
+                "व्यवस्था",
+                "अर्थव्यवस्था",
+                "चर्चा",
+                "समस्या"
+              ],
+              "options_read_as": [
+                "vyavasthaa",
+                "arthvyavasthaa",
+                "charchaa",
+                "samasyaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "चर्चा, which you met as the calm alternative to बहस in level 12. All four are feminine and all four end in -आ."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अर्थव्यवस्था",
+              "अर्थव्यवस्था धीरे-धीरे सुधर रही है।",
+              "यह एक बड़ी समस्या है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L35-I2",
+          "type": "word",
+          "target": "प्रदर्शन",
+          "read_as": "pradarshan",
+          "gloss_en": "demonstration; performance",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "news",
+            "masculine",
+            "gender_flag",
+            "polysemy",
+            "callback_l13"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "प्रदर्शन is a protest and also a performance",
+              "explanation_en": "प्रदर्शन comes from दर्शन, seeing, with प्र- meaning forth — a showing-forth. That gives it two lives that English keeps apart. In the news it is a demonstration or protest: किसानों का प्रदर्शन. In sport or work it is a performance: उसका प्रदर्शन अच्छा रहा. And प्रदर्शनी, feminine, is an exhibition. You met प्रदर्शन back in level 13 as the visible event, against विरोध the stance. Flag it: masculine, consonant-final.",
+              "examples": [
+                {
+                  "hindi": "संसद के बाहर प्रदर्शन हुआ।",
+                  "read_as": "saṁsad ke baahar pradarshan huaa.",
+                  "english": "There was a demonstration outside parliament.",
+                  "note": "हुआ, masculine."
+                },
+                {
+                  "hindi": "उसका प्रदर्शन अच्छा रहा।",
+                  "read_as": "uskaa pradarshan acchaa rahaa.",
+                  "english": "His performance was good.",
+                  "note": "Same word, and only the context separates the senses."
+                },
+                {
+                  "hindi": "कल से पुस्तक प्रदर्शनी शुरू है।",
+                  "read_as": "kal se pustak pradarshanii shuruu hai.",
+                  "english": "The book exhibition starts tomorrow.",
+                  "note": "प्रदर्शनी, feminine, and पुस्तक the formal word for a book."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसकी प्रदर्शन अच्छी रही",
+                "right": "उसका प्रदर्शन अच्छा रहा",
+                "why_en": "प्रदर्शन is masculine. प्रदर्शनी, the exhibition, is feminine."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "प्रदर्शन does NOT mean which of these?",
+              "options": [
+                "a showing",
+                "a protest",
+                "a performance",
+                "an exhibition"
+              ],
+              "answer_index": 3,
+              "explanation_en": "An exhibition is प्रदर्शनी, with the feminine ending."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a strike by workers?",
+              "options": [
+                "प्रदर्शन",
+                "हड़ताल",
+                "विरोध",
+                "जुलूस"
+              ],
+              "options_read_as": [
+                "pradarshan",
+                "haṛtaal",
+                "virodh",
+                "juluus"
+              ],
+              "answer_index": 1,
+              "explanation_en": "हड़ताल is a strike. जुलूस is a procession or march, and विरोध is the underlying opposition."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "प्रदर्शन",
+              "संसद के बाहर प्रदर्शन हुआ।",
+              "उसका प्रदर्शन अच्छा रहा।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L35-I3",
+          "type": "word",
+          "target": "घोषणा",
+          "read_as": "ghoṣṇaa",
+          "gloss_en": "announcement, declaration",
+          "gender": "f",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "news",
+            "feminine",
+            "gender_flag",
+            "aa_feminine_class",
+            "karnaa_compound"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Another -आ feminine, and the word a manifesto is made of",
+              "explanation_en": "घोषणा is an announcement, and like अर्थव्यवस्था it ends in -आ and is feminine, so flag it. It goes with करना — सरकार ने घोषणा की, with की agreeing. And घोषणापत्र, an announcement-document, is a political manifesto, which is a good example of how news vocabulary is built by compounding two ordinary words rather than borrowing a new one.",
+              "examples": [
+                {
+                  "hindi": "मंत्री ने घोषणा की।",
+                  "read_as": "maṁtrii ne ghoṣṇaa kii.",
+                  "english": "The minister made an announcement.",
+                  "note": "की, feminine, agreeing with घोषणा."
+                },
+                {
+                  "hindi": "अभी कोई घोषणा नहीं हुई है।",
+                  "read_as": "abhii koii ghoṣṇaa nahiiṁ huii hai.",
+                  "english": "No announcement has been made yet.",
+                  "note": "हुई, feminine again."
+                },
+                {
+                  "hindi": "पार्टी का घोषणापत्र जारी हुआ।",
+                  "read_as": "paarṭii kaa ghoṣṇaapatra jaarii huaa.",
+                  "english": "The party's manifesto was released.",
+                  "note": "घोषणापत्र is masculine, because पत्र is — the last element of a compound decides."
+                }
+              ],
+              "common_error": {
+                "wrong": "मंत्री ने घोषणा किया",
+                "right": "मंत्री ने घोषणा की",
+                "why_en": "घोषणा is feminine, so करना agrees with it."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "घोषणापत्र is masculine. Why?",
+              "options": [
+                "Because compounds are always masculine",
+                "Because घोषणा is masculine",
+                "Because the last element of a compound decides, and पत्र is masculine",
+                "Because it is a political term"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The final element carries the gender, which is why घोषणा feminine gives घोषणापत्र masculine."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a notification issued by an authority?",
+              "options": [
+                "अधिसूचना",
+                "सूचना",
+                "ख़बर",
+                "घोषणा"
+              ],
+              "options_read_as": [
+                "adhisuuchnaa",
+                "suuchnaa",
+                "ḳhabar",
+                "ghoṣṇaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "अधिसूचना is a formal notification, built on सूचना from level 14 with the prefix अधि-. Note that it is feminine too."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "घोषणा",
+              "मंत्री ने घोषणा की।",
+              "पार्टी का घोषणापत्र जारी हुआ।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Sanskrit nouns ending in -आ are feminine — व्यवस्था, समस्या, चर्चा, प्रतीक्षा, कृपा, सेवा, भाषा, घोषणा — against the general rule that -आ means masculine. That is the single most reliable gender trap in Hindi. And in a compound the last element decides: घोषणा is feminine but घोषणापत्र is masculine.",
+        "key_forms": [
+          "अर्थव्यवस्था",
+          "प्रदर्शन हुआ",
+          "घोषणा की"
+        ],
+        "next_up_en": "Next: ministers, courts and law — and a sixth way of negating."
+      }
+    },
+    {
+      "level": 36,
+      "title_en": "Minister, court, law",
+      "title_hi": "मंत्री · अदालत · क़ानून",
+      "items": [
+        {
+          "id": "M13-L36-I1",
+          "type": "word",
+          "target": "मंत्री",
+          "read_as": "maṁtrii",
+          "gloss_en": "minister",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "news",
+            "masculine",
+            "gender_flag",
+            "ii_masculine_trap",
+            "callback_l8"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A masculine noun ending in -ी",
+              "explanation_en": "मंत्री is a minister, and it ends in -ी and is masculine — the mirror image of the trap in the last level. Most -ी nouns are feminine, so flag this one. It joins a small masculine group: आदमी, पानी, मोती, घी, and the agent nouns like निवासी from level 32. मंत्रालय, the ministry, uses the -आलय suffix from level 8, and प्रधानमंत्री and मुख्यमंत्री are the prime minister and a state chief minister.",
+              "examples": [
+                {
+                  "hindi": "शिक्षा मंत्री ने बयान दिया।",
+                  "read_as": "shikṣaa maṁtrii ne bayaan diyaa.",
+                  "english": "The education minister issued a statement.",
+                  "note": "बयान — a statement, and a level 38 reading item."
+                },
+                {
+                  "hindi": "नए मंत्री कल आएँगे।",
+                  "read_as": "nae maṁtrii kal aaeṁge.",
+                  "english": "The new minister arrives tomorrow.",
+                  "note": "नए and आएँगे, masculine plural for respect."
+                },
+                {
+                  "hindi": "यह मंत्रालय का फ़ैसला है।",
+                  "read_as": "yah maṁtraalay kaa faislaa hai.",
+                  "english": "This is the ministry's decision.",
+                  "note": "मंत्री plus आलय, the place suffix from the toilet sign in level 8."
+                }
+              ],
+              "common_error": {
+                "wrong": "नई मंत्री",
+                "right": "नए मंत्री",
+                "why_en": "मंत्री is masculine despite the -ी ending. A woman minister is still मंत्री, and takes masculine agreement in the title."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which of these -ी nouns is feminine?",
+              "options": [
+                "पानी",
+                "कुर्सी",
+                "मंत्री",
+                "आदमी"
+              ],
+              "answer_index": 1,
+              "explanation_en": "कुर्सी is feminine. The other three are the masculine exceptions."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a senior civil servant rather than a politician?",
+              "options": [
+                "सांसद",
+                "नेता",
+                "मंत्री",
+                "अधिकारी"
+              ],
+              "options_read_as": [
+                "saaṁsad",
+                "netaa",
+                "maṁtrii",
+                "adhikaarii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "अधिकारी is an official, and it is a level 40 reading item. सांसद is a member of parliament and नेता is a political leader."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मंत्री",
+              "शिक्षा मंत्री ने बयान दिया।",
+              "यह मंत्रालय का फ़ैसला है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L36-I2",
+          "type": "word",
+          "target": "अदालत",
+          "read_as": "adaalat",
+          "gloss_en": "court",
+          "gender": "f",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "news",
+            "feminine",
+            "gender_flag",
+            "register_triplet",
+            "callback_l8"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "अदालत, न्यायालय, कोर्ट — three words, three registers",
+              "explanation_en": "अदालत is a court and it is feminine, so flag it. The Sanskrit-side word is न्यायालय — न्याय, justice, plus the आलय suffix you now know well — and it is what appears on the building and in a written judgement. And कोर्ट, the English word, is what lawyers and journalists say every day: सुप्रीम कोर्ट, हाई कोर्ट. All three are current, and which one you meet depends entirely on where you are reading.",
+              "examples": [
+                {
+                  "hindi": "अदालत ने फ़ैसला सुनाया।",
+                  "read_as": "adaalat ne faislaa sunaayaa.",
+                  "english": "The court delivered its verdict.",
+                  "note": "फ़ैसला सुनाना, to pronounce a judgement — सुनाना is the causative of सुनना."
+                },
+                {
+                  "hindi": "मामला अदालत में है।",
+                  "read_as": "maamlaa adaalat meṁ hai.",
+                  "english": "The matter is in court.",
+                  "note": "मामला from level 17."
+                },
+                {
+                  "hindi": "सर्वोच्च न्यायालय का आदेश है।",
+                  "read_as": "sarvochch nyaayaalay kaa aadesh hai.",
+                  "english": "It is a Supreme Court order.",
+                  "note": "सर्वोच्च, highest. In speech, सुप्रीम कोर्ट."
+                }
+              ],
+              "common_error": {
+                "wrong": "अदालत का फ़ैसला सुनाया गया — with अदालत treated as masculine elsewhere",
+                "right": "अदालत ने अपना फ़ैसला सुनाया",
+                "why_en": "अदालत is feminine, so अपनी would be wrong here only because अपना agrees with फ़ैसला. Watch which noun the adjective is actually pointing at."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "न्यायालय is built from which two parts?",
+              "options": [
+                "justice and place",
+                "judge and room",
+                "rule and building",
+                "law and house"
+              ],
+              "answer_index": 0,
+              "explanation_en": "न्याय, justice, plus आलय, place — the suffix from शौचालय and पुस्तकालय."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a judge?",
+              "options": [
+                "वकील",
+                "अदालत",
+                "न्यायाधीश",
+                "न्यायालय"
+              ],
+              "options_read_as": [
+                "vakiil",
+                "adaalat",
+                "nyaayaadhiish",
+                "nyaayaalay"
+              ],
+              "answer_index": 2,
+              "explanation_en": "न्यायाधीश is a judge, and जज is what everybody says. वकील is a lawyer."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अदालत",
+              "अदालत ने फ़ैसला सुनाया।",
+              "मामला अदालत में है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L36-I3",
+          "type": "word",
+          "target": "क़ानून",
+          "read_as": "qaanuun",
+          "gloss_en": "law",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "news",
+            "masculine",
+            "gender_flag",
+            "prefix_ghair",
+            "negation_family"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ग़ैर- is a sixth way of saying not",
+              "explanation_en": "क़ानून is law, masculine and consonant-final, so flag it. क़ानूनी means legal — and its negative is ग़ैरक़ानूनी, illegal, using ग़ैर-, which came into Hindi through Persian and Arabic and means non- or un-. That is the sixth negation device in this module, after निः-, ला-, अ-, बिना and ना-. ग़ैर- is productive: ग़ैरहाज़िर absent, ग़ैरज़रूरी unnecessary, ग़ैरसरकारी non-governmental. It attaches to Urdu-side words, just as अ- attaches to Sanskrit-side ones.",
+              "examples": [
+                {
+                  "hindi": "यह क़ानून के ख़िलाफ़ है।",
+                  "read_as": "yah qaanuun ke ḳhilaaf hai.",
+                  "english": "This is against the law.",
+                  "note": "के ख़िलाफ़, against — a postposition worth having."
+                },
+                {
+                  "hindi": "ग़ैरक़ानूनी निर्माण हटाया जाएगा।",
+                  "read_as": "ġairqaanuunii nirmaaṇ haṭaayaa jaaegaa.",
+                  "english": "Illegal construction will be removed.",
+                  "note": "The sort of sentence a news report is built from."
+                },
+                {
+                  "hindi": "नया क़ानून अगले महीने से लागू होगा।",
+                  "read_as": "nayaa qaanuun agle mahiine se laaguu hogaa.",
+                  "english": "The new law comes into force next month.",
+                  "note": "लागू होना, to come into effect. लागू is invariable."
+                }
+              ],
+              "common_error": {
+                "wrong": "अक़ानूनी",
+                "right": "ग़ैरक़ानूनी",
+                "why_en": "Each prefix stays on its own side. अ- attaches to Sanskrit-side words and ग़ैर- to Urdu-side ones, exactly as with नामुमकिन and असंभव in level 28."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does the prefix ग़ैर- mean?",
+              "options": [
+                "again",
+                "half",
+                "very",
+                "non-, un-"
+              ],
+              "answer_index": 3,
+              "explanation_en": "ग़ैरक़ानूनी illegal, ग़ैरज़रूरी unnecessary, ग़ैरसरकारी non-governmental."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a non-governmental organisation?",
+              "options": [
+                "ग़ैरक़ानूनी",
+                "ग़ैरसरकारी संगठन",
+                "ग़ैरहाज़िर",
+                "ग़ैरज़रूरी"
+              ],
+              "options_read_as": [
+                "ġairqaanuunii",
+                "ġairsarkaarii saṁgaṭhan",
+                "ġairhaazir",
+                "ġairzaruurii"
+              ],
+              "answer_index": 1,
+              "explanation_en": "ग़ैरसरकारी संगठन, using सरकारी from level 34 and संगठन, organisation."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "क़ानून",
+              "यह क़ानून के ख़िलाफ़ है।",
+              "नया क़ानून अगले महीने से लागू होगा।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "मंत्री is masculine despite ending in -ी, which is the mirror of the -आ feminines in the last level. A court is अदालत, न्यायालय or कोर्ट depending on where you are reading. And ग़ैर- is a sixth negative prefix, attaching to Urdu-side words as अ- attaches to Sanskrit-side ones.",
+        "key_forms": [
+          "शिक्षा मंत्री",
+          "अदालत ने",
+          "ग़ैरक़ानूनी"
+        ],
+        "next_up_en": "Next: budget, development and parliament — the last three news words."
+      }
+    },
+    {
+      "level": 37,
+      "title_en": "Budget, development, parliament",
+      "title_hi": "बजट · विकास · संसद",
+      "items": [
+        {
+          "id": "M13-L37-I1",
+          "type": "word",
+          "target": "बजट",
+          "read_as": "bajaṭ",
+          "gloss_en": "budget",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "news",
+            "masculine",
+            "gender_flag",
+            "loanword",
+            "callback_l19"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "An English word taking Hindi grammar entirely",
+              "explanation_en": "बजट is the English word and it is masculine — flag it, because a loanword's gender is never predictable. What is worth noticing is how completely it has been absorbed: बजट पेश करना or बजट प्रस्तुत करना to present the budget, बजट सत्र the budget session, बजट में कटौती a cut in the budget. It takes the oblique, takes postpositions and appears in compounds like any Hindi noun. Compare टिप, which turned out to be feminine in Module 12 — there is no rule, only the fact.",
+              "examples": [
+                {
+                  "hindi": "वित्त मंत्री ने बजट प्रस्तुत किया।",
+                  "read_as": "vitt maṁtrii ne bajaṭ prastut kiyaa.",
+                  "english": "The finance minister presented the budget.",
+                  "note": "प्रस्तुत करना from level 19, and किया masculine."
+                },
+                {
+                  "hindi": "इस बजट में शिक्षा पर ज़्यादा ख़र्च है।",
+                  "read_as": "is bajaṭ meṁ shikṣaa par zyaadaa ḳharch hai.",
+                  "english": "There is more spending on education in this budget.",
+                  "note": "इस, oblique before में."
+                },
+                {
+                  "hindi": "बजट सत्र सोमवार से शुरू होगा।",
+                  "read_as": "bajaṭ satra somvaar se shuruu hogaa.",
+                  "english": "The budget session begins on Monday.",
+                  "note": "सत्र, a session — a Sanskrit word attached directly to an English one."
+                }
+              ],
+              "common_error": {
+                "wrong": "इस बजट में कटौती की गई है — with बजट treated as feminine",
+                "right": "बजट पेश किया गया",
+                "why_en": "बजट is masculine. Loanword genders have to be learned one at a time."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "How is a loanword's gender decided in Hindi?",
+              "options": [
+                "By its English gender",
+                "By its ending",
+                "There is no rule — it is assigned and must be learned",
+                "All loanwords are masculine"
+              ],
+              "answer_index": 2,
+              "explanation_en": "बजट masculine, टिप feminine, फ़ाइल feminine, स्कूल masculine. Nothing predicts it."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means finance?",
+              "options": [
+                "वित्त",
+                "ख़र्च",
+                "कटौती",
+                "बजट"
+              ],
+              "options_read_as": [
+                "vitt",
+                "ḳharch",
+                "kaṭautii",
+                "bajaṭ"
+              ],
+              "answer_index": 0,
+              "explanation_en": "वित्त is finance, as in वित्त मंत्री. ख़र्च is expenditure and कटौती is a cut or reduction."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बजट",
+              "वित्त मंत्री ने बजट प्रस्तुत किया।",
+              "बजट सत्र सोमवार से शुरू होगा।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L37-I2",
+          "type": "word",
+          "target": "विकास",
+          "read_as": "vikaas",
+          "gloss_en": "development",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "news",
+            "masculine",
+            "gender_flag",
+            "suffix_shiil",
+            "word_family"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "विकसित and विकासशील — developed and developing",
+              "explanation_en": "विकास is development, masculine and consonant-final, so flag it. Its family is worth learning together: विकसित means developed, and विकासशील means developing, using the suffix -शील, which means tending towards or having the quality of. That suffix builds a small set — सहनशील tolerant, परिवर्तनशील changeable — and it is the same -शील as in भाग्यशाली's cousin. विकासशील देश, a developing country, is a phrase you will meet in any news report about economics.",
+              "examples": [
+                {
+                  "hindi": "क्षेत्र में विकास की ज़रूरत है।",
+                  "read_as": "kṣetra meṁ vikaas kii zaruurat hai.",
+                  "english": "The area needs development.",
+                  "note": "की ज़रूरत, from level 1."
+                },
+                {
+                  "hindi": "भारत एक विकासशील देश है।",
+                  "read_as": "bhaarat ek vikaasshiil desh hai.",
+                  "english": "India is a developing country.",
+                  "note": "विकासशील, invariable."
+                },
+                {
+                  "hindi": "यह इलाक़ा अब काफ़ी विकसित है।",
+                  "read_as": "yah ilaaqaa ab kaafii viksit hai.",
+                  "english": "This area is now quite developed.",
+                  "note": "विकसित, with the vowel shortened from विकास."
+                }
+              ],
+              "common_error": {
+                "wrong": "विकास की योजना बड़ी है — with विकास treated as feminine",
+                "right": "विकास का काम बड़ा है",
+                "why_en": "विकास is masculine. In विकास की योजना, the की agrees with योजना, not with विकास — watch which noun the postposition is pointing at."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does the suffix -शील mean?",
+              "options": [
+                "without",
+                "tending towards, having the quality of",
+                "belonging to",
+                "very"
+              ],
+              "answer_index": 1,
+              "explanation_en": "विकासशील developing, सहनशील tolerant, परिवर्तनशील changeable."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means progress?",
+              "options": [
+                "विकसित",
+                "उन्नति",
+                "विकास",
+                "प्रगति"
+              ],
+              "options_read_as": [
+                "viksit",
+                "unnati",
+                "vikaas",
+                "pragati"
+              ],
+              "answer_index": 3,
+              "explanation_en": "प्रगति is progress, and it is a -ति noun, so feminine. उन्नति is advancement and is also feminine and also -ति."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "विकास",
+              "भारत एक विकासशील देश है।",
+              "यह इलाक़ा अब काफ़ी विकसित है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L37-I3",
+          "type": "word",
+          "target": "संसद",
+          "read_as": "saṁsad",
+          "gloss_en": "parliament",
+          "gender": "f",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "news",
+            "feminine",
+            "gender_flag",
+            "vowel_change",
+            "suffix_iiya"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "संसद and सांसद — one vowel apart",
+              "explanation_en": "संसद is parliament, feminine and consonant-final, so flag it. And there is a trap sitting right beside it: सांसद, with a long आ in the first syllable, is a member of parliament — a person, masculine. One vowel separates the institution from the individual, and in fast speech or careless reading they are easy to confuse. संसदीय is parliamentary, using the -ईय suffix that also gave आदरणीय and स्थानीय.",
+              "examples": [
+                {
+                  "hindi": "संसद में बहस चल रही है।",
+                  "read_as": "saṁsad meṁ bahas chal rahii hai.",
+                  "english": "A debate is going on in parliament.",
+                  "note": "बहस from level 12, also feminine."
+                },
+                {
+                  "hindi": "वो तीन बार सांसद रह चुके हैं।",
+                  "read_as": "vo tiin baar saaṁsad rah chuke haiṁ.",
+                  "english": "He has been an MP three times.",
+                  "note": "सांसद, the person. रह चुके, the completive — a Module 14 construction met here in passing."
+                },
+                {
+                  "hindi": "यह संसदीय परंपरा है।",
+                  "read_as": "yah saṁsadiiya paraṁparaa hai.",
+                  "english": "This is parliamentary tradition.",
+                  "note": "परंपरा — tradition, and another -आ feminine from level 35."
+                }
+              ],
+              "common_error": {
+                "wrong": "संसद ने कहा",
+                "right": "सांसद ने कहा",
+                "why_en": "A parliament does not speak; a member of it does. The long vowel is the whole difference."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What is the difference between संसद and सांसद?",
+              "options": [
+                "संसद is parliament; सांसद is a member of it",
+                "संसद is the building; सांसद is the session",
+                "सांसद is the plural",
+                "None — they are spelling variants"
+              ],
+              "answer_index": 0,
+              "explanation_en": "One vowel apart, and one is an institution while the other is a person."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a legislative assembly at state level?",
+              "options": [
+                "मंत्रालय",
+                "संसद",
+                "विधानसभा",
+                "सांसद"
+              ],
+              "options_read_as": [
+                "maṁtraalay",
+                "saṁsad",
+                "vidhaansabhaa",
+                "saaṁsad"
+              ],
+              "answer_index": 2,
+              "explanation_en": "विधानसभा is a state assembly — विधान, legislation, plus सभा, assembly. And सभा is another -आ feminine."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "संसद",
+              "संसद में बहस चल रही है।",
+              "वो तीन बार सांसद रह चुके हैं।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A loanword's gender is assigned and unpredictable — बजट masculine, टिप feminine, and nothing to derive. -शील builds adjectives of tendency: विकासशील, सहनशील. And संसद against सांसद is one long vowel between an institution and a person.",
+        "key_forms": [
+          "बजट प्रस्तुत करना",
+          "विकासशील देश",
+          "संसद में"
+        ],
+        "next_up_en": "Next: nine news reports, using every word from this block."
+      }
+    }
+  ]
+}

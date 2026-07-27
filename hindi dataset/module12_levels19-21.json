@@ -1,0 +1,1132 @@
+{
+  "module": 12,
+  "module_name_en": "Conversation",
+  "module_name_hi": "बातचीत",
+  "phase": 5,
+  "batch": {
+    "levels_from": 19,
+    "levels_to": 21
+  },
+  "receptive_only": true,
+  "content_note": "These are language-learning dialogues set in a clinic and a pharmacy. No real drug names, doses or medical guidance appear in them, and none is intended.",
+  "levels": [
+    {
+      "level": 19,
+      "title_en": "At the clinic",
+      "title_hi": "क्लिनिक में",
+      "items": [
+        {
+          "id": "M12-L19-I1",
+          "type": "dialogue",
+          "target": "मरीज़ का नाम?",
+          "title_en": "Registering at reception",
+          "setting": "clinic",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "clinic",
+            "genitive",
+            "se_milnaa",
+            "causative",
+            "ellipsis"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Patient",
+              "label_hi": "मरीज़"
+            },
+            {
+              "id": "B",
+              "label_en": "Receptionist",
+              "label_hi": "रिसेप्शनिस्ट"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "नमस्ते, डॉक्टर साहब से मिलना है।",
+              "read_as": "namaste, ḍôkṭar saahab se milnaa hai.",
+              "english": "I need to see the doctor."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "पर्ची बनवा लीजिए। मरीज़ का नाम?",
+              "read_as": "parchii banvaa liijie. mariiz kaa naam?",
+              "english": "Get a slip made. Patient's name?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "राहुल शर्मा।",
+              "read_as": "raahul sharmaa.",
+              "english": "Rahul Sharma."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "उम्र? और पहली बार आए हैं?",
+              "read_as": "umr? aur pahlii baar aae haiṁ?",
+              "english": "Age? And is this your first visit?"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "बत्तीस। हाँ, पहली बार।",
+              "read_as": "battiis. haaṁ, pahlii baar.",
+              "english": "Thirty-two. Yes, first time."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पर्ची — the slip that starts everything",
+              "explanation_en": "पर्ची is the small registration slip that every Indian clinic runs on, and पर्ची बनवा लीजिए is the first thing you will hear at the window. Note it is बनवा, the causative — have it made — rather than बना. मरीज़ का नाम uses का because नाम is masculine; a feminine noun would take की. And डॉक्टर साहब से मिलना है uses से for meeting somebody, which is worth catching: in Hindi you meet with a person, never to them.",
+              "listening_notes": [
+                "से मिलना — meeting takes से. मुझे उनसे मिलना है, I need to meet them.",
+                "पहली बार आए हैं? drops आप entirely. The polite plural on आए is the only signal of who is being addressed.",
+                "उम्र is feminine, though you rarely need the agreement — the question is normally answered with a bare number."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What does the receptionist tell him to do first?",
+              "options": [
+                "Wait outside",
+                "Get a registration slip made",
+                "Come back tomorrow",
+                "Pay at the counter"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 2: पर्ची बनवा लीजिए."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "का",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "मरीज़ ___ नाम?",
+              "question_read_as": "mariiz ___ naam?",
+              "options": [
+                "की",
+                "के",
+                "को",
+                "का"
+              ],
+              "options_read_as": [
+                "kii",
+                "ke",
+                "ko",
+                "kaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "नाम is masculine, and the genitive agrees with the thing described."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Busy waiting room behind. The receptionist is brisk and slightly bored."
+          }
+        },
+        {
+          "id": "M12-L19-I2",
+          "type": "dialogue",
+          "target": "क्या तकलीफ़ है?",
+          "title_en": "What's the trouble",
+          "setting": "clinic",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "clinic",
+            "symptoms",
+            "dative_experiencer",
+            "ellipsis",
+            "module10_link"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Doctor",
+              "label_hi": "डॉक्टर"
+            },
+            {
+              "id": "B",
+              "label_en": "Patient",
+              "label_hi": "मरीज़"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "बताइए, क्या तकलीफ़ है?",
+              "read_as": "bataaie, kyaa takliif hai?",
+              "english": "Tell me, what's the trouble?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "डॉक्टर साहब, दो दिन से बुख़ार है।",
+              "read_as": "ḍôkṭar saahab, do din se buḳhaar hai.",
+              "english": "Doctor, I've had a fever for two days."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "और कुछ? सिर दर्द, कमज़ोरी?",
+              "read_as": "aur kuchh? sir dard, kamzorii?",
+              "english": "Anything else? Headache, weakness?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हाँ, सिर में दर्द भी है। और भूख नहीं लग रही।",
+              "read_as": "haaṁ, sir meṁ dard bhii hai. aur bhuukh nahiiṁ lag rahii.",
+              "english": "Yes, my head hurts too. And I've no appetite."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "उल्टी हुई?",
+              "read_as": "ulṭii huii?",
+              "english": "Any vomiting?"
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "नहीं, वो नहीं।",
+              "read_as": "nahiiṁ, vo nahiiṁ.",
+              "english": "No, not that."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तकलीफ़ — the word a doctor opens with",
+              "explanation_en": "क्या तकलीफ़ है? is the standard opening. तकलीफ़ means trouble or discomfort and covers everything from a headache to something serious, so it commits neither side to anything. Note दो दिन से बुख़ार है — से for a stretch of time that is still running, where English uses \"for\". And भूख नहीं लग रही is Module 10's dative experiencer with the dative itself dropped: मुझे is obvious in a consulting room, so it goes.",
+              "listening_notes": [
+                "भूख नहीं लग रही: भूख is feminine, so लग रही, and the auxiliary है is dropped as well.",
+                "दो दिन से — से for an ongoing stretch. दो दिन में would mean within two days, which is a different claim.",
+                "उल्टी हुई? is two words and a complete question. उल्टी is feminine, hence हुई."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Which symptoms does the patient report?",
+              "options": [
+                "Weakness and vomiting",
+                "Fever and vomiting",
+                "Fever, headache and no appetite",
+                "Only a headache"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Lines 2 and 4, and he denies vomiting in line 6."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "रही",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "और भूख नहीं लग ___ ।",
+              "question_read_as": "aur bhuukh nahiiṁ lag ___ .",
+              "options": [
+                "रही",
+                "रहे",
+                "रहीं",
+                "रहा"
+              ],
+              "options_read_as": [
+                "rahii",
+                "rahe",
+                "rahiiṁ",
+                "rahaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "भूख is feminine singular and it is the subject, so लग रही."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Quiet room. The doctor's questions are clipped; the patient is slower and slightly hesitant."
+          }
+        },
+        {
+          "id": "M12-L19-I3",
+          "type": "dialogue",
+          "target": "कितने दिनों से?",
+          "title_en": "How long has it been",
+          "setting": "clinic",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "clinic",
+            "oblique_plural",
+            "counted_nouns",
+            "causative"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Doctor",
+              "label_hi": "डॉक्टर"
+            },
+            {
+              "id": "B",
+              "label_en": "Patient",
+              "label_hi": "मरीज़"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "कितने दिनों से ऐसा है?",
+              "read_as": "kitne dinoṁ se aisaa hai?",
+              "english": "How many days has it been like this?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "तीन-चार दिन से।",
+              "read_as": "tiin-chaar din se.",
+              "english": "Three or four days."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "दवा कुछ ली?",
+              "read_as": "davaa kuchh lii?",
+              "english": "Have you taken anything?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "घर पर बुख़ार की दवा ली थी।",
+              "read_as": "ghar par buḳhaar kii davaa lii thii.",
+              "english": "I took something for the fever at home."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ठीक है। एक जाँच करवा लीजिए।",
+              "read_as": "ṭhiik hai. ek jaaṁch karvaa liijie.",
+              "english": "All right. Get a test done."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "कितने दिनों, but तीन-चार दिन",
+              "explanation_en": "Line 1 has दिनों, the full oblique plural, because से follows it. Line 2 has plain दिन — तीन-चार दिन से — and that is also correct, because a counted noun after a specific number often stays unmarked even before a postposition. Both are heard and both are right. The difference is that कितने दिनों has no fixed number behind it, so the noun takes its full plural shape. This is the same tension you met with दो रोटी against रोटियों के साथ back at the dhaba.",
+              "listening_notes": [
+                "दवा कुछ ली? — दवा is feminine, so ली. Putting कुछ after the noun is normal in speech.",
+                "जाँच करवा लीजिए — the second causative again, doing what causatives do in any service setting: have it done, by somebody else.",
+                "तीन-चार is the ordinary way of giving an approximate number. Hindi pairs adjacent numbers constantly: दो-तीन, चार-पाँच."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How long has the patient been unwell?",
+              "options": [
+                "Over a week",
+                "Since this morning",
+                "Two days",
+                "Three or four days"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 2: तीन-चार दिन से."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 1,
+              "masked_token": "दिनों",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "कितने ___ से ऐसा है?",
+              "question_read_as": "kitne ___ se aisaa hai?",
+              "options": [
+                "दिन",
+                "दिनों",
+                "दिनें",
+                "दिनो"
+              ],
+              "options_read_as": [
+                "din",
+                "dinoṁ",
+                "dineṁ",
+                "dino"
+              ],
+              "answer_index": 1,
+              "explanation_en": "से is a postposition, and with no fixed number in front the plural goes fully oblique."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 3 is three words, delivered fast and almost swallowed."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A clinic visit starts with a पर्ची and the question क्या तकलीफ़ है?. से covers ongoing duration — दो दिन से — as well as meeting somebody. And a counted noun after a specific number can stay unmarked before a postposition, which is why कितने दिनों and तीन-चार दिन are both right.",
+        "key_forms": [
+          "पर्ची बनवा लीजिए",
+          "क्या तकलीफ़ है?",
+          "दो दिन से"
+        ],
+        "next_up_en": "Next: describing where it hurts, and what the doctor asks about."
+      }
+    },
+    {
+      "level": 20,
+      "title_en": "Describing symptoms",
+      "title_hi": "तकलीफ़ बताना",
+      "items": [
+        {
+          "id": "M12-L20-I1",
+          "type": "dialogue",
+          "target": "पेट में दर्द है",
+          "title_en": "Where the pain is",
+          "setting": "clinic",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "clinic",
+            "body_parts",
+            "me_location",
+            "oblique_infinitive",
+            "module10_link"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Doctor",
+              "label_hi": "डॉक्टर"
+            },
+            {
+              "id": "B",
+              "label_en": "Patient",
+              "label_hi": "मरीज़"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "दर्द कहाँ हो रहा है?",
+              "read_as": "dard kahaaṁ ho rahaa hai?",
+              "english": "Where's the pain?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "पेट में, यहाँ नीचे।",
+              "read_as": "peṭ meṁ, yahaaṁ niiche.",
+              "english": "In my stomach, down here."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "कब से? खाने के बाद बढ़ता है?",
+              "read_as": "kab se? khaane ke baad baṛhtaa hai?",
+              "english": "Since when? Does it get worse after eating?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हाँ, खाने के बाद ज़्यादा होता है।",
+              "read_as": "haaṁ, khaane ke baad zyaadaa hotaa hai.",
+              "english": "Yes, it's worse after eating."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "दबाने पर दर्द होता है?",
+              "read_as": "dabaane par dard hotaa hai?",
+              "english": "Does it hurt when I press?"
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "थोड़ा सा, हाँ।",
+              "read_as": "thoṛaa saa, haaṁ.",
+              "english": "A little, yes."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "में on the body part, and no possessive at all",
+              "explanation_en": "पेट में दर्द है is literally \"there is pain in the stomach\". Hindi does not say \"my stomach hurts\" with a possessive; it puts the body part in a location phrase with में and lets the pain be the subject. You met exactly this in Module 10 with मुझे पैर में चोट लगी. The person can be added with मेरे or मुझे, but in a consulting room both usually drop, because it is obvious whose stomach is under discussion.",
+              "listening_notes": [
+                "दबाने पर — the infinitive goes oblique to दबाने before पर, and पर here means \"upon\", in the sense of \"when\".",
+                "खाने के बाद — the same oblique infinitive, this time before के बाद.",
+                "बढ़ता है and होता है are both habitual: does it generally get worse, rather than is it worse right now."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "When does the pain get worse?",
+              "options": [
+                "After eating",
+                "When walking",
+                "In the morning",
+                "At night"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 4: खाने के बाद ज़्यादा होता है."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "में",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "पेट ___, यहाँ नीचे।",
+              "question_read_as": "peṭ ___, yahaaṁ niiche.",
+              "options": [
+                "से",
+                "को",
+                "में",
+                "पर"
+              ],
+              "options_read_as": [
+                "se",
+                "ko",
+                "meṁ",
+                "par"
+              ],
+              "answer_index": 2,
+              "explanation_en": "The body part takes में — pain is located inside it, not on it."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Very quiet. Line 6 is almost mumbled."
+          }
+        },
+        {
+          "id": "M12-L20-I2",
+          "type": "dialogue",
+          "target": "मन नहीं करता",
+          "title_en": "Fever and appetite",
+          "setting": "clinic",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "clinic",
+            "man_karnaa",
+            "lagnaa",
+            "oblique_infinitive",
+            "rahnaa"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Doctor",
+              "label_hi": "डॉक्टर"
+            },
+            {
+              "id": "B",
+              "label_en": "Patient",
+              "label_hi": "मरीज़"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "बुख़ार कितना रहता है?",
+              "read_as": "buḳhaar kitnaa rahtaa hai?",
+              "english": "How high does the fever go?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "रात को ज़्यादा हो जाता है।",
+              "read_as": "raat ko zyaadaa ho jaataa hai.",
+              "english": "It goes up at night."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "भूख लगती है?",
+              "read_as": "bhuukh lagtii hai?",
+              "english": "Any appetite?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "बिल्कुल नहीं। कुछ खाने का मन नहीं करता।",
+              "read_as": "bilkul nahiiṁ. kuchh khaane kaa man nahiiṁ kartaa.",
+              "english": "None at all. I don't feel like eating anything."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "पानी ज़रूर पीते रहिए।",
+              "read_as": "paanii zaruur piite rahie.",
+              "english": "Do keep drinking water."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मन नहीं करता — not feeling like it",
+              "explanation_en": "कुछ खाने का मन नहीं करता is \"I don't feel like eating\". मन is the mind or the inclination, and X का मन करना means to feel like doing X. The infinitive goes oblique before का — खाने का, never खाना का. It is one of the most useful constructions in conversational Hindi and it appears in almost no beginner course, which means learners tend to reach for नहीं चाहता instead and sound oddly forceful.",
+              "listening_notes": [
+                "भूख लगती है? — भूख is feminine, so लगती. Habitual, asking whether it happens at all rather than right now.",
+                "रात को — time expressions take को, as with शाम को and इतवार को.",
+                "पीते रहिए — the रहना construction for continuing, the same one as चलते रहिए in the directions level."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What does the doctor tell the patient to do?",
+              "options": [
+                "Rest completely",
+                "Keep drinking water",
+                "Eat more",
+                "Come back tomorrow"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 5: पानी ज़रूर पीते रहिए."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "लगती",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "भूख ___ है?",
+              "question_read_as": "bhuukh ___ hai?",
+              "options": [
+                "लगते",
+                "लगीं",
+                "लगता",
+                "लगती"
+              ],
+              "options_read_as": [
+                "lagte",
+                "lagiiṁ",
+                "lagtaa",
+                "lagtii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "भूख is feminine and it is the subject of the sentence."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 4 is flat and tired. Line 5 is firm."
+          }
+        },
+        {
+          "id": "M12-L20-I3",
+          "type": "dialogue",
+          "target": "किसी दवा से एलर्जी है?",
+          "title_en": "Allergies and current medicines",
+          "setting": "clinic",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "clinic",
+            "se_cause",
+            "ne",
+            "word_order",
+            "idiom"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Doctor",
+              "label_hi": "डॉक्टर"
+            },
+            {
+              "id": "B",
+              "label_en": "Patient",
+              "label_hi": "मरीज़"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "किसी दवा से एलर्जी है?",
+              "read_as": "kisii davaa se elarjii hai?",
+              "english": "Any drug allergies?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "पता नहीं। कभी हुई नहीं।",
+              "read_as": "pataa nahiiṁ. kabhii huii nahiiṁ.",
+              "english": "Not that I know. It's never happened."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "अभी कोई दवा चल रही है?",
+              "read_as": "abhii koii davaa chal rahii hai?",
+              "english": "Are you on anything at the moment?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हाँ, बीपी की गोली लेता हूँ।",
+              "read_as": "haaṁ, biipii kii golii letaa huuṁ.",
+              "english": "Yes, I take a BP tablet."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "आज सुबह ली थी आपने?",
+              "read_as": "aaj subah lii thii aapne?",
+              "english": "Did you take it this morning?"
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "हाँ, ली थी।",
+              "read_as": "haaṁ, lii thii.",
+              "english": "Yes, I did."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "से for the thing that causes a reaction",
+              "explanation_en": "किसी दवा से एलर्जी है? — allergic to a medicine, with से marking what causes it. That is से's cause sense, sitting alongside from, by means of, route and comparison. Note also आज सुबह ली थी आपने?, where the ने-subject arrives at the very end of the question. Putting it there is emphatic: the doctor already assumes the answer is yes and is confirming rather than enquiring.",
+              "listening_notes": [
+                "बीपी की गोली — की because गोली is feminine. The English abbreviation is treated exactly as a Hindi noun.",
+                "कभी हुई नहीं — कभी नहीं means never, split around the verb, which is completely normal.",
+                "दवा चल रही है is idiomatic: a course of medicine \"runs\"."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What is the patient already taking?",
+              "options": [
+                "He cannot remember",
+                "Nothing",
+                "A blood-pressure tablet",
+                "Something for the fever"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 4: बीपी की गोली लेता हूँ."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 5,
+              "masked_token": "आपने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "आज सुबह ली थी ___ ?",
+              "question_read_as": "aaj subah lii thii ___ ?",
+              "options": [
+                "आपने",
+                "आपको",
+                "आपका",
+                "आप"
+              ],
+              "options_read_as": [
+                "aapne",
+                "aapko",
+                "aapkaa",
+                "aap"
+              ],
+              "answer_index": 0,
+              "explanation_en": "लेना is transitive and the tense is perfective, so ने — even though it has been moved to the end."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Line 5 rises at the end. It is a confirmation, not an open question."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Pain goes in a location phrase with में and the body part, with no possessive anywhere. मन नहीं करता is how you say you do not feel like something. And से adds a fifth job — the cause of a reaction — to the four it already had.",
+        "key_forms": [
+          "पेट में दर्द है",
+          "मन नहीं करता",
+          "दवा से एलर्जी"
+        ],
+        "next_up_en": "Next: the pharmacy — reading a prescription, timings, and a substitute."
+      }
+    },
+    {
+      "level": 21,
+      "title_en": "At the pharmacy",
+      "title_hi": "मेडिकल स्टोर पर",
+      "items": [
+        {
+          "id": "M12-L21-I1",
+          "type": "dialogue",
+          "target": "डॉक्टर ने कौन सी लिखी है?",
+          "title_en": "Handing over the prescription",
+          "setting": "pharmacy",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "pharmacy",
+            "ne",
+            "noun_subject",
+            "feminine_plural",
+            "vaalaa"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Pharmacist",
+              "label_hi": "दुकानदार"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "भैया, ये पर्ची देख लीजिए।",
+              "read_as": "bhaiyaa, ye parchii dekh liijie.",
+              "english": "Have a look at this prescription."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "हाँ जी। तीन दवाएँ लिखी हैं।",
+              "read_as": "haaṁ jii. tiin davaaeṁ likhii haiṁ.",
+              "english": "Yes. Three medicines are written here."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "सब मिल जाएँगी?",
+              "read_as": "sab mil jaaeṁgii?",
+              "english": "Will you have them all?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "दो हैं। तीसरी डॉक्टर ने कौन सी लिखी है?",
+              "read_as": "do haiṁ. tiisrii ḍôkṭar ne kaun sii likhii hai?",
+              "english": "Two, yes. Which is the third one the doctor's written?"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ये वाली, नीचे।",
+              "read_as": "ye vaalii, niiche.",
+              "english": "This one, at the bottom."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "डॉक्टर ने — a noun subject keeps its ने separate",
+              "explanation_en": "डॉक्टर ने is a noun subject, so ने stands as its own word and never fuses the way मैंने and उसने do. And लिखी agrees with feminine दवा, understood behind तीसरी. Note तीन दवाएँ लिखी हैं in line 2: feminine plural with an auxiliary, so the nasal sits on हैं and the participle stays plain — exactly as with the rotis on the restaurant bill in level 16.",
+              "listening_notes": [
+                "दवाएँ is the feminine plural of दवा.",
+                "सब मिल जाएँगी? — feminine plural, so जाएँगी. मिलना here means \"to be available\".",
+                "ये वाली — वाला again, agreeing feminine, standing in for a whole phrase: this one here."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How many of the three medicines does he have in stock?",
+              "options": [
+                "One",
+                "None",
+                "All three",
+                "Two"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 4: दो हैं — and he asks about the third."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "ने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "तीसरी डॉक्टर ___ कौन सी लिखी है?",
+              "question_read_as": "tiisrii ḍôkṭar ___ kaun sii likhii hai?",
+              "options": [
+                "का",
+                "ने",
+                "को",
+                "से"
+              ],
+              "options_read_as": [
+                "kaa",
+                "ne",
+                "ko",
+                "se"
+              ],
+              "answer_index": 1,
+              "explanation_en": "लिखना is transitive and the tense is perfective, so the noun subject takes a separate ने."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Counter, other customers waiting. The pharmacist reads while talking."
+          }
+        },
+        {
+          "id": "M12-L21-I2",
+          "type": "dialogue",
+          "target": "खाने के बाद",
+          "title_en": "How often to take it",
+          "setting": "pharmacy",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "pharmacy",
+            "ke_baad",
+            "se_pahle",
+            "oblique_infinitive",
+            "ellipsis"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Pharmacist",
+              "label_hi": "दुकानदार"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "ये दिन में कितनी बार?",
+              "read_as": "ye din meṁ kitnii baar?",
+              "english": "How many times a day is this?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "तीन बार, खाने के बाद।",
+              "read_as": "tiin baar, khaane ke baad.",
+              "english": "Three times, after food."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "और ये सिरप?",
+              "read_as": "aur ye sirap?",
+              "english": "And this syrup?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "रात को सोने से पहले।",
+              "read_as": "raat ko sone se pahle.",
+              "english": "At night, before sleeping."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ठीक है, समझ गया।",
+              "read_as": "ṭhiik hai, samajh gayaa.",
+              "english": "Right, understood."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "के बाद and से पहले — after and before",
+              "explanation_en": "के बाद means after; से पहले means before. They take different postpositions — बाद goes with के, पहले goes with से — and there is no way to derive that, so the two are learned as a pair. Both put the infinitive in front of them into the oblique: खाने के बाद, सोने से पहले. Between them those two phrases cover most of what a pharmacist will ever tell you.",
+              "listening_notes": [
+                "दिन में कितनी बार — बार is feminine, so कितनी.",
+                "सोने से पहले — सोना goes oblique to सोने. Any infinitive does this before a postposition.",
+                "After line 1 the exchange has no verbs at all. Instructions get compressed to bare phrases."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "When is the syrup to be taken?",
+              "options": [
+                "At night before sleeping",
+                "Only when needed",
+                "Three times a day",
+                "After food"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 4: रात को सोने से पहले."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "बाद",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "तीन बार, खाने के ___ ।",
+              "question_read_as": "tiin baar, khaane ke ___ .",
+              "options": [
+                "साथ",
+                "पास",
+                "बाद",
+                "पहले"
+              ],
+              "options_read_as": [
+                "saath",
+                "paas",
+                "baad",
+                "pahle"
+              ],
+              "answer_index": 2,
+              "explanation_en": "के बाद is after. पहले would need से in front of it, not के."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Both lines 2 and 4 are rattled off — this is said fifty times a day."
+          }
+        },
+        {
+          "id": "M12-L21-I3",
+          "type": "dialogue",
+          "target": "इस दवा की जगह",
+          "title_en": "A substitute is offered",
+          "setting": "pharmacy",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "pharmacy",
+            "oblique_demonstrative",
+            "ki_jagah",
+            "se_puuchhnaa"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Customer",
+              "label_hi": "ग्राहक"
+            },
+            {
+              "id": "B",
+              "label_en": "Pharmacist",
+              "label_hi": "दुकानदार"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "ये दवा नहीं है क्या?",
+              "read_as": "ye davaa nahiiṁ hai kyaa?",
+              "english": "You don't have this medicine?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "नहीं, पर इस दवा की जगह दूसरी है।",
+              "read_as": "nahiiṁ, par is davaa kii jagah duusrii hai.",
+              "english": "No, but there's another in place of this one."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "वही चीज़ है?",
+              "read_as": "vahii chiiz hai?",
+              "english": "Is it the same thing?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "हाँ, सॉल्ट वही है। डॉक्टर से पूछ लीजिए।",
+              "read_as": "haaṁ, sôlṭ vahii hai. ḍôkṭar se puuchh liijie.",
+              "english": "Yes, same salt. Do check with the doctor."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ठीक है, फ़ोन कर लेता हूँ।",
+              "read_as": "ṭhiik hai, fon kar letaa huuṁ.",
+              "english": "All right, I'll ring him."
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "हाँ, वो बेहतर रहेगा।",
+              "read_as": "haaṁ, vo behtar rahegaa.",
+              "english": "Yes, that's better."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "इस दवा की जगह — यह goes oblique",
+              "explanation_en": "की जगह means \"in place of\", and it is a postposition phrase, so whatever stands in front of it goes oblique. यह becomes इस, वह becomes उस, ये becomes इन. The noun दवा does not change shape, because most feminine nouns ending in -आ do not, but the demonstrative gives the game away. Listening for इस and उस where you expect यह and वह is one of the fastest ways to hear that a postposition is on its way.",
+              "listening_notes": [
+                "सॉल्ट is what Indian pharmacists call the active ingredient. The English word is standard in the trade.",
+                "डॉक्टर से पूछ लीजिए — asking takes से, not को. You ask from a person.",
+                "वो बेहतर रहेगा — रहना for \"it will be\", a little softer and less final than होगा."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What does the pharmacist suggest the customer do?",
+              "options": [
+                "Try another shop",
+                "Check with the doctor",
+                "Wait until tomorrow",
+                "Take a double dose of the substitute"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 4: डॉक्टर से पूछ लीजिए."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "इस",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "नहीं, पर ___ दवा की जगह दूसरी है।",
+              "question_read_as": "nahiiṁ, par ___ davaa kii jagah duusrii hai.",
+              "options": [
+                "इन",
+                "इसे",
+                "ये",
+                "इस"
+              ],
+              "options_read_as": [
+                "in",
+                "ise",
+                "ye",
+                "is"
+              ],
+              "answer_index": 3,
+              "explanation_en": "की जगह is a postposition phrase, so यह goes oblique to इस."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Line 4 is helpful rather than defensive. Line 6 is almost an afterthought."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A noun subject keeps ने as a separate word — डॉक्टर ने. के बाद and से पहले take different postpositions and have to be learned as a pair. And the demonstrative going oblique — यह to इस — is often the only audible warning that a postposition is coming.",
+        "key_forms": [
+          "डॉक्टर ने लिखी है",
+          "खाने के बाद",
+          "इस दवा की जगह"
+        ],
+        "next_up_en": "Next: booking a test, fasting instructions, and collecting a report."
+      }
+    }
+  ]
+}

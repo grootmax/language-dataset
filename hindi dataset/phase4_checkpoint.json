@@ -1,0 +1,444 @@
+{
+  "kind": "phase_checkpoint",
+  "phase": 4,
+  "covers_modules": [
+    8,
+    9,
+    10,
+    11
+  ],
+  "questions_total": 30,
+  "sourcing_note_en": "Every question here is grounded in item targets read from the files on disk rather than from memory. Modules 9, 10 and 11 are verifiable and carry nine questions each. Module 8 is not: its level files are not on disk, and the only assertions about it that survive anywhere are its level 52 to 53 verb block — बताना, पूछना, मिलना, लाना — and the fact that its brief made collocation a game in its own right. It therefore carries three questions rather than the seven or eight an even split would give it, and every one of those three tests something independently attested. When module08.json is merged, four more questions should be added and the weighting corrected.",
+  "weighting": {
+    "module_8": 3,
+    "module_9": 9,
+    "module_10": 9,
+    "module_11": 9
+  },
+  "questions": [
+    {
+      "n": 1,
+      "module": 9,
+      "prompt_en": "Which of these three verbs takes ने in the perfective?",
+      "options": [
+        "कहना",
+        "बोलना",
+        "लाना",
+        "भूलना"
+      ],
+      "answer_index": 0,
+      "explanation_en": "वह बोला, मैं लाया, वह भूला — all without ने. उसने कहा takes it, which is why the pair is taught side by side.",
+      "source": "M9 L11-12"
+    },
+    {
+      "n": 2,
+      "module": 9,
+      "prompt_en": "मैंने लड़की ___ बुलाया — what fills the gap?",
+      "options": [
+        "का",
+        "ने",
+        "को",
+        "से"
+      ],
+      "answer_index": 2,
+      "explanation_en": "को is obligatory with a person as object, and it switches the verb to neutral agreement.",
+      "source": "M9 L13-14"
+    },
+    {
+      "n": 3,
+      "module": 9,
+      "prompt_en": "मैंने उसको देखा. Why is देखा not देखी, even if उस refers to a woman?",
+      "options": [
+        "The subject is masculine",
+        "It is a mistake",
+        "देखना is irregular",
+        "को on the object blocks agreement, so the verb goes neutral"
+      ],
+      "answer_index": 3,
+      "explanation_en": "This is the proof that को is doing grammatical work rather than just marking a person.",
+      "source": "M9 L13"
+    },
+    {
+      "n": 4,
+      "module": 9,
+      "prompt_en": "हमने फ़िल्म ___ है — which form?",
+      "options": [
+        "देखा",
+        "देखी",
+        "देखे",
+        "देखीं"
+      ],
+      "answer_index": 1,
+      "explanation_en": "फ़िल्म is feminine and takes no को, so the verb agrees with it. ने does not change that in the present perfect.",
+      "source": "M9 L15"
+    },
+    {
+      "n": 5,
+      "module": 9,
+      "prompt_en": "उन्होंने किताबें पढ़ी थीं. What is the verb agreeing with?",
+      "options": [
+        "nothing — it is neutral",
+        "the speaker",
+        "उन्होंने",
+        "किताबें"
+      ],
+      "answer_index": 3,
+      "explanation_en": "Feminine plural object with no को, so पढ़ी थीं. The ने subject never controls agreement.",
+      "source": "M9 L16"
+    },
+    {
+      "n": 6,
+      "module": 9,
+      "prompt_en": "वह भूला and उसने याद किया. Why does one take ने and not the other?",
+      "options": [
+        "Tense",
+        "भूलना is one of the three verbs that refuse ने; करना does not",
+        "One is negative",
+        "One is plural"
+      ],
+      "answer_index": 1,
+      "explanation_en": "The exception sits in the verb itself, not in the sentence around it.",
+      "source": "M9 L12"
+    },
+    {
+      "n": 7,
+      "module": 9,
+      "prompt_en": "राम ने सीता को देखा. Which noun does the verb agree with?",
+      "options": [
+        "neither — the verb is neutral",
+        "both",
+        "राम",
+        "सीता"
+      ],
+      "answer_index": 0,
+      "explanation_en": "ने blocks the subject and को blocks the object, so nothing is left to agree with.",
+      "source": "M9 L14"
+    },
+    {
+      "n": 8,
+      "module": 9,
+      "prompt_en": "ने is best understood as what?",
+      "options": [
+        "An emphasis particle",
+        "A past tense marker",
+        "An ordinary postposition, which puts the noun before it into the oblique",
+        "A subject pronoun"
+      ],
+      "answer_index": 2,
+      "explanation_en": "Which is why लोग becomes लोगों before it, exactly as before any other postposition.",
+      "source": "M9 L11-16"
+    },
+    {
+      "n": 9,
+      "module": 9,
+      "prompt_en": "मैं पानी लाया. Why no ने?",
+      "options": [
+        "पानी is uncountable",
+        "लाना is one of the three verbs that refuse it",
+        "The sentence is present tense",
+        "मैं cannot take ने"
+      ],
+      "answer_index": 1,
+      "explanation_en": "बोलना, लाना and भूलना are the three, and they have to be learned as a set.",
+      "source": "M9 L11"
+    },
+    {
+      "n": 10,
+      "module": 10,
+      "prompt_en": "मुझे भूख लगी है means what?",
+      "options": [
+        "I am hungry, with मैं as subject",
+        "I want food",
+        "I have hunger",
+        "Hunger has struck me — the hunger is the subject"
+      ],
+      "answer_index": 3,
+      "explanation_en": "The person is a destination rather than an actor, which is the organising idea of the whole module.",
+      "source": "M10 L1, L5"
+    },
+    {
+      "n": 11,
+      "module": 10,
+      "prompt_en": "Which verb goes with दर्द and बुखार?",
+      "options": [
+        "करना",
+        "लगना",
+        "होना",
+        "आना"
+      ],
+      "answer_index": 2,
+      "explanation_en": "भूख, प्यास and ठंड take लगना; दर्द and बुखार take होना. The choice is fixed per sensation.",
+      "source": "M10 L5-6"
+    },
+    {
+      "n": 12,
+      "module": 10,
+      "prompt_en": "Which verb goes with नींद and ग़ुस्सा?",
+      "options": [
+        "आना",
+        "करना",
+        "लगना",
+        "होना"
+      ],
+      "answer_index": 0,
+      "explanation_en": "नींद आना and ग़ुस्सा आना — they arrive. डर, in the same level, takes लगना instead.",
+      "source": "M10 L7"
+    },
+    {
+      "n": 13,
+      "module": 10,
+      "prompt_en": "उन्हें आम पसंद ___ — which form?",
+      "options": [
+        "हैं",
+        "हूँ",
+        "हो",
+        "है"
+      ],
+      "answer_index": 0,
+      "explanation_en": "पसंद agrees with the thing liked, not with the person. आम is plural here, so हैं.",
+      "source": "M10 L8"
+    },
+    {
+      "n": 14,
+      "module": 10,
+      "prompt_en": "मुझे यह जगह अच्छी लगी. Why अच्छी?",
+      "options": [
+        "अच्छी is invariable",
+        "मुझे is feminine",
+        "अच्छा agrees with जगह, which is feminine — and so does लगना",
+        "It is irregular"
+      ],
+      "answer_index": 2,
+      "explanation_en": "Two words move together, which is what distinguishes अच्छा लगना from पसंद है.",
+      "source": "M10 L9"
+    },
+    {
+      "n": 15,
+      "module": 10,
+      "prompt_en": "मुझे हिंदी आती है means what?",
+      "options": [
+        "I am learning Hindi",
+        "I want to learn Hindi",
+        "Hindi is coming to me",
+        "I know Hindi"
+      ],
+      "answer_index": 3,
+      "explanation_en": "आना for skills and languages. जानना is used for facts and people rather than abilities.",
+      "source": "M10 L10"
+    },
+    {
+      "n": 16,
+      "module": 10,
+      "prompt_en": "मुझे जाना चाहिए means what?",
+      "options": [
+        "I need to go",
+        "I should go",
+        "I have to go",
+        "I am going"
+      ],
+      "answer_index": 1,
+      "explanation_en": "चाहिए with an infinitive is should. With a noun — मुझे पानी चाहिए — it is need.",
+      "source": "M10 L12"
+    },
+    {
+      "n": 17,
+      "module": 10,
+      "prompt_en": "दो घंटे लगते हैं. Which sense of लगना is this?",
+      "options": [
+        "To seem",
+        "To feel",
+        "To be attached",
+        "To take, of time"
+      ],
+      "answer_index": 3,
+      "explanation_en": "One of the five senses the module catalogues — felt, seemed, attached, taken, and struck.",
+      "source": "M10 L13-14"
+    },
+    {
+      "n": 18,
+      "module": 10,
+      "prompt_en": "When the experiencer is a noun rather than a pronoun, what happens?",
+      "options": [
+        "It stays in the direct case",
+        "It takes को and goes oblique — बच्चे को, लोगों को",
+        "It takes ने",
+        "It takes से"
+      ],
+      "answer_index": 1,
+      "explanation_en": "मुझे and उसे are simply the fused forms of the same को.",
+      "source": "M10 L4"
+    },
+    {
+      "n": 19,
+      "module": 11,
+      "prompt_en": "In a compound verb, which part carries the tense and agreement?",
+      "options": [
+        "The vector",
+        "Both",
+        "Neither",
+        "The main verb"
+      ],
+      "answer_index": 0,
+      "explanation_en": "The main verb sits in its bare stem and the vector does all the grammatical work.",
+      "source": "M11 L1"
+    },
+    {
+      "n": 20,
+      "module": 11,
+      "prompt_en": "Which vector turns the action inward, toward the doer?",
+      "options": [
+        "पड़ना",
+        "देना",
+        "लेना",
+        "जाना"
+      ],
+      "answer_index": 2,
+      "explanation_en": "खा लेना, समझ लेना, कर लेना. देना turns it outward.",
+      "source": "M11 L2, L4"
+    },
+    {
+      "n": 21,
+      "module": 11,
+      "prompt_en": "उसने खाना खा ___ — which vector makes it decisive and outward-facing?",
+      "options": [
+        "पड़ा",
+        "लिया",
+        "दिया",
+        "गया"
+      ],
+      "answer_index": 1,
+      "explanation_en": "Eating is inward, so लेना. देना would be wrong here — you do not eat for somebody else's benefit.",
+      "source": "M11 L2-5"
+    },
+    {
+      "n": 22,
+      "module": 11,
+      "prompt_en": "Which compound refuses ने?",
+      "options": [
+        "पढ़ लेना",
+        "कर लेना",
+        "बता देना",
+        "खा जाना"
+      ],
+      "answer_index": 3,
+      "explanation_en": "The जाना vector makes the whole compound intransitive, however transitive the main verb was.",
+      "source": "M11 L7"
+    },
+    {
+      "n": 23,
+      "module": 11,
+      "prompt_en": "रो पड़ना means what?",
+      "options": [
+        "To make somebody cry",
+        "To cry deliberately",
+        "To burst into tears — sudden and involuntary",
+        "To stop crying"
+      ],
+      "answer_index": 2,
+      "explanation_en": "पड़ना marks something that happens to you rather than something you do.",
+      "source": "M11 L8"
+    },
+    {
+      "n": 24,
+      "module": 11,
+      "prompt_en": "What separates सकना from पाना?",
+      "options": [
+        "सकना is ability; पाना is managing to, often against difficulty",
+        "सकना is past only",
+        "पाना is formal",
+        "Nothing"
+      ],
+      "answer_index": 0,
+      "explanation_en": "नहीं कर सका says you were unable; नहीं कर पाया says you did not manage it.",
+      "source": "M11 L10-12"
+    },
+    {
+      "n": 25,
+      "module": 11,
+      "prompt_en": "Put the obligation ladder in order from weakest to strongest.",
+      "options": [
+        "चाहिए, है, पड़ा",
+        "है, चाहिए, पड़ा",
+        "चाहिए, पड़ा, है",
+        "पड़ा, है, चाहिए"
+      ],
+      "answer_index": 0,
+      "explanation_en": "चाहिए is should, है is have to, पड़ा is had no choice.",
+      "source": "M11 L13-14"
+    },
+    {
+      "n": 26,
+      "module": 11,
+      "prompt_en": "पीना becomes पिलाना in the causative. What has happened to the vowel?",
+      "options": [
+        "It has been dropped",
+        "Nothing",
+        "It has shortened, and a ल has appeared",
+        "It has lengthened"
+      ],
+      "answer_index": 2,
+      "explanation_en": "पीना, पिलाना, पिलवाना — and खाना, खिलाना, खिलवाना does the same thing.",
+      "source": "M11 L16"
+    },
+    {
+      "n": 27,
+      "module": 11,
+      "prompt_en": "मैंने उससे काम करवाया. What is से doing?",
+      "options": [
+        "Marking a comparison",
+        "Marking a source",
+        "Marking the instrument",
+        "Naming the person who actually did the work"
+      ],
+      "answer_index": 3,
+      "explanation_en": "The second causative names an agent, and से is how it is named.",
+      "source": "M11 L18"
+    },
+    {
+      "n": 28,
+      "module": 8,
+      "prompt_en": "Why does Module 8 make collocation a game in its own right?",
+      "options": [
+        "Because collocations are rare",
+        "Because knowing a word and picking the wrong verb with it is what makes a learner sound translated",
+        "Because it is easier to test",
+        "Because collocations are always idioms"
+      ],
+      "answer_index": 1,
+      "explanation_en": "The same principle governs पासवर्ड डालना and मुद्दा उठाना in Module 13.",
+      "source": "M8 brief"
+    },
+    {
+      "n": 29,
+      "module": 8,
+      "prompt_en": "Which of these Module 8 verbs takes को on the person and a second object?",
+      "options": [
+        "आना",
+        "मिलना",
+        "लाना",
+        "बताना"
+      ],
+      "answer_index": 3,
+      "explanation_en": "उसने मुझे बताया कि — बताना takes को, while कहना and पूछना take से. Module 13 level 19 returns to exactly this.",
+      "source": "M8 L52-53"
+    },
+    {
+      "n": 30,
+      "module": 8,
+      "prompt_en": "मिलना has two quite different uses. Which pair is right?",
+      "options": [
+        "To find and to lose",
+        "To meet somebody, and for something to be available or received",
+        "To give and to take",
+        "To arrive and to depart"
+      ],
+      "answer_index": 1,
+      "explanation_en": "उनसे मिला, I met them; मुझे मिल गया, I got it. Both recur throughout Modules 10 to 13.",
+      "source": "M8 L52-53"
+    }
+  ],
+  "open_flags": [
+    "Module 8 carries three of thirty questions rather than the seven or eight an even split would give it, because its level files are not on disk and only its level 52-53 verb block and its collocation principle are independently attested. Four further questions should be added once module08.json is merged.",
+    "Module 9's own checkpoints 1 and 2 and its mock remain blocked for the same reason — module09_levels01-05.json and module09_levels06-10.json are not on disk, so levels 1 to 10 of that module cannot be assessed. The nine questions here draw only on levels 11 to 16, which are present."
+  ]
+}

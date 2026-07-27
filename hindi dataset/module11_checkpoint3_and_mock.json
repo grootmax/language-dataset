@@ -1,0 +1,995 @@
+{
+  "module": 11,
+  "note": "error_spot keys are grammatical faults only. A vectorless sentence is never the answer to an error_spot question in this module.",
+  "checkpoints": [
+    {
+      "after_level": 15,
+      "covers_levels": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "questions": [
+        {
+          "id": "M11-CP3-Q1",
+          "source": "current",
+          "format": "recognition",
+          "question": "___ यह कर सका।",
+          "question_read_as": "___ yah kar sakaa.",
+          "options": [
+            "मैं",
+            "मैंने",
+            "मुझे",
+            "मेरा"
+          ],
+          "options_read_as": [
+            "maiṁ",
+            "maiṁne",
+            "mujhe",
+            "meraa"
+          ],
+          "answer_index": 0,
+          "explanation_en": "सकना never takes ने, in any tense, whatever the main verb does on its own.",
+          "source_item_ids": [
+            "M11-L11-I1"
+          ]
+        },
+        {
+          "id": "M11-CP3-Q2",
+          "source": "current",
+          "format": "recognition",
+          "question": "वह समय पर पहुँच ___ ।",
+          "question_read_as": "vah samay par pahuṁch ___ .",
+          "options": [
+            "पाया",
+            "पाई",
+            "पाए",
+            "पाईं"
+          ],
+          "options_read_as": [
+            "paayaa",
+            "paaii",
+            "paae",
+            "paaiiṁ"
+          ],
+          "answer_index": 1,
+          "explanation_en": "No ने in a पाना sentence, so the verb agrees with the feminine singular subject.",
+          "source_item_ids": [
+            "M11-L12-I1"
+          ]
+        },
+        {
+          "id": "M11-CP3-Q3",
+          "source": "current",
+          "format": "recognition",
+          "question": "___ जाना पड़ा।",
+          "question_read_as": "___ jaanaa paṛaa.",
+          "options": [
+            "मैं",
+            "मैंने",
+            "मुझे",
+            "मेरा"
+          ],
+          "options_read_as": [
+            "maiṁ",
+            "maiṁne",
+            "mujhe",
+            "meraa"
+          ],
+          "answer_index": 2,
+          "explanation_en": "Every rung of the obligation ladder puts the person in the dative, and पड़ना takes no ने.",
+          "source_item_ids": [
+            "M11-L13-I3"
+          ]
+        },
+        {
+          "id": "M11-CP3-Q4",
+          "source": "current",
+          "format": "recognition",
+          "question": "मैंने काम ___ ।",
+          "question_read_as": "maiṁne kaam ___ .",
+          "options": [
+            "करता",
+            "किया",
+            "कराया",
+            "करवाया"
+          ],
+          "options_read_as": [
+            "kartaa",
+            "kiyaa",
+            "karaayaa",
+            "karvaayaa"
+          ],
+          "answer_index": 3,
+          "explanation_en": "For work done through somebody else, the second causative करवाया.",
+          "source_item_ids": [
+            "M11-L15-I1",
+            "M11-L15-I2",
+            "M11-L15-I3"
+          ]
+        },
+        {
+          "id": "M11-CP3-Q5",
+          "source": "current",
+          "format": "transform",
+          "question": "You want to decline politely — unable rather than unwilling.",
+          "question_read_as": null,
+          "options": [
+            "मैं नहीं आ सकता।",
+            "मैं नहीं आता।",
+            "मैंने नहीं आ सका।",
+            "मैं नहीं आऊँगा।"
+          ],
+          "options_read_as": [
+            "maiṁ nahiiṁ aa saktaa.",
+            "maiṁ nahiiṁ aataa.",
+            "maiṁne nahiiṁ aa sakaa.",
+            "maiṁ nahiiṁ aauṁgaa."
+          ],
+          "answer_index": 0,
+          "explanation_en": "नहीं आ सकता blames circumstance rather than will. The last option is not Hindi at all — सकना takes no ने.",
+          "source_item_ids": [
+            "M11-L11-I2"
+          ]
+        },
+        {
+          "id": "M11-CP3-Q6",
+          "source": "current",
+          "format": "transform",
+          "question": "You are apologising for missing something yesterday.",
+          "question_read_as": null,
+          "options": [
+            "मैं कल नहीं आया।",
+            "मैं कल नहीं आ पाया।",
+            "मैं कल नहीं आता।",
+            "मैंने कल नहीं आ पाया।"
+          ],
+          "options_read_as": [
+            "maiṁ kal nahiiṁ aayaa.",
+            "maiṁ kal nahiiṁ aa paayaa.",
+            "maiṁ kal nahiiṁ aataa.",
+            "maiṁne kal nahiiṁ aa paayaa."
+          ],
+          "answer_index": 1,
+          "explanation_en": "आ पाया points at circumstances, which is what an apology wants. The last option adds ने, which पाना never takes.",
+          "source_item_ids": [
+            "M11-L12-I2"
+          ]
+        },
+        {
+          "id": "M11-CP3-Q7",
+          "source": "current",
+          "format": "transform",
+          "question": "You were made to read the book.",
+          "question_read_as": null,
+          "options": [
+            "मुझे किताब पढ़नी पड़ा।",
+            "मुझे किताब पढ़ना पड़ा।",
+            "मुझे किताब पढ़नी पड़ी।",
+            "मैंने किताब पढ़नी पड़ी।"
+          ],
+          "options_read_as": [
+            "mujhe kitaab paṛhnii paṛaa.",
+            "mujhe kitaab paṛhnaa paṛaa.",
+            "mujhe kitaab paṛhnii paṛii.",
+            "maiṁne kitaab paṛhnii paṛii."
+          ],
+          "answer_index": 2,
+          "explanation_en": "किताब is feminine, so the infinitive takes -नी and the modal follows it to पड़ी.",
+          "source_item_ids": [
+            "M11-L14-I1"
+          ]
+        },
+        {
+          "id": "M11-CP3-Q8",
+          "source": "current",
+          "format": "transform",
+          "question": "You will have to write a letter.",
+          "question_read_as": null,
+          "options": [
+            "मैंने चिट्ठी लिखनी होगी।",
+            "मुझे चिट्ठी लिखना होगा।",
+            "मुझे चिट्ठी लिखनी होगा।",
+            "मुझे चिट्ठी लिखनी होगी।"
+          ],
+          "options_read_as": [
+            "maiṁne chiṭṭhii likhnii hogii.",
+            "mujhe chiṭṭhii likhnaa hogaa.",
+            "mujhe chiṭṭhii likhnii hogaa.",
+            "mujhe chiṭṭhii likhnii hogii."
+          ],
+          "answer_index": 3,
+          "explanation_en": "चिट्ठी is feminine, so लिखनी, and होगा follows the infinitive to होगी.",
+          "source_item_ids": [
+            "M11-L14-I2"
+          ]
+        },
+        {
+          "id": "M11-CP3-Q9",
+          "source": "current",
+          "format": "error_spot",
+          "question": "कौन सा वाक्य ग़लत है?",
+          "question_read_as": "kaun saa vaakya ġalat hai?",
+          "options": [
+            "मैंने यह कर सका।",
+            "मैं यह कर पाया।",
+            "मैं नहीं जा सका।",
+            "मैं नहीं जा पाया।"
+          ],
+          "options_read_as": [
+            "maiṁne yah kar sakaa.",
+            "maiṁ yah kar paayaa.",
+            "maiṁ nahiiṁ jaa sakaa.",
+            "maiṁ nahiiṁ jaa paayaa."
+          ],
+          "answer_index": 0,
+          "explanation_en": "Neither सकना nor पाना ever takes ने. The other three are all correct.",
+          "source_item_ids": [
+            "M11-L11-I3",
+            "M11-L12-I3"
+          ]
+        },
+        {
+          "id": "M11-CP3-Q10",
+          "source": "current",
+          "format": "error_spot",
+          "question": "कौन सा वाक्य ग़लत है?",
+          "question_read_as": "kaun saa vaakya ġalat hai?",
+          "options": [
+            "मुझे जाना है।",
+            "मुझे काम करनी पड़ी।",
+            "मुझे जाना पड़ा।",
+            "मुझे जाना चाहिए।"
+          ],
+          "options_read_as": [
+            "mujhe jaanaa hai.",
+            "mujhe kaam karnii paṛii.",
+            "mujhe jaanaa paṛaa.",
+            "mujhe jaanaa chaahie."
+          ],
+          "answer_index": 1,
+          "explanation_en": "काम is masculine, so the infinitive is करना and the modal पड़ा.",
+          "source_item_ids": [
+            "M11-L13-I1",
+            "M11-L13-I2",
+            "M11-L14-I3"
+          ]
+        }
+      ]
+    }
+  ],
+  "mock_exam": {
+    "question_count": 30,
+    "composition": {
+      "current": 21,
+      "phase": 6,
+      "high_value": 3
+    },
+    "questions": [
+      {
+        "id": "M11-MOCK-Q1",
+        "source": "current",
+        "format": "recognition",
+        "question": "मैंने खाना ___ ।",
+        "question_read_as": "maiṁne khaanaa ___ .",
+        "options": [
+          "खाती लिया",
+          "खाया लिया",
+          "खा लिया",
+          "खाना लिया"
+        ],
+        "options_read_as": [
+          "khaatii liyaa",
+          "khaayaa liyaa",
+          "khaa liyaa",
+          "khaanaa liyaa"
+        ],
+        "answer_index": 2,
+        "explanation_en": "The main verb goes to its bare stem; only the vector inflects.",
+        "source_item_ids": [
+          "M11-L01-I1"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q2",
+        "source": "current",
+        "format": "recognition",
+        "question": "मैं रोज़ खाना ___ ।",
+        "question_read_as": "maiṁ roz khaanaa ___ .",
+        "options": [
+          "खाता हूँ",
+          "खा देता हूँ",
+          "खा गया",
+          "खा लेता हूँ"
+        ],
+        "options_read_as": [
+          "khaataa huuṁ",
+          "khaa detaa huuṁ",
+          "khaa gayaa",
+          "khaa letaa huuṁ"
+        ],
+        "answer_index": 0,
+        "explanation_en": "Habitual statements normally take no vector at all.",
+        "source_item_ids": [
+          "M11-L01-I3"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q3",
+        "source": "current",
+        "format": "recognition",
+        "question": "मैंने मदद कर ___ ।",
+        "question_read_as": "maiṁne madad kar ___ .",
+        "options": [
+          "लिए",
+          "लीं",
+          "लिया",
+          "ली"
+        ],
+        "options_read_as": [
+          "lie",
+          "liiṁ",
+          "liyaa",
+          "lii"
+        ],
+        "answer_index": 3,
+        "explanation_en": "मदद is feminine, and the agreement lands on the vector.",
+        "source_item_ids": [
+          "M11-L02-I3"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q4",
+        "source": "current",
+        "format": "recognition",
+        "question": "मैंने पैसे ले ___ ।",
+        "question_read_as": "maiṁne paise le ___ .",
+        "options": [
+          "ली",
+          "लिए",
+          "लीं",
+          "लिया"
+        ],
+        "options_read_as": [
+          "lii",
+          "lie",
+          "liiṁ",
+          "liyaa"
+        ],
+        "answer_index": 1,
+        "explanation_en": "पैसे is masculine plural, so the vector is लिए.",
+        "source_item_ids": [
+          "M11-L03-I2"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q5",
+        "source": "current",
+        "format": "transform",
+        "question": "You cooked, and the food is for someone else.",
+        "question_read_as": null,
+        "options": [
+          "मैंने खाना बनाया।",
+          "मैंने खाना बना लिया।",
+          "मैंने खाना बना दिया।",
+          "मैं खाना बनाता हूँ।"
+        ],
+        "options_read_as": [
+          "maiṁne khaanaa banaayaa.",
+          "maiṁne khaanaa banaa liyaa.",
+          "maiṁne khaanaa banaa diyaa.",
+          "maiṁ khaanaa banaataa huuṁ."
+        ],
+        "answer_index": 2,
+        "explanation_en": "देना sends the result outward. All four are correct Hindi.",
+        "source_item_ids": [
+          "M11-L04-I2"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q6",
+        "source": "current",
+        "format": "recognition",
+        "question": "उसने चिट्ठी लिख ___ ।",
+        "question_read_as": "usne chiṭṭhii likh ___ .",
+        "options": [
+          "दी",
+          "दिए",
+          "दीं",
+          "दिया"
+        ],
+        "options_read_as": [
+          "dii",
+          "die",
+          "diiṁ",
+          "diyaa"
+        ],
+        "answer_index": 0,
+        "explanation_en": "चिट्ठी is feminine, so the vector is दी.",
+        "source_item_ids": [
+          "M11-L05-I1"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q7",
+        "source": "current",
+        "format": "recognition",
+        "question": "देर हो ___ ।",
+        "question_read_as": "der ho ___ .",
+        "options": [
+          "गए",
+          "गईं",
+          "गया",
+          "गई"
+        ],
+        "options_read_as": [
+          "gae",
+          "gaiiṁ",
+          "gayaa",
+          "gaii"
+        ],
+        "answer_index": 3,
+        "explanation_en": "देर is feminine and there is no ने, so the verb agrees with it.",
+        "source_item_ids": [
+          "M11-L06-I2"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q8",
+        "source": "current",
+        "format": "transform",
+        "question": "He polished off the lot.",
+        "question_read_as": null,
+        "options": [
+          "उसने सब खा गया।",
+          "वह सब खा गया।",
+          "वह सब खा लिया।",
+          "उसने सब खा गई।"
+        ],
+        "options_read_as": [
+          "usne sab khaa gayaa.",
+          "vah sab khaa gayaa.",
+          "vah sab khaa liyaa.",
+          "usne sab khaa gaii."
+        ],
+        "answer_index": 1,
+        "explanation_en": "जाना is intransitive, so the compound takes no ने even though खाना is transitive.",
+        "source_item_ids": [
+          "M11-L07-I1"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q9",
+        "source": "current",
+        "format": "transform",
+        "question": "She's gone — she left.",
+        "question_read_as": null,
+        "options": [
+          "वह चली गया।",
+          "वह चला गई।",
+          "वह चली गई।",
+          "उसने चली गई।"
+        ],
+        "options_read_as": [
+          "vah chalii gayaa.",
+          "vah chalaa gaii.",
+          "vah chalii gaii.",
+          "usne chalii gaii."
+        ],
+        "answer_index": 2,
+        "explanation_en": "In चला जाना both elements agree, so a feminine subject gives चली गई.",
+        "source_item_ids": [
+          "M11-L07-I3"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q10",
+        "source": "current",
+        "format": "recognition",
+        "question": "वह हँस ___ ।",
+        "question_read_as": "vah haṁs ___ .",
+        "options": [
+          "पड़ी",
+          "पड़े",
+          "पड़ीं",
+          "पड़ा"
+        ],
+        "options_read_as": [
+          "paṛii",
+          "paṛe",
+          "paṛiiṁ",
+          "paṛaa"
+        ],
+        "answer_index": 0,
+        "explanation_en": "With a feminine subject and no ने, the verb is feminine.",
+        "source_item_ids": [
+          "M11-L08-I2"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q11",
+        "source": "current",
+        "format": "error_spot",
+        "question": "कौन सा वाक्य ग़लत है?",
+        "question_read_as": "kaun saa vaakya ġalat hai?",
+        "options": [
+          "वह रो दिया।",
+          "वह कह पड़ा।",
+          "उसने कहा।",
+          "उसने कह पड़ा।"
+        ],
+        "options_read_as": [
+          "vah ro diyaa.",
+          "vah kah paṛaa.",
+          "usne kahaa.",
+          "usne kah paṛaa."
+        ],
+        "answer_index": 3,
+        "explanation_en": "ने needs both halves transitive, and पड़ना is not.",
+        "source_item_ids": [
+          "M11-L09-I1",
+          "M11-L09-I2"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q12",
+        "source": "current",
+        "format": "recognition",
+        "question": "मैं यह ___ सकता हूँ।",
+        "question_read_as": "maiṁ yah ___ saktaa huuṁ.",
+        "options": [
+          "करना",
+          "कर",
+          "किया",
+          "करता"
+        ],
+        "options_read_as": [
+          "karnaa",
+          "kar",
+          "kiyaa",
+          "kartaa"
+        ],
+        "answer_index": 1,
+        "explanation_en": "सकना takes a bare stem, never an infinitive.",
+        "source_item_ids": [
+          "M11-L10-I1"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q13",
+        "source": "current",
+        "format": "error_spot",
+        "question": "कौन सा वाक्य ग़लत है?",
+        "question_read_as": "kaun saa vaakya ġalat hai?",
+        "options": [
+          "मैं नहीं आ पाया।",
+          "मैं नहीं जा सका।",
+          "मैंने यह कर सका।",
+          "मैं यह कर पाया।"
+        ],
+        "options_read_as": [
+          "maiṁ nahiiṁ aa paayaa.",
+          "maiṁ nahiiṁ jaa sakaa.",
+          "maiṁne yah kar sakaa.",
+          "maiṁ yah kar paayaa."
+        ],
+        "answer_index": 2,
+        "explanation_en": "Neither सकना nor पाना takes ने.",
+        "source_item_ids": [
+          "M11-L11-I1",
+          "M11-L12-I1"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q14",
+        "source": "current",
+        "format": "transform",
+        "question": "You are apologising — circumstances stopped you coming.",
+        "question_read_as": null,
+        "options": [
+          "मैं कल नहीं आ पाया।",
+          "मैं कल नहीं आता।",
+          "मैं कल नहीं आऊँगा।",
+          "मैं कल नहीं आया।"
+        ],
+        "options_read_as": [
+          "maiṁ kal nahiiṁ aa paayaa.",
+          "maiṁ kal nahiiṁ aataa.",
+          "maiṁ kal nahiiṁ aauṁgaa.",
+          "maiṁ kal nahiiṁ aayaa."
+        ],
+        "answer_index": 0,
+        "explanation_en": "पाना points at circumstances rather than capability.",
+        "source_item_ids": [
+          "M11-L12-I2"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q15",
+        "source": "current",
+        "format": "transform",
+        "question": "It is arranged — you are going tomorrow.",
+        "question_read_as": null,
+        "options": [
+          "मुझे कल जाना पड़ा।",
+          "मैं कल जाता हूँ।",
+          "मुझे कल जाना चाहिए।",
+          "मुझे कल जाना है।"
+        ],
+        "options_read_as": [
+          "mujhe kal jaanaa paṛaa.",
+          "maiṁ kal jaataa huuṁ.",
+          "mujhe kal jaanaa chaahie.",
+          "mujhe kal jaanaa hai."
+        ],
+        "answer_index": 3,
+        "explanation_en": "है is the arrangement rung of the ladder.",
+        "source_item_ids": [
+          "M11-L13-I2"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q16",
+        "source": "current",
+        "format": "recognition",
+        "question": "मुझे किताब ___ पड़ी।",
+        "question_read_as": "mujhe kitaab ___ paṛii.",
+        "options": [
+          "पढ़ना",
+          "पढ़नी",
+          "पढ़ने",
+          "पढ़ा"
+        ],
+        "options_read_as": [
+          "paṛhnaa",
+          "paṛhnii",
+          "paṛhne",
+          "paṛhaa"
+        ],
+        "answer_index": 1,
+        "explanation_en": "The infinitive agrees with feminine किताब, and the modal follows it.",
+        "source_item_ids": [
+          "M11-L14-I1"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q17",
+        "source": "current",
+        "format": "recognition",
+        "question": "मैंने घर साफ़ ___ ।",
+        "question_read_as": "maiṁne ghar saaf ___ .",
+        "options": [
+          "किया",
+          "कराया",
+          "करवाया",
+          "करता"
+        ],
+        "options_read_as": [
+          "kiyaa",
+          "karaayaa",
+          "karvaayaa",
+          "kartaa"
+        ],
+        "answer_index": 2,
+        "explanation_en": "A cleaner did the cleaning, so the second causative.",
+        "source_item_ids": [
+          "M11-L15-I3"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q18",
+        "source": "current",
+        "format": "recognition",
+        "question": "माँ ने बच्चे को दूध ___ ।",
+        "question_read_as": "maaṁ ne bacche ko duudh ___ .",
+        "options": [
+          "पिलाया",
+          "पिलवाया",
+          "पीता",
+          "पिया"
+        ],
+        "options_read_as": [
+          "pilaayaa",
+          "pilvaayaa",
+          "piitaa",
+          "piyaa"
+        ],
+        "answer_index": 0,
+        "explanation_en": "First causative, with the vowel shortened and a ल inserted.",
+        "source_item_ids": [
+          "M11-L16-I1"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q19",
+        "source": "current",
+        "format": "recognition",
+        "question": "उसने बच्ची को रोटी ___ ।",
+        "question_read_as": "usne bacchii ko roṭii ___ .",
+        "options": [
+          "खिलाए",
+          "खिलाईं",
+          "खिलाया",
+          "खिलाई"
+        ],
+        "options_read_as": [
+          "khilaae",
+          "khilaaiiṁ",
+          "khilaayaa",
+          "khilaaii"
+        ],
+        "answer_index": 3,
+        "explanation_en": "रोटी is the bare object and feminine, so it controls the verb. The को-marked child cannot.",
+        "source_item_ids": [
+          "M11-L16-I2",
+          "M11-L16-I3"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q20",
+        "source": "current",
+        "format": "error_spot",
+        "question": "कौन सा वाक्य ग़लत है?",
+        "question_read_as": "kaun saa vaakya ġalat hai?",
+        "options": [
+          "मैंने घर बनाया।",
+          "मैंने घर बना।",
+          "मैंने घर बनवाया।",
+          "घर बना।"
+        ],
+        "options_read_as": [
+          "maiṁne ghar banaayaa.",
+          "maiṁne ghar banaa.",
+          "maiṁne ghar banvaayaa.",
+          "ghar banaa."
+        ],
+        "answer_index": 1,
+        "explanation_en": "बनना is intransitive and takes no ने. With ने you need बनाया or बनवाया.",
+        "source_item_ids": [
+          "M11-L17-I2"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q21",
+        "source": "current",
+        "format": "recognition",
+        "question": "मैंने ___ काम करवाया।",
+        "question_read_as": "maiṁne ___ kaam karvaayaa.",
+        "options": [
+          "उसका",
+          "उसको",
+          "उससे",
+          "उसने"
+        ],
+        "options_read_as": [
+          "uskaa",
+          "usko",
+          "usse",
+          "usne"
+        ],
+        "answer_index": 2,
+        "explanation_en": "The agent of a causative takes से.",
+        "source_item_ids": [
+          "M11-L18-I1",
+          "M11-L18-I2",
+          "M11-L17-I1",
+          "M11-L17-I3",
+          "M11-L18-I3"
+        ]
+      },
+      {
+        "id": "M11-MOCK-Q22",
+        "source": "phase",
+        "source_module": 9,
+        "format": "transform",
+        "question": "मैं रोटी खाता हूँ।",
+        "question_read_as": "maiṁ roṭii khaataa huuṁ.",
+        "options": [
+          "मैंने रोटी खाई।",
+          "मैंने रोटी खाए।",
+          "मैंने रोटी खाया।",
+          "मैं रोटी खाई।"
+        ],
+        "options_read_as": [
+          "maiṁne roṭii khaaii.",
+          "maiṁne roṭii khaae.",
+          "maiṁne roṭii khaayaa.",
+          "maiṁ roṭii khaaii."
+        ],
+        "answer_index": 0,
+        "explanation_en": "Perfective transitive takes ने, and the verb agrees with feminine रोटी.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M11-MOCK-Q23",
+        "source": "phase",
+        "source_module": 9,
+        "format": "recognition",
+        "question": "मैंने लड़की को ___ ।",
+        "question_read_as": "maiṁne laṛkii ko ___ .",
+        "options": [
+          "बुलाए",
+          "बुलाईं",
+          "बुलाई",
+          "बुलाया"
+        ],
+        "options_read_as": [
+          "bulaae",
+          "bulaaiiṁ",
+          "bulaaii",
+          "bulaayaa"
+        ],
+        "answer_index": 3,
+        "explanation_en": "को on the object blocks agreement, so the verb stays neutral.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M11-MOCK-Q24",
+        "source": "phase",
+        "source_module": 10,
+        "format": "recognition",
+        "question": "मुझे भूख ___ है।",
+        "question_read_as": "mujhe bhuukh ___ hai.",
+        "options": [
+          "लगा",
+          "लगी",
+          "लगे",
+          "लगीं"
+        ],
+        "options_read_as": [
+          "lagaa",
+          "lagii",
+          "lage",
+          "lagiiṁ"
+        ],
+        "answer_index": 1,
+        "explanation_en": "भूख is feminine and it is the subject of the sentence.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M11-MOCK-Q25",
+        "source": "phase",
+        "source_module": 10,
+        "format": "recognition",
+        "question": "मुझे किताबें पसंद ___ ।",
+        "question_read_as": "mujhe kitaabeṁ pasand ___ .",
+        "options": [
+          "थी",
+          "है",
+          "हैं",
+          "हूँ"
+        ],
+        "options_read_as": [
+          "thii",
+          "hai",
+          "haiṁ",
+          "huuṁ"
+        ],
+        "answer_index": 2,
+        "explanation_en": "किताबें is plural and it is the subject, so हैं.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M11-MOCK-Q26",
+        "source": "phase",
+        "source_module": 10,
+        "format": "error_spot",
+        "question": "कौन सा वाक्य ग़लत है?",
+        "question_read_as": "kaun saa vaakya ġalat hai?",
+        "options": [
+          "मैं हिंदी आती हूँ।",
+          "मुझे तैरना आता है।",
+          "मुझे दर्द हो रहा है।",
+          "मुझे हिंदी आती है।"
+        ],
+        "options_read_as": [
+          "maiṁ hindii aatii huuṁ.",
+          "mujhe tairnaa aataa hai.",
+          "mujhe dard ho rahaa hai.",
+          "mujhe hindii aatii hai."
+        ],
+        "answer_index": 0,
+        "explanation_en": "The language is the subject and the person is the destination, so मुझे and है.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M11-MOCK-Q27",
+        "source": "phase",
+        "source_module": 8,
+        "format": "recognition",
+        "question": "मुझे किताब ___ ।",
+        "question_read_as": "mujhe kitaab ___ .",
+        "options": [
+          "मिले",
+          "मिलीं",
+          "मिला",
+          "मिली"
+        ],
+        "options_read_as": [
+          "mile",
+          "miliiṁ",
+          "milaa",
+          "milii"
+        ],
+        "answer_index": 3,
+        "explanation_en": "मिलना is intransitive and takes no ने. किताब is the subject and it is feminine.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M11-MOCK-Q28",
+        "source": "high_value",
+        "source_module": 4,
+        "format": "recognition",
+        "question": "कौन सा शब्द स्त्रीलिंग है?",
+        "question_read_as": "kaun saa shabd striiliṁg hai?",
+        "options": [
+          "पानी",
+          "किताब",
+          "लड़का",
+          "घर"
+        ],
+        "options_read_as": [
+          "paanii",
+          "kitaab",
+          "laṛkaa",
+          "ghar"
+        ],
+        "answer_index": 1,
+        "explanation_en": "किताब is feminine. None of the four signals its gender from its ending.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M11-MOCK-Q29",
+        "source": "high_value",
+        "source_module": 6,
+        "format": "recognition",
+        "question": "___ में बहुत किताबें हैं।",
+        "question_read_as": "___ meṁ bahut kitaabeṁ haiṁ.",
+        "options": [
+          "घर",
+          "घरें",
+          "घरों",
+          "घरे"
+        ],
+        "options_read_as": [
+          "ghar",
+          "ghareṁ",
+          "gharoṁ",
+          "ghare"
+        ],
+        "answer_index": 2,
+        "explanation_en": "A plural noun takes the oblique -ों before any postposition.",
+        "source_item_ids": []
+      },
+      {
+        "id": "M11-MOCK-Q30",
+        "source": "high_value",
+        "source_module": 9,
+        "format": "error_spot",
+        "question": "कौन सा वाक्य ग़लत है?",
+        "question_read_as": "kaun saa vaakya ġalat hai?",
+        "options": [
+          "मैंने गया।",
+          "मैंने खाना खाया।",
+          "वह आया।",
+          "मैं गया।"
+        ],
+        "options_read_as": [
+          "maiṁne gayaa.",
+          "maiṁne khaanaa khaayaa.",
+          "vah aayaa.",
+          "maiṁ gayaa."
+        ],
+        "answer_index": 0,
+        "explanation_en": "जाना is intransitive, so it never takes ने.",
+        "source_item_ids": []
+      }
+    ]
+  },
+  "review_flags": [
+    "Q27 draws on मिलना from the Module 8 L52 verb block, which is the part of M8 I can verify. Re-point its source_item_ids once module08.json is merged.",
+    "Q28 uses घर, पानी, किताब and लड़का for the gender question — all confirmed in Module 6, but confirm they are also in Module 4's taught word list."
+  ]
+}

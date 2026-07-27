@@ -1,0 +1,519 @@
+{
+  "module": 10,
+  "checkpoints": [
+    {
+      "after_level": 5,
+      "covers_levels": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "questions": [
+        {
+          "id": "M10-CP1-Q1",
+          "source": "current",
+          "format": "recognition",
+          "question": "___ क्या चाहिए?",
+          "question_read_as": "___ kyaa chaahie?",
+          "options": [
+            "आपको",
+            "आपने",
+            "आप",
+            "आपे"
+          ],
+          "options_read_as": [
+            "aapko",
+            "aapne",
+            "aap",
+            "aape"
+          ],
+          "answer_index": 0,
+          "explanation_en": "आप is the one pronoun with no fused dative form. आपको is all there is, and आपे is not a word.",
+          "source_item_ids": [
+            "M10-L03-I1"
+          ]
+        },
+        {
+          "id": "M10-CP1-Q2",
+          "source": "current",
+          "format": "recognition",
+          "question": "तुम + को = ?",
+          "question_read_as": "tum + ko = ?",
+          "options": [
+            "तुमें",
+            "तुम्हें",
+            "तुम्हारा",
+            "तुमको ने"
+          ],
+          "options_read_as": [
+            "tumeṁ",
+            "tumheṁ",
+            "tumhaaraa",
+            "tumko ne"
+          ],
+          "answer_index": 1,
+          "explanation_en": "The stem is तुम्ह, the same one in तुम्हारा, so the dative is तुम्हें.",
+          "source_item_ids": [
+            "M10-L02-I1"
+          ]
+        },
+        {
+          "id": "M10-CP1-Q3",
+          "source": "current",
+          "format": "recognition",
+          "question": "मुझे भूख ___ है।",
+          "question_read_as": "mujhe bhuukh ___ hai.",
+          "options": [
+            "लगा",
+            "लगे",
+            "लगी",
+            "लगीं"
+          ],
+          "options_read_as": [
+            "lagaa",
+            "lage",
+            "lagii",
+            "lagiiṁ"
+          ],
+          "answer_index": 2,
+          "explanation_en": "भूख is feminine singular and it is the subject of the sentence, so the verb is लगी.",
+          "source_item_ids": [
+            "M10-L01-I2",
+            "M10-L05-I1"
+          ]
+        },
+        {
+          "id": "M10-CP1-Q4",
+          "source": "current",
+          "format": "recognition",
+          "question": "___ भूख लगी है?",
+          "question_read_as": "___ bhuukh lagii hai?",
+          "options": [
+            "कौन",
+            "किसने",
+            "किसका",
+            "किसे"
+          ],
+          "options_read_as": [
+            "kaun",
+            "kisne",
+            "kiskaa",
+            "kise"
+          ],
+          "answer_index": 3,
+          "explanation_en": "The experiencer is not a subject, so the question word is किसे, from किस plus को.",
+          "source_item_ids": [
+            "M10-L04-I3"
+          ]
+        },
+        {
+          "id": "M10-CP1-Q5",
+          "source": "current",
+          "format": "transform",
+          "question": "वह प्यास लगी है।",
+          "question_read_as": "vah pyaas lagii hai.",
+          "options": [
+            "उसे प्यास लगी है।",
+            "उसने प्यास लगी है।",
+            "उसका प्यास लगी है।",
+            "वह प्यास लगा है।"
+          ],
+          "options_read_as": [
+            "use pyaas lagii hai.",
+            "usne pyaas lagii hai.",
+            "uskaa pyaas lagii hai.",
+            "vah pyaas lagaa hai."
+          ],
+          "answer_index": 0,
+          "explanation_en": "वह goes oblique to उस and fuses with को, giving उसे. प्यास stays the subject and keeps the verb feminine.",
+          "source_item_ids": [
+            "M10-L02-I2",
+            "M10-L05-I2"
+          ]
+        },
+        {
+          "id": "M10-CP1-Q6",
+          "source": "current",
+          "format": "transform",
+          "question": "हमने जाना चाहिए।",
+          "question_read_as": "hamne jaanaa chaahie.",
+          "options": [
+            "हमारा जाना चाहिए।",
+            "हमें जाना चाहिए।",
+            "हम जाना चाहिए।",
+            "हमने जाना चाहिए था।"
+          ],
+          "options_read_as": [
+            "hamaaraa jaanaa chaahie.",
+            "hameṁ jaanaa chaahie.",
+            "ham jaanaa chaahie.",
+            "hamne jaanaa chaahie thaa."
+          ],
+          "answer_index": 1,
+          "explanation_en": "हमने is the ergative form from Module 9 and needs a perfective transitive verb. चाहिए needs an experiencer, so हमें.",
+          "source_item_ids": [
+            "M10-L02-I3"
+          ]
+        },
+        {
+          "id": "M10-CP1-Q7",
+          "source": "current",
+          "format": "transform",
+          "question": "बच्चा को ठंड लगी।",
+          "question_read_as": "bacchaa ko ṭhanḍ lagii.",
+          "options": [
+            "बच्चेको ठंड लगी।",
+            "बच्चों को ठंड लगा।",
+            "बच्चे को ठंड लगी।",
+            "बच्चा ठंड लगी।"
+          ],
+          "options_read_as": [
+            "baccheko ṭhanḍ lagii.",
+            "bacchoṁ ko ṭhanḍ lagaa.",
+            "bacche ko ṭhanḍ lagii.",
+            "bacchaa ṭhanḍ lagii."
+          ],
+          "answer_index": 2,
+          "explanation_en": "बच्चा goes oblique to बच्चे before को, and को stays a separate word because nouns never fuse.",
+          "source_item_ids": [
+            "M10-L04-I1",
+            "M10-L05-I3"
+          ]
+        },
+        {
+          "id": "M10-CP1-Q8",
+          "source": "current",
+          "format": "transform",
+          "question": "ये चाय पसंद है।",
+          "question_read_as": "ye chaay pasand hai.",
+          "options": [
+            "ये चाय पसंद हैं।",
+            "इन्होंने चाय पसंद है।",
+            "इनका चाय पसंद है।",
+            "इन्हें चाय पसंद है।"
+          ],
+          "options_read_as": [
+            "ye chaay pasand haiṁ.",
+            "inhoṁne chaay pasand hai.",
+            "inkaa chaay pasand hai.",
+            "inheṁ chaay pasand hai."
+          ],
+          "answer_index": 3,
+          "explanation_en": "The people are experiencers, so ये goes oblique to इन and fuses with को: इन्हें.",
+          "source_item_ids": [
+            "M10-L03-I3"
+          ]
+        },
+        {
+          "id": "M10-CP1-Q9",
+          "source": "current",
+          "format": "error_spot",
+          "question": "कौन सा वाक्य ग़लत है?",
+          "question_read_as": "kaun saa vaakya ġalat hai?",
+          "options": [
+            "मुझे जाता हूँ।",
+            "मुझे पानी चाहिए।",
+            "मैं स्कूल जाता हूँ।",
+            "मुझे भूख लगी है।"
+          ],
+          "options_read_as": [
+            "mujhe jaataa huuṁ.",
+            "mujhe paanii chaahie.",
+            "maiṁ skuul jaataa huuṁ.",
+            "mujhe bhuukh lagii hai."
+          ],
+          "answer_index": 0,
+          "explanation_en": "Going is something you do, so it takes मैं. The other three all have things happening to the person.",
+          "source_item_ids": [
+            "M10-L01-I1",
+            "M10-L01-I3"
+          ]
+        },
+        {
+          "id": "M10-CP1-Q10",
+          "source": "current",
+          "format": "error_spot",
+          "question": "कौन सा वाक्य ग़लत है?",
+          "question_read_as": "kaun saa vaakya ġalat hai?",
+          "options": [
+            "लोगों को भूख लगी है।",
+            "उन्होंने भूख लगी है।",
+            "बच्चे को भूख लगी है।",
+            "उन्हें भूख लगी है।"
+          ],
+          "options_read_as": [
+            "logoṁ ko bhuukh lagii hai.",
+            "unhoṁne bhuukh lagii hai.",
+            "bacche ko bhuukh lagii hai.",
+            "unheṁ bhuukh lagii hai."
+          ],
+          "answer_index": 1,
+          "explanation_en": "उन्होंने is the ergative form and cannot appear with लगना. The experiencer form is उन्हें.",
+          "source_item_ids": [
+            "M10-L03-I2",
+            "M10-L04-I2"
+          ]
+        }
+      ]
+    },
+    {
+      "after_level": 10,
+      "covers_levels": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "questions": [
+        {
+          "id": "M10-CP2-Q1",
+          "source": "current",
+          "format": "recognition",
+          "question": "मुझे गर्मी ___ रही है।",
+          "question_read_as": "mujhe garmii ___ rahii hai.",
+          "options": [
+            "हो",
+            "आ",
+            "लग",
+            "है"
+          ],
+          "options_read_as": [
+            "ho",
+            "aa",
+            "lag",
+            "hai"
+          ],
+          "answer_index": 2,
+          "explanation_en": "गर्मी is a sensation felt on the surface, so it takes लगना — like ठंड, भूख and प्यास.",
+          "source_item_ids": [
+            "M10-L06-I1"
+          ]
+        },
+        {
+          "id": "M10-CP2-Q2",
+          "source": "current",
+          "format": "recognition",
+          "question": "मुझे किताबें पसंद ___ ।",
+          "question_read_as": "mujhe kitaabeṁ pasand ___ .",
+          "options": [
+            "हूँ",
+            "थी",
+            "है",
+            "हैं"
+          ],
+          "options_read_as": [
+            "huuṁ",
+            "thii",
+            "hai",
+            "haiṁ"
+          ],
+          "answer_index": 3,
+          "explanation_en": "किताबें is plural and it is the subject, so the verb is हैं. With पसंद only number ever matters.",
+          "source_item_ids": [
+            "M10-L08-I2",
+            "M10-L08-I3"
+          ]
+        },
+        {
+          "id": "M10-CP2-Q3",
+          "source": "current",
+          "format": "recognition",
+          "question": "मुझे तैरना ___ है।",
+          "question_read_as": "mujhe tairnaa ___ hai.",
+          "options": [
+            "आता",
+            "आ रही",
+            "आती",
+            "आते"
+          ],
+          "options_read_as": [
+            "aataa",
+            "aa rahii",
+            "aatii",
+            "aate"
+          ],
+          "answer_index": 0,
+          "explanation_en": "तैरना is an infinitive, and infinitives are always masculine singular.",
+          "source_item_ids": [
+            "M10-L10-I2"
+          ]
+        },
+        {
+          "id": "M10-CP2-Q4",
+          "source": "current",
+          "format": "recognition",
+          "question": "___ यह जानता हूँ।",
+          "question_read_as": "___ yah jaantaa huuṁ.",
+          "options": [
+            "मुझे",
+            "मैं",
+            "मेरा",
+            "मैंने"
+          ],
+          "options_read_as": [
+            "mujhe",
+            "maiṁ",
+            "meraa",
+            "maiṁne"
+          ],
+          "answer_index": 1,
+          "explanation_en": "जानना is an ordinary transitive verb, not an experiencer verb, so it takes मैं.",
+          "source_item_ids": [
+            "M10-L10-I3"
+          ]
+        },
+        {
+          "id": "M10-CP2-Q5",
+          "source": "current",
+          "format": "transform",
+          "question": "मुझे डर लगती है।",
+          "question_read_as": "mujhe ḍar lagtii hai.",
+          "options": [
+            "मुझे डर लगती हैं।",
+            "मुझे डर लगे हैं।",
+            "मुझे डर लगता है।",
+            "मैं डर लगता हूँ।"
+          ],
+          "options_read_as": [
+            "mujhe ḍar lagtii haiṁ.",
+            "mujhe ḍar lage haiṁ.",
+            "mujhe ḍar lagtaa hai.",
+            "maiṁ ḍar lagtaa huuṁ."
+          ],
+          "answer_index": 2,
+          "explanation_en": "डर is masculine, so लगता है. The feminine ending has been carried over from भूख and प्यास.",
+          "source_item_ids": [
+            "M10-L07-I2"
+          ]
+        },
+        {
+          "id": "M10-CP2-Q6",
+          "source": "current",
+          "format": "transform",
+          "question": "मुझे यह जगह अच्छा लगा।",
+          "question_read_as": "mujhe yah jagah acchaa lagaa.",
+          "options": [
+            "मैं यह जगह अच्छी लगी।",
+            "मुझे यह जगह अच्छी लगा।",
+            "मुझे यह जगह अच्छा लगी।",
+            "मुझे यह जगह अच्छी लगी।"
+          ],
+          "options_read_as": [
+            "maiṁ yah jagah acchii lagii.",
+            "mujhe yah jagah acchii lagaa.",
+            "mujhe yah jagah acchaa lagii.",
+            "mujhe yah jagah acchii lagii."
+          ],
+          "answer_index": 3,
+          "explanation_en": "जगह is feminine and controls both the adjective and the verb, so अच्छी लगी. Changing only one of them is not enough.",
+          "source_item_ids": [
+            "M10-L09-I1",
+            "M10-L09-I2"
+          ]
+        },
+        {
+          "id": "M10-CP2-Q7",
+          "source": "current",
+          "format": "transform",
+          "question": "मैं हिंदी आती हूँ।",
+          "question_read_as": "maiṁ hindii aatii huuṁ.",
+          "options": [
+            "मुझे हिंदी आती है।",
+            "मुझे हिंदी आता है।",
+            "मैंने हिंदी आती है।",
+            "मुझे हिंदी आती हूँ।"
+          ],
+          "options_read_as": [
+            "mujhe hindii aatii hai.",
+            "mujhe hindii aataa hai.",
+            "maiṁne hindii aatii hai.",
+            "mujhe hindii aatii huuṁ."
+          ],
+          "answer_index": 0,
+          "explanation_en": "हिंदी is the subject and it is feminine, so आती है. The speaker never appears in the verb.",
+          "source_item_ids": [
+            "M10-L10-I1"
+          ]
+        },
+        {
+          "id": "M10-CP2-Q8",
+          "source": "current",
+          "format": "transform",
+          "question": "मुझे बुखार हूँ।",
+          "question_read_as": "mujhe bukhaar huuṁ.",
+          "options": [
+            "मुझे बुखार लगी है।",
+            "मुझे बुखार है।",
+            "मुझे बुखार हैं।",
+            "मैं बुखार हूँ।"
+          ],
+          "options_read_as": [
+            "mujhe bukhaar lagii hai.",
+            "mujhe bukhaar hai.",
+            "mujhe bukhaar haiṁ.",
+            "maiṁ bukhaar huuṁ."
+          ],
+          "answer_index": 1,
+          "explanation_en": "बुखार is the singular masculine subject, so है. हूँ would be agreeing with the speaker, and nothing here does.",
+          "source_item_ids": [
+            "M10-L06-I3"
+          ]
+        },
+        {
+          "id": "M10-CP2-Q9",
+          "source": "current",
+          "format": "error_spot",
+          "question": "कौन सा वाक्य ग़लत है?",
+          "question_read_as": "kaun saa vaakya ġalat hai?",
+          "options": [
+            "मुझे दर्द हो रहा है।",
+            "मुझे नींद आ रही है।",
+            "मुझे ग़ुस्सा लगा।",
+            "मुझे भूख लगी है।"
+          ],
+          "options_read_as": [
+            "mujhe dard ho rahaa hai.",
+            "mujhe niiṁd aa rahii hai.",
+            "mujhe ġussaa lagaa.",
+            "mujhe bhuukh lagii hai."
+          ],
+          "answer_index": 2,
+          "explanation_en": "ग़ुस्सा arrives rather than being felt, so it takes आना: मुझे ग़ुस्सा आया. The other three each use the right verb for their noun.",
+          "source_item_ids": [
+            "M10-L07-I3",
+            "M10-L06-I2",
+            "M10-L07-I1"
+          ]
+        },
+        {
+          "id": "M10-CP2-Q10",
+          "source": "current",
+          "format": "error_spot",
+          "question": "कौन सा वाक्य ग़लत है?",
+          "question_read_as": "kaun saa vaakya ġalat hai?",
+          "options": [
+            "मुझे यह चाय अच्छी लगी।",
+            "मुझे यह जगह पसंद है।",
+            "मुझे चाय पसंद है।",
+            "मुझे यह चाय पसंद लगी।"
+          ],
+          "options_read_as": [
+            "mujhe yah chaay acchii lagii.",
+            "mujhe yah jagah pasand hai.",
+            "mujhe chaay pasand hai.",
+            "mujhe yah chaay pasand lagii."
+          ],
+          "answer_index": 3,
+          "explanation_en": "पसंद goes with होना and अच्छा goes with लगना. There is no पसंद लगना.",
+          "source_item_ids": [
+            "M10-L09-I3",
+            "M10-L08-I1"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1124 @@
+{
+  "module": 12,
+  "module_name_en": "Conversation",
+  "module_name_hi": "बातचीत",
+  "phase": 5,
+  "batch": {
+    "levels_from": 31,
+    "levels_to": 33
+  },
+  "receptive_only": true,
+  "levels": [
+    {
+      "level": 31,
+      "title_en": "Visiting a home",
+      "title_hi": "किसी के घर",
+      "items": [
+        {
+          "id": "M12-L31-I1",
+          "type": "dialogue",
+          "target": "दरवाज़े के पास",
+          "title_en": "Arriving",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "home",
+            "hospitality",
+            "ke_paas",
+            "oblique",
+            "repetition"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Host",
+              "label_hi": "मेज़बान"
+            },
+            {
+              "id": "B",
+              "label_en": "Guest",
+              "label_hi": "मेहमान"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "नमस्ते! आइए, अंदर आइए।",
+              "read_as": "namaste! aaie, andar aaie.",
+              "english": "Hello! Come in, come in."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "नमस्ते भाभी जी। रास्ता आसानी से मिल गया।",
+              "read_as": "namaste bhaabhii jii. raastaa aasaanii se mil gayaa.",
+              "english": "Hello. Found the way easily."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "जूते यहीं छोड़ दीजिए, दरवाज़े के पास।",
+              "read_as": "juute yahiiṁ chhoṛ diijie, darvaaze ke paas.",
+              "english": "Leave your shoes here, by the door."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "जी। बच्चे कहाँ हैं?",
+              "read_as": "jii. bacche kahaaṁ haiṁ?",
+              "english": "Sure. Where are the children?"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "अंदर खेल रहे हैं। बैठिए, चाय लाती हूँ।",
+              "read_as": "andar khel rahe haiṁ. baiṭhie, chaay laatii huuṁ.",
+              "english": "Playing inside. Sit down, I'll bring tea."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "आइए, अंदर आइए — repetition as warmth",
+              "explanation_en": "Hindi hospitality repeats. आइए, अंदर आइए is not stammering; saying it twice is what makes it welcoming, and you will hear बैठिए बैठिए and हाँ हाँ working the same way. Note जूते यहीं छोड़ दीजिए — shoes come off at the door in most Indian homes, and nobody will state the rule. The instruction arrives as a place instead, which is politer and assumes you already knew.",
+              "listening_notes": [
+                "दरवाज़े के पास — दरवाज़ा goes oblique to दरवाज़े before के पास.",
+                "रास्ता आसानी से मिल गया — से for manner, meaning easily. Another job for से.",
+                "चाय लाती हूँ — present tense doing immediate future, and notice she is not asking."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Where is the guest told to leave his shoes?",
+              "options": [
+                "In the next room",
+                "He is told to keep them on",
+                "Outside the gate",
+                "By the door"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 3: जूते यहीं छोड़ दीजिए, दरवाज़े के पास."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "पास",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "जूते यहीं छोड़ दीजिए, दरवाज़े के ___ ।",
+              "question_read_as": "juute yahiiṁ chhoṛ diijie, darvaaze ke ___ .",
+              "options": [
+                "लिए",
+                "पास",
+                "साथ",
+                "बाद"
+              ],
+              "options_read_as": [
+                "lie",
+                "paas",
+                "saath",
+                "baad"
+              ],
+              "answer_index": 1,
+              "explanation_en": "के पास for a location — near the door. के साथ would mean along with it."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Door opening, children audible behind. Line 1 genuinely overlapping itself."
+          }
+        },
+        {
+          "id": "M12-L31-I2",
+          "type": "dialogue",
+          "target": "ठंडा कुछ लेंगे?",
+          "title_en": "Refusing tea",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "home",
+            "hospitality",
+            "refusal_script",
+            "to_particle",
+            "chalnaa"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Host",
+              "label_hi": "मेज़बान"
+            },
+            {
+              "id": "B",
+              "label_en": "Guest",
+              "label_hi": "मेहमान"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "चाय लीजिए।",
+              "read_as": "chaay liijie.",
+              "english": "Have some tea."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "नहीं नहीं, अभी घर पर पी थी।",
+              "read_as": "nahiiṁ nahiiṁ, abhii ghar par pii thii.",
+              "english": "No no, I had some at home just now."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "अरे एक कप तो लीजिए।",
+              "read_as": "are ek kap to liijie.",
+              "english": "Oh, have just one cup."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "सच में, बस।",
+              "read_as": "sach meṁ, bas.",
+              "english": "Really, that's fine."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "ठंडा कुछ लेंगे?",
+              "read_as": "ṭhanḍaa kuchh leṁge?",
+              "english": "Something cold, then?"
+            },
+            {
+              "n": 6,
+              "speaker": "B",
+              "hindi": "पानी चलेगा, बस।",
+              "read_as": "paanii chalegaa, bas.",
+              "english": "Water's fine, thanks."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The host will not take the first no",
+              "explanation_en": "This is the same script you met with the food in level 18, and it is worth seeing twice because it is unavoidable. The guest declines, the host disputes it — अरे एक कप तो लीजिए, with तो carrying the protest — and the guest holds. Note that a refusal is almost never bare: सच में, बस gives a reason and a stop. Offering a smaller alternative is the host's standard next move, and accepting water is how the whole thing ends without either side losing.",
+              "listening_notes": [
+                "ठंडा कुछ लेंगे? — the future used as a polite offer, with लेंगे plural for the respectful आप.",
+                "पानी चलेगा — चलना for \"will do\", the same idiom as सफ़ेद भी चलेगा in the clothes shop and पानी चल जाएगा at the lab.",
+                "बस on its own is a complete refusal: enough, no more."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What does the guest finally accept?",
+              "options": [
+                "Tea",
+                "Nothing at all",
+                "Water",
+                "A cold drink"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 6: पानी चलेगा, बस."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 5,
+              "masked_token": "लेंगे",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "ठंडा कुछ ___ ?",
+              "question_read_as": "ṭhanḍaa kuchh ___ ?",
+              "options": [
+                "लेंगे",
+                "लेंगी",
+                "लेगा",
+                "लेगी"
+              ],
+              "options_read_as": [
+                "leṁge",
+                "leṁgii",
+                "legaa",
+                "legii"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The guest is addressed as आप, so the verb takes the respectful plural."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Lines 2 and 3 should overlap. Neither is annoyed; both are enjoying the ritual."
+          }
+        },
+        {
+          "id": "M12-L31-I3",
+          "type": "dialogue",
+          "target": "अब चलता हूँ",
+          "title_en": "Taking leave",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "home",
+            "leave_taking",
+            "ne",
+            "causative",
+            "word_order"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Host",
+              "label_hi": "मेज़बान"
+            },
+            {
+              "id": "B",
+              "label_en": "Guest",
+              "label_hi": "मेहमान"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "B",
+              "hindi": "अच्छा, अब चलता हूँ। बहुत देर हो गई।",
+              "read_as": "acchaa, ab chaltaa huuṁ. bahut der ho gaii.",
+              "english": "Right, I'll be off. It's got late."
+            },
+            {
+              "n": 2,
+              "speaker": "A",
+              "hindi": "इतनी जल्दी? खाना तो खा लीजिए।",
+              "read_as": "itnii jaldii? khaanaa to khaa liijie.",
+              "english": "So soon? At least eat something."
+            },
+            {
+              "n": 3,
+              "speaker": "B",
+              "hindi": "नहीं भाभी जी, फिर कभी। आपने बहुत कुछ खिलाया।",
+              "read_as": "nahiiṁ bhaabhii jii, phir kabhii. aapne bahut kuchh khilaayaa.",
+              "english": "No, another time. You've fed me plenty."
+            },
+            {
+              "n": 4,
+              "speaker": "A",
+              "hindi": "कुछ भी नहीं खाया आपने।",
+              "read_as": "kuchh bhii nahiiṁ khaayaa aapne.",
+              "english": "You've eaten nothing at all."
+            },
+            {
+              "n": 5,
+              "speaker": "B",
+              "hindi": "सच में बहुत हुआ। शुक्रिया।",
+              "read_as": "sach meṁ bahut huaa. shukriyaa.",
+              "english": "Really, it was plenty. Thank you."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "चलता हूँ — the phrase that starts a departure",
+              "explanation_en": "अब चलता हूँ is literally \"I walk now\", and it means \"I'll be off\". It is how leaving begins, and it is a signal rather than an announcement: the host is expected to protest, which she duly does. Note खिलाया in line 3, the causative from Module 11 — you fed me — and खाया in line 4 with the ने-subject pushed to the end for emphasis. Two ने forms in consecutive lines, in a conversation that is entirely about being polite.",
+              "listening_notes": [
+                "आपने बहुत कुछ खिलाया: खिलाना is transitive, so ने, and खिलाया agrees with the neutral कुछ.",
+                "बहुत देर हो गई — देर is feminine, so गई.",
+                "फिर कभी — \"some other time\". The standard soft decline of an offer you have already refused once."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why does the guest say he is leaving?",
+              "options": [
+                "He has another appointment",
+                "It has got late",
+                "He is unwell",
+                "The host asked him to"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 1: बहुत देर हो गई."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "आपने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "नहीं भाभी जी, फिर कभी। ___ बहुत कुछ खिलाया।",
+              "question_read_as": "nahiiṁ bhaabhii jii, phir kabhii. ___ bahut kuchh khilaayaa.",
+              "options": [
+                "आपको",
+                "आपका",
+                "आप",
+                "आपने"
+              ],
+              "options_read_as": [
+                "aapko",
+                "aapkaa",
+                "aap",
+                "aapne"
+              ],
+              "answer_index": 3,
+              "explanation_en": "खिलाना is transitive and the tense is perfective, so ने."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Standing up, moving towards the door. Line 4 is called after him."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Hospitality repeats itself — आइए, अंदर आइए — and refuses to accept a first no. The instruction about shoes arrives as a place rather than a rule. And अब चलता हूँ starts a departure that the host is expected to argue with.",
+        "key_forms": [
+          "अंदर आइए",
+          "एक कप तो लीजिए",
+          "अब चलता हूँ"
+        ],
+        "next_up_en": "Next: families, and where everybody lives."
+      }
+    },
+    {
+      "level": 32,
+      "title_en": "Family",
+      "title_hi": "परिवार",
+      "items": [
+        {
+          "id": "M12-L32-I1",
+          "type": "dialogue",
+          "target": "मैं सबसे छोटा हूँ",
+          "title_en": "Asking about siblings",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "home",
+            "family",
+            "oblique_plural",
+            "superlative",
+            "presumptive"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Host",
+              "label_hi": "मेज़बान"
+            },
+            {
+              "id": "B",
+              "label_en": "Guest",
+              "label_hi": "मेहमान"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "आपके कितने भाई-बहन हैं?",
+              "read_as": "aapke kitne bhaaii-bahan haiṁ?",
+              "english": "How many brothers and sisters do you have?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "दो भाई, एक बहन। मैं सबसे छोटा हूँ।",
+              "read_as": "do bhaaii, ek bahan. maiṁ sabse chhoṭaa huuṁ.",
+              "english": "Two brothers, one sister. I'm the youngest."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "दोनों भाइयों के साथ रहते हैं आप?",
+              "read_as": "donoṁ bhaaiyoṁ ke saath rahte haiṁ aap?",
+              "english": "Do you live with both brothers?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "नहीं, वो दिल्ली में हैं। मैं यहीं हूँ।",
+              "read_as": "nahiiṁ, vo dillii meṁ haiṁ. maiṁ yahiiṁ huuṁ.",
+              "english": "No, they're in Delhi. I'm here."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "अच्छा। मिलना होता होगा कभी-कभी।",
+              "read_as": "acchaa. milnaa hotaa hogaa kabhii-kabhii.",
+              "english": "I see. You must meet now and then."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सबसे छोटा — the superlative built out of से",
+              "explanation_en": "सबसे छोटा is \"smallest of all\", literally \"small from everyone\". Hindi builds superlatives out of the same से it uses for ordinary comparison: X से बड़ा is bigger than X, and सबसे बड़ा is biggest of all. There is no separate superlative form to learn anywhere. That is now से's seventh job in this module, and it is the one that lets you call anything the most or the least of something.",
+              "listening_notes": [
+                "भाइयों के साथ — भाई goes to the oblique plural भाइयों before के साथ.",
+                "भाई-बहन as a paired noun means siblings in general — the same habit as खाना-पीना and आना-जाना.",
+                "मिलना होता होगा — the presumptive again, guessing politely about somebody else's life rather than asking."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Where do his brothers live?",
+              "options": [
+                "In Delhi",
+                "In Lucknow",
+                "Abroad",
+                "With him"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 4: वो दिल्ली में हैं."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 3,
+              "masked_token": "भाइयों",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "दोनों ___ के साथ रहते हैं आप?",
+              "question_read_as": "donoṁ ___ ke saath rahte haiṁ aap?",
+              "options": [
+                "भाइयो",
+                "भाई",
+                "भाइयों",
+                "भाइयाँ"
+              ],
+              "options_read_as": [
+                "bhaaiyo",
+                "bhaaii",
+                "bhaaiyoṁ",
+                "bhaaiyaaṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "के साथ is a postposition, so the plural goes oblique."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Sitting down, unhurried. Line 5 is a guess offered kindly."
+          }
+        },
+        {
+          "id": "M12-L32-I2",
+          "type": "dialogue",
+          "target": "साल में दो-तीन बार",
+          "title_en": "Where the family lives",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "home",
+            "family",
+            "me_rate",
+            "oblique_plural",
+            "fixed_phrases"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Host",
+              "label_hi": "मेज़बान"
+            },
+            {
+              "id": "B",
+              "label_en": "Guest",
+              "label_hi": "मेहमान"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "आपके माता-पिता कहाँ रहते हैं?",
+              "read_as": "aapke maataa-pitaa kahaaṁ rahte haiṁ?",
+              "english": "Where do your parents live?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "लखनऊ में। वहीं का घर है।",
+              "read_as": "lakhnaū meṁ. vahiiṁ kaa ghar hai.",
+              "english": "In Lucknow. That's where the family home is."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "आप कब जाते हैं?",
+              "read_as": "aap kab jaate haiṁ?",
+              "english": "When do you go?"
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "साल में दो-तीन बार। त्योहारों पर ज़रूर।",
+              "read_as": "saal meṁ do-tiin baar. tyohaaroṁ par zaruur.",
+              "english": "Two or three times a year. Always for the festivals."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "अच्छा है, कम से कम मिलना हो जाता है।",
+              "read_as": "acchaa hai, kam se kam milnaa ho jaataa hai.",
+              "english": "That's good — at least you get to meet."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "साल में दो बार — में for a rate",
+              "explanation_en": "साल में दो-तीन बार is \"two or three times a year\". में marks the period within which something happens a given number of times, and दिन में तीन बार from the pharmacy in level 21 was exactly the same shape. English uses \"a\" or \"per\" and puts the period last; Hindi uses में and puts it first. Note कम से कम, \"at least\", which is literally \"from less, less\" and is one of those fixed phrases that does not survive being taken apart.",
+              "listening_notes": [
+                "लखनऊ में — cities take में. वहीं का घर is \"the house of that very place\".",
+                "त्योहारों पर — त्योहार goes to the oblique plural before पर, and पर for occasions as with खाने पर in level 18.",
+                "मिलना हो जाता है — impersonal: meeting happens. Nobody at all is the subject."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "How often does he visit his parents?",
+              "options": [
+                "Only at weddings",
+                "He has not been in years",
+                "Every month",
+                "Two or three times a year"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 4: साल में दो-तीन बार."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 2,
+              "masked_token": "में",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "लखनऊ ___ । वहीं का घर है।",
+              "question_read_as": "lakhnaū ___ . vahiiṁ kaa ghar hai.",
+              "options": [
+                "को",
+                "में",
+                "पर",
+                "से"
+              ],
+              "options_read_as": [
+                "ko",
+                "meṁ",
+                "par",
+                "se"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Cities take में for living in them."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 5 is warm and slightly wistful."
+          }
+        },
+        {
+          "id": "M12-L32-I3",
+          "type": "dialogue",
+          "target": "रिश्तेदारों के लिए",
+          "title_en": "A relative is coming",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "home",
+            "three_speakers",
+            "oblique_plural",
+            "obligation",
+            "to_particle"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Parent",
+              "label_hi": "माँ"
+            },
+            {
+              "id": "B",
+              "label_en": "Older child",
+              "label_hi": "बड़ा बच्चा"
+            },
+            {
+              "id": "C",
+              "label_en": "Younger child",
+              "label_hi": "छोटा बच्चा"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "कल मामा जी आ रहे हैं।",
+              "read_as": "kal maamaa jii aa rahe haiṁ.",
+              "english": "Uncle's coming tomorrow."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "कितने दिन रुकेंगे?",
+              "read_as": "kitne din rukeṁge?",
+              "english": "How long is he staying?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "तीन-चार दिन।",
+              "read_as": "tiin-chaar din.",
+              "english": "Three or four days."
+            },
+            {
+              "n": 4,
+              "speaker": "C",
+              "hindi": "तो मेरा कमरा खाली करना पड़ेगा?",
+              "read_as": "to meraa kamraa khaalii karnaa paṛegaa?",
+              "english": "So I'll have to clear out my room?"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "हाँ बेटा, रिश्तेदारों के लिए इतना तो करना पड़ता है।",
+              "read_as": "haaṁ beṭaa, rishtedaaroṁ ke lie itnaa to karnaa paṛtaa hai.",
+              "english": "Yes — you do that much for relatives."
+            },
+            {
+              "n": 6,
+              "speaker": "C",
+              "hindi": "ठीक है।",
+              "read_as": "ṭhiik hai.",
+              "english": "Fine."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "इतना तो करना पड़ता है — the obligation of family",
+              "explanation_en": "इतना तो करना पड़ता है — \"you do at least that much\". तो is doing its emphasis job again, and पड़ता है is the compulsion rung of the obligation ladder in the habitual, which turns it into a general truth about how things are rather than a demand aimed at the child. Together they make the sentence very hard to argue with, without anybody raising their voice, which is exactly why it ends the conversation in a single line.",
+              "listening_notes": [
+                "रिश्तेदारों के लिए — रिश्तेदार goes to the oblique plural before के लिए.",
+                "कितने दिन रुकेंगे? — the respectful plural, for one uncle.",
+                "मामा जी is specifically the mother's brother. Hindi has a separate word for each uncle and aunt, and they are not interchangeable."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What does the younger child have to do?",
+              "options": [
+                "Nothing at all",
+                "Share a room with his brother",
+                "Give up his room",
+                "Stay with a neighbour"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 4: मेरा कमरा खाली करना पड़ेगा — and line 5 confirms it."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 5,
+              "masked_token": "रिश्तेदारों",
+              "mask_reason": "oblique",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "हाँ बेटा, ___ के लिए इतना तो करना पड़ता है।",
+              "question_read_as": "haaṁ beṭaa, ___ ke lie itnaa to karnaa paṛtaa hai.",
+              "options": [
+                "रिश्तेदारों",
+                "रिश्तेदारें",
+                "रिश्तेदारो",
+                "रिश्तेदार"
+              ],
+              "options_read_as": [
+                "rishtedaaroṁ",
+                "rishtedaareṁ",
+                "rishtedaaro",
+                "rishtedaar"
+              ],
+              "answer_index": 0,
+              "explanation_en": "के लिए is a postposition, so the plural goes oblique."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 6,
+            "notes_for_recording": "Three voices, one clearly a child. Line 4 is a groan; line 5 is final without being sharp."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "से builds superlatives as well as comparisons — सबसे छोटा, smallest of all. में marks a rate: साल में दो बार. And the compulsion rung of the obligation ladder, in the habitual, states a general truth that is very hard to argue with.",
+        "key_forms": [
+          "सबसे छोटा",
+          "साल में दो-तीन बार",
+          "इतना तो करना पड़ता है"
+        ],
+        "next_up_en": "Next: festivals, invitations, and the correct way to refuse a present you are accepting."
+      }
+    },
+    {
+      "level": 33,
+      "title_en": "Festivals and gifts",
+      "title_hi": "त्योहार और तोहफ़े",
+      "items": [
+        {
+          "id": "M12-L33-I1",
+          "type": "dialogue",
+          "target": "दिवाली पर घर आइए",
+          "title_en": "An invitation",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 7,
+          "tags": [
+            "home",
+            "festival",
+            "par_occasion",
+            "binaa",
+            "verbless"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Host",
+              "label_hi": "मेज़बान"
+            },
+            {
+              "id": "B",
+              "label_en": "Neighbour",
+              "label_hi": "पड़ोसी"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "दिवाली पर घर आइए, सब लोग आ रहे हैं।",
+              "read_as": "divaalii par ghar aaie, sab log aa rahe haiṁ.",
+              "english": "Come over for Diwali, everyone's coming."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "ज़रूर। कितने बजे?",
+              "read_as": "zaruur. kitne baje?",
+              "english": "Of course. What time?"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "शाम को, पूजा के बाद। सात-आठ बजे।",
+              "read_as": "shaam ko, puujaa ke baad. saat-aaṭh baje.",
+              "english": "Evening, after the puja. Seven or eight."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "बच्चों को भी ले आऊँ?",
+              "read_as": "bacchoṁ ko bhii le aauuṁ?",
+              "english": "Shall I bring the children too?"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "बिल्कुल, उनके बिना क्या दिवाली।",
+              "read_as": "bilkul, unke binaa kyaa divaalii.",
+              "english": "Of course — what's Diwali without them."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पर for a festival, को for a day",
+              "explanation_en": "दिवाली पर, on Diwali. Festivals take पर while ordinary days take को — इतवार को, सोमवार को. Nothing predicts this; a festival is treated as an occasion, like खाने पर in level 18, rather than as a date on a calendar. Note उनके बिना क्या दिवाली in line 5: a complete, warm sentence with no verb in it at all, meaning \"what would Diwali even be without them\".",
+              "listening_notes": [
+                "पूजा के बाद — पूजा does not change shape, but के बाद is a postposition all the same.",
+                "ले आऊँ? — the लाना-plus-आना compound in the subjunctive: shall I bring them along?",
+                "उनके बिना — बिना takes के, and वे goes oblique to उन."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "When should he come?",
+              "options": [
+                "Morning, before the puja",
+                "Evening, after the puja",
+                "The following day",
+                "Any time he likes"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 3: शाम को, पूजा के बाद. सात-आठ बजे."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 1,
+              "masked_token": "पर",
+              "mask_reason": "postposition",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "दिवाली ___ घर आइए, सब लोग आ रहे हैं।",
+              "question_read_as": "divaalii ___ ghar aaie, sab log aa rahe haiṁ.",
+              "options": [
+                "में",
+                "को",
+                "से",
+                "पर"
+              ],
+              "options_read_as": [
+                "meṁ",
+                "ko",
+                "se",
+                "par"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Festivals take पर. Ordinary days take को."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Doorstep or street. Line 5 is delivered with a laugh."
+          }
+        },
+        {
+          "id": "M12-L33-I2",
+          "type": "dialogue",
+          "target": "मैं मिठाई लाया था",
+          "title_en": "What to bring",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 9,
+          "tags": [
+            "home",
+            "ne_exception",
+            "laanaa",
+            "denaa",
+            "module9_link"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Guest",
+              "label_hi": "मेहमान"
+            },
+            {
+              "id": "B",
+              "label_en": "Host",
+              "label_hi": "मेज़बान"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "कुछ लाना है क्या?",
+              "read_as": "kuchh laanaa hai kyaa?",
+              "english": "Should I bring anything?"
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "कुछ नहीं, बस आ जाइए।",
+              "read_as": "kuchh nahiiṁ, bas aa jaaie.",
+              "english": "Nothing, just come."
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "पिछली बार मैं मिठाई लाया था।",
+              "read_as": "pichhlii baar maiṁ miṭhaaii laayaa thaa.",
+              "english": "Last time I brought sweets."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "और हमने आपको ज़बरदस्ती वापस दे दी थी!",
+              "read_as": "aur hamne aapko zabardastii vaapas de dii thii!",
+              "english": "And we forced them back on you!"
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "हाँ, याद है।",
+              "read_as": "haaṁ, yaad hai.",
+              "english": "Yes, I remember."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मैं लाया था, but हमने दे दी थी",
+              "explanation_en": "Line 3 has मैं लाया था with no ने. Line 4 has हमने दे दी थी with it. लाना is one of Module 9's three verbs that refuse ने however transitive they feel, while देना takes it as a matter of course. Two lines apart, one conversation, and the only reason for the difference is which verb is being used. Note दी in line 4 is feminine, agreeing with मिठाई, and that लाया in line 3 agrees with the male speaker instead — because with no ने, the verb watches the subject.",
+              "listening_notes": [
+                "मैं मिठाई लाया था — no ने, and लाया agrees with the speaker rather than with feminine मिठाई.",
+                "ज़बरदस्ती means \"forcibly\", and here it is affectionate — the standard joke about Indian hospitality.",
+                "याद है — \"I remember\", with the मुझे dropped as usual."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What happened the last time he brought sweets?",
+              "options": [
+                "They were sent back with him",
+                "He forgot to bring them",
+                "They were given to the children",
+                "They were eaten immediately"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 4: हमने आपको ज़बरदस्ती वापस दे दी थी."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "हमने",
+              "mask_reason": "ne",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "और ___ आपको ज़बरदस्ती वापस दे दी थी!",
+              "question_read_as": "aur ___ aapko zabardastii vaapas de dii thii!",
+              "options": [
+                "हमारा",
+                "हम",
+                "हमने",
+                "हमें"
+              ],
+              "options_read_as": [
+                "hamaaraa",
+                "ham",
+                "hamne",
+                "hameṁ"
+              ],
+              "answer_index": 2,
+              "explanation_en": "देना is transitive and takes ने — unlike लाना two lines earlier, which never does."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 4 is delivered as a fond accusation, with a laugh underneath."
+          }
+        },
+        {
+          "id": "M12-L33-I3",
+          "type": "dialogue",
+          "target": "इसकी क्या ज़रूरत थी",
+          "title_en": "Giving a gift",
+          "setting": "home",
+          "speed": "normal",
+          "difficulty": 8,
+          "tags": [
+            "home",
+            "gift_script",
+            "karnaa_agreement",
+            "saa_softener",
+            "polite_future_imperative"
+          ],
+          "speakers": [
+            {
+              "id": "A",
+              "label_en": "Guest",
+              "label_hi": "मेहमान"
+            },
+            {
+              "id": "B",
+              "label_en": "Host",
+              "label_hi": "मेज़बान"
+            }
+          ],
+          "lines": [
+            {
+              "n": 1,
+              "speaker": "A",
+              "hindi": "ये आपके लिए।",
+              "read_as": "ye aapke lie.",
+              "english": "This is for you."
+            },
+            {
+              "n": 2,
+              "speaker": "B",
+              "hindi": "अरे, इसकी क्या ज़रूरत थी!",
+              "read_as": "are, iskii kyaa zaruurat thii!",
+              "english": "Oh, you shouldn't have!"
+            },
+            {
+              "n": 3,
+              "speaker": "A",
+              "hindi": "छोटी सी चीज़ है। बच्चों को दे दीजिएगा।",
+              "read_as": "chhoṭii sii chiiz hai. bacchoṁ ko de diijiegaa.",
+              "english": "It's a small thing. Give it to the children."
+            },
+            {
+              "n": 4,
+              "speaker": "B",
+              "hindi": "बहुत शुक्रिया। आपने बेकार में तकलीफ़ की।",
+              "read_as": "bahut shukriyaa. aapne bekaar meṁ takliif kii.",
+              "english": "Thank you. You needn't have troubled yourself."
+            },
+            {
+              "n": 5,
+              "speaker": "A",
+              "hindi": "कोई तकलीफ़ नहीं।",
+              "read_as": "koii takliif nahiiṁ.",
+              "english": "No trouble at all."
+            }
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "इसकी क्या ज़रूरत थी — refusing a gift you are accepting",
+              "explanation_en": "इसकी क्या ज़रूरत थी is \"what need was there for this\", and it is what you say while taking the present out of the giver's hands. Along with बेकार में तकलीफ़ की — you troubled yourself for nothing — it is the fixed protest a gift requires. Neither is a real objection, and failing to make it would be the rude move, not making it. Note तकलीफ़ की, with की because तकलीफ़ is feminine — the same करना agreement you first met in उसने मदद की back in Module 9.",
+              "listening_notes": [
+                "छोटी सी चीज़ — सा softening again, and both words feminine because चीज़ is.",
+                "दे दीजिएगा — the polite future imperative, so the giving happens later and unhurriedly.",
+                "बेकार में — \"for nothing, pointlessly\", with में doing adverbial work."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Who does the guest say the gift is for?",
+              "options": [
+                "The whole family",
+                "He does not say",
+                "The host",
+                "The children"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Line 3: बच्चों को दे दीजिएगा."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "line_n": 4,
+              "masked_token": "की",
+              "mask_reason": "verb_ending",
+              "question_en": "Listen again. Which form fills the gap?",
+              "question": "बहुत शुक्रिया। आपने बेकार में तकलीफ़ ___ ।",
+              "question_read_as": "bahut shukriyaa. aapne bekaar meṁ takliif ___ .",
+              "options": [
+                "किया",
+                "की",
+                "किए",
+                "कीं"
+              ],
+              "options_read_as": [
+                "kiyaa",
+                "kii",
+                "kie",
+                "kiiṁ"
+              ],
+              "answer_index": 1,
+              "explanation_en": "तकलीफ़ is feminine, so करना agrees with it and becomes की."
+            }
+          },
+          "audio": {
+            "requires_recording": true,
+            "line_count": 5,
+            "notes_for_recording": "Line 2 is loud and delighted. The protest is the point, not the reluctance."
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Festivals take पर where days take को. लाना refuses ने and देना takes it, two lines apart in the same conversation. And a gift requires a protest — इसकी क्या ज़रूरत थी — which is a form of thanks rather than a refusal.",
+        "key_forms": [
+          "दिवाली पर",
+          "मैं मिठाई लाया था",
+          "इसकी क्या ज़रूरत थी"
+        ],
+        "next_up_en": "Next: plumbers, household help, and things that are broken."
+      }
+    }
+  ]
+}

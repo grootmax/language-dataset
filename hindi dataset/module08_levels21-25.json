@@ -1,0 +1,1722 @@
+{
+  "module": 8,
+  "module_name_en": "Core Words II",
+  "module_name_hi": "शब्द भंडार २",
+  "phase": 4,
+  "type": "word",
+  "batch": {
+    "levels_from": 21,
+    "levels_to": 25
+  },
+  "learner_knows_through_module": 7,
+  "levels": [
+    {
+      "level": 21,
+      "title_en": "Work: company, email, responsibility",
+      "title_hi": "कंपनी · ईमेल · ज़िम्मेदारी",
+      "category": "work_office",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L21-I1",
+          "type": "word",
+          "target": "कंपनी",
+          "read_as": "kampanii",
+          "pronunciation_notes": "The dot over क is an m before the प: kam-pa-nii.",
+          "gloss_en": "company, firm",
+          "gender": "f",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "कंपनियाँ",
+          "plural_read_as": "kampaniyaaṁ",
+          "collocation": {
+            "hindi": "कंपनी में काम करना",
+            "read_as": "kampanii meṁ kaam karnaa",
+            "english": "to work at a company"
+          },
+          "category": "work_office",
+          "difficulty": 6,
+          "tags": [
+            "work_office",
+            "noun",
+            "feminine",
+            "loanword",
+            "class_4"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A borrowed word that landed on a predictable ending",
+              "explanation_en": "कंपनी comes from English and is feminine — but unlike बस and मीटिंग, this one you could have guessed, because it ends in -ी. Borrowed nouns take their gender arbitrarily, and when the borrowed shape happens to match a Hindi pattern the gender usually follows that pattern. It declines like नौकरी: कंपनी में in the singular, कंपनियों में in the plural.",
+              "examples": [
+                {
+                  "hindi": "मैं एक कंपनी में काम करता हूँ",
+                  "read_as": "maiṁ ek kampanii meṁ kaam kartaa huuṁ",
+                  "english": "I work at a company",
+                  "note": "में for being inside an organisation, and कंपनी is oblique before it."
+                },
+                {
+                  "hindi": "यह कंपनी बड़ी है",
+                  "read_as": "yah kampanii baṛii hai",
+                  "english": "this is a big company",
+                  "note": "बड़ी is feminine, agreeing with कंपनी."
+                },
+                {
+                  "hindi": "कंपनियों में",
+                  "read_as": "kampaniyoṁ meṁ",
+                  "english": "in companies",
+                  "note": "The Class 4 oblique plural, exactly like नौकरियों."
+                }
+              ],
+              "common_error": {
+                "wrong": "यह कंपनी बड़ा है",
+                "right": "यह कंपनी बड़ी है",
+                "why_en": "कंपनी ends in -ी and is feminine, so a marked adjective takes -ी too."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "कंपनी",
+              "question_read_as": "kampanii",
+              "options": [
+                "office",
+                "company",
+                "salary",
+                "team"
+              ],
+              "options_read_as": [
+                "office",
+                "company",
+                "salary",
+                "team"
+              ],
+              "answer_index": 1,
+              "explanation_en": "कंपनी is a company, feminine, and it declines like नौकरी."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition goes with कंपनी when you work there?",
+              "options": [
+                "से",
+                "पर",
+                "में",
+                "को"
+              ],
+              "options_read_as": [
+                "se",
+                "par",
+                "meṁ",
+                "ko"
+              ],
+              "answer_index": 2,
+              "explanation_en": "कंपनी में काम करना — में for being inside an organisation."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "कंपनी",
+              "मैं एक कंपनी में काम करता हूँ",
+              "यह कंपनी बड़ी है",
+              "कंपनियों में"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L21-I2",
+          "type": "word",
+          "target": "ईमेल",
+          "read_as": "iimel",
+          "pronunciation_notes": "Starts with the independent vowel ई, held long: ii-mel.",
+          "gloss_en": "email",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "ईमेल",
+          "plural_read_as": "iimel",
+          "collocation": {
+            "hindi": "ईमेल भेजना",
+            "read_as": "iimel bhejnaa",
+            "english": "to send an email"
+          },
+          "category": "work_office",
+          "difficulty": 6,
+          "tags": [
+            "work_office",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "loanword",
+            "class_2"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ईमेल takes भेजना, and करना also works",
+              "explanation_en": "ईमेल is masculine and Class 2, so it never changes. Its main verb is भेजना, to send: ईमेल भेजो. But ईमेल करना is equally common in speech, because करना attaches to almost any borrowed noun to make a verb out of it — ईमेल करना, फ़ोन करना, मैसेज करना. That is a productive pattern worth knowing: when a new English word arrives, करना is how Hindi turns it into an action.",
+              "examples": [
+                {
+                  "hindi": "ईमेल भेजो",
+                  "read_as": "iimel bhejo",
+                  "english": "send the email",
+                  "note": "The तुम imperative — भेजना is transitive."
+                },
+                {
+                  "hindi": "मैं ईमेल करूँगा",
+                  "read_as": "maiṁ iimel karuuṁgaa",
+                  "english": "I will email",
+                  "note": "करना attached to a borrowed noun, which is the general pattern."
+                },
+                {
+                  "hindi": "ईमेल आया",
+                  "read_as": "iimel aayaa",
+                  "english": "an email came",
+                  "note": "आना is intransitive, so the perfective is available."
+                }
+              ],
+              "common_error": {
+                "wrong": "ईमेल लेना",
+                "right": "ईमेल भेजना",
+                "why_en": "लेना is to take. An email is sent or made, not taken, whatever direction it is travelling."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "ईमेल",
+              "question_read_as": "iimel",
+              "options": [
+                "file",
+                "letter",
+                "message",
+                "email"
+              ],
+              "options_read_as": [
+                "file",
+                "letter",
+                "message",
+                "email"
+              ],
+              "answer_index": 3,
+              "explanation_en": "ईमेल is an email, masculine, and unchanged in the plural."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with ईमेल?",
+              "options": [
+                "भेजना",
+                "लेना",
+                "लगना",
+                "मिलना"
+              ],
+              "options_read_as": [
+                "bhejnaa",
+                "lenaa",
+                "lagnaa",
+                "milnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "ईमेल भेजना. ईमेल करना is equally common, since करना verbs almost any borrowed noun."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ईमेल",
+              "ईमेल भेजो",
+              "मैं ईमेल करूँगा",
+              "ईमेल आया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L21-I3",
+          "type": "word",
+          "target": "ज़िम्मेदारी",
+          "read_as": "zimmedaarii",
+          "pronunciation_notes": "The dotted ज़ buzzes and the म is doubled: zim-me-daa-rii, four syllables.",
+          "gloss_en": "responsibility",
+          "gender": "f",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "ज़िम्मेदारियाँ",
+          "plural_read_as": "zimmedaariyaaṁ",
+          "collocation": {
+            "hindi": "ज़िम्मेदारी लेना",
+            "read_as": "zimmedaarii lenaa",
+            "english": "to take responsibility"
+          },
+          "category": "work_office",
+          "difficulty": 7,
+          "tags": [
+            "work_office",
+            "noun",
+            "feminine",
+            "class_4",
+            "nukta",
+            "abstract",
+            "persian_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ज़िम्मेदारी — the -ी that makes abstract nouns",
+              "explanation_en": "ज़िम्मेदारी is responsibility, feminine and predictable from its -ी. It is built from ज़िम्मेदार, responsible, with the same -ी suffix that turned ख़ुश into ख़ुशी and कमज़ोर into कमज़ोरी. That suffix is one of the most productive things in Hindi vocabulary: adjective plus -ी gives you the abstract noun, and the result is always feminine. Once you notice it, a lot of long words stop being intimidating.",
+              "examples": [
+                {
+                  "hindi": "यह मेरी ज़िम्मेदारी है",
+                  "read_as": "yah merii zimmedaarii hai",
+                  "english": "this is my responsibility",
+                  "note": "मेरी is feminine, agreeing with ज़िम्मेदारी."
+                },
+                {
+                  "hindi": "ज़िम्मेदारी लो",
+                  "read_as": "zimmedaarii lo",
+                  "english": "take responsibility",
+                  "note": "The तुम imperative — लेना is transitive."
+                },
+                {
+                  "hindi": "वह ज़िम्मेदार है",
+                  "read_as": "vah zimmedaar hai",
+                  "english": "he is responsible",
+                  "note": "The adjective, which is unmarked and never changes."
+                }
+              ],
+              "common_error": {
+                "wrong": "यह मेरा ज़िम्मेदारी है",
+                "right": "यह मेरी ज़िम्मेदारी है",
+                "why_en": "Every noun formed with the -ी suffix is feminine, without exception. That makes the gender predictable here."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "ज़िम्मेदारी",
+              "question_read_as": "zimmedaarii",
+              "options": [
+                "promotion",
+                "experience",
+                "responsibility",
+                "difficulty"
+              ],
+              "options_read_as": [
+                "promotion",
+                "experience",
+                "responsibility",
+                "difficulty"
+              ],
+              "answer_index": 2,
+              "explanation_en": "ज़िम्मेदारी is responsibility, formed from the adjective ज़िम्मेदार with -ी."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with ज़िम्मेदारी?",
+              "options": [
+                "करना",
+                "लेना",
+                "होना",
+                "मिलना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "lenaa",
+                "honaa",
+                "milnaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "ज़िम्मेदारी लेना — responsibility is taken, exactly as in English."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ज़िम्मेदारी",
+              "यह मेरी ज़िम्मेदारी है",
+              "ज़िम्मेदारी लो",
+              "वह ज़िम्मेदार है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "करना attaches to almost any borrowed noun to make a verb — ईमेल करना, फ़ोन करना — which is how Hindi absorbs new vocabulary. And adjective plus -ी gives an abstract noun that is always feminine: ख़ुशी, कमज़ोरी, ज़िम्मेदारी.",
+        "key_forms": [
+          "कंपनी में काम करना",
+          "ईमेल भेजना",
+          "ज़िम्मेदारी लेना"
+        ],
+        "next_up_en": "Next: problems, being ready, and what counts as necessary — closing the work block."
+      }
+    },
+    {
+      "level": 22,
+      "title_en": "Work: problems and readiness",
+      "title_hi": "समस्या · तैयार · ज़रूरी",
+      "category": "work_office",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L22-I1",
+          "type": "word",
+          "target": "समस्या",
+          "read_as": "samasyaa",
+          "pronunciation_notes": "The स्य is a single cluster with no vowel between: sa-mas-yaa.",
+          "gloss_en": "problem",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "समस्याएँ",
+          "plural_read_as": "samasyaaeṁ",
+          "collocation": {
+            "hindi": "समस्या होना",
+            "read_as": "samasyaa honaa",
+            "english": "for there to be a problem"
+          },
+          "category": "work_office",
+          "difficulty": 7,
+          "tags": [
+            "work_office",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "feminine_aa",
+            "sanskrit_origin",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The fifth feminine noun ending in -ा",
+              "explanation_en": "समस्या is a problem, and it joins चिंता, हवा, यात्रा and दवा as a feminine noun ending in -ा. Five of them now, and four of the five come from Sanskrit — which is a genuine hint, though not a rule you can rely on. The plural is समस्याएँ, formed with -एँ as every feminine -ा noun does, never समस्ये. The common phrase is कोई समस्या नहीं, no problem, which you will hear constantly.",
+              "examples": [
+                {
+                  "hindi": "कोई समस्या नहीं",
+                  "read_as": "koii samasyaa nahiiṁ",
+                  "english": "no problem",
+                  "note": "A set phrase, and the standard reassurance."
+                },
+                {
+                  "hindi": "बड़ी समस्या है",
+                  "read_as": "baṛii samasyaa hai",
+                  "english": "there is a big problem",
+                  "note": "बड़ी is feminine, which proves समस्या is."
+                },
+                {
+                  "hindi": "समस्याएँ बहुत हैं",
+                  "read_as": "samasyaaeṁ bahut haiṁ",
+                  "english": "there are many problems",
+                  "note": "The plural takes -एँ, like चिंताएँ and दवाएँ."
+                }
+              ],
+              "common_error": {
+                "wrong": "बड़ा समस्या है",
+                "right": "बड़ी समस्या है",
+                "why_en": "The -ा ending misleads again. समस्या is feminine, like the four before it."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "समस्या",
+              "question_read_as": "samasyaa",
+              "options": [
+                "problem",
+                "question",
+                "answer",
+                "mistake"
+              ],
+              "options_read_as": [
+                "problem",
+                "question",
+                "answer",
+                "mistake"
+              ],
+              "answer_index": 0,
+              "explanation_en": "समस्या is a problem, and it is feminine despite the -ा ending."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with समस्या?",
+              "options": [
+                "करना",
+                "लेना",
+                "लगना",
+                "होना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "lenaa",
+                "lagnaa",
+                "honaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "समस्या होना — a problem exists rather than being done."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "समस्या",
+              "कोई समस्या नहीं",
+              "बड़ी समस्या है",
+              "समस्याएँ बहुत हैं"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L22-I2",
+          "type": "word",
+          "target": "तैयार",
+          "read_as": "taiyaar",
+          "pronunciation_notes": "The first syllable holds a diphthong close to the vowel in English 'tie': tai-yaar.",
+          "gloss_en": "ready, prepared",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "unmarked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "तैयार होना",
+            "read_as": "taiyaar honaa",
+            "english": "to get ready"
+          },
+          "category": "work_office",
+          "difficulty": 6,
+          "tags": [
+            "work_office",
+            "adjective",
+            "unmarked_adjective",
+            "invariant",
+            "persian_origin",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तैयार covers ready, prepared and willing",
+              "explanation_en": "तैयार is unmarked, so it never changes, and it stretches further than English ready. तैयार हो? means are you ready, खाना तैयार है means the food is ready, and मैं तैयार हूँ can also mean I am willing. With करना it becomes transitive — खाना तैयार करना, to prepare food — so the same word covers both being ready and making something ready, and the verb tells you which.",
+              "examples": [
+                {
+                  "hindi": "मैं तैयार हूँ",
+                  "read_as": "maiṁ taiyaar huuṁ",
+                  "english": "I am ready",
+                  "note": "The adjective is identical whoever is speaking."
+                },
+                {
+                  "hindi": "खाना तैयार है",
+                  "read_as": "khaanaa taiyaar hai",
+                  "english": "the food is ready",
+                  "note": "A masculine subject, and still तैयार."
+                },
+                {
+                  "hindi": "तैयार हो जाओ",
+                  "read_as": "taiyaar ho jaao",
+                  "english": "get ready",
+                  "note": "An instruction, using होना rather than करना because you are readying yourself."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह तैयारी है",
+                "right": "वह तैयार है",
+                "why_en": "तैयारी is the noun preparation. The adjective is तैयार, and the -ी makes it a different word."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "तैयार",
+              "question_read_as": "taiyaar",
+              "options": [
+                "tired",
+                "late",
+                "busy",
+                "ready"
+              ],
+              "options_read_as": [
+                "tired",
+                "late",
+                "busy",
+                "ready"
+              ],
+              "answer_index": 3,
+              "explanation_en": "तैयार is ready or prepared, and it never changes its form."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with तैयार when you get yourself ready?",
+              "options": [
+                "होना",
+                "करना",
+                "लेना",
+                "लगना"
+              ],
+              "options_read_as": [
+                "honaa",
+                "karnaa",
+                "lenaa",
+                "lagnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "तैयार होना for readying yourself. तैयार करना means preparing something else."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तैयार",
+              "मैं तैयार हूँ",
+              "खाना तैयार है",
+              "तैयार हो जाओ"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L22-I3",
+          "type": "word",
+          "target": "ज़रूरी",
+          "read_as": "zaruurii",
+          "pronunciation_notes": "The dotted ज़ buzzes and the middle vowel is long: za-ruu-rii.",
+          "gloss_en": "necessary, important",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "unmarked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "ज़रूरी होना",
+            "read_as": "zaruurii honaa",
+            "english": "to be necessary"
+          },
+          "category": "work_office",
+          "difficulty": 7,
+          "tags": [
+            "work_office",
+            "adjective",
+            "unmarked_adjective",
+            "invariant",
+            "ending_trap",
+            "nukta"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Another -ी adjective that does not change",
+              "explanation_en": "ज़रूरी ends in -ी and is unmarked, exactly like दुखी back in level one. It is worth seeing the pair together, because after Module 6 a final -ी reads as feminine agreement and it is not. यह ज़रूरी है for a masculine subject, यह बात ज़रूरी है for a feminine one, and the word is identical. The related noun is ज़रूरत, need, which is feminine and takes होना: मुझे ज़रूरत है, I need it.",
+              "examples": [
+                {
+                  "hindi": "यह ज़रूरी है",
+                  "read_as": "yah zaruurii hai",
+                  "english": "this is necessary",
+                  "note": "The adjective with a masculine subject."
+                },
+                {
+                  "hindi": "यह बात ज़रूरी है",
+                  "read_as": "yah baat zaruurii hai",
+                  "english": "this matter is important",
+                  "note": "बात is feminine and the adjective is unchanged."
+                },
+                {
+                  "hindi": "मुझे इसकी ज़रूरत है",
+                  "read_as": "mujhe iskii zaruurat hai",
+                  "english": "I need this",
+                  "note": "The noun ज़रूरत, feminine, with the person marked by को."
+                }
+              ],
+              "common_error": {
+                "wrong": "यह ज़रूरा है",
+                "right": "यह ज़रूरी है",
+                "why_en": "There is no ज़रूरा. Working backwards from the -ी to invent a masculine form is the same trap दुखी sets."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "ज़रूरी",
+              "question_read_as": "zaruurii",
+              "options": [
+                "ready",
+                "necessary",
+                "difficult",
+                "possible"
+              ],
+              "options_read_as": [
+                "ready",
+                "necessary",
+                "difficult",
+                "possible"
+              ],
+              "answer_index": 1,
+              "explanation_en": "ज़रूरी is necessary or important, and it is unmarked despite ending in -ी."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with ज़रूरी?",
+              "options": [
+                "लगना",
+                "करना",
+                "होना",
+                "आना"
+              ],
+              "options_read_as": [
+                "lagnaa",
+                "karnaa",
+                "honaa",
+                "aanaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "ज़रूरी होना. The related noun ज़रूरत also takes होना, with the person marked by को."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ज़रूरी",
+              "यह ज़रूरी है",
+              "यह बात ज़रूरी है",
+              "मुझे इसकी ज़रूरत है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The work block is complete at fifteen words. समस्या is the fifth feminine noun in this module ending in -ा, and ज़रूरी is the second unmarked adjective ending in -ी — two endings that look like they should tell you something and do not.",
+        "key_forms": [
+          "समस्या होना",
+          "तैयार होना",
+          "ज़रूरी होना"
+        ],
+        "next_up_en": "Next: school and study, including one collocation that runs exactly opposite to English."
+      }
+    },
+    {
+      "level": 23,
+      "title_en": "Study: studying, exams, questions",
+      "title_hi": "पढ़ाई · परीक्षा · सवाल",
+      "category": "school_study",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L23-I1",
+          "type": "word",
+          "target": "पढ़ाई",
+          "read_as": "paṛhaaii",
+          "pronunciation_notes": "The ढ़ is a breathy flap and the word ends on two vowels running together: pa-ṛhaa-ii.",
+          "gloss_en": "studying, studies, education",
+          "gender": "f",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "पढ़ाई करना",
+            "read_as": "paṛhaaii karnaa",
+            "english": "to study"
+          },
+          "category": "school_study",
+          "difficulty": 6,
+          "tags": [
+            "school_study",
+            "noun",
+            "feminine",
+            "uncountable",
+            "ii_ending",
+            "derived_noun"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The -आई ending, and why it is always feminine",
+              "explanation_en": "पढ़ाई is studying, formed from पढ़ना with the suffix -आई. That suffix turns a verb into the noun for the activity, and everything it makes is feminine: पढ़ाई from पढ़ना, लिखाई from लिखना, कमाई from कमाना. So a word ending in -आई is as reliably feminine as one ending in -ी, which makes this a second predictable pattern rather than another thing to memorise. पढ़ाई करना is to study, alongside the plain verb पढ़ना.",
+              "examples": [
+                {
+                  "hindi": "मैं पढ़ाई करता हूँ",
+                  "read_as": "maiṁ paṛhaaii kartaa huuṁ",
+                  "english": "I study",
+                  "note": "करता agrees with the subject, not with पढ़ाई."
+                },
+                {
+                  "hindi": "पढ़ाई अच्छी चल रही है",
+                  "read_as": "paṛhaaii achchhii chal rahii hai",
+                  "english": "the studies are going well",
+                  "note": "Both अच्छी and रही are feminine, agreeing with पढ़ाई."
+                },
+                {
+                  "hindi": "वह पढ़ रहा है",
+                  "read_as": "vah paṛh rahaa hai",
+                  "english": "he is reading",
+                  "note": "The plain verb पढ़ना, for the act rather than the activity."
+                }
+              ],
+              "common_error": {
+                "wrong": "पढ़ाई अच्छा चल रहा है",
+                "right": "पढ़ाई अच्छी चल रही है",
+                "why_en": "Words ending in -आई are always feminine, so everything agreeing with पढ़ाई takes -ी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पढ़ाई",
+              "question_read_as": "paṛhaaii",
+              "options": [
+                "studying",
+                "reading",
+                "teaching",
+                "writing"
+              ],
+              "options_read_as": [
+                "studying",
+                "reading",
+                "teaching",
+                "writing"
+              ],
+              "answer_index": 0,
+              "explanation_en": "पढ़ाई is studying as an activity, formed from पढ़ना with -आई."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with पढ़ाई?",
+              "options": [
+                "लेना",
+                "लगना",
+                "देना",
+                "करना"
+              ],
+              "options_read_as": [
+                "lenaa",
+                "lagnaa",
+                "denaa",
+                "karnaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "पढ़ाई करना — to study. The activity noun takes करना."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पढ़ाई",
+              "मैं पढ़ाई करता हूँ",
+              "पढ़ाई अच्छी चल रही है",
+              "वह पढ़ रहा है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L23-I2",
+          "type": "word",
+          "target": "परीक्षा",
+          "read_as": "pariikshaa",
+          "pronunciation_notes": "The क्ष is a single cluster, close to ksh: pa-riik-shaa.",
+          "gloss_en": "exam, test",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "परीक्षाएँ",
+          "plural_read_as": "pariikshaaeṁ",
+          "collocation": {
+            "hindi": "परीक्षा देना",
+            "read_as": "pariikshaa denaa",
+            "english": "to sit an exam"
+          },
+          "category": "school_study",
+          "difficulty": 7,
+          "tags": [
+            "school_study",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "feminine_aa",
+            "collocation_reversal",
+            "sanskrit_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The student gives the exam and the teacher takes it",
+              "explanation_en": "This is the collocation that runs backwards from English. परीक्षा देना means to sit an exam — the student gives it. परीक्षा लेना means to set and administer one — the teacher takes it. English has it the other way round entirely, so a learner translating directly says exactly the wrong thing and claims to be running the examination. Learn the pair together. परीक्षा is also the sixth feminine noun in this module ending in -ा.",
+              "examples": [
+                {
+                  "hindi": "मैं परीक्षा दूँगा",
+                  "read_as": "maiṁ pariikshaa duuṁgaa",
+                  "english": "I will sit the exam",
+                  "note": "देना for the student, and the future because देना is transitive."
+                },
+                {
+                  "hindi": "टीचर परीक्षा लेते हैं",
+                  "read_as": "ṭiichar pariikshaa lete haiṁ",
+                  "english": "the teacher sets the exam",
+                  "note": "लेना for the examiner, with respectful plural agreement."
+                },
+                {
+                  "hindi": "परीक्षा कल है",
+                  "read_as": "pariikshaa kal hai",
+                  "english": "the exam is tomorrow",
+                  "note": "The noun standing alone with होना."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं परीक्षा लूँगा",
+                "right": "मैं परीक्षा दूँगा",
+                "why_en": "लेना would mean you are the one setting the paper. The candidate gives the exam in Hindi."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "परीक्षा",
+              "question_read_as": "pariikshaa",
+              "options": [
+                "lesson",
+                "result",
+                "exam",
+                "class"
+              ],
+              "options_read_as": [
+                "lesson",
+                "result",
+                "exam",
+                "class"
+              ],
+              "answer_index": 2,
+              "explanation_en": "परीक्षा is an exam, and it is feminine despite ending in -ा."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with परीक्षा when you are the student?",
+              "options": [
+                "लेना",
+                "देना",
+                "करना",
+                "होना"
+              ],
+              "options_read_as": [
+                "lenaa",
+                "denaa",
+                "karnaa",
+                "honaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "परीक्षा देना — the student gives the exam. लेना belongs to the examiner."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "परीक्षा",
+              "मैं परीक्षा दूँगा",
+              "टीचर परीक्षा लेते हैं",
+              "परीक्षा कल है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L23-I3",
+          "type": "word",
+          "target": "सवाल",
+          "read_as": "savaal",
+          "pronunciation_notes": "The stress falls on the long second syllable: sa-vaal.",
+          "gloss_en": "question",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "सवाल",
+          "plural_read_as": "savaal",
+          "collocation": {
+            "hindi": "सवाल पूछना",
+            "read_as": "savaal puuchhnaa",
+            "english": "to ask a question"
+          },
+          "category": "school_study",
+          "difficulty": 6,
+          "tags": [
+            "school_study",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "class_2",
+            "arabic_origin",
+            "pairs_with_javaab"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सवाल पूछना, and who you ask takes से",
+              "explanation_en": "सवाल is a question, masculine and Class 2. The verb is पूछना, to ask, and the person you ask takes से rather than को: मुझसे सवाल मत पूछो, do not ask me questions. That से catches people out because English uses no preposition at all there. सवाल also means a problem in the mathematical sense — a sum to solve — so सवाल हल करना is to solve a problem.",
+              "examples": [
+                {
+                  "hindi": "सवाल पूछो",
+                  "read_as": "savaal puuchho",
+                  "english": "ask a question",
+                  "note": "The तुम imperative — पूछना is transitive."
+                },
+                {
+                  "hindi": "मुझसे मत पूछो",
+                  "read_as": "mujhse mat puuchho",
+                  "english": "do not ask me",
+                  "note": "मुझसे is मैं fused with से, and मत negates the imperative."
+                },
+                {
+                  "hindi": "यह सवाल मुश्किल है",
+                  "read_as": "yah savaal mushkil hai",
+                  "english": "this question is difficult",
+                  "note": "मुश्किल is unmarked and never changes."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे सवाल मत पूछो",
+                "right": "मुझसे सवाल मत पूछो",
+                "why_en": "पूछना takes से for the person asked, not को. The same से appears with प्यार करना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सवाल",
+              "question_read_as": "savaal",
+              "options": [
+                "answer",
+                "lesson",
+                "doubt",
+                "question"
+              ],
+              "options_read_as": [
+                "answer",
+                "lesson",
+                "doubt",
+                "question"
+              ],
+              "answer_index": 3,
+              "explanation_en": "सवाल is a question, masculine, and also a sum to be solved."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition marks the person you ask?",
+              "options": [
+                "को",
+                "में",
+                "से",
+                "पर"
+              ],
+              "options_read_as": [
+                "ko",
+                "meṁ",
+                "se",
+                "par"
+              ],
+              "answer_index": 2,
+              "explanation_en": "मुझसे सवाल पूछो — पूछना takes से for the person asked."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सवाल",
+              "सवाल पूछो",
+              "मुझसे मत पूछो",
+              "यह सवाल मुश्किल है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Words ending in -आई are reliably feminine, which makes पढ़ाई predictable. परीक्षा is not — and its collocation runs backwards from English, with the student giving the exam and the examiner taking it.",
+        "key_forms": [
+          "पढ़ाई करना",
+          "परीक्षा देना",
+          "सवाल पूछना"
+        ],
+        "next_up_en": "Next: answers, mistakes and the teacher, and the postpositions each of them takes."
+      }
+    },
+    {
+      "level": 24,
+      "title_en": "Study: answers, mistakes, the teacher",
+      "title_hi": "जवाब · ग़लती · टीचर",
+      "category": "school_study",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L24-I1",
+          "type": "word",
+          "target": "जवाब",
+          "read_as": "javaab",
+          "pronunciation_notes": "Long aa in the second syllable and a soft final b: ja-vaab.",
+          "gloss_en": "answer, reply",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "जवाब",
+          "plural_read_as": "javaab",
+          "collocation": {
+            "hindi": "जवाब देना",
+            "read_as": "javaab denaa",
+            "english": "to answer"
+          },
+          "category": "school_study",
+          "difficulty": 6,
+          "tags": [
+            "school_study",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "class_2",
+            "arabic_origin",
+            "pairs_with_savaal"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सवाल and जवाब, question and answer",
+              "explanation_en": "जवाब is an answer, masculine and Class 2, and it pairs with सवाल so tightly that सवाल-जवाब together means a question-and-answer session or an interrogation. The verb is देना, and the person you answer takes को: मुझे जवाब दो, answer me. So the pair takes different postpositions — you ask a person से and answer them को — which is worth noticing because English marks neither.",
+              "examples": [
+                {
+                  "hindi": "जवाब दो",
+                  "read_as": "javaab do",
+                  "english": "answer",
+                  "note": "The तुम imperative of देना."
+                },
+                {
+                  "hindi": "मुझे जवाब दो",
+                  "read_as": "mujhe javaab do",
+                  "english": "answer me",
+                  "note": "The person answered takes को, unlike with पूछना."
+                },
+                {
+                  "hindi": "जवाब सही है",
+                  "read_as": "javaab sahii hai",
+                  "english": "the answer is right",
+                  "note": "सही is unmarked and means correct."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझसे जवाब दो",
+                "right": "मुझे जवाब दो",
+                "why_en": "देना takes को for the recipient. से belongs with पूछना, and the two are easy to swap."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "जवाब",
+              "question_read_as": "javaab",
+              "options": [
+                "question",
+                "answer",
+                "reason",
+                "result"
+              ],
+              "options_read_as": [
+                "question",
+                "answer",
+                "reason",
+                "result"
+              ],
+              "answer_index": 1,
+              "explanation_en": "जवाब is an answer, masculine, and it pairs with सवाल."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with जवाब?",
+              "options": [
+                "देना",
+                "पूछना",
+                "लेना",
+                "करना"
+              ],
+              "options_read_as": [
+                "denaa",
+                "puuchhnaa",
+                "lenaa",
+                "karnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "जवाब देना — an answer is given, and the person answered takes को."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जवाब",
+              "जवाब दो",
+              "मुझे जवाब दो",
+              "जवाब सही है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L24-I2",
+          "type": "word",
+          "target": "ग़लती",
+          "read_as": "galtii",
+          "pronunciation_notes": "The dotted ग़ is made further back than a plain ग: gal-tii.",
+          "gloss_en": "mistake, error",
+          "gender": "f",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "ग़लतियाँ",
+          "plural_read_as": "galtiyaaṁ",
+          "collocation": {
+            "hindi": "ग़लती करना",
+            "read_as": "galtii karnaa",
+            "english": "to make a mistake"
+          },
+          "category": "school_study",
+          "difficulty": 6,
+          "tags": [
+            "school_study",
+            "noun",
+            "feminine",
+            "class_4",
+            "nukta",
+            "arabic_origin",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ग़लती करना, and ग़लत for the thing itself",
+              "explanation_en": "ग़लती is a mistake, feminine and predictable from its -ी. The verb is करना — you do a mistake in Hindi rather than making one — and the adjective ग़लत means wrong or incorrect. So जवाब ग़लत है is the answer is wrong. There is also a second way to say you made one: मुझसे ग़लती हुई, using होना and से, which carefully avoids blaming anyone and is noticeably gentler. It is also the version available to you now, since it needs no ने.",
+              "examples": [
+                {
+                  "hindi": "ग़लती मत करो",
+                  "read_as": "galtii mat karo",
+                  "english": "do not make a mistake",
+                  "note": "The negative imperative with मत, and करना is safe outside the perfective."
+                },
+                {
+                  "hindi": "मुझसे ग़लती हुई",
+                  "read_as": "mujhse galtii huii",
+                  "english": "I made a mistake",
+                  "note": "होना is intransitive, so this version is available to you now."
+                },
+                {
+                  "hindi": "जवाब ग़लत है",
+                  "read_as": "javaab galat hai",
+                  "english": "the answer is wrong",
+                  "note": "ग़लत is the unmarked adjective, and it never changes."
+                }
+              ],
+              "common_error": {
+                "wrong": "जवाब ग़लती है",
+                "right": "जवाब ग़लत है",
+                "why_en": "ग़लती is the noun mistake. To describe something as wrong you need the adjective ग़लत."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "ग़लती",
+              "question_read_as": "galtii",
+              "options": [
+                "question",
+                "problem",
+                "mistake",
+                "difficulty"
+              ],
+              "options_read_as": [
+                "question",
+                "problem",
+                "mistake",
+                "difficulty"
+              ],
+              "answer_index": 2,
+              "explanation_en": "ग़लती is a mistake, feminine, and ग़लत is the adjective wrong."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with ग़लती?",
+              "options": [
+                "देना",
+                "लेना",
+                "पूछना",
+                "करना"
+              ],
+              "options_read_as": [
+                "denaa",
+                "lenaa",
+                "puuchhnaa",
+                "karnaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "ग़लती करना — you do a mistake in Hindi. मुझसे ग़लती हुई is the gentler alternative."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ग़लती",
+              "ग़लती मत करो",
+              "मुझसे ग़लती हुई",
+              "जवाब ग़लत है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L24-I3",
+          "type": "word",
+          "target": "टीचर",
+          "read_as": "ṭiichar",
+          "pronunciation_notes": "Retroflex ट as with every English loanword: ṭii-char.",
+          "gloss_en": "teacher",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "टीचर",
+          "plural_read_as": "ṭiichar",
+          "collocation": {
+            "hindi": "टीचर से पूछना",
+            "read_as": "ṭiichar se puuchhnaa",
+            "english": "to ask the teacher"
+          },
+          "category": "school_study",
+          "difficulty": 6,
+          "tags": [
+            "school_study",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "loanword",
+            "respectful_plural",
+            "profession"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "टीचर takes plural agreement out of respect",
+              "explanation_en": "टीचर is borrowed from English and used far more in speech than the Hindi अध्यापक or शिक्षक, which belong to writing. The thing to notice is the agreement: teachers, like doctors and elders, usually take plural verbs as a mark of respect. टीचर आ रहे हैं for a single teacher, not आ रहा है. That is the same grammatical plural that makes आप polite, applied to a third person, and using the singular can sound dismissive.",
+              "examples": [
+                {
+                  "hindi": "टीचर आ रहे हैं",
+                  "read_as": "ṭiichar aa rahe haiṁ",
+                  "english": "the teacher is coming",
+                  "note": "Plural agreement for one person, out of respect."
+                },
+                {
+                  "hindi": "टीचर से पूछो",
+                  "read_as": "ṭiichar se puuchho",
+                  "english": "ask the teacher",
+                  "note": "पूछना takes से for the person asked."
+                },
+                {
+                  "hindi": "वह अच्छी टीचर हैं",
+                  "read_as": "vah achchhii ṭiichar haiṁ",
+                  "english": "she is a good teacher",
+                  "note": "अच्छी is feminine for a woman, and हैं is still the respectful plural."
+                }
+              ],
+              "common_error": {
+                "wrong": "टीचर आ रहा है",
+                "right": "टीचर आ रहे हैं",
+                "why_en": "Not ungrammatical, but singular agreement for a teacher sounds curt. Respect is expressed through the plural."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "टीचर",
+              "question_read_as": "ṭiichar",
+              "options": [
+                "teacher",
+                "student",
+                "principal",
+                "class"
+              ],
+              "options_read_as": [
+                "teacher",
+                "student",
+                "principal",
+                "class"
+              ],
+              "answer_index": 0,
+              "explanation_en": "टीचर is a teacher, and the word is used for both men and women."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition goes with टीचर when you ask them something?",
+              "options": [
+                "को",
+                "से",
+                "में",
+                "पर"
+              ],
+              "options_read_as": [
+                "ko",
+                "se",
+                "meṁ",
+                "par"
+              ],
+              "answer_index": 1,
+              "explanation_en": "टीचर से पूछना — पूछना always takes से for the person asked."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "टीचर",
+              "टीचर आ रहे हैं",
+              "टीचर से पूछो",
+              "वह अच्छी टीचर हैं"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "पूछना takes से and देना takes को, so you ask a person से and answer them को — a distinction English does not mark at all. Teachers and doctors take plural agreement as a mark of respect, which is the same grammatical plural that makes आप polite.",
+        "key_forms": [
+          "जवाब देना",
+          "ग़लती करना",
+          "टीचर से पूछना"
+        ],
+        "next_up_en": "Next: the classroom, understanding, and a conversation before an exam."
+      }
+    },
+    {
+      "level": 25,
+      "title_en": "Study: class and understanding",
+      "title_hi": "क्लास · समझना",
+      "category": "school_study",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M08-L25-I1",
+          "type": "word",
+          "target": "क्लास",
+          "read_as": "klaas",
+          "pronunciation_notes": "The क्ल is a single cluster with no vowel between: klaas.",
+          "gloss_en": "class, a lesson",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "क्लासें",
+          "plural_read_as": "klaaseṁ",
+          "collocation": {
+            "hindi": "क्लास लेना",
+            "read_as": "klaas lenaa",
+            "english": "to take or teach a class"
+          },
+          "category": "school_study",
+          "difficulty": 6,
+          "tags": [
+            "school_study",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "loanword",
+            "ambiguous_collocation"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "क्लास लेना means teaching it, not attending it",
+              "explanation_en": "क्लास is borrowed from English and is feminine — another gender assigned on arrival with no rule behind it. Its collocation carries the same reversal as परीक्षा: क्लास लेना is what the teacher does, taking the class, while a student attends with क्लास में जाना or क्लास अटेंड करना. The Hindi word कक्षा exists and means the same thing in more formal contexts, including a school year group.",
+              "examples": [
+                {
+                  "hindi": "टीचर क्लास लेते हैं",
+                  "read_as": "ṭiichar klaas lete haiṁ",
+                  "english": "the teacher takes the class",
+                  "note": "लेना for the teacher, with respectful plural agreement."
+                },
+                {
+                  "hindi": "मैं क्लास में हूँ",
+                  "read_as": "maiṁ klaas meṁ huuṁ",
+                  "english": "I am in class",
+                  "note": "क्लास is oblique before में, though nothing visible changes."
+                },
+                {
+                  "hindi": "क्लास ख़त्म हुई",
+                  "read_as": "klaas khatam huii",
+                  "english": "the class finished",
+                  "note": "हुई is feminine, which proves क्लास is."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं क्लास लेता हूँ",
+                "right": "मैं क्लास में जाता हूँ",
+                "why_en": "क्लास लेना means you are teaching it. A student goes to class rather than taking it."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "क्लास",
+              "question_read_as": "klaas",
+              "options": [
+                "exam",
+                "class",
+                "school",
+                "subject"
+              ],
+              "options_read_as": [
+                "exam",
+                "class",
+                "school",
+                "subject"
+              ],
+              "answer_index": 1,
+              "explanation_en": "क्लास is a class or lesson, and Hindi treats it as feminine."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with क्लास when the teacher runs it?",
+              "options": [
+                "लेना",
+                "करना",
+                "देना",
+                "पूछना"
+              ],
+              "options_read_as": [
+                "lenaa",
+                "karnaa",
+                "denaa",
+                "puuchhnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "क्लास लेना — the teacher takes the class. A student goes to it instead."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "क्लास",
+              "टीचर क्लास लेते हैं",
+              "मैं क्लास में हूँ",
+              "क्लास ख़त्म हुई"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L25-I2",
+          "type": "word",
+          "target": "समझना",
+          "read_as": "samajhnaa",
+          "pronunciation_notes": "The middle vowel almost vanishes and the झ is breathy: sa-majh-naa.",
+          "gloss_en": "to understand",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "बात समझना",
+            "read_as": "baat samajhnaa",
+            "english": "to understand what is said"
+          },
+          "category": "school_study",
+          "difficulty": 7,
+          "tags": [
+            "school_study",
+            "verb",
+            "transitive",
+            "two_constructions",
+            "high_frequency",
+            "module9_preview"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Two ways to say you understand, and one is easier",
+              "explanation_en": "समझना is to understand, and it is transitive — मैं समझता हूँ, I understand. But Hindi also has समझ आना, where understanding comes to you: मुझे समझ आता है. The second is worth having now for a practical reason. समझना is transitive, so its perfective needs ने and is not yet available, while समझ आना is intransitive and works in every tense. मुझे समझ आया, I understood, is a sentence you can build today.",
+              "examples": [
+                {
+                  "hindi": "मैं समझता हूँ",
+                  "read_as": "maiṁ samajhtaa huuṁ",
+                  "english": "I understand",
+                  "note": "The habitual present, which is safe with a transitive verb."
+                },
+                {
+                  "hindi": "मुझे समझ आया",
+                  "read_as": "mujhe samajh aayaa",
+                  "english": "I understood",
+                  "note": "आना is intransitive, so the perfective is available now."
+                },
+                {
+                  "hindi": "मुझे समझ नहीं आता",
+                  "read_as": "mujhe samajh nahiiṁ aataa",
+                  "english": "I do not understand",
+                  "note": "The auxiliary is dropped after नहीं, as usual in the habitual."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं समझा",
+                "right": "मुझे समझ आया",
+                "why_en": "समझना is transitive, so its perfective needs ने. The समझ आना version avoids the problem entirely."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "समझना",
+              "question_read_as": "samajhnaa",
+              "options": [
+                "to explain",
+                "to learn",
+                "to remember",
+                "to understand"
+              ],
+              "options_read_as": [
+                "to explain",
+                "to learn",
+                "to remember",
+                "to understand"
+              ],
+              "answer_index": 3,
+              "explanation_en": "समझना is to understand, and समझाना is to explain."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb pairs with समझ so you can use the past right now?",
+              "options": [
+                "होना",
+                "लेना",
+                "आना",
+                "करना"
+              ],
+              "options_read_as": [
+                "honaa",
+                "lenaa",
+                "aanaa",
+                "karnaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "समझ आना is intransitive, so मुझे समझ आया works without ने."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "समझना",
+              "मैं समझता हूँ",
+              "मुझे समझ आया",
+              "मुझे समझ नहीं आता"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L25-I3",
+          "type": "dialogue",
+          "target": "परीक्षा कब है",
+          "read_as": "pariikshaa kab hai",
+          "pronunciation_notes": "The question falls away at the end, with कब है unstressed.",
+          "gloss_en": "before an exam",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "phrase",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "परीक्षा देना",
+            "read_as": "pariikshaa denaa",
+            "english": "to sit an exam"
+          },
+          "category": "school_study",
+          "difficulty": 7,
+          "tags": [
+            "school_study",
+            "dialogue",
+            "micro_dialogue",
+            "agreement",
+            "samajh_aanaa"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Four lines, and the last one avoids ने",
+              "explanation_en": "The first line hangs on gender again — परीक्षा is feminine, so तुम्हारी rather than तुम्हारा. The last line is worth noticing for a different reason: मुझे यह सवाल समझ नहीं आता uses समझ आना rather than समझना, which means it needs no ने and works in any tense. A learner who reached for समझना here would be stuck, because its perfective is still two modules away. Choosing the intransitive partner is often the way around that.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "तुम्हारी परीक्षा कब है?",
+                  "read_as": "tumhaarii pariikshaa kab hai?",
+                  "english": "When is your exam?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "कल है।",
+                  "read_as": "kal hai.",
+                  "english": "It is tomorrow."
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "तुम पढ़ाई कर रहे हो?",
+                  "read_as": "tum paṛhaaii kar rahe ho?",
+                  "english": "Are you studying?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "हाँ, लेकिन मुझे यह सवाल समझ नहीं आता।",
+                  "read_as": "haaṁ, lekin mujhe yah savaal samajh nahiiṁ aataa.",
+                  "english": "Yes, but I do not understand this question."
+                }
+              ],
+              "common_error": {
+                "wrong": "तुम्हारा परीक्षा कब है?",
+                "right": "तुम्हारी परीक्षा कब है?",
+                "why_en": "परीक्षा is feminine despite the -ा ending, so the possessive is तुम्हारी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this sentence mean?",
+              "question": "मुझे समझ नहीं आता",
+              "question_read_as": "mujhe samajh nahiiṁ aataa",
+              "options": [
+                "I do not understand",
+                "I do not remember",
+                "I do not know",
+                "I did not hear"
+              ],
+              "options_read_as": [
+                "I do not understand",
+                "I do not remember",
+                "I do not know",
+                "I did not hear"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Literally understanding does not come to me — the intransitive way of saying it."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the first line. Which word is missing?",
+              "masked_line_index": 0,
+              "masked_word": "तुम्हारी",
+              "options": [
+                "तुम्हारा",
+                "तुम्हारी",
+                "तुम्हारे",
+                "मेरी"
+              ],
+              "options_read_as": [
+                "tumhaaraa",
+                "tumhaarii",
+                "tumhaare",
+                "merii"
+              ],
+              "answer_index": 1,
+              "explanation_en": "परीक्षा is feminine, so the possessive is तुम्हारी."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तुम्हारी परीक्षा कब है?",
+              "कल है।",
+              "तुम पढ़ाई कर रहे हो?",
+              "हाँ, लेकिन मुझे यह सवाल समझ नहीं आता।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "क्लास लेना and परीक्षा लेना both belong to the teacher, not the student — the same reversal twice. समझ आना is the intransitive partner of समझना, and choosing it lets you use the past tense two modules early.",
+        "key_forms": [
+          "क्लास लेना",
+          "समझ आना",
+          "परीक्षा कब है"
+        ],
+        "next_up_en": "Next: the last of the school block, then shopping and money."
+      }
+    }
+  ]
+}

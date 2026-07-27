@@ -1,0 +1,1626 @@
+{
+  "module": 14,
+  "module_name_en": "Connected Speech",
+  "module_name_hi": "जुड़े वाक्य",
+  "phase": 5,
+  "type": "grammar",
+  "batch": {
+    "levels_from": 11,
+    "levels_to": 15
+  },
+  "batch_note": "अगर ... तो is the sixth correlative pair in this module, and dropping तो is the same English-shaped error as dropping वह or तब. Levels 14 and 15 then use the bare imperfect for counterfactuals — the form Module 7 taught as the habitual past — so the collision is named directly in the first card rather than left for a learner to trip over.",
+  "levels": [
+    {
+      "level": 11,
+      "title_en": "If, then",
+      "title_hi": "अगर ... तो",
+      "items": [
+        {
+          "id": "M14-L11-I1",
+          "type": "grammar",
+          "structure": "agar_to",
+          "target": "अगर बारिश हुई तो हम नहीं जाएँगे।",
+          "read_as": "agar baarish huii to ham nahiiṁ jaaeṁge.",
+          "english": "If it rains we won't go.",
+          "difficulty": 7,
+          "tags": [
+            "conditional",
+            "agar_to",
+            "sixth_pair",
+            "perfective_in_if_clause"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The sixth pair, and English still has nothing to drop",
+              "explanation_en": "अगर opens a condition and तो answers it, exactly as जो answers with वह. English says \"if it rains we won't go\" with no \"then\", so the same omission is waiting here that has been waiting in every level so far. Note also the tense in the अगर half: अगर बारिश हुई, with the perfective, not the future. A condition about the future usually takes the perfective or the subjunctive in Hindi. The future is possible — अगर बारिश होगी — but it is the less common choice, and it is not what जब clauses do.",
+              "examples": [
+                {
+                  "hindi": "अगर बारिश हुई तो हम नहीं जाएँगे।",
+                  "read_as": "agar baarish huii to ham nahiiṁ jaaeṁge.",
+                  "english": "If it rains we won't go.",
+                  "note": "Perfective in the condition, future in the consequence."
+                },
+                {
+                  "hindi": "अगर वो आ जाए तो मुझे बता देना।",
+                  "read_as": "agar vo aa jaae to mujhe bataa denaa.",
+                  "english": "If he turns up, let me know.",
+                  "note": "Subjunctive आ जाए — the outcome is less certain."
+                },
+                {
+                  "hindi": "जब बारिश होगी, तब देखेंगे।",
+                  "read_as": "jab baarish hogii, tab dekheṁge.",
+                  "english": "We'll see when it rains.",
+                  "note": "A जब clause, and here the future is entirely normal. The two conjunctions behave differently."
+                }
+              ],
+              "common_error": {
+                "wrong": "अगर बारिश हुई, हम नहीं जाएँगे।",
+                "right": "अगर बारिश हुई तो हम नहीं जाएँगे।",
+                "why_en": "The missing correlative again, in a sixth place. If you have made this mistake five times already, you will make it here."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one conditional sentence.",
+              "sentences": [
+                "शायद बारिश होगी।",
+                "हम नहीं जाएँगे।"
+              ],
+              "sentences_read_as": [
+                "shaayad baarish hogii.",
+                "ham nahiiṁ jaaeṁge."
+              ],
+              "options": [
+                "अगर बारिश हुई तब हम नहीं जाएँगे।",
+                "बारिश अगर हुई हम तो नहीं जाएँगे।",
+                "अगर बारिश हुई तो हम नहीं जाएँगे।",
+                "अगर बारिश हुई, हम नहीं जाएँगे।"
+              ],
+              "options_read_as": [
+                "agar baarish huii tab ham nahiiṁ jaaeṁge.",
+                "baarish agar huii ham to nahiiṁ jaaeṁge.",
+                "agar baarish huii to ham nahiiṁ jaaeṁge.",
+                "agar baarish huii, ham nahiiṁ jaaeṁge."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                false,
+                true
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second drops तो. The third uses तब, which answers जब and not अगर. The fourth moves तो next to हम, where it emphasises the wrong word."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "तो हम",
+                "अगर बारिश हुई",
+                "नहीं जाएँगे"
+              ],
+              "answer": [
+                "अगर बारिश हुई",
+                "तो हम",
+                "नहीं जाएँगे"
+              ],
+              "answer_read_as": "agar baarish huii to ham nahiiṁ jaaeṁge.",
+              "explanation_en": "तो opens the second half, before its subject."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अगर बारिश हुई तो हम नहीं जाएँगे।",
+              "अगर वो आ जाए तो मुझे बता देना।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L11-I2",
+          "type": "grammar",
+          "structure": "agar_to",
+          "target": "तबीयत ठीक नहीं है तो आराम करो।",
+          "read_as": "tabiiyat ṭhiik nahiiṁ hai to aaraam karo.",
+          "english": "If you're not well, rest.",
+          "difficulty": 7,
+          "tags": [
+            "conditional",
+            "agar_dropped",
+            "to_particle",
+            "callback_m12",
+            "speech_register"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "अगर can go; तो cannot",
+              "explanation_en": "In speech the opener is very often dropped and तो carries the whole conditional on its own: तबीयत ठीक नहीं है तो आराम करो. You met this in Module 12, in a phone call where the line kept breaking — फिर कट गया तो मैसेज कर दूँगा. The asymmetry is worth holding onto. अगर is optional and तो is not, which is the exact opposite of what an English speaker expects, since English keeps \"if\" and has no \"then\" at all.",
+              "examples": [
+                {
+                  "hindi": "तबीयत ठीक नहीं है तो आराम करो।",
+                  "read_as": "tabiiyat ṭhiik nahiiṁ hai to aaraam karo.",
+                  "english": "If you're not well, rest.",
+                  "note": "No अगर, and none needed."
+                },
+                {
+                  "hindi": "फिर कट गया तो मैसेज कर दूँगा।",
+                  "read_as": "phir kaṭ gayaa to maisej kar duuṁgaa.",
+                  "english": "If it cuts out again I'll message.",
+                  "note": "The Module 12 sentence, and the same structure."
+                },
+                {
+                  "hindi": "अगर तबीयत ठीक नहीं है तो आराम करो।",
+                  "read_as": "agar tabiiyat ṭhiik nahiiṁ hai to aaraam karo.",
+                  "english": "If you're not well, rest.",
+                  "note": "With अगर. Correct, a shade more deliberate, and commoner in writing."
+                }
+              ],
+              "common_error": {
+                "wrong": "अगर तबीयत ठीक नहीं है, आराम करो।",
+                "right": "तबीयत ठीक नहीं है तो आराम करो।",
+                "why_en": "Keeping अगर and dropping तो is precisely backwards. If you are going to drop one, drop the opener."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these the way somebody would actually say it.",
+              "sentences": [
+                "तबीयत ठीक नहीं है।",
+                "आराम करो।"
+              ],
+              "sentences_read_as": [
+                "tabiiyat ṭhiik nahiiṁ hai.",
+                "aaraam karo."
+              ],
+              "options": [
+                "तबीयत ठीक नहीं है तो आराम करो।",
+                "अगर तबीयत ठीक नहीं है, आराम करो।",
+                "तबीयत ठीक नहीं है, आराम करो।",
+                "तो तबीयत ठीक नहीं है, आराम करो।"
+              ],
+              "options_read_as": [
+                "tabiiyat ṭhiik nahiiṁ hai to aaraam karo.",
+                "agar tabiiyat ṭhiik nahiiṁ hai, aaraam karo.",
+                "tabiiyat ṭhiik nahiiṁ hai, aaraam karo.",
+                "to tabiiyat ṭhiik nahiiṁ hai, aaraam karo."
+              ],
+              "is_the_english_error": [
+                false,
+                true,
+                false,
+                false
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second keeps the opener and loses the correlative, which is the wrong one to lose. The third has neither, so it is two statements. The fourth puts तो at the front, where it means \"so\" and opens a conclusion instead."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "तो आराम करो",
+                "तबीयत",
+                "ठीक नहीं है"
+              ],
+              "answer": [
+                "तबीयत",
+                "ठीक नहीं है",
+                "तो आराम करो"
+              ],
+              "answer_read_as": "tabiiyat ṭhiik nahiiṁ hai to aaraam karo.",
+              "explanation_en": "The condition stands complete, and तो introduces what follows from it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तबीयत ठीक नहीं है तो आराम करो।",
+              "फिर कट गया तो मैसेज कर दूँगा।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L11-I3",
+          "type": "grammar",
+          "structure": "yadi_to",
+          "target": "यदि आवश्यक हो तो सूचित करें।",
+          "read_as": "yadi aavashyak ho to suuchit kareṁ.",
+          "english": "If necessary, please inform us.",
+          "difficulty": 8,
+          "tags": [
+            "conditional",
+            "yadi",
+            "formal_register",
+            "subjunctive",
+            "callback_m13"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "यदि — अगर in formal dress",
+              "explanation_en": "यदि is the Sanskrit-side conditional and it belongs to notices, forms and official writing; अगर is Urdu-side and is what everybody says. They are interchangeable in meaning and both take तो. यदि आवश्यक हो तो सूचित करें is about as formal as a Hindi sentence gets, and every content word in it came from Module 13 — आवश्यक from level 18, सूचित from level 19. Note the subjunctive हो rather than है: a formal condition prefers it.",
+              "examples": [
+                {
+                  "hindi": "यदि आवश्यक हो तो सूचित करें।",
+                  "read_as": "yadi aavashyak ho to suuchit kareṁ.",
+                  "english": "If necessary, please inform us.",
+                  "note": "A form or a notice would print exactly this."
+                },
+                {
+                  "hindi": "अगर ज़रूरत हो तो बता देना।",
+                  "read_as": "agar zaruurat ho to bataa denaa.",
+                  "english": "Let me know if you need anything.",
+                  "note": "The same sentence in speech — every word swapped to the other side."
+                },
+                {
+                  "hindi": "यदि कोई आपत्ति न हो तो कार्य आरंभ किया जाए।",
+                  "read_as": "yadi koii aapatti na ho to kaarya aaraṁbh kiyaa jaae.",
+                  "english": "If there is no objection, let the work begin.",
+                  "note": "न with the subjunctive, and a passive that level 24 will explain."
+                }
+              ],
+              "common_error": {
+                "wrong": "यदि ज़रूरत हो तो बता देना — said to a friend",
+                "right": "अगर ज़रूरत हो तो बता देना",
+                "why_en": "यदि in conversation sounds like reading aloud from a circular. The register of the conjunction has to match the rest of the sentence."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these as an official notice would.",
+              "sentences": [
+                "शायद यह आवश्यक हो।",
+                "सूचित करें।"
+              ],
+              "sentences_read_as": [
+                "shaayad yah aavashyak ho.",
+                "suuchit kareṁ."
+              ],
+              "options": [
+                "यदि आवश्यक हो, सूचित करें।",
+                "यदि आवश्यक है तो सूचित करो।",
+                "अगर आवश्यक हो तो सूचित कर देना।",
+                "यदि आवश्यक हो तो सूचित करें।"
+              ],
+              "options_read_as": [
+                "yadi aavashyak ho, suuchit kareṁ.",
+                "yadi aavashyak hai to suuchit karo.",
+                "agar aavashyak ho to suuchit kar denaa.",
+                "yadi aavashyak ho to suuchit kareṁ."
+              ],
+              "is_the_english_error": [
+                true,
+                false,
+                false,
+                false
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second drops तो. The third mixes formal यदि with the तुम imperative करो. The fourth is correct Hindi but mixes an informal opener and closing into a formal sentence."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "तो सूचित करें",
+                "यदि",
+                "आवश्यक हो"
+              ],
+              "answer": [
+                "यदि",
+                "आवश्यक हो",
+                "तो सूचित करें"
+              ],
+              "answer_read_as": "yadi aavashyak ho to suuchit kareṁ.",
+              "explanation_en": "यदि and तो sit at the head of their own halves."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "यदि आवश्यक हो तो सूचित करें।",
+              "अगर ज़रूरत हो तो बता देना।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "अगर ... तो is the sixth correlative pair, and dropping तो is the same error as dropping वह. The opener is the optional one — in speech तो carries the conditional alone. And यदि is अगर in formal dress, with everything around it expected to match.",
+        "key_forms": [
+          "अगर ... तो",
+          "... है तो ...",
+          "यदि ... तो"
+        ],
+        "next_up_en": "Next: conditionals that give orders, and the word that packs one into a single syllable."
+      }
+    },
+    {
+      "level": 12,
+      "title_en": "Orders, negatives, and otherwise",
+      "title_hi": "अगर ... तो · वरना",
+      "items": [
+        {
+          "id": "M14-L12-I1",
+          "type": "grammar",
+          "structure": "agar_to",
+          "target": "अगर देर हो जाए तो फ़ोन कर देना।",
+          "read_as": "agar der ho jaae to fon kar denaa.",
+          "english": "If you're going to be late, give me a ring.",
+          "difficulty": 8,
+          "tags": [
+            "conditional",
+            "agar_to",
+            "subjunctive",
+            "infinitive_imperative",
+            "callback_m12"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A condition with an instruction hanging off it",
+              "explanation_en": "अगर देर हो जाए तो फ़ोन कर देना. The अगर half takes the subjunctive हो जाए, because the lateness is only a possibility, and the तो half is an instruction — here the infinitive देना, which Module 12 taught as a soft command for something to be done later. That combination is everywhere in ordinary Hindi: a possible situation, and what to do about it. Note the जाना vector on हो, which makes the lateness something that happens to you rather than something you cause.",
+              "examples": [
+                {
+                  "hindi": "अगर देर हो जाए तो फ़ोन कर देना।",
+                  "read_as": "agar der ho jaae to fon kar denaa.",
+                  "english": "If you're going to be late, give me a ring.",
+                  "note": "Subjunctive, then a soft instruction."
+                },
+                {
+                  "hindi": "अगर वो पूछें तो कुछ मत बताना।",
+                  "read_as": "agar vo puuchheṁ to kuchh mat bataanaa.",
+                  "english": "If they ask, don't tell them anything.",
+                  "note": "मत with the infinitive imperative, from Module 12."
+                },
+                {
+                  "hindi": "अगर भूख लगे तो फ़्रिज में खाना है।",
+                  "read_as": "agar bhuukh lage to frij meṁ khaanaa hai.",
+                  "english": "If you get hungry, there's food in the fridge.",
+                  "note": "The dative experiencer from Module 10 in the condition."
+                }
+              ],
+              "common_error": {
+                "wrong": "अगर देर हो जाएगी तो फ़ोन कर देना।",
+                "right": "अगर देर हो जाए तो फ़ोन कर देना।",
+                "why_en": "The future asserts that you will be late. The subjunctive leaves it open, which is what a condition is for."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence.",
+              "sentences": [
+                "शायद देर हो जाए।",
+                "फ़ोन कर देना।"
+              ],
+              "sentences_read_as": [
+                "shaayad der ho jaae.",
+                "fon kar denaa."
+              ],
+              "options": [
+                "अगर देर हो जाए तो फ़ोन कर दूँगा।",
+                "अगर देर हो जाए तो फ़ोन कर देना।",
+                "अगर देर हो जाए, फ़ोन कर देना।",
+                "अगर देर हो जाएगी तो फ़ोन कर देना।"
+              ],
+              "options_read_as": [
+                "agar der ho jaae to fon kar duuṁgaa.",
+                "agar der ho jaae to fon kar denaa.",
+                "agar der ho jaae, fon kar denaa.",
+                "agar der ho jaaegii to fon kar denaa."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                true,
+                false
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second drops तो. The third asserts the lateness with a future. The fourth changes who makes the call — दूँगा is I will, not you should."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "तो फ़ोन",
+                "अगर देर",
+                "कर देना",
+                "हो जाए"
+              ],
+              "answer": [
+                "अगर देर",
+                "हो जाए",
+                "तो फ़ोन",
+                "कर देना"
+              ],
+              "answer_read_as": "agar der ho jaae to fon kar denaa.",
+              "explanation_en": "The subjunctive completes the condition before तो arrives."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अगर देर हो जाए तो फ़ोन कर देना।",
+              "अगर भूख लगे तो फ़्रिज में खाना है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L12-I2",
+          "type": "grammar",
+          "structure": "agar_to",
+          "target": "अगर तुम नहीं आए तो मैं अकेला चला जाऊँगा।",
+          "read_as": "agar tum nahiiṁ aae to maiṁ akelaa chalaa jaauuṁgaa.",
+          "english": "If you don't come I'll go on my own.",
+          "difficulty": 8,
+          "tags": [
+            "conditional",
+            "agar_to",
+            "negative_conditional",
+            "perfective_in_if_clause"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "A negative condition still takes the perfective",
+              "explanation_en": "अगर तुम नहीं आए तो मैं अकेला चला जाऊँगा — if you don't come, I'll go alone. आए is perfective, not present or future, and नहीं negates it in the ordinary way. English uses the present here, and a learner reaching for अगर तुम नहीं आते produces something that means \"if you habitually do not come\". The rule from level 11 holds whether the condition is positive or negative: perfective or subjunctive in the अगर half, and the real tense in the तो half.",
+              "examples": [
+                {
+                  "hindi": "अगर तुम नहीं आए तो मैं अकेला चला जाऊँगा।",
+                  "read_as": "agar tum nahiiṁ aae to maiṁ akelaa chalaa jaauuṁgaa.",
+                  "english": "If you don't come I'll go on my own.",
+                  "note": "Perfective in the condition, future in the consequence."
+                },
+                {
+                  "hindi": "अगर पैसे न हों तो बता देना।",
+                  "read_as": "agar paise na hoṁ to bataa denaa.",
+                  "english": "If you're short of money, say so.",
+                  "note": "Subjunctive, and with the subjunctive the negative is न."
+                },
+                {
+                  "hindi": "अगर काम पूरा नहीं हुआ तो दिक्कत होगी।",
+                  "read_as": "agar kaam puuraa nahiiṁ huaa to dikkat hogii.",
+                  "english": "If the work isn't finished there'll be trouble.",
+                  "note": "नहीं with the perfective — the ordinary pairing."
+                }
+              ],
+              "common_error": {
+                "wrong": "अगर तुम नहीं आते तो मैं अकेला चला जाऊँगा।",
+                "right": "अगर तुम नहीं आए तो मैं अकेला चला जाऊँगा।",
+                "why_en": "नहीं आते is the imperfect, and levels 14 and 15 will show that it does something else entirely — it makes the sentence unreal."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence.",
+              "sentences": [
+                "शायद तुम न आओ।",
+                "मैं अकेला चला जाऊँगा।"
+              ],
+              "sentences_read_as": [
+                "shaayad tum na aao.",
+                "maiṁ akelaa chalaa jaauuṁgaa."
+              ],
+              "options": [
+                "अगर तुम नहीं आए तो मैं अकेला चला जाऊँगा।",
+                "अगर तुम नहीं आए, मैं अकेला चला जाऊँगा।",
+                "अगर तुम नहीं आते तो मैं अकेला चला जाऊँगा।",
+                "अगर तुम नहीं आओगे तो मैं अकेला चला जाता।"
+              ],
+              "options_read_as": [
+                "agar tum nahiiṁ aae to maiṁ akelaa chalaa jaauuṁgaa.",
+                "agar tum nahiiṁ aae, maiṁ akelaa chalaa jaauuṁgaa.",
+                "agar tum nahiiṁ aate to maiṁ akelaa chalaa jaauuṁgaa.",
+                "agar tum nahiiṁ aaoge to maiṁ akelaa chalaa jaataa."
+              ],
+              "is_the_english_error": [
+                false,
+                true,
+                false,
+                false
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second drops तो. The third uses the imperfect, which makes it unreal. The fourth mixes a real condition with an unreal consequence, so the halves disagree about whether any of this is happening."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "तो मैं अकेला",
+                "अगर तुम",
+                "चला जाऊँगा",
+                "नहीं आए"
+              ],
+              "answer": [
+                "अगर तुम",
+                "नहीं आए",
+                "तो मैं अकेला",
+                "चला जाऊँगा"
+              ],
+              "answer_read_as": "agar tum nahiiṁ aae to maiṁ akelaa chalaa jaauuṁgaa.",
+              "explanation_en": "नहीं sits directly before the verb it negates."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अगर तुम नहीं आए तो मैं अकेला चला जाऊँगा।",
+              "अगर पैसे न हों तो बता देना।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L12-I3",
+          "type": "grammar",
+          "structure": "varnaa",
+          "correlative_optional": true,
+          "target": "जल्दी निकलो, वरना ट्रेन छूट जाएगी।",
+          "read_as": "jaldii niklo, varnaa ṭren chhuuṭ jaaegii.",
+          "english": "Leave soon, or you'll miss the train.",
+          "difficulty": 8,
+          "tags": [
+            "conditional",
+            "varnaa",
+            "single_conjunction",
+            "correlative_optional",
+            "compression"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "वरना packs a whole negative conditional into one word",
+              "explanation_en": "जल्दी निकलो, वरना ट्रेन छूट जाएगी. वरना means otherwise, and it does the work of an entire clause: if you do not leave soon, you will miss the train. It is a single conjunction, so there is no correlative to supply. नहीं तो means exactly the same and is equally common — जल्दी निकलो, नहीं तो ट्रेन छूट जाएगी. Both are compressions, and the thing being compressed is always a negative condition.",
+              "examples": [
+                {
+                  "hindi": "जल्दी निकलो, वरना ट्रेन छूट जाएगी।",
+                  "read_as": "jaldii niklo, varnaa ṭren chhuuṭ jaaegii.",
+                  "english": "Leave soon, or you'll miss the train.",
+                  "note": "One word standing in for a whole clause."
+                },
+                {
+                  "hindi": "अभी बता दो, नहीं तो बाद में मुश्किल होगी।",
+                  "read_as": "abhii bataa do, nahiiṁ to baad meṁ mushkil hogii.",
+                  "english": "Say now, or it'll be difficult later.",
+                  "note": "नहीं तो — the same meaning, and just as common."
+                },
+                {
+                  "hindi": "अगर जल्दी नहीं निकले तो ट्रेन छूट जाएगी।",
+                  "read_as": "agar jaldii nahiiṁ nikle to ṭren chhuuṭ jaaegii.",
+                  "english": "If you don't leave soon you'll miss the train.",
+                  "note": "The uncompressed version. Same meaning, three words longer."
+                }
+              ],
+              "common_error": {
+                "wrong": "जल्दी निकलो, अगर वरना ट्रेन छूट जाएगी।",
+                "right": "जल्दी निकलो, वरना ट्रेन छूट जाएगी।",
+                "why_en": "वरना already contains the condition. Putting अगर in front of it says \"if otherwise\", which is nothing."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these using a single word for the condition.",
+              "sentences": [
+                "जल्दी निकलो।",
+                "अगर नहीं निकले तो ट्रेन छूट जाएगी।"
+              ],
+              "sentences_read_as": [
+                "jaldii niklo.",
+                "agar nahiiṁ nikle to ṭren chhuuṭ jaaegii."
+              ],
+              "options": [
+                "जल्दी निकलो, वरना तो ट्रेन छूट जाएगी।",
+                "वरना जल्दी निकलो, ट्रेन छूट जाएगी।",
+                "जल्दी निकलो, वरना ट्रेन छूट जाएगी।",
+                "जल्दी निकलो, अगर वरना ट्रेन छूट जाएगी।"
+              ],
+              "options_read_as": [
+                "jaldii niklo, varnaa to ṭren chhuuṭ jaaegii.",
+                "varnaa jaldii niklo, ṭren chhuuṭ jaaegii.",
+                "jaldii niklo, varnaa ṭren chhuuṭ jaaegii.",
+                "jaldii niklo, agar varnaa ṭren chhuuṭ jaaegii."
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second stacks अगर on a word that already contains it. The third adds तो, which वरना does not take. The fourth puts वरना in front of the instruction, reversing which half is the consequence."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "वरना ट्रेन",
+                "जल्दी निकलो",
+                "छूट जाएगी"
+              ],
+              "answer": [
+                "जल्दी निकलो",
+                "वरना ट्रेन",
+                "छूट जाएगी"
+              ],
+              "answer_read_as": "jaldii niklo, varnaa ṭren chhuuṭ jaaegii.",
+              "explanation_en": "The instruction comes first; वरना introduces what happens if it is ignored."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जल्दी निकलो, वरना ट्रेन छूट जाएगी।",
+              "अभी बता दो, नहीं तो बाद में मुश्किल होगी।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A condition takes the subjunctive or the perfective, never the present or the future, whether it is positive or negative. And वरना compresses an entire negative conditional into one word — as does नहीं तो, which means the same thing.",
+        "key_forms": [
+          "अगर ... हो जाए तो",
+          "अगर ... नहीं आए तो",
+          "वरना"
+        ],
+        "next_up_en": "Next: conditions that conclude something, and conditions that do not matter."
+      }
+    },
+    {
+      "level": 13,
+      "title_en": "Concluding, and conceding",
+      "title_hi": "तो सही होगा · चाहे ... फिर भी",
+      "items": [
+        {
+          "id": "M14-L13-I1",
+          "type": "grammar",
+          "structure": "agar_to",
+          "target": "अगर उन्होंने कहा है तो सही ही होगा।",
+          "read_as": "agar unhoṁne kahaa hai to sahii hii hogaa.",
+          "english": "If they said so, it must be right.",
+          "difficulty": 9,
+          "tags": [
+            "conditional",
+            "agar_to",
+            "presumptive",
+            "inference_not_prediction",
+            "callback_m12"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Not every conditional is about the future",
+              "explanation_en": "अगर उन्होंने कहा है तो सही ही होगा. Nothing here is being predicted — the condition is already true, and the तो half draws a conclusion from it. That is what the presumptive होगा does, and you met it in Module 12 when somebody worked out that a metro card must have been lost. Notice the tense: कहा है, a real perfect, because the saying actually happened. This shape is extremely common in argument, and it is the reason तो is often best translated as \"then\" in the logical sense rather than the temporal one.",
+              "examples": [
+                {
+                  "hindi": "अगर उन्होंने कहा है तो सही ही होगा।",
+                  "read_as": "agar unhoṁne kahaa hai to sahii hii hogaa.",
+                  "english": "If they said so, it must be right.",
+                  "note": "A conclusion, not a prediction."
+                },
+                {
+                  "hindi": "अगर लाइट नहीं है तो मरम्मत चल रही होगी।",
+                  "read_as": "agar laaiṭ nahiiṁ hai to marammat chal rahii hogii.",
+                  "english": "If there's no power, repairs must be going on.",
+                  "note": "The continuous presumptive, from Module 12."
+                },
+                {
+                  "hindi": "अगर वो नहीं आया तो कोई वजह होगी।",
+                  "read_as": "agar vo nahiiṁ aayaa to koii vajah hogii.",
+                  "english": "If he didn't come there must have been a reason.",
+                  "note": "Past condition, present conclusion."
+                }
+              ],
+              "common_error": {
+                "wrong": "अगर उन्होंने कहा है तो सही ही है।",
+                "right": "अगर उन्होंने कहा है तो सही ही होगा।",
+                "why_en": "है asserts it flatly. होगा says you are inferring it, which is what the sentence is doing."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these to draw a conclusion rather than make a prediction.",
+              "sentences": [
+                "उन्होंने ऐसा कहा है।",
+                "यह सही ही होगा।"
+              ],
+              "sentences_read_as": [
+                "unhoṁne aisaa kahaa hai.",
+                "yah sahii hii hogaa."
+              ],
+              "options": [
+                "अगर वो कहें तो सही ही होगा।",
+                "अगर उन्होंने कहा है तो सही ही होगा।",
+                "अगर उन्होंने कहा है, सही ही होगा।",
+                "अगर उन्होंने कहा है तो सही ही है।"
+              ],
+              "options_read_as": [
+                "agar vo kaheṁ to sahii hii hogaa.",
+                "agar unhoṁne kahaa hai to sahii hii hogaa.",
+                "agar unhoṁne kahaa hai, sahii hii hogaa.",
+                "agar unhoṁne kahaa hai to sahii hii hai."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                true,
+                false
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second drops तो. The third asserts rather than infers. The fourth puts the condition in the subjunctive, which makes the saying hypothetical when it has already happened."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "तो सही",
+                "अगर उन्होंने",
+                "ही होगा",
+                "कहा है"
+              ],
+              "answer": [
+                "अगर उन्होंने",
+                "कहा है",
+                "तो सही",
+                "ही होगा"
+              ],
+              "answer_read_as": "agar unhoṁne kahaa hai to sahii hii hogaa.",
+              "explanation_en": "The real perfect completes the condition, and the presumptive draws the conclusion."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अगर उन्होंने कहा है तो सही ही होगा।",
+              "अगर वो नहीं आया तो कोई वजह होगी।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L13-I2",
+          "type": "grammar",
+          "structure": "chaahe_phir_bhii",
+          "target": "चाहे कुछ भी हो जाए, फिर भी मैं जाऊँगा।",
+          "read_as": "chaahe kuchh bhii ho jaae, phir bhii maiṁ jaauuṁgaa.",
+          "english": "Whatever happens, I'm still going.",
+          "difficulty": 9,
+          "tags": [
+            "concessive",
+            "chaahe_phir_bhii",
+            "subjunctive",
+            "correlative_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "चाहे ... फिर भी — the condition that does not matter",
+              "explanation_en": "A concessive is a conditional that is announced only to be dismissed: whatever happens, I am still going. चाहे opens it and फिर भी answers — चाहे कुछ भी हो जाए, फिर भी मैं जाऊँगा. चाहे comes from चाहना, to want, and here it means something like \"let it be that\", which is why it takes the subjunctive. भी in the first half generalises, exactly as it did with जब भी and जहाँ भी, and फिर भी in the second half means \"even so\".",
+              "examples": [
+                {
+                  "hindi": "चाहे कुछ भी हो जाए, फिर भी मैं जाऊँगा।",
+                  "read_as": "chaahe kuchh bhii ho jaae, phir bhii maiṁ jaauuṁgaa.",
+                  "english": "Whatever happens, I'm still going.",
+                  "note": "Subjunctive in the चाहे half."
+                },
+                {
+                  "hindi": "चाहे जितनी देर लगे, हम इंतज़ार करेंगे।",
+                  "read_as": "chaahe jitnii der lage, ham iṁtazaar kareṁge.",
+                  "english": "However long it takes, we'll wait.",
+                  "note": "चाहे with जितना — two structures stacked."
+                },
+                {
+                  "hindi": "बहुत समझाया, फिर भी नहीं माना।",
+                  "read_as": "bahut samjhaayaa, phir bhii nahiiṁ maanaa.",
+                  "english": "We explained at length, and he still wouldn't agree.",
+                  "note": "फिर भी on its own, with no चाहे — also common."
+                }
+              ],
+              "common_error": {
+                "wrong": "चाहे कुछ भी हो जाए, तो मैं जाऊँगा।",
+                "right": "चाहे कुछ भी हो जाए, फिर भी मैं जाऊँगा।",
+                "why_en": "तो answers अगर and means the condition led to the result. चाहे needs फिर भी, which means the condition did not."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these so that the first half does not change the second.",
+              "sentences": [
+                "कुछ भी हो सकता है।",
+                "मैं जाऊँगा।"
+              ],
+              "sentences_read_as": [
+                "kuchh bhii ho saktaa hai.",
+                "maiṁ jaauuṁgaa."
+              ],
+              "options": [
+                "चाहे कुछ भी हो जाए, मैं जाऊँगा।",
+                "चाहे कुछ भी हो जाए, तो मैं जाऊँगा।",
+                "अगर कुछ भी हो जाए, फिर भी मैं जाऊँगा।",
+                "चाहे कुछ भी हो जाए, फिर भी मैं जाऊँगा।"
+              ],
+              "options_read_as": [
+                "chaahe kuchh bhii ho jaae, maiṁ jaauuṁgaa.",
+                "chaahe kuchh bhii ho jaae, to maiṁ jaauuṁgaa.",
+                "agar kuchh bhii ho jaae, phir bhii maiṁ jaauuṁgaa.",
+                "chaahe kuchh bhii ho jaae, phir bhii maiṁ jaauuṁgaa."
+              ],
+              "is_the_english_error": [
+                true,
+                false,
+                false,
+                false
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second drops फिर भी. The third uses तो, which reverses the logic and makes the going depend on what happens. The fourth pairs अगर with फिर भी, which do not go together."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "फिर भी मैं",
+                "चाहे कुछ भी",
+                "जाऊँगा",
+                "हो जाए"
+              ],
+              "answer": [
+                "चाहे कुछ भी",
+                "हो जाए",
+                "फिर भी मैं",
+                "जाऊँगा"
+              ],
+              "answer_read_as": "chaahe kuchh bhii ho jaae, phir bhii maiṁ jaauuṁgaa.",
+              "explanation_en": "चाहे opens and फिर भी answers — a pair like any other."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "चाहे कुछ भी हो जाए, फिर भी मैं जाऊँगा।",
+              "बहुत समझाया, फिर भी नहीं माना।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L13-I3",
+          "type": "grammar",
+          "structure": "conditionals_mixed",
+          "target": "अगर समय मिला तो मिलते हैं, वरना अगली बार।",
+          "read_as": "agar samay milaa to milte haiṁ, varnaa aglii baar.",
+          "english": "If there's time we'll meet, otherwise next time.",
+          "difficulty": 9,
+          "tags": [
+            "conditional",
+            "mixed_drill",
+            "varnaa",
+            "present_for_plans",
+            "callback_m12"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Two conditionals in one sentence, one of them compressed",
+              "explanation_en": "अगर समय मिला तो मिलते हैं, वरना अगली बार. There are two conditions here: an अगर ... तो pair, and then वरना carrying its negative counterpart in a single word. The second half of that second condition is not even a clause — अगली बार, next time, and the verb is simply understood. Note मिलते हैं in the present, which Module 12 established as how Hindi makes a plan; the future would sound like a prediction rather than an arrangement.",
+              "examples": [
+                {
+                  "hindi": "अगर समय मिला तो मिलते हैं, वरना अगली बार।",
+                  "read_as": "agar samay milaa to milte haiṁ, varnaa aglii baar.",
+                  "english": "If there's time we'll meet, otherwise next time.",
+                  "note": "Two conditions, and the last clause has no verb at all."
+                },
+                {
+                  "hindi": "अगर हो सके तो आ जाना, वरना कोई बात नहीं।",
+                  "read_as": "agar ho sake to aa jaanaa, varnaa koii baat nahiiṁ.",
+                  "english": "Come if you can, and never mind if you can't.",
+                  "note": "The same shape, and कोई बात नहीं closes it."
+                },
+                {
+                  "hindi": "अगर मिल गया तो ठीक, वरना देखेंगे।",
+                  "read_as": "agar mil gayaa to ṭhiik, varnaa dekheṁge.",
+                  "english": "If we get it, good, and if not we'll see.",
+                  "note": "तो ठीक — two words for a whole consequence."
+                }
+              ],
+              "common_error": {
+                "wrong": "अगर समय मिलेगा तो मिलते हैं, वरना अगली बार।",
+                "right": "अगर समय मिला तो मिलते हैं, वरना अगली बार।",
+                "why_en": "The अगर half takes the perfective, not the future. That has been the rule since level 11 and it does not change when a second condition is added."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these into one sentence with two conditions.",
+              "sentences": [
+                "शायद समय मिले।",
+                "तब मिलते हैं। नहीं तो अगली बार।"
+              ],
+              "sentences_read_as": [
+                "shaayad samay mile.",
+                "tab milte haiṁ. nahiiṁ to aglii baar."
+              ],
+              "options": [
+                "अगर समय मिलेगा तो मिलते हैं, वरना अगली बार।",
+                "अगर समय मिला तो मिलते हैं, अगर नहीं वरना अगली बार।",
+                "अगर समय मिला तो मिलते हैं, वरना अगली बार।",
+                "अगर समय मिला, मिलते हैं, वरना अगली बार।"
+              ],
+              "options_read_as": [
+                "agar samay milegaa to milte haiṁ, varnaa aglii baar.",
+                "agar samay milaa to milte haiṁ, agar nahiiṁ varnaa aglii baar.",
+                "agar samay milaa to milte haiṁ, varnaa aglii baar.",
+                "agar samay milaa, milte haiṁ, varnaa aglii baar."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                false,
+                true
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second drops तो. The third uses the future in the condition. The fourth stacks अगर नहीं onto वरना, which already contains it."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "वरना अगली बार",
+                "तो मिलते हैं",
+                "अगर समय मिला"
+              ],
+              "answer": [
+                "अगर समय मिला",
+                "तो मिलते हैं",
+                "वरना अगली बार"
+              ],
+              "answer_read_as": "agar samay milaa to milte haiṁ, varnaa aglii baar.",
+              "explanation_en": "Condition, consequence, and then the compressed alternative."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अगर समय मिला तो मिलते हैं, वरना अगली बार।",
+              "अगर मिल गया तो ठीक, वरना देखेंगे।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A conditional need not be about the future — अगर ... तो with the presumptive draws a conclusion from something already true. चाहे ... फिर भी announces a condition in order to dismiss it. And वरना can close a sentence whose last clause has no verb at all.",
+        "key_forms": [
+          "अगर ... तो ... होगा",
+          "चाहे ... फिर भी",
+          "... वरना अगली बार"
+        ],
+        "next_up_en": "Next: the conditionals that are not true — and a form you have met before, doing something quite different."
+      }
+    },
+    {
+      "level": 14,
+      "title_en": "If it were, if it had been",
+      "title_hi": "अगर मैं जाता तो ...",
+      "items": [
+        {
+          "id": "M14-L14-I1",
+          "type": "grammar",
+          "structure": "counterfactual",
+          "target": "अगर मैं जाता तो उनसे मिलता।",
+          "read_as": "agar maiṁ jaataa to unse miltaa.",
+          "english": "If I had gone, I would have met them.",
+          "difficulty": 10,
+          "tags": [
+            "counterfactual",
+            "imperfect",
+            "module7_collision",
+            "concept_item",
+            "high_value"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The same form Module 7 called the habitual past",
+              "explanation_en": "This is the collision, and it is worth facing directly. Module 7 taught जाता था as the habitual past — I used to go. A counterfactual uses the same participle with no था at all: अगर मैं जाता तो उनसे मिलता. Both halves take it. The difference in form is only the missing auxiliary, and the difference in meaning is total. Set the three side by side. अगर मैं जाऊँगा तो मिलूँगा — a real future condition. अगर मैं जाता हूँ तो मिलता हूँ — a general truth about what happens. अगर मैं जाता तो मिलता — none of this occurred.",
+              "examples": [
+                {
+                  "hindi": "अगर मैं जाता तो उनसे मिलता।",
+                  "read_as": "agar maiṁ jaataa to unse miltaa.",
+                  "english": "If I had gone, I would have met them.",
+                  "note": "No था anywhere. Both halves in the bare imperfect."
+                },
+                {
+                  "hindi": "मैं रोज़ वहाँ जाता था।",
+                  "read_as": "maiṁ roz vahaaṁ jaataa thaa.",
+                  "english": "I used to go there every day.",
+                  "note": "The habitual past from Module 7 — and the था is the whole difference."
+                },
+                {
+                  "hindi": "अगर वो आती तो सब ठीक हो जाता।",
+                  "read_as": "agar vo aatii to sab ṭhiik ho jaataa.",
+                  "english": "If she had come, everything would have been fine.",
+                  "note": "आती agrees with her; हो जाता agrees with सब."
+                }
+              ],
+              "common_error": {
+                "wrong": "अगर मैं जाता था तो उनसे मिलता था।",
+                "right": "अगर मैं जाता तो उनसे मिलता।",
+                "why_en": "Adding था turns it back into the habitual past, and the sentence becomes \"whenever I used to go, I used to meet them\" — a true statement about a routine, not an unreal one about a missed chance."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these to say that neither thing happened.",
+              "sentences": [
+                "मैं नहीं गया।",
+                "इसलिए उनसे मुलाक़ात नहीं हुई।"
+              ],
+              "sentences_read_as": [
+                "maiṁ nahiiṁ gayaa.",
+                "islie unse mulaaqaat nahiiṁ huii."
+              ],
+              "options": [
+                "अगर मैं जाता तो उनसे मिलता।",
+                "अगर मैं जाता, उनसे मिलता।",
+                "अगर मैं जाता था तो उनसे मिलता था।",
+                "अगर मैं जाऊँगा तो उनसे मिलूँगा।"
+              ],
+              "options_read_as": [
+                "agar maiṁ jaataa to unse miltaa.",
+                "agar maiṁ jaataa, unse miltaa.",
+                "agar maiṁ jaataa thaa to unse miltaa thaa.",
+                "agar maiṁ jaauuṁgaa to unse miluuṁgaa."
+              ],
+              "is_the_english_error": [
+                false,
+                true,
+                false,
+                false
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second drops तो. The third adds था and turns it into a habit that really happened. The fourth is a real future condition, which says the visit is still possible."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "तो उनसे",
+                "अगर मैं",
+                "मिलता",
+                "जाता"
+              ],
+              "answer": [
+                "अगर मैं",
+                "जाता",
+                "तो उनसे",
+                "मिलता"
+              ],
+              "answer_read_as": "agar maiṁ jaataa to unse miltaa.",
+              "explanation_en": "Bare imperfect in both halves, and no auxiliary in either."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अगर मैं जाता तो उनसे मिलता।",
+              "मैं रोज़ वहाँ जाता था।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L14-I2",
+          "type": "grammar",
+          "structure": "counterfactual",
+          "target": "अगर तुम न बताते तो मुझे पता ही नहीं चलता।",
+          "read_as": "agar tum na bataate to mujhe pataa hii nahiiṁ chaltaa.",
+          "english": "If you hadn't told me, I'd never have known.",
+          "difficulty": 10,
+          "tags": [
+            "counterfactual",
+            "na_negative",
+            "hii_particle",
+            "gratitude"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The counterfactual negative is न, and the second half keeps नहीं",
+              "explanation_en": "अगर तुम न बताते तो मुझे पता ही नहीं चलता. The अगर half uses न — the same न as with the subjunctive — while the तो half uses ordinary नहीं. That asymmetry looks arbitrary and it is worth learning as a pair rather than reasoning about. Note also ही नहीं, which is stronger than नहीं alone: not merely that you would not have known, but that there was no route by which you could have. This sentence is a fixed way of thanking somebody in Hindi.",
+              "examples": [
+                {
+                  "hindi": "अगर तुम न बताते तो मुझे पता ही नहीं चलता।",
+                  "read_as": "agar tum na bataate to mujhe pataa hii nahiiṁ chaltaa.",
+                  "english": "If you hadn't told me, I'd never have known.",
+                  "note": "न in the condition, नहीं in the consequence."
+                },
+                {
+                  "hindi": "अगर वो न रुकते तो हम फँस जाते।",
+                  "read_as": "agar vo na rukte to ham phaṁs jaate.",
+                  "english": "If they hadn't stopped, we'd have been stuck.",
+                  "note": "फँस जाते — the जाना vector, also in the bare imperfect."
+                },
+                {
+                  "hindi": "अगर पहले न पूछा होता तो दिक्कत होती।",
+                  "read_as": "agar pahle na puuchhaa hotaa to dikkat hotii.",
+                  "english": "If we hadn't asked first, there would have been trouble.",
+                  "note": "पूछा होता — a fuller past counterfactual, and equally correct."
+                }
+              ],
+              "common_error": {
+                "wrong": "अगर तुम नहीं बताते तो मुझे पता नहीं चलता।",
+                "right": "अगर तुम न बताते तो मुझे पता ही नहीं चलता।",
+                "why_en": "नहीं in the अगर half is heard, but न is the standard. And without ही the second half loses its force."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these to thank somebody for telling you.",
+              "sentences": [
+                "तुमने बता दिया।",
+                "इसलिए मुझे पता चल गया।"
+              ],
+              "sentences_read_as": [
+                "tumne bataa diyaa.",
+                "islie mujhe pataa chal gayaa."
+              ],
+              "options": [
+                "अगर तुम न बताते, मुझे पता ही नहीं चलता।",
+                "अगर तुम न बताते तो मुझे पता ही नहीं चलता था।",
+                "अगर तुम नहीं बताओगे तो मुझे पता नहीं चलेगा।",
+                "अगर तुम न बताते तो मुझे पता ही नहीं चलता।"
+              ],
+              "options_read_as": [
+                "agar tum na bataate, mujhe pataa hii nahiiṁ chaltaa.",
+                "agar tum na bataate to mujhe pataa hii nahiiṁ chaltaa thaa.",
+                "agar tum nahiiṁ bataaoge to mujhe pataa nahiiṁ chalegaa.",
+                "agar tum na bataate to mujhe pataa hii nahiiṁ chaltaa."
+              ],
+              "is_the_english_error": [
+                true,
+                false,
+                false,
+                false
+              ],
+              "answer_index": 3,
+              "explanation_en": "The second drops तो. The third adds था, which turns the unreal into a habit. The fourth is a real future condition — it says you have not told me yet."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "तो मुझे पता",
+                "न बताते",
+                "अगर तुम",
+                "ही नहीं चलता"
+              ],
+              "answer": [
+                "अगर तुम",
+                "न बताते",
+                "तो मुझे पता",
+                "ही नहीं चलता"
+              ],
+              "answer_read_as": "agar tum na bataate to mujhe pataa hii nahiiṁ chaltaa.",
+              "explanation_en": "न before the verb in the condition; नहीं before the verb in the consequence."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अगर तुम न बताते तो मुझे पता ही नहीं चलता।",
+              "अगर वो न रुकते तो हम फँस जाते।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L14-I3",
+          "type": "grammar",
+          "structure": "counterfactual",
+          "target": "अगर पैसा होता तो घर ख़रीद लेते।",
+          "read_as": "agar paisaa hotaa to ghar ḳhariid lete.",
+          "english": "If we had the money we would buy a house.",
+          "difficulty": 10,
+          "tags": [
+            "counterfactual",
+            "hotaa",
+            "compound_verb_imperfect",
+            "present_unreal"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "होता — the counterfactual of होना, and the one you will use most",
+              "explanation_en": "होता is what होना becomes in an unreal condition: अगर पैसा होता तो घर ख़रीद लेते, if we had the money we would buy a house. It covers अगर होता, if there were, and अगर होता तो, if it had been. Note that the compound verb ख़रीद लेते also sits in the bare imperfect — the whole sentence, vector and all, goes into that one form. And note what the sentence tells you without saying it: there is no money.",
+              "examples": [
+                {
+                  "hindi": "अगर पैसा होता तो घर ख़रीद लेते।",
+                  "read_as": "agar paisaa hotaa to ghar ḳhariid lete.",
+                  "english": "If we had the money we would buy a house.",
+                  "note": "The vector लेना is in the imperfect too."
+                },
+                {
+                  "hindi": "अगर तुम्हारी जगह मैं होता तो मना कर देता।",
+                  "read_as": "agar tumhaarii jagah maiṁ hotaa to manaa kar detaa.",
+                  "english": "If I were in your place I would refuse.",
+                  "note": "The standard shape for giving advice."
+                },
+                {
+                  "hindi": "अगर समय होता तो ज़रूर आते।",
+                  "read_as": "agar samay hotaa to zaruur aate.",
+                  "english": "We would certainly have come if there had been time.",
+                  "note": "A polite way of explaining an absence."
+                }
+              ],
+              "common_error": {
+                "wrong": "अगर पैसा होता तो घर ख़रीद लिया।",
+                "right": "अगर पैसा होता तो घर ख़रीद लेते।",
+                "why_en": "ख़रीद लिया says the house was actually bought. Both halves of a counterfactual have to stay in the imperfect, or the sentence claims something happened."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these to say that neither is the case.",
+              "sentences": [
+                "हमारे पास पैसा नहीं है।",
+                "इसलिए हम घर नहीं ख़रीद सकते।"
+              ],
+              "sentences_read_as": [
+                "hamaare paas paisaa nahiiṁ hai.",
+                "islie ham ghar nahiiṁ ḳhariid sakte."
+              ],
+              "options": [
+                "अगर पैसा होगा तो घर ख़रीद लेंगे।",
+                "अगर पैसा होता तो घर ख़रीद लेते।",
+                "अगर पैसा होता, घर ख़रीद लेते।",
+                "अगर पैसा होता तो घर ख़रीद लिया।"
+              ],
+              "options_read_as": [
+                "agar paisaa hogaa to ghar ḳhariid leṁge.",
+                "agar paisaa hotaa to ghar ḳhariid lete.",
+                "agar paisaa hotaa, ghar ḳhariid lete.",
+                "agar paisaa hotaa to ghar ḳhariid liyaa."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                true,
+                false
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second drops तो. The third claims the house was bought. The fourth is a real future condition, which says the money may yet arrive."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "तो घर",
+                "अगर पैसा",
+                "ख़रीद लेते",
+                "होता"
+              ],
+              "answer": [
+                "अगर पैसा",
+                "होता",
+                "तो घर",
+                "ख़रीद लेते"
+              ],
+              "answer_read_as": "agar paisaa hotaa to ghar ḳhariid lete.",
+              "explanation_en": "होता closes the condition; the compound verb closes the consequence, also in the imperfect."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अगर पैसा होता तो घर ख़रीद लेते।",
+              "अगर तुम्हारी जगह मैं होता तो मना कर देता।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "A counterfactual uses the bare imperfect in both halves, with no था — and adding था turns it straight back into Module 7's habitual past. The condition takes न and the consequence takes नहीं. And होता is the form you will reach for most, because most unreal conditions are about something not being the case.",
+        "key_forms": [
+          "अगर ... जाता तो ... मिलता",
+          "अगर ... न ... तो",
+          "अगर ... होता तो"
+        ],
+        "next_up_en": "Next: काश, and the one thing Hindi does not bother to distinguish."
+      }
+    },
+    {
+      "level": 15,
+      "title_en": "If only",
+      "title_hi": "काश",
+      "items": [
+        {
+          "id": "M14-L15-I1",
+          "type": "grammar",
+          "structure": "kaash",
+          "correlative_optional": true,
+          "target": "काश मैं वहाँ होता।",
+          "read_as": "kaash maiṁ vahaaṁ hotaa.",
+          "english": "I wish I had been there.",
+          "difficulty": 9,
+          "tags": [
+            "counterfactual",
+            "kaash",
+            "single_conjunction",
+            "correlative_optional",
+            "wish"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "काश — a wish, with no second half at all",
+              "explanation_en": "काश means if only, and unlike everything else in this module it opens a sentence that never needs answering: काश मैं वहाँ होता. There is no correlative because there is no consequence — a wish is not a condition. It takes the same bare imperfect as a counterfactual when the wish is about something already lost, and the subjunctive when it is about something still possible: काश वो आ जाए, I hope he comes. The difference between regret and hope is entirely in that one form.",
+              "examples": [
+                {
+                  "hindi": "काश मैं वहाँ होता।",
+                  "read_as": "kaash maiṁ vahaaṁ hotaa.",
+                  "english": "I wish I had been there.",
+                  "note": "Imperfect — the chance has gone."
+                },
+                {
+                  "hindi": "काश वो आ जाए।",
+                  "read_as": "kaash vo aa jaae.",
+                  "english": "I do hope he comes.",
+                  "note": "Subjunctive — still possible."
+                },
+                {
+                  "hindi": "काश हमें पहले पता होता।",
+                  "read_as": "kaash hameṁ pahle pataa hotaa.",
+                  "english": "If only we had known earlier.",
+                  "note": "होता again, with a dative — regret about information."
+                }
+              ],
+              "common_error": {
+                "wrong": "काश मैं वहाँ होता तो अच्छा होता।",
+                "right": "काश मैं वहाँ होता।",
+                "why_en": "Not wrong, but the तो half is doing nothing — काश already contains the wish. Adding a consequence turns a regret into an argument."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Turn this into a wish about something that did not happen.",
+              "sentences": [
+                "मैं वहाँ नहीं था।",
+                "मुझे अफ़सोस है।"
+              ],
+              "sentences_read_as": [
+                "maiṁ vahaaṁ nahiiṁ thaa.",
+                "mujhe afsos hai."
+              ],
+              "options": [
+                "काश मैं वहाँ होता।",
+                "काश मैं वहाँ था।",
+                "काश मैं वहाँ हूँगा।",
+                "काश मैं वहाँ होता था।"
+              ],
+              "options_read_as": [
+                "kaash maiṁ vahaaṁ hotaa.",
+                "kaash maiṁ vahaaṁ thaa.",
+                "kaash maiṁ vahaaṁ huuṁgaa.",
+                "kaash maiṁ vahaaṁ hotaa thaa."
+              ],
+              "answer_index": 0,
+              "explanation_en": "The second uses the plain past, which states a fact rather than wishing. The third uses a future, which does not follow काश. The fourth adds था and makes it a habit."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "होता",
+                "काश मैं",
+                "वहाँ"
+              ],
+              "answer": [
+                "काश मैं",
+                "वहाँ",
+                "होता"
+              ],
+              "answer_read_as": "kaash maiṁ vahaaṁ hotaa.",
+              "explanation_en": "काश opens, and nothing answers it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "काश मैं वहाँ होता।",
+              "काश वो आ जाए।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L15-I2",
+          "type": "grammar",
+          "structure": "counterfactual",
+          "target": "अगर उस दिन बता देते तो आज ये हाल न होता।",
+          "read_as": "agar us din bataa dete to aaj ye haal na hotaa.",
+          "english": "If you had said so that day, things would not be like this now.",
+          "difficulty": 10,
+          "tags": [
+            "counterfactual",
+            "one_form_two_meanings",
+            "past_condition_present_result",
+            "simplification"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "One Hindi form where English has two",
+              "explanation_en": "English separates \"if I went, I would meet\" from \"if I had gone, I would have met\" and keeps them apart with different auxiliaries. Hindi does not distinguish them at all — अगर मैं जाता तो मिलता covers both, and only the context tells you which. This sentence shows why that is convenient rather than vague: अगर उस दिन बता देते तो आज ये हाल न होता has a condition in the past and a consequence in the present, and English needs two different constructions to build it while Hindi needs one form used twice.",
+              "examples": [
+                {
+                  "hindi": "अगर उस दिन बता देते तो आज ये हाल न होता।",
+                  "read_as": "agar us din bataa dete to aaj ye haal na hotaa.",
+                  "english": "If you had said so that day, things would not be like this now.",
+                  "note": "उस दिन and आज — past condition, present consequence, one form."
+                },
+                {
+                  "hindi": "अगर मैं जाता तो मिलता।",
+                  "read_as": "agar maiṁ jaataa to miltaa.",
+                  "english": "If I went I would meet them. / If I had gone I would have met them.",
+                  "note": "Genuinely both, and context decides."
+                },
+                {
+                  "hindi": "अगर वो अभी होते तो बहुत ख़ुश होते।",
+                  "read_as": "agar vo abhii hote to bahut ḳhush hote.",
+                  "english": "If they were here now they would be very happy.",
+                  "note": "Present unreal, same form."
+                }
+              ],
+              "common_error": {
+                "wrong": "अगर उस दिन बता देते तो आज ये हाल नहीं होता।",
+                "right": "अगर उस दिन बता देते तो आज ये हाल न होता।",
+                "why_en": "Both are heard, but न is the standard in a counterfactual consequence and reads as more careful. Level 14 had नहीं in the consequence, so this is a genuine wobble in the language rather than a firm rule."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these: a past that did not happen, a present that did.",
+              "sentences": [
+                "तुमने उस दिन नहीं बताया।",
+                "आज ये हाल है।"
+              ],
+              "sentences_read_as": [
+                "tumne us din nahiiṁ bataayaa.",
+                "aaj ye haal hai."
+              ],
+              "options": [
+                "अगर उस दिन बता देते तो आज ये हाल न होगा।",
+                "अगर उस दिन बता दिया तो आज ये हाल न होता।",
+                "अगर उस दिन बता देते तो आज ये हाल न होता।",
+                "अगर उस दिन बता देते, आज ये हाल न होता।"
+              ],
+              "options_read_as": [
+                "agar us din bataa dete to aaj ye haal na hogaa.",
+                "agar us din bataa diyaa to aaj ye haal na hotaa.",
+                "agar us din bataa dete to aaj ye haal na hotaa.",
+                "agar us din bataa dete, aaj ye haal na hotaa."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                false,
+                true
+              ],
+              "answer_index": 2,
+              "explanation_en": "The second drops तो. The third puts a future in the consequence, which makes it a prediction. The fourth uses a real perfective in the condition, so it claims you did tell."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "तो आज",
+                "बता देते",
+                "अगर उस दिन",
+                "ये हाल न होता"
+              ],
+              "answer": [
+                "अगर उस दिन",
+                "बता देते",
+                "तो आज",
+                "ये हाल न होता"
+              ],
+              "answer_read_as": "agar us din bataa dete to aaj ye haal na hotaa.",
+              "explanation_en": "The time words mark the two halves apart, and the verb form does not change between them."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अगर उस दिन बता देते तो आज ये हाल न होता।",
+              "अगर वो अभी होते तो बहुत ख़ुश होते।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L15-I3",
+          "type": "grammar",
+          "structure": "counterfactual",
+          "target": "अगर आ सकते हो तो आ जाओ, और न आ सको तो कोई बात नहीं।",
+          "read_as": "agar aa sakte ho to aa jaao, aur na aa sako to koii baat nahiiṁ.",
+          "english": "Come if you can, and it's fine if you can't.",
+          "difficulty": 10,
+          "tags": [
+            "counterfactual",
+            "mixed_drill",
+            "real_vs_unreal",
+            "subjunctive",
+            "saknaa"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Real and hypothetical in one sentence",
+              "explanation_en": "अगर आ सकते हो तो आ जाओ, और न आ सको तो कोई बात नहीं. The first condition is real — सकते हो, you actually can or cannot, and it is a live question. The second is hypothetical — न आ सको, the subjunctive of सकना, leaving the possibility open without committing to it. Neither is a counterfactual: nothing here is being said to be untrue. The distinction across levels 11 to 15 is a scale, from the certainly-real through the possible to the definitely-not, and the verb form is what places you on it.",
+              "examples": [
+                {
+                  "hindi": "अगर आ सकते हो तो आ जाओ, और न आ सको तो कोई बात नहीं।",
+                  "read_as": "agar aa sakte ho to aa jaao, aur na aa sako to koii baat nahiiṁ.",
+                  "english": "Come if you can, and it's fine if you can't.",
+                  "note": "Indicative then subjunctive, and both are real conditions."
+                },
+                {
+                  "hindi": "अगर आ सकते तो आ जाते।",
+                  "read_as": "agar aa sakte to aa jaate.",
+                  "english": "You would have come if you could have.",
+                  "note": "Bare imperfect — now it is counterfactual, and you did not come."
+                },
+                {
+                  "hindi": "कोई बात नहीं, फिर मिलते हैं।",
+                  "read_as": "koii baat nahiiṁ, phir milte haiṁ.",
+                  "english": "Never mind, we'll meet another time.",
+                  "note": "The present making a plan, as in Module 12."
+                }
+              ],
+              "common_error": {
+                "wrong": "अगर आ सकते तो आ जाओ",
+                "right": "अगर आ सकते हो तो आ जाओ",
+                "why_en": "Dropping हो makes the condition unreal, so you would be inviting somebody to do something you have just said they did not do."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Join these as a real invitation with a real alternative.",
+              "sentences": [
+                "शायद तुम आ सको।",
+                "अगर नहीं आ सको तो कोई बात नहीं।"
+              ],
+              "sentences_read_as": [
+                "shaayad tum aa sako.",
+                "agar nahiiṁ aa sako to koii baat nahiiṁ."
+              ],
+              "options": [
+                "अगर आ सकते हो तो आ जाओ, और न आ सकोगे तो कोई बात नहीं।",
+                "अगर आ सकते हो तो आ जाओ, और न आ सको तो कोई बात नहीं।",
+                "अगर आ सकते हो, आ जाओ, और न आ सको तो कोई बात नहीं।",
+                "अगर आ सकते तो आ जाते, और न आ सकते तो कोई बात नहीं।"
+              ],
+              "options_read_as": [
+                "agar aa sakte ho to aa jaao, aur na aa sakoge to koii baat nahiiṁ.",
+                "agar aa sakte ho to aa jaao, aur na aa sako to koii baat nahiiṁ.",
+                "agar aa sakte ho, aa jaao, aur na aa sako to koii baat nahiiṁ.",
+                "agar aa sakte to aa jaate, aur na aa sakte to koii baat nahiiṁ."
+              ],
+              "is_the_english_error": [
+                false,
+                false,
+                true,
+                false
+              ],
+              "answer_index": 1,
+              "explanation_en": "The second drops the first तो. The third makes both halves counterfactual, so it says you did not come. The fourth uses a future in the second condition, which asserts you will not be able to."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "और न आ सको",
+                "अगर आ सकते हो",
+                "तो कोई बात नहीं",
+                "तो आ जाओ"
+              ],
+              "answer": [
+                "अगर आ सकते हो",
+                "तो आ जाओ",
+                "और न आ सको",
+                "तो कोई बात नहीं"
+              ],
+              "answer_read_as": "agar aa sakte ho to aa jaao, aur na aa sako to koii baat nahiiṁ.",
+              "explanation_en": "Two complete conditionals, joined by और."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "अगर आ सकते हो तो आ जाओ, और न आ सको तो कोई बात नहीं।",
+              "अगर आ सकते तो आ जाते।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "काश opens a wish that nothing answers, and takes the imperfect for regret and the subjunctive for hope. Hindi does not distinguish \"if I went\" from \"if I had gone\" — one form covers both, which lets a single sentence hold a past condition and a present consequence. And across these five levels the verb form is what places a sentence on the scale from real to impossible.",
+        "key_forms": [
+          "काश ... होता",
+          "काश ... आ जाए",
+          "अगर ... सकते हो तो"
+        ],
+        "next_up_en": "Next: the subjunctive on its own, outside conditionals."
+      }
+    }
+  ]
+}

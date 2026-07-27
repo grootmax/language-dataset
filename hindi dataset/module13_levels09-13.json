@@ -1,0 +1,1380 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "batch": {
+    "levels_from": 9,
+    "levels_to": 13
+  },
+  "block_kind": "vocabulary",
+  "levels": [
+    {
+      "level": 9,
+      "title_en": "Shy, sensible, careless",
+      "title_hi": "शर्मीला · समझदार · लापरवाह",
+      "items": [
+        {
+          "id": "M13-L09-I1",
+          "type": "word",
+          "target": "शर्मीला",
+          "read_as": "sharmiilaa",
+          "gloss_en": "shy",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 6,
+          "tags": [
+            "personality",
+            "adjective",
+            "inflecting",
+            "suffix_iilaa"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "-ईला builds an adjective that DOES inflect",
+              "explanation_en": "शर्म is shyness or shame; शर्मीला is shy. Level 5 said that only adjectives ending in -आ change for gender, and this is one — शर्मीला लड़का but शर्मीली लड़की. Set it beside मेहनती and ज़िद्दी from that level, which look similar and never move at all. The suffix -ईला is productive and always produces an inflecting adjective: नुकीला pointed, चमकीला shiny, रसीला juicy, ज़हरीला poisonous.",
+              "examples": [
+                {
+                  "hindi": "वो बहुत शर्मीला लड़का है।",
+                  "read_as": "vo bahut sharmiilaa laṛkaa hai.",
+                  "english": "He's a very shy boy.",
+                  "note": "Masculine, so शर्मीला."
+                },
+                {
+                  "hindi": "वो बहुत शर्मीली लड़की है।",
+                  "read_as": "vo bahut sharmiilii laṛkii hai.",
+                  "english": "She's a very shy girl.",
+                  "note": "Feminine, so शर्मीली — unlike मेहनती, which would not change."
+                },
+                {
+                  "hindi": "उसे शर्म आ गई।",
+                  "read_as": "use sharm aa gaii.",
+                  "english": "He felt embarrassed.",
+                  "note": "शर्म is feminine and it comes to you — the dative experiencer from Module 10."
+                }
+              ],
+              "common_error": {
+                "wrong": "शर्मीला लड़की",
+                "right": "शर्मीली लड़की",
+                "why_en": "-ईला adjectives inflect, even though -ी adjectives like मेहनती do not. The ending you start from is what decides."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which of these adjectives changes for gender?",
+              "options": [
+                "शर्मीला",
+                "लाचार",
+                "मेहनती",
+                "ईमानदार"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Only adjectives ending in -आ inflect, and शर्मीला is one."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word describes somebody who is reserved rather than shy?",
+              "options": [
+                "चुप",
+                "शर्मीला",
+                "संकोची",
+                "डरपोक"
+              ],
+              "options_read_as": [
+                "chup",
+                "sharmiilaa",
+                "saṁkochii",
+                "ḍarpok"
+              ],
+              "answer_index": 2,
+              "explanation_en": "संकोची is reticent or holding back. डरपोक is cowardly, which is a different accusation, and चुप just means quiet."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "शर्मीला",
+              "वो बहुत शर्मीली लड़की है।",
+              "उसे शर्म आ गई।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L09-I2",
+          "type": "word",
+          "target": "समझदार",
+          "read_as": "samajhdaar",
+          "gloss_en": "sensible, level-headed",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 5,
+          "tags": [
+            "personality",
+            "adjective",
+            "invariable",
+            "suffix_daar",
+            "callback_l5"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "समझदार — one who has understanding",
+              "explanation_en": "समझ is understanding, and -दार from level 5 means possessing it. समझदार is not clever exactly — it is sensible, having good judgement, the quality you praise in somebody who handled a difficult situation well. It never inflects, because it ends in a consonant. Note that समझ itself is feminine, and it is the noun inside समझ में आना, to understand: मेरी समझ में नहीं आया, I didn't get it.",
+              "examples": [
+                {
+                  "hindi": "वो बहुत समझदार है।",
+                  "read_as": "vo bahut samajhdaar hai.",
+                  "english": "She's very sensible.",
+                  "note": "No change for gender, ever."
+                },
+                {
+                  "hindi": "समझदारी से काम लो।",
+                  "read_as": "samajhdaarii se kaam lo.",
+                  "english": "Act sensibly.",
+                  "note": "The -ई noun again, feminine, plus से for manner."
+                },
+                {
+                  "hindi": "मेरी समझ में नहीं आया।",
+                  "read_as": "merii samajh meṁ nahiiṁ aayaa.",
+                  "english": "I didn't understand.",
+                  "note": "समझ is feminine, so मेरी — and the thing understood is the subject."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेरा समझ में नहीं आया",
+                "right": "मेरी समझ में नहीं आया",
+                "why_en": "समझ is feminine, so the possessive is मेरी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "समझदारी से काम लो means what?",
+              "options": [
+                "Explain it to me",
+                "Do it yourself",
+                "Work faster",
+                "Act sensibly"
+              ],
+              "answer_index": 3,
+              "explanation_en": "काम लेना is to make use of something — here, of good sense."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word praises quickness of mind rather than good judgement?",
+              "options": [
+                "समझदार",
+                "होशियार",
+                "ज़िम्मेदार",
+                "शांत"
+              ],
+              "options_read_as": [
+                "samajhdaar",
+                "hoshiyaar",
+                "zimmedaar",
+                "shaaṁt"
+              ],
+              "answer_index": 1,
+              "explanation_en": "होशियार is sharp or clever. समझदार is about judgement, ज़िम्मेदार about reliability, and शांत about temperament."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "समझदार",
+              "समझदारी से काम लो।",
+              "मेरी समझ में नहीं आया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L09-I3",
+          "type": "word",
+          "target": "लापरवाह",
+          "read_as": "laaparvaah",
+          "gloss_en": "careless, negligent",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "personality",
+            "adjective",
+            "invariable",
+            "prefix_laa",
+            "negation_family"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ला- is a second way of saying \"without\"",
+              "explanation_en": "परवाह is care or concern; ला- negates it, so लापरवाह is somebody who does not care. This prefix came into Hindi through Persian and it builds a small but useful set: लापता missing, लाइलाज incurable, लाजवाब unanswerable and so, by extension, superb. You now have two \"without\" prefixes — निः- from the निःशुल्क sign, which is Sanskrit-side, and ला- here, which is not. Hindi has taken negation from both directions and kept both.",
+              "examples": [
+                {
+                  "hindi": "वो बहुत लापरवाह है।",
+                  "read_as": "vo bahut laaparvaah hai.",
+                  "english": "He's very careless.",
+                  "note": "Invariable, like all consonant-final adjectives."
+                },
+                {
+                  "hindi": "उसकी लापरवाही से नुक़सान हुआ।",
+                  "read_as": "uskii laaparvaahii se nuqsaan huaa.",
+                  "english": "The damage was caused by his carelessness.",
+                  "note": "The -ई noun again, and से marking the cause."
+                },
+                {
+                  "hindi": "मुझे कोई परवाह नहीं।",
+                  "read_as": "mujhe koii parvaah nahiiṁ.",
+                  "english": "I don't care at all.",
+                  "note": "The root noun on its own, with a dative experiencer."
+                }
+              ],
+              "common_error": {
+                "wrong": "वो लापरवाही आदमी है",
+                "right": "वो लापरवाह आदमी है",
+                "why_en": "लापरवाह is the adjective; लापरवाही is the noun, carelessness."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does the prefix ला- do?",
+              "options": [
+                "makes a verb",
+                "makes a superlative",
+                "negates — without, un-",
+                "makes a plural"
+              ],
+              "answer_index": 2,
+              "explanation_en": "लापरवाह, लापता, लाइलाज — all built by negating the root."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word describes somebody who simply forgets things rather than not caring?",
+              "options": [
+                "भुलक्कड़",
+                "आलसी",
+                "सुस्त",
+                "लापरवाह"
+              ],
+              "options_read_as": [
+                "bhulakkaṛ",
+                "aalsii",
+                "sust",
+                "laaparvaah"
+              ],
+              "answer_index": 0,
+              "explanation_en": "भुलक्कड़ is forgetful. लापरवाह implies indifference, आलसी is lazy, and सुस्त is sluggish."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "लापरवाह",
+              "वो बहुत लापरवाह है।",
+              "मुझे कोई परवाह नहीं।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "-ईला builds an adjective that inflects (शर्मीला, शर्मीली), where -दार and plain -ी build ones that never do. And ला- is a second \"without\" prefix alongside निः- — Hindi took negation from Persian and from Sanskrit and kept both.",
+        "key_forms": [
+          "शर्मीली लड़की",
+          "समझदारी से",
+          "लापरवाही"
+        ],
+        "next_up_en": "Next: arrogance, kindness, and a word that means clever or sly depending on your tone."
+      }
+    },
+    {
+      "level": 10,
+      "title_en": "Arrogant, kind, clever",
+      "title_hi": "घमंडी · दयालु · चालाक",
+      "items": [
+        {
+          "id": "M13-L10-I1",
+          "type": "word",
+          "target": "घमंडी",
+          "read_as": "ghamaṁḍii",
+          "gloss_en": "arrogant, conceited",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 6,
+          "tags": [
+            "personality",
+            "adjective",
+            "invariable_ii",
+            "karnaa_compound"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "घमंड and घमंडी",
+              "explanation_en": "घमंड is arrogance, a masculine noun, and घमंडी is the person who has it. Like मेहनती and ज़िद्दी it ends in -ी and never inflects. The verb is घमंड करना, to be arrogant about something, and it takes पर for the thing you are proud of: उसे अपने पैसे पर घमंड है. It is a straightforward insult with none of the affection that ज़िद्दी can carry.",
+              "examples": [
+                {
+                  "hindi": "वो बहुत घमंडी है।",
+                  "read_as": "vo bahut ghamaṁḍii hai.",
+                  "english": "He's very arrogant.",
+                  "note": "Invariable for either gender."
+                },
+                {
+                  "hindi": "उसे अपने पैसे पर घमंड है।",
+                  "read_as": "use apne paise par ghamaṁḍ hai.",
+                  "english": "He's proud of his money.",
+                  "note": "पर for what the pride rests on, and a dative experiencer."
+                },
+                {
+                  "hindi": "घमंड मत करो।",
+                  "read_as": "ghamaṁḍ mat karo.",
+                  "english": "Don't be full of yourself.",
+                  "note": "मत for an instruction, from Module 12."
+                }
+              ],
+              "common_error": {
+                "wrong": "वो घमंडा आदमी है",
+                "right": "वो घमंडी आदमी है",
+                "why_en": "घमंडी never changes shape, for any gender."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which postposition goes with घमंड?",
+              "options": [
+                "को",
+                "पर",
+                "से",
+                "में"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Pride rests on something: अपने पैसे पर घमंड."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means proud in a good sense — pleased and honoured?",
+              "options": [
+                "ऊँचा",
+                "बड़ा",
+                "घमंडी",
+                "गर्वित"
+              ],
+              "options_read_as": [
+                "uuṁchaa",
+                "baṛaa",
+                "ghamaṁḍii",
+                "garvit"
+              ],
+              "answer_index": 3,
+              "explanation_en": "गर्व is pride that is deserved and गर्वित is proud in that sense. घमंड is always the bad kind."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "घमंडी",
+              "उसे अपने पैसे पर घमंड है।",
+              "घमंड मत करो।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L10-I2",
+          "type": "word",
+          "target": "दयालु",
+          "read_as": "dayaalu",
+          "gloss_en": "kind, compassionate",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "personality",
+            "adjective",
+            "invariable",
+            "suffix_aalu",
+            "sanskrit_leaning"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "-आलु — a fourth suffix, and a formal one",
+              "explanation_en": "दया is compassion; दयालु is compassionate. The suffix -आलु is Sanskrit-side and builds a small closed set: कृपालु gracious, श्रद्धालु devout, ईर्ष्यालु envious, निद्रालु sleepy. All of them are invariable and all of them lean formal — दयालु belongs in writing, in prayer, and in describing somebody with a certain weight. Everyday speech says नेक or simply अच्छा, or turns it into a verb: वो बहुत मदद करता है.",
+              "examples": [
+                {
+                  "hindi": "वो बहुत दयालु व्यक्ति हैं।",
+                  "read_as": "vo bahut dayaalu vyakti haiṁ.",
+                  "english": "He is a very kind person.",
+                  "note": "व्यक्ति is the formal word for person, and the respectful plural हैं."
+                },
+                {
+                  "hindi": "उन्होंने दया दिखाई।",
+                  "read_as": "unhoṁne dayaa dikhaaii.",
+                  "english": "They showed compassion.",
+                  "note": "ने, and दिखाई agreeing with feminine दया."
+                },
+                {
+                  "hindi": "दया करके मुझे बता दीजिए।",
+                  "read_as": "dayaa karke mujhe bataa diijie.",
+                  "english": "Kindly let me know.",
+                  "note": "दया करके is a formal \"please\", close to कृपया."
+                }
+              ],
+              "common_error": {
+                "wrong": "वो दयालू है",
+                "right": "वो दयालु है",
+                "why_en": "The suffix is -आलु with a short u. दयालू is a common misspelling."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What kind of register does दयालु belong to?",
+              "options": [
+                "formal writing and weighty description",
+                "children's language",
+                "regional dialect",
+                "casual speech only"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Everyday speech would use नेक or अच्छा, or describe the behaviour instead."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word would a friend use in conversation for a kind person?",
+              "options": [
+                "श्रद्धालु",
+                "दयालु",
+                "नेक",
+                "कृपालु"
+              ],
+              "options_read_as": [
+                "shraddhaalu",
+                "dayaalu",
+                "nek",
+                "kripaalu"
+              ],
+              "answer_index": 2,
+              "explanation_en": "नेक is the everyday word. कृपालु and श्रद्धालु are both formal, and श्रद्धालु means devout rather than kind."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दयालु",
+              "वो बहुत दयालु व्यक्ति हैं।",
+              "उन्होंने दया दिखाई।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L10-I3",
+          "type": "word",
+          "target": "चालाक",
+          "read_as": "chaalaak",
+          "gloss_en": "clever; cunning",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "personality",
+            "adjective",
+            "invariable",
+            "polysemy",
+            "tone_dependent"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "चालाक — clever, and not always a compliment",
+              "explanation_en": "चालाक covers clever and cunning, and which one you mean depends entirely on tone and context. Said of a child working something out, it is admiring. Said of a shopkeeper, it means you were nearly cheated. Hindi does not force the split that English makes between clever and sly, so a learner who uses चालाक as pure praise will sometimes be heard as suspicious. होशियार is the safe word when you mean sharp and mean it kindly.",
+              "examples": [
+                {
+                  "hindi": "बहुत चालाक बच्चा है।",
+                  "read_as": "bahut chaalaak bacchaa hai.",
+                  "english": "He's a very sharp child.",
+                  "note": "Admiring, in this context."
+                },
+                {
+                  "hindi": "वो दुकानदार बड़ा चालाक है।",
+                  "read_as": "vo dukaandaar baṛaa chaalaak hai.",
+                  "english": "That shopkeeper is a sly one.",
+                  "note": "Same word, opposite feeling, and only the context tells you."
+                },
+                {
+                  "hindi": "चालाकी से काम नहीं चलेगा।",
+                  "read_as": "chaalaakii se kaam nahiiṁ chalegaa.",
+                  "english": "Cunning won't get you anywhere.",
+                  "note": "The -ई noun, and here it is unambiguously negative."
+                }
+              ],
+              "common_error": {
+                "wrong": "आप बहुत चालाक हैं",
+                "right": "आप बहुत होशियार हैं",
+                "why_en": "Meant as a compliment to an adult, चालाक will often land as an accusation. होशियार is the safe choice."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Why is चालाक risky as a compliment?",
+              "options": [
+                "It is old-fashioned",
+                "It only applies to children",
+                "It is very formal",
+                "It can mean cunning as easily as clever"
+              ],
+              "answer_index": 3,
+              "explanation_en": "Tone and context carry the whole difference, and an adult may hear the wrong one."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "You want to tell a colleague they are sharp, with no suggestion of slyness. Which word?",
+              "options": [
+                "चालाक",
+                "होशियार",
+                "धूर्त",
+                "मक्कार"
+              ],
+              "options_read_as": [
+                "chaalaak",
+                "hoshiyaar",
+                "dhuurt",
+                "makkaar"
+              ],
+              "answer_index": 1,
+              "explanation_en": "होशियार is unambiguously positive. धूर्त and मक्कार are both firmly negative — cunning and deceitful."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "चालाक",
+              "बहुत चालाक बच्चा है।",
+              "चालाकी से काम नहीं चलेगा।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "-आलु is a fourth suffix, Sanskrit-side and formal: दयालु, कृपालु, श्रद्धालु. घमंड takes पर for what the pride rests on. And चालाक is the module's first genuinely risky word — clever or sly, decided by tone, with होशियार as the safe alternative.",
+        "key_forms": [
+          "घमंड है",
+          "दयालु",
+          "होशियार"
+        ],
+        "next_up_en": "Next: opinion, reasoning, and agreement — where English's one word splits three ways."
+      }
+    },
+    {
+      "level": 11,
+      "title_en": "Opinion, reasoning, agreement",
+      "title_hi": "राय · तर्क · सहमत",
+      "items": [
+        {
+          "id": "M13-L11-I1",
+          "type": "word",
+          "target": "राय",
+          "read_as": "raay",
+          "gloss_en": "opinion, advice",
+          "gender": "f",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "opinion",
+            "feminine",
+            "gender_flag",
+            "me_construction",
+            "urdu_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मेरी राय में — and why it is not मेरी राय से",
+              "explanation_en": "राय is an opinion, and it is feminine — flag it, because nothing about the shape says so. The phrase is मेरी राय में, in my opinion, with में. Compare मेरे ख़याल से from level 4, which takes से, and मेरे हिसाब से from Module 12, which also takes से. Three ways of saying the same thing, two of them with से and one with में, and there is no rule — they are fixed phrases and the postposition is part of the phrase.",
+              "examples": [
+                {
+                  "hindi": "मेरी राय में ये ठीक नहीं है।",
+                  "read_as": "merii raay meṁ ye ṭhiik nahiiṁ hai.",
+                  "english": "In my opinion this isn't right.",
+                  "note": "में, not से. Learn the whole phrase."
+                },
+                {
+                  "hindi": "आपकी क्या राय है?",
+                  "read_as": "aapkii kyaa raay hai?",
+                  "english": "What's your view?",
+                  "note": "आपकी, feminine, agreeing with राय."
+                },
+                {
+                  "hindi": "उसने मुझे अच्छी राय दी।",
+                  "read_as": "usne mujhe acchii raay dii.",
+                  "english": "She gave me good advice.",
+                  "note": "राय also means advice, and दी agrees with it."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेरी राय से",
+                "right": "मेरी राय में",
+                "why_en": "राय takes में in this phrase. ख़याल and हिसाब take से. The three do not follow a pattern."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which is correct for \"in my opinion\"?",
+              "options": [
+                "मेरा राय से",
+                "मेरी राय से",
+                "मेरी राय में",
+                "मेरे राय में"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Feminine possessive, and में rather than से."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word would a written report use where speech says राय?",
+              "options": [
+                "मत",
+                "सलाह",
+                "ख़याल",
+                "बात"
+              ],
+              "options_read_as": [
+                "mat",
+                "salaah",
+                "ḳhayaal",
+                "baat"
+              ],
+              "answer_index": 0,
+              "explanation_en": "मत is the formal word for a stated position — as in मतदान, voting. सलाह is advice specifically, and बात is just a thing said."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "राय",
+              "मेरी राय में ये ठीक नहीं है।",
+              "आपकी क्या राय है?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L11-I2",
+          "type": "word",
+          "target": "तर्क",
+          "read_as": "tark",
+          "gloss_en": "reasoning, logical argument",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "opinion",
+            "masculine",
+            "gender_flag",
+            "sanskrit_origin",
+            "false_friend"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तर्क is an argument you make, not an argument you have",
+              "explanation_en": "English \"argument\" covers two completely different things: a piece of reasoning, and a quarrel. Hindi splits them. तर्क is the reasoning — the logic of a case — and it is masculine and consonant-final, so flag it. बहस, coming in the next level, is the quarrel. Confusing the two will make you say you had a logic with your brother. तर्क is Sanskrit-side and slightly formal; तर्कसंगत means logical, and कुतर्क is a bad-faith argument.",
+              "examples": [
+                {
+                  "hindi": "उसका तर्क सही था।",
+                  "read_as": "uskaa tark sahii thaa.",
+                  "english": "His reasoning was sound.",
+                  "note": "उसका, masculine, agreeing with तर्क."
+                },
+                {
+                  "hindi": "इसमें कोई तर्क नहीं है।",
+                  "read_as": "ismeṁ koii tark nahiiṁ hai.",
+                  "english": "There's no logic in this.",
+                  "note": "इसमें, the fused में from Module 12."
+                },
+                {
+                  "hindi": "ये बात तर्कसंगत नहीं लगती।",
+                  "read_as": "ye baat tarksaṁgat nahiiṁ lagtii.",
+                  "english": "This doesn't seem logical.",
+                  "note": "लगना for how something seems, from Module 10."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेरा भाई से तर्क हुआ",
+                "right": "मेरा भाई से बहस हुई",
+                "why_en": "A quarrel is बहस. तर्क is the reasoning inside an argument, not the argument itself."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "तर्क means which sense of \"argument\"?",
+              "options": [
+                "a quarrel",
+                "a piece of reasoning",
+                "a complaint",
+                "a discussion"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The logic of a case. The quarrel sense is बहस."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a bad-faith or twisted argument?",
+              "options": [
+                "सवाल",
+                "शक",
+                "तर्क",
+                "कुतर्क"
+              ],
+              "options_read_as": [
+                "savaal",
+                "shak",
+                "tark",
+                "kutark"
+              ],
+              "answer_index": 3,
+              "explanation_en": "कु- is a negative prefix meaning bad — कुतर्क, sophistry. शक is doubt and सवाल a question."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तर्क",
+              "उसका तर्क सही था।",
+              "ये बात तर्कसंगत नहीं लगती।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L11-I3",
+          "type": "word",
+          "target": "सहमत",
+          "read_as": "sahmat",
+          "gloss_en": "in agreement",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 6,
+          "tags": [
+            "opinion",
+            "adjective",
+            "invariable",
+            "se_construction",
+            "sanskrit_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सहमत होना — and the person you agree with takes से",
+              "explanation_en": "सहमत is an adjective, not a verb: you are in agreement rather than agreeing. It pairs with होना, and the person takes से — मैं आपसे सहमत हूँ, I agree with you. That से is the same one that marks the person in बात करना and मिलना, which is worth noticing as a pattern: anything you do jointly with somebody takes से. सहमत is invariable and belongs to careful speech and writing; friends just say हाँ, सही कहा.",
+              "examples": [
+                {
+                  "hindi": "मैं आपसे सहमत हूँ।",
+                  "read_as": "maiṁ aapse sahmat huuṁ.",
+                  "english": "I agree with you.",
+                  "note": "से on the person, and सहमत does not change."
+                },
+                {
+                  "hindi": "सब इस बात पर सहमत हैं।",
+                  "read_as": "sab is baat par sahmat haiṁ.",
+                  "english": "Everyone agrees on this point.",
+                  "note": "पर for the thing agreed on, से for the person agreed with."
+                },
+                {
+                  "hindi": "वो सहमत नहीं हुईं।",
+                  "read_as": "vo sahmat nahiiṁ huiiṁ.",
+                  "english": "She did not agree.",
+                  "note": "The respectful plural feminine — हुईं."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं आपको सहमत हूँ",
+                "right": "मैं आपसे सहमत हूँ",
+                "why_en": "The person you agree with takes से, like the person you speak with or meet."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which postposition marks the person you agree with?",
+              "options": [
+                "से",
+                "पर",
+                "का",
+                "को"
+              ],
+              "answer_index": 0,
+              "explanation_en": "आपसे सहमत — and पर marks the point agreed on."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which phrase would a friend use instead of मैं सहमत हूँ?",
+              "options": [
+                "मैं तैयार हूँ",
+                "मैं राज़ी हूँ",
+                "सही कहा",
+                "मुझे मंज़ूर है"
+              ],
+              "options_read_as": [
+                "maiṁ taiyaar huuṁ",
+                "maiṁ raazii huuṁ",
+                "sahii kahaa",
+                "mujhe maṁzuur hai"
+              ],
+              "answer_index": 2,
+              "explanation_en": "सही कहा — well said — is what agreement sounds like between friends. राज़ी and मंज़ूर are about consenting to a proposal rather than sharing a view."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सहमत",
+              "मैं आपसे सहमत हूँ।",
+              "सब इस बात पर सहमत हैं।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "मेरी राय में takes में where मेरे ख़याल से and मेरे हिसाब से take से — fixed phrases, no rule. तर्क is reasoning, never a quarrel. And सहमत takes से on the person and पर on the point.",
+        "key_forms": [
+          "मेरी राय में",
+          "उसका तर्क",
+          "आपसे सहमत"
+        ],
+        "next_up_en": "Next: disagreement, and the second and third things English calls an argument."
+      }
+    },
+    {
+      "level": 12,
+      "title_en": "Disagreement and dispute",
+      "title_hi": "असहमत · बहस · दलील",
+      "items": [
+        {
+          "id": "M13-L12-I1",
+          "type": "word",
+          "target": "असहमत",
+          "read_as": "asahmat",
+          "gloss_en": "in disagreement",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 6,
+          "tags": [
+            "opinion",
+            "adjective",
+            "invariable",
+            "prefix_a",
+            "negation_family"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "अ- is the third \"not\" prefix in this module",
+              "explanation_en": "सहमत becomes असहमत by adding अ-, the Sanskrit negative prefix. You have now met three: निः- in निःशुल्क, ला- in लापरवाह, and अ- here. अ- is by far the most productive — असंभव impossible, अन्याय injustice, अशांत restless, अस्वीकार refusal, अपरिचित unfamiliar. Before a vowel it becomes अन-: अनुचित improper, अनावश्यक unnecessary. Recognising it turns a great many unknown words into known ones with a minus sign.",
+              "examples": [
+                {
+                  "hindi": "मैं इससे असहमत हूँ।",
+                  "read_as": "maiṁ isse asahmat huuṁ.",
+                  "english": "I disagree with this.",
+                  "note": "से again, fused into इससे."
+                },
+                {
+                  "hindi": "ये असंभव है।",
+                  "read_as": "ye asaṁbhav hai.",
+                  "english": "This is impossible.",
+                  "note": "संभव possible, असंभव impossible."
+                },
+                {
+                  "hindi": "ये बात अनुचित है।",
+                  "read_as": "ye baat anuchit hai.",
+                  "english": "This is improper.",
+                  "note": "उचित proper — and अ- becomes अन- before the vowel."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं असहमत नहीं हूँ इससे",
+                "right": "मैं इससे सहमत हूँ",
+                "why_en": "Double negation is as clumsy in Hindi as in English. If you agree, say सहमत."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does अ- become before a vowel?",
+              "options": [
+                "नि-",
+                "it stays अ-",
+                "आ-",
+                "अन-"
+              ],
+              "answer_index": 3,
+              "explanation_en": "अनुचित, अनावश्यक, अनजान — अन- before a vowel."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means unnecessary?",
+              "options": [
+                "असहमत",
+                "अनावश्यक",
+                "असंभव",
+                "अशांत"
+              ],
+              "options_read_as": [
+                "asahmat",
+                "anaavashyak",
+                "asaṁbhav",
+                "ashaaṁt"
+              ],
+              "answer_index": 1,
+              "explanation_en": "आवश्यक is necessary, so अनावश्यक is unnecessary. असंभव is impossible and अशांत is restless."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "असहमत",
+              "मैं इससे असहमत हूँ।",
+              "ये असंभव है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L12-I2",
+          "type": "word",
+          "target": "बहस",
+          "read_as": "bahas",
+          "gloss_en": "argument, dispute, debate",
+          "gender": "f",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "opinion",
+            "feminine",
+            "gender_flag",
+            "karnaa_compound",
+            "arabic_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "बहस is the quarrel, and the formal debate",
+              "explanation_en": "बहस is the argument you have, as opposed to तर्क, the reasoning you offer. It stretches from a family row to a parliamentary debate, and the setting decides which. It is feminine and consonant-final, so flag it, and it goes with करना: बहस मत करो, which you already heard a parent say in Module 12. The person you argue with takes से, like everything else you do jointly.",
+              "examples": [
+                {
+                  "hindi": "बहस मत करो।",
+                  "read_as": "bahas mat karo.",
+                  "english": "Don't argue.",
+                  "note": "You met this exact sentence in a family argument in Module 12."
+                },
+                {
+                  "hindi": "उससे बहस करने का कोई फ़ायदा नहीं।",
+                  "read_as": "usse bahas karne kaa koii faayadaa nahiiṁ.",
+                  "english": "There's no point arguing with him.",
+                  "note": "से on the person, and the oblique infinitive before का."
+                },
+                {
+                  "hindi": "संसद में लंबी बहस हुई।",
+                  "read_as": "saṁsad meṁ lambii bahas huii.",
+                  "english": "There was a long debate in parliament.",
+                  "note": "Same word, formal setting — and लंबी and हुई both feminine."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने उससे बहस किया",
+                "right": "मैंने उससे बहस की",
+                "why_en": "बहस is feminine, so करना agrees with it."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which is बहस and which is तर्क?",
+              "options": [
+                "बहस is formal, तर्क is casual",
+                "बहस is the reasoning, तर्क the quarrel",
+                "बहस is the quarrel or debate, तर्क the reasoning",
+                "They are interchangeable"
+              ],
+              "answer_index": 2,
+              "explanation_en": "तर्क is what you argue; बहस is that you are arguing."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a calm exchange of views rather than a dispute?",
+              "options": [
+                "चर्चा",
+                "झगड़ा",
+                "लड़ाई",
+                "बहस"
+              ],
+              "options_read_as": [
+                "charchaa",
+                "jhagṛaa",
+                "laṛaaii",
+                "bahas"
+              ],
+              "answer_index": 0,
+              "explanation_en": "चर्चा is a discussion, with no heat implied. झगड़ा and लड़ाई are both further towards a fight than बहस."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बहस",
+              "बहस मत करो।",
+              "संसद में लंबी बहस हुई।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L12-I3",
+          "type": "word",
+          "target": "दलील",
+          "read_as": "daliil",
+          "gloss_en": "an argument advanced, a plea",
+          "gender": "f",
+          "gender_flag": true,
+          "difficulty": 8,
+          "tags": [
+            "opinion",
+            "feminine",
+            "gender_flag",
+            "legal_register",
+            "arabic_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "दलील — the specific argument you put forward",
+              "explanation_en": "That is now three Hindi words where English has one. तर्क is reasoning in the abstract. बहस is the fact of arguing. दलील is a particular argument advanced in support of a position — a point made, a plea entered. It is feminine, consonant-final, and flagged, and it is at home in courts and in serious disagreement: वकील ने दलील दी, the lawyer argued. It goes with देना rather than करना, which is worth learning with the word.",
+              "examples": [
+                {
+                  "hindi": "वकील ने यही दलील दी।",
+                  "read_as": "vakiil ne yahii daliil dii.",
+                  "english": "That was the lawyer's argument.",
+                  "note": "देना, not करना — and दी agrees with feminine दलील."
+                },
+                {
+                  "hindi": "उसकी दलील कमज़ोर थी।",
+                  "read_as": "uskii daliil kamzor thii.",
+                  "english": "His argument was weak.",
+                  "note": "उसकी and थी, both feminine."
+                },
+                {
+                  "hindi": "इस दलील में दम नहीं है।",
+                  "read_as": "is daliil meṁ dam nahiiṁ hai.",
+                  "english": "There's nothing in that argument.",
+                  "note": "दम is force or substance. इस, oblique before में."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने दलील की",
+                "right": "उसने दलील दी",
+                "why_en": "दलील goes with देना. बहस goes with करना. The verb is part of the word."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which verb goes with दलील?",
+              "options": [
+                "करना",
+                "देना",
+                "लेना",
+                "रखना"
+              ],
+              "answer_index": 1,
+              "explanation_en": "दलील देना — to advance an argument."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "In a court report, which word means the case a lawyer presents overall?",
+              "options": [
+                "बहस",
+                "राय",
+                "दलील",
+                "पक्ष"
+              ],
+              "options_read_as": [
+                "bahas",
+                "raay",
+                "daliil",
+                "paksh"
+              ],
+              "answer_index": 3,
+              "explanation_en": "पक्ष is the side or case as a whole, which you meet properly in the next level. दलील is one argument within it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दलील",
+              "वकील ने यही दलील दी।",
+              "उसकी दलील कमज़ोर थी।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "अ- is the most productive negative prefix in Hindi and becomes अन- before a vowel. And English's single word \"argument\" is three words here: तर्क the reasoning, बहस the arguing, दलील the particular point advanced — with बहस taking करना and दलील taking देना.",
+        "key_forms": [
+          "असहमत",
+          "बहस करना",
+          "दलील देना"
+        ],
+        "next_up_en": "Next: viewpoints, sides and opposition."
+      }
+    },
+    {
+      "level": 13,
+      "title_en": "Viewpoint, side, opposition",
+      "title_hi": "नज़रिया · पक्ष · विरोध",
+      "items": [
+        {
+          "id": "M13-L13-I1",
+          "type": "word",
+          "target": "नज़रिया",
+          "read_as": "nazariyaa",
+          "gloss_en": "viewpoint, outlook",
+          "gender": "m",
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "opinion",
+            "masculine",
+            "urdu_origin",
+            "register_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "नज़रिया — the angle you see something from",
+              "explanation_en": "नज़र is sight, and नज़रिया is the way you look at something — an outlook rather than a single opinion. Where राय is what you think about one question, नज़रिया is the whole stance you bring. It ends in -आ and is masculine, so for once the gender is predictable. The Sanskrit-side pair is दृष्टिकोण, literally \"angle of vision\", which is what an essay or an editorial will use.",
+              "examples": [
+                {
+                  "hindi": "उसका नज़रिया अलग है।",
+                  "read_as": "uskaa nazariyaa alag hai.",
+                  "english": "He sees it differently.",
+                  "note": "उसका, masculine, agreeing with नज़रिया."
+                },
+                {
+                  "hindi": "नज़रिया बदलना आसान नहीं।",
+                  "read_as": "nazariyaa badalnaa aasaan nahiiṁ.",
+                  "english": "Changing your outlook isn't easy.",
+                  "note": "An infinitive as the subject, masculine by default."
+                },
+                {
+                  "hindi": "मेरी नज़र में वो सही थे।",
+                  "read_as": "merii nazar meṁ vo sahii the.",
+                  "english": "In my view they were right.",
+                  "note": "नज़र is feminine — मेरी — while नज़रिया is masculine. The pair is worth watching."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेरा नज़र में",
+                "right": "मेरी नज़र में",
+                "why_en": "नज़र is feminine even though नज़रिया, built from it, is masculine."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "How does नज़रिया differ from राय?",
+              "options": [
+                "नज़रिया is an overall outlook; राय is a view on one question",
+                "नज़रिया is formal",
+                "नज़रिया is only about politics",
+                "No difference"
+              ],
+              "answer_index": 0,
+              "explanation_en": "One is the angle you look from; the other is what you conclude about a particular thing."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "An editorial would use which word for नज़रिया?",
+              "options": [
+                "अंदाज़",
+                "नज़र",
+                "दृष्टिकोण",
+                "सोच"
+              ],
+              "options_read_as": [
+                "aṁdaaz",
+                "nazar",
+                "driṣṭikoṇ",
+                "soch"
+              ],
+              "answer_index": 2,
+              "explanation_en": "दृष्टिकोण is the Sanskrit-side pair. सोच is thinking generally and अंदाज़ is a manner or an estimate."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "नज़रिया",
+              "उसका नज़रिया अलग है।",
+              "मेरी नज़र में वो सही थे।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L13-I2",
+          "type": "word",
+          "target": "पक्ष",
+          "read_as": "paksh",
+          "gloss_en": "side, case, party to a dispute",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 8,
+          "tags": [
+            "opinion",
+            "masculine",
+            "gender_flag",
+            "sanskrit_origin",
+            "polysemy"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पक्ष — a side, but never a physical one",
+              "explanation_en": "पक्ष is a side in an argument, a dispute or a case — the position somebody holds and the people holding it. It is never a physical side; that is तरफ़ or ओर, both feminine, which you met on the signs. पक्ष is masculine and consonant-final, so flag it. It builds outward usefully: विपक्ष the opposition in a parliament, पक्षपात partiality, निष्पक्ष impartial. पक्ष लेना is to take somebody's side.",
+              "examples": [
+                {
+                  "hindi": "उसने मेरा पक्ष लिया।",
+                  "read_as": "usne meraa paksh liyaa.",
+                  "english": "He took my side.",
+                  "note": "पक्ष लेना, and मेरा masculine agreeing with it."
+                },
+                {
+                  "hindi": "दोनों पक्षों की बात सुनी गई।",
+                  "read_as": "donoṁ pakshoṁ kii baat sunii gaii.",
+                  "english": "Both sides were heard.",
+                  "note": "पक्षों, the oblique plural before की."
+                },
+                {
+                  "hindi": "जज को निष्पक्ष होना चाहिए।",
+                  "read_as": "jaj ko niṣpaksh honaa chaahie.",
+                  "english": "A judge should be impartial.",
+                  "note": "निष्- is another form of the निः- prefix from the निःशुल्क sign."
+                }
+              ],
+              "common_error": {
+                "wrong": "सड़क के पक्ष में",
+                "right": "सड़क के किनारे",
+                "why_en": "पक्ष is never a physical side. For the side of a road you want किनारे, and for a direction, तरफ़ or ओर."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does निष्पक्ष mean?",
+              "options": [
+                "opposed",
+                "official",
+                "one-sided",
+                "impartial"
+              ],
+              "answer_index": 3,
+              "explanation_en": "निष्- (without) plus पक्ष (side) — taking no side."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means the physical side of something?",
+              "options": [
+                "पक्ष",
+                "तरफ़",
+                "विपक्ष",
+                "पक्षपात"
+              ],
+              "options_read_as": [
+                "paksh",
+                "taraf",
+                "vipaksh",
+                "pakshpaat"
+              ],
+              "answer_index": 1,
+              "explanation_en": "तरफ़ is a physical side or direction, and it is feminine. विपक्ष is a political opposition and पक्षपात is bias."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पक्ष",
+              "उसने मेरा पक्ष लिया।",
+              "जज को निष्पक्ष होना चाहिए।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L13-I3",
+          "type": "word",
+          "target": "विरोध",
+          "read_as": "virodh",
+          "gloss_en": "opposition, objection",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "opinion",
+            "masculine",
+            "gender_flag",
+            "karnaa_compound",
+            "news_use"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "विरोध is the stance, not the demonstration",
+              "explanation_en": "विरोध is opposition — being against something. It is masculine and consonant-final, so flag it, and it goes with करना: विरोध करना, to object. Keep it apart from प्रदर्शन, a demonstration, which is the visible event; you can hold विरोध without ever leaving the house. The thing opposed takes का: नीति का विरोध. And विरोधी is the person who opposes, which is also the ordinary word for an opponent in sport.",
+              "examples": [
+                {
+                  "hindi": "किसी ने विरोध नहीं किया।",
+                  "read_as": "kisii ne virodh nahiiṁ kiyaa.",
+                  "english": "Nobody objected.",
+                  "note": "किसी ने with ने, and किया masculine agreeing with विरोध."
+                },
+                {
+                  "hindi": "उन्होंने इस फ़ैसले का विरोध किया।",
+                  "read_as": "unhoṁne is faisle kaa virodh kiyaa.",
+                  "english": "They opposed this decision.",
+                  "note": "The thing opposed takes का, and फ़ैसला goes oblique to फ़ैसले."
+                },
+                {
+                  "hindi": "वो मेरा विरोधी नहीं, दोस्त है।",
+                  "read_as": "vo meraa virodhii nahiiṁ, dost hai.",
+                  "english": "He's not my opponent, he's a friend.",
+                  "note": "विरोधी, the person — invariable, like all -ी adjectives."
+                }
+              ],
+              "common_error": {
+                "wrong": "उन्होंने इस फ़ैसला का विरोध किया",
+                "right": "उन्होंने इस फ़ैसले का विरोध किया",
+                "why_en": "का is a postposition, so फ़ैसला goes oblique to फ़ैसले in front of it."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which postposition marks the thing opposed?",
+              "options": [
+                "को",
+                "से",
+                "का",
+                "पर"
+              ],
+              "answer_index": 2,
+              "explanation_en": "नीति का विरोध, इस फ़ैसले का विरोध."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a public demonstration rather than the stance behind it?",
+              "options": [
+                "प्रदर्शन",
+                "विरोधी",
+                "असहमति",
+                "विरोध"
+              ],
+              "options_read_as": [
+                "pradarshan",
+                "virodhii",
+                "asahmati",
+                "virodh"
+              ],
+              "answer_index": 0,
+              "explanation_en": "प्रदर्शन is the visible event. विरोधी is the person, and असहमति is disagreement in the mild sense."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "विरोध",
+              "किसी ने विरोध नहीं किया।",
+              "उन्होंने इस फ़ैसले का विरोध किया।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "नज़रिया is the angle you look from, where राय is the conclusion. पक्ष is a side in a dispute and never a physical one — that is तरफ़. And विरोध is the stance, where प्रदर्शन is the demonstration; the thing opposed takes का.",
+        "key_forms": [
+          "उसका नज़रिया",
+          "पक्ष लेना",
+          "का विरोध करना"
+        ],
+        "next_up_en": "Next: the second reading block — warnings, emergencies and opening hours."
+      }
+    }
+  ]
+}

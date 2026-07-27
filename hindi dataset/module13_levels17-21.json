@@ -1,0 +1,1384 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "batch": {
+    "levels_from": 17,
+    "levels_to": 21
+  },
+  "block_kind": "vocabulary",
+  "block_note": "The formal register block is taught as the parts of a document — the verbs an office uses, the header of a letter, and its closing — rather than as twelve unrelated words. By level 21 a learner can read the skeleton of any official Hindi letter.",
+  "levels": [
+    {
+      "level": 17,
+      "title_en": "Support, issue, conclusion",
+      "title_hi": "समर्थन · मुद्दा · निष्कर्ष",
+      "items": [
+        {
+          "id": "M13-L17-I1",
+          "type": "word",
+          "target": "समर्थन",
+          "read_as": "samarthan",
+          "gloss_en": "support, backing",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "opinion",
+            "masculine",
+            "gender_flag",
+            "karnaa_compound",
+            "pairs_with_virodh"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "समर्थन — backing a position, not helping a person",
+              "explanation_en": "समर्थन is support in the sense of endorsement: you back a proposal, a policy or a candidate. It is not मदद, which is practical help given to a person. It is masculine and consonant-final, so flag it, and it takes का on the thing supported — नीति का समर्थन — exactly as विरोध did in level 13. The two are a matched pair with the same shape and opposite directions, and समर्थक is the person who supports.",
+              "examples": [
+                {
+                  "hindi": "सरकार ने प्रस्ताव का समर्थन किया।",
+                  "read_as": "sarkaar ne prastaav kaa samarthan kiyaa.",
+                  "english": "The government supported the proposal.",
+                  "note": "का on the thing supported, and किया masculine."
+                },
+                {
+                  "hindi": "उसे सबका समर्थन मिला।",
+                  "read_as": "use sabkaa samarthan milaa.",
+                  "english": "She had everyone's support.",
+                  "note": "मिलना for receiving, with a dative on the receiver."
+                },
+                {
+                  "hindi": "मैं इस विचार का समर्थक हूँ।",
+                  "read_as": "maiṁ is vichaar kaa samarthak huuṁ.",
+                  "english": "I support this idea.",
+                  "note": "समर्थक, the person. विचार goes oblique before का."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने उसका समर्थन की",
+                "right": "मैंने उसका समर्थन किया",
+                "why_en": "समर्थन is masculine, so करना agrees with it."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which postposition marks the thing supported?",
+              "options": [
+                "से",
+                "का",
+                "पर",
+                "को"
+              ],
+              "answer_index": 1,
+              "explanation_en": "प्रस्ताव का समर्थन — the same shape as नीति का विरोध."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means practical help given to a person?",
+              "options": [
+                "सहयोग",
+                "हिमायत",
+                "समर्थन",
+                "मदद"
+              ],
+              "options_read_as": [
+                "sahyog",
+                "himaayat",
+                "samarthan",
+                "madad"
+              ],
+              "answer_index": 3,
+              "explanation_en": "मदद is hands-on help. सहयोग is cooperation, and हिमायत is advocacy on somebody's behalf."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "समर्थन",
+              "सरकार ने प्रस्ताव का समर्थन किया।",
+              "उसे सबका समर्थन मिला।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L17-I2",
+          "type": "word",
+          "target": "मुद्दा",
+          "read_as": "muddaa",
+          "gloss_en": "issue, point at issue",
+          "gender": "m",
+          "gender_flag": false,
+          "difficulty": 6,
+          "tags": [
+            "opinion",
+            "masculine",
+            "urdu_origin",
+            "news_use",
+            "three_way_split"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "मुद्दा — the issue, not the question",
+              "explanation_en": "मुद्दा is a point in contention — the thing being argued about. It is not सवाल, which is a question somebody asks, and not मामला, which is a matter or an affair being dealt with. News writing uses मुद्दा constantly: चुनावी मुद्दे, election issues. It ends in -आ and is masculine, so the gender is predictable, and the verb is उठाना — you raise an issue, as in English.",
+              "examples": [
+                {
+                  "hindi": "ये असली मुद्दा नहीं है।",
+                  "read_as": "ye aslii muddaa nahiiṁ hai.",
+                  "english": "That isn't the real issue.",
+                  "note": "असली, invariable, and मुद्दा masculine."
+                },
+                {
+                  "hindi": "उसने अच्छा मुद्दा उठाया।",
+                  "read_as": "usne acchaa muddaa uṭhaayaa.",
+                  "english": "She raised a good point.",
+                  "note": "उठाना, to raise. Not पूछना, which is for questions."
+                },
+                {
+                  "hindi": "चुनाव में यही मुद्दा छाया रहा।",
+                  "read_as": "chunaav meṁ yahii muddaa chhaayaa rahaa.",
+                  "english": "This was the dominant issue in the election.",
+                  "note": "छाया रहना, to loom over or dominate."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने मुद्दा पूछा",
+                "right": "उसने मुद्दा उठाया",
+                "why_en": "सवाल is asked; मुद्दा is raised. The verb is part of the word."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which verb goes with मुद्दा?",
+              "options": [
+                "उठाना",
+                "देना",
+                "करना",
+                "पूछना"
+              ],
+              "answer_index": 0,
+              "explanation_en": "मुद्दा उठाना — to raise an issue."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a matter or affair being dealt with?",
+              "options": [
+                "बहस",
+                "मुद्दा",
+                "मामला",
+                "सवाल"
+              ],
+              "options_read_as": [
+                "bahas",
+                "muddaa",
+                "maamlaa",
+                "savaal"
+              ],
+              "answer_index": 2,
+              "explanation_en": "मामला is the affair itself. मुद्दा is what is contentious about it, and सवाल is a question."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "मुद्दा",
+              "ये असली मुद्दा नहीं है।",
+              "उसने अच्छा मुद्दा उठाया।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L17-I3",
+          "type": "word",
+          "target": "निष्कर्ष",
+          "read_as": "niṣkarṣ",
+          "gloss_en": "conclusion",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 8,
+          "tags": [
+            "opinion",
+            "masculine",
+            "gender_flag",
+            "prefix_nih",
+            "shared_metaphor"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "निष्कर्ष निकालना — the same metaphor in both languages",
+              "explanation_en": "निष्कर्ष is निः- (out) plus कर्ष (drawing), so it means a drawing-out — and the verb that goes with it is निकालना, to draw out. English does exactly the same thing when it says draw a conclusion. The two languages arrived at the same picture independently, which is rare enough to be worth noticing and makes this one easy to remember. It is masculine and consonant-final, so flag it. And निष्- here is the same prefix as निष्पक्ष in level 13 and निःशुल्क on the sign in level 7.",
+              "examples": [
+                {
+                  "hindi": "इससे क्या निष्कर्ष निकलता है?",
+                  "read_as": "isse kyaa niṣkarṣ nikaltaa hai?",
+                  "english": "What conclusion follows from this?",
+                  "note": "निकलना, the intransitive — the conclusion emerges by itself."
+                },
+                {
+                  "hindi": "जल्दी निष्कर्ष मत निकालो।",
+                  "read_as": "jaldii niṣkarṣ mat nikaalo.",
+                  "english": "Don't jump to conclusions.",
+                  "note": "निकालना, the transitive — you draw it out."
+                },
+                {
+                  "hindi": "रिपोर्ट का निष्कर्ष साफ़ था।",
+                  "read_as": "riporṭ kaa niṣkarṣ saaf thaa.",
+                  "english": "The report's conclusion was clear.",
+                  "note": "का because निष्कर्ष is masculine."
+                }
+              ],
+              "common_error": {
+                "wrong": "उसने निष्कर्ष किया",
+                "right": "उसने निष्कर्ष निकाला",
+                "why_en": "निष्कर्ष goes with निकालना, not करना. The word itself means a drawing-out."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does निष्कर्ष literally mean?",
+              "options": [
+                "an agreement",
+                "a final page",
+                "a firm decision",
+                "a drawing-out"
+              ],
+              "answer_index": 3,
+              "explanation_en": "निः- out, plus कर्ष drawing — which is why the verb is निकालना."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means the outcome of something rather than the conclusion drawn from it?",
+              "options": [
+                "निष्कर्ष",
+                "परिणाम",
+                "राय",
+                "उत्तर"
+              ],
+              "options_read_as": [
+                "niṣkarṣ",
+                "pariṇaam",
+                "raay",
+                "uttar"
+              ],
+              "answer_index": 1,
+              "explanation_en": "परिणाम is the result, what actually happened. निष्कर्ष is what you conclude from looking at it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "निष्कर्ष",
+              "इससे क्या निष्कर्ष निकलता है?",
+              "जल्दी निष्कर्ष मत निकालो।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "समर्थन and विरोध are a matched pair — both take का on the thing, both go with करना. मुद्दा is raised, not asked. And निष्कर्ष is literally a drawing-out, which is why it goes with निकालना and why English draws a conclusion too.",
+        "key_forms": [
+          "का समर्थन करना",
+          "मुद्दा उठाना",
+          "निष्कर्ष निकालना"
+        ],
+        "next_up_en": "Next: the vocabulary of official writing, starting with three adjectives that never change."
+      }
+    },
+    {
+      "level": 18,
+      "title_en": "Necessary, available, concerned",
+      "title_hi": "आवश्यक · उपलब्ध · संबंधित",
+      "items": [
+        {
+          "id": "M13-L18-I1",
+          "type": "word",
+          "target": "आवश्यक",
+          "read_as": "aavashyak",
+          "gloss_en": "necessary, required",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 6,
+          "tags": [
+            "formal_register",
+            "adjective",
+            "invariable",
+            "sanskrit_origin",
+            "register_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "आवश्यक — necessary, on paper",
+              "explanation_en": "आवश्यक is the formal word for necessary, and ज़रूरी is what people say. Both are entirely correct; a form says आवश्यक and a friend says ज़रूरी. It is invariable, like every Sanskrit-derived adjective of this shape. You have already met its relatives: आवश्यकता, the noun, appeared as the formal partner of ज़रूरत back in level 1, and अनावश्यक, unnecessary, turned up when the अ- prefix was introduced in level 12.",
+              "examples": [
+                {
+                  "hindi": "पहचान पत्र लाना आवश्यक है।",
+                  "read_as": "pahchaan patra laanaa aavashyak hai.",
+                  "english": "Bringing identification is required.",
+                  "note": "An infinitive as the subject, and आवश्यक does not agree with anything."
+                },
+                {
+                  "hindi": "ये जानकारी आवश्यक नहीं है।",
+                  "read_as": "ye jaankaarii aavashyak nahiiṁ hai.",
+                  "english": "This information isn't required.",
+                  "note": "जानकारी is feminine, and आवश्यक still does not change."
+                },
+                {
+                  "hindi": "आवश्यकता पड़ने पर बताएँ।",
+                  "read_as": "aavashyaktaa paṛne par bataaeṁ.",
+                  "english": "Let us know if it becomes necessary.",
+                  "note": "The oblique infinitive plus पर again, and the noun from level 1."
+                }
+              ],
+              "common_error": {
+                "wrong": "ये जानकारी आवश्यकी है",
+                "right": "ये जानकारी आवश्यक है",
+                "why_en": "There is no feminine form. आवश्यक is invariable."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "How would a friend say आवश्यक?",
+              "options": [
+                "उचित",
+                "अनिवार्य",
+                "ज़रूरी",
+                "मुमकिन"
+              ],
+              "answer_index": 2,
+              "explanation_en": "ज़रूरी is the everyday word. अनिवार्य is even more formal and means compulsory."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means compulsory rather than merely necessary?",
+              "options": [
+                "अनिवार्य",
+                "अनावश्यक",
+                "उपयोगी",
+                "आवश्यक"
+              ],
+              "options_read_as": [
+                "anivaarya",
+                "anaavashyak",
+                "upyogii",
+                "aavashyak"
+              ],
+              "answer_index": 0,
+              "explanation_en": "अनिवार्य is compulsory — there is no choice. अनावश्यक is unnecessary and उपयोगी is useful."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "आवश्यक",
+              "पहचान पत्र लाना आवश्यक है।",
+              "आवश्यकता पड़ने पर बताएँ।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L18-I2",
+          "type": "word",
+          "target": "उपलब्ध",
+          "read_as": "uplabdh",
+          "gloss_en": "available",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 6,
+          "tags": [
+            "formal_register",
+            "adjective",
+            "invariable",
+            "no_casual_twin",
+            "callback_l8"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "उपलब्ध — a formal word with no everyday twin",
+              "explanation_en": "उपलब्ध means available, and this is the first formal word in the module that has no casual counterpart. Speech does not swap it for another adjective; it rewrites the sentence. ये उपलब्ध है becomes ये मिल जाएगा or simply ये है. That is worth knowing, because a learner who goes looking for the everyday version of every formal word will sometimes be looking for something that does not exist. You have seen उपलब्ध twice already, on the toilet sign in level 8 and the ticket window in level 16.",
+              "examples": [
+                {
+                  "hindi": "ये सुविधा भूतल पर उपलब्ध है।",
+                  "read_as": "ye suvidhaa bhuutal par uplabdh hai.",
+                  "english": "This facility is available on the ground floor.",
+                  "note": "The exact line from the level 8 sign."
+                },
+                {
+                  "hindi": "टिकट ऑनलाइन उपलब्ध हैं।",
+                  "read_as": "ṭikaṭ ônlaain uplabdh haiṁ.",
+                  "english": "Tickets are available online.",
+                  "note": "Plural verb, and उपलब्ध still unchanged."
+                },
+                {
+                  "hindi": "अभी कोई कमरा उपलब्ध नहीं है।",
+                  "read_as": "abhii koii kamraa uplabdh nahiiṁ hai.",
+                  "english": "No room is available at the moment.",
+                  "note": "A hotel would say this on a board; the man at the desk would say कमरा नहीं है."
+                }
+              ],
+              "common_error": {
+                "wrong": "क्या ये उपलब्ध है? — said to a shopkeeper",
+                "right": "क्या ये मिलेगा?",
+                "why_en": "Grammatically fine, but nobody talks like that in a shop. Rewrite rather than translate."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "How would speech express ये उपलब्ध है?",
+              "options": [
+                "ये आवश्यक है",
+                "ये मिल जाएगा",
+                "ये संबंधित है",
+                "ये प्रस्तुत है"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Speech changes the sentence rather than the adjective."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word from the same root means an achievement?",
+              "options": [
+                "उपस्थिति",
+                "उपयोग",
+                "उपलब्ध",
+                "उपलब्धि"
+              ],
+              "options_read_as": [
+                "upasthiti",
+                "upyog",
+                "uplabdh",
+                "uplabdhi"
+              ],
+              "answer_index": 3,
+              "explanation_en": "उपलब्धि is an achievement — something attained. उपस्थिति is attendance and उपयोग is use."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उपलब्ध",
+              "टिकट ऑनलाइन उपलब्ध हैं।",
+              "अभी कोई कमरा उपलब्ध नहीं है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L18-I3",
+          "type": "word",
+          "target": "संबंधित",
+          "read_as": "saṁbaṁdhit",
+          "gloss_en": "related, concerned",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "formal_register",
+            "adjective",
+            "invariable",
+            "bureaucratic",
+            "root_family"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "संबंधित विभाग — the department concerned, and nobody in particular",
+              "explanation_en": "संबंध is a connection or a relationship, masculine; संबंधित is the adjective built from it, and it is invariable. संबंधित विभाग से संपर्क करें — contact the department concerned — is one of the most characteristic sentences in Indian officialdom, and part of its function is to avoid naming anybody. Recognising that phrase is worth more than the word alone, because it tells you the notice is declining to be more specific.",
+              "examples": [
+                {
+                  "hindi": "कृपया संबंधित विभाग से संपर्क करें।",
+                  "read_as": "kripayaa saṁbaṁdhit vibhaag se saṁpark kareṁ.",
+                  "english": "Please contact the department concerned.",
+                  "note": "संपर्क करना takes से on the person or body contacted."
+                },
+                {
+                  "hindi": "ये मामला उससे संबंधित नहीं है।",
+                  "read_as": "ye maamlaa usse saṁbaṁdhit nahiiṁ hai.",
+                  "english": "This matter isn't related to that.",
+                  "note": "से on the thing it relates to."
+                },
+                {
+                  "hindi": "हमारे आपसी संबंध अच्छे हैं।",
+                  "read_as": "hamaare aapsii saṁbaṁdh acchhe haiṁ.",
+                  "english": "Our mutual relations are good.",
+                  "note": "संबंध is masculine, so हमारे and अच्छे."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेरी उससे कोई संबंध नहीं",
+                "right": "मेरा उससे कोई संबंध नहीं",
+                "why_en": "संबंध is masculine."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "संबंधित विभाग से संपर्क करें means what?",
+              "options": [
+                "Contact the department concerned",
+                "The department will contact you",
+                "No department deals with this",
+                "Contact us directly"
+              ],
+              "answer_index": 0,
+              "explanation_en": "And notably, it does not say which department."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means getting in touch?",
+              "options": [
+                "संगठन",
+                "संबंध",
+                "संपर्क",
+                "संबंधित"
+              ],
+              "options_read_as": [
+                "saṁgaṭhan",
+                "saṁbaṁdh",
+                "saṁpark",
+                "saṁbaṁdhit"
+              ],
+              "answer_index": 2,
+              "explanation_en": "संपर्क is contact. संबंध is a standing relationship, and संगठन is an organisation."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "संबंधित",
+              "कृपया संबंधित विभाग से संपर्क करें।",
+              "हमारे आपसी संबंध अच्छे हैं।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "आवश्यक is ज़रूरी in formal dress. उपलब्ध has no everyday twin at all — speech rewrites the sentence instead of swapping the word. And संबंधित विभाग is officialdom's way of not naming anybody.",
+        "key_forms": [
+          "आवश्यक है",
+          "उपलब्ध है",
+          "संबंधित विभाग"
+        ],
+        "next_up_en": "Next: the verbs an office uses, and the opening of a formal request."
+      }
+    },
+    {
+      "level": 19,
+      "title_en": "Presenting, informing, requesting",
+      "title_hi": "प्रस्तुत · सूचित · निवेदन",
+      "items": [
+        {
+          "id": "M13-L19-I1",
+          "type": "word",
+          "target": "प्रस्तुत",
+          "read_as": "prastut",
+          "gloss_en": "presented, submitted",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "formal_register",
+            "adjective",
+            "invariable",
+            "karnaa_compound",
+            "register_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "प्रस्तुत करना — to put something before somebody",
+              "explanation_en": "प्रस्तुत करना is to present or submit — a report, a case, a document. It is formal only, and the everyday equivalent is पेश करना, which is itself Urdu-side. Notice what that means: the pair here is not formal against casual so much as Sanskrit-side against Urdu-side, and the Urdu-side one happens to be the one people say. Register in Hindi is rarely a single ladder, which is what Module 15 will spend twelve levels on.",
+              "examples": [
+                {
+                  "hindi": "उन्होंने अपना पक्ष प्रस्तुत किया।",
+                  "read_as": "unhoṁne apnaa paksh prastut kiyaa.",
+                  "english": "They presented their case.",
+                  "note": "पक्ष from level 13, masculine, so किया."
+                },
+                {
+                  "hindi": "कृपया दस्तावेज़ प्रस्तुत करें।",
+                  "read_as": "kripayaa dastaavez prastut kareṁ.",
+                  "english": "Please submit the documents.",
+                  "note": "दस्तावेज़ — document, masculine, and Urdu-side inside a Sanskrit-side sentence."
+                },
+                {
+                  "hindi": "वकील ने सबूत प्रस्तुत किए।",
+                  "read_as": "vakiil ne sabuut prastut kie.",
+                  "english": "The lawyer presented the evidence.",
+                  "note": "सबूत is masculine plural here, so किए."
+                }
+              ],
+              "common_error": {
+                "wrong": "उन्होंने रिपोर्ट प्रस्तुत किया",
+                "right": "उन्होंने रिपोर्ट प्रस्तुत की",
+                "why_en": "रिपोर्ट is feminine, so करना agrees with it."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What is the everyday equivalent of प्रस्तुत करना?",
+              "options": [
+                "तैयार करना",
+                "भेज देना",
+                "बता देना",
+                "पेश करना"
+              ],
+              "answer_index": 3,
+              "explanation_en": "पेश करना — and it is Urdu-side, not casual Hindi as such."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a proposal?",
+              "options": [
+                "प्रस्तुत",
+                "प्रस्ताव",
+                "प्रस्थान",
+                "प्रयास"
+              ],
+              "options_read_as": [
+                "prastut",
+                "prastaav",
+                "prasthaan",
+                "prayaas"
+              ],
+              "answer_index": 1,
+              "explanation_en": "प्रस्ताव is a proposal. प्रस्थान is departure, which you met at the ticket window in level 16."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "प्रस्तुत",
+              "उन्होंने अपना पक्ष प्रस्तुत किया।",
+              "कृपया दस्तावेज़ प्रस्तुत करें।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L19-I2",
+          "type": "word",
+          "target": "सूचित",
+          "read_as": "suuchit",
+          "gloss_en": "informed, notified",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 7,
+          "tags": [
+            "formal_register",
+            "adjective",
+            "invariable",
+            "callback_l14",
+            "root_family"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सूचित — built from the सूचना you met on a notice",
+              "explanation_en": "सूचना was the word at the top of the lift notice in level 14; सूचित is the adjective built from it, and सूचित करना is to inform. The whole family is worth having at once: सूचना information or a notice, सूचित informed, सूची a list, सूचक an indicator. Formal writing prefers सूचित करना where speech simply says बताना — and the difference is not politeness but setting, because बताना is perfectly polite.",
+              "examples": [
+                {
+                  "hindi": "कृपया हमें सूचित करें।",
+                  "read_as": "kripayaa hameṁ suuchit kareṁ.",
+                  "english": "Please inform us.",
+                  "note": "The person informed takes को, fused here into हमें."
+                },
+                {
+                  "hindi": "हमने सभी को सूचित कर दिया है।",
+                  "read_as": "hamne sabhii ko suuchit kar diyaa hai.",
+                  "english": "We have informed everybody.",
+                  "note": "ने, and the देना vector for a completed outward action."
+                },
+                {
+                  "hindi": "उन्होंने समय पर सूचित नहीं किया।",
+                  "read_as": "unhoṁne samay par suuchit nahiiṁ kiyaa.",
+                  "english": "They did not inform us in time.",
+                  "note": "समय पर, on time — पर for a point in time."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे सूचित हुआ",
+                "right": "मुझे सूचना मिली",
+                "why_en": "You inform somebody with सूचित करना. To have been informed, the natural phrase is सूचना मिलना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which is the everyday verb for सूचित करना?",
+              "options": [
+                "समझाना",
+                "दिखाना",
+                "बताना",
+                "पूछना"
+              ],
+              "answer_index": 2,
+              "explanation_en": "बताना. It is not less polite — only less official."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word from the same family means a list?",
+              "options": [
+                "सूची",
+                "सूचना",
+                "सूचक",
+                "सूचित"
+              ],
+              "options_read_as": [
+                "suuchii",
+                "suuchnaa",
+                "suuchak",
+                "suuchit"
+              ],
+              "answer_index": 0,
+              "explanation_en": "सूची is a list, feminine. सूचक is an indicator, and सूचना is information or a notice."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सूचित",
+              "कृपया हमें सूचित करें।",
+              "हमने सभी को सूचित कर दिया है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L19-I3",
+          "type": "word",
+          "target": "निवेदन",
+          "read_as": "nivedan",
+          "gloss_en": "request, submission",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 8,
+          "tags": [
+            "formal_register",
+            "masculine",
+            "gender_flag",
+            "letter_opening",
+            "deference"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "निवेदन है कि — how a formal request begins",
+              "explanation_en": "निवेदन is a request made upwards — to an authority, an office, somebody in a position to grant it. The standard shape is निवेदन है कि, \"it is requested that\", and it opens a great many Indian letters. It is masculine and consonant-final, so flag it. अनुरोध, which you will meet as a reading target in level 24, means the same thing but is level rather than deferential; a colleague sends an अनुरोध and a citizen sends a निवेदन.",
+              "examples": [
+                {
+                  "hindi": "आपसे निवेदन है कि जल्दी उत्तर दें।",
+                  "read_as": "aapse nivedan hai ki jaldii uttar deṁ.",
+                  "english": "You are requested to reply promptly.",
+                  "note": "आपसे — the request goes from you to them, so से."
+                },
+                {
+                  "hindi": "मेरा एक छोटा सा निवेदन है।",
+                  "read_as": "meraa ek chhoṭaa saa nivedan hai.",
+                  "english": "I have a small request.",
+                  "note": "मेरा masculine, and सा softening as it did in Module 12."
+                },
+                {
+                  "hindi": "उनका निवेदन स्वीकार कर लिया गया।",
+                  "read_as": "unkaa nivedan sviikaar kar liyaa gayaa.",
+                  "english": "Their request was accepted.",
+                  "note": "स्वीकार करना, to accept — another करना compound."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेरी एक निवेदन है",
+                "right": "मेरा एक निवेदन है",
+                "why_en": "निवेदन is masculine despite the consonant ending."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "निवेदन है कि introduces what?",
+              "options": [
+                "a formal complaint",
+                "a formal request",
+                "an announcement",
+                "an apology"
+              ],
+              "answer_index": 1,
+              "explanation_en": "It is the standard opening of a letter asking for something."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word is a request between equals rather than one made upwards?",
+              "options": [
+                "आदेश",
+                "सुझाव",
+                "निवेदन",
+                "अनुरोध"
+              ],
+              "options_read_as": [
+                "aadesh",
+                "sujhaav",
+                "nivedan",
+                "anurodh"
+              ],
+              "answer_index": 3,
+              "explanation_en": "अनुरोध is level in tone. आदेश is an order, going the other way, and सुझाव is a suggestion."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "निवेदन",
+              "आपसे निवेदन है कि जल्दी उत्तर दें।",
+              "मेरा एक छोटा सा निवेदन है।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "प्रस्तुत करना and पेश करना are Sanskrit-side and Urdu-side rather than formal and casual — register in Hindi is not one ladder. सूचित joins सूचना, सूची and सूचक in one family. And निवेदन है कि is how a request addressed upwards begins.",
+        "key_forms": [
+          "प्रस्तुत करना",
+          "सूचित करें",
+          "निवेदन है कि"
+        ],
+        "next_up_en": "Next: the three lines at the top of every official Hindi letter."
+      }
+    },
+    {
+      "level": 20,
+      "title_en": "The header of a letter",
+      "title_hi": "संदर्भ · विषय · दिनांक",
+      "items": [
+        {
+          "id": "M13-L20-I1",
+          "type": "word",
+          "target": "संदर्भ",
+          "read_as": "saṁdarbh",
+          "gloss_en": "reference; context",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "formal_register",
+            "masculine",
+            "gender_flag",
+            "letter_header",
+            "polysemy"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "संदर्भ — the first line of an official letter",
+              "explanation_en": "An Indian official letter opens with three labelled lines, and this is the first: संदर्भ, reference, pointing at whatever earlier letter or order this one answers. संदर्भ also means context in general — इस संदर्भ में, in this connection — and both senses come from the same idea of something being placed alongside. It is masculine and consonant-final, so flag it. Learn the three header words together and you can orient yourself in any official Hindi document in about five seconds.",
+              "examples": [
+                {
+                  "hindi": "संदर्भ: पत्र दिनांक 12 मार्च",
+                  "read_as": "saṁdarbh: patra dinaaṁk 12 maarch",
+                  "english": "Ref: letter dated 12 March",
+                  "note": "The header line as it actually appears."
+                },
+                {
+                  "hindi": "इस संदर्भ में कुछ कहना है।",
+                  "read_as": "is saṁdarbh meṁ kuchh kahnaa hai.",
+                  "english": "There is something to say in this connection.",
+                  "note": "इस, oblique before में."
+                },
+                {
+                  "hindi": "उसने बिना संदर्भ के बात की।",
+                  "read_as": "usne binaa saṁdarbh ke baat kii.",
+                  "english": "He spoke without any context.",
+                  "note": "बिना ... के, the wrap-around \"without\" from level 15."
+                }
+              ],
+              "common_error": {
+                "wrong": "इस संदर्भ से",
+                "right": "इस संदर्भ में",
+                "why_en": "संदर्भ takes में in this phrase, like राय."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "संदर्भ: at the top of a letter means what?",
+              "options": [
+                "Ref:",
+                "Date:",
+                "From:",
+                "Subject:"
+              ],
+              "answer_index": 0,
+              "explanation_en": "It points at the earlier document this letter answers."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a hint or signal?",
+              "options": [
+                "संपर्क",
+                "संदर्भ",
+                "संकेत",
+                "संदेश"
+              ],
+              "options_read_as": [
+                "saṁpark",
+                "saṁdarbh",
+                "saṁket",
+                "saṁdesh"
+              ],
+              "answer_index": 2,
+              "explanation_en": "संकेत is a signal or hint. संदेश is a message and संपर्क is contact."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "संदर्भ",
+              "इस संदर्भ में कुछ कहना है।",
+              "उसने बिना संदर्भ के बात की।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L20-I2",
+          "type": "word",
+          "target": "विषय",
+          "read_as": "viṣay",
+          "gloss_en": "subject; topic",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "formal_register",
+            "masculine",
+            "gender_flag",
+            "letter_header",
+            "polysemy"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "विषय — the subject line, and the subject at school",
+              "explanation_en": "विषय is the second header line, the subject of the letter, and it is the same word used for a subject you study and a topic under discussion. Where English keeps subject-of-a-letter and subject-at-school apart in feel, Hindi does not bother. It is masculine and consonant-final, so flag it. In email specifically you will also see the English सब्जेक्ट, which is entirely normal and which Module 15 will place properly.",
+              "examples": [
+                {
+                  "hindi": "विषय: छुट्टी के लिए आवेदन",
+                  "read_as": "viṣay: chhuṭṭii ke lie aavedan",
+                  "english": "Subject: application for leave",
+                  "note": "आवेदन — an application, another formal noun."
+                },
+                {
+                  "hindi": "मेरा पसंदीदा विषय गणित है।",
+                  "read_as": "meraa pasaṁdiidaa viṣay gaṇit hai.",
+                  "english": "My favourite subject is maths.",
+                  "note": "पसंदीदा, favourite — invariable despite the -आ ending, because it is a Persian form."
+                },
+                {
+                  "hindi": "ये विषय बहुत बड़ा है।",
+                  "read_as": "ye viṣay bahut baṛaa hai.",
+                  "english": "This is a very big topic.",
+                  "note": "बड़ा agreeing with masculine विषय."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेरी पसंदीदा विषय",
+                "right": "मेरा पसंदीदा विषय",
+                "why_en": "विषय is masculine."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "विषय does NOT mean which of these?",
+              "options": [
+                "the subject of a letter",
+                "a subject studied at school",
+                "a topic of discussion",
+                "a citizen of a country"
+              ],
+              "answer_index": 3,
+              "explanation_en": "English \"subject\" also means a citizen. Hindi's विषय never does."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means a heading or title?",
+              "options": [
+                "विषय",
+                "शीर्षक",
+                "संदर्भ",
+                "अध्याय"
+              ],
+              "options_read_as": [
+                "viṣay",
+                "shiirṣak",
+                "saṁdarbh",
+                "adhyaay"
+              ],
+              "answer_index": 1,
+              "explanation_en": "शीर्षक is a title or headline. अध्याय is a chapter."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "विषय",
+              "विषय: छुट्टी के लिए आवेदन",
+              "मेरा पसंदीदा विषय गणित है।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L20-I3",
+          "type": "word",
+          "target": "दिनांक",
+          "read_as": "dinaaṁk",
+          "gloss_en": "date",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "formal_register",
+            "masculine",
+            "gender_flag",
+            "letter_header",
+            "gender_mismatch_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "दिनांक is masculine and तारीख़ is feminine",
+              "explanation_en": "दिनांक is दिन (day) plus अंक (number), and it is the third header line. It is masculine and consonant-final, so flag it. Its everyday partner is तारीख़ — and here is the trap: the two words mean the same thing and have opposite genders. दिनांक is masculine, तारीख़ is feminine, so आज का दिनांक but आज की तारीख़. Register pairs usually leave the grammar alone; this one does not, and it is the kind of thing that only catches you once you have started using the formal word.",
+              "examples": [
+                {
+                  "hindi": "दिनांक: 15 अगस्त 2025",
+                  "read_as": "dinaaṁk: 15 agast 2025",
+                  "english": "Date: 15 August 2025",
+                  "note": "The third header line."
+                },
+                {
+                  "hindi": "आज की तारीख़ क्या है?",
+                  "read_as": "aaj kii taariiḳh kyaa hai?",
+                  "english": "What's today's date?",
+                  "note": "की, because तारीख़ is feminine."
+                },
+                {
+                  "hindi": "ये पत्र दिनांक 3 जून का है।",
+                  "read_as": "ye patra dinaaṁk 3 juun kaa hai.",
+                  "english": "This letter is dated 3 June.",
+                  "note": "का, because दिनांक is masculine."
+                }
+              ],
+              "common_error": {
+                "wrong": "आज का तारीख़",
+                "right": "आज की तारीख़",
+                "why_en": "तारीख़ is feminine. दिनांक, meaning the same thing, is masculine."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "Which is feminine?",
+              "options": [
+                "neither",
+                "दिनांक",
+                "तारीख़",
+                "both"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Same meaning, opposite genders — which makes this pair unusual."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word is used for a date in a traditional or religious calendar?",
+              "options": [
+                "तिथि",
+                "अवधि",
+                "समय",
+                "दिनांक"
+              ],
+              "options_read_as": [
+                "tithi",
+                "avadhi",
+                "samay",
+                "dinaaṁk"
+              ],
+              "answer_index": 0,
+              "explanation_en": "तिथि is the Sanskrit word, used for calendar dates in religious and traditional contexts. अवधि is a period, from level 16."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दिनांक",
+              "दिनांक: 15 अगस्त 2025",
+              "आज की तारीख़ क्या है?"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "संदर्भ, विषय and दिनांक are the three labelled lines at the top of every official Hindi letter, and learning them together orients you in any document in seconds. And दिनांक against तारीख़ is a register pair where the gender changes with the register, which is rare enough to be a genuine trap.",
+        "key_forms": [
+          "संदर्भ:",
+          "विषय:",
+          "दिनांक:"
+        ],
+        "next_up_en": "Next: how such a letter ends — and the module's first \"with\" prefix, after four ways of saying \"without\"."
+      }
+    },
+    {
+      "level": 21,
+      "title_en": "Closing a letter",
+      "title_hi": "हस्ताक्षर · प्रयास · सादर",
+      "items": [
+        {
+          "id": "M13-L21-I1",
+          "type": "word",
+          "target": "हस्ताक्षर",
+          "read_as": "hastaakṣar",
+          "gloss_en": "signature",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 7,
+          "tags": [
+            "formal_register",
+            "masculine",
+            "gender_flag",
+            "compound",
+            "register_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "हस्ताक्षर — hand-letters",
+              "explanation_en": "हस्त is hand and अक्षर is a letter of the alphabet, so a signature is hand-lettering. It is masculine and consonant-final, so flag it, and it goes with करना: यहाँ हस्ताक्षर करें. The everyday word is दस्तख़त, Urdu-side and also masculine, and it is what a bank clerk will actually say to you. Both are in daily use; the form says one and the person says the other.",
+              "examples": [
+                {
+                  "hindi": "कृपया यहाँ हस्ताक्षर करें।",
+                  "read_as": "kripayaa yahaaṁ hastaakṣar kareṁ.",
+                  "english": "Please sign here.",
+                  "note": "On a form. A clerk would say यहाँ दस्तख़त कर दीजिए."
+                },
+                {
+                  "hindi": "बिना हस्ताक्षर के फ़ॉर्म अधूरा है।",
+                  "read_as": "binaa hastaakṣar ke fôrm adhuuraa hai.",
+                  "english": "The form is incomplete without a signature.",
+                  "note": "बिना ... के again, and अधूरा agreeing with masculine फ़ॉर्म."
+                },
+                {
+                  "hindi": "उसने दस्तख़त कर दिए।",
+                  "read_as": "usne dastaḳhat kar die.",
+                  "english": "He signed.",
+                  "note": "दस्तख़त is treated as plural here, which is normal."
+                }
+              ],
+              "common_error": {
+                "wrong": "यहाँ हस्ताक्षर करो — said to an official",
+                "right": "यहाँ हस्ताक्षर कीजिए",
+                "why_en": "The word is formal, so the verb form around it should be too. Mixing a formal noun with a तुम imperative sounds wrong in both directions."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "हस्ताक्षर is built from which two parts?",
+              "options": [
+                "seal and ink",
+                "hand and letter",
+                "hand and paper",
+                "name and mark"
+              ],
+              "answer_index": 1,
+              "explanation_en": "हस्त, hand, plus अक्षर, a letter of the alphabet."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means handwriting?",
+              "options": [
+                "दस्तख़त",
+                "मुहर",
+                "हस्ताक्षर",
+                "हस्तलेख"
+              ],
+              "options_read_as": [
+                "dastaḳhat",
+                "muhar",
+                "hastaakṣar",
+                "hastalekh"
+              ],
+              "answer_index": 3,
+              "explanation_en": "हस्तलेख is handwriting. दस्तख़त is a signature like हस्ताक्षर, and मुहर is a seal or stamp."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "हस्ताक्षर",
+              "कृपया यहाँ हस्ताक्षर करें।",
+              "उसने दस्तख़त कर दिए।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L21-I2",
+          "type": "word",
+          "target": "प्रयास",
+          "read_as": "prayaas",
+          "gloss_en": "effort, attempt",
+          "gender": "m",
+          "gender_flag": true,
+          "difficulty": 6,
+          "tags": [
+            "formal_register",
+            "masculine",
+            "gender_flag",
+            "callback_l1",
+            "karnaa_compound"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "प्रयास — the formal partner of कोशिश",
+              "explanation_en": "You met प्रयास back in level 1, as the answer to the question about what an official notice would use instead of कोशिश. Here it is properly: an effort or attempt, masculine, consonant-final, so flag it. It goes with करना like कोशिश does, and the difference between them is purely one of setting. A report says सभी प्रयास किए गए; a person says मैंने बहुत कोशिश की.",
+              "examples": [
+                {
+                  "hindi": "हमने पूरा प्रयास किया।",
+                  "read_as": "hamne puuraa prayaas kiyaa.",
+                  "english": "We made every effort.",
+                  "note": "पूरा and किया both masculine, agreeing with प्रयास."
+                },
+                {
+                  "hindi": "सभी प्रयास विफल रहे।",
+                  "read_as": "sabhii prayaas vifal rahe.",
+                  "english": "All efforts failed.",
+                  "note": "Plural, so रहे. विफल — unsuccessful, invariable."
+                },
+                {
+                  "hindi": "प्रयास जारी हैं।",
+                  "read_as": "prayaas jaarii haiṁ.",
+                  "english": "Efforts are continuing.",
+                  "note": "जारी from the wet-floor sign in level 6."
+                }
+              ],
+              "common_error": {
+                "wrong": "हमने पूरी प्रयास की",
+                "right": "हमने पूरा प्रयास किया",
+                "why_en": "प्रयास is masculine, where कोशिश is feminine. Swapping the register also swaps the agreement."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What is the everyday equivalent of प्रयास?",
+              "options": [
+                "कोशिश",
+                "काम",
+                "इरादा",
+                "मेहनत"
+              ],
+              "answer_index": 0,
+              "explanation_en": "कोशिश, from level 1 — and note it is feminine while प्रयास is masculine."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means sustained hard work rather than an attempt?",
+              "options": [
+                "इरादा",
+                "प्रयास",
+                "मेहनत",
+                "कोशिश"
+              ],
+              "options_read_as": [
+                "iraadaa",
+                "prayaas",
+                "mehnat",
+                "koshish"
+              ],
+              "answer_index": 2,
+              "explanation_en": "मेहनत is labour put in. प्रयास and कोशिश are both attempts, and इरादा is an intention."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "प्रयास",
+              "हमने पूरा प्रयास किया।",
+              "प्रयास जारी हैं।"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M13-L21-I3",
+          "type": "word",
+          "target": "सादर",
+          "read_as": "saadar",
+          "gloss_en": "respectfully; yours sincerely",
+          "gender": null,
+          "gender_flag": false,
+          "difficulty": 8,
+          "tags": [
+            "formal_register",
+            "adverb",
+            "prefix_sa",
+            "letter_closing",
+            "positive_prefix"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "स- means \"with\" — the first positive prefix in the module",
+              "explanation_en": "सादर is स- (with) plus आदर (respect), so it means respectfully — and it is the word an Indian letter signs off with, where English says Yours sincerely. This is the module's first prefix that adds something rather than taking it away. You now have four ways of saying without — निः-, ला-, अ- and बिना — and exactly one way of saying with. The स- family is small but worth recognising: सहर्ष with joy, सप्रेम with love, सफल with fruit and so successful, सक्षम capable.",
+              "examples": [
+                {
+                  "hindi": "सादर,\nराहुल शर्मा",
+                  "read_as": "saadar,\nraahul sharmaa",
+                  "english": "Yours sincerely,\nRahul Sharma",
+                  "note": "The closing line of a formal letter, on its own."
+                },
+                {
+                  "hindi": "सादर नमस्कार।",
+                  "read_as": "saadar namaskaar.",
+                  "english": "Respectful greetings.",
+                  "note": "A formal spoken or written greeting, common at the start of a speech."
+                },
+                {
+                  "hindi": "उन्होंने सहर्ष निमंत्रण स्वीकार किया।",
+                  "read_as": "unhoṁne saharṣ nimaṁtraṇ sviikaar kiyaa.",
+                  "english": "They gladly accepted the invitation.",
+                  "note": "सहर्ष — with joy. The same prefix, and you will meet it again in a reading item at level 31."
+                }
+              ],
+              "common_error": {
+                "wrong": "सादर, / तेरा दोस्त राहुल",
+                "right": "सादर, / भवदीय राहुल शर्मा",
+                "why_en": "सादर belongs to a formal letter, so the rest of the sign-off has to match. To a friend you would not use सादर at all."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does the prefix स- mean?",
+              "options": [
+                "again",
+                "against",
+                "without",
+                "with"
+              ],
+              "answer_index": 3,
+              "explanation_en": "सादर with respect, सहर्ष with joy, सप्रेम with love."
+            },
+            "game": {
+              "format": "near_synonym_choice",
+              "question_en": "Which word means \"with joy\"?",
+              "options": [
+                "सादर",
+                "सहर्ष",
+                "सफल",
+                "सक्षम"
+              ],
+              "options_read_as": [
+                "saadar",
+                "saharṣ",
+                "safal",
+                "sakṣam"
+              ],
+              "answer_index": 1,
+              "explanation_en": "हर्ष is joy, so सहर्ष is gladly. सफल is successful and सक्षम is capable."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सादर",
+              "सादर नमस्कार।",
+              "उन्होंने सहर्ष निमंत्रण स्वीकार किया।"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "हस्ताक्षर is hand-lettering, and दस्तख़त is what the clerk says. प्रयास is कोशिश in formal dress — and masculine, where कोशिश is feminine. And सादर introduces स-, the module's first prefix that adds rather than subtracts, after four different ways of saying without.",
+        "key_forms": [
+          "हस्ताक्षर करें",
+          "प्रयास किया",
+          "सादर"
+        ],
+        "next_up_en": "Next: the third reading block — the last two signs, and the first messages."
+      }
+    }
+  ]
+}

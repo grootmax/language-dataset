@@ -1,0 +1,350 @@
+{
+  "module": 9,
+  "module_name_en": "The ne Construction",
+  "module_name_hi": "ने वाला वाक्य",
+  "phase": 4,
+  "type": "grammar",
+  "partial": true,
+  "provenance_en": "This spine was DERIVED from the item files on disk, not authored ahead of them. Modules normally get a spine first and items second; here the items existed and the spine did not, so every row was read back out of an item that already exists. That is why each row carries derived_from_item: true. It lets the validator check the eighteen items it was previously skipping, and it gives the missing levels a shape to merge into.",
+  "levels_present": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "levels_missing": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "total_items_present": 18,
+  "expected_total_items": 48,
+  "merge_instructions_en": [
+    "When module09_levels01-05.json and module09_levels06-10.json arrive, derive rows for levels 1-10 the same way and prepend them, then set partial to false and remove levels_missing.",
+    "Check expected_total_items against the merged count. The figure of 48 comes from this session's working notes rather than from a file on disk, so treat it as unverified until the two files are present.",
+    "Once the spine is whole, Module 9's checkpoints 1 and 2 and its mock can be written. Checkpoint 3 already exists and covers levels 11-15."
+  ],
+  "spine": [
+    {
+      "id": "M09-L11-I1",
+      "level": 11,
+      "type": "grammar",
+      "target": "वह बोला",
+      "gender": null,
+      "difficulty": 7,
+      "tags": [
+        "ergative",
+        "ne_exception",
+        "bolnaa",
+        "perfective",
+        "subject_agreement"
+      ],
+      "level_title_en": "The three verbs that refuse ने",
+      "derived_from_item": true
+    },
+    {
+      "id": "M09-L11-I2",
+      "level": 11,
+      "type": "grammar",
+      "target": "मैं पानी लाया",
+      "gender": null,
+      "difficulty": 8,
+      "tags": [
+        "ergative",
+        "ne_exception",
+        "laanaa",
+        "transitive",
+        "perfective",
+        "subject_agreement"
+      ],
+      "level_title_en": "The three verbs that refuse ने",
+      "derived_from_item": true
+    },
+    {
+      "id": "M09-L11-I3",
+      "level": 11,
+      "type": "grammar",
+      "target": "वह नाम भूला",
+      "gender": null,
+      "difficulty": 8,
+      "tags": [
+        "ergative",
+        "ne_exception",
+        "bhuulnaa",
+        "transitive",
+        "perfective",
+        "subject_agreement"
+      ],
+      "level_title_en": "The three verbs that refuse ने",
+      "derived_from_item": true
+    },
+    {
+      "id": "M09-L12-I1",
+      "level": 12,
+      "type": "grammar",
+      "target": "वह बोला / उसने कहा",
+      "gender": null,
+      "difficulty": 8,
+      "tags": [
+        "ergative",
+        "ne_exception",
+        "contrast_pair",
+        "bolnaa",
+        "kahnaa",
+        "perfective"
+      ],
+      "level_title_en": "Each exception against its neighbour",
+      "derived_from_item": true
+    },
+    {
+      "id": "M09-L12-I2",
+      "level": 12,
+      "type": "grammar",
+      "target": "मैं लाया / मैंने दिया",
+      "gender": null,
+      "difficulty": 8,
+      "tags": [
+        "ergative",
+        "ne_exception",
+        "contrast_pair",
+        "laanaa",
+        "denaa",
+        "object_agreement"
+      ],
+      "level_title_en": "Each exception against its neighbour",
+      "derived_from_item": true
+    },
+    {
+      "id": "M09-L12-I3",
+      "level": 12,
+      "type": "grammar",
+      "target": "वह भूला / उसने याद किया",
+      "gender": null,
+      "difficulty": 7,
+      "tags": [
+        "ergative",
+        "ne_exception",
+        "contrast_pair",
+        "bhuulnaa",
+        "karnaa_compound",
+        "perfective"
+      ],
+      "level_title_en": "Each exception against its neighbour",
+      "derived_from_item": true
+    },
+    {
+      "id": "M09-L13-I1",
+      "level": 13,
+      "type": "grammar",
+      "target": "मैंने उसको देखा",
+      "gender": null,
+      "difficulty": 8,
+      "tags": [
+        "ergative",
+        "ko_marked_object",
+        "neutral_agreement",
+        "perfective",
+        "dekhnaa"
+      ],
+      "level_title_en": "को on the object switches agreement off",
+      "derived_from_item": true
+    },
+    {
+      "id": "M09-L13-I2",
+      "level": 13,
+      "type": "grammar",
+      "target": "मैंने लड़की को बुलाया",
+      "gender": null,
+      "difficulty": 9,
+      "tags": [
+        "ergative",
+        "ko_marked_object",
+        "neutral_agreement",
+        "feminine_object",
+        "bulaanaa"
+      ],
+      "level_title_en": "को on the object switches agreement off",
+      "derived_from_item": true
+    },
+    {
+      "id": "M09-L13-I3",
+      "level": 13,
+      "type": "grammar",
+      "target": "उसने बच्चों को पढ़ाया",
+      "gender": null,
+      "difficulty": 9,
+      "tags": [
+        "ergative",
+        "ko_marked_object",
+        "neutral_agreement",
+        "plural_object",
+        "oblique_plural"
+      ],
+      "level_title_en": "को on the object switches agreement off",
+      "derived_from_item": true
+    },
+    {
+      "id": "M09-L14-I1",
+      "level": 14,
+      "type": "grammar",
+      "target": "राम ने सीता को देखा",
+      "gender": null,
+      "difficulty": 8,
+      "tags": [
+        "ergative",
+        "ko_marked_object",
+        "noun_subject",
+        "animate_object",
+        "neutral_agreement"
+      ],
+      "level_title_en": "को with people, and the proof",
+      "derived_from_item": true
+    },
+    {
+      "id": "M09-L14-I2",
+      "level": 14,
+      "type": "grammar",
+      "target": "उसने डॉक्टर को बुलाया",
+      "gender": null,
+      "difficulty": 8,
+      "tags": [
+        "ergative",
+        "ko_marked_object",
+        "animate_object",
+        "neutral_agreement",
+        "bulaanaa"
+      ],
+      "level_title_en": "को with people, and the proof",
+      "derived_from_item": true
+    },
+    {
+      "id": "M09-L14-I3",
+      "level": 14,
+      "type": "grammar",
+      "target": "मैंने माँ को समझाया",
+      "gender": null,
+      "difficulty": 9,
+      "tags": [
+        "ergative",
+        "ko_marked_object",
+        "minimal_pair",
+        "feminine_object",
+        "samjhaanaa"
+      ],
+      "level_title_en": "को with people, and the proof",
+      "derived_from_item": true
+    },
+    {
+      "id": "M09-L15-I1",
+      "level": 15,
+      "type": "grammar",
+      "target": "मैंने खाना खाया है",
+      "gender": null,
+      "difficulty": 8,
+      "tags": [
+        "ergative",
+        "present_perfect",
+        "auxiliary",
+        "object_agreement",
+        "perfective"
+      ],
+      "level_title_en": "ने in the present perfect",
+      "derived_from_item": true
+    },
+    {
+      "id": "M09-L15-I2",
+      "level": 15,
+      "type": "grammar",
+      "target": "उसने पत्र लिखा है",
+      "gender": null,
+      "difficulty": 7,
+      "tags": [
+        "ergative",
+        "present_perfect",
+        "auxiliary",
+        "aspect_contrast",
+        "likhnaa"
+      ],
+      "level_title_en": "ने in the present perfect",
+      "derived_from_item": true
+    },
+    {
+      "id": "M09-L15-I3",
+      "level": 15,
+      "type": "grammar",
+      "target": "हमने फ़िल्म देखी है",
+      "gender": null,
+      "difficulty": 9,
+      "tags": [
+        "ergative",
+        "present_perfect",
+        "auxiliary",
+        "feminine_object",
+        "agreement_split"
+      ],
+      "level_title_en": "ने in the present perfect",
+      "derived_from_item": true
+    },
+    {
+      "id": "M09-L16-I1",
+      "level": 16,
+      "type": "grammar",
+      "target": "मैंने खाना खाया था",
+      "gender": null,
+      "difficulty": 8,
+      "tags": [
+        "ergative",
+        "past_perfect",
+        "auxiliary",
+        "object_agreement",
+        "perfective"
+      ],
+      "level_title_en": "ने in the past perfect",
+      "derived_from_item": true
+    },
+    {
+      "id": "M09-L16-I2",
+      "level": 16,
+      "type": "grammar",
+      "target": "उसने रोटी खाई थी",
+      "gender": null,
+      "difficulty": 9,
+      "tags": [
+        "ergative",
+        "past_perfect",
+        "auxiliary",
+        "feminine_object",
+        "agreement_split"
+      ],
+      "level_title_en": "ने in the past perfect",
+      "derived_from_item": true
+    },
+    {
+      "id": "M09-L16-I3",
+      "level": 16,
+      "type": "grammar",
+      "target": "उन्होंने किताबें पढ़ी थीं",
+      "gender": null,
+      "difficulty": 10,
+      "tags": [
+        "ergative",
+        "past_perfect",
+        "feminine_plural",
+        "nasalisation",
+        "unhoṁne",
+        "capstone"
+      ],
+      "level_title_en": "ने in the past perfect",
+      "derived_from_item": true
+    }
+  ]
+}

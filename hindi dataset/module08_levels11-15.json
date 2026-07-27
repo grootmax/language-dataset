@@ -1,0 +1,1716 @@
+{
+  "module": 8,
+  "module_name_en": "Core Words II",
+  "module_name_hi": "शब्द भंडार २",
+  "phase": 4,
+  "type": "word",
+  "batch": {
+    "levels_from": 11,
+    "levels_to": 15
+  },
+  "learner_knows_through_module": 7,
+  "levels": [
+    {
+      "level": 11,
+      "title_en": "Travel: station, road, plane",
+      "title_hi": "स्टेशन · सड़क · जहाज़",
+      "category": "travel_transport",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L11-I1",
+          "type": "word",
+          "target": "स्टेशन",
+          "read_as": "sṭeshan",
+          "pronunciation_notes": "The स्ट cluster is retroflex and the vowel comes only after it: sṭe-shan.",
+          "gloss_en": "station",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "स्टेशन",
+          "plural_read_as": "sṭeshan",
+          "collocation": {
+            "hindi": "स्टेशन पहुँचना",
+            "read_as": "sṭeshan pahuṁchnaa",
+            "english": "to reach the station"
+          },
+          "category": "travel_transport",
+          "difficulty": 6,
+          "tags": [
+            "travel_transport",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "loanword",
+            "class_2"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "स्टेशन, and the verb for arriving",
+              "explanation_en": "स्टेशन is borrowed straight from English, written with a retroflex ट as loanwords always are, and it is masculine and Class 2. The verb worth learning alongside it is पहुँचना, to reach or arrive — and it is intransitive, which means every tense in Module 7 is available to you including the perfective. मैं स्टेशन पहुँचा, I reached the station. After a run of transitive collocations you could only use in the present, this one is fully open.",
+              "examples": [
+                {
+                  "hindi": "मैं स्टेशन पहुँचा",
+                  "read_as": "maiṁ sṭeshan pahuṁchaa",
+                  "english": "I reached the station",
+                  "note": "The bare perfective — पहुँचना is intransitive, so no ने is needed."
+                },
+                {
+                  "hindi": "स्टेशन कहाँ है?",
+                  "read_as": "sṭeshan kahaaṁ hai?",
+                  "english": "where is the station?",
+                  "note": "A question you will need before you need almost anything else."
+                },
+                {
+                  "hindi": "स्टेशन पर बहुत लोग हैं",
+                  "read_as": "sṭeshan par bahut log haiṁ",
+                  "english": "there are a lot of people at the station",
+                  "note": "स्टेशन is oblique before पर, though Class 2 shows nothing."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैंने स्टेशन पहुँचा",
+                "right": "मैं स्टेशन पहुँचा",
+                "why_en": "पहुँचना is intransitive, so the subject stays plain. ने only ever appears with transitive verbs in the perfective."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "स्टेशन",
+              "question_read_as": "sṭeshan",
+              "options": [
+                "road",
+                "ticket",
+                "station",
+                "luggage"
+              ],
+              "options_read_as": [
+                "road",
+                "ticket",
+                "station",
+                "luggage"
+              ],
+              "answer_index": 2,
+              "explanation_en": "स्टेशन is a station, masculine, and unchanged in the plural."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with स्टेशन when you get there?",
+              "options": [
+                "पहुँचना",
+                "लेना",
+                "करना",
+                "पकड़ना"
+              ],
+              "options_read_as": [
+                "pahuṁchnaa",
+                "lenaa",
+                "karnaa",
+                "pakaṛnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "स्टेशन पहुँचना — to reach the station. पहुँचना is intransitive."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "स्टेशन",
+              "मैं स्टेशन पहुँचा",
+              "स्टेशन कहाँ है?",
+              "स्टेशन पर बहुत लोग हैं"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L11-I2",
+          "type": "word",
+          "target": "सड़क",
+          "read_as": "saṛak",
+          "pronunciation_notes": "The ड़ is a single flap of the curled tongue, and the final क is barely voiced: sa-ṛak.",
+          "gloss_en": "road, street",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "सड़कें",
+          "plural_read_as": "saṛkeṁ",
+          "collocation": {
+            "hindi": "सड़क पार करना",
+            "read_as": "saṛak paar karnaa",
+            "english": "to cross the road"
+          },
+          "category": "travel_transport",
+          "difficulty": 6,
+          "tags": [
+            "travel_transport",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "class_5",
+            "contrast_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सड़क against रास्ता",
+              "explanation_en": "Both translate as road and they are not the same thing. सड़क is the physical street — tarmac, traffic, something you cross. रास्ता is the route or the way, which can be abstract: रास्ता पूछना is asking for directions, not for a street. So you cross a सड़क and you find a रास्ता. सड़क is feminine and flagged, Class 5, with the plural सड़कें. Its collocation is पार करना, to cross, which is transitive.",
+              "examples": [
+                {
+                  "hindi": "सड़क पार करो",
+                  "read_as": "saṛak paar karo",
+                  "english": "cross the road",
+                  "note": "The तुम imperative — करना is transitive, so the perfective is not yet available."
+                },
+                {
+                  "hindi": "सड़क पर गाड़ियाँ हैं",
+                  "read_as": "saṛak par gaaṛiyaaṁ haiṁ",
+                  "english": "there are cars on the road",
+                  "note": "सड़क is oblique before पर, and Class 5 shows nothing in the singular."
+                },
+                {
+                  "hindi": "यह सड़क लंबी है",
+                  "read_as": "yah saṛak lambii hai",
+                  "english": "this road is long",
+                  "note": "लंबी is feminine, which proves सड़क is."
+                }
+              ],
+              "common_error": {
+                "wrong": "यह सड़क लंबा है",
+                "right": "यह सड़क लंबी है",
+                "why_en": "सड़क is feminine. The consonant ending predicts nothing, which is exactly why it carries a flag."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सड़क",
+              "question_read_as": "saṛak",
+              "options": [
+                "street",
+                "station",
+                "route",
+                "bridge"
+              ],
+              "options_read_as": [
+                "street",
+                "station",
+                "route",
+                "bridge"
+              ],
+              "answer_index": 0,
+              "explanation_en": "सड़क is the physical street. रास्ता is the way or route."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with सड़क?",
+              "options": [
+                "पूछना",
+                "चलाना",
+                "पार करना",
+                "पहुँचना"
+              ],
+              "options_read_as": [
+                "puuchhnaa",
+                "chalaanaa",
+                "paar karnaa",
+                "pahuṁchnaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "सड़क पार करना — to cross the road. रास्ता is what you ask for."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सड़क",
+              "सड़क पार करो",
+              "सड़क पर गाड़ियाँ हैं",
+              "यह सड़क लंबी है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L11-I3",
+          "type": "word",
+          "target": "जहाज़",
+          "read_as": "jahaaz",
+          "pronunciation_notes": "The dotted ज़ is a z, so the word ends in a buzz rather than a j: ja-haaz.",
+          "gloss_en": "ship; also aeroplane",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "जहाज़",
+          "plural_read_as": "jahaaz",
+          "collocation": {
+            "hindi": "जहाज़ उड़ना",
+            "read_as": "jahaaz uṛnaa",
+            "english": "for a plane to fly"
+          },
+          "category": "travel_transport",
+          "difficulty": 7,
+          "tags": [
+            "travel_transport",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "nukta",
+            "two_meanings"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "जहाज़ was a ship before it was a plane",
+              "explanation_en": "जहाज़ originally meant a ship, and when aircraft arrived Hindi called them हवाई जहाज़ — sky-ships. In ordinary speech the हवाई is usually dropped, so जहाज़ on its own now means a plane far more often than a boat. Masculine, flagged, and written with a dotted ज़ that is pronounced as a z. The verb is उड़ना, to fly, which is intransitive.",
+              "examples": [
+                {
+                  "hindi": "जहाज़ उड़ रहा है",
+                  "read_as": "jahaaz uṛ rahaa hai",
+                  "english": "the plane is flying",
+                  "note": "उड़ना is intransitive, so जहाज़ is a plain subject."
+                },
+                {
+                  "hindi": "हम जहाज़ से जाएंगे",
+                  "read_as": "ham jahaaz se jaaeṁge",
+                  "english": "we will go by plane",
+                  "note": "से for the means of travel, as with बस से."
+                },
+                {
+                  "hindi": "जहाज़ पहुँच गया",
+                  "read_as": "jahaaz pahuṁch gayaa",
+                  "english": "the plane has arrived",
+                  "note": "The perfective of पहुँचना, which is safe because it is intransitive."
+                }
+              ],
+              "common_error": {
+                "wrong": "जहाज़ चलता है",
+                "right": "जहाज़ उड़ता है",
+                "why_en": "चलना is for things that move along the ground. A plane flies, so the verb is उड़ना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "जहाज़",
+              "question_read_as": "jahaaz",
+              "options": [
+                "bus",
+                "station",
+                "car",
+                "plane"
+              ],
+              "options_read_as": [
+                "bus",
+                "station",
+                "car",
+                "plane"
+              ],
+              "answer_index": 3,
+              "explanation_en": "जहाज़ is a plane in modern usage, and originally a ship."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with जहाज़?",
+              "options": [
+                "चलना",
+                "उड़ना",
+                "बहना",
+                "पकड़ना"
+              ],
+              "options_read_as": [
+                "chalnaa",
+                "uṛnaa",
+                "bahnaa",
+                "pakaṛnaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "जहाज़ उड़ना — a plane flies. चलना belongs to things that travel on the ground."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "जहाज़",
+              "जहाज़ उड़ रहा है",
+              "हम जहाज़ से जाएंगे",
+              "जहाज़ पहुँच गया"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "सड़क and रास्ता both translate as road and mean different things — one is the street, the other the route. पहुँचना is intransitive, so it is the first travel verb whose perfective you can actually use.",
+        "key_forms": [
+          "स्टेशन पहुँचना",
+          "सड़क पार करना",
+          "जहाज़ उड़ना"
+        ],
+        "next_up_en": "Next: the formal word for a journey, what you carry on it, and how far away things are."
+      }
+    },
+    {
+      "level": 12,
+      "title_en": "Travel: journey, luggage, distance",
+      "title_hi": "यात्रा · सामान · दूर",
+      "category": "travel_transport",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L12-I1",
+          "type": "word",
+          "target": "यात्रा",
+          "read_as": "yaatraa",
+          "pronunciation_notes": "The त्र is a single cluster with no vowel between the त and the र: yaa-traa.",
+          "gloss_en": "journey, travel — the formal word",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "यात्राएँ",
+          "plural_read_as": "yaatraaeṁ",
+          "collocation": {
+            "hindi": "यात्रा करना",
+            "read_as": "yaatraa karnaa",
+            "english": "to travel"
+          },
+          "category": "travel_transport",
+          "difficulty": 7,
+          "tags": [
+            "travel_transport",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "feminine_aa",
+            "register",
+            "sanskrit_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The third feminine noun ending in -ा",
+              "explanation_en": "यात्रा is a journey, and it is the formal counterpart of सफ़र — the word on a railway announcement, a news report or a printed sign, where सफ़र is what you say in conversation. Both mean the same thing and neither is better; they belong to different registers. Note the ending: यात्रा is feminine and ends in -ा, joining चिंता and हवा. All three are Sanskrit borrowings, which is the closest thing to a pattern here, and it is a hint rather than a rule.",
+              "examples": [
+                {
+                  "hindi": "यात्रा अच्छी थी",
+                  "read_as": "yaatraa achchhii thii",
+                  "english": "the journey was good",
+                  "note": "अच्छी and थी are both feminine, which proves यात्रा is."
+                },
+                {
+                  "hindi": "वह यात्रा करता है",
+                  "read_as": "vah yaatraa kartaa hai",
+                  "english": "he travels",
+                  "note": "करना is transitive, so the habitual is used here rather than the perfective."
+                },
+                {
+                  "hindi": "शुभ यात्रा",
+                  "read_as": "shubh yaatraa",
+                  "english": "have a good trip",
+                  "note": "A set phrase, said as someone leaves. शुभ is unmarked and never changes."
+                }
+              ],
+              "common_error": {
+                "wrong": "यात्रा अच्छा था",
+                "right": "यात्रा अच्छी थी",
+                "why_en": "The -ा ending suggests masculine and is wrong. यात्रा is feminine, like चिंता and हवा."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "यात्रा",
+              "question_read_as": "yaatraa",
+              "options": [
+                "luggage",
+                "journey",
+                "distance",
+                "arrival"
+              ],
+              "options_read_as": [
+                "luggage",
+                "journey",
+                "distance",
+                "arrival"
+              ],
+              "answer_index": 1,
+              "explanation_en": "यात्रा is a journey — the formal word, where सफ़र is the conversational one."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with यात्रा?",
+              "options": [
+                "होना",
+                "चलना",
+                "लगना",
+                "करना"
+              ],
+              "options_read_as": [
+                "honaa",
+                "chalnaa",
+                "lagnaa",
+                "karnaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "यात्रा करना — the same verb that goes with सफ़र."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "यात्रा",
+              "यात्रा अच्छी थी",
+              "वह यात्रा करता है",
+              "शुभ यात्रा"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L12-I2",
+          "type": "word",
+          "target": "सामान",
+          "read_as": "saamaan",
+          "pronunciation_notes": "Two long aa vowels, evenly weighted: saa-maan.",
+          "gloss_en": "luggage, belongings, stuff",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "सामान रखना",
+            "read_as": "saamaan rakhnaa",
+            "english": "to put luggage down"
+          },
+          "category": "travel_transport",
+          "difficulty": 6,
+          "tags": [
+            "travel_transport",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "uncountable",
+            "broad_meaning"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सामान is always singular, however much of it there is",
+              "explanation_en": "सामान covers luggage, belongings, goods, equipment, and the general stuff of a household. It is uncountable in Hindi — there is no plural — so even a mountain of suitcases is सामान and takes a singular verb: सामान भारी है. That catches English speakers, who expect a plural for bags. Masculine and flagged. The verb is रखना, to put or keep, which is transitive.",
+              "examples": [
+                {
+                  "hindi": "सामान रखो",
+                  "read_as": "saamaan rakho",
+                  "english": "put the bags down",
+                  "note": "The तुम imperative — रखना is transitive."
+                },
+                {
+                  "hindi": "सामान भारी है",
+                  "read_as": "saamaan bhaarii hai",
+                  "english": "the luggage is heavy",
+                  "note": "Singular verb, however many bags there are."
+                },
+                {
+                  "hindi": "मेरा सामान कहाँ है?",
+                  "read_as": "meraa saamaan kahaaṁ hai?",
+                  "english": "where is my luggage?",
+                  "note": "मेरा is masculine, agreeing with सामान."
+                }
+              ],
+              "common_error": {
+                "wrong": "सामान भारी हैं",
+                "right": "सामान भारी है",
+                "why_en": "सामान has no plural, so the verb stays singular no matter how many pieces you are carrying."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सामान",
+              "question_read_as": "saamaan",
+              "options": [
+                "luggage",
+                "seat",
+                "journey",
+                "platform"
+              ],
+              "options_read_as": [
+                "luggage",
+                "seat",
+                "journey",
+                "platform"
+              ],
+              "answer_index": 0,
+              "explanation_en": "सामान is luggage or belongings, and it has no plural."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with सामान?",
+              "options": [
+                "पहुँचना",
+                "उड़ना",
+                "रखना",
+                "पार करना"
+              ],
+              "options_read_as": [
+                "pahuṁchnaa",
+                "uṛnaa",
+                "rakhnaa",
+                "paar karnaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "सामान रखना — to put or keep luggage."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सामान",
+              "सामान रखो",
+              "सामान भारी है",
+              "मेरा सामान कहाँ है?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L12-I3",
+          "type": "word",
+          "target": "दूर",
+          "read_as": "duur",
+          "pronunciation_notes": "One long syllable with a rolled r at the end: duur.",
+          "gloss_en": "far, distant",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "unmarked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "दूर होना",
+            "read_as": "duur honaa",
+            "english": "to be far away"
+          },
+          "category": "travel_transport",
+          "difficulty": 6,
+          "tags": [
+            "travel_transport",
+            "adjective",
+            "unmarked_adjective",
+            "invariant",
+            "pairs_with_paas"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "दूर and पास, and the से that goes with them",
+              "explanation_en": "दूर is far and पास is near, and both are unmarked, so neither ever changes. The thing to learn is what they take: दूर uses से for what you are far from, and पास uses के. स्टेशन से दूर, far from the station; स्टेशन के पास, near the station. You already met के पास in Module 6 as the way Hindi says have, and this is the same phrase doing its literal job.",
+              "examples": [
+                {
+                  "hindi": "स्टेशन दूर है",
+                  "read_as": "sṭeshan duur hai",
+                  "english": "the station is far",
+                  "note": "The bare adjective with होना."
+                },
+                {
+                  "hindi": "स्टेशन यहाँ से दूर है",
+                  "read_as": "sṭeshan yahaaṁ se duur hai",
+                  "english": "the station is far from here",
+                  "note": "से marks what you are measuring from."
+                },
+                {
+                  "hindi": "स्टेशन के पास",
+                  "read_as": "sṭeshan ke paas",
+                  "english": "near the station",
+                  "note": "पास takes के, not से — the two opposites do not match."
+                }
+              ],
+              "common_error": {
+                "wrong": "स्टेशन के दूर",
+                "right": "स्टेशन से दूर",
+                "why_en": "दूर takes से. Copying पास's के across is the natural mistake, since the two words are opposites."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दूर",
+              "question_read_as": "duur",
+              "options": [
+                "heavy",
+                "near",
+                "far",
+                "long"
+              ],
+              "options_read_as": [
+                "heavy",
+                "near",
+                "far",
+                "long"
+              ],
+              "answer_index": 2,
+              "explanation_en": "दूर is far, and it never changes its form."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition goes with दूर?",
+              "options": [
+                "से",
+                "में",
+                "के",
+                "पर"
+              ],
+              "options_read_as": [
+                "se",
+                "meṁ",
+                "ke",
+                "par"
+              ],
+              "answer_index": 0,
+              "explanation_en": "स्टेशन से दूर. पास takes के instead, which is worth keeping straight."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दूर",
+              "स्टेशन दूर है",
+              "स्टेशन यहाँ से दूर है",
+              "स्टेशन के पास"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "यात्रा is the third feminine noun in this module to end in -ा, and all three are Sanskrit borrowings — a hint rather than a rule. सामान has no plural at all, and दूर takes से while its opposite पास takes के.",
+        "key_forms": [
+          "यात्रा करना",
+          "सामान रखना",
+          "से दूर"
+        ],
+        "next_up_en": "Next: arriving, being late, and going straight on — which completes the travel block."
+      }
+    },
+    {
+      "level": 13,
+      "title_en": "Travel: arriving, lateness, direction",
+      "title_hi": "पहुँचना · देर · सीधा",
+      "category": "travel_transport",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L13-I1",
+          "type": "word",
+          "target": "पहुँचना",
+          "read_as": "pahuṁchnaa",
+          "pronunciation_notes": "The nasal sits on the middle syllable as a hum: pa-huṁch-naa.",
+          "gloss_en": "to arrive, to reach",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "verb",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "स्टेशन पहुँचना",
+            "read_as": "sṭeshan pahuṁchnaa",
+            "english": "to reach the station"
+          },
+          "category": "travel_transport",
+          "difficulty": 7,
+          "tags": [
+            "travel_transport",
+            "verb",
+            "intransitive",
+            "no_ne",
+            "high_frequency",
+            "module7_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "पहुँचना — intransitive, so everything is available",
+              "explanation_en": "पहुँचना means to arrive or reach, and it is intransitive: the subject stays plain and no ने ever appears. That matters because it is the one travel verb whose whole tense grid you can use right now. मैं पहुँचा, मैं पहुँच रहा हूँ, मैं पहुँचूँगा — all of them work. Note also that the destination usually takes no postposition at all, exactly like जाना: घर पहुँचना, स्टेशन पहुँचना.",
+              "examples": [
+                {
+                  "hindi": "मैं घर पहुँचा",
+                  "read_as": "maiṁ ghar pahuṁchaa",
+                  "english": "I reached home",
+                  "note": "The bare perfective, and the destination takes no postposition."
+                },
+                {
+                  "hindi": "वह देर से पहुँची",
+                  "read_as": "vah der se pahuṁchii",
+                  "english": "she arrived late",
+                  "note": "देर से means late, and the verb agrees with the feminine subject."
+                },
+                {
+                  "hindi": "हम कब पहुँचेंगे?",
+                  "read_as": "ham kab pahuṁcheṁge?",
+                  "english": "when will we arrive?",
+                  "note": "The plural future, from Module 7."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं घर को पहुँचा",
+                "right": "मैं घर पहुँचा",
+                "why_en": "Like जाना and आना, पहुँचना takes its destination bare. Adding को is a translation from English."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "पहुँचना",
+              "question_read_as": "pahuṁchnaa",
+              "options": [
+                "to leave",
+                "to arrive",
+                "to travel",
+                "to wait"
+              ],
+              "options_read_as": [
+                "to leave",
+                "to arrive",
+                "to travel",
+                "to wait"
+              ],
+              "answer_index": 1,
+              "explanation_en": "पहुँचना is to arrive or reach, and it is intransitive."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which noun most naturally goes with पहुँचना?",
+              "options": [
+                "दवा",
+                "बुख़ार",
+                "मौसम",
+                "स्टेशन"
+              ],
+              "options_read_as": [
+                "davaa",
+                "bukhaar",
+                "mausam",
+                "sṭeshan"
+              ],
+              "answer_index": 3,
+              "explanation_en": "स्टेशन पहुँचना — you arrive at a place, and the place takes no postposition."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "पहुँचना",
+              "मैं घर पहुँचा",
+              "वह देर से पहुँची",
+              "हम कब पहुँचेंगे?"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L13-I2",
+          "type": "word",
+          "target": "देर",
+          "read_as": "der",
+          "pronunciation_notes": "One short syllable with a clear e: der.",
+          "gloss_en": "lateness, delay; a while",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "देर होना",
+            "read_as": "der honaa",
+            "english": "to be late"
+          },
+          "category": "travel_transport",
+          "difficulty": 7,
+          "tags": [
+            "travel_transport",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "uncountable",
+            "set_phrases"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "देर is a noun, not an adjective",
+              "explanation_en": "English says I am late, with an adjective. Hindi says मुझे देर हो गई — lateness happened to me — with देर as a feminine noun. That difference produces three phrases worth learning whole: देर होना for being late, देर से for arriving late, and देर मत करो for do not delay. There is no adjective meaning late that describes a person, so the noun has to do all of it.",
+              "examples": [
+                {
+                  "hindi": "देर हो गई",
+                  "read_as": "der ho gaii",
+                  "english": "it got late",
+                  "note": "गई is feminine, agreeing with देर."
+                },
+                {
+                  "hindi": "देर मत करो",
+                  "read_as": "der mat karo",
+                  "english": "do not delay",
+                  "note": "The negative imperative with मत, from Module 7."
+                },
+                {
+                  "hindi": "वह देर से आया",
+                  "read_as": "vah der se aayaa",
+                  "english": "he came late",
+                  "note": "देर से is the standard way to say late as a manner."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं देर हूँ",
+                "right": "मुझे देर हो गई",
+                "why_en": "That sentence says you are lateness itself. देर is a noun and it happens to you, so मुझे and होना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "देर",
+              "question_read_as": "der",
+              "options": [
+                "speed",
+                "distance",
+                "direction",
+                "lateness"
+              ],
+              "options_read_as": [
+                "speed",
+                "distance",
+                "direction",
+                "lateness"
+              ],
+              "answer_index": 3,
+              "explanation_en": "देर is lateness or delay, and it is a feminine noun rather than an adjective."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with देर when you are running late?",
+              "options": [
+                "लगना",
+                "होना",
+                "आना",
+                "पहुँचना"
+              ],
+              "options_read_as": [
+                "lagnaa",
+                "honaa",
+                "aanaa",
+                "pahuṁchnaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "देर होना — lateness happens. देर करना means to delay something on purpose."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "देर",
+              "देर हो गई",
+              "देर मत करो",
+              "वह देर से आया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L13-I3",
+          "type": "word",
+          "target": "सीधा",
+          "read_as": "siidhaa",
+          "pronunciation_notes": "Breathy ध in the middle, and both vowels are long: sii-dhaa.",
+          "gloss_en": "straight; also straightforward, simple",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "marked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "सीधा जाना",
+            "read_as": "siidhaa jaanaa",
+            "english": "to go straight on"
+          },
+          "category": "travel_transport",
+          "difficulty": 7,
+          "tags": [
+            "travel_transport",
+            "adjective",
+            "marked_adjective",
+            "agreement",
+            "directions",
+            "two_meanings"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सीधा — the word directions are built on",
+              "explanation_en": "सीधा means straight, and it is a marked adjective, so it agrees: सीधा, सीधी, सीधे. As an instruction it is what you will be told when you ask the way — सीधे जाओ, go straight on, where the -े form is used adverbially. It also means straightforward or simple when describing a person or a problem, which is the same figurative jump English makes. This is the only marked adjective in the travel block, so it is the only one that requires a choice.",
+              "examples": [
+                {
+                  "hindi": "सीधे जाओ",
+                  "read_as": "siidhe jaao",
+                  "english": "go straight on",
+                  "note": "The -े form works as an adverb here, describing how to go."
+                },
+                {
+                  "hindi": "सीधा रास्ता",
+                  "read_as": "siidhaa raastaa",
+                  "english": "a straight road",
+                  "note": "Agreeing with the masculine रास्ता."
+                },
+                {
+                  "hindi": "सीधी सड़क",
+                  "read_as": "siidhii saṛak",
+                  "english": "a straight street",
+                  "note": "Agreeing with the feminine सड़क — the same adjective, one letter different."
+                }
+              ],
+              "common_error": {
+                "wrong": "सीधा सड़क",
+                "right": "सीधी सड़क",
+                "why_en": "सड़क is feminine, so the marked adjective takes -ी. This is the payoff for flagging its gender two levels ago."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सीधा",
+              "question_read_as": "siidhaa",
+              "options": [
+                "left",
+                "wide",
+                "straight",
+                "near"
+              ],
+              "options_read_as": [
+                "left",
+                "wide",
+                "straight",
+                "near"
+              ],
+              "answer_index": 2,
+              "explanation_en": "सीधा is straight, and it also means straightforward when describing a person."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with सीधा in directions?",
+              "options": [
+                "जाना",
+                "करना",
+                "होना",
+                "पहुँचना"
+              ],
+              "options_read_as": [
+                "jaanaa",
+                "karnaa",
+                "honaa",
+                "pahuṁchnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "सीधे जाओ — go straight on. This is what you will be told when you ask the way."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सीधा",
+              "सीधे जाओ",
+              "सीधा रास्ता",
+              "सीधी सड़क"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The travel block is complete at fifteen words. Two things carry over: पहुँचना is intransitive so its whole tense grid is open to you, and देर is a noun rather than an adjective, so being late is something that happens to you rather than something you are.",
+        "key_forms": [
+          "घर पहुँचना",
+          "देर हो गई",
+          "सीधे जाओ"
+        ],
+        "next_up_en": "Next: health, and the vocabulary for saying what is wrong."
+      }
+    },
+    {
+      "level": 14,
+      "title_en": "Health: condition, fever, pain",
+      "title_hi": "तबीयत · बुख़ार · दर्द",
+      "category": "health_body",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L14-I1",
+          "type": "word",
+          "target": "तबीयत",
+          "read_as": "tabiiyat",
+          "pronunciation_notes": "Three syllables with the length on the middle one: ta-bii-yat.",
+          "gloss_en": "health, physical condition; also mood",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "तबीयत ख़राब होना",
+            "read_as": "tabiiyat kharaab honaa",
+            "english": "to be unwell"
+          },
+          "category": "health_body",
+          "difficulty": 7,
+          "tags": [
+            "health_body",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "arabic_origin",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "तबीयत — the word every health conversation starts with",
+              "explanation_en": "तबीयत is your physical condition, and तबीयत कैसी है is how Hindi asks whether someone is well. It is feminine and flagged, which shows up immediately in कैसी rather than कैसा. The standard way to say you are unwell is तबीयत ख़राब है — literally the condition is bad — where ख़राब is unmarked and never changes. There is no adjective meaning ill that describes the person directly, so this noun does the work.",
+              "examples": [
+                {
+                  "hindi": "तबीयत कैसी है?",
+                  "read_as": "tabiiyat kaisii hai?",
+                  "english": "how are you feeling?",
+                  "note": "कैसी is feminine, agreeing with तबीयत."
+                },
+                {
+                  "hindi": "मेरी तबीयत ख़राब है",
+                  "read_as": "merii tabiiyat kharaab hai",
+                  "english": "I am not well",
+                  "note": "मेरी is feminine too — the whole phrase agrees."
+                },
+                {
+                  "hindi": "अब तबीयत ठीक है",
+                  "read_as": "ab tabiiyat ṭhiik hai",
+                  "english": "I am fine now",
+                  "note": "ठीक is unmarked and means all right or fine."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेरा तबीयत ख़राब है",
+                "right": "मेरी तबीयत ख़राब है",
+                "why_en": "तबीयत is feminine, so the possessive is मेरी. The consonant ending predicts nothing."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "तबीयत",
+              "question_read_as": "tabiiyat",
+              "options": [
+                "health",
+                "medicine",
+                "fever",
+                "pain"
+              ],
+              "options_read_as": [
+                "health",
+                "medicine",
+                "fever",
+                "pain"
+              ],
+              "answer_index": 0,
+              "explanation_en": "तबीयत is your physical condition, and it is feminine."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which adjective goes with तबीयत to say you are unwell?",
+              "options": [
+                "दूर",
+                "भारी",
+                "ख़राब",
+                "सीधा"
+              ],
+              "options_read_as": [
+                "duur",
+                "bhaarii",
+                "kharaab",
+                "siidhaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "तबीयत ख़राब है — the condition is bad. ख़राब is unmarked, so it never changes."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तबीयत",
+              "तबीयत कैसी है?",
+              "मेरी तबीयत ख़राब है",
+              "अब तबीयत ठीक है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L14-I2",
+          "type": "word",
+          "target": "बुख़ार",
+          "read_as": "bukhaar",
+          "pronunciation_notes": "The dotted ख़ is made far back in the throat, and the second syllable is long: bu-khaar.",
+          "gloss_en": "fever",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "बुख़ार होना",
+            "read_as": "bukhaar honaa",
+            "english": "to have a fever"
+          },
+          "category": "health_body",
+          "difficulty": 7,
+          "tags": [
+            "health_body",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "nukta",
+            "have_construction"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Fever happens to you, it is not something you have",
+              "explanation_en": "मुझे बुख़ार है means I have a fever, and it is built like every other body state in Hindi: the condition is the subject and the person takes को. So मुझे rather than मैं, and the verb agrees with बुख़ार. This is the same shape you learnt with ग़ुस्सा and ठंड, and once you have it, most of the health block builds itself. बुख़ार is masculine and flagged, and it is written with a dotted ख़.",
+              "examples": [
+                {
+                  "hindi": "मुझे बुख़ार है",
+                  "read_as": "mujhe bukhaar hai",
+                  "english": "I have a fever",
+                  "note": "मुझे is मैं with को fused, from Module 6."
+                },
+                {
+                  "hindi": "उसे तेज़ बुख़ार था",
+                  "read_as": "use tez bukhaar thaa",
+                  "english": "he had a high fever",
+                  "note": "तेज़ means sharp or high, and था agrees with बुख़ार."
+                },
+                {
+                  "hindi": "बुख़ार उतर गया",
+                  "read_as": "bukhaar utar gayaa",
+                  "english": "the fever came down",
+                  "note": "उतरना means to come down, and it is intransitive."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं बुख़ार हूँ",
+                "right": "मुझे बुख़ार है",
+                "why_en": "That sentence says you are a fever. The condition happens to you, so मुझे and a verb agreeing with बुख़ार."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बुख़ार",
+              "question_read_as": "bukhaar",
+              "options": [
+                "cough",
+                "fever",
+                "pain",
+                "medicine"
+              ],
+              "options_read_as": [
+                "cough",
+                "fever",
+                "pain",
+                "medicine"
+              ],
+              "answer_index": 1,
+              "explanation_en": "बुख़ार is fever, and it is masculine."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with बुख़ार?",
+              "options": [
+                "करना",
+                "पहुँचना",
+                "लेना",
+                "होना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "pahuṁchnaa",
+                "lenaa",
+                "honaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बुख़ार होना — fever happens to you, with the person marked by को."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बुख़ार",
+              "मुझे बुख़ार है",
+              "उसे तेज़ बुख़ार था",
+              "बुख़ार उतर गया"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L14-I3",
+          "type": "word",
+          "target": "दर्द",
+          "read_as": "dard",
+          "pronunciation_notes": "One syllable with the र rolled between the two d sounds: dard.",
+          "gloss_en": "pain, ache",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "दर्द",
+          "plural_read_as": "dard",
+          "collocation": {
+            "hindi": "दर्द होना",
+            "read_as": "dard honaa",
+            "english": "to be in pain"
+          },
+          "category": "health_body",
+          "difficulty": 7,
+          "tags": [
+            "health_body",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "persian_origin",
+            "body_part_construction"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Where it hurts goes in में",
+              "explanation_en": "दर्द is pain, masculine and flagged. To say where it hurts, the body part takes में: सिर में दर्द है, there is pain in the head, which is how Hindi says I have a headache. The person can be added with को if you need to be specific — मुझे सिर में दर्द है — but it is often left out because context makes it obvious. दर्द also carries the emotional sense of pain, exactly as in English.",
+              "examples": [
+                {
+                  "hindi": "मुझे दर्द है",
+                  "read_as": "mujhe dard hai",
+                  "english": "I am in pain",
+                  "note": "The basic shape, with the person marked by को."
+                },
+                {
+                  "hindi": "सिर में दर्द है",
+                  "read_as": "sir meṁ dard hai",
+                  "english": "I have a headache",
+                  "note": "The body part takes में, and सिर is oblique before it."
+                },
+                {
+                  "hindi": "पेट में दर्द हो रहा है",
+                  "read_as": "peṭ meṁ dard ho rahaa hai",
+                  "english": "my stomach is hurting",
+                  "note": "The continuous, for pain happening right now."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेरा सिर दर्द है",
+                "right": "सिर में दर्द है",
+                "why_en": "The pain is located in the body part, so में is needed. The English possessive translates badly here."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दर्द",
+              "question_read_as": "dard",
+              "options": [
+                "rest",
+                "fever",
+                "health",
+                "pain"
+              ],
+              "options_read_as": [
+                "rest",
+                "fever",
+                "health",
+                "pain"
+              ],
+              "answer_index": 3,
+              "explanation_en": "दर्द is pain, masculine, and it covers emotional pain too."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which postposition marks where the दर्द is?",
+              "options": [
+                "से",
+                "में",
+                "पर",
+                "को"
+              ],
+              "options_read_as": [
+                "se",
+                "meṁ",
+                "par",
+                "ko"
+              ],
+              "answer_index": 1,
+              "explanation_en": "सिर में दर्द है — the body part takes में."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दर्द",
+              "मुझे दर्द है",
+              "सिर में दर्द है",
+              "पेट में दर्द हो रहा है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Health in Hindi is built on one shape: the condition is the subject, the person takes को, and the body part takes में. तबीयत ख़राब है, मुझे बुख़ार है, सिर में दर्द है. No adjective describes the person directly, so these nouns do all the work.",
+        "key_forms": [
+          "तबीयत ख़राब होना",
+          "मुझे बुख़ार है",
+          "सिर में दर्द है"
+        ],
+        "next_up_en": "Next: medicine and the head, and a conversation about not feeling well."
+      }
+    },
+    {
+      "level": 15,
+      "title_en": "Health: medicine and the head",
+      "title_hi": "दवा · सिर",
+      "category": "health_body",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M08-L15-I1",
+          "type": "word",
+          "target": "दवा",
+          "read_as": "davaa",
+          "pronunciation_notes": "The first syllable is short and unstressed, the second long: da-vaa.",
+          "gloss_en": "medicine",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "दवाएँ",
+          "plural_read_as": "davaaeṁ",
+          "collocation": {
+            "hindi": "दवा लेना",
+            "read_as": "davaa lenaa",
+            "english": "to take medicine"
+          },
+          "category": "health_body",
+          "difficulty": 7,
+          "tags": [
+            "health_body",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "feminine_aa",
+            "arabic_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The fourth feminine noun ending in -ा",
+              "explanation_en": "दवा is medicine, and it is feminine despite the -ा ending — joining चिंता, हवा and यात्रा. Four of them now, and they come from three different source languages, so the ending really is telling you nothing and the gender simply has to be memorised. The verb is लेना, to take, exactly as in English: दवा लो, take your medicine. लेना is transitive and its perfective लिया is still recognition only, so use the imperative or the future.",
+              "examples": [
+                {
+                  "hindi": "दवा लो",
+                  "read_as": "davaa lo",
+                  "english": "take your medicine",
+                  "note": "The तुम imperative — लेना is transitive."
+                },
+                {
+                  "hindi": "यह दवा अच्छी है",
+                  "read_as": "yah davaa achchhii hai",
+                  "english": "this medicine is good",
+                  "note": "अच्छी is feminine, which proves दवा is."
+                },
+                {
+                  "hindi": "मैं दवा लूँगा",
+                  "read_as": "maiṁ davaa luuṁgaa",
+                  "english": "I will take the medicine",
+                  "note": "The future, which is safe with any verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "यह दवा अच्छा है",
+                "right": "यह दवा अच्छी है",
+                "why_en": "The -ा ending is misleading again. दवा is feminine, like चिंता, हवा and यात्रा."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दवा",
+              "question_read_as": "davaa",
+              "options": [
+                "medicine",
+                "doctor",
+                "fever",
+                "pain"
+              ],
+              "options_read_as": [
+                "medicine",
+                "doctor",
+                "fever",
+                "pain"
+              ],
+              "answer_index": 0,
+              "explanation_en": "दवा is medicine, and it is feminine despite ending in -ा."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with दवा?",
+              "options": [
+                "करना",
+                "होना",
+                "लेना",
+                "लगना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "honaa",
+                "lenaa",
+                "lagnaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "दवा लेना — to take medicine, exactly as English says it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दवा",
+              "दवा लो",
+              "यह दवा अच्छी है",
+              "मैं दवा लूँगा"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L15-I2",
+          "type": "word",
+          "target": "सिर",
+          "read_as": "sir",
+          "pronunciation_notes": "One short syllable, and the vowel is closer to the i in English 'sit' than to a long ee.",
+          "gloss_en": "head",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "सिर",
+          "plural_read_as": "sir",
+          "collocation": {
+            "hindi": "सिर में दर्द होना",
+            "read_as": "sir meṁ dard honaa",
+            "english": "to have a headache"
+          },
+          "category": "health_body",
+          "difficulty": 6,
+          "tags": [
+            "health_body",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "body_part",
+            "class_2"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "सिर, and the body parts that go with it",
+              "explanation_en": "सिर is the head, masculine, flagged, and Class 2 so it never changes in the singular. It is the body part that turns up most in health complaints, and सिर में दर्द है is the everyday way to say I have a headache. There is a shorter form too — सिरदर्द, written as one word, meaning a headache as a thing. Both are common, and the longer version is the one that follows the general pattern from the last level.",
+              "examples": [
+                {
+                  "hindi": "सिर में दर्द है",
+                  "read_as": "sir meṁ dard hai",
+                  "english": "I have a headache",
+                  "note": "The body part takes में, as every complaint does."
+                },
+                {
+                  "hindi": "मेरा सिर दुख रहा है",
+                  "read_as": "meraa sir dukh rahaa hai",
+                  "english": "my head is hurting",
+                  "note": "दुखना is the verb to ache, and it is intransitive."
+                },
+                {
+                  "hindi": "सिर ठीक है",
+                  "read_as": "sir ṭhiik hai",
+                  "english": "my head is fine",
+                  "note": "ठीक is unmarked and means all right."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेरी सिर दुख रही है",
+                "right": "मेरा सिर दुख रहा है",
+                "why_en": "सिर is masculine, so both the possessive and the verb are masculine. The short i makes it look like it might not be."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "सिर",
+              "question_read_as": "sir",
+              "options": [
+                "hand",
+                "stomach",
+                "head",
+                "eye"
+              ],
+              "options_read_as": [
+                "hand",
+                "stomach",
+                "head",
+                "eye"
+              ],
+              "answer_index": 2,
+              "explanation_en": "सिर is the head, and it is masculine."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with सिर when it aches?",
+              "options": [
+                "दुखना",
+                "लेना",
+                "करना",
+                "पहुँचना"
+              ],
+              "options_read_as": [
+                "dukhnaa",
+                "lenaa",
+                "karnaa",
+                "pahuṁchnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "सिर दुखना — the head aches. दुखना is intransitive, so the whole tense grid is available."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "सिर",
+              "सिर में दर्द है",
+              "मेरा सिर दुख रहा है",
+              "सिर ठीक है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L15-I3",
+          "type": "dialogue",
+          "target": "तबीयत ख़राब",
+          "read_as": "tabiiyat kharaab",
+          "pronunciation_notes": "Both words are stressed evenly, and ख़राब has the throaty ख़: kha-raab.",
+          "gloss_en": "saying you are unwell",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "phrase",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "तबीयत ख़राब होना",
+            "read_as": "tabiiyat kharaab honaa",
+            "english": "to be unwell"
+          },
+          "category": "health_body",
+          "difficulty": 7,
+          "tags": [
+            "health_body",
+            "dialogue",
+            "micro_dialogue",
+            "agreement",
+            "possessive"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Everything in this exchange agrees with तबीयत",
+              "explanation_en": "Four short lines, and the first two hang entirely on one fact: तबीयत is feminine. तुम्हारी, कैसी, मेरी — all three take -ी because of it, and a learner who guesses masculine gets three words wrong in a row rather than one. That is the practical reason gender is flagged and drilled. The second half of the exchange uses क्या हुआ from Module 7 and the को construction from the last level, so nothing here is new except the vocabulary.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "तुम्हारी तबीयत कैसी है?",
+                  "read_as": "tumhaarii tabiiyat kaisii hai?",
+                  "english": "How are you feeling?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "मेरी तबीयत ख़राब है।",
+                  "read_as": "merii tabiiyat kharaab hai.",
+                  "english": "I am not well."
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "क्या हुआ?",
+                  "read_as": "kyaa huaa?",
+                  "english": "What happened?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "मुझे बुख़ार है।",
+                  "read_as": "mujhe bukhaar hai.",
+                  "english": "I have a fever."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेरा तबीयत ख़राब है।",
+                "right": "मेरी तबीयत ख़राब है।",
+                "why_en": "तबीयत is feminine, so the possessive is मेरी. Getting the gender wrong here costs you three words in two lines."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this phrase mean?",
+              "question": "तबीयत ख़राब है",
+              "question_read_as": "tabiiyat kharaab hai",
+              "options": [
+                "I am tired",
+                "I am not well",
+                "I am worried",
+                "I am late"
+              ],
+              "options_read_as": [
+                "I am tired",
+                "I am not well",
+                "I am worried",
+                "I am late"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Literally the condition is bad — the standard way to say you are unwell."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the second line. Which word is missing?",
+              "masked_line_index": 1,
+              "masked_word": "मेरी",
+              "options": [
+                "मेरा",
+                "तुम्हारी",
+                "मेरे",
+                "मेरी"
+              ],
+              "options_read_as": [
+                "meraa",
+                "tumhaarii",
+                "mere",
+                "merii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "तबीयत is feminine, so the possessive is मेरी."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "तुम्हारी तबीयत कैसी है?",
+              "मेरी तबीयत ख़राब है।",
+              "क्या हुआ?",
+              "मुझे बुख़ार है।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "दवा is the fourth feminine noun in this module ending in -ा, and the four come from three different source languages — so the ending genuinely predicts nothing and the gender has to be learnt. सिर में दर्द है is the pattern every health complaint follows.",
+        "key_forms": [
+          "दवा लेना",
+          "सिर में दर्द है",
+          "तबीयत ख़राब है"
+        ],
+        "next_up_en": "Next: the rest of the body-state words, including hunger and thirst, which behave the same way."
+      }
+    }
+  ]
+}

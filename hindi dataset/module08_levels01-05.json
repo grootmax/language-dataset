@@ -1,0 +1,1712 @@
+{
+  "module": 8,
+  "module_name_en": "Core Words II",
+  "module_name_hi": "शब्द भंडार २",
+  "phase": 4,
+  "type": "word",
+  "batch": {
+    "levels_from": 1,
+    "levels_to": 5
+  },
+  "learner_knows_through_module": 7,
+  "levels": [
+    {
+      "level": 1,
+      "title_en": "Feelings: the adjectives that never change",
+      "title_hi": "ख़ुश · दुखी · परेशान",
+      "category": "emotions",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L01-I1",
+          "type": "word",
+          "target": "ख़ुश",
+          "read_as": "khush",
+          "pronunciation_notes": "The dotted ख़ is further back in the throat than a plain ख, closer to the ch in Scottish loch. One syllable, no vowel at the end.",
+          "gloss_en": "happy, pleased",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "unmarked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "ख़ुश होना",
+            "read_as": "khush honaa",
+            "english": "to be happy"
+          },
+          "category": "emotions",
+          "difficulty": 5,
+          "tags": [
+            "emotions",
+            "adjective",
+            "unmarked_adjective",
+            "invariant",
+            "high_frequency",
+            "nukta"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ख़ुश — one form for everyone",
+              "explanation_en": "ख़ुश means happy, and it is an unmarked adjective, so it never changes: मैं ख़ुश हूँ, वह ख़ुश है, वे ख़ुश हैं. Module 6 taught you that adjectives ending in -ा take three forms and everything else takes one. ख़ुश ends in a consonant, so it belongs to the second group and you can stop thinking about agreement entirely. That is true of most emotion adjectives in Hindi, which makes this a comfortable block to start Module 8 with.",
+              "examples": [
+                {
+                  "hindi": "मैं ख़ुश हूँ",
+                  "read_as": "maiṁ khush huuṁ",
+                  "english": "I am happy",
+                  "note": "The adjective is identical whoever is speaking."
+                },
+                {
+                  "hindi": "वह बहुत ख़ुश है",
+                  "read_as": "vah bahut khush hai",
+                  "english": "she is very happy",
+                  "note": "बहुत intensifies it, and still nothing changes."
+                },
+                {
+                  "hindi": "वे ख़ुश हुए",
+                  "read_as": "ve khush hue",
+                  "english": "they became happy",
+                  "note": "With होना's perfective it means became rather than were."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह ख़ुशी है",
+                "right": "वह ख़ुश है",
+                "why_en": "ख़ुशी is the noun happiness. The adjective is ख़ुश, and adding -ी to it does not make it feminine — it makes it a different word."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "ख़ुश",
+              "question_read_as": "khush",
+              "options": [
+                "tired",
+                "happy",
+                "worried",
+                "sad"
+              ],
+              "options_read_as": [
+                "tired",
+                "happy",
+                "worried",
+                "sad"
+              ],
+              "answer_index": 1,
+              "explanation_en": "ख़ुश is happy. It is an adjective and never changes its form."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with ख़ुश?",
+              "options": [
+                "करना",
+                "लगना",
+                "होना",
+                "आना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "lagnaa",
+                "honaa",
+                "aanaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "ख़ुश होना — to be or become happy. ख़ुश करना exists but means to make someone else happy."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ख़ुश",
+              "मैं ख़ुश हूँ",
+              "वह बहुत ख़ुश है",
+              "वे ख़ुश हुए"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L01-I2",
+          "type": "word",
+          "target": "दुखी",
+          "read_as": "dukhii",
+          "pronunciation_notes": "Aspirated kh in the middle and a long ii at the end: du-khii.",
+          "gloss_en": "sad, unhappy",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "unmarked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "दुखी होना",
+            "read_as": "dukhii honaa",
+            "english": "to be sad"
+          },
+          "category": "emotions",
+          "difficulty": 5,
+          "tags": [
+            "emotions",
+            "adjective",
+            "unmarked_adjective",
+            "invariant",
+            "ending_trap"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "दुखी ends in -ी and is still unmarked",
+              "explanation_en": "This is the trap worth catching early. दुखी ends in -ी, which after Module 6 makes it look like a feminine form waiting for a masculine partner. It is not. दुखी is invariable, so a man is दुखी and so is a woman: वह दुखी है either way. A whole family of adjectives borrowed from Sanskrit behaves this way — दुखी, सुखी, ज़रूरी, ख़ाली — and none of them has a -ा form at all. Only adjectives that actually end in -ा take the three-way agreement.",
+              "examples": [
+                {
+                  "hindi": "वह दुखी है",
+                  "read_as": "vah dukhii hai",
+                  "english": "he is sad",
+                  "note": "Said of a man, and the form is unchanged."
+                },
+                {
+                  "hindi": "लड़की दुखी है",
+                  "read_as": "laṛkii dukhii hai",
+                  "english": "the girl is sad",
+                  "note": "A feminine subject, and still दुखी."
+                },
+                {
+                  "hindi": "वे दुखी थे",
+                  "read_as": "ve dukhii the",
+                  "english": "they were sad",
+                  "note": "Plural and past, and the adjective does not follow."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह दुखा है",
+                "right": "वह दुखी है",
+                "why_en": "There is no दुखा. Working backwards from the -ी to invent a masculine form is the mistake this word invites."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "दुखी",
+              "question_read_as": "dukhii",
+              "options": [
+                "angry",
+                "hungry",
+                "afraid",
+                "sad"
+              ],
+              "options_read_as": [
+                "angry",
+                "hungry",
+                "afraid",
+                "sad"
+              ],
+              "answer_index": 3,
+              "explanation_en": "दुखी is sad. It looks feminine and is in fact invariable."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with दुखी?",
+              "options": [
+                "होना",
+                "आना",
+                "मिलना",
+                "लगना"
+              ],
+              "options_read_as": [
+                "honaa",
+                "aanaa",
+                "milnaa",
+                "lagnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "दुखी होना — to be or become sad."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "दुखी",
+              "वह दुखी है",
+              "लड़की दुखी है",
+              "वे दुखी थे"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L01-I3",
+          "type": "word",
+          "target": "परेशान",
+          "read_as": "pareshaan",
+          "pronunciation_notes": "Three syllables with the stress on the last, which carries a long aa: pa-re-shaan.",
+          "gloss_en": "worried, troubled, bothered",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "unmarked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "परेशान होना",
+            "read_as": "pareshaan honaa",
+            "english": "to be worried"
+          },
+          "category": "emotions",
+          "difficulty": 5,
+          "tags": [
+            "emotions",
+            "adjective",
+            "unmarked_adjective",
+            "invariant",
+            "high_frequency",
+            "persian_origin"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "परेशान — worried, and used constantly",
+              "explanation_en": "परेशान covers a wide range that English splits up: worried, bothered, troubled, hassled, at the end of your patience. It is a Persian borrowing, it ends in a consonant, and it never changes. Two verbs go with it and they mean opposite things. परेशान होना is to be worried; परेशान करना is to bother someone else, and it is what a parent says to a child who will not sit still. Getting those two the wrong way round reverses who is troubling whom.",
+              "examples": [
+                {
+                  "hindi": "मैं परेशान हूँ",
+                  "read_as": "maiṁ pareshaan huuṁ",
+                  "english": "I am worried",
+                  "note": "The state, with होना."
+                },
+                {
+                  "hindi": "वह मुझे परेशान करता है",
+                  "read_as": "vah mujhe pareshaan kartaa hai",
+                  "english": "he bothers me",
+                  "note": "With करना the meaning flips — he is doing it to me."
+                },
+                {
+                  "hindi": "मत परेशान करो",
+                  "read_as": "mat pareshaan karo",
+                  "english": "stop bothering me",
+                  "note": "The negative imperative from Module 7, and a very common sentence."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं परेशान करता हूँ",
+                "right": "मैं परेशान हूँ",
+                "why_en": "करना makes you the source of the trouble rather than the one feeling it. For your own state the verb is होना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "परेशान",
+              "question_read_as": "pareshaan",
+              "options": [
+                "worried",
+                "cheerful",
+                "sleepy",
+                "hungry"
+              ],
+              "options_read_as": [
+                "worried",
+                "cheerful",
+                "sleepy",
+                "hungry"
+              ],
+              "answer_index": 0,
+              "explanation_en": "परेशान is worried or bothered, and it covers more ground than any single English word."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with परेशान when you mean your own state?",
+              "options": [
+                "आना",
+                "देना",
+                "लगना",
+                "होना"
+              ],
+              "options_read_as": [
+                "aanaa",
+                "denaa",
+                "lagnaa",
+                "honaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "परेशान होना is to be worried. परेशान करना would mean you are bothering someone else."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "परेशान",
+              "मैं परेशान हूँ",
+              "वह मुझे परेशान करता है",
+              "मत परेशान करो"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Most emotion adjectives in Hindi are unmarked and never change, including दुखी, which ends in -ी and still does not. Only adjectives ending in -ा take the three-way agreement from Module 6. Watch the verb that goes with each one — होना for your own state, करना for doing it to someone else.",
+        "key_forms": [
+          "ख़ुश होना",
+          "दुखी होना",
+          "परेशान करना"
+        ],
+        "next_up_en": "Next: the nouns behind these states, and two of them that arrive rather than being felt."
+      }
+    },
+    {
+      "level": 2,
+      "title_en": "Feelings: the nouns",
+      "title_hi": "ख़ुशी · ग़ुस्सा · डर",
+      "category": "emotions",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L02-I1",
+          "type": "word",
+          "target": "ख़ुशी",
+          "read_as": "khushii",
+          "pronunciation_notes": "The same throaty ख़ as ख़ुश, with a long ii added: khu-shii.",
+          "gloss_en": "happiness, joy",
+          "gender": "f",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "ख़ुशियाँ",
+          "plural_read_as": "khushiyaaṁ",
+          "collocation": {
+            "hindi": "ख़ुशी होना",
+            "read_as": "khushii honaa",
+            "english": "to feel happiness"
+          },
+          "category": "emotions",
+          "difficulty": 5,
+          "tags": [
+            "emotions",
+            "noun",
+            "feminine",
+            "abstract",
+            "adjective_pair"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "ख़ुशी — the noun behind ख़ुश",
+              "explanation_en": "ख़ुशी is happiness, feminine, and predictably so because it ends in -ी. Hindi builds a lot of abstract nouns this way, adding -ी to an adjective, so ख़ुश gives ख़ुशी and the pattern will recur. Its oblique plural is ख़ुशियाँ, following Class 4 exactly as लड़की did. The sentence you will meet it in most is मुझे ख़ुशी हुई — literally happiness happened to me, which is how Hindi says I was glad.",
+              "examples": [
+                {
+                  "hindi": "मुझे ख़ुशी हुई",
+                  "read_as": "mujhe khushii huii",
+                  "english": "I was glad",
+                  "note": "The verb agrees with ख़ुशी, which is feminine — hence हुई."
+                },
+                {
+                  "hindi": "बड़ी ख़ुशी की बात है",
+                  "read_as": "baṛii khushii kii baat hai",
+                  "english": "it is a matter of great joy",
+                  "note": "बड़ी and की both agree with the feminine nouns in front of them."
+                },
+                {
+                  "hindi": "यह ख़ुशी है",
+                  "read_as": "yah khushii hai",
+                  "english": "this is happiness",
+                  "note": "The bare noun, with होना in the present."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे ख़ुशी हुआ",
+                "right": "मुझे ख़ुशी हुई",
+                "why_en": "The verb agrees with ख़ुशी, not with मुझे. ख़ुशी is feminine, so the perfective is हुई."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "ख़ुशी",
+              "question_read_as": "khushii",
+              "options": [
+                "laughter",
+                "anger",
+                "happiness",
+                "rest"
+              ],
+              "options_read_as": [
+                "laughter",
+                "anger",
+                "happiness",
+                "rest"
+              ],
+              "answer_index": 2,
+              "explanation_en": "ख़ुशी is happiness — the noun formed from the adjective ख़ुश."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with ख़ुशी?",
+              "options": [
+                "करना",
+                "होना",
+                "लगना",
+                "देना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "honaa",
+                "lagnaa",
+                "denaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "ख़ुशी होना — happiness happens to you, which is how Hindi expresses being glad."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ख़ुशी",
+              "मुझे ख़ुशी हुई",
+              "बड़ी ख़ुशी की बात है",
+              "यह ख़ुशी है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L02-I2",
+          "type": "word",
+          "target": "ग़ुस्सा",
+          "read_as": "gussaa",
+          "pronunciation_notes": "The dotted ग़ is made further back than a plain ग, and the स is doubled and held: gus-saa.",
+          "gloss_en": "anger",
+          "gender": "m",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "ग़ुस्से",
+          "plural_read_as": "gusse",
+          "collocation": {
+            "hindi": "ग़ुस्सा आना",
+            "read_as": "gussaa aanaa",
+            "english": "to get angry"
+          },
+          "category": "emotions",
+          "difficulty": 6,
+          "tags": [
+            "emotions",
+            "noun",
+            "masculine",
+            "abstract",
+            "nukta",
+            "collocation_trap"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Anger comes to you rather than being felt",
+              "explanation_en": "The natural way to say I got angry in Hindi is मुझे ग़ुस्सा आया — anger came to me. The emotion is the subject and the person experiencing it is marked with को, which is why मुझे appears rather than मैं. That shape covers a whole family of feelings and you have already seen it with ख़ुशी. ग़ुस्सा करना also exists but means something narrower: to direct anger at someone. So आना for the feeling arriving, करना for the behaviour.",
+              "examples": [
+                {
+                  "hindi": "मुझे ग़ुस्सा आया",
+                  "read_as": "mujhe gussaa aayaa",
+                  "english": "I got angry",
+                  "note": "आया agrees with ग़ुस्सा, which is masculine."
+                },
+                {
+                  "hindi": "उसे ग़ुस्सा आता है",
+                  "read_as": "use gussaa aataa hai",
+                  "english": "he gets angry",
+                  "note": "The habitual — this happens to him regularly."
+                },
+                {
+                  "hindi": "ग़ुस्सा मत करो",
+                  "read_as": "gussaa mat karo",
+                  "english": "do not be angry",
+                  "note": "With करना and a negative imperative from Module 7."
+                }
+              ],
+              "common_error": {
+                "wrong": "मैं ग़ुस्सा आया",
+                "right": "मुझे ग़ुस्सा आया",
+                "why_en": "The one who feels it takes को, so मैं becomes मुझे. The verb agrees with ग़ुस्सा instead."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "ग़ुस्सा",
+              "question_read_as": "gussaa",
+              "options": [
+                "fear",
+                "love",
+                "sadness",
+                "anger"
+              ],
+              "options_read_as": [
+                "fear",
+                "love",
+                "sadness",
+                "anger"
+              ],
+              "answer_index": 3,
+              "explanation_en": "ग़ुस्सा is anger, and it is masculine despite being an abstract noun."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with ग़ुस्सा when the feeling arrives?",
+              "options": [
+                "आना",
+                "लगना",
+                "होना",
+                "देना"
+              ],
+              "options_read_as": [
+                "aanaa",
+                "lagnaa",
+                "honaa",
+                "denaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "ग़ुस्सा आना — anger comes. ग़ुस्सा करना is to direct it at someone."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "ग़ुस्सा",
+              "मुझे ग़ुस्सा आया",
+              "उसे ग़ुस्सा आता है",
+              "ग़ुस्सा मत करो"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L02-I3",
+          "type": "word",
+          "target": "डर",
+          "read_as": "ḍar",
+          "pronunciation_notes": "Retroflex ड with the tongue curled back, then a light r: ḍar, one syllable.",
+          "gloss_en": "fear",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "डर",
+          "plural_read_as": "ḍar",
+          "collocation": {
+            "hindi": "डर लगना",
+            "read_as": "ḍar lagnaa",
+            "english": "to feel afraid"
+          },
+          "category": "emotions",
+          "difficulty": 6,
+          "tags": [
+            "emotions",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "abstract",
+            "collocation_trap"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "डर — masculine, and it attaches rather than arrives",
+              "explanation_en": "डर is fear. It ends in a consonant so nothing tells you its gender and you have to learn it as masculine — this is the first flagged word of Module 8 and there will be more. Its verb is लगना, which is a third pattern alongside होना and आना: मुझे डर लगता है, fear attaches to me. There is no rule deciding which emotion takes which verb, which is exactly why the game card in this module asks about collocation rather than gender. The pairings have to be learnt with the word.",
+              "examples": [
+                {
+                  "hindi": "मुझे डर लगता है",
+                  "read_as": "mujhe ḍar lagtaa hai",
+                  "english": "I feel afraid",
+                  "note": "लगता agrees with डर, which is masculine."
+                },
+                {
+                  "hindi": "उसे डर लगा",
+                  "read_as": "use ḍar lagaa",
+                  "english": "he got scared",
+                  "note": "The perfective — लगना is intransitive, so no ने is involved."
+                },
+                {
+                  "hindi": "डर मत",
+                  "read_as": "ḍar mat",
+                  "english": "do not be afraid",
+                  "note": "Here डर is the verb डरना in its तू imperative, not the noun."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे डर होता है",
+                "right": "मुझे डर लगता है",
+                "why_en": "होना is not the verb for this noun. Each emotion word carries its own verb, and डर takes लगना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "डर",
+              "question_read_as": "ḍar",
+              "options": [
+                "rest",
+                "fear",
+                "anger",
+                "laughter"
+              ],
+              "options_read_as": [
+                "rest",
+                "fear",
+                "anger",
+                "laughter"
+              ],
+              "answer_index": 1,
+              "explanation_en": "डर is fear, and it is masculine — worth memorising, since the ending gives you nothing."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with डर?",
+              "options": [
+                "होना",
+                "करना",
+                "लगना",
+                "आना"
+              ],
+              "options_read_as": [
+                "honaa",
+                "karnaa",
+                "lagnaa",
+                "aanaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "डर लगना — fear attaches to you. Not होना, and not आना."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "डर",
+              "मुझे डर लगता है",
+              "उसे डर लगा",
+              "डर मत"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Emotion nouns in Hindi mostly happen to you rather than being felt by you: the feeling is the subject and the person takes को. Which verb goes with which noun is not predictable — ख़ुशी होना, ग़ुस्सा आना, डर लगना — so the pairing is part of learning the word.",
+        "key_forms": [
+          "ख़ुशी होना",
+          "ग़ुस्सा आना",
+          "डर लगना"
+        ],
+        "next_up_en": "Next: love, laughter and rest, and the three verbs that go with them."
+      }
+    },
+    {
+      "level": 3,
+      "title_en": "Love, laughter, rest",
+      "title_hi": "प्यार · हँसी · आराम",
+      "category": "emotions",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L03-I1",
+          "type": "word",
+          "target": "प्यार",
+          "read_as": "pyaar",
+          "pronunciation_notes": "One syllable, with the p and y run together and a long aa: pyaar.",
+          "gloss_en": "love, affection",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "प्यार करना",
+            "read_as": "pyaar karnaa",
+            "english": "to love"
+          },
+          "category": "emotions",
+          "difficulty": 6,
+          "tags": [
+            "emotions",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "uncountable",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "प्यार — the one that takes करना",
+              "explanation_en": "प्यार is love or affection, masculine and flagged because the consonant ending tells you nothing. Unlike the last three, this one takes करना, and it is transitive: you love someone, and the person loved is marked with से. वह मुझसे प्यार करता है — he loves me, literally does love from me. That से catches learners out, because English uses no preposition there at all. प्यार is uncountable, so it has no plural.",
+              "examples": [
+                {
+                  "hindi": "वह मुझसे प्यार करता है",
+                  "read_as": "vah mujhse pyaar kartaa hai",
+                  "english": "he loves me",
+                  "note": "मुझसे is मैं fused with से, from Module 6."
+                },
+                {
+                  "hindi": "माँ बच्चों से प्यार करती है",
+                  "read_as": "maaṁ bachchoṁ se pyaar kartii hai",
+                  "english": "a mother loves her children",
+                  "note": "बच्चों is the oblique plural before से."
+                },
+                {
+                  "hindi": "प्यार से बोलो",
+                  "read_as": "pyaar se bolo",
+                  "english": "speak kindly",
+                  "note": "Here से makes प्यार into a manner — with love."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह मुझे प्यार करता है",
+                "right": "वह मुझसे प्यार करता है",
+                "why_en": "प्यार करना takes से for the person loved, not को. मुझे would be the को form, which belongs with other verbs."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "प्यार",
+              "question_read_as": "pyaar",
+              "options": [
+                "fear",
+                "rest",
+                "love",
+                "anger"
+              ],
+              "options_read_as": [
+                "fear",
+                "rest",
+                "love",
+                "anger"
+              ],
+              "answer_index": 2,
+              "explanation_en": "प्यार is love, masculine, and it has no plural."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with प्यार?",
+              "options": [
+                "लगना",
+                "करना",
+                "होना",
+                "आना"
+              ],
+              "options_read_as": [
+                "lagnaa",
+                "karnaa",
+                "honaa",
+                "aanaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "प्यार करना — and the person loved takes से rather than को."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "प्यार",
+              "वह मुझसे प्यार करता है",
+              "माँ बच्चों से प्यार करती है",
+              "प्यार से बोलो"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L03-I2",
+          "type": "word",
+          "target": "हँसी",
+          "read_as": "haṁsii",
+          "pronunciation_notes": "The nasal sits on the first syllable as a hum, not a full n: haṁ-sii.",
+          "gloss_en": "laughter, a laugh",
+          "gender": "f",
+          "gender_flag": false,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "हँसी आना",
+            "read_as": "haṁsii aanaa",
+            "english": "to feel like laughing"
+          },
+          "category": "emotions",
+          "difficulty": 6,
+          "tags": [
+            "emotions",
+            "noun",
+            "feminine",
+            "verb_pair",
+            "collocation_trap"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "हँसी — and the verb it comes from",
+              "explanation_en": "हँसी is laughter, feminine and predictable from its -ी ending. It comes from हँसना, to laugh, which is a verb you can use directly: वह हँसता है, he laughs. The noun takes आना like ग़ुस्सा does, and मुझे हँसी आई means something English needs a whole phrase for — I couldn't help laughing, it struck me as funny. Having both the verb and the noun available is common in this module and worth noticing: one describes the act, the other describes the feeling arriving.",
+              "examples": [
+                {
+                  "hindi": "मुझे हँसी आई",
+                  "read_as": "mujhe haṁsii aaii",
+                  "english": "it made me laugh",
+                  "note": "आई agrees with हँसी, which is feminine."
+                },
+                {
+                  "hindi": "वह हँसता है",
+                  "read_as": "vah haṁstaa hai",
+                  "english": "he laughs",
+                  "note": "The verb हँसना, used directly with a plain subject."
+                },
+                {
+                  "hindi": "बच्चे हँस रहे थे",
+                  "read_as": "bachche haṁs rahe the",
+                  "english": "the children were laughing",
+                  "note": "The continuous past from Module 7, on the same verb."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझे हँसी आया",
+                "right": "मुझे हँसी आई",
+                "why_en": "हँसी is feminine, so the perfective is आई. The verb agrees with the feeling, never with the person."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "हँसी",
+              "question_read_as": "haṁsii",
+              "options": [
+                "laughter",
+                "worry",
+                "happiness",
+                "fear"
+              ],
+              "options_read_as": [
+                "laughter",
+                "worry",
+                "happiness",
+                "fear"
+              ],
+              "answer_index": 0,
+              "explanation_en": "हँसी is laughter, from the verb हँसना."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with हँसी?",
+              "options": [
+                "करना",
+                "होना",
+                "लगना",
+                "आना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "honaa",
+                "lagnaa",
+                "aanaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "हँसी आना — laughter comes to you, the same shape as ग़ुस्सा आना."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "हँसी",
+              "मुझे हँसी आई",
+              "वह हँसता है",
+              "बच्चे हँस रहे थे"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L03-I3",
+          "type": "word",
+          "target": "आराम",
+          "read_as": "aaraam",
+          "pronunciation_notes": "Two long aa vowels bracketing a light r: aa-raam.",
+          "gloss_en": "rest, comfort, ease",
+          "gender": "m",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "आराम करना",
+            "read_as": "aaraam karnaa",
+            "english": "to rest"
+          },
+          "category": "emotions",
+          "difficulty": 6,
+          "tags": [
+            "emotions",
+            "noun",
+            "masculine",
+            "gender_flagged",
+            "uncountable",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "आराम — rest, and also comfort",
+              "explanation_en": "आराम is rest, and it stretches to cover comfort and relief as well. आराम करना is to rest, and it is the standard thing to tell someone who is unwell. The word also turns up as an adverb in आराम से, which means slowly, calmly, take your time — one of the most useful two-word phrases in the language, and the polite way to tell someone not to rush. Masculine, flagged, and uncountable.",
+              "examples": [
+                {
+                  "hindi": "आराम करो",
+                  "read_as": "aaraam karo",
+                  "english": "get some rest",
+                  "note": "The तुम imperative from Module 7."
+                },
+                {
+                  "hindi": "मैं आराम कर रहा हूँ",
+                  "read_as": "maiṁ aaraam kar rahaa huuṁ",
+                  "english": "I am resting",
+                  "note": "The continuous present, with करना as the verb."
+                },
+                {
+                  "hindi": "आराम से बोलिए",
+                  "read_as": "aaraam se bolie",
+                  "english": "please speak slowly",
+                  "note": "आराम से means calmly or unhurriedly, and the imperative is polite."
+                }
+              ],
+              "common_error": {
+                "wrong": "आराम होना",
+                "right": "आराम करना",
+                "why_en": "Rest is something you do rather than something that happens to you, so this noun takes करना."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "आराम",
+              "question_read_as": "aaraam",
+              "options": [
+                "anger",
+                "rest",
+                "laughter",
+                "love"
+              ],
+              "options_read_as": [
+                "anger",
+                "rest",
+                "laughter",
+                "love"
+              ],
+              "answer_index": 1,
+              "explanation_en": "आराम is rest or comfort, and आराम से means calmly."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with आराम?",
+              "options": [
+                "आना",
+                "लगना",
+                "करना",
+                "होना"
+              ],
+              "options_read_as": [
+                "aanaa",
+                "lagnaa",
+                "karnaa",
+                "honaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "आराम करना — rest is done rather than received."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "आराम",
+              "आराम करो",
+              "मैं आराम कर रहा हूँ",
+              "आराम से बोलिए"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Three nouns and three different verbs: प्यार करना, हँसी आना, आराम करना. Two of them also give you set phrases worth knowing whole — प्यार से for kindly and आराम से for calmly, both built with से.",
+        "key_forms": [
+          "प्यार करना",
+          "हँसी आना",
+          "आराम से"
+        ],
+        "next_up_en": "Next: the rest of the emotion block, including one adjective that does change and one noun whose gender you would guess wrong."
+      }
+    },
+    {
+      "level": 4,
+      "title_en": "Feelings: two exceptions",
+      "title_hi": "उदास · थका · चिंता",
+      "category": "emotions",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M08-L04-I1",
+          "type": "word",
+          "target": "उदास",
+          "read_as": "udaas",
+          "pronunciation_notes": "The first syllable is short and the second long: u-daas.",
+          "gloss_en": "downcast, low, melancholy",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "unmarked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "उदास होना",
+            "read_as": "udaas honaa",
+            "english": "to be downcast"
+          },
+          "category": "emotions",
+          "difficulty": 6,
+          "tags": [
+            "emotions",
+            "adjective",
+            "unmarked_adjective",
+            "invariant",
+            "register"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "उदास against दुखी",
+              "explanation_en": "Both mean sad and they are not interchangeable. दुखी is closer to unhappy or grieved and points at a cause — someone is दुखी about something. उदास is closer to low or downcast, a mood rather than a response, and it is the word songs and poetry reach for. If you are describing how someone looks rather than what has happened to them, उदास is usually the better choice. Like दुखी, it is unmarked and never changes.",
+              "examples": [
+                {
+                  "hindi": "वह उदास है",
+                  "read_as": "vah udaas hai",
+                  "english": "he looks low",
+                  "note": "A mood, with no cause implied."
+                },
+                {
+                  "hindi": "तुम उदास क्यों हो?",
+                  "read_as": "tum udaas kyoṁ ho?",
+                  "english": "why are you down?",
+                  "note": "क्यों from Module 5, and तुम takes हो."
+                },
+                {
+                  "hindi": "वे उदास थे",
+                  "read_as": "ve udaas the",
+                  "english": "they were downcast",
+                  "note": "Plural and past, and the adjective is unchanged."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह उदासी है",
+                "right": "वह उदास है",
+                "why_en": "उदासी is the noun, meaning sadness. The adjective is उदास, exactly as ख़ुश stands to ख़ुशी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "उदास",
+              "question_read_as": "udaas",
+              "options": [
+                "angry",
+                "afraid",
+                "tired",
+                "downcast"
+              ],
+              "options_read_as": [
+                "angry",
+                "afraid",
+                "tired",
+                "downcast"
+              ],
+              "answer_index": 3,
+              "explanation_en": "उदास is downcast or low — a mood rather than a reaction to something."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with उदास?",
+              "options": [
+                "होना",
+                "आना",
+                "लगना",
+                "करना"
+              ],
+              "options_read_as": [
+                "honaa",
+                "aanaa",
+                "lagnaa",
+                "karnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "उदास होना. Adjectives of state generally take होना; it is the nouns that vary."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "उदास",
+              "वह उदास है",
+              "तुम उदास क्यों हो?",
+              "वे उदास थे"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L04-I2",
+          "type": "word",
+          "target": "थका",
+          "read_as": "thakaa",
+          "pronunciation_notes": "Aspirated th at the front, which is not the th of English think: tha-kaa.",
+          "gloss_en": "tired",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "adjective",
+          "adjective_type": "marked",
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "थक जाना",
+            "read_as": "thak jaanaa",
+            "english": "to get tired"
+          },
+          "category": "emotions",
+          "difficulty": 6,
+          "tags": [
+            "emotions",
+            "adjective",
+            "marked_adjective",
+            "agreement",
+            "perfective_participle",
+            "module7_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "The one in this block that does change",
+              "explanation_en": "थका is tired, and unlike every other word in these four levels it ends in -ा and therefore agrees: थका, थकी, थके. That is because it is not really an adjective at all — it is the perfective participle of थकना, to get tired, being used as one. Module 7 showed the same thing with बैठा है meaning he is sitting: the action is finished and the resulting state is what you are describing. So वह थका है is he is tired, and the agreement comes from the participle it started life as.",
+              "examples": [
+                {
+                  "hindi": "मैं थका हूँ",
+                  "read_as": "maiṁ thakaa huuṁ",
+                  "english": "I am tired",
+                  "note": "Said by a man. A woman says थकी."
+                },
+                {
+                  "hindi": "वह थकी है",
+                  "read_as": "vah thakii hai",
+                  "english": "she is tired",
+                  "note": "The feminine form, agreeing like any marked adjective."
+                },
+                {
+                  "hindi": "बच्चे थके थे",
+                  "read_as": "bachche thake the",
+                  "english": "the children were tired",
+                  "note": "Plural and past, and both words agree."
+                }
+              ],
+              "common_error": {
+                "wrong": "वह थका है",
+                "right": "वह थकी है",
+                "why_en": "If the subject is a woman the adjective is थकी. This is the only word in the emotion block that requires that choice."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "थका",
+              "question_read_as": "thakaa",
+              "options": [
+                "tired",
+                "happy",
+                "worried",
+                "sad"
+              ],
+              "options_read_as": [
+                "tired",
+                "happy",
+                "worried",
+                "sad"
+              ],
+              "answer_index": 0,
+              "explanation_en": "थका is tired, and it agrees with the subject because it began as a participle."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb does थका come from?",
+              "options": [
+                "करना",
+                "होना",
+                "लगना",
+                "थकना"
+              ],
+              "options_read_as": [
+                "karnaa",
+                "honaa",
+                "lagnaa",
+                "thaknaa"
+              ],
+              "answer_index": 3,
+              "explanation_en": "थकना, to get tired. थका is its perfective participle used as an adjective."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "थका",
+              "मैं थका हूँ",
+              "वह थकी है",
+              "बच्चे थके थे"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L04-I3",
+          "type": "word",
+          "target": "चिंता",
+          "read_as": "chintaa",
+          "pronunciation_notes": "The nasal is written with a dot and sounds as an n before the त: chin-taa.",
+          "gloss_en": "worry, concern",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": "चिंताएँ",
+          "plural_read_as": "chintaaeṁ",
+          "collocation": {
+            "hindi": "चिंता करना",
+            "read_as": "chintaa karnaa",
+            "english": "to worry"
+          },
+          "category": "emotions",
+          "difficulty": 7,
+          "tags": [
+            "emotions",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "ending_trap",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "चिंता ends in -ा and is feminine",
+              "explanation_en": "This is the gender trap of the block. चिंता ends in -ा, which after Module 4 and Module 6 should say masculine to you, and it is feminine. A group of nouns borrowed from Sanskrit behaves this way — चिंता, भाषा, सभा — and none of them is predictable from its ending, so they have to be memorised as pairs. The consequence shows up immediately in agreement: बड़ी चिंता, not बड़ा, and its plural is चिंताएँ rather than चिंते. The phrase to over-learn is चिंता मत करो, do not worry.",
+              "examples": [
+                {
+                  "hindi": "चिंता मत करो",
+                  "read_as": "chintaa mat karo",
+                  "english": "do not worry",
+                  "note": "Probably the most-used sentence this word appears in."
+                },
+                {
+                  "hindi": "मुझे चिंता है",
+                  "read_as": "mujhe chintaa hai",
+                  "english": "I am worried",
+                  "note": "The feeling with होना, and the person marked with को."
+                },
+                {
+                  "hindi": "बड़ी चिंता की बात है",
+                  "read_as": "baṛii chintaa kii baat hai",
+                  "english": "it is a matter of real concern",
+                  "note": "बड़ी and की both agree with feminine nouns — the proof that चिंता is feminine."
+                }
+              ],
+              "common_error": {
+                "wrong": "बड़ा चिंता",
+                "right": "बड़ी चिंता",
+                "why_en": "The -ा ending is misleading. चिंता is feminine, so any marked adjective in front of it takes -ी."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "चिंता",
+              "question_read_as": "chintaa",
+              "options": [
+                "rest",
+                "laughter",
+                "worry",
+                "anger"
+              ],
+              "options_read_as": [
+                "rest",
+                "laughter",
+                "worry",
+                "anger"
+              ],
+              "answer_index": 2,
+              "explanation_en": "चिंता is worry, and it is feminine despite the -ा ending."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with चिंता?",
+              "options": [
+                "लगना",
+                "करना",
+                "होना",
+                "आना"
+              ],
+              "options_read_as": [
+                "lagnaa",
+                "karnaa",
+                "honaa",
+                "aanaa"
+              ],
+              "answer_index": 1,
+              "explanation_en": "चिंता करना — to worry. चिंता होना also occurs and describes the state rather than the act."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "चिंता",
+              "चिंता मत करो",
+              "मुझे चिंता है",
+              "बड़ी चिंता की बात है"
+            ],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "The emotion block ends with its two exceptions. थका is the only adjective here that agrees, because it is a perfective participle doing an adjective's job. चिंता is feminine despite ending in -ा, which no rule predicts and which shows up the moment an adjective stands in front of it.",
+        "key_forms": [
+          "उदास होना",
+          "थका है",
+          "चिंता मत करो"
+        ],
+        "next_up_en": "Next: weather, starting with the noun whose verb the whole module was designed to teach."
+      }
+    },
+    {
+      "level": 5,
+      "title_en": "Weather: rain and sun",
+      "title_hi": "बारिश · धूप",
+      "category": "weather_nature",
+      "is_micro_dialogue_level": true,
+      "items": [
+        {
+          "id": "M08-L05-I1",
+          "type": "word",
+          "target": "बारिश",
+          "read_as": "baarish",
+          "pronunciation_notes": "Long aa in the first syllable and a soft sh at the end: baa-rish.",
+          "gloss_en": "rain",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "बारिश होना",
+            "read_as": "baarish honaa",
+            "english": "to rain"
+          },
+          "category": "weather_nature",
+          "difficulty": 6,
+          "tags": [
+            "weather_nature",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "collocation_trap",
+            "high_frequency"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Rain happens — it does not come",
+              "explanation_en": "Hindi has no verb meaning to rain. It says बारिश होना, rain happens, and the noun is the subject of the sentence. That makes बारिश हो रही है the ordinary way to say it is raining. The verb to avoid is आना: बारिश आना sounds like the rain is a visitor and is not what people say. बारिश is feminine and flagged, because the consonant ending gives you nothing, and the agreement follows from that — बारिश हुई, never हुआ.",
+              "examples": [
+                {
+                  "hindi": "बारिश हो रही है",
+                  "read_as": "baarish ho rahii hai",
+                  "english": "it is raining",
+                  "note": "The continuous present, with बारिश as the subject."
+                },
+                {
+                  "hindi": "कल बारिश हुई",
+                  "read_as": "kal baarish huii",
+                  "english": "it rained yesterday",
+                  "note": "The bare perfective, and हुई agrees with the feminine noun."
+                },
+                {
+                  "hindi": "बारिश में मत जाओ",
+                  "read_as": "baarish meṁ mat jaao",
+                  "english": "do not go out in the rain",
+                  "note": "बारिश is oblique before में, though nothing visible changes."
+                }
+              ],
+              "common_error": {
+                "wrong": "बारिश आ रही है",
+                "right": "बारिश हो रही है",
+                "why_en": "Rain happens rather than arrives. आना is used for people and for feelings, not for weather."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "बारिश",
+              "question_read_as": "baarish",
+              "options": [
+                "sunshine",
+                "wind",
+                "cloud",
+                "rain"
+              ],
+              "options_read_as": [
+                "sunshine",
+                "wind",
+                "cloud",
+                "rain"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बारिश is rain, and it is feminine — worth memorising, since the ending is no guide."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with बारिश?",
+              "options": [
+                "आना",
+                "करना",
+                "होना",
+                "लगना"
+              ],
+              "options_read_as": [
+                "aanaa",
+                "karnaa",
+                "honaa",
+                "lagnaa"
+              ],
+              "answer_index": 2,
+              "explanation_en": "बारिश होना. Hindi has no verb for to rain, so the noun does the work with होना behind it."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "बारिश",
+              "बारिश हो रही है",
+              "कल बारिश हुई",
+              "बारिश में मत जाओ"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L05-I2",
+          "type": "word",
+          "target": "धूप",
+          "read_as": "dhuup",
+          "pronunciation_notes": "Breathy dh at the front and a long uu: dhuup, one syllable.",
+          "gloss_en": "sunshine, sunlight",
+          "gender": "f",
+          "gender_flag": true,
+          "word_class": "noun",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "धूप निकलना",
+            "read_as": "dhuup nikalnaa",
+            "english": "for the sun to come out"
+          },
+          "category": "weather_nature",
+          "difficulty": 6,
+          "tags": [
+            "weather_nature",
+            "noun",
+            "feminine",
+            "gender_flagged",
+            "uncountable",
+            "collocation_trap"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "धूप is the sunlight, not the sun",
+              "explanation_en": "धूप is sunshine — the light and warmth falling on you — and it is a different word from सूरज, the sun itself. That distinction matters, because you sit in धूप and you look at सूरज. Its verb is निकलना, to emerge: धूप निकली, the sun came out. धूप होना also works and simply states that it is sunny. Feminine and flagged, like most weather words in Hindi, which is worth noting as a pattern even though it is not a rule.",
+              "examples": [
+                {
+                  "hindi": "आज धूप है",
+                  "read_as": "aaj dhuup hai",
+                  "english": "it is sunny today",
+                  "note": "The simplest statement, with होना."
+                },
+                {
+                  "hindi": "धूप निकली",
+                  "read_as": "dhuup nikalii",
+                  "english": "the sun came out",
+                  "note": "निकली agrees with the feminine धूप."
+                },
+                {
+                  "hindi": "वह धूप में बैठा है",
+                  "read_as": "vah dhuup meṁ baiṭhaa hai",
+                  "english": "he is sitting in the sun",
+                  "note": "बैठा है is the perfective describing a state, from Module 7."
+                }
+              ],
+              "common_error": {
+                "wrong": "धूप निकला",
+                "right": "धूप निकली",
+                "why_en": "धूप is feminine, so the perfective is निकली. The consonant ending makes this easy to get wrong."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this word mean?",
+              "question": "धूप",
+              "question_read_as": "dhuup",
+              "options": [
+                "rain",
+                "sunshine",
+                "shade",
+                "heat"
+              ],
+              "options_read_as": [
+                "rain",
+                "sunshine",
+                "shade",
+                "heat"
+              ],
+              "answer_index": 1,
+              "explanation_en": "धूप is sunshine — the light itself, as distinct from सूरज, the sun."
+            },
+            "game": {
+              "format": "collocation_match",
+              "question_en": "Which verb goes with धूप when the sun comes out?",
+              "options": [
+                "निकलना",
+                "आना",
+                "करना",
+                "लगना"
+              ],
+              "options_read_as": [
+                "nikalnaa",
+                "aanaa",
+                "karnaa",
+                "lagnaa"
+              ],
+              "answer_index": 0,
+              "explanation_en": "धूप निकलना — the sunshine emerges."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "धूप",
+              "आज धूप है",
+              "धूप निकली",
+              "वह धूप में बैठा है"
+            ],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M08-L05-I3",
+          "type": "dialogue",
+          "target": "बारिश हुई",
+          "read_as": "baarish huii",
+          "pronunciation_notes": "The two words run together in speech, with the nasal-free हुई holding its long ii.",
+          "gloss_en": "weather across three tenses",
+          "gender": null,
+          "gender_flag": false,
+          "word_class": "phrase",
+          "adjective_type": null,
+          "plural": null,
+          "plural_read_as": null,
+          "collocation": {
+            "hindi": "बारिश होना",
+            "read_as": "baarish honaa",
+            "english": "to rain"
+          },
+          "category": "weather_nature",
+          "difficulty": 6,
+          "tags": [
+            "weather_nature",
+            "dialogue",
+            "micro_dialogue",
+            "collocation",
+            "module7_link"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "One collocation, three tenses",
+              "explanation_en": "Weather is the easiest place to practise Module 7, because every sentence about it is built from one noun plus होना, and only the tense changes. This exchange runs through three of them: होगी for a guess about later, है for now, and हुई for yesterday. Notice that the agreement never moves — बारिश is feminine, so every form of होना that touches it is feminine too. That is the whole grammar of talking about the weather in Hindi.",
+              "lines": [
+                {
+                  "speaker": "A",
+                  "hindi": "क्या आज बारिश होगी?",
+                  "read_as": "kyaa aaj baarish hogii?",
+                  "english": "Will it rain today?"
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "नहीं, आज धूप है।",
+                  "read_as": "nahiiṁ, aaj dhuup hai.",
+                  "english": "No, it is sunny today."
+                },
+                {
+                  "speaker": "A",
+                  "hindi": "कल बारिश हुई थी।",
+                  "read_as": "kal baarish huii thii.",
+                  "english": "It had rained yesterday."
+                },
+                {
+                  "speaker": "B",
+                  "hindi": "हाँ, बहुत बारिश हुई।",
+                  "read_as": "haaṁ, bahut baarish huii.",
+                  "english": "Yes, it rained a lot."
+                }
+              ],
+              "common_error": {
+                "wrong": "हाँ, बहुत बारिश हुआ।",
+                "right": "हाँ, बहुत बारिश हुई।",
+                "why_en": "बारिश is feminine, so every form of होना agreeing with it is feminine, in any tense."
+              }
+            },
+            "practice": {
+              "format": "meaning_match",
+              "prompt_en": "What does this phrase mean?",
+              "question": "बारिश हो रही है",
+              "question_read_as": "baarish ho rahii hai",
+              "options": [
+                "it is raining",
+                "it will rain",
+                "it rained",
+                "it is sunny"
+              ],
+              "options_read_as": [
+                "it is raining",
+                "it will rain",
+                "it rained",
+                "it is sunny"
+              ],
+              "answer_index": 0,
+              "explanation_en": "The continuous present — rain is happening as you speak."
+            },
+            "game": {
+              "format": "audio_gap_fill",
+              "question_en": "Listen to the last line. Which word is missing?",
+              "masked_line_index": 3,
+              "masked_word": "हुई",
+              "options": [
+                "हुआ",
+                "हुए",
+                "होगी",
+                "हुई"
+              ],
+              "options_read_as": [
+                "huaa",
+                "hue",
+                "hogii",
+                "huii"
+              ],
+              "answer_index": 3,
+              "explanation_en": "बारिश is feminine and singular, so the perfective is हुई."
+            }
+          },
+          "audio": {
+            "tts_strings": [
+              "क्या आज बारिश होगी?",
+              "नहीं, आज धूप है।",
+              "कल बारिश हुई थी।",
+              "हाँ, बहुत बारिश हुई।"
+            ],
+            "requires_recording": true
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Weather in Hindi is a noun plus a verb, not a verb of its own — बारिश होना, धूप निकलना. Both words are feminine and both are flagged, since their consonant endings predict nothing. Talking about the weather is therefore mostly a matter of choosing the tense.",
+        "key_forms": [
+          "बारिश होना",
+          "धूप निकलना",
+          "आज धूप है"
+        ],
+        "next_up_en": "Next: wind, cold, heat and cloud, and the words for the seasons they belong to."
+      }
+    }
+  ]
+}

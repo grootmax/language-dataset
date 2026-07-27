@@ -1,0 +1,649 @@
+{
+  "module": 5,
+  "module_name_en": "First Sentences",
+  "module_name_hi": "पहला वाक्य",
+  "phase": 2,
+  "batch": { "levels_from": 21, "levels_to": 24 },
+  "levels": [
+    {
+      "level": 21,
+      "title_en": "Saying no",
+      "title_hi": "नहीं",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L21-I1",
+          "type": "grammar",
+          "target": "नहीं",
+          "read_as": "nahiiṁ",
+          "pronunciation_notes": "The dot nasalises the long final vowel, so the word ends in a hum with no n sounded: nahiiṁ.",
+          "gloss_en": "not — the general negative",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["negation", "word_order", "invariable"],
+          "cards": {
+            "learn": {
+              "title_en": "नहीं — where the negative goes",
+              "explanation_en": "नहीं is the ordinary negative, and its position is fixed: immediately before the verb, which in Hindi means near the end of the sentence. यह घर बड़ा नहीं है — this house is not big. English puts 'not' after the auxiliary and Hindi puts it in front of the whole verb, so the two land in different places even in a sentence this short.",
+              "examples": [
+                { "hindi": "यह घर बड़ा नहीं है।", "read_as": "yah ghar baṛaa nahiiṁ hai.", "english": "This house is not big.", "note": "नहीं sits directly before the verb." },
+                { "hindi": "चाय गरम नहीं है।", "read_as": "chaay garam nahiiṁ hai.", "english": "The tea is not hot.", "note": "The same position with a feminine subject." },
+                { "hindi": "मैं यहाँ नहीं हूँ।", "read_as": "maiṁ yahãa nahiiṁ huuṁ.", "english": "I am not here.", "note": "नहीं comes between the complement and the verb." }
+              ],
+              "common_error": {
+                "wrong": "यह घर नहीं बड़ा है।",
+                "right": "यह घर बड़ा नहीं है।",
+                "why_en": "नहीं goes immediately before the verb, not before the adjective."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "चाय गरम ___ है।",
+              "question_read_as": "chaay garam ___ hai.",
+              "options": ["न", "मत", "नहीं", "जी"],
+              "options_read_as": ["na", "mat", "nahiiṁ", "jii"],
+              "answer_index": 2,
+              "explanation_en": "नहीं is the ordinary negative for a statement, and it goes before the verb."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["यह घर नहीं बड़ा है।", "यह घर बड़ा नहीं है।", "नहीं यह घर बड़ा है।", "यह नहीं घर बड़ा है।"],
+              "options_read_as": ["yah ghar nahiiṁ baṛaa hai.", "yah ghar baṛaa nahiiṁ hai.", "nahiiṁ yah ghar baṛaa hai.", "yah nahiiṁ ghar baṛaa hai."],
+              "answer_index": 1,
+              "explanation_en": "नहीं belongs immediately before the verb, at the end of the sentence."
+            }
+          },
+          "audio": {
+            "tts_strings": ["यह घर बड़ा नहीं है।", "चाय गरम नहीं है।", "मैं यहाँ नहीं हूँ।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L21-I2",
+          "type": "grammar",
+          "target": "नहीं है",
+          "read_as": "nahiiṁ hai",
+          "pronunciation_notes": "In speech the two run together and the है is often barely audible, which is part of why it can vanish altogether.",
+          "gloss_en": "negating होना, and the dropped verb",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["negation", "honaa", "ellipsis", "spoken_form"],
+          "cards": {
+            "learn": {
+              "title_en": "नहीं है — and when the है disappears",
+              "explanation_en": "When नहीं negates होना, the verb is very often dropped altogether. यह अच्छा नहीं है and यह अच्छा नहीं both mean 'this is not good', and the shorter one is extremely common in speech. Nothing is lost, because नहीं already stands where the verb would have been. This shortcut belongs to होना alone — it does not happen with other verbs.",
+              "examples": [
+                { "hindi": "यह अच्छा नहीं है।", "read_as": "yah achchhaa nahiiṁ hai.", "english": "This is not good.", "note": "The full form, with the verb present." },
+                { "hindi": "यह अच्छा नहीं।", "read_as": "yah achchhaa nahiiṁ.", "english": "This is not good.", "note": "The same meaning with है dropped." },
+                { "hindi": "वे यहाँ नहीं हैं।", "read_as": "ve yahãa nahiiṁ haiṁ.", "english": "They are not here.", "note": "In the plural the verb is usually kept." }
+              ],
+              "common_error": {
+                "wrong": "यह अच्छा है नहीं।",
+                "right": "यह अच्छा नहीं है।",
+                "why_en": "नहीं comes before the verb, never after it. Dropping the verb is fine; moving it is not."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "यह अच्छा ___ है।",
+              "question_read_as": "yah achchhaa ___ hai.",
+              "options": ["नहीं", "मत", "न", "जी"],
+              "options_read_as": ["nahiiṁ", "mat", "na", "jii"],
+              "answer_index": 0,
+              "explanation_en": "A statement takes नहीं, placed just before the verb."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["यह अच्छा है नहीं।", "नहीं यह अच्छा है।", "यह नहीं अच्छा है।", "यह अच्छा नहीं है।"],
+              "options_read_as": ["yah achchhaa hai nahiiṁ.", "nahiiṁ yah achchhaa hai.", "yah nahiiṁ achchhaa hai.", "yah achchhaa nahiiṁ hai."],
+              "answer_index": 3,
+              "explanation_en": "नहीं sits between the adjective and the verb. Nothing may follow the verb."
+            }
+          },
+          "audio": {
+            "tts_strings": ["यह अच्छा नहीं है।", "यह अच्छा नहीं।", "वे यहाँ नहीं हैं।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L21-I3",
+          "type": "grammar",
+          "target": "जी नहीं",
+          "read_as": "jii nahiiṁ",
+          "pronunciation_notes": "Two unstressed syllables run together, with the nasal hum closing the phrase.",
+          "gloss_en": "the polite no",
+          "gender": null,
+          "difficulty": 3,
+          "tags": ["negation", "register", "politeness", "fixed_phrase"],
+          "cards": {
+            "learn": {
+              "title_en": "Saying no politely",
+              "explanation_en": "नहीं on its own is a complete answer: 'no'. Adding जी makes it courteous — जी नहीं is the polite refusal, and जी हाँ is its opposite. Between friends a bare नहीं is perfectly fine; with a stranger or an elder, जी नहीं is safer, and it costs one extra syllable. This is the same जी you met attached to पिता and दादी.",
+              "examples": [
+                { "hindi": "जी नहीं।", "read_as": "jii nahiiṁ.", "english": "No.", "note": "The courteous refusal." },
+                { "hindi": "जी हाँ।", "read_as": "jii hãa.", "english": "Yes.", "note": "Its opposite, built the same way." },
+                { "hindi": "नहीं, यह अच्छा नहीं है।", "read_as": "nahiiṁ, yah achchhaa nahiiṁ hai.", "english": "No, this is not good.", "note": "नहीं twice — once as an answer, once inside the sentence." }
+              ],
+              "common_error": {
+                "wrong": "नहीं जी",
+                "right": "जी नहीं",
+                "why_en": "जी comes first in this fixed pair, exactly as it does in जी हाँ."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the polite refusal.",
+              "question": "___ नहीं।",
+              "question_read_as": "___ nahiiṁ.",
+              "options": ["हाँ", "न", "मत", "जी"],
+              "options_read_as": ["hãa", "na", "mat", "jii"],
+              "answer_index": 3,
+              "explanation_en": "जी comes before नहीं and turns a blunt refusal into a courteous one."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which is the polite way to say no?",
+              "options": ["जी नहीं।", "नहीं जी।", "जी न।", "जी मत।"],
+              "options_read_as": ["jii nahiiṁ.", "nahiiṁ jii.", "jii na.", "jii mat."],
+              "answer_index": 0,
+              "explanation_en": "जी नहीं is the fixed pair. The order matters, and न and मत do not fit here at all."
+            }
+          },
+          "audio": {
+            "tts_strings": ["जी नहीं।", "जी हाँ।", "नहीं, यह अच्छा नहीं है।"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level covered नहीं, the ordinary negative. It goes immediately before the verb, it can absorb होना entirely in speech, and जी नहीं is its polite form.",
+        "key_forms": ["चाय गरम नहीं है।", "यह अच्छा नहीं।", "जी नहीं।"],
+        "next_up_en": "Next: the two other negatives, and when each of the three is required."
+      }
+    },
+    {
+      "level": 22,
+      "title_en": "न and मत",
+      "title_hi": "न और मत",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L22-I1",
+          "type": "grammar",
+          "target": "न",
+          "read_as": "na",
+          "pronunciation_notes": "A single short syllable with a dental न — the tongue on the teeth, not curled back.",
+          "gloss_en": "a softer negative, and a tag",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["negation", "tag_question", "register", "spoken_form"],
+          "cards": {
+            "learn": {
+              "title_en": "न — the light negative",
+              "explanation_en": "न is a shorter, softer negative than नहीं. Its most useful job for a learner is as a tag at the end of a sentence, asking the listener to agree: यह अच्छा है न? — 'this is good, isn't it?'. It also replaces नहीं in formal and poetic writing. As a plain negative in ordinary speech, stay with नहीं and keep न for tags.",
+              "examples": [
+                { "hindi": "यह अच्छा है न?", "read_as": "yah achchhaa hai na?", "english": "This is good, isn't it?", "note": "न as a tag, inviting agreement." },
+                { "hindi": "आप अच्छे हैं न?", "read_as": "aap achchhe haiṁ na?", "english": "You are well, aren't you?", "note": "The same tag with a polite subject." },
+                { "hindi": "चाय गरम है न?", "read_as": "chaay garam hai na?", "english": "The tea is hot, isn't it?", "note": "A tag turns a statement into a check." }
+              ],
+              "common_error": {
+                "wrong": "यह अच्छा न है।",
+                "right": "यह अच्छा नहीं है।",
+                "why_en": "For ordinary negation use नहीं. न in that slot sounds formal or poetic rather than neutral."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the tag question.",
+              "question": "यह अच्छा है ___?",
+              "question_read_as": "yah achchhaa hai ___?",
+              "options": ["नहीं", "न", "मत", "जी"],
+              "options_read_as": ["nahiiṁ", "na", "mat", "jii"],
+              "answer_index": 1,
+              "explanation_en": "न at the end of a statement turns it into a request for agreement."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence asks 'This is good, isn't it?'",
+              "options": ["यह अच्छा न है।", "न यह अच्छा है।", "यह अच्छा है न?", "यह न अच्छा है।"],
+              "options_read_as": ["yah achchhaa na hai.", "na yah achchhaa hai.", "yah achchhaa hai na?", "yah na achchhaa hai."],
+              "answer_index": 2,
+              "explanation_en": "As a tag, न comes after the complete sentence, not inside it."
+            }
+          },
+          "audio": {
+            "tts_strings": ["यह अच्छा है न?", "आप अच्छे हैं न?", "चाय गरम है न?"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L22-I2",
+          "type": "grammar",
+          "target": "मत",
+          "read_as": "mat",
+          "pronunciation_notes": "A dental त with the tongue on the teeth, and the final vowel drops: mat.",
+          "gloss_en": "don't — the negative for commands",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["negation", "prohibitive", "imperative", "recognition"],
+          "cards": {
+            "learn": {
+              "title_en": "मत — don't",
+              "explanation_en": "मत is the negative used only with commands: मत जाओ, don't go. It cannot negate an ordinary statement — यह मत है is not Hindi at all. The command forms themselves arrive in Module 7, so for now treat मत as recognition rather than production: when you see or hear it, someone is being told not to do something. You will meet it on signs long before you need to say it.",
+              "examples": [
+                { "hindi": "मत जाओ।", "read_as": "mat jaao.", "english": "Don't go.", "note": "मत before the command form of जाना." },
+                { "hindi": "मत करो।", "read_as": "mat karo.", "english": "Don't do it.", "note": "The same pattern with करना." },
+                { "hindi": "यहाँ मत बैठो।", "read_as": "yahãa mat baiṭho.", "english": "Don't sit here.", "note": "The place comes first, and मत sits just before the verb." }
+              ],
+              "common_error": {
+                "wrong": "नहीं जाओ।",
+                "right": "मत जाओ।",
+                "why_en": "Commands take मत, not नहीं. The two are not interchangeable in either direction."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the command meaning 'Don't go'.",
+              "question": "___ जाओ।",
+              "question_read_as": "___ jaao.",
+              "options": ["मत", "नहीं", "न", "जी"],
+              "options_read_as": ["mat", "nahiiṁ", "na", "jii"],
+              "answer_index": 0,
+              "explanation_en": "Commands are negated with मत, which is what it exists for."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["नहीं जाओ।", "यह मत है।", "मत नहीं जाओ।", "मत जाओ।"],
+              "options_read_as": ["nahiiṁ jaao.", "yah mat hai.", "mat nahiiṁ jaao.", "mat jaao."],
+              "answer_index": 3,
+              "explanation_en": "मत negates a command, नहीं negates a statement, and the two never stack together."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मत जाओ।", "मत करो।", "यहाँ मत बैठो।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L22-I3",
+          "type": "grammar",
+          "target": "नहीं / न / मत",
+          "read_as": "nahiiṁ / na / mat",
+          "pronunciation_notes": "All three are short and unstressed, and in fast speech नहीं can shorten until it sounds close to न.",
+          "gloss_en": "choosing between the three negatives",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["negation", "contrast", "decision", "register"],
+          "cards": {
+            "learn": {
+              "title_en": "Three negatives, three jobs",
+              "explanation_en": "नहीं negates ordinary statements and is the one you will use most. न is softer: mainly a tag asking for agreement, and a formal alternative elsewhere. मत is only ever for commands. Their jobs do not overlap, so the choice is settled by what kind of sentence you are building rather than by how strongly you mean it — which makes this easier than it first looks.",
+              "examples": [
+                { "hindi": "यह अच्छा नहीं है।", "read_as": "yah achchhaa nahiiṁ hai.", "english": "This is not good.", "note": "A statement, so नहीं." },
+                { "hindi": "यह अच्छा है न?", "read_as": "yah achchhaa hai na?", "english": "This is good, isn't it?", "note": "A tag, so न." },
+                { "hindi": "मत जाओ।", "read_as": "mat jaao.", "english": "Don't go.", "note": "A command, so मत." }
+              ],
+              "common_error": {
+                "wrong": "यह अच्छा मत है।",
+                "right": "यह अच्छा नहीं है।",
+                "why_en": "मत only negates commands. A statement always takes नहीं."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the statement.",
+              "question": "यह अच्छा ___ है।",
+              "question_read_as": "yah achchhaa ___ hai.",
+              "options": ["मत", "न", "नहीं", "जी"],
+              "options_read_as": ["mat", "na", "nahiiṁ", "jii"],
+              "answer_index": 2,
+              "explanation_en": "This is a statement rather than a command or a tag, so it takes नहीं."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence uses the right negative?",
+              "options": ["मत जाओ नहीं।", "यह अच्छा नहीं है।", "यह अच्छा मत है।", "नहीं जाओ।"],
+              "options_read_as": ["mat jaao nahiiṁ.", "yah achchhaa nahiiṁ hai.", "yah achchhaa mat hai.", "nahiiṁ jaao."],
+              "answer_index": 1,
+              "explanation_en": "Only one option matches its negative to its sentence type: a statement with नहीं."
+            }
+          },
+          "audio": {
+            "tts_strings": ["यह अच्छा नहीं है।", "यह अच्छा है न?", "मत जाओ।"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level completed the negatives. नहीं for statements, न for tags and formal writing, मत for commands — three words whose jobs do not overlap, so the sentence type decides which you need.",
+        "key_forms": ["यह अच्छा है न?", "मत जाओ।", "यह अच्छा नहीं है।"],
+        "next_up_en": "Next: word order, and why the verb never moves."
+      }
+    },
+    {
+      "level": 23,
+      "title_en": "Word order",
+      "title_hi": "वाक्य का क्रम",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L23-I1",
+          "type": "grammar",
+          "target": "घर में किताब है",
+          "read_as": "ghar meṁ kitaab hai",
+          "pronunciation_notes": "Four short words with the verb last and unstressed, which is the rhythm of almost every Hindi sentence.",
+          "gloss_en": "where a postpositional phrase sits",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["word_order", "head_final", "postposition", "sentence_building"],
+          "cards": {
+            "learn": {
+              "title_en": "Everything before the verb",
+              "explanation_en": "Hindi is head-final: the verb comes last and everything else stacks up in front of it. A phrase saying where something is goes near the front, the subject follows, and the verb closes the sentence. घर में किताब है is literally 'house-in book is'. English fronts the verb and trails the location, so the two languages build the same thought in almost opposite orders, and the habit takes a while.",
+              "examples": [
+                { "hindi": "घर में किताब है।", "read_as": "ghar meṁ kitaab hai.", "english": "There is a book in the house.", "note": "Location, then subject, then verb." },
+                { "hindi": "मेज़ पर चाय है।", "read_as": "mez par chaay hai.", "english": "There is tea on the table.", "note": "The same shape with a different postposition." },
+                { "hindi": "घर में बच्चे हैं।", "read_as": "ghar meṁ bachche haiṁ.", "english": "There are children in the house.", "note": "A plural subject takes a plural verb, and the order does not change." }
+              ],
+              "common_error": {
+                "wrong": "किताब है घर में।",
+                "right": "घर में किताब है।",
+                "why_en": "The verb goes last in Hindi, so nothing may follow it."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "घर ___ किताब है।",
+              "question_read_as": "ghar ___ kitaab hai.",
+              "options": ["पर", "में", "से", "को"],
+              "options_read_as": ["par", "meṁ", "se", "ko"],
+              "answer_index": 1,
+              "explanation_en": "The book is inside the house, so the postposition is में."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["घर में किताब है।", "किताब है घर में।", "है घर में किताब।", "घर किताब में है।"],
+              "options_read_as": ["ghar meṁ kitaab hai.", "kitaab hai ghar meṁ.", "hai ghar meṁ kitaab.", "ghar kitaab meṁ hai."],
+              "answer_index": 0,
+              "explanation_en": "The verb must come last, and में must follow the noun it belongs to."
+            }
+          },
+          "audio": {
+            "tts_strings": ["घर में किताब है।", "मेज़ पर चाय है।", "घर में बच्चे हैं।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L23-I2",
+          "type": "grammar",
+          "target": "मेज़ पर नई किताब है",
+          "read_as": "mez par naii kitaab hai",
+          "pronunciation_notes": "Five words in a single breath group, with the stress falling on नई rather than on the verb.",
+          "gloss_en": "building a longer sentence",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["word_order", "sentence_building", "adjective", "agreement"],
+          "cards": {
+            "learn": {
+              "title_en": "Stacking things up",
+              "explanation_en": "Longer sentences are built by adding more in front of the verb, never after it. मेज़ पर नई किताब है has a location, an adjective, a noun and a verb, in that order. Each new piece slots in before whatever came after it, and the verb stays exactly where it was. If you can keep the verb last, the rest of the order will mostly take care of itself.",
+              "examples": [
+                { "hindi": "मेज़ पर किताब है।", "read_as": "mez par kitaab hai.", "english": "There is a book on the table.", "note": "The basic frame." },
+                { "hindi": "मेज़ पर नई किताब है।", "read_as": "mez par naii kitaab hai.", "english": "There is a new book on the table.", "note": "An adjective added in front of the noun." },
+                { "hindi": "मेज़ पर दो नई किताबें हैं।", "read_as": "mez par do naii kitaabeṁ haiṁ.", "english": "There are two new books on the table.", "note": "A number added, and the verb turns plural." }
+              ],
+              "common_error": {
+                "wrong": "मेज़ पर नया किताब है।",
+                "right": "मेज़ पर नई किताब है।",
+                "why_en": "किताब is feminine, so नया has to take its irregular feminine form नई."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "मेज़ पर ___ किताब है।",
+              "question_read_as": "mez par ___ kitaab hai.",
+              "options": ["नया", "नए", "नयी", "नई"],
+              "options_read_as": ["nayaa", "nae", "nayii", "naii"],
+              "answer_index": 3,
+              "explanation_en": "किताब is feminine, and this adjective's irregular feminine is नई."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["मेज़ पर नया किताब है।", "नई किताब मेज़ पर है नहीं।", "मेज़ पर नई किताब है।", "मेज़ नई किताब पर है।"],
+              "options_read_as": ["mez par nayaa kitaab hai.", "naii kitaab mez par hai nahiiṁ.", "mez par naii kitaab hai.", "mez naii kitaab par hai."],
+              "answer_index": 2,
+              "explanation_en": "The adjective must agree with किताब, the postposition must follow मेज़, and nothing may come after the verb."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मेज़ पर किताब है।", "मेज़ पर नई किताब है।", "मेज़ पर दो नई किताबें हैं।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L23-I3",
+          "type": "grammar",
+          "target": "क्या मेज़ पर किताब है?",
+          "read_as": "kyaa mez par kitaab hai?",
+          "pronunciation_notes": "The क्या at the front is unstressed, and the sentence rises at the end rather than in the middle.",
+          "gloss_en": "questions keep the same order",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["word_order", "question", "yes_no_question", "sentence_building"],
+          "cards": {
+            "learn": {
+              "title_en": "Questions do not move anything",
+              "explanation_en": "English rearranges a sentence to make a question — 'there is a book' becomes 'is there a book'. Hindi does not. क्या goes at the front and everything else stays exactly where it was, verb included. That is one of the genuinely easy things about Hindi: you add a word rather than rebuilding the sentence, and the word order you have just learned carries straight over.",
+              "examples": [
+                { "hindi": "मेज़ पर किताब है।", "read_as": "mez par kitaab hai.", "english": "There is a book on the table.", "note": "The statement." },
+                { "hindi": "क्या मेज़ पर किताब है?", "read_as": "kyaa mez par kitaab hai?", "english": "Is there a book on the table?", "note": "क्या added at the front, and nothing else touched." },
+                { "hindi": "मेज़ पर क्या है?", "read_as": "mez par kyaa hai?", "english": "What is on the table?", "note": "क्या in the middle asks 'what' instead." }
+              ],
+              "common_error": {
+                "wrong": "है क्या मेज़ पर किताब?",
+                "right": "क्या मेज़ पर किताब है?",
+                "why_en": "The verb stays at the end in questions too. Only क्या is added, and only at the front."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the yes-or-no question.",
+              "question": "___ मेज़ पर किताब है?",
+              "question_read_as": "___ mez par kitaab hai?",
+              "options": ["क्या", "कौन", "कहाँ", "कब"],
+              "options_read_as": ["kyaa", "kaun", "kahãa", "kab"],
+              "answer_index": 0,
+              "explanation_en": "क्या at the front turns the statement into a yes-or-no question without moving anything."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence asks 'Is there a book on the table?'",
+              "options": ["है क्या मेज़ पर किताब?", "क्या है मेज़ पर किताब?", "मेज़ पर किताब क्या है?", "क्या मेज़ पर किताब है?"],
+              "options_read_as": ["hai kyaa mez par kitaab?", "kyaa hai mez par kitaab?", "mez par kitaab kyaa hai?", "kyaa mez par kitaab hai?"],
+              "answer_index": 3,
+              "explanation_en": "क्या goes at the front and the verb stays at the end. The third option asks what the book is instead."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मेज़ पर किताब है।", "क्या मेज़ पर किताब है?", "मेज़ पर क्या है?"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level set out Hindi word order. The verb comes last, everything else stacks up in front of it, and questions add a word rather than rearranging anything.",
+        "key_forms": ["घर में किताब है।", "मेज़ पर नई किताब है।", "क्या मेज़ पर किताब है?"],
+        "next_up_en": "Next: the connectors that join two sentences into one, which closes the module."
+      }
+    },
+    {
+      "level": 24,
+      "title_en": "Joining sentences",
+      "title_hi": "जोड़ने वाले शब्द",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "M05-L24-I1",
+          "type": "grammar",
+          "target": "और / लेकिन",
+          "read_as": "aur / lekin",
+          "pronunciation_notes": "Both sit between the clauses and take a small pause before them, which is how you hear where one sentence ends.",
+          "gloss_en": "joining and contrasting",
+          "gender": null,
+          "difficulty": 4,
+          "tags": ["connector", "conjunction", "clause", "contrast"],
+          "cards": {
+            "learn": {
+              "title_en": "और and लेकिन",
+              "explanation_en": "और joins two things — you have used it since Module 4 for joining nouns, and it joins whole sentences in exactly the same way. लेकिन contrasts them: 'but'. Both sit between the two clauses, where English puts them too, which makes these two of the easiest words in the module. Note that पर can also mean 'but', so the postposition पर and the conjunction पर are told apart by position alone.",
+              "examples": [
+                { "hindi": "चाय गरम है और मिठाई ताज़ी है।", "read_as": "chaay garam hai aur miṭhaaii taazii hai.", "english": "The tea is hot and the sweets are fresh.", "note": "Two complete sentences joined by और." },
+                { "hindi": "चाय गरम है लेकिन मिठाई ठंडी है।", "read_as": "chaay garam hai lekin miṭhaaii ṭhaṇḍii hai.", "english": "The tea is hot but the sweets are cold.", "note": "लेकिन marks the contrast between them." },
+                { "hindi": "घर बड़ा है लेकिन साफ़ नहीं है।", "read_as": "ghar baṛaa hai lekin saaf nahiiṁ hai.", "english": "The house is big but not clean.", "note": "The second clause is negated." }
+              ],
+              "common_error": {
+                "wrong": "चाय गरम है और ठंडी है।",
+                "right": "चाय गरम है लेकिन ठंडी नहीं है।",
+                "why_en": "और joins things that agree with each other. A contradiction needs लेकिन."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "चाय गरम है ___ मिठाई ठंडी है।",
+              "question_read_as": "chaay garam hai ___ miṭhaaii ṭhaṇḍii hai.",
+              "options": ["और", "क्योंकि", "लेकिन", "तो"],
+              "options_read_as": ["aur", "kyoṁki", "lekin", "to"],
+              "answer_index": 2,
+              "explanation_en": "The two halves contrast with each other, so the connector is लेकिन."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence is correct?",
+              "options": ["चाय गरम है और ठंडी है।", "चाय गरम है लेकिन मिठाई ठंडी है।", "चाय गरम लेकिन है।", "लेकिन चाय गरम है।"],
+              "options_read_as": ["chaay garam hai aur ṭhaṇḍii hai.", "chaay garam hai lekin miṭhaaii ṭhaṇḍii hai.", "chaay garam lekin hai.", "lekin chaay garam hai."],
+              "answer_index": 1,
+              "explanation_en": "लेकिन goes between two complete clauses, and the first option contradicts itself."
+            }
+          },
+          "audio": {
+            "tts_strings": ["चाय गरम है और मिठाई ताज़ी है।", "चाय गरम है लेकिन मिठाई ठंडी है।", "घर बड़ा है लेकिन साफ़ नहीं है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L24-I2",
+          "type": "grammar",
+          "target": "क्योंकि / इसलिए",
+          "read_as": "kyoṁki / isliye",
+          "pronunciation_notes": "क्योंकि opens with the same क्य stack as क्यों, and इसलिए runs to three quick syllables.",
+          "gloss_en": "because and therefore",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["connector", "cause", "result", "clause"],
+          "cards": {
+            "learn": {
+              "title_en": "क्योंकि and इसलिए",
+              "explanation_en": "क्योंकि means 'because' and introduces a reason. इसलिए means 'therefore' and introduces a result. They point in opposite directions, so which one you need depends on which clause you have put first. क्योंकि also finally lets you answer a क्यों question — you have been able to ask why since level fourteen, and this is the word that lets someone reply.",
+              "examples": [
+                { "hindi": "चाय अच्छी है क्योंकि गरम है।", "read_as": "chaay achchhii hai kyoṁki garam hai.", "english": "The tea is good because it is hot.", "note": "The reason comes after क्योंकि." },
+                { "hindi": "चाय गरम है इसलिए अच्छी है।", "read_as": "chaay garam hai isliye achchhii hai.", "english": "The tea is hot, therefore it is good.", "note": "The same two facts with the order reversed." },
+                { "hindi": "यह घर बड़ा है इसलिए महँगा है।", "read_as": "yah ghar baṛaa hai isliye mahãgaa hai.", "english": "This house is big, so it is expensive.", "note": "इसलिए introduces the consequence." }
+              ],
+              "common_error": {
+                "wrong": "चाय गरम है क्योंकि अच्छी है।",
+                "right": "चाय अच्छी है क्योंकि गरम है।",
+                "why_en": "क्योंकि introduces the reason, so the reason has to be the clause that follows it."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the sentence.",
+              "question": "चाय अच्छी है ___ गरम है।",
+              "question_read_as": "chaay achchhii hai ___ garam hai.",
+              "options": ["इसलिए", "लेकिन", "और", "क्योंकि"],
+              "options_read_as": ["isliye", "lekin", "aur", "kyoṁki"],
+              "answer_index": 3,
+              "explanation_en": "The second clause gives the reason for the first, so the connector is क्योंकि."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence means 'The tea is good because it is hot'?",
+              "options": ["चाय अच्छी है क्योंकि गरम है।", "चाय अच्छी है इसलिए गरम है।", "चाय गरम है क्योंकि अच्छी है।", "चाय गरम है इसलिए ठंडी है।"],
+              "options_read_as": ["chaay achchhii hai kyoṁki garam hai.", "chaay achchhii hai isliye garam hai.", "chaay garam hai kyoṁki achchhii hai.", "chaay garam hai isliye ṭhaṇḍii hai."],
+              "answer_index": 0,
+              "explanation_en": "The reason must follow क्योंकि. Swapping the connector or the clauses reverses the logic."
+            }
+          },
+          "audio": {
+            "tts_strings": ["चाय अच्छी है क्योंकि गरम है।", "चाय गरम है इसलिए अच्छी है।", "यह घर बड़ा है इसलिए महँगा है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M05-L24-I3",
+          "type": "grammar",
+          "target": "फिर / तो",
+          "read_as": "phir / to",
+          "pronunciation_notes": "फिर opens with an aspirated फ, and तो is so unstressed in speech that it often almost disappears.",
+          "gloss_en": "then, and so",
+          "gender": null,
+          "difficulty": 5,
+          "tags": ["connector", "sequence", "consequence", "filler", "spoken_form"],
+          "cards": {
+            "learn": {
+              "title_en": "फिर and तो",
+              "explanation_en": "फिर means 'then' in the sense of next: one thing after another. तो is looser — it can mean 'so' or 'then', and in conversation it very often carries no meaning at all, working as a filler that softens whatever follows. Both are extremely common, and तो in particular is a word you will hear far more often than you can define. Do not worry about pinning it down; notice where it falls and copy that.",
+              "examples": [
+                { "hindi": "फिर क्या?", "read_as": "phir kyaa?", "english": "Then what?", "note": "फिर asking what comes next." },
+                { "hindi": "तो यह अच्छा है।", "read_as": "to yah achchhaa hai.", "english": "So this is good.", "note": "तो introducing a conclusion." },
+                { "hindi": "चाय गरम है तो अच्छी है।", "read_as": "chaay garam hai to achchhii hai.", "english": "The tea is hot, so it is good.", "note": "तो linking a condition to its result." }
+              ],
+              "common_error": {
+                "wrong": "फिर यह अच्छा है क्योंकि।",
+                "right": "फिर यह अच्छा है।",
+                "why_en": "क्योंकि has to be followed by a reason and cannot be left at the end of a sentence."
+              }
+            },
+            "practice": {
+              "format": "complete_the_sentence",
+              "prompt_en": "Complete the question meaning 'Then what?'",
+              "question": "___ क्या?",
+              "question_read_as": "___ kyaa?",
+              "options": ["तो", "फिर", "और", "लेकिन"],
+              "options_read_as": ["to", "phir", "aur", "lekin"],
+              "answer_index": 1,
+              "explanation_en": "फिर means 'then' in the sense of what happens next."
+            },
+            "game": {
+              "format": "pick_the_right_form",
+              "question_en": "Which sentence means 'The tea is hot, so it is good'?",
+              "options": ["चाय गरम है लेकिन अच्छी है।", "चाय गरम है और अच्छी है।", "चाय गरम है तो अच्छी है।", "चाय गरम है क्योंकि अच्छी है।"],
+              "options_read_as": ["chaay garam hai lekin achchhii hai.", "chaay garam hai aur achchhii hai.", "chaay garam hai to achchhii hai.", "chaay garam hai kyoṁki achchhii hai."],
+              "answer_index": 2,
+              "explanation_en": "All four are grammatical, but only तो gives the sense of one thing following from another."
+            }
+          },
+          "audio": {
+            "tts_strings": ["फिर क्या?", "तो यह अच्छा है।", "चाय गरम है तो अच्छी है।"],
+            "requires_recording": false
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "This level closed Module 5 with the connectors. और joins, लेकिन contrasts, क्योंकि gives a reason, इसलिए gives a result, फिर marks sequence, and तो does a bit of everything — which is why it is the one you will hear most.",
+        "key_forms": ["चाय गरम है लेकिन ठंडी नहीं है।", "चाय अच्छी है क्योंकि गरम है।", "फिर क्या?"],
+        "next_up_en": "Module 6 takes on the oblique case — the second form every Hindi noun has, and the reason this module could only use nouns that never change."
+      }
+    }
+  ]
+}
