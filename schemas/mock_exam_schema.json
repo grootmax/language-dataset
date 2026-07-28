@@ -38,8 +38,8 @@
                   "answer_index": { "type": "integer" }
                 },
                 "patternProperties": {
-                  "^prompt_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" },
-                  "^explanation_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+                  "^prompt_[a-z]{2}$": { "type": "string" },
+                  "^explanation_[a-z]{2}$": { "type": "string" }
                 },
                 "required": ["id", "source_item_ids", "type", "options", "answer_index"]
               }
@@ -49,7 +49,7 @@
         }
       },
       "patternProperties": {
-        "^module_name_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+        "^module_name_[a-z]{2}$": { "type": "string" }
       },
       "required": ["module", "mock_exam"]
     },
@@ -85,23 +85,23 @@
                     }
                   },
                   "patternProperties": {
-                    "^prompt_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" },
-                    "^explanation_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+                    "^prompt_[a-z]{2}$": { "type": "string" },
+                    "^explanation_[a-z]{2}$": { "type": "string" }
                   },
                   "required": ["n", "options", "answer_index"]
                 }
               }
             },
             "patternProperties": {
-              "^title_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" },
-              "^note_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+              "^title_[a-z]{2}$": { "type": "string" },
+              "^note_[a-z]{2}$": { "type": "string" }
             },
             "required": ["section", "questions"]
           }
         }
       },
       "patternProperties": {
-        "^sourcing_note_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+        "^sourcing_note_[a-z]{2}$": { "type": "string" }
       },
       "required": ["covers_modules", "questions_total", "sections"]
     }

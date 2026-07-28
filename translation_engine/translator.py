@@ -1,7 +1,7 @@
 import json
 import os
 import re
-from translation_engine.prompts import LANGUAGES, get_prompt_template
+from translation_engine import prompts
 from translation_engine.validators import validate_file_comprehensive, ValidationError
 
 def adapt_phonetics(text, target_lang):
@@ -12,7 +12,7 @@ def adapt_phonetics(text, target_lang):
     if not isinstance(text, str):
         return text
         
-    lang_info = LANGUAGES.get(target_lang)
+    lang_info = prompts.LANGUAGES.get(target_lang)
     if not lang_info:
         return text
         
@@ -71,9 +71,12 @@ def simulate_translation(data, target_lang):
 
 class CurriculumTranslator:
     def __init__(self, target_lang):
-        if target_lang not in LANGUAGES:
+        from translation_engine.prompts import normalize_language_code, validate_config_exists
+        normalized = normalize_language_code(target_lang)
+        validate_config_exists(normalized)
+        if normalized not in prompts.LANGUAGES:
             raise ValueError(f"Unsupported target language: {target_lang}")
-        self.target_lang = target_lang
+        self.target_lang = normalized
         
     def translate_dict(self, data, use_simulation=True):
         """

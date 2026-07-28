@@ -36,14 +36,14 @@
                   "type": "array",
                   "items": { "type": "string" }
                 },
-                "example_word": {
+                 "example_word": {
                   "type": "object",
                   "properties": {
                     "hindi": { "type": "string" },
                     "read_as": { "type": "string" }
                   },
                   "patternProperties": {
-                    "^(english|spanish|french|german|japanese|chinese|korean|italian|portuguese|russian|arabic|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+                    "^(english|[a-z]{2})$": { "type": "string" }
                   },
                   "required": ["hindi", "read_as"]
                 },
@@ -53,8 +53,8 @@
                     "learn": {
                       "type": "object",
                       "patternProperties": {
-                        "^title_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" },
-                        "^explanation_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+                        "^title_[a-z]{2}$": { "type": "string" },
+                        "^explanation_[a-z]{2}$": { "type": "string" }
                       },
                       "properties": {
                         "examples": {
@@ -67,7 +67,7 @@
                               "note": { "type": "string" }
                             },
                             "patternProperties": {
-                              "^(english|spanish|french|german|japanese|chinese|korean|italian|portuguese|russian|arabic|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+                              "^(english|[a-z]{2})$": { "type": "string" }
                             },
                             "required": ["hindi", "read_as"]
                           }
@@ -79,7 +79,7 @@
                             "right": { "type": "string" }
                           },
                           "patternProperties": {
-                            "^why_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+                            "^why_[a-z]{2}$": { "type": "string" }
                           },
                           "required": ["wrong", "right"]
                         }
@@ -102,8 +102,8 @@
                         "answer_index": { "type": "integer" }
                       },
                       "patternProperties": {
-                        "^prompt_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" },
-                        "^explanation_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+                        "^prompt_[a-z]{2}$": { "type": "string" },
+                        "^explanation_[a-z]{2}$": { "type": "string" }
                       },
                       "required": ["format", "question", "options", "answer_index"]
                     },
@@ -122,8 +122,8 @@
                         "answer_index": { "type": "integer" }
                       },
                       "patternProperties": {
-                        "^question_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" },
-                        "^explanation_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+                        "^question_[a-z]{2}$": { "type": "string" },
+                        "^explanation_[a-z]{2}$": { "type": "string" }
                       },
                       "required": ["format", "options", "answer_index"]
                     }
@@ -154,21 +154,21 @@
               }
             },
             "patternProperties": {
-              "^recap_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" },
-              "^next_up_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+              "^recap_[a-z]{2}$": { "type": "string" },
+              "^next_up_[a-z]{2}$": { "type": "string" }
             },
             "required": ["key_forms"]
           }
         },
         "patternProperties": {
-          "^title_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+          "^title_[a-z]{2}$": { "type": "string" }
         },
         "required": ["level", "items", "summary"]
       }
     }
   },
   "patternProperties": {
-    "^module_name_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+    "^module_name_[a-z]{2}$": { "type": "string" }
   },
   "required": ["module", "phase", "levels"]
 }
