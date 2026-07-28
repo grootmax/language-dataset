@@ -37,15 +37,15 @@
                   "items": { "type": "string" }
                 },
                 "example_word": {
-                  "type": "object",
+                  "type": ["object", "null"],
                   "properties": {
-                    "hindi": { "type": "string" },
+                    "text": { "type": "string" },
                     "read_as": { "type": "string" }
                   },
                   "patternProperties": {
                     "^(english|spanish|french|german|japanese|chinese|korean|italian|portuguese|russian|arabic|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
                   },
-                  "required": ["hindi", "read_as"]
+                  "required": ["text", "read_as"]
                 },
                 "cards": {
                   "type": "object",
@@ -62,18 +62,18 @@
                           "items": {
                             "type": "object",
                             "properties": {
-                              "hindi": { "type": "string" },
+                              "text": { "type": "string" },
                               "read_as": { "type": "string" },
                               "note": { "type": "string" }
                             },
                             "patternProperties": {
                               "^(english|spanish|french|german|japanese|chinese|korean|italian|portuguese|russian|arabic|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
                             },
-                            "required": ["hindi", "read_as"]
+                            "required": ["text", "read_as"]
                           }
                         },
                         "common_error": {
-                          "type": "object",
+                          "type": ["object", "null"],
                           "properties": {
                             "wrong": { "type": "string" },
                             "right": { "type": "string" }
@@ -105,7 +105,7 @@
                         "^prompt_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" },
                         "^explanation_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
                       },
-                      "required": ["format", "question", "options", "answer_index"]
+                      "required": ["format"]
                     },
                     "game": {
                       "type": "object",
@@ -125,28 +125,27 @@
                         "^question_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" },
                         "^explanation_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
                       },
-                      "required": ["format", "options", "answer_index"]
+                      "required": ["format"]
                     }
                   },
                   "required": ["learn", "practice", "game"]
                 },
                 "audio": {
-                  "type": "object",
+                  "type": ["object", "null"],
                   "properties": {
                     "tts_strings": {
                       "type": "array",
                       "items": { "type": "string" }
                     },
                     "requires_recording": { "type": "boolean" }
-                  },
-                  "required": ["tts_strings", "requires_recording"]
+                  }
                 }
               },
-              "required": ["id", "type", "target", "read_as", "tags", "example_word", "cards", "audio"]
+              "required": ["id", "type"]
             }
           },
           "summary": {
-            "type": "object",
+            "type": ["object", "null"],
             "properties": {
               "key_forms": {
                 "type": "array",
@@ -163,12 +162,12 @@
         "patternProperties": {
           "^title_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
         },
-        "required": ["level", "items", "summary"]
+        "required": ["level", "items"]
       }
     }
   },
   "patternProperties": {
     "^module_name_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
   },
-  "required": ["module", "phase", "levels"]
+  "required": ["module", "levels"]
 }

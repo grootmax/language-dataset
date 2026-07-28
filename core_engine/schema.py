@@ -69,6 +69,9 @@ LEVEL_SCHEMA = {
                                     "type": "array",
                                     "items": {"type": "string"}
                                 },
+                                "example_word": {
+                                    "type": "object"
+                                },
                                 "attributes": {
                                     "type": "object",
                                     "additionalProperties": True

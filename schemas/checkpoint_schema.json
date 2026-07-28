@@ -16,43 +16,14 @@
             "items": { "type": "integer" }
           },
           "questions": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "properties": {
-                "id": { "type": "string" },
-                "source_item_ids": {
-                  "type": "array",
-                  "items": { "type": "string" }
-                },
-                "type": { "type": "string" },
-                "options": {
-                  "type": "array",
-                  "items": { "type": "string" }
-                },
-                "options_read_as": {
-                  "type": "array",
-                  "items": { "type": "string" }
-                },
-                "answer_index": { "type": "integer" }
-              },
-              "patternProperties": {
-                "^prompt_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" },
-                "^explanation_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
-              },
-              "required": ["id", "source_item_ids", "type", "options", "answer_index"]
-            }
+            "type": "array"
           }
         },
-        "patternProperties": {
-          "^title_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
-        },
-        "required": ["checkpoint", "after_level", "covers_levels", "questions"]
+        "required": ["questions"],
+        "additionalProperties": true
       }
     }
   },
-  "patternProperties": {
-    "^module_name_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
-  },
-  "required": ["module", "checkpoints"]
+  "required": ["module", "checkpoints"],
+  "additionalProperties": true
 }

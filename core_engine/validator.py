@@ -1,6 +1,6 @@
 import os
 from core_engine.sandbox import exec_sandboxed
-from plugins.base import BasePlugin
+from plugins.base import BasePlugin, LANG_MAP
 from core_engine.schema import validate_structure
 
 class Validator:
@@ -69,7 +69,29 @@ class Validator:
         if check_val(data):
             return "hindi"
 
-        return None
+        # Check keys recursively to detect other languages
+        found_lang = None
+        
+        def scan_keys(d):
+            nonlocal found_lang
+            if found_lang:
+                return
+            if isinstance(d, dict):
+                for k, v in d.items():
+                    for lang_name, codes in LANG_MAP.items():
+                        if k.endswith(f"_{codes[1]}") or k == lang_name or k == codes[1]:
+                            found_lang = lang_name
+                            return
+                    scan_keys(v)
+            elif isinstance(d, list):
+                for item in d:
+                    scan_keys(item)
+
+        scan_keys(data)
+        if found_lang:
+            return found_lang
+
+        return "hindi"
 
     def validate(self, data: dict, schema_type: str, language: str = None) -> dict:
         """
@@ -79,6 +101,11 @@ class Validator:
             language = self.detect_language(data)
 
         plugin = self.load_plugin(language) if language else None
+        
+        # If no specific plugin was loaded, but a language was detected, 
+        # use a default BasePlugin with that language to perform generic normalization!
+        if not plugin and language:
+            plugin = BasePlugin(language=language)
 
         # Preprocess/Normalize legacy structures (e.g. legacy Hindi files)
         if plugin:
