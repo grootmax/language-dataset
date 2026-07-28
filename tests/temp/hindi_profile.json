@@ -1,0 +1,15 @@
+{
+  "language": "hindi",
+  "permitted_genders": [
+    "masculine",
+    "feminine"
+  ],
+  "active_phonetic_systems": [
+    "abugida"
+  ],
+  "script_traits": {
+    "is_abugida": true,
+    "has_matra": true,
+    "has_sound_family": true
+  }
+}
