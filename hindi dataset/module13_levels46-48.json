@@ -9,6 +9,23 @@
   },
   "block_kind": "reading",
   "block_note": "The register turns over inside this block for the second time in the module. Levels 46 and 47 close the news, and from level 47 item 3 onward the texts are narrative — first person, past habitual, and written to be read slowly. The inference questions change with them: a news item asks what the report is doing, a narrative asks what the writer is not saying.",
+  "grammar_prep_card": {
+    "structure": "subjunctive_and_reported_speech",
+    "title_en": "Subjunctive and Reported Speech (शायद, ताकि, कि)",
+    "explanation_en": "To express wishes, possibilities, or indirect commands, Hindi uses the subjunctive mood. You will see it with words like 'शायद' (perhaps) or 'ताकि' (so that): 'शायद वो कल आए' (Perhaps he will come tomorrow). In reported speech, Hindi uses 'कि' (that). Crucially, unlike English, Hindi does not shift tenses or pronouns in reported speech: 'राहुल ने कहा कि मैं थक गया हूँ' means 'Rahul said that he [literally, I] was tired', preserving the speaker's original words.",
+    "examples": [
+      {
+        "hindi": "शायद वो कल आए।",
+        "read_as": "shaayad vo kal aae.",
+        "english": "Perhaps he will come tomorrow."
+      },
+      {
+        "hindi": "राहुल ने कहा कि मैं थक गया हूँ।",
+        "read_as": "raahul ne kahaa ki maiṁ thak gayaa huuṁ.",
+        "english": "Rahul said that he was tired."
+      }
+    ]
+  },
   "levels": [
     {
       "level": 46,

@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MockOrFinalExamSchema",
+  "type": "object",
+  "properties": {
+    "kind": { "type": "string", "enum": ["mock_exam", "final_exam"] }
+  },
+  "required": ["kind"],
+  "oneOf": [
+    {
+      "properties": {
+        "kind": { "const": "mock_exam" },
+        "module": { "type": "integer" },
+        "mock_exam": {
+          "type": "object",
+          "properties": {
+            "total_questions": { "type": "integer" },
+            "weighting_note": { "type": "string" },
+            "questions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": { "type": "string" },
+                  "source_item_ids": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                  },
+                  "type": { "type": "string" },
+                  "options": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                  },
+                  "options_read_as": {
+                    "type": "array",
+                    "items": { "type": "string" }
+                  },
+                  "answer_index": { "type": "integer" }
+                },
+                "patternProperties": {
+                  "^prompt_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" },
+                  "^explanation_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+                },
+                "required": ["id", "source_item_ids", "type", "options", "answer_index"]
+              }
+            }
+          },
+          "required": ["total_questions", "questions"]
+        }
+      },
+      "patternProperties": {
+        "^module_name_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+      },
+      "required": ["module", "mock_exam"]
+    },
+    {
+      "properties": {
+        "kind": { "const": "final_exam" },
+        "covers_modules": { "type": "string" },
+        "questions_total": { "type": "integer" },
+        "weighting": { "type": "object" },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "section": { "type": "string" },
+              "questions_range": { "type": "string" },
+              "questions": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "n": { "type": "integer" },
+                    "prerequisite_inferred": { "type": "boolean" },
+                    "options": {
+                      "type": "array",
+                      "items": { "type": "string" }
+                    },
+                    "answer_index": { "type": "integer" },
+                    "source": { "type": "string" },
+                    "source_item_ids": {
+                      "type": "array",
+                      "items": { "type": "string" }
+                    }
+                  },
+                  "patternProperties": {
+                    "^prompt_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" },
+                    "^explanation_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+                  },
+                  "required": ["n", "options", "answer_index"]
+                }
+              }
+            },
+            "patternProperties": {
+              "^title_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" },
+              "^note_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+            },
+            "required": ["section", "questions"]
+          }
+        }
+      },
+      "patternProperties": {
+        "^sourcing_note_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+      },
+      "required": ["covers_modules", "questions_total", "sections"]
+    }
+  ]
+}

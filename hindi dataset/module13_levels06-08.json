@@ -9,6 +9,23 @@
   },
   "block_kind": "reading",
   "block_note": "The first reading block. Signs are where Hindi is most Sanskrit-leaning, so this is also where formal vocabulary can be introduced without contrivance. Every inference question carries requires_lines — the line numbers it draws on — and that list must have at least two entries.",
+  "grammar_prep_card": {
+    "structure": "jo_vah",
+    "title_en": "Relative-Correlative Sentences (जो ... वह)",
+    "explanation_en": "In Hindi, complex sentences are often built using two-part correlative structures, like 'जो ... वह' (the one who ... he/she/it). While English drops the second pronoun ('The boy [who] came yesterday is my brother'), Hindi strictly requires both halves: 'जो लड़का कल आया, वह मेरा भाई है'. Leaving out the 'वह' is a major grammar error. You will also see oblique forms like 'जिसने', 'जिसे', and 'जिसका' pointing back to the subject.",
+    "examples": [
+      {
+        "hindi": "जो लड़का कल आया, वह मेरा भाई है।",
+        "read_as": "jo laṛkaa kal aayaa, vah meraa bhaaii hai.",
+        "english": "The boy who came yesterday is my brother."
+      },
+      {
+        "hindi": "जो किताब मेज़ पर है, वह मेरी है।",
+        "read_as": "jo kitaab mez par hai, vah merii hai.",
+        "english": "The book which is on the table is mine."
+      }
+    ]
+  },
   "levels": [
     {
       "level": 6,

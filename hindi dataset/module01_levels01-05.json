@@ -62,7 +62,7 @@
           },
           "audio": {
             "tts_strings": ["अ", "अनार", "अब", "कमल"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -116,7 +116,7 @@
           },
           "audio": {
             "tts_strings": ["आ", "आम", "काम", "आना"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -170,7 +170,7 @@
           },
           "audio": {
             "tts_strings": ["इ", "इमली", "किताब", "दिन"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -237,7 +237,7 @@
           },
           "audio": {
             "tts_strings": ["ई", "ईख", "नीला", "दीवार"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -291,7 +291,7 @@
           },
           "audio": {
             "tts_strings": ["उ", "उल्लू", "बुरा", "सुबह"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -345,7 +345,7 @@
           },
           "audio": {
             "tts_strings": ["ऊ", "ऊन", "फूल", "दूध"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -412,7 +412,7 @@
           },
           "audio": {
             "tts_strings": ["ए", "एक", "मेरा", "देश"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -466,7 +466,7 @@
           },
           "audio": {
             "tts_strings": ["ऐ", "पैसा", "है", "कैसे"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -520,7 +520,7 @@
           },
           "audio": {
             "tts_strings": ["ओ", "ओस", "सोना", "दो"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -587,7 +587,7 @@
           },
           "audio": {
             "tts_strings": ["औ", "और", "कौन", "नौ"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -641,7 +641,7 @@
           },
           "audio": {
             "tts_strings": ["ऋ", "ऋतु", "कृपया", "अमृत"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -695,7 +695,7 @@
           },
           "audio": {
             "tts_strings": ["क", "ख", "कोना", "खोना", "पल", "फल"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -762,7 +762,7 @@
           },
           "audio": {
             "tts_strings": ["ट", "त", "ड", "द", "दाल", "डाल", "टमाटर"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -816,7 +816,7 @@
           },
           "audio": {
             "tts_strings": ["हंस", "हँस", "हिंदी", "हँसना"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -870,7 +870,7 @@
           },
           "audio": {
             "tts_strings": ["व", "ब", "वार", "बार", "वापस", "वह"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],

@@ -62,7 +62,7 @@
           },
           "audio": {
             "tts_strings": ["क", "कमल", "काम", "एक"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -116,7 +116,7 @@
           },
           "audio": {
             "tts_strings": ["ख", "खाना", "खोना", "लिखना"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -166,7 +166,7 @@
           },
           "audio": {
             "tts_strings": ["ग", "गाना", "गरम", "आग"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -233,7 +233,7 @@
           },
           "audio": {
             "tts_strings": ["घ", "घर", "घास", "घंटा"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -283,7 +283,7 @@
           },
           "audio": {
             "tts_strings": ["ङ", "रंग", "संगीत", "कंघी"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -337,7 +337,7 @@
           },
           "audio": {
             "tts_strings": ["कान", "खान", "कोई", "काम"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -404,7 +404,7 @@
           },
           "audio": {
             "tts_strings": ["च", "चाय", "चार", "चलना"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -458,7 +458,7 @@
           },
           "audio": {
             "tts_strings": ["छ", "छह", "छोटा", "मछली"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -508,7 +508,7 @@
           },
           "audio": {
             "tts_strings": ["ज", "जाना", "जगह", "आज"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -575,7 +575,7 @@
           },
           "audio": {
             "tts_strings": ["झ", "झूठ", "झंडा", "समझना"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -625,7 +625,7 @@
           },
           "audio": {
             "tts_strings": ["ञ", "चंचल", "पंचायत", "मंजिल"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -679,7 +679,7 @@
           },
           "audio": {
             "tts_strings": ["चल", "छल", "चाय", "चार"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -742,7 +742,7 @@
           },
           "audio": {
             "tts_strings": ["ट", "टमाटर", "टोपी", "छोटा"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -796,7 +796,7 @@
           },
           "audio": {
             "tts_strings": ["ठ", "ठंडा", "ठीक", "मीठा"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -850,7 +850,7 @@
           },
           "audio": {
             "tts_strings": ["ड", "डाल", "डर", "अंडा"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],

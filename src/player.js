@@ -6,32 +6,6 @@ export class Player {
     this.config = gameConfig;
     this.engine = gameConfig.engine || gameConfig.format || 'unknown';
     this.state = null;
-    this.gameplayModifiers = this._parseGameplayTags(gameConfig.tags || []);
-  }
-
-  _parseGameplayTags(tags) {
-    const modifiers = {};
-    if (!Array.isArray(tags)) return modifiers;
-    for (const tag of tags) {
-      if (typeof tag === 'string') {
-        const lowerTag = tag.toLowerCase().trim();
-        // Look for gameplay modifiers:
-        // "gameplay:difficulty:hard"
-        // "gameplay:timer:30"
-        // "gameplay:options_count:5"
-        // "gameplay:theme:sepia"
-        if (lowerTag.startsWith('gameplay:')) {
-          const parts = tag.split(':');
-          if (parts.length >= 2) {
-            const key = parts[1].trim().toLowerCase();
-            const valStr = parts.slice(2).join(':').trim();
-            const valNum = parseFloat(valStr);
-            modifiers[key] = !isNaN(valNum) ? valNum : valStr;
-          }
-        }
-      }
-    }
-    return modifiers;
   }
 
   instantiate() {
@@ -58,21 +32,6 @@ export class Player {
         this.state = this._initGenericEngine();
         break;
     }
-
-    // Apply parsed tag parameters to gameplay properties at runtime
-    if (this.gameplayModifiers.difficulty) {
-      this.state.difficulty = this.gameplayModifiers.difficulty;
-    }
-    if (this.gameplayModifiers.timer !== undefined) {
-      this.state.timer = this.gameplayModifiers.timer;
-    }
-    if (this.gameplayModifiers.theme) {
-      this.state.theme = this.gameplayModifiers.theme;
-    }
-    if (this.gameplayModifiers.options_count && Array.isArray(this.state.items)) {
-      this.state.items = this.state.items.slice(0, this.gameplayModifiers.options_count);
-    }
-
     return this.state;
   }
 
@@ -179,13 +138,9 @@ export class Player {
   _generateHTML() {
     // Generate a simple and safe mockup of HTML for rendering/testing the game player UI
     let content = '';
-    const themeClass = this.state.theme ? ` theme-${this.state.theme}` : '';
-    const timerHtml = this.state.timer !== undefined ? `<div class="game-timer">Time: ${this.state.timer}s</div>` : '';
-
     if (this.state.engine === 'sorting') {
       content = `
-        <div class="sorting-game${themeClass}">
-          ${timerHtml}
+        <div class="sorting-game">
           <h2>${this.state.title}</h2>
           <div class="buckets">
             ${this.state.categories.map(cat => `<div class="bucket" data-category="${cat}">${cat}</div>`).join('')}
@@ -197,8 +152,7 @@ export class Player {
       `;
     } else if (this.state.engine === 'matching') {
       content = `
-        <div class="matching-game${themeClass}">
-          ${timerHtml}
+        <div class="matching-game">
           <h2>${this.state.title}</h2>
           <div class="left-col">
             ${this.state.pairs.map(pair => `<div class="match-left" data-id="${pair.id}">${pair.left}</div>`).join('')}
@@ -210,8 +164,7 @@ export class Player {
       `;
     } else {
       content = `
-        <div class="generic-game${themeClass}">
-          ${timerHtml}
+        <div class="generic-game">
           <h2>${this.state.title}</h2>
         </div>
       `;

@@ -1,0 +1,697 @@
+{
+  "module": 13,
+  "module_name_en": "Core Words III and Graded Reading",
+  "module_name_hi": "शब्द भंडार ३ और पठन",
+  "phase": 5,
+  "batch": {
+    "levels_from": 14,
+    "levels_to": 16
+  },
+  "block_kind": "reading",
+  "block_note": "Public signs, working hours, warnings, and safety rules.",
+  "grammar_prep_card": {
+    "structure": "written_rules_and_passive",
+    "title_en": "Written Signs, Negation, and Passives",
+    "explanation_en": "On public signs, warnings, and institutional notices, Hindi uses a more formal, Sanskrit-leaning register. You will see written negative particles like 'न' (rather than spoken 'मत' or neutral 'नहीं') to indicate prohibitions (e.g., 'धूम्रपान न करें'). Additionally, actions are often expressed receptively in the passive voice using 'जाना' (to go) as an auxiliary verb, or with formal verbs like 'प्रवेश' (entry) and 'निकास' (exit) where speech would use simpler verbs.",
+    "examples": [
+      {
+        "hindi": "यहाँ नहाना सख्त मना है।",
+        "read_as": "yahaaṁ nahaanaa sakht manaa hai.",
+        "english": "Bathing here is strictly prohibited."
+      },
+      {
+        "hindi": "सुरक्षित निकास के लिए केवल सीढ़ी का उपयोग किया जाना चाहिए।",
+        "read_as": "surakṣit nikaas ke lie keval siiḍhii kaa upayog kiyaa jaanaa chaahie.",
+        "english": "Only stairs should be used for safe exit."
+      }
+    ]
+  },
+  "levels": [
+    {
+      "level": 14,
+      "title_en": "Warnings and Emergencies",
+      "title_hi": "चेतावनी · आपातकाल · सूचना",
+      "items": [
+        {
+          "id": "M13-L14-I1",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "चेतावनी",
+          "target_read_as": "chetaavnii",
+          "target_gloss_en": "warning",
+          "target_gender": "f",
+          "word_count": 18,
+          "difficulty": 6,
+          "tags": ["sign", "warning", "safety"],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "चेतावनी: आगे तालाब का पानी बहुत गहरा है।",
+                "read_as": "chetaavnii: aage taalaab kaa paanii bahut gahraa hai.",
+                "english": "Warning: the pond water ahead is very deep."
+              },
+              {
+                "n": 2,
+                "hindi": "यहाँ नहाना और तैरना सख्त मना है।",
+                "read_as": "yahaaṁ nahaanaa aur tairnaa sakht manaa hai.",
+                "english": "Bathing and swimming here are strictly prohibited."
+              },
+              {
+                "n": 3,
+                "hindi": "किसी भी असुविधा के लिए खेद है।",
+                "read_as": "kisii bhii asuvidhaa ke lie khed hai.",
+                "english": "Regret for any inconvenience."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "चेतावनी — the official word for warning",
+              "explanation_en": "चेतावनी is a warning, feminine, ending in -ई. Official boards and notices use it to alert the public. Notice the negative 'न' or 'मना' on signs. We also see 'असुविधा' which means inconvenience, built from the prefix 'अ-' (un-) and 'सुविधा' (facility/convenience). So 'असुविधा' is literally 'un-convenience'.",
+              "register_note_en": "चेतावनी (written/official) · सावधान (spoken/written warning). 'असुविधा' is formal; everyday speech uses 'दिक्कत'.",
+              "vocabulary_notes": [
+                "चेतावनी — warning, feminine.",
+                "असुविधा — inconvenience, feminine, built as अ- plus सुविधा.",
+                "तालाब — pond, masculine."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What is strictly prohibited at this location?",
+              "options": [
+                "Bathing and swimming",
+                "Fishing and boating",
+                "Walking near the water",
+                "Parking vehicles"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 2 states: यहाँ नहाना और तैरना सख्त मना है (Bathing and swimming here are strictly prohibited)."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [1, 2],
+              "question_en": "Why is swimming forbidden here?",
+              "options": [
+                "Because the water is dirty",
+                "Because the water is deep and poses a danger",
+                "Because it is a private property",
+                "Because there are no lifeguards"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Combining Line 1 (the water is deep) and Line 2 (swimming is forbidden) lets us infer that swimming is prohibited due to the hazard of deep water."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": ["चेतावनी"]
+          }
+        },
+        {
+          "id": "M13-L14-I2",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "आपातकाल",
+          "target_read_as": "aapaatkaal",
+          "target_gloss_en": "emergency",
+          "target_gender": "m",
+          "word_count": 21,
+          "difficulty": 6,
+          "tags": ["sign", "emergency", "instructions"],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "आपातकाल: आपातकालीन निकास का द्वार सीधे आगे है।",
+                "read_as": "aapaatkaal: aapaatkaaliin nikaas kaa dvaar siidhe aage hai.",
+                "english": "Emergency: the emergency exit door is straight ahead."
+              },
+              {
+                "n": 2,
+                "hindi": "द्वार खोलने के लिए लाल बटन का प्रयोग करें।",
+                "read_as": "dvaar kholne ke lie laal baṭan kaa prayog kareṁ.",
+                "english": "Use the red button to open the door."
+              },
+              {
+                "n": 3,
+                "hindi": "अन्य समय में प्रवेश वर्जित है।",
+                "read_as": "anya samay meṁ pravesh varjit hai.",
+                "english": "At other times, entry is prohibited."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "आपातकाल — emergency situations",
+              "explanation_en": "आपातकाल means emergency, masculine. Its adjective form is आपातकालीन (emergency-related), which modifies 'निकास' (exit). On official signs, 'प्रयोग करना' (to use) is preferred over the everyday spoken 'इस्तेमाल करना' or the casual Hinglish 'यूज़ करना'.",
+              "register_note_en": "प्रयोग करना (formal sign) · इस्तेमाल करना (everyday speech) · यूज़ करना (Hinglish/messages).",
+              "vocabulary_notes": [
+                "आपातकाल — emergency, masculine.",
+                "प्रयोग — use, masculine. 'प्रयोग करना' is transitive.",
+                "वर्जित — prohibited, forbidden. Sanskrit-leaning adjective."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What is the everyday equivalent of प्रयोग करना?",
+              "options": [
+                "प्रस्तुत करना",
+                "संपर्क करना",
+                "जमा करना",
+                "इस्तेमाल करना"
+              ],
+              "answer_index": 3,
+              "explanation_en": "As taught, प्रयोग करना is used on formal signs, while इस्तेमाल करना is used in everyday speech."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [1, 3],
+              "question_en": "When are you allowed to use this exit?",
+              "options": [
+                "During normal working hours",
+                "Only in an emergency situation",
+                "Whenever the main gate is locked",
+                "On weekends and public holidays"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 1 labels the door for 'आपातकाल' (emergency) and Line 3 states that at other times entry/use is 'वर्जित' (prohibited). Therefore, it can only be used during an emergency."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": ["आपातकाल"]
+          }
+        },
+        {
+          "id": "M13-L14-I3",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "सूचना",
+          "target_read_as": "soochnaa",
+          "target_gloss_en": "notice, information",
+          "target_gender": "f",
+          "word_count": 16,
+          "difficulty": 6,
+          "tags": ["sign", "notice", "safety"],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "सूचना: तकनीकी खराबी के कारण लिफ़्ट बंद है।",
+                "read_as": "soochnaa: takniikii kharaabii ke kaaran lifṭ band hai.",
+                "english": "Notice: due to a technical fault, the lift is closed."
+              },
+              {
+                "n": 2,
+                "hindi": "कृपया ऊपर जाने के लिए सीढ़ियों का प्रयोग करें।",
+                "read_as": "kripayaa uupar jaane ke lie siiḍhiyoṁ kaa prayog kareṁ.",
+                "english": "Please use the stairs to go up."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "सूचना — the word for announcements and notices",
+              "explanation_en": "सूचना is a notice or information, feminine. Signs use 'न' or 'कृपया' to instruct the public formally. In Line 2, 'कृपया... प्रयोग करें' is a polite, written instruction. This is far more formal than saying 'सीढ़ी से जाओ'.",
+              "register_note_en": "सूचना (written/formal) · ख़बर (spoken/news) · जानकारी (neutral information).",
+              "vocabulary_notes": [
+                "सूचना — notice, feminine.",
+                "खराबी — fault, breakdown, feminine.",
+                "कारण — reason, cause, masculine. 'के कारण' is a postposition meaning 'due to'."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Why is the lift closed?",
+              "options": [
+                "Due to a power cut",
+                "Due to regular cleaning",
+                "Due to a technical fault",
+                "It is closed permanently"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 1 states: तकनीकी खराबी के कारण लिफ़्ट बंद है (Due to a technical fault, the lift is closed)."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [1, 2],
+              "question_en": "What should a visitor wishing to reach the third floor do?",
+              "options": [
+                "Wait for the lift to be repaired",
+                "Walk up using the stairs",
+                "Ask the receptionist for help",
+                "Come back another day"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Since the lift is out of order (Line 1) and visitors are asked to use stairs (Line 2), they must walk up using the stairs."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": ["सूचना"]
+          }
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "title_en": "Rules and Prohibitions",
+      "title_hi": "प्रतीक्षा · मना · सीढ़ी",
+      "items": [
+        {
+          "id": "M13-L15-I1",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "प्रतीक्षा",
+          "target_read_as": "pratiikshaa",
+          "target_gloss_en": "waiting",
+          "target_gender": "f",
+          "word_count": 22,
+          "difficulty": 6,
+          "tags": ["sign", "rules", "institutional"],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "प्रतीक्षा कक्ष: यहाँ केवल यात्रियों को बैठने की अनुमति है।",
+                "read_as": "pratiikshaa kakṣ: yahaaṁ keval yaatriyoṁ ko baiṭhne kii anumati hai.",
+                "english": "Waiting room: only passengers are allowed to sit here."
+              },
+              {
+                "n": 2,
+                "hindi": "सामान की सुरक्षा स्वयं करें, रेलवे इसके लिए उत्तरदायी नहीं होगा।",
+                "read_as": "saamaan kii surakṣaa svayaṁ kareṁ, relve iske lie uttardaayii nahiiṁ hogaa.",
+                "english": "Protect your luggage yourself, the railway will not be responsible for it."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "प्रतीक्षा — formal waiting",
+              "explanation_en": "प्रतीक्षा is waiting, feminine, and sits in 'प्रतीक्षा करना' (to wait) or 'प्रतीक्षा कक्ष' (waiting room). This is the Sanskrit-side formal word; speech uses 'इंतज़ार करना' instead. Note also 'अनुमति' (permission), which is feminine.",
+              "register_note_en": "प्रतीक्षा (written/formal) · इंतज़ार (Urdu-side, neutral spoken/written). 'अनुमति' (formal) · 'इजाज़त' (Urdu-side, spoken).",
+              "vocabulary_notes": [
+                "प्रतीक्षा — waiting, feminine.",
+                "अनुमति — permission, feminine.",
+                "सुरक्षा — safety, protection, feminine."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Who is permitted to sit in the waiting room?",
+              "options": [
+                "Everyone",
+                "Only passengers",
+                "Only railway employees",
+                "Only senior citizens"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 1 states: यहाँ केवल यात्रियों को बैठने की अनुमति है (Only passengers are allowed to sit here)."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [1, 2],
+              "question_en": "Who is responsible if a traveler's bag is stolen in the waiting room?",
+              "options": [
+                "The railway administration",
+                "The waiting room security guard",
+                "The traveler themselves",
+                "The local police station"
+              ],
+              "answer_index": 2,
+              "explanation_en": "Line 2 states 'सामान की सुरक्षा स्वयं करें' (protect luggage yourself) and 'रेलवे उत्तरदायी नहीं होगा' (railway will not be responsible), meaning the traveler is responsible."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": ["प्रतीक्षा"]
+          }
+        },
+        {
+          "id": "M13-L15-I2",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "मना",
+          "target_read_as": "manaa",
+          "target_gloss_en": "forbidden, prohibited",
+          "target_gender": null,
+          "word_count": 19,
+          "difficulty": 6,
+          "tags": ["sign", "prohibition", "rules"],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "यहाँ बिना अनुमति के फ़ोटो खींचना सख्त मना है।",
+                "read_as": "yahaaṁ binaa anumati ke phoṭo khiiṁchnaa sakht manaa hai.",
+                "english": "Taking photos here without permission is strictly forbidden."
+              },
+              {
+                "n": 2,
+                "hindi": "नियम का उल्लंघन करने पर जुर्माना लगाया जाएगा।",
+                "read_as": "niyam kaa ullaṅghan karne par jurmaanaa lagaayaa jaaegaa.",
+                "english": "A fine will be imposed on violating the rule."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "मना — what signs say you cannot do",
+              "explanation_en": "मना is an adjective meaning forbidden or prohibited. In speech you might hear 'मना करना' (to refuse/forbid), but on signs 'सख्त मना है' (strictly prohibited) is the standard formula. Line 2 uses a passive voice construction: 'जुर्माना लगाया जाएगा' (a fine will be imposed) to state a rule objectively.",
+              "register_note_en": "मना (neutral/prohibitions) · वर्जित (highly formal/Sanskrit-leaning). Both mean forbidden.",
+              "vocabulary_notes": [
+                "मना — forbidden, undeclined adjective.",
+                "जुर्माना — fine, penalty, masculine.",
+                "उल्लंघन — violation, masculine. 'उल्लंघन करना' means to violate/break a rule."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What will happen if someone violates the rule?",
+              "options": [
+                "They will be asked to leave",
+                "A fine will be imposed",
+                "Their camera will be seized",
+                "They will be arrested"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 2 states: नियम का उल्लंघन करने पर जुर्माना लगाया जाएगा (A fine will be imposed on violating the rule)."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [1, 2],
+              "question_en": "Can you take photos here if you obtain authorized consent first?",
+              "options": [
+                "No, photography is forbidden under all circumstances",
+                "Yes, because the prohibition only applies 'without permission'",
+                "Yes, but you must pay a camera fine",
+                "No, only staff members can take photos"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 1 states taking photos 'बिना अनुमति के' (without permission) is forbidden, which implies that with permission it is allowed."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": ["मना"]
+          }
+        },
+        {
+          "id": "M13-L15-I3",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "सीढ़ी",
+          "target_read_as": "siiḍhii",
+          "target_gloss_en": "stairs, ladder",
+          "target_gender": "f",
+          "word_count": 23,
+          "difficulty": 7,
+          "tags": ["sign", "safety", "rules"],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "बिजली कटने के समय लिफ़्ट का प्रयोग न करें।",
+                "read_as": "bijlii kaṭne ke samay lifṭ kaa prayog na kareṁ.",
+                "english": "Do not use the lift at the time of a power cut."
+              },
+              {
+                "n": 2,
+                "hindi": "सुरक्षित निकास के लिए केवल सीढ़ी का ही उपयोग किया जाना चाहिए।",
+                "read_as": "surakṣit nikaas ke lie keval siiḍhii kaa hii upayog kiyaa jaanaa chaahie.",
+                "english": "Only stairs should be used for safe exit."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "सीढ़ी — stairs and ladders",
+              "explanation_en": "सीढ़ी is a staircase, stairs, or a ladder, feminine (ending in -ई, plural सीढ़ियाँ). Line 2 contains a passive structure: 'उपयोग किया जाना चाहिए' (should be used). Notice how 'का प्रयोग न करें' uses 'न' instead of 'मत' or 'नहीं' because it is a formal written sign.",
+              "register_note_en": "सीढ़ी (stairs) · लिफ़्ट (elevator/lift).",
+              "vocabulary_notes": [
+                "सीढ़ी — stairs/staircase, feminine.",
+                "बिजली — electricity/power, feminine.",
+                "सुरक्षित — safe, Sanskrit adjective."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "When should you not use the lift?",
+              "options": [
+                "During a power cut",
+                "During maintenance hours",
+                "On weekends",
+                "Late at night"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 1 states: बिजली कटने के समय लिफ़्ट का प्रयोग न करें (Do not use the lift at the time of a power cut)."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [1, 2],
+              "question_en": "In case of a power cut, how should one exit the building safely?",
+              "options": [
+                "Wait in the office",
+                "Use the lift immediately",
+                "Use the stairs only",
+                "Use the emergency lift"
+              ],
+              "answer_index": 2,
+              "explanation_en": "According to Line 1, the lift is not to be used during a power cut, and Line 2 specifies that only stairs should be used for a safe exit."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": ["सीढ़ी"]
+          }
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "title_en": "Schedules and Queues",
+      "title_hi": "अवधि · पूर्व · पंक्ति",
+      "items": [
+        {
+          "id": "M13-L16-I1",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "अवधि",
+          "target_read_as": "avadhi",
+          "target_gloss_en": "duration, period",
+          "target_gender": "f",
+          "word_count": 24,
+          "difficulty": 7,
+          "tags": ["sign", "opening_hours", "schedule"],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "कार्यालय की कार्य अवधि: सुबह 9:30 बजे से शाम 5:30 बजे तक।",
+                "read_as": "kaaryaalay kii kaarya avadhi: subah 9:30 baje se shaam 5:30 baje tak.",
+                "english": "Office working hours: 9:30 a.m. to 5:30 p.m."
+              },
+              {
+                "n": 2,
+                "hindi": "भोजन की अवधि: दोपहर 1:00 बजे से 2:00 बजे तक।",
+                "read_as": "bhojan kii avadhi: dopahar 1:00 baje se 2:00 baje tak.",
+                "english": "Lunch period: 1:00 p.m. to 2:00 p.m."
+              },
+              {
+                "n": 3,
+                "hindi": "रविवार को कार्यालय पूर्णतः बंद रहेगा।",
+                "read_as": "ravivaar ko kaaryaalay poorṇataḥ band rahegaa.",
+                "english": "The office will remain completely closed on Sundays."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "अवधि — periods of time",
+              "explanation_en": "अवधि is a duration or period of time, feminine (ending in short -इ, so it doesn't change spelling in plural but is feminine). Notice 'कार्य अवधि' (working hours) and 'भोजन की अवधि' (lunch hour). In Line 3, 'पूर्णतः' is a highly formal adverb meaning 'completely' or 'fully'.",
+              "register_note_en": "अवधि (formal written) · समय (neutral) · वक़्त (spoken/Urdu-side).",
+              "vocabulary_notes": [
+                "अवधि — duration, feminine.",
+                "कार्यालय — office, masculine. Formal Sanskrit-leaning word.",
+                "पूर्णतः — completely, fully. Formal adverb."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "What is the lunch period?",
+              "options": [
+                "12:00 p.m. to 1:00 p.m.",
+                "1:00 p.m. to 2:00 p.m.",
+                "2:00 p.m. to 3:00 p.m.",
+                "No lunch period is specified"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Line 2 states: भोजन की अवधि: दोपहर 1:00 बजे से 2:00 बजे तक (Lunch period: 1:00 p.m. to 2:00 p.m.)."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [1, 2],
+              "question_en": "For how many hours is the office actually open for work on a weekday?",
+              "options": [
+                "8 hours",
+                "7 hours",
+                "6 hours",
+                "9 hours"
+              ],
+              "answer_index": 1,
+              "explanation_en": "The total duration from 9:30 a.m. to 5:30 p.m. is 8 hours (Line 1). Subtracting the 1-hour lunch break from 1:00 p.m. to 2:00 p.m. (Line 2) leaves 7 working hours."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": ["अवधि"]
+          }
+        },
+        {
+          "id": "M13-L16-I2",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "पूर्व",
+          "target_read_as": "poorv",
+          "target_gloss_en": "prior, before",
+          "target_gender": null,
+          "word_count": 20,
+          "difficulty": 7,
+          "tags": ["sign", "rules", "schedule"],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "टिकट खिड़की: यात्रा समय से आधा घंटा पूर्व टिकट लेना अनिवार्य है।",
+                "read_as": "ṭikaṭ khiṛkii: yaatraa samay se aadhaa ghanṭaa poorv ṭikaṭ lenaa anivaarya hai.",
+                "english": "Ticket window: it is mandatory to purchase tickets half an hour prior to travel time."
+              },
+              {
+                "n": 2,
+                "hindi": "समय समाप्ति के पश्चात टिकट नहीं दिया जाएगा।",
+                "read_as": "samay samaapti ke pashchaat ṭikaṭ nahiiṁ diyaa jaaegaa.",
+                "english": "Tickets will not be issued after the time ends."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "पूर्व — formal prior and before",
+              "explanation_en": "पूर्व is a formal Sanskrit-leaning word meaning prior or before, as well as the noun 'East'. In Line 1, 'समय से आधा घंटा पूर्व' means half an hour prior to the time. This is more formal than 'पहले'. Note also 'पश्चात' (after) which is the formal partner of 'बाद', and 'अनिवार्य' (mandatory/compulsory). Line 2 uses a passive construction 'नहीं दिया जाएगा' (will not be given).",
+              "register_note_en": "पूर्व (formal/written) · पहले (everyday speech). 'पश्चात' (formal written) · 'बाद' (speech).",
+              "vocabulary_notes": [
+                "पूर्व — prior, before.",
+                "अनिवार्य — mandatory, compulsory. Sanskrit adjective.",
+                "पश्चात — after, postposition."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "When is ticket purchase mandatory?",
+              "options": [
+                "Half an hour prior to travel time",
+                "One hour prior to travel time",
+                "Just before boarding",
+                "No prior purchase is needed"
+              ],
+              "answer_index": 0,
+              "explanation_en": "Line 1 states: यात्रा समय से आधा घंटा पूर्व टिकट लेना अनिवार्य है (It is mandatory to purchase tickets half an hour prior to travel time)."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [1, 2],
+              "question_en": "If your train departs at 4:00 p.m. and you arrive at the window at 3:45 p.m., what happens?",
+              "options": [
+                "You can still buy a ticket",
+                "The window is closed and no ticket will be given",
+                "You will be given a ticket with a fine",
+                "The train will wait for you"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Tickets must be bought at least 30 minutes before departure (Line 1). Since 3:45 p.m. is only 15 minutes before 4:00 p.m., under Line 2 ('समय समाप्ति के पश्चात टिकट नहीं दिया जाएगा') you will not be issued a ticket."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": ["पूर्व"]
+          }
+        },
+        {
+          "id": "M13-L16-I3",
+          "type": "reading",
+          "text_kind": "sign",
+          "target_word": "पंक्ति",
+          "target_read_as": "paṅkti",
+          "target_gloss_en": "queue, line",
+          "target_gender": "f",
+          "word_count": 25,
+          "difficulty": 7,
+          "tags": ["sign", "rules", "instructions"],
+          "text": {
+            "lines": [
+              {
+                "n": 1,
+                "hindi": "कृपया पंक्ति में ही लगें।",
+                "read_as": "kripayaa paṅkti meṁ hii lageṁ.",
+                "english": "Please stand in the queue only."
+              },
+              {
+                "n": 2,
+                "hindi": "अपनी बारी की प्रतीक्षा करें और धक्का-मुक्की बिल्कुल न करें।",
+                "read_as": "apnii baarii kii pratiikshaa kareṁ aur dhakkaa-mukkii bilkul na kareṁ.",
+                "english": "Wait for your turn and do not push at all."
+              },
+              {
+                "n": 3,
+                "hindi": "नियमों का उल्लंघन करने पर दंड दिया जाएगा।",
+                "read_as": "niyamoṁ kaa ullaṅghan karne par danḍ diyaa jaaegaa.",
+                "english": "Punishment will be given on violating the rules."
+              }
+            ]
+          },
+          "cards": {
+            "learn": {
+              "title_en": "पंक्ति — the word for a queue or line",
+              "explanation_en": "पंक्ति is a queue or line, feminine, ending in short -इ. It does not look feminine, but it is, so flag it: 'पंक्ति में ही लगें' (stand in queue only). In speech, people say 'लाइन' (the English loanword) instead of 'पंक्ति'. Note the warning 'धक्का-मुक्की बिल्कुल न करें' (do not push at all). Line 3 uses passive voice 'दंड दिया जाएगा' (punishment will be given).",
+              "register_note_en": "पंक्ति (written/formal) · लाइन (everyday speech/loanword). 'पंक्ति' is feminine.",
+              "vocabulary_notes": [
+                "पंक्ति — queue, line, feminine.",
+                "धक्का-मुक्की — pushing and shoving, feminine.",
+                "दंड — punishment, fine, masculine."
+              ]
+            },
+            "practice": {
+              "format": "comprehension",
+              "question_en": "Which is feminine?",
+              "options": [
+                "समर्थन",
+                "पंक्ति",
+                "संदर्भ",
+                "निष्कर्ष"
+              ],
+              "answer_index": 1,
+              "explanation_en": "पंक्ति is feminine, while the other three (समर्थन, संदर्भ, निष्कर्ष) are masculine."
+            },
+            "game": {
+              "format": "inference",
+              "requires_lines": [1, 2],
+              "question_en": "What does 'कृपया पंक्ति में ही लगें ... धक्का-मुक्की बिल्कुल न करें' suggest about travelers at this counter?",
+              "options": [
+                "The queue is usually orderly",
+                "People often push in here and try to skip the line",
+                "The counter is usually empty",
+                "Elderly people have a separate counter"
+              ],
+              "answer_index": 1,
+              "explanation_en": "A notice forbids what actually happens; the 'ही' (only) and the 'बिल्कुल न' (not at all) indicate that pushing and skipping the line are frequent occurrences."
+            }
+          },
+          "audio": {
+            "requires_recording": false,
+            "tts_strings": ["पंक्ति"]
+          }
+        }
+      ]
+    }
+  ]
+}

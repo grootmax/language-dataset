@@ -121,70 +121,13 @@ export class Validator {
       const lvlNum = lvl.level;
       const items = lvl.items || [];
 
-      // Check if the level contains an expansion language tag
-      let hasExpansionTag = false;
-      for (const item of items) {
-        if (item && Array.isArray(item.tags)) {
-          for (const tag of item.tags) {
-            if (typeof tag === 'string') {
-              const lowerTag = tag.toLowerCase().trim();
-              if (lowerTag.startsWith('lang:') || lowerTag.startsWith('language:') || lowerTag === 'expansion' || lowerTag === 'expansion_lang') {
-                hasExpansionTag = true;
-                break;
-              }
-            }
-          }
-        }
-        if (hasExpansionTag) break;
-      }
-
-      const isExpansion = (this.profile.language !== 'hindi') || hasExpansionTag;
-
       for (const item of items) {
         if (!item || typeof item.id !== 'string') continue;
-
-        // Parse metadata tags for key-value structures
-        const itemMetadata = {};
-        if (Array.isArray(item.tags)) {
-          for (const tag of item.tags) {
-            if (typeof tag === 'string' && tag.includes(':')) {
-              const parts = tag.split(':');
-              const key = parts[0].trim().toLowerCase();
-              const val = parts.slice(1).join(':').trim();
-              itemMetadata[key] = val;
-            }
-          }
-        }
-
-        // Identify non-binary genders from tags
-        let itemGender = item.gender;
-        if (itemMetadata.gender) {
-          itemGender = itemMetadata.gender;
-        }
-
-        // Identify non-Abugida scripts from tags
-        let isAbugida = this.profile.script_traits?.is_abugida;
-        if (itemMetadata.script && itemMetadata.script.toLowerCase() !== 'abugida') {
-          isAbugida = false;
-        }
-        if (itemMetadata.is_abugida === 'false' || itemMetadata.script_traits_is_abugida === 'false') {
-          isAbugida = false;
-        }
 
         // Polymorphic schema validations based on Language Profile
         const genders = this.profile.permitted_genders || [];
         if (item.gender !== null && item.gender !== undefined) {
-          const allowedGenders = [...genders];
-          if (itemMetadata.gender && !allowedGenders.includes(itemMetadata.gender)) {
-            allowedGenders.push(itemMetadata.gender);
-          }
-          if (isExpansion) {
-            // Permit any gender specified on expansion levels
-            if (!allowedGenders.includes(item.gender)) {
-              allowedGenders.push(item.gender);
-            }
-          }
-          if (!allowedGenders.includes(item.gender)) {
+          if (!genders.includes(item.gender)) {
             errors.push({
               file: levelsFilePath,
               level: lvlNum,
@@ -192,7 +135,7 @@ export class Validator {
               message: `Gender '${item.gender}' is not permitted in language '${this.profile.language}'. Allowed genders: [${genders.join(', ')}]`
             });
           }
-        } else if (item.type === 'word' && genders.length > 0 && this.profile.language === 'hindi' && !isExpansion) {
+        } else if (item.type === 'word' && genders.length > 0 && this.profile.language === 'hindi') {
           // If the profile mandates noun genders (e.g. Hindi), warn/error if missing
           errors.push({
             file: levelsFilePath,
@@ -202,39 +145,8 @@ export class Validator {
           });
         }
 
-        // Hindi pronunciation and spelling checks (bypassed if isExpansion is true)
-        if (this.profile.language === 'hindi' && !isExpansion) {
-          // Devanagari script check: target should be in Devanagari script
-          if (item.target && !/[\u0900-\u097F]/.test(item.target)) {
-            errors.push({
-              file: levelsFilePath,
-              level: lvlNum,
-              itemId: item.id,
-              message: `Hindi spelling check failed: target '${item.target}' should be in Devanagari script.`
-            });
-          }
-          // Pronunciation read_as and notes check for words
-          if (item.type === 'word') {
-            if (!item.read_as) {
-              errors.push({
-                file: levelsFilePath,
-                level: lvlNum,
-                itemId: item.id,
-                message: `Hindi pronunciation check failed: missing 'read_as' for word '${item.target}'`
-              });
-            }
-            if (!item.pronunciation_notes) {
-              errors.push({
-                file: levelsFilePath,
-                level: lvlNum,
-                itemId: item.id,
-                message: `Hindi pronunciation check failed: missing 'pronunciation_notes' for word '${item.target}'`
-              });
-            }
-          }
-        }
-
         // Script traits checks
+        const isAbugida = this.profile.script_traits?.is_abugida;
         if (item.type === 'letter') {
           if (isAbugida) {
             // For Abugida scripts, fields like 'matra' and 'sound_family' must be defined (can be null but key must exist)

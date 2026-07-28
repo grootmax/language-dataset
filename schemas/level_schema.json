@@ -1,0 +1,174 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LevelSchema",
+  "type": "object",
+  "properties": {
+    "module": { "type": "integer" },
+    "phase": { "type": "integer" },
+    "batch": {
+      "type": "object",
+      "properties": {
+        "levels_from": { "type": "integer" },
+        "levels_to": { "type": "integer" }
+      },
+      "required": ["levels_from", "levels_to"]
+    },
+    "levels": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "level": { "type": "integer" },
+          "is_micro_dialogue_level": { "type": "boolean" },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "id": { "type": "string" },
+                "type": { "type": "string" },
+                "target": { "type": "string" },
+                "read_as": { "type": "string" },
+                "pronunciation_notes": { "type": ["string", "null"] },
+                "gender": { "type": ["string", "null"] },
+                "difficulty": { "type": "integer" },
+                "tags": {
+                  "type": "array",
+                  "items": { "type": "string" }
+                },
+                "example_word": {
+                  "type": "object",
+                  "properties": {
+                    "hindi": { "type": "string" },
+                    "read_as": { "type": "string" }
+                  },
+                  "patternProperties": {
+                    "^(english|spanish|french|german|japanese|chinese|korean|italian|portuguese|russian|arabic|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+                  },
+                  "required": ["hindi", "read_as"]
+                },
+                "cards": {
+                  "type": "object",
+                  "properties": {
+                    "learn": {
+                      "type": "object",
+                      "patternProperties": {
+                        "^title_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" },
+                        "^explanation_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+                      },
+                      "properties": {
+                        "examples": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "hindi": { "type": "string" },
+                              "read_as": { "type": "string" },
+                              "note": { "type": "string" }
+                            },
+                            "patternProperties": {
+                              "^(english|spanish|french|german|japanese|chinese|korean|italian|portuguese|russian|arabic|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+                            },
+                            "required": ["hindi", "read_as"]
+                          }
+                        },
+                        "common_error": {
+                          "type": "object",
+                          "properties": {
+                            "wrong": { "type": "string" },
+                            "right": { "type": "string" }
+                          },
+                          "patternProperties": {
+                            "^why_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+                          },
+                          "required": ["wrong", "right"]
+                        }
+                      }
+                    },
+                    "practice": {
+                      "type": "object",
+                      "properties": {
+                        "format": { "type": "string" },
+                        "question": { "type": "string" },
+                        "question_read_as": { "type": "string" },
+                        "options": {
+                          "type": "array",
+                          "items": { "type": "string" }
+                        },
+                        "options_read_as": {
+                          "type": "array",
+                          "items": { "type": "string" }
+                        },
+                        "answer_index": { "type": "integer" }
+                      },
+                      "patternProperties": {
+                        "^prompt_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" },
+                        "^explanation_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+                      },
+                      "required": ["format", "question", "options", "answer_index"]
+                    },
+                    "game": {
+                      "type": "object",
+                      "properties": {
+                        "format": { "type": "string" },
+                        "options": {
+                          "type": "array",
+                          "items": { "type": "string" }
+                        },
+                        "options_read_as": {
+                          "type": "array",
+                          "items": { "type": "string" }
+                        },
+                        "answer_index": { "type": "integer" }
+                      },
+                      "patternProperties": {
+                        "^question_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" },
+                        "^explanation_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+                      },
+                      "required": ["format", "options", "answer_index"]
+                    }
+                  },
+                  "required": ["learn", "practice", "game"]
+                },
+                "audio": {
+                  "type": "object",
+                  "properties": {
+                    "tts_strings": {
+                      "type": "array",
+                      "items": { "type": "string" }
+                    },
+                    "requires_recording": { "type": "boolean" }
+                  },
+                  "required": ["tts_strings", "requires_recording"]
+                }
+              },
+              "required": ["id", "type", "target", "read_as", "tags", "example_word", "cards", "audio"]
+            }
+          },
+          "summary": {
+            "type": "object",
+            "properties": {
+              "key_forms": {
+                "type": "array",
+                "items": { "type": "string" }
+              }
+            },
+            "patternProperties": {
+              "^recap_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" },
+              "^next_up_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+            },
+            "required": ["key_forms"]
+          }
+        },
+        "patternProperties": {
+          "^title_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+        },
+        "required": ["level", "items", "summary"]
+      }
+    }
+  },
+  "patternProperties": {
+    "^module_name_(en|es|fr|de|ja|zh|ko|it|pt|ru|ar)$": { "type": "string" }
+  },
+  "required": ["module", "phase", "levels"]
+}
