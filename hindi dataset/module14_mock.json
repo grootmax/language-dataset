@@ -4,8 +4,8 @@
   "module_name_hi": "जुड़े वाक्य",
   "phase": 5,
   "kind": "mock_exam",
-  "questions_total": 30,
-  "coverage_note_en": "Thirty questions across all twenty-four levels. Levels 21 to 24 fall past the last checkpoint — the checkpoints land after levels 5, 10, 15 and 20 — so the perfective participle, the -कर conjunctive, the oblique infinitives and the passive are tested here for the first time, and eight of the thirty questions cover them. Six questions draw on earlier Phase 5 modules, as Part F requires.",
+  "questions_total": 40,
+  "coverage_note_en": "Forty questions across all twenty-four levels, matching the blueprint's Modules 12-15 mock size of 40Q (the original 30Q build predates that sizing). Levels 21 to 24 fall past the last checkpoint, so questions 16-25 remain their primary assessment. Questions 31-40 close the last content gap: levels 2, 6, 8, 13 and 16 had never been drawn on by any earlier question, despite each carrying a load-bearing point (the missing-correlative error recurring across जो/जब/जहाँ, and the subjunctive-vs-indicative distinction across अगर/चाहे/शायद/ताकि).",
   "question_types": [
     "join_the_sentences",
     "gap_fill",
@@ -504,11 +504,181 @@
       "answer_index": 0,
       "explanation_en": "Two openers need two answerers. This is also the sentence Module 15 closes on.",
       "level_source": 10
+    },
+    {
+      "n": 31,
+      "type": "spot_the_error",
+      "sentences": [
+        "जो कल कहा था, वही आज भी कहता हूँ।",
+        "जो कल कहा था, वह ही आज भी कहता हूँ।"
+      ],
+      "options": [
+        "The first",
+        "The second",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 0,
+      "explanation_en": "वह and ही fuse into वही. Writing them apart is not wrong so much as never done.",
+      "level_source": 2
+    },
+    {
+      "n": 32,
+      "type": "spot_the_error",
+      "sentences": [
+        "किताब कहाँ है जो मैंने कल दी थी?",
+        "वह किताब कहाँ है जो मैंने कल दी थी?"
+      ],
+      "options": [
+        "The first",
+        "The second — this is the correct one",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 1,
+      "explanation_en": "Even when the जो clause comes second, the correlative वह is still needed in front. Reversing the order does not let you drop it.",
+      "level_source": 2
+    },
+    {
+      "n": 33,
+      "type": "spot_the_error",
+      "sentences": [
+        "जब भी वो आते हैं, मिठाई लाते हैं।",
+        "जब भी वो आते हैं, तब भी मिठाई लाते हैं।"
+      ],
+      "options": [
+        "The first",
+        "The second",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 0,
+      "explanation_en": "तब भी exists but means \"even then\", which contradicts the sentence. A correlative isn't automatic just because the first half has भी.",
+      "level_source": 6
+    },
+    {
+      "n": 34,
+      "type": "spot_the_error",
+      "sentences": [
+        "जब वो आते हैं, तब बात करेंगे।",
+        "जब वो आएँगे, तब बात करेंगे।"
+      ],
+      "options": [
+        "The first",
+        "The second — this is the correct one",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 1,
+      "explanation_en": "The present here says they habitually come, turning a plan into a routine — the English when-clause habit leaking into Hindi.",
+      "level_source": 6
+    },
+    {
+      "n": 35,
+      "type": "spot_the_error",
+      "sentences": [
+        "जहाँ हम रुके थे, वहाँ अब होटल है।",
+        "जहाँ हम रुके थे, अब होटल है।"
+      ],
+      "options": [
+        "The first",
+        "The second",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 0,
+      "explanation_en": "The same missing correlative as जो...वह and जब...तब, now in जहाँ...वहाँ.",
+      "level_source": 8
+    },
+    {
+      "n": 36,
+      "type": "spot_the_error",
+      "sentences": [
+        "जहाँ भी जाओ, वहाँ भी सावधानी बरतो।",
+        "जहाँ भी जाओ, सावधानी बरतो।"
+      ],
+      "options": [
+        "The first",
+        "The second — this is the correct one",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 1,
+      "explanation_en": "वहाँ भी means \"there too\", which adds a second place the sentence never mentioned. The भी-hedged form takes no correlative.",
+      "level_source": 8
+    },
+    {
+      "n": 37,
+      "type": "spot_the_error",
+      "sentences": [
+        "अगर उन्होंने कहा है तो सही ही होगा।",
+        "अगर उन्होंने कहा है तो सही ही है।"
+      ],
+      "options": [
+        "The first",
+        "The second",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 0,
+      "explanation_en": "है asserts it flatly. होगा marks it as an inference, which is what this sentence is actually doing.",
+      "level_source": 13
+    },
+    {
+      "n": 38,
+      "type": "spot_the_error",
+      "sentences": [
+        "चाहे कुछ भी हो जाए, तो मैं जाऊँगा।",
+        "चाहे कुछ भी हो जाए, फिर भी मैं जाऊँगा।"
+      ],
+      "options": [
+        "The first",
+        "The second — this is the correct one",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 1,
+      "explanation_en": "तो answers अगर and means the condition led to the result. चाहे needs फिर भी, meaning the condition did not stop the outcome.",
+      "level_source": 13
+    },
+    {
+      "n": 39,
+      "type": "spot_the_error",
+      "sentences": [
+        "शायद वो कल आए।",
+        "शायद वो कल आता है।"
+      ],
+      "options": [
+        "The first",
+        "The second",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 0,
+      "explanation_en": "The present makes it a habit — 'he perhaps habitually comes tomorrow'. शायद takes the subjunctive or future, never the plain present.",
+      "level_source": 16
+    },
+    {
+      "n": 40,
+      "type": "spot_the_error",
+      "sentences": [
+        "जल्दी निकलो ताकि ट्रेन मिल जाएगी।",
+        "जल्दी निकलो ताकि ट्रेन मिल जाए।"
+      ],
+      "options": [
+        "The first",
+        "The second — this is the correct one",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 1,
+      "explanation_en": "The future asserts the train will be caught. ताकि states an aim, and an aim hasn't happened yet — it needs the subjunctive.",
+      "level_source": 16
     }
   ],
   "module_assessment_complete": {
     "checkpoints": 4,
-    "mock_questions": 30,
+    "mock_questions": 40,
     "levels_21_to_24_note_en": "Levels 21 to 24 fall past the last checkpoint, so questions 16 to 25 are the only assessment those four levels receive. If the engine ever adds a fifth checkpoint slot for modules whose level count is not a multiple of five, this is the gap it would close.",
     "phase_5_draw": [
       {
@@ -523,6 +693,7 @@
         "n": 30,
         "draws_on": "the sentence Module 15 closes on"
       }
-    ]
+    ],
+    "topup_note_en": "Questions 31-40 added to bring the mock from 30 to the spec's 40, sourced from Module 14 levels 2, 6, 8, 13, 16 (previously untested by this mock)."
   }
 }
