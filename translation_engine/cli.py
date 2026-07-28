@@ -81,9 +81,12 @@ def main():
     if not args.target:
         parser.error("--target is required unless --validate-only is specified.")
         
-    if args.target not in LANGUAGES:
+    from translation_engine.prompts import normalize_language_code
+    normalized_target = normalize_language_code(args.target)
+    if normalized_target not in LANGUAGES:
         print(f"Error: Unsupported target language '{args.target}'. Supported: {list(LANGUAGES.keys())}")
         sys.exit(1)
+    args.target = normalized_target
         
     # Translate single file or directory
     is_dir_source = os.path.isdir(args.source)
