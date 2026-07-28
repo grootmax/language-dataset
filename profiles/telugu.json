@@ -1,0 +1,12 @@
+{
+  "language": "telugu",
+  "permitted_genders": [],
+  "active_phonetic_systems": ["abugida"],
+  "script_traits": {
+    "is_abugida": true,
+    "has_matra": true,
+    "has_sound_family": true,
+    "has_tones": false,
+    "has_word_masks": false
+  }
+}
