@@ -24,6 +24,10 @@ def validate_json_schema(data, schema_type):
     """
     try:
         schema = load_schema(schema_type)
+        from core_engine.locale_map import LOCALE_KEYS, detect_language_from_path_or_data, parameterize_core_schema
+        lang = detect_language_from_path_or_data(data=data)
+        mapping = LOCALE_KEYS.get(lang, LOCALE_KEYS["hindi"])
+        schema = parameterize_core_schema(schema, mapping)
         jsonschema.validate(instance=data, schema=schema)
     except jsonschema.exceptions.ValidationError as e:
         raise ValidationError(f"JSON Schema validation failed for {schema_type}: {e.message}")
