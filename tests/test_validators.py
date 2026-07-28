@@ -249,3 +249,148 @@ def test_validate_mock_exam_weights_m5():
         }
     }
     assert validate_mock_exam_weights(valid_m5_mock) is True
+
+def test_adaptive_thresholds_german():
+    # German profile has a 10% threshold and requires keywords like 'gender', 'umlaut'
+    german_mock = {
+        "module": 5,
+        "kind": "mock_exam",
+        "mock_exam": {
+            "total_questions": 30,
+            "questions": [
+                {
+                    "id": f"M05-MOCK-Q{i}",
+                    "source_item_ids": ["M05-L01-I1"],
+                    "type": "recognition",
+                    "options": ["O"],
+                    "answer_index": 0
+                } for i in range(21)
+            ] + [
+                {
+                    "id": f"M05-MOCK-Q{i}",
+                    "source_item_ids": ["M04-L01-I1"],
+                    "type": "recognition",
+                    "options": ["O"],
+                    "answer_index": 0
+                } for i in range(21, 27)
+            ] + [
+                {
+                    "id": f"M05-MOCK-Q{i}",
+                    "source_item_ids": ["M04-L01-I1"],
+                    "type": "recognition",
+                    "options": ["O"],
+                    "answer_index": 0,
+                    "explanation_de": "The noun gender here requires an umlaut" # German keywords 'gender', 'umlaut'
+                } for i in range(27, 30) # 3 critical concepts is 10%
+            ]
+        }
+    }
+    # Validate passing with German profile
+    assert validate_mock_exam_weights(german_mock, target_lang="german") is True
+
+    # Validate failure if German keywords are missing (e.g. contains Hindi keywords instead)
+    german_mock_no_keywords = {
+        "module": 5,
+        "kind": "mock_exam",
+        "mock_exam": {
+            "total_questions": 30,
+            "questions": [
+                {
+                    "id": f"M05-MOCK-Q{i}",
+                    "source_item_ids": ["M05-L01-I1"],
+                    "type": "recognition",
+                    "options": ["O"],
+                    "answer_index": 0
+                } for i in range(21)
+            ] + [
+                {
+                    "id": f"M05-MOCK-Q{i}",
+                    "source_item_ids": ["M04-L01-I1"],
+                    "type": "recognition",
+                    "options": ["O"],
+                    "answer_index": 0
+                } for i in range(21, 27)
+            ] + [
+                {
+                    "id": f"M05-MOCK-Q{i}",
+                    "source_item_ids": ["M04-L01-I1"],
+                    "type": "recognition",
+                    "options": ["O"],
+                    "answer_index": 0,
+                    "explanation_de": "ergative oblique postposition rules" # Hindi keywords, won't match German profile
+                } for i in range(27, 30)
+            ]
+        }
+    }
+    with pytest.raises(ValidationError, match="critical core concept questions count is 0, expected at least 2"):
+        validate_mock_exam_weights(german_mock_no_keywords, target_lang="german")
+
+def test_adaptive_thresholds_dutch():
+    # Dutch profile has a 5% threshold (which requires at least 1 question for 30 questions)
+    dutch_mock = {
+        "module": 5,
+        "kind": "mock_exam",
+        "mock_exam": {
+            "total_questions": 30,
+            "questions": [
+                {
+                    "id": f"M05-MOCK-Q{i}",
+                    "source_item_ids": ["M05-L01-I1"],
+                    "type": "recognition",
+                    "options": ["O"],
+                    "answer_index": 0
+                } for i in range(21)
+            ] + [
+                {
+                    "id": f"M05-MOCK-Q{i}",
+                    "source_item_ids": ["M04-L01-I1"],
+                    "type": "recognition",
+                    "options": ["O"],
+                    "answer_index": 0
+                } for i in range(21, 29)
+            ] + [
+                {
+                    "id": "M05-MOCK-Q29",
+                    "source_item_ids": ["M04-L01-I1"],
+                    "type": "recognition",
+                    "options": ["O"],
+                    "answer_index": 0,
+                    "explanation_nl": "De word and het word represent genders." # Dutch keywords 'de', 'het', 'gender'
+                }
+            ]
+        }
+    }
+    assert validate_mock_exam_weights(dutch_mock, target_lang="dutch") is True
+
+def test_adaptive_thresholds_missing_profile_or_undefined_threshold():
+    # If the language profile is missing entirely, or doesn't define a threshold, it defaults to 0%
+    missing_lang_mock = {
+        "module": 5,
+        "kind": "mock_exam",
+        "mock_exam": {
+            "total_questions": 30,
+            "questions": [
+                {
+                    "id": f"M05-MOCK-Q{i}",
+                    "source_item_ids": ["M05-L01-I1"],
+                    "type": "recognition",
+                    "options": ["O"],
+                    "answer_index": 0
+                } for i in range(21)
+            ] + [
+                {
+                    "id": f"M05-MOCK-Q{i}",
+                    "source_item_ids": ["M04-L01-I1"],
+                    "type": "recognition",
+                    "options": ["O"],
+                    "answer_index": 0
+                } for i in range(21, 30) # 0 critical concept questions
+            ]
+        }
+    }
+    # Using entirely missing profile "non_existent_lang" -> defaults to 0%, passes validation
+    assert validate_mock_exam_weights(missing_lang_mock, target_lang="non_existent_lang") is True
+
+    # Using Chinese profile (which has 0% threshold defined) -> passes validation with 0 critical concepts
+    assert validate_mock_exam_weights(missing_lang_mock, target_lang="chinese") is True
+

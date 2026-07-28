@@ -8,5 +8,11 @@
     "has_sound_family": true,
     "has_tones": false,
     "has_word_masks": false
-  }
+  },
+  "critical_concept_threshold": 10,
+  "critical_concept_keywords": [
+    "gender", "masculine", "feminine", "oblique", "ergative", "ne_agreement", "ne agreement", "ने",
+    "gênero", "gêneros", "género", "géneros", "genre", "genres", "Geschlecht", "oblicuo", "ergativo", "ergatif",
+    "postposition", "class_5", "class_1", "class_2", "class_3", "class_4", "oṁ_ending"
+  ]
 }
