@@ -8,5 +8,7 @@
     "has_sound_family": false,
     "has_tones": true,
     "has_word_masks": false
-  }
+  },
+  "critical_concept_threshold": 0,
+  "critical_concept_keywords": ["measure word", "tone", "classifier"]
 }

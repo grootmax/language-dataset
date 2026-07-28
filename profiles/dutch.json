@@ -8,5 +8,7 @@
     "has_sound_family": false,
     "has_tones": false,
     "has_word_masks": false
-  }
+  },
+  "critical_concept_threshold": 5,
+  "critical_concept_keywords": ["de", "het", "common", "neuter", "gender"]
 }

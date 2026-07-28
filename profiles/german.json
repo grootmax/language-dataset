@@ -8,5 +8,7 @@
     "has_sound_family": false,
     "has_tones": false,
     "has_word_masks": false
-  }
+  },
+  "critical_concept_threshold": 10,
+  "critical_concept_keywords": ["gender", "nominative", "accusative", "dative", "genitive", "masculine", "feminine", "neuter", "umlaut"]
 }

@@ -39,22 +39,114 @@ def get_module_from_item_id(item_id):
         return int(match.group(1))
     return None
 
-def is_critical_core_concept(question):
+ISO_TO_LANGUAGE = {
+    "es": "spanish",
+    "fr": "french",
+    "de": "german",
+    "ja": "japanese",
+    "zh": "chinese",
+    "ko": "korean",
+    "it": "italian",
+    "pt": "portuguese",
+    "ru": "russian",
+    "ar": "arabic",
+    "nl": "dutch",
+    "hi": "hindi",
+    "spanish": "spanish",
+    "french": "french",
+    "german": "german",
+    "japanese": "japanese",
+    "chinese": "chinese",
+    "korean": "korean",
+    "italian": "italian",
+    "portuguese": "portuguese",
+    "russian": "russian",
+    "arabic": "arabic",
+    "dutch": "dutch",
+    "hindi": "hindi"
+}
+
+def detect_language(data, file_path=None):
     """
-    Helper to detect if a question evaluates a critical core concept
-    (noun gender, oblique case classes, or ergative marker/ने agreement rules).
+    Attempts to detect target language from data structure (keys suffix) or file_path.
+    """
+    if isinstance(data, dict) and "language" in data:
+        lang = str(data["language"]).lower()
+        if lang in ISO_TO_LANGUAGE:
+            return ISO_TO_LANGUAGE[lang]
+            
+    if file_path:
+        filename = os.path.basename(file_path).lower()
+        base, _ = os.path.splitext(filename)
+        if base.endswith(".tmp"):
+            base = base[:-4]
+        if base.endswith(".json"):
+            base = base[:-5]
+        parts = base.split("_")
+        for part in reversed(parts):
+            if part in ISO_TO_LANGUAGE:
+                return ISO_TO_LANGUAGE[part]
+                
+    # Detect from keys in data dictionary
+    def detect_from_keys(d):
+        if isinstance(d, dict):
+            for k, v in d.items():
+                if isinstance(k, str):
+                    for code in ISO_TO_LANGUAGE:
+                        if k.endswith(f"_{code}"):
+                            return ISO_TO_LANGUAGE[code]
+                res = detect_from_keys(v)
+                if res:
+                    return res
+        elif isinstance(d, list):
+            for item in d:
+                res = detect_from_keys(item)
+                if res:
+                    return res
+        return None
+        
+    detected = detect_from_keys(data)
+    if detected:
+        return detected
+        
+    # Default fallback
+    return "hindi"
+
+def load_language_profile(language):
+    """
+    Loads target language configuration profile. Falls back to empty dict if missing or unparseable.
+    """
+    if not language:
+        return {}
+    
+    profile_path = f"/app/profiles/{language.lower()}.json"
+    if not os.path.exists(profile_path):
+        return {}
+        
+    try:
+        with open(profile_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+def is_critical_core_concept(question, keywords=None):
+    """
+    Helper to detect if a question evaluates a critical core concept.
     Checks keywords in explanation, prompts, options, and tags.
     """
-    keywords = {
-        "gender", "masculine", "feminine", "oblique", "ergative", "ne_agreement", "ne agreement", "ने",
-        "gênero", "gêneros", "género", "géneros", "genre", "genres", "Geschlecht", "oblicuo", "ergativo", "ergatif",
-        "postposition", "class_5", "class_1", "class_2", "class_3", "class_4", "oṁ_ending"
-    }
+    if keywords is None:
+        keywords = {
+            "gender", "masculine", "feminine", "oblique", "ergative", "ne_agreement", "ne agreement", "ने",
+            "gênero", "gêneros", "género", "géneros", "genre", "genres", "Geschlecht", "oblicuo", "ergativo", "ergatif",
+            "postposition", "class_5", "class_1", "class_2", "class_3", "class_4", "oṁ_ending"
+        }
+    
+    keywords_lower = {kw.lower() for kw in keywords if isinstance(kw, str)}
     
     def check_val(val):
         if isinstance(val, str):
             v_lower = val.lower()
-            return any(kw in v_lower for kw in keywords)
+            return any(kw in v_lower for kw in keywords_lower)
         elif isinstance(val, list):
             return any(check_val(item) for item in val)
         elif isinstance(val, dict):
@@ -130,7 +222,7 @@ def validate_card_math(data):
                 )
     return True
 
-def validate_mock_exam_weights(data, current_module=None):
+def validate_mock_exam_weights(data, current_module=None, target_lang=None):
     """
     Verifies that mock exams conform to Phase-specific sizes and cumulative retrieval weights:
     - Phase 1 (Modules 1-3): exactly 20 questions
@@ -140,7 +232,7 @@ def validate_mock_exam_weights(data, current_module=None):
     Cumulative Retrieval Weight Distribution:
     - 70% current module questions
     - 20% previous modules in same phase (or preceding phase review if first module of Phase)
-    - 10% critical core concepts (noun gender, oblique case, or ne agreement rules) for modules >= 5.
+    - Dynamic % critical core concepts loaded from language profile (defaults to 10% for Hindi, 0% for others)
     """
     if data.get("kind") != "mock_exam":
         # Skip if not a mock exam (could be final exam)
@@ -181,6 +273,43 @@ def validate_mock_exam_weights(data, current_module=None):
             f"Mock exam for Module {current_module} (Phase {phase}) has {total_questions} questions, expected {expected_size}."
         )
         
+    # Detect target language and load profile dynamically
+    if target_lang is None:
+        target_lang = detect_language(data)
+        
+    profile = load_language_profile(target_lang)
+    
+    # Get keywords and threshold
+    if "critical_concept_keywords" in profile:
+        keywords = profile["critical_concept_keywords"]
+    else:
+        # For backwards compatibility with original hardcoded Hindi keywords
+        if target_lang == "hindi":
+            keywords = [
+                "gender", "masculine", "feminine", "oblique", "ergative", "ne_agreement", "ne agreement", "ने",
+                "gênero", "gêneros", "género", "géneros", "genre", "genres", "Geschlecht", "oblicuo", "ergativo", "ergatif",
+                "postposition", "class_5", "class_1", "class_2", "class_3", "class_4", "oṁ_ending"
+            ]
+        else:
+            keywords = []
+            
+    # Default to 10% for Hindi, 0% for other languages
+    default_threshold = 10.0 if target_lang == "hindi" else 0.0
+    threshold_pct = default_threshold
+    
+    if "critical_concept_threshold" in profile:
+        raw_threshold = profile["critical_concept_threshold"]
+        try:
+            if isinstance(raw_threshold, str):
+                raw_threshold = raw_threshold.replace("%", "").strip()
+                threshold_pct = float(raw_threshold)
+            else:
+                threshold_pct = float(raw_threshold)
+            if isinstance(raw_threshold, float) and threshold_pct <= 1.0:
+                threshold_pct *= 100.0
+        except Exception:
+            threshold_pct = default_threshold
+
     # Analyze question sourcing
     current_module_count = 0
     previous_module_count = 0
@@ -202,7 +331,7 @@ def validate_mock_exam_weights(data, current_module=None):
         elif is_prev:
             previous_module_count += 1
             
-        if is_critical_core_concept(q):
+        if is_critical_core_concept(q, keywords):
             critical_concept_count += 1
             
     # Expected weight rules
@@ -240,10 +369,10 @@ def validate_mock_exam_weights(data, current_module=None):
                 f"Module 4 mock previous questions is {previous_module_count}, expected {expected_prev}."
             )
     else:
-        # Modules >= 5: 70% current module, 20% same phase, 10% critical core concepts
+        # Modules >= 5: 70% current module, 20% same phase, dynamic % critical core concepts
         expected_current = int(round(total_questions * 0.70))
         expected_prev = int(round(total_questions * 0.20))
-        expected_critical = int(round(total_questions * 0.10))
+        expected_critical = int(round(total_questions * (threshold_pct / 100.0)))
         
         # Check current module count (allow absolute difference of 1)
         if abs(current_module_count - expected_current) > 1:
@@ -260,13 +389,16 @@ def validate_mock_exam_weights(data, current_module=None):
                 f"Module {current_module} total review questions is {total_review_count}, "
                 f"expected {expected_review_total} (30%)."
             )
-        # Validate presence of critical core concepts (at least 10%, i.e. 3 for size 30, 4 for size 40)
-        # We can allow at least expected_critical - 1 (e.g. >= 2 for size 30, >= 3 for size 40)
-        min_critical = max(1, expected_critical - 1)
+        # Validate presence of critical core concepts
+        if threshold_pct == 0.0:
+            min_critical = 0
+        else:
+            min_critical = max(1, expected_critical - 1)
+            
         if critical_concept_count < min_critical:
             raise ValidationError(
                 f"Module {current_module} critical core concept questions count is {critical_concept_count}, "
-                f"expected at least {min_critical} (10% of {total_questions} questions)."
+                f"expected at least {min_critical} ({threshold_pct}% of {total_questions} questions)."
             )
             
     return True
@@ -344,7 +476,8 @@ def validate_file_comprehensive(file_path):
         # Mock or Final Exam File
         validate_json_schema(data, "mock_exam")
         if data.get("kind") == "mock_exam":
-            validate_mock_exam_weights(data)
+            target_lang = detect_language(data, file_path)
+            validate_mock_exam_weights(data, target_lang=target_lang)
         elif data.get("kind") == "final_exam":
             validate_final_exam_weights(data)
     else:
