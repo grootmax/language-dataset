@@ -166,7 +166,7 @@
           },
           "audio": {
             "tts_strings": ["ट", "ठ", "ड", "ढ", "डाल", "ढाल"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -512,7 +512,7 @@
           },
           "audio": {
             "tts_strings": ["तीन", "टीन", "दाल", "डाल", "नाम"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -858,7 +858,7 @@
           },
           "audio": {
             "tts_strings": ["पल", "फल", "बात", "भाई"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
