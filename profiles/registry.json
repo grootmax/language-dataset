@@ -1,0 +1,391 @@
+{
+  "languages": {
+    "es": {
+      "language": "spanish",
+      "iso_code": "es",
+      "name": "Spanish",
+      "phonetic_adaptations": {
+        "sh": "sh",
+        "ee": "i",
+        "oo": "u",
+        "v": "v/b",
+        "a": "a",
+        "aa": "a larga (hold longer)"
+      },
+      "grammar_gender_benchmarks": "Map Hindi grammatical gender (masculine/feminine) to Spanish grammatical gender (masculino/femenino). Highlight that Hindi has no neuter gender, similar to Spanish.",
+      "instructional_rules": "Rename keys with suffix '_en' to '_es' and translate instructional texts and explanations into clear, educational Spanish.",
+      "permitted_genders": ["masculine", "feminine"],
+      "active_phonetic_systems": [],
+      "script_traits": {
+        "is_abugida": false,
+        "has_matra": false,
+        "has_sound_family": false,
+        "has_tones": false,
+        "has_word_masks": false
+      },
+      "script_boundaries": {
+        "ranges": [["\u0000", "\u007F"], ["\u00C0", "\u00FF"]]
+      }
+    },
+    "fr": {
+      "language": "french",
+      "iso_code": "fr",
+      "name": "French",
+      "phonetic_adaptations": {
+        "sh": "ch",
+        "ee": "i",
+        "oo": "ou",
+        "u": "ou (court)",
+        "a": "a",
+        "aa": "â"
+      },
+      "grammar_gender_benchmarks": "Map Hindi grammatical gender (masculine/feminine) to French grammatical gender (masculin/féminin). Highlight agreements.",
+      "instructional_rules": "Rename keys with suffix '_en' to '_fr' and translate instructional texts and explanations into clear, educational French.",
+      "permitted_genders": ["masculine", "feminine"],
+      "active_phonetic_systems": [],
+      "script_traits": {
+        "is_abugida": false,
+        "has_matra": false,
+        "has_sound_family": false,
+        "has_tones": false,
+        "has_word_masks": false
+      },
+      "script_boundaries": {
+        "ranges": [["\u0000", "\u007F"], ["\u00C0", "\u00FF"], ["\u0100", "\u017F"]]
+      }
+    },
+    "de": {
+      "language": "german",
+      "iso_code": "de",
+      "name": "German",
+      "phonetic_adaptations": {
+        "sh": "sch",
+        "ch": "tsch",
+        "ee": "i/ie",
+        "oo": "u",
+        "v": "w",
+        "z": "s"
+      },
+      "grammar_gender_benchmarks": "Contrast Hindi's two-gender system (masculine/feminine) with German's three-gender system (masculine/feminine/neuter). Notice that Hindi lacks neuter.",
+      "instructional_rules": "Rename keys with suffix '_en' to '_de' and translate instructional texts and explanations into clear, educational German.",
+      "permitted_genders": ["masculine", "feminine", "neuter", "common"],
+      "active_phonetic_systems": [],
+      "script_traits": {
+        "is_abugida": false,
+        "has_matra": false,
+        "has_sound_family": false,
+        "has_tones": false,
+        "has_word_masks": false
+      },
+      "script_boundaries": {
+        "ranges": [["\u0000", "\u007F"], ["\u00C0", "\u00FF"]]
+      }
+    },
+    "ja": {
+      "language": "japanese",
+      "iso_code": "ja",
+      "name": "Japanese",
+      "phonetic_adaptations": {
+        "sh": "シャ/シ",
+        "ee": "イー",
+        "oo": "ウー",
+        "a": "ア",
+        "aa": "アー",
+        "r": "ラ行"
+      },
+      "grammar_gender_benchmarks": "Contrast Hindi's strict grammatical gender with Japanese, which lacks grammatical noun gender entirely. Explain that adjective and verb agreements must be learned via Hindi rules.",
+      "instructional_rules": "Rename keys with suffix '_en' to '_ja' and translate instructional texts and explanations into natural, educational Japanese.",
+      "permitted_genders": [],
+      "active_phonetic_systems": [],
+      "script_traits": {
+        "is_abugida": false,
+        "has_matra": false,
+        "has_sound_family": false,
+        "has_tones": false,
+        "has_word_masks": false
+      },
+      "script_boundaries": {
+        "ranges": [["\u3000", "\u303F"], ["\u3040", "\u309F"], ["\u30A0", "\u30FF"], ["\u4E00", "\u9FFF"], ["\uFF00", "\uFFEF"]]
+      }
+    },
+    "zh": {
+      "language": "chinese",
+      "iso_code": "zh",
+      "name": "Mandarin Chinese",
+      "phonetic_adaptations": {
+        "sh": "sh (汉语拼音)",
+        "ee": "i (衣)",
+        "oo": "u (乌)",
+        "a": "a (啊)",
+        "aa": "a (长音)"
+      },
+      "grammar_gender_benchmarks": "Contrast Hindi's strict grammatical gender with Mandarin Chinese, which has no grammatical gender for inanimate nouns. Notice verb and adjective agreements in Hindi.",
+      "instructional_rules": "Rename keys with suffix '_en' to '_zh' and translate instructional texts and explanations into clear, educational Simplified Chinese.",
+      "permitted_genders": [],
+      "active_phonetic_systems": ["tones"],
+      "script_traits": {
+        "is_abugida": false,
+        "has_matra": false,
+        "has_sound_family": false,
+        "has_tones": true,
+        "has_word_masks": false
+      },
+      "script_boundaries": {
+        "ranges": [["\u4E00", "\u9FFF"]]
+      }
+    },
+    "ko": {
+      "language": "korean",
+      "iso_code": "ko",
+      "name": "Korean",
+      "phonetic_adaptations": {
+        "sh": "쉬/시",
+        "ee": "이",
+        "oo": "우",
+        "a": "아",
+        "aa": "아 (길게)"
+      },
+      "grammar_gender_benchmarks": "Contrast Hindi's strict grammatical gender with Korean, which has no grammatical gender. Explain agreement rules clearly in Korean.",
+      "instructional_rules": "Rename keys with suffix '_en' to '_ko' and translate instructional texts and explanations into natural, polite, educational Korean.",
+      "permitted_genders": [],
+      "active_phonetic_systems": [],
+      "script_traits": {
+        "is_abugida": false,
+        "has_matra": false,
+        "has_sound_family": false,
+        "has_tones": false,
+        "has_word_masks": false
+      },
+      "script_boundaries": {
+        "ranges": [["\uAC00", "\uD7AF"], ["\u1100", "\u11FF"], ["\u3130", "\u318F"]]
+      }
+    },
+    "it": {
+      "language": "italian",
+      "iso_code": "it",
+      "name": "Italian",
+      "phonetic_adaptations": {
+        "sh": "sc(i)",
+        "ee": "i",
+        "oo": "u",
+        "a": "a",
+        "aa": "a lunga"
+      },
+      "grammar_gender_benchmarks": "Map Hindi grammatical gender (masculine/feminine) directly to Italian grammatical gender (maschile/femminile). Draw parallels with adjective agreement.",
+      "instructional_rules": "Rename keys with suffix '_en' to '_it' and translate instructional texts and explanations into clear, educational Italian.",
+      "permitted_genders": ["masculine", "feminine"],
+      "active_phonetic_systems": [],
+      "script_traits": {
+        "is_abugida": false,
+        "has_matra": false,
+        "has_sound_family": false,
+        "has_tones": false,
+        "has_word_masks": false
+      },
+      "script_boundaries": {
+        "ranges": [["\u0000", "\u007F"], ["\u00C0", "\u00FF"]]
+      }
+    },
+    "pt": {
+      "language": "portuguese",
+      "iso_code": "pt",
+      "name": "Portuguese",
+      "phonetic_adaptations": {
+        "sh": "ch/x",
+        "ee": "i",
+        "oo": "u",
+        "a": "a",
+        "aa": "a longo"
+      },
+      "grammar_gender_benchmarks": "Map Hindi grammatical gender (masculine/feminine) directly to Portuguese grammatical gender (masculino/feminino). Highlight adjective agreements.",
+      "instructional_rules": "Rename keys with suffix '_en' to '_pt' and translate instructional texts and explanations into clear, educational Portuguese.",
+      "permitted_genders": ["masculine", "feminine"],
+      "active_phonetic_systems": [],
+      "script_traits": {
+        "is_abugida": false,
+        "has_matra": false,
+        "has_sound_family": false,
+        "has_tones": false,
+        "has_word_masks": false
+      },
+      "script_boundaries": {
+        "ranges": [["\u0000", "\u007F"], ["\u00C0", "\u00FF"]]
+      }
+    },
+    "ru": {
+      "language": "russian",
+      "iso_code": "ru",
+      "name": "Russian",
+      "phonetic_adaptations": {
+        "sh": "ш",
+        "ch": "ч",
+        "ee": "и",
+        "oo": "у",
+        "a": "а",
+        "aa": "долгий а"
+      },
+      "grammar_gender_benchmarks": "Contrast Hindi's two-gender system (masculine/feminine) with Russian's three-gender system (masculine/feminine/neuter). Emphasize verb past tense agreement in Hindi vs Russian.",
+      "instructional_rules": "Rename keys with suffix '_en' to '_ru' and translate instructional texts and explanations into natural, educational Russian.",
+      "permitted_genders": ["masculine", "feminine", "neuter"],
+      "active_phonetic_systems": [],
+      "script_traits": {
+        "is_abugida": false,
+        "has_matra": false,
+        "has_sound_family": false,
+        "has_tones": false,
+        "has_word_masks": false
+      },
+      "script_boundaries": {
+        "ranges": [["\u0400", "\u04FF"]]
+      }
+    },
+    "ar": {
+      "language": "arabic",
+      "iso_code": "ar",
+      "name": "Arabic",
+      "phonetic_adaptations": {
+        "sh": "ش",
+        "ch": "تش",
+        "ee": "ي",
+        "oo": "و",
+        "a": "فتحة",
+        "aa": "ألف المد"
+      },
+      "grammar_gender_benchmarks": "Map Hindi grammatical gender (masculine/feminine) directly to Arabic grammatical gender (مذكر/مؤनथ). Note that both languages have a strong distinction of gender in verbs and adjectives.",
+      "instructional_rules": "Rename keys with suffix '_en' to '_ar' and translate instructional texts and explanations into high-quality, classical Arabic.",
+      "permitted_genders": ["masculine", "feminine"],
+      "active_phonetic_systems": [],
+      "script_traits": {
+        "is_abugida": false,
+        "has_matra": false,
+        "has_sound_family": false,
+        "has_tones": false,
+        "has_word_masks": false
+      },
+      "script_boundaries": {
+        "ranges": [["\u0600", "\u06FF"]]
+      }
+    },
+    "nl": {
+      "language": "dutch",
+      "iso_code": "nl",
+      "name": "Dutch",
+      "phonetic_adaptations": {
+        "sh": "sj",
+        "ee": "i",
+        "oo": "oe"
+      },
+      "grammar_gender_benchmarks": "Map noun genders to common and neuter.",
+      "instructional_rules": "Rename keys with suffix '_en' to '_nl' and translate.",
+      "permitted_genders": ["common", "neuter"],
+      "active_phonetic_systems": [],
+      "script_traits": {
+        "is_abugida": false,
+        "has_matra": false,
+        "has_sound_family": false,
+        "has_tones": false,
+        "has_word_masks": false
+      },
+      "script_boundaries": {
+        "ranges": [["\u0000", "\u007F"], ["\u00C0", "\u00FF"]]
+      }
+    },
+    "hi": {
+      "language": "hindi",
+      "iso_code": "hi",
+      "name": "Hindi",
+      "phonetic_adaptations": {},
+      "grammar_gender_benchmarks": "Native Hindi language profiles.",
+      "instructional_rules": "No translation needed.",
+      "permitted_genders": ["masculine", "feminine"],
+      "active_phonetic_systems": ["abugida"],
+      "script_traits": {
+        "is_abugida": true,
+        "has_matra": true,
+        "has_sound_family": true,
+        "has_tones": false,
+        "has_word_masks": false
+      },
+      "script_boundaries": {
+        "ranges": [["\u0900", "\u097F"]]
+      }
+    },
+    "te": {
+      "language": "telugu",
+      "iso_code": "te",
+      "name": "Telugu",
+      "phonetic_adaptations": {
+        "sh": "శ్",
+        "ee": "ఈ",
+        "oo": "ఊ",
+        "a": "అ",
+        "aa": "ఆ"
+      },
+      "grammar_gender_benchmarks": "Telugu is an Abugida language with distinct gender/agreement attributes.",
+      "instructional_rules": "Rename keys with suffix '_en' to '_te' and translate instructional texts and explanations into clear, educational Telugu.",
+      "permitted_genders": ["masculine", "feminine", "neuter"],
+      "active_phonetic_systems": ["abugida"],
+      "script_traits": {
+        "is_abugida": true,
+        "has_matra": true,
+        "has_sound_family": true,
+        "has_tones": false,
+        "has_word_masks": false
+      },
+      "script_boundaries": {
+        "ranges": [["\u0C00", "\u0C7F"]]
+      }
+    },
+    "bn": {
+      "language": "bengali",
+      "iso_code": "bn",
+      "name": "Bengali",
+      "phonetic_adaptations": {
+        "sh": "শ",
+        "ee": "ই",
+        "oo": "উ",
+        "a": "আ"
+      },
+      "grammar_gender_benchmarks": "Bengali is an Abugida language with no grammatical noun gender but extensive vowel/consonant classification rules.",
+      "instructional_rules": "Rename keys with suffix '_en' to '_bn' and translate instructional texts and explanations into clear, educational Bengali.",
+      "permitted_genders": [],
+      "active_phonetic_systems": ["abugida"],
+      "script_traits": {
+        "is_abugida": true,
+        "has_matra": true,
+        "has_sound_family": true,
+        "has_tones": false,
+        "has_word_masks": false
+      },
+      "script_boundaries": {
+        "ranges": [["\u0980", "\u09FF"]]
+      }
+    },
+    "mr": {
+      "language": "marathi",
+      "iso_code": "mr",
+      "name": "Marathi",
+      "phonetic_adaptations": {
+        "sh": "श",
+        "ee": "इ",
+        "oo": "उ",
+        "a": "अ",
+        "aa": "आ"
+      },
+      "grammar_gender_benchmarks": "Marathi uses Devanagari script, three-gender system (masculine/feminine/neuter).",
+      "instructional_rules": "Rename keys with suffix '_en' to '_mr' and translate instructional texts and explanations into clear, educational Marathi.",
+      "permitted_genders": ["masculine", "feminine", "neuter"],
+      "active_phonetic_systems": ["abugida"],
+      "script_traits": {
+        "is_abugida": true,
+        "has_matra": true,
+        "has_sound_family": true,
+        "has_tones": false,
+        "has_word_masks": false
+      },
+      "script_boundaries": {
+        "ranges": [["\u0900", "\u097F"]]
+      }
+    }
+  }
+}

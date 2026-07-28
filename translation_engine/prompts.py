@@ -1,143 +1,20 @@
 # target languages config & prompt templates
+import json
+import os
 
-LANGUAGES = {
-    "es": {
-        "name": "Spanish",
-        "iso_code": "es",
-        "phonetic_adaptations": {
-            "sh": "sh", # or 'ch' / 'x' based on pronunciation guides
-            "ee": "i",
-            "oo": "u",
-            "v": "v/b",
-            "a": "a",
-            "aa": "a larga (hold longer)"
-        },
-        "grammar_gender_benchmarks": "Map Hindi grammatical gender (masculine/feminine) to Spanish grammatical gender (masculino/femenino). Highlight that Hindi has no neuter gender, similar to Spanish.",
-        "instructional_rules": "Rename keys with suffix '_en' to '_es' and translate instructional texts and explanations into clear, educational Spanish."
-    },
-    "fr": {
-        "name": "French",
-        "iso_code": "fr",
-        "phonetic_adaptations": {
-            "sh": "ch",
-            "ee": "i",
-            "oo": "ou",
-            "u": "ou (court)",
-            "a": "a",
-            "aa": "â"
-        },
-        "grammar_gender_benchmarks": "Map Hindi grammatical gender (masculine/feminine) to French grammatical gender (masculin/féminin). Highlight agreements.",
-        "instructional_rules": "Rename keys with suffix '_en' to '_fr' and translate instructional texts and explanations into clear, educational French."
-    },
-    "de": {
-        "name": "German",
-        "iso_code": "de",
-        "phonetic_adaptations": {
-            "sh": "sch",
-            "ch": "tsch",
-            "ee": "i/ie",
-            "oo": "u",
-            "v": "w",
-            "z": "s"
-        },
-        "grammar_gender_benchmarks": "Contrast Hindi's two-gender system (masculine/feminine) with German's three-gender system (masculine/feminine/neuter). Notice that Hindi lacks neuter.",
-        "instructional_rules": "Rename keys with suffix '_en' to '_de' and translate instructional texts and explanations into clear, educational German."
-    },
-    "ja": {
-        "name": "Japanese",
-        "iso_code": "ja",
-        "phonetic_adaptations": {
-            "sh": "シャ/シ",
-            "ee": "イー",
-            "oo": "ウー",
-            "a": "ア",
-            "aa": "アー",
-            "r": "ラ行"
-        },
-        "grammar_gender_benchmarks": "Contrast Hindi's strict grammatical gender with Japanese, which lacks grammatical noun gender entirely. Explain that adjective and verb agreements must be learned via Hindi rules.",
-        "instructional_rules": "Rename keys with suffix '_en' to '_ja' and translate instructional texts and explanations into natural, educational Japanese."
-    },
-    "zh": {
-        "name": "Mandarin Chinese",
-        "iso_code": "zh",
-        "phonetic_adaptations": {
-            "sh": "sh (汉语拼音)",
-            "ee": "i (衣)",
-            "oo": "u (乌)",
-            "a": "a (啊)",
-            "aa": "a (长音)"
-        },
-        "grammar_gender_benchmarks": "Contrast Hindi's strict grammatical gender with Mandarin Chinese, which has no grammatical gender for inanimate nouns. Notice verb and adjective agreements in Hindi.",
-        "instructional_rules": "Rename keys with suffix '_en' to '_zh' and translate instructional texts and explanations into clear, educational Simplified Chinese."
-    },
-    "ko": {
-        "name": "Korean",
-        "iso_code": "ko",
-        "phonetic_adaptations": {
-            "sh": "쉬/시",
-            "ee": "이",
-            "oo": "우",
-            "a": "아",
-            "aa": "아 (길게)"
-        },
-        "grammar_gender_benchmarks": "Contrast Hindi's strict grammatical gender with Korean, which has no grammatical gender. Explain agreement rules clearly in Korean.",
-        "instructional_rules": "Rename keys with suffix '_en' to '_ko' and translate instructional texts and explanations into natural, polite, educational Korean."
-    },
-    "it": {
-        "name": "Italian",
-        "iso_code": "it",
-        "phonetic_adaptations": {
-            "sh": "sc(i)",
-            "ee": "i",
-            "oo": "u",
-            "a": "a",
-            "aa": "a lunga"
-        },
-        "grammar_gender_benchmarks": "Map Hindi grammatical gender (masculine/feminine) directly to Italian grammatical gender (maschile/femminile). Draw parallels with adjective agreement.",
-        "instructional_rules": "Rename keys with suffix '_en' to '_it' and translate instructional texts and explanations into clear, educational Italian."
-    },
-    "pt": {
-        "name": "Portuguese",
-        "iso_code": "pt",
-        "phonetic_adaptations": {
-            "sh": "ch/x",
-            "ee": "i",
-            "oo": "u",
-            "a": "a",
-            "aa": "a longo"
-        },
-        "grammar_gender_benchmarks": "Map Hindi grammatical gender (masculine/feminine) directly to Portuguese grammatical gender (masculino/feminino). Highlight adjective agreements.",
-        "instructional_rules": "Rename keys with suffix '_en' to '_pt' and translate instructional texts and explanations into clear, educational Portuguese."
-    },
-    "ru": {
-        "name": "Russian",
-        "iso_code": "ru",
-        "phonetic_adaptations": {
-            "sh": "ш",
-            "ch": "ч",
-            "ee": "и",
-            "oo": "у",
-            "a": "а",
-            "aa": "долгий а"
-        },
-        "grammar_gender_benchmarks": "Contrast Hindi's two-gender system (masculine/feminine) with Russian's three-gender system (masculine/feminine/neuter). Emphasize verb past tense agreement in Hindi vs Russian.",
-        "instructional_rules": "Rename keys with suffix '_en' to '_ru' and translate instructional texts and explanations into natural, educational Russian."
-    },
-    "ar": {
-        "name": "Arabic",
-        "iso_code": "ar",
-        "phonetic_adaptations": {
-            "sh": "ش",
-            "ch": "تش",
-            "ee": "ي",
-            "oo": "و",
-            "a": "فتحة",
-            "aa": "ألف المد"
-        },
-        "grammar_gender_benchmarks": "Map Hindi grammatical gender (masculine/feminine) directly to Arabic grammatical gender (مذكر/مؤنث). Note that both languages have a strong distinction of gender in verbs and adjectives.",
-        "instructional_rules": "Rename keys with suffix '_en' to '_ar' and translate instructional texts and explanations into high-quality, classical Arabic."
-    }
-}
+REGISTRY_PATH = "/app/profiles/registry.json"
+
+def load_languages_from_registry():
+    if os.path.exists(REGISTRY_PATH):
+        with open(REGISTRY_PATH, "r", encoding="utf-8") as f:
+            try:
+                registry = json.load(f)
+                return registry.get("languages", {})
+            except Exception:
+                pass
+    return {}
+
+LANGUAGES = load_languages_from_registry()
 
 def get_prompt_template(target_language_code, file_type):
     """

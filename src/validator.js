@@ -2,10 +2,47 @@ import fs from 'fs';
 import path from 'path';
 
 export class Validator {
-  constructor(profilePath) {
-    this.profile = this.loadJSON(profilePath);
+  constructor(profilePathOrLang) {
     this.itemMap = new Map(); // Maps item ID to item data and source file
     this.levelMap = new Map(); // Maps level number to level data and source file
+    this.profile = null;
+    this.registry = null;
+
+    if (profilePathOrLang) {
+      if (typeof profilePathOrLang === 'string') {
+        if (profilePathOrLang.endsWith('registry.json')) {
+          this.registry = this.loadJSON(profilePathOrLang);
+        } else {
+          try {
+            if (fs.existsSync(profilePathOrLang)) {
+              const loaded = this.loadJSON(profilePathOrLang);
+              if (loaded.languages) {
+                this.registry = loaded;
+              } else {
+                this.profile = loaded;
+              }
+            } else {
+              const registryPath = '/app/profiles/registry.json';
+              this.registry = this.loadJSON(registryPath);
+              this.profile = this.getProfileForLanguage(profilePathOrLang);
+            }
+          } catch (e) {
+            try {
+              const registryPath = '/app/profiles/registry.json';
+              this.registry = this.loadJSON(registryPath);
+              this.profile = this.getProfileForLanguage(profilePathOrLang);
+            } catch (innerErr) {
+              throw new Error(`Failed to initialize Validator: ${profilePathOrLang}. Error: ${e.message}`);
+            }
+          }
+        }
+      } else if (typeof profilePathOrLang === 'object') {
+        this.profile = profilePathOrLang;
+      }
+    } else {
+      const registryPath = '/app/profiles/registry.json';
+      this.registry = this.loadJSON(registryPath);
+    }
   }
 
   loadJSON(filePath) {
@@ -14,6 +51,142 @@ export class Validator {
       return JSON.parse(data);
     } catch (e) {
       throw new Error(`Failed to load or parse JSON from ${filePath}: ${e.message}`);
+    }
+  }
+
+  getProfileForLanguage(langCode) {
+    if (!this.registry) {
+      const registryPath = '/app/profiles/registry.json';
+      this.registry = this.loadJSON(registryPath);
+    }
+    const cleanCode = langCode.toLowerCase();
+    let entry = this.registry.languages[cleanCode];
+    if (!entry) {
+      entry = Object.values(this.registry.languages).find(l => l.language.toLowerCase() === cleanCode);
+    }
+    if (!entry) {
+      throw new Error(`Language '${langCode}' is not explicitly registered in the unified registry.`);
+    }
+
+    const fallbackProfile = {
+      language: entry.language || cleanCode,
+      iso_code: entry.iso_code || cleanCode,
+      permitted_genders: entry.permitted_genders || [],
+      active_phonetic_systems: entry.active_phonetic_systems || [],
+      script_traits: {
+        is_abugida: entry.script_traits?.is_abugida ?? false,
+        has_matra: entry.script_traits?.has_matra ?? false,
+        has_sound_family: entry.script_traits?.has_sound_family ?? false,
+        has_tones: entry.script_traits?.has_tones ?? false,
+        has_word_masks: entry.script_traits?.has_word_masks ?? false,
+        ...(entry.script_traits || {})
+      },
+      script_boundaries: entry.script_boundaries || { ranges: [] }
+    };
+    return fallbackProfile;
+  }
+
+  detectLanguage(data) {
+    if (!this.registry) {
+      const registryPath = '/app/profiles/registry.json';
+      this.registry = this.loadJSON(registryPath);
+    }
+
+    const strData = JSON.stringify(data);
+    for (const [langCode, langObj] of Object.entries(this.registry.languages)) {
+      if (data[`module_name_${langCode}`] !== undefined || strData.includes(`title_${langCode}`)) {
+        return langCode;
+      }
+    }
+
+    const charCounts = {};
+    for (const langCode of Object.keys(this.registry.languages)) {
+      charCounts[langCode] = 0;
+    }
+
+    const scanStrings = (val) => {
+      if (typeof val === 'string') {
+        for (const [langCode, langObj] of Object.entries(this.registry.languages)) {
+          const ranges = langObj.script_boundaries?.ranges || [];
+          for (const [start, end] of ranges) {
+            const startCode = start.codePointAt(0);
+            const endCode = end.codePointAt(0);
+            for (let i = 0; i < val.length; i++) {
+              const code = val.codePointAt(i);
+              if (code >= startCode && code <= endCode) {
+                const char = String.fromCodePoint(code);
+                if (startCode > 0x7F || /^\p{L}$/u.test(char)) {
+                  charCounts[langCode]++;
+                }
+              }
+            }
+          }
+        }
+      } else if (Array.isArray(val)) {
+        for (const item of val) {
+          scanStrings(item);
+        }
+      } else if (val && typeof val === 'object') {
+        for (const value of Object.values(val)) {
+          scanStrings(value);
+        }
+      }
+    };
+
+    scanStrings(data);
+
+    const nonLatinLanguages = {};
+    const latinLanguages = {};
+    for (const [langCode, langObj] of Object.entries(this.registry.languages)) {
+      const ranges = langObj.script_boundaries?.ranges || [];
+      const hasNonLatinRange = ranges.some(([start, end]) => start.codePointAt(0) > 0x2FF);
+      const count = charCounts[langCode] || 0;
+      if (hasNonLatinRange) {
+        nonLatinLanguages[langCode] = count;
+      } else {
+        latinLanguages[langCode] = count;
+      }
+    }
+
+    const hasNonLatinMatch = Object.values(nonLatinLanguages).some(count => count > 0);
+    const activeCandidates = hasNonLatinMatch ? nonLatinLanguages : latinLanguages;
+
+    let bestLang = null;
+    let maxCount = 0;
+    for (const [langCode, count] of Object.entries(activeCandidates)) {
+      if (count > maxCount) {
+        maxCount = count;
+        bestLang = langCode;
+      }
+    }
+
+    return bestLang;
+  }
+
+  validateScriptBoundaries(text, langCode) {
+    const profile = this.getProfileForLanguage(langCode);
+    const ranges = profile.script_boundaries?.ranges || [];
+    if (ranges.length === 0) return;
+
+    for (let i = 0; i < text.length; i++) {
+      const code = text.codePointAt(i);
+      let allowed = false;
+      for (const [start, end] of ranges) {
+        const startCode = start.codePointAt(0);
+        const endCode = end.codePointAt(0);
+        if (code >= startCode && code <= endCode) {
+          allowed = true;
+          break;
+        }
+      }
+
+      if (!allowed) {
+        const char = String.fromPoint ? String.fromPoint(code) : String.fromCodePoint(code);
+        const isLetter = /^\p{L}$/u.test(char);
+        if (isLetter) {
+          throw new Error(`Script boundary violation: character '${char}' (U+${code.toString(16).toUpperCase()}) in target '${text}' is outside the permitted script boundaries for language '${langCode}'.`);
+        }
+      }
     }
   }
 
@@ -117,6 +290,16 @@ export class Validator {
     const levels = data.levels || [];
     const errors = [];
 
+    let profile = this.profile;
+    let langCode = profile ? (profile.iso_code || profile.language) : null;
+    if (!langCode) {
+      langCode = this.detectLanguage(data);
+    }
+    if (!langCode) {
+      throw new Error(`Language could not be detected, and none is configured. Failing closed.`);
+    }
+    profile = this.getProfileForLanguage(langCode);
+
     for (const lvl of levels) {
       const lvlNum = lvl.level;
       const items = lvl.items || [];
@@ -124,18 +307,31 @@ export class Validator {
       for (const item of items) {
         if (!item || typeof item.id !== 'string') continue;
 
+        if (item.target) {
+          try {
+            this.validateScriptBoundaries(item.target, langCode);
+          } catch (err) {
+            errors.push({
+              file: levelsFilePath,
+              level: lvlNum,
+              itemId: item.id,
+              message: err.message
+            });
+          }
+        }
+
         // Polymorphic schema validations based on Language Profile
-        const genders = this.profile.permitted_genders || [];
+        const genders = profile.permitted_genders || [];
         if (item.gender !== null && item.gender !== undefined) {
           if (!genders.includes(item.gender)) {
             errors.push({
               file: levelsFilePath,
               level: lvlNum,
               itemId: item.id,
-              message: `Gender '${item.gender}' is not permitted in language '${this.profile.language}'. Allowed genders: [${genders.join(', ')}]`
+              message: `Gender '${item.gender}' is not permitted in language '${profile.language}'. Allowed genders: [${genders.join(', ')}]`
             });
           }
-        } else if (item.type === 'word' && genders.length > 0 && this.profile.language === 'hindi') {
+        } else if (item.type === 'word' && genders.length > 0 && profile.language === 'hindi') {
           // If the profile mandates noun genders (e.g. Hindi), warn/error if missing
           errors.push({
             file: levelsFilePath,
@@ -146,7 +342,7 @@ export class Validator {
         }
 
         // Script traits checks
-        const isAbugida = this.profile.script_traits?.is_abugida;
+        const isAbugida = profile.script_traits?.is_abugida;
         if (item.type === 'letter') {
           if (isAbugida) {
             // For Abugida scripts, fields like 'matra' and 'sound_family' must be defined (can be null but key must exist)
@@ -350,6 +546,12 @@ export class Validator {
       return errors;
     }
 
+    let profile = this.profile;
+    let langCode = profile ? (profile.iso_code || profile.language) : null;
+    if (!langCode) {
+      langCode = this.detectLanguage(data);
+    }
+
     for (const sItem of spineItems) {
       if (!sItem || typeof sItem.id !== 'string') {
         errors.push({
@@ -357,6 +559,18 @@ export class Validator {
           message: "Spine entry is missing a valid string ID."
         });
         continue;
+      }
+
+      if (sItem.target && langCode) {
+        try {
+          this.validateScriptBoundaries(sItem.target, langCode);
+        } catch (err) {
+          errors.push({
+            file: spineFilePath,
+            itemId: sItem.id,
+            message: err.message
+          });
+        }
       }
 
       // Referential Integrity with level files
