@@ -1,0 +1,128 @@
+{
+  "module": 1,
+  "module_name_en": "Hindi with German localization block",
+  "levels": [
+    {
+      "level": 100,
+      "title_en": "Hybrid block",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "HYBRID-I1",
+          "type": "word",
+          "target": "Buch",
+          "gender": "neuter",
+          "tags": [
+            "lang:german",
+            "gender:neuter",
+            "script:roman",
+            "anchor:interval:30"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Learn item",
+              "explanation_en": "Learn item description"
+            },
+            "practice": {
+              "format": "multiple_choice",
+              "prompt_en": "What is this?",
+              "options": [
+                "Option A",
+                "Option B"
+              ],
+              "answer_index": 0
+            },
+            "game": {
+              "format": "multiple_choice",
+              "prompt_en": "Play game?",
+              "options": [
+                "Yes",
+                "No"
+              ],
+              "answer_index": 0
+            }
+          }
+        },
+        {
+          "id": "HYBRID-I2",
+          "type": "word",
+          "target": "Mensch",
+          "gender": "common",
+          "tags": [
+            "lang:german",
+            "gender:common",
+            "script:roman"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Learn item",
+              "explanation_en": "Learn item description"
+            },
+            "practice": {
+              "format": "multiple_choice",
+              "prompt_en": "What is this?",
+              "options": [
+                "Option A",
+                "Option B"
+              ],
+              "answer_index": 0
+            },
+            "game": {
+              "format": "multiple_choice",
+              "prompt_en": "Play game?",
+              "options": [
+                "Yes",
+                "No"
+              ],
+              "answer_index": 0
+            }
+          }
+        },
+        {
+          "id": "HYBRID-I3",
+          "type": "word",
+          "target": "Haus",
+          "gender": "neuter",
+          "tags": [
+            "lang:german",
+            "gender:neuter",
+            "script:roman"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "Learn item",
+              "explanation_en": "Learn item description"
+            },
+            "practice": {
+              "format": "multiple_choice",
+              "prompt_en": "What is this?",
+              "options": [
+                "Option A",
+                "Option B"
+              ],
+              "answer_index": 0
+            },
+            "game": {
+              "format": "multiple_choice",
+              "prompt_en": "Play game?",
+              "options": [
+                "Yes",
+                "No"
+              ],
+              "answer_index": 0
+            }
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Bypass recap.",
+        "key_forms": [
+          "Buch",
+          "Mensch",
+          "Haus"
+        ],
+        "next_up_en": "Next up."
+      }
+    }
+  ]
+}
