@@ -53,23 +53,8 @@ class Validator:
         """
         Detects language from content or metadata patterns.
         """
-        if "module_name_hi" in data or "title_hi" in str(data):
-            return "hindi"
-
-        # Check for Devanagari characters in text values
-        def check_val(v):
-            if isinstance(v, str):
-                return any('\u0900' <= c <= '\u097f' for c in v)
-            elif isinstance(v, list):
-                return any(check_val(item) for item in v)
-            elif isinstance(v, dict):
-                return any(check_val(item) for item in v.values())
-            return False
-
-        if check_val(data):
-            return "hindi"
-
-        return None
+        from core_engine.locale_map import detect_language_from_path_or_data
+        return detect_language_from_path_or_data(data=data)
 
     def validate(self, data: dict, schema_type: str, language: str = None) -> dict:
         """

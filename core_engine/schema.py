@@ -265,4 +265,10 @@ def validate_structure(data, schema_type):
     """
     if schema_type not in SCHEMAS:
         raise ValueError(f"Unknown schema type: {schema_type}")
-    jsonschema.validate(instance=data, schema=SCHEMAS[schema_type])
+        
+    from core_engine.locale_map import LOCALE_KEYS, detect_language_from_path_or_data, parameterize_core_schema
+    lang = detect_language_from_path_or_data(data=data)
+    mapping = LOCALE_KEYS.get(lang, LOCALE_KEYS["hindi"])
+    
+    schema = parameterize_core_schema(SCHEMAS[schema_type], mapping)
+    jsonschema.validate(instance=data, schema=schema)

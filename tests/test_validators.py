@@ -249,3 +249,173 @@ def test_validate_mock_exam_weights_m5():
         }
     }
     assert validate_mock_exam_weights(valid_m5_mock) is True
+
+def test_dynamic_validation_keys_level_german():
+    german_data = {
+        "module": 1,
+        "phase": 1,
+        "levels": [
+            {
+                "level": 1,
+                "title_en": "Test Level 1",
+                "is_micro_dialogue_level": False,
+                "items": [
+                    {
+                        "id": "M01-L01-I1",
+                        "type": "letter",
+                        "target": "A",
+                        "read_as": "a",
+                        "pronunciation_notes": "None",
+                        "tags": ["vowel"],
+                        "example_word": { "german": "Apfel", "read_as": "apfel", "english": "apple" },
+                        "cards": {
+                            "learn": {
+                                "title_en": "Learn Card",
+                                "explanation_en": "Explanation",
+                                "examples": [
+                                    { "german": "Apfel", "read_as": "apfel", "english": "apple" }
+                                ]
+                            },
+                            "practice": {
+                                "format": "hear_it_pick_letter",
+                                "prompt_en": "Practice Prompt",
+                                "question": "Apfel",
+                                "options": ["A", "B"],
+                                "answer_index": 0
+                            },
+                            "game": {
+                                "format": "odd_sound_out",
+                                "question_en": "Game Question",
+                                "options": ["Apfel", "Abends"],
+                                "answer_index": 1
+                            }
+                        },
+                        "audio": {
+                            "tts_strings": ["A"],
+                            "requires_recording": False
+                        }
+                    },
+                    {
+                        "id": "M01-L01-I2",
+                        "type": "letter",
+                        "target": "B",
+                        "read_as": "b",
+                        "pronunciation_notes": "None",
+                        "tags": ["consonant"],
+                        "example_word": { "german": "Birne", "read_as": "birne", "english": "pear" },
+                        "cards": {
+                            "learn": { "title_en": "L", "explanation_en": "E", "examples": [] },
+                            "practice": { "format": "F", "prompt_en": "P", "question": "Q", "options": ["O"], "answer_index": 0 },
+                            "game": { "format": "G", "question_en": "Q", "options": ["O"], "answer_index": 0 }
+                        },
+                        "audio": { "tts_strings": [], "requires_recording": False }
+                    },
+                    {
+                        "id": "M01-L01-I3",
+                        "type": "letter",
+                        "target": "C",
+                        "read_as": "c",
+                        "pronunciation_notes": "None",
+                        "tags": ["consonant"],
+                        "example_word": { "german": "Citron", "read_as": "citron", "english": "lemon" },
+                        "cards": {
+                            "learn": { "title_en": "L", "explanation_en": "E", "examples": [] },
+                            "practice": { "format": "F", "prompt_en": "P", "question": "Q", "options": ["O"], "answer_index": 0 },
+                            "game": { "format": "G", "question_en": "Q", "options": ["O"], "answer_index": 0 }
+                        },
+                        "audio": { "tts_strings": [], "requires_recording": False }
+                    }
+                ],
+                "summary": {
+                    "recap_en": "Summary recap",
+                    "key_forms": ["A", "B", "C"],
+                    "next_up_en": "Next level"
+                }
+            }
+        ]
+    }
+    
+    # Should pass JSON schema validation and custom validation in validate.py
+    validate_json_schema(german_data, "level")
+    
+    from validate import CurriculumValidator
+    validator = CurriculumValidator("/app/tests/temp")
+    validator.validate_level_file("/app/tests/temp/german_levels.json", german_data)
+
+def test_dynamic_validation_keys_reading_phase5_german():
+    german_reading_data = {
+        "module": 12,
+        "phase": 5,
+        "levels": [
+            {
+                "level": 34,
+                "title_en": "German Reading",
+                "is_micro_dialogue_level": False,
+                "items": [
+                    {
+                        "id": "M12-L34-I1",
+                        "type": "reading",
+                        "target": "Text",
+                        "read_as": "text",
+                        "german_text": "Es war einmal...",
+                        "read_as": "es war einmal",
+                        "german_translation": "Once upon a time...",
+                        "reading_goal": "Understand narrative text",
+                        "key_vocabulary": ["einmal"],
+                        "comprehension_question": "Who was there?",
+                        "inference_question": "Why?",
+                        "difficulty": 1,
+                        "tags": ["reading"],
+                        "example_word": { "german": "Apfel", "read_as": "apfel", "english": "apple" },
+                        "cards": {
+                            "learn": { "title_en": "L", "explanation_en": "E", "examples": [] },
+                            "practice": { "format": "F", "prompt_en": "P", "question": "Q", "options": ["O"], "answer_index": 0 },
+                            "game": { "format": "G", "question_en": "Q", "options": ["O"], "answer_index": 0 }
+                        },
+                        "audio": { "tts_strings": [], "requires_recording": False }
+                    },
+                    {
+                        "id": "M12-L34-I2",
+                        "type": "word",
+                        "target": "word2",
+                        "read_as": "w2",
+                        "pronunciation_notes": "None",
+                        "difficulty": 1,
+                        "tags": ["word"],
+                        "cards": {
+                            "learn": { "title_en": "L", "explanation_en": "E", "examples": [] },
+                            "practice": { "format": "F", "prompt_en": "P", "question": "Q", "options": ["O"], "answer_index": 0 },
+                            "game": { "format": "G", "question_en": "Q", "options": ["O"], "answer_index": 0 }
+                        },
+                        "audio": { "tts_strings": [], "requires_recording": False }
+                    },
+                    {
+                        "id": "M12-L34-I3",
+                        "type": "word",
+                        "target": "word3",
+                        "read_as": "w3",
+                        "pronunciation_notes": "None",
+                        "difficulty": 1,
+                        "tags": ["word"],
+                        "cards": {
+                            "learn": { "title_en": "L", "explanation_en": "E", "examples": [] },
+                            "practice": { "format": "F", "prompt_en": "P", "question": "Q", "options": ["O"], "answer_index": 0 },
+                            "game": { "format": "G", "question_en": "Q", "options": ["O"], "answer_index": 0 }
+                        },
+                        "audio": { "tts_strings": [], "requires_recording": False }
+                    }
+                ],
+                "summary": {
+                    "recap_en": "Summary recap",
+                    "key_forms": ["A", "B", "C"],
+                    "next_up_en": "Next level"
+                }
+            }
+        ]
+    }
+    
+    # Run the validation through main CLI check
+    from validate import CurriculumValidator
+    validator = CurriculumValidator("/app/tests/temp")
+    validator.validate_level_file("/app/tests/temp/german_levels.json", german_reading_data)
+

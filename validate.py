@@ -247,23 +247,51 @@ class CurriculumValidator:
                                 f"Level {lvl_num}, item ID {item_id} (Vocabulary Item): Missing or invalid 'example_word' block"
                             )
 
-                        for sub_field in ("hindi", "read_as", "english"):
-                            if not example_word.get(sub_field):
-                                raise ValidationFailure(
-                                    f"Level {lvl_num}, item ID {item_id} (Vocabulary Item): Missing required '{sub_field}' inside 'example_word'"
-                                )
+                        from core_engine.locale_map import LOCALE_KEYS, detect_language_from_path_or_data
+                        lang = detect_language_from_path_or_data(filepath, data)
+                        mapping = LOCALE_KEYS.get(lang, LOCALE_KEYS["hindi"])
+                        vocab_key = mapping["vocab_key"]
+                        possible_translation_keys = {"english", lang, mapping["iso"]}
+
+                        if not example_word.get(vocab_key):
+                            raise ValidationFailure(
+                                f"Level {lvl_num}, item ID {item_id} (Vocabulary Item): Missing required '{vocab_key}' inside 'example_word'"
+                            )
+                        if not example_word.get("read_as"):
+                            raise ValidationFailure(
+                                f"Level {lvl_num}, item ID {item_id} (Vocabulary Item): Missing required 'read_as' inside 'example_word'"
+                            )
+                        found_translation = False
+                        for tk in possible_translation_keys:
+                            if example_word.get(tk):
+                                found_translation = True
+                                break
+                        if not found_translation:
+                            raise ValidationFailure(
+                                f"Level {lvl_num}, item ID {item_id} (Vocabulary Item): Missing required translation key (one of {possible_translation_keys}) inside 'example_word'"
+                            )
 
                 # Schema Validation: Reading items in Phase 5 levels
                 elif item_type == "reading" and phase_num == 5:
-                    required_reading_fields = (
-                        "hindi_text", "read_as", "english_translation", 
-                        "reading_goal", "key_vocabulary", 
+                    from core_engine.locale_map import LOCALE_KEYS, detect_language_from_path_or_data
+                    lang = detect_language_from_path_or_data(filepath, data)
+                    mapping = LOCALE_KEYS.get(lang, LOCALE_KEYS["hindi"])
+                    reading_text_key = mapping["reading_text_key"]
+                    
+                    translation_keys = {"english_translation", f"{lang}_translation", f"{mapping['iso']}_translation"}
+                    
+                    required_reading_fields = [
+                        reading_text_key, "read_as", "reading_goal", "key_vocabulary", 
                         "comprehension_question", "inference_question"
-                    )
-                    for r_field in required_reading_fields:
-                        if r_field not in item or item.get(r_field) is None:
-                            # Let's check if there is text block (legacy format) or if it's strictly missing
-                            if "text" not in item:
+                    ]
+                    if "text" not in item:
+                        has_translation = any(tk in item and item.get(tk) is not None for tk in translation_keys)
+                        if not has_translation:
+                            raise ValidationFailure(
+                                f"Level {lvl_num}, item ID {item_id} (Phase 5 Reading Item): Missing required field 'english_translation' or its localized equivalent"
+                            )
+                        for r_field in required_reading_fields:
+                            if r_field not in item or item.get(r_field) is None:
                                 raise ValidationFailure(
                                     f"Level {lvl_num}, item ID {item_id} (Phase 5 Reading Item): Missing required field '{r_field}'"
                                 )
