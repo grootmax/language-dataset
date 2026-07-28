@@ -1,0 +1,12 @@
+{
+  "language": "dutch",
+  "permitted_genders": ["common", "neuter"],
+  "active_phonetic_systems": [],
+  "script_traits": {
+    "is_abugida": false,
+    "has_matra": false,
+    "has_sound_family": false,
+    "has_tones": false,
+    "has_word_masks": false
+  }
+}

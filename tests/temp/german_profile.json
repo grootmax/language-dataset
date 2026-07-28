@@ -1,0 +1,15 @@
+{
+  "language": "german",
+  "permitted_genders": [
+    "masculine",
+    "feminine",
+    "neuter",
+    "common"
+  ],
+  "active_phonetic_systems": [],
+  "script_traits": {
+    "is_abugida": false,
+    "has_matra": false,
+    "has_sound_family": false
+  }
+}
