@@ -363,3 +363,71 @@ def test_game_registry_contract():
 
     incompatibles = registry.get_compatible_games(incompatible_item)
     assert "GenderGuess" not in incompatibles
+
+def test_fail_closed_validation_missing_plugin(capsys):
+    """
+    Ensures that validation fails closed immediately when initiated for a language 
+    without a plugin file on disk, throwing FileNotFoundError and logging descriptive message.
+    """
+    validator = Validator()
+    dummy_data = {
+        "module": 1,
+        "module_name_en": "Greetings",
+        "phase": 1,
+        "levels": []
+    }
+    
+    # Non-existent language plugin should throw FileNotFoundError
+    with pytest.raises(FileNotFoundError) as exc_info:
+        validator.validate(dummy_data, "level", "non_existent_lang")
+        
+    assert "Missing required validation plugin file for language" in str(exc_info.value)
+    assert "non_existent_lang_plugin.py" in str(exc_info.value)
+    
+    # Check that error was logged to stderr
+    captured = capsys.readouterr()
+    assert "FAIL-CLOSED:" in captured.err or "FAIL-CLOSED:" in captured.out
+    assert "non_existent_lang_plugin.py" in captured.err or "non_existent_lang_plugin.py" in captured.out
+
+def test_boilerplate_validation_stubs_success():
+    """
+    Ensures that translation requests for Spanish, French, Korean, Italian, Telugu, Bengali,
+    and Marathi execute successfully through their respective stub files.
+    """
+    validator = Validator()
+    dummy_data = {
+        "module": 1,
+        "module_name_en": "Greetings",
+        "phase": 1,
+        "levels": []
+    }
+    
+    target_languages = [
+        "spanish", "french", "korean", "italian", "telugu", "bengali", "marathi",
+        "es", "fr", "ko", "it", "te", "bn", "mr" # and codes
+    ]
+    
+    for lang in target_languages:
+        # Validate should run successfully without raising FileNotFoundError
+        normalized = validator.validate(dummy_data, "level", lang)
+        assert normalized == dummy_data
+
+def test_validation_plugin_caching():
+    """
+    Ensures that the validation engine uses a cache for loaded validation files to avoid
+    redundant disk operations.
+    """
+    validator = Validator()
+    
+    # First load
+    plugin_1 = validator.load_plugin("spanish")
+    assert plugin_1 is not None
+    
+    # Second load from cache
+    plugin_2 = validator.load_plugin("spanish")
+    assert plugin_2 is plugin_1  # Exact same instance
+    
+    # Load via code/alias
+    plugin_3 = validator.load_plugin("es")
+    assert plugin_3 is plugin_1  # Resolves and hits cache
+

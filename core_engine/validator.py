@@ -11,6 +11,23 @@ class Validator:
         self.plugins_dir = plugins_dir
         self._plugin_cache = {}
 
+    _LANGUAGE_MAP = {
+        "es": "spanish",
+        "fr": "french",
+        "ko": "korean",
+        "it": "italian",
+        "te": "telugu",
+        "bn": "bengali",
+        "mr": "marathi",
+        "de": "german",
+        "zh": "chinese",
+        "hi": "hindi",
+        "ja": "japanese",
+        "ru": "russian",
+        "ar": "arabic",
+        "pt": "portuguese"
+    }
+
     def load_plugin(self, language: str) -> BasePlugin:
         """
         Dynamically loads the plugin for the given language inside the restricted sandbox.
@@ -19,12 +36,20 @@ class Validator:
             return None
             
         language = language.lower()
+        # Resolve language code to full language name if mapped
+        language = self._LANGUAGE_MAP.get(language, language)
+
         if language in self._plugin_cache:
             return self._plugin_cache[language]
 
         plugin_file = os.path.join(self.plugins_dir, f"{language}_plugin.py")
         if not os.path.exists(plugin_file):
-            return None
+            exact_path = os.path.abspath(plugin_file)
+            err_msg = f"FAIL-CLOSED: Missing required validation plugin file for language '{language}'. Expected at: {exact_path}"
+            # Log descriptive error detailing the exact missing plugin file
+            import sys
+            sys.stderr.write(f"ERROR: {err_msg}\n")
+            raise FileNotFoundError(err_msg)
 
         with open(plugin_file, "r", encoding="utf-8") as f:
             source = f.read()
