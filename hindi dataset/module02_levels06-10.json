@@ -61,7 +61,7 @@
             }
           },
           "audio": {
-            "tts_strings": ["ढ", "ढाई", "ढाबा", "ढेर"],
+            "tts_strings": ["<speak><prosody rate='80%'><break time='250ms'/>ढ</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>ढाई</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>ढाबा</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>ढेर</prosody></speak>"],
             "requires_recording": false
           }
         },
@@ -111,7 +111,7 @@
             }
           },
           "audio": {
-            "tts_strings": ["ण", "कारण", "अंडा", "ठंडा"],
+            "tts_strings": ["<speak><prosody rate='80%'><break time='250ms'/>ण</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>कारण</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>अंडा</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>ठंडा</prosody></speak>"],
             "requires_recording": false
           }
         },
@@ -165,7 +165,7 @@
             }
           },
           "audio": {
-            "tts_strings": ["ट", "ठ", "ड", "ढ", "डाल", "ढाल"],
+            "tts_strings": ["<speak><prosody rate='80%'><break time='250ms'/>ट</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>ठ</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>ड</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>ढ</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>डाल</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>ढाल</prosody></speak>"],
             "requires_recording": false
           }
         }
@@ -232,7 +232,7 @@
             }
           },
           "audio": {
-            "tts_strings": ["त", "तीन", "तुम", "रात"],
+            "tts_strings": ["<speak><prosody rate='80%'><break time='250ms'/>त</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>तीन</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>तुम</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>रात</prosody></speak>"],
             "requires_recording": false
           }
         },
@@ -286,7 +286,7 @@
             }
           },
           "audio": {
-            "tts_strings": ["थ", "थाली", "थकना", "हाथ"],
+            "tts_strings": ["<speak><prosody rate='80%'><break time='250ms'/>थ</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>थाली</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>थकना</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>हाथ</prosody></speak>"],
             "requires_recording": false
           }
         },
@@ -340,7 +340,7 @@
             }
           },
           "audio": {
-            "tts_strings": ["द", "दाल", "दिन", "दूध"],
+            "tts_strings": ["<speak><prosody rate='80%'><break time='250ms'/>द</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>दाल</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>दिन</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>दूध</prosody></speak>"],
             "requires_recording": false
           }
         }
@@ -407,7 +407,7 @@
             }
           },
           "audio": {
-            "tts_strings": ["ध", "धूप", "धीरे", "दूध"],
+            "tts_strings": ["<speak><prosody rate='80%'><break time='250ms'/>ध</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>धूप</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>धीरे</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>दूध</prosody></speak>"],
             "requires_recording": false
           }
         },
@@ -457,7 +457,7 @@
             }
           },
           "audio": {
-            "tts_strings": ["न", "नाम", "नहीं", "दिन"],
+            "tts_strings": ["<speak><prosody rate='80%'><break time='250ms'/>न</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>नाम</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>नहीं</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>दिन</prosody></speak>"],
             "requires_recording": false
           }
         },
@@ -511,7 +511,7 @@
             }
           },
           "audio": {
-            "tts_strings": ["तीन", "टीन", "दाल", "डाल", "नाम"],
+            "tts_strings": ["<speak><prosody rate='80%'><break time='250ms'/>तीन</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>टीन</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>दाल</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>डाल</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>नाम</prosody></speak>"],
             "requires_recording": false
           }
         }
@@ -578,7 +578,7 @@
             }
           },
           "audio": {
-            "tts_strings": ["प", "पानी", "पास", "आप"],
+            "tts_strings": ["<speak><prosody rate='80%'><break time='250ms'/>प</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>पानी</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>पास</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>आप</prosody></speak>"],
             "requires_recording": false
           }
         },
@@ -632,7 +632,7 @@
             }
           },
           "audio": {
-            "tts_strings": ["फ", "फल", "फूल", "फिर"],
+            "tts_strings": ["<speak><prosody rate='80%'><break time='250ms'/>फ</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>फल</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>फूल</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>फिर</prosody></speak>"],
             "requires_recording": false
           }
         },
@@ -686,7 +686,7 @@
             }
           },
           "audio": {
-            "tts_strings": ["ब", "बात", "बस", "सब"],
+            "tts_strings": ["<speak><prosody rate='80%'><break time='250ms'/>ब</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>बात</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>बस</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>सब</prosody></speak>"],
             "requires_recording": false
           }
         }
@@ -753,7 +753,7 @@
             }
           },
           "audio": {
-            "tts_strings": ["भ", "भाई", "भूख", "भारत"],
+            "tts_strings": ["<speak><prosody rate='80%'><break time='250ms'/>भ</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>भाई</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>भूख</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>भारत</prosody></speak>"],
             "requires_recording": false
           }
         },
@@ -803,7 +803,7 @@
             }
           },
           "audio": {
-            "tts_strings": ["म", "मन", "काम", "लंबा"],
+            "tts_strings": ["<speak><prosody rate='80%'><break time='250ms'/>म</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>मन</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>काम</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>लंबा</prosody></speak>"],
             "requires_recording": false
           }
         },
@@ -857,7 +857,7 @@
             }
           },
           "audio": {
-            "tts_strings": ["पल", "फल", "बात", "भाई"],
+            "tts_strings": ["<speak><prosody rate='80%'><break time='250ms'/>पल</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>फल</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>बात</prosody></speak>", "<speak><prosody rate='80%'><break time='250ms'/>भाई</prosody></speak>"],
             "requires_recording": false
           }
         }
