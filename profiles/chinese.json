@@ -1,0 +1,12 @@
+{
+  "language": "chinese",
+  "permitted_genders": [],
+  "active_phonetic_systems": ["tones"],
+  "script_traits": {
+    "is_abugida": false,
+    "has_matra": false,
+    "has_sound_family": false,
+    "has_tones": true,
+    "has_word_masks": false
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "module": 1,
+  "kind": "custom_exam",
+  "questions": [
+    {
+      "id": "DE-EXAM-Q1",
+      "source_item_ids": [
+        "DE-L01-I1"
+      ],
+      "type": "recognition",
+      "prompt_en": "What does Buch mean?",
+      "options": [
+        "book",
+        "house",
+        "human"
+      ],
+      "answer_index": 0,
+      "explanation_en": "Buch is book."
+    },
+    {
+      "id": "DE-EXAM-Q2",
+      "source_item_ids": [
+        "DE-L01-I2"
+      ],
+      "type": "recognition",
+      "prompt_en": "What does Mensch mean?",
+      "options": [
+        "book",
+        "house",
+        "human"
+      ],
+      "answer_index": 2,
+      "explanation_en": "Mensch is human."
+    }
+  ]
+}

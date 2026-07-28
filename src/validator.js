@@ -1,0 +1,503 @@
+import fs from 'fs';
+import path from 'path';
+
+export class Validator {
+  constructor(profilePath) {
+    this.profile = this.loadJSON(profilePath);
+    this.itemMap = new Map(); // Maps item ID to item data and source file
+    this.levelMap = new Map(); // Maps level number to level data and source file
+  }
+
+  loadJSON(filePath) {
+    try {
+      const data = fs.readFileSync(filePath, 'utf8');
+      return JSON.parse(data);
+    } catch (e) {
+      throw new Error(`Failed to load or parse JSON from ${filePath}: ${e.message}`);
+    }
+  }
+
+  // Pre-loads levels so referential integrity can be verified across all files in the module
+  registerLevels(levelsFilePath) {
+    const data = this.loadJSON(levelsFilePath);
+    const levels = data.levels || [];
+    const errors = [];
+
+    // Basic levels array check
+    if (!Array.isArray(levels)) {
+      errors.push({
+        file: levelsFilePath,
+        message: "The 'levels' field must be an array."
+      });
+      return errors;
+    }
+
+    for (const lvl of levels) {
+      const lvlNum = lvl.level;
+      if (typeof lvlNum !== 'number') {
+        errors.push({
+          file: levelsFilePath,
+          message: `Level number must be a number, got: ${typeof lvlNum}`
+        });
+        continue;
+      }
+
+      if (this.levelMap.has(lvlNum)) {
+        errors.push({
+          file: levelsFilePath,
+          message: `Duplicate level number found: ${lvlNum}`
+        });
+      }
+      this.levelMap.set(lvlNum, { data: lvl, file: levelsFilePath });
+
+      const items = lvl.items || [];
+      if (!Array.isArray(items)) {
+        errors.push({
+          file: levelsFilePath,
+          level: lvlNum,
+          message: `The 'items' field in level ${lvlNum} must be an array.`
+        });
+        continue;
+      }
+
+      // Rigid Lesson Counting Limit: exactly three items per level
+      if (items.length !== 3) {
+        errors.push({
+          file: levelsFilePath,
+          level: lvlNum,
+          message: `Rigid lesson count limit violated in level ${lvlNum}: expected exactly 3 items, found ${items.length}`
+        });
+      }
+
+      // Check for summary recap
+      if (!lvl.summary) {
+        errors.push({
+          file: levelsFilePath,
+          level: lvlNum,
+          message: `Level ${lvlNum} is missing a summary recap.`
+        });
+      } else {
+        const sum = lvl.summary;
+        if (typeof sum.recap_en !== 'string' || !Array.isArray(sum.key_forms) || typeof sum.next_up_en !== 'string') {
+          errors.push({
+            file: levelsFilePath,
+            level: lvlNum,
+            message: `Level ${lvlNum} summary recap is invalid: must contain 'recap_en' (string), 'key_forms' (array of strings), and 'next_up_en' (string).`
+          });
+        }
+      }
+
+      for (const item of items) {
+        if (!item || typeof item.id !== 'string') {
+          errors.push({
+            file: levelsFilePath,
+            level: lvlNum,
+            message: `Found an item without a valid string ID in level ${lvlNum}`
+          });
+          continue;
+        }
+
+        if (this.itemMap.has(item.id)) {
+          errors.push({
+            file: levelsFilePath,
+            level: lvlNum,
+            itemId: item.id,
+            message: `Duplicate item ID found: ${item.id}`
+          });
+        }
+        this.itemMap.set(item.id, { data: item, level: lvlNum, file: levelsFilePath });
+      }
+    }
+
+    return errors;
+  }
+
+  validateLevelFile(levelsFilePath) {
+    const data = this.loadJSON(levelsFilePath);
+    const levels = data.levels || [];
+    const errors = [];
+
+    for (const lvl of levels) {
+      const lvlNum = lvl.level;
+      const items = lvl.items || [];
+
+      // Check if the level contains an expansion language tag
+      let hasExpansionTag = false;
+      for (const item of items) {
+        if (item && Array.isArray(item.tags)) {
+          for (const tag of item.tags) {
+            if (typeof tag === 'string') {
+              const lowerTag = tag.toLowerCase().trim();
+              if (lowerTag.startsWith('lang:') || lowerTag.startsWith('language:') || lowerTag === 'expansion' || lowerTag === 'expansion_lang') {
+                hasExpansionTag = true;
+                break;
+              }
+            }
+          }
+        }
+        if (hasExpansionTag) break;
+      }
+
+      const isExpansion = (this.profile.language !== 'hindi') || hasExpansionTag;
+
+      for (const item of items) {
+        if (!item || typeof item.id !== 'string') continue;
+
+        // Parse metadata tags for key-value structures
+        const itemMetadata = {};
+        if (Array.isArray(item.tags)) {
+          for (const tag of item.tags) {
+            if (typeof tag === 'string' && tag.includes(':')) {
+              const parts = tag.split(':');
+              const key = parts[0].trim().toLowerCase();
+              const val = parts.slice(1).join(':').trim();
+              itemMetadata[key] = val;
+            }
+          }
+        }
+
+        // Identify non-binary genders from tags
+        let itemGender = item.gender;
+        if (itemMetadata.gender) {
+          itemGender = itemMetadata.gender;
+        }
+
+        // Identify non-Abugida scripts from tags
+        let isAbugida = this.profile.script_traits?.is_abugida;
+        if (itemMetadata.script && itemMetadata.script.toLowerCase() !== 'abugida') {
+          isAbugida = false;
+        }
+        if (itemMetadata.is_abugida === 'false' || itemMetadata.script_traits_is_abugida === 'false') {
+          isAbugida = false;
+        }
+
+        // Polymorphic schema validations based on Language Profile
+        const genders = this.profile.permitted_genders || [];
+        if (item.gender !== null && item.gender !== undefined) {
+          const allowedGenders = [...genders];
+          if (itemMetadata.gender && !allowedGenders.includes(itemMetadata.gender)) {
+            allowedGenders.push(itemMetadata.gender);
+          }
+          if (isExpansion) {
+            // Permit any gender specified on expansion levels
+            if (!allowedGenders.includes(item.gender)) {
+              allowedGenders.push(item.gender);
+            }
+          }
+          if (!allowedGenders.includes(item.gender)) {
+            errors.push({
+              file: levelsFilePath,
+              level: lvlNum,
+              itemId: item.id,
+              message: `Gender '${item.gender}' is not permitted in language '${this.profile.language}'. Allowed genders: [${genders.join(', ')}]`
+            });
+          }
+        } else if (item.type === 'word' && genders.length > 0 && this.profile.language === 'hindi' && !isExpansion) {
+          // If the profile mandates noun genders (e.g. Hindi), warn/error if missing
+          errors.push({
+            file: levelsFilePath,
+            level: lvlNum,
+            itemId: item.id,
+            message: `Missing required gender field for Hindi word: '${item.target}'`
+          });
+        }
+
+        // Hindi pronunciation and spelling checks (bypassed if isExpansion is true)
+        if (this.profile.language === 'hindi' && !isExpansion) {
+          // Devanagari script check: target should be in Devanagari script
+          if (item.target && !/[\u0900-\u097F]/.test(item.target)) {
+            errors.push({
+              file: levelsFilePath,
+              level: lvlNum,
+              itemId: item.id,
+              message: `Hindi spelling check failed: target '${item.target}' should be in Devanagari script.`
+            });
+          }
+          // Pronunciation read_as and notes check for words
+          if (item.type === 'word') {
+            if (!item.read_as) {
+              errors.push({
+                file: levelsFilePath,
+                level: lvlNum,
+                itemId: item.id,
+                message: `Hindi pronunciation check failed: missing 'read_as' for word '${item.target}'`
+              });
+            }
+            if (!item.pronunciation_notes) {
+              errors.push({
+                file: levelsFilePath,
+                level: lvlNum,
+                itemId: item.id,
+                message: `Hindi pronunciation check failed: missing 'pronunciation_notes' for word '${item.target}'`
+              });
+            }
+          }
+        }
+
+        // Script traits checks
+        if (item.type === 'letter') {
+          if (isAbugida) {
+            // For Abugida scripts, fields like 'matra' and 'sound_family' must be defined (can be null but key must exist)
+            if (!('matra' in item)) {
+              errors.push({
+                file: levelsFilePath,
+                level: lvlNum,
+                itemId: item.id,
+                message: `Abugida script requires 'matra' field on letter items, but it was omitted.`
+              });
+            }
+            if (!('sound_family' in item)) {
+              errors.push({
+                file: levelsFilePath,
+                level: lvlNum,
+                itemId: item.id,
+                message: `Abugida script requires 'sound_family' field on letter items, but it was omitted.`
+              });
+            }
+          }
+          // Note: for non-Abugida scripts, the absence of 'matra' or 'sound_family' is perfectly valid and ignored.
+        }
+
+        // Validate basic fields of learning/practice/game cards
+        if (!item.cards) {
+          errors.push({
+            file: levelsFilePath,
+            level: lvlNum,
+            itemId: item.id,
+            message: `Item ${item.id} is missing 'cards' block.`
+          });
+          continue;
+        }
+
+        const cards = item.cards;
+        if (!cards.learn || !cards.practice || !cards.game) {
+          errors.push({
+            file: levelsFilePath,
+            level: lvlNum,
+            itemId: item.id,
+            message: `Item ${item.id} cards must contain 'learn', 'practice', and 'game' blocks.`
+          });
+        }
+
+        // Categorization game validations (e.g., sorting game using categorization metadata)
+        if (cards.game && (cards.game.format === 'sorting' || cards.game.engine === 'sorting')) {
+          const game = cards.game;
+          if (!game.categories || !Array.isArray(game.categories)) {
+            errors.push({
+              file: levelsFilePath,
+              level: lvlNum,
+              itemId: item.id,
+              message: `Sorting game configuration in item ${item.id} is missing 'categories' array.`
+            });
+          }
+          if (!game.items || !Array.isArray(game.items)) {
+            errors.push({
+              file: levelsFilePath,
+              level: lvlNum,
+              itemId: item.id,
+              message: `Sorting game configuration in item ${item.id} is missing sorted 'items' array.`
+            });
+          } else {
+            for (const gItem of game.items) {
+              if (typeof gItem.text !== 'string' || typeof gItem.category !== 'string') {
+                errors.push({
+                  file: levelsFilePath,
+                  level: lvlNum,
+                  itemId: item.id,
+                  message: `Sorting game item must contain 'text' and 'category' strings.`
+                });
+              } else if (game.categories && !game.categories.includes(gItem.category)) {
+                errors.push({
+                  file: levelsFilePath,
+                  level: lvlNum,
+                  itemId: item.id,
+                  message: `Sorting game item category '${gItem.category}' is not listed in 'categories' [${game.categories.join(', ')}]`
+                });
+              }
+            }
+          }
+        }
+      }
+    }
+
+    return errors;
+  }
+
+  validateCheckpointFile(checkpointFilePath) {
+    const data = this.loadJSON(checkpointFilePath);
+    const checkpoints = data.checkpoints || [];
+    const errors = [];
+
+    for (const cp of checkpoints) {
+      const cpNum = cp.checkpoint;
+      const questions = cp.questions || [];
+
+      if (!Array.isArray(questions)) {
+        errors.push({
+          file: checkpointFilePath,
+          checkpoint: cpNum,
+          message: `The 'questions' field in checkpoint ${cpNum} must be an array.`
+        });
+        continue;
+      }
+
+      for (const q of questions) {
+        if (!q || typeof q.id !== 'string') {
+          errors.push({
+            file: checkpointFilePath,
+            checkpoint: cpNum,
+            message: `Checkpoint ${cpNum} has a question missing a valid string ID.`
+          });
+          continue;
+        }
+
+        // Referential Integrity check: All checkpoint questions must map back to source items
+        const sourceIds = q.source_item_ids || [];
+        if (!Array.isArray(sourceIds) || sourceIds.length === 0) {
+          errors.push({
+            file: checkpointFilePath,
+            checkpoint: cpNum,
+            questionId: q.id,
+            message: `Question ${q.id} in checkpoint ${cpNum} must have non-empty 'source_item_ids' array.`
+          });
+        } else {
+          for (const sId of sourceIds) {
+            if (!this.itemMap.has(sId)) {
+              errors.push({
+                file: checkpointFilePath,
+                checkpoint: cpNum,
+                questionId: q.id,
+                message: `Referential Integrity violation: Question ${q.id} references non-existent source level item '${sId}'`
+              });
+            }
+          }
+        }
+      }
+    }
+
+    return errors;
+  }
+
+  validateMockFile(mockFilePath) {
+    const data = this.loadJSON(mockFilePath);
+    const errors = [];
+    const mockExam = data.mock_exam || data; // Mock exams can have nested or direct mock_exam block
+    const questions = mockExam.questions || [];
+
+    if (!Array.isArray(questions)) {
+      errors.push({
+        file: mockFilePath,
+        message: "Mock exam must have an array of 'questions'."
+      });
+      return errors;
+    }
+
+    for (const q of questions) {
+      if (!q || typeof q.id !== 'string') {
+        errors.push({
+          file: mockFilePath,
+          message: "Mock exam has a question missing a valid string ID."
+        });
+        continue;
+      }
+
+      // Referential Integrity check: All mock exam questions must map back to source items
+      const sourceIds = q.source_item_ids || [];
+      if (!Array.isArray(sourceIds) || sourceIds.length === 0) {
+        errors.push({
+          file: mockFilePath,
+          questionId: q.id,
+          message: `Question ${q.id} in mock exam must have non-empty 'source_item_ids' array.`
+        });
+      } else {
+        for (const sId of sourceIds) {
+          if (!this.itemMap.has(sId)) {
+            errors.push({
+              file: mockFilePath,
+              questionId: q.id,
+              message: `Referential Integrity violation: Mock exam question ${q.id} references non-existent source level item '${sId}'`
+            });
+          }
+        }
+      }
+    }
+
+    return errors;
+  }
+
+  validateSpineFile(spineFilePath) {
+    const data = this.loadJSON(spineFilePath);
+    const errors = [];
+    const spineItems = data.spine || [];
+
+    if (!Array.isArray(spineItems)) {
+      errors.push({
+        file: spineFilePath,
+        message: "Spine file must contain an array of spine items under 'spine'."
+      });
+      return errors;
+    }
+
+    for (const sItem of spineItems) {
+      if (!sItem || typeof sItem.id !== 'string') {
+        errors.push({
+          file: spineFilePath,
+          message: "Spine entry is missing a valid string ID."
+        });
+        continue;
+      }
+
+      // Referential Integrity with level files
+      if (!this.itemMap.has(sItem.id)) {
+        // If it's a partial spine (like module 9 with levels missing), check if the level is marked as missing
+        const isMissingLevel = data.levels_missing?.includes(sItem.level);
+        if (!isMissingLevel) {
+          errors.push({
+            file: spineFilePath,
+            itemId: sItem.id,
+            message: `Referential Integrity violation: Spine item '${sItem.id}' references level ${sItem.level} but does not exist in any registered level files.`
+          });
+        }
+        continue;
+      }
+
+      const registeredItem = this.itemMap.get(sItem.id).data;
+      const registeredLvl = this.itemMap.get(sItem.id).level;
+
+      // Validate corresponding attributes
+      if (sItem.level !== registeredLvl) {
+        errors.push({
+          file: spineFilePath,
+          itemId: sItem.id,
+          message: `Spine item '${sItem.id}' level (${sItem.level}) does not match levels file level (${registeredLvl})`
+        });
+      }
+
+      if (sItem.type && sItem.type !== registeredItem.type) {
+        errors.push({
+          file: spineFilePath,
+          itemId: sItem.id,
+          message: `Spine item '${sItem.id}' type (${sItem.type}) does not match levels file type (${registeredItem.type})`
+        });
+      }
+
+      if (sItem.target && sItem.target !== registeredItem.target) {
+        errors.push({
+          file: spineFilePath,
+          itemId: sItem.id,
+          message: `Spine item '${sItem.id}' target (${sItem.target}) does not match levels file target (${registeredItem.target})`
+        });
+      }
+
+      if (sItem.gender !== undefined && sItem.gender !== registeredItem.gender) {
+        errors.push({
+          file: spineFilePath,
+          itemId: sItem.id,
+          message: `Spine item '${sItem.id}' gender (${sItem.gender}) does not match levels file gender (${registeredItem.gender})`
+        });
+      }
+    }
+
+    return errors;
+  }
+}
