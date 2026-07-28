@@ -8,10 +8,27 @@
     "levels_to": 40
   },
   "block_kind": "reading",
-  "block_note": "Nine news reports. Every claim is attributed, as the level 32 item established, and the texts are deliberately more active-voiced than real Hindi news because the passive with जाना is not taught until Module 14. See the review flag.",
+  "block_note": "Nine news reports. Every claim is attributed, as the level 32 item established, and the texts are updated to include natural passive voice constructions now that the receptive grammar prep card is active.",
   "review_flags": [
-    "Real Hindi news uses the जाना passive constantly — कहा गया, फ़ैसला लिया गया, जाँच के आदेश दिए गए. Module 14 teaches it at level 24, which is after this entire module. Every news item here is therefore written in the active voice, which makes them read slightly more direct than the real thing. Either the passive moves earlier in Module 14, or these texts should be revisited once it is taught."
+    "Real Hindi news uses the जाना passive constantly — कहा गया, फ़ैसला लिया गया, जाँच के आदेश दिए गए. Module 14 teaches it at level 24. We have updated these news texts to read more naturally using natural passive constructions now that the receptive pull-forward strategy is implemented."
   ],
+  "grammar_prep_card": {
+    "structure": "passive_with_jaanaa",
+    "title_en": "The Passive Voice (किया जाना)",
+    "explanation_en": "Real Hindi news reports and official announcements use the passive voice constantly to state events objectively without naming the agent. The passive is formed by taking the perfective participle of the main verb and adding inflected forms of 'जाना' (to go) as an auxiliary. For example, 'जाँच के आदेश दिए गए हैं' (Orders for an investigation have been given) or 'रिपोर्ट भेजी गई' (The report was sent). Both the participle and 'जाना' agree with the patient of the verb in gender and number.",
+    "examples": [
+      {
+        "hindi": "जाँच के आदेश दिए गए हैं।",
+        "read_as": "jaanch ke aadesh die gae haiṁ.",
+        "english": "Orders for an investigation have been given."
+      },
+      {
+        "hindi": "रिपोर्ट भेजी गई।",
+        "read_as": "riporṭ bhejii gaii.",
+        "english": "The report was sent."
+      }
+    ]
+  },
   "levels": [
     {
       "level": 38,
@@ -56,9 +73,9 @@
               },
               {
                 "n": 4,
-                "hindi": "नगर निगम ने दोनों पक्षों को बातचीत के लिए बुलाया",
-                "read_as": "nagar nigam ne donoṁ pakṣoṁ ko baatchiit ke lie bulaayaa",
-                "english": "The municipal corporation has called both sides for talks"
+                "hindi": "नगर निगम के द्वारा दोनों पक्षों को बातचीत के लिए बुलाया गया",
+                "read_as": "nagar nigam ke dvaaraa donoṁ pakṣoṁ ko baatchiit ke lie bulaayaa gayaa",
+                "english": "Both sides were called for talks by the municipal corporation"
               },
               {
                 "n": 5,

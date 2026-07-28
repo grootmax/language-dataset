@@ -9,6 +9,23 @@
   },
   "block_kind": "reading",
   "block_note": "The register turns over inside this block. Levels 22's signs are the last of the formal notices; from the third item onward the texts are messages, where English words are dropped in freely, subjects and auxiliaries disappear, and कृपया is replaced by tone.",
+  "grammar_prep_card": {
+    "structure": "jab_tab",
+    "title_en": "Time Clauses with When and Then (जब ... तब)",
+    "explanation_en": "Hindi builds time clauses using the correlative pair 'जब ... तब' (when ... then). Just like with relative pronouns, Hindi requires both halves to be present: 'जब बारिश रुकी, तब हम निकले' (When the rain stopped, [then] we left). You will also see 'जब तक' (until / as long as) paired with 'तब तक', and 'जैसे ही' (as soon as) paired with 'वैसे ही'. Remember that 'जब तक' clauses often use a negative 'नहीं' that isn't translated into English.",
+    "examples": [
+      {
+        "hindi": "जब बारिश रुकी, तब हम निकले।",
+        "read_as": "jab baarish rukii, tab ham nikle.",
+        "english": "When the rain stopped, we left."
+      },
+      {
+        "hindi": "जब तक वो नहीं आता, तब तक हम इंतज़ार करेंगे।",
+        "read_as": "jab tak vo nahiiṁ aataa, tab tak ham iṁtazaar kareṁge.",
+        "english": "Until he comes, we will wait."
+      }
+    ]
+  },
   "levels": [
     {
       "level": 22,

@@ -9,6 +9,23 @@
   },
   "block_kind": "reading",
   "block_note": "The last six texts, and the longest. Level 55 turns from narrative to the opinion paragraph, which is a different shape again: a claim, a concession, a counter, and a refusal to settle it. The module's final word is विदाई, built with the -ई suffix taught in level 2 — the first pattern in the module returning in its last item.",
+  "grammar_prep_card": {
+    "structure": "participles",
+    "title_en": "Active and State Participles (करते हुए, किया हुआ)",
+    "explanation_en": "Hindi uses participles as adjectives to describe ongoing or completed states. The imperfect participle with 'हुए' (e.g., 'हँसते हुए') describes simultaneous background actions: 'वो हँसते हुए अंदर आए' (He came in laughing). The perfective participle with 'हुआ' (e.g., 'रखा हुआ', 'खड़ा हुआ') describes settled states: 'दरवाज़े पर खड़ा हुआ आदमी' (The man standing at the door) or 'लिखी हुई किताब' (The written book). These agree in gender and number with the noun they modify.",
+    "examples": [
+      {
+        "hindi": "वो हँसते हुए अंदर आए।",
+        "read_as": "vo haṁste hue aṁdar aae.",
+        "english": "He came in laughing."
+      },
+      {
+        "hindi": "मेज़ पर रखी हुई किताब मेरी है।",
+        "read_as": "mez par rakhii huii kitaab merii hai.",
+        "english": "The book kept on the table is mine."
+      }
+    ]
+  },
   "levels": [
     {
       "level": 54,
