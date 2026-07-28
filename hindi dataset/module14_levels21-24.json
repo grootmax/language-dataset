@@ -1,0 +1,1003 @@
+{
+  "module": 14,
+  "module_name_en": "Connected Speech",
+  "module_name_hi": "जुड़े वाक्य",
+  "phase": 5,
+  "type": "grammar",
+  "batch": {
+    "levels_from": 21,
+    "levels_to": 24
+  },
+  "batch_note": "Participles, oblique infinitives, and passive voice. These levels host active-production exercises.",
+  "levels": [
+    {
+      "level": 21,
+      "title_en": "Adjectival Participles (States)",
+      "title_hi": "रखा हुआ · खड़ा हुआ",
+      "items": [
+        {
+          "id": "M14-L21-I1",
+          "type": "grammar",
+          "structure": "kiyaa_huaa",
+          "target": "मेज़ पर रखी हुई किताब मेरी है।",
+          "read_as": "mez par rakhii huii kitaab merii hai.",
+          "english": "The book kept on the table is mine.",
+          "difficulty": 9,
+          "tags": ["participle", "kiyaa_huaa", "state", "agreement"],
+          "cards": {
+            "learn": {
+              "title_en": "रखा हुआ — describing settled states",
+              "explanation_en": "मेज़ पर रखी हुई किताब — the book kept on the table. The perfective participle with 'हुआ' describes a settled, complete state of an object. The participle acts as an adjective and must agree in gender and number with the noun it modifies. Since किताब (book) is feminine singular, 'रखा हुआ' becomes 'रखी हुई'.",
+              "examples": [
+                {
+                  "hindi": "मेज़ पर रखी हुई किताब मेरी है।",
+                  "read_as": "mez par rakhii huii kitaab merii hai.",
+                  "english": "The book kept on the table is mine.",
+                  "note": "Feminine singular agreement with किताब."
+                },
+                {
+                  "hindi": "ज़मीन पर गिरा हुआ सेब उठाओ।",
+                  "read_as": "zamiin par giraa huaa seb uṭhaao.",
+                  "english": "Pick up the apple fallen on the ground.",
+                  "note": "Masculine singular agreement with सेब."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेज़ पर रखते हुए किताब मेरी है।",
+                "right": "मेज़ पर रखी हुई किताब मेरी है।",
+                "why_en": "रखते हुए describes an ongoing background action (while keeping). To describe a settled state, use the perfective participle रखा हुआ."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Describe the book as being in a settled state on the table.",
+              "sentences": [
+                "किताब मेज़ पर रखी है।",
+                "वह मेरी है।"
+              ],
+              "sentences_read_as": [
+                "kitaab mez par rakhii hai.",
+                "vah merii hai."
+              ],
+              "options": [
+                "मेज़ पर रखते हुए किताब मेरी है।",
+                "मेज़ पर रखी हुई किताब मेरी है।",
+                "मेज़ पर रखा हुआ किताब मेरी है।",
+                "मेज़ पर रखकर किताब मेरी है।"
+              ],
+              "options_read_as": [
+                "mez par rakhte hue kitaab merii hai.",
+                "mez par rakhii huii kitaab merii hai.",
+                "mez par rakhaa huaa kitaab merii hai.",
+                "mez par rakhkar kitaab merii hai."
+              ],
+              "answer_index": 1,
+              "explanation_en": "The perfective participle describes a thing in a settled state, and it must agree with the feminine noun किताब, becoming रखी हुई."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "किताब",
+                "मेज़ पर",
+                "मेरी है।",
+                "रखी हुई"
+              ],
+              "answer": [
+                "मेज़ पर",
+                "रखी हुई",
+                "किताब",
+                "मेरी है।"
+              ],
+              "answer_read_as": "mez par rakhii huii kitaab merii hai.",
+              "explanation_en": "The adjectival participle phrase 'मेज़ पर रखी हुई' comes before the noun 'किताब' it modifies."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मेज़ पर रखी हुई किताब मेरी है।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L21-I2",
+          "type": "grammar",
+          "structure": "state_participle",
+          "target": "दरवाज़े पर खड़ा हुआ आदमी कौन है?",
+          "read_as": "darvaaze par khaṛaa huaa aadmii kaun hai?",
+          "english": "Who is the man standing at the door?",
+          "difficulty": 9,
+          "tags": ["participle", "state_participle", "standing", "sitting"],
+          "cards": {
+            "learn": {
+              "title_en": "खड़ा हुआ and बैठा हुआ — physical states vs actions",
+              "explanation_en": "दरवाज़े पर खड़ा हुआ आदमी — the man standing at the door. In English, 'standing' and 'sitting' use -ing forms, which makes them look like active processes. But in Hindi, being seated or standing are physical states that have already occurred, so they use the perfective participle: खड़ा हुआ (having stood up/standing) and बैठा हुआ (having sat down/seated). The active processes are 'खड़ा हो रहा है' (standing up) and 'बैठ रहा है' (sitting down).",
+              "examples": [
+                {
+                  "hindi": "दरवाज़े पर खड़ा हुआ आदमी कौन है?",
+                  "read_as": "darvaaze par khaṛaa huaa aadmii kaun hai?",
+                  "english": "Who is the man standing at the door?",
+                  "note": "Masculine singular agreement with आदमी."
+                },
+                {
+                  "hindi": "कुर्सी पर बैठी हुई लड़की मेरी बहन है।",
+                  "read_as": "kursii par baiṭhii huii laṛkii merii bahan hai.",
+                  "english": "The girl seated on the chair is my sister.",
+                  "note": "Feminine singular agreement with लड़की."
+                }
+              ],
+              "common_error": {
+                "wrong": "वो कुर्सी पर बैठ रहा है — to mean 'he is seated on the chair'",
+                "right": "वो कुर्सी पर बैठा हुआ है।",
+                "why_en": "बैठ रहा है describes the action of sitting down, not the physical state of being seated."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Identify the standing man at the door.",
+              "sentences": [
+                "आदमी दरवाज़े पर खड़ा है।",
+                "वह कौन है?"
+              ],
+              "sentences_read_as": [
+                "aadmii darvaaze par khaṛaa hai.",
+                "vah kaun hai?"
+              ],
+              "options": [
+                "दरवाज़े पर खड़ा हो रहा आदमी कौन है?",
+                "दरवाज़े पर खड़ा हुआ आदमी कौन है?",
+                "दरवाज़े पर खड़े हुए आदमी कौन है?",
+                "दरवाज़े पर खड़ी हुई आदमी कौन है?"
+              ],
+              "options_read_as": [
+                "darvaaze par khaṛaa ho rahaa aadmii kaun hai?",
+                "darvaaze par khaṛaa huaa aadmii kaun hai?",
+                "darvaaze par khaṛe hue aadmii kaun hai?",
+                "darvaaze par khaṛii huii aadmii kaun hai?"
+              ],
+              "answer_index": 1,
+              "explanation_en": "Positions in Hindi are states. 'खड़ा हुआ' represents the state of standing and agrees with the masculine singular 'आदमी'."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "आदमी",
+                "दरवाज़े पर",
+                "खड़ा हुआ",
+                "कौन है?"
+              ],
+              "answer": [
+                "दरवाज़े पर",
+                "खड़ा हुआ",
+                "आदमी",
+                "कौन है?"
+              ],
+              "answer_read_as": "darvaaze par khaṛaa huaa aadmii kaun hai?",
+              "explanation_en": "Adjectival participle phrase 'दरवाज़े पर खड़ा हुआ' precedes the noun 'आदमी'."
+            }
+          },
+          "audio": {
+            "tts_strings": ["दरवाज़े पर खड़ा हुआ आदमी कौन है?"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L21-I3",
+          "type": "grammar",
+          "structure": "kiyaa_huaa",
+          "target": "बनी हुई चीज़ें ज़्यादा महँगी होती हैं।",
+          "read_as": "banii huii chiizeṁ zyaadaa mahaṁgii hotii haiṁ.",
+          "english": "Ready-made things are more expensive.",
+          "difficulty": 9,
+          "tags": ["participle", "kiyaa_huaa", "agreement", "plural"],
+          "cards": {
+            "learn": {
+              "title_en": "बनी हुई — agreement with plural nouns",
+              "explanation_en": "बनी हुई चीज़ें — ready-made (literally, made) things. Perfective adjectival participles must fully agree with the noun they modify. Since चीज़ें (things) is feminine plural, 'बना हुआ' inflects to 'बनी हुई'.",
+              "examples": [
+                {
+                  "hindi": "बनी हुई चीज़ें ज़्यादा महँगी होती हैं।",
+                  "read_as": "banii huii chiizeṁ zyaadaa mahaṁgii hotii haiṁ.",
+                  "english": "Ready-made things are more expensive."
+                },
+                {
+                  "hindi": "लिखे हुए पत्र मेज़ पर हैं।",
+                  "read_as": "likhe hue patra mez par haiṁ.",
+                  "english": "The written letters are on the table.",
+                  "note": "Masculine plural लिखे हुए agrees with पत्र."
+                }
+              ],
+              "common_error": {
+                "wrong": "बना हुआ चीज़ें ज़्यादा महँगी होती हैं।",
+                "right": "बनी हुई चीज़ें ज़्यादा महँगी होती हैं।",
+                "why_en": "The participle must agree with feminine plural चीज़ें, changing बना हुआ into बनी हुई."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Express that ready-made things are expensive.",
+              "sentences": [
+                "चीज़ें पहले से बनी हैं।",
+                "वे ज़्यादा महँगी होती हैं।"
+              ],
+              "sentences_read_as": [
+                "chiizeṁ pahle se banii haiṁ.",
+                "ve zyaadaa mahaṁgii hotii haiṁ."
+              ],
+              "options": [
+                "बना हुआ चीज़ें ज़्यादा महँगी होती हैं।",
+                "बने हुए चीज़ें ज़्यादा महँगी होती हैं।",
+                "बनी हुई चीज़ें ज़्यादा महँगी होती हैं।",
+                "बनाती हुई चीज़ें ज़्यादा महँगी होती हैं।"
+              ],
+              "options_read_as": [
+                "banaa huaa chiizeṁ zyaadaa mahaṁgii hotii haiṁ.",
+                "bane hue chiizeṁ zyaadaa mahaṁgii hotii haiṁ.",
+                "banii huii chiizeṁ zyaadaa mahaṁgii hotii haiṁ.",
+                "banaatii huii chiizeṁ zyaadaa mahaṁgii hotii haiṁ."
+              ],
+              "answer_index": 2,
+              "explanation_en": "The participle must match the feminine plural noun चीज़ें, hence 'बनी हुई'."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "महँगी",
+                "होती हैं।",
+                "ज़्यादा",
+                "बनी हुई चीज़ें"
+              ],
+              "answer": [
+                "बनी हुई चीज़ें",
+                "ज़्यादा",
+                "महँगी",
+                "होती हैं।"
+              ],
+              "answer_read_as": "banii huii chiizeṁ zyaadaa mahaṁgii hotii haiṁ.",
+              "explanation_en": "Subject 'बनी हुई चीज़ें' first, followed by adverb 'ज़्यादा', adjective 'महँगी', and verb 'होती हैं'."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बनी हुई चीज़ें ज़्यादा महँगी होती हैं।"],
+            "requires_recording": false
+          }
+        }
+      ]
+    },
+    {
+      "level": 22,
+      "title_en": "Conjunctive Participle (-kar)",
+      "title_hi": "खाकर · दौड़कर · देखकर",
+      "items": [
+        {
+          "id": "M14-L22-I1",
+          "type": "grammar",
+          "structure": "kar_participle",
+          "target": "खाना खाकर हम निकल गए।",
+          "read_as": "khaanaa khaakar ham nikal gae.",
+          "english": "We left after having eaten.",
+          "difficulty": 9,
+          "tags": ["participle", "kar_participle", "sequential", "same_subject"],
+          "cards": {
+            "learn": {
+              "title_en": "खाकर — chaining actions with -कर",
+              "explanation_en": "खाना खाकर हम निकल गए — having eaten food, we left. The conjunctive participle suffix '-कर' is attached to verb roots to chain two sequential actions performed by the same subject. It means doing the first action and then immediately doing the second action. Since both actions must share a single subject, you cannot use '-कर' if the actors of the two events differ.",
+              "examples": [
+                {
+                  "hindi": "खाना खाकर हम निकल गए।",
+                  "read_as": "khaanaa khaakar ham nikal gae.",
+                  "english": "We left after having eaten.",
+                  "note": "Same subject (हम) for both eating and leaving."
+                },
+                {
+                  "hindi": "चाय पीकर वो चला गया।",
+                  "read_as": "chaay piikar vo chalaa gayaa.",
+                  "english": "He left after drinking tea.",
+                  "note": "Same subject (वो) for drinking and leaving."
+                }
+              ],
+              "common_error": {
+                "wrong": "उनके आनेकर मैं गया — to mean 'after they came, I left'",
+                "right": "उनके आने के बाद मैं गया।",
+                "why_en": "-कर chains sequential actions only when they share a single subject. If the subjects differ, you must use 'के बाद'."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Chain these actions using the conjunctive -कर.",
+              "sentences": [
+                "हम खाना खाएँगे।",
+                "फिर हम निकलेंगे।"
+              ],
+              "sentences_read_as": [
+                "ham khaanaa khaaeṁge.",
+                "phir ham nikaleṁge."
+              ],
+              "options": [
+                "खाना खाते हुए हम निकल गए।",
+                "खाना खाने के बाद हम निकल गए।",
+                "खाना खाकर हम निकल गए।",
+                "खाना खानाकर हम निकल गए।"
+              ],
+              "options_read_as": [
+                "khaanaa khaate hue ham nikal gae.",
+                "khaanaa khaane ke baad ham nikal gae.",
+                "khaanaa khaakar ham nikal gae.",
+                "khaanaa khaanaakar ham nikal gae."
+              ],
+              "answer_index": 2,
+              "explanation_en": "The -कर participle 'खाकर' successfully chains the actions of the same subject sequential events."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "खाना",
+                "हम",
+                "निकल गए।",
+                "खाकर"
+              ],
+              "answer": [
+                "खाना",
+                "खाकर",
+                "हम",
+                "निकल गए।"
+              ],
+              "answer_read_as": "khaanaa khaakar ham nikal gae.",
+              "explanation_en": "The dependent action with '-कर' (खाना खाकर) goes first, followed by the main subject and clause."
+            }
+          },
+          "audio": {
+            "tts_strings": ["खाना खाकर हम निकल गए।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L22-I2",
+          "type": "grammar",
+          "structure": "kar_participle",
+          "target": "वो दौड़कर आया।",
+          "read_as": "vo dauṛkar aayaa.",
+          "english": "He came running.",
+          "difficulty": 9,
+          "tags": ["participle", "kar_participle", "manner", "karke"],
+          "cards": {
+            "learn": {
+              "title_en": "दौड़कर and करके — manner and exception with 'करना'",
+              "explanation_en": "वो दौड़कर आया — he came running (literally, having run). Sometimes '-कर' describes the manner in which the main action was performed. Crucially, the verb 'करना' (to do) is an exception: it cannot take plain 'कर' (which would make 'कर कर'). Instead, it becomes 'करके' (e.g., 'मेहनत करके').",
+              "examples": [
+                {
+                  "hindi": "वो दौड़कर आया।",
+                  "read_as": "vo dauṛkar aayaa.",
+                  "english": "He came running."
+                },
+                {
+                  "hindi": "मेहनत करके ही सफलता मिलती है।",
+                  "read_as": "mehanat karke hii saphaltaa miltii hai.",
+                  "english": "Success is achieved only by working hard."
+                }
+              ],
+              "common_error": {
+                "wrong": "मेहनत करकर सफलता मिलती है।",
+                "right": "मेहनत करके ही सफलता मिलती है।",
+                "why_en": "करना is the one verb that cannot take plain कर, because that would give 'कर कर'. It must take 'करके'."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Fill in the correct form of the verb 'करना' in this sentence.",
+              "sentences": [
+                "मेहनत ___ ही",
+                "सफलता मिलती है।"
+              ],
+              "sentences_read_as": [
+                "mehanat ___ hii",
+                "saphaltaa miltii hai."
+              ],
+              "options": [
+                "कर",
+                "करके",
+                "करकर",
+                "करते"
+              ],
+              "options_read_as": [
+                "kar",
+                "karke",
+                "karkar",
+                "karte"
+              ],
+              "answer_index": 1,
+              "explanation_en": "करना is the one verb that cannot take plain कर, because that would give 'कर कर'. It must take करके."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "आया।",
+                "वो",
+                "दौड़कर"
+              ],
+              "answer": [
+                "वो",
+                "दौड़कर",
+                "आया।"
+              ],
+              "answer_read_as": "vo dauṛkar aayaa.",
+              "explanation_en": "The subject 'वो' comes first, followed by the manner modifier 'दौड़कर', and the main verb 'आया'."
+            }
+          },
+          "audio": {
+            "tts_strings": ["वो दौड़कर आया।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L22-I3",
+          "type": "grammar",
+          "structure": "participles_mixed",
+          "target": "बैठे हुए लोगों को देखकर वो रुक गया।",
+          "read_as": "baiṭhe hue logoṁ ko dekhkar vo ruk gayaa.",
+          "english": "Seeing the seated people, he stopped.",
+          "difficulty": 9,
+          "tags": ["participle", "state_participle", "kar_participle", "mixed"],
+          "cards": {
+            "learn": {
+              "title_en": "बैठे हुए and देखकर — combining multiple participles",
+              "explanation_en": "बैठे हुए लोगों को देखकर वो रुक गया — seeing the seated people, he stopped. This sentence combines a perfective state participle (बैठे हुए, modifying लोगों को) and a conjunctive sequential participle (देखकर, modifying the main clause). When you have multiple actions, you can build very rich sentences by nesting state, ongoing, and sequential participles.",
+              "examples": [
+                {
+                  "hindi": "बैठे हुए लोगों को देखकर वो रुक गया।",
+                  "read_as": "baiṭhe hue logoṁ ko dekhkar vo ruk gayaa.",
+                  "english": "Seeing the seated people, he stopped."
+                }
+              ],
+              "common_error": {
+                "wrong": "बैठ रहे लोगों को देखकर वो रुक गया।",
+                "right": "बैठे हुए लोगों को देखकर वो रुक गया।",
+                "why_en": "The people were already seated (a settled state), so we must use 'बैठे हुए' instead of the active process 'बैठ रहे'."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Combine 'people are seated', 'he saw them', and 'he stopped'.",
+              "sentences": [
+                "लोग बैठे हुए थे।",
+                "उसने उन्हें देखा और रुक गया।"
+              ],
+              "sentences_read_as": [
+                "log baiṭhe hue the.",
+                "usne unheṁ dekhaa aur ruk gayaa."
+              ],
+              "options": [
+                "बैठ रहे लोगों को देखकर वो रुक गया।",
+                "बैठे हुए लोगों को देखकर वो रुक गया।",
+                "बैठे हुए लोगों को देखते हुए वो रुक गया।",
+                "बैठे हुए लोगों को देख वो रुक गया।"
+              ],
+              "options_read_as": [
+                "baiṭh rahe logoṁ ko dekhkar vo ruk gayaa.",
+                "baiṭhe hue logoṁ ko dekhkar vo ruk gayaa.",
+                "baiṭhe hue logoṁ ko dekhte hue vo ruk gayaa.",
+                "baiṭhe hue logoṁ ko dekh vo ruk gayaa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "The people were in a seated state ('बैठे हुए') and the sequence of seeing and stopping is joined with '-कर' ('देखकर')."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "देखकर",
+                "बैठे हुए लोगों को",
+                "रुक गया।",
+                "वो"
+              ],
+              "answer": [
+                "बैठे हुए लोगों को",
+                "देखकर",
+                "वो",
+                "रुक गया।"
+              ],
+              "answer_read_as": "baiṭhe hue logoṁ ko dekhkar vo ruk gayaa.",
+              "explanation_en": "The adverbial participial phrase 'बैठे हुए लोगों को देखकर' precedes the main clause 'वो रुक गया'."
+            }
+          },
+          "audio": {
+            "tts_strings": ["बैठे हुए लोगों को देखकर वो रुक गया।"],
+            "requires_recording": false
+          }
+        }
+      ]
+    },
+    {
+      "level": 23,
+      "title_en": "Oblique Infinitives",
+      "title_hi": "खाने के बाद · जाने से पहले",
+      "items": [
+        {
+          "id": "M14-L23-I1",
+          "type": "grammar",
+          "structure": "oblique_inf_ke_baad",
+          "target": "खाना खाने के बाद हम निकले।",
+          "read_as": "khaanaa khaane ke baad ham nikle.",
+          "english": "We left after eating food.",
+          "difficulty": 9,
+          "tags": ["participle", "oblique_infinitive", "ke_baad", "agreement"],
+          "cards": {
+            "learn": {
+              "title_en": "खाने के बाद — infinitives as oblique nouns",
+              "explanation_en": "खाना खाने के बाद हम निकले — we left after eating food. In Hindi, infinitives (like खाना, to eat) function as masculine nouns. When followed by postpositions like 'के बाद' (after), the infinitive inflects to its oblique form ending in -ए. Thus, 'खाना' becomes 'खाने' in 'खाने के बाद'.",
+              "examples": [
+                {
+                  "hindi": "खाना खाने के बाद हम निकले।",
+                  "read_as": "khaanaa khaane ke baad ham nikle.",
+                  "english": "We left after eating food."
+                },
+                {
+                  "hindi": "काम पूरा होने के बाद वो सो गया।",
+                  "read_as": "kaam puuraa hone ke baad vo so gayaa.",
+                  "english": "He went to sleep after the work was completed."
+                }
+              ],
+              "common_error": {
+                "wrong": "खाना खाना के बाद हम निकले।",
+                "right": "खाना खाने के बाद हम निकले।",
+                "why_en": "के बाद is a postposition, so the infinitive in front of it must inflect to its oblique form, changing खाना to खाने."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Turn this sequence into a sentence using 'के बाद'.",
+              "sentences": [
+                "हम खाना खाएँगे।",
+                "फिर हम निकलेंगे।"
+              ],
+              "sentences_read_as": [
+                "ham khaanaa khaaeṁge.",
+                "phir ham nikaleṁge."
+              ],
+              "options": [
+                "खाना खाना के बाद हम निकले।",
+                "खाना खाकर के बाद हम निकले।",
+                "खाना खाने के बाद हम निकले।",
+                "खाना खाने के बाद हम निकलें।"
+              ],
+              "options_read_as": [
+                "khaanaa khanat ke baad ham nikle.",
+                "khaanaa khaakar ke baad ham nikle.",
+                "khaanaa khaane ke baad ham nikle.",
+                "khaanaa khaane ke baad ham nikleṁ."
+              ],
+              "answer_index": 2,
+              "explanation_en": "'के बाद' requires the preceding infinitive to be oblique ('खाने')."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "खाने के बाद",
+                "निकले।",
+                "हम",
+                "खाना"
+              ],
+              "answer": [
+                "खाना",
+                "खाने के बाद",
+                "हम",
+                "निकले।"
+              ],
+              "answer_read_as": "khaanaa khaane ke baad ham nikle.",
+              "explanation_en": "The dependent time phrase 'खाना खाने के बाद' comes first, followed by the subject 'हम' and verb 'निकले'."
+            }
+          },
+          "audio": {
+            "tts_strings": ["खाना खाने के बाद हम निकले।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L23-I2",
+          "type": "grammar",
+          "structure": "oblique_inf_se_pahle",
+          "target": "जाने से पहले मुझे बता देना।",
+          "read_as": "jaane se pahle mujhe bataa denaa.",
+          "english": "Let me know before leaving.",
+          "difficulty": 9,
+          "tags": ["participle", "oblique_infinitive", "se_pahle"],
+          "cards": {
+            "learn": {
+              "title_en": "जाने से पहले — before doing something",
+              "explanation_en": "जाने से पहले — before leaving. Just like 'के बाद', the postposition 'से पहले' (before) forces the preceding infinitive to inflect to its oblique -ए form. Thus, 'जाना' (to go) becomes 'जाने'.",
+              "examples": [
+                {
+                  "hindi": "जाने से पहले मुझे बता देना।",
+                  "read_as": "jaane se pahle mujhe bataa denaa.",
+                  "english": "Let me know before leaving."
+                },
+                {
+                  "hindi": "सोने से पहले दूध पीना स्वास्थ्य के लिए अच्छा है।",
+                  "read_as": "sone se pahle duudh piinaa svaasthya ke lie achhaa hai.",
+                  "english": "Drinking milk before sleeping is good for health."
+                }
+              ],
+              "common_error": {
+                "wrong": "जाना से पहले मुझे बता देना।",
+                "right": "जाने से पहले मुझे बता देना।",
+                "why_en": "The postposition से पहले requires the infinitive 'जाना' to take its oblique form 'जाने'."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Connect these so that one happens before the other.",
+              "sentences": [
+                "तुम जाओगे।",
+                "उससे पहले मुझे बता देना।"
+              ],
+              "sentences_read_as": [
+                "tum jaaoge.",
+                "usse pahle mujhe bataa denaa."
+              ],
+              "options": [
+                "जाना से पहले मुझे बता देना।",
+                "जाने से पहले मुझे बता देना।",
+                "जाकर से पहले मुझे बता देना।",
+                "जाने के पहले मुझे बता देना।"
+              ],
+              "options_read_as": [
+                "jaanaa se pahle mujhe bataa denaa.",
+                "jaane se pahle mujhe bataa denaa.",
+                "jaakar se pahle mujhe bataa denaa.",
+                "jaane ke pahle mujhe bataa denaa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "The postposition is 'से पहले', and the infinitive must be oblique 'जाने'."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "बता देना।",
+                "जाने से पहले",
+                "मुझे"
+              ],
+              "answer": [
+                "जाने से पहले",
+                "मुझे",
+                "बता देना।"
+              ],
+              "answer_read_as": "jaane se pahle mujhe bataa denaa.",
+              "explanation_en": "The phrase 'जाने से पहले' precedes the request 'मुझे बता देना'."
+            }
+          },
+          "audio": {
+            "tts_strings": ["जाने से पहले मुझे बता देना।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L23-I3",
+          "type": "grammar",
+          "structure": "oblique_inf_mixed",
+          "target": "सोचने के बाद ही फ़ैसला करना।",
+          "read_as": "sochne ke baad hii faislaa karnaa.",
+          "english": "Decide only after thinking.",
+          "difficulty": 9,
+          "tags": ["participle", "oblique_infinitive", "kar_participle", "mixed"],
+          "cards": {
+            "learn": {
+              "title_en": "के बाद vs -कर — what happens when subjects differ",
+              "explanation_en": "उनके जाने के बाद मैं पहुँचा — I arrived after they left. This highlights the vital difference between '-कर' and 'के बाद': since '-कर' strictly requires both actions to share a single subject, you cannot say 'उनके जाकर मैं पहुँचा'. For sequential actions with different subjects, you must use 'के बाद' and the oblique infinitive.",
+              "examples": [
+                {
+                  "hindi": "सोचने के बाद ही फ़ैसला करना।",
+                  "read_as": "sochne ke baad hii faislaa karnaa.",
+                  "english": "Decide only after thinking."
+                },
+                {
+                  "hindi": "उनके जाने के बाद मैं पहुँचा।",
+                  "read_as": "unke jaane ke baad maiṁ pahunchaa.",
+                  "english": "I arrived after they left.",
+                  "note": "Two different subjects: they left, I arrived."
+                }
+              ],
+              "common_error": {
+                "wrong": "उनके जाकर मैं पहुँचा — to mean 'I arrived after they left'",
+                "right": "उनके जाने के बाद मैं पहुँचा।",
+                "why_en": "-कर cannot carry its own subject, so it cannot be used when the subjects of the two actions differ. You must use 'के बाद' instead."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Express that you arrived after they left.",
+              "sentences": [
+                "वे चले गए।",
+                "उसके बाद मैं पहुँचा।"
+              ],
+              "sentences_read_as": [
+                "ve chale gae.",
+                "uske baad maiṁ pahunchaa."
+              ],
+              "options": [
+                "उनके जाकर मैं पहुँचा।",
+                "वे जाकर मैं पहुँचा।",
+                "उनके जाने के बाद मैं पहुँचा।",
+                "उनके जाने के पहले मैं पहुँचा।"
+              ],
+              "options_read_as": [
+                "unke jaakar maiṁ pahunchaa.",
+                "ve jaakar maiṁ pahunchaa.",
+                "unke jaane ke baad maiṁ pahunchaa.",
+                "unke jaane ke pahle maiṁ pahunchaa."
+              ],
+              "answer_index": 2,
+              "explanation_en": "This cannot be said with -कर, because the two actions have different subjects ('वे' and 'मैं'). 'के बाद' with oblique infinitive is required."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "फ़ैसला करना।",
+                "ही",
+                "सोचने के बाद"
+              ],
+              "answer": [
+                "सोचने के बाद",
+                "ही",
+                "फ़ैसला करना।"
+              ],
+              "answer_read_as": "sochne ke baad hii faislaa karnaa.",
+              "explanation_en": "The emphatic particle 'ही' sits immediately after the time phrase 'सोचने के बाद' and before the command 'फ़ैसला करना'."
+            }
+          },
+          "audio": {
+            "tts_strings": ["सोचने के बाद ही फ़ैसला करना।"],
+            "requires_recording": false
+          }
+        }
+      ]
+    },
+    {
+      "level": 24,
+      "title_en": "The Passive Voice",
+      "title_hi": "किया जाएगा · भेजी गई · खाया जाता",
+      "items": [
+        {
+          "id": "M14-L24-I1",
+          "type": "grammar",
+          "structure": "passive",
+          "target": "यह काम कल किया जाएगा।",
+          "read_as": "yah kaam kal kiyaa jaaegaa.",
+          "english": "This work will be done tomorrow.",
+          "difficulty": 10,
+          "tags": ["passive", "jaanaa", "agreement", "future"],
+          "cards": {
+            "learn": {
+              "title_en": "किया जाना — the passive voice with 'जाना'",
+              "explanation_en": "यह काम कल किया जाएगा — this work will be done tomorrow. The passive voice in Hindi is formed by using the perfective participle of the main verb (e.g., किया, done) followed by the auxiliary verb 'जाना' (to go) inflected for tense, gender, and number. Both halves must agree with the object of the active sentence, which is now the grammatical subject. Since काम (work) is masculine singular, both 'किया' and 'जाएगा' are masculine singular.",
+              "examples": [
+                {
+                  "hindi": "यह काम कल किया जाएगा।",
+                  "read_as": "yah kaam kal kiyaa jaaegaa.",
+                  "english": "This work will be done tomorrow."
+                },
+                {
+                  "hindi": "चिट्ठी कल भेजी जाएगी।",
+                  "read_as": "ciṭṭhii kal bhejii jaaegii.",
+                  "english": "The letter will be sent tomorrow.",
+                  "note": "Feminine singular agreement with चिट्ठी."
+                }
+              ],
+              "common_error": {
+                "wrong": "यह काम कल करेगा — to mean 'this work will be done tomorrow'",
+                "right": "यह काम कल किया जाएगा।",
+                "why_en": "An active verb 'करेगा' requires an agent to do the work. To remove the agent or keep the focus on the task, you must use the passive construction."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Turn this into a passive sentence.",
+              "sentences": [
+                "कोई यह काम कल करेगा।",
+                "यह काम कल पूरा होगा।"
+              ],
+              "sentences_read_as": [
+                "koii yah kaam kal karegaa.",
+                "yah kaam kal puuraa hogaa."
+              ],
+              "options": [
+                "यह काम कल किया जाएगा।",
+                "यह काम कल करेगा।",
+                "यह काम कल किया गया।",
+                "यह काम कल किया जाना।"
+              ],
+              "options_read_as": [
+                "yah kaam kal kiyaa jaaegaa.",
+                "yah kaam kal karegaa.",
+                "yah kaam kal kiyaa gayaa.",
+                "yah kaam kal kiyaa jaanaa."
+              ],
+              "answer_index": 0,
+              "explanation_en": "Removing the agent is the point of the construction, and 'किया जाएगा' is the correct future passive form."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "कल",
+                "किया जाएगा।",
+                "काम",
+                "यह"
+              ],
+              "answer": [
+                "यह",
+                "काम",
+                "कल",
+                "किया जाएगा।"
+              ],
+              "answer_read_as": "yah kaam kal kiyaa jaaegaa.",
+              "explanation_en": "The grammatical subject 'यह काम' comes first, followed by time adverb 'कल', and passive verb 'किया जाएगा'."
+            }
+          },
+          "audio": {
+            "tts_strings": ["यह काम कल किया जाएगा।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L24-I2",
+          "type": "grammar",
+          "structure": "passive",
+          "target": "रिपोर्ट अधिकारी के द्वारा भेजी गई।",
+          "read_as": "riporṭ adhikaarii ke dvaaraa bhejii gaii.",
+          "english": "The report was sent by the officer.",
+          "difficulty": 10,
+          "tags": ["passive", "jaanaa", "agent", "agreement"],
+          "cards": {
+            "learn": {
+              "title_en": "के द्वारा — naming the agent and dropping 'ने'",
+              "explanation_en": "रिपोर्ट अधिकारी के द्वारा भेजी गई — the report was sent by the officer. If you want to name the agent in a passive sentence, use 'के द्वारा' (by) or 'से' after the agent. Crucially, the ergative agent marker 'ने' is completely dropped in passive sentences, because the agent is no longer the grammatical subject. Both parts of the passive verb ('भेजी' and 'गई') must agree with the feminine noun 'रिपोर्ट'.",
+              "examples": [
+                {
+                  "hindi": "रिपोर्ट अधिकारी के द्वारा भेजी गई।",
+                  "read_as": "riporṭ adhikaarii ke dvaaraa bhejii gaii.",
+                  "english": "The report was sent by the officer."
+                }
+              ],
+              "common_error": {
+                "wrong": "अधिकारी ने रिपोर्ट भेजी गई।",
+                "right": "रिपोर्ट अधिकारी के द्वारा भेजी गई।",
+                "why_en": "A passive has no ने, because the agent is no longer the subject. The marker 'के द्वारा' is used instead."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Select the correct passive sentence.",
+              "sentences": [
+                "अधिकारी ने रिपोर्ट भेजी।",
+                "उसे पैसिव में बदलो।"
+              ],
+              "sentences_read_as": [
+                "adhikaarii ne riporṭ bhejii.",
+                "use paasiv meṁ badlo."
+              ],
+              "options": [
+                "अधिकारी ने रिपोर्ट भेजी गई।",
+                "रिपोर्ट अधिकारी के द्वारा भेजी गई।",
+                "रिपोर्ट अधिकारी के द्वारा भेजा गया।",
+                "रिपोर्ट अधिकारी के द्वारा भेजना गया।"
+              ],
+              "options_read_as": [
+                "adhikaarii ne riporṭ bhejii gaii.",
+                "riporṭ adhikaarii ke dvaaraa bhejii gaii.",
+                "riporṭ adhikaarii ke dvaaraa bhejhaa gayaa.",
+                "riporṭ adhikaarii ke dvaaraa bhejhanaa gayaa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "A passive has no ने. Both halves of the passive verb agree with the feminine subject 'रिपोर्ट', becoming 'भेजी गई'."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "अधिकारी के द्वारा",
+                "भेजी गई।",
+                "रिपोर्ट"
+              ],
+              "answer": [
+                "रिपोर्ट",
+                "अधिकारी के द्वारा",
+                "भेजी गई।"
+              ],
+              "answer_read_as": "riporṭ adhikaarii ke dvaaraa bhejii gaii.",
+              "explanation_en": "Subject 'रिपोर्ट' is followed by the agent phrase 'अधिकारी के द्वारा' and the passive verb 'भेजी गई'."
+            }
+          },
+          "audio": {
+            "tts_strings": ["रिपोर्ट अधिकारी के द्वारा भेजी गई।"],
+            "requires_recording": false
+          }
+        },
+        {
+          "id": "M14-L24-I3",
+          "type": "grammar",
+          "structure": "capability_passive",
+          "target": "मुझसे इतना नहीं खाया जाता।",
+          "read_as": "mujhse itnaa nahiiṁ khaayaa jaataa.",
+          "english": "I cannot eat this much.",
+          "difficulty": 10,
+          "tags": ["passive", "jaanaa", "capability", "negative"],
+          "cards": {
+            "learn": {
+              "title_en": "मुझसे नहीं खाया जाता — the capability passive",
+              "explanation_en": "मुझसे इतना नहीं खाया जाता — I cannot eat this much. When used in the negative with an agent followed by 'से' (e.g., मुझसे, 'by me'), the passive denotes a physical or mental capability. It differs from 'मैं नहीं खा सकता' (I cannot eat): 'सकना' is about plain inability or lack of power, whereas the capability passive implies that the speaker's body or mind itself refuses the action (e.g., because they are too full or sick).",
+              "examples": [
+                {
+                  "hindi": "मुझसे इतना नहीं खाया जाता।",
+                  "read_as": "mujhse itnaa nahiiṁ khaayaa jaataa.",
+                  "english": "I cannot eat this much."
+                },
+                {
+                  "hindi": "अब मुझसे और नहीं चला जाता।",
+                  "read_as": "ab mujhse aur nahiiṁ chalaa jaataa.",
+                  "english": "I cannot walk any further."
+                }
+              ],
+              "common_error": {
+                "wrong": "मुझसे इतना नहीं खा सकता — to mean physical refusal",
+                "right": "मुझसे इतना नहीं खाया जाता।",
+                "why_en": "The capability passive takes the passive form 'खाया जाता' with the agent 'मुझसे'. It is not mixed with plain active 'सकना'."
+              }
+            },
+            "practice": {
+              "format": "join_the_sentences",
+              "prompt_en": "Express physical refusal of eating this much.",
+              "sentences": [
+                "मेरा पेट भर गया है।",
+                "मैं इतना नहीं खा पा रहा हूँ।"
+              ],
+              "sentences_read_as": [
+                "meraa peṭ bhar gayaa hai.",
+                "maiṁ itnaa nahiiṁ khaa paa rahaa huuṁ."
+              ],
+              "options": [
+                "मुझसे इतना नहीं खा सकता।",
+                "मुझसे इतना नहीं खाया जाता।",
+                "मैं इतना नहीं खाया जाता।",
+                "मुझसे इतना नहीं खाया गया।"
+              ],
+              "options_read_as": [
+                "mujhse itnaa nahiiṁ khaa saktaa.",
+                "mujhse itnaa nahiiṁ khaayaa jaataa.",
+                "maiṁ itnaa nahiiṁ khaayaa jaataa.",
+                "mujhse itnaa nahiiṁ khaayaa gayaa."
+              ],
+              "answer_index": 1,
+              "explanation_en": "The capability passive is 'मुझसे इतना नहीं खाया जाता', which conveys that the body is refusing the action."
+            },
+            "game": {
+              "format": "reorder",
+              "prompt_en": "Put these in order.",
+              "tokens": [
+                "नहीं खाया जाता।",
+                "इतना",
+                "मुझसे"
+              ],
+              "answer": [
+                "मुझसे",
+                "इतना",
+                "नहीं खाया जाता।"
+              ],
+              "answer_read_as": "mujhse itnaa nahiiṁ khaayaa jaataa.",
+              "explanation_en": "Agent 'मुझसे' comes first, followed by the quantity 'इतना', and negative passive verb 'नहीं खाया जाता'."
+            }
+          },
+          "audio": {
+            "tts_strings": ["मुझसे इतना नहीं खाया जाता।"],
+            "requires_recording": false
+          }
+        }
+      ]
+    }
+  ]
+}

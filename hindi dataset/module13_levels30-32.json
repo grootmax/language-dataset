@@ -9,6 +9,23 @@
   },
   "block_kind": "reading",
   "block_note": "The emails in this block use the header and closing apparatus taught in levels 20 and 21 — विषय, महोदय, सादर — so the vocabulary block pays off here rather than being tested in isolation. The last item is the module's first news text.",
+  "grammar_prep_card": {
+    "structure": "agar_to",
+    "title_en": "Conditionals with If and Then (अगर ... तो)",
+    "explanation_en": "Conditional sentences in Hindi use the pair 'अगर ... तो' (if ... then) or 'यदि ... तो'. While English often drops 'then' ('If it rains, we won't go'), Hindi almost always includes the correlative 'तो': 'अगर बारिश हुई तो हम नहीं जाएँगे'. Sometimes 'अगर' is dropped, leaving 'तो' alone to carry the conditional meaning. The formal equivalent of 'अगर' is 'यदि', which you will see on official or written notices.",
+    "examples": [
+      {
+        "hindi": "अगर बारिश हुई तो हम नहीं जाएँगे।",
+        "read_as": "agar baarish huii to ham nahiiṁ jaaeṁge.",
+        "english": "If it rains, then we will not go."
+      },
+      {
+        "hindi": "यदि आवश्यक हो तो सूचित करें।",
+        "read_as": "yadi aavashyak ho to soochit kareṁ.",
+        "english": "If necessary, please inform."
+      }
+    ]
+  },
   "levels": [
     {
       "level": 30,
