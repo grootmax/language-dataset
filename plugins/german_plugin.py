@@ -5,6 +5,8 @@ class GermanPlugin(BasePlugin):
     German validation plugin.
     Enforces that noun items must specify a valid gender in the generic attributes map.
     """
+    def __init__(self):
+        super().__init__(language="german")
     
     def validate(self, data: dict, schema_type: str) -> None:
         """

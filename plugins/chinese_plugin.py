@@ -5,6 +5,8 @@ class ChinesePlugin(BasePlugin):
     Chinese validation plugin.
     Skips alphabet/pronunciation checks and allows tone-focused fields under generic attributes.
     """
+    def __init__(self):
+        super().__init__(language="chinese")
     
     def validate(self, data: dict, schema_type: str) -> None:
         """
