@@ -695,7 +695,7 @@
           },
           "audio": {
             "tts_strings": ["क", "ख", "कोना", "खोना", "पल", "फल"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -762,7 +762,7 @@
           },
           "audio": {
             "tts_strings": ["ट", "त", "ड", "द", "दाल", "डाल", "टमाटर"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -816,7 +816,7 @@
           },
           "audio": {
             "tts_strings": ["हंस", "हँस", "हिंदी", "हँसना"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -870,7 +870,7 @@
           },
           "audio": {
             "tts_strings": ["व", "ब", "वार", "बार", "वापस", "वह"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],

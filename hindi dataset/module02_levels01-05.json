@@ -337,7 +337,7 @@
           },
           "audio": {
             "tts_strings": ["कान", "खान", "कोई", "काम"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -679,7 +679,7 @@
           },
           "audio": {
             "tts_strings": ["चल", "छल", "चाय", "चार"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
