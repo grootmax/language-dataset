@@ -1,0 +1,161 @@
+{
+  "module": 1,
+  "module_name_en": "German Basics",
+  "levels": [
+    {
+      "level": 1,
+      "title_en": "Nouns and Genders",
+      "is_micro_dialogue_level": false,
+      "items": [
+        {
+          "id": "DE-L01-I1",
+          "type": "word",
+          "target": "Buch",
+          "read_as": "buuch",
+          "gloss_en": "book",
+          "gender": "neuter",
+          "difficulty": 1,
+          "tags": [
+            "noun"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "das Buch",
+              "explanation_en": "German neuter noun for book."
+            },
+            "practice": {
+              "format": "multiple_choice",
+              "prompt_en": "What gender is Buch?",
+              "options": [
+                "masculine",
+                "feminine",
+                "neuter"
+              ],
+              "answer_index": 2
+            },
+            "game": {
+              "format": "sorting",
+              "engine": "sorting",
+              "categories": [
+                "neuter",
+                "common"
+              ],
+              "items": [
+                {
+                  "text": "Buch",
+                  "category": "neuter"
+                },
+                {
+                  "text": "Mensch",
+                  "category": "common"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "DE-L01-I2",
+          "type": "word",
+          "target": "Mensch",
+          "read_as": "mensch",
+          "gloss_en": "human",
+          "gender": "common",
+          "difficulty": 2,
+          "tags": [
+            "noun"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "der Mensch",
+              "explanation_en": "Common/masculine noun for human."
+            },
+            "practice": {
+              "format": "multiple_choice",
+              "prompt_en": "What gender is Mensch?",
+              "options": [
+                "masculine",
+                "feminine",
+                "neuter",
+                "common"
+              ],
+              "answer_index": 3
+            },
+            "game": {
+              "format": "sorting",
+              "engine": "sorting",
+              "categories": [
+                "neuter",
+                "common"
+              ],
+              "items": [
+                {
+                  "text": "Buch",
+                  "category": "neuter"
+                },
+                {
+                  "text": "Mensch",
+                  "category": "common"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "DE-L01-I3",
+          "type": "word",
+          "target": "Haus",
+          "read_as": "haos",
+          "gloss_en": "house",
+          "gender": "neuter",
+          "difficulty": 1,
+          "tags": [
+            "noun"
+          ],
+          "cards": {
+            "learn": {
+              "title_en": "das Haus",
+              "explanation_en": "Neuter noun for house."
+            },
+            "practice": {
+              "format": "multiple_choice",
+              "prompt_en": "What gender is Haus?",
+              "options": [
+                "masculine",
+                "feminine",
+                "neuter"
+              ],
+              "answer_index": 2
+            },
+            "game": {
+              "format": "sorting",
+              "engine": "sorting",
+              "categories": [
+                "neuter",
+                "common"
+              ],
+              "items": [
+                {
+                  "text": "Buch",
+                  "category": "neuter"
+                },
+                {
+                  "text": "Mensch",
+                  "category": "common"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "summary": {
+        "recap_en": "Learned some basic German nouns and genders.",
+        "key_forms": [
+          "Buch",
+          "Mensch",
+          "Haus"
+        ],
+        "next_up_en": "German adjectives next."
+      }
+    }
+  ]
+}
