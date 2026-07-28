@@ -58,7 +58,7 @@
           },
           "audio": {
             "tts_strings": ["य", "याद", "यह", "समय"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -108,7 +108,7 @@
           },
           "audio": {
             "tts_strings": ["र", "रात", "रंग", "घर"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -158,7 +158,7 @@
           },
           "audio": {
             "tts_strings": ["ल", "लाल", "लोग", "कल"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -225,7 +225,7 @@
           },
           "audio": {
             "tts_strings": ["व", "वह", "वापस", "नाव"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -279,7 +279,7 @@
           },
           "audio": {
             "tts_strings": ["श", "शहर", "शाम", "देश"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -333,7 +333,7 @@
           },
           "audio": {
             "tts_strings": ["ष", "भाषा", "दोष", "संतोष"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -396,7 +396,7 @@
           },
           "audio": {
             "tts_strings": ["स", "सब", "सात", "पैसा"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -446,7 +446,7 @@
           },
           "audio": {
             "tts_strings": ["ह", "हाथ", "हम", "सुबह"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -500,7 +500,7 @@
           },
           "audio": {
             "tts_strings": ["ज़", "ज़रूर", "बाज़ार", "ताज़ा"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -563,7 +563,7 @@
           },
           "audio": {
             "tts_strings": ["क़", "क़रीब", "क़ीमत", "क़ानून"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -613,7 +613,7 @@
           },
           "audio": {
             "tts_strings": ["ख़", "ख़बर", "ख़ुश", "तारीख़"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -663,7 +663,7 @@
           },
           "audio": {
             "tts_strings": ["ग़", "ग़लत", "ग़रीब", "बाग़"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -730,7 +730,7 @@
           },
           "audio": {
             "tts_strings": ["फ़", "फ़ोन", "साफ़", "तरफ़"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -784,7 +784,7 @@
           },
           "audio": {
             "tts_strings": ["ड़", "लड़का", "बड़ा", "घड़ी"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -838,7 +838,7 @@
           },
           "audio": {
             "tts_strings": ["ढ़", "पढ़ना", "बढ़ना", "बूढ़ा"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
