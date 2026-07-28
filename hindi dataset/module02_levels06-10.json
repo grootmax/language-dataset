@@ -62,7 +62,7 @@
           },
           "audio": {
             "tts_strings": ["ढ", "ढाई", "ढाबा", "ढेर"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -112,7 +112,7 @@
           },
           "audio": {
             "tts_strings": ["ण", "कारण", "अंडा", "ठंडा"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -233,7 +233,7 @@
           },
           "audio": {
             "tts_strings": ["त", "तीन", "तुम", "रात"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -287,7 +287,7 @@
           },
           "audio": {
             "tts_strings": ["थ", "थाली", "थकना", "हाथ"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -341,7 +341,7 @@
           },
           "audio": {
             "tts_strings": ["द", "दाल", "दिन", "दूध"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -408,7 +408,7 @@
           },
           "audio": {
             "tts_strings": ["ध", "धूप", "धीरे", "दूध"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -458,7 +458,7 @@
           },
           "audio": {
             "tts_strings": ["न", "नाम", "नहीं", "दिन"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -579,7 +579,7 @@
           },
           "audio": {
             "tts_strings": ["प", "पानी", "पास", "आप"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -633,7 +633,7 @@
           },
           "audio": {
             "tts_strings": ["फ", "फल", "फूल", "फिर"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -687,7 +687,7 @@
           },
           "audio": {
             "tts_strings": ["ब", "बात", "बस", "सब"],
-            "requires_recording": false
+            "requires_recording": true
           }
         }
       ],
@@ -754,7 +754,7 @@
           },
           "audio": {
             "tts_strings": ["भ", "भाई", "भूख", "भारत"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
@@ -804,7 +804,7 @@
           },
           "audio": {
             "tts_strings": ["म", "मन", "काम", "लंबा"],
-            "requires_recording": false
+            "requires_recording": true
           }
         },
         {
