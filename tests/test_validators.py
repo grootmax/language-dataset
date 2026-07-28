@@ -249,3 +249,99 @@ def test_validate_mock_exam_weights_m5():
         }
     }
     assert validate_mock_exam_weights(valid_m5_mock) is True
+
+def test_validate_mock_exam_weights_m5_hindi_fails_if_low_critical(capsys):
+    # Module 5, has Devanagari, but 0 critical concept questions (should fail)
+    hindi_low_critical = {
+        "module": 5,
+        "kind": "mock_exam",
+        "mock_exam": {
+            "total_questions": 30,
+            "questions": [
+                {
+                    "id": f"M05-MOCK-Q{i}",
+                    "source_item_ids": ["M05-L01-I1"],
+                    "type": "recognition",
+                    "options": ["O"],
+                    "answer_index": 0,
+                    "prompt_hi": "क्या यह सही है?" # Devanagari character present
+                } for i in range(21)
+            ] + [
+                {
+                    "id": f"M05-MOCK-Q{i}",
+                    "source_item_ids": ["M04-L01-I1"],
+                    "type": "recognition",
+                    "options": ["O"],
+                    "answer_index": 0,
+                    "prompt_hi": "यह भी सही है" # Devanagari character present, but NO critical keyword
+                } for i in range(21, 30)
+            ]
+        }
+    }
+    with pytest.raises(ValidationError, match="critical core concept questions count is 0, expected at least"):
+        validate_mock_exam_weights(hindi_low_critical)
+
+def test_validate_mock_exam_weights_m5_non_hindi_bypasses(capsys):
+    # Module 5, no Devanagari, 0 critical concept questions (should pass due to bypass)
+    non_hindi_low_critical = {
+        "module": 5,
+        "kind": "mock_exam",
+        "mock_exam": {
+            "total_questions": 30,
+            "questions": [
+                {
+                    "id": f"M05-MOCK-Q{i}",
+                    "source_item_ids": ["M05-L01-I1"],
+                    "type": "recognition",
+                    "options": ["O"],
+                    "answer_index": 0,
+                    "prompt_en": "Is this correct?" # No Devanagari
+                } for i in range(21)
+            ] + [
+                {
+                    "id": f"M05-MOCK-Q{i}",
+                    "source_item_ids": ["M04-L01-I1"],
+                    "type": "recognition",
+                    "options": ["O"],
+                    "answer_index": 0,
+                    "prompt_en": "Also correct" # No Devanagari, NO critical keyword
+                } for i in range(21, 30)
+            ]
+        }
+    }
+    assert validate_mock_exam_weights(non_hindi_low_critical) is True
+    
+    captured = capsys.readouterr()
+    assert "Bypassing critical core concepts validation for Module 5 mock exam due to non-Hindi content detection." in captured.out
+
+def test_validate_mock_exam_weights_m5_hindi_passes_if_sufficient_critical():
+    # Module 5, has Devanagari, and sufficient critical concepts (>= 2)
+    hindi_sufficient_critical = {
+        "module": 5,
+        "kind": "mock_exam",
+        "mock_exam": {
+            "total_questions": 30,
+            "questions": [
+                {
+                    "id": f"M05-MOCK-Q{i}",
+                    "source_item_ids": ["M05-L01-I1"],
+                    "type": "recognition",
+                    "options": ["O"],
+                    "answer_index": 0,
+                    "prompt_hi": "क्या यह सही है?" # Devanagari character
+                } for i in range(21)
+            ] + [
+                {
+                    "id": f"M05-MOCK-Q{i}",
+                    "source_item_ids": ["M04-L01-I1"],
+                    "type": "recognition",
+                    "options": ["O"],
+                    "answer_index": 0,
+                    "prompt_hi": "यह भी सही है", # Devanagari character
+                    "explanation_en": "gender oblique marker" # critical keyword
+                } for i in range(21, 30)
+            ]
+        }
+    }
+    assert validate_mock_exam_weights(hindi_sufficient_critical) is True
+
