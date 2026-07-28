@@ -300,4 +300,42 @@ runTest("Integrity run over full Hindi dataset module 1 levels, checkpoint, mock
   assert.strictEqual(mockErrors.length, 0, "Should satisfy Hindi Mock Exam 1 referential integrity");
 });
 
+// 6. Unified Registry and Script Boundary validation tests
+runTest("Rejects validation requests for unregistered languages in JS", () => {
+  const validator = new Validator();
+  assert.throws(() => {
+    validator.getProfileForLanguage("unsupported_language");
+  }, /not explicitly registered/);
+});
+
+runTest("Enforces script boundaries and fails closed on invalid characters in JS", () => {
+  const validator = new Validator("es");
+  
+  const invalidSpanishLevels = path.join(tempDir, 'invalid_spanish_levels.json');
+  fs.writeFileSync(invalidSpanishLevels, JSON.stringify({
+    "module": 1,
+    "module_name_es": "Spanish",
+    "levels": [
+      {
+        "level": 1,
+        "items": [
+          {
+            "id": "ES-L01-I1",
+            "type": "vocabulary",
+            "target": "hola తె", // Telugu char, invalid in Spanish!
+            "cards": { "learn": {}, "practice": {}, "game": {} }
+          },
+          { "id": "ES-L01-I2", "cards": { "learn": {}, "practice": {}, "game": {} } },
+          { "id": "ES-L01-I3", "cards": { "learn": {}, "practice": {}, "game": {} } }
+        ],
+        "summary": { "recap_en": "Recap", "key_forms": [], "next_up_en": "Next" }
+      }
+    ]
+  }, null, 2));
+
+  const valErrors = validator.validateLevelFile(invalidSpanishLevels);
+  assert.ok(valErrors.length > 0, "Should have validation errors due to script boundary violation");
+  assert.ok(valErrors[0].message.includes("Script boundary violation"), "Error message should mention script boundary violation");
+});
+
 console.log("\n🎉 ALL TESTS COMPLETED SUCCESSFULLY! 🎉");
