@@ -4,6 +4,160 @@ import re
 from translation_engine.prompts import LANGUAGES, get_prompt_template
 from translation_engine.validators import validate_file_comprehensive, ValidationError
 
+def get_phonetic_maps():
+    # Base maps
+    vowels = {
+        "aa": ("ఆ", "ా"), "ā": ("ఆ", "ా"),
+        "ii": ("ఈ", "ీ"), "ī": ("ఈ", "ీ"),
+        "uu": ("ఊ", "ూ"), "ū": ("ఊ", "ూ"),
+        "ee": ("ఏ", "ే"), "ē": ("ఏ", "ే"),
+        "oo": ("ఓ", "ో"), "ō": ("ఓ", "ో"),
+        "ai": ("AI", "ై"),
+        "au": ("AU", "ౌ"),
+        "a": ("అ", ""),
+        "i": ("ఇ", "ి"),
+        "u": ("ఉ", "ు"),
+        "e": ("ఎ", "ె"),
+        "o": ("ఒ", "ொ")
+    }
+    
+    # Custom values for ai, au mapping
+    vowels["ai"] = ("ఐ", "ై")
+    vowels["au"] = ("ఔ", "ౌ")
+    
+    consonants = {
+        "shh": "ష", "Shh": "ష", "SHH": "ష",
+        "chh": "ఛ", "Chh": "ఛ", "CHH": "ఛ",
+        "kh": "ఖ", "Kh": "ఖ", "KH": "ఖ",
+        "gh": "ఘ", "Gh": "ఘ", "GH": "ఘ",
+        "jh": "ఝ", "Jh": "ఝ", "JH": "ఝ",
+        "th": "థ", "Th": "థ", "TH": "థ",
+        "dh": "ధ", "Dh": "ధ", "DH": "ధ",
+        "ph": "ఫ", "Ph": "ఫ", "PH": "ఫ",
+        "bh": "భ", "Bh": "భ", "BH": "భ",
+        "sh": "శ", "Sh": "శ", "SH": "శ",
+        "ch": "చ", "Ch": "చ", "CH": "చ",
+        "k": "క", "K": "క",
+        "g": "గ", "G": "గ",
+        "j": "జ", "J": "జ",
+        "t": "త",
+        "d": "ద",
+        "n": "న",
+        "p": "ప", "P": "ప",
+        "b": "బ", "B": "బ",
+        "m": "మ", "M": "మ",
+        "y": "య", "Y": "య",
+        "r": "ర", "R": "ర",
+        "l": "ల", "L": "ల",
+        "v": "వ", "V": "వ",
+        "w": "వ", "W": "వ",
+        "s": "స", "S": "స",
+        "h": "హ", "H": "హ",
+        "f": "ఫ", "F": "ఫ",
+        "z": "జ", "Z": "జ",
+        "T": "ట", "D": "డ", "N": "ణ"
+    }
+    
+    # Add standard lowercase and uppercase versions
+    for k in list(vowels.keys()):
+        v_ind, v_mat = vowels[k]
+        vowels[k.lower()] = (v_ind, v_mat)
+        vowels[k.upper()] = (v_ind, v_mat)
+        
+    for k in list(consonants.keys()):
+        val = consonants[k]
+        consonants[k.lower()] = val
+        consonants[k.upper()] = val
+        
+    return vowels, consonants
+
+def tokenize_to_telugu_syllables(text):
+    if not isinstance(text, str):
+        return text
+        
+    vowels, consonants = get_phonetic_maps()
+    
+    vowel_keys = sorted(vowels.keys(), key=len, reverse=True)
+    consonant_keys = sorted(consonants.keys(), key=len, reverse=True)
+    
+    tokens = []
+    i = 0
+    n = len(text)
+    
+    while i < n:
+        # Try to match consonant first
+        matched = False
+        for ck in consonant_keys:
+            if text.startswith(ck, i):
+                tokens.append({"type": "C", "val": ck})
+                i += len(ck)
+                matched = True
+                break
+        if matched:
+            continue
+            
+        # Try to match vowel
+        for vk in vowel_keys:
+            if text.startswith(vk, i):
+                tokens.append({"type": "V", "val": vk})
+                i += len(vk)
+                matched = True
+                break
+        if matched:
+            continue
+            
+        # Match anything else
+        tokens.append({"type": "O", "val": text[i]})
+        i += 1
+        
+    return tokens
+
+def render_telugu_tokens(tokens):
+    vowels, consonants = get_phonetic_maps()
+    VIRAMA = "్"
+    
+    result = []
+    consonant_buffer = []
+    
+    def flush_consonants():
+        if not consonant_buffer:
+            return ""
+        parts = []
+        for c in consonant_buffer:
+            tel_c = consonants.get(c, "")
+            if tel_c:
+                parts.append(tel_c + VIRAMA)
+        return "".join(parts)
+        
+    for tok in tokens:
+        t_type = tok["type"]
+        val = tok["val"]
+        
+        if t_type == "C":
+            consonant_buffer.append(val)
+        elif t_type == "V":
+            v_ind, v_mat = vowels[val]
+            if consonant_buffer:
+                parts = []
+                for idx, c in enumerate(consonant_buffer):
+                    tel_c = consonants.get(c, "")
+                    if tel_c:
+                        if idx < len(consonant_buffer) - 1:
+                            parts.append(tel_c + VIRAMA)
+                        else:
+                            parts.append(tel_c + v_mat)
+                result.append("".join(parts))
+                consonant_buffer = []
+            else:
+                result.append(v_ind)
+        elif t_type == "O":
+            result.append(flush_consonants())
+            consonant_buffer = []
+            result.append(val)
+            
+    result.append(flush_consonants())
+    return "".join(result)
+
 def adapt_phonetics(text, target_lang):
     """
     Adapts phonetic read-as aids to the phonetic inventory of the target language.
@@ -17,14 +171,34 @@ def adapt_phonetics(text, target_lang):
         return text
         
     adaptations = lang_info.get("phonetic_adaptations", {})
-    adapted_text = text
     
+    # Filter out invalid phonetic target mappings to protect the integrity of the syllable engine
+    filtered_adaptations = {}
+    for k, v in adaptations.items():
+        # Filter single-letter vowels and comment formats or too long descriptions
+        if len(k) == 1 and k.lower() in "aeiouāīūēō":
+            continue
+        if isinstance(v, str) and ("#" in v or "//" in v or "(" in v or "/" in v):
+            continue
+        filtered_adaptations[k] = v
+        
+    # Special handling for Telugu syllable engine
+    if target_lang == "te":
+        # Strip comments: remove everything after '#' or '//'
+        cleaned = re.split(r'#|//', text)[0].strip()
+        cleaned = re.sub(r'\(.*?\)|\[.*?\]', '', cleaned).strip()
+        
+        # If empty or single letter vowel, don't run syllable engine
+        if not cleaned or (len(cleaned) == 1 and cleaned.lower() in "aeiouāīūēō"):
+            return text
+            
+        tokens = tokenize_to_telugu_syllables(cleaned)
+        return render_telugu_tokens(tokens)
+        
+    adapted_text = text
     # Apply standard phonetic substitutions
-    for eng_ph, target_ph in adaptations.items():
-        # Only substitute simple clear phonetic mappings (ignore descriptions in parens/slashes)
-        # Avoid replacing short common vowels like "a" as substrings
-        if (len(eng_ph) >= 2 or eng_ph in {"v", "z"}) and isinstance(target_ph, str) and "/" not in target_ph and "(" not in target_ph and len(target_ph) < 10:
-            # Match word boundary or general substrings
+    for eng_ph, target_ph in filtered_adaptations.items():
+        if (len(eng_ph) >= 2 or eng_ph in {"v", "z"}) and isinstance(target_ph, str) and len(target_ph) < 10:
             adapted_text = adapted_text.replace(eng_ph, target_ph)
             
     return adapted_text

@@ -146,3 +146,22 @@ def test_translator_file_run(tmp_path):
     assert "module_name_es" not in dest_content # was not present in original, so not created unless configured
     assert dest_content["levels"][0]["title_es"] == "[ES] The first three vowels"
     assert "title_en" not in dest_content["levels"][0]
+
+def test_telugu_phonetic_adaptation():
+    # Test valid syllabic transliteration outputs in Telugu
+    assert adapt_phonetics("anaar", "te") == "అనార్"
+    assert adapt_phonetics("aam", "te") == "ఆమ్"
+    assert adapt_phonetics("paanii", "te") == "పానీ"
+    assert adapt_phonetics("namastee", "te") == "నమస్తే"
+    assert adapt_phonetics("namaste", "te") == "నమస్తె"
+    assert adapt_phonetics("shukriya", "te") == "శుక్రియ"
+    
+    # Test filtering out comments
+    assert adapt_phonetics("anaar # delicious fruit", "te") == "అనార్"
+    assert adapt_phonetics("aam // mango", "te") == "ఆమ్"
+    assert adapt_phonetics("paanii (water)", "te") == "పానీ"
+    
+    # Test filtering out single-letter vowels
+    assert adapt_phonetics("a", "te") == "a"
+    assert adapt_phonetics("i", "te") == "i"
+

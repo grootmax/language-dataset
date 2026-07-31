@@ -19,6 +19,9 @@ class Validator:
             return None
             
         language = language.lower()
+        if language == "te":
+            language = "telugu"
+            
         if language in self._plugin_cache:
             return self._plugin_cache[language]
 
@@ -55,6 +58,9 @@ class Validator:
         """
         if "module_name_hi" in data or "title_hi" in str(data):
             return "hindi"
+            
+        if "module_name_te" in data or "title_te" in str(data):
+            return "telugu"
 
         # Check for Devanagari characters in text values
         def check_val(v):
@@ -66,8 +72,21 @@ class Validator:
                 return any(check_val(item) for item in v.values())
             return False
 
+        # Check for Telugu characters in text values
+        def check_val_te(v):
+            if isinstance(v, str):
+                return any('\u0c00' <= c <= '\u0c7f' for c in v)
+            elif isinstance(v, list):
+                return any(check_val_te(item) for item in v)
+            elif isinstance(v, dict):
+                return any(check_val_te(item) for item in v.values())
+            return False
+
         if check_val(data):
             return "hindi"
+
+        if check_val_te(data):
+            return "telugu"
 
         return None
 
