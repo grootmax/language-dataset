@@ -146,3 +146,114 @@ def test_translator_file_run(tmp_path):
     assert "module_name_es" not in dest_content # was not present in original, so not created unless configured
     assert dest_content["levels"][0]["title_es"] == "[ES] The first three vowels"
     assert "title_en" not in dest_content["levels"][0]
+
+def test_telugu_transliteration_and_translation(tmp_path):
+    # Test phonetic adaptations for Telugu
+    assert adapt_phonetics("kripayaa", "te") == "కృపయా"
+    assert adapt_phonetics("garam chaaval", "te") == "గరమ్ చావల్"
+    assert adapt_phonetics("anaar", "te") == "అనార్"
+    assert adapt_phonetics("raastaa", "te") == "రాస్తా"
+    
+    # Test translation simulation
+    source_content = {
+        "module": 1,
+        "phase": 1,
+        "levels": [
+            {
+                "level": 1,
+                "title_en": "Greetings",
+                "title_hi": "नमस्ते",
+                "is_micro_dialogue_level": False,
+                "items": [
+                    {
+                        "id": "M01-L01-I1",
+                        "type": "vocabulary",
+                        "target": "कमल",
+                        "read_as": "kamal",
+                        "tags": ["vocab"],
+                        "example_word": { "hindi": "कमल", "read_as": "kamal", "english": "lotus" },
+                        "cards": {
+                            "learn": {
+                                "title_en": "Lotus",
+                                "explanation_en": "Learn about Lotus",
+                                "examples": []
+                            },
+                            "practice": {
+                                "format": "hear_it_pick_letter",
+                                "prompt_en": "Pick Lotus",
+                                "question": "कमल",
+                                "options": ["कमल"],
+                                "answer_index": 0
+                            },
+                            "game": {
+                                "format": "odd_sound_out",
+                                "question_en": "Lotus Game",
+                                "options": ["कमल"],
+                                "answer_index": 0
+                            }
+                        },
+                        "audio": { "tts_strings": ["कमल"], "requires_recording": False }
+                    },
+                    {
+                        "id": "M01-L01-I2",
+                        "type": "vocabulary",
+                        "target": "गरम",
+                        "read_as": "garam",
+                        "tags": ["vocab"],
+                        "example_word": { "hindi": "गरम", "read_as": "garam", "english": "hot" },
+                        "cards": {
+                            "learn": { "title_en": "L", "explanation_en": "E", "examples": [] },
+                            "practice": { "format": "F", "prompt_en": "P", "question": "Q", "options": ["O"], "answer_index": 0 },
+                            "game": { "format": "G", "question_en": "Q", "options": ["O"], "answer_index": 0 }
+                        },
+                        "audio": { "tts_strings": [], "requires_recording": False }
+                    },
+                    {
+                        "id": "M01-L01-I3",
+                        "type": "vocabulary",
+                        "target": "चलना",
+                        "read_as": "chalnaa",
+                        "tags": ["vocab"],
+                        "example_word": { "hindi": "चलना", "read_as": "chalnaa", "english": "to walk" },
+                        "cards": {
+                            "learn": { "title_en": "L", "explanation_en": "E", "examples": [] },
+                            "practice": { "format": "F", "prompt_en": "P", "question": "Q", "options": ["O"], "answer_index": 0 },
+                            "game": { "format": "G", "question_en": "Q", "options": ["O"], "answer_index": 0 }
+                        },
+                        "audio": { "tts_strings": [], "requires_recording": False }
+                    }
+                ],
+                "summary": {
+                    "recap_en": "Recap",
+                    "key_forms": ["कमल"],
+                    "next_up_en": "Next"
+                }
+            }
+        ]
+    }
+    
+    source_file = tmp_path / "module01_levels_te_test.json"
+    with open(source_file, "w", encoding="utf-8") as f:
+        json.dump(source_content, f)
+        
+    dest_file = tmp_path / "module01_levels_te_test_te.json"
+    
+    translator = CurriculumTranslator("te")
+    success = translator.translate_file(str(source_file), str(dest_file), use_simulation=True)
+    
+    assert success is True
+    assert os.path.exists(dest_file)
+    
+    with open(dest_file, "r", encoding="utf-8") as f:
+        dest_content = json.load(f)
+        
+    # Check that '_en' was renamed to '_te'
+    assert dest_content["levels"][0]["title_te"] == "[TE] Greetings"
+    assert "title_en" not in dest_content["levels"][0]
+    
+    # Check that 'read_as' has been transliterated to correct Telugu syllable script
+    item = dest_content["levels"][0]["items"][0]
+    assert item["read_as"] == "కమల్"
+    assert item["example_word"]["read_as"] == "కమల్"
+    assert item["example_word"]["te"] == "[TE] lotus"
+    assert "english" not in item["example_word"]

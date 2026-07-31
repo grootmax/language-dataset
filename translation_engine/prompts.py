@@ -136,6 +136,19 @@ LANGUAGES = {
         },
         "grammar_gender_benchmarks": "Map Hindi grammatical gender (masculine/feminine) directly to Arabic grammatical gender (مذكر/مؤنث). Note that both languages have a strong distinction of gender in verbs and adjectives.",
         "instructional_rules": "Rename keys with suffix '_en' to '_ar' and translate instructional texts and explanations into high-quality, classical Arabic."
+    },
+    "te": {
+        "name": "Telugu",
+        "iso_code": "te",
+        "phonetic_adaptations": {
+            "sh": "శ/ష",
+            "ee": "ఈ",
+            "oo": "ఊ",
+            "a": "అ",
+            "aa": "ఆ (hold longer)"
+        },
+        "grammar_gender_benchmarks": "Map Hindi grammatical concepts directly to Telugu. Address nominal declensions, oblique stem declensions, postposition mappings (e.g. mapping Hindi postpositions like का, को, से, में, पर to Telugu case suffixes like యొక్క, కు/కి, తో, లో, పై/మీద), and ensure proper formal register usage in educational instruction.",
+        "instructional_rules": "Rename keys with suffix '_en' to '_te' and translate instructional texts and explanations into clear, educational Telugu."
     }
 }
 
