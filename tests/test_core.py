@@ -363,3 +363,56 @@ def test_game_registry_contract():
 
     incompatibles = registry.get_compatible_games(incompatible_item)
     assert "GenderGuess" not in incompatibles
+
+def test_telugu_plugin_validation():
+    validator = Validator()
+    
+    # Valid Telugu level content with Telugu characters (e.g. పానీ)
+    telugu_data = {
+        "module": 1,
+        "module_name_en": "Greetings",
+        "phase": 1,
+        "levels": [
+            {
+                "level": 1,
+                "items": [
+                    {
+                        "id": "TE-L01-I1",
+                        "type": "vocabulary",
+                        "target": "పానీ",
+                        "read_as": "paanii",
+                        "attributes": {}
+                    }
+                ]
+            }
+        ]
+    }
+    
+    # This should pass without raising any error
+    normalized = validator.validate(telugu_data, "level", "te")
+    assert normalized["levels"][0]["items"][0]["target"] == "పానీ"
+    
+    # Invalid Telugu level content where target contains only English/non-Telugu script characters
+    invalid_telugu_data = {
+        "module": 1,
+        "module_name_en": "Greetings",
+        "phase": 1,
+        "levels": [
+            {
+                "level": 1,
+                "items": [
+                    {
+                        "id": "TE-L01-I2",
+                        "type": "vocabulary",
+                        "target": "water", # Non-Telugu target
+                        "read_as": "water",
+                        "attributes": {}
+                    }
+                ]
+            }
+        ]
+    }
+    
+    with pytest.raises(ValueError, match="does not contain Telugu characters"):
+        validator.validate(invalid_telugu_data, "level", "te")
+

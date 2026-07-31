@@ -136,6 +136,18 @@ LANGUAGES = {
         },
         "grammar_gender_benchmarks": "Map Hindi grammatical gender (masculine/feminine) directly to Arabic grammatical gender (مذكر/مؤنث). Note that both languages have a strong distinction of gender in verbs and adjectives.",
         "instructional_rules": "Rename keys with suffix '_en' to '_ar' and translate instructional texts and explanations into high-quality, classical Arabic."
+    },
+    "te": {
+        "name": "Telugu",
+        "iso_code": "te",
+        "phonetic_adaptations": {
+            "sh": "శ",
+            "ch": "చ",
+            "ee": "ఈ",
+            "oo": "ఊ"
+        },
+        "grammar_gender_benchmarks": "1. Nominal Declensions & Oblique Stems: Apply Telugu nominal declension rules, specifically detailing how nouns form oblique stems before postpositions (e.g., transition from nominative to oblique stems in different noun classes, such as '-du' ending nouns changing to '-ni' or '-di').\n2. Postposition Mappings: Provide detailed mapping guidelines from Hindi/English postpositions to Telugu postpositions (e.g., 'to/for/in/on' mapped to '-to', '-koraku', '-lo', '-pai/meeda').\n3. Formal Registers & Noun Gender Class Systems: Explain Telugu's unique grammatical noun gender class systems (masculine vs. non-masculine in singular; human/rational vs. non-human/irrational in plural) compared to Hindi's simple masculine/feminine system. Enforce standard polite/formal plural verbal and pronominal agreement registers (using high-respect pronouns like 'vaaru', 'tamaru' instead of informal variants).",
+        "instructional_rules": "Rename keys with suffix '_en' to '_te' and translate instructional texts and explanations into natural, educational Telugu using correct formal register."
     }
 }
 
