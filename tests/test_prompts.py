@@ -3,7 +3,7 @@ from translation_engine.prompts import LANGUAGES, get_prompt_template
 
 def test_languages_config():
     # Verify that all 10 target languages exist and are fully configured
-    expected_languages = {"es", "fr", "de", "ja", "zh", "ko", "it", "pt", "ru", "ar"}
+    expected_languages = {"es", "fr", "de", "ja", "zh", "ko", "it", "pt", "ru", "ar", "te"}
     assert set(LANGUAGES.keys()) == expected_languages
     
     for code, lang in LANGUAGES.items():

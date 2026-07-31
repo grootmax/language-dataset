@@ -4,6 +4,155 @@ import re
 from translation_engine.prompts import LANGUAGES, get_prompt_template
 from translation_engine.validators import validate_file_comprehensive, ValidationError
 
+def clean_phonetic_mappings(adaptations):
+    cleaned = {}
+    for k, v in adaptations.items():
+        if k in {"a", "i", "u", "e", "o"}:
+            continue
+        if not isinstance(v, str):
+            continue
+        # Filter out comments/descriptions (containing parentheses, slashes, or hashes)
+        if "(" in v or "/" in v or "#" in v:
+            continue
+        cleaned[k] = v
+    return cleaned
+
+def transliterate_to_telugu(text):
+    if not isinstance(text, str):
+        return text
+        
+    # Telugu Consonant and Vowel Maps
+    VOWELS_MAP = {
+        "aa": {"ind": "ఆ", "dep": "ా"},
+        "ee": {"ind": "ఈ", "dep": "ీ"},
+        "ii": {"ind": "ఈ", "dep": "ీ"},
+        "uu": {"ind": "ఊ", "dep": "ూ"},
+        "oo": {"ind": "ఓ", "dep": "ో"},
+        "ai": {"ind": "ఐ", "dep": "ై"},
+        "au": {"ind": "ఔ", "dep": "ౌ"},
+        "a":  {"ind": "అ", "dep": ""},
+        "i":  {"ind": "ఇ", "dep": "ి"},
+        "u":  {"ind": "ఉ", "dep": "ు"},
+        "e":  {"ind": "ఎ", "dep": "ె"},
+        "o":  {"ind": "ఒ", "dep": "ొ"},
+        "ri": {"ind": "ఋ", "dep": "ృ"},
+    }
+
+    CONSONANTS_MAP = {
+        "shṭ": "ష్ట",
+        "ksh": "క్ష",
+        "kṣ": "క్ష",
+        "kh": "ఖ",
+        "gh": "ఘ",
+        "ch": "చ",
+        "chh": "ఛ",
+        "jh": "ఝ",
+        "th": "థ",
+        "dh": "ధ",
+        "ph": "ఫ",
+        "bh": "భ",
+        "sh": "శ",
+        "zh": "జ",
+        "ṭh": "ఠ",
+        "ḍh": "ఢ",
+        "k": "క",
+        "g": "గ",
+        "j": "జ",
+        "ṭ": "ట",
+        "ḍ": "డ",
+        "t": "త",
+        "d": "ద",
+        "n": "న",
+        "p": "ప",
+        "f": "ఫ",
+        "b": "బ",
+        "m": "మ",
+        "y": "య",
+        "r": "ర",
+        "l": "ల",
+        "v": "వ",
+        "w": "వ",
+        "s": "స",
+        "h": "హ",
+        "ṣ": "ష",
+        "ñ": "ఞ",
+        "ṅ": "ఙ",
+        "ṇ": "ణ",
+    }
+
+    words = re.split(r'([^a-zA-Z\u00C0-\u017F\u1E00-\u1EFF\u0300-\u036F]+)', text)
+    result = []
+    for part in words:
+        if not re.match(r'[a-zA-Z\u00C0-\u017F\u1E00-\u1EFF\u0300-\u036F]+', part):
+            result.append(part)
+            continue
+            
+        word = part.lower()
+        telugu_word = ""
+        i = 0
+        consonant_cluster = []
+        
+        while i < len(word):
+            # 1. Match vowel
+            matched_vowel = None
+            for v_key in sorted(VOWELS_MAP.keys(), key=len, reverse=True):
+                if word.startswith(v_key, i):
+                    matched_vowel = v_key
+                    break
+            
+            if matched_vowel:
+                v_info = VOWELS_MAP[matched_vowel]
+                if consonant_cluster:
+                    rendered_cluster = ""
+                    for idx, c_key in enumerate(consonant_cluster):
+                        c_char = CONSONANTS_MAP.get(c_key, "")
+                        if not c_char:
+                            continue
+                        if idx < len(consonant_cluster) - 1:
+                            rendered_cluster += c_char + "\u0c4d"
+                        else:
+                            rendered_cluster += c_char + v_info["dep"]
+                    telugu_word += rendered_cluster
+                    consonant_cluster = []
+                else:
+                    telugu_word += v_info["ind"]
+                i += len(matched_vowel)
+                continue
+                
+            # 2. Match consonant
+            matched_consonant = None
+            for c_key in sorted(CONSONANTS_MAP.keys(), key=len, reverse=True):
+                if word.startswith(c_key, i):
+                    matched_consonant = c_key
+                    break
+                    
+            if matched_consonant:
+                consonant_cluster.append(matched_consonant)
+                i += len(matched_consonant)
+                continue
+                
+            # 3. Unrecognized char
+            if consonant_cluster:
+                rendered_cluster = ""
+                for idx, c_key in enumerate(consonant_cluster):
+                    c_char = CONSONANTS_MAP.get(c_key, "")
+                    rendered_cluster += c_char + "\u0c4d"
+                telugu_word += rendered_cluster
+                consonant_cluster = []
+            telugu_word += word[i]
+            i += 1
+            
+        if consonant_cluster:
+            rendered_cluster = ""
+            for idx, c_key in enumerate(consonant_cluster):
+                c_char = CONSONANTS_MAP.get(c_key, "")
+                rendered_cluster += c_char + "\u0c4d"
+            telugu_word += rendered_cluster
+            
+        result.append(telugu_word)
+        
+    return "".join(result)
+
 def adapt_phonetics(text, target_lang):
     """
     Adapts phonetic read-as aids to the phonetic inventory of the target language.
@@ -16,14 +165,17 @@ def adapt_phonetics(text, target_lang):
     if not lang_info:
         return text
         
+    if target_lang == "te":
+        # Bypasses character-level replacement and generates authentic, syllable-aware Telugu Unicode consonant-vowel script
+        return transliterate_to_telugu(text)
+        
     adaptations = lang_info.get("phonetic_adaptations", {})
+    cleaned_adaptations = clean_phonetic_mappings(adaptations)
     adapted_text = text
     
     # Apply standard phonetic substitutions
-    for eng_ph, target_ph in adaptations.items():
-        # Only substitute simple clear phonetic mappings (ignore descriptions in parens/slashes)
-        # Avoid replacing short common vowels like "a" as substrings
-        if (len(eng_ph) >= 2 or eng_ph in {"v", "z"}) and isinstance(target_ph, str) and "/" not in target_ph and "(" not in target_ph and len(target_ph) < 10:
+    for eng_ph, target_ph in cleaned_adaptations.items():
+        if "/" not in target_ph and len(target_ph) < 10:
             # Match word boundary or general substrings
             adapted_text = adapted_text.replace(eng_ph, target_ph)
             
@@ -110,6 +262,15 @@ class CurriculumTranslator:
         Reads source JSON file, translates it, runs comprehensive validators (fail-fast),
         and saves it to dest_path ONLY if validation passes.
         """
+        if use_simulation and os.path.exists(dest_path):
+            try:
+                validate_file_comprehensive(dest_path)
+                print(f"File at {dest_path} is already a valid localized file. Bypassing programmatic fallback simulation overwrite.")
+                return True
+            except Exception:
+                # If it is not valid, we can safely overwrite it
+                pass
+
         if not os.path.exists(source_path):
             raise FileNotFoundError(f"Source file not found at {source_path}")
             
